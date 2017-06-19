@@ -1,0 +1,3 @@
+---
+# If true, database is recreated even if it already exists
+recreate_db: True

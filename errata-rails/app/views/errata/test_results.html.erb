@@ -1,0 +1,15 @@
+<%#
+  #
+  # Originally copy pasted in a hurry from a/v/e/tcms.rb and a/v/e/rhts.erb
+  #
+  # Might need some more work to make sure it is functional.
+  # Not really sure how to test this stuff.
+  #
+  #
+-%>
+<%= page_title_h1 %>
+<% unless @errata.text_only? %>
+  <%= render :partial => 'rhts/rhts_runs' %>
+  <br/>
+<% end %>
+<%= render :partial => 'tcms/test_plans' %>

@@ -1,0 +1,117 @@
+<div class="btn-group" style="float:right;">
+  <%= link_to("Edit Advisory", { :action => :edit, :id => @errata },
+    :class=>'btn') if @errata.allow_edit? && current_user.can_create_multi_product_advisory? %>
+</div>
+
+<h1>Multi-product details</h1>
+<p>
+  <%= yes_no_glyph(@errata.supports_multiple_product_destinations?) %>
+  This advisory <%= @errata.supports_multiple_product_destinations? ? 'supports' : "doesn't support" %> multi-product destinations.
+</p>
+<div class="small compact applicable_mappings">
+  <p class="small light">
+  <% if @relevant_mappings.any? %>
+    Relevant multi-product mappings have been found.
+    <% if @errata.supports_multiple_product_destinations? %>
+      Based on the advisory's builds, the following multi-product mappings may apply.
+      (Check the content lists below to see the resulting channel and repo destinations).
+    <% else %>
+      However, this advisory doesn't support multiple products.
+      To enable multi-product support, please visit the
+      <%= link_to("advisory's Edit page", {:controller=>:errata, :action=>:edit, :id=>@errata}, :target=>'_blank') %>.
+    <% end %>
+  <% else %>
+    No applicable multi-product mappings have been found, hence no additional
+    content destinations have been added.
+  <% end %>
+  </p>
+  <%= render 'multi_product_mappings/mappings_list', :mappings => @relevant_mappings, :show_subscribers => false if @errata.supports_multiple_product_destinations? %>
+  <p class="small light">
+    (See all <%= link_to('multi-product mappings', {:controller=>:multi_product_mappings}, :target=>'_blank') %>)
+  </p>
+</div>
+<br/>
+
+<h1>RHN channel and CDN repo content</h1>
+<p class="small superlight">
+  <%= link_to 'Show RHN only', '#', :class=>'show-rhn-only' %> |
+  <%= link_to 'Show CDN only', '#', :class=>'show-cdn-only' %> |
+  <%= link_to 'Show all', '#', :class=>'show-all' %>
+</p>
+
+<table class="bug_list content_list" style="width: 100%;">
+  <tr>
+    <th>Build</th>
+    <th>Direct</th>
+    <% if @relevant_mappings.any? %>
+      <th>Via multi-product mappings</th>
+    <% end %>
+  </tr>
+  <% @brew_build_dist_map.sort_by{ |brew_build, _| brew_build.nvr }.each do |brew_build, dist_info_hash| %>
+    <tr class="<%= cycle('bz_even', 'bz_odd') %>">
+      <td>
+        <div class="big bold nvr"><%= brew_link(brew_build) %></div>
+        <div class="tiny light">
+          <%= link_to 'Show files', '#', :class=>'expand-all' %> |
+          <%= link_to 'Hide files', '#', :class=>'collapse-all' %>
+        </div>
+        <% @errata.release_versions_for_brew_build(brew_build).each do |pv| %>
+        <div class="tiny light listing-info">
+           <%
+             listing_cache_class = pv.is_pdc? ? PdcProductListingCache : ProductListingCache
+             action = pv.is_pdc? ? :pdc_product_listings : :product_listings
+           %>
+           <%= link_to "Listings for #{pv.short_name}", url_for(:controller => :release_engineering,
+                                           :action => action,
+                                           :rp => {:nvr => brew_build.nvr, :pv_or_pr_id => pv.id})
+           %>
+           <%= if list_time = listing_cache_class.cached_listing(pv, brew_build).try(:created_at)
+                "(as of #{list_time})" ; end %>
+        </div>
+        <% end %>
+      </td>
+      <%
+         dist_list = [
+           [:dists, :dist_files],
+           ([:mapped_dists, :mapped_dist_files] if @relevant_mappings.any?)
+         ].compact
+      %>
+      <% dist_list.each do |dists_key, dist_files_key| %>
+        <td>
+          <% if dists_key == :mapped_dists %>
+            <% if @errata.supports_multiple_product_destinations? && dist_info_hash[dists_key].empty? %>
+              <p class="small light content_info" style="width:25em;">
+                Even though there are some applicable mappings and multi-product support is enabled,
+                there are no additional content destinations for this build. (If you think this is wrong,
+                please file a ticket by emailing <%= mail_to Settings.errata_help_email %>.)
+              </p>
+            <% elsif !@errata.supports_multiple_product_destinations? && dist_info_hash[:mapped_dists].any? %>
+              <p class="small light content_info" style="width:25em;">
+                This build has applicable <nobr>multi-product</nobr> mappings hence enabling <nobr>multi-product</nobr> support
+                will add the following content destinations.
+              </p>
+            <% end %>
+          <% end %>
+
+          <% dist_info_hash[dists_key].sort_by(&:name).each do |dist| %>
+            <%
+              dist_indicator = dist_indicator_text(dist)
+              info_partial = "shared/short_dist_info#{"_pdc" if @errata.is_pdc?}"
+            %>
+            <div class="dist-container <%= dist_indicator %>">
+              <span class="tiny light"><%= dist_indicator %>:</span>
+              <%= link_to dist.name, '#', :class=>'toggle-files dist_name' %>
+              <%= content_popover_helper(render(info_partial, :dist=>dist), dist.name, dist_url(dist),
+                {:limit_to=>0, :manual_text=>glyph_icon(:'question-sign'), :target=>'_blank'}) %>
+              <div style="padding:0 0 1em 2em; margin:0;" class="files tiny compact">
+                <% dist_info_hash[dist_files_key][dist].sort_by(&:name).each do |file| %>
+                  <%= brew_file_link(file, :brief=>true, :target=>'_blank') %><br/>
+                <% end %>
+              </div>
+            </div>
+          <% end %>
+        </td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>

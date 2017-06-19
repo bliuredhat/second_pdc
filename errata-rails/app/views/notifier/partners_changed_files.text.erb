@@ -1,0 +1,19 @@
+Errata Request <%= @errata.advisory_name %> - <%= @errata.synopsis %> has new files.
+Target Release: <%= @errata.release.name %>
+
+This advisory fixes the following bugs:
+<%= render :partial => 'partners_issue_list' -%>
+
+The following updated packages are available for this advisory:
+
+<% @errata.brew_builds.each do |b| -%>
+Build <%= b.nvr %> with files:
+<% b.brew_rpms.order('id_brew asc').each do |r| -%>
+<%= r.file_path %>
+<% end -%>
+<% end -%>
+
+Please send test results to: partner-reporting@redhat.com. Bugs or regressions found during testing should be reported in the same way you currently report issues found in RHEL products, for example, Issue Tracker or Bugzilla.
+
+REMINDER:
+All information contained in this email, including the packages referenced, are covered by strict NDA and should not, under any circumstances, be disclosed, transmitted, or otherwise communicated to customers or any other third party.

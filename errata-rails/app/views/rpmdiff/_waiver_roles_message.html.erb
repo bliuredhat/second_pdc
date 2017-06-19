@@ -1,0 +1,48 @@
+<p>Note: Only users in the Errata Tool <%= pluralize_based_on(waiver_roles, 'role') %>
+<%=raw display_list_with_and(waiver_roles.map{|r|"<b>#{r.capitalize}</b>"}, :and=>'or') %> can waive this result.
+
+<% if @can_waive %>
+  <%# No need to explain how to request a waiver, since user can do it themselves %>
+  (This includes you).</p>
+
+<% else %>
+  </p>
+
+  <%# Explain how to request a waiver %>
+
+  <%# Note: Currently only secalert and releng actually have the rt_queue
+  and irc_channel info populated. Roles other than those ones will just get
+  the link to users_by_role page only %>
+
+  <% waiver_roles.map{ |role_name| Role.find_by_name(role_name) }.each do |role| %>
+
+    <p style="padding-bottom:3px;">To contact a member of the <b><%= role.pretty_name %></b> to request a waiver:</p>
+    <ul>
+
+      <%# Give a mailto link with a prefilled subject and body (if we know the RT queue) %>
+      <% if role.rt_email %>
+        <li>
+          Create a ticket in the <%= role.rt_queue || role.rt_email %> RT queue by using
+          <%= rt_ticket_mail_to(role.rt_full_email, 'this pre-populated mailto link', @current_result, @errata) %>
+          to send an email to <b><%= role.rt_full_email %></b>.
+        </li>
+      <% end %>
+
+      <%# Mention the IRC channel (if we know about one) %>
+      <% if role.irc_channel %>
+        <li>
+          Make an enquiry on the <b>#<%= role.irc_channel %></b> IRC channel.
+        </li>
+      <% end %>
+
+      <%# Just give a link to the users_by_role page %>
+      <li>
+        <%= link_to "Click here", {:controller=>:user, :action=>:users_by_role, :id=>role}, :target=>"_blank" %>
+        for more info about the <b><%= role.pretty_name %></b> and its members.
+      </li>
+
+    </ul>
+
+  <% end %>
+
+<% end %>

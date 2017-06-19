@@ -1,0 +1,82 @@
+Release Notes for Version 3.10.2
+================================
+
+Overview
+--------
+
+Release 3.10.2 is the third release in Errata Tool 3.10. It closes [22 bugs and
+RFEs][buglist].
+
+The most significant new items included in this release are: additions and
+improvements to the API so that the full life cycle of an advisory can be
+automated, the ability to specify the order for non-RPM files, and improvements
+to the syncing process for bugs and JIRA issues.
+
+There were no hotfix updates since the Errata Tool 3.10.1 release.
+
+Some highlighted bugs and RFEs are listed below.
+
+<% sort_these_first %w[ 1132255 1136190 1071249 1084442 1144971 ] %>
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.10.2][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1056077%2C1071249%2C1080257%2C1084036%2C1084442%2C1120538%2C1120620%2C1131760%2C1132313%2C1134514%2C1134521%2C1134527%2C1134532%2C1136190%2C1139972%2C1140841%2C1144971%2C1145361%2C1145368%2C1145951%2C1146774%2C1132255
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.10.2.0-0&id2=3.10.1.0-0
+
+<%= all_include_content %>
+
+Process and Team Changes
+------------------------
+
+### Code coverage metrics
+
+Since the Errata Tool 3.10.1 release our code coverage ratio, as reported by
+Jenkins using rcov, has increased by around 1% from 89.54% to 90.37%.
+
+[![Rcov coverage report](images/3.10.2/rcov.png)](images/3.10.2/rcov.png)
+
+Increased code coverage means better maintainability, and a reduced chance of
+shipping regressions and new bugs. It also means we can more confidently
+refactor and improve existing code.
+
+### New Team Members
+
+Recently we have welcomed two new developers to the Errata Tool team. This
+release is the first with contributions from our new team members, Deshi Xiao
+(<dxiao@redhat.com>) and Weitao Zhou (<weizhou@redhat.com>).
+
+What's Next
+-----------
+
+### Errata Tool 3.10.z
+
+The team will continue to select bugs and RFEs flagged as `errata-3.10` in
+Bugzilla for inclusion in two week sprints. Once enough content is verified and
+ready to ship we will do an end-of-sprint release. The next release in this
+series will be 3.10.3.
+
+To see bugs currently scheduled for ET 3.10 take a look at [bugs flagged with errata-3.10
+in Bugzilla][bugs3.10].
+
+### Errata Tool 3.11
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For details
+see [Errata Tool Bug Lists][buglists].
+
+To see what's currently scheduled take a look at [bugs flagged with
+errata-3.11][bugs3.11].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to `errata-dev-list@redhat.com`.
+
+[bugs3.10]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.10&bug_status=__open__
+[bugs3.11]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[buglists]: https://docs.engineering.redhat.com/x/1AIjAQ

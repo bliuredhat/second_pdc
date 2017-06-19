@@ -1,0 +1,6706 @@
+--- 
+rhba_21131:
+  fulladvisory: RHBA-2015:2399-17
+  assigned_to_id: 224771
+  mailed: 0
+  published: 1
+  reporter_id: 3002080
+  status_updated_at: 2016-03-10 03:10:17 Z
+  actual_ship_date:
+  security_approved:
+  request: 0
+  is_brew: 1
+  old_advisory:
+  devel_responsibility_id: 3
+  text_only: false
+  batch_id:
+  qa_complete: 1
+  status: NEW_FILES
+  contract:
+  filelist_locked: 0
+  updated_at: 2016-03-10 17:22:47 Z
+  docs_responsibility_id: 1
+  pushcount: 0
+  publish_date_override:
+  supports_multiple_product_destinations: false
+  id: 21131
+  issue_date: 2016-02-06 00:00:00 -04:00
+  manager_id: 261745
+  security_impact: None
+  release_date:
+  pushed: 0
+  resolution: ""
+  rhnqa: 1
+  created_at: 2016-02-01 14:07:12 Z
+  is_batch_blocker: false
+  synopsis: pdc test
+  deleted: 0
+  rhn_complete: 0
+  doc_complete: 0
+  rhnqa_shadow: 0
+  product_id: 223
+  is_valid: 1
+  update_date: 2016-03-10 14:44:01 Z
+  severity: normal
+  priority: normal
+  current_tps_run:
+  sign_requested: 0
+  revision: 17
+  errata_type: PdcRHBA
+  old_delete_product:
+  text_ready: 0
+  quality_responsibility_id: 143
+  current_state_index_id: 138999
+  closed: 0
+  package_owner_id: 3000931
+  published_shadow: 0
+  filelist_changed: 0
+  group_id: 445
+  respin_count: 0
+  rating: 0
+  state_machine_rule_set_id:
+rhba_21132:
+  fulladvisory: RHBA-2016:2399-18
+  assigned_to_id: 224771
+  mailed: 0
+  published: 1
+  reporter_id: 3002080
+  status_updated_at: 2016-03-10 03:10:17 Z
+  actual_ship_date:
+  security_approved:
+  request: 0
+  is_brew: 1
+  old_advisory:
+  devel_responsibility_id: 3
+  text_only: false
+  batch_id:
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  contract:
+  filelist_locked: 0
+  updated_at: 2016-03-10 17:22:47 Z
+  docs_responsibility_id: 1
+  pushcount: 0
+  publish_date_override:
+  supports_multiple_product_destinations: false
+  id: 21132
+  issue_date: 2016-02-06 00:00:00 -04:00
+  manager_id: 261745
+  security_impact: None
+  release_date:
+  pushed: 0
+  resolution: ""
+  rhnqa: 1
+  created_at: 2016-02-01 14:07:12 Z
+  is_batch_blocker: false
+  synopsis: pdc test
+  deleted: 0
+  rhn_complete: 0
+  doc_complete: 1
+  rhnqa_shadow: 0
+  product_id: 223
+  is_valid: 1
+  update_date: 2016-03-10 14:44:01 Z
+  severity: normal
+  priority: normal
+  current_tps_run:
+  sign_requested: 0
+  revision: 17
+  errata_type: PdcRHBA
+  old_delete_product:
+  text_ready: 0
+  quality_responsibility_id: 143
+  current_state_index_id:
+  closed: 0
+  package_owner_id: 3000931
+  published_shadow: 0
+  filelist_changed: 0
+  group_id: 445
+  respin_count: 0
+  rating: 0
+  state_machine_rule_set_id:
+errata_main_02128: 
+  assigned_to_id: 174587
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2005-04-06 00:00:00 -04:00
+  current_state_index_id: 
+  current_tps_run: 1451
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHBA-2005:324-08
+  group_id: 21
+  id: 2128
+  is_brew: 0
+  is_valid: 1
+  issue_date: 2005-04-06 00:00:00 -04:00
+  mailed: 0
+  manager_id: 156799
+  old_advisory: 
+  old_delete_product: Red Hat Global File System
+  package_owner_id: 156799
+  priority: high
+  product_id: 24
+  published: 0
+  published_shadow: 
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 
+  reporter_id: 156799
+  request: 1
+  resolution: DROPPED
+  respin_count: 0
+  revision: 8
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 
+  security_impact: ""
+  severity: blocker
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2005-04-06 00:00:00 -04:00
+  synopsis: GFS bug fix update
+  text_only: false
+  text_ready: 
+  update_date: 2005-04-06 00:00:00 -04:00
+  updated_at: 2005-04-06 00:00:00 -04:00
+errata_main_05028: 
+  assigned_to_id: 174587
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2007-02-27 00:00:00 -05:00
+  current_state_index_id: 
+  current_tps_run: 6807
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHBA-2007:0092-02
+  group_id: 21
+  id: 5028
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2007-02-27 00:00:00 -05:00
+  mailed: 0
+  manager_id: 156793
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 168062
+  priority: normal
+  product_id: 20
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 104
+  rating: 0
+  release_date: 
+  reporter_id: 168062
+  request: 1
+  resolution: ""
+  respin_count: 0
+  revision: 2
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: ""
+  severity: distro
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2007-02-27 04:09:18 -05:00
+  synopsis: dlm-kernel bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2007-02-27 00:00:00 -05:00
+  updated_at: 2007-02-27 00:00:00 -05:00
+errata_main_05243: 
+  assigned_to_id: 174587
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2007-04-16 00:00:00 -04:00
+  current_state_index_id: 
+  current_tps_run: 6911
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2007:0151-01
+  group_id: 21
+  id: 5243
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2007-04-16 00:00:00 -04:00
+  mailed: 1
+  manager_id: 35599
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 35599
+  priority: normal
+  product_id: 38
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2007-04-10 00:00:00 Z
+  reporter_id: 35599
+  request: 1
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Low
+  severity: distro
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2007-04-16 10:38:41 -04:00
+  synopsis: "Low: JBoss Application Server security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2007-04-16 00:00:00 -04:00
+  updated_at: 2007-04-16 00:00:00 -04:00
+errata_main_06310: 
+  assigned_to_id: 188618
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2007-09-10 08:42:07 -04:00
+  current_state_index_id: 
+  current_tps_run: 7454
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2007:0895-03
+  group_id: 21
+  id: 6310
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2007-09-24 00:00:00 -04:00
+  mailed: 1
+  manager_id: 169129
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 169129
+  priority: normal
+  product_id: 39
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2007-08-29 00:00:00 Z
+  reporter_id: 35599
+  request: 1
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: distro
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2007-09-24 11:58:48 -04:00
+  synopsis: "Moderate: EnterpriseDB security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2007-09-24 00:00:00 -04:00
+  updated_at: 2007-09-24 10:16:41 -04:00
+errata_main_07058: 
+  assigned_to_id: 204382
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2008-02-19 09:34:37 -05:00
+  current_state_index_id: 
+  current_tps_run: 8656
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 16
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHBA-2008:8205-06
+  group_id: 65
+  id: 7058
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2008-03-05 00:00:00 -05:00
+  mailed: 0
+  manager_id: 160436
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 256461
+  priority: normal
+  product_id: 16
+  published: 1
+  published_shadow: 1
+  pushcount: 3
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 122
+  rating: 0
+  release_date: 
+  reporter_id: 256461
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 6
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2008-07-23 18:03:05 -04:00
+  synopsis: nautilus bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2008-07-23 00:00:00 -04:00
+  updated_at: 2008-04-30 11:32:49 -04:00
+errata_main_07390: 
+  assigned_to_id: 263591
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2008-05-20 23:01:53 -04:00
+  current_state_index_id: 
+  current_tps_run: 8882
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHBA-2008:0495-06
+  group_id: 21
+  id: 7390
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2008-06-23 15:52:58 -04:00
+  mailed: 0
+  manager_id: 405
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 194055
+  priority: normal
+  product_id: 27
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 
+  reporter_id: 194055
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 6
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2008-06-23 15:53:07 -04:00
+  synopsis: hts bug fix and enhancement update
+  text_only: false
+  text_ready: 0
+  update_date: 2008-06-23 15:54:00 -04:00
+  updated_at: 2008-06-23 15:54:00 -04:00
+errata_main_07517: 
+  assigned_to_id: 81410
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2008-07-07 10:25:36 -04:00
+  current_state_index_id: 77
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2008:0588-01
+  group_id: 21
+  id: 7517
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2008-07-07 10:25:36 -04:00
+  mailed: 0
+  manager_id: 84975
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 100135
+  priority: normal
+  product_id: 48
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 120
+  rating: 0
+  release_date: 
+  reporter_id: 100135
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2008-07-07 10:25:36 -04:00
+  synopsis: Test errata for MRG RHEL-4, please ignore
+  text_only: false
+  text_ready: 0
+  update_date: 2008-07-07 10:25:36 -04:00
+  updated_at: 2010-09-28 07:31:37 -04:00
+errata_main_07519: 
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2008-07-07 13:13:14 -04:00
+  current_state_index_id: 78
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2008:0590-01
+  group_id: 21
+  id: 7519
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2008-07-07 13:13:14 -04:00
+  mailed: 0
+  manager_id: 84975
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 100135
+  priority: normal
+  product_id: 47
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 120
+  rating: 0
+  release_date: 
+  reporter_id: 100135
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2008-07-07 13:13:14 -04:00
+  synopsis: Test errata for MRG for RHEL-5, please ignore
+  text_only: false
+  text_ready: 0
+  update_date: 2008-07-07 13:13:14 -04:00
+  updated_at: 2010-09-01 17:34:34 -04:00
+errata_main_07679: 
+  assigned_to_id: 211313
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2008-08-25 16:51:20 -04:00
+  current_state_index_id: 
+  current_tps_run: 9286
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2008:0860-12
+  group_id: 21
+  id: 7679
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2008-09-10 14:07:49 -04:00
+  mailed: 1
+  manager_id: 263394
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 209833
+  priority: normal
+  product_id: 45
+  published: 1
+  published_shadow: 0
+  pushcount: 2
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 
+  reporter_id: 215839
+  request: 0
+  resolution: ""
+  respin_count: 2
+  revision: 12
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2008-09-10 14:08:10 -04:00
+  synopsis: "Important: ipa security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2008-09-10 14:19:11 -04:00
+  updated_at: 2008-09-10 14:54:12 -04:00
+errata_main_08013: 
+  assigned_to_id: 200028
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2008-10-30 03:44:25 -04:00
+  current_state_index_id: 
+  current_tps_run: 10253
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHBA-2008:0968-03
+  group_id: 21
+  id: 8013
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2009-02-06 13:39:46 -05:00
+  mailed: 0
+  manager_id: 84975
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 96230
+  priority: normal
+  product_id: 52
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 
+  reporter_id: 96230
+  request: 0
+  resolution: ""
+  respin_count: 6
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2009-02-17 20:52:54 -05:00
+  synopsis: Deployment_Guide bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2009-02-06 13:39:46 -05:00
+  updated_at: 2009-02-17 20:52:54 -05:00
+errata_main_08742: 
+  assigned_to_id: 405
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2009-06-29 14:00:20 -04:00
+  current_state_index_id: 
+  current_tps_run: 11214
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2009:1141-05
+  group_id: 21
+  id: 8742
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2009-07-02 15:42:20 -04:00
+  mailed: 1
+  manager_id: 261745
+  old_advisory: RHSA-2009:8742-05
+  old_delete_product: 
+  package_owner_id: 12491
+  priority: normal
+  product_id: 49
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2009-06-18 00:00:00 Z
+  reporter_id: 215839
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 5
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2009-07-02 16:29:36 -04:00
+  synopsis: "Important: nagios security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2009-07-02 15:42:20 -04:00
+  updated_at: 2009-07-02 16:32:56 -04:00
+errata_main_08751: 
+  assigned_to_id: 239541
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2009-07-06 04:00:47 -04:00
+  current_state_index_id: 
+  current_tps_run: 11235
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 83
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2009:1156-03
+  group_id: 21
+  id: 8751
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2009-07-14 15:07:51 -04:00
+  mailed: 1
+  manager_id: 51518
+  old_advisory: RHSA-2009:8751-03
+  old_delete_product: 
+  package_owner_id: 25120
+  priority: normal
+  product_id: 37
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 114
+  rating: 0
+  release_date: 2009-07-02 00:00:00 Z
+  reporter_id: 215839
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2009-07-14 15:07:55 -04:00
+  synopsis: "Important: httpd security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2009-07-14 15:07:51 -04:00
+  updated_at: 2009-07-14 17:00:21 -04:00
+errata_main_08854: 
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2009-08-31 11:14:22 -04:00
+  current_state_index_id: 
+  current_tps_run: 11520
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2009:8854-01
+  group_id: 21
+  id: 8854
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2009-08-31 11:14:22 -04:00
+  mailed: 0
+  manager_id: 35599
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 35599
+  priority: normal
+  product_id: 55
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2099-12-31 00:00:00 Z
+  reporter_id: 35599
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Low
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2009-11-06 03:39:13 -05:00
+  synopsis: "Low: RHEV-M security update (mjc test advisory)"
+  text_only: false
+  text_ready: 0
+  update_date: 2009-08-31 11:14:22 -04:00
+  updated_at: 2009-11-06 03:43:06 -05:00
+errata_main_09190: 
+  assigned_to_id: 81410
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2009-12-09 12:23:08 -05:00
+  current_state_index_id: 
+  current_tps_run: 11979
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2009:1688-10
+  group_id: 21
+  id: 9190
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2009-12-21 20:24:52 -05:00
+  mailed: 1
+  manager_id: 174587
+  old_advisory: RHSA-2009:9190-10
+  old_delete_product: 
+  package_owner_id: 216073
+  priority: normal
+  product_id: 48
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 120
+  rating: 0
+  release_date: 2009-12-21 00:00:00 Z
+  reporter_id: 275188
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 10
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2009-12-21 20:24:58 -05:00
+  synopsis: "Moderate: condor security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2009-12-21 20:24:52 -05:00
+  updated_at: 2009-12-21 20:48:54 -05:00
+errata_main_09325: 
+  assigned_to_id: 171534
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-01-11 07:55:44 -05:00
+  current_state_index_id: 
+  current_tps_run: 12336
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2010:9325-13
+  group_id: 21
+  id: 9325
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2010-01-11 07:55:44 -05:00
+  mailed: 0
+  manager_id: 210691
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 194784
+  priority: normal
+  product_id: 42
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 109
+  rating: 0
+  release_date: 
+  reporter_id: 215839
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 13
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2010-04-16 06:00:52 -04:00
+  synopsis: "Moderate: dirsec-nss security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-01-11 07:55:44 -05:00
+  updated_at: 2010-04-16 06:01:14 -04:00
+errata_main_09407: 
+  assigned_to_id: 198128
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-02-15 14:08:30 -05:00
+  current_state_index_id: 
+  current_tps_run: 12441
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2010:0172-19
+  group_id: 21
+  id: 9407
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2010-03-24 11:46:41 -04:00
+  mailed: 1
+  manager_id: 213307
+  old_advisory: RHSA-2010:9407-19
+  old_delete_product: 
+  package_owner_id: 100112
+  priority: normal
+  product_id: 55
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 118
+  rating: 0
+  release_date: 2010-03-24 00:00:00 Z
+  reporter_id: 3000113
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 19
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2010-03-24 11:46:46 -04:00
+  synopsis: "Important: rhev-hypervisor security and bug fix update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-03-24 11:46:41 -04:00
+  updated_at: 2010-03-24 12:11:12 -04:00
+errata_main_09494: 
+  assigned_to_id: 277014
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-03-22 23:16:47 -04:00
+  current_state_index_id: 
+  current_tps_run: 12564
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2010:0331-06
+  group_id: 21
+  id: 9494
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2010-03-30 12:52:04 -04:00
+  mailed: 1
+  manager_id: 213307
+  old_advisory: RHSA-2010:9494-06
+  old_delete_product: 
+  package_owner_id: 168062
+  priority: normal
+  product_id: 24
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 104
+  rating: 0
+  release_date: 2010-03-30 00:00:00 Z
+  reporter_id: 196179
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 6
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2010-03-30 12:52:12 -04:00
+  synopsis: "Moderate: GFS-kernel security and bug fix update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-03-30 12:52:04 -04:00
+  updated_at: 2010-03-31 10:16:48 -04:00
+errata_main_09753: 
+  assigned_to_id: 266715
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-07-13 08:55:50 -04:00
+  current_state_index_id: 1784
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2010:0583-03
+  group_id: 21
+  id: 9753
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2010-08-02 16:17:33 -04:00
+  mailed: 1
+  manager_id: 51518
+  old_advisory: RHSA-2010:9753-03
+  old_delete_product: 
+  package_owner_id: 202032
+  priority: normal
+  product_id: 30
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 113
+  rating: 0
+  release_date: 2010-07-08 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2010-08-02 16:17:39 -04:00
+  synopsis: "Important: tomcat5 security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-08-02 16:17:33 -04:00
+  updated_at: 2010-08-02 17:49:11 -04:00
+errata_main_09754: 
+  assigned_to_id: 266715
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-07-13 08:58:58 -04:00
+  current_state_index_id: 1785
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2010:0582-04
+  group_id: 21
+  id: 9754
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2010-08-02 16:17:32 -04:00
+  mailed: 1
+  manager_id: 51518
+  old_advisory: RHSA-2010:9754-04
+  old_delete_product: 
+  package_owner_id: 24967
+  priority: normal
+  product_id: 22
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 113
+  rating: 0
+  release_date: 2010-07-08 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 4
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2010-08-02 16:17:44 -04:00
+  synopsis: "Important: tomcat5 security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-08-02 16:17:32 -04:00
+  updated_at: 2010-08-02 17:52:46 -04:00
+errata_main_09755: 
+  assigned_to_id: 271623
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-07-13 09:41:41 -04:00
+  current_state_index_id: 1788
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 83
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2010:0581-05
+  group_id: 21
+  id: 9755
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2010-08-02 16:38:52 -04:00
+  mailed: 1
+  manager_id: 174587
+  old_advisory: RHSA-2010:9755-05
+  old_delete_product: 
+  package_owner_id: 211874
+  priority: normal
+  product_id: 53
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 113
+  rating: 0
+  release_date: 2010-07-08 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 5
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2010-08-02 16:39:04 -04:00
+  synopsis: "Important: tomcat5 and tomcat6 security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-08-02 16:38:52 -04:00
+  updated_at: 2010-08-02 17:56:43 -04:00
+errata_main_09829: 
+  assigned_to_id: 3000532
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-08-04 07:21:31 -04:00
+  current_state_index_id: 6958
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0175-07
+  group_id: 21
+  id: 9829
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-01-25 10:29:57 -05:00
+  mailed: 1
+  manager_id: 51518
+  old_advisory: RHSA-2010:9829-07
+  old_delete_product: 
+  package_owner_id: 202032
+  priority: normal
+  product_id: 54
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2010-03-30 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 7
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-01-25 10:34:20 -05:00
+  synopsis: "Moderate: JBoss Web Framework Kit 1.0.0 removal"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-01-25 10:29:57 -05:00
+  updated_at: 2011-01-25 13:21:26 -05:00
+errata_main_09883: 
+  assigned_to_id: 264359
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-08-19 04:40:06 -04:00
+  current_state_index_id: 3268
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2010:0758-20
+  group_id: 21
+  id: 9883
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2010-10-07 21:58:57 -04:00
+  mailed: 1
+  manager_id: 24844
+  old_advisory: RHSA-2010:9883-20
+  old_delete_product: 
+  package_owner_id: 61112
+  priority: normal
+  product_id: 47
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2010-10-07 00:00:00 Z
+  reporter_id: 196179
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 20
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2010-10-07 22:12:02 -04:00
+  synopsis: "Important: kernel-rt security and bug fix update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-10-07 21:58:57 -04:00
+  updated_at: 2010-10-07 22:36:38 -04:00
+errata_main_10140: 
+  assigned_to_id: 3000504
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-10-15 06:17:09 -04:00
+  current_state_index_id: 4362
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2010:0837-12
+  group_id: 21
+  id: 10140
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2010-11-08 15:05:09 -05:00
+  mailed: 1
+  manager_id: 172666
+  old_advisory: RHSA-2010:10140-12
+  old_delete_product: 
+  package_owner_id: 172338
+  priority: normal
+  product_id: 42
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 123
+  rating: 0
+  release_date: 2010-11-08 00:00:00 Z
+  reporter_id: 215839
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 12
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2010-11-08 15:06:51 -05:00
+  synopsis: "Moderate: rhpki security and enhancement update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-11-08 15:05:08 -05:00
+  updated_at: 2010-11-08 15:42:13 -05:00
+errata_main_10205: 
+  assigned_to_id: 267999
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-10-27 10:47:49 -04:00
+  current_state_index_id: 4034
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2010:10205-03
+  group_id: 21
+  id: 10205
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2010-10-27 10:47:49 -04:00
+  mailed: 0
+  manager_id: 35599
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 165199
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 122
+  rating: 0
+  release_date: 2010-10-29 00:00:00 Z
+  reporter_id: 163483
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2010-10-28 13:19:57 -04:00
+  synopsis: "Important: libogg security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2010-10-27 10:47:49 -04:00
+  updated_at: 2010-10-28 13:19:57 -04:00
+errata_main_10226: 
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-10-29 09:42:24 -04:00
+  current_state_index_id: 4133
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2010:10226-04
+  group_id: 21
+  id: 10226
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2010-10-29 09:42:24 -04:00
+  mailed: 0
+  manager_id: 84975
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 96230
+  priority: normal
+  product_id: 65
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2010-07-28 00:00:00 Z
+  reporter_id: 96230
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 4
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2010-11-01 10:31:45 -04:00
+  synopsis: "Important: JBoss Application Platform 4.3.0 security update (**SAMPLE**)"
+  text_only: true
+  text_ready: 0
+  update_date: 2010-10-29 09:42:24 -04:00
+  updated_at: 2010-11-01 10:31:45 -04:00
+errata_main_10305: 
+  assigned_to_id: 242721
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-11-18 10:05:52 -05:00
+  current_state_index_id: 5933
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0002-04
+  group_id: 21
+  id: 10305
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-01-03 13:15:18 -05:00
+  mailed: 1
+  manager_id: 35599
+  old_advisory: RHSA-2010:10305-04
+  old_delete_product: 
+  package_owner_id: 206427
+  priority: normal
+  product_id: 46
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 117
+  rating: 0
+  release_date: 2011-01-01 00:00:00 Z
+  reporter_id: 35599
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 4
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Low
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-01-03 13:18:15 -05:00
+  synopsis: "Low: RHN Proxy Server 4 - End Of Life"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-01-03 13:15:18 -05:00
+  updated_at: 2011-01-03 14:33:07 -05:00
+errata_main_10326: 
+  assigned_to_id: 3000531
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2010-11-30 09:04:08 -05:00
+  current_state_index_id: 6933
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2010:10326-03
+  group_id: 21
+  id: 10326
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2010-11-30 09:04:08 -05:00
+  mailed: 0
+  manager_id: 14098
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 3000057
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 121
+  rating: 0
+  release_date: 
+  reporter_id: 3000057
+  request: 0
+  resolution: ""
+  respin_count: 2
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2011-01-25 02:39:18 -05:00
+  synopsis: libdfp bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2010-11-30 09:04:08 -05:00
+  updated_at: 2011-01-25 02:39:18 -05:00
+errata_main_10509: 
+  assigned_to_id: 3000000
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-01-13 10:36:13 -05:00
+  current_state_index_id: 6635
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:10509-01
+  group_id: 147
+  id: 10509
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2011-01-13 10:36:13 -05:00
+  mailed: 0
+  manager_id: 14098
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 3000057
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 121
+  rating: 0
+  release_date: 
+  reporter_id: 3000057
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2011-01-17 05:23:15 -05:00
+  synopsis: libdfp bugfix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-01-13 10:36:13 -05:00
+  updated_at: 2011-01-17 05:23:15 -05:00
+errata_main_10610: 
+  assigned_to_id: 3000504
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-01-19 11:48:12 -05:00
+  current_state_index_id: 8305
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0293-16
+  group_id: 21
+  id: 10610
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-22 12:42:40 -05:00
+  mailed: 1
+  manager_id: 263394
+  old_advisory: RHSA-2011:10610-16
+  old_delete_product: 
+  package_owner_id: 172337
+  priority: normal
+  product_id: 29
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 123
+  rating: 0
+  release_date: 2011-02-22 00:00:00 Z
+  reporter_id: 275188
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 16
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-02-22 12:46:00 -05:00
+  synopsis: "Moderate: Red Hat Directory Server security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-22 12:42:40 -05:00
+  updated_at: 2011-02-22 13:55:57 -05:00
+errata_main_10718: 
+  assigned_to_id: 173714
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-01 16:44:26 -05:00
+  current_state_index_id: 9740
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 19
+  errata_type: RHEA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHEA-2011:10718-07
+  group_id: 147
+  id: 10718
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-01 16:44:26 -05:00
+  mailed: 0
+  manager_id: 1
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 104688
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 107
+  rating: 0
+  release_date: 
+  reporter_id: 104688
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 7
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: REL_PREP
+  status_updated_at: 2011-03-28 11:05:39 -04:00
+  synopsis: "new package: system-switch-java"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-01 16:44:26 -05:00
+  updated_at: 2011-04-12 05:26:14 -04:00
+errata_main_10729: 
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-02 12:12:26 -05:00
+  current_state_index_id: 7323
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:10729-01
+  group_id: 21
+  id: 10729
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2011-02-02 12:12:26 -05:00
+  mailed: 0
+  manager_id: 24967
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 24967
+  priority: normal
+  product_id: 41
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2010-07-08 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2011-02-02 12:23:53 -05:00
+  synopsis: "Important: jbossweb security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-02 12:12:26 -05:00
+  updated_at: 2011-02-02 12:23:53 -05:00
+errata_main_10801: 
+  assigned_to_id: 174587
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-10 05:05:18 -05:00
+  current_state_index_id: 7813
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0212-06
+  group_id: 21
+  id: 10801
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-10 14:41:03 -05:00
+  mailed: 1
+  manager_id: 24967
+  old_advisory: RHSA-2011:10801-06
+  old_delete_product: 
+  package_owner_id: 24967
+  priority: normal
+  product_id: 41
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2011-01-31 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 6
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-02-10 14:41:39 -05:00
+  synopsis: "Important: jbossweb security update"
+  text_only: true
+  text_ready: 0
+  update_date: 2011-02-10 14:41:01 -05:00
+  updated_at: 2011-02-10 16:17:24 -05:00
+errata_main_10802: 
+  assigned_to_id: 174587
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-10 05:19:58 -05:00
+  current_state_index_id: 7814
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0213-06
+  group_id: 21
+  id: 10802
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-10 14:42:21 -05:00
+  mailed: 1
+  manager_id: 24967
+  old_advisory: RHSA-2011:10802-06
+  old_delete_product: 
+  package_owner_id: 24967
+  priority: normal
+  product_id: 62
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2011-01-31 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 6
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-02-10 14:46:51 -05:00
+  synopsis: "Important: jbossweb security update"
+  text_only: true
+  text_ready: 0
+  update_date: 2011-02-10 14:42:20 -05:00
+  updated_at: 2011-02-10 16:13:49 -05:00
+errata_main_10808: 
+  assigned_to_id: 200028
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-13 10:39:10 -05:00
+  current_state_index_id: 7856
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:10808-01
+  group_id: 147
+  id: 10808
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-13 10:39:10 -05:00
+  mailed: 0
+  manager_id: 1
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 3000386
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 118
+  rating: 0
+  release_date: 
+  reporter_id: 3000386
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-02-13 10:39:10 -05:00
+  synopsis: virtio-win bug fix and enhancement update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-13 10:39:10 -05:00
+  updated_at: 2011-02-14 17:15:07 -05:00
+errata_main_10827: 
+  assigned_to_id: 3000072
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-17 08:58:35 -05:00
+  current_state_index_id: 8376
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0300-14
+  group_id: 21
+  id: 10827
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-23 13:54:44 -05:00
+  mailed: 1
+  manager_id: 174587
+  old_advisory: RHSA-2011:10827-14
+  old_delete_product: 
+  package_owner_id: 244271
+  priority: normal
+  product_id: 40
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 117
+  rating: 0
+  release_date: 2011-02-23 00:00:00 Z
+  reporter_id: 184429
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 14
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-02-23 14:01:26 -05:00
+  synopsis: "Moderate: Red Hat Network Satellite Server security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-23 13:54:44 -05:00
+  updated_at: 2011-02-23 14:37:20 -05:00
+errata_main_10836: 
+  assigned_to_id: 3000490
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-18 17:31:40 -05:00
+  current_state_index_id: 9103
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 61
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:10836-07
+  group_id: 147
+  id: 10836
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-18 17:31:40 -05:00
+  mailed: 0
+  manager_id: 37403
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 3000355
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 113
+  rating: 0
+  release_date: 
+  reporter_id: 100112
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 7
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: PUSH_READY
+  status_updated_at: 2011-03-11 01:00:37 -05:00
+  synopsis: squashfs-tools bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-18 17:31:40 -05:00
+  updated_at: 2011-03-13 01:54:03 -05:00
+errata_main_10839: 
+  assigned_to_id: 276370
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-21 12:54:48 -05:00
+  current_state_index_id: 10787
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:10839-06
+  group_id: 21
+  id: 10839
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-21 12:54:48 -05:00
+  mailed: 0
+  manager_id: 225111
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 3000076
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 118
+  rating: 0
+  release_date: 
+  reporter_id: 3000076
+  request: 0
+  resolution: ""
+  respin_count: 3
+  revision: 6
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-04-15 03:41:59 -04:00
+  synopsis: xenpv-win bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-21 12:54:48 -05:00
+  updated_at: 2011-04-15 03:41:59 -04:00
+errata_main_10842: 
+  assigned_to_id: 168539
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-22 01:09:52 -05:00
+  current_state_index_id: 9532
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHEA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHEA-2011:10842-02
+  group_id: 164
+  id: 10842
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-22 01:09:52 -05:00
+  mailed: 0
+  manager_id: 52433
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 246681
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 111
+  rating: 0
+  release_date: 
+  reporter_id: 246681
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 2
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: REL_PREP
+  status_updated_at: 2011-03-23 02:27:02 -04:00
+  synopsis: fonts-indic enhancement update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-22 01:09:52 -05:00
+  updated_at: 2011-03-23 02:27:02 -04:00
+errata_main_10844: 
+  assigned_to_id: 173714
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-22 14:35:45 -05:00
+  current_state_index_id: 8374
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0299-03
+  group_id: 21
+  id: 10844
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-23 13:36:02 -05:00
+  mailed: 1
+  manager_id: 51518
+  old_advisory: RHSA-2011:10844-03
+  old_delete_product: 
+  package_owner_id: 3000496
+  priority: normal
+  product_id: 56
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 107
+  rating: 0
+  release_date: 2011-02-15 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-02-23 13:41:00 -05:00
+  synopsis: "Moderate: java-1.4.2-ibm-sap security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-23 13:36:02 -05:00
+  updated_at: 2011-02-23 14:36:46 -05:00
+errata_main_10849: 
+  assigned_to_id: 174587
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-23 06:29:05 -05:00
+  current_state_index_id: 8972
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0334-08
+  group_id: 21
+  id: 10849
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-03-09 13:43:44 -05:00
+  mailed: 1
+  manager_id: 3000296
+  old_advisory: RHSA-2011:10849-08
+  old_delete_product: 
+  package_owner_id: 3000460
+  priority: normal
+  product_id: 65
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2011-02-15 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 8
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-03-09 13:46:18 -05:00
+  synopsis: "Important: JBoss Enterprise Portal Platform 4.3.CP06 and 5.1.0 security update"
+  text_only: true
+  text_ready: 0
+  update_date: 2011-03-09 13:43:43 -05:00
+  updated_at: 2011-03-09 14:01:47 -05:00
+errata_main_10858: 
+  assigned_to_id: 3000001
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-02-25 07:55:37 -05:00
+  current_state_index_id: 9889
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 79
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:10858-03
+  group_id: 161
+  id: 10858
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-02-25 07:55:37 -05:00
+  mailed: 0
+  manager_id: 10886
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 10886
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 113
+  rating: 0
+  release_date: 
+  reporter_id: 10886
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-03-30 04:39:21 -04:00
+  synopsis: system-config-network bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-02-25 07:55:37 -05:00
+  updated_at: 2011-03-30 04:39:21 -04:00
+errata_main_10893: 
+  assigned_to_id: 271623
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-03-04 17:34:20 -05:00
+  current_state_index_id: 9239
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:10893-05
+  group_id: 147
+  id: 10893
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-03-04 17:34:20 -05:00
+  mailed: 0
+  manager_id: 3000441
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 211874
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 113
+  rating: 0
+  release_date: 
+  reporter_id: 211874
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 5
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-03-16 03:58:02 -04:00
+  synopsis: "Moderate: tomcat6 security and bug fix update"
+  text_only: false
+  text_ready: 1
+  update_date: 2011-03-04 17:34:20 -05:00
+  updated_at: 2011-04-18 05:42:37 -04:00
+errata_main_10949: 
+  assigned_to_id: 3000002
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-03-17 18:35:02 -04:00
+  current_state_index_id: 9330
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 19
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:10949-01
+  group_id: 164
+  id: 10949
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2011-03-17 18:35:02 -04:00
+  mailed: 0
+  manager_id: 1
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 206427
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 114
+  rating: 0
+  release_date: 
+  reporter_id: 206427
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2011-03-17 18:36:11 -04:00
+  synopsis: yum-utils bug fix and enhancement update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-03-17 18:35:02 -04:00
+  updated_at: 2011-03-17 18:36:11 -04:00
+errata_main_10975: 
+  assigned_to_id: 273956
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-03-22 13:15:32 -04:00
+  current_state_index_id: 9957
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:10975-03
+  group_id: 21
+  id: 10975
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2011-03-22 13:15:32 -04:00
+  mailed: 0
+  manager_id: 266225
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 163147
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 108
+  rating: 0
+  release_date: 2010-11-08 00:00:00 Z
+  reporter_id: 275188
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2011-03-30 17:00:03 -04:00
+  synopsis: "Moderate: fuse security update"
+  text_only: false
+  text_ready: 1
+  update_date: 2011-03-22 13:15:32 -04:00
+  updated_at: 2011-03-30 17:00:03 -04:00
+errata_main_11020: 
+  assigned_to_id: 207882
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-03-30 09:22:11 -04:00
+  current_state_index_id: 9952
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11020-01
+  group_id: 147
+  id: 11020
+  is_brew: 1
+  is_valid: 0
+  issue_date: 2011-03-30 09:22:11 -04:00
+  mailed: 0
+  manager_id: 100117
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 246911
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 
+  reporter_id: 246911
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: DROPPED_NO_SHIP
+  status_updated_at: 2011-03-30 15:25:58 -04:00
+  synopsis: mingw32-qpid-cpp bug-fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-03-30 09:22:11 -04:00
+  updated_at: 2011-03-30 15:25:58 -04:00
+errata_main_11031: 
+  assigned_to_id: 3000577
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-03-31 06:08:02 -04:00
+  current_state_index_id: 10721
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 90
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:0442-05
+  group_id: 161
+  id: 11031
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-13 16:09:25 -04:00
+  mailed: 0
+  manager_id: 165188
+  old_advisory: RHBA-2011:11031-05
+  old_delete_product: 
+  package_owner_id: 168000
+  priority: normal
+  product_id: 16
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 107
+  rating: 0
+  release_date: 
+  reporter_id: 168000
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 5
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-04-13 16:13:41 -04:00
+  synopsis: lapack bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-13 16:09:24 -04:00
+  updated_at: 2011-04-13 16:16:12 -04:00
+errata_main_11036: 
+  assigned_to_id: 3000095
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-03-31 10:15:25 -04:00
+  current_state_index_id: 10233
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 19
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11036-01
+  group_id: 164
+  id: 11036
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-03-31 10:15:25 -04:00
+  mailed: 0
+  manager_id: 165188
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 211668
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 114
+  rating: 0
+  release_date: 
+  reporter_id: 211668
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-04-06 04:58:32 -04:00
+  synopsis: net-snmp bug fix update
+  text_only: false
+  text_ready: 1
+  update_date: 2011-03-31 10:15:25 -04:00
+  updated_at: 2011-04-14 03:42:16 -04:00
+errata_main_11056: 
+  assigned_to_id: 3000072
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-05 11:59:40 -04:00
+  current_state_index_id: 10166
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:11056-02
+  group_id: 21
+  id: 11056
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-05 11:59:40 -04:00
+  mailed: 0
+  manager_id: 160277
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 201893
+  priority: normal
+  product_id: 40
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 117
+  rating: 0
+  release_date: 2011-06-16 00:00:00 Z
+  reporter_id: 184429
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 2
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-04-05 11:59:40 -04:00
+  synopsis: "Moderate: RHN Satellite Server 5.4.1 security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-05 11:59:40 -04:00
+  updated_at: 2011-04-19 07:12:03 -04:00
+errata_main_11065: 
+  assigned_to_id: 261177
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-06 02:31:27 -04:00
+  current_state_index_id: 10826
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 19
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:11065-06
+  group_id: 21
+  id: 11065
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-06 02:31:27 -04:00
+  mailed: 0
+  manager_id: 37403
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 160546
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 107
+  rating: 0
+  release_date: 2011-03-24 00:00:00 Z
+  reporter_id: 3000183
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 6
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: QE
+  status_updated_at: 2011-04-15 18:39:33 -04:00
+  synopsis: "Moderate: python security update"
+  text_only: false
+  text_ready: 1
+  update_date: 2011-04-06 02:31:27 -04:00
+  updated_at: 2011-04-15 18:39:33 -04:00
+errata_main_11095: 
+  assigned_to_id: 215112
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-08 06:17:24 -04:00
+  current_state_index_id: 10416
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 19
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11095-01
+  group_id: 164
+  id: 11095
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-08 06:17:24 -04:00
+  mailed: 0
+  manager_id: 168662
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 190465
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 121
+  rating: 0
+  release_date: 
+  reporter_id: 190465
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: QE
+  status_updated_at: 2011-04-08 08:30:23 -04:00
+  synopsis: ia32el bug fix update
+  text_only: false
+  text_ready: 1
+  update_date: 2011-04-08 06:17:24 -04:00
+  updated_at: 2011-04-19 09:24:36 -04:00
+errata_main_11096: 
+  assigned_to_id: 3000095
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-08 08:32:16 -04:00
+  current_state_index_id: 10847
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 66
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11096-09
+  group_id: 161
+  id: 11096
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-08 08:32:16 -04:00
+  mailed: 0
+  manager_id: 165188
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 165199
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 114
+  rating: 0
+  release_date: 
+  reporter_id: 165199
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 9
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: REL_PREP
+  status_updated_at: 2011-04-18 09:26:45 -04:00
+  synopsis: tetex bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-08 08:32:16 -04:00
+  updated_at: 2011-04-19 12:09:02 -04:00
+errata_main_11105: 
+  assigned_to_id: 3000001
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-11 09:36:31 -04:00
+  current_state_index_id: 10594
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 69
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11105-01
+  group_id: 161
+  id: 11105
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-11 09:36:31 -04:00
+  mailed: 0
+  manager_id: 165188
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 3000530
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 113
+  rating: 0
+  release_date: 
+  reporter_id: 3000530
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: QE
+  status_updated_at: 2011-04-12 09:37:21 -04:00
+  synopsis: xinetd bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-11 09:36:31 -04:00
+  updated_at: 2011-04-12 09:37:22 -04:00
+errata_main_11110: 
+  assigned_to_id: 270746
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-11 13:45:17 -04:00
+  current_state_index_id: 10830
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:11110-02
+  group_id: 21
+  id: 11110
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-11 13:45:17 -04:00
+  mailed: 0
+  manager_id: 24967
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 264390
+  priority: normal
+  product_id: 41
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2011-04-20 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 2
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: PUSH_READY
+  status_updated_at: 2011-04-18 00:01:01 -04:00
+  synopsis: "Important: jboss-seam2 security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-11 13:45:17 -04:00
+  updated_at: 2011-04-18 11:10:48 -04:00
+errata_main_11112: 
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  content_types: |
+    --- 
+    - :rpm
+
+  created_at: 2011-04-11 16:21:54 -04:00
+  current_state_index_id: 10589
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHEA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHEA-2011:11112-01
+  group_id: 147
+  id: 11112
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-11 16:21:54 -04:00
+  mailed: 0
+  manager_id: 160825
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 162860
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 
+  reporter_id: 162860
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: QE
+  status_updated_at: 2011-04-12 09:11:03 -04:00
+  synopsis: "new package: iwl100-firmware"
+  text_only: false
+  text_ready: 1
+  update_date: 2011-04-11 16:21:54 -04:00
+  updated_at: 2011-04-12 09:11:03 -04:00
+errata_main_11118: 
+  assigned_to_id: 173714
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-12 13:45:37 -04:00
+  current_state_index_id: 10786
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 19
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11118-03
+  group_id: 147
+  id: 11118
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-12 13:45:37 -04:00
+  mailed: 0
+  manager_id: 261745
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 73713
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 107
+  rating: 0
+  release_date: 
+  reporter_id: 73713
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: REL_PREP
+  status_updated_at: 2011-04-15 03:05:06 -04:00
+  synopsis: python-urlgrabber bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-12 13:45:37 -04:00
+  updated_at: 2011-04-15 09:16:19 -04:00
+errata_main_11119: 
+  assigned_to_id: 3000078
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-12 14:07:47 -04:00
+  current_state_index_id: 10632
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11119-01
+  group_id: 164
+  id: 11119
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-12 14:07:47 -04:00
+  mailed: 0
+  manager_id: 3000105
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 3000386
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 118
+  rating: 0
+  release_date: 
+  reporter_id: 3000386
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-04-12 14:07:47 -04:00
+  synopsis: "virtio-win bug fix and enhancement update "
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-12 14:07:47 -04:00
+  updated_at: 2011-04-13 22:21:23 -04:00
+errata_main_11123: 
+  assigned_to_id: 267999
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-13 06:27:06 -04:00
+  current_state_index_id: 10756
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11123-05
+  group_id: 147
+  id: 11123
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-13 06:27:06 -04:00
+  mailed: 0
+  manager_id: 158848
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 262302
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 122
+  rating: 0
+  release_date: 
+  reporter_id: 262302
+  request: 0
+  resolution: ""
+  respin_count: 1
+  revision: 5
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: QE
+  status_updated_at: 2011-04-14 09:41:42 -04:00
+  synopsis: acroread bug fix update
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-13 06:27:06 -04:00
+  updated_at: 2011-04-18 07:56:22 -04:00
+errata_main_11129: 
+  assigned_to_id: 242721
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-13 17:13:39 -04:00
+  current_state_index_id: 10774
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 19
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0447-09
+  group_id: 21
+  id: 11129
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-14 14:01:35 -04:00
+  mailed: 1
+  manager_id: 263394
+  old_advisory: RHSA-2011:11129-09
+  old_delete_product: 
+  package_owner_id: 11001
+  priority: normal
+  product_id: 16
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 114
+  rating: 0
+  release_date: 2011-04-13 00:00:00 Z
+  reporter_id: 275188
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 9
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-04-14 14:16:24 -04:00
+  synopsis: "Moderate: krb5 security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-14 14:01:33 -04:00
+  updated_at: 2011-04-14 14:25:22 -04:00
+  supports_multiple_product_destinations: true
+errata_main_11131: 
+  assigned_to_id: 267999
+  closed: 1
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-14 00:33:14 -04:00
+  current_state_index_id: 10867
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:0451-04
+  group_id: 21
+  id: 11131
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-18 11:37:20 -04:00
+  mailed: 1
+  manager_id: 158848
+  old_advisory: RHSA-2011:11131-04
+  old_delete_product: 
+  package_owner_id: 168845
+  priority: normal
+  product_id: 23
+  published: 1
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 122
+  rating: 0
+  release_date: 2011-04-15 00:00:00 Z
+  reporter_id: 3000183
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 4
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Critical
+  severity: normal
+  sign_requested: 0
+  status: SHIPPED_LIVE
+  status_updated_at: 2011-04-18 11:38:52 -04:00
+  synopsis: "Critical: flash-plugin security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-18 11:37:20 -04:00
+  updated_at: 2011-04-18 12:35:11 -04:00
+errata_main_11133: 
+  assigned_to_id: 270746
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-14 06:09:03 -04:00
+  current_state_index_id: 10845
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:11133-12
+  group_id: 21
+  id: 11133
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-14 06:09:03 -04:00
+  mailed: 0
+  manager_id: 24967
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 264390
+  priority: normal
+  product_id: 41
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2011-04-20 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 12
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_approved: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: REL_PREP
+  status_updated_at: 2011-04-18 09:20:30 -04:00
+  synopsis: "Important: jboss-seam security update"
+  text_only: true
+  text_ready: 0
+  update_date: 2011-04-14 06:09:03 -04:00
+  updated_at: 2011-04-18 21:12:29 -04:00
+errata_main_11138: 
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-15 07:27:06 -04:00
+  current_state_index_id: 10897
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:11138-07
+  group_id: 21
+  id: 11138
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-15 07:27:06 -04:00
+  mailed: 0
+  manager_id: 271789
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 195083
+  priority: normal
+  product_id: 65
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2011-04-20 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 7
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: REL_PREP
+  status_updated_at: 2011-04-19 03:29:27 -04:00
+  synopsis: "Important: JBoss Enterprise SOA Platform 4.3.0.CP04 and 5.1.0 security update"
+  text_only: true
+  text_ready: 0
+  update_date: 2011-04-15 07:27:06 -04:00
+  updated_at: 2011-04-19 06:53:11 -04:00
+errata_main_11142: 
+  assigned_to_id: 204586
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-15 13:37:18 -04:00
+  current_state_index_id: 10937
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 98
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:11142-01
+  group_id: 21
+  id: 11142
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-15 13:37:18 -04:00
+  mailed: 0
+  manager_id: 19711
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 12909
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 122
+  rating: 0
+  release_date: 2011-05-30 00:00:00 Z
+  reporter_id: 163483
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-04-19 10:36:07 -04:00
+  synopsis: "Important: kdenetwork security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2011-04-15 13:37:18 -04:00
+  updated_at: 2011-04-19 10:36:07 -04:00
+errata_main_11145: 
+  assigned_to_id: 267999
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-18 13:32:48 -04:00
+  current_state_index_id: 10944
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 98
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:11145-05
+  group_id: 21
+  id: 11145
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-18 13:32:48 -04:00
+  mailed: 0
+  manager_id: 19711
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 12909
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 122
+  rating: 0
+  release_date: 2011-04-11 00:00:00 Z
+  reporter_id: 275188
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 5
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: QE
+  status_updated_at: 2011-04-19 11:37:55 -04:00
+  synopsis: "Important: kdenetwork security update"
+  text_only: false
+  text_ready: 1
+  update_date: 2011-04-18 13:32:48 -04:00
+  updated_at: 2011-04-19 18:47:44 -04:00
+errata_main_11149: 
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-19 09:42:16 -04:00
+  current_state_index_id: 10926
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2011:11149-04
+  group_id: 21
+  id: 11149
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-19 09:42:16 -04:00
+  mailed: 0
+  manager_id: 3000134
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 79037
+  priority: normal
+  product_id: 53
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 
+  reporter_id: 215839
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 4
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-04-19 09:42:16 -04:00
+  synopsis: "Moderate: JBoss Enterprise Web Server 1.0.2 update"
+  text_only: true
+  text_ready: 0
+  update_date: 2011-04-19 09:42:16 -04:00
+  updated_at: 2011-04-19 10:31:02 -04:00
+errata_main_11150:
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-19 09:42:16 -04:00
+  current_state_index_id: 10926
+  current_tps_run:
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: PdcRHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2017:11150-04
+  group_id: 445
+  id: 11150
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-19 09:42:16 -04:00
+  mailed: 0
+  manager_id: 3000134
+  old_advisory:
+  old_delete_product:
+  package_owner_id: 79037
+  priority: normal
+  product_id: 223
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date:
+  reporter_id: 215839
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 4
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-04-19 09:42:16 -04:00
+  synopsis: "Red Hat Ceph Storage update, CDN Only"
+  text_only: true
+  text_ready: 0
+  update_date: 2011-04-19 09:42:16 -04:00
+  updated_at: 2011-04-19 10:31:02 -04:00
+errata_main_11151:
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-19 09:42:16 -04:00
+  current_state_index_id: 10926
+  current_tps_run:
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: PdcRHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2017:11151-04
+  group_id: 448
+  id: 11151
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-19 09:42:16 -04:00
+  mailed: 0
+  manager_id: 3000134
+  old_advisory:
+  old_delete_product:
+  package_owner_id: 79037
+  priority: normal
+  product_id: 225
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 2
+  rating: 0
+  release_date:
+  reporter_id: 215839
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 4
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Moderate
+  severity: normal
+  sign_requested: 0
+  status: NEW_FILES
+  status_updated_at: 2011-04-19 09:42:16 -04:00
+  synopsis: "Red Hat Ceph Storage update, CDN Only"
+  text_only: true
+  text_ready: 0
+  update_date: 2011-04-19 09:42:16 -04:00
+  updated_at: 2011-04-19 10:31:02 -04:00
+errata_main_11152: 
+  assigned_to_id: 3000497
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2011-04-19 12:18:31 -04:00
+  current_state_index_id: 10948
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 0
+  docs_responsibility_id: 1
+  errata_type: RHBA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHBA-2011:11152-01
+  group_id: 164
+  id: 11152
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2011-04-19 12:18:31 -04:00
+  mailed: 0
+  manager_id: 122586
+  old_advisory: 
+  old_delete_product: 
+  package_owner_id: 8448
+  priority: normal
+  product_id: 16
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 0
+  quality_responsibility_id: 124
+  rating: 0
+  release_date: 
+  reporter_id: 8448
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: None
+  severity: normal
+  sign_requested: 0
+  status: QE
+  status_updated_at: 2011-04-19 12:33:02 -04:00
+  synopsis: xorg-x11-drv-qxl bug fix update
+  text_only: false
+  text_ready: 1
+  update_date: 2011-04-19 12:18:31 -04:00
+  updated_at: 2011-04-19 12:33:02 -04:00
+errata_main_13147: 
+  assigned_to_id: 215194
+  closed: 1
+  contract: 
+  created_at: 2012-04-23 12:22:09 Z
+  current_state_index_id: 30159
+  current_tps_run: 
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2012:0987-01
+  group_id: 205
+  id: 13147
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2012-06-20 08:46:47 Z
+  mailed: 1
+  manager_id: 165188
+  old_advisory: RHSA-2012:13147-01
+  old_delete_product: 
+  package_owner_id: 209812
+  priority: normal
+  product_id: 16
+  publish_date_override: 
+  published: 1
+  published_shadow: 0
+  pushcount: 4
+  pushed: 1
+  qa_complete: 1
+  quality_responsibility_id: 113
+  rating: 0
+  release_date: 
+  reporter_id: 209812
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 1
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Low
+  severity: normal
+  sign_requested: 0
+  state_machine_rule_set_id:
+  status: SHIPPED_LIVE
+  status_updated_at: 2012-06-19 15:28:10 Z
+  synopsis: "Low: sblim-cim-client2 security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2012-06-20 08:46:47 Z
+  updated_at: 2012-06-20 10:20:53 Z
+  supports_multiple_product_destinations: true
+errata_main_16374: 
+  published: 0
+  text_ready: 0
+  package_owner_id: 209812
+  status_updated_at: 2014-01-22 15:22:35 Z
+  is_valid: 1
+  fulladvisory: RHEA-2014:16374-01
+  request: 0
+  manager_id: 198352
+  is_brew: 1
+  severity: normal
+  contract:
+  pushcount: 0
+  security_impact: None
+  group_id: 269
+  id: 16374
+  status: PUSH_READY
+  published_shadow: 0
+  filelist_locked: 0
+  respin_count: 0
+  old_advisory:
+  quality_responsibility_id: 2
+  qa_complete: 1
+  assigned_to_id: 174587
+  doc_complete: 1
+  rhnqa: 0
+  devel_responsibility_id: 3
+  revision: 1
+  rhnqa_shadow: 0
+  filelist_changed: 0
+  errata_type: RHEA
+  issue_date: 2014-01-22 14:29:39 Z
+  mailed: 0
+  deleted: 0
+  product_id: 82
+  created_at: 2014-01-22 14:29:39 Z
+  current_state_index_id: 54671
+  synopsis: CDN Only Advisory
+  old_delete_product:
+  priority: normal
+  rhn_complete: 0
+  publish_date_override:
+  actual_ship_date:
+  update_date: 2014-01-22 14:29:39 Z
+  resolution: ""
+  reporter_id: 209812
+  current_tps_run:
+  updated_at: 2014-01-22 15:22:35 Z
+  rating: 0
+  text_only: false
+  state_machine_rule_set_id:
+  release_date:
+  pushed: 0
+  closed: 0
+  sign_requested: 0
+  docs_responsibility_id: 1
+errata_main_16384:
+  published: 0
+  text_ready: 0
+  package_owner_id: 209812
+  status_updated_at: 2014-01-22 15:22:35 Z
+  is_valid: 1
+  fulladvisory: RHEA-2014:16384-01
+  request: 0
+  manager_id: 198352
+  is_brew: 1
+  severity: normal
+  contract:
+  pushcount: 0
+  security_impact: None
+  group_id: 269
+  id: 16384
+  status: QE
+  published_shadow: 0
+  filelist_locked: 0
+  respin_count: 0
+  old_advisory:
+  quality_responsibility_id: 2
+  qa_complete: 1
+  assigned_to_id: 174587
+  doc_complete: 1
+  rhnqa: 0
+  devel_responsibility_id: 3
+  revision: 1
+  rhnqa_shadow: 0
+  filelist_changed: 0
+  errata_type: RHEA
+  issue_date: 2014-01-22 14:29:39 Z
+  mailed: 0
+  deleted: 0
+  product_id: 82
+  created_at: 2014-01-22 14:29:39 Z
+  current_state_index_id: 54671
+  synopsis: CDN Only Advisory - QE
+  old_delete_product:
+  priority: normal
+  rhn_complete: 0
+  publish_date_override:
+  actual_ship_date:
+  update_date: 2014-01-22 14:29:39 Z
+  resolution: ""
+  reporter_id: 209812
+  current_tps_run:
+  updated_at: 2014-01-22 15:22:35 Z
+  rating: 0
+  text_only: false
+  state_machine_rule_set_id:
+  release_date:
+  pushed: 0
+  closed: 0
+  sign_requested: 0
+  docs_responsibility_id: 1
+errata_main_16375:
+  published: 0
+  text_ready: 0
+  package_owner_id: 198352
+  status_updated_at: 2014-01-22 15:22:35 Z
+  is_valid: 1
+  fulladvisory: RHEA-2014:16388-02
+  request: 0
+  manager_id: 198352
+  is_brew: 1
+  severity: normal
+  contract:
+  pushcount: 0
+  security_impact: None
+  group_id: 269
+  id: 16375
+  status: NEW_FILES
+  published_shadow: 0
+  filelist_locked: 0
+  respin_count: 0
+  old_advisory:
+  quality_responsibility_id: 2
+  qa_complete: 1
+  assigned_to_id: 174587
+  doc_complete: 1
+  rhnqa: 1
+  devel_responsibility_id: 3
+  revision: 1
+  rhnqa_shadow: 0
+  filelist_changed: 0
+  errata_type: RHEA
+  issue_date: 2014-01-22 14:29:39 Z
+  mailed: 0
+  deleted: 0
+  product_id: 41
+  created_at: 2014-01-22 14:29:39 Z
+  current_state_index_id: 54661
+  synopsis: EAP Rebase Bug with NEW_FILES
+  old_delete_product:
+  priority: normal
+  rhn_complete: 0
+  publish_date_override:
+  actual_ship_date:
+  update_date: 2014-01-22 14:29:39 Z
+  resolution: ""
+  reporter_id: 209812
+  current_tps_run:
+  updated_at: 2014-01-22 15:22:35 Z
+  rating: 0
+  text_only: true
+  state_machine_rule_set_id:
+  release_date:
+  pushed: 0
+  closed: 0
+  sign_requested: 0
+  docs_responsibility_id: 1
+errata_main_16376:
+  published: 0
+  text_ready: 0
+  package_owner_id: 198352
+  status_updated_at: 2014-01-22 15:22:35 Z
+  is_valid: 1
+  fulladvisory: RHEA-2014:16388-02
+  request: 0
+  manager_id: 198352
+  is_brew: 1
+  severity: normal
+  contract:
+  pushcount: 0
+  security_impact: None
+  group_id: 445
+  id: 16376
+  status: NEW_FILES
+  published_shadow: 0
+  filelist_locked: 0
+  respin_count: 0
+  old_advisory:
+  quality_responsibility_id: 2
+  qa_complete: 1
+  assigned_to_id: 174587
+  doc_complete: 1
+  rhnqa: 1
+  devel_responsibility_id: 3
+  revision: 1
+  rhnqa_shadow: 0
+  filelist_changed: 0
+  errata_type: PdcRHEA
+  issue_date: 2014-01-22 14:29:39 Z
+  mailed: 0
+  deleted: 0
+  product_id: 223
+  created_at: 2014-01-22 14:29:39 Z
+  current_state_index_id: 54661
+  synopsis: EAP Rebase Bug with NEW_FILES, CDN Only.
+  old_delete_product:
+  priority: normal
+  rhn_complete: 0
+  publish_date_override:
+  actual_ship_date:
+  update_date: 2014-01-22 14:29:39 Z
+  resolution: ""
+  reporter_id: 209812
+  current_tps_run:
+  updated_at: 2014-01-22 15:22:35 Z
+  rating: 0
+  text_only: true
+  state_machine_rule_set_id:
+  release_date:
+  pushed: 0
+  closed: 0
+  sign_requested: 0
+  docs_responsibility_id: 1
+errata_main_16372:
+  id: 16372
+  revision: 1
+  errata_type: "RHBA"
+  fulladvisory: "RHBA-2013:16372-01"
+  issue_date: "2013-11-18 19:06:39"
+  update_date: "2013-11-18 19:06:39"
+  release_date:
+  synopsis: "gdk-pixbuf2 bug fix and enhancement update"
+  mailed: 0
+  pushed: 0
+  published: 0
+  deleted: 0
+  qa_complete: 0
+  status: "QE"
+  resolution: ""
+  reporter_id: 73713
+  assigned_to_id: 173714
+  old_delete_product:
+  severity: "normal"
+  priority: "normal"
+  rhn_complete: 0
+  request: 0
+  doc_complete: 0
+  rhnqa: 0
+  closed: 0
+  contract:
+  pushcount: 0
+  text_ready: 1
+  package_owner_id: 73713
+  manager_id: 160436
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: "None"
+  product_id: 16
+  is_brew: 1
+  status_updated_at: "2014-02-18 07:12:18"
+  group_id: 259
+  created_at: "2013-11-18 19:06:39"
+  updated_at: "2014-02-18 07:12:18"
+  respin_count: 0
+  old_advisory:
+  rating: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 2
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 54660
+  text_only: false
+  publish_date_override:
+  state_machine_rule_set_id:
+  actual_ship_date:
+  supports_multiple_product_destinations: false
+rhba_16396:
+  errata_type: RHBA
+  mailed: 0
+  qa_complete: 0
+  resolution: ""
+  assigned_to_id: 174587
+  manager_id: 198352
+  created_at: 2014-07-23 01:40:25 Z
+  quality_responsibility_id: 2
+  is_valid: 1
+  supports_multiple_product_destinations: false
+  severity: normal
+  closed: 0
+  filelist_locked: 0
+  status_updated_at: 2014-07-23 01:40:25 Z
+  current_tps_run:
+  publish_date_override:
+  status: NEW_FILES
+  text_ready: 0
+  sign_requested: 0
+  security_impact: None
+  old_advisory:
+  current_state_index_id: 54683
+  text_only: false
+  actual_ship_date:
+  revision: 1
+  issue_date: 2014-07-23 01:40:25 Z
+  priority: normal
+  doc_complete: 0
+  updated_at: 2014-07-23 01:40:25 Z
+  rating: 0
+  reporter_id: 174587
+  pushcount: 0
+  product_id: 16
+  pushed: 0
+  old_delete_product:
+  rhn_complete: 0
+  package_owner_id: 174587
+  published_shadow: 0
+  respin_count: 0
+  devel_responsibility_id: 3
+  state_machine_rule_set_id:
+  filelist_changed: 0
+  group_id: 259
+  published: 0
+  request: 0
+  rhnqa: 0
+  docs_responsibility_id: 1
+  update_date: 2014-07-23 01:40:25 Z
+  release_date:
+  synopsis: docker RPM and non-RPM files
+  deleted: 0
+  contract:
+  rhnqa_shadow: 0
+  id: 16396
+  fulladvisory: RHBA-2014:16385-01
+  is_brew: 1
+rhba_16397:
+  severity: normal
+  rhnqa: 0
+  sign_requested: 0
+  current_state_index_id: 54684
+  deleted: 0
+  qa_complete: 0
+  status: NEW_FILES
+  resolution: ""
+  created_at: 2014-07-23 02:52:38 Z
+  devel_responsibility_id: 3
+  id: 16397
+  pushed: 0
+  closed: 0
+  old_advisory:
+  issue_date: 2014-07-23 02:52:38 Z
+  doc_complete: 0
+  package_owner_id: 174587
+  quality_responsibility_id: 2
+  supports_multiple_product_destinations: false
+  revision: 1
+  state_machine_rule_set_id:
+  actual_ship_date:
+  pushcount: 0
+  rhnqa_shadow: 0
+  current_tps_run:
+  is_brew: 1
+  status_updated_at: 2014-07-23 02:52:38 Z
+  respin_count: 0
+  published: 0
+  old_delete_product:
+  mailed: 0
+  reporter_id: 174587
+  request: 0
+  contract:
+  group_id: 21
+  fulladvisory: RHBA-2014:16397-01
+  manager_id: 198352
+  docs_responsibility_id: 1
+  is_valid: 1
+  text_only: false
+  update_date: 2014-07-23 02:52:38 Z
+  synopsis: picketlink - non-RPM content
+  priority: normal
+  rhn_complete: 0
+  published_shadow: 0
+  filelist_changed: 0
+  security_impact: None
+  errata_type: RHBA
+  release_date:
+  assigned_to_id: 174587
+  text_ready: 0
+  filelist_locked: 0
+  product_id: 41
+  updated_at: 2014-07-23 02:52:38 Z
+  rating: 0
+  publish_date_override:
+rhba_16409:
+  revision: 1
+  published: 0
+  text_ready: 1
+  rhnqa_shadow: 0
+  created_at: 2014-09-04 01:15:13 Z
+  docs_responsibility_id: 1
+  devel_responsibility_id: 3
+  state_machine_rule_set_id:
+  fulladvisory: RHBA-2014:16398-01
+  old_delete_product:
+  request: 0
+  sign_requested: 0
+  rating: 0
+  quality_responsibility_id: 2
+  rhn_complete: 0
+  package_owner_id: 96230
+  is_brew: 1
+  actual_ship_date:
+  mailed: 0
+  deleted: 0
+  qa_complete: 0
+  group_id: 152
+  updated_at: 2014-09-04 01:25:05 Z
+  current_state_index_id: 54713
+  assigned_to_id: 174587
+  manager_id: 198352
+  filelist_locked: 0
+  rhnqa: 0
+  respin_count: 0
+  text_only: false
+  publish_date_override:
+  issue_date: 2014-09-04 01:15:13 Z
+  release_date:
+  status: QE
+  severity: normal
+  priority: normal
+  doc_complete: 0
+  closed: 0
+  contract:
+  security_impact: None
+  errata_type: RHBA
+  update_date: 2014-09-04 01:15:13 Z
+  resolution: ""
+  pushcount: 0
+  published_shadow: 0
+  product_id: 55
+  pushed: 0
+  status_updated_at: 2014-09-04 01:25:05 Z
+  old_advisory:
+  supports_multiple_product_destinations: false
+  id: 16409
+  synopsis: Updated packages for spice-client-msi
+  reporter_id: 96230
+  current_tps_run:
+  filelist_changed: 0
+  is_valid: 1
+rhea_16616:
+  revision: 1
+  qa_complete: 1
+  status: PUSH_READY
+  priority: normal
+  doc_complete: 1
+  closed: 0
+  respin_count: 0
+  supports_multiple_product_destinations: false
+  reporter_id: 3000931
+  severity: normal
+  published_shadow: 0
+  old_advisory:
+  state_machine_rule_set_id:
+  actual_ship_date:
+  issue_date: 2014-09-22 06:21:18 Z
+  release_date:
+  rhnqa: 1
+  is_brew: 1
+  synopsis: RHEL Atomic OSTree Update
+  rhnqa_shadow: 0
+  filelist_changed: 0
+  status_updated_at: 2014-09-22 06:49:35 Z
+  id: 16616
+  fulladvisory: RHEA-2014:16616-01
+  mailed: 0
+  published: 0
+  text_ready: 0
+  package_owner_id: 3000931
+  current_tps_run:
+  sign_requested: 0
+  rating: 0
+  assigned_to_id: 174587
+  manager_id: 198352
+  is_valid: 1
+  errata_type: RHEA
+  rhn_complete: 0
+  pushcount: 0
+  product_id: 16
+  created_at: 2014-09-22 06:21:18 Z
+  docs_responsibility_id: 1
+  current_state_index_id: 54926
+  old_delete_product:
+  pushed: 0
+  deleted: 0
+  contract:
+  group_id: 21
+  quality_responsibility_id: 2
+  update_date: 2014-09-22 06:21:18 Z
+  filelist_locked: 0
+  devel_responsibility_id: 3
+  resolution: ""
+  request: 0
+  security_impact: None
+  updated_at: 2014-09-22 06:49:35 Z
+  text_only: true
+  publish_date_override:
+rhba_16654:
+  issue_date: 2014-09-30 06:32:50 Z
+  mailed: 0
+  resolution: ""
+  rhn_complete: 0
+  package_owner_id: 96230
+  quality_responsibility_id: 2
+  devel_responsibility_id: 3
+  update_date: 2014-09-30 06:32:50 Z
+  status: NEW_FILES
+  rating: 0
+  reporter_id: 3000931
+  old_delete_product:
+  request: 0
+  doc_complete: 0
+  product_id: 55
+  old_advisory:
+  docs_responsibility_id: 1
+  qa_complete: 0
+  rhnqa: 0
+  contract:
+  text_ready: 0
+  respin_count: 0
+  manager_id: 198352
+  rhnqa_shadow: 0
+  is_brew: 1
+  is_valid: 1
+  current_state_index_id: 55007
+  id: 16654
+  assigned_to_id: 174587
+  severity: normal
+  priority: normal
+  group_id: 152
+  revision: 1
+  synopsis: Text-only update for spice-client-msi
+  pushed: 0
+  current_tps_run:
+  status_updated_at: 2014-09-30 06:32:50 Z
+  created_at: 2014-09-30 06:32:50 Z
+  release_date:
+  pushcount: 0
+  publish_date_override:
+  state_machine_rule_set_id:
+  deleted: 0
+  closed: 0
+  published_shadow: 0
+  sign_requested: 0
+  security_impact: None
+  text_only: true
+  actual_ship_date:
+  errata_type: RHBA
+  fulladvisory: RHBA-2014:16654-01
+  published: 0
+  filelist_locked: 0
+  filelist_changed: 0
+  updated_at: 2014-09-30 06:32:50 Z
+  supports_multiple_product_destinations: false
+rhsa_19028:
+  package_owner_id: 3000496
+  severity: normal
+  rhn_complete: 0
+  created_at: 2014-10-03 15:02:05 Z
+  rating: 0
+  quality_responsibility_id: 107
+  current_state_index_id: 79924
+  errata_type: RHSA
+  fulladvisory: RHSA-2014:19028-01
+  release_date: 2014-10-14 00:00:00 Z
+  product_id: 16
+  is_brew: 1
+  group_id: 21
+  id: 19028
+  resolution: ""
+  reporter_id: 215839
+  docs_responsibility_id: 1
+  devel_responsibility_id: 3
+  state_machine_rule_set_id:
+  actual_ship_date:
+  update_date: 2014-10-03 15:02:05 Z
+  request: 0
+  doc_complete: 1
+  respin_count: 0
+  is_valid: 1
+  text_only: false
+  publish_date_override:
+  pushed: 0
+  deleted: 0
+  qa_complete: 1
+  old_delete_product:
+  published_shadow: 0
+  old_advisory:
+  revision: 1
+  pushcount: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: Important
+  updated_at: 2014-10-28 07:21:32 Z
+  synopsis: "Important: java-1.8.0-openjdk security update"
+  published: 0
+  rhnqa: 1
+  closed: 0
+  filelist_locked: 0
+  issue_date: 2014-10-03 15:02:05 Z
+  contract:
+  status_updated_at: 2014-10-28 07:21:32 Z
+  supports_multiple_product_destinations: false
+  mailed: 0
+  status: PUSH_READY
+  assigned_to_id: 3000667
+  priority: normal
+  text_ready: 0
+  manager_id: 104688
+  rhnqa_shadow: 0
+  current_tps_run:
+rhba_18916:
+  pushed: 1
+  status: SHIPPED_LIVE
+  updated_at: 2014-09-30 10:31:30 Z
+  respin_count: 0
+  state_machine_rule_set_id:
+  deleted: 0
+  reporter_id: 3001309
+  severity: normal
+  package_owner_id: 3001309
+  status_updated_at: 2014-09-30 10:31:30 Z
+  current_state_index_id: 79335
+  supports_multiple_product_destinations: false
+  update_date: 2014-09-30 10:26:36 Z
+  published: 1
+  sign_requested: 0
+  security_impact: None
+  product_id: 79
+  old_advisory: RHBA-2014:18916-04
+  devel_responsibility_id: 3
+  is_valid: 1
+  qa_complete: 1
+  rhn_complete: 0
+  text_ready: 0
+  published_shadow: 0
+  priority: normal
+  rhnqa: 1
+  pushcount: 1
+  revision: 4
+  old_delete_product:
+  doc_complete: 1
+  manager_id: 198352
+  filelist_changed: 0
+  created_at: 2014-09-26 14:55:33 Z
+  errata_type: RHBA
+  release_date:
+  synopsis: Red Hat OpenShift Enterprise 2.1 libcgroup bug fix update
+  assigned_to_id: 3000079
+  filelist_locked: 0
+  group_id: 361
+  publish_date_override:
+  actual_ship_date: 2014-09-30 10:31:30 Z
+  issue_date: 2014-09-30 10:26:39 Z
+  request: 0
+  closed: 0
+  is_brew: 1
+  id: 18916
+  mailed: 0
+  resolution: ""
+  contract:
+  rhnqa_shadow: 0
+  quality_responsibility_id: 139
+  fulladvisory: RHBA-2014:1329-04
+  docs_responsibility_id: 1
+  current_tps_run:
+  rating: 0
+  text_only: false
+rhba_18917:
+  pushed: 1
+  status: SHIPPED_LIVE
+  updated_at: 2014-09-30 10:31:26 Z
+  respin_count: 0
+  state_machine_rule_set_id:
+  deleted: 0
+  reporter_id: 3001309
+  severity: normal
+  package_owner_id: 3001309
+  status_updated_at: 2014-09-30 10:31:26 Z
+  current_state_index_id: 79334
+  supports_multiple_product_destinations: false
+  update_date: 2014-09-30 10:26:38 Z
+  published: 1
+  sign_requested: 0
+  security_impact: None
+  product_id: 79
+  old_advisory: RHBA-2014:18917-02
+  devel_responsibility_id: 3
+  is_valid: 1
+  qa_complete: 1
+  rhn_complete: 0
+  text_ready: 0
+  published_shadow: 0
+  priority: normal
+  rhnqa: 1
+  pushcount: 1
+  revision: 2
+  old_delete_product:
+  doc_complete: 1
+  manager_id: 198352
+  filelist_changed: 0
+  created_at: 2014-09-26 15:02:20 Z
+  errata_type: RHBA
+  release_date:
+  synopsis: Red Hat OpenShift Enterprise 2.0 libcgroup bug fix update
+  assigned_to_id: 3000079
+  filelist_locked: 0
+  group_id: 334
+  publish_date_override:
+  actual_ship_date: 2014-09-30 10:31:26 Z
+  issue_date: 2014-09-30 10:26:42 Z
+  request: 0
+  closed: 0
+  is_brew: 1
+  id: 18917
+  mailed: 0
+  resolution: ""
+  contract:
+  rhnqa_shadow: 0
+  quality_responsibility_id: 139
+  fulladvisory: RHBA-2014:1330-02
+  docs_responsibility_id: 1
+  current_tps_run:
+  rating: 0
+  text_only: false
+rhba_18905:
+  pushed: 1
+  status: SHIPPED_LIVE
+  updated_at: 2014-09-30 10:31:34 Z
+  respin_count: 0
+  state_machine_rule_set_id:
+  deleted: 0
+  reporter_id: 3001585
+  severity: normal
+  package_owner_id: 3001585
+  status_updated_at: 2014-09-30 10:31:34 Z
+  current_state_index_id: 79336
+  supports_multiple_product_destinations: false
+  update_date: 2014-09-30 10:26:33 Z
+  published: 1
+  sign_requested: 0
+  security_impact: None
+  product_id: 16
+  old_advisory: RHBA-2014:18905-04
+  devel_responsibility_id: 3
+  is_valid: 1
+  qa_complete: 1
+  rhn_complete: 0
+  text_ready: 0
+  published_shadow: 0
+  priority: normal
+  rhnqa: 1
+  pushcount: 1
+  revision: 4
+  old_delete_product:
+  doc_complete: 1
+  manager_id: 198352
+  filelist_changed: 0
+  created_at: 2014-09-25 11:15:33 Z
+  errata_type: RHBA
+  release_date:
+  synopsis: libcgroup bug fix update
+  assigned_to_id: 3000185
+  filelist_locked: 0
+  group_id: 325
+  publish_date_override:
+  actual_ship_date: 2014-09-30 10:31:34 Z
+  issue_date: 2014-09-30 10:26:36 Z
+  request: 0
+  closed: 0
+  is_brew: 1
+  id: 18905
+  mailed: 0
+  resolution: ""
+  contract:
+  rhnqa_shadow: 0
+  quality_responsibility_id: 108
+  fulladvisory: RHBA-2014:1328-04
+  docs_responsibility_id: 1
+  current_tps_run:
+  rating: 0
+  text_only: false
+rhba_18918:
+  pushed: 1
+  status: SHIPPED_LIVE
+  updated_at: 2014-09-30 10:31:21 Z
+  respin_count: 0
+  state_machine_rule_set_id:
+  deleted: 0
+  reporter_id: 3001309
+  severity: normal
+  package_owner_id: 3001309
+  status_updated_at: 2014-09-30 10:31:21 Z
+  current_state_index_id: 79333
+  supports_multiple_product_destinations: false
+  update_date: 2014-09-30 10:26:41 Z
+  published: 1
+  sign_requested: 0
+  security_impact: None
+  product_id: 79
+  old_advisory: RHBA-2014:18918-02
+  devel_responsibility_id: 3
+  is_valid: 1
+  qa_complete: 1
+  rhn_complete: 0
+  text_ready: 0
+  published_shadow: 0
+  priority: normal
+  rhnqa: 1
+  pushcount: 1
+  revision: 2
+  old_delete_product:
+  doc_complete: 1
+  manager_id: 198352
+  filelist_changed: 0
+  created_at: 2014-09-26 15:05:04 Z
+  errata_type: RHBA
+  release_date:
+  synopsis: Red Hat OpenShift Enterprise 1.2 libcgroup bug fix update
+  assigned_to_id: 3000079
+  filelist_locked: 0
+  group_id: 286
+  publish_date_override:
+  actual_ship_date: 2014-09-30 10:31:21 Z
+  issue_date: 2014-09-30 10:26:44 Z
+  request: 0
+  closed: 0
+  is_brew: 1
+  id: 18918
+  mailed: 0
+  resolution: ""
+  contract:
+  rhnqa_shadow: 0
+  quality_responsibility_id: 139
+  fulladvisory: RHBA-2014:1331-02
+  docs_responsibility_id: 1
+  current_tps_run:
+  rating: 0
+  text_only: false
+rhsa_16657:
+  package_owner_id: 3000931
+  rhnqa_shadow: 0
+  publish_date_override: 2014-10-31 00:00:00 Z
+  state_machine_rule_set_id:
+  actual_ship_date: 2014-11-04 04:13:34 Z
+  supports_multiple_product_destinations: false
+  rhnqa: 1
+  status_updated_at: 2014-11-04 04:13:34 Z
+  updated_at: 2014-11-04 04:14:44 Z
+  issue_date: 2014-11-04 04:13:19 Z
+  release_date:
+  request: 0
+  pushcount: 1
+  text_ready: 0
+  filelist_changed: 0
+  created_at: 2014-11-04 03:58:03 Z
+  text_only: false
+  assigned_to_id: 174587
+  manager_id: 198352
+  is_brew: 1
+  rating: 0
+  fulladvisory: RHSA-2014:0001-01
+  qa_complete: 1
+  severity: normal
+  closed: 1
+  devel_responsibility_id: 3
+  current_state_index_id: 55015
+  revision: 1
+  published: 1
+  priority: normal
+  current_tps_run:
+  respin_count: 0
+  old_delete_product:
+  old_advisory: RHSA-2014:16657-01
+  synopsis: "Moderate: RHEV-M Security Update"
+  mailed: 0
+  reporter_id: 3000931
+  rhn_complete: 0
+  contract:
+  filelist_locked: 0
+  id: 16657
+  errata_type: RHSA
+  published_shadow: 0
+  security_impact: Moderate
+  product_id: 55
+  docs_responsibility_id: 1
+  update_date: 2014-11-04 04:13:18 Z
+  deleted: 0
+  status: SHIPPED_LIVE
+  resolution: ""
+  doc_complete: 1
+  group_id: 152
+  quality_responsibility_id: 2
+  is_valid: 1
+  pushed: 0
+  sign_requested: 0
+rhsa_18894:
+  revision: 1
+  qa_complete: 0
+  assigned_to_id: 3000112
+  severity: normal
+  is_brew: 1
+  respin_count: 1
+  old_advisory:
+  publish_date_override:
+  mailed: 0
+  rhn_complete: 0
+  request: 0
+  closed: 0
+  manager_id: 3001066
+  filelist_locked: 0
+  docs_responsibility_id: 1
+  release_date:
+  priority: normal
+  rhnqa_shadow: 0
+  filelist_changed: 0
+  state_machine_rule_set_id:
+  resolution: ""
+  old_delete_product:
+  pushcount: 0
+  current_tps_run:
+  rating: 0
+  current_state_index_id: 79983
+  text_only: false
+  issue_date: 2014-09-25 02:37:47 Z
+  text_ready: 1
+  group_id: 356
+  quality_responsibility_id: 118
+  errata_type: RHSA
+  fulladvisory: RHSA-2014:18894-01
+  package_owner_id: 3000069
+  created_at: 2014-09-25 02:37:47 Z
+  synopsis: "Low: qemu-kvm security and bug fix update"
+  published_shadow: 0
+  status_updated_at: 2014-10-08 06:25:57 Z
+  is_valid: 1
+  doc_complete: 0
+  sign_requested: 0
+  security_impact: Low
+  product_id: 16
+  update_date: 2014-09-25 02:37:47 Z
+  pushed: 0
+  published: 0
+  deleted: 0
+  actual_ship_date:
+  id: 18894
+  rhnqa: 0
+  contract:
+  updated_at: 2014-10-08 06:25:59 Z
+  devel_responsibility_id: 3
+  supports_multiple_product_destinations: false
+  status: QE
+  reporter_id: 3000644
+rhba_19029:
+  assigned_to_id: 264981
+  old_delete_product:
+  filelist_locked: 0
+  status_updated_at: 2015-01-07 03:08:45 Z
+  quality_responsibility_id: 110
+  fulladvisory: RHBA-2015:19029-01
+  rhnqa_shadow: 0
+  text_only: false
+  publish_date_override:
+  revision: 1
+  issue_date: 2015-01-07 02:55:56 Z
+  doc_complete: 1
+  manager_id: 198352
+  current_tps_run:
+  updated_at: 2015-01-07 03:08:45 Z
+  errata_type: RHBA
+  created_at: 2015-01-07 02:55:57 Z
+  is_valid: 1
+  id: 19029
+  release_date:
+  qa_complete: 1
+  sign_requested: 0
+  product_id: 16
+  state_machine_rule_set_id:
+  pushed: 0
+  deleted: 0
+  resolution: ""
+  severity: normal
+  rhn_complete: 0
+  pushcount: 0
+  respin_count: 0
+  old_advisory:
+  rating: 0
+  docs_responsibility_id: 1
+  current_state_index_id: 79987
+  update_date: 2015-01-07 02:55:56 Z
+  mailed: 0
+  published: 0
+  request: 0
+  contract:
+  filelist_changed: 0
+  group_id: 147
+  devel_responsibility_id: 3
+  supports_multiple_product_destinations: false
+  reporter_id: 3000931
+  priority: normal
+  text_ready: 0
+  published_shadow: 0
+  is_brew: 1
+  status: PUSH_READY
+  closed: 0
+  synopsis: redhat-release-server bug fix and enhancement update
+  rhnqa: 1
+  package_owner_id: 3000931
+  security_impact: None
+  actual_ship_date:
+rhba_19030:
+  fulladvisory: RHBA-2015:19030-02
+  status: PUSH_READY
+  reporter_id: 3000931
+  text_ready: 0
+  created_at: 2015-01-12 03:49:27 Z
+  is_valid: 1
+  rhnqa: 1
+  security_impact: None
+  actual_ship_date:
+  issue_date: 2015-01-12 03:49:27 Z
+  synopsis: btrfs-progs bug fix and enhancement update [rhn_live restricted]
+  mailed: 0
+  deleted: 0
+  qa_complete: 1
+  old_delete_product:
+  request: 0
+  pushcount: 0
+  rhnqa_shadow: 0
+  published_shadow: 0
+  status_updated_at: 2015-01-12 05:07:23 Z
+  resolution: ""
+  manager_id: 198352
+  sign_requested: 0
+  old_advisory:
+  current_state_index_id: 79993
+  text_only: false
+  publish_date_override:
+  id: 19030
+  severity: normal
+  rhn_complete: 0
+  group_id: 147
+  errata_type: RHBA
+  respin_count: 0
+  state_machine_rule_set_id:
+  contract:
+  filelist_changed: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 108
+  pushed: 0
+  filelist_locked: 0
+  priority: normal
+  product_id: 16
+  is_brew: 1
+  updated_at: 2015-01-12 05:07:23 Z
+  devel_responsibility_id: 3
+  update_date: 2015-01-12 03:49:27 Z
+  published: 0
+  assigned_to_id: 273956
+  rating: 0
+  supports_multiple_product_destinations: false
+  revision: 2
+  release_date:
+  doc_complete: 1
+  closed: 0
+  package_owner_id: 3000931
+  current_tps_run:
+rhba_19031:
+  fulladvisory: RHBA-2015:19031-02
+  status: QE
+  reporter_id: 3000931
+  text_ready: 1
+  created_at: 2015-01-12 04:54:46 Z
+  is_valid: 1
+  rhnqa: 0
+  security_impact: None
+  actual_ship_date:
+  issue_date: 2015-01-12 04:54:45 Z
+  synopsis: cronie bug fix and enhancement update [rhn_stage restricted]
+  mailed: 0
+  deleted: 0
+  qa_complete: 0
+  old_delete_product:
+  request: 0
+  pushcount: 0
+  rhnqa_shadow: 0
+  published_shadow: 0
+  status_updated_at: 2015-01-12 05:16:06 Z
+  resolution: ""
+  manager_id: 198352
+  sign_requested: 0
+  old_advisory:
+  current_state_index_id: 79998
+  text_only: false
+  publish_date_override:
+  id: 19031
+  severity: normal
+  rhn_complete: 0
+  group_id: 147
+  errata_type: RHBA
+  respin_count: 0
+  state_machine_rule_set_id:
+  contract:
+  filelist_changed: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 113
+  pushed: 0
+  filelist_locked: 0
+  priority: normal
+  product_id: 16
+  is_brew: 1
+  updated_at: 2015-01-12 05:16:07 Z
+  devel_responsibility_id: 3
+  update_date: 2015-01-12 04:54:45 Z
+  published: 0
+  assigned_to_id: 3000001
+  rating: 0
+  supports_multiple_product_destinations: false
+  revision: 2
+  release_date:
+  doc_complete: 0
+  closed: 0
+  package_owner_id: 3000931
+  current_tps_run:
+rhba_19032:
+  fulladvisory: RHBA-2015:19032-02
+  status: PUSH_READY
+  reporter_id: 3000931
+  text_ready: 0
+  created_at: 2015-01-12 05:01:05 Z
+  is_valid: 1
+  rhnqa: 1
+  security_impact: None
+  actual_ship_date:
+  issue_date: 2015-01-12 05:01:05 Z
+  synopsis: device-mapper-multipath bug fix and enhancement update [cdn restricted]
+  mailed: 0
+  deleted: 0
+  qa_complete: 1
+  old_delete_product:
+  request: 0
+  pushcount: 0
+  rhnqa_shadow: 0
+  published_shadow: 0
+  status_updated_at: 2015-01-12 05:22:50 Z
+  resolution: ""
+  manager_id: 198352
+  sign_requested: 0
+  old_advisory:
+  current_state_index_id: 80002
+  text_only: false
+  publish_date_override:
+  id: 19032
+  severity: normal
+  rhn_complete: 0
+  group_id: 147
+  errata_type: RHBA
+  respin_count: 0
+  state_machine_rule_set_id: 15
+  contract:
+  filelist_changed: 0
+  docs_responsibility_id: 61
+  quality_responsibility_id: 108
+  pushed: 0
+  filelist_locked: 0
+  priority: normal
+  product_id: 16
+  is_brew: 1
+  updated_at: 2015-01-12 05:22:50 Z
+  devel_responsibility_id: 3
+  update_date: 2015-01-12 05:01:05 Z
+  published: 0
+  assigned_to_id: 273956
+  rating: 0
+  supports_multiple_product_destinations: false
+  revision: 2
+  release_date:
+  doc_complete: 1
+  closed: 0
+  package_owner_id: 3000931
+  current_tps_run:
+rhba_19033:
+  fulladvisory: RHBA-2015:19033-02
+  status: QE
+  reporter_id: 3000931
+  text_ready: 1
+  created_at: 2015-01-12 05:02:32 Z
+  is_valid: 1
+  rhnqa: 0
+  security_impact: None
+  actual_ship_date:
+  issue_date: 2015-01-12 05:02:32 Z
+  synopsis: blktrace bug fix and enhancement update [cdn_stage restricted]
+  mailed: 0
+  deleted: 0
+  qa_complete: 0
+  old_delete_product:
+  request: 0
+  pushcount: 0
+  rhnqa_shadow: 0
+  published_shadow: 0
+  status_updated_at: 2015-01-12 05:16:16 Z
+  resolution: ""
+  manager_id: 198352
+  sign_requested: 0
+  old_advisory:
+  current_state_index_id: 80000
+  text_only: false
+  publish_date_override:
+  id: 19033
+  severity: normal
+  rhn_complete: 0
+  group_id: 147
+  errata_type: RHBA
+  respin_count: 0
+  state_machine_rule_set_id:
+  contract:
+  filelist_changed: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 114
+  pushed: 0
+  filelist_locked: 0
+  priority: normal
+  product_id: 16
+  is_brew: 1
+  updated_at: 2015-01-12 05:16:16 Z
+  devel_responsibility_id: 3
+  update_date: 2015-01-12 05:02:32 Z
+  published: 0
+  assigned_to_id: 3000002
+  rating: 0
+  supports_multiple_product_destinations: false
+  revision: 2
+  release_date:
+  doc_complete: 0
+  closed: 0
+  package_owner_id: 3000931
+  current_tps_run:
+
+rhsa_19463:
+  pushed: 0
+  old_delete_product:
+  priority: normal
+  updated_at: 2015-01-30 00:10:53 Z
+  quality_responsibility_id: 107
+  state_machine_rule_set_id: 15
+  issue_date: 2015-01-29 23:57:14 Z
+  text_ready: 0
+  package_owner_id: 3000931
+  created_at: 2015-01-29 23:57:15 Z
+  respin_count: 0
+  errata_type: RHSA
+  published: 0
+  rhn_complete: 0
+  contract:
+  pushcount: 0
+  rating: 0
+  security_approved: true
+  revision: 1
+  reporter_id: 3000931
+  doc_complete: 1
+  status_updated_at: 2015-01-30 00:09:01 Z
+  docs_responsibility_id: 1
+  current_state_index_id: 92517
+  qa_complete: 1
+  manager_id: 198352
+  filelist_changed: 0
+  sign_requested: 0
+  group_id: 147
+  text_only: false
+  publish_date_override:
+  devel_responsibility_id: 3
+  actual_ship_date:
+  status: REL_PREP
+  published_shadow: 0
+  supports_multiple_product_destinations: false
+  release_date:
+  rhnqa: 1
+  product_id: 16
+  old_advisory:
+  mailed: 0
+  resolution: ""
+  assigned_to_id: 3000000
+  request: 0
+  closed: 0
+  rhnqa_shadow: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2015:19463-01
+  deleted: 0
+  security_impact: Moderate
+  is_brew: 1
+  id: 19463
+  update_date: 2015-01-29 23:57:14 Z
+  synopsis: "Moderate: python-ethtool security update"
+  severity: normal
+  current_tps_run:
+  is_valid: 1
+rhba_19401:
+  deleted: 0
+  resolution: ""
+  current_tps_run:
+  id: 19401
+  old_delete_product:
+  rhnqa: 0
+  text_ready: 0
+  filelist_changed: 0
+  security_impact: None
+  text_only: false
+  state_machine_rule_set_id:
+  revision: 1
+  pushed: 0
+  request: 0
+  closed: 0
+  rhnqa_shadow: 0
+  filelist_locked: 0
+  synopsis: testing advisory for rhel-7.1.z ppc64le feature
+  is_brew: 1
+  devel_responsibility_id: 3
+  errata_type: RHBA
+  severity: normal
+  current_state_index_id: 81623
+  mailed: 0
+  contract:
+  created_at: 2015-02-11 01:46:49 Z
+  old_advisory:
+  rating: 0
+  release_date:
+  priority: normal
+  rhn_complete: 0
+  doc_complete: 0
+  published_shadow: 0
+  group_id: 452
+  docs_responsibility_id: 1
+  issue_date: 2015-02-11 01:46:49 Z
+  qa_complete: 0
+  assigned_to_id: 174587
+  quality_responsibility_id: 2
+  is_valid: 1
+  update_date: 2015-02-11 01:46:49 Z
+  published: 0
+  status: NEW_FILES
+  manager_id: 198352
+  product_id: 16
+  status_updated_at: 2015-02-11 01:46:49 Z
+  updated_at: 2015-02-11 01:46:49 Z
+  supports_multiple_product_destinations: false
+  fulladvisory: RHBA-2015:19401-01
+  reporter_id: 3000931
+  pushcount: 0
+  package_owner_id: 3000931
+  sign_requested: 0
+  respin_count: 0
+  publish_date_override:
+  actual_ship_date:
+rhba_19829:
+  fulladvisory: RHBA-2015:19829-01
+  published: 0
+  priority: normal
+  pushcount: 0
+  product_id: 16
+  updated_at: 2015-02-11 05:54:22 Z
+  pushed: 0
+  severity: normal
+  contract:
+  package_owner_id: 3000931
+  reporter_id: 3000931
+  old_delete_product:
+  published_shadow: 0
+  sign_requested: 0
+  rhn_complete: 0
+  rhnqa: 0
+  filelist_changed: 0
+  group_id: 452
+  rating: 0
+  quality_responsibility_id: 2
+  text_ready: 0
+  current_state_index_id: 82828
+  actual_ship_date:
+  created_at: 2015-02-11 05:54:22 Z
+  revision: 1
+  errata_type: RHBA
+  release_date:
+  assigned_to_id: 174587
+  manager_id: 198352
+  rhnqa_shadow: 0
+  status_updated_at: 2015-02-11 05:54:22 Z
+  publish_date_override:
+  status: NEW_FILES
+  old_advisory:
+  update_date: 2015-02-11 05:54:22 Z
+  request: 0
+  doc_complete: 0
+  closed: 0
+  current_tps_run:
+  filelist_locked: 0
+  respin_count: 0
+  docs_responsibility_id: 1
+  text_only: false
+  state_machine_rule_set_id: 15
+  id: 19829
+  synopsis: advisory missing PPC64LE builds
+  deleted: 0
+  security_impact: None
+  devel_responsibility_id: 3
+  supports_multiple_product_destinations: false
+  issue_date: 2015-02-11 05:54:22 Z
+  mailed: 0
+  qa_complete: 0
+  resolution: ""
+  is_brew: 1
+  is_valid: 1
+rhba_19828:
+  old_delete_product:
+  priority: normal
+  security_impact: None
+  status_updated_at: 2015-02-18 05:58:45 Z
+  supports_multiple_product_destinations: false
+  update_date: 2015-02-18 05:14:47 Z
+  pushcount: 0
+  sign_requested: 0
+  release_date:
+  mailed: 0
+  rhn_complete: 0
+  contract:
+  rating: 0
+  text_only: false
+  id: 19828
+  deleted: 0
+  assigned_to_id: 174587
+  docs_responsibility_id: 1
+  published_shadow: 0
+  created_at: 2015-02-18 05:14:47 Z
+  is_valid: 1
+  current_state_index_id: 94604
+  reporter_id: 3000931
+  doc_complete: 0
+  package_owner_id: 3000931
+  rhnqa_shadow: 0
+  current_tps_run:
+  is_brew: 1
+  respin_count: 0
+  devel_responsibility_id: 3
+  publish_date_override:
+  issue_date: 2015-02-18 05:14:47 Z
+  request: 0
+  rhnqa: 0
+  filelist_locked: 0
+  security_approved:
+  errata_type: RHBA
+  published: 0
+  qa_complete: 0
+  group_id: 21
+  state_machine_rule_set_id:
+  fulladvisory: RHBA-2015:19828-01
+  resolution: ""
+  severity: normal
+  text_ready: 1
+  filelist_changed: 0
+  actual_ship_date:
+  pushed: 0
+  closed: 0
+  product_id: 16
+  quality_responsibility_id: 2
+  revision: 1
+  synopsis: test ASYNC with multiple product versions
+  status: QE
+  manager_id: 198352
+  updated_at: 2015-02-18 05:58:45 Z
+  old_advisory:
+rhsa_19435:
+  release_date: 2014-12-17 00:00:00 Z
+  severity: normal
+  request: 0
+  text_ready: 0
+  docs_responsibility_id: 1
+  text_only: false
+  supports_multiple_product_destinations: true
+  id: 19435
+  pushed: 1
+  rhn_complete: 0
+  doc_complete: 1
+  rhnqa: 1
+  closed: 1
+  manager_id: 213086
+  old_advisory: RHSA-2014:19435-08
+  security_approved:
+  deleted: 0
+  qa_complete: 1
+  pushcount: 2
+  filelist_changed: 0
+  errata_type: RHSA
+  mailed: 1
+  status: SHIPPED_LIVE
+  resolution: ""
+  rhnqa_shadow: 0
+  created_at: 2014-12-05 17:00:36 Z
+  updated_at: 2015-02-18 12:58:04 Z
+  revision: 8
+  update_date: 2014-12-18 17:39:17 Z
+  assigned_to_id: 267999
+  status_updated_at: 2014-12-18 18:31:00 Z
+  actual_ship_date: 2014-12-18 18:30:59 Z
+  issue_date: 2014-12-18 17:39:14 Z
+  reporter_id: 3001330
+  product_id: 16
+  quality_responsibility_id: 122
+  publish_date_override:
+  old_delete_product:
+  published_shadow: 0
+  sign_requested: 0
+  is_brew: 1
+  fulladvisory: RHSA-2014:2021-08
+  synopsis: "Important: jasper security update"
+  contract:
+  package_owner_id: 3000027
+  current_tps_run:
+  filelist_locked: 0
+  state_machine_rule_set_id:
+  published: 1
+  security_impact: Important
+  group_id: 21
+  respin_count: 1
+  devel_responsibility_id: 3
+  is_valid: 1
+  priority: normal
+  rating: 0
+  current_state_index_id: 85693
+rhba_19707:
+  deleted: 0
+  resolution: ""
+  current_tps_run:
+  id: 19707
+  old_delete_product:
+  rhnqa: 0
+  text_ready: 0
+  filelist_changed: 0
+  security_impact: None
+  text_only: false
+  state_machine_rule_set_id:
+  revision: 1
+  pushed: 0
+  request: 0
+  closed: 0
+  rhnqa_shadow: 0
+  filelist_locked: 0
+  synopsis: Supplementary testing advisory for rhel-7.1.z ppc64le feature
+  is_brew: 1
+  devel_responsibility_id: 3
+  errata_type: RHBA
+  severity: normal
+  current_state_index_id: 104687
+  mailed: 0
+  contract:
+  created_at: 2015-02-11 01:46:49 Z
+  old_advisory:
+  rating: 0
+  release_date:
+  priority: normal
+  rhn_complete: 0
+  doc_complete: 0
+  published_shadow: 0
+  group_id: 452
+  docs_responsibility_id: 1
+  issue_date: 2015-02-11 01:46:49 Z
+  qa_complete: 0
+  assigned_to_id: 174587
+  quality_responsibility_id: 2
+  is_valid: 1
+  update_date: 2015-02-11 01:46:49 Z
+  published: 0
+  status: NEW_FILES
+  manager_id: 198352
+  product_id: 112
+  status_updated_at: 2015-02-11 01:46:49 Z
+  updated_at: 2015-02-11 01:46:49 Z
+  supports_multiple_product_destinations: false
+  fulladvisory: RHBA-2015:19707-01
+  reporter_id: 3000931
+  pushcount: 0
+  package_owner_id: 3000931
+  sign_requested: 0
+  respin_count: 0
+  publish_date_override:
+  actual_ship_date:
+  batch_id: 2
+  is_batch_blocker: true
+rhba_20291:
+  fulladvisory: RHBA-2015:0916-05
+  pushed: 0
+  severity: normal
+  priority: normal
+  errata_type: RHBA
+  update_date: 2015-04-29 10:01:26 Z
+  closed: 0
+  created_at: 2015-04-09 19:13:42 Z
+  devel_responsibility_id: 3
+  current_state_index_id: 94452
+  synopsis: libvirt bug fix update
+  status: NEW_FILES
+  request: 0
+  doc_complete: 0
+  filelist_locked: 0
+  updated_at: 2015-04-29 10:09:48 Z
+  respin_count: 0
+  published: 0
+  qa_complete: 0
+  old_delete_product:
+  manager_id: 3001066
+  status_updated_at: 2015-04-29 10:09:46 Z
+  docs_responsibility_id: 1
+  deleted: 0
+  resolution: ""
+  assigned_to_id: 3000505
+  text_ready: 0
+  sign_requested: 0
+  product_id: 16
+  is_valid: 1
+  actual_ship_date:
+  contract:
+  quality_responsibility_id: 118
+  supports_multiple_product_destinations: true
+  release_date:
+  reporter_id: 270531
+  rhnqa: 0
+  rhnqa_shadow: 0
+  published_shadow: 0
+  mailed: 0
+  rhn_complete: 0
+  filelist_changed: 0
+  old_advisory:
+  rating: 0
+  publish_date_override:
+  is_brew: 1
+  group_id: 412
+  id: 20291
+  issue_date: 2015-04-29 10:01:29 Z
+  pushcount: 0
+  package_owner_id: 270531
+  security_impact: None
+  text_only: false
+  security_approved:
+  revision: 1
+  current_tps_run:
+  state_machine_rule_set_id: 15
+rhsa_20292:
+  id: 20292
+  pushed: 0
+  rhn_complete: 0
+  rhnqa: 0
+  contract:
+  current_tps_run:
+  respin_count: 0
+  state_machine_rule_set_id:
+  issue_date: 2015-09-17 06:01:26 Z
+  synopsis: "Low: Red Hat JBoss Enterprise Application Platform 6.4.0 update"
+  published: 0
+  doc_complete: 0
+  manager_id: 198352
+  is_brew: 1
+  revision: 1
+  errata_type: RHSA
+  fulladvisory: RHSA-2015:20292-01
+  priority: normal
+  filelist_changed: 0
+  text_only: false
+  group_id: 21
+  rating: 0
+  mailed: 0
+  published_shadow: 0
+  product_id: 41
+  actual_ship_date:
+  security_approved:
+  is_valid: 1
+  deleted: 0
+  resolution: ""
+  filelist_locked: 0
+  created_at: 2015-09-17 06:01:26 Z
+  publish_date_override:
+  status: NEW_FILES
+  rhnqa_shadow: 0
+  devel_responsibility_id: 3
+  update_date: 2015-09-17 06:01:26 Z
+  reporter_id: 3000931
+  severity: normal
+  pushcount: 0
+  text_ready: 0
+  updated_at: 2015-09-17 06:01:26 Z
+  current_state_index_id: 104688
+  release_date:
+  closed: 0
+  package_owner_id: 3000931
+  old_advisory:
+  docs_responsibility_id: 1
+  supports_multiple_product_destinations: false
+  qa_complete: 0
+  assigned_to_id: 174587
+  old_delete_product:
+  request: 0
+  sign_requested: 0
+  security_impact: Low
+  status_updated_at: 2015-09-17 06:01:26 Z
+  quality_responsibility_id: 2
+rhba_20836:
+  text_ready: 0
+  rating: 0
+  revision: 1
+  update_date: 2015-09-22 04:55:25 Z
+  release_date:
+  published: 0
+  resolution: ""
+  assigned_to_id: 174587
+  rhnqa: 0
+  status_updated_at: 2015-09-22 04:55:25 Z
+  group_id: 468
+  text_only: false
+  publish_date_override:
+  security_approved:
+  fulladvisory: RHBA-2015:20836-01
+  manager_id: 198352
+  filelist_locked: 0
+  filelist_changed: 0
+  old_advisory:
+  qa_complete: 0
+  reporter_id: 3000931
+  old_delete_product:
+  current_tps_run:
+  created_at: 2015-09-22 04:55:25 Z
+  status: NEW_FILES
+  rhn_complete: 0
+  pushcount: 0
+  is_valid: 1
+  closed: 0
+  mailed: 0
+  deleted: 0
+  respin_count: 0
+  synopsis: cloud-init bug fix and enhancement update
+  request: 0
+  published_shadow: 0
+  is_brew: 1
+  updated_at: 2015-09-22 04:55:25 Z
+  current_state_index_id: 107372
+  state_machine_rule_set_id: 15
+  id: 20836
+  rhnqa_shadow: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 130
+  errata_type: RHBA
+  pushed: 0
+  severity: normal
+  priority: normal
+  contract:
+  sign_requested: 0
+  security_impact: None
+  product_id: 16
+  devel_responsibility_id: 3
+  issue_date: 2015-09-22 04:55:25 Z
+  doc_complete: 0
+  package_owner_id: 3000931
+  actual_ship_date:
+  supports_multiple_product_destinations: false
+rhba_20044:
+  errata_type: RHBA
+  qa_complete: 1
+  priority: normal
+  rhn_complete: 0
+  published_shadow: 1
+  old_advisory: RHBA-2015:20044-06
+  docs_responsibility_id: 19
+  text_only: false
+  deleted: 0
+  severity: normal
+  request: 0
+  pushed: 1
+  closed: 0
+  security_approved:
+  issue_date: 2015-07-22 05:33:00 Z
+  status: SHIPPED_LIVE
+  filelist_changed: 0
+  sign_requested: 0
+  group_id: 424
+  updated_at: 2015-08-10 11:31:58 Z
+  quality_responsibility_id: 117
+  fulladvisory: RHBA-2015:1395-06
+  update_date: 2015-07-22 05:33:00 Z
+  manager_id: 160277
+  filelist_locked: 0
+  is_brew: 1
+  status_updated_at: 2015-07-20 14:07:31 Z
+  is_valid: 1
+  mailed: 0
+  rhnqa: 1
+  security_impact: None
+  product_id: 16
+  respin_count: 2
+  revision: 6
+  doc_complete: 1
+  rhnqa_shadow: 0
+  is_batch_blocker: false
+  release_date:
+  reporter_id: 3000772
+  assigned_to_id: 3000736
+  contract:
+  pushcount: 3
+  package_owner_id: 3000772
+  state_machine_rule_set_id:
+  supports_multiple_product_destinations: false
+  synopsis: rhn-client-tools bug fix update
+  resolution: ""
+  text_ready: 0
+  id: 20044
+  current_tps_run:
+  devel_responsibility_id: 3
+  current_state_index_id: 102458
+  actual_ship_date: 2015-07-20 14:07:30 Z
+  published: 1
+  old_delete_product:
+  created_at: 2015-03-03 10:43:41 Z
+  rating: 0
+  publish_date_override:
+  batch_id:
+rhba_20466:
+  errata_type: RHBA
+  qa_complete: 1
+  priority: normal
+  rhn_complete: 0
+  published_shadow: 0
+  old_advisory: RHBA-2015:20466-02
+  docs_responsibility_id: 79
+  text_only: false
+  deleted: 0
+  severity: normal
+  request: 0
+  pushed: 1
+  closed: 0
+  security_approved:
+  issue_date: 2015-07-27 09:07:03 Z
+  status: SHIPPED_LIVE
+  filelist_changed: 0
+  sign_requested: 0
+  group_id: 465
+  updated_at: 2015-07-27 09:29:55 Z
+  quality_responsibility_id: 111
+  fulladvisory: RHBA-2015:1500-02
+  update_date: 2015-07-27 09:07:06 Z
+  manager_id: 48211
+  filelist_locked: 0
+  is_brew: 1
+  status_updated_at: 2015-07-27 09:29:55 Z
+  is_valid: 1
+  mailed: 0
+  rhnqa: 1
+  security_impact: None
+  product_id: 16
+  respin_count: 0
+  revision: 2
+  doc_complete: 1
+  rhnqa_shadow: 0
+  is_batch_blocker: false
+  release_date:
+  reporter_id: 246681
+  assigned_to_id: 225931
+  contract:
+  pushcount: 1
+  package_owner_id: 246681
+  state_machine_rule_set_id:
+  supports_multiple_product_destinations: false
+  synopsis: liberation-fonts bug fix update
+  resolution: ""
+  text_ready: 0
+  id: 20466
+  current_tps_run:
+  devel_responsibility_id: 3
+  current_state_index_id: 103116
+  actual_ship_date: 2015-07-27 09:29:55 Z
+  published: 1
+  old_delete_product:
+  created_at: 2015-05-06 07:05:01 Z
+  rating: 0
+  publish_date_override:
+  batch_id:
+rhba_19655:
+  update_date: 2015-03-26 06:13:55 Z
+  status: QE
+  status_updated_at: 2015-03-26 06:32:55 Z
+  supports_multiple_product_destinations: false
+  rhn_complete: 0
+  manager_id: 48211
+  group_id: 401
+  batch_id: 
+  old_delete_product: 
+  rhnqa: 0
+  text_ready: 0
+  filelist_locked: 0
+  sign_requested: 0
+  product_id: 74
+  publish_date_override: 2015-03-26 00:00:00 Z
+  published: 1
+  resolution: ""
+  rating: 0
+  text_only: false
+  reporter_id: 246681
+  published_shadow: 0
+  state_machine_rule_set_id: 
+  actual_ship_date: 2015-03-26 06:32:55 Z
+  issue_date: 2015-03-26 06:13:48 Z
+  severity: normal
+  package_owner_id: 246681
+  current_tps_run: 
+  security_impact: None
+  docs_responsibility_id: 1
+  devel_responsibility_id: 3
+  current_state_index_id: 93404
+  assigned_to_id: 225931
+  priority: normal
+  is_brew: 1
+  updated_at: 2015-03-26 06:32:55 Z
+  respin_count: 1
+  quality_responsibility_id: 141
+  revision: 9
+  errata_type: RHBA
+  mailed: 0
+  contract: 
+  pushcount: 0
+  rhnqa_shadow: 0
+  is_batch_blocker: false
+  request: 0
+  doc_complete: 1
+  created_at: 2015-01-16 09:40:18 Z
+  synopsis: Red Hat Storage 3.0 enhancement and bug fix update #4
+  pushed: 0
+  is_valid: 1
+  security_approved: 
+  id: 19655
+  fulladvisory: RHBA-2015:0682-09
+  release_date: 
+  deleted: 0
+  qa_complete: 0
+  closed: 0
+  filelist_changed: 0
+  old_advisory: RHBA-2015:19655-02
+rhba_21009:
+  fulladvisory: RHBA-2015:2394-17
+  assigned_to_id: 224771
+  mailed: 0
+  published: 1
+  reporter_id: 3002080
+  status_updated_at: 2015-11-19 06:03:00 Z
+  actual_ship_date: 2015-11-19 06:02:59 Z
+  security_approved:
+  request: 0
+  is_brew: 1
+  old_advisory: RHBA-2015:21009-17
+  devel_responsibility_id: 3
+  text_only: false
+  batch_id:
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  contract:
+  filelist_locked: 0
+  updated_at: 2015-11-19 16:22:47 Z
+  docs_responsibility_id: 1
+  pushcount: 1
+  publish_date_override:
+  supports_multiple_product_destinations: false
+  id: 21009
+  issue_date: 2015-11-19 13:44:01 Z
+  manager_id: 261745
+  security_impact: None
+  release_date:
+  pushed: 1
+  resolution: ""
+  rhnqa: 1
+  created_at: 2015-07-01 13:07:12 Z
+  is_batch_blocker: false
+  synopsis: kernel-aarch64 bug fix and enhancement update
+  deleted: 0
+  rhn_complete: 0
+  doc_complete: 1
+  rhnqa_shadow: 0
+  product_id: 16
+  is_valid: 1
+  update_date: 2015-11-19 13:44:01 Z
+  severity: normal
+  priority: normal
+  current_tps_run:
+  sign_requested: 0
+  revision: 17
+  errata_type: RHBA
+  old_delete_product:
+  text_ready: 0
+  quality_responsibility_id: 143
+  current_state_index_id: 112448
+  closed: 0
+  package_owner_id: 3002080
+  published_shadow: 0
+  filelist_changed: 0
+  group_id: 468
+  respin_count: 0
+  rating: 0
+  state_machine_rule_set_id:
+rhba_21100:
+  errata_type: RHBA
+  mailed: 0
+  qa_complete: 0
+  resolution: ""
+  assigned_to_id: 174587
+  manager_id: 198352
+  created_at: 2016-03-03 01:00:00 Z
+  quality_responsibility_id: 2
+  is_valid: 1
+  supports_multiple_product_destinations: false
+  severity: normal
+  closed: 0
+  filelist_locked: 0
+  status_updated_at: 2016-03-03 01:00:00 Z
+  current_tps_run:
+  publish_date_override:
+  status: PUSH_READY
+  text_ready: 0
+  sign_requested: 0
+  security_impact: None
+  old_advisory:
+  current_state_index_id: 110004
+  text_only: false
+  actual_ship_date:
+  revision: 1
+  issue_date: 2014-07-23 01:40:25 Z
+  priority: normal
+  doc_complete: 1
+  updated_at: 2016-03-03 01:00:00 Z
+  rating: 0
+  reporter_id: 174587
+  pushcount: 0
+  product_id: 16
+  pushed: 0
+  old_delete_product:
+  rhn_complete: 0
+  package_owner_id: 174587
+  published_shadow: 0
+  respin_count: 0
+  devel_responsibility_id: 3
+  state_machine_rule_set_id:
+  filelist_changed: 0
+  group_id: 452
+  published: 0
+  request: 0
+  rhnqa: 0
+  docs_responsibility_id: 1
+  update_date: 2016-03-03 01:00:00 Z
+  release_date:
+  synopsis: docker test
+  deleted: 0
+  contract:
+  rhnqa_shadow: 0
+  id: 21100
+  fulladvisory: RHBA-2016:21100-01
+  is_brew: 1
+rhba_21101:
+  batch_id:
+  synopsis: Test docker push advisory
+  qa_complete: 0
+  current_tps_run:
+  filelist_changed: 0
+  is_brew: 1
+  severity: normal
+  package_owner_id: 3000931
+  is_valid: 1
+  supports_multiple_product_destinations: false
+  rating: 0
+  updated_at: 2016-04-26 05:07:41 Z
+  state_machine_rule_set_id:
+  actual_ship_date:
+  errata_type: RHBA
+  mailed: 0
+  resolution: ""
+  rhnqa: 0
+  closed: 0
+  status_updated_at: 2016-04-26 05:07:41 Z
+  created_at: 2016-04-26 05:07:41 Z
+  quality_responsibility_id: 2
+  current_state_index_id: 112449
+  issue_date: 2016-04-26 05:07:41 Z
+  published: 0
+  rhn_complete: 0
+  rhnqa_shadow: 0
+  filelist_locked: 0
+  product_id: 16
+  publish_date_override: 2016-04-25 00:00:00 Z
+  update_date: 2016-04-26 05:07:41 Z
+  security_impact: None
+  security_approved:
+  id: 21101
+  revision: 1
+  pushed: 0
+  published_shadow: 0
+  text_only: false
+  release_date:
+  deleted: 0
+  assigned_to_id: 174587
+  old_delete_product:
+  text_ready: 0
+  sign_requested: 0
+  group_id: 516
+  respin_count: 0
+  old_advisory:
+  devel_responsibility_id: 3
+  fulladvisory: RHBA-2016:21101-01
+  status: NEW_FILES
+  reporter_id: 3000931
+  priority: normal
+  request: 0
+  doc_complete: 0
+  contract:
+  pushcount: 0
+  manager_id: 198352
+  docs_responsibility_id: 1
+  is_batch_blocker: false
+rhba_22001:
+  batch_id:
+  synopsis: End to end test advisory
+  qa_complete: 0
+  current_tps_run:
+  filelist_changed: 0
+  is_brew: 1
+  severity: normal
+  package_owner_id: 3000931
+  is_valid: 1
+  supports_multiple_product_destinations: false
+  rating: 0
+  updated_at: 2016-04-26 05:07:41 Z
+  state_machine_rule_set_id:
+  actual_ship_date:
+  errata_type: RHBA
+  mailed: 0
+  resolution: ""
+  rhnqa: 0
+  closed: 0
+  status_updated_at: 2016-04-26 05:07:41 Z
+  created_at: 2016-04-26 05:07:41 Z
+  quality_responsibility_id: 2
+  current_state_index_id: 112449
+  issue_date: 2016-04-26 05:07:41 Z
+  published: 0
+  rhn_complete: 0
+  rhnqa_shadow: 0
+  filelist_locked: 0
+  product_id: 116
+  publish_date_override: 2016-04-25 00:00:00 Z
+  update_date: 2016-04-26 05:07:41 Z
+  security_impact: None
+  security_approved:
+  id: 22001
+  revision: 1
+  pushed: 0
+  published_shadow: 0
+  text_only: false
+  release_date:
+  deleted: 0
+  assigned_to_id: 174587
+  old_delete_product:
+  text_ready: 0
+  sign_requested: 0
+  group_id: 516
+  respin_count: 0
+  old_advisory:
+  devel_responsibility_id: 3
+  fulladvisory: RHBA-2016:22001-01
+  status: NEW_FILES
+  reporter_id: 3000931
+  priority: normal
+  request: 0
+  doc_complete: 0
+  contract:
+  pushcount: 0
+  manager_id: 198352
+  docs_responsibility_id: 1
+  is_batch_blocker: false
+errata_main_23101:
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2007-04-16 00:00:00 -04:00
+  current_state_index_id: 121580
+  current_tps_run: 6911
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: RHSA
+  filelist_changed: 0
+  filelist_locked: 1
+  fulladvisory: RHSA-2016:0525-03
+  group_id: 21
+  id: 23101
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2016-03-30 00:00:00 -04:00
+  mailed: 1
+  manager_id: 174587
+  old_advisory: RHSA-2016:23101-03
+  old_delete_product:
+  package_owner_id: 174587
+  priority: normal
+  product_id: 23
+  published: 0
+  published_shadow: 0
+  pushcount: 1
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 122
+  rating: 0
+  release_date:
+  reporter_id: 174587
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 3
+  rhn_complete: 0
+  rhnqa: 1
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: IN_PUSH
+  status_updated_at: 2016-03-30 07:54:58 -04:00
+  synopsis: "Important: chromium-browser security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2016-03-30 00:00:00 -04:00
+  updated_at: 2016-03-30 00:00:00 -04:00
+rhba_21130:
+  fulladvisory: RHBA-2015:2398-17
+  assigned_to_id: 224771
+  mailed: 0
+  published: 1
+  reporter_id: 3002080
+  status_updated_at: 2016-03-10 03:10:17 Z
+  actual_ship_date:
+  security_approved:
+  request: 0
+  is_brew: 1
+  old_advisory:
+  devel_responsibility_id: 3
+  text_only: false
+  batch_id:
+  qa_complete: 1
+  status: PUSH_READY
+  contract:
+  filelist_locked: 1
+  updated_at: 2016-03-10 17:22:47 Z
+  docs_responsibility_id: 1
+  pushcount: 0
+  publish_date_override:
+  supports_multiple_product_destinations: false
+  id: 21130
+  issue_date: 2016-02-01 14:07:12 Z
+  manager_id: 261745
+  security_impact: None
+  release_date:
+  pushed: 0
+  resolution: ""
+  rhnqa: 1
+  created_at: 2016-02-01 14:07:12 Z
+  is_batch_blocker: false
+  synopsis: docker push test
+  deleted: 0
+  rhn_complete: 0
+  doc_complete: 1
+  rhnqa_shadow: 0
+  product_id: 16
+  is_valid: 1
+  update_date: 2016-03-10 14:44:01 Z
+  severity: normal
+  priority: normal
+  current_tps_run:
+  sign_requested: 0
+  revision: 17
+  errata_type: RHBA
+  old_delete_product:
+  text_ready: 0
+  quality_responsibility_id: 143
+  current_state_index_id: 110070
+  closed: 0
+  package_owner_id: 3000931
+  published_shadow: 0
+  filelist_changed: 0
+  group_id: 468
+  respin_count: 0
+  rating: 0
+  state_machine_rule_set_id:
+rhba_22508:
+  rhn_complete: 0
+  rhnqa: 1
+  closed: 0
+  filelist_locked: 0
+  sign_requested: 0
+  is_brew: 1
+  supports_multiple_product_destinations: false
+  id: 22508
+  fulladvisory: RHBA-2016:0964-02
+  resolution: ""
+  assigned_to_id: 156795
+  package_owner_id: 271514
+  filelist_changed: 0
+  security_impact: None
+  product_id: 16
+  respin_count: 8
+  current_state_index_id: 126153
+  security_approved:
+  pushed: 1
+  request: 0
+  current_tps_run:
+  is_valid: 1
+  synopsis: lvm2 bug fix and enhancement update
+  mailed: 0
+  deleted: 0
+  group_id: 516
+  batch_id:
+  revision: 2
+  severity: normal
+  status_updated_at: 2016-05-10 18:57:40 Z
+  rating: 0
+  devel_responsibility_id: 3
+  state_machine_rule_set_id:
+  published: 1
+  old_delete_product:
+  doc_complete: 1
+  published_shadow: 0
+  updated_at: 2016-05-10 18:57:42 Z
+  old_advisory: RHBA-2016:22508-02
+  reporter_id: 271514
+  priority: normal
+  created_at: 2016-01-20 15:41:48 Z
+  docs_responsibility_id: 1
+  text_only: false
+  publish_date_override:
+  actual_ship_date: 2016-05-10 18:57:40 Z
+  errata_type: RHBA
+  text_ready: 0
+  rhnqa_shadow: 0
+  release_date:
+  pushcount: 1
+  issue_date: 2016-05-10 06:42:46 Z
+  update_date: 2016-05-10 06:42:46 Z
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  contract:
+  manager_id: 156802
+  quality_responsibility_id: 104
+  is_batch_blocker: false
+rhba_24604:
+  id: 24604
+  revision: 4
+  errata_type: RHBA
+  fulladvisory: RHBA-2016:1890-04
+  issue_date: 2016-09-15 08:04:06 Z
+  update_date: 2016-09-15 08:04:06 Z
+  release_date:
+  synopsis: Red Hat Enterprise Linux Atomic 7.2.7 Tools Container Image Update
+  mailed: 0
+  pushed: 0
+  published: 1
+  deleted: 0
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  resolution: ""
+  reporter_id: 3000650
+  assigned_to_id: 84972
+  old_delete_product:
+  severity: normal
+  priority: normal
+  rhn_complete: 0
+  request: 0
+  doc_complete: 1
+  rhnqa: 1
+  closed: 0
+  contract:
+  pushcount: 1
+  text_ready: 0
+  package_owner_id: 3000650
+  manager_id: 165188
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: None
+  product_id: 102
+  is_brew: 1
+  status_updated_at: 2016-09-15 11:05:13 Z
+  group_id: 369
+  created_at: 2016-08-25 14:04:43 Z
+  updated_at: 2016-09-15 11:05:13 Z
+  respin_count: 3
+  old_advisory: RHBA-2016:24604-04
+  rating: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 2
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 138724
+  text_only: false
+  publish_date_override: 2016-09-13 00:00:00 Z
+  state_machine_rule_set_id:
+  actual_ship_date: 2016-09-15 11:05:13 Z
+  supports_multiple_product_destinations: false
+  security_approved:
+  batch_id: 69
+  is_batch_blocker: false
+  request_rcm_push_comment_id:
+rhsa_24434:
+  id: 24434
+  revision: 14
+  errata_type: RHSA
+  fulladvisory: RHSA-2016:1847-14
+  issue_date: 2016-09-14 14:34:54 Z
+  update_date: 2016-09-14 20:36:31 Z
+  release_date:
+  synopsis: "Important: kernel security, bug fix, and enhancement update"
+  mailed: 1
+  pushed: 1
+  published: 1
+  deleted: 0
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  resolution: ""
+  reporter_id: 3000644
+  assigned_to_id: 3001776
+  old_delete_product:
+  severity: normal
+  priority: normal
+  rhn_complete: 0
+  request: 0
+  doc_complete: 1
+  rhnqa: 1
+  closed: 1
+  contract:
+  pushcount: 1
+  text_ready: 0
+  package_owner_id: 3000650
+  manager_id: 32221
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: Important
+  product_id: 16
+  is_brew: 1
+  status_updated_at: 2016-09-15 07:38:04 Z
+  group_id: 524
+  created_at: 2016-08-07 08:19:28 Z
+  updated_at: 2016-09-15 10:08:50 Z
+  respin_count: 1
+  old_advisory: RHSA-2016:24434-14
+  rating: 0
+  docs_responsibility_id: 57
+  quality_responsibility_id: 108
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 138671
+  text_only: false
+  publish_date_override: 2016-09-13 00:00:00 Z
+  state_machine_rule_set_id:
+  actual_ship_date: 2016-09-15 07:38:04 Z
+  supports_multiple_product_destinations: false
+  security_approved: true
+  batch_id: 64
+  is_batch_blocker: true
+  request_rcm_push_comment_id:
+rhba_24467:
+  id: 24467
+  revision: 3
+  errata_type: RHBA
+  fulladvisory: RHBA-2016:1863-03
+  issue_date: 2016-09-14 14:34:59 Z
+  update_date: 2016-09-14 20:36:34 Z
+  release_date:
+  synopsis: selinux-policy bug fix update
+  mailed: 0
+  pushed: 1
+  published: 1
+  deleted: 0
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  resolution: ""
+  reporter_id: 3001782
+  assigned_to_id: 261258
+  old_delete_product:
+  severity: normal
+  priority: normal
+  rhn_complete: 0
+  request: 0
+  doc_complete: 1
+  rhnqa: 1
+  closed: 0
+  contract:
+  pushcount: 1
+  text_ready: 0
+  package_owner_id: 3001782
+  manager_id: 167999
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: None
+  product_id: 16
+  is_brew: 1
+  status_updated_at: 2016-09-15 07:40:35 Z
+  group_id: 524
+  created_at: 2016-08-10 09:05:31 Z
+  updated_at: 2016-09-15 07:40:35 Z
+  respin_count: 1
+  old_advisory: RHBA-2016:24467-03
+  rating: 0
+  docs_responsibility_id: 19
+  quality_responsibility_id: 114
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 138673
+  text_only: false
+  publish_date_override:
+  state_machine_rule_set_id:
+  actual_ship_date: 2016-09-15 07:40:35 Z
+  supports_multiple_product_destinations: false
+  security_approved:
+  batch_id: 64
+  is_batch_blocker: false
+  request_rcm_push_comment_id:
+rhba_24491:
+  id: 24491
+  revision: 3
+  errata_type: RHBA
+  fulladvisory: RHBA-2016:1833-03
+  issue_date: 2016-09-14 14:35:09 Z
+  update_date: 2016-09-14 20:36:39 Z
+  release_date:
+  synopsis: device-mapper-multipath bug fix update
+  mailed: 0
+  pushed: 1
+  published: 1
+  deleted: 0
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  resolution: ""
+  reporter_id: 156798
+  assigned_to_id: 3002014
+  old_delete_product:
+  severity: normal
+  priority: normal
+  rhn_complete: 0
+  request: 0
+  doc_complete: 1
+  rhnqa: 1
+  closed: 0
+  contract:
+  pushcount: 1
+  text_ready: 0
+  package_owner_id: 156798
+  manager_id: 84974
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: None
+  product_id: 16
+  is_brew: 1
+  status_updated_at: 2016-09-15 07:46:25 Z
+  group_id: 524
+  created_at: 2016-08-11 22:54:32 Z
+  updated_at: 2016-09-15 07:46:25 Z
+  respin_count: 0
+  old_advisory: RHBA-2016:24491-03
+  rating: 0
+  docs_responsibility_id: 61
+  quality_responsibility_id: 2
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 138677
+  text_only: false
+  publish_date_override: 2016-05-12 00:00:00 Z
+  state_machine_rule_set_id:
+  actual_ship_date: 2016-09-15 07:46:25 Z
+  supports_multiple_product_destinations: false
+  security_approved:
+  batch_id: 64
+  is_batch_blocker: false
+  request_rcm_push_comment_id:
+rhba_24565:
+  id: 24565
+  revision: 5
+  errata_type: RHBA
+  fulladvisory: RHBA-2016:1832-05
+  issue_date: 2016-09-14 14:35:12 Z
+  update_date: 2016-09-14 20:36:41 Z
+  release_date:
+  synopsis: kmod bug fix update
+  mailed: 0
+  pushed: 1
+  published: 1
+  deleted: 0
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  resolution: ""
+  reporter_id: 214794
+  assigned_to_id: 3001649
+  old_delete_product:
+  severity: normal
+  priority: normal
+  rhn_complete: 0
+  request: 0
+  doc_complete: 1
+  rhnqa: 1
+  closed: 0
+  contract:
+  pushcount: 1
+  text_ready: 0
+  package_owner_id: 214794
+  manager_id: 160825
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: None
+  product_id: 16
+  is_brew: 1
+  status_updated_at: 2016-09-15 07:48:45 Z
+  group_id: 524
+  created_at: 2016-08-22 17:47:06 Z
+  updated_at: 2016-09-15 07:48:45 Z
+  respin_count: 2
+  old_advisory: RHBA-2016:24565-04
+  rating: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 2
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 138679
+  text_only: false
+  publish_date_override:
+  state_machine_rule_set_id:
+  actual_ship_date: 2016-09-15 07:48:45 Z
+  supports_multiple_product_destinations: false
+  security_approved:
+  batch_id: 64
+  is_batch_blocker: false
+  request_rcm_push_comment_id:
+rhba_24626:
+  id: 24626
+  revision: 3
+  errata_type: RHBA
+  fulladvisory: RHBA-2016:1834-03
+  issue_date: 2016-09-14 14:35:20 Z
+  update_date: 2016-09-14 20:36:45 Z
+  release_date:
+  synopsis: python bugfix update
+  mailed: 0
+  pushed: 1
+  published: 1
+  deleted: 0
+  qa_complete: 1
+  status: SHIPPED_LIVE
+  resolution: ""
+  reporter_id: 3002340
+  assigned_to_id: 3001284
+  old_delete_product:
+  severity: normal
+  priority: normal
+  rhn_complete: 0
+  request: 0
+  doc_complete: 1
+  rhnqa: 1
+  closed: 0
+  contract:
+  pushcount: 1
+  text_ready: 0
+  package_owner_id: 3002340
+  manager_id: 198352
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: None
+  product_id: 16
+  is_brew: 1
+  status_updated_at: 2016-09-15 07:52:41 Z
+  group_id: 524
+  created_at: 2016-08-29 15:12:09 Z
+  updated_at: 2016-09-15 07:52:41 Z
+  respin_count: 0
+  old_advisory: RHBA-2016:24626-01
+  rating: 0
+  docs_responsibility_id: 19
+  quality_responsibility_id: 107
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 138683
+  text_only: false
+  publish_date_override:
+  state_machine_rule_set_id:
+  actual_ship_date: 2016-09-15 07:52:41 Z
+  supports_multiple_product_destinations: true
+  security_approved:
+  batch_id: 64
+  is_batch_blocker: false
+  request_rcm_push_comment_id:
+pdc_rhba_24627:
+  id: 24627
+  revision: 1
+  errata_type: PdcRHBA
+  fulladvisory: RHBA-2017:24627-01
+  issue_date: 2017-03-21 01:56:54 Z
+  update_date: 2017-03-21 01:56:54 Z
+  release_date:
+  synopsis: pdc advisory without builds
+  mailed: 0
+  pushed: 0
+  published: 0
+  deleted: 0
+  qa_complete: 0
+  status: NEW_FILES
+  resolution: ""
+  reporter_id: 3000931
+  assigned_to_id: 207873
+  old_delete_product:
+  severity: normal
+  priority: normal
+  rhn_complete: 0
+  request: 0
+  doc_complete: 0
+  rhnqa: 0
+  closed: 0
+  contract:
+  pushcount: 0
+  text_ready: 0
+  package_owner_id: 3000931
+  manager_id: 198352
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: None
+  product_id: 223
+  is_brew: 1
+  status_updated_at: 2017-03-21 01:56:54 Z
+  group_id: 445
+  created_at: 2017-03-21 01:56:54 Z
+  updated_at: 2017-03-21 01:58:45 Z
+  respin_count: 0
+  old_advisory:
+  rating: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 2
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 138999
+  text_only: false
+  publish_date_override:
+  state_machine_rule_set_id:
+  actual_ship_date:
+  supports_multiple_product_destinations:
+  security_approved:
+  batch_id:
+  is_batch_blocker: false
+  request_rcm_push_comment_id:
+pdc_rhba_10000:
+  id: 10000
+  revision: 1
+  errata_type: PdcRHBA
+  fulladvisory: RHBA-2017:10000-01
+  issue_date: 2017-03-27 01:56:54 Z
+  update_date: 2017-03-27 01:56:54 Z
+  release_date:
+  synopsis: pdc advisory qe status
+  mailed: 0
+  pushed: 0
+  published: 0
+  deleted: 0
+  qa_complete: 0
+  status: QE
+  resolution: ""
+  reporter_id: 3000931
+  assigned_to_id: 207873
+  old_delete_product:
+  severity: normal
+  priority: normal
+  rhn_complete: 0
+  request: 0
+  doc_complete: 0
+  rhnqa: 0
+  closed: 0
+  contract:
+  pushcount: 0
+  text_ready: 1
+  package_owner_id: 3000931
+  manager_id: 198352
+  rhnqa_shadow: 0
+  published_shadow: 0
+  current_tps_run:
+  filelist_locked: 0
+  filelist_changed: 0
+  sign_requested: 0
+  security_impact: None
+  product_id: 223
+  is_brew: 1
+  status_updated_at: 2017-03-27 01:56:54 Z
+  group_id: 445
+  created_at: 2017-03-27 01:56:54 Z
+  updated_at: 2017-03-27 01:58:45 Z
+  respin_count: 0
+  old_advisory:
+  rating: 0
+  docs_responsibility_id: 1
+  quality_responsibility_id: 2
+  devel_responsibility_id: 3
+  is_valid: 1
+  current_state_index_id: 138740
+  text_only: false
+  publish_date_override:
+  state_machine_rule_set_id:
+  actual_ship_date:
+  supports_multiple_product_destinations:
+  security_approved:
+  batch_id:
+  is_batch_blocker: false
+  request_rcm_push_comment_id:
+errata_main_20000:
+  assigned_to_id: 174587
+  closed: 0
+  contract:
+  state_machine_rule_set_id:
+  created_at: 2017-05-10 07:27:06 -04:00
+  current_state_index_id: 10897
+  current_tps_run:
+  deleted: 0
+  devel_responsibility_id: 3
+  doc_complete: 1
+  docs_responsibility_id: 1
+  errata_type: PdcRHSA
+  filelist_changed: 0
+  filelist_locked: 0
+  fulladvisory: RHSA-2017:10001-07
+  group_id: 448
+  id: 20000
+  is_brew: 1
+  is_valid: 1
+  issue_date: 2017-05-10 07:27:06 -04:00
+  mailed: 0
+  manager_id: 271789
+  old_advisory:
+  old_delete_product:
+  package_owner_id: 195083
+  priority: normal
+  product_id: 225
+  published: 0
+  published_shadow: 0
+  pushcount: 0
+  pushed: 0
+  qa_complete: 1
+  quality_responsibility_id: 2
+  rating: 0
+  release_date: 2017-05-10 00:00:00 Z
+  reporter_id: 215107
+  request: 0
+  resolution: ""
+  respin_count: 0
+  revision: 7
+  rhn_complete: 0
+  rhnqa: 0
+  rhnqa_shadow: 0
+  security_impact: Important
+  severity: normal
+  sign_requested: 0
+  status: REL_PREP
+  status_updated_at: 2017-05-10 03:29:27 -04:00
+  synopsis: "Important: JBoss Enterprise SOA Platform 4.3.0.CP04 and 5.1.0 security update"
+  text_only: false
+  text_ready: 0
+  update_date: 2017-05-10 07:27:06 -04:00
+  updated_at: 2017-05-10 06:53:11 -04:00

@@ -1,0 +1,30 @@
+<%= table_rows_helper([
+  [ {:colspan=>2, :content=>error_messages_for('product')} ],
+  [ 'Short Name',           f.text_field(:short_name, :class => 'shorter') ],
+  [ 'Name',                 f.text_field(:name) ],
+  [ 'Description',          f.text_field(:description, :class => 'longer') ],
+  [ 'Valid Bug States',     f.text_field(:valid_bug_states, :class => 'longer') ],
+  [ 'Active?',              {:content=>f.check_box(:isactive),
+                              :note=>'Is the product active for Errata filing?'} ],
+  [ 'Supports PDC?',        {:content=>f.check_box(:supports_pdc,
+                                                   :disabled => @is_editing && !@product.can_change_supports_pdc?),
+                              :note=>supports_pdc_note_text(@product, @is_editing)} ],
+  ([ 'PDC Product',         render('edit_pdc_product',  :f=>f,
+                                   :pdc_products => @pdc_products, :product => @product)] if @product.supports_pdc? &&
+                                                                                             @is_editing),
+  [ 'FTP Path',             f.text_field(:ftp_path) ],
+  [ 'FTP Subdirectory',     f.text_field(:ftp_subdir) ],
+  [ 'Internal Product?',    {:content=>f.check_box(:is_internal, {:class => 'internal-check'}),
+                              :note=>'A Red Hat Internal Product (eg Bugzilla, Beaker, Ackviewer, etc)'} ],
+  [ 'Allowed Push Targets', render('edit_push_targets', :f=>f) ],
+  [ 'CDW Flag Prefix',      {:content=>f.text_field(:cdw_flag_prefix, :class=>'shorter cdw_flag_prefix_input'),
+                              :note=>'Please leave blank unless this is an (HSS) Internal product'} ],
+  [ 'Default Solution',     render('edit_default_solution',  :f=>f) ],
+  [ 'Workflow Rule Set',    render('edit_workflow_rule_set', :f=>f) ],
+  [ 'Move bugs to ON_QA',   render('edit_move_bugs_to_on_qa', :f=>f) ],
+  [ 'Text-only advisories require dists?', {
+    :content=>f.check_box(:text_only_advisories_require_dists),
+    :note=>'Does the product require channels or repos for text-only advisories?
+      For instance many Middleware products have no presence on RHN or RHSM,
+      so uncheck this to allow them to push without channels or repos.'} ],
+], :labels=>true) %>

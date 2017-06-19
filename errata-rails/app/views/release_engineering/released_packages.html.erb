@@ -1,0 +1,9 @@
+<div class="float-right btn-container">
+  <%= link_to('Remove Released Packages',
+        { :action => :remove_released_package, :id => @pv.id },
+        :class => 'btn') if current_user.can_remove_released_packages? && @pv.present? %>
+</div>
+
+<%= page_title_h1 %>
+
+<%= render 'released_packages_list', :enable_remove_package_form => false %>

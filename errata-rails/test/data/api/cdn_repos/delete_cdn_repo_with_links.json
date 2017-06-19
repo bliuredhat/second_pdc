@@ -1,0 +1,9 @@
+# HTTP 400
+{
+  "errors": {
+    "CDN repository": [
+      "'rhel-6-server-rpms__6Server__x86_64' is attached to multiple variants: 6Server-6.5.z.",
+      "'rhel-6-server-rpms__6Server__x86_64' is depending by multi product mapped origin cdn repos."
+    ]
+  }
+}

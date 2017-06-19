@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": 21,
+      "type": "releases",
+      "attributes": {
+        "name": "ASYNC",
+        "description": "Asyncronous Group",
+        "type": "Async",
+        "allow_pkg_dupes": false,
+        "ship_date": "2014-06-19T00:00:00Z",
+        "is_active": true,
+        "enabled": true,
+        "enable_batching": false,
+        "is_async": true,
+        "is_deferred": false,
+        "allow_shadow": false,
+        "allow_blocker": false,
+        "allow_exception": false,
+        "blocker_flags": [ "rhel-4.7", "fast", "devel_ack", "qa_ack" ]
+      },
+      "relationships": {
+        "brew_tags": [],
+        "product_versions": [
+          { "id": 200, "name": "RHEL-5-JBEAP-6" },
+          { "id": 384, "name": "RHEL-6.6.z" }
+        ]
+      }
+    },
+    {
+      "id": 161,
+      "type": "releases",
+      "attributes": {
+        "name": "FAST5.7",
+        "description": "Fastrack errata for RHEL 5.7",
+        "type": "FastTrack",
+        "allow_pkg_dupes": false,
+        "ship_date": null,
+        "is_active": true,
+        "enabled": true,
+        "enable_batching": false,
+        "is_async": false,
+        "is_deferred": false,
+        "allow_shadow": false,
+        "allow_blocker": false,
+        "allow_exception": false,
+        "blocker_flags": [ "rhel-5.7.0", "fast", "devel_ack", "qa_ack" ]
+      },
+      "relationships": {
+        "brew_tags": [
+          { "id": 17, "name": "dist-5E-fastrack-candidate" }
+        ],
+        "product_versions": [
+          { "id": 16, "name": "RHEL-5" }
+        ]
+      }
+    }
+  ]
+}

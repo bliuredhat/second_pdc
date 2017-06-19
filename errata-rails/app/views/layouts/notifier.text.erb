@@ -1,0 +1,56 @@
+<%#
+  #
+  # Layout for the text/plain notification emails sent by app/models/notifier
+  #
+  # (Try not to introduce extra blank lines)
+  #
+  # Note:
+  #  It seems odd that html_safe is required in this file.
+  #  Maybe this file should be renamed to notifer.text.erb, but
+  #  not sure if that makes a difference. Todo: investigate.
+  #
+-%>
+<%#
+  #
+  # See if we can identify an errata that this message is related to.
+-%>
+<% errata = @errata || (@comment.present? && @comment.errata) || (@issue.present? && @issue.errata) || (@job.present? && @job.errata) -%>
+<%#
+  #
+  # Ask users not to reply via email.
+-%>
+<%= please_do_not_reply_message(errata.present?).html_safe %>
+
+<%#
+  #
+  # A large percentage of the emails just show a comment. So
+  # let's move it here for extra DRY-ness.
+-%>
+<%= render(:partial => 'show_comment', :locals => { :comment => @comment }) if @comment -%>
+<%#
+  #
+  # For a short message you can just set @body['message'] in the Notifer method
+  # rather than have separate template file.
+  #
+  # Use html_safe otherwise we get &quot; and &amp; in emails.
+-%>
+<%= "#{@message}\n\n".html_safe if @message.present? -%>
+<%#
+  #
+  # The content from the individual email's template.
+  # (In the case where we are just showing a comment or simple message it might be empty).
+-%>
+<%= yield %>
+
+<%#
+  #
+  # This shows a link to the advisory and some other details.
+-%>
+<%= render(:partial => 'show_advisory_details', :locals => { :errata => errata }) if errata %>
+
+<%#
+  #
+  # Show what version of ET sent this message and some other details.
+  # (Could hide this in production if it's annoying to users)
+-%>
+(ET <%= SystemVersion::VERSION %><%= " #{ActionMailer::Base.default_url_options[:host]} #{Rails.env}" unless Rails.env.production? %>)

@@ -1,0 +1,49 @@
+<%
+  modal_title = lambda do |dist_repo, variant|
+    display_name = dist_repo.class.display_name
+    "Attach #{display_name} to #{variant.name}"
+  end
+
+  modal_body = lambda do |dist_repo, form_path|
+    display_name = dist_repo.class.display_name
+    dist_repo_text = dist_repo.class.model_name.underscore
+
+    content_tag(:div, :class => "body-content") do
+      form_for(dist_repo, :as => dist_repo_text, :url => form_path, :method => "post") do |f|
+        safe_join([
+          content_tag(:p, "Please enter #{display_name} to be attached:"),
+          f.text_field(:name, :id => 'dist_repos_autocomplete',
+            :style => "width:80%",
+            :data => {
+              "autocomplete-url" => url_for([:search_by_keyword, @product_version, dist_repo_text.pluralize]),
+              "autocomplete-value" => 'id',
+              "autocomplete-hidden" => "#{dist_repo_text}_id",
+              "autocomplete-submit-button" => "attach_save",
+            }),
+          f.hidden_field(:id),
+          f.hidden_field(:variant_id)
+        ])
+      end
+    end
+  end
+
+  modal_footer = lambda do |dist_repo|
+    dist_repo_text = dist_repo.class.model_name.underscore
+    content_tag(:div, :class => "footer-content") do
+      button_tag('Save', :class => "btn btn-primary", :id => "attach_save", :data => {:'form-id' => "new_#{dist_repo_text}", })
+    end
+  end
+
+  precedent = @dist_repo.kind_of?(Channel) ? @product_version : @variant
+  attach_form_path = url_for([:attach, @product_version, @dist_repo.class.model_name.underscore.pluralize])
+%>
+
+$("#et_modal .modal-header h3").text("<%= modal_title.call(@dist_repo, @variant) %>");
+$("#et_modal .modal-body .body-content").replaceWith("<%= escape_javascript(modal_body.call(@dist_repo, attach_form_path)) %>");
+$("#et_modal .modal-footer .footer-content").replaceWith("<%= escape_javascript(modal_footer.call(@dist_repo)) %>");
+et_ui_autocomplete($("#dist_repos_autocomplete")).focus();
+
+$("#attach_save").on("click", function() {
+  var form_id = $(this).data('form-id');
+  $('#' + form_id).submit();
+});

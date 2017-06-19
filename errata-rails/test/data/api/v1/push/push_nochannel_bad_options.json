@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "RHSA-2015:19463 cdn options": [
+      "cannot use nochannel with tasks-only push"
+    ]
+  }
+}

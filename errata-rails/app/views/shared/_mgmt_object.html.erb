@@ -1,0 +1,144 @@
+<%
+  #
+  # A common wrapper for rendering (and editing) a management object
+  # like a Products or Product Versions.
+  #
+  # You can pass in locals for object and object_name but if you don't
+  # it will make some assumptions and try to work automatically.
+  #
+
+  # Eg "widget", @widget
+  guess_object_name = controller_name.classify.to_s.underscore
+  object            = instance_variable_get("@#{guess_object_name}") unless defined?(object) && object
+  object_name       = object.class.name.underscore.downcase
+  partial_location  = controller_name
+
+  # 'valid?' triggers all the validations which might be unnecessary or
+  # shouldn't be called. Specially here, if it somehow fails within show action
+  # then it allows form to be editable. Since both edit, create actions would
+  # call 'valid?' during saving, 'valid?' should be avoided here.
+  edit_mode         = (controller.action_name == 'edit' || (!object.new_record? && object.errors.any?))
+  create_mode       = (controller.action_name == 'new'  || ( object.new_record? && object.errors.any?))
+  view_mode         = !(edit_mode || create_mode)
+
+  # For nested routing
+  form_for_target = object
+  form_for_target = [parent, object] if defined?(parent) && parent
+
+  extra_params ||= {}
+
+  # Prepare some text for display
+  edit_notice = create_mode ? '[Creating]' : (edit_mode ? '[Editing]' : '')
+  submit_button_text = create_mode ? 'Create' : 'Update'
+  short_name ||= create_mode ?
+    "New #{object.class.name.titleize} #{"for #{parent.class.name.titleize} '#{parent.canonical_short_name}'" if defined?(parent) && parent}" :
+    object.canonical_short_name || object.class.name.titleize
+
+  tabs ||= []
+  first_tab = []
+  if view_mode
+    # Viewing the object (use _show partial)
+    contents = []
+    contents << content_tag(:div, :class => "show-buttons", :style => "float:right;padding-top:1em;") do
+      if can_edit_mgmt_items?
+        link_to(icon_btn_text('Edit', :pencil),
+                { :action => :edit, :id => object.id }.
+                merge(extra_params.slice(:mapping_type)), :class=>'btn')
+      end
+    end
+
+    contents << content_tag(:table, :class => 'fields', :style=> "width:80%") do
+      render("#{partial_location}/show", object_name.to_sym=>object)
+    end
+
+    # Render back button etc
+    contents << yield(:footer)
+    first_tab = [ 'summary', "Summary", safe_join(contents) ]
+  else
+    # Editing or creating the object (use _edit partial)
+    if object.new_record?
+      # if creating new object
+      if defined?(parent)
+        ctrl = parent.class.name.underscore.pluralize
+        # if the object has parent then click cancel will go back to the parent show page
+        cancel_action = { :controller => ctrl, :action => :show, :id => parent.id }
+      else
+        # otherwise, go back to the object index page
+        cancel_action = { :action => :index }
+      end
+    else
+      # if editing object, click cancel will go back to the object show page
+      cancel_action = { :action => :show, :id => object.id }.
+                        merge(extra_params.slice(:mapping_type))
+    end
+
+    contents = []
+    contents << form_for(form_for_target, :html=>{:class=>"main_object"}) do |form|
+      content_tag(:table, :class => 'fields', :style=> "width:100%") do
+        safe_join([
+          render("#{partial_location}/edit", :f=>form),
+          content_tag(:tr, content_tag(:td, content_tag(:div, :class => "submit-buttons edit-buttons"), :colspan => "2")) do
+            content_tag(:td, :colspan => "2") do
+              content_tag(:div, :class => "submit-buttons edit-buttons") do
+                submit_btn = button_tag(icon_btn_text(submit_button_text, :check), :class=>'btn btn-primary')
+                cancel_btn = link_to(icon_btn_text('Cancel', :remove), cancel_action, :class=>'btn')
+                safe_join([submit_btn, cancel_btn])
+              end
+            end
+          end
+        ])
+      end
+    end
+    # Hack for brew tag edit modal. (Seems to be fine if the content doesn't exist).
+    contents << yield(:outside_form)
+    first_tab = [ action_name, action_name.capitalize, safe_join(contents) ]
+  end
+
+  tabs.unshift(first_tab)
+-%>
+<div class="clearfix mgmt">
+  <div class="mgmt-main" style="float:left;">
+
+    <div class="mgmt-title">
+      <div class="item-title">
+        <span class="editing-notice"><%= edit_notice %></span>
+        <span class="short-name" ><%= short_name %></span>
+        <span class="object-type">[<%= object.class.name.titleize %>]</span>
+        <span class="long-name"><%= object.canonical_long_name %></span>
+      </div>
+    </div>
+
+    <div class="tabbable">
+      <ul class="nav nav-tabs" id="object_tab">
+        <%
+           lis = []
+           tabs.each_with_index do |(id, display, contents), idx|
+             css_class = ["#{id}_tab"]
+             data = {:toggle => "tab"}
+             css_class << "active" if idx < 1
+             lis << content_tag(:li, :class => css_class.join(" ")) do
+               link_to(display, "\##{id}_tab", :data => {:toggle => "tab"})
+             end
+           end
+        %>
+        <%= safe_join(lis) %>
+      </ul>
+
+      <div class="tab-content" style="overflow:visible;">
+        <% tabs.each_with_index do |(id, display, contents), idx| %>
+          <div class="tab-pane<%= " active" if idx < 1 %>" id="<%= id %>_tab">
+            <%= contents %>
+          </div>
+      <% end %>
+      </div>
+    </div>
+  </div><%# .mgmt-main %>
+
+  <% if view_mode && partial_exists?("related", partial_location) %>
+    <div class="mgmt-sidebar" style="float:left;">
+      <%= render "#{partial_location}/related", object_name.to_sym=>object %>
+    </div>
+  <% end %>
+
+  <%= render :partial => "shared/modal" %>
+</div>

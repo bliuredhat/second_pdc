@@ -1,0 +1,55 @@
+--- 
+sig_key_00001: 
+  full_keyid: 219180cddb42a60e
+  id: 1
+  keyid: db42a60e
+  name: master
+  sigserver_keyname: redhatold
+sig_key_00002: 
+  full_keyid: 
+  id: 2
+  keyid: 4f2a6fd2
+  name: fedora
+  sigserver_keyname: ""
+sig_key_00003: 
+  full_keyid: 
+  id: 3
+  keyid: 897da07a
+  name: beta
+  sigserver_keyname: ""
+sig_key_00004: 
+  full_keyid: 
+  id: 4
+  keyid: ad85959a
+  name: test
+  sigserver_keyname: ""
+sig_key_00005: 
+  full_keyid: 
+  id: 5
+  keyid: ""
+  name: none
+  sigserver_keyname: ""
+sig_key_00006: 
+  full_keyid: "5326810137017186"
+  id: 6
+  keyid: "37017186"
+  name: redhatrelease
+  sigserver_keyname: redhatrelease
+sig_key_00007: 
+  full_keyid: 
+  id: 7
+  keyid: 42193e6b
+  name: rhx
+  sigserver_keyname: ""
+sig_key_00008: 
+  full_keyid: 199e2f91fd431d51
+  id: 8
+  keyid: fd431d51
+  name: redhatrelease2
+  sigserver_keyname: redhatrelease2
+sig_key_00010:
+  id: 10
+  keyid: 60a03d62
+  name: redhatengsystems
+  sigserver_keyname: redhatengsystems
+  full_keyid: 794bccff60a03d62

@@ -1,0 +1,5 @@
+ <%= errata.advisory_name.ljust(17) %><%= errata.synopsis %>
+<% if errata.cve.present? %>
+  <%= errata.cve_list.join(', ') %>
+<% end %>
+<%= render :partial => 'errata/container/errata_list_show_bug', :collection => errata.bugs, :as => :b, :formats => [:text] %><%= render(:partial => 'errata/container/errata_list_show_jira_issue', :collection => errata.jira_issues, :as => :b, :formats => [:text]) if errata.jira_issues.any? %>

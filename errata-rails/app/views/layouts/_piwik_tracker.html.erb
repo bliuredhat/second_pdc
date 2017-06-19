@@ -1,0 +1,23 @@
+<%# Don't track non-production servers %>
+<% if Rails.env.production? %>
+  <!-- Piwik Stat Tracking -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    (function(){
+      var piwik_url = 'analytics.engineering.redhat.com/piwik/';
+      var u=(("https:" == document.location.protocol) ? "https://"+piwik_url : "http://"+piwik_url);
+      _paq.push(['setSiteId', 8]);
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setCustomVariable', 1, 'user', '<%= User.display_user.try(:short_name) || '-' %>']);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.defer=true; g.async=true; g.src=u+'piwik.js';
+      s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript>
+    <p><img src="http://analytics.engineering.redhat.com/piwik/piwik.php?idsite=8" style="border:0" alt="" /></p>
+  </noscript>
+  <!-- End Piwik Stat Tracking -->
+<% end %>

@@ -1,0 +1,38 @@
+[
+  {
+    "brew_rpm_name_prefixes": [
+      "devassist09",
+      "devtoolset-3",
+      "git19",
+      "httpd24",
+      "mariadb55",
+      "maven30",
+      "mongodb24",
+      "mysql55",
+      "nginx14",
+      "nodejs010",
+      "perl516",
+      "php54",
+      "php55",
+      "postgresql92",
+      "python27",
+      "python33",
+      "ror40",
+      "ruby193",
+      "ruby200",
+      "thermostat1",
+      "v8314"
+    ],
+    "product_id": 83,
+    "product_name": "Red Hat Software Collections",
+    "product_short_name": "RHSCL"
+  },
+  {
+    "brew_rpm_name_prefixes": [
+      "devtoolset-2"
+    ],
+    "product_id": 72,
+    "product_name": "Red Hat Developer Toolset",
+    "product_short_name": "RHDevToolset"
+  }
+]

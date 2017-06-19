@@ -1,0 +1,49 @@
+---
+- name: Find currently installed version of errata-rails
+  # (Not actually using this except in the email notification)
+  command: rpm -q errata-rails
+  register: rpm_q_errata_rails
+
+- name: Save currently installed version
+  set_fact: installed_version="{{ rpm_q_errata_rails.stdout }}"
+
+- name: Find migrations that are currently applied
+  become: yes
+  become_user: erratatool
+  #
+  # Example lines from the output of rake db:migrate:status:
+  #  up     20150204080532  Drop tps systems
+  #  up     20150301232128  Add display order to filters
+  # * tr -s to squash the spaces so they make better delimiters for cut
+  # * grep to pick out only the migrations that are currently up and that have a
+  #   timestamp in their filename (which excludes some migrations from 2009 and earlier)
+  # * cut to get just the timestamp migration id
+  # * sort -r so newest ones are first since we want to rollback in that order
+  #
+  shell: chdir={{ rails_root }} RAILS_ENV={{ rails_env }} SILENCE_DEPRECATIONS=1 rake db:migrate:status | tr -s ' ' | grep '^ up [0-9]\{14\} ' | cut -d' ' -f3 | sort -r
+  register: existing_migrations
+
+- name: Find migrations that exist in the package we're about to install
+  #
+  # Example migration files listed by rpm -qlp:
+  # /var/www/errata_rails/db/migrate/20150204080532_drop_tps_systems.rb
+  # /var/www/errata_rails/db/migrate/20150301232128_add_display_order_to_filters.rb
+  # * grep to pick out just the migration files that have a timestamp in their filename,
+  #   (which exludes the same set of old migrations that are excluded above)
+  # * basename to get just the filename
+  # * cut to get just the timestamp migration id
+  # * sort them oldest to newest so they appear in the order they would be applied.
+  #   (a different order to the previous task, but it shouldn't matter)
+  #
+  shell: rpm -qlp {{ rpm_file }} | grep '^/var/www/errata_rails/db/migrate/[0-9]\{14\}_.*\.rb$' | xargs -n1 basename | cut -d_ -f1 | sort
+  register: required_migrations
+
+- name: Determine required pre-update rollbacks and expected post-update migrations
+  set_fact:
+    required_rollbacks: "{{ existing_migrations.stdout_lines | difference(required_migrations.stdout_lines) }}"
+    expected_migrates: "{{ required_migrations.stdout_lines | difference(existing_migrations.stdout_lines) }}"
+
+- name: Bail out if a yum update requires rollbacks
+  # This shouldn't happen normally so let's quit and figure out what went wrong
+  fail: msg="Unexpected required rollbacks detected when doing yum update!"
+  when: required_rollbacks | length > 0 and yum_downgrade is not defined

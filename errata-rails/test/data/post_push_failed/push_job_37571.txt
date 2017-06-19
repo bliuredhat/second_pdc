@@ -1,0 +1,47 @@
+To: chazlett@redhat.com
+Subject: ET: [RHSA-2014:2021 ASYNC] Important: jasper - Cdn post-push tasks failed
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+Some post-push tasks have failed, which may require attention.
+This is not a fatal error.
+
+  Push target: Cdn
+  Push job:    https://errata-test.example.com/push/push_results/37571
+
+  2015-08-10 09:46:40 +0000 Running post push tasks: update_jira,
+  move_pushed_errata, request_translation, update_push_count, update_bugzilla
+  2015-08-10 09:46:40 +0000 Running mandatory tasks update_push_count
+  2015-08-10 09:46:40 +0000 Running task update_push_count
+  2015-08-10 09:46:40 +0000 Push count increased
+  2015-08-10 09:46:40 +0000 Running remainder: update_jira, move_pushed_errata,
+  request_translation, update_bugzilla
+  2015-08-10 09:46:40 +0000 Running task update_jira
+  2015-08-10 09:46:40 +0000 Error running task update_jira: RuntimeError Refusing
+  to communicate with non-free software
+  <backtrace>
+  2015-08-10 09:46:40 +0000 Running task move_pushed_errata
+  2015-08-10 09:46:40 +0000 Calling move-pushed-erratum for 2014:2021
+  2015-08-10 09:46:40 +0000 move-pushed-erratum complete
+  2015-08-10 09:46:40 +0000 Running task request_translation
+  2015-08-10 09:46:40 +0000 Requesting translation
+  2015-08-10 09:46:40 +0000 translation requested
+  2015-08-10 09:46:40 +0000 Running task update_bugzilla
+  2015-08-10 09:46:40 +0000 Error running task update_bugzilla: RuntimeError Oops,
+  bugzilla did not work
+  <backtrace>
+  2015-08-10 09:46:40 +0000 Post push tasks partially complete
+
+Please consider whether corrective actions should be taken, such as
+re-triggering the failed task(s).
+
+If in doubt, please raise a ticket to errata-requests@redhat.com.
+
+Advisory:
+  [RHSA-2014:2021 ASYNC] Important: jasper security update
+  Status: SHIPPED_LIVE, Package: jasper
+  https://errata-test.example.com/advisory/19435
+
+
+(ET 3.11.0-0 errata-test.example.com test)

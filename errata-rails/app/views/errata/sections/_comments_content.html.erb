@@ -1,0 +1,6 @@
+<% if @errata.comments.empty? %>
+  <span class='light'><i>No comments in advisory</i></span>
+  <%= render 'errata/sections/state_comment_form' %>
+<% else %>
+  <%= render('errata/sections/state_group_list') %>
+<% end %>

@@ -1,0 +1,6 @@
+---
+- name: Provision ET jenkins slaves on OpenStack
+  hosts: et-jenkins-slaves:&nova
+  connection: local
+  roles:
+    - { role: nova, flavor_id: "{{ openstack_flavor_id }}", image_id: "{{ openstack_image_id }}", key_name: "{{ openstack_key_name }}" }

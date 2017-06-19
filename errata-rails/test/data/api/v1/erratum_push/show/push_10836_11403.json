@@ -1,0 +1,26 @@
+# HTTP 200
+{
+  "errata": {
+    "id": 10836
+  },
+  "id": 11403,
+  "log": "2014-08-19 16:20:04 +1000 Pub completed.\n2014-08-19 16:20:04 +1000 Running post push tasks.\n2014-08-19 16:20:05 +1000 Running post push tasks:\n2014-08-19 16:20:05 +1000 Running mandatory tasks\n2014-08-19 16:20:05 +1000 Running remainder:\n2014-08-19 16:20:05 +1000 post-push tasks complete",
+  "options": {
+    "priority": 1
+  },
+  "post_tasks": [
+
+  ],
+  "pre_tasks": [
+
+  ],
+  "pub_task": {
+    "id": 28289
+  },
+  "status": "COMPLETE",
+  "target": {
+    "id": 6,
+    "name": "altsrc"
+  },
+  "url": "http://www.example.com/api/v1/erratum/10836/push/11403"
+}

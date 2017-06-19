@@ -1,0 +1,10 @@
+{
+  "data": {
+    "attributes": {
+      "active": false,
+      "name": "amd64"
+    },
+    "id": 21,
+    "type": "arches"
+  }
+}

@@ -1,0 +1,114 @@
+Release Notes for Version 3.10.1
+================================
+
+Overview
+--------
+
+Release 3.10.1 is the second release in Errata Tool 3.10. It closes [18 bugs and
+RFEs][buglist].
+
+The most significant new items included in this release are support for editing
+descriptions of non-RPM brew files, enabling unprivileged users to create
+low-impact RHSA errata, and updating the released package for mapped multi
+product channels when an errata is shipped.
+
+Additionally, during the 3.10.1 development period, an additional [4 bug
+fixes][hotfixes] were shipped in 3.10.0.2 and 3.10.0.3 releases.
+
+Some highlighted bugs and RFEs are listed below.
+
+<%= highlight_content('preview') %>
+
+<%= highlight_content('improved') %>
+
+<%= highlight_content('fixed') %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcement][announce]
+* [Bug List for Errata Tool Release 3.10.1][buglist]
+* [Full code diff for this release][diff1]
+* [Full code diff (since 3.10.0)][diff2]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?quicksearch=1147206%2C1144515%2C1143794%2C1141649%2C1141614%2C1141156%2C1141151%2C1140631%2C1140035%2C1136730%2C1135360%2C1133803%2C1131759%2C1126240%2C1124090%2C1119949%2C990003%2C983828
+[hotfixes]: https://bugzilla.redhat.com/buglist.cgi?quicksearch=1141586%2C1141564%2C1132771%2C1138456
+[announce]: https://docs.engineering.redhat.com/display/HTD/2014/10/01/Errata+Tool+3.10.1+Released
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.10.1.0-0&id2=3.10.0.3-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.10.1.0-0&id2=3.10.0.0-0
+
+Technical Previews
+------------------
+
+<%= include_content('preview') %>
+
+
+Improvements
+------------
+
+<%= include_content('improved') %>
+
+
+Fixes
+-----
+
+<%= include_content('fixed') %>
+
+
+Process
+-------
+
+### Code coverage metrics
+
+Since the Errata Tool 3.10.0 release our code coverage ratio, as reported by
+Jenkins using rcov, has increased by around 0.5% from 89.1% to 89.54%.
+
+Increased code coverage means better maintainability, and a reduced chance of
+shipping regressions and new bugs. It also means we can more confidently
+refactor and improve existing code.
+
+
+What's Next
+-----------
+
+### Errata Tool 3.10.z
+
+The team will continue to select bugs and RFEs flagged as `errata-3.10` in
+Bugzilla for inclusion in two week sprints. Once enough content is verified and
+ready to ship we will do an end-of-sprint release. The next release in this
+series will be 3.10.2.
+
+Significant new functionality expected to be available in Errata Tool 3.10.2
+includes improvements to the syncing of Bugzilla bugs, (see [bug
+1132255](https://bugzilla.redhat.com/show_bug.cgi?id=1132255)), and the
+addition of APIs for pushing advisories, (see [bug
+1134514](https://bugzilla.redhat.com/show_bug.cgi?id=1134514)).
+
+To see bugs currently scheduled for ET 3.10 take a look at [bugs flagged with errata-3.10
+in Bugzilla][bugs3.10].
+
+### Errata Tool 3.11
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For details
+see [Errata Tool Bug Lists][buglists].
+
+To see what's currently scheduled take a look at [bugs flagged with
+errata-3.11][bugs3.11].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to `errata-dev-list@redhat.com`.
+
+[bugs3.10]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.10&bug_status=__open__
+[bugs3.11]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[buglists]: https://docs.engineering.redhat.com/x/1AIjAQ
+
+<!--
+not mentioned:
+? 1143794 No response when clicking Select All in draft text or draft xml Docs pages
+? 1135360 Many errata restrictions can be bypassed by directly posting to save_errata
+? 1126240 Attempts never reset on delayed jobs using rerun, delay on error continuously grows
+? 1141586 [Regression] Rendering an advisory with many builds is extremely slow
+? 1132771 [Regression] Undefined method [] for #<XMLRPC::FaultException saving brew builds
+? 1138456 get_live_cpe times out
+-->

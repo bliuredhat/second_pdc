@@ -1,0 +1,1895 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "name": "rhel-i386-as-4.5.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 266,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 163,
+            "name": "4AS-4.5.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-as-4.7.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 275,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-es-4.5.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 272,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-es-4.7.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 281,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 271,
+            "name": "4ES-4.7.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 190,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 257,
+            "name": "5Server-5.2.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 206,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 222,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 313,
+            "name": "5Server-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 155,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 94,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 426,
+            "name": "6Server-6.0.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 83,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 57,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 662,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 550,
+            "name": "6Server-6.3.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 196,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 211,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 227,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 314,
+            "name": "5Server-Cluster-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 160,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-storage-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 199,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-storage-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 212,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 312,
+            "name": "5Server-ClusterStorage-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-storage-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 228,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 315,
+            "name": "5Server-ClusterStorage-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-storage-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 146,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-dts-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 734,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-dts-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 728,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-dts-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 729,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-dts-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 730,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-ei-replication-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 483,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-ha-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 96,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-ha-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 87,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-ha-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 61,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-ha-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 666,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-lb-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 98,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-lb-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 91,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 500,
+            "name": "6Server-LoadBalancer-6.1.EUS"
+          },
+          {
+            "id": 442,
+            "name": "6Server-LoadBalancer-6.1.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-lb-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 65,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-lb-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 670,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-optional-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 95,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-optional-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 79,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-optional-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 53,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 475,
+            "name": "6Server-optional-6.2.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-optional-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 658,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 549,
+            "name": "6Server-optional-6.3.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-productivity-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 150,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-rs-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 97,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-rs-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 89,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-rs-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 63,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-rs-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 668,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-sjis-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 626,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-sjis-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 624,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 336,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 341,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 323,
+            "name": "5Server-Supplementary-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 346,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 354,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 406,
+            "name": "5Server-Supplementary-5.6.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 319,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 332,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 654,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-vt-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 203,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-vt-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 219,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 317,
+            "name": "5Server-VT-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-vt-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 235,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-vt-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 152,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-as-4.5.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 267,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-as-4.7.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 276,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-es-4.5.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 273,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-es-4.7.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 282,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 192,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 207,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 223,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 156,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 197,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 213,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 311,
+            "name": "5Server-Cluster-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 229,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 314,
+            "name": "5Server-Cluster-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 161,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-storage-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 201,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-storage-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 214,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-storage-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 230,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 315,
+            "name": "5Server-ClusterStorage-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-storage-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 147,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-sjis-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 627,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-sjis-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 625,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-supplementary-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 337,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-supplementary-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 342,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 323,
+            "name": "5Server-Supplementary-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-supplementary-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 347,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 327,
+            "name": "5Server-Supplementary-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-supplementary-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 355,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 406,
+            "name": "5Server-Supplementary-5.6.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-vt-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 204,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-vt-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 220,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 317,
+            "name": "5Server-VT-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-vt-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 236,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 328,
+            "name": "5Server-VT-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-vt-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 153,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-as-4.5.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 271,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-as-4.7.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 277,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 193,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 208,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+          {
+            "id": 310,
+            "name": "5Server-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 224,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 157,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-cluster-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 195,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-cluster-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 218,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+          {
+            "id": 311,
+            "name": "5Server-Cluster-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-cluster-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 233,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-cluster-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 163,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-cluster-storage-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 200,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-cluster-storage-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 217,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+          {
+            "id": 312,
+            "name": "5Server-ClusterStorage-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-cluster-storage-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 234,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-cluster-storage-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 149,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-supplementary-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 338,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+          {
+            "id": 322,
+            "name": "5Server-Supplementary-5.2.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-supplementary-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 343,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-supplementary-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 348,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+          {
+            "id": 327,
+            "name": "5Server-Supplementary-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-supplementary-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 356,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+          {
+            "id": 406,
+            "name": "5Server-Supplementary-5.6.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc64-server-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 99,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    }
+  ]
+}

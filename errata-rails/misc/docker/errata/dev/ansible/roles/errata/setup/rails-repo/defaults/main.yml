@@ -1,0 +1,2 @@
+repo_dir: "{{ansible_distribution|lower}}-{{ansible_distribution_version|int}}"
+

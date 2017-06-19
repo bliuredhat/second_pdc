@@ -1,0 +1,14 @@
+<%#
+  Not using this now.
+  See comments in redirect_to_error!
+
+  DELETE ME??
+%>
+<% unless flash[:notice] %>
+  <h2>An Error Occurred at <%= Time.now.to_s %> </h2>
+  <% if defined?(exception) && exception %>
+   <p><%= exception.message %></p>
+  <% end %>
+  <p>An automated error report has been sent to <%= Settings.errata_help_email %><br/>
+  Thank You for your patience.</p>
+<% end %>

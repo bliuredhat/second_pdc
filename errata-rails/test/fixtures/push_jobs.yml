@@ -1,0 +1,5381 @@
+--- 
+push_job_00150: 
+  created_at: 2010-10-07 12:10:07 -04:00
+  errata_id: 9883
+  id: 150
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Thu Oct 07 13:00:00 -0400 2010
+    Pub task created, task id: 3660
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/3660
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 3660
+  pushed_by: 81410
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-07 13:08:05 -04:00
+push_job_00160: 
+  created_at: 2010-10-07 21:58:33 -04:00
+  errata_id: 9883
+  id: 160
+  log: |-
+    
+    Pub task created, task id: 3670
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/3670
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task mark_ftp_done
+    post-push tasks complete
+  post_push_tasks: 
+  - mark_ftp_done
+  pre_push_tasks: []
+
+  priority: 22
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 22
+  pub_task_id: 3670
+  pushed_by: 275188
+  status: COMPLETE
+  type: FtpPushJob
+  push_target_id: 3
+  updated_at: 2010-10-07 22:13:07 -04:00
+push_job_00161: 
+  created_at: 2010-10-07 21:58:57 -04:00
+  errata_id: 9883
+  id: 161
+  log: |-
+    
+    Running task set_issue_date
+    Updated Issue date
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Changed RHSA-2010:9883 to public name: RHSA-2010:0758
+    Pub task created, task id: 3671
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/3671
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2010:0758
+    2010:0758
+    skipping advisory 2010:0758 (kernel-rt-2.6.24.7-169.el5rt) in dist-5E-rt-v1-devel
+    brew move-pkg --force dist-5E-rt-v1-candidate dist-5E-rt-v1 kernel-rt-2.6.24.7-169.el5rt
+    Created task 2810170, moving kernel-rt-2.6.24.7-169.el5rt
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_issue_date
+  - set_update_date
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 3671
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-07 22:13:07 -04:00
+push_job_01256: 
+  created_at: 2008-06-20 12:11:42 -04:00
+  errata_id: 7390
+  id: 1256
+  log: |-
+    
+    Pushing RHBA-2008:0495 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHBA-2008:0495 (7390)
+    Uploading 2 packages to RHN stage
+    uploading /mnt/redhat/brewroot/packages/hts/5.2/16.el4/data/signed/db42a60e/src/hts-5.2-16.el4.src.rpm
+    uploading /mnt/redhat/brewroot/packages/hts/5.2/16.el4/data/signed/db42a60e/noarch/hts-5.2-16.el4.noarch.rpm
+    RHBA-2008:0495-01 packages uploaded to RHN stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Getting proxyscripts.vip.stage.redhat.com
+    Submitting errata RHBA-2008:0495-01 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 155492
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:52:59 -04:00
+push_job_01264: 
+  created_at: 2008-06-23 15:52:56 -04:00
+  errata_id: 7390
+  id: 1264
+  log: |-
+    
+    Pushing RHBA-2008:0495-06 to RHN LIVE
+    Uploading files to RHN live for RHBA-2008:0495 (7390)
+    Uploading 2 packages to RHN live
+    uploading /mnt/redhat/brewroot/packages/hts/5.2/16.el4/data/signed/db42a60e/src/hts-5.2-16.el4.src.rpm
+    uploading /mnt/redhat/brewroot/packages/hts/5.2/16.el4/data/signed/db42a60e/noarch/hts-5.2-16.el4.noarch.rpm
+    RHBA-2008:0495-06 packages uploaded to RHN live
+    Updating rhn_pkgupload timestamps on pushed files
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Getting proxyscripts.vip.phx.redhat.com
+    Submitting errata RHBA-2008:0495-06 to live
+    Done
+    Closing bugs...
+    Pushing RHBA-2008:0495-06 XML to secalert
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2008:0495
+    2008:0495
+    skipping advisory 2008:0495 (hts-5.2-16.el4) in hwcert-4E
+    
+    Done pushing RHBA-2008:0495-06 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 15
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 15
+  pub_task_id: 
+  pushed_by: 96230
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:52:59 -04:00
+push_job_01868: 
+  created_at: 2008-09-03 17:51:37 -04:00
+  errata_id: 7679
+  id: 1868
+  log: |-
+    
+    Pushing RHSA-2008:0860 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHSA-2008:0860 (7679)
+    Uploading 11 packages to RHN stage
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-server-1.0.0-23.el5ipa.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-server-selinux-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-server-selinux-1.0.0-23.el5ipa.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-admintools-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-server-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-python-1.0.0-23.el5ipa.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-python-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/src/ipa-1.0.0-23.el5ipa.src.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-client-1.0.0-23.el5ipa.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-client-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-admintools-1.0.0-23.el5ipa.x86_64.rpm
+    RHSA-2008:0860-04 packages uploaded to RHN stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHSA-2008:0860-04 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 211313
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:05 -04:00
+push_job_01903: 
+  created_at: 2008-09-10 14:07:35 -04:00
+  errata_id: 7679
+  id: 1903
+  log: |-
+    
+    Pushing RHSA-2008:0860-11 to RHN LIVE
+    Uploading files to RHN live for RHSA-2008:0860 (7679)
+    Uploading 11 packages to RHN live
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-server-1.0.0-23.el5ipa.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-server-selinux-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-server-selinux-1.0.0-23.el5ipa.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-admintools-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-server-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-python-1.0.0-23.el5ipa.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-python-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/src/ipa-1.0.0-23.el5ipa.src.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-client-1.0.0-23.el5ipa.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/i386/ipa-client-1.0.0-23.el5ipa.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/ipa/1.0.0/23.el5ipa/data/signed/37017186/x86_64/ipa-admintools-1.0.0-23.el5ipa.x86_64.rpm
+    RHSA-2008:0860-11 packages uploaded to RHN live
+    Updating rhn_pkgupload timestamps on pushed files
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Getting proxy scripts.vip.phx.redhat.com
+    Submitting errata RHSA-2008:0860-11 to live
+    Done
+    Closing bugs...
+    Pushing RHSA-2008:0860-11 XML to secalert
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2008:0860
+    2008:0860
+    skipping advisory 2008:0860 (ipa-1.0.0-23.el5ipa) in dist-5E-ipa-1.0
+    
+    Done pushing RHSA-2008:0860-11 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 163483
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:53:06 -04:00
+push_job_01904: 
+  created_at: 2008-09-10 14:19:10 -04:00
+  errata_id: 7679
+  id: 1904
+  log: |-
+    
+    Pushing RHSA-2008:0860-12 to RHN LIVE
+    Uploading files to RHN live for RHSA-2008:0860 (7679)
+    No packages to upload. Skipping..
+    Doing errata metadata upload
+    Submitting errata
+    Getting proxy scripts.vip.phx.redhat.com
+    Submitting errata RHSA-2008:0860-12 to live
+    Done
+    Pushing RHSA-2008:0860-12 XML to secalert
+    Requesting translation
+    Calling move-pushed-erratum for 2008:0860
+    2008:0860
+    skipping advisory 2008:0860 (ipa-1.0.0-23.el5ipa) in dist-5E-ipa-1.0
+    
+    Done pushing RHSA-2008:0860-12 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 163483
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:53:06 -04:00
+push_job_02494: 
+  created_at: 2008-11-23 19:46:56 -05:00
+  errata_id: 8013
+  id: 2494
+  log: |-
+    
+    Pushing RHBA-2008:0968 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHBA-2008:0968 (8013)
+    Uploading 12 packages to RHN stage
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/i386/perl-DBD-SQLite-1.14-1.el5.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.7/0.el5_2/data/signed/37017186/src/publican-WebSite-obsoletes-0.7-0.el5_2.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/src/perl-DBD-SQLite-1.14-1.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/12/data/signed/37017186/src/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-12.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.4/0.el5_2/data/signed/37017186/src/perl-Publican-WebSite-0.4-0.el5_2.src.rpm
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.7/0.el5_2/data/signed/37017186/noarch/publican-WebSite-obsoletes-0.7-0.el5_2.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/12/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-12.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/src/perl-HTML-Template-2.8-2.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.4/0.el5_2/data/signed/37017186/noarch/perl-Publican-WebSite-0.4-0.el5_2.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/noarch/perl-HTML-Template-2.8-2.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/12/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-en-US-3-12.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/x86_64/perl-DBD-SQLite-1.14-1.el5.x86_64.rpm
+    RHBA-2008:0968-02 packages uploaded to RHN stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHBA-2008:0968-02 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 155492
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:12 -04:00
+push_job_03168: 
+  created_at: 2009-02-05 14:53:35 -05:00
+  errata_id: 8013
+  id: 3168
+  log: |-
+    
+    Pushing RHBA-2008:0968 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHBA-2008:0968 (8013)
+    Uploading 12 packages to RHN stage
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/i386/perl-DBD-SQLite-1.14-1.el5.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/src/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.97/0.el5_2/data/signed/37017186/src/publican-WebSite-obsoletes-0.97-0.el5_2.src.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.97/0.el5_2/data/signed/37017186/noarch/publican-WebSite-obsoletes-0.97-0.el5_2.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-en-US-3-17.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/src/perl-DBD-SQLite-1.14-1.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.7/0.el5/data/signed/37017186/src/perl-Publican-WebSite-0.7-0.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/src/perl-HTML-Template-2.8-2.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.7/0.el5/data/signed/37017186/noarch/perl-Publican-WebSite-0.7-0.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/noarch/perl-HTML-Template-2.8-2.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/x86_64/perl-DBD-SQLite-1.14-1.el5.x86_64.rpm
+    RHBA-2008:0968-03 packages uploaded to RHN stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHBA-2008:0968-03 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 155492
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:20 -04:00
+push_job_03193: 
+  created_at: 2009-02-06 13:39:10 -05:00
+  errata_id: 8013
+  id: 3193
+  log: |-
+    
+    Pushing RHBA-2008:0968-03 to RHN LIVE
+    Uploading files to RHN live for RHBA-2008:0968 (8013)
+    Uploading 12 packages to RHN live
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/i386/perl-DBD-SQLite-1.14-1.el5.i386.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/src/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5.src.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.97/0.el5_2/data/signed/37017186/src/publican-WebSite-obsoletes-0.97-0.el5_2.src.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5.noarch.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.97/0.el5_2/data/signed/37017186/noarch/publican-WebSite-obsoletes-0.97-0.el5_2.noarch.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-en-US-3-17.el5.noarch.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/src/perl-DBD-SQLite-1.14-1.el5.src.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.7/0.el5/data/signed/37017186/src/perl-Publican-WebSite-0.7-0.el5.src.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/src/perl-HTML-Template-2.8-2.el5.src.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.7/0.el5/data/signed/37017186/noarch/perl-Publican-WebSite-0.7-0.el5.noarch.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/noarch/perl-HTML-Template-2.8-2.el5.noarch.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/x86_64/perl-DBD-SQLite-1.14-1.el5.x86_64.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    RHBA-2008:0968-03 packages uploaded to RHN live
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Getting proxy scripts.vip.phx.redhat.com
+    Submitting errata RHBA-2008:0968-03 to live
+    Done
+    Closing bugs...
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2008:0968
+    2008:0968
+    skipping advisory 2008:0968 (publican-WebSite-obsoletes-0.97-0.el5_2 perl-Publican-WebSite-0.7-0.el5 Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5 perl-HTML-Template-2.8-2.el5 perl-DBD-SQLite-1.14-1.el5) in docs-5E
+    
+    Done pushing RHBA-2008:0968-03 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 15
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 15
+  pub_task_id: 
+  pushed_by: 96230
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:53:20 -04:00
+push_job_03229: 
+  created_at: 2009-02-11 11:47:03 -05:00
+  errata_id: 8013
+  id: 3229
+  log: |
+    
+    Pushing RHBA-2008:0968 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHBA-2008:0968 (8013)
+    Uploading 12 packages to RHN stage
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/i386/perl-DBD-SQLite-1.14-1.el5.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/src/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.97/0.el5_2/data/signed/37017186/src/publican-WebSite-obsoletes-0.97-0.el5_2.src.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.97/0.el5_2/data/signed/37017186/noarch/publican-WebSite-obsoletes-0.97-0.el5_2.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-en-US-3-17.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/src/perl-DBD-SQLite-1.14-1.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.7/0.el5/data/signed/37017186/src/perl-Publican-WebSite-0.7-0.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/src/perl-HTML-Template-2.8-2.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.7/0.el5/data/signed/37017186/noarch/perl-Publican-WebSite-0.7-0.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/noarch/perl-HTML-Template-2.8-2.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/x86_64/perl-DBD-SQLite-1.14-1.el5.x86_64.rpm
+    RHBA-2008:0968-03 packages uploaded to RHN stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHBA-2008:0968-03 to stage
+    ERROR:
+    An XMLRPC Error occurred in RHN: 
+    Error Message:
+        Package arch i386 incompatible with channel rhel-ppc-server-docs-5
+    Error Class Code: 50
+    Error Class Info: Invalid information uploaded to the server
+    Explanation: 
+         An error has occurred while processing your request. If this problem
+         persists please enter a bug report at https://bugzilla.redhat.com/.
+         If you choose to submit the bug report, please be sure to include
+         details of what you were trying to do when this error occurred and
+         details on how to reproduce this problem.
+    
+    ERROR:
+    An XMLRPC Error occurred in RHN: 
+    Error Message:
+        Package arch i386 incompatible with channel rhel-ppc-server-docs-5
+    Error Class Code: 50
+    Error Class Info: Invalid information uploaded to the server
+    Explanation: 
+         An error has occurred while processing your request. If this problem
+         persists please enter a bug report at https://bugzilla.redhat.com/.
+         If you choose to submit the bug report, please be sure to include
+         details of what you were trying to do when this error occurred and
+         details on how to reproduce this problem.
+
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 96230
+  status: FAILED
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:21 -04:00
+push_job_03230: 
+  created_at: 2009-02-11 11:50:40 -05:00
+  errata_id: 8013
+  id: 3230
+  log: |-
+    
+    Pushing RHBA-2008:0968 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHBA-2008:0968 (8013)
+    Uploading 12 packages to RHN stage
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/i386/perl-DBD-SQLite-1.14-1.el5.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/src/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.97/0.el5_2/data/signed/37017186/src/publican-WebSite-obsoletes-0.97-0.el5_2.src.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/publican-WebSite-obsoletes/0.97/0.el5_2/data/signed/37017186/noarch/publican-WebSite-obsoletes-0.97-0.el5_2.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US/3/17.el5/data/signed/37017186/noarch/Red_Hat_Enterprise_Linux-Deployment_Guide-5-en-US-3-17.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/src/perl-DBD-SQLite-1.14-1.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.7/0.el5/data/signed/37017186/src/perl-Publican-WebSite-0.7-0.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/src/perl-HTML-Template-2.8-2.el5.src.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-Publican-WebSite/0.7/0.el5/data/signed/37017186/noarch/perl-Publican-WebSite-0.7-0.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-HTML-Template/2.8/2.el5/data/signed/37017186/noarch/perl-HTML-Template-2.8-2.el5.noarch.rpm
+    uploading /mnt/redhat/brewroot/packages/perl-DBD-SQLite/1.14/1.el5/data/signed/37017186/x86_64/perl-DBD-SQLite-1.14-1.el5.x86_64.rpm
+    RHBA-2008:0968-03 packages uploaded to RHN stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHBA-2008:0968-03 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 96230
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:21 -04:00
+push_job_04561: 
+  created_at: 2009-07-02 14:59:39 -04:00
+  errata_id: 8742
+  id: 4561
+  log: |-
+    
+    Pushing RHSA-2009:8742 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHSA-2009:8742 (8742)
+    Uploading 3 packages to RHN stage
+    uploading /mnt/redhat/brewroot/packages/nagios/2.12/3.el5/data/signed/37017186/x86_64/nagios-devel-2.12-3.el5.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/nagios/2.12/3.el5/data/signed/37017186/x86_64/nagios-2.12-3.el5.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/nagios/2.12/3.el5/data/signed/37017186/src/nagios-2.12-3.el5.src.rpm
+    RHSA-2009:8742-05 packages uploaded to RHN stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHSA-2009:8742-05 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 405
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:37 -04:00
+push_job_04562: 
+  created_at: 2009-07-02 15:42:09 -04:00
+  errata_id: 8742
+  id: 4562
+  log: |-
+    
+    Changed RHSA-2009:8742 to public name: RHSA-2009:1141
+    Pushing RHSA-2009:1141-05 to RHN LIVE
+    Uploading files to RHN live for RHSA-2009:1141 (8742)
+    Uploading 3 packages to RHN live
+    uploading /mnt/redhat/brewroot/packages/nagios/2.12/3.el5/data/signed/37017186/x86_64/nagios-devel-2.12-3.el5.x86_64.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/nagios/2.12/3.el5/data/signed/37017186/x86_64/nagios-2.12-3.el5.x86_64.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/nagios/2.12/3.el5/data/signed/37017186/src/nagios-2.12-3.el5.src.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    RHSA-2009:1141-05 packages uploaded to RHN live
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Getting proxy scripts.vip.phx.redhat.com
+    Submitting errata RHSA-2009:1141-05 to live
+    ERROR:
+    RHN Timeout pushing 8742 to live
+    ERROR:
+    RHN Timeout pushing 8742 to live
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 275188
+  status: FAILED
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:53:37 -04:00
+push_job_04563: 
+  created_at: 2009-07-02 16:29:42 -04:00
+  errata_id: 8742
+  id: 4563
+  log: |-
+    
+    Pushing RHSA-2009:1141-05 to RHN LIVE
+    Doing errata metadata upload
+    Closing bugs...
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2009:1141
+    2009:1141
+    skipping advisory 2009:1141 (nagios-2.12-3.el5) in dist-5E-hpc-publish
+    skipping advisory 2009:1141 (nagios-2.12-3.el5) in dist-5E-hpc
+    
+    Done pushing RHSA-2009:1141-05 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:53:37 -04:00
+push_job_04593: 
+  created_at: 2009-07-09 13:58:45 -04:00
+  errata_id: 8751
+  id: 4593
+  log: |-
+    
+    Pushing RHSA-2009:8751 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHSA-2009:8751 (8751)
+    Uploading 9 packages to RHN stage
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/x86_64/httpd-manual-2.2.11-3.el5s2.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/i386/httpd-2.2.11-3.el5s2.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/x86_64/httpd-devel-2.2.11-3.el5s2.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/i386/mod_ssl-2.2.11-3.el5s2.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/x86_64/mod_ssl-2.2.11-3.el5s2.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/src/httpd-2.2.11-3.el5s2.src.rpm
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/i386/httpd-devel-2.2.11-3.el5s2.i386.rpm
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/x86_64/httpd-2.2.11-3.el5s2.x86_64.rpm
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/i386/httpd-manual-2.2.11-3.el5s2.i386.rpm
+    RHSA-2009:8751-03 packages uploaded to RHN stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHSA-2009:8751-03 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 239541
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:37 -04:00
+push_job_04634: 
+  created_at: 2009-07-14 14:26:52 -04:00
+  errata_id: 8751
+  id: 4634
+  log: |-
+    
+    Changed RHSA-2009:8751 to public name: RHSA-2009:1156
+    Pushing RHSA-2009:1156-03 to RHN LIVE
+    Uploading files to RHN live for RHSA-2009:1156 (8751)
+    Uploading 9 packages to RHN live
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/x86_64/httpd-manual-2.2.11-3.el5s2.x86_64.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/i386/httpd-2.2.11-3.el5s2.i386.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/x86_64/httpd-devel-2.2.11-3.el5s2.x86_64.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/i386/mod_ssl-2.2.11-3.el5s2.i386.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/x86_64/mod_ssl-2.2.11-3.el5s2.x86_64.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/src/httpd-2.2.11-3.el5s2.src.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/i386/httpd-devel-2.2.11-3.el5s2.i386.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/x86_64/httpd-2.2.11-3.el5s2.x86_64.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    uploading /mnt/redhat/brewroot/packages/httpd/2.2.11/3.el5s2/data/signed/37017186/i386/httpd-manual-2.2.11-3.el5s2.i386.rpm
+    Updating rhn_pkgupload timestamps on pushed files
+    RHSA-2009:1156-03 packages uploaded to RHN live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 163483
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:53:38 -04:00
+push_job_04637: 
+  created_at: 2009-07-14 15:07:50 -04:00
+  errata_id: 8751
+  id: 4637
+  log: |-
+    
+    Pushing RHSA-2009:1156-03 to RHN LIVE
+    Uploading files to RHN live for RHSA-2009:1156 (8751)
+    No packages to upload. Skipping..
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Getting proxy scripts.vip.phx.redhat.com
+    Submitting errata RHSA-2009:1156-03 to live
+    Done
+    Closing bugs...
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2009:1156
+    2009:1156
+    brew move-pkg --force dist-5E-stack-errata-candidate dist-5E-stack-v2.2-errata httpd-2.2.11-3.el5s2
+    Created task 1888417, moving httpd-2.2.11-3.el5s2
+    
+    Done pushing RHSA-2009:1156-03 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 163483
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:53:38 -04:00
+push_job_05318: 
+  created_at: 2009-09-07 10:47:55 -04:00
+  errata_id: 8854
+  id: 5318
+  log: |-
+    
+    Pushing RHSA-2009:8854 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHSA-2009:8854 (8854)
+    No packages to upload. Skipping..
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHSA-2009:8854-01 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 35599
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:46 -04:00
+push_job_05428: 
+  created_at: 2009-09-21 16:14:18 -04:00
+  errata_id: 8854
+  id: 5428
+  log: |-
+    
+    Pushing RHSA-2009:8854 to RHN Stage
+    Uploading files to RHN Stage
+    Uploading files to RHN stage for RHSA-2009:8854 (8854)
+    No packages to upload. Skipping..
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHSA-2009:8854-01 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 35599
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:47 -04:00
+push_job_06312: 
+  created_at: 2009-12-16 08:32:02 -05:00
+  errata_id: 9190
+  id: 6312
+  log: |-
+    
+    Pushing RHSA-2009:9190 to RHN Stage
+    Uploading files to RHN Stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts.vip.stage.redhat.com
+    Submitting errata RHSA-2009:9190-05 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 81410
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:53:56 -04:00
+push_job_06334: 
+  created_at: 2009-12-21 20:22:57 -05:00
+  errata_id: 9190
+  id: 6334
+  log: |-
+    
+    Changed RHSA-2009:9190 to public name: RHSA-2009:1688
+    Pushing RHSA-2009:1688-10 to RHN LIVE
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Getting proxy scripts.vip.phx.redhat.com
+    Submitting errata RHSA-2009:1688-10 to live
+    Done
+    Closing bugs...
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2009:1688
+    2009:1688
+    brew move-pkg --force dist-4E-mrg-candidate dist-4E-mrg condor-7.4.1-0.7.1.el4
+    Created task 2163371, moving condor-7.4.1-0.7.1.el4
+    skipping advisory 2009:1688 (condor-7.4.1-0.7.1.el4 condor-7.4.1-0.7.1.el4) in dist-4E-mrg-devel
+    
+    Done pushing RHSA-2009:1688-10 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:53:57 -04:00
+push_job_07157: 
+  created_at: 2010-03-24 08:37:27 -04:00
+  errata_id: 9407
+  id: 7157
+  log: |-
+    
+    Pushing RHSA-2010:9407 to RHN Stage
+    Uploading files to RHN Stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts1.app.stage.redhat.com
+    Submitting errata RHSA-2010:9407-19 to stage
+    Done
+    Done pushing to RHN stage
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 3000067
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:54:05 -04:00
+push_job_07158: 
+  created_at: 2010-03-24 08:42:55 -04:00
+  errata_id: 9407
+  id: 7158
+  log: |-
+    
+    Pushing RHSA-2010:9407 to RHN Stage
+    Uploading files to RHN Stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts1.app.stage.redhat.com
+    Submitting errata RHSA-2010:9407-19 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 3000067
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:54:05 -04:00
+push_job_07161: 
+  created_at: 2010-03-24 11:36:20 -04:00
+  errata_id: 9407
+  id: 7161
+  log: |-
+    
+    Changed RHSA-2010:9407 to public name: RHSA-2010:0172
+    Pushing RHSA-2010:0172-19 to RHN LIVE
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Getting proxy scriptsvip.rhn.prod.ext.phx2.redhat.com
+    Submitting errata RHSA-2010:0172-19 to live
+    Done
+    Closing bugs...
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2010:0172
+    2010:0172
+    brew move-pkg --force rhev-h-5E-5.4-2.1-candidate rhev-h-5E-5.4-2.1 rhev-hypervisor-5.4-2.1.10.el5_4rhev2_1
+    Created task 2339132, moving rhev-hypervisor-5.4-2.1.10.el5_4rhev2_1
+    
+    Done pushing RHSA-2010:0172-19 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 3000067
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:54:05 -04:00
+push_job_07412: 
+  created_at: 2010-03-30 06:09:30 -04:00
+  errata_id: 9494
+  id: 7412
+  log: |-
+    
+    Pushing RHSA-2010:9494 to RHN Stage
+    Uploading files to RHN Stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Getting proxy scripts1.app.stage.redhat.com
+    Submitting errata RHSA-2010:9494-06 to stage
+    Done
+    Done pushing to RHN stage
+    Re-publising TPS Job Queue
+    Done publishing TPS Job Queue
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 277014
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:54:08 -04:00
+push_job_07536: 
+  created_at: 2010-03-30 12:51:05 -04:00
+  errata_id: 9494
+  id: 7536
+  log: |-
+    
+    Pushing RHSA-2010:0331-06 to RHN LIVE
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Getting proxy scriptsvip.rhn.prod.ext.phx2.redhat.com
+    Submitting errata RHSA-2010:0331-06 to live
+    Done
+    Closing bugs...
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2010:0331
+    2010:0331
+    brew move-pkg --force GFS-4.8-Z-candidate GFS-4.8-Z GFS-kernel-2.6.9-85.2.el4_8.10
+    Created task 2352639, moving GFS-kernel-2.6.9-85.2.el4_8.10
+    
+    Done pushing RHSA-2010:0331-06 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:54:09 -04:00
+push_job_08530: 
+  created_at: 2010-07-30 08:18:29 -04:00
+  errata_id: 9755
+  id: 8530
+  log: |-
+    
+    Pushing RHSA-2010:9755 to RHN Stage
+    Uploading files to RHN Stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Using rhn server scripts.rhn.errata.stage.redhat.com 
+    Submitting errata RHSA-2010:9755-05 to stage
+    ERROR:
+    Runtime error occurred pushing errata 9755 to stage: HTTP-Error: 500 Internal Server Error
+    ERROR:
+    Runtime error occurred pushing errata 9755 to stage: HTTP-Error: 500 Internal Server Error
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 271623
+  status: FAILED
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:54:19 -04:00
+push_job_08541: 
+  created_at: 2010-08-02 05:47:13 -04:00
+  errata_id: 9755
+  id: 8541
+  log: |-
+    
+    Pushing RHSA-2010:9755 to RHN Stage
+    Uploading files to RHN Stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Using rhn server scripts.rhn.errata.stage.redhat.com 
+    Submitting errata RHSA-2010:9755-05 to stage
+    Done
+    Done pushing to RHN stage
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 271623
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:54:19 -04:00
+push_job_08543: 
+  created_at: 2010-08-02 10:27:01 -04:00
+  errata_id: 9754
+  id: 8543
+  log: |-
+    
+    Pushing RHSA-2010:9754 to RHN Stage
+    Uploading files to RHN Stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Using rhn server scripts.rhn.errata.stage.redhat.com 
+    Submitting errata RHSA-2010:9754-04 to stage
+    Done
+    Done pushing to RHN stage
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 266715
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:54:19 -04:00
+push_job_08544: 
+  created_at: 2010-08-02 10:30:20 -04:00
+  errata_id: 9753
+  id: 8544
+  log: |-
+    
+    Pushing RHSA-2010:9753 to RHN Stage
+    Uploading files to RHN Stage
+    Done uploading files
+    Submitting errata metadata to RHN stage
+    Submitting errata
+    Using rhn server scripts.rhn.errata.stage.redhat.com 
+    Submitting errata RHSA-2010:9753-03 to stage
+    Done
+    Done pushing to RHN stage
+    Completed Successfully
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 
+  pushed_by: 266715
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-22 09:54:19 -04:00
+push_job_08549: 
+  created_at: 2010-08-02 16:04:36 -04:00
+  errata_id: 9755
+  id: 8549
+  log: |-
+    
+    Pushing RHSA-2010:0581-05 to RHN LIVE
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Using rhn server scriptsvip.rhn.prod.ext.phx2.redhat.com 
+    Submitting errata RHSA-2010:0581-05 to live
+    ERROR:
+    end of file reached
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 184429
+  status: FAILED
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:54:19 -04:00
+push_job_08550: 
+  created_at: 2010-08-02 16:16:49 -04:00
+  errata_id: 9754
+  id: 8550
+  log: |-
+    
+    Pushing RHSA-2010:0582-04 to RHN LIVE
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Using rhn server scriptsvip.rhn.prod.ext.phx2.redhat.com 
+    Submitting errata RHSA-2010:0582-04 to live
+    Done
+    Closing bugs...
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2010:0582
+    2010:0582
+    brew move-pkg --force dist-4E-rhaps-errata-candidate dist-4E-rhaps-v2-errata tomcat5-5.5.23-0jpp_4rh.17
+    Created task 2646406, moving tomcat5-5.5.23-0jpp_4rh.17
+    
+    Done pushing RHSA-2010:0582-04 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:54:19 -04:00
+push_job_08551: 
+  created_at: 2010-08-02 16:17:08 -04:00
+  errata_id: 9753
+  id: 8551
+  log: |-
+    
+    Pushing RHSA-2010:0583-03 to RHN LIVE
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Using rhn server scriptsvip.rhn.prod.ext.phx2.redhat.com 
+    Submitting errata RHSA-2010:0583-03 to live
+    Done
+    Closing bugs...
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2010:0583
+    2010:0583
+    skipping advisory 2010:0583 (tomcat5-5.5.23-0jpp_21rh) in dist-4E-rhds-errata-candidate
+    
+    Done pushing RHSA-2010:0583-03 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:54:19 -04:00
+push_job_08555: 
+  created_at: 2010-08-02 16:37:38 -04:00
+  errata_id: 9755
+  id: 8555
+  log: |-
+    
+    Pushing RHSA-2010:0581-05 to RHN LIVE
+    Doing errata metadata upload
+    Errata never uploaded. Updating issue date and update date
+    Submitting errata
+    Using rhn server scriptsvip.rhn.prod.ext.phx2.redhat.com 
+    Submitting errata RHSA-2010:0581-05 to live
+    Done
+    Closing bugs...
+    Requesting translation
+    Requesting RHN Cache update
+    Calling move-pushed-erratum for 2010:0581
+    2010:0581
+    brew move-pkg --force dist-4E-ep-5-candidate dist-4E-ep-5-errata tomcat5-5.5.28-9.patch_01.jdk6.ep5.el4 tomcat6-6.0.24-7.patch_01.jdk6.ep5.el4
+    Created task 2646543, moving tomcat5-5.5.28-9.patch_01.jdk6.ep5.el4
+    Created task 2646545, moving tomcat6-6.0.24-7.patch_01.jdk6.ep5.el4
+    brew move-pkg --force dist-5E-ep-5-candidate dist-5E-ep-5-errata tomcat6-6.0.24-7.patch_01.jdk6.ep5.el5 tomcat5-5.5.28-9.patch_01.1.jdk6.ep5.el5
+    Created task 2646546, moving tomcat6-6.0.24-7.patch_01.jdk6.ep5.el5
+    Created task 2646547, moving tomcat5-5.5.28-9.patch_01.1.jdk6.ep5.el5
+    skipping advisory 2010:0581 (tomcat6-6.0.24-7.patch_01.jdk6.ep5.el5 tomcat5-5.5.28-9.patch_01.1.jdk6.ep5.el5) in dist-5E-ep-5.1-candidate
+    skipping advisory 2010:0581 (tomcat6-6.0.24-7.patch_01.jdk6.ep5.el4 tomcat5-5.5.28-9.patch_01.jdk6.ep5.el4) in dist-4E-ep-5.1-candidate
+    
+    Done pushing RHSA-2010:0581-05 to RHN Live
+    Completed Successfully
+  post_push_tasks: 
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_live_id
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+  pub_task_id: 
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-10-22 09:54:19 -04:00
+push_job_09030: 
+  created_at: 2010-10-29 09:51:01 -04:00
+  errata_id: 10226
+  id: 9030
+  log: |-
+    
+    Pub task created, task id: 3903
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/3903
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 3903
+  pushed_by: 96230
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-10-29 09:53:48 -04:00
+push_job_09063: 
+  created_at: 2010-11-01 09:56:11 -04:00
+  errata_id: 10226
+  id: 9063
+  log: |-
+    
+    Pub task created, task id: 3937
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/3937
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 3937
+  pushed_by: 35599
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-11-01 09:58:13 -04:00
+push_job_09064: 
+  created_at: 2010-11-01 10:05:02 -04:00
+  errata_id: 10226
+  id: 9064
+  log: |-
+    
+    Pub task created, task id: 3938
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/3938
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 3938
+  pushed_by: 35599
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-11-01 10:08:17 -04:00
+push_job_09065: 
+  created_at: 2010-11-01 10:08:38 -04:00
+  errata_id: 10226
+  id: 9065
+  log: |-
+    
+    Pub task created, task id: 3939
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/3939
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 3939
+  pushed_by: 35599
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-11-01 10:13:23 -04:00
+push_job_09090: 
+  created_at: 2010-11-03 12:26:57 -04:00
+  errata_id: 10140
+  id: 9090
+  log: |-
+    
+    Pub task created, task id: 3968
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/3968
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 3968
+  pushed_by: 268050
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-11-03 12:28:23 -04:00
+push_job_09145: 
+  created_at: 2010-11-08 15:05:08 -05:00
+  errata_id: 10140
+  id: 9145
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Changed RHSA-2010:10140 to public name: RHSA-2010:0837
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 4025
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/4025
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2010:0837
+    2010:0837
+    Skipping rhpki-util-7.3.0-21.el4: already tagged with dist-4E-certsystem-7.3-errata [(.*)-errata$]
+    brew move-pkg --force dist-4E-certsystem-7.3-candidate dist-4E-certsystem-7.3-errata rhpki-ca-7.3.0-21.el4 rhpki-common-7.3.0-41.el4
+    Created task 2881058, moving rhpki-ca-7.3.0-21.el4
+    Created task 2881059, moving rhpki-common-7.3.0-41.el4
+    skipping advisory 2010:0837 (rhpki-util-7.3.0-21.el4) in dist-4E-certsystem-7.3-build
+    skipping advisory 2010:0837 (rhpki-util-7.3.0-21.el4) in dist-4E-certsystem-7.3-errata
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 4025
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2010-11-08 15:07:14 -05:00
+push_job_09789: 
+  created_at: 2010-12-20 11:08:30 -05:00
+  errata_id: 10305
+  id: 9789
+  log: |-
+    
+    Pub task created, task id: 4715
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/4715
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 4715
+  pushed_by: 242721
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2010-12-20 11:11:24 -05:00
+push_job_09826: 
+  created_at: 2011-01-03 13:15:18 -05:00
+  errata_id: 10305
+  id: 9826
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 4755
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/4755
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0002
+    2011:0002
+    skipping advisory 2011:0002 (rhns-proxy-4.2.3-6) in satellite-4E-4.2
+    skipping advisory 2011:0002 (rhns-proxy-4.2.3-5) in satellite-3E-4.2
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 4755
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-01-03 13:18:24 -05:00
+push_job_10265: 
+  created_at: 2011-01-18 04:44:11 -05:00
+  errata_id: 9829
+  id: 10265
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Tue Jan 18 05:00:00 -0500 2011
+    Pub task created, task id: 5212
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5212
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5212
+  pushed_by: 3000532
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-01-18 05:02:11 -05:00
+push_job_10327: 
+  created_at: 2011-01-25 10:29:57 -05:00
+  errata_id: 9829
+  id: 10327
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 5279
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5279
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0175
+    2011:0175
+    skipping advisory 2011:0175 (jboss-wfk-1.0.0-uninstall-1.0.0-3.ep5.el4) in dist-4E-ep-5-candidate
+    skipping advisory 2011:0175 (jboss-wfk-1.0.0-uninstall-1.0.0-3.ep5.el5) in dist-5E-ep-5-candidate
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5279
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-01-25 10:34:36 -05:00
+push_job_10480: 
+  created_at: 2011-02-10 13:43:11 -05:00
+  errata_id: 10801
+  id: 10480
+  log: |-
+    
+    Pub task created, task id: 5439
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5439
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5439
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-02-10 13:45:50 -05:00
+push_job_10481: 
+  created_at: 2011-02-10 13:44:52 -05:00
+  errata_id: 10802
+  id: 10481
+  log: |-
+    
+    Pub task created, task id: 5440
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5440
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5440
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-02-10 13:45:50 -05:00
+push_job_10485: 
+  created_at: 2011-02-10 14:41:01 -05:00
+  errata_id: 10801
+  id: 10485
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Changed RHSA-2011:10801 to public name: RHSA-2011:0212
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 5444
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5444
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0212
+    2011:0212
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5444
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-02-10 14:41:50 -05:00
+push_job_10486: 
+  created_at: 2011-02-10 14:42:20 -05:00
+  errata_id: 10802
+  id: 10486
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Changed RHSA-2011:10802 to public name: RHSA-2011:0213
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 5445
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5445
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0213
+    2011:0213
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5445
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-02-10 14:47:01 -05:00
+push_job_10507: 
+  created_at: 2011-02-14 11:09:41 -05:00
+  errata_id: 10610
+  id: 10507
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Mon Feb 14 12:00:00 -0500 2011
+    Pub task created, task id: 5467
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5467
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5467
+  pushed_by: 268050
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-02-14 12:04:56 -05:00
+push_job_10734: 
+  created_at: 2011-02-21 12:31:53 -05:00
+  errata_id: 10827
+  id: 10734
+  log: |-
+    
+    Pub task created, task id: 5706
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5706
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5706
+  pushed_by: 3000072
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-02-21 12:34:02 -05:00
+push_job_10755: 
+  created_at: 2011-02-22 12:42:23 -05:00
+  errata_id: 10610
+  id: 10755
+  log: |-
+    
+    Pub task created, task id: 5730
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5730
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task mark_ftp_done
+    post-push tasks complete
+  post_push_tasks: 
+  - mark_ftp_done
+  pre_push_tasks: []
+
+  priority: 22
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 22
+  pub_task_id: 5730
+  pushed_by: 184429
+  status: COMPLETE
+  type: FtpPushJob
+  push_target_id: 3
+  updated_at: 2011-02-22 12:46:24 -05:00
+push_job_10756: 
+  created_at: 2011-02-22 12:42:40 -05:00
+  errata_id: 10610
+  id: 10756
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 5731
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5731
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0293
+    2011:0293
+    skipping advisory 2011:0293 (redhat-ds-base-8.2.4-1.el4dsrv redhat-ds-admin-8.2.1-1.el4dsrv) in dist-4E-dsrv-8-qu-candidate
+    skipping advisory 2011:0293 (redhat-ds-base-8.2.4-1.el5dsrv redhat-ds-admin-8.2.1-1.el5dsrv) in dist-5E-dsrv-8-qu-candidate
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5731
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-02-22 12:46:24 -05:00
+push_job_10770: 
+  created_at: 2011-02-23 12:30:55 -05:00
+  errata_id: 10844
+  id: 10770
+  log: |-
+    
+    Pub task created, task id: 5747
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5747
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5747
+  pushed_by: 173714
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-02-23 12:35:30 -05:00
+push_job_10771: 
+  created_at: 2011-02-23 13:36:02 -05:00
+  errata_id: 10844
+  id: 10771
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 5748
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5748
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0299
+    2011:0299
+    brew move-pkg --force dist-5E-sap-candidate dist-5E-sap java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el5
+    Created task 3136023, moving java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el5
+    brew move-pkg --force dist-4E-sap-candidate dist-4E-sap java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el4_8
+    Created task 3136024, moving java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el4_8
+    skipping advisory 2011:0299 (java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.1.el6) in rhel-6-sap-candidate
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5748
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-02-23 13:41:18 -05:00
+push_job_10772: 
+  created_at: 2011-02-23 13:54:26 -05:00
+  errata_id: 10827
+  id: 10772
+  log: |-
+    
+    Pub task created, task id: 5749
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5749
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task mark_ftp_done
+    post-push tasks complete
+  post_push_tasks: 
+  - mark_ftp_done
+  pre_push_tasks: []
+
+  priority: 22
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 22
+  pub_task_id: 5749
+  pushed_by: 184429
+  status: COMPLETE
+  type: FtpPushJob
+  push_target_id: 3
+  updated_at: 2011-02-23 13:56:26 -05:00
+push_job_10773: 
+  created_at: 2011-02-23 13:54:44 -05:00
+  errata_id: 10827
+  id: 10773
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 5750
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5750
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0300
+    2011:0300
+    skipping advisory 2011:0300 (spacewalk-java-1.2.39-35.1.el5sat spacewalk-backend-1.2.13-26.2.el5sat) in satellite-5.4-rhel-5-pending
+    skipping advisory 2011:0300 (spacewalk-java-1.2.39-35.1.el5sat spacewalk-backend-1.2.13-26.2.el5sat) in satellite-5.4-rhel-5-candidate
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5750
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-02-23 14:01:47 -05:00
+push_job_10915: 
+  created_at: 2011-03-09 10:55:06 -05:00
+  errata_id: 10849
+  id: 10915
+  log: |-
+    
+    Pub task created, task id: 5895
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5895
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5895
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-03-09 10:59:54 -05:00
+push_job_10921: 
+  created_at: 2011-03-09 13:43:43 -05:00
+  errata_id: 10849
+  id: 10921
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Changed RHSA-2011:10849 to public name: RHSA-2011:0334
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 5900
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5900
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0334
+    2011:0334
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5900
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-03-09 13:46:33 -05:00
+push_job_10938: 
+  created_at: 2011-03-10 03:55:51 -05:00
+  errata_id: 10836
+  id: 10938
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Thu Mar 10 04:00:00 -0500 2011
+    Pub task created, task id: 5920
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/5920
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 5920
+  pushed_by: 3000490
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-03-10 04:06:54 -05:00
+push_job_11048: 
+  created_at: 2011-03-22 05:18:33 -04:00
+  errata_id: 10842
+  id: 11048
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Tue Mar 22 06:00:00 -0400 2011
+    Pub task created, task id: 6079
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6079
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6079
+  pushed_by: 168539
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-03-22 06:04:51 -04:00
+push_job_11097: 
+  created_at: 2011-03-25 10:39:24 -04:00
+  errata_id: 10718
+  id: 11097
+  log: |-
+    
+    Pub task created, task id: 6134
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6134
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6134
+  pushed_by: 173714
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-03-25 10:41:53 -04:00
+push_job_11254: 
+  created_at: 2011-04-07 10:27:08 -04:00
+  errata_id: 11031
+  id: 11254
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Thu Apr 07 11:00:00 -0400 2011
+    Pub task created, task id: 6304
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6304
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6304
+  pushed_by: 3000577
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-04-07 11:07:04 -04:00
+push_job_11326: 
+  created_at: 2011-04-13 12:02:12 -04:00
+  errata_id: 11110
+  id: 11326
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Wed Apr 13 13:00:00 -0400 2011
+    Pub task created, task id: 6379
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6379
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6379
+  pushed_by: 270746
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-04-13 13:06:40 -04:00
+push_job_11331: 
+  created_at: 2011-04-13 16:09:24 -04:00
+  errata_id: 11031
+  id: 11331
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Changed RHBA-2011:11031 to public name: RHBA-2011:0442
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 6384
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6384
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0442
+    2011:0442
+    brew move-pkg --force dist-5E-fastrack-candidate dist-5E-U6-fastrack lapack-3.0-38.el5
+    Created task 3256489, moving lapack-3.0-38.el5
+    
+    move-pushed-erratum complete
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - update_bugzilla
+  - move_pushed_errata
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 15
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 15
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6384
+  pushed_by: 206014
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-04-13 16:14:00 -04:00
+push_job_11332: 
+  created_at: 2011-04-13 16:09:26 -04:00
+  errata_id: 11031
+  id: 11332
+  log: |-
+    
+    Pub task created, task id: 6385
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6385
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task mark_ftp_done
+    post-push tasks complete
+  post_push_tasks: 
+  - mark_ftp_done
+  pre_push_tasks: []
+
+  priority: 12
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 12
+  pub_task_id: 6385
+  pushed_by: 206014
+  status: COMPLETE
+  type: FtpPushJob
+  push_target_id: 3
+  updated_at: 2011-04-13 16:13:41 -04:00
+push_job_11351: 
+  created_at: 2011-04-14 11:38:30 -04:00
+  errata_id: 11129
+  id: 11351
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Thu Apr 14 12:00:00 -0400 2011
+    Pub task created, task id: 6405
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6405
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6405
+  pushed_by: 242721
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-04-14 12:08:15 -04:00
+push_job_11353: 
+  created_at: 2011-04-14 13:59:57 -04:00
+  errata_id: 11129
+  id: 11353
+  log: |-
+    
+    Pub task created, task id: 6407
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6407
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task mark_ftp_done
+    post-push tasks complete
+  post_push_tasks: 
+  - mark_ftp_done
+  pre_push_tasks: []
+
+  priority: 22
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 22
+  pub_task_id: 6407
+  pushed_by: 275188
+  status: COMPLETE
+  type: FtpPushJob
+  push_target_id: 3
+  updated_at: 2011-04-14 14:01:19 -04:00
+push_job_11354: 
+  created_at: 2011-04-14 14:01:32 -04:00
+  errata_id: 11129
+  id: 11354
+  log: |-
+    
+    Checking that oval is well formed...
+    done.
+    Checking that oval is well formed...
+    done.
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Changed RHSA-2011:11129 to public name: RHSA-2011:0447
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 6408
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6408
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Pushing RHSA-2011:0447-09 oval to secalert
+    OVAL pushed to secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0447
+    2011:0447
+    brew move-pkg --force RHEL-6.0-Z-candidate RHEL-6.0-Z krb5-1.8.2-3.el6_0.7
+    Created task 3259191, moving krb5-1.8.2-3.el6_0.7
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6408
+  pushed_by: 275188
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-04-14 14:16:48 -04:00
+push_job_11359: 
+  created_at: 2011-04-15 02:47:41 -04:00
+  errata_id: 11118
+  id: 11359
+  log: |-
+    
+    Pub task created, task id: 6410
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6410
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6410
+  pushed_by: 173714
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-04-15 02:50:50 -04:00
+push_job_11370: 
+  created_at: 2011-04-15 07:39:29 -04:00
+  errata_id: 11096
+  id: 11370
+  log: |-
+    
+    Enqueued push job. Submitting to pub at Fri Apr 15 08:00:00 -0400 2011
+    Pub task created, task id: 6424
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6424
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 10
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 10
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6424
+  pushed_by: 3000095
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-04-15 08:11:16 -04:00
+push_job_11389: 
+  created_at: 2011-04-18 10:06:00 -04:00
+  errata_id: 11131
+  id: 11389
+  log: |-
+    
+    Pub task created, task id: 6443
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6443
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task reschedule_rhnqa
+    Running task mark_rhnqa_done
+    post-push tasks complete
+  post_push_tasks: 
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6443
+  pushed_by: 267999
+  status: COMPLETE
+  type: RhnStagePushJob
+  push_target_id: 2
+  updated_at: 2011-04-18 10:08:00 -04:00
+push_job_11393: 
+  created_at: 2011-04-18 11:37:20 -04:00
+  errata_id: 11131
+  id: 11393
+  log: |-
+    
+    Running task set_update_date
+    Updated Update date
+    Running task set_live_id
+    Running task set_issue_date
+    Updated Issue date
+    Pub task created, task id: 6447
+    Link to the pub task: http://pub.devel.redhat.com/pub/task/6447
+    Waiting on pub to finish.
+    Pub completed.
+    Running post push tasks.
+    Running task update_push_count
+    Push count increased
+    Running task mark_errata_shipped
+    Running task request_rhn_cache_update
+    Requesting RHN Cache update
+    Cache update requested
+    Running task push_oval_to_secalert
+    Running task update_bugzilla
+    Closing bugs...
+    Done closing bugs
+    Running task move_pushed_errata
+    Calling move-pushed-erratum for 2011:0451
+    2011:0451
+    brew move-pkg --force rhel-6.1-supp-candidate rhel-6.0-supp-errata flash-plugin-10.2.159.1-1.el6
+    Created task 3265793, moving flash-plugin-10.2.159.1-1.el6
+    brew move-pkg --force dist-5E-extras-errata-candidate dist-5E-extras-U6-errata flash-plugin-10.2.159.1-1.el5
+    Created task 3265794, moving flash-plugin-10.2.159.1-1.el5
+    
+    move-pushed-erratum complete
+    Running task request_translation
+    Requesting translation
+    translation requested
+    post-push tasks complete
+  post_push_tasks: 
+  - request_rhn_cache_update
+  - push_oval_to_secalert
+  - update_bugzilla
+  - move_pushed_errata
+  - request_translation
+  - update_push_count
+  - mark_errata_shipped
+  pre_push_tasks: 
+  - set_update_date
+  - set_live_id
+  - set_issue_date
+  priority: 25
+  problem_ticket_filed: false
+  pub_options: 
+    priority: 25
+    push_files: true
+    push_metadata: true
+  pub_task_id: 6447
+  pushed_by: 184429
+  status: COMPLETE
+  type: RhnLivePushJob
+  push_target_id: 1
+  updated_at: 2011-04-18 11:39:07 -04:00
+push_job_11394:
+  created_at: 2014-04-01 12:10:07 -04:00
+  errata_id: 16374
+  id: 11394
+  log: |-
+
+    Pushing RHEA-2014:16374-01 to CDN Stage
+    Uploading files to CDN Stage
+    Uploading files to CDN Stage for RHBA-2008:0495 (7390)
+    Uploading 2 packages to CDN Stage
+    uploading /mnt/redhat/brewroot/packages/hts/5.2/16.el4/data/signed/db42a60e/src/hts-5.2-16.el4.src.rpm
+    uploading /mnt/redhat/brewroot/packages/hts/5.2/16.el4/data/signed/db42a60e/noarch/hts-5.2-16.el4.noarch.rpm
+    RHEA-2014:16374-01 packages uploaded to CDN Stage
+    Done uploading files
+    Submitting errata metadata to CDN Stage
+    Getting proxyscripts.vip.stage.redhat.com
+    Submitting errata RHEA-2014:16374-01 to stage
+    Done
+    Done pushing to CDN Stage
+    Completed Successfully
+  post_push_tasks: []
+  pre_push_tasks: []
+
+  priority: 20
+  problem_ticket_filed: false
+  pub_options:
+    priority: 20
+    push_files: true
+    push_metadata: true
+  pub_task_id: 28288
+  pushed_by: 81410
+  status: COMPLETE
+  type: CdnStagePushJob
+  push_target_id: 5
+  updated_at: 2014-04-01 13:08:05 -04:00
+altsrc_push_job_11403:
+  updated_at: 2014-08-19 06:20:05 Z
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  post_push_tasks: []
+  type: AltsrcPushJob
+  errata_id: 10836
+  priority: 1
+  pub_task_id: 28289
+  push_target_id: 6
+  pushed_by: 3000930
+  status: COMPLETE
+  pub_options:
+    priority: 1
+  id: 11403
+  created_at: 2014-08-19 06:19:41 Z
+  log: |-
+    2014-08-19 16:20:04 +1000 Pub completed.
+    2014-08-19 16:20:04 +1000 Running post push tasks.
+    2014-08-19 16:20:05 +1000 Running post push tasks:
+    2014-08-19 16:20:05 +1000 Running mandatory tasks
+    2014-08-19 16:20:05 +1000 Running remainder:
+    2014-08-19 16:20:05 +1000 post-push tasks complete
+cdn_stage_push_job_11405:
+  pre_push_tasks: []
+  type: CdnStagePushJob
+  log: |-
+    2014-09-22 16:22:23 +1000 Running pre push tasks
+    2014-09-22 16:22:23 +1000 Pub task created, task id: 28291
+    2014-09-22 16:22:23 +1000 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/28291
+    2014-09-22 16:22:23 +1000 Waiting on pub to finish.
+    2014-09-22 16:48:07 +1000 Pub completed.
+    2014-09-22 16:48:07 +1000 Running post push tasks.
+    2014-09-22 16:48:07 +1000 Running post push tasks: mark_rhnqa_done, reschedule_cdnqa_jobs
+    2014-09-22 16:48:07 +1000 Running mandatory tasks mark_rhnqa_done, reschedule_cdnqa_jobs
+    2014-09-22 16:48:07 +1000 Running task mark_rhnqa_done
+    2014-09-22 16:48:07 +1000 Running task reschedule_cdnqa_jobs
+    2014-09-22 16:48:07 +1000 Running remainder:
+    2014-09-22 16:48:07 +1000 post-push tasks complete
+  pub_task_id: 28291
+  problem_ticket_filed: false
+  pushed_by: 3000931
+  created_at: 2014-09-22 06:22:23 Z
+  pub_options:
+    push_metadata: true
+    priority: 12
+    push_files: true
+  push_target_id: 5
+  errata_id: 16616
+  priority: 12
+  status: COMPLETE
+  id: 11405
+  updated_at: 2014-09-22 06:48:07 Z
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_cdnqa_jobs
+rhn_stage_push_job_11404:
+  pre_push_tasks: []
+  type: RhnStagePushJob
+  log: |-
+    2014-09-22 16:22:23 +1000 Running pre push tasks
+    2014-09-22 16:22:23 +1000 Pub task created, task id: 28290
+    2014-09-22 16:22:23 +1000 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/28290
+    2014-09-22 16:22:23 +1000 Waiting on pub to finish.
+    2014-09-22 16:48:07 +1000 Pub completed.
+    2014-09-22 16:48:07 +1000 Running post push tasks.
+    2014-09-22 16:48:08 +1000 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2014-09-22 16:48:08 +1000 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2014-09-22 16:48:08 +1000 Running task reschedule_rhnqa
+    2014-09-22 16:48:08 +1000 Running task mark_rhnqa_done
+    2014-09-22 16:48:08 +1000 Running remainder:
+    2014-09-22 16:48:08 +1000 post-push tasks complete
+  pub_task_id: 28290
+  problem_ticket_filed: false
+  pushed_by: 3000931
+  created_at: 2014-09-22 06:22:23 Z
+  pub_options:
+    push_metadata: true
+    priority: 10
+    push_files: true
+  push_target_id: 2
+  errata_id: 16616
+  priority: 10
+  status: COMPLETE
+  id: 11404
+  updated_at: 2014-09-22 06:48:08 Z
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+rhn_stage_push_job_11406:
+  log: |-
+    2014-10-28 17:19:38 +1000 Enqueued push job. Submitting to pub at 2014-10-28 08:00:00 UTC
+    2014-10-28 17:19:58 +1000 Pub completed.
+    2014-10-28 17:19:58 +1000 Running post push tasks.
+  created_at: 2014-10-28 07:19:38 Z
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  id: 11406
+  type: RhnStagePushJob
+  problem_ticket_filed: false
+  updated_at: 2014-10-28 07:21:23 Z
+  pub_options:
+    push_metadata: true
+    push_files: true
+    priority: 20
+  pre_push_tasks: []
+  errata_id: 19028
+  pub_task_id:
+  push_target_id: 2
+  pushed_by: 3000931
+  status: COMPLETE
+  priority: 20
+ftp_push_job_34509:
+  status: COMPLETE
+  updated_at: 2014-09-30 10:31:20 Z
+  pushed_by: 3000172
+  problem_ticket_filed: false
+  log: |-
+    2014-09-30 06:26:45 -0400 Running pre push tasks
+    2014-09-30 06:26:45 -0400 Pub task created, task id: 43692
+    2014-09-30 06:26:45 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43692
+    2014-09-30 06:26:45 -0400 Waiting on pub to finish.
+    2014-09-30 06:31:20 -0400 Pub completed.
+    2014-09-30 06:31:20 -0400 Running post push tasks.
+    2014-09-30 06:31:20 -0400 Running post push tasks: mark_ftp_done
+    2014-09-30 06:31:20 -0400 Running mandatory tasks mark_ftp_done
+    2014-09-30 06:31:20 -0400 Running task mark_ftp_done
+    2014-09-30 06:31:20 -0400 Running remainder:
+    2014-09-30 06:31:20 -0400 post-push tasks complete
+  push_target_id: 3
+  priority: 12
+  created_at: 2014-09-30 10:26:45 Z
+  errata_id: 18918
+  type: FtpPushJob
+  pub_options:
+    priority: 12
+  pre_push_tasks: []
+  post_push_tasks:
+  - mark_ftp_done
+  pub_task_id: 43692
+  id: 34509
+rhn_live_push_job_34506:
+  status: COMPLETE
+  updated_at: 2014-09-30 10:31:26 Z
+  pushed_by: 3000172
+  problem_ticket_filed: false
+  log: |-
+    2014-09-30 06:26:41 -0400 Running pre push tasks
+    2014-09-30 06:26:41 -0400 Running pre push task set_update_date
+    2014-09-30 06:26:41 -0400 Running task set_update_date
+    2014-09-30 06:26:41 -0400 Updated Update date
+    2014-09-30 06:26:41 -0400 Running pre push task check_jira
+    2014-09-30 06:26:41 -0400 Running task check_jira
+    2014-09-30 06:26:41 -0400 Running pre push task set_live_id
+    2014-09-30 06:26:41 -0400 Running task set_live_id
+    2014-09-30 06:26:42 -0400 Changed RHBA-2014:18918 to public name: RHBA-2014:1331
+    2014-09-30 06:26:42 -0400 Running pre push task set_in_push
+    2014-09-30 06:26:42 -0400 Running task set_in_push
+    2014-09-30 06:26:42 -0400 Changing state to IN_PUSH by Lubos Kocman (lkocman@redhat.com)
+    2014-09-30 06:26:44 -0400 Advisory now IN_PUSH
+    2014-09-30 06:26:44 -0400 Running pre push task set_issue_date
+    2014-09-30 06:26:44 -0400 Running task set_issue_date
+    2014-09-30 06:26:44 -0400 Updated Issue date
+    2014-09-30 06:26:44 -0400 Pub task created, task id: 43691
+    2014-09-30 06:26:44 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43691
+    2014-09-30 06:26:44 -0400 Waiting on pub to finish.
+    2014-09-30 06:31:20 -0400 Pub completed.
+    2014-09-30 06:31:20 -0400 Running post push tasks.
+    2014-09-30 06:31:21 -0400 Running post push tasks: move_pushed_errata, update_bugzilla, update_jira, update_push_count, mark_errata_shipped
+    2014-09-30 06:31:21 -0400 Running mandatory tasks update_push_count, mark_errata_shipped
+    2014-09-30 06:31:21 -0400 Running task update_push_count
+    2014-09-30 06:31:21 -0400 Push count increased
+    2014-09-30 06:31:21 -0400 Running task mark_errata_shipped
+    2014-09-30 06:31:21 -0400 Changing state to SHIPPED_LIVE by Lubos Kocman (lkocman@redhat.com)
+    2014-09-30 06:31:22 -0400 Advisory now SHIPPED_LIVE
+    2014-09-30 06:31:22 -0400 Running remainder: move_pushed_errata, update_bugzilla, update_jira
+    2014-09-30 06:31:22 -0400 Running task move_pushed_errata
+    2014-09-30 06:31:22 -0400 Calling move-pushed-erratum for 2014:1331
+    2014-09-30 06:31:25 -0400 2014:1331
+    brew tag-pkg --nowait --force devops-1.2-rhel-6 libcgroup-0.40.rc1-6.el6_5.1
+    Created task 8044393
+    2014-09-30 06:31:25 -0400 move-pushed-erratum complete
+    2014-09-30 06:31:25 -0400 Running task update_bugzilla
+    2014-09-30 06:31:25 -0400 Closing bugs...
+    2014-09-30 06:31:26 -0400 Bugs put into queue to close
+    2014-09-30 06:31:26 -0400 Running task update_jira
+    2014-09-30 06:31:26 -0400 Closing JIRA issues...
+    2014-09-30 06:31:26 -0400 Issues put into queue to close
+    2014-09-30 06:31:26 -0400 post-push tasks complete
+  push_target_id: 1
+  priority: 15
+  created_at: 2014-09-30 10:26:41 Z
+  errata_id: 18918
+  type: RhnLivePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 15
+  pre_push_tasks:
+  - set_update_date
+  - check_jira
+  - set_live_id
+  - set_in_push
+  - set_issue_date
+  post_push_tasks:
+  - move_pushed_errata
+  - update_bugzilla
+  - update_jira
+  - update_push_count
+  - mark_errata_shipped
+  pub_task_id: 43691
+  id: 34506
+rhn_stage_push_job_34451:
+  status: COMPLETE
+  updated_at: 2014-09-28 02:44:53 Z
+  pushed_by: 3000079
+  problem_ticket_filed: false
+  log: |-
+    2014-09-27 22:42:14 -0400 Running pre push tasks
+    2014-09-27 22:42:14 -0400 Pub task created, task id: 43638
+    2014-09-27 22:42:14 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43638
+    2014-09-27 22:42:14 -0400 Waiting on pub to finish.
+    2014-09-27 22:44:51 -0400 Pub completed.
+    2014-09-27 22:44:51 -0400 Running post push tasks.
+    2014-09-27 22:44:51 -0400 Running post push tasks: mark_rhnqa_done, reschedule_rhnqa
+    2014-09-27 22:44:51 -0400 Running mandatory tasks mark_rhnqa_done, reschedule_rhnqa
+    2014-09-27 22:44:51 -0400 Running task mark_rhnqa_done
+    2014-09-27 22:44:51 -0400 Running task reschedule_rhnqa
+    2014-09-27 22:44:53 -0400 Running remainder:
+    2014-09-27 22:44:53 -0400 post-push tasks complete
+  push_target_id: 2
+  priority: 10
+  created_at: 2014-09-28 02:42:14 Z
+  errata_id: 18918
+  type: RhnStagePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 10
+  pre_push_tasks: []
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_rhnqa
+  pub_task_id: 43638
+  id: 34451
+ftp_push_job_34504:
+  status: COMPLETE
+  updated_at: 2014-09-30 10:31:34 Z
+  pushed_by: 3000172
+  problem_ticket_filed: false
+  log: |-
+    2014-09-30 06:26:38 -0400 Running pre push tasks
+    2014-09-30 06:26:39 -0400 Pub task created, task id: 43686
+    2014-09-30 06:26:39 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43686
+    2014-09-30 06:26:39 -0400 Waiting on pub to finish.
+    2014-09-30 06:31:34 -0400 Pub completed.
+    2014-09-30 06:31:34 -0400 Running post push tasks.
+    2014-09-30 06:31:34 -0400 Running post push tasks: mark_ftp_done
+    2014-09-30 06:31:34 -0400 Running mandatory tasks mark_ftp_done
+    2014-09-30 06:31:34 -0400 Running task mark_ftp_done
+    2014-09-30 06:31:34 -0400 Running remainder:
+    2014-09-30 06:31:34 -0400 post-push tasks complete
+  push_target_id: 3
+  priority: 12
+  created_at: 2014-09-30 10:26:38 Z
+  errata_id: 18905
+  type: FtpPushJob
+  pub_options:
+    priority: 12
+  pre_push_tasks: []
+  post_push_tasks:
+  - mark_ftp_done
+  pub_task_id: 43686
+  id: 34504
+rhn_live_push_job_34502:
+  status: COMPLETE
+  updated_at: 2014-09-30 10:31:42 Z
+  pushed_by: 3000172
+  problem_ticket_filed: false
+  log: |-
+    2014-09-30 06:26:33 -0400 Running pre push tasks
+    2014-09-30 06:26:33 -0400 Running pre push task set_update_date
+    2014-09-30 06:26:33 -0400 Running task set_update_date
+    2014-09-30 06:26:33 -0400 Updated Update date
+    2014-09-30 06:26:33 -0400 Running pre push task check_jira
+    2014-09-30 06:26:33 -0400 Running task check_jira
+    2014-09-30 06:26:33 -0400 Running pre push task set_live_id
+    2014-09-30 06:26:33 -0400 Running task set_live_id
+    2014-09-30 06:26:35 -0400 Changed RHBA-2014:18905 to public name: RHBA-2014:1328
+    2014-09-30 06:26:35 -0400 Running pre push task set_in_push
+    2014-09-30 06:26:35 -0400 Running task set_in_push
+    2014-09-30 06:26:35 -0400 Changing state to IN_PUSH by Lubos Kocman (lkocman@redhat.com)
+    2014-09-30 06:26:36 -0400 Advisory now IN_PUSH
+    2014-09-30 06:26:36 -0400 Running pre push task set_issue_date
+    2014-09-30 06:26:36 -0400 Running task set_issue_date
+    2014-09-30 06:26:36 -0400 Updated Issue date
+    2014-09-30 06:26:36 -0400 Pub task created, task id: 43685
+    2014-09-30 06:26:36 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43685
+    2014-09-30 06:26:36 -0400 Waiting on pub to finish.
+    2014-09-30 06:31:34 -0400 Pub completed.
+    2014-09-30 06:31:34 -0400 Running post push tasks.
+    2014-09-30 06:31:34 -0400 Running post push tasks: move_pushed_errata, update_bugzilla, update_jira, update_push_count, mark_errata_shipped
+    2014-09-30 06:31:34 -0400 Running mandatory tasks update_push_count, mark_errata_shipped
+    2014-09-30 06:31:34 -0400 Running task update_push_count
+    2014-09-30 06:31:34 -0400 Push count increased
+    2014-09-30 06:31:34 -0400 Running task mark_errata_shipped
+    2014-09-30 06:31:34 -0400 Changing state to SHIPPED_LIVE by Lubos Kocman (lkocman@redhat.com)
+    2014-09-30 06:31:36 -0400 Advisory now SHIPPED_LIVE
+    2014-09-30 06:31:36 -0400 Running remainder: move_pushed_errata, update_bugzilla, update_jira
+    2014-09-30 06:31:36 -0400 Running task move_pushed_errata
+    2014-09-30 06:31:36 -0400 Calling move-pushed-erratum for 2014:1328
+    2014-09-30 06:31:42 -0400 2014:1328
+    brew tag-pkg --nowait --force RHEL-6.5-Z libcgroup-0.40.rc1-6.el6_5.1
+    Created task 8044401
+    2014-09-30 06:31:42 -0400 move-pushed-erratum complete
+    2014-09-30 06:31:42 -0400 Running task update_bugzilla
+    2014-09-30 06:31:42 -0400 Closing bugs...
+    2014-09-30 06:31:42 -0400 Bugs put into queue to close
+    2014-09-30 06:31:42 -0400 Running task update_jira
+    2014-09-30 06:31:42 -0400 Closing JIRA issues...
+    2014-09-30 06:31:42 -0400 Issues put into queue to close
+    2014-09-30 06:31:42 -0400 post-push tasks complete
+  push_target_id: 1
+  priority: 15
+  created_at: 2014-09-30 10:26:33 Z
+  errata_id: 18905
+  type: RhnLivePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 15
+  pre_push_tasks:
+  - set_update_date
+  - check_jira
+  - set_live_id
+  - set_in_push
+  - set_issue_date
+  post_push_tasks:
+  - move_pushed_errata
+  - update_bugzilla
+  - update_jira
+  - update_push_count
+  - mark_errata_shipped
+  pub_task_id: 43685
+  id: 34502
+rhn_stage_push_job_34457:
+  status: COMPLETE
+  updated_at: 2014-09-29 03:10:46 Z
+  pushed_by: 3000185
+  problem_ticket_filed: false
+  log: |-
+    2014-09-28 22:38:31 -0400 Enqueued push job. Submitting to pub at 2014-09-29 03:00:00 UTC
+    2014-09-28 23:00:02 -0400 Running pre push tasks
+    2014-09-28 23:00:03 -0400 Pub task created, task id: 43644
+    2014-09-28 23:00:03 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43644
+    2014-09-28 23:00:03 -0400 Waiting on pub to finish.
+    2014-09-28 23:10:41 -0400 Pub completed.
+    2014-09-28 23:10:41 -0400 Running post push tasks.
+    2014-09-28 23:10:41 -0400 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2014-09-28 23:10:41 -0400 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2014-09-28 23:10:41 -0400 Running task reschedule_rhnqa
+    2014-09-28 23:10:46 -0400 Running task mark_rhnqa_done
+    2014-09-28 23:10:46 -0400 Running remainder:
+    2014-09-28 23:10:46 -0400 post-push tasks complete
+  push_target_id: 2
+  priority: 10
+  created_at: 2014-09-29 02:38:31 Z
+  errata_id: 18905
+  type: RhnStagePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 10
+  pre_push_tasks: []
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pub_task_id: 43644
+  id: 34457
+ftp_push_job_34507:
+  status: COMPLETE
+  updated_at: 2014-09-30 10:31:30 Z
+  pushed_by: 3000172
+  problem_ticket_filed: false
+  log: |-
+    2014-09-30 06:26:41 -0400 Running pre push tasks
+    2014-09-30 06:26:41 -0400 Pub task created, task id: 43688
+    2014-09-30 06:26:41 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43688
+    2014-09-30 06:26:41 -0400 Waiting on pub to finish.
+    2014-09-30 06:31:30 -0400 Pub completed.
+    2014-09-30 06:31:30 -0400 Running post push tasks.
+    2014-09-30 06:31:30 -0400 Running post push tasks: mark_ftp_done
+    2014-09-30 06:31:30 -0400 Running mandatory tasks mark_ftp_done
+    2014-09-30 06:31:30 -0400 Running task mark_ftp_done
+    2014-09-30 06:31:30 -0400 Running remainder:
+    2014-09-30 06:31:30 -0400 post-push tasks complete
+  push_target_id: 3
+  priority: 12
+  created_at: 2014-09-30 10:26:41 Z
+  errata_id: 18916
+  type: FtpPushJob
+  pub_options:
+    priority: 12
+  pre_push_tasks: []
+  post_push_tasks:
+  - mark_ftp_done
+  pub_task_id: 43688
+  id: 34507
+rhn_live_push_job_34503:
+  status: COMPLETE
+  updated_at: 2014-09-30 10:31:34 Z
+  pushed_by: 3000172
+  problem_ticket_filed: false
+  log: |-
+    2014-09-30 06:26:36 -0400 Running pre push tasks
+    2014-09-30 06:26:36 -0400 Running pre push task set_update_date
+    2014-09-30 06:26:36 -0400 Running task set_update_date
+    2014-09-30 06:26:36 -0400 Updated Update date
+    2014-09-30 06:26:36 -0400 Running pre push task check_jira
+    2014-09-30 06:26:36 -0400 Running task check_jira
+    2014-09-30 06:26:36 -0400 Running pre push task set_live_id
+    2014-09-30 06:26:36 -0400 Running task set_live_id
+    2014-09-30 06:26:37 -0400 Changed RHBA-2014:18916 to public name: RHBA-2014:1329
+    2014-09-30 06:26:37 -0400 Running pre push task set_in_push
+    2014-09-30 06:26:37 -0400 Running task set_in_push
+    2014-09-30 06:26:37 -0400 Changing state to IN_PUSH by Lubos Kocman (lkocman@redhat.com)
+    2014-09-30 06:26:39 -0400 Advisory now IN_PUSH
+    2014-09-30 06:26:39 -0400 Running pre push task set_issue_date
+    2014-09-30 06:26:39 -0400 Running task set_issue_date
+    2014-09-30 06:26:39 -0400 Updated Issue date
+    2014-09-30 06:26:40 -0400 Pub task created, task id: 43687
+    2014-09-30 06:26:40 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43687
+    2014-09-30 06:26:40 -0400 Waiting on pub to finish.
+    2014-09-30 06:31:30 -0400 Pub completed.
+    2014-09-30 06:31:30 -0400 Running post push tasks.
+    2014-09-30 06:31:30 -0400 Running post push tasks: move_pushed_errata, update_bugzilla, update_jira, update_push_count, mark_errata_shipped
+    2014-09-30 06:31:30 -0400 Running mandatory tasks update_push_count, mark_errata_shipped
+    2014-09-30 06:31:30 -0400 Running task update_push_count
+    2014-09-30 06:31:30 -0400 Push count increased
+    2014-09-30 06:31:30 -0400 Running task mark_errata_shipped
+    2014-09-30 06:31:30 -0400 Changing state to SHIPPED_LIVE by Lubos Kocman (lkocman@redhat.com)
+    2014-09-30 06:31:31 -0400 Advisory now SHIPPED_LIVE
+    2014-09-30 06:31:31 -0400 Running remainder: move_pushed_errata, update_bugzilla, update_jira
+    2014-09-30 06:31:31 -0400 Running task move_pushed_errata
+    2014-09-30 06:31:31 -0400 Calling move-pushed-erratum for 2014:1329
+    2014-09-30 06:31:34 -0400 2014:1329
+    brew tag-pkg --nowait --force rhose-2.1-rhel-6 libcgroup-0.40.rc1-6.el6_5.1
+    Created task 8044399
+    2014-09-30 06:31:34 -0400 move-pushed-erratum complete
+    2014-09-30 06:31:34 -0400 Running task update_bugzilla
+    2014-09-30 06:31:34 -0400 Closing bugs...
+    2014-09-30 06:31:34 -0400 Bugs put into queue to close
+    2014-09-30 06:31:34 -0400 Running task update_jira
+    2014-09-30 06:31:34 -0400 Closing JIRA issues...
+    2014-09-30 06:31:34 -0400 Issues put into queue to close
+    2014-09-30 06:31:34 -0400 post-push tasks complete
+  push_target_id: 1
+  priority: 15
+  created_at: 2014-09-30 10:26:36 Z
+  errata_id: 18916
+  type: RhnLivePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 15
+  pre_push_tasks:
+  - set_update_date
+  - check_jira
+  - set_live_id
+  - set_in_push
+  - set_issue_date
+  post_push_tasks:
+  - move_pushed_errata
+  - update_bugzilla
+  - update_jira
+  - update_push_count
+  - mark_errata_shipped
+  pub_task_id: 43687
+  id: 34503
+rhn_stage_push_job_34471:
+  status: COMPLETE
+  updated_at: 2014-09-29 09:16:46 Z
+  pushed_by: 3000079
+  problem_ticket_filed: false
+  log: |-
+    2014-09-29 05:11:20 -0400 Running pre push tasks
+    2014-09-29 05:11:21 -0400 Pub task created, task id: 43659
+    2014-09-29 05:11:21 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43659
+    2014-09-29 05:11:21 -0400 Waiting on pub to finish.
+    2014-09-29 05:16:44 -0400 Pub completed.
+    2014-09-29 05:16:44 -0400 Running post push tasks.
+    2014-09-29 05:16:44 -0400 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2014-09-29 05:16:44 -0400 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2014-09-29 05:16:44 -0400 Running task reschedule_rhnqa
+    2014-09-29 05:16:46 -0400 Running task mark_rhnqa_done
+    2014-09-29 05:16:46 -0400 Running remainder:
+    2014-09-29 05:16:46 -0400 post-push tasks complete
+  push_target_id: 2
+  priority: 10
+  created_at: 2014-09-29 09:11:20 Z
+  errata_id: 18916
+  type: RhnStagePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 10
+  pre_push_tasks: []
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pub_task_id: 43659
+  id: 34471
+ftp_push_job_34508:
+  status: COMPLETE
+  updated_at: 2014-09-30 10:31:26 Z
+  pushed_by: 3000172
+  problem_ticket_filed: false
+  log: |-
+    2014-09-30 06:26:43 -0400 Running pre push tasks
+    2014-09-30 06:26:43 -0400 Pub task created, task id: 43690
+    2014-09-30 06:26:43 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43690
+    2014-09-30 06:26:43 -0400 Waiting on pub to finish.
+    2014-09-30 06:31:26 -0400 Pub completed.
+    2014-09-30 06:31:26 -0400 Running post push tasks.
+    2014-09-30 06:31:26 -0400 Running post push tasks: mark_ftp_done
+    2014-09-30 06:31:26 -0400 Running mandatory tasks mark_ftp_done
+    2014-09-30 06:31:26 -0400 Running task mark_ftp_done
+    2014-09-30 06:31:26 -0400 Running remainder:
+    2014-09-30 06:31:26 -0400 post-push tasks complete
+  push_target_id: 3
+  priority: 12
+  created_at: 2014-09-30 10:26:43 Z
+  errata_id: 18917
+  type: FtpPushJob
+  pub_options:
+    priority: 12
+  pre_push_tasks: []
+  post_push_tasks:
+  - mark_ftp_done
+  pub_task_id: 43690
+  id: 34508
+rhn_live_push_job_34505:
+  status: COMPLETE
+  updated_at: 2014-09-30 10:31:30 Z
+  pushed_by: 3000172
+  problem_ticket_filed: false
+  log: |-
+    2014-09-30 06:26:38 -0400 Running pre push tasks
+    2014-09-30 06:26:38 -0400 Running pre push task set_update_date
+    2014-09-30 06:26:38 -0400 Running task set_update_date
+    2014-09-30 06:26:38 -0400 Updated Update date
+    2014-09-30 06:26:38 -0400 Running pre push task check_jira
+    2014-09-30 06:26:38 -0400 Running task check_jira
+    2014-09-30 06:26:38 -0400 Running pre push task set_live_id
+    2014-09-30 06:26:38 -0400 Running task set_live_id
+    2014-09-30 06:26:40 -0400 Changed RHBA-2014:18917 to public name: RHBA-2014:1330
+    2014-09-30 06:26:40 -0400 Running pre push task set_in_push
+    2014-09-30 06:26:40 -0400 Running task set_in_push
+    2014-09-30 06:26:40 -0400 Changing state to IN_PUSH by Lubos Kocman (lkocman@redhat.com)
+    2014-09-30 06:26:42 -0400 Advisory now IN_PUSH
+    2014-09-30 06:26:42 -0400 Running pre push task set_issue_date
+    2014-09-30 06:26:42 -0400 Running task set_issue_date
+    2014-09-30 06:26:42 -0400 Updated Issue date
+    2014-09-30 06:26:42 -0400 Pub task created, task id: 43689
+    2014-09-30 06:26:42 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43689
+    2014-09-30 06:26:42 -0400 Waiting on pub to finish.
+    2014-09-30 06:31:26 -0400 Pub completed.
+    2014-09-30 06:31:26 -0400 Running post push tasks.
+    2014-09-30 06:31:26 -0400 Running post push tasks: move_pushed_errata, update_bugzilla, update_jira, update_push_count, mark_errata_shipped
+    2014-09-30 06:31:26 -0400 Running mandatory tasks update_push_count, mark_errata_shipped
+    2014-09-30 06:31:26 -0400 Running task update_push_count
+    2014-09-30 06:31:26 -0400 Push count increased
+    2014-09-30 06:31:26 -0400 Running task mark_errata_shipped
+    2014-09-30 06:31:26 -0400 Changing state to SHIPPED_LIVE by Lubos Kocman (lkocman@redhat.com)
+    2014-09-30 06:31:27 -0400 Advisory now SHIPPED_LIVE
+    2014-09-30 06:31:27 -0400 Running remainder: move_pushed_errata, update_bugzilla, update_jira
+    2014-09-30 06:31:27 -0400 Running task move_pushed_errata
+    2014-09-30 06:31:27 -0400 Calling move-pushed-erratum for 2014:1330
+    2014-09-30 06:31:30 -0400 2014:1330
+    brew tag-pkg --nowait --force rhose-2.0-rhel-6 libcgroup-0.40.rc1-6.el6_5.1
+    Created task 8044396
+    2014-09-30 06:31:30 -0400 move-pushed-erratum complete
+    2014-09-30 06:31:30 -0400 Running task update_bugzilla
+    2014-09-30 06:31:30 -0400 Closing bugs...
+    2014-09-30 06:31:30 -0400 Bugs put into queue to close
+    2014-09-30 06:31:30 -0400 Running task update_jira
+    2014-09-30 06:31:30 -0400 Closing JIRA issues...
+    2014-09-30 06:31:30 -0400 Issues put into queue to close
+    2014-09-30 06:31:30 -0400 post-push tasks complete
+  push_target_id: 1
+  priority: 15
+  created_at: 2014-09-30 10:26:38 Z
+  errata_id: 18917
+  type: RhnLivePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 15
+  pre_push_tasks:
+  - set_update_date
+  - check_jira
+  - set_live_id
+  - set_in_push
+  - set_issue_date
+  post_push_tasks:
+  - move_pushed_errata
+  - update_bugzilla
+  - update_jira
+  - update_push_count
+  - mark_errata_shipped
+  pub_task_id: 43689
+  id: 34505
+rhn_stage_push_job_34459:
+  status: COMPLETE
+  updated_at: 2014-09-29 07:01:53 Z
+  pushed_by: 3000079
+  problem_ticket_filed: false
+  log: |-
+    2014-09-29 02:57:27 -0400 Running pre push tasks
+    2014-09-29 02:57:28 -0400 Pub task created, task id: 43646
+    2014-09-29 02:57:28 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/43646
+    2014-09-29 02:57:28 -0400 Waiting on pub to finish.
+    2014-09-29 03:01:51 -0400 Pub completed.
+    2014-09-29 03:01:51 -0400 Running post push tasks.
+    2014-09-29 03:01:51 -0400 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2014-09-29 03:01:51 -0400 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2014-09-29 03:01:51 -0400 Running task reschedule_rhnqa
+    2014-09-29 03:01:53 -0400 Running task mark_rhnqa_done
+    2014-09-29 03:01:53 -0400 Running remainder:
+    2014-09-29 03:01:53 -0400 post-push tasks complete
+  push_target_id: 2
+  priority: 10
+  created_at: 2014-09-29 06:57:27 Z
+  errata_id: 18917
+  type: RhnStagePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 10
+  pre_push_tasks: []
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pub_task_id: 43646
+  id: 34459
+rhn_live_push_job_11407:
+  updated_at: 2014-11-04 04:13:35 Z
+  pre_push_tasks:
+  - set_update_date
+  - set_in_push
+  - set_live_id
+  - check_jira
+  - set_issue_date
+  created_at: 2014-11-04 04:13:17 Z
+  problem_ticket_filed: false
+  errata_id: 16657
+  log: |-
+    2014-11-04 14:13:18 +1000 Running pre push tasks
+    2014-11-04 14:13:18 +1000 Running pre push task set_update_date
+    2014-11-04 14:13:18 +1000 Running task set_update_date
+    2014-11-04 14:13:18 +1000 Updated Update date
+    2014-11-04 14:13:18 +1000 Running pre push task set_in_push
+    2014-11-04 14:13:18 +1000 Running task set_in_push
+    2014-11-04 14:13:18 +1000 Changing state to IN_PUSH by Devel User (errata-test@redhat.com)
+    2014-11-04 14:13:18 +1000 Advisory now IN_PUSH
+    2014-11-04 14:13:18 +1000 Running pre push task set_live_id
+    2014-11-04 14:13:18 +1000 Running task set_live_id
+    2014-11-04 14:13:19 +1000 Changed RHSA-2014:16657 to public name: RHSA-2014:0001
+    2014-11-04 14:13:19 +1000 Running pre push task check_jira
+    2014-11-04 14:13:19 +1000 Running task check_jira
+    2014-11-04 14:13:19 +1000 Running pre push task set_issue_date
+    2014-11-04 14:13:19 +1000 Running task set_issue_date
+    2014-11-04 14:13:19 +1000 Updated Issue date
+    2014-11-04 14:13:19 +1000 Pub task created, task id: 28292
+    2014-11-04 14:13:19 +1000 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/28292
+    2014-11-04 14:13:19 +1000 Waiting on pub to finish.
+    2014-11-04 14:13:34 +1000 Pub completed.
+    2014-11-04 14:13:34 +1000 Running post push tasks.
+    2014-11-04 14:13:34 +1000 Running post push tasks: push_xml_to_secalert, push_oval_to_secalert, request_translation, update_bugzilla, move_pushed_errata, update_jira, update_push_count, mark_errata_shipped
+    2014-11-04 14:13:34 +1000 Running mandatory tasks update_push_count, mark_errata_shipped
+    2014-11-04 14:13:34 +1000 Running task update_push_count
+    2014-11-04 14:13:34 +1000 Push count increased
+    2014-11-04 14:13:34 +1000 Running task mark_errata_shipped
+    2014-11-04 14:13:34 +1000 Changing state to SHIPPED_LIVE by Devel User (errata-test@redhat.com)
+    2014-11-04 14:13:35 +1000 Advisory now SHIPPED_LIVE
+    2014-11-04 14:13:35 +1000 Running remainder: push_xml_to_secalert, push_oval_to_secalert, request_translation, update_bugzilla, move_pushed_errata, update_jira
+    2014-11-04 14:13:35 +1000 Running task push_xml_to_secalert
+    2014-11-04 14:13:35 +1000 Running task push_oval_to_secalert
+    2014-11-04 14:13:35 +1000 Running task request_translation
+    2014-11-04 14:13:35 +1000 Requesting translation
+    2014-11-04 14:13:35 +1000 translation requested
+    2014-11-04 14:13:35 +1000 Running task update_bugzilla
+    2014-11-04 14:13:35 +1000 Closing bugs...
+    2014-11-04 14:13:35 +1000 Bugs put into queue to close
+    2014-11-04 14:13:35 +1000 Running task move_pushed_errata
+    2014-11-04 14:13:35 +1000 Calling move-pushed-erratum for 2014:0001
+    2014-11-04 14:13:35 +1000 move-pushed-erratum complete
+    2014-11-04 14:13:35 +1000 Running task update_jira
+    2014-11-04 14:13:35 +1000 Closing JIRA issues...
+    2014-11-04 14:13:35 +1000 Issues put into queue to close
+    2014-11-04 14:13:35 +1000 post-push tasks complete
+  push_target_id: 1
+  pub_options:
+    push_metadata: true
+    priority: 25
+    push_files: true
+  priority: 25
+  post_push_tasks:
+  - push_xml_to_secalert
+  - push_oval_to_secalert
+  - request_translation
+  - update_bugzilla
+  - move_pushed_errata
+  - update_jira
+  - update_push_count
+  - mark_errata_shipped
+  pushed_by: 3000931
+  id: 11407
+  pub_task_id: 28292
+  type: RhnLivePushJob
+  status: COMPLETE
+rhn_stage_push_job_11416:
+  updated_at: 2014-11-04 04:11:42 Z
+  pre_push_tasks: []
+  created_at: 2014-11-04 04:11:31 Z
+  problem_ticket_filed: false
+  errata_id: 16657
+  log: |-
+    2014-11-04 14:11:32 +1000 Enqueued push job. Submitting to pub at 2014-11-04 05:00:00 UTC
+    2014-11-04 14:11:42 +1000 Pub completed.
+    2014-11-04 14:11:42 +1000 Running post push tasks.
+    2014-11-04 14:11:42 +1000 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2014-11-04 14:11:42 +1000 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2014-11-04 14:11:42 +1000 Running task reschedule_rhnqa
+    2014-11-04 14:11:42 +1000 Running task mark_rhnqa_done
+    2014-11-04 14:11:42 +1000 Running remainder:
+    2014-11-04 14:11:42 +1000 post-push tasks complete
+  push_target_id: 2
+  pub_options:
+    push_metadata: true
+    priority: 20
+    push_files: true
+  priority: 20
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  pushed_by: 3000931
+  id: 11416
+  pub_task_id:
+  type: RhnStagePushJob
+  status: COMPLETE
+cdn_stage_push_job_34511:
+  type: CdnStagePushJob
+  errata_id: 19029
+  problem_ticket_filed: false
+  updated_at: 2015-01-07 03:06:13 Z
+  created_at: 2015-01-07 03:06:02 Z
+  id: 34511
+  post_push_tasks:
+  - reschedule_cdnqa_jobs
+  - mark_rhnqa_done
+  log: |-
+    2015-01-07 13:06:03 +1000 Running pre push tasks
+    2015-01-07 13:06:03 +1000 Pub task created, task id: 43693
+    2015-01-07 13:06:03 +1000 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/43693
+    2015-01-07 13:06:03 +1000 Waiting on pub to finish.
+    2015-01-07 13:06:13 +1000 Pub completed.
+    2015-01-07 13:06:13 +1000 Running post push tasks.
+    2015-01-07 13:06:13 +1000 Running post push tasks: reschedule_cdnqa_jobs, mark_rhnqa_done
+    2015-01-07 13:06:13 +1000 Running mandatory tasks reschedule_cdnqa_jobs, mark_rhnqa_done
+    2015-01-07 13:06:13 +1000 Running task reschedule_cdnqa_jobs
+    2015-01-07 13:06:13 +1000 Running task mark_rhnqa_done
+    2015-01-07 13:06:13 +1000 Running remainder:
+    2015-01-07 13:06:13 +1000 post-push tasks complete
+  push_target_id: 5
+  pre_push_tasks: []
+  pub_options:
+    push_files: true
+    priority: 12
+    push_metadata: true
+  priority: 12
+  pushed_by: 3000931
+  status: COMPLETE
+  pub_task_id: 43693
+rhn_stage_push_job_34510:
+  type: RhnStagePushJob
+  errata_id: 19029
+  problem_ticket_filed: false
+  updated_at: 2015-01-07 03:06:15 Z
+  created_at: 2015-01-07 03:06:02 Z
+  id: 34510
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  log: |-
+    2015-01-07 13:06:02 +1000 Enqueued push job. Submitting to pub at 2015-01-07 04:00:00 UTC
+    2015-01-07 13:06:13 +1000 Pub completed.
+    2015-01-07 13:06:13 +1000 Running post push tasks.
+    2015-01-07 13:06:13 +1000 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2015-01-07 13:06:13 +1000 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2015-01-07 13:06:13 +1000 Running task reschedule_rhnqa
+    2015-01-07 13:06:15 +1000 Running task mark_rhnqa_done
+    2015-01-07 13:06:15 +1000 Running remainder:
+    2015-01-07 13:06:15 +1000 post-push tasks complete
+  push_target_id: 2
+  pre_push_tasks: []
+  pub_options:
+    push_files: true
+    priority: 10
+    push_metadata: true
+  priority: 10
+  pushed_by: 3000931
+  status: COMPLETE
+  pub_task_id:
+cdn_stage_push_job_35511:
+  errata_id: 19032
+  status: COMPLETE
+  created_at: 2015-01-12 05:21:30 Z
+  log: |-
+    2015-01-12 15:21:30 +1000 Running pre push tasks
+    2015-01-12 15:21:30 +1000 Pub task created, task id: 53693
+    2015-01-12 15:21:30 +1000 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/53693
+    2015-01-12 15:21:30 +1000 Waiting on pub to finish.
+    2015-01-12 15:22:04 +1000 Pub completed.
+    2015-01-12 15:22:04 +1000 Running post push tasks.
+    2015-01-12 15:22:04 +1000 Running post push tasks: mark_rhnqa_done, reschedule_cdnqa_jobs
+    2015-01-12 15:22:04 +1000 Running mandatory tasks mark_rhnqa_done, reschedule_cdnqa_jobs
+    2015-01-12 15:22:04 +1000 Running task mark_rhnqa_done
+    2015-01-12 15:22:05 +1000 Running task reschedule_cdnqa_jobs
+    2015-01-12 15:22:05 +1000 Running remainder:
+    2015-01-12 15:22:05 +1000 post-push tasks complete
+  push_target_id: 5
+  id: 35511
+  pub_options:
+    push_metadata: true
+    push_files: true
+    priority: 12
+  problem_ticket_filed: false
+  type: CdnStagePushJob
+  pushed_by: 3000931
+  updated_at: 2015-01-12 05:22:05 Z
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_cdnqa_jobs
+  priority: 12
+  pub_task_id: 53693
+  pre_push_tasks: []
+rhn_stage_push_job_35510:
+  errata_id: 19032
+  status: COMPLETE
+  created_at: 2015-01-12 05:21:30 Z
+  log: |-
+    2015-01-12 15:21:30 +1000 Enqueued push job. Submitting to pub at 2015-01-12 06:00:00 UTC
+    2015-01-12 15:22:02 +1000 Pub completed.
+    2015-01-12 15:22:02 +1000 Running post push tasks.
+    2015-01-12 15:22:02 +1000 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2015-01-12 15:22:02 +1000 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2015-01-12 15:22:02 +1000 Running task reschedule_rhnqa
+    2015-01-12 15:22:04 +1000 Running task mark_rhnqa_done
+    2015-01-12 15:22:04 +1000 Running remainder:
+    2015-01-12 15:22:04 +1000 post-push tasks complete
+  push_target_id: 2
+  id: 35510
+  pub_options:
+    push_metadata: true
+    push_files: true
+    priority: 10
+  problem_ticket_filed: false
+  type: RhnStagePushJob
+  pushed_by: 3000931
+  updated_at: 2015-01-12 05:22:04 Z
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  priority: 10
+  pub_task_id:
+  pre_push_tasks: []
+rhn_live_push_job_35967:
+  pub_task_id: 88889
+  post_push_tasks:
+  - update_bugzilla
+  - move_pushed_errata
+  - update_push_count
+  - mark_errata_shipped
+  - check_error
+  - update_jira
+  created_at: 2015-03-09 06:57:32.260081 Z
+  updated_at: 2015-03-09 06:58:22.201676 Z
+  type: RhnLivePushJob
+  priority: 15
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_in_push
+  - set_live_id
+  - set_update_date
+  pub_options:
+    push_metadata: true
+    push_files: true
+  errata_id: 19032
+  push_target_id: 1
+  pushed_by: 3000097
+  log: |-
+    2015-03-09 16:57:44 +1000 Running pre push tasks
+    2015-03-09 16:57:44 +1000 Running pre push task set_in_push
+    2015-03-09 16:57:44 +1000 Running task set_in_push
+    2015-03-09 16:57:44 +1000 Changing state to IN_PUSH by Errata System (errata/beehive@redhat.com)
+    2015-03-09 16:57:44 +1000 Advisory now IN_PUSH
+    2015-03-09 16:57:44 +1000 Running pre push task set_live_id
+    2015-03-09 16:57:44 +1000 Running task set_live_id
+    2015-03-09 16:57:45 +1000 Changed RHBA-2015:19032 to public name: RHBA-2015:0001
+    2015-03-09 16:57:45 +1000 Running pre push task set_update_date
+    2015-03-09 16:57:45 +1000 Running task set_update_date
+    2015-03-09 16:57:45 +1000 Updated Update date
+    2015-03-09 16:58:13 +1000 Running pre push tasks
+    2015-03-09 16:58:13 +1000 Running pre push task set_in_push
+    2015-03-09 16:58:13 +1000 Running task set_in_push
+    2015-03-09 16:58:13 +1000 State already IN_PUSH
+    2015-03-09 16:58:13 +1000 Running pre push task set_live_id
+    2015-03-09 16:58:13 +1000 Running task set_live_id
+    2015-03-09 16:58:13 +1000 Running pre push task set_update_date
+    2015-03-09 16:58:13 +1000 Running task set_update_date
+    2015-03-09 16:58:13 +1000 Updated Update date
+    2015-03-09 16:58:13 +1000 Pub task created, task id: 88889
+    2015-03-09 16:58:13 +1000 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/88889
+    2015-03-09 16:58:13 +1000 Waiting on pub to finish.
+    2015-03-09 16:58:20 +1000 Pub completed.
+    2015-03-09 16:58:20 +1000 Running post push tasks.
+    2015-03-09 16:58:22 +1000 Running post push tasks: update_bugzilla, move_pushed_errata, update_push_count, mark_errata_shipped, check_error, update_jira
+    2015-03-09 16:58:22 +1000 Running mandatory tasks update_push_count, mark_errata_shipped, check_error
+    2015-03-09 16:58:22 +1000 Running task update_push_count
+    2015-03-09 16:58:22 +1000 Error running task update_push_count: RuntimeError simulated error
+    2015-03-09 16:58:22 +1000 (pry):24:in `task_update_push_count'
+    /home/rmcgover/src/errata-rails/app/models/push_job.rb:381:in `call'
+    /home/rmcgover/src/errata-rails/app/models/push_job.rb:381:in `run_task'
+    /home/rmcgover/src/errata-rails/app/models/push_job.rb:357:in `run_post_push_tasks'
+    /home/rmcgover/src/errata-rails/app/models/push_job.rb:357:in `each'
+    /home/rmcgover/src/errata-rails/app/models/push_job.rb:357:in `run_post_push_tasks'
+    /home/rmcgover/src/errata-rails/app/models/push_job.rb:240:in `start_post_push_processing!'
+    /home/rmcgover/src/errata-rails/app/models/push_job.rb:232:in `pub_success!'
+    (pry):28
+    2015-03-09 16:58:22 +1000 Post push processing stopped. Error running tasks: simulated error
+    2015-03-09 16:58:22 +1000 Mandatory post push tasks incomplete. Not marking job as completed
+  status: POST_PUSH_PROCESSING
+  id: 35967
+cdn_push_job_37571:
+  pub_task_id: 47177
+  id: 37571
+  type: CdnPushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 22
+  status: COMPLETE
+  created_at: 2014-12-18 17:39:17 Z
+  updated_at: 2014-12-18 18:31:30 Z
+  log: |-
+    2014-12-18 12:39:17 -0500 Running pre push tasks
+    2014-12-18 12:39:17 -0500 Running pre push task set_update_date
+    2014-12-18 12:39:17 -0500 Running task set_update_date
+    2014-12-18 12:39:17 -0500 Updated Update date
+    2014-12-18 12:39:17 -0500 Running pre push task set_live_id
+    2014-12-18 12:39:17 -0500 Running task set_live_id
+    2014-12-18 12:39:17 -0500 Running pre push task set_in_push
+    2014-12-18 12:39:17 -0500 Running task set_in_push
+    2014-12-18 12:39:17 -0500 State already IN_PUSH
+    2014-12-18 12:39:17 -0500 Pub task created, task id: 47177
+    2014-12-18 12:39:17 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/47177
+    2014-12-18 12:39:17 -0500 Waiting on pub to finish.
+    2014-12-18 13:30:59 -0500 Pub completed.
+    2014-12-18 13:30:59 -0500 Running post push tasks.
+    2014-12-18 13:30:59 -0500 Running post push tasks: update_jira, update_bugzilla, move_pushed_errata, push_oval_to_secalert, request_translation, push_xml_to_secalert, mark_errata_shipped, update_push_count
+    2014-12-18 13:30:59 -0500 Running mandatory tasks mark_errata_shipped, update_push_count
+    2014-12-18 13:30:59 -0500 Running task mark_errata_shipped
+    2014-12-18 13:30:59 -0500 Changing state to SHIPPED_LIVE by Chess Hazlett (chazlett@redhat.com)
+    2014-12-18 13:31:02 -0500 Advisory now SHIPPED_LIVE
+    2014-12-18 13:31:02 -0500 Running task update_push_count
+    2014-12-18 13:31:02 -0500 Push count increased
+    2014-12-18 13:31:02 -0500 Running remainder: update_jira, update_bugzilla, move_pushed_errata, push_oval_to_secalert, request_translation, push_xml_to_secalert
+    2014-12-18 13:31:02 -0500 Running task update_jira
+    2014-12-18 13:31:02 -0500 Closing JIRA issues...
+    2014-12-18 13:31:02 -0500 Issues put into queue to close
+    2014-12-18 13:31:02 -0500 Running task update_bugzilla
+    2014-12-18 13:31:02 -0500 Closing bugs...
+    2014-12-18 13:31:02 -0500 Bugs put into queue to close
+    2014-12-18 13:31:02 -0500 Running task move_pushed_errata
+    2014-12-18 13:31:02 -0500 Calling move-pushed-erratum for 2014:2021
+    2014-12-18 13:31:27 -0500 2014:2021
+    brew tag-pkg --nowait --force RHEL-6.6-Z jasper-1.900.1-16.el6_6.2
+    Created task 8403978
+    brew tag-pkg --nowait --force rhel-7.0-z jasper-1.900.1-26.el7_0.2
+    Created task 8403979
+    2014-12-18 13:31:27 -0500 move-pushed-erratum complete
+    2014-12-18 13:31:27 -0500 Running task push_oval_to_secalert
+    2014-12-18 13:31:27 -0500 Pushing RHSA-2014:2021-08 oval to secalert
+    2014-12-18 13:31:28 -0500 OVAL pushed to secalert
+    2014-12-18 13:31:28 -0500 Oval RPC to errata-srt.app.eng.bos.redhat.com:8080
+    2014-12-18 13:31:28 -0500 OVAL RPC Done
+    2014-12-18 13:31:28 -0500 Running task request_translation
+    2014-12-18 13:31:28 -0500 Requesting translation
+    2014-12-18 13:31:30 -0500 translation requested
+    2014-12-18 13:31:30 -0500 Running task push_xml_to_secalert
+    2014-12-18 13:31:30 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_update_date
+  - set_live_id
+  - set_in_push
+  pushed_by: 3001330
+  post_push_tasks:
+  - update_jira
+  - update_bugzilla
+  - move_pushed_errata
+  - push_oval_to_secalert
+  - request_translation
+  - push_xml_to_secalert
+  - mark_errata_shipped
+  - update_push_count
+  errata_id: 19435
+  priority: 22
+  push_target_id: 4
+cdn_stage_push_job_37280:
+  pub_task_id: 46847
+  id: 37280
+  type: CdnStagePushJob
+  pub_options:
+    push_files: true
+    priority: 22
+    push_metadata: true
+  status: COMPLETE
+  created_at: 2014-12-09 17:57:55 Z
+  updated_at: 2014-12-09 19:29:55 Z
+  log: |-
+    2014-12-09 12:57:55 -0500 Running pre push tasks
+    2014-12-09 12:57:55 -0500 Pub task created, task id: 46847
+    2014-12-09 12:57:55 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/46847
+    2014-12-09 12:57:55 -0500 Waiting on pub to finish.
+    2014-12-09 14:29:50 -0500 Pub completed.
+    2014-12-09 14:29:50 -0500 Running post push tasks.
+    2014-12-09 14:29:50 -0500 Running post push tasks: mark_rhnqa_done, reschedule_cdnqa_jobs
+    2014-12-09 14:29:50 -0500 Running mandatory tasks mark_rhnqa_done, reschedule_cdnqa_jobs
+    2014-12-09 14:29:50 -0500 Running task mark_rhnqa_done
+    2014-12-09 14:29:51 -0500 Running task reschedule_cdnqa_jobs
+    2014-12-09 14:29:55 -0500 Running remainder:
+    2014-12-09 14:29:55 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  pushed_by: 267999
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_cdnqa_jobs
+  errata_id: 19435
+  priority: 22
+  push_target_id: 5
+cdn_stage_push_job_37408:
+  pub_task_id: 46987
+  id: 37408
+  type: CdnStagePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 22
+  status: COMPLETE
+  created_at: 2014-12-15 09:59:45 Z
+  updated_at: 2014-12-15 11:01:34 Z
+  log: |-
+    2014-12-15 04:59:45 -0500 Running pre push tasks
+    2014-12-15 04:59:46 -0500 Pub task created, task id: 46987
+    2014-12-15 04:59:46 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/46987
+    2014-12-15 04:59:46 -0500 Waiting on pub to finish.
+    2014-12-15 06:01:31 -0500 Pub completed.
+    2014-12-15 06:01:31 -0500 Running post push tasks.
+    2014-12-15 06:01:31 -0500 Running post push tasks: mark_rhnqa_done, reschedule_cdnqa_jobs
+    2014-12-15 06:01:31 -0500 Running mandatory tasks mark_rhnqa_done, reschedule_cdnqa_jobs
+    2014-12-15 06:01:31 -0500 Running task mark_rhnqa_done
+    2014-12-15 06:01:31 -0500 Running task reschedule_cdnqa_jobs
+    2014-12-15 06:01:34 -0500 Running remainder:
+    2014-12-15 06:01:34 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  pushed_by: 267999
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_cdnqa_jobs
+  errata_id: 19435
+  priority: 22
+  push_target_id: 5
+cdn_stage_push_job_37496:
+  pub_task_id: 47086
+  id: 37496
+  type: CdnStagePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 22
+  status: COMPLETE
+  created_at: 2014-12-17 10:45:45 Z
+  updated_at: 2014-12-17 11:40:52 Z
+  log: |-
+    2014-12-17 05:45:45 -0500 Running pre push tasks
+    2014-12-17 05:45:45 -0500 Pub task created, task id: 47086
+    2014-12-17 05:45:45 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/47086
+    2014-12-17 05:45:45 -0500 Waiting on pub to finish.
+    2014-12-17 06:40:48 -0500 Pub completed.
+    2014-12-17 06:40:48 -0500 Running post push tasks.
+    2014-12-17 06:40:48 -0500 Running post push tasks: mark_rhnqa_done, reschedule_cdnqa_jobs
+    2014-12-17 06:40:48 -0500 Running mandatory tasks mark_rhnqa_done, reschedule_cdnqa_jobs
+    2014-12-17 06:40:48 -0500 Running task mark_rhnqa_done
+    2014-12-17 06:40:49 -0500 Running task reschedule_cdnqa_jobs
+    2014-12-17 06:40:52 -0500 Running remainder:
+    2014-12-17 06:40:52 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  pushed_by: 267999
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_cdnqa_jobs
+  errata_id: 19435
+  priority: 22
+  push_target_id: 5
+ftp_push_job_37570:
+  pub_task_id: 47176
+  id: 37570
+  type: FtpPushJob
+  pub_options:
+    priority: 22
+  status: COMPLETE
+  created_at: 2014-12-18 17:39:16 Z
+  updated_at: 2014-12-18 17:48:09 Z
+  log: |-
+    2014-12-18 12:39:16 -0500 Running pre push tasks
+    2014-12-18 12:39:16 -0500 Pub task created, task id: 47176
+    2014-12-18 12:39:16 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/47176
+    2014-12-18 12:39:16 -0500 Waiting on pub to finish.
+    2014-12-18 12:48:09 -0500 Pub completed.
+    2014-12-18 12:48:09 -0500 Running post push tasks.
+    2014-12-18 12:48:09 -0500 Running post push tasks: mark_ftp_done
+    2014-12-18 12:48:09 -0500 Running mandatory tasks mark_ftp_done
+    2014-12-18 12:48:09 -0500 Running task mark_ftp_done
+    2014-12-18 12:48:09 -0500 Running remainder:
+    2014-12-18 12:48:09 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  pushed_by: 3001330
+  post_push_tasks:
+  - mark_ftp_done
+  errata_id: 19435
+  priority: 22
+  push_target_id: 3
+rhn_live_push_job_37569:
+  pub_task_id: 47175
+  id: 37569
+  type: RhnLivePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 25
+  status: COMPLETE
+  created_at: 2014-12-18 17:39:10 Z
+  updated_at: 2014-12-18 17:48:09 Z
+  log: |-
+    2014-12-18 12:39:10 -0500 Checking that oval is well formed...
+    2014-12-18 12:39:10 -0500 done.
+    2014-12-18 12:39:10 -0500 Checking that oval is well formed...
+    2014-12-18 12:39:10 -0500 done.
+    2014-12-18 12:39:10 -0500 Running pre push tasks
+    2014-12-18 12:39:10 -0500 Running pre push task set_update_date
+    2014-12-18 12:39:10 -0500 Running task set_update_date
+    2014-12-18 12:39:11 -0500 Updated Update date
+    2014-12-18 12:39:11 -0500 Running pre push task set_live_id
+    2014-12-18 12:39:11 -0500 Running task set_live_id
+    2014-12-18 12:39:12 -0500 Changed RHSA-2014:19435 to public name: RHSA-2014:2021
+    2014-12-18 12:39:12 -0500 Running pre push task set_in_push
+    2014-12-18 12:39:12 -0500 Running task set_in_push
+    2014-12-18 12:39:12 -0500 Changing state to IN_PUSH by Chess Hazlett (chazlett@redhat.com)
+    2014-12-18 12:39:14 -0500 Advisory now IN_PUSH
+    2014-12-18 12:39:14 -0500 Running pre push task set_issue_date
+    2014-12-18 12:39:14 -0500 Running task set_issue_date
+    2014-12-18 12:39:14 -0500 Updated Issue date
+    2014-12-18 12:39:14 -0500 Pub task created, task id: 47175
+    2014-12-18 12:39:14 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/47175
+    2014-12-18 12:39:14 -0500 Waiting on pub to finish.
+    2014-12-18 12:48:09 -0500 Pub completed.
+    2014-12-18 12:48:09 -0500 Running post push tasks.
+    2014-12-18 12:48:09 -0500 Running post push tasks:
+    2014-12-18 12:48:09 -0500 Running mandatory tasks
+    2014-12-18 12:48:09 -0500 Running remainder:
+    2014-12-18 12:48:09 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_update_date
+  - set_live_id
+  - set_in_push
+  - set_issue_date
+  pushed_by: 3001330
+  post_push_tasks:
+  - update_jira
+  - update_bugzilla
+  - move_pushed_errata
+  - push_oval_to_secalert
+  - request_translation
+  - push_xml_to_secalert
+  - mark_errata_shipped
+  - update_push_count
+  errata_id: 19435
+  priority: 25
+  push_target_id: 1
+rhn_live_push_job_39575:
+  pub_task_id: 51439
+  id: 39575
+  type: RhnLivePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+  status: POST_PUSH_FAILED
+  created_at: 2015-02-18 12:15:08 Z
+  updated_at: 2015-02-18 12:58:04 Z
+  log: |-
+    2015-02-18 07:15:07 -0500 Checking that oval is well formed...
+    2015-02-18 07:15:08 -0500 done.
+    2015-02-18 07:15:08 -0500 Checking that oval is well formed...
+    2015-02-18 07:15:08 -0500 done.
+    2015-02-18 07:15:08 -0500 Running pre push tasks
+    2015-02-18 07:15:08 -0500 Pub task created, task id: 51439
+    2015-02-18 07:15:08 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/51439
+    2015-02-18 07:15:08 -0500 Waiting on pub to finish.
+    2015-02-18 07:58:04 -0500 Pub completed.
+    2015-02-18 07:58:04 -0500 Running post push tasks.
+    2015-02-18 07:58:04 -0500 Running post push tasks: update_push_count
+    2015-02-18 07:58:04 -0500 Running mandatory tasks update_push_count
+    2015-02-18 07:58:04 -0500 Running task update_push_count
+    2015-02-18 07:58:04 -0500 Push count increased
+    2015-02-18 07:58:04 -0500 Running remainder:
+    2015-02-18 07:58:04 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  pushed_by: 3000172
+  post_push_tasks:
+  - update_push_count
+  errata_id: 19435
+  priority: 25
+  push_target_id: 1
+rhn_stage_push_job_37279:
+  pub_task_id: 46846
+  id: 37279
+  type: RhnStagePushJob
+  pub_options:
+    push_files: true
+    priority: 20
+    push_metadata: true
+  status: COMPLETE
+  created_at: 2014-12-09 17:57:53 Z
+  updated_at: 2014-12-09 18:07:00 Z
+  log: |-
+    2014-12-09 12:57:54 -0500 Running pre push tasks
+    2014-12-09 12:57:54 -0500 Pub task created, task id: 46846
+    2014-12-09 12:57:54 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/46846
+    2014-12-09 12:57:54 -0500 Waiting on pub to finish.
+    2014-12-09 13:06:54 -0500 Pub completed.
+    2014-12-09 13:06:54 -0500 Running post push tasks.
+    2014-12-09 13:06:54 -0500 Running post push tasks: mark_rhnqa_done, reschedule_rhnqa
+    2014-12-09 13:06:54 -0500 Running mandatory tasks mark_rhnqa_done, reschedule_rhnqa
+    2014-12-09 13:06:54 -0500 Running task mark_rhnqa_done
+    2014-12-09 13:06:54 -0500 Running task reschedule_rhnqa
+    2014-12-09 13:07:00 -0500 Running remainder:
+    2014-12-09 13:07:00 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  pushed_by: 267999
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_rhnqa
+  errata_id: 19435
+  priority: 20
+  push_target_id: 2
+rhn_stage_push_job_37407:
+  pub_task_id: 46986
+  id: 37407
+  type: RhnStagePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 20
+  status: COMPLETE
+  created_at: 2014-12-15 09:59:45 Z
+  updated_at: 2014-12-15 10:06:46 Z
+  log: |-
+    2014-12-15 04:59:45 -0500 Running pre push tasks
+    2014-12-15 04:59:45 -0500 Pub task created, task id: 46986
+    2014-12-15 04:59:45 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/46986
+    2014-12-15 04:59:45 -0500 Waiting on pub to finish.
+    2014-12-15 05:06:43 -0500 Pub completed.
+    2014-12-15 05:06:43 -0500 Running post push tasks.
+    2014-12-15 05:06:43 -0500 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2014-12-15 05:06:43 -0500 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2014-12-15 05:06:43 -0500 Running task reschedule_rhnqa
+    2014-12-15 05:06:46 -0500 Running task mark_rhnqa_done
+    2014-12-15 05:06:46 -0500 Running remainder:
+    2014-12-15 05:06:46 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  pushed_by: 267999
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  errata_id: 19435
+  priority: 20
+  push_target_id: 2
+rhn_stage_push_job_37495:
+  pub_task_id: 47085
+  id: 37495
+  type: RhnStagePushJob
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 20
+  status: COMPLETE
+  created_at: 2014-12-17 10:45:44 Z
+  updated_at: 2014-12-17 10:48:10 Z
+  log: |-
+    2014-12-17 05:45:44 -0500 Running pre push tasks
+    2014-12-17 05:45:45 -0500 Pub task created, task id: 47085
+    2014-12-17 05:45:45 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/47085
+    2014-12-17 05:45:45 -0500 Waiting on pub to finish.
+    2014-12-17 05:48:05 -0500 Pub completed.
+    2014-12-17 05:48:05 -0500 Running post push tasks.
+    2014-12-17 05:48:05 -0500 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2014-12-17 05:48:05 -0500 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2014-12-17 05:48:05 -0500 Running task reschedule_rhnqa
+    2014-12-17 05:48:10 -0500 Running task mark_rhnqa_done
+    2014-12-17 05:48:10 -0500 Running remainder:
+    2014-12-17 05:48:10 -0500 post-push tasks complete
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  pushed_by: 267999
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  errata_id: 19435
+  priority: 20
+  push_target_id: 2
+ftp_push_job_46490:
+  log: |-
+    2015-07-22 01:43:45 -0400 Running pre push tasks
+    2015-07-22 01:43:45 -0400 Pub task created, task id: 61012
+    2015-07-22 01:43:45 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61012
+    2015-07-22 01:43:45 -0400 Waiting on pub to finish.
+    2015-07-22 01:56:00 -0400 Pub completed.
+    2015-07-22 01:56:00 -0400 Running post push tasks in background job 1319613.
+    2015-07-22 03:52:12 -0400 Running post push tasks: mark_ftp_done
+    2015-07-22 03:52:12 -0400 Running mandatory tasks mark_ftp_done
+    2015-07-22 03:52:12 -0400 Running task mark_ftp_done
+    2015-07-22 03:52:12 -0400 Running remainder:
+    2015-07-22 03:52:12 -0400 Mandatory post push tasks complete
+  priority: 12
+  pushed_by: 3000172
+  post_push_tasks:
+  - mark_ftp_done
+  status: COMPLETE
+  updated_at: 2015-07-22 07:52:12 Z
+  pub_options:
+    priority: 12
+  problem_ticket_filed: false
+  push_target_id: 3
+  errata_id: 20044
+  pre_push_tasks: []
+  id: 46490
+  pub_task_id: 61012
+  type: FtpPushJob
+  created_at: 2015-07-22 05:43:45 Z
+rhn_live_push_job_46017:
+  log: |-
+    2015-07-20 09:25:19 -0400 Running pre push tasks
+    2015-07-20 09:25:19 -0400 Running pre push task set_update_date
+    2015-07-20 09:25:19 -0400 Running task set_update_date
+    2015-07-20 09:25:19 -0400 Updated Update date
+    2015-07-20 09:25:19 -0400 Running pre push task set_in_push
+    2015-07-20 09:25:19 -0400 Running task set_in_push
+    2015-07-20 09:25:19 -0400 Changing state to IN_PUSH by Lubos Kocman (lkocman@redhat.com)
+    2015-07-20 09:25:20 -0400 Advisory now IN_PUSH
+    2015-07-20 09:25:20 -0400 Running pre push task set_live_id
+    2015-07-20 09:25:20 -0400 Running task set_live_id
+    2015-07-20 09:25:22 -0400 Changed RHBA-2015:20044 to public name: RHBA-2015:1395
+    2015-07-20 09:25:22 -0400 Pub task created, task id: 60525
+    2015-07-20 09:25:22 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/60525
+    2015-07-20 09:25:22 -0400 Waiting on pub to finish.
+    2015-07-20 09:52:49 -0400 Pub completed.
+    2015-07-20 09:52:49 -0400 Running post push tasks in background job 1312244.
+    2015-07-20 10:07:30 -0400 Running post push tasks: mark_errata_shipped, check_error, update_push_count
+    2015-07-20 10:07:30 -0400 Running mandatory tasks mark_errata_shipped, check_error, update_push_count
+    2015-07-20 10:07:30 -0400 Running task mark_errata_shipped
+    2015-07-20 10:07:30 -0400 Changing state to SHIPPED_LIVE by Lubos Kocman (lkocman@redhat.com)
+    2015-07-20 10:07:31 -0400 Advisory now SHIPPED_LIVE
+    2015-07-20 10:07:32 -0400 Running task check_error
+    2015-07-20 10:07:32 -0400 Running task update_push_count
+    2015-07-20 10:07:32 -0400 Push count increased
+    2015-07-20 10:07:32 -0400 Running remainder:
+    2015-07-20 10:07:32 -0400 Mandatory post push tasks complete
+  priority: 15
+  pushed_by: 3000172
+  post_push_tasks:
+  - mark_errata_shipped
+  - check_error
+  - update_push_count
+  status: COMPLETE
+  updated_at: 2015-07-20 14:07:32 Z
+  pub_options:
+    push_files: true
+    push_metadata: true
+    shadow: true
+  problem_ticket_filed: false
+  push_target_id: 1
+  errata_id: 20044
+  pre_push_tasks:
+  - set_update_date
+  - set_in_push
+  - set_live_id
+  id: 46017
+  pub_task_id: 60525
+  type: RhnLivePushJob
+  created_at: 2015-07-20 13:25:19 Z
+rhn_live_push_job_46275:
+  log: |-
+    2015-07-22 01:32:59 -0400 Running pre push tasks
+    2015-07-22 01:32:59 -0400 Running pre push task set_live_id
+    2015-07-22 01:32:59 -0400 Running task set_live_id
+    2015-07-22 01:32:59 -0400 Running pre push task set_in_push
+    2015-07-22 01:32:59 -0400 Running task set_in_push
+    2015-07-22 01:32:59 -0400 State already SHIPPED_LIVE
+    2015-07-22 01:32:59 -0400 Running pre push task reset_update_date
+    2015-07-22 01:32:59 -0400 Running task reset_update_date
+    2015-07-22 01:33:00 -0400 Reset Update date
+    2015-07-22 01:33:00 -0400 Running pre push task set_issue_date
+    2015-07-22 01:33:00 -0400 Running task set_issue_date
+    2015-07-22 01:33:00 -0400 Updated Issue date
+    2015-07-22 01:33:00 -0400 Pub task created, task id: 60797
+    2015-07-22 01:33:00 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/60797
+    2015-07-22 01:33:00 -0400 Waiting on pub to finish.
+    2015-07-22 02:46:51 -0400 Pub completed.
+    2015-07-22 02:46:51 -0400 Running post push tasks in background job 1319840.
+    2015-07-22 05:21:57 -0400 Running post push tasks: move_pushed_errata, check_error, update_jira, update_push_count, mark_errata_shipped, update_bugzilla
+    2015-07-22 05:21:57 -0400 Running mandatory tasks check_error, update_push_count, mark_errata_shipped
+    2015-07-22 05:21:57 -0400 Running task check_error
+    2015-07-22 05:21:57 -0400 Running task update_push_count
+    2015-07-22 05:21:57 -0400 Push count increased
+    2015-07-22 05:21:57 -0400 Running task mark_errata_shipped
+    2015-07-22 05:21:57 -0400 Already SHIPPED_LIVE
+    2015-07-22 05:21:57 -0400 Running remainder: move_pushed_errata, update_jira, update_bugzilla
+    2015-07-22 05:21:57 -0400 Running task move_pushed_errata
+    2015-07-22 05:21:57 -0400 Calling move-pushed-erratum for 2015:1395
+    2015-07-22 05:22:05 -0400 2015:1395
+    skipping advisory 2015:1395 (rhn-client-tools-1.0.0.1-32.el6) in RHEL-6.7
+    brew tag-pkg --nowait --force RHEL-6.7 rhn-client-tools-1.0.0.1-32.el6
+    Created task 9562010
+    2015-07-22 05:22:05 -0400 move-pushed-erratum complete
+    2015-07-22 05:22:05 -0400 Running task update_jira
+    2015-07-22 05:22:05 -0400 Closing JIRA issues...
+    2015-07-22 05:22:05 -0400 Issues put into queue to close
+    2015-07-22 05:22:05 -0400 Running task update_bugzilla
+    2015-07-22 05:22:05 -0400 Closing bugs...
+    2015-07-22 05:22:05 -0400 Bugs put into queue to close
+    2015-07-22 05:22:05 -0400 Mandatory post push tasks complete
+  priority: 15
+  pushed_by: 3000172
+  post_push_tasks:
+  - move_pushed_errata
+  - check_error
+  - update_jira
+  - update_push_count
+  - mark_errata_shipped
+  - update_bugzilla
+  status: COMPLETE
+  updated_at: 2015-07-22 09:22:05 Z
+  pub_options:
+    push_files: true
+    push_metadata: true
+  problem_ticket_filed: false
+  push_target_id: 1
+  errata_id: 20044
+  pre_push_tasks:
+  - set_live_id
+  - set_in_push
+  - reset_update_date
+  - set_issue_date
+  id: 46275
+  pub_task_id: 60797
+  type: RhnLivePushJob
+  created_at: 2015-07-22 05:32:59 Z
+rhn_live_push_job_47310:
+  log: |-
+    2015-08-10 06:58:02 -0400 Running pre push tasks
+    2015-08-10 06:58:02 -0400 Running pre push task set_in_push
+    2015-08-10 06:58:02 -0400 Running task set_in_push
+    2015-08-10 06:58:02 -0400 State already SHIPPED_LIVE
+    2015-08-10 06:58:02 -0400 Running pre push task set_live_id
+    2015-08-10 06:58:02 -0400 Running task set_live_id
+    2015-08-10 06:58:03 -0400 Pub task created, task id: 61905
+    2015-08-10 06:58:03 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61905
+    2015-08-10 06:58:03 -0400 Waiting on pub to finish.
+    2015-08-10 07:31:49 -0400 Pub completed.
+    2015-08-10 07:31:49 -0400 Running post push tasks in background job 1364023.
+    2015-08-10 07:31:58 -0400 Running post push tasks: update_push_count
+    2015-08-10 07:31:58 -0400 Running mandatory tasks update_push_count
+    2015-08-10 07:31:58 -0400 Running task update_push_count
+    2015-08-10 07:31:58 -0400 Push count increased
+    2015-08-10 07:31:58 -0400 Running remainder:
+    2015-08-10 07:31:58 -0400 Mandatory post push tasks complete
+  priority: 15
+  pushed_by: 3000172
+  post_push_tasks:
+  - update_push_count
+  status: COMPLETE
+  updated_at: 2015-08-10 11:31:58 Z
+  pub_options:
+    push_metadata: true
+  problem_ticket_filed: false
+  push_target_id: 1
+  errata_id: 20044
+  pre_push_tasks:
+  - set_in_push
+  - set_live_id
+  id: 47310
+  pub_task_id: 61905
+  type: RhnLivePushJob
+  created_at: 2015-08-10 10:58:02 Z
+rhn_stage_push_job_43405:
+  log: |-
+    2015-04-07 10:04:56 -0400 Running pre push tasks
+    2015-04-07 10:04:57 -0400 Pub task created, task id: 55538
+    2015-04-07 10:04:57 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/55538
+    2015-04-07 10:04:57 -0400 Waiting on pub to finish.
+    2015-04-07 10:16:07 -0400 Pub completed.
+    2015-04-07 10:16:07 -0400 Running post push tasks.
+    2015-04-07 10:16:07 -0400 Running post push tasks: mark_rhnqa_done, reschedule_rhnqa
+    2015-04-07 10:16:07 -0400 Running mandatory tasks mark_rhnqa_done, reschedule_rhnqa
+    2015-04-07 10:16:07 -0400 Running task mark_rhnqa_done
+    2015-04-07 10:16:07 -0400 Running task reschedule_rhnqa
+    2015-04-07 10:16:10 -0400 Running remainder:
+    2015-04-07 10:16:10 -0400 post-push tasks complete
+  priority: 10
+  pushed_by: 3000736
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_rhnqa
+  status: COMPLETE
+  updated_at: 2015-04-07 14:16:10 Z
+  pub_options:
+    priority: 10
+    push_files: true
+    push_metadata: true
+  problem_ticket_filed: false
+  push_target_id: 2
+  errata_id: 20044
+  pre_push_tasks: []
+  id: 43405
+  pub_task_id: 55538
+  type: RhnStagePushJob
+  created_at: 2015-04-07 14:04:56 Z
+rhn_stage_push_job_44106:
+  log: |-
+    2015-04-29 04:59:42 -0400 Running pre push tasks
+    2015-04-29 04:59:42 -0400 Pub task created, task id: 56905
+    2015-04-29 04:59:42 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/56905
+    2015-04-29 04:59:42 -0400 Waiting on pub to finish.
+    2015-04-29 05:05:49 -0400 Pub completed.
+    2015-04-29 05:05:49 -0400 Running post push tasks in background job 1174613.
+    2015-04-29 05:05:50 -0400 Running post push tasks: mark_rhnqa_done, reschedule_rhnqa
+    2015-04-29 05:05:50 -0400 Running mandatory tasks mark_rhnqa_done, reschedule_rhnqa
+    2015-04-29 05:05:50 -0400 Running task mark_rhnqa_done
+    2015-04-29 05:05:50 -0400 Running task reschedule_rhnqa
+    2015-04-29 05:05:52 -0400 Running remainder:
+    2015-04-29 05:05:52 -0400 Mandatory post push tasks complete
+  priority: 10
+  pushed_by: 3000736
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_rhnqa
+  status: COMPLETE
+  updated_at: 2015-04-29 09:05:52 Z
+  pub_options:
+    push_files: true
+    priority: 10
+    push_metadata: true
+  problem_ticket_filed: false
+  push_target_id: 2
+  errata_id: 20044
+  pre_push_tasks: []
+  id: 44106
+  pub_task_id: 56905
+  type: RhnStagePushJob
+  created_at: 2015-04-29 08:59:42 Z
+cdn_push_job_46703:
+  log: |-
+    2015-07-27 05:07:06 -0400 Running pre push tasks
+    2015-07-27 05:07:06 -0400 Running pre push task set_update_date
+    2015-07-27 05:07:06 -0400 Running task set_update_date
+    2015-07-27 05:07:06 -0400 Updated Update date
+    2015-07-27 05:07:06 -0400 Running pre push task set_live_id
+    2015-07-27 05:07:06 -0400 Running task set_live_id
+    2015-07-27 05:07:06 -0400 Running pre push task set_in_push
+    2015-07-27 05:07:06 -0400 Running task set_in_push
+    2015-07-27 05:07:06 -0400 State already IN_PUSH
+    2015-07-27 05:07:06 -0400 Pub task created, task id: 61254
+    2015-07-27 05:07:06 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61254
+    2015-07-27 05:07:06 -0400 Waiting on pub to finish.
+    2015-07-27 05:28:30 -0400 Pub completed.
+    2015-07-27 05:28:30 -0400 Running post push tasks in background job 1337521.
+    2015-07-27 05:29:55 -0400 Running post push tasks: update_bugzilla, update_jira, move_pushed_errata, update_push_count, check_error, mark_errata_shipped
+    2015-07-27 05:29:55 -0400 Running mandatory tasks update_push_count, check_error, mark_errata_shipped
+    2015-07-27 05:29:55 -0400 Running task update_push_count
+    2015-07-27 05:29:55 -0400 Push count increased
+    2015-07-27 05:29:55 -0400 Running task check_error
+    2015-07-27 05:29:55 -0400 Running task mark_errata_shipped
+    2015-07-27 05:29:55 -0400 Changing state to SHIPPED_LIVE by Jan Blazek (jblazek@redhat.com)
+    2015-07-27 05:29:55 -0400 Advisory now SHIPPED_LIVE
+    2015-07-27 05:29:57 -0400 Running remainder: update_bugzilla, update_jira, move_pushed_errata
+    2015-07-27 05:29:57 -0400 Running task update_bugzilla
+    2015-07-27 05:29:57 -0400 Closing bugs...
+    2015-07-27 05:29:57 -0400 Bugs put into queue to close
+    2015-07-27 05:29:57 -0400 Running task update_jira
+    2015-07-27 05:29:57 -0400 Closing JIRA issues...
+    2015-07-27 05:29:57 -0400 Issues put into queue to close
+    2015-07-27 05:29:57 -0400 Running task move_pushed_errata
+    2015-07-27 05:29:57 -0400 Calling move-pushed-erratum for 2015:1500
+    2015-07-27 05:30:01 -0400 2015:1500
+    brew tag-pkg --nowait --force rhel-7.2-fastrack liberation-fonts-1.07.2-15.el7
+    Created task 9589401
+    2015-07-27 05:30:01 -0400 move-pushed-erratum complete
+    2015-07-27 05:30:01 -0400 Mandatory post push tasks complete
+  priority: 12
+  pushed_by: 3000077
+  post_push_tasks:
+  - update_bugzilla
+  - update_jira
+  - move_pushed_errata
+  - update_push_count
+  - check_error
+  - mark_errata_shipped
+  status: COMPLETE
+  updated_at: 2015-07-27 09:30:01 Z
+  pub_options:
+    push_files: true
+    priority: 12
+    push_metadata: true
+  problem_ticket_filed: false
+  push_target_id: 4
+  errata_id: 20466
+  pre_push_tasks:
+  - set_update_date
+  - set_live_id
+  - set_in_push
+  id: 46703
+  pub_task_id: 61254
+  type: CdnPushJob
+  created_at: 2015-07-27 09:07:05 Z
+ftp_push_job_46705:
+  log: |-
+    2015-07-27 05:07:11 -0400 Running pre push tasks
+    2015-07-27 05:07:12 -0400 Pub task created, task id: 61257
+    2015-07-27 05:07:12 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61257
+    2015-07-27 05:07:12 -0400 Waiting on pub to finish.
+    2015-07-27 05:08:20 -0400 Pub completed.
+    2015-07-27 05:08:21 -0400 Running post push tasks in background job 1337440.
+    2015-07-27 05:08:29 -0400 Running post push tasks: mark_ftp_done
+    2015-07-27 05:08:29 -0400 Running mandatory tasks mark_ftp_done
+    2015-07-27 05:08:29 -0400 Running task mark_ftp_done
+    2015-07-27 05:08:29 -0400 Running remainder:
+    2015-07-27 05:08:29 -0400 Mandatory post push tasks complete
+  priority: 12
+  pushed_by: 3000077
+  post_push_tasks:
+  - mark_ftp_done
+  status: COMPLETE
+  updated_at: 2015-07-27 09:08:29 Z
+  pub_options:
+    priority: 12
+  problem_ticket_filed: false
+  push_target_id: 3
+  errata_id: 20466
+  pre_push_tasks: []
+  id: 46705
+  pub_task_id: 61257
+  type: FtpPushJob
+  created_at: 2015-07-27 09:07:10 Z
+rhn_live_push_job_46701:
+  log: |-
+    2015-07-27 05:06:59 -0400 Running pre push tasks
+    2015-07-27 05:06:59 -0400 Running pre push task set_update_date
+    2015-07-27 05:06:59 -0400 Running task set_update_date
+    2015-07-27 05:06:59 -0400 Updated Update date
+    2015-07-27 05:06:59 -0400 Running pre push task set_live_id
+    2015-07-27 05:06:59 -0400 Running task set_live_id
+    2015-07-27 05:07:01 -0400 Changed RHBA-2015:20466 to public name: RHBA-2015:1500
+    2015-07-27 05:07:01 -0400 Running pre push task set_in_push
+    2015-07-27 05:07:01 -0400 Running task set_in_push
+    2015-07-27 05:07:01 -0400 Changing state to IN_PUSH by Jan Blazek (jblazek@redhat.com)
+    2015-07-27 05:07:03 -0400 Advisory now IN_PUSH
+    2015-07-27 05:07:03 -0400 Running pre push task set_issue_date
+    2015-07-27 05:07:03 -0400 Running task set_issue_date
+    2015-07-27 05:07:03 -0400 Updated Issue date
+    2015-07-27 05:07:04 -0400 Pub task created, task id: 61253
+    2015-07-27 05:07:04 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61253
+    2015-07-27 05:07:04 -0400 Waiting on pub to finish.
+    2015-07-27 05:08:22 -0400 Pub completed.
+    2015-07-27 05:08:22 -0400 Running post push tasks in background job 1337442.
+    2015-07-27 05:08:29 -0400 Running post push tasks: check_error
+    2015-07-27 05:08:29 -0400 Running mandatory tasks check_error
+    2015-07-27 05:08:29 -0400 Running task check_error
+    2015-07-27 05:08:30 -0400 Running remainder:
+    2015-07-27 05:08:30 -0400 Mandatory post push tasks complete
+  priority: 15
+  pushed_by: 3000077
+  post_push_tasks:
+  - update_bugzilla
+  - update_jira
+  - move_pushed_errata
+  - update_push_count
+  - check_error
+  - mark_errata_shipped
+  status: COMPLETE
+  updated_at: 2015-07-27 09:08:30 Z
+  pub_options:
+    push_files: true
+    priority: 15
+    push_metadata: true
+  problem_ticket_filed: false
+  push_target_id: 1
+  errata_id: 20466
+  pre_push_tasks:
+  - set_update_date
+  - set_live_id
+  - set_in_push
+  - set_issue_date
+  id: 46701
+  pub_task_id: 61253
+  type: RhnLivePushJob
+  created_at: 2015-07-27 09:06:59 Z
+rhn_stage_push_job_44323:
+  log: |-
+    2015-05-11 05:22:06 -0400 Running pre push tasks
+    2015-05-11 05:22:07 -0400 Pub task created, task id: 57194
+    2015-05-11 05:22:07 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/57194
+    2015-05-11 05:22:07 -0400 Waiting on pub to finish.
+    2015-05-11 05:26:06 -0400 Pub completed.
+    2015-05-11 05:26:06 -0400 Running post push tasks in background job 1188684.
+    2015-05-11 05:26:08 -0400 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2015-05-11 05:26:08 -0400 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2015-05-11 05:26:08 -0400 Running task reschedule_rhnqa
+    2015-05-11 05:26:08 -0400 Running task mark_rhnqa_done
+    2015-05-11 05:26:08 -0400 Running remainder:
+    2015-05-11 05:26:08 -0400 Mandatory post push tasks complete
+  priority: 10
+  pushed_by: 225931
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  status: COMPLETE
+  updated_at: 2015-05-11 09:26:08 Z
+  pub_options:
+    priority: 10
+    push_files: true
+    push_metadata: true
+  problem_ticket_filed: false
+  push_target_id: 2
+  errata_id: 20466
+  pre_push_tasks: []
+  id: 44323
+  pub_task_id: 57194
+  type: RhnStagePushJob
+  created_at: 2015-05-11 09:22:06 Z
+cdn_push_job_51628:
+  pushed_by: 3000077
+  type: CdnPushJob
+  log: |-
+    2015-11-18 22:05:21 -0500 Running pre push tasks
+    2015-11-18 22:05:21 -0500 Running pre push task set_in_push
+    2015-11-18 22:05:21 -0500 Running task set_in_push
+    2015-11-18 22:05:21 -0500 State already IN_PUSH
+    2015-11-18 22:05:21 -0500 Running pre push task set_update_date
+    2015-11-18 22:05:21 -0500 Running task set_update_date
+    2015-11-18 22:05:21 -0500 Updated Update date
+    2015-11-18 22:05:21 -0500 Running pre push task set_live_id
+    2015-11-18 22:05:21 -0500 Running task set_live_id
+    2015-11-18 22:05:21 -0500 Pub task created, task id: 70125
+    2015-11-18 22:05:21 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/70125
+    2015-11-18 22:05:21 -0500 Waiting on pub to finish.
+    2015-11-19 00:59:40 -0500 Pub completed.
+    2015-11-19 00:59:40 -0500 Running post push tasks in background job 1515971.
+    2015-11-19 01:02:59 -0500 Running post push tasks: check_error
+    2015-11-19 01:02:59 -0500 Running mandatory tasks check_error
+    2015-11-19 01:02:59 -0500 Running task check_error
+    2015-11-19 01:02:59 -0500 Running remainder:
+    2015-11-19 01:02:59 -0500 Post push tasks complete
+  push_target_id: 4
+  status: COMPLETE
+  updated_at: 2015-11-19 06:02:59 Z
+  pub_options:
+    push_files: true
+    push_metadata: true
+  id: 51628
+  created_at: 2015-11-19 03:05:17 Z
+  post_push_tasks:
+  - update_push_count
+  - update_jira
+  - move_pushed_errata
+  - update_bugzilla
+  - mark_errata_shipped
+  - check_error
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_in_push
+  - set_update_date
+  - set_live_id
+  priority: 12
+  errata_id: 21009
+  pub_task_id: 70125
+cdn_push_job_52493:
+  pushed_by: 3000077
+  type: CdnPushJob
+  log: |-
+    2015-11-19 04:45:02 -0500 Running pre push tasks
+    2015-11-19 04:45:02 -0500 Running pre push task set_update_date
+    2015-11-19 04:45:02 -0500 Running task set_update_date
+    2015-11-19 04:45:03 -0500 Updated Update date
+    2015-11-19 04:45:03 -0500 Running pre push task set_live_id
+    2015-11-19 04:45:03 -0500 Running task set_live_id
+    2015-11-19 04:45:03 -0500 Running pre push task set_in_push
+    2015-11-19 04:45:03 -0500 Running task set_in_push
+    2015-11-19 04:45:03 -0500 State already SHIPPED_LIVE
+    2015-11-19 04:45:03 -0500 Pub task created, task id: 70991
+    2015-11-19 04:45:03 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/70991
+    2015-11-19 04:45:03 -0500 Waiting on pub to finish.
+    2015-11-19 05:09:35 -0500 Pub task failed
+  push_target_id: 4
+  status: FAILED
+  updated_at: 2015-11-19 10:09:35 Z
+  pub_options:
+    push_metadata: true
+  id: 52493
+  created_at: 2015-11-19 09:45:01 Z
+  post_push_tasks:
+  - update_push_count
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_update_date
+  - set_live_id
+  - set_in_push
+  priority: 12
+  errata_id: 21009
+  pub_task_id: 70991
+cdn_push_job_53254:
+  pushed_by: 3000077
+  type: CdnPushJob
+  log: |-
+    2015-11-19 05:48:21 -0500 Running pre push tasks
+    2015-11-19 05:48:21 -0500 Running pre push task set_update_date
+    2015-11-19 05:48:21 -0500 Running task set_update_date
+    2015-11-19 05:48:21 -0500 Updated Update date
+    2015-11-19 05:48:21 -0500 Running pre push task set_in_push
+    2015-11-19 05:48:21 -0500 Running task set_in_push
+    2015-11-19 05:48:21 -0500 State already SHIPPED_LIVE
+    2015-11-19 05:48:21 -0500 Running pre push task set_live_id
+    2015-11-19 05:48:21 -0500 Running task set_live_id
+    2015-11-19 05:48:21 -0500 Running pre push task set_issue_date
+    2015-11-19 05:48:21 -0500 Running task set_issue_date
+    2015-11-19 05:48:21 -0500 Updated Issue date
+    2015-11-19 05:48:21 -0500 Pub task created, task id: 71752
+    2015-11-19 05:48:21 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/71752
+    2015-11-19 05:48:21 -0500 Waiting on pub to finish.
+    2015-11-19 08:10:23 -0500 Pub task failed
+  push_target_id: 4
+  status: FAILED
+  updated_at: 2015-11-19 13:10:23 Z
+  pub_options:
+    push_metadata: true
+  id: 53254
+  created_at: 2015-11-19 10:48:19 Z
+  post_push_tasks:
+  - update_push_count
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_update_date
+  - set_in_push
+  - set_live_id
+  - set_issue_date
+  priority: 12
+  errata_id: 21009
+  pub_task_id: 71752
+cdn_push_job_54017:
+  pushed_by: 3000077
+  type: CdnPushJob
+  log: |-
+    2015-11-19 08:44:01 -0500 Running pre push tasks
+    2015-11-19 08:44:01 -0500 Running pre push task set_in_push
+    2015-11-19 08:44:01 -0500 Running task set_in_push
+    2015-11-19 08:44:01 -0500 State already SHIPPED_LIVE
+    2015-11-19 08:44:01 -0500 Running pre push task set_live_id
+    2015-11-19 08:44:01 -0500 Running task set_live_id
+    2015-11-19 08:44:01 -0500 Running pre push task set_update_date
+    2015-11-19 08:44:01 -0500 Running task set_update_date
+    2015-11-19 08:44:01 -0500 Updated Update date
+    2015-11-19 08:44:01 -0500 Running pre push task set_issue_date
+    2015-11-19 08:44:01 -0500 Running task set_issue_date
+    2015-11-19 08:44:01 -0500 Updated Issue date
+    2015-11-19 08:44:03 -0500 Pub task created, task id: 72519
+    2015-11-19 08:44:03 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/72519
+    2015-11-19 08:44:03 -0500 Waiting on pub to finish.
+    2015-11-19 09:20:36 -0500 Pub task failed
+  push_target_id: 4
+  status: FAILED
+  updated_at: 2015-11-19 14:20:36 Z
+  pub_options:
+    push_metadata: true
+  id: 54017
+  created_at: 2015-11-19 13:43:58 Z
+  post_push_tasks:
+  - update_push_count
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_in_push
+  - set_live_id
+  - set_update_date
+  - set_issue_date
+  priority: 12
+  errata_id: 21009
+  pub_task_id: 72519
+cdn_stage_push_job_50077:
+  pushed_by: 224771
+  type: CdnStagePushJob
+  log: |-
+    2015-10-23 12:57:38 -0400 Running pre push tasks
+    2015-10-23 12:57:38 -0400 Pub task created, task id: 67456
+    2015-10-23 12:57:38 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/67456
+    2015-10-23 12:57:38 -0400 Waiting on pub to finish.
+    2015-10-23 13:18:31 -0400 Pub completed.
+    2015-10-23 13:18:31 -0400 Running post push tasks in background job 1462215.
+    2015-10-23 13:18:32 -0400 Running post push tasks: mark_rhnqa_done, reschedule_cdnqa_jobs
+    2015-10-23 13:18:32 -0400 Running mandatory tasks mark_rhnqa_done, reschedule_cdnqa_jobs
+    2015-10-23 13:18:32 -0400 Running task mark_rhnqa_done
+    2015-10-23 13:18:32 -0400 Running task reschedule_cdnqa_jobs
+    2015-10-23 13:18:32 -0400 Running remainder:
+    2015-10-23 13:18:32 -0400 Post push tasks complete
+  push_target_id: 5
+  status: COMPLETE
+  updated_at: 2015-10-23 17:18:32 Z
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 12
+  id: 50077
+  created_at: 2015-10-23 16:57:38 Z
+  post_push_tasks:
+  - mark_rhnqa_done
+  - reschedule_cdnqa_jobs
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  priority: 12
+  errata_id: 21009
+  pub_task_id: 67456
+ftp_push_job_54734:
+  pushed_by: 3000077
+  type: FtpPushJob
+  log: |-
+    2015-11-19 10:45:07 -0500 Running pre push tasks
+    2015-11-19 10:45:08 -0500 Pub task created, task id: 73243
+    2015-11-19 10:45:08 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/73243
+    2015-11-19 10:45:08 -0500 Waiting on pub to finish.
+    2015-11-19 11:21:53 -0500 Pub completed.
+    2015-11-19 11:21:53 -0500 Running post push tasks in background job 1526272.
+    2015-11-19 11:22:47 -0500 Running post push tasks: mark_ftp_done
+    2015-11-19 11:22:47 -0500 Running mandatory tasks mark_ftp_done
+    2015-11-19 11:22:47 -0500 Running task mark_ftp_done
+    2015-11-19 11:22:47 -0500 Running remainder:
+    2015-11-19 11:22:47 -0500 Post push tasks complete
+  push_target_id: 3
+  status: COMPLETE
+  updated_at: 2015-11-19 16:22:47 Z
+  pub_options:
+    priority: 12
+  id: 54734
+  created_at: 2015-11-19 15:45:06 Z
+  post_push_tasks:
+  - mark_ftp_done
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  priority: 12
+  errata_id: 21009
+  pub_task_id: 73243
+rhn_live_push_job_51627:
+  pushed_by: 3000077
+  type: RhnLivePushJob
+  log: |-
+    2015-11-18 22:05:17 -0500 Running pre push tasks
+    2015-11-18 22:05:17 -0500 Running pre push task set_in_push
+    2015-11-18 22:05:17 -0500 Running task set_in_push
+    2015-11-18 22:05:17 -0500 Changing state to IN_PUSH by Jan Blazek (jblazek@redhat.com)
+    2015-11-18 22:05:18 -0500 Advisory now IN_PUSH
+    2015-11-18 22:05:18 -0500 Running pre push task set_update_date
+    2015-11-18 22:05:18 -0500 Running task set_update_date
+    2015-11-18 22:05:18 -0500 Updated Update date
+    2015-11-18 22:05:18 -0500 Running pre push task set_live_id
+    2015-11-18 22:05:18 -0500 Running task set_live_id
+    2015-11-18 22:05:19 -0500 Changed RHBA-2015:21009 to public name: RHBA-2015:2394
+    2015-11-18 22:05:20 -0500 Pub task created, task id: 70124
+    2015-11-18 22:05:20 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/70124
+    2015-11-18 22:05:20 -0500 Waiting on pub to finish.
+    2015-11-19 00:59:41 -0500 Pub completed.
+    2015-11-19 00:59:41 -0500 Running post push tasks in background job 1515972.
+    2015-11-19 01:02:59 -0500 Running post push tasks: update_push_count, update_jira, move_pushed_errata, update_bugzilla, mark_errata_shipped, check_error
+    2015-11-19 01:02:59 -0500 Running mandatory tasks update_push_count, mark_errata_shipped, check_error
+    2015-11-19 01:02:59 -0500 Running task update_push_count
+    2015-11-19 01:02:59 -0500 Push count increased
+    2015-11-19 01:02:59 -0500 Running task mark_errata_shipped
+    2015-11-19 01:02:59 -0500 Changing state to SHIPPED_LIVE by Jan Blazek (jblazek@redhat.com)
+    2015-11-19 01:03:00 -0500 Advisory now SHIPPED_LIVE
+    2015-11-19 01:03:01 -0500 Running task check_error
+    2015-11-19 01:03:01 -0500 Running remainder: update_jira, move_pushed_errata, update_bugzilla
+    2015-11-19 01:03:01 -0500 Running task update_jira
+    2015-11-19 01:03:01 -0500 Closing JIRA issues...
+    2015-11-19 01:03:01 -0500 Issues put into queue to close
+    2015-11-19 01:03:01 -0500 Running task move_pushed_errata
+    2015-11-19 01:03:01 -0500 Calling move-pushed-erratum for 2015:2394
+    2015-11-19 01:03:06 -0500 /usr/lib/python2.6/site-packages/urllib3/connection.py:251: SecurityWarning: Certificate has no `subjectAltName`, falling back to check for a `commonName` for now. This feature is being removed by major browsers and deprecated by RFC 2818. (See https://github.com/shazow/urllib3/issues/497 for details.)
+      SecurityWarning
+    2015:2394
+    brew tag-pkg --nowait --force rhel-7.2 kernel-aarch64-4.2.0-0.21.el7
+    Created task 10121996
+    2015-11-19 01:03:06 -0500 move-pushed-erratum complete
+    2015-11-19 01:03:06 -0500 Running task update_bugzilla
+    2015-11-19 01:03:07 -0500 Closing bugs...
+    2015-11-19 01:03:10 -0500 Bugs put into queue to close
+    2015-11-19 01:03:10 -0500 Post push tasks complete
+  push_target_id: 1
+  status: COMPLETE
+  updated_at: 2015-11-19 06:03:10 Z
+  pub_options:
+    push_files: true
+    push_metadata: true
+  id: 51627
+  created_at: 2015-11-19 03:05:16 Z
+  post_push_tasks:
+  - update_push_count
+  - update_jira
+  - move_pushed_errata
+  - update_bugzilla
+  - mark_errata_shipped
+  - check_error
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_in_push
+  - set_update_date
+  - set_live_id
+  priority: 15
+  errata_id: 21009
+  pub_task_id: 70124
+rhn_live_push_job_52492:
+  pushed_by: 3000077
+  type: RhnLivePushJob
+  log: |-
+    2015-11-19 04:45:01 -0500 Running pre push tasks
+    2015-11-19 04:45:01 -0500 Running pre push task set_update_date
+    2015-11-19 04:45:01 -0500 Running task set_update_date
+    2015-11-19 04:45:01 -0500 Updated Update date
+    2015-11-19 04:45:01 -0500 Running pre push task set_live_id
+    2015-11-19 04:45:01 -0500 Running task set_live_id
+    2015-11-19 04:45:01 -0500 Running pre push task set_in_push
+    2015-11-19 04:45:01 -0500 Running task set_in_push
+    2015-11-19 04:45:01 -0500 State already SHIPPED_LIVE
+    2015-11-19 04:45:02 -0500 Pub task created, task id: 70990
+    2015-11-19 04:45:02 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/70990
+    2015-11-19 04:45:02 -0500 Waiting on pub to finish.
+    2015-11-19 05:09:36 -0500 Pub task failed
+    2015-11-19 05:09:36 -0500 Mandatory push job(s) have failed: 52492, 52493
+    2015-11-19 05:09:36 -0500 Changing state to REL_PREP
+    2015-11-19 05:09:36 -0500 Transition SHIPPED_LIVE => REL_PREP is invalid
+  push_target_id: 1
+  status: FAILED
+  updated_at: 2015-11-19 10:09:36 Z
+  pub_options:
+    push_metadata: true
+  id: 52492
+  created_at: 2015-11-19 09:45:00 Z
+  post_push_tasks:
+  - update_push_count
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_update_date
+  - set_live_id
+  - set_in_push
+  priority: 15
+  errata_id: 21009
+  pub_task_id: 70990
+rhn_live_push_job_53253:
+  pushed_by: 3000077
+  type: RhnLivePushJob
+  log: |-
+    2015-11-19 05:48:20 -0500 Running pre push tasks
+    2015-11-19 05:48:20 -0500 Running pre push task set_update_date
+    2015-11-19 05:48:20 -0500 Running task set_update_date
+    2015-11-19 05:48:20 -0500 Updated Update date
+    2015-11-19 05:48:20 -0500 Running pre push task set_in_push
+    2015-11-19 05:48:20 -0500 Running task set_in_push
+    2015-11-19 05:48:20 -0500 State already SHIPPED_LIVE
+    2015-11-19 05:48:20 -0500 Running pre push task set_live_id
+    2015-11-19 05:48:20 -0500 Running task set_live_id
+    2015-11-19 05:48:20 -0500 Running pre push task set_issue_date
+    2015-11-19 05:48:20 -0500 Running task set_issue_date
+    2015-11-19 05:48:20 -0500 Updated Issue date
+    2015-11-19 05:48:20 -0500 Pub task created, task id: 71751
+    2015-11-19 05:48:20 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/71751
+    2015-11-19 05:48:20 -0500 Waiting on pub to finish.
+    2015-11-19 08:10:23 -0500 Pub task failed
+    2015-11-19 08:10:23 -0500 Mandatory push job(s) have failed: 53253, 53254
+    2015-11-19 08:10:23 -0500 Changing state to REL_PREP
+    2015-11-19 08:10:23 -0500 Transition SHIPPED_LIVE => REL_PREP is invalid
+  push_target_id: 1
+  status: FAILED
+  updated_at: 2015-11-19 13:10:23 Z
+  pub_options:
+    push_metadata: true
+  id: 53253
+  created_at: 2015-11-19 10:48:19 Z
+  post_push_tasks:
+  - update_push_count
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_update_date
+  - set_in_push
+  - set_live_id
+  - set_issue_date
+  priority: 15
+  errata_id: 21009
+  pub_task_id: 71751
+rhn_live_push_job_54016:
+  pushed_by: 3000077
+  type: RhnLivePushJob
+  log: |-
+    2015-11-19 08:43:58 -0500 Running pre push tasks
+    2015-11-19 08:43:58 -0500 Running pre push task set_in_push
+    2015-11-19 08:43:58 -0500 Running task set_in_push
+    2015-11-19 08:43:58 -0500 State already SHIPPED_LIVE
+    2015-11-19 08:43:58 -0500 Running pre push task set_live_id
+    2015-11-19 08:43:58 -0500 Running task set_live_id
+    2015-11-19 08:43:58 -0500 Running pre push task set_update_date
+    2015-11-19 08:43:58 -0500 Running task set_update_date
+    2015-11-19 08:43:59 -0500 Updated Update date
+    2015-11-19 08:43:59 -0500 Running pre push task set_issue_date
+    2015-11-19 08:43:59 -0500 Running task set_issue_date
+    2015-11-19 08:43:59 -0500 Updated Issue date
+    2015-11-19 08:44:00 -0500 Pub task created, task id: 72518
+    2015-11-19 08:44:00 -0500 Link to the pub task: http://pub.devel.redhat.com/pub/task/72518
+    2015-11-19 08:44:00 -0500 Waiting on pub to finish.
+    2015-11-19 09:20:36 -0500 Pub task failed
+    2015-11-19 09:20:37 -0500 Mandatory push job(s) have failed: 54016, 54017
+    2015-11-19 09:20:37 -0500 Changing state to REL_PREP
+    2015-11-19 09:20:37 -0500 Transition SHIPPED_LIVE => REL_PREP is invalid
+  push_target_id: 1
+  status: FAILED
+  updated_at: 2015-11-19 14:20:36 Z
+  pub_options:
+    push_metadata: true
+  id: 54016
+  created_at: 2015-11-19 13:43:57 Z
+  post_push_tasks:
+  - update_push_count
+  problem_ticket_filed: false
+  pre_push_tasks:
+  - set_in_push
+  - set_live_id
+  - set_update_date
+  - set_issue_date
+  priority: 15
+  errata_id: 21009
+  pub_task_id: 72518
+rhn_stage_push_job_50076:
+  pushed_by: 224771
+  type: RhnStagePushJob
+  log: |-
+    2015-10-23 12:57:37 -0400 Running pre push tasks
+    2015-10-23 12:57:37 -0400 Pub task created, task id: 67455
+    2015-10-23 12:57:37 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/67455
+    2015-10-23 12:57:37 -0400 Waiting on pub to finish.
+    2015-10-23 12:58:29 -0400 Pub completed.
+    2015-10-23 12:58:29 -0400 Running post push tasks in background job 1462179.
+    2015-10-23 12:58:29 -0400 Running post push tasks: reschedule_rhnqa, mark_rhnqa_done
+    2015-10-23 12:58:29 -0400 Running mandatory tasks reschedule_rhnqa, mark_rhnqa_done
+    2015-10-23 12:58:29 -0400 Running task reschedule_rhnqa
+    2015-10-23 12:58:30 -0400 Running task mark_rhnqa_done
+    2015-10-23 12:58:30 -0400 Running remainder:
+    2015-10-23 12:58:30 -0400 Post push tasks complete
+  push_target_id: 2
+  status: COMPLETE
+  updated_at: 2015-10-23 16:58:30 Z
+  pub_options:
+    push_files: true
+    push_metadata: true
+    priority: 10
+  id: 50076
+  created_at: 2015-10-23 16:57:37 Z
+  post_push_tasks:
+  - reschedule_rhnqa
+  - mark_rhnqa_done
+  problem_ticket_filed: false
+  pre_push_tasks: []
+  priority: 10
+  errata_id: 21009
+  pub_task_id: 67455
+cdn_push_job_47959:
+  log: |-
+    2016-02-08 18:39:56 -0500 Running pre push tasks
+    2016-02-08 18:39:57 -0500 Multipush, submitting with errata: 16374
+    2016-02-08 18:39:57 -0500 Pub task created, task id: 88890
+    2016-02-08 18:39:57 -0500 Note: this is a nochannel push.
+    2016-02-08 18:39:57 -0500 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/88890
+    2016-02-08 18:39:57 -0500 Waiting on pub to finish.
+    2016-02-08 18:40:16 -0500 Pub completed.
+    2016-02-08 18:40:16 -0500 Completed Successfully
+  priority: 22
+  problem_ticket_filed: false
+  push_target_id: 4
+  id: 47959
+  status: COMPLETE
+  pub_options:
+    push_metadata: true
+    priority: 22
+    push_files: true
+    nochannel: true
+  post_push_tasks: []
+  updated_at: 2016-02-08 23:40:16 Z
+  pub_task_id: 88890
+  errata_id: 16374
+  pushed_by: 3000931
+  pre_push_tasks: []
+  created_at: 2016-02-08 23:39:52 Z
+  type: CdnPushJob
+cdn_push_job_47972:
+  log: |-
+    2016-02-08 20:17:42 -0500 Running pre push tasks
+    2016-02-08 20:17:42 -0500 Multipush, submitting with errata: 19029
+    2016-02-08 20:17:42 -0500 Pub task created, task id: 88892
+    2016-02-08 20:17:42 -0500 Note: this is a nochannel push.
+    2016-02-08 20:17:43 -0500 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/88892
+    2016-02-08 20:17:43 -0500 Waiting on pub to finish.
+    2016-02-08 20:20:11 -0500 Pub completed.
+    2016-02-08 20:20:11 -0500 Completed Successfully
+  priority: 22
+  problem_ticket_filed: false
+  push_target_id: 4
+  id: 47972
+  status: COMPLETE
+  pub_options:
+    push_metadata: true
+    priority: 22
+    push_files: true
+    nochannel: true
+  post_push_tasks: []
+  updated_at: 2016-02-09 01:20:12 Z
+  pub_task_id: 88892
+  errata_id: 19029
+  pushed_by: 3000931
+  pre_push_tasks: []
+  created_at: 2016-02-09 01:17:38 Z
+  type: CdnPushJob
+rhn_live_push_job_47971:
+  log: |-
+    2016-02-08 20:17:41 -0500 Running pre push tasks
+    2016-02-08 20:17:41 -0500 Pub task created, task id: 88891
+    2016-02-08 20:17:41 -0500 Note: this is a nochannel push.
+    2016-02-08 20:17:41 -0500 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/88891
+    2016-02-08 20:17:41 -0500 Waiting on pub to finish.
+    2016-02-08 20:20:21 -0500 error!
+  priority: 22
+  problem_ticket_filed: false
+  push_target_id: 1
+  id: 47971
+  status: FAILED
+  pub_options:
+    push_metadata: true
+    priority: 22
+    push_files: true
+    nochannel: true
+  post_push_tasks: []
+  updated_at: 2016-02-09 01:20:21 Z
+  pub_task_id: 88891
+  errata_id: 19029
+  pushed_by: 3000931
+  pre_push_tasks: []
+  created_at: 2016-02-09 01:17:38 Z
+  type: RhnLivePushJob
+rhn_live_push_job_47973:
+  log: |-
+    2016-02-08 20:27:20 -0500 Checking that oval is well formed...
+    2016-02-08 20:27:20 -0500 done.
+    2016-02-08 20:27:24 -0500 Checking that oval is well formed...
+    2016-02-08 20:27:24 -0500 done.
+    2016-02-08 20:27:24 -0500 Checking that oval is well formed...
+    2016-02-08 20:27:25 -0500 done.
+    2016-02-08 20:27:25 -0500 Running pre push tasks
+    2016-02-08 20:27:25 -0500 Pub task created, task id: 88893
+    2016-02-08 20:27:25 -0500 Note: this is a nochannel push.
+    2016-02-08 20:27:25 -0500 Link to the pub task: http://pub.qa.engineering.redhat.com/pub/task/88893
+    2016-02-08 20:27:25 -0500 Waiting on pub to finish.
+    2016-02-08 20:29:02 -0500 Pub completed.
+    2016-02-08 20:29:02 -0500 Completed Successfully
+  priority: 27
+  problem_ticket_filed: false
+  push_target_id: 1
+  id: 47973
+  status: COMPLETE
+  pub_options:
+    push_metadata: true
+    priority: 27
+    push_files: true
+    nochannel: true
+  post_push_tasks: []
+  updated_at: 2016-02-09 01:29:02 Z
+  pub_task_id: 88893
+  errata_id: 19028
+  pushed_by: 3000931
+  pre_push_tasks: []
+  created_at: 2016-02-09 01:27:20 Z
+  type: RhnLivePushJob

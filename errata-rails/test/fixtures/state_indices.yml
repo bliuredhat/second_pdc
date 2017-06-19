@@ -1,0 +1,3497 @@
+--- 
+state_index_00077: 
+  created_at: 2008-07-07 10:25:36 -04:00
+  current: NEW_FILES
+  errata_id: 7517
+  id: 77
+  previous: ""
+  updated_at: 2010-05-14 21:59:55 -04:00
+  who_id: 100135
+state_index_00078: 
+  created_at: 2008-07-07 13:13:14 -04:00
+  current: NEW_FILES
+  errata_id: 7519
+  id: 78
+  previous: ""
+  updated_at: 2010-05-14 21:59:56 -04:00
+  who_id: 100135
+state_index_01371: 
+  created_at: 2010-07-13 08:55:50 -04:00
+  current: NEW_FILES
+  errata_id: 9753
+  id: 1371
+  previous: ""
+  updated_at: 2010-07-13 08:55:50 -04:00
+  who_id: 215107
+state_index_01372: 
+  created_at: 2010-07-13 08:58:58 -04:00
+  current: NEW_FILES
+  errata_id: 9754
+  id: 1372
+  previous: ""
+  updated_at: 2010-07-13 08:58:58 -04:00
+  who_id: 215107
+state_index_01373: 
+  created_at: 2010-07-13 09:41:41 -04:00
+  current: NEW_FILES
+  errata_id: 9755
+  id: 1373
+  previous: ""
+  updated_at: 2010-07-13 09:41:41 -04:00
+  who_id: 215107
+state_index_01694: 
+  created_at: 2010-07-28 11:28:55 -04:00
+  current: QE
+  errata_id: 9755
+  id: 1694
+  previous: NEW_FILES
+  updated_at: 2010-07-28 11:28:55 -04:00
+  who_id: 211874
+state_index_01699: 
+  created_at: 2010-07-28 18:29:16 -04:00
+  current: QE
+  errata_id: 9754
+  id: 1699
+  previous: NEW_FILES
+  updated_at: 2010-07-28 18:29:16 -04:00
+  who_id: 184429
+state_index_01740: 
+  created_at: 2010-07-29 19:03:40 -04:00
+  current: QE
+  errata_id: 9753
+  id: 1740
+  previous: NEW_FILES
+  updated_at: 2010-07-29 19:03:40 -04:00
+  who_id: 184429
+state_index_01748: 
+  created_at: 2010-07-30 10:10:58 -04:00
+  current: NEW_FILES
+  errata_id: 9753
+  id: 1748
+  previous: QE
+  updated_at: 2010-07-30 10:10:58 -04:00
+  who_id: 96230
+state_index_01763: 
+  created_at: 2010-08-02 05:25:58 -04:00
+  current: QE
+  errata_id: 9753
+  id: 1763
+  previous: NEW_FILES
+  updated_at: 2010-08-02 05:25:58 -04:00
+  who_id: 266715
+state_index_01765: 
+  created_at: 2010-08-02 09:21:35 -04:00
+  current: REL_PREP
+  errata_id: 9755
+  id: 1765
+  previous: QE
+  updated_at: 2010-08-02 09:21:35 -04:00
+  who_id: 271623
+state_index_01767: 
+  created_at: 2010-08-02 10:00:18 -04:00
+  current: PUSH_READY
+  errata_id: 9755
+  id: 1767
+  previous: REL_PREP
+  updated_at: 2010-08-02 10:00:18 -04:00
+  who_id: 3000097
+state_index_01773: 
+  created_at: 2010-08-02 12:12:21 -04:00
+  current: REL_PREP
+  errata_id: 9753
+  id: 1773
+  previous: QE
+  updated_at: 2010-08-02 12:12:21 -04:00
+  who_id: 266715
+state_index_01774: 
+  created_at: 2010-08-02 12:40:40 -04:00
+  current: REL_PREP
+  errata_id: 9754
+  id: 1774
+  previous: QE
+  updated_at: 2010-08-02 12:40:40 -04:00
+  who_id: 266715
+state_index_01776: 
+  created_at: 2010-08-02 13:00:18 -04:00
+  current: PUSH_READY
+  errata_id: 9753
+  id: 1776
+  previous: REL_PREP
+  updated_at: 2010-08-02 13:00:18 -04:00
+  who_id: 3000097
+state_index_01777: 
+  created_at: 2010-08-02 13:00:18 -04:00
+  current: PUSH_READY
+  errata_id: 9754
+  id: 1777
+  previous: REL_PREP
+  updated_at: 2010-08-02 13:00:18 -04:00
+  who_id: 3000097
+state_index_01784: 
+  created_at: 2010-08-02 16:17:39 -04:00
+  current: SHIPPED_LIVE
+  errata_id: 9753
+  id: 1784
+  previous: PUSH_READY
+  updated_at: 2010-08-02 16:17:39 -04:00
+  who_id: 184429
+state_index_01785: 
+  created_at: 2010-08-02 16:17:44 -04:00
+  current: SHIPPED_LIVE
+  errata_id: 9754
+  id: 1785
+  previous: PUSH_READY
+  updated_at: 2010-08-02 16:17:44 -04:00
+  who_id: 184429
+state_index_01788: 
+  created_at: 2010-08-02 16:39:04 -04:00
+  current: SHIPPED_LIVE
+  errata_id: 9755
+  id: 1788
+  previous: PUSH_READY
+  updated_at: 2010-08-02 16:39:04 -04:00
+  who_id: 184429
+state_index_01821: 
+  created_at: 2010-08-04 07:21:32 -04:00
+  current: NEW_FILES
+  errata_id: 9829
+  id: 1821
+  previous: ""
+  updated_at: 2010-08-04 07:21:32 -04:00
+  who_id: 215107
+state_index_02093: 
+  created_at: 2010-08-19 04:40:06 -04:00
+  current: NEW_FILES
+  errata_id: 9883
+  id: 2093
+  previous: ""
+  updated_at: 2010-08-19 04:40:06 -04:00
+  who_id: 196179
+state_index_02929: 
+  created_at: 2010-09-27 15:34:22 -04:00
+  current: QE
+  errata_id: 9883
+  id: 2929
+  previous: NEW_FILES
+  updated_at: 2010-09-27 15:34:22 -04:00
+  who_id: 61112
+state_index_03111: 
+  created_at: 2010-10-04 12:16:29 -04:00
+  current: NEW_FILES
+  errata_id: 9883
+  id: 3111
+  previous: QE
+  updated_at: 2010-10-04 12:16:29 -04:00
+  who_id: 61112
+state_index_03115: 
+  created_at: 2010-10-04 14:03:07 -04:00
+  current: QE
+  errata_id: 9883
+  id: 3115
+  previous: NEW_FILES
+  updated_at: 2010-10-04 14:03:07 -04:00
+  who_id: 61112
+state_index_03156: 
+  created_at: 2010-10-05 11:19:24 -04:00
+  current: NEW_FILES
+  errata_id: 9883
+  id: 3156
+  previous: QE
+  updated_at: 2010-10-05 11:19:24 -04:00
+  who_id: 61112
+state_index_03157: 
+  created_at: 2010-10-05 11:42:39 -04:00
+  current: QE
+  errata_id: 9883
+  id: 3157
+  previous: NEW_FILES
+  updated_at: 2010-10-05 11:42:39 -04:00
+  who_id: 61112
+state_index_03256: 
+  created_at: 2010-10-07 14:00:30 -04:00
+  current: REL_PREP
+  errata_id: 9883
+  id: 3256
+  previous: QE
+  updated_at: 2010-10-07 14:00:30 -04:00
+  who_id: 81410
+state_index_03265: 
+  created_at: 2010-10-07 21:37:36 -04:00
+  current: PUSH_READY
+  errata_id: 9883
+  id: 3265
+  previous: REL_PREP
+  updated_at: 2010-10-07 21:37:36 -04:00
+  who_id: 275188
+state_index_03268: 
+  created_at: 2010-10-07 22:12:02 -04:00
+  current: SHIPPED_LIVE
+  errata_id: 9883
+  id: 3268
+  previous: PUSH_READY
+  updated_at: 2010-10-07 22:12:02 -04:00
+  who_id: 275188
+state_index_03548: 
+  created_at: 2010-10-15 06:17:09 -04:00
+  current: NEW_FILES
+  errata_id: 10140
+  id: 3548
+  previous: ""
+  updated_at: 2010-10-15 06:17:09 -04:00
+  who_id: 215839
+state_index_03561: 
+  created_at: 2010-10-15 10:51:12 -04:00
+  current: QE
+  errata_id: 9829
+  id: 3561
+  previous: NEW_FILES
+  updated_at: 2010-10-15 10:51:12 -04:00
+  who_id: 3000136
+state_index_03571: 
+  created_at: 2010-10-15 13:24:47 -04:00
+  current: QE
+  errata_id: 10140
+  id: 3571
+  previous: NEW_FILES
+  updated_at: 2010-10-15 13:24:47 -04:00
+  who_id: 172338
+state_index_03958: 
+  created_at: 2010-10-27 10:47:49 -04:00
+  current: NEW_FILES
+  errata_id: 10205
+  id: 3958
+  previous: ""
+  updated_at: 2010-10-27 10:47:49 -04:00
+  who_id: 163483
+state_index_04034: 
+  created_at: 2010-10-28 13:19:57 -04:00
+  current: DROPPED_NO_SHIP
+  errata_id: 10205
+  id: 4034
+  previous: NEW_FILES
+  updated_at: 2010-10-28 13:19:57 -04:00
+  who_id: 163483
+state_index_04065: 
+  created_at: 2010-10-29 09:42:24 -04:00
+  current: NEW_FILES
+  errata_id: 10226
+  id: 4065
+  previous: ""
+  updated_at: 2010-10-29 09:42:24 -04:00
+  who_id: 96230
+state_index_04066: 
+  created_at: 2010-10-29 09:44:48 -04:00
+  current: QE
+  errata_id: 10226
+  id: 4066
+  previous: NEW_FILES
+  updated_at: 2010-10-29 09:44:48 -04:00
+  who_id: 96230
+state_index_04068: 
+  created_at: 2010-10-29 09:56:51 -04:00
+  current: DROPPED_NO_SHIP
+  errata_id: 10226
+  id: 4068
+  previous: QE
+  updated_at: 2010-10-29 09:56:51 -04:00
+  who_id: 96230
+state_index_04128: 
+  created_at: 2010-11-01 09:55:39 -04:00
+  current: REL_PREP
+  errata_id: 10226
+  id: 4128
+  previous: DROPPED_NO_SHIP
+  updated_at: 2010-11-01 09:55:39 -04:00
+  who_id: 35599
+state_index_04129: 
+  created_at: 2010-11-01 10:00:32 -04:00
+  current: PUSH_READY
+  errata_id: 10226
+  id: 4129
+  previous: REL_PREP
+  updated_at: 2010-11-01 10:00:32 -04:00
+  who_id: 3000097
+state_index_04133: 
+  created_at: 2010-11-01 10:31:45 -04:00
+  current: DROPPED_NO_SHIP
+  errata_id: 10226
+  id: 4133
+  previous: PUSH_READY
+  updated_at: 2010-11-01 10:31:45 -04:00
+  who_id: 35599
+state_index_04179: 
+  created_at: 2010-11-02 14:20:11 -04:00
+  current: NEW_FILES
+  errata_id: 10140
+  id: 4179
+  previous: QE
+  updated_at: 2010-11-02 14:20:11 -04:00
+  who_id: 268050
+state_index_04189: 
+  created_at: 2010-11-03 02:57:56 -04:00
+  current: QE
+  errata_id: 10140
+  id: 4189
+  previous: NEW_FILES
+  updated_at: 2010-11-03 02:57:56 -04:00
+  who_id: 171534
+state_index_04208: 
+  created_at: 2010-11-03 10:41:33 -04:00
+  current: NEW_FILES
+  errata_id: 9829
+  id: 4208
+  previous: QE
+  updated_at: 2010-11-03 10:41:33 -04:00
+  who_id: 3000532
+state_index_04239: 
+  created_at: 2010-11-04 09:37:27 -04:00
+  current: REL_PREP
+  errata_id: 10140
+  id: 4239
+  previous: QE
+  updated_at: 2010-11-04 09:37:27 -04:00
+  who_id: 268050
+state_index_04361: 
+  created_at: 2010-11-08 15:00:31 -05:00
+  current: PUSH_READY
+  errata_id: 10140
+  id: 4361
+  previous: REL_PREP
+  updated_at: 2010-11-08 15:00:31 -05:00
+  who_id: 3000097
+state_index_04362: 
+  created_at: 2010-11-08 15:06:51 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 10140
+  id: 4362
+  previous: PUSH_READY
+  updated_at: 2010-11-08 15:06:51 -05:00
+  who_id: 275188
+state_index_04775: 
+  created_at: 2010-11-18 10:05:52 -05:00
+  current: NEW_FILES
+  errata_id: 10305
+  id: 4775
+  previous: ""
+  updated_at: 2010-11-18 10:05:52 -05:00
+  who_id: 35599
+state_index_04795: 
+  created_at: 2010-11-19 07:35:25 -05:00
+  current: QE
+  errata_id: 10305
+  id: 4795
+  previous: NEW_FILES
+  updated_at: 2010-11-19 07:35:25 -05:00
+  who_id: 35599
+state_index_05039: 
+  created_at: 2010-11-30 09:04:08 -05:00
+  current: NEW_FILES
+  errata_id: 10326
+  id: 5039
+  previous: ""
+  updated_at: 2010-11-30 09:04:08 -05:00
+  who_id: 3000057
+state_index_05066: 
+  created_at: 2010-11-30 17:06:03 -05:00
+  current: QE
+  errata_id: 9829
+  id: 5066
+  previous: NEW_FILES
+  updated_at: 2010-11-30 17:06:03 -05:00
+  who_id: 202032
+state_index_05161: 
+  created_at: 2010-12-02 10:38:31 -05:00
+  current: NEW_FILES
+  errata_id: 9829
+  id: 5161
+  previous: QE
+  updated_at: 2010-12-02 10:38:31 -05:00
+  who_id: 3000532
+state_index_05684: 
+  created_at: 2010-12-15 04:11:23 -05:00
+  current: NEW_FILES
+  errata_id: 10305
+  id: 5684
+  previous: QE
+  updated_at: 2010-12-15 04:11:23 -05:00
+  who_id: 206427
+state_index_05686: 
+  created_at: 2010-12-15 04:18:02 -05:00
+  current: QE
+  errata_id: 10305
+  id: 5686
+  previous: NEW_FILES
+  updated_at: 2010-12-15 04:18:02 -05:00
+  who_id: 206427
+state_index_05877: 
+  created_at: 2010-12-22 07:03:33 -05:00
+  current: REL_PREP
+  errata_id: 10305
+  id: 5877
+  previous: QE
+  updated_at: 2010-12-22 07:03:33 -05:00
+  who_id: 242721
+state_index_05919: 
+  created_at: 2011-01-01 00:00:31 -05:00
+  current: PUSH_READY
+  errata_id: 10305
+  id: 5919
+  previous: REL_PREP
+  updated_at: 2011-01-01 00:00:31 -05:00
+  who_id: 3000097
+state_index_05933: 
+  created_at: 2011-01-03 13:18:15 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 10305
+  id: 5933
+  previous: PUSH_READY
+  updated_at: 2011-01-03 13:18:15 -05:00
+  who_id: 184429
+state_index_06498: 
+  created_at: 2011-01-13 10:36:13 -05:00
+  current: NEW_FILES
+  errata_id: 10509
+  id: 6498
+  previous: ""
+  updated_at: 2011-01-13 10:36:13 -05:00
+  who_id: 3000057
+state_index_06544: 
+  created_at: 2011-01-14 01:31:25 -05:00
+  current: QE
+  errata_id: 9829
+  id: 6544
+  previous: NEW_FILES
+  updated_at: 2011-01-14 01:31:25 -05:00
+  who_id: 3000532
+state_index_06635: 
+  created_at: 2011-01-17 05:23:15 -05:00
+  current: DROPPED_NO_SHIP
+  errata_id: 10509
+  id: 6635
+  previous: NEW_FILES
+  updated_at: 2011-01-17 05:23:15 -05:00
+  who_id: 3000057
+state_index_06680: 
+  created_at: 2011-01-17 12:56:32 -05:00
+  current: QE
+  errata_id: 10326
+  id: 6680
+  previous: NEW_FILES
+  updated_at: 2011-01-17 12:56:32 -05:00
+  who_id: 3000057
+state_index_06743: 
+  created_at: 2011-01-18 08:25:04 -05:00
+  current: NEW_FILES
+  errata_id: 10326
+  id: 6743
+  previous: QE
+  updated_at: 2011-01-18 08:25:04 -05:00
+  who_id: 3000057
+state_index_06746: 
+  created_at: 2011-01-18 09:03:41 -05:00
+  current: QE
+  errata_id: 10326
+  id: 6746
+  previous: NEW_FILES
+  updated_at: 2011-01-18 09:03:41 -05:00
+  who_id: 3000057
+state_index_06786: 
+  created_at: 2011-01-19 09:01:59 -05:00
+  current: NEW_FILES
+  errata_id: 10326
+  id: 6786
+  previous: QE
+  updated_at: 2011-01-19 09:01:59 -05:00
+  who_id: 3000057
+state_index_06788: 
+  created_at: 2011-01-19 09:41:50 -05:00
+  current: QE
+  errata_id: 10326
+  id: 6788
+  previous: NEW_FILES
+  updated_at: 2011-01-19 09:41:50 -05:00
+  who_id: 3000057
+state_index_06797: 
+  created_at: 2011-01-19 11:48:12 -05:00
+  current: NEW_FILES
+  errata_id: 10610
+  id: 6797
+  previous: ""
+  updated_at: 2011-01-19 11:48:12 -05:00
+  who_id: 275188
+state_index_06896: 
+  created_at: 2011-01-24 05:05:15 -05:00
+  current: REL_PREP
+  errata_id: 9829
+  id: 6896
+  previous: QE
+  updated_at: 2011-01-24 05:05:15 -05:00
+  who_id: 3000532
+state_index_06900: 
+  created_at: 2011-01-24 06:00:40 -05:00
+  current: PUSH_READY
+  errata_id: 9829
+  id: 6900
+  previous: REL_PREP
+  updated_at: 2011-01-24 06:00:40 -05:00
+  who_id: 3000097
+state_index_06915: 
+  created_at: 2011-01-24 13:20:00 -05:00
+  current: NEW_FILES
+  errata_id: 10326
+  id: 6915
+  previous: QE
+  updated_at: 2011-01-24 13:20:00 -05:00
+  who_id: 193262
+state_index_06933: 
+  created_at: 2011-01-25 02:39:18 -05:00
+  current: DROPPED_NO_SHIP
+  errata_id: 10326
+  id: 6933
+  previous: NEW_FILES
+  updated_at: 2011-01-25 02:39:18 -05:00
+  who_id: 3000531
+state_index_06958: 
+  created_at: 2011-01-25 10:34:20 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 9829
+  id: 6958
+  previous: PUSH_READY
+  updated_at: 2011-01-25 10:34:20 -05:00
+  who_id: 184429
+state_index_07143: 
+  created_at: 2011-01-28 14:41:22 -05:00
+  current: QE
+  errata_id: 10610
+  id: 7143
+  previous: NEW_FILES
+  updated_at: 2011-01-28 14:41:22 -05:00
+  who_id: 268050
+state_index_07145: 
+  created_at: 2011-01-28 14:45:14 -05:00
+  current: NEW_FILES
+  errata_id: 10610
+  id: 7145
+  previous: QE
+  updated_at: 2011-01-28 14:45:14 -05:00
+  who_id: 268050
+state_index_07146: 
+  created_at: 2011-01-28 14:47:22 -05:00
+  current: QE
+  errata_id: 10610
+  id: 7146
+  previous: NEW_FILES
+  updated_at: 2011-01-28 14:47:22 -05:00
+  who_id: 268050
+state_index_07268: 
+  created_at: 2011-02-01 16:44:26 -05:00
+  current: NEW_FILES
+  errata_id: 10718
+  id: 7268
+  previous: ""
+  updated_at: 2011-02-01 16:44:26 -05:00
+  who_id: 104688
+state_index_07321: 
+  created_at: 2011-02-02 12:12:26 -05:00
+  current: NEW_FILES
+  errata_id: 10729
+  id: 7321
+  previous: ""
+  updated_at: 2011-02-02 12:12:26 -05:00
+  who_id: 215107
+state_index_07323: 
+  created_at: 2011-02-02 12:23:53 -05:00
+  current: DROPPED_NO_SHIP
+  errata_id: 10729
+  id: 7323
+  previous: NEW_FILES
+  updated_at: 2011-02-02 12:23:53 -05:00
+  who_id: 215107
+state_index_07744: 
+  created_at: 2011-02-09 15:29:19 -05:00
+  current: QE
+  errata_id: 10718
+  id: 7744
+  previous: NEW_FILES
+  updated_at: 2011-02-09 15:29:19 -05:00
+  who_id: 104688
+state_index_07767: 
+  created_at: 2011-02-10 05:05:18 -05:00
+  current: NEW_FILES
+  errata_id: 10801
+  id: 7767
+  previous: ""
+  updated_at: 2011-02-10 05:05:18 -05:00
+  who_id: 215107
+state_index_07769: 
+  created_at: 2011-02-10 05:19:58 -05:00
+  current: NEW_FILES
+  errata_id: 10802
+  id: 7769
+  previous: ""
+  updated_at: 2011-02-10 05:19:58 -05:00
+  who_id: 215107
+state_index_07805: 
+  created_at: 2011-02-10 13:41:57 -05:00
+  current: REL_PREP
+  errata_id: 10801
+  id: 7805
+  previous: NEW_FILES
+  updated_at: 2011-02-10 13:41:57 -05:00
+  who_id: 275188
+state_index_07806: 
+  created_at: 2011-02-10 13:43:56 -05:00
+  current: REL_PREP
+  errata_id: 10802
+  id: 7806
+  previous: NEW_FILES
+  updated_at: 2011-02-10 13:43:56 -05:00
+  who_id: 275188
+state_index_07807: 
+  created_at: 2011-02-10 14:09:17 -05:00
+  current: PUSH_READY
+  errata_id: 10801
+  id: 7807
+  previous: REL_PREP
+  updated_at: 2011-02-10 14:09:17 -05:00
+  who_id: 275188
+state_index_07808: 
+  created_at: 2011-02-10 14:09:32 -05:00
+  current: PUSH_READY
+  errata_id: 10802
+  id: 7808
+  previous: REL_PREP
+  updated_at: 2011-02-10 14:09:32 -05:00
+  who_id: 275188
+state_index_07813: 
+  created_at: 2011-02-10 14:41:39 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 10801
+  id: 7813
+  previous: PUSH_READY
+  updated_at: 2011-02-10 14:41:39 -05:00
+  who_id: 275188
+state_index_07814: 
+  created_at: 2011-02-10 14:46:51 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 10802
+  id: 7814
+  previous: PUSH_READY
+  updated_at: 2011-02-10 14:46:51 -05:00
+  who_id: 275188
+state_index_07856: 
+  created_at: 2011-02-13 10:39:10 -05:00
+  current: NEW_FILES
+  errata_id: 10808
+  id: 7856
+  previous: ""
+  updated_at: 2011-02-13 10:39:10 -05:00
+  who_id: 3000386
+state_index_08120: 
+  created_at: 2011-02-16 14:13:32 -05:00
+  current: REL_PREP
+  errata_id: 10610
+  id: 8120
+  previous: QE
+  updated_at: 2011-02-16 14:13:32 -05:00
+  who_id: 268050
+state_index_08144: 
+  created_at: 2011-02-17 08:58:35 -05:00
+  current: NEW_FILES
+  errata_id: 10827
+  id: 8144
+  previous: ""
+  updated_at: 2011-02-17 08:58:35 -05:00
+  who_id: 184429
+state_index_08153: 
+  created_at: 2011-02-17 11:16:18 -05:00
+  current: QE
+  errata_id: 10827
+  id: 8153
+  previous: NEW_FILES
+  updated_at: 2011-02-17 11:16:18 -05:00
+  who_id: 244271
+state_index_08179: 
+  created_at: 2011-02-18 05:57:12 -05:00
+  current: NEW_FILES
+  errata_id: 10827
+  id: 8179
+  previous: QE
+  updated_at: 2011-02-18 05:57:12 -05:00
+  who_id: 244271
+state_index_08180: 
+  created_at: 2011-02-18 06:01:46 -05:00
+  current: QE
+  errata_id: 10827
+  id: 8180
+  previous: NEW_FILES
+  updated_at: 2011-02-18 06:01:46 -05:00
+  who_id: 244271
+state_index_08197: 
+  created_at: 2011-02-18 17:31:40 -05:00
+  current: NEW_FILES
+  errata_id: 10836
+  id: 8197
+  previous: ""
+  updated_at: 2011-02-18 17:31:40 -05:00
+  who_id: 100112
+state_index_08198: 
+  created_at: 2011-02-18 18:54:36 -05:00
+  current: QE
+  errata_id: 10836
+  id: 8198
+  previous: NEW_FILES
+  updated_at: 2011-02-18 18:54:36 -05:00
+  who_id: 100112
+state_index_08239: 
+  created_at: 2011-02-21 12:54:48 -05:00
+  current: NEW_FILES
+  errata_id: 10839
+  id: 8239
+  previous: ""
+  updated_at: 2011-02-21 12:54:48 -05:00
+  who_id: 3000076
+state_index_08258: 
+  created_at: 2011-02-22 01:09:52 -05:00
+  current: NEW_FILES
+  errata_id: 10842
+  id: 8258
+  previous: ""
+  updated_at: 2011-02-22 01:09:52 -05:00
+  who_id: 246681
+state_index_08261: 
+  created_at: 2011-02-22 02:32:39 -05:00
+  current: QE
+  errata_id: 10842
+  id: 8261
+  previous: NEW_FILES
+  updated_at: 2011-02-22 02:32:39 -05:00
+  who_id: 246681
+state_index_08302: 
+  created_at: 2011-02-22 12:40:48 -05:00
+  current: NEW_FILES
+  errata_id: 10718
+  id: 8302
+  previous: QE
+  updated_at: 2011-02-22 12:40:48 -05:00
+  who_id: 96230
+state_index_08303: 
+  created_at: 2011-02-22 12:41:36 -05:00
+  current: PUSH_READY
+  errata_id: 10610
+  id: 8303
+  previous: REL_PREP
+  updated_at: 2011-02-22 12:41:36 -05:00
+  who_id: 184429
+state_index_08304: 
+  created_at: 2011-02-22 12:41:56 -05:00
+  current: QE
+  errata_id: 10718
+  id: 8304
+  previous: NEW_FILES
+  updated_at: 2011-02-22 12:41:56 -05:00
+  who_id: 96230
+state_index_08305: 
+  created_at: 2011-02-22 12:46:00 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 10610
+  id: 8305
+  previous: PUSH_READY
+  updated_at: 2011-02-22 12:46:00 -05:00
+  who_id: 184429
+state_index_08309: 
+  created_at: 2011-02-22 14:35:45 -05:00
+  current: NEW_FILES
+  errata_id: 10844
+  id: 8309
+  previous: ""
+  updated_at: 2011-02-22 14:35:45 -05:00
+  who_id: 215107
+state_index_08333: 
+  created_at: 2011-02-23 03:35:27 -05:00
+  current: QE
+  errata_id: 10844
+  id: 8333
+  previous: NEW_FILES
+  updated_at: 2011-02-23 03:35:27 -05:00
+  who_id: 3000496
+state_index_08334: 
+  created_at: 2011-02-23 03:35:54 -05:00
+  current: REL_PREP
+  errata_id: 10827
+  id: 8334
+  previous: QE
+  updated_at: 2011-02-23 03:35:54 -05:00
+  who_id: 3000072
+state_index_08343: 
+  created_at: 2011-02-23 06:00:42 -05:00
+  current: PUSH_READY
+  errata_id: 10827
+  id: 8343
+  previous: REL_PREP
+  updated_at: 2011-02-23 06:00:42 -05:00
+  who_id: 3000097
+state_index_08345: 
+  created_at: 2011-02-23 06:29:05 -05:00
+  current: NEW_FILES
+  errata_id: 10849
+  id: 8345
+  previous: ""
+  updated_at: 2011-02-23 06:29:05 -05:00
+  who_id: 215107
+state_index_08372: 
+  created_at: 2011-02-23 12:58:50 -05:00
+  current: REL_PREP
+  errata_id: 10844
+  id: 8372
+  previous: QE
+  updated_at: 2011-02-23 12:58:50 -05:00
+  who_id: 173714
+state_index_08373: 
+  created_at: 2011-02-23 13:00:38 -05:00
+  current: PUSH_READY
+  errata_id: 10844
+  id: 8373
+  previous: REL_PREP
+  updated_at: 2011-02-23 13:00:38 -05:00
+  who_id: 3000097
+state_index_08374: 
+  created_at: 2011-02-23 13:41:00 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 10844
+  id: 8374
+  previous: PUSH_READY
+  updated_at: 2011-02-23 13:41:00 -05:00
+  who_id: 184429
+state_index_08376: 
+  created_at: 2011-02-23 14:01:26 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 10827
+  id: 8376
+  previous: PUSH_READY
+  updated_at: 2011-02-23 14:01:26 -05:00
+  who_id: 184429
+state_index_08477: 
+  created_at: 2011-02-25 07:33:18 -05:00
+  current: QE
+  errata_id: 10839
+  id: 8477
+  previous: NEW_FILES
+  updated_at: 2011-02-25 07:33:18 -05:00
+  who_id: 3000076
+state_index_08478: 
+  created_at: 2011-02-25 07:55:37 -05:00
+  current: NEW_FILES
+  errata_id: 10858
+  id: 8478
+  previous: ""
+  updated_at: 2011-02-25 07:55:37 -05:00
+  who_id: 10886
+state_index_08479: 
+  created_at: 2011-02-25 08:00:38 -05:00
+  current: QE
+  errata_id: 10858
+  id: 8479
+  previous: NEW_FILES
+  updated_at: 2011-02-25 08:00:38 -05:00
+  who_id: 10886
+state_index_08790: 
+  created_at: 2011-03-04 04:17:20 -05:00
+  current: NEW_FILES
+  errata_id: 10839
+  id: 8790
+  previous: QE
+  updated_at: 2011-03-04 04:17:20 -05:00
+  who_id: 276370
+state_index_08818: 
+  created_at: 2011-03-04 17:34:20 -05:00
+  current: NEW_FILES
+  errata_id: 10893
+  id: 8818
+  previous: ""
+  updated_at: 2011-03-04 17:34:20 -05:00
+  who_id: 211874
+state_index_08822: 
+  created_at: 2011-03-05 09:50:21 -05:00
+  current: QE
+  errata_id: 10839
+  id: 8822
+  previous: NEW_FILES
+  updated_at: 2011-03-05 09:50:21 -05:00
+  who_id: 3000076
+state_index_08931: 
+  created_at: 2011-03-08 19:43:56 -05:00
+  current: NEW_FILES
+  errata_id: 10839
+  id: 8931
+  previous: QE
+  updated_at: 2011-03-08 19:43:56 -05:00
+  who_id: 276370
+state_index_08942: 
+  created_at: 2011-03-09 03:19:21 -05:00
+  current: QE
+  errata_id: 10839
+  id: 8942
+  previous: NEW_FILES
+  updated_at: 2011-03-09 03:19:21 -05:00
+  who_id: 3000076
+state_index_08962: 
+  created_at: 2011-03-09 10:53:11 -05:00
+  current: REL_PREP
+  errata_id: 10849
+  id: 8962
+  previous: NEW_FILES
+  updated_at: 2011-03-09 10:53:11 -05:00
+  who_id: 275188
+state_index_08964: 
+  created_at: 2011-03-09 11:00:36 -05:00
+  current: PUSH_READY
+  errata_id: 10849
+  id: 8964
+  previous: REL_PREP
+  updated_at: 2011-03-09 11:00:36 -05:00
+  who_id: 3000097
+state_index_08972: 
+  created_at: 2011-03-09 13:46:18 -05:00
+  current: SHIPPED_LIVE
+  errata_id: 10849
+  id: 8972
+  previous: PUSH_READY
+  updated_at: 2011-03-09 13:46:18 -05:00
+  who_id: 275188
+state_index_09025: 
+  created_at: 2011-03-10 04:52:08 -05:00
+  current: REL_PREP
+  errata_id: 10836
+  id: 9025
+  previous: QE
+  updated_at: 2011-03-10 04:52:08 -05:00
+  who_id: 3000490
+state_index_09103: 
+  created_at: 2011-03-11 01:00:37 -05:00
+  current: PUSH_READY
+  errata_id: 10836
+  id: 9103
+  previous: REL_PREP
+  updated_at: 2011-03-11 01:00:37 -05:00
+  who_id: 3000097
+state_index_09175: 
+  created_at: 2011-03-14 16:47:00 -04:00
+  current: QE
+  errata_id: 10893
+  id: 9175
+  previous: NEW_FILES
+  updated_at: 2011-03-14 16:47:00 -04:00
+  who_id: 211874
+state_index_09215: 
+  created_at: 2011-03-15 10:13:35 -04:00
+  current: NEW_FILES
+  errata_id: 10893
+  id: 9215
+  previous: QE
+  updated_at: 2011-03-15 10:13:35 -04:00
+  who_id: 271623
+state_index_09223: 
+  created_at: 2011-03-15 12:53:12 -04:00
+  current: QE
+  errata_id: 10893
+  id: 9223
+  previous: NEW_FILES
+  updated_at: 2011-03-15 12:53:12 -04:00
+  who_id: 211874
+state_index_09239: 
+  created_at: 2011-03-16 03:58:02 -04:00
+  current: NEW_FILES
+  errata_id: 10893
+  id: 9239
+  previous: QE
+  updated_at: 2011-03-16 03:58:02 -04:00
+  who_id: 271623
+state_index_09328: 
+  created_at: 2011-03-17 18:35:02 -04:00
+  current: NEW_FILES
+  errata_id: 10949
+  id: 9328
+  previous: ""
+  updated_at: 2011-03-17 18:35:02 -04:00
+  who_id: 206427
+state_index_09330: 
+  created_at: 2011-03-17 18:36:11 -04:00
+  current: DROPPED_NO_SHIP
+  errata_id: 10949
+  id: 9330
+  previous: NEW_FILES
+  updated_at: 2011-03-17 18:36:11 -04:00
+  who_id: 206427
+state_index_09494: 
+  created_at: 2011-03-22 13:15:32 -04:00
+  current: NEW_FILES
+  errata_id: 10975
+  id: 9494
+  previous: ""
+  updated_at: 2011-03-22 13:15:32 -04:00
+  who_id: 275188
+state_index_09532: 
+  created_at: 2011-03-23 02:27:02 -04:00
+  current: REL_PREP
+  errata_id: 10842
+  id: 9532
+  previous: QE
+  updated_at: 2011-03-23 02:27:02 -04:00
+  who_id: 168539
+state_index_09740: 
+  created_at: 2011-03-28 11:05:39 -04:00
+  current: REL_PREP
+  errata_id: 10718
+  id: 9740
+  previous: QE
+  updated_at: 2011-03-28 11:05:39 -04:00
+  who_id: 173714
+state_index_09889: 
+  created_at: 2011-03-30 04:39:21 -04:00
+  current: NEW_FILES
+  errata_id: 10858
+  id: 9889
+  previous: QE
+  updated_at: 2011-03-30 04:39:21 -04:00
+  who_id: 266715
+state_index_09908: 
+  created_at: 2011-03-30 09:22:11 -04:00
+  current: NEW_FILES
+  errata_id: 11020
+  id: 9908
+  previous: ""
+  updated_at: 2011-03-30 09:22:11 -04:00
+  who_id: 246911
+state_index_09946: 
+  created_at: 2011-03-30 14:23:16 -04:00
+  current: QE
+  errata_id: 11020
+  id: 9946
+  previous: NEW_FILES
+  updated_at: 2011-03-30 14:23:16 -04:00
+  who_id: 81410
+state_index_09947: 
+  created_at: 2011-03-30 14:24:22 -04:00
+  current: NEW_FILES
+  errata_id: 11020
+  id: 9947
+  previous: QE
+  updated_at: 2011-03-30 14:24:22 -04:00
+  who_id: 193262
+state_index_09951: 
+  created_at: 2011-03-30 15:24:32 -04:00
+  current: DROPPED_NO_SHIP
+  errata_id: 11020
+  id: 9951
+  previous: NEW_FILES
+  updated_at: 2011-03-30 15:24:32 -04:00
+  who_id: 98694
+state_index_09952: 
+  created_at: 2011-03-30 15:25:58 -04:00
+  current: DROPPED_NO_SHIP
+  errata_id: 11020
+  id: 9952
+  previous: DROPPED_NO_SHIP
+  updated_at: 2011-03-30 15:25:58 -04:00
+  who_id: 81410
+state_index_09957: 
+  created_at: 2011-03-30 17:00:03 -04:00
+  current: DROPPED_NO_SHIP
+  errata_id: 10975
+  id: 9957
+  previous: NEW_FILES
+  updated_at: 2011-03-30 17:00:03 -04:00
+  who_id: 275188
+state_index_09979: 
+  created_at: 2011-03-31 06:08:02 -04:00
+  current: NEW_FILES
+  errata_id: 11031
+  id: 9979
+  previous: ""
+  updated_at: 2011-03-31 06:08:02 -04:00
+  who_id: 168000
+state_index_09984: 
+  created_at: 2011-03-31 07:18:58 -04:00
+  current: QE
+  errata_id: 11031
+  id: 9984
+  previous: NEW_FILES
+  updated_at: 2011-03-31 07:18:58 -04:00
+  who_id: 168000
+state_index_09997: 
+  created_at: 2011-03-31 10:15:25 -04:00
+  current: NEW_FILES
+  errata_id: 11036
+  id: 9997
+  previous: ""
+  updated_at: 2011-03-31 10:15:25 -04:00
+  who_id: 211668
+state_index_10002: 
+  created_at: 2011-03-31 10:55:58 -04:00
+  current: QE
+  errata_id: 11036
+  id: 10002
+  previous: NEW_FILES
+  updated_at: 2011-03-31 10:55:58 -04:00
+  who_id: 211668
+state_index_10029: 
+  created_at: 2011-04-01 04:59:13 -04:00
+  current: NEW_FILES
+  errata_id: 10839
+  id: 10029
+  previous: QE
+  updated_at: 2011-04-01 04:59:13 -04:00
+  who_id: 276370
+state_index_10058: 
+  created_at: 2011-04-01 12:32:39 -04:00
+  current: QE
+  errata_id: 10839
+  id: 10058
+  previous: NEW_FILES
+  updated_at: 2011-04-01 12:32:39 -04:00
+  who_id: 3000076
+state_index_10166: 
+  created_at: 2011-04-05 11:59:40 -04:00
+  current: NEW_FILES
+  errata_id: 11056
+  id: 10166
+  previous: ""
+  updated_at: 2011-04-05 11:59:40 -04:00
+  who_id: 184429
+state_index_10210: 
+  created_at: 2011-04-06 02:31:27 -04:00
+  current: NEW_FILES
+  errata_id: 11065
+  id: 10210
+  previous: ""
+  updated_at: 2011-04-06 02:31:27 -04:00
+  who_id: 3000183
+state_index_10233: 
+  created_at: 2011-04-06 04:58:32 -04:00
+  current: NEW_FILES
+  errata_id: 11036
+  id: 10233
+  previous: QE
+  updated_at: 2011-04-06 04:58:32 -04:00
+  who_id: 211668
+state_index_10411: 
+  created_at: 2011-04-08 06:17:24 -04:00
+  current: NEW_FILES
+  errata_id: 11095
+  id: 10411
+  previous: ""
+  updated_at: 2011-04-08 06:17:24 -04:00
+  who_id: 190465
+state_index_10416: 
+  created_at: 2011-04-08 08:30:23 -04:00
+  current: QE
+  errata_id: 11095
+  id: 10416
+  previous: NEW_FILES
+  updated_at: 2011-04-08 08:30:23 -04:00
+  who_id: 190465
+state_index_10417: 
+  created_at: 2011-04-08 08:32:16 -04:00
+  current: NEW_FILES
+  errata_id: 11096
+  id: 10417
+  previous: ""
+  updated_at: 2011-04-08 08:32:16 -04:00
+  who_id: 165199
+state_index_10488: 
+  created_at: 2011-04-11 03:56:16 -04:00
+  current: REL_PREP
+  errata_id: 11031
+  id: 10488
+  previous: QE
+  updated_at: 2011-04-11 03:56:16 -04:00
+  who_id: 3000577
+state_index_10511: 
+  created_at: 2011-04-11 09:36:31 -04:00
+  current: NEW_FILES
+  errata_id: 11105
+  id: 10511
+  previous: ""
+  updated_at: 2011-04-11 09:36:31 -04:00
+  who_id: 3000530
+state_index_10530: 
+  created_at: 2011-04-11 13:33:53 -04:00
+  current: QE
+  errata_id: 11105
+  id: 10530
+  previous: NEW_FILES
+  updated_at: 2011-04-11 13:33:53 -04:00
+  who_id: 3000530
+state_index_10531: 
+  created_at: 2011-04-11 13:45:17 -04:00
+  current: NEW_FILES
+  errata_id: 11110
+  id: 10531
+  previous: ""
+  updated_at: 2011-04-11 13:45:17 -04:00
+  who_id: 215107
+state_index_10536: 
+  created_at: 2011-04-11 14:34:07 -04:00
+  current: QE
+  errata_id: 11110
+  id: 10536
+  previous: NEW_FILES
+  updated_at: 2011-04-11 14:34:07 -04:00
+  who_id: 264390
+state_index_10546: 
+  created_at: 2011-04-11 16:21:54 -04:00
+  current: NEW_FILES
+  errata_id: 11112
+  id: 10546
+  previous: ""
+  updated_at: 2011-04-11 16:21:54 -04:00
+  who_id: 162860
+state_index_10589: 
+  created_at: 2011-04-12 09:11:03 -04:00
+  current: QE
+  errata_id: 11112
+  id: 10589
+  previous: NEW_FILES
+  updated_at: 2011-04-12 09:11:03 -04:00
+  who_id: 162860
+state_index_10591: 
+  created_at: 2011-04-12 09:17:11 -04:00
+  current: NEW_FILES
+  errata_id: 11105
+  id: 10591
+  previous: QE
+  updated_at: 2011-04-12 09:17:11 -04:00
+  who_id: 3000530
+state_index_10594: 
+  created_at: 2011-04-12 09:37:21 -04:00
+  current: QE
+  errata_id: 11105
+  id: 10594
+  previous: NEW_FILES
+  updated_at: 2011-04-12 09:37:21 -04:00
+  who_id: 3000530
+state_index_10616: 
+  created_at: 2011-04-12 12:44:07 -04:00
+  current: QE
+  errata_id: 11096
+  id: 10616
+  previous: NEW_FILES
+  updated_at: 2011-04-12 12:44:07 -04:00
+  who_id: 165199
+state_index_10626: 
+  created_at: 2011-04-12 13:45:37 -04:00
+  current: NEW_FILES
+  errata_id: 11118
+  id: 10626
+  previous: ""
+  updated_at: 2011-04-12 13:45:37 -04:00
+  who_id: 73713
+state_index_10628: 
+  created_at: 2011-04-12 13:47:53 -04:00
+  current: QE
+  errata_id: 11118
+  id: 10628
+  previous: NEW_FILES
+  updated_at: 2011-04-12 13:47:53 -04:00
+  who_id: 73713
+state_index_10632: 
+  created_at: 2011-04-12 14:07:47 -04:00
+  current: NEW_FILES
+  errata_id: 11119
+  id: 10632
+  previous: ""
+  updated_at: 2011-04-12 14:07:47 -04:00
+  who_id: 3000386
+state_index_10673: 
+  created_at: 2011-04-13 06:27:06 -04:00
+  current: NEW_FILES
+  errata_id: 11123
+  id: 10673
+  previous: ""
+  updated_at: 2011-04-13 06:27:06 -04:00
+  who_id: 262302
+state_index_10674: 
+  created_at: 2011-04-13 06:38:22 -04:00
+  current: QE
+  errata_id: 11123
+  id: 10674
+  previous: NEW_FILES
+  updated_at: 2011-04-13 06:38:22 -04:00
+  who_id: 262302
+state_index_10716: 
+  created_at: 2011-04-13 16:04:18 -04:00
+  current: PUSH_READY
+  errata_id: 11031
+  id: 10716
+  previous: REL_PREP
+  updated_at: 2011-04-13 16:04:18 -04:00
+  who_id: 173714
+state_index_10721: 
+  created_at: 2011-04-13 16:13:41 -04:00
+  current: SHIPPED_LIVE
+  errata_id: 11031
+  id: 10721
+  previous: PUSH_READY
+  updated_at: 2011-04-13 16:13:41 -04:00
+  who_id: 206014
+state_index_10729: 
+  created_at: 2011-04-13 17:13:39 -04:00
+  current: NEW_FILES
+  errata_id: 11129
+  id: 10729
+  previous: ""
+  updated_at: 2011-04-13 17:13:39 -04:00
+  who_id: 275188
+state_index_10731: 
+  created_at: 2011-04-13 19:17:10 -04:00
+  current: QE
+  errata_id: 11129
+  id: 10731
+  previous: NEW_FILES
+  updated_at: 2011-04-13 19:17:10 -04:00
+  who_id: 11001
+state_index_10736: 
+  created_at: 2011-04-14 00:33:14 -04:00
+  current: NEW_FILES
+  errata_id: 11131
+  id: 10736
+  previous: ""
+  updated_at: 2011-04-14 00:33:14 -04:00
+  who_id: 3000183
+state_index_10741: 
+  created_at: 2011-04-14 04:27:42 -04:00
+  current: REL_PREP
+  errata_id: 11110
+  id: 10741
+  previous: QE
+  updated_at: 2011-04-14 04:27:42 -04:00
+  who_id: 270746
+state_index_10746: 
+  created_at: 2011-04-14 06:09:03 -04:00
+  current: NEW_FILES
+  errata_id: 11133
+  id: 10746
+  previous: ""
+  updated_at: 2011-04-14 06:09:03 -04:00
+  who_id: 215107
+state_index_10754: 
+  created_at: 2011-04-14 09:03:47 -04:00
+  current: NEW_FILES
+  errata_id: 11123
+  id: 10754
+  previous: QE
+  updated_at: 2011-04-14 09:03:47 -04:00
+  who_id: 267999
+state_index_10756: 
+  created_at: 2011-04-14 09:41:42 -04:00
+  current: QE
+  errata_id: 11123
+  id: 10756
+  previous: NEW_FILES
+  updated_at: 2011-04-14 09:41:42 -04:00
+  who_id: 262302
+state_index_10772: 
+  created_at: 2011-04-14 13:31:03 -04:00
+  current: REL_PREP
+  errata_id: 11129
+  id: 10772
+  previous: QE
+  updated_at: 2011-04-14 13:31:03 -04:00
+  who_id: 242721
+state_index_10773: 
+  created_at: 2011-04-14 13:58:56 -04:00
+  current: PUSH_READY
+  errata_id: 11129
+  id: 10773
+  previous: REL_PREP
+  updated_at: 2011-04-14 13:58:56 -04:00
+  who_id: 275188
+state_index_10774: 
+  created_at: 2011-04-14 14:16:24 -04:00
+  current: SHIPPED_LIVE
+  errata_id: 11129
+  id: 10774
+  previous: PUSH_READY
+  updated_at: 2011-04-14 14:16:24 -04:00
+  who_id: 275188
+state_index_10786: 
+  created_at: 2011-04-15 03:05:06 -04:00
+  current: REL_PREP
+  errata_id: 11118
+  id: 10786
+  previous: QE
+  updated_at: 2011-04-15 03:05:06 -04:00
+  who_id: 173714
+state_index_10787: 
+  created_at: 2011-04-15 03:41:59 -04:00
+  current: NEW_FILES
+  errata_id: 10839
+  id: 10787
+  previous: QE
+  updated_at: 2011-04-15 03:41:59 -04:00
+  who_id: 276370
+state_index_10799: 
+  created_at: 2011-04-15 07:27:06 -04:00
+  current: NEW_FILES
+  errata_id: 11138
+  id: 10799
+  previous: ""
+  updated_at: 2011-04-15 07:27:06 -04:00
+  who_id: 215107
+state_index_10822: 
+  created_at: 2011-04-15 13:37:18 -04:00
+  current: NEW_FILES
+  errata_id: 11142
+  id: 10822
+  previous: ""
+  updated_at: 2011-04-15 13:37:18 -04:00
+  who_id: 163483
+state_index_10826: 
+  created_at: 2011-04-15 18:39:33 -04:00
+  current: QE
+  errata_id: 11065
+  id: 10826
+  previous: NEW_FILES
+  updated_at: 2011-04-15 18:39:33 -04:00
+  who_id: 160546
+state_index_10830: 
+  created_at: 2011-04-18 00:01:01 -04:00
+  current: PUSH_READY
+  errata_id: 11110
+  id: 10830
+  previous: REL_PREP
+  updated_at: 2011-04-18 00:01:01 -04:00
+  who_id: 3000097
+state_index_10836: 
+  created_at: 2011-04-18 03:29:27 -04:00
+  current: QE
+  errata_id: 11131
+  id: 10836
+  previous: NEW_FILES
+  updated_at: 2011-04-18 03:29:27 -04:00
+  who_id: 168845
+state_index_10841: 
+  created_at: 2011-04-18 07:09:17 -04:00
+  current: QE
+  errata_id: 11133
+  id: 10841
+  previous: NEW_FILES
+  updated_at: 2011-04-18 07:09:17 -04:00
+  who_id: 264390
+state_index_10845: 
+  created_at: 2011-04-18 09:20:30 -04:00
+  current: REL_PREP
+  errata_id: 11133
+  id: 10845
+  previous: QE
+  updated_at: 2011-04-18 09:20:30 -04:00
+  who_id: 270746
+state_index_10847: 
+  created_at: 2011-04-18 09:26:45 -04:00
+  current: REL_PREP
+  errata_id: 11096
+  id: 10847
+  previous: QE
+  updated_at: 2011-04-18 09:26:45 -04:00
+  who_id: 3000095
+state_index_10856: 
+  created_at: 2011-04-18 10:53:59 -04:00
+  current: REL_PREP
+  errata_id: 11131
+  id: 10856
+  previous: QE
+  updated_at: 2011-04-18 10:53:59 -04:00
+  who_id: 267999
+state_index_10863: 
+  created_at: 2011-04-18 11:02:31 -04:00
+  current: PUSH_READY
+  errata_id: 11131
+  id: 10863
+  previous: REL_PREP
+  updated_at: 2011-04-18 11:02:31 -04:00
+  who_id: 3000097
+state_index_10864: 
+  created_at: 2011-04-18 11:13:16 -04:00
+  current: QE
+  errata_id: 11138
+  id: 10864
+  previous: NEW_FILES
+  updated_at: 2011-04-18 11:13:16 -04:00
+  who_id: 184429
+state_index_10867: 
+  created_at: 2011-04-18 11:38:52 -04:00
+  current: SHIPPED_LIVE
+  errata_id: 11131
+  id: 10867
+  previous: PUSH_READY
+  updated_at: 2011-04-18 11:38:52 -04:00
+  who_id: 184429
+state_index_10878: 
+  created_at: 2011-04-18 13:32:48 -04:00
+  current: NEW_FILES
+  errata_id: 11145
+  id: 10878
+  previous: ""
+  updated_at: 2011-04-18 13:32:48 -04:00
+  who_id: 275188
+state_index_10897: 
+  created_at: 2011-04-19 03:29:27 -04:00
+  current: REL_PREP
+  errata_id: 11138
+  id: 10897
+  previous: QE
+  updated_at: 2011-04-19 03:29:27 -04:00
+  who_id: 211363
+state_index_10926: 
+  created_at: 2011-04-19 09:42:16 -04:00
+  current: NEW_FILES
+  errata_id: 11149
+  id: 10926
+  previous: ""
+  updated_at: 2011-04-19 09:42:16 -04:00
+  who_id: 215839
+state_index_10936: 
+  created_at: 2011-04-19 10:33:52 -04:00
+  current: QE
+  errata_id: 11142
+  id: 10936
+  previous: NEW_FILES
+  updated_at: 2011-04-19 10:33:52 -04:00
+  who_id: 12909
+state_index_10937: 
+  created_at: 2011-04-19 10:36:07 -04:00
+  current: NEW_FILES
+  errata_id: 11142
+  id: 10937
+  previous: QE
+  updated_at: 2011-04-19 10:36:07 -04:00
+  who_id: 12909
+state_index_10944: 
+  created_at: 2011-04-19 11:37:55 -04:00
+  current: QE
+  errata_id: 11145
+  id: 10944
+  previous: NEW_FILES
+  updated_at: 2011-04-19 11:37:55 -04:00
+  who_id: 12909
+state_index_10947: 
+  created_at: 2011-04-19 12:18:32 -04:00
+  current: NEW_FILES
+  errata_id: 11152
+  id: 10947
+  previous: ""
+  updated_at: 2011-04-19 12:18:32 -04:00
+  who_id: 8448
+state_index_10948: 
+  created_at: 2011-04-19 12:33:02 -04:00
+  current: QE
+  errata_id: 11152
+  id: 10948
+  previous: NEW_FILES
+  updated_at: 2011-04-19 12:33:02 -04:00
+  who_id: 8448
+state_index_27678: 
+  previous: QE
+  created_at: 2012-04-26 14:18:00 Z
+  who_id: 215194
+  errata_id: 13147
+  current: REL_PREP
+  updated_at: 2012-04-26 14:18:00 Z
+  id: 27678
+state_index_30159: 
+  previous: PUSH_READY
+  created_at: 2012-06-19 15:28:10 Z
+  who_id: 96230
+  errata_id: 13147
+  current: SHIPPED_LIVE
+  updated_at: 2012-06-19 15:28:10 Z
+  id: 30159
+state_index_27770: 
+  previous: REL_PREP
+  created_at: 2012-04-27 19:10:32 Z
+  who_id: 215194
+  errata_id: 13147
+  current: QE
+  updated_at: 2012-04-27 19:10:32 Z
+  id: 27770
+state_index_30124: 
+  previous: REL_PREP
+  created_at: 2012-06-19 14:02:36 Z
+  who_id: 3000097
+  errata_id: 13147
+  current: PUSH_READY
+  updated_at: 2012-06-19 14:02:36 Z
+  id: 30124
+state_index_29221: 
+  previous: QE
+  created_at: 2012-05-29 06:56:13 Z
+  who_id: 215194
+  errata_id: 13147
+  current: REL_PREP
+  updated_at: 2012-05-29 06:56:13 Z
+  id: 29221
+state_index_27430: 
+  previous: ""
+  created_at: 2012-04-23 12:22:09 Z
+  who_id: 209812
+  errata_id: 13147
+  current: NEW_FILES
+  updated_at: 2012-04-23 12:22:09 Z
+  id: 27430
+state_index_27435: 
+  previous: NEW_FILES
+  created_at: 2012-04-23 13:14:38 Z
+  who_id: 209812
+  errata_id: 13147
+  current: QE
+  updated_at: 2012-04-23 13:14:38 Z
+  id: 27435
+state_index_27862: 
+  previous: QE
+  created_at: 2012-04-30 10:22:24 Z
+  who_id: 215194
+  errata_id: 13147
+  current: REL_PREP
+  updated_at: 2012-04-30 10:22:24 Z
+  id: 27862
+state_index_27865: 
+  previous: REL_PREP
+  created_at: 2012-04-30 10:41:56 Z
+  who_id: 215194
+  errata_id: 13147
+  current: QE
+  updated_at: 2012-04-30 10:41:56 Z
+  id: 27865
+state_index_54671:
+  created_at: 2014-01-22 15:22:35 Z
+  current: PUSH_READY
+  errata_id: 16374
+  id: 54671
+  previous: REL_PREP
+  updated_at: 2014-01-22 15:22:35 Z
+  who_id: 3001503
+state_index_54670:
+  updated_at: 2014-01-22 15:22:30 Z
+  created_at: 2014-01-22 15:22:30 Z
+  who_id: 3001503
+  current: REL_PREP
+  errata_id: 16374
+  previous: QE
+  id: 54670
+state_index_54662:
+  updated_at: 2014-01-22 14:50:48 Z
+  created_at: 2014-01-22 14:50:48 Z
+  who_id: 3001503
+  current: QE
+  errata_id: 16374
+  previous: NEW_FILES
+  id: 54662
+state_index_54660:
+  updated_at: 2014-01-22 14:29:39 Z
+  created_at: 2014-01-22 14:29:39 Z
+  who_id: 3001503
+  current: NEW_FILES
+  errata_id: 16374
+  previous: ""
+  id: 54660
+state_index_54661:
+  updated_at: 2014-01-22 14:29:39 Z
+  created_at: 2014-01-22 14:29:39 Z
+  who_id: 3001503
+  current: NEW_FILES
+  errata_id: 16375
+  previous: ""
+  id: 54661
+state_index_54683:
+  created_at: 2014-07-23 01:40:25 Z
+  updated_at: 2014-07-23 01:40:25 Z
+  current: NEW_FILES
+  previous: ""
+  errata_id: 16396
+  id: 54683
+  who_id: 174587
+state_index_54684:
+  who_id: 174587
+  created_at: 2014-07-23 02:52:38 Z
+  id: 54684
+  errata_id: 16397
+  current: NEW_FILES
+  previous: ""
+  updated_at: 2014-07-23 02:52:38 Z
+state_index_54713:
+  errata_id: 16409
+  created_at: 2014-09-04 01:25:05 Z
+  updated_at: 2014-09-04 01:25:05 Z
+  who_id: 96230
+  current: QE
+  previous: NEW_FILES
+  id: 54713
+state_index_54712:
+  errata_id: 16409
+  created_at: 2014-09-04 01:15:13 Z
+  updated_at: 2014-09-04 01:15:13 Z
+  who_id: 96230
+  current: NEW_FILES
+  previous: ""
+  id: 54712
+state_index_54926:
+  previous: REL_PREP
+  who_id: 3000931
+  id: 54926
+  errata_id: 16616
+  created_at: 2014-09-22 06:49:35 Z
+  current: PUSH_READY
+  updated_at: 2014-09-22 06:49:35 Z
+state_index_54925:
+  previous: QE
+  who_id: 3000931
+  id: 54925
+  errata_id: 16616
+  created_at: 2014-09-22 06:49:27 Z
+  current: REL_PREP
+  updated_at: 2014-09-22 06:49:27 Z
+state_index_54924:
+  previous: NEW_FILES
+  who_id: 3000931
+  id: 54924
+  errata_id: 16616
+  created_at: 2014-09-22 06:21:25 Z
+  current: QE
+  updated_at: 2014-09-22 06:21:25 Z
+state_index_54923:
+  previous: ""
+  who_id: 3000931
+  id: 54923
+  errata_id: 16616
+  created_at: 2014-09-22 06:21:18 Z
+  current: NEW_FILES
+  updated_at: 2014-09-22 06:21:18 Z
+state_index_55007:
+  errata_id: 16654
+  previous: ""
+  who_id: 3000931
+  id: 55007
+  created_at: 2014-09-30 06:32:50 Z
+  current: NEW_FILES
+  updated_at: 2014-09-30 06:32:50 Z
+state_index_79924:
+  previous: REL_PREP
+  created_at: 2014-10-28 07:21:32 Z
+  id: 79924
+  current: PUSH_READY
+  who_id: 3000931
+  updated_at: 2014-10-28 07:21:32 Z
+  errata_id: 19028
+state_index_79923:
+  previous: QE
+  created_at: 2014-10-28 07:21:07 Z
+  id: 79923
+  current: REL_PREP
+  who_id: 3000931
+  updated_at: 2014-10-28 07:21:07 Z
+  errata_id: 19028
+state_index_79922:
+  previous: NEW_FILES
+  created_at: 2014-10-07 13:03:51 Z
+  id: 79922
+  current: QE
+  who_id: 3000496
+  updated_at: 2014-10-07 13:03:51 Z
+  errata_id: 19028
+state_index_79737:
+  previous: ""
+  created_at: 2014-10-03 15:02:05 Z
+  id: 79737
+  current: NEW_FILES
+  who_id: 215839
+  updated_at: 2014-10-03 15:02:05 Z
+  errata_id: 19028
+state_index_79333:
+  updated_at: 2014-09-30 10:31:21 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:31:21 Z
+  errata_id: 18918
+  current: SHIPPED_LIVE
+  id: 79333
+  previous: IN_PUSH
+state_index_79330:
+  updated_at: 2014-09-30 10:26:43 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:26:43 Z
+  errata_id: 18918
+  current: IN_PUSH
+  id: 79330
+  previous: PUSH_READY
+state_index_79326:
+  updated_at: 2014-09-30 10:26:15 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:26:15 Z
+  errata_id: 18918
+  current: PUSH_READY
+  id: 79326
+  previous: REL_PREP
+state_index_79150:
+  updated_at: 2014-09-29 06:05:20 Z
+  who_id: 3000079
+  created_at: 2014-09-29 06:05:20 Z
+  errata_id: 18918
+  current: REL_PREP
+  id: 79150
+  previous: QE
+state_index_79095:
+  updated_at: 2014-09-26 17:36:10 Z
+  who_id: 3001309
+  created_at: 2014-09-26 17:36:10 Z
+  errata_id: 18918
+  current: QE
+  id: 79095
+  previous: NEW_FILES
+state_index_79087:
+  updated_at: 2014-09-26 15:05:04 Z
+  who_id: 3001309
+  created_at: 2014-09-26 15:05:04 Z
+  errata_id: 18918
+  current: NEW_FILES
+  id: 79087
+  previous: ""
+state_index_79336:
+  updated_at: 2014-09-30 10:31:34 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:31:34 Z
+  errata_id: 18905
+  current: SHIPPED_LIVE
+  id: 79336
+  previous: IN_PUSH
+state_index_79327:
+  updated_at: 2014-09-30 10:26:35 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:26:35 Z
+  errata_id: 18905
+  current: IN_PUSH
+  id: 79327
+  previous: PUSH_READY
+state_index_79323:
+  updated_at: 2014-09-30 10:24:06 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:24:06 Z
+  errata_id: 18905
+  current: PUSH_READY
+  id: 79323
+  previous: REL_PREP
+state_index_79184:
+  updated_at: 2014-09-29 12:34:37 Z
+  who_id: 3000185
+  created_at: 2014-09-29 12:34:37 Z
+  errata_id: 18905
+  current: REL_PREP
+  id: 79184
+  previous: QE
+state_index_78974:
+  updated_at: 2014-09-25 11:23:06 Z
+  who_id: 3001585
+  created_at: 2014-09-25 11:23:06 Z
+  errata_id: 18905
+  current: QE
+  id: 78974
+  previous: NEW_FILES
+state_index_78971:
+  updated_at: 2014-09-25 11:15:33 Z
+  who_id: 3001585
+  created_at: 2014-09-25 11:15:33 Z
+  errata_id: 18905
+  current: NEW_FILES
+  id: 78971
+  previous: ""
+state_index_79335:
+  updated_at: 2014-09-30 10:31:30 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:31:30 Z
+  errata_id: 18916
+  current: SHIPPED_LIVE
+  id: 79335
+  previous: IN_PUSH
+state_index_79328:
+  updated_at: 2014-09-30 10:26:37 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:26:37 Z
+  errata_id: 18916
+  current: IN_PUSH
+  id: 79328
+  previous: PUSH_READY
+state_index_79324:
+  updated_at: 2014-09-30 10:25:36 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:25:36 Z
+  errata_id: 18916
+  current: PUSH_READY
+  id: 79324
+  previous: REL_PREP
+state_index_79174:
+  updated_at: 2014-09-29 10:12:22 Z
+  who_id: 3000079
+  created_at: 2014-09-29 10:12:22 Z
+  errata_id: 18916
+  current: REL_PREP
+  id: 79174
+  previous: QE
+state_index_79097:
+  updated_at: 2014-09-26 17:36:33 Z
+  who_id: 3001309
+  created_at: 2014-09-26 17:36:33 Z
+  errata_id: 18916
+  current: QE
+  id: 79097
+  previous: NEW_FILES
+state_index_79084:
+  updated_at: 2014-09-26 14:55:33 Z
+  who_id: 3001309
+  created_at: 2014-09-26 14:55:33 Z
+  errata_id: 18916
+  current: NEW_FILES
+  id: 79084
+  previous: ""
+state_index_79334:
+  updated_at: 2014-09-30 10:31:26 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:31:26 Z
+  errata_id: 18917
+  current: SHIPPED_LIVE
+  id: 79334
+  previous: IN_PUSH
+state_index_79329:
+  updated_at: 2014-09-30 10:26:40 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:26:40 Z
+  errata_id: 18917
+  current: IN_PUSH
+  id: 79329
+  previous: PUSH_READY
+state_index_79325:
+  updated_at: 2014-09-30 10:26:10 Z
+  who_id: 3000172
+  created_at: 2014-09-30 10:26:10 Z
+  errata_id: 18917
+  current: PUSH_READY
+  id: 79325
+  previous: REL_PREP
+state_index_79167:
+  updated_at: 2014-09-29 08:14:59 Z
+  who_id: 3000079
+  created_at: 2014-09-29 08:14:59 Z
+  errata_id: 18917
+  current: REL_PREP
+  id: 79167
+  previous: QE
+state_index_79096:
+  updated_at: 2014-09-26 17:36:17 Z
+  who_id: 3001309
+  created_at: 2014-09-26 17:36:17 Z
+  errata_id: 18917
+  current: QE
+  id: 79096
+  previous: NEW_FILES
+state_index_79086:
+  updated_at: 2014-09-26 15:02:20 Z
+  who_id: 3001309
+  created_at: 2014-09-26 15:02:20 Z
+  errata_id: 18917
+  current: NEW_FILES
+  id: 79086
+  previous: ""
+state_index_55015:
+  current: SHIPPED_LIVE
+  updated_at: 2014-11-04 04:13:34 Z
+  created_at: 2014-11-04 04:13:34 Z
+  errata_id: 16657
+  previous: IN_PUSH
+  who_id: 3000931
+  id: 55015
+state_index_55014:
+  current: IN_PUSH
+  updated_at: 2014-11-04 04:13:18 Z
+  created_at: 2014-11-04 04:13:18 Z
+  errata_id: 16657
+  previous: PUSH_READY
+  who_id: 3000931
+  id: 55014
+state_index_55013:
+  current: PUSH_READY
+  updated_at: 2014-11-04 04:09:51 Z
+  created_at: 2014-11-04 04:09:51 Z
+  errata_id: 16657
+  previous: REL_PREP
+  who_id: 3000931
+  id: 55013
+state_index_55012:
+  current: REL_PREP
+  updated_at: 2014-11-04 04:09:30 Z
+  created_at: 2014-11-04 04:09:30 Z
+  errata_id: 16657
+  previous: QE
+  who_id: 3000931
+  id: 55012
+state_index_55011:
+  current: QE
+  updated_at: 2014-11-04 04:09:01 Z
+  created_at: 2014-11-04 04:09:01 Z
+  errata_id: 16657
+  previous: NEW_FILES
+  who_id: 3000931
+  id: 55011
+state_index_55010:
+  current: NEW_FILES
+  updated_at: 2014-11-04 03:58:03 Z
+  created_at: 2014-11-04 03:58:03 Z
+  errata_id: 16657
+  previous: ""
+  who_id: 3000931
+  id: 55010
+state_index_79983:
+  previous: NEW_FILES
+  current: QE
+  who_id: 3000069
+  created_at: 2014-10-08 06:25:57 Z
+  errata_id: 18894
+  id: 79983
+  updated_at: 2014-10-08 06:25:57 Z
+state_index_79213:
+  previous: QE
+  current: NEW_FILES
+  who_id: 3000069
+  created_at: 2014-09-29 15:13:18 Z
+  errata_id: 18894
+  id: 79213
+  updated_at: 2014-09-29 15:13:18 Z
+state_index_78950:
+  previous: NEW_FILES
+  current: QE
+  who_id: 3000069
+  created_at: 2014-09-25 08:49:45 Z
+  errata_id: 18894
+  id: 78950
+  updated_at: 2014-09-25 08:49:45 Z
+state_index_78924:
+  previous: ""
+  current: NEW_FILES
+  who_id: 3000644
+  created_at: 2014-09-25 02:37:47 Z
+  errata_id: 18894
+  id: 78924
+  updated_at: 2014-09-25 02:37:47 Z
+state_index_79987:
+  previous: REL_PREP
+  errata_id: 19029
+  current: PUSH_READY
+  updated_at: 2015-01-07 03:08:45 Z
+  created_at: 2015-01-07 03:08:45 Z
+  id: 79987
+  who_id: 3000931
+state_index_79986:
+  previous: QE
+  errata_id: 19029
+  current: REL_PREP
+  updated_at: 2015-01-07 03:08:38 Z
+  created_at: 2015-01-07 03:08:38 Z
+  id: 79986
+  who_id: 3000931
+state_index_79985:
+  previous: NEW_FILES
+  errata_id: 19029
+  current: QE
+  updated_at: 2015-01-07 03:05:04 Z
+  created_at: 2015-01-07 03:05:04 Z
+  id: 79985
+  who_id: 3000931
+state_index_79984:
+  previous: ""
+  errata_id: 19029
+  current: NEW_FILES
+  updated_at: 2015-01-07 02:55:57 Z
+  created_at: 2015-01-07 02:55:57 Z
+  id: 79984
+  who_id: 3000931
+state_index_79993:
+  errata_id: 19030
+  current: PUSH_READY
+  created_at: 2015-01-12 05:07:23 Z
+  id: 79993
+  previous: REL_PREP
+  updated_at: 2015-01-12 05:07:23 Z
+  who_id: 3000931
+state_index_79992:
+  errata_id: 19030
+  current: REL_PREP
+  created_at: 2015-01-12 05:06:55 Z
+  id: 79992
+  previous: PUSH_READY
+  updated_at: 2015-01-12 05:06:55 Z
+  who_id: 174587
+state_index_79988:
+  errata_id: 19030
+  current: PUSH_READY
+  created_at: 2015-01-12 03:57:34 Z
+  id: 79988
+  previous: REL_PREP
+  updated_at: 2015-01-12 03:57:34 Z
+  who_id: 3000931
+state_index_89987:
+  errata_id: 19030
+  current: REL_PREP
+  created_at: 2015-01-12 03:57:06 Z
+  id: 89987
+  previous: QE
+  updated_at: 2015-01-12 03:57:06 Z
+  who_id: 3000931
+state_index_89986:
+  errata_id: 19030
+  current: QE
+  created_at: 2015-01-12 03:54:31 Z
+  id: 89986
+  previous: NEW_FILES
+  updated_at: 2015-01-12 03:54:31 Z
+  who_id: 3000931
+state_index_89985:
+  errata_id: 19030
+  current: NEW_FILES
+  created_at: 2015-01-12 03:49:27 Z
+  id: 89985
+  previous: ""
+  updated_at: 2015-01-12 03:49:27 Z
+  who_id: 3000931
+state_index_79998:
+  errata_id: 19031
+  current: QE
+  created_at: 2015-01-12 05:16:06 Z
+  id: 79998
+  previous: NEW_FILES
+  updated_at: 2015-01-12 05:16:06 Z
+  who_id: 3000931
+state_index_79989:
+  errata_id: 19031
+  current: NEW_FILES
+  created_at: 2015-01-12 04:54:46 Z
+  id: 79989
+  previous: ""
+  updated_at: 2015-01-12 04:54:46 Z
+  who_id: 3000931
+state_index_80002:
+  errata_id: 19032
+  current: PUSH_READY
+  created_at: 2015-01-12 05:22:50 Z
+  id: 80002
+  previous: REL_PREP
+  updated_at: 2015-01-12 05:22:50 Z
+  who_id: 3000931
+state_index_80001:
+  errata_id: 19032
+  current: REL_PREP
+  created_at: 2015-01-12 05:22:42 Z
+  id: 80001
+  previous: QE
+  updated_at: 2015-01-12 05:22:42 Z
+  who_id: 3000931
+state_index_79999:
+  errata_id: 19032
+  current: QE
+  created_at: 2015-01-12 05:16:13 Z
+  id: 79999
+  previous: NEW_FILES
+  updated_at: 2015-01-12 05:16:13 Z
+  who_id: 3000931
+state_index_79990:
+  errata_id: 19032
+  current: NEW_FILES
+  created_at: 2015-01-12 05:01:05 Z
+  id: 79990
+  previous: ""
+  updated_at: 2015-01-12 05:01:05 Z
+  who_id: 3000931
+state_index_80000:
+  errata_id: 19033
+  current: QE
+  created_at: 2015-01-12 05:16:16 Z
+  id: 80000
+  previous: NEW_FILES
+  updated_at: 2015-01-12 05:16:16 Z
+  who_id: 3000931
+state_index_79991:
+  errata_id: 19033
+  current: NEW_FILES
+  created_at: 2015-01-12 05:02:32 Z
+  id: 79991
+  previous: ""
+  updated_at: 2015-01-12 05:02:32 Z
+  who_id: 3000931
+state_index_92517:
+  updated_at: 2015-01-30 00:09:01 Z
+  errata_id: 19463
+  created_at: 2015-01-30 00:09:01 Z
+  current: REL_PREP
+  who_id: 3000931
+  previous: QE
+  id: 92517
+state_index_92516:
+  updated_at: 2015-01-30 00:05:36 Z
+  errata_id: 19463
+  created_at: 2015-01-30 00:05:36 Z
+  current: QE
+  who_id: 3000931
+  previous: NEW_FILES
+  id: 92516
+state_index_92515:
+  updated_at: 2015-01-29 23:57:15 Z
+  errata_id: 19463
+  created_at: 2015-01-29 23:57:15 Z
+  current: NEW_FILES
+  who_id: 3000931
+  previous: ""
+  id: 92515
+state_index_81623:
+  errata_id: 19401
+  id: 81623
+  current: NEW_FILES
+  who_id: 3000931
+  created_at: 2015-02-11 01:46:49 Z
+  previous: ""
+  updated_at: 2015-02-11 01:46:49 Z
+state_index_82828:
+  current: NEW_FILES
+  updated_at: 2015-02-11 05:54:22 Z
+  previous: ""
+  errata_id: 19829
+  created_at: 2015-02-11 05:54:22 Z
+  who_id: 3000931
+  id: 82828
+state_index_94604:
+  current: QE
+  id: 94604
+  errata_id: 19828
+  created_at: 2015-02-18 05:58:45 Z
+  previous: NEW_FILES
+  who_id: 3000931
+  updated_at: 2015-02-18 05:58:45 Z
+state_index_94603:
+  current: NEW_FILES
+  id: 94603
+  errata_id: 19828
+  created_at: 2015-02-18 05:14:47 Z
+  previous: ""
+  who_id: 3000931
+  updated_at: 2015-02-18 05:14:47 Z
+state_index_85693:
+  current: SHIPPED_LIVE
+  who_id: 3001330
+  id: 85693
+  created_at: 2014-12-18 18:31:00 Z
+  updated_at: 2014-12-18 18:31:00 Z
+  previous: IN_PUSH
+  errata_id: 19435
+state_index_85687:
+  current: IN_PUSH
+  who_id: 3001330
+  id: 85687
+  created_at: 2014-12-18 17:39:12 Z
+  updated_at: 2014-12-18 17:39:12 Z
+  previous: PUSH_READY
+  errata_id: 19435
+state_index_85671:
+  current: PUSH_READY
+  who_id: 215839
+  id: 85671
+  created_at: 2014-12-18 15:14:33 Z
+  updated_at: 2014-12-18 15:14:33 Z
+  previous: REL_PREP
+  errata_id: 19435
+state_index_85670:
+  current: REL_PREP
+  who_id: 215839
+  id: 85670
+  created_at: 2014-12-18 15:12:04 Z
+  updated_at: 2014-12-18 15:12:04 Z
+  previous: QE
+  errata_id: 19435
+state_index_85431:
+  current: QE
+  who_id: 215839
+  id: 85431
+  created_at: 2014-12-16 11:04:11 Z
+  updated_at: 2014-12-16 11:04:11 Z
+  previous: REL_PREP
+  errata_id: 19435
+state_index_85422:
+  current: REL_PREP
+  who_id: 267999
+  id: 85422
+  created_at: 2014-12-16 09:10:59 Z
+  updated_at: 2014-12-16 09:10:59 Z
+  previous: QE
+  errata_id: 19435
+state_index_85277:
+  current: QE
+  who_id: 3000027
+  id: 85277
+  created_at: 2014-12-12 13:57:43 Z
+  updated_at: 2014-12-12 13:57:43 Z
+  previous: NEW_FILES
+  errata_id: 19435
+state_index_85268:
+  current: NEW_FILES
+  who_id: 215839
+  id: 85268
+  created_at: 2014-12-12 12:31:00 Z
+  updated_at: 2014-12-12 12:31:00 Z
+  previous: REL_PREP
+  errata_id: 19435
+state_index_85213:
+  current: REL_PREP
+  who_id: 215839
+  id: 85213
+  created_at: 2014-12-11 13:09:33 Z
+  updated_at: 2014-12-11 13:09:33 Z
+  previous: PUSH_READY
+  errata_id: 19435
+state_index_85106:
+  current: PUSH_READY
+  who_id: 3000097
+  id: 85106
+  created_at: 2014-12-10 08:00:13 Z
+  updated_at: 2014-12-10 08:00:13 Z
+  previous: REL_PREP
+  errata_id: 19435
+state_index_85103:
+  current: REL_PREP
+  who_id: 267999
+  id: 85103
+  created_at: 2014-12-10 07:49:42 Z
+  updated_at: 2014-12-10 07:49:42 Z
+  previous: QE
+  errata_id: 19435
+state_index_84828:
+  current: QE
+  who_id: 3000027
+  id: 84828
+  created_at: 2014-12-06 12:57:51 Z
+  updated_at: 2014-12-06 12:57:51 Z
+  previous: NEW_FILES
+  errata_id: 19435
+state_index_84802:
+  current: NEW_FILES
+  who_id: 3001330
+  id: 84802
+  created_at: 2014-12-05 17:00:36 Z
+  updated_at: 2014-12-05 17:00:36 Z
+  previous: ""
+  errata_id: 19435
+state_index_104687:
+  current: NEW_FILES
+  who_id: 3001330
+  id: 104687
+  created_at: 2014-12-05 17:00:36 Z
+  updated_at: 2014-12-05 17:00:36 Z
+  previous: ""
+  errata_id: 19707
+state_index_94452:
+  who_id: 270531
+  created_at: 2015-04-10 18:56:11 Z
+  updated_at: 2015-04-10 18:56:11 Z
+  previous: QE
+  errata_id: 20291
+  current: NEW_FILES
+  id: 94452
+state_index_94374:
+  who_id: 270531
+  created_at: 2015-04-09 19:27:19 Z
+  updated_at: 2015-04-09 19:27:19 Z
+  previous: NEW_FILES
+  errata_id: 20291
+  current: QE
+  id: 94374
+state_index_94372:
+  who_id: 270531
+  created_at: 2015-04-09 19:13:42 Z
+  updated_at: 2015-04-09 19:13:42 Z
+  previous: ""
+  errata_id: 20291
+  current: NEW_FILES
+  id: 94372
+state_index_104688:
+  id: 104688
+  current: NEW_FILES
+  previous: ""
+  who_id: 3000931
+  created_at: 2015-09-17 06:01:27 Z
+  errata_id: 20292
+  updated_at: 2015-09-17 06:01:27 Z
+state_index_104689:
+  id: 104689
+  current: QE
+  previous: NEW_FILES
+  who_id: 3000931
+  created_at: 2015-09-17 06:25:54 Z
+  errata_id: 20292
+  updated_at: 2015-09-17 06:25:54 Z
+state_index_107372:
+  created_at: 2015-09-22 04:55:25 Z
+  who_id: 3000931
+  errata_id: 20836
+  updated_at: 2015-09-22 04:55:25 Z
+  id: 107372
+  previous: ""
+  current: NEW_FILES
+state_index_102458:
+  previous: IN_PUSH
+  who_id: 3000172
+  updated_at: 2015-07-20 14:07:31 Z
+  errata_id: 20044
+  current: SHIPPED_LIVE
+  id: 102458
+  created_at: 2015-07-20 14:07:31 Z
+state_index_102202:
+  previous: PUSH_READY
+  who_id: 3000172
+  updated_at: 2015-07-20 13:25:19 Z
+  errata_id: 20044
+  current: IN_PUSH
+  id: 102202
+  created_at: 2015-07-20 13:25:19 Z
+state_index_101992:
+  previous: REL_PREP
+  who_id: 3000097
+  updated_at: 2015-07-20 12:10:33 Z
+  errata_id: 20044
+  current: PUSH_READY
+  id: 101992
+  created_at: 2015-07-20 12:10:33 Z
+state_index_99770:
+  previous: QE
+  who_id: 3000736
+  updated_at: 2015-06-30 12:13:23 Z
+  errata_id: 20044
+  current: REL_PREP
+  id: 99770
+  created_at: 2015-06-30 12:13:23 Z
+state_index_93961:
+  previous: NEW_FILES
+  who_id: 3000772
+  updated_at: 2015-04-02 10:23:34 Z
+  errata_id: 20044
+  current: QE
+  id: 93961
+  created_at: 2015-04-02 10:23:34 Z
+state_index_93957:
+  previous: QE
+  who_id: 3000772
+  updated_at: 2015-04-02 10:04:33 Z
+  errata_id: 20044
+  current: NEW_FILES
+  id: 93957
+  created_at: 2015-04-02 10:04:33 Z
+state_index_92074:
+  previous: NEW_FILES
+  who_id: 3000772
+  updated_at: 2015-03-05 11:30:45 Z
+  errata_id: 20044
+  current: QE
+  id: 92074
+  created_at: 2015-03-05 11:30:45 Z
+state_index_92049:
+  previous: QE
+  who_id: 3000772
+  updated_at: 2015-03-05 11:10:48 Z
+  errata_id: 20044
+  current: NEW_FILES
+  id: 92049
+  created_at: 2015-03-05 11:10:48 Z
+state_index_90427:
+  previous: NEW_FILES
+  who_id: 3000772
+  updated_at: 2015-03-04 16:37:00 Z
+  errata_id: 20044
+  current: QE
+  id: 90427
+  created_at: 2015-03-04 16:37:00 Z
+state_index_90117:
+  previous: ""
+  who_id: 3000772
+  updated_at: 2015-03-03 10:43:41 Z
+  errata_id: 20044
+  current: NEW_FILES
+  id: 90117
+  created_at: 2015-03-03 10:43:41 Z
+state_index_103116:
+  previous: IN_PUSH
+  who_id: 3000077
+  updated_at: 2015-07-27 09:29:55 Z
+  errata_id: 20466
+  current: SHIPPED_LIVE
+  id: 103116
+  created_at: 2015-07-27 09:29:55 Z
+state_index_103102:
+  previous: PUSH_READY
+  who_id: 3000077
+  updated_at: 2015-07-27 09:07:01 Z
+  errata_id: 20466
+  current: IN_PUSH
+  id: 103102
+  created_at: 2015-07-27 09:07:01 Z
+state_index_96827:
+  previous: REL_PREP
+  who_id: 3000097
+  updated_at: 2015-05-18 10:27:53 Z
+  errata_id: 20466
+  current: PUSH_READY
+  id: 96827
+  created_at: 2015-05-18 10:27:53 Z
+state_index_96420:
+  previous: QE
+  who_id: 225931
+  updated_at: 2015-05-12 13:13:01 Z
+  errata_id: 20466
+  current: REL_PREP
+  id: 96420
+  created_at: 2015-05-12 13:13:01 Z
+state_index_96092:
+  previous: NEW_FILES
+  who_id: 246681
+  updated_at: 2015-05-06 08:27:07 Z
+  errata_id: 20466
+  current: QE
+  id: 96092
+  created_at: 2015-05-06 08:27:07 Z
+state_index_96084:
+  previous: ""
+  who_id: 246681
+  updated_at: 2015-05-06 07:05:01 Z
+  errata_id: 20466
+  current: NEW_FILES
+  id: 96084
+  created_at: 2015-05-06 07:05:01 Z
+state_index_112448:
+  current: SHIPPED_LIVE
+  updated_at: 2015-11-19 06:03:00 Z
+  id: 112448
+  previous: IN_PUSH
+  created_at: 2015-11-19 06:03:00 Z
+  errata_id: 21009
+  who_id: 3000077
+state_index_112086:
+  current: IN_PUSH
+  updated_at: 2015-11-19 03:05:17 Z
+  id: 112086
+  previous: PUSH_READY
+  created_at: 2015-11-19 03:05:17 Z
+  errata_id: 21009
+  who_id: 3000077
+state_index_111617:
+  current: PUSH_READY
+  updated_at: 2015-11-19 00:26:05 Z
+  id: 111617
+  previous: REL_PREP
+  created_at: 2015-11-19 00:26:05 Z
+  errata_id: 21009
+  who_id: 3000097
+state_index_109552:
+  current: REL_PREP
+  updated_at: 2015-10-23 19:09:42 Z
+  id: 109552
+  previous: QE
+  created_at: 2015-10-23 19:09:42 Z
+  errata_id: 21009
+  who_id: 224771
+state_index_109544:
+  current: QE
+  updated_at: 2015-10-23 16:29:31 Z
+  id: 109544
+  previous: NEW_FILES
+  created_at: 2015-10-23 16:29:31 Z
+  errata_id: 21009
+  who_id: 224771
+state_index_109543:
+  current: NEW_FILES
+  updated_at: 2015-10-23 16:28:07 Z
+  id: 109543
+  previous: QE
+  created_at: 2015-10-23 16:28:07 Z
+  errata_id: 21009
+  who_id: 224771
+state_index_109189:
+  current: QE
+  updated_at: 2015-10-19 16:22:05 Z
+  id: 109189
+  previous: NEW_FILES
+  created_at: 2015-10-19 16:22:05 Z
+  errata_id: 21009
+  who_id: 224771
+state_index_99858:
+  current: NEW_FILES
+  updated_at: 2015-07-01 13:07:12 Z
+  id: 99858
+  previous: ""
+  created_at: 2015-07-01 13:07:12 Z
+  errata_id: 21009
+  who_id: 3002080
+state_index_110001:
+  created_at: 2016-03-03 01:00:00 Z
+  updated_at: 2016-03-03 01:00:00 Z
+  current: NEW_FILES
+  previous: ""
+  errata_id: 21100
+  id: 110001
+  who_id: 174587
+state_index_110002:
+  created_at: 2016-03-03 01:00:00 Z
+  updated_at: 2016-03-03 01:00:00 Z
+  current: QE
+  previous: NEW_FILES
+  errata_id: 21100
+  id: 110002
+  who_id: 174587
+state_index_110003:
+  created_at: 2016-03-03 01:00:00 Z
+  updated_at: 2016-03-03 01:00:00 Z
+  current: REL_PREP
+  previous: QE
+  errata_id: 21100
+  id: 110003
+  who_id: 174587
+state_index_110004:
+  created_at: 2016-03-03 01:00:00 Z
+  updated_at: 2016-03-03 01:00:00 Z
+  current: PUSH_READY
+  previous: REL_PREP
+  errata_id: 21100
+  id: 110004
+  who_id: 174587
+state_index_112449:
+  previous: ""
+  who_id: 3000931
+  updated_at: 2016-04-26 05:07:41 Z
+  errata_id: 21101
+  created_at: 2016-04-26 05:07:41 Z
+  id: 112449
+  current: NEW_FILES
+state_index_121580:
+  created_at: 2016-03-30 01:00:00 Z
+  updated_at: 2016-03-30 01:00:00 Z
+  current: IN_PUSH
+  previous: "PUSH_READY"
+  errata_id: 23101
+  id: 121580
+  who_id: 174587
+state_index_110050:
+  who_id: 3000077
+  updated_at: 2016-02-10 01:05:17 Z
+  errata_id: 21130
+  previous: NEW_FILE
+  current: QE
+  id: 110050
+  created_at: 2016-02-10 01:05:17 Z
+state_index_110060:
+  who_id: 3000077
+  updated_at: 2016-02-15 02:05:17 Z
+  errata_id: 21130
+  previous: QE
+  current: REL_PREP
+  id: 110060
+  created_at: 2016-02-15 02:05:17 Z
+state_index_110070:
+  who_id: 3000077
+  updated_at: 2016-03-10 03:05:17 Z
+  errata_id: 21130
+  previous: REL_PREP
+  current: PUSH_READY
+  id: 110070
+  created_at: 2016-03-10 03:05:17 Z
+state_index_126153:
+  id: 126153
+  current: SHIPPED_LIVE
+  previous: IN_PUSH
+  updated_at: 2016-05-10 18:57:40 Z
+  errata_id: 22508
+  created_at: 2016-05-10 18:57:40 Z
+  who_id: 3000172
+state_index_125801:
+  id: 125801
+  current: IN_PUSH
+  previous: PUSH_READY
+  updated_at: 2016-05-10 06:39:26 Z
+  errata_id: 22508
+  created_at: 2016-05-10 06:39:26 Z
+  who_id: 3000172
+state_index_125536:
+  id: 125536
+  current: PUSH_READY
+  previous: IN_PUSH
+  updated_at: 2016-05-10 05:56:08 Z
+  errata_id: 22508
+  created_at: 2016-05-10 05:56:08 Z
+  who_id: 3000097
+state_index_125234:
+  id: 125234
+  current: IN_PUSH
+  previous: PUSH_READY
+  updated_at: 2016-05-10 01:57:12 Z
+  errata_id: 22508
+  created_at: 2016-05-10 01:57:12 Z
+  who_id: 3000172
+state_index_124917:
+  id: 124917
+  current: PUSH_READY
+  previous: REL_PREP
+  updated_at: 2016-05-09 15:49:16 Z
+  errata_id: 22508
+  created_at: 2016-05-09 15:49:16 Z
+  who_id: 3000097
+state_index_123364:
+  id: 123364
+  current: REL_PREP
+  previous: QE
+  updated_at: 2016-04-19 09:03:10 Z
+  errata_id: 22508
+  created_at: 2016-04-19 09:03:10 Z
+  who_id: 3000594
+state_index_122460:
+  id: 122460
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-04-07 09:40:32 Z
+  errata_id: 22508
+  created_at: 2016-04-07 09:40:32 Z
+  who_id: 271514
+state_index_122391:
+  id: 122391
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-04-06 14:57:46 Z
+  errata_id: 22508
+  created_at: 2016-04-06 14:57:46 Z
+  who_id: 271514
+state_index_122056:
+  id: 122056
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-04-01 13:49:46 Z
+  errata_id: 22508
+  created_at: 2016-04-01 13:49:46 Z
+  who_id: 271514
+state_index_122051:
+  id: 122051
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-04-01 13:06:49 Z
+  errata_id: 22508
+  created_at: 2016-04-01 13:06:49 Z
+  who_id: 271514
+state_index_121631:
+  id: 121631
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-03-30 16:13:53 Z
+  errata_id: 22508
+  created_at: 2016-03-30 16:13:53 Z
+  who_id: 271514
+state_index_121601:
+  id: 121601
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-03-30 13:21:34 Z
+  errata_id: 22508
+  created_at: 2016-03-30 13:21:34 Z
+  who_id: 271514
+state_index_121141:
+  id: 121141
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-03-22 15:20:56 Z
+  errata_id: 22508
+  created_at: 2016-03-22 15:20:56 Z
+  who_id: 271514
+state_index_121110:
+  id: 121110
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-03-22 13:54:02 Z
+  errata_id: 22508
+  created_at: 2016-03-22 13:54:02 Z
+  who_id: 271514
+state_index_120981:
+  id: 120981
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-03-21 14:05:39 Z
+  errata_id: 22508
+  created_at: 2016-03-21 14:05:39 Z
+  who_id: 271514
+state_index_120980:
+  id: 120980
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-03-21 13:58:28 Z
+  errata_id: 22508
+  created_at: 2016-03-21 13:58:28 Z
+  who_id: 271514
+state_index_120837:
+  id: 120837
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-03-17 10:12:46 Z
+  errata_id: 22508
+  created_at: 2016-03-17 10:12:46 Z
+  who_id: 271514
+state_index_120758:
+  id: 120758
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-03-16 11:43:22 Z
+  errata_id: 22508
+  created_at: 2016-03-16 11:43:22 Z
+  who_id: 271514
+state_index_118742:
+  id: 118742
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-02-24 15:09:51 Z
+  errata_id: 22508
+  created_at: 2016-02-24 15:09:51 Z
+  who_id: 271514
+state_index_118737:
+  id: 118737
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-02-24 13:27:20 Z
+  errata_id: 22508
+  created_at: 2016-02-24 13:27:20 Z
+  who_id: 271514
+state_index_117610:
+  id: 117610
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-02-10 16:28:55 Z
+  errata_id: 22508
+  created_at: 2016-02-10 16:28:55 Z
+  who_id: 271514
+state_index_117574:
+  id: 117574
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-02-10 12:57:05 Z
+  errata_id: 22508
+  created_at: 2016-02-10 12:57:05 Z
+  who_id: 271514
+state_index_116530:
+  id: 116530
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-01-26 15:10:59 Z
+  errata_id: 22508
+  created_at: 2016-01-26 15:10:59 Z
+  who_id: 271514
+state_index_116525:
+  id: 116525
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-01-26 14:49:38 Z
+  errata_id: 22508
+  created_at: 2016-01-26 14:49:38 Z
+  who_id: 271514
+state_index_116240:
+  id: 116240
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-01-21 11:58:34 Z
+  errata_id: 22508
+  created_at: 2016-01-21 11:58:34 Z
+  who_id: 271514
+state_index_116239:
+  id: 116239
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-01-21 11:58:09 Z
+  errata_id: 22508
+  created_at: 2016-01-21 11:58:09 Z
+  who_id: 271514
+state_index_116233:
+  id: 116233
+  current: NEW_FILES
+  previous: QE
+  updated_at: 2016-01-21 11:35:33 Z
+  errata_id: 22508
+  created_at: 2016-01-21 11:35:33 Z
+  who_id: 271514
+state_index_116229:
+  id: 116229
+  current: QE
+  previous: NEW_FILES
+  updated_at: 2016-01-21 11:20:41 Z
+  errata_id: 22508
+  created_at: 2016-01-21 11:20:41 Z
+  who_id: 271514
+state_index_116115:
+  id: 116115
+  current: NEW_FILES
+  previous: ""
+  updated_at: 2016-01-20 15:41:48 Z
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:48 Z
+  who_id: 271514
+state_index_138724:
+  id: 138724
+  errata_id: 24604
+  current: SHIPPED_LIVE
+  previous: IN_PUSH
+  who_id: 3001495
+  created_at: 2016-09-15 11:05:13 Z
+  updated_at: 2016-09-15 11:05:13 Z
+state_index_138691:
+  id: 138691
+  errata_id: 24604
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3001495
+  created_at: 2016-09-15 08:04:03 Z
+  updated_at: 2016-09-15 08:04:03 Z
+state_index_138493:
+  id: 138493
+  errata_id: 24604
+  current: PUSH_READY
+  previous: REL_PREP
+  who_id: 3000097
+  created_at: 2016-09-14 12:55:53 Z
+  updated_at: 2016-09-14 12:55:53 Z
+state_index_138332:
+  id: 138332
+  errata_id: 24604
+  current: REL_PREP
+  previous: QE
+  who_id: 84972
+  created_at: 2016-09-13 16:42:30 Z
+  updated_at: 2016-09-13 16:42:30 Z
+state_index_138076:
+  id: 138076
+  errata_id: 24604
+  current: QE
+  previous: NEW_FILES
+  who_id: 3001107
+  created_at: 2016-09-09 19:14:37 Z
+  updated_at: 2016-09-09 19:14:37 Z
+state_index_138001:
+  id: 138001
+  errata_id: 24604
+  current: NEW_FILES
+  previous: QE
+  who_id: 3000650
+  created_at: 2016-09-09 10:56:22 Z
+  updated_at: 2016-09-09 10:56:22 Z
+state_index_136756:
+  id: 136756
+  errata_id: 24604
+  current: QE
+  previous: NEW_FILES
+  who_id: 3001107
+  created_at: 2016-08-31 20:47:08 Z
+  updated_at: 2016-08-31 20:47:08 Z
+state_index_136755:
+  id: 136755
+  errata_id: 24604
+  current: NEW_FILES
+  previous: QE
+  who_id: 3001107
+  created_at: 2016-08-31 20:44:46 Z
+  updated_at: 2016-08-31 20:44:46 Z
+state_index_136435:
+  id: 136435
+  errata_id: 24604
+  current: QE
+  previous: NEW_FILES
+  who_id: 3000650
+  created_at: 2016-08-29 11:51:24 Z
+  updated_at: 2016-08-29 11:51:24 Z
+state_index_136434:
+  id: 136434
+  errata_id: 24604
+  current: NEW_FILES
+  previous: QE
+  who_id: 3000650
+  created_at: 2016-08-29 11:48:32 Z
+  updated_at: 2016-08-29 11:48:32 Z
+state_index_136265:
+  id: 136265
+  errata_id: 24604
+  current: QE
+  previous: NEW_FILES
+  who_id: 3000650
+  created_at: 2016-08-25 14:08:34 Z
+  updated_at: 2016-08-25 14:08:34 Z
+state_index_136264:
+  id: 136264
+  errata_id: 24604
+  current: NEW_FILES
+  previous: ""
+  who_id: 3000650
+  created_at: 2016-08-25 14:04:43 Z
+  updated_at: 2016-08-25 14:04:43 Z
+state_index_138671:
+  id: 138671
+  errata_id: 24434
+  current: SHIPPED_LIVE
+  previous: IN_PUSH
+  who_id: 3002352
+  created_at: 2016-09-15 07:38:04 Z
+  updated_at: 2016-09-15 07:38:04 Z
+state_index_138617:
+  id: 138617
+  errata_id: 24434
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 20:36:30 Z
+  updated_at: 2016-09-14 20:36:30 Z
+state_index_138594:
+  id: 138594
+  errata_id: 24434
+  current: PUSH_READY
+  previous: IN_PUSH
+  who_id: 3000097
+  created_at: 2016-09-14 19:57:59 Z
+  updated_at: 2016-09-14 19:57:59 Z
+state_index_138529:
+  id: 138529
+  errata_id: 24434
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 14:34:52 Z
+  updated_at: 2016-09-14 14:34:52 Z
+state_index_138372:
+  id: 138372
+  errata_id: 24434
+  current: PUSH_READY
+  previous: REL_PREP
+  who_id: 3000097
+  created_at: 2016-09-14 00:42:03 Z
+  updated_at: 2016-09-14 00:42:03 Z
+state_index_137927:
+  id: 137927
+  errata_id: 24434
+  current: REL_PREP
+  previous: QE
+  who_id: 3000551
+  created_at: 2016-09-08 22:08:50 Z
+  updated_at: 2016-09-08 22:08:50 Z
+state_index_134568:
+  id: 134568
+  errata_id: 24434
+  current: QE
+  previous: NEW_FILES
+  who_id: 3000766
+  created_at: 2016-08-17 19:26:13 Z
+  updated_at: 2016-08-17 19:26:13 Z
+state_index_134542:
+  id: 134542
+  errata_id: 24434
+  current: NEW_FILES
+  previous: QE
+  who_id: 3000766
+  created_at: 2016-08-17 16:55:07 Z
+  updated_at: 2016-08-17 16:55:07 Z
+state_index_133949:
+  id: 133949
+  errata_id: 24434
+  current: QE
+  previous: NEW_FILES
+  who_id: 3000766
+  created_at: 2016-08-10 15:39:46 Z
+  updated_at: 2016-08-10 15:39:46 Z
+state_index_133605:
+  id: 133605
+  errata_id: 24434
+  current: NEW_FILES
+  previous: ""
+  who_id: 3000644
+  created_at: 2016-08-07 08:19:28 Z
+  updated_at: 2016-08-07 08:19:28 Z
+state_index_138673:
+  id: 138673
+  errata_id: 24467
+  current: SHIPPED_LIVE
+  previous: IN_PUSH
+  who_id: 3002352
+  created_at: 2016-09-15 07:40:35 Z
+  updated_at: 2016-09-15 07:40:35 Z
+state_index_138619:
+  id: 138619
+  errata_id: 24467
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 20:36:33 Z
+  updated_at: 2016-09-14 20:36:33 Z
+state_index_138596:
+  id: 138596
+  errata_id: 24467
+  current: PUSH_READY
+  previous: IN_PUSH
+  who_id: 3000097
+  created_at: 2016-09-14 19:58:09 Z
+  updated_at: 2016-09-14 19:58:09 Z
+state_index_138531:
+  id: 138531
+  errata_id: 24467
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 14:34:58 Z
+  updated_at: 2016-09-14 14:34:58 Z
+state_index_138375:
+  id: 138375
+  errata_id: 24467
+  current: PUSH_READY
+  previous: REL_PREP
+  who_id: 3000097
+  created_at: 2016-09-14 00:42:16 Z
+  updated_at: 2016-09-14 00:42:16 Z
+state_index_137407:
+  id: 137407
+  errata_id: 24467
+  current: REL_PREP
+  previous: QE
+  who_id: 261258
+  created_at: 2016-09-05 06:33:07 Z
+  updated_at: 2016-09-05 06:33:07 Z
+state_index_136783:
+  id: 136783
+  errata_id: 24467
+  current: QE
+  previous: NEW_FILES
+  who_id: 3001782
+  created_at: 2016-09-01 08:57:28 Z
+  updated_at: 2016-09-01 08:57:28 Z
+state_index_136780:
+  id: 136780
+  errata_id: 24467
+  current: NEW_FILES
+  previous: QE
+  who_id: 3001782
+  created_at: 2016-09-01 08:48:45 Z
+  updated_at: 2016-09-01 08:48:45 Z
+state_index_133898:
+  id: 133898
+  errata_id: 24467
+  current: QE
+  previous: NEW_FILES
+  who_id: 3001782
+  created_at: 2016-08-10 10:38:29 Z
+  updated_at: 2016-08-10 10:38:29 Z
+state_index_133889:
+  id: 133889
+  errata_id: 24467
+  current: NEW_FILES
+  previous: ""
+  who_id: 3001782
+  created_at: 2016-08-10 09:05:31 Z
+  updated_at: 2016-08-10 09:05:31 Z
+state_index_138677:
+  id: 138677
+  errata_id: 24491
+  current: SHIPPED_LIVE
+  previous: IN_PUSH
+  who_id: 3002352
+  created_at: 2016-09-15 07:46:25 Z
+  updated_at: 2016-09-15 07:46:25 Z
+state_index_138623:
+  id: 138623
+  errata_id: 24491
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 20:36:38 Z
+  updated_at: 2016-09-14 20:36:38 Z
+state_index_138601:
+  id: 138601
+  errata_id: 24491
+  current: PUSH_READY
+  previous: IN_PUSH
+  who_id: 3000097
+  created_at: 2016-09-14 19:58:27 Z
+  updated_at: 2016-09-14 19:58:27 Z
+state_index_138535:
+  id: 138535
+  errata_id: 24491
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 14:35:07 Z
+  updated_at: 2016-09-14 14:35:07 Z
+state_index_138377:
+  id: 138377
+  errata_id: 24491
+  current: PUSH_READY
+  previous: REL_PREP
+  who_id: 3000097
+  created_at: 2016-09-14 00:42:24 Z
+  updated_at: 2016-09-14 00:42:24 Z
+state_index_137404:
+  id: 137404
+  errata_id: 24491
+  current: REL_PREP
+  previous: QE
+  who_id: 3002014
+  created_at: 2016-09-05 02:31:21 Z
+  updated_at: 2016-09-05 02:31:21 Z
+state_index_134170:
+  id: 134170
+  errata_id: 24491
+  current: QE
+  previous: NEW_FILES
+  who_id: 156798
+  created_at: 2016-08-11 23:09:14 Z
+  updated_at: 2016-08-11 23:09:14 Z
+state_index_134169:
+  id: 134169
+  errata_id: 24491
+  current: NEW_FILES
+  previous: ""
+  who_id: 156798
+  created_at: 2016-08-11 22:54:33 Z
+  updated_at: 2016-08-11 22:54:33 Z
+state_index_138679:
+  id: 138679
+  errata_id: 24565
+  current: SHIPPED_LIVE
+  previous: IN_PUSH
+  who_id: 3002352
+  created_at: 2016-09-15 07:48:45 Z
+  updated_at: 2016-09-15 07:48:45 Z
+state_index_138625:
+  id: 138625
+  errata_id: 24565
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 20:36:40 Z
+  updated_at: 2016-09-14 20:36:40 Z
+state_index_138603:
+  id: 138603
+  errata_id: 24565
+  current: PUSH_READY
+  previous: IN_PUSH
+  who_id: 3000097
+  created_at: 2016-09-14 19:58:35 Z
+  updated_at: 2016-09-14 19:58:35 Z
+state_index_138537:
+  id: 138537
+  errata_id: 24565
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 14:35:11 Z
+  updated_at: 2016-09-14 14:35:11 Z
+state_index_138381:
+  id: 138381
+  errata_id: 24565
+  current: PUSH_READY
+  previous: REL_PREP
+  who_id: 3000097
+  created_at: 2016-09-14 00:42:37 Z
+  updated_at: 2016-09-14 00:42:37 Z
+state_index_137427:
+  id: 137427
+  errata_id: 24565
+  current: REL_PREP
+  previous: QE
+  who_id: 3001649
+  created_at: 2016-09-05 09:39:56 Z
+  updated_at: 2016-09-05 09:39:56 Z
+state_index_136701:
+  id: 136701
+  errata_id: 24565
+  current: QE
+  previous: NEW_FILES
+  who_id: 214794
+  created_at: 2016-08-31 16:22:58 Z
+  updated_at: 2016-08-31 16:22:58 Z
+state_index_136696:
+  id: 136696
+  errata_id: 24565
+  current: NEW_FILES
+  previous: QE
+  who_id: 214794
+  created_at: 2016-08-31 16:02:29 Z
+  updated_at: 2016-08-31 16:02:29 Z
+state_index_136689:
+  id: 136689
+  errata_id: 24565
+  current: QE
+  previous: NEW_FILES
+  who_id: 214794
+  created_at: 2016-08-31 15:26:01 Z
+  updated_at: 2016-08-31 15:26:01 Z
+state_index_136157:
+  id: 136157
+  errata_id: 24565
+  current: NEW_FILES
+  previous: QE
+  who_id: 214794
+  created_at: 2016-08-24 13:48:29 Z
+  updated_at: 2016-08-24 13:48:29 Z
+state_index_135344:
+  id: 135344
+  errata_id: 24565
+  current: QE
+  previous: NEW_FILES
+  who_id: 214794
+  created_at: 2016-08-22 17:47:42 Z
+  updated_at: 2016-08-22 17:47:42 Z
+state_index_135343:
+  id: 135343
+  errata_id: 24565
+  current: NEW_FILES
+  previous: ""
+  who_id: 214794
+  created_at: 2016-08-22 17:47:06 Z
+  updated_at: 2016-08-22 17:47:06 Z
+state_index_138683:
+  id: 138683
+  errata_id: 24626
+  current: SHIPPED_LIVE
+  previous: IN_PUSH
+  who_id: 3002352
+  created_at: 2016-09-15 07:52:41 Z
+  updated_at: 2016-09-15 07:52:41 Z
+state_index_138628:
+  id: 138628
+  errata_id: 24626
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 20:36:44 Z
+  updated_at: 2016-09-14 20:36:44 Z
+state_index_138606:
+  id: 138606
+  errata_id: 24626
+  current: PUSH_READY
+  previous: IN_PUSH
+  who_id: 3000097
+  created_at: 2016-09-14 19:58:48 Z
+  updated_at: 2016-09-14 19:58:48 Z
+state_index_138540:
+  id: 138540
+  errata_id: 24626
+  current: IN_PUSH
+  previous: PUSH_READY
+  who_id: 3002352
+  created_at: 2016-09-14 14:35:19 Z
+  updated_at: 2016-09-14 14:35:19 Z
+state_index_138480:
+  id: 138480
+  errata_id: 24626
+  current: PUSH_READY
+  previous: REL_PREP
+  who_id: 3000097
+  created_at: 2016-09-14 11:54:10 Z
+  updated_at: 2016-09-14 11:54:10 Z
+state_index_137438:
+  id: 137438
+  errata_id: 24626
+  current: REL_PREP
+  previous: QE
+  who_id: 3001284
+  created_at: 2016-09-05 10:58:36 Z
+  updated_at: 2016-09-05 10:58:36 Z
+state_index_136450:
+  id: 136450
+  errata_id: 24626
+  current: QE
+  previous: NEW_FILES
+  who_id: 3002340
+  created_at: 2016-08-29 15:36:35 Z
+  updated_at: 2016-08-29 15:36:35 Z
+state_index_136447:
+  id: 136447
+  errata_id: 24626
+  current: NEW_FILES
+  previous: ""
+  who_id: 3002340
+  created_at: 2016-08-29 15:12:10 Z
+  updated_at: 2016-08-29 15:12:10 Z
+state_index_138733:
+  id: 138733
+  errata_id: 21131
+  current: NEW_FILES
+  previous: ""
+  who_id: 3002080
+  created_at: 2016-03-10 17:22:47 Z
+  updated_at: 2016-03-10 17:22:47 Z
+state_index_138999:
+  id: 138999
+  errata_id: 21131
+  current: NEW_FILES
+  previous: ""
+  who_id: 3002080
+  created_at: 2017-03-21 06:34:19 Z
+  updated_at: 2017-03-21 06:34:19 Z
+state_index_138734:
+  id: 138734
+  errata_id: 16372
+  current: QE
+  previous: NEW_FILES
+  who_id: 3001503
+  created_at: 2014-01-22 15:12:10 Z
+  updated_at: 2014-01-22 15:12:10 Z
+state_index_138735:
+  created_at: 2017-03-22 07:21:32 -04:00
+  current: NEW_FILES
+  errata_id: 21132
+  id: 138735
+  previous: ""
+  updated_at: 2017-03-22 07:21:32 -04:00
+  who_id: 215107
+state_index_138736:
+  created_at: 2017-03-23 07:21:32 -04:00
+  current: QE
+  errata_id: 21132
+  id: 138736
+  previous: NEW_FILES
+  updated_at: 2017-03-23 07:21:32 -04:00
+  who_id: 3000532
+state_index_138737:
+  created_at: 2017-03-24 07:21:32 -04:00
+  current: REL_PREP
+  errata_id: 21132
+  id: 138737
+  previous: QE
+  updated_at: 2017-03-24 07:21:32 -04:00
+  who_id: 3000532
+state_index_138738:
+  created_at: 2017-03-25 07:21:32 -04:00
+  current: PUSH_READY
+  errata_id: 21132
+  id: 138738
+  previous: REL_PREP
+  updated_at: 2017-03-25 07:21:32 -04:00
+  who_id: 3000097
+state_index_138739:
+  created_at: 2017-03-26 07:21:32 -04:00
+  current: SHIPPED_LIVE
+  errata_id: 21132
+  id: 138739
+  previous: PUSH_READY
+  updated_at: 2017-03-26 07:21:32 -04:00
+  who_id: 184429
+state_index_138740:
+  current: QE
+  id: 138740
+  errata_id: 10000
+  created_at: 2017-03-28 05:58:45 Z
+  previous: NEW_FILES
+  who_id: 3002080
+  updated_at: 2017-03-28 05:58:45 Z
+state_index_138741:
+  current: NEW_FILES
+  id: 138741
+  errata_id: 10000
+  created_at: 2017-03-28 05:14:47 Z
+  previous: ""
+  who_id: 3002080
+  updated_at: 2017-03-28 05:14:47 Z

@@ -1,0 +1,28 @@
+---
+- name: Download tarball containing current Rails and Apache log files
+
+  hosts: et-servers
+
+  vars:
+    date_timestamp: "{{ ansible_date_time.year }}{{ ansible_date_time.month }}{{ ansible_date_time.day }}"
+    time_timestamp: "{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }}"
+
+  tasks:
+    - name: Determine suitable archive file name based on host and timestamp
+      set_fact: tarball_file=/tmp/{{ inventory_hostname }}-logs-{{ date_timestamp }}-{{ time_timestamp }}.tgz
+
+    - name: Create gzipped tar file containing all Rails and Apache log files
+      become: yes
+      # Tar file will have two top level directories, log and httpd
+      command: tar zcf {{ tarball_file }} -C {{ rails_root }} log -C /var/log httpd
+      # A exit code of 1 means files changed during the tar creation
+      # Tell ansible that's not a fail
+      register: command_result
+      failed_when: command_result.rc > 1
+
+    - name: Copy gzipped tar file to current directory on local workstation
+      fetch: src={{ tarball_file }} dest={{ lookup('env', 'PWD') }} flat=yes fail_on_missing=yes validate_checksum=no
+
+    - name: Clean up by removing the gzipped tar file on server
+      become: yes
+      file: path={{ tarball_file }} state=absent

@@ -1,0 +1,18 @@
+### Returns only the mapping with flags set.
+# HTTP 200
+[
+  {
+    "build": {
+      "id": 367585,
+      "nvr": "spice-client-msi-3.4-4"
+    },
+    "file_type": "rpm",
+    "flags": [
+      "buildroot-push"
+    ],
+    "product_version": {
+      "id": 318,
+      "name": "RHEL-6-RHEV-S-3.4"
+    }
+  }
+]

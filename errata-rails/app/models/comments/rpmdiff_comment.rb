@@ -1,0 +1,3 @@
+class RpmdiffComment < Comment
+end
+

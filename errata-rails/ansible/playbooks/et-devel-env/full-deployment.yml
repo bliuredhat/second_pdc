@@ -1,0 +1,7 @@
+- name: Full deployment
+  hosts: develop
+- include: 05-base-os.yml
+- include: 10-ensure-errata-ruby-gems.yml
+- include: 20-database.yml
+- include: 30-packaging-tools.yml
+- include: 40-documentation-tools.yml

@@ -1,0 +1,11 @@
+<div class="modal-header">
+  <h3>Container Content Text for <%= @errata.fulladvisory %> <%=raw state_display(@errata) %></h3>
+</div>
+
+<div class="modal-body">
+  <textarea readonly class="container-text"><%= render :partial => 'errata/container/container_text', :formats => [:text] %></textarea>
+</div>
+
+<div class="modal-footer">
+  <%= link_to 'Cancel', "#", :class=>'btn btn-cancel-modal' %>
+</div>

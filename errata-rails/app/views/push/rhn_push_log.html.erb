@@ -1,0 +1,22 @@
+<%= page_title_h1 %>
+
+<% row_func = lambda do |job|
+  [errata_link(job.errata) ,
+   link_to(job.id, :action => :push_results, :id => job) ,
+   "#{job.push_type.to_s}" ,
+   "#{job.pushed_by.to_s}" ,
+   "#{long_date(job.created_at)}" ,
+   "#{long_date(job.updated_at)}" ,
+   "#{job.status}"]
+end
+ %>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Advisory' ,'Job ID','Type', 'Pushed By', 'Push Started','Push Finished','Status'],
+:func => row_func,
+:row_items => @rhn_push_jobs
+}) %>
+
+<p>
+<%= will_paginate(@rhn_push_jobs) %>
+</p>

@@ -1,0 +1,166 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:red-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:unix-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux linux-definitions-schema.xsd">
+  <generator>
+    <oval:product_name>Red Hat Errata System</oval:product_name>
+    <oval:schema_version>5.10.1</oval:schema_version>
+    <oval:timestamp>2012-12-12T12:12:12</oval:timestamp>
+  </generator>
+
+  <definitions>
+    <definition class="patch" id="oval:com.redhat.rhsa:def:201111149" version="601">
+      <metadata>
+        <title>RHSA-2011:11149: JBoss Enterprise Web Server 1.0.2 update (Moderate)</title>
+    <affected family="unix">
+    </affected>
+    <reference ref_id="RHSA-2011:11149-00" ref_url="https://access.redhat.com/errata/RHSA-2011:11149" source="RHSA"></reference>
+      <reference ref_id="CVE-2008-7270" ref_url="https://access.redhat.com/security/cve/CVE-2008-7270" source="CVE"></reference>
+      <reference ref_id="CVE-2009-3245" ref_url="https://access.redhat.com/security/cve/CVE-2009-3245" source="CVE"></reference>
+      <reference ref_id="CVE-2009-3560" ref_url="https://access.redhat.com/security/cve/CVE-2009-3560" source="CVE"></reference>
+      <reference ref_id="CVE-2009-3720" ref_url="https://access.redhat.com/security/cve/CVE-2009-3720" source="CVE"></reference>
+      <reference ref_id="CVE-2009-3767" ref_url="https://access.redhat.com/security/cve/CVE-2009-3767" source="CVE"></reference>
+      <reference ref_id="CVE-2010-1157" ref_url="https://access.redhat.com/security/cve/CVE-2010-1157" source="CVE"></reference>
+      <reference ref_id="CVE-2010-1452" ref_url="https://access.redhat.com/security/cve/CVE-2010-1452" source="CVE"></reference>
+      <reference ref_id="CVE-2010-1623" ref_url="https://access.redhat.com/security/cve/CVE-2010-1623" source="CVE"></reference>
+      <reference ref_id="CVE-2010-2068" ref_url="https://access.redhat.com/security/cve/CVE-2010-2068" source="CVE"></reference>
+      <reference ref_id="CVE-2010-3718" ref_url="https://access.redhat.com/security/cve/CVE-2010-3718" source="CVE"></reference>
+      <reference ref_id="CVE-2010-4172" ref_url="https://access.redhat.com/security/cve/CVE-2010-4172" source="CVE"></reference>
+      <reference ref_id="CVE-2010-4180" ref_url="https://access.redhat.com/security/cve/CVE-2010-4180" source="CVE"></reference>
+      <reference ref_id="CVE-2011-0013" ref_url="https://access.redhat.com/security/cve/CVE-2011-0013" source="CVE"></reference>
+    <description>JBoss Enterprise Web Server (JBEWS) is a fully integrated and certified set
+of components for hosting Java web applications. It is comprised of the
+industry's leading Web Server (Apache HTTP Server), the popular Apache
+Tomcat Servlet container as well as the mod_jk connector and the Tomcat
+Native library.
+
+This 1.0.2 release of JBoss Enterprise Web Server serves as a replacement
+to JBoss Enterprise Web Server 1.0.1. These updated packages include a
+number of bug fixes. For detailed component, installation, and bug fix
+information, refer to the JBoss Enterprise Web Server 1.0.2 Release Notes,
+available shortly from the link in the References section of this erratum.
+
+This update corrects several security flaws in following components:
+
+* check final texts for CVE-2010-4172 CVE-2010-3718 CVE-2011-0013 with RHSA-2011:10893 *
+
+tomcat6:
+
+A cross-site scripting (XSS) flaw was found in the Manager application,
+used for managing web applications on Tomcat. If a remote attacker could
+trick a user who is logged into the Manager application into visiting a
+specially-crafted URL, the attacker could perform Manager application
+tasks with the privileges of the logged in user. (CVE-2010-4172)
+
+tomcat5 and tomcat6:
+
+It was found that web applications could modify the location of the Tomcat
+host's work directory. As web applications deployed on Tomcat have read and
+write access to this directory, a malicious web application could use this
+flaw to trick Tomcat into giving it read and write access to an arbitrary
+directory on the file system. (CVE-2010-3718)
+
+A second cross-site scripting (XSS) flaw was found in the Manager
+application. A malicious web application could use this flaw to conduct an
+XSS attack, leading to arbitrary web script execution with the privileges
+of victims who are logged into and viewing Manager application web pages.
+(CVE-2011-0013)
+
+A possible minor information leak was found in the way JBoss Web generated
+HTTP BASIC and DIGEST authentication requests. For configurations where a
+realm name was not specified and JBoss Web was accessed via a proxy, the
+default generated realm contained the hostname and port used by the proxy
+to send requests to the JBoss Web server. (CVE-2010-1157)
+
+httpd:
+
+A flaw was found in the way the mod_dav module of the Apache HTTP Server
+handled certain requests. If a remote attacker were to send a carefully
+crafted request to the server, it could cause the httpd child process to
+crash. (CVE-2010-1452)
+
+A flaw was discovered in the way the mod_proxy_http module of the Apache
+HTTP Server handled the timeouts of requests forwarded by a reverse proxy
+to the back-end server. In certain configuration, the proxy could return
+a response intended for another user under certain timeout conditions,
+possibly leading to information disclosure. Note: This issue only affected
+httpd running on Microsoft Windows platform. (CVE-2010-2068)
+
+apr-util:
+
+It was found that certain input could cause the apr-util library to
+allocate more memory than intended in the apr_brigade_split_line()
+function. An attacker able to provide input in small chunks to an
+application using the apr-util library (such as httpd) could possibly use
+this flaw to trigger high memory consumption. (CVE-2010-1623)
+
+Following flaws were corrected in the Solaris and Windows packages. Updates
+for Red Hat Enterprise Linux can be downloaded from the Red Hat Network.
+
+Multiple flaws were corrected in openssl possibly causing crash, code
+execution, or change of session parameters. (CVE-2009-3245, CVE-2010-4180,
+CVE-2008-7270)
+
+Two denial of service flaws were corrected in expat. (CVE-2009-3560,
+CVE-2009-3720)
+
+An X.509 certificate verification flaws was corrected in openldap.
+(CVE-2009-3767)
+
+Additional information about these flaws is available from the CVE link in
+the References section.
+
+All users of JBoss Enterprise Web Server 1.0.1 advised to upgrade to these
+updated packages, which correct these issues.</description>
+
+
+
+<advisory from="secalert@redhat.com">
+        <severity>Moderate</severity>
+        <rights>Copyright 2011 Red Hat, Inc.</rights>
+        <issued date="2011-04-19"></issued>
+        <updated date="2011-04-19"></updated>
+        <cve href="https://access.redhat.com/security/cve/CVE-2008-7270">CVE-2008-7270</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2009-3245">CVE-2009-3245</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2009-3560">CVE-2009-3560</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2009-3720">CVE-2009-3720</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2009-3767">CVE-2009-3767</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2010-1157">CVE-2010-1157</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2010-1452">CVE-2010-1452</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2010-1623">CVE-2010-1623</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2010-2068">CVE-2010-2068</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2010-3718">CVE-2010-3718</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2010-4172">CVE-2010-4172</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2010-4180">CVE-2010-4180</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2011-0013">CVE-2011-0013</cve>
+        <bugzilla href="https://bugzilla.redhat.com/530715" id="530715">CVE-2009-3767 OpenLDAP: Doesn't properly handle NULL character in subject Common Name</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/531697" id="531697">CVE-2009-3720 expat: buffer over-read and crash on XML with malformed UTF-8 sequences</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/533174" id="533174">CVE-2009-3560 expat: buffer over-read and crash in big2_toUtf8() on XML with malformed UTF-8 sequences</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/570924" id="570924">CVE-2009-3245 openssl: missing bn_wexpand return value checks</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/585331" id="585331">CVE-2010-1157 tomcat: information disclosure in authentication headers</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/618189" id="618189">CVE-2010-1452 httpd mod_cache, mod_dav: DoS (httpd child process crash) by parsing URI structure with missing path segments</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/632994" id="632994">CVE-2010-2068 httpd (mod_proxy): Sensitive response disclosure due improper handling of timeouts</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/640281" id="640281">CVE-2010-1623 apr-util: high memory consumption in apr_brigade_split_line()</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/656246" id="656246">CVE-2010-4172 tomcat: cross-site-scripting vulnerability in the manager application</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/659462" id="659462">CVE-2010-4180 openssl: NETSCAPE_REUSE_CIPHER_CHANGE_BUG ciphersuite downgrade attack</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/660650" id="660650">CVE-2008-7270 openssl: NETSCAPE_REUSE_CIPHER_CHANGE_BUG downgrade-to-disabled ciphersuite attack</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/675786" id="675786">CVE-2011-0013 tomcat: XSS vulnerability in HTML Manager interface</bugzilla>
+        <bugzilla href="https://bugzilla.redhat.com/675792" id="675792">CVE-2010-3718 tomcat: file permission bypass flaw</bugzilla>
+    <affected_cpe_list>
+    </affected_cpe_list>
+</advisory>
+      </metadata>
+      
+    </definition>
+  </definitions>
+  <tests>
+    
+    
+  </tests>
+
+  <objects>
+    
+    
+  </objects>
+  <states>
+    
+    
+  </states>
+</oval_definitions>

@@ -1,0 +1,150 @@
+{
+    "getBuild": {
+        "completion_time": "2016-02-24 20:47:42.92095",
+        "completion_ts": 1456364862.92095,
+        "creation_event_id": 12700702,
+        "creation_time": "2016-02-24 20:43:03.831313",
+        "creation_ts": 1456364583.83131,
+        "epoch": 0,
+        "extra": null,
+        "id": 483089,
+        "name": "rhel-server-docker",
+        "nvr": "rhel-server-docker-6.8-24",
+        "owner_id": 2604,
+        "owner_name": "distill/rcm-rhel6.app.eng.bos.redhat.com",
+        "package_id": 46311,
+        "package_name": "rhel-server-docker",
+        "release": "24",
+        "source": null,
+        "start_time": "2016-02-24 20:43:03.831313",
+        "start_ts": 1456364583.83131,
+        "state": 1,
+        "task_id": 10557013,
+        "version": "6.8",
+        "volume_id": 0,
+        "volume_name": "DEFAULT"
+    },
+    "listArchives": [
+        {
+            "arch": "x86_64",
+            "build_id": 483089,
+            "buildroot_id": null,
+            "checksum": "b126beeef23c851487e12f24b30cd1f8",
+            "checksum_type": 0,
+            "extra": null,
+            "filename": "tdl-x86_64.xml",
+            "id": 1323956,
+            "metadata_only": false,
+            "size": 665,
+            "type_description": "XML file",
+            "type_extensions": "xml",
+            "type_id": 5,
+            "type_name": "xml"
+        },
+        {
+            "arch": "x86_64",
+            "build_id": 483089,
+            "buildroot_id": null,
+            "checksum": "fdcc60da715ddef99d817801db4b828a",
+            "checksum_type": 0,
+            "extra": null,
+            "filename": "rhel-6.8-server-docker.ks",
+            "id": 1323957,
+            "metadata_only": false,
+            "size": 1470,
+            "type_description": "Kickstart",
+            "type_extensions": "ks",
+            "type_id": 38,
+            "type_name": "ks"
+        },
+        {
+            "arch": "x86_64",
+            "build_id": 483089,
+            "buildroot_id": null,
+            "checksum": "4d76f0d0890ca2fd7b91570805a43830",
+            "checksum_type": 0,
+            "extra": null,
+            "filename": "koji-guest-rhel-6.8-docker-build-10557016-base.ks",
+            "id": 1323958,
+            "metadata_only": false,
+            "size": 1802,
+            "type_description": "Kickstart",
+            "type_extensions": "ks",
+            "type_id": 38,
+            "type_name": "ks"
+        },
+        {
+            "arch": "x86_64",
+            "build_id": 483089,
+            "buildroot_id": null,
+            "checksum": "b690336fb553a806f9d8465d5de8ea9b",
+            "checksum_type": 0,
+            "extra": null,
+            "filename": "rhel-server-docker-6.8-24.x86_64.tar.gz",
+            "id": 1323959,
+            "metadata_only": false,
+            "size": 90035915,
+            "type_description": "Tar file",
+            "type_extensions": "tar tar.gz tar.bz2 tar.xz",
+            "type_id": 4,
+            "type_name": "tar"
+        }
+    ],
+    "getTaskInfo": {
+        "arch": "noarch",
+        "awaited": null,
+        "channel_id": 14,
+        "completion_time": "2016-02-24 20:49:24.494557",
+        "completion_ts": 1456364964.49456,
+        "create_time": "2016-02-24 20:42:45.026104",
+        "create_ts": 1456364565.0261,
+        "host_id": 114,
+        "id": 10557013,
+        "label": null,
+        "method": "image",
+        "owner": 2604,
+        "parent": null,
+        "priority": 20,
+        "start_time": "2016-02-24 20:43:01.187465",
+        "start_ts": 1456364581.18746,
+        "state": 2,
+        "waiting": false,
+        "weight": 1.0
+    },
+    "getTaskRequest": [
+        "rhel-server-docker",
+        "6.8",
+        [
+            "x86_64"
+        ],
+        "guest-rhel-6.8-docker",
+        "http://download.lab.bos.redhat.com/nightly/RHEL-6.8-20160225.n.0/compose/Server/$arch/os",
+        {
+            "disk_size": 10,
+            "distro": "RHEL-6.8",
+            "factory_parameter": [
+                [
+                    "docker_env",
+                    "[ \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\" ]"
+                ],
+                [
+                    "docker_label",
+                    "{ \"Architecture\": \"x86_64\", \"Authoritative_Registry\": \"registry.access.redhat.com\", \"BZComponent\": \"rhel-server-docker\", \"Build_Host\": \"rcm-img01.build.eng.bos.redhat.com\", \"Name\": \"redhat/rhel6\", \"Version\": \"6.8\", \"Vendor\": \"Red Hat, Inc\" }"
+                ],
+                [
+                    "docker_cmd",
+                    "[ \"/bin/bash\" ]"
+                ]
+            ],
+            "format": [
+                "docker"
+            ],
+            "kickstart": "rhel-6.8-server-docker.ks",
+            "ksurl": "git://git.app.eng.bos.redhat.com/spin-kickstarts.git?rhel6#HEAD",
+            "ksversion": "RHEL7",
+            "repo": [
+                "http://download.lab.bos.redhat.com/nightly/RHEL-6.8-20160225.n.0/compose/Server/$arch/os"
+            ]
+        }
+    ]
+}

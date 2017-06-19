@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "cdn_repo": [
+      "does not support package mappings"
+    ]
+  }
+}

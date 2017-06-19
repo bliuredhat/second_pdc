@@ -1,0 +1,180 @@
+{
+  "description": "Squashfs is a highly compressed read-only filesystem for Linux.  This \npackage contains the utilities for manipulating squashfs file systems.\n\n * A glibc update exposed a coding error in mksquashfs. This error \nresulted in dracut hanging while booting the Red Hat Enterprise \nVirtualization Hypervisor from PXE/CDROM/USB and an invalid LiveCD \nimage being produced. The lines \"memcpy(data_cache, data_cache + \nSQUASHFS_METADATA_SIZE,\" and \"memcpy(directory_data_cache, \ndirectory_data_cache +\" were changed respectively to \n\"memmove(data_cache, data_cache + SQUASHFS_METADATA_SIZE,\" and \n\"memmove(directory_data_cache, directory_data_cache +\", thus a Red Hat \nEnterprise Virtualization Hypervisor boot from PXE/CDROM/USB now \nsuccessfully completes without hanging during a boot. (BZ#676774)\n\n * An error in unsquashfs code caused it to abort with \"FATAL ERROR \naborting: failed to read fragment table\" during attempts to read a v3 \nimage. The line \"return;\"is changed to \"return TRUE;\", thus unsquashfs \nis now able to read v3 images. (BZ#655952)\n\nUsers are advised to upgrade to this updated squashfs-tools package \nwhich resolves these issues.",
+  "from": "release-engineering@redhat.com",
+  "id": "RHBA-2011:10836",
+  "issued": "2011-02-18 22:31:40 UTC",
+  "pkglist": [
+    {
+      "name": "RHBA-2011:10836",
+      "packages": [
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "squashfs-tools-4.0-5.el6.i686.rpm",
+          "name": "squashfs-tools",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:0c0fc8d4fd73e3325a97689b21e",
+            "sha256",
+            "fake:57eb99592b6e72d52bb7945fc97bec5bc0ef27cdbe5d2f902d9703c9ba9"
+          ],
+          "version": "4.0"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "squashfs-tools-4.0-5.el6.ppc64.rpm",
+          "name": "squashfs-tools",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:d7704afe36c15ebefdf9f46c6fe",
+            "sha256",
+            "fake:2de34d43600bf0ee32f3e91470f21d39f77fd42f1aedb83891b9bdf3e0e"
+          ],
+          "version": "4.0"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "squashfs-tools-4.0-5.el6.s390x.rpm",
+          "name": "squashfs-tools",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:33fffc9d123195796b559b957ff",
+            "sha256",
+            "fake:5598e3ceeffe3ba1a071afc3af92e8d456f79ab6054c3366566c294d6f1"
+          ],
+          "version": "4.0"
+        },
+        {
+          "arch": "SRPMS",
+          "epoch": 0,
+          "filename": "squashfs-tools-4.0-5.el6.src.rpm",
+          "name": "squashfs-tools",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:858546f4a318a5c07944171e2fc",
+            "sha256",
+            "fake:3ee79c6bb0a866caafa92df2c289d2999f804c56a827824ac55c9cf417f"
+          ],
+          "version": "4.0"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "squashfs-tools-4.0-5.el6.x86_64.rpm",
+          "name": "squashfs-tools",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:64a9b20af4cc65c659ddeb963e4",
+            "sha256",
+            "fake:2802ddbc5e3f3da0f6420406db7c3de3b1c00c39c23fa194cd4e7abd3fb"
+          ],
+          "version": "4.0"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "squashfs-tools-debuginfo-4.0-5.el6.i686.rpm",
+          "name": "squashfs-tools-debuginfo",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:765b54f389aa364d0da40df11af",
+            "sha256",
+            "fake:b05bbdaa3e1666defb5ba866b616c2b89ccd286a185405d9dd0c36f9f52"
+          ],
+          "version": "4.0"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "squashfs-tools-debuginfo-4.0-5.el6.ppc64.rpm",
+          "name": "squashfs-tools-debuginfo",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:8840d5675d05873c07661476c33",
+            "sha256",
+            "fake:e7d847fe506d99d053c8c83ac19614cbc133960e900f395d4097d412963"
+          ],
+          "version": "4.0"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "squashfs-tools-debuginfo-4.0-5.el6.s390x.rpm",
+          "name": "squashfs-tools-debuginfo",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:2c010794056906c20733cad7df3",
+            "sha256",
+            "fake:900412a15af6ccfe034a48f6dff1fc7055f3d7eeabf91099a961508a328"
+          ],
+          "version": "4.0"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "squashfs-tools-debuginfo-4.0-5.el6.x86_64.rpm",
+          "name": "squashfs-tools-debuginfo",
+          "release": "5.el6",
+          "src": "squashfs-tools-4.0-5.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:430870745010919fa26ab4872ea",
+            "sha256",
+            "fake:da244c0ce9ee9a78377e72767c36cb4c1ab8ace5ce880ec5fde38254dcf"
+          ],
+          "version": "4.0"
+        }
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+      "rpm"
+    ]
+  },
+  "pushcount": 7,
+  "reboot_suggested": false,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHBA-2011:10836",
+      "id": "RHBA-2011:10836",
+      "title": "RHBA-2011:10836",
+      "type": "self"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=655952",
+      "id": "655952",
+      "title": "squashfs: FATAL ERROR aborting: failed to read fragment table",
+      "type": "bugzilla"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2011 Red Hat Inc",
+  "severity": "None",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\n\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttp://kbase.redhat.com/faq/docs/DOC-11259",
+  "status": "final",
+  "summary": "An updated squashfs-tools package that fixes two bugs is now available.",
+  "title": "squashfs-tools bug fix update",
+  "type": "RHBA",
+  "updated": "2011-02-18 22:31:40 UTC",
+  "version": "7"
+}

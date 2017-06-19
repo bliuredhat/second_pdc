@@ -1,0 +1,13 @@
+<tr class="mouseover-highlight clickable_row <%= 'is_inactive' unless default_solution.canonical_is_active? %>">
+  <td>
+    <a href="<%= default_solution_path(default_solution) %>" class="clickable_row_link" style="color:inherit">
+      <span class="short_name bold big filter_on"><%= default_solution.canonical_short_name %></span>
+    </a>
+  </td>
+  <td>
+    <%= is_active_icon(default_solution.canonical_is_active?) %>
+  </td>
+  <td>
+    <div style="white-space:pre;font-size:80%;"><%= line_trunc(default_solution.text) %></div>
+  </td>
+</tr>

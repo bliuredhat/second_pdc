@@ -1,0 +1,2851 @@
+--- 
+rpmdiff_waiver_32707: 
+  description: Version information is baked in, likely caused the binary changes
+  old_result: 1
+  package_id: 1911
+  result_id: 462925
+  run_id: 40608
+  test_id: 34
+  user_id: 3000088
+  waive_date: 2009-12-14 15:14:01 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 32707
+rpmdiff_waiver_32708: 
+  description: Acceptable (though unfortunate)
+  old_result: 3
+  package_id: 1911
+  result_id: 462929
+  run_id: 40608
+  test_id: 19
+  user_id: 3000088
+  waive_date: 2009-12-14 15:14:08 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 32708
+rpmdiff_waiver_32709: 
+  description: Definitely
+  old_result: 1
+  package_id: 1911
+  result_id: 462928
+  run_id: 40608
+  test_id: 22
+  user_id: 3000088
+  waive_date: 2009-12-14 15:14:15 -05:00
+  waiver_id: 32709
+rpmdiff_waiver_33481: 
+  description: |-
+    This change is ok because...
+    
+    dirsec-nss-tools does not support simultaneous installations of both i386 and x86_64 RPMS.
+  old_result: 4
+  package_id: 1583
+  result_id: 471968
+  run_id: 40893
+  test_id: 18
+  user_id: 194784
+  waive_date: 2010-01-12 14:47:44 -05:00
+  waiver_id: 33481
+rpmdiff_waiver_33482: 
+  description: |
+    This change is ok because...
+    
+    these don't appear to cause any problems at runtime.
+    
+
+  old_result: 4
+  package_id: 1583
+  result_id: 471943
+  run_id: 40893
+  test_id: 30
+  user_id: 194784
+  waive_date: 2010-01-12 14:49:14 -05:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 33482
+rpmdiff_waiver_33483: 
+  description: |-
+    This change is ok because...
+    
+    These should not affect normal usage of the dirsec-nss package.
+  old_result: 3
+  package_id: 1583
+  result_id: 471959
+  run_id: 40893
+  test_id: 27
+  user_id: 194784
+  waive_date: 2010-01-12 15:01:19 -05:00
+  waiver_id: 33483
+rpmdiff_waiver_33493: 
+  description: |-
+    This change is ok because...
+    
+    dirsec-nss-tools does not support simultaneous installations of both i386 and x86_64 RPMS.
+  old_result: 4
+  package_id: 1583
+  result_id: 472163
+  run_id: 40899
+  test_id: 18
+  user_id: 194784
+  waive_date: 2010-01-12 17:43:10 -05:00
+  waiver_id: 33493
+rpmdiff_waiver_33494: 
+  description: |
+    This change is ok because...
+    
+    these don't appear to cause any problems at runtime.
+    
+
+  old_result: 4
+  package_id: 1583
+  result_id: 472138
+  run_id: 40899
+  test_id: 30
+  user_id: 194784
+  waive_date: 2010-01-12 17:44:11 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 33494
+rpmdiff_waiver_33495: 
+  description: |-
+    This change is ok because...
+    
+    These should not affect normal usage of the dirsec-nss package.
+  old_result: 3
+  package_id: 1583
+  result_id: 472154
+  run_id: 40899
+  test_id: 27
+  user_id: 194784
+  waive_date: 2010-01-12 17:44:23 -05:00
+  waiver_id: 33495
+rpmdiff_waiver_34673: 
+  description: |
+    RHEV-H 5.5-2.2 does not support IPv6
+
+  old_result: 3
+  package_id: 14597
+  result_id: 485753
+  run_id: 41317
+  test_id: 42
+  user_id: 100112
+  waive_date: 2010-02-25 18:04:52 -05:00
+  waiver_id: 34673
+rpmdiff_waiver_34674: 
+  description: |
+    Manpages and all other documentation
+    files are stripped from the RHEV
+    Hypervisor image to save space.
+
+  old_result: 4
+  package_id: 14597
+  result_id: 485773
+  run_id: 41317
+  test_id: 19
+  user_id: 100112
+  waive_date: 2010-02-25 18:06:51 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 34674
+rpmdiff_waiver_34675: 
+  description: These changes are due to package updates in the 5.5-2.2 image
+  old_result: 4
+  package_id: 14597
+  result_id: 485780
+  run_id: 41317
+  test_id: 3
+  user_id: 100112
+  waive_date: 2010-02-25 18:10:20 -05:00
+  waiver_id: 34675
+rpmdiff_waiver_34724: 
+  description: |
+    Manpages and all other documentation
+    files are stripped from the RHEV
+    Hypervisor image to save space.
+
+  old_result: 3
+  package_id: 14597
+  result_id: 490975
+  run_id: 41502
+  test_id: 19
+  user_id: 100112
+  waive_date: 2010-03-01 17:58:02 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 34724
+rpmdiff_waiver_34725: 
+  description: These changes are due to kernel update to 2.6.18-164.14.1
+  old_result: 3
+  package_id: 14597
+  result_id: 490982
+  run_id: 41502
+  test_id: 3
+  user_id: 100112
+  waive_date: 2010-03-01 18:18:54 -05:00
+  waiver_id: 34725
+rpmdiff_waiver_34726: 
+  description: |
+    LiveOS/ext3fs.img is a rootfs, when
+    mounted as root those symlinks are not
+    dangling (but we should probably remove build and source symlinks from the image)
+
+  old_result: 3
+  package_id: 14597
+  result_id: 490973
+  run_id: 41502
+  test_id: 27
+  user_id: 100112
+  waive_date: 2010-03-01 18:19:25 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 34726
+rpmdiff_waiver_34727: 
+  description: |-
+    This change is ok because...
+    
+    from apevec:
+    We're using RPM sources as payload for binaries produced by livecd-creator:
+    
+    2c95141b2b2eebd4f40fe30402b45ce6  ovirt-node-image-1.0.tar.gz
+    2f34fd37361f3159aaf3743b034fa13c  ovirt-node-image.iso
+    197e07da68858f715fea6d9b91a6a777  ovirt-node-image-manifests.tar
+    
+    Only first one is actual upstream source (kickstart files)
+    ovirt-node-image.iso and ovirt-node-image-manifests.tar are replaced for each image build.
+  old_result: 4
+  package_id: 14597
+  result_id: 490957
+  run_id: 41502
+  test_id: 28
+  user_id: 196179
+  waive_date: 2010-03-01 18:53:38 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 34727
+rpmdiff_waiver_34779: 
+  description: |
+    Manpages and all other documentation
+    files are stripped from the RHEV
+    Hypervisor image to save space.
+
+  old_result: 3
+  package_id: 14597
+  result_id: 491521
+  run_id: 41528
+  test_id: 19
+  user_id: 100112
+  waive_date: 2010-03-02 18:50:24 -05:00
+  waiver_id: 34779
+rpmdiff_waiver_34780: 
+  description: These changes are due to kernel update to 2.6.18-164.15.1
+  old_result: 3
+  package_id: 14597
+  result_id: 491528
+  run_id: 41528
+  test_id: 3
+  user_id: 100112
+  waive_date: 2010-03-02 18:51:28 -05:00
+  waiver_id: 34780
+rpmdiff_waiver_34781: 
+  description: |
+    LiveOS/ext3fs.img is a rootfs, when
+    mounted as root those symlinks are not
+    dangling (but we should probably remove build and source symlinks from the image)
+
+  old_result: 3
+  package_id: 14597
+  result_id: 491519
+  run_id: 41528
+  test_id: 27
+  user_id: 100112
+  waive_date: 2010-03-02 19:07:09 -05:00
+  waiver_id: 34781
+rpmdiff_waiver_35256: 
+  description: This change is ok because...new kernel.
+  old_result: 3
+  package_id: 4
+  result_id: 503451
+  run_id: 41927
+  test_id: 20
+  user_id: 168062
+  waive_date: 2010-03-23 12:20:08 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 35256
+rpmdiff_waiver_38546: 
+  description: "This is expected. "
+  old_result: 3
+  package_id: 2633
+  result_id: 568271
+  run_id: 44048
+  test_id: 1
+  user_id: 79037
+  waive_date: 2010-07-27 09:22:26 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 38546
+rpmdiff_waiver_38547: 
+  description: These scripts do not require man pages.
+  old_result: 3
+  package_id: 2633
+  result_id: 568277
+  run_id: 44048
+  test_id: 19
+  user_id: 79037
+  waive_date: 2010-07-27 09:22:33 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 38547
+rpmdiff_waiver_38548: 
+  description: This change is ok because  because the new zip version appears to be a requirement set by JDK6 (used to build this pkg)
+  old_result: 3
+  package_id: 2633
+  result_id: 568282
+  run_id: 44048
+  test_id: 12
+  user_id: 79037
+  waive_date: 2010-07-27 09:35:59 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 38548
+rpmdiff_waiver_38549: 
+  description: This is expected as we added the repolib subpackage for ease of upload to respository.jboss.org.
+  old_result: 3
+  package_id: 2633
+  result_id: 568284
+  run_id: 44048
+  test_id: 3
+  user_id: 79037
+  waive_date: 2010-07-27 09:36:29 -04:00
+  waiver_id: 38549
+rpmdiff_waiver_38550: 
+  description: This is expected as we added the repolib subpackage for ease of upload to respository.jboss.org.
+  old_result: 3
+  package_id: 2633
+  result_id: 568251
+  run_id: 44046
+  test_id: 3
+  user_id: 79037
+  waive_date: 2010-07-27 09:38:04 -04:00
+  waiver_id: 38550
+rpmdiff_waiver_38551: 
+  description: "This is expected. "
+  old_result: 3
+  package_id: 2633
+  result_id: 568238
+  run_id: 44046
+  test_id: 1
+  user_id: 79037
+  waive_date: 2010-07-27 09:38:05 -04:00
+  waiver_id: 38551
+rpmdiff_waiver_38552: 
+  description: These scripts do not require man pages.
+  old_result: 3
+  package_id: 2633
+  result_id: 568244
+  run_id: 44046
+  test_id: 19
+  user_id: 79037
+  waive_date: 2010-07-27 09:38:13 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 38552
+rpmdiff_waiver_38553: 
+  description: This change is ok because  because the new zip version appears to be a requirement set by JDK6 (used to build this pkg)
+  old_result: 3
+  package_id: 2633
+  result_id: 568249
+  run_id: 44046
+  test_id: 12
+  user_id: 79037
+  waive_date: 2010-07-27 09:38:19 -04:00
+  waiver_id: 38553
+rpmdiff_waiver_38554: 
+  description: This change is ok because the repolib location has changed.
+  old_result: 3
+  package_id: 677
+  result_id: 568350
+  run_id: 44047
+  test_id: 3
+  user_id: 79037
+  waive_date: 2010-07-27 09:46:30 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 38554
+rpmdiff_waiver_38555: 
+  description: |-
+    Expected, we did not provide man pages
+    for the service startup in the past.
+  old_result: 3
+  package_id: 677
+  result_id: 568343
+  run_id: 44047
+  test_id: 19
+  user_id: 79037
+  waive_date: 2010-07-27 09:46:36 -04:00
+  waiver_id: 38555
+rpmdiff_waiver_38556: 
+  description: |
+    This change is ok because the new zip version appears to be a requirement set by JDK6 (used to build this pkg)
+
+  old_result: 3
+  package_id: 677
+  result_id: 568348
+  run_id: 44047
+  test_id: 12
+  user_id: 79037
+  waive_date: 2010-07-27 09:47:04 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 38556
+rpmdiff_waiver_38559: 
+  description: |-
+    Expected, we did not provide man pages
+    for the service startup in the past.
+  old_result: 3
+  package_id: 677
+  result_id: 568376
+  run_id: 44050
+  test_id: 19
+  user_id: 79037
+  waive_date: 2010-07-27 14:00:35 -04:00
+  waiver_id: 38559
+rpmdiff_waiver_38560: 
+  description: |
+    This change is ok because the new zip version appears to be a requirement set by JDK6 (used to build this pkg)
+
+  old_result: 3
+  package_id: 677
+  result_id: 568381
+  run_id: 44050
+  test_id: 12
+  user_id: 79037
+  waive_date: 2010-07-27 14:00:58 -04:00
+  waiver_id: 38560
+rpmdiff_waiver_38826: 
+  description: |-
+    Expected, we did not provide man pages
+    for the service startup in the past.
+  old_result: 3
+  package_id: 677
+  result_id: 573806
+  run_id: 44235
+  test_id: 19
+  user_id: 184429
+  waive_date: 2010-07-28 17:56:43 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 38826
+rpmdiff_waiver_38827: 
+  description: |
+    This change is ok because the new zip version appears to be a requirement set by JDK6 (used to build this pkg)
+
+  old_result: 3
+  package_id: 677
+  result_id: 573811
+  run_id: 44235
+  test_id: 12
+  user_id: 184429
+  waive_date: 2010-07-28 17:58:57 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 38827
+rpmdiff_waiver_38828: 
+  description: This waiver is not ok because...
+  old_result: 2
+  package_id: 677
+  result_id: 573811
+  run_id: 44235
+  test_id: 12
+  user_id: 184429
+  waive_date: 2010-07-28 18:12:15 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 38828
+rpmdiff_waiver_38829: 
+  description: |-
+    This change is ok because the new zip version appears to be a requirement set by JDK6 (used to build this pkg).
+    
+    The previous tag tomcat5-5.5.23-0jpp_4rh.16 examples were compiled with jdk1.5. Since then the default jdk has changed from jdk1.5 to jdk1.6
+  old_result: 3
+  package_id: 677
+  result_id: 573811
+  run_id: 44235
+  test_id: 12
+  user_id: 211874
+  waive_date: 2010-07-28 18:26:40 -04:00
+  waiver_id: 38829
+rpmdiff_waiver_38904: 
+  description: This change is ok because these files are generated per javadoc during build
+  old_result: 3
+  package_id: 677
+  result_id: 575252
+  run_id: 44283
+  test_id: 3
+  user_id: 211874
+  waive_date: 2010-07-29 19:01:05 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 38904
+rpmdiff_waiver_38905: 
+  description: |-
+    This change is ok because the new zip version appears to be a requirement set by JDK6 (used to build this pkg).
+    
+    The tag Examples were compiled with jdk1.5.
+  old_result: 3
+  package_id: 677
+  result_id: 575250
+  run_id: 44283
+  test_id: 12
+  user_id: 211874
+  waive_date: 2010-07-29 19:02:05 -04:00
+  waiver_id: 38905
+rpmdiff_waiver_40787: 
+  description: |-
+    This change is ok because...
+    
+    Version change
+  old_result: 3
+  package_id: 1952
+  result_id: 604206
+  run_id: 45220
+  test_id: 47
+  user_id: 61112
+  waive_date: 2010-09-27 15:22:50 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 40787
+rpmdiff_waiver_40790: 
+  description: |-
+    This change is ok because...
+    They are normal changes when updating
+    core kernel code.
+    
+    These changes are due to:
+    
+    backport of upstream patches/commits for CVEs
+  old_result: 3
+  package_id: 1952
+  result_id: 604214
+  run_id: 45220
+  test_id: 34
+  user_id: 24844
+  waive_date: 2010-09-27 15:27:37 -04:00
+  waiver_id: 40790
+rpmdiff_waiver_40791: 
+  description: |-
+    This change is ok because...
+    
+    Additional symbols were imported for debugging purposes in the backported tg3 broadcom driver
+  old_result: 3
+  package_id: 1952
+  result_id: 604207
+  run_id: 45220
+  test_id: 5
+  user_id: 24844
+  waive_date: 2010-09-27 15:29:00 -04:00
+  waiver_id: 40791
+rpmdiff_waiver_40792: 
+  description: |
+    This change is ok because...
+    
+    Consequences of backporting upstream drivers tg3 and bnx2
+
+  old_result: 3
+  package_id: 1952
+  result_id: 604226
+  run_id: 45220
+  test_id: 3
+  user_id: 24844
+  waive_date: 2010-09-27 15:32:05 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 40792
+rpmdiff_waiver_40982: 
+  description: |-
+    This change is ok because...
+    yes, kernel-rt-firmware package has been removed
+  old_result: 3
+  package_id: 1952
+  result_id: 607084
+  run_id: 45307
+  test_id: 1
+  user_id: 61112
+  waive_date: 2010-10-04 13:36:48 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 40982
+rpmdiff_waiver_40983: 
+  description: |
+    This change is ok because...
+    
+    kernel-rt-firmware package has been removed.
+
+  old_result: 3
+  package_id: 1952
+  result_id: 607070
+  run_id: 45307
+  test_id: 20
+  user_id: 61112
+  waive_date: 2010-10-04 13:39:46 -04:00
+  waiver_id: 40983
+rpmdiff_waiver_40984: 
+  description: |-
+    This change is ok because...
+    They are normal changes when updating
+    core kernel code.
+    
+    These changes are due to:
+    
+    Rebase from 2.6.24.7 to 2.6.33.7. Header file changes in almost all subsystems. 
+    
+    NOTE: Realtime does not maintain kABI
+  old_result: 3
+  package_id: 1952
+  result_id: 607087
+  run_id: 45307
+  test_id: 34
+  user_id: 24844
+  waive_date: 2010-10-04 13:57:50 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 40984
+rpmdiff_waiver_40985: 
+  description: |-
+    This change is ok because...
+    
+    Version change
+  old_result: 3
+  package_id: 1952
+  result_id: 607079
+  run_id: 45307
+  test_id: 47
+  user_id: 24844
+  waive_date: 2010-10-04 13:58:10 -04:00
+  waiver_id: 40985
+rpmdiff_waiver_40986: 
+  description: |
+    This change is ok because...
+    
+    This is a result of changes between 2.6.24 and 2.6.33:
+    
+    1. A rearchitecting of arch-specific drivers so that many 32 and 64-bit specific drivers were folded into a single driver
+    
+    2. Legacy drivers being folded into more general purpose drivers.
+
+  old_result: 3
+  package_id: 1952
+  result_id: 607099
+  run_id: 45307
+  test_id: 3
+  user_id: 24844
+  waive_date: 2010-10-04 14:00:39 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 40986
+rpmdiff_waiver_40987: 
+  description: |-
+    This change is ok because...
+    
+    debugging info got bigger between 2.6.24 and 2.6.33
+  old_result: 3
+  package_id: 1952
+  result_id: 607080
+  run_id: 45307
+  test_id: 5
+  user_id: 24844
+  waive_date: 2010-10-04 14:00:55 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 40987
+rpmdiff_waiver_41575: 
+  description: This change is ok because the package only Obsoletes other packages; it does not provide any files.
+  old_result: 3
+  package_id: 16504
+  result_id: 622326
+  run_id: 45827
+  test_id: 43
+  user_id: 202032
+  waive_date: 2010-10-14 14:33:46 -04:00
+  waiver_id: 41575
+rpmdiff_waiver_41576: 
+  description: This change is ok because the package only Obsoletes other packages; it does not provide any files.
+  old_result: 3
+  package_id: 16504
+  result_id: 622298
+  run_id: 45826
+  test_id: 43
+  user_id: 202032
+  waive_date: 2010-10-14 14:34:37 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 41576
+rpmdiff_waiver_41665: 
+  description: |-
+    This change is ok because there should
+    be no problems with assigning the first
+    random UID to 'pkiuser', and use of this
+    command checks for the existence of
+    'pkiuser' before attempting to create it.
+  old_result: 4
+  package_id: 1568
+  result_id: 623247
+  run_id: 45852
+  test_id: 24
+  user_id: 172338
+  waive_date: 2010-10-15 13:11:45 -04:00
+  waiver_id: 41665
+rpmdiff_waiver_41666: 
+  description: |-
+    The firefox dependency will be added in
+    a future version of RHCS.
+  old_result: 3
+  package_id: 1568
+  result_id: 623238
+  run_id: 45852
+  test_id: 31
+  user_id: 172338
+  waive_date: 2010-10-15 13:12:04 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 41666
+rpmdiff_waiver_42993: 
+  description: never did
+  old_result: 4
+  package_id: 2275
+  result_id: 639107
+  run_id: 46347
+  test_id: 19
+  user_id: 35599
+  waive_date: 2010-11-19 07:34:46 -05:00
+  waiver_id: 42993
+rpmdiff_waiver_42994: 
+  description: never did
+  old_result: 4
+  package_id: 2275
+  result_id: 639135
+  run_id: 46348
+  test_id: 19
+  user_id: 35599
+  waive_date: 2010-11-19 07:35:03 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 42994
+rpmdiff_waiver_43234: 
+  description: This change is ok because the package only Obsoletes other packages; it does not provide any files.
+  old_result: 3
+  package_id: 16504
+  result_id: 642293
+  run_id: 46443
+  test_id: 43
+  user_id: 202032
+  waive_date: 2010-11-30 17:01:12 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 43234
+rpmdiff_waiver_43235: 
+  description: This change is ok because the package only Obsoletes other packages; it does not provide any files.
+  old_result: 3
+  package_id: 16504
+  result_id: 642321
+  run_id: 46444
+  test_id: 43
+  user_id: 202032
+  waive_date: 2010-11-30 17:02:58 -05:00
+  waiver_id: 43235
+rpmdiff_waiver_43744: 
+  description: This is just meta package, which require all others package needed for RHN Proxy
+  old_result: 3
+  package_id: 2275
+  result_id: 639100
+  run_id: 46347
+  test_id: 43
+  user_id: 206427
+  waive_date: 2010-12-15 03:32:49 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 43744
+rpmdiff_waiver_43745: 
+  description: |-
+    This change is ok because...
+    
+    we will not publish src.rpm via this errata.
+  old_result: 3
+  package_id: 2275
+  result_id: 639098
+  run_id: 46347
+  test_id: 47
+  user_id: 206427
+  waive_date: 2010-12-15 03:44:21 -05:00
+  waiver_id: 43745
+rpmdiff_waiver_43746: 
+  description: |-
+    This change is ok because...
+    
+    we will not publish src.rpm via this errata.
+  old_result: 3
+  package_id: 2275
+  result_id: 639126
+  run_id: 46348
+  test_id: 47
+  user_id: 206427
+  waive_date: 2010-12-15 03:44:44 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 43746
+rpmdiff_waiver_43747: 
+  description: This is just meta package, which require all others package needed for RHN Proxy
+  old_result: 3
+  package_id: 2275
+  result_id: 639128
+  run_id: 46348
+  test_id: 43
+  user_id: 206427
+  waive_date: 2010-12-15 03:44:51 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 43747
+rpmdiff_waiver_44623: 
+  description: Not a regression.
+  old_result: 3
+  package_id: 16517
+  result_id: 659797
+  run_id: 46991
+  test_id: 30
+  user_id: 3000057
+  waive_date: 2011-01-17 08:46:01 -05:00
+  waiver_id: 44623
+rpmdiff_waiver_44624: 
+  description: Not an ABI change.
+  old_result: 3
+  package_id: 16517
+  result_id: 659798
+  run_id: 46991
+  test_id: 34
+  user_id: 3000057
+  waive_date: 2011-01-17 08:47:22 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 44624
+rpmdiff_waiver_44670: 
+  description: Not a regression.
+  old_result: 3
+  package_id: 16517
+  result_id: 660380
+  run_id: 47009
+  test_id: 30
+  user_id: 3000057
+  waive_date: 2011-01-17 12:52:19 -05:00
+  waiver_id: 44670
+rpmdiff_waiver_44671: 
+  description: Not an ABI change.
+  old_result: 3
+  package_id: 16517
+  result_id: 660381
+  run_id: 47009
+  test_id: 34
+  user_id: 3000057
+  waive_date: 2011-01-17 12:52:48 -05:00
+  waiver_id: 44671
+rpmdiff_waiver_44672: 
+  description: Header no longer needed.
+  old_result: 3
+  package_id: 16517
+  result_id: 660388
+  run_id: 47009
+  test_id: 3
+  user_id: 3000057
+  waive_date: 2011-01-17 12:53:19 -05:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 44672
+rpmdiff_waiver_44742: 
+  description: Not a regression.  The s390 tests need a build host with DFP support.
+  old_result: 3
+  package_id: 16517
+  result_id: 661163
+  run_id: 47033
+  test_id: 30
+  user_id: 3000057
+  waive_date: 2011-01-18 09:02:36 -05:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 44742
+rpmdiff_waiver_44743: 
+  description: Not an ABI change.
+  old_result: 3
+  package_id: 16517
+  result_id: 661164
+  run_id: 47033
+  test_id: 34
+  user_id: 3000057
+  waive_date: 2011-01-18 09:02:55 -05:00
+  waiver_id: 44743
+rpmdiff_waiver_44744: 
+  description: Header no longer needed.
+  old_result: 3
+  package_id: 16517
+  result_id: 661171
+  run_id: 47033
+  test_id: 3
+  user_id: 3000057
+  waive_date: 2011-01-18 09:03:19 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 44744
+rpmdiff_waiver_44796: 
+  description: Not a regression.  The s390 tests need a build host with DFP support.
+  old_result: 3
+  package_id: 16517
+  result_id: 662041
+  run_id: 47064
+  test_id: 30
+  user_id: 3000057
+  waive_date: 2011-01-19 09:41:11 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 44796
+rpmdiff_waiver_44797: 
+  description: Not an ABI change.
+  old_result: 3
+  package_id: 16517
+  result_id: 662042
+  run_id: 47064
+  test_id: 34
+  user_id: 3000057
+  waive_date: 2011-01-19 09:41:24 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 44797
+rpmdiff_waiver_44798: 
+  description: Header no longer needed.
+  old_result: 3
+  package_id: 16517
+  result_id: 662049
+  run_id: 47064
+  test_id: 3
+  user_id: 3000057
+  waive_date: 2011-01-19 09:41:34 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 44798
+rpmdiff_waiver_45230: 
+  description: This change is ok because ldap-agent-bin is not invoked directly.  The wrapper that is used to invoke it (ldap-agent) does have a manpage.
+  old_result: 3
+  package_id: 1594
+  result_id: 668799
+  run_id: 47283
+  test_id: 19
+  user_id: 172335
+  waive_date: 2011-01-28 14:03:40 -05:00
+  waiver_id: 45230
+rpmdiff_waiver_45231: 
+  description: This change is ok because ldap-agent-bin is not invoked directly.  The wrapper that is used to invoke it (ldap-agent) does have a manpage.
+  old_result: 3
+  package_id: 1594
+  result_id: 668833
+  run_id: 47284
+  test_id: 19
+  user_id: 172335
+  waive_date: 2011-01-28 14:04:02 -05:00
+  waiver_id: 45231
+rpmdiff_waiver_45232: 
+  description: |-
+    These were checked with valgrind and
+    many functional tests and appear to
+    cause no problems.
+  old_result: 4
+  package_id: 1594
+  result_id: 668822
+  run_id: 47284
+  test_id: 30
+  user_id: 172335
+  waive_date: 2011-01-28 14:04:44 -05:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 45232
+rpmdiff_waiver_45233: 
+  description: This change is ok because...these tools are not intended to be run directly by the user/administrator.
+  old_result: 3
+  package_id: 1593
+  result_id: 668867
+  run_id: 47285
+  test_id: 19
+  user_id: 172335
+  waive_date: 2011-01-28 14:36:40 -05:00
+  waiver_id: 45233
+rpmdiff_waiver_45234: 
+  description: This change is ok because these are simply version string changes.
+  old_result: 3
+  package_id: 1593
+  result_id: 668859
+  run_id: 47285
+  test_id: 21
+  user_id: 172335
+  waive_date: 2011-01-28 14:37:16 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 45234
+rpmdiff_waiver_45235: 
+  description: This change is ok because...these tools are not intended to be run directly by the user/administrator.
+  old_result: 3
+  package_id: 1593
+  result_id: 668901
+  run_id: 47286
+  test_id: 19
+  user_id: 172335
+  waive_date: 2011-01-28 14:37:34 -05:00
+  waiver_id: 45235
+rpmdiff_waiver_45236: 
+  description: This change is ok because these are simply version string changes.
+  old_result: 3
+  package_id: 1593
+  result_id: 668893
+  run_id: 47286
+  test_id: 21
+  user_id: 172335
+  waive_date: 2011-01-28 14:37:44 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 45236
+rpmdiff_waiver_45619: 
+  description: The executable is a gui app.
+  old_result: 4
+  package_id: 1373
+  result_id: 674916
+  run_id: 47471
+  test_id: 19
+  user_id: 104688
+  waive_date: 2011-02-03 16:55:19 -05:00
+  waiver_id: 45619
+rpmdiff_waiver_45620: 
+  description: |-
+    system-switch-java has a requirement on
+    usermode, which provides
+    /usr/bin/consolehelper.
+  old_result: 3
+  package_id: 1373
+  result_id: 674929
+  run_id: 47471
+  test_id: 27
+  user_id: 104688
+  waive_date: 2011-02-03 16:56:25 -05:00
+  waiver_id: 45620
+rpmdiff_waiver_46525: 
+  description: |-
+    This change is ok because...
+    
+    require version is equal to package version which has changed
+  old_result: 3
+  package_id: 14538
+  result_id: 686922
+  run_id: 47842
+  test_id: 20
+  user_id: 244271
+  waive_date: 2011-02-17 10:08:43 -05:00
+  waiver_id: 46525
+rpmdiff_waiver_46563: 
+  description: |-
+    This change is ok because...
+    
+    require version is equal to package version which has changed
+  old_result: 3
+  package_id: 14538
+  result_id: 693677
+  run_id: 48081
+  test_id: 20
+  user_id: 244271
+  waive_date: 2011-02-18 06:01:28 -05:00
+  waiver_id: 46563
+rpmdiff_waiver_46594: 
+  description: Those manpages are not available in the upstream squashfs.
+  old_result: 3
+  package_id: 1029
+  result_id: 694073
+  run_id: 48093
+  test_id: 19
+  user_id: 100112
+  waive_date: 2011-02-18 17:38:07 -05:00
+  waiver_id: 46594
+rpmdiff_waiver_46734: 
+  description: This change is ok because upstream release structure is changes lot, now it is release source files and releasing as per script (previously it was release all binaries in one source tarball), so now we will maintain this release only in rhel5 cvs
+  old_result: 4
+  package_id: 826
+  result_id: 695719
+  run_id: 48148
+  test_id: 28
+  user_id: 246681
+  waive_date: 2011-02-22 02:30:28 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 46734
+rpmdiff_waiver_46735: 
+  description: This change is ok because there was mixed use of spaces and tab so just removed that
+  old_result: 3
+  package_id: 826
+  result_id: 695692
+  run_id: 48148
+  test_id: 22
+  user_id: 246681
+  waive_date: 2011-02-22 02:31:10 -05:00
+  waiver_id: 46735
+rpmdiff_waiver_46736: 
+  description: This change is ok because rpmlint was giving error about more than 80 characters in one line, so just split line with "\"
+  old_result: 3
+  package_id: 826
+  result_id: 695702
+  run_id: 48148
+  test_id: 47
+  user_id: 246681
+  waive_date: 2011-02-22 02:32:13 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 46736
+rpmdiff_waiver_46858: 
+  description: This change is ok because those are just repacked binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697140
+  run_id: 48195
+  test_id: 13
+  user_id: 3000496
+  waive_date: 2011-02-23 02:54:20 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 46858
+rpmdiff_waiver_46859: 
+  description: This change is ok because those are just repacked binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697107
+  run_id: 48194
+  test_id: 13
+  user_id: 3000496
+  waive_date: 2011-02-23 02:54:23 -05:00
+  waiver_id: 46859
+rpmdiff_waiver_46860: 
+  description: This change is ok because upstream sources are uncomparable.
+  old_result: 4
+  package_id: 16390
+  result_id: 697137
+  run_id: 48194
+  test_id: 28
+  user_id: 3000496
+  waive_date: 2011-02-23 02:54:48 -05:00
+  waiver_id: 46860
+rpmdiff_waiver_46861: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697124
+  run_id: 48194
+  test_id: 6
+  user_id: 3000496
+  waive_date: 2011-02-23 02:54:53 -05:00
+  waiver_id: 46861
+rpmdiff_waiver_46862: 
+  description: binaries build by ibm.
+  old_result: 4
+  package_id: 16390
+  result_id: 697115
+  run_id: 48194
+  test_id: 7
+  user_id: 3000496
+  waive_date: 2011-02-23 02:55:17 -05:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 46862
+rpmdiff_waiver_46863: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697121
+  run_id: 48194
+  test_id: 14
+  user_id: 3000496
+  waive_date: 2011-02-23 02:55:20 -05:00
+  waiver_id: 46863
+rpmdiff_waiver_46864: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697131
+  run_id: 48194
+  test_id: 5
+  user_id: 3000496
+  waive_date: 2011-02-23 02:55:23 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 46864
+rpmdiff_waiver_46865: 
+  description: This change is ok because those are just repacked binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697107
+  run_id: 48194
+  test_id: 13
+  user_id: 3000496
+  waive_date: 2011-02-23 02:55:27 -05:00
+  waiver_id: 46865
+rpmdiff_waiver_46866: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697124
+  run_id: 48194
+  test_id: 6
+  user_id: 3000496
+  waive_date: 2011-02-23 02:55:31 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 46866
+rpmdiff_waiver_46867: 
+  description: binaries build by ibm
+  old_result: 4
+  package_id: 16390
+  result_id: 697115
+  run_id: 48194
+  test_id: 7
+  user_id: 3000496
+  waive_date: 2011-02-23 02:55:43 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 46867
+rpmdiff_waiver_46868: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697121
+  run_id: 48194
+  test_id: 14
+  user_id: 3000496
+  waive_date: 2011-02-23 02:55:46 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 46868
+rpmdiff_waiver_46869: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697131
+  run_id: 48194
+  test_id: 5
+  user_id: 3000496
+  waive_date: 2011-02-23 02:55:49 -05:00
+  waiver_id: 46869
+rpmdiff_waiver_46870: 
+  description: This change is ok because upstream sources are uncomparable.
+  old_result: 4
+  package_id: 16390
+  result_id: 697170
+  run_id: 48195
+  test_id: 28
+  user_id: 3000496
+  waive_date: 2011-02-23 03:28:06 -05:00
+  waiver_id: 46870
+rpmdiff_waiver_46871: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697157
+  run_id: 48195
+  test_id: 6
+  user_id: 3000496
+  waive_date: 2011-02-23 03:28:09 -05:00
+  waiver_id: 46871
+rpmdiff_waiver_46872: 
+  description: binaries build by ibm
+  old_result: 4
+  package_id: 16390
+  result_id: 697148
+  run_id: 48195
+  test_id: 7
+  user_id: 3000496
+  waive_date: 2011-02-23 03:28:13 -05:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 46872
+rpmdiff_waiver_46873: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697154
+  run_id: 48195
+  test_id: 14
+  user_id: 3000496
+  waive_date: 2011-02-23 03:28:16 -05:00
+  waiver_id: 46873
+rpmdiff_waiver_46874: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697164
+  run_id: 48195
+  test_id: 5
+  user_id: 3000496
+  waive_date: 2011-02-23 03:28:19 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 46874
+rpmdiff_waiver_46875: 
+  description: This change is ok because those are just repacked binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697173
+  run_id: 48196
+  test_id: 13
+  user_id: 3000496
+  waive_date: 2011-02-23 03:32:13 -05:00
+  waiver_id: 46875
+rpmdiff_waiver_46876: 
+  description: This change is ok because upstream sources are uncomparable.
+  old_result: 4
+  package_id: 16390
+  result_id: 697203
+  run_id: 48196
+  test_id: 28
+  user_id: 3000496
+  waive_date: 2011-02-23 03:32:17 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 46876
+rpmdiff_waiver_46877: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697190
+  run_id: 48196
+  test_id: 6
+  user_id: 3000496
+  waive_date: 2011-02-23 03:32:19 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 46877
+rpmdiff_waiver_46878: 
+  description: binaries build by ibm
+  old_result: 4
+  package_id: 16390
+  result_id: 697181
+  run_id: 48196
+  test_id: 7
+  user_id: 3000496
+  waive_date: 2011-02-23 03:32:22 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 46878
+rpmdiff_waiver_46879: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697187
+  run_id: 48196
+  test_id: 14
+  user_id: 3000496
+  waive_date: 2011-02-23 03:32:24 -05:00
+  waiver_id: 46879
+rpmdiff_waiver_46880: 
+  description: This change is ok because those are repacked proprietary binary files
+  old_result: 3
+  package_id: 16390
+  result_id: 697197
+  run_id: 48196
+  test_id: 5
+  user_id: 3000496
+  waive_date: 2011-02-23 03:32:27 -05:00
+  waiver_id: 46880
+rpmdiff_waiver_46936: 
+  description: Changelog updated -> waived
+  old_result: 1
+  package_id: 1029
+  result_id: 694064
+  run_id: 48093
+  test_id: 22
+  user_id: 3000490
+  waive_date: 2011-02-23 10:21:47 -05:00
+  waiver_id: 46936
+rpmdiff_waiver_47122: 
+  description: Every rebuild of xenpv-win is a rebase.
+  old_result: 4
+  package_id: 2025
+  result_id: 699230
+  run_id: 48257
+  test_id: 28
+  user_id: 3000076
+  waive_date: 2011-02-25 05:59:55 -05:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 47122
+rpmdiff_waiver_47123: 
+  description: This change is ok because Windows ignores the executable bit anyway.
+  old_result: 3
+  package_id: 2025
+  result_id: 699217
+  run_id: 48257
+  test_id: 6
+  user_id: 3000076
+  waive_date: 2011-02-25 06:00:53 -05:00
+  waiver_id: 47123
+rpmdiff_waiver_47124: 
+  description: Label changes in the ISO images.
+  old_result: 3
+  package_id: 2025
+  result_id: 699229
+  run_id: 48257
+  test_id: 12
+  user_id: 3000076
+  waive_date: 2011-02-25 06:01:18 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 47124
+rpmdiff_waiver_47131: 
+  description: This change is ok because adding manpages was not part of the erratum.
+  old_result: 3
+  package_id: 661
+  result_id: 699278
+  run_id: 48259
+  test_id: 19
+  user_id: 10886
+  waive_date: 2011-02-25 08:00:24 -05:00
+  waiver_id: 47131
+rpmdiff_waiver_47814: 
+  description: Every rebuild of xenpv-win is a rebase.
+  old_result: 4
+  package_id: 2025
+  result_id: 704847
+  run_id: 48436
+  test_id: 28
+  user_id: 3000076
+  waive_date: 2011-03-04 04:48:25 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 47814
+rpmdiff_waiver_47815: 
+  description: This change is ok because Windows ignores the executable bit anyway.
+  old_result: 3
+  package_id: 2025
+  result_id: 704834
+  run_id: 48436
+  test_id: 6
+  user_id: 3000076
+  waive_date: 2011-03-04 04:51:16 -05:00
+  waiver_id: 47815
+rpmdiff_waiver_47816: 
+  description: Label changes in the ISO images.
+  old_result: 3
+  package_id: 2025
+  result_id: 704846
+  run_id: 48436
+  test_id: 12
+  user_id: 3000076
+  waive_date: 2011-03-04 04:52:52 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 47816
+rpmdiff_waiver_47854: 
+  description: "Added log4j to R and BR. "
+  old_result: 4
+  package_id: 2633
+  result_id: 705535
+  run_id: 48457
+  test_id: 27
+  user_id: 211874
+  waive_date: 2011-03-04 18:04:39 -05:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 47854
+rpmdiff_waiver_47855: 
+  description: "This is expected. "
+  old_result: 3
+  package_id: 2633
+  result_id: 705529
+  run_id: 48457
+  test_id: 1
+  user_id: 211874
+  waive_date: 2011-03-04 18:04:53 -05:00
+  waiver_id: 47855
+rpmdiff_waiver_47856: 
+  description: "man pages are not created for the init scripts. "
+  old_result: 3
+  package_id: 2633
+  result_id: 705520
+  run_id: 48457
+  test_id: 19
+  user_id: 211874
+  waive_date: 2011-03-04 18:05:02 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 47856
+rpmdiff_waiver_47857: 
+  description: This is expected. The previous permissions prevented tomcat from starting.
+  old_result: 3
+  package_id: 2633
+  result_id: 705525
+  run_id: 48457
+  test_id: 6
+  user_id: 211874
+  waive_date: 2011-03-04 18:05:17 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 47857
+rpmdiff_waiver_47858: 
+  description: The links replace the files and is expected.
+  old_result: 3
+  package_id: 2633
+  result_id: 705517
+  run_id: 48457
+  test_id: 3
+  user_id: 211874
+  waive_date: 2011-03-04 18:07:15 -05:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 47858
+rpmdiff_waiver_47859: 
+  description: The *-tomcat5 libs are depricated
+  old_result: 3
+  package_id: 2633
+  result_id: 705527
+  run_id: 48457
+  test_id: 20
+  user_id: 211874
+  waive_date: 2011-03-04 18:08:59 -05:00
+  waiver_id: 47859
+rpmdiff_waiver_47860: 
+  description: This is expected as these are generated docs.
+  old_result: 3
+  package_id: 2633
+  result_id: 705532
+  run_id: 48457
+  test_id: 5
+  user_id: 211874
+  waive_date: 2011-03-04 18:09:29 -05:00
+  waiver_id: 47860
+rpmdiff_waiver_47861: 
+  description: contributed by upstream changes and generated docs
+  old_result: 3
+  package_id: 2633
+  result_id: 705537
+  run_id: 48457
+  test_id: 12
+  user_id: 211874
+  waive_date: 2011-03-04 18:09:53 -05:00
+  waiver_id: 47861
+rpmdiff_waiver_48140: 
+  description: I added mention that the debug version of the drivers is not meant for use in production systems.
+  old_result: 3
+  package_id: 2025
+  result_id: 708658
+  run_id: 48559
+  test_id: 47
+  user_id: 3000076
+  waive_date: 2011-03-09 03:16:53 -05:00
+  waiver_id: 48140
+rpmdiff_waiver_48141: 
+  description: Label changes in the ISO images.
+  old_result: 3
+  package_id: 2025
+  result_id: 708674
+  run_id: 48559
+  test_id: 12
+  user_id: 3000076
+  waive_date: 2011-03-09 03:17:05 -05:00
+  waiver_id: 48141
+rpmdiff_waiver_48142: 
+  description: This change is ok because Windows ignores the executable bit anyway.
+  old_result: 3
+  package_id: 2025
+  result_id: 708662
+  run_id: 48559
+  test_id: 6
+  user_id: 3000076
+  waive_date: 2011-03-09 03:17:16 -05:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 48142
+rpmdiff_waiver_48143: 
+  description: Every new erratum for xenpv-win includes a change to the version number, because the RPM release number is not visible from the guest's Device Manager.
+  old_result: 4
+  package_id: 2025
+  result_id: 708675
+  run_id: 48559
+  test_id: 28
+  user_id: 3000076
+  waive_date: 2011-03-09 03:18:52 -05:00
+  waiver_id: 48143
+rpmdiff_waiver_48456: 
+  description: This is expected. log4j subpackage was removed.
+  old_result: 3
+  package_id: 2633
+  result_id: 711823
+  run_id: 48657
+  test_id: 2
+  user_id: 211874
+  waive_date: 2011-03-14 15:59:07 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 48456
+rpmdiff_waiver_48457: 
+  description: This is expected. Log4j subpackage was removed.
+  old_result: 3
+  package_id: 2633
+  result_id: 711834
+  run_id: 48657
+  test_id: 1
+  user_id: 211874
+  waive_date: 2011-03-14 15:59:29 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 48457
+rpmdiff_waiver_48458: 
+  description: "man pages are not created for the init scripts. "
+  old_result: 3
+  package_id: 2633
+  result_id: 711825
+  run_id: 48657
+  test_id: 19
+  user_id: 211874
+  waive_date: 2011-03-14 15:59:39 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 48458
+rpmdiff_waiver_48459: 
+  description: Permissions were reviewed. Changes due to permissions changed in spec. Javadoc are generated files.
+  old_result: 3
+  package_id: 2633
+  result_id: 711830
+  run_id: 48657
+  test_id: 6
+  user_id: 211874
+  waive_date: 2011-03-14 16:03:21 -04:00
+  waiver_id: 48459
+rpmdiff_waiver_48460: 
+  description: "- jakarta-commons-collections is both BR: and is R: for package lib\r\n\
+    - jakarta-commons-dbcp is both BR: and is R: for package lib\r\n\
+    - jakarta-commons-pool is both BR: and is R: for package lib\r\n\
+    \r\n\
+    - log4j is both BR:, R: and R(post). It does not appear in R: for package lib. "
+  old_result: 4
+  package_id: 2633
+  result_id: 711840
+  run_id: 48657
+  test_id: 27
+  user_id: 211874
+  waive_date: 2011-03-14 16:09:21 -04:00
+  waiver_id: 48460
+rpmdiff_waiver_48461: 
+  description: The changelog in the 6_0 zstream doesn't necessarily compare favorably with the 6.1 changelog. This is okay.
+  old_result: 3
+  package_id: 2633
+  result_id: 711816
+  run_id: 48657
+  test_id: 22
+  user_id: 211874
+  waive_date: 2011-03-14 16:12:19 -04:00
+  waiver_id: 48461
+rpmdiff_waiver_48462: 
+  description: Config differences between 6.1 and 6_0
+  old_result: 3
+  package_id: 2633
+  result_id: 711817
+  run_id: 48657
+  test_id: 21
+  user_id: 211874
+  waive_date: 2011-03-14 16:14:21 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 48462
+rpmdiff_waiver_48463: 
+  description: The commons-xxx-tomcat5 versions are deprecated. commons-xxx.jar were added.
+  old_result: 3
+  package_id: 2633
+  result_id: 711822
+  run_id: 48657
+  test_id: 3
+  user_id: 211874
+  waive_date: 2011-03-14 16:16:22 -04:00
+  waiver_id: 48463
+rpmdiff_waiver_48464: 
+  description: Expected differences compared to 6_0 zstream
+  old_result: 3
+  package_id: 2633
+  result_id: 711832
+  run_id: 48657
+  test_id: 20
+  user_id: 211874
+  waive_date: 2011-03-14 16:17:38 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 48464
+rpmdiff_waiver_48465: 
+  description: Files generated by javadoc
+  old_result: 3
+  package_id: 2633
+  result_id: 711837
+  run_id: 48657
+  test_id: 5
+  user_id: 211874
+  waive_date: 2011-03-14 16:18:21 -04:00
+  waiver_id: 48465
+rpmdiff_waiver_48466: 
+  description: "Generated by javadoc or xslt. "
+  old_result: 3
+  package_id: 2633
+  result_id: 711842
+  run_id: 48657
+  test_id: 12
+  user_id: 211874
+  waive_date: 2011-03-14 16:19:18 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 48466
+rpmdiff_waiver_48563: 
+  description: |-
+    - jakarta-commons-collections is both BR: and is R: for package lib
+    - jakarta-commons-dbcp is both BR: and is R: for package lib
+    - jakarta-commons-pool is both BR: and is R: for package lib
+    
+    - log4j is both BR:, R: and R(post). It also is R: in package tomcat6-lib
+  old_result: 4
+  package_id: 2633
+  result_id: 712609
+  run_id: 48680
+  test_id: 27
+  user_id: 211874
+  waive_date: 2011-03-15 12:48:38 -04:00
+  waiver_id: 48563
+rpmdiff_waiver_48564: 
+  description: This is expected. log4j subpackage was removed.
+  old_result: 3
+  package_id: 2633
+  result_id: 712592
+  run_id: 48680
+  test_id: 2
+  user_id: 211874
+  waive_date: 2011-03-15 12:48:58 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 48564
+rpmdiff_waiver_48565: 
+  description: This is expected. Log4j subpackage was removed.
+  old_result: 3
+  package_id: 2633
+  result_id: 712603
+  run_id: 48680
+  test_id: 1
+  user_id: 211874
+  waive_date: 2011-03-15 12:49:08 -04:00
+  waiver_id: 48565
+rpmdiff_waiver_48566: 
+  description: "man pages are not created for the init scripts. "
+  old_result: 3
+  package_id: 2633
+  result_id: 712594
+  run_id: 48680
+  test_id: 19
+  user_id: 211874
+  waive_date: 2011-03-15 12:49:17 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 48566
+rpmdiff_waiver_48567: 
+  description: Permissions were reviewed. Changes due to permissions changed in spec. Javadoc are generated files.
+  old_result: 3
+  package_id: 2633
+  result_id: 712599
+  run_id: 48680
+  test_id: 6
+  user_id: 211874
+  waive_date: 2011-03-15 12:49:33 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 48567
+rpmdiff_waiver_48568: 
+  description: The changelog in the 6_0 zstream doesn't necessarily compare favorably with the 6.1 changelog.
+  old_result: 3
+  package_id: 2633
+  result_id: 712585
+  run_id: 48680
+  test_id: 22
+  user_id: 211874
+  waive_date: 2011-03-15 12:50:07 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 48568
+rpmdiff_waiver_48569: 
+  description: Config differences between 6.1 and 6_0
+  old_result: 3
+  package_id: 2633
+  result_id: 712586
+  run_id: 48680
+  test_id: 21
+  user_id: 211874
+  waive_date: 2011-03-15 12:50:30 -04:00
+  waiver_id: 48569
+rpmdiff_waiver_48570: 
+  description: The commons-xxx-tomcat5 versions are deprecated in the 6.1 build. commons-xxx.jar were added. tomcat-juli.jar was added
+  old_result: 3
+  package_id: 2633
+  result_id: 712591
+  run_id: 48680
+  test_id: 3
+  user_id: 211874
+  waive_date: 2011-03-15 12:51:34 -04:00
+  waiver_id: 48570
+rpmdiff_waiver_48571: 
+  description: Expected differences compared to 6_0 zstream
+  old_result: 3
+  package_id: 2633
+  result_id: 712601
+  run_id: 48680
+  test_id: 20
+  user_id: 211874
+  waive_date: 2011-03-15 12:52:15 -04:00
+  waiver_id: 48571
+rpmdiff_waiver_48572: 
+  description: Files generated by javadoc
+  old_result: 3
+  package_id: 2633
+  result_id: 712606
+  run_id: 48680
+  test_id: 5
+  user_id: 211874
+  waive_date: 2011-03-15 12:52:30 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 48572
+rpmdiff_waiver_48573: 
+  description: "Generated by javadoc or xslt. "
+  old_result: 3
+  package_id: 2633
+  result_id: 712611
+  run_id: 48680
+  test_id: 12
+  user_id: 211874
+  waive_date: 2011-03-15 12:52:52 -04:00
+  waiver_id: 48573
+rpmdiff_waiver_49698: 
+  description: This change is ok because...
+  old_result: 3
+  package_id: 14043
+  result_id: 729900
+  run_id: 49228
+  test_id: 20
+  user_id: 168000
+  waive_date: 2011-03-31 07:17:30 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 49698
+rpmdiff_waiver_49711: 
+  description: |-
+    libnetsnmpmibs is used internally by
+    libnetsnmp and snmpd only. I don't see
+    any problem here.
+    
+    And libnetsnmpagent changes only "symbol without known external consumers"
+  old_result: 3
+  package_id: 422
+  result_id: 730049
+  run_id: 49233
+  test_id: 13
+  user_id: 211668
+  waive_date: 2011-03-31 10:36:09 -04:00
+  waiver_id: 49711
+rpmdiff_waiver_49712: 
+  description: this is bugfix
+  old_result: 3
+  package_id: 422
+  result_id: 730053
+  run_id: 49233
+  test_id: 21
+  user_id: 211668
+  waive_date: 2011-03-31 10:39:41 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 49712
+rpmdiff_waiver_49713: 
+  description: "the net-snmp-libs are pulled indirectly, all packages require: net-snmp (for mib files) and it requires: net-snmp-libs"
+  old_result: 3
+  package_id: 422
+  result_id: 730069
+  run_id: 49233
+  test_id: 20
+  user_id: 211668
+  waive_date: 2011-03-31 10:42:01 -04:00
+  waiver_id: 49713
+rpmdiff_waiver_49714: 
+  description: Looks sane
+  old_result: 3
+  package_id: 422
+  result_id: 730051
+  run_id: 49233
+  test_id: 34
+  user_id: 211668
+  waive_date: 2011-03-31 10:54:25 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 49714
+rpmdiff_waiver_49767: 
+  description: Every new erratum for xenpv-win includes a change to the version number, because the RPM release number is not visible from the guest's Device Manager.
+  old_result: 4
+  package_id: 2025
+  result_id: 730690
+  run_id: 49252
+  test_id: 28
+  user_id: 3000076
+  waive_date: 2011-04-01 12:31:25 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 49767
+rpmdiff_waiver_49768: 
+  description: This change is ok because Windows ignores the executable bit anyway.
+  old_result: 3
+  package_id: 2025
+  result_id: 730677
+  run_id: 49252
+  test_id: 6
+  user_id: 3000076
+  waive_date: 2011-04-01 12:31:33 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 49768
+rpmdiff_waiver_49769: 
+  description: I added mention that the debug version of the drivers is not meant for use in production systems.
+  old_result: 3
+  package_id: 2025
+  result_id: 730673
+  run_id: 49252
+  test_id: 47
+  user_id: 3000076
+  waive_date: 2011-04-01 12:31:53 -04:00
+  waiver_id: 49769
+rpmdiff_waiver_49770: 
+  description: Label changes in the ISO images.
+  old_result: 3
+  package_id: 2025
+  result_id: 730689
+  run_id: 49252
+  test_id: 12
+  user_id: 3000076
+  waive_date: 2011-04-01 12:32:01 -04:00
+  waiver_id: 49770
+rpmdiff_waiver_50002: 
+  description: |-
+    libnetsnmpmibs is used internally by
+    libnetsnmp and snmpd only. I don't see
+    any problem here.
+    
+    And libnetsnmpagent changes only "symbol without known external consumers"
+  old_result: 3
+  package_id: 422
+  result_id: 745960
+  run_id: 49763
+  test_id: 13
+  user_id: 211668
+  waive_date: 2011-04-06 06:04:03 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 50002
+rpmdiff_waiver_50003: 
+  description: Looks sane
+  old_result: 3
+  package_id: 422
+  result_id: 745962
+  run_id: 49763
+  test_id: 34
+  user_id: 211668
+  waive_date: 2011-04-06 06:04:15 -04:00
+  waiver_id: 50003
+rpmdiff_waiver_50004: 
+  description: this is bugfix
+  old_result: 3
+  package_id: 422
+  result_id: 745964
+  run_id: 49763
+  test_id: 21
+  user_id: 211668
+  waive_date: 2011-04-06 06:04:24 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 50004
+rpmdiff_waiver_50005: 
+  description: "the net-snmp-libs are pulled indirectly, all packages require: net-snmp (for mib files) and it requires: net-snmp-libs"
+  old_result: 3
+  package_id: 422
+  result_id: 745980
+  run_id: 49763
+  test_id: 20
+  user_id: 211668
+  waive_date: 2011-04-06 06:04:32 -04:00
+  waiver_id: 50005
+rpmdiff_waiver_50006: 
+  description: "patched has been updated to properly fix #521820 and memleak related bugs."
+  old_result: 1
+  package_id: 422
+  result_id: 745977
+  run_id: 49763
+  test_id: 17
+  user_id: 211668
+  waive_date: 2011-04-06 06:04:53 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 50006
+rpmdiff_waiver_50511: 
+  description: These files are placed there deliberately for ia32el runtime to use.
+  old_result: 4
+  package_id: 237
+  result_id: 750017
+  run_id: 49891
+  test_id: 11
+  user_id: 190465
+  waive_date: 2011-04-08 08:26:31 -04:00
+  waiver_id: 50511
+rpmdiff_waiver_50512: 
+  description: It actually was rebased to 7044/7032.
+  old_result: 3
+  package_id: 237
+  result_id: 750027
+  run_id: 49891
+  test_id: 17
+  user_id: 190465
+  waive_date: 2011-04-08 08:27:42 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 50512
+rpmdiff_waiver_50648: 
+  description: |-
+    This is caused by timestamps encoded
+    into the fmt files -> OK
+  old_result: 4
+  package_id: 673
+  result_id: 750352
+  run_id: 49901
+  test_id: 18
+  user_id: 165199
+  waive_date: 2011-04-09 04:35:10 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 50648
+rpmdiff_waiver_50649: 
+  description: "Intentional, it is actually a fix for #446811."
+  old_result: 3
+  package_id: 673
+  result_id: 750358
+  run_id: 49901
+  test_id: 20
+  user_id: 165199
+  waive_date: 2011-04-09 04:37:08 -04:00
+  waiver_id: 50649
+rpmdiff_waiver_50687: 
+  description: This is an intention of RHBZ#428811.
+  old_result: 3
+  package_id: 724
+  result_id: 751765
+  run_id: 49946
+  test_id: 3
+  user_id: 3000530
+  waive_date: 2011-04-11 10:20:29 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 50687
+rpmdiff_waiver_50691: 
+  description: This is a helper Python script to convert obsolete inetd.conf files to individual files in /etc/xinetd.d directory. There is no need for manpage, as RHEL switched to xinetd long time ago.
+  old_result: 3
+  package_id: 724
+  result_id: 751768
+  run_id: 49946
+  test_id: 19
+  user_id: 3000530
+  waive_date: 2011-04-11 10:26:37 -04:00
+  waiver_id: 50691
+rpmdiff_waiver_50695: 
+  description: These are changes to fix RHBZ#498119 (see http://refspecs.linux-foundation.org/LSB_3.2.0/LSB-Core-generic/LSB-Core-generic/iniscrptact.html for valid return codes).
+  old_result: 3
+  package_id: 724
+  result_id: 751760
+  run_id: 49946
+  test_id: 21
+  user_id: 3000530
+  waive_date: 2011-04-11 10:28:25 -04:00
+  waiver_id: 50695
+rpmdiff_waiver_50812: 
+  description: This change is ok because...
+  old_result: 4
+  package_id: 724
+  result_id: 751757
+  run_id: 49946
+  test_id: 30
+  user_id: 3000530
+  waive_date: 2011-04-11 13:33:42 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 50812
+rpmdiff_waiver_50829: 
+  description: This change is ok because -r is used and JBOSS_SHELL is /sbin/nologin.
+  old_result: 4
+  package_id: 1982
+  result_id: 752126
+  run_id: 49957
+  test_id: 24
+  user_id: 264390
+  waive_date: 2011-04-11 14:19:40 -04:00
+  waiver_id: 50829
+rpmdiff_waiver_50840: 
+  description: This changes are ok, jboss-seam-gen.jar is in jboss-seam2 package - not required for runtime
+  old_result: 3
+  package_id: 1982
+  result_id: 752113
+  run_id: 49957
+  test_id: 3
+  user_id: 264390
+  waive_date: 2011-04-11 14:26:42 -04:00
+  waiver_id: 50840
+rpmdiff_waiver_50845: 
+  description: This change is ok because -r is used and JBOSS_SHELL is /sbin/nologin.
+  old_result: 4
+  package_id: 1982
+  result_id: 752159
+  run_id: 49958
+  test_id: 24
+  user_id: 264390
+  waive_date: 2011-04-11 14:28:50 -04:00
+  waiver_id: 50845
+rpmdiff_waiver_50849: 
+  description: These changes are ok
+  old_result: 4
+  package_id: 1982
+  result_id: 752146
+  run_id: 49958
+  test_id: 3
+  user_id: 264390
+  waive_date: 2011-04-11 14:29:53 -04:00
+  waiver_id: 50849
+rpmdiff_waiver_50851: 
+  description: These issues are not valid issues
+  old_result: 3
+  package_id: 1982
+  result_id: 752169
+  run_id: 49958
+  test_id: 26
+  user_id: 264390
+  waive_date: 2011-04-11 14:31:06 -04:00
+  waiver_id: 50851
+rpmdiff_waiver_50854: 
+  description: "It is ok,seam2 reference documentation is approx. 4.5 MB big. The previous file size is wrong"
+  old_result: 3
+  package_id: 1982
+  result_id: 752161
+  run_id: 49958
+  test_id: 5
+  user_id: 264390
+  waive_date: 2011-04-11 14:32:04 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 50854
+rpmdiff_waiver_50856: 
+  description: These changes are ok
+  old_result: 3
+  package_id: 1982
+  result_id: 752166
+  run_id: 49958
+  test_id: 12
+  user_id: 264390
+  waive_date: 2011-04-11 14:32:32 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 50856
+rpmdiff_waiver_51089: 
+  description: This waiver is not ok because...
+  old_result: 2
+  package_id: 724
+  result_id: 751757
+  run_id: 49946
+  test_id: 30
+  user_id: 3000530
+  waive_date: 2011-04-12 07:43:17 -04:00
+  waiver_id: 51089
+rpmdiff_waiver_51148: 
+  description: This is a helper Python script to convert obsolete inetd.conf files to individual files in /etc/xinetd.d directory. There is no need for manpage, as RHEL switched to xinetd long time ago.
+  old_result: 3
+  package_id: 724
+  result_id: 753633
+  run_id: 50005
+  test_id: 19
+  user_id: 3000530
+  waive_date: 2011-04-12 09:36:24 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 51148
+rpmdiff_waiver_51149: 
+  description: This is an intention of RHBZ#428811.
+  old_result: 3
+  package_id: 724
+  result_id: 753630
+  run_id: 50005
+  test_id: 3
+  user_id: 3000530
+  waive_date: 2011-04-12 09:36:45 -04:00
+  waiver_id: 51149
+rpmdiff_waiver_51150: 
+  description: These are changes to fix RHBZ#498119 (see http://refspecs.linux-foundation.org/LSB_3.2.0/LSB-Core-generic/LSB-Core-generic/iniscrptact.html for valid return codes).
+  old_result: 3
+  package_id: 724
+  result_id: 753625
+  run_id: 50005
+  test_id: 21
+  user_id: 3000530
+  waive_date: 2011-04-12 09:36:57 -04:00
+  waiver_id: 51150
+rpmdiff_waiver_51300: 
+  description: "Intentional, it is actually a fix for #446811."
+  old_result: 3
+  package_id: 673
+  result_id: 754154
+  run_id: 50020
+  test_id: 20
+  user_id: 165199
+  waive_date: 2011-04-12 12:39:12 -04:00
+  waiver_id: 51300
+rpmdiff_waiver_51301: 
+  description: |-
+    It is a general gnome icon. No need to
+    have it in subpackages.
+  old_result: 3
+  package_id: 673
+  result_id: 754139
+  run_id: 50020
+  test_id: 31
+  user_id: 165199
+  waive_date: 2011-04-12 12:39:31 -04:00
+  waiver_id: 51301
+rpmdiff_waiver_51304: 
+  description: |-
+    This is caused by timestamps encoded
+    into the fmt files -> OK
+  old_result: 4
+  package_id: 673
+  result_id: 754148
+  run_id: 50020
+  test_id: 18
+  user_id: 165199
+  waive_date: 2011-04-12 12:39:59 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 51304
+rpmdiff_waiver_51313: 
+  description: reviewed, OK
+  old_result: 3
+  package_id: 673
+  result_id: 754137
+  run_id: 50020
+  test_id: 22
+  user_id: 165199
+  waive_date: 2011-04-12 12:43:37 -04:00
+  waiver_id: 51313
+rpmdiff_waiver_51761: 
+  description: Adobe binaries, we can't rebuild them.
+  old_result: 4
+  package_id: 18
+  result_id: 755670
+  run_id: 50071
+  test_id: 7
+  user_id: 262302
+  waive_date: 2011-04-13 06:34:15 -04:00
+  waiver_id: 51761
+rpmdiff_waiver_51762: 
+  description: |
+    This is part of the fix of the bug #680202.
+
+  old_result: 3
+  package_id: 18
+  result_id: 755681
+  run_id: 50071
+  test_id: 20
+  user_id: 262302
+  waive_date: 2011-04-13 06:35:12 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 51762
+rpmdiff_waiver_51763: 
+  description: This update changes only the way the package creates symlinks to libraries.
+  old_result: 3
+  package_id: 18
+  result_id: 755664
+  run_id: 50071
+  test_id: 34
+  user_id: 262302
+  waive_date: 2011-04-13 06:36:26 -04:00
+  waiver_id: 51763
+rpmdiff_waiver_51764: 
+  description: |
+    These symlinks are now added in %post section of spec file (and removed in %preun).
+
+  old_result: 3
+  package_id: 18
+  result_id: 755671
+  run_id: 50071
+  test_id: 3
+  user_id: 262302
+  waive_date: 2011-04-13 06:37:22 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 51764
+rpmdiff_waiver_51870: 
+  description: This is not a regression since 6.0.
+  old_result: 3
+  package_id: 319
+  result_id: 756368
+  run_id: 50092
+  test_id: 19
+  user_id: 11001
+  waive_date: 2011-04-13 19:01:25 -04:00
+  waiver_id: 51870
+rpmdiff_waiver_51872: 
+  description: |-
+    The length here is set to non-zero only
+    when compiled in a non-development
+    build, but the variable which holds the
+    value is used in calculations elsewhere.
+    
+    The signed overflow checks are OK. Most
+    are noise, the only ones that are
+    really an issue have already been
+    investigated by upstream as bugs only.
+    
+    This particular bug for krb5 package
+    means this is just a bug, it is not
+    exploitable issue.
+  old_result: 4
+  package_id: 319
+  result_id: 756357
+  run_id: 50092
+  test_id: 30
+  user_id: 275188
+  waive_date: 2011-04-13 19:14:08 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 51872
+rpmdiff_waiver_51891: 
+  description: Adobe binaries, we can't rebuild them.
+  old_result: 4
+  package_id: 18
+  result_id: 756597
+  run_id: 50099
+  test_id: 7
+  user_id: 262302
+  waive_date: 2011-04-14 09:37:47 -04:00
+  waiver_id: 51891
+rpmdiff_waiver_51892: 
+  description: |
+    These symlinks were removed as part of the fix of the bug #680202.
+
+  old_result: 3
+  package_id: 18
+  result_id: 756598
+  run_id: 50099
+  test_id: 3
+  user_id: 262302
+  waive_date: 2011-04-14 09:39:47 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 51892
+rpmdiff_waiver_51893: 
+  description: This update just removes 4 symlinks.
+  old_result: 3
+  package_id: 18
+  result_id: 756591
+  run_id: 50099
+  test_id: 34
+  user_id: 262302
+  waive_date: 2011-04-14 09:40:27 -04:00
+  waiver_id: 51893
+rpmdiff_waiver_51894: 
+  description: |
+    This is part of the fix of the bug #680202.
+
+  old_result: 3
+  package_id: 18
+  result_id: 756608
+  run_id: 50099
+  test_id: 20
+  user_id: 262302
+  waive_date: 2011-04-14 09:41:11 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 51894
+rpmdiff_waiver_51926: 
+  description: |-
+    This is a false positive
+    
+    commons-collections.jar is provided by jakarta-commons-collections. This is a BR: and tomcat-lib contains Requires. It is added to the package with build-jar-repository without error. Link is made in libdir without error
+    
+    commons-dbcp.jar is provided by jakarta-commons-dbcp. There is a BR: and tomcat-lib contains Requires. It is added to the package with build-jar-repository without error. Link is made in $libdir without error.
+    
+    commons-pool.jar is provided by jakarta-commons-pool. There is a BR: and tomcat-lib contains Requires: it is added to the package with build-jar-repository without error. Link is made in $libdir without error.
+    
+    log4j.jar is provided by package log4j. There is a BR: and tomcat6-lib contains Requires. Link is made in $libdir without error.
+  old_result: 4
+  package_id: 2633
+  result_id: 756417
+  run_id: 50093
+  test_id: 27
+  user_id: 211874
+  waive_date: 2011-04-14 11:15:22 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 51926
+rpmdiff_waiver_52022: 
+  description: This is a consequence of the embedded copy of expat being removed from pyexpat.so; it's now linked against the system copy of expat (to bring in the fix for CVE-2009-3720, and any future expat fixes)
+  old_result: 3
+  package_id: 496
+  result_id: 758494
+  run_id: 50162
+  test_id: 13
+  user_id: 160546
+  waive_date: 2011-04-15 18:28:01 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 52022
+rpmdiff_waiver_52023: 
+  description: |-
+    I added test_httpservers as part of the fix for CVE-2011-1015: the various *HTTPServer* modules had no coverage within python's test suite.
+    
+    This is a backport of the test suite added upstream, with some changes to get it to work on 2.3
+  old_result: 3
+  package_id: 496
+  result_id: 758503
+  run_id: 50162
+  test_id: 3
+  user_id: 160546
+  waive_date: 2011-04-15 18:29:36 -04:00
+  waiver_id: 52023
+rpmdiff_waiver_52024: 
+  description: This is a consequence of the pyexpat.so being linked against the system copy of expat, rather than having its own copy of expat (to bring in the fix for CVE-2009-3720, and any future expat fixes)
+  old_result: 3
+  package_id: 496
+  result_id: 758509
+  run_id: 50162
+  test_id: 14
+  user_id: 160546
+  waive_date: 2011-04-15 18:30:43 -04:00
+  acked: 1
+  acked_by: 3000644
+  ack_description: The explanation looks fine to me.
+  waiver_id: 52024
+rpmdiff_waiver_52025: 
+  description: |
+    autoconf is now needed at build-time due to the fix for CVE-2009-3720 (adding a
+    --with-system-expat option to the configure script).
+    
+    The libexpat requirements appearing are a consequence of pyexpat.so now being linked against the system copy of expat, rather than having its own copy of expat (to bring in the fix for CVE-2009-3720, and any future expat fixes).
+    
+    The "Conflicts" change is expected, due to bump of release
+
+  old_result: 3
+  package_id: 496
+  result_id: 758514
+  run_id: 50162
+  test_id: 20
+  user_id: 160546
+  waive_date: 2011-04-15 18:33:52 -04:00
+  waiver_id: 52025
+rpmdiff_waiver_52026: 
+  description: The shrinking of the various pyexpat.so files are a consequence of pyexpat.so now being linked against the system copy of expat, rather than having its own copy of expat (to bring in the fix for CVE-2009-3720, and any future expat fixes).
+  old_result: 3
+  package_id: 496
+  result_id: 758519
+  run_id: 50162
+  test_id: 5
+  user_id: 160546
+  waive_date: 2011-04-15 18:34:07 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 52026
+rpmdiff_waiver_52027: 
+  description: |-
+    This is a known issue, which appears
+    when there are hard-linked binaries
+    present in the package. One of the
+    binaries remains unstripped in the
+    debuginfo packages, so it's ok.
+  old_result: 4
+  package_id: 496
+  result_id: 758521
+  run_id: 50162
+  test_id: 4
+  user_id: 160546
+  waive_date: 2011-04-15 18:38:59 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 52027
+rpmdiff_waiver_52035: 
+  description: It's 3rd party binary we can't change even if Adobe changes ABI.
+  old_result: 3
+  package_id: 155
+  result_id: 758661
+  run_id: 50167
+  test_id: 13
+  user_id: 168845
+  waive_date: 2011-04-18 03:26:08 -04:00
+  waiver_id: 52035
+rpmdiff_waiver_52036: 
+  description: It's the fix.
+  old_result: 4
+  package_id: 155
+  result_id: 758691
+  run_id: 50167
+  test_id: 28
+  user_id: 168845
+  waive_date: 2011-04-18 03:27:02 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 52036
+rpmdiff_waiver_52037: 
+  description: Intended change, move to newer upstream version.
+  old_result: 3
+  package_id: 155
+  result_id: 758674
+  run_id: 50167
+  test_id: 47
+  user_id: 168845
+  waive_date: 2011-04-18 03:27:37 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 52037
+rpmdiff_waiver_52038: 
+  description: It's 3rd party binary we can't change even if Adobe changes ABI.
+  old_result: 3
+  package_id: 155
+  result_id: 758628
+  run_id: 50166
+  test_id: 13
+  user_id: 168845
+  waive_date: 2011-04-18 03:27:51 -04:00
+  acked: 1
+  acked_by: 3000606
+  ack_description: "It is acceptable.\n(For now.)"
+  waiver_id: 52038
+rpmdiff_waiver_52039: 
+  description: It's the fix.
+  old_result: 4
+  package_id: 155
+  result_id: 758658
+  run_id: 50166
+  test_id: 28
+  user_id: 168845
+  waive_date: 2011-04-18 03:28:37 -04:00
+  waiver_id: 52039
+rpmdiff_waiver_52040: 
+  description: Intended change, move to newer upstream version.
+  old_result: 3
+  package_id: 155
+  result_id: 758641
+  run_id: 50166
+  test_id: 47
+  user_id: 168845
+  waive_date: 2011-04-18 03:29:01 -04:00
+  waiver_id: 52040
+rpmdiff_waiver_52170: 
+  description: |-
+    kcmshell is included in kdelibs. Please
+    ignore
+  old_result: 3
+  package_id: 312
+  result_id: 760096
+  run_id: 50210
+  test_id: 31
+  user_id: 12909
+  waive_date: 2011-04-19 10:24:35 -04:00
+  waiver_id: 52170
+rpmdiff_waiver_52171: 
+  description: there's only help in html format.
+  old_result: 3
+  package_id: 312
+  result_id: 760103
+  run_id: 50210
+  test_id: 19
+  user_id: 12909
+  waive_date: 2011-04-19 10:27:30 -04:00
+  waiver_id: 52171
+rpmdiff_waiver_52172: 
+  description: "The change is ok, because the library  \r\n\
+    is only internally used in kopete.  "
+  old_result: 3
+  package_id: 312
+  result_id: 760091
+  run_id: 50210
+  test_id: 13
+  user_id: 12909
+  waive_date: 2011-04-19 10:29:03 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 52172
+rpmdiff_waiver_52179: 
+  description: These are known. I need to get them upstream at some point.
+  old_result: 4
+  package_id: 312
+  result_id: 759991
+  run_id: 50207
+  test_id: 30
+  user_id: 163483
+  waive_date: 2011-04-19 11:32:07 -04:00
+  waiver_id: 52179
+rpmdiff_waiver_52180: 
+  description: kcmshell is included in kdebase-runtime.
+  old_result: 3
+  package_id: 312
+  result_id: 759995
+  run_id: 50207
+  test_id: 31
+  user_id: 12909
+  waive_date: 2011-04-19 11:36:46 -04:00
+  waiver_id: 52180
+rpmdiff_waiver_52181: 
+  description: |-
+    the kdenetwork doesn't has this
+    requires, it seems rpmbuild adds this
+    requires. This change is fine with me.
+  old_result: 3
+  package_id: 312
+  result_id: 760010
+  run_id: 50207
+  test_id: 20
+  user_id: 12909
+  waive_date: 2011-04-19 11:37:18 -04:00
+  waiver_id: 52181
+rpmdiff_waiver_52182: 
+  description: there's only help in html format.
+  old_result: 3
+  package_id: 312
+  result_id: 760002
+  run_id: 50207
+  test_id: 19
+  user_id: 12909
+  waive_date: 2011-04-19 11:37:33 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 52182
+rpmdiff_waiver_52209: 
+  description: |-
+    This is a false positive
+    
+    commons-collections.jar is provided by jakarta-commons-collections. This is a BR: and tomcat-lib contains Requires. It is added to the package with build-jar-repository without error. Link is made in libdir without error
+    
+    commons-dbcp.jar is provided by jakarta-commons-dbcp. There is a BR: and tomcat-lib contains Requires. It is added to the package with build-jar-repository without error. Link is made in $libdir without error.
+    
+    commons-pool.jar is provided by jakarta-commons-pool. There is a BR: and tomcat-lib contains Requires: it is added to the package with build-jar-repository without error. Link is made in $libdir without error.
+    
+    log4j.jar is provided by package log4j. There is a BR: and tomcat6-lib contains Requires. Link is made in $libdir without error.
+  old_result: 4
+  package_id: 2633
+  result_id: 760550
+  run_id: 50224
+  test_id: 27
+  user_id: 211874
+  waive_date: 2011-04-19 15:42:14 -04:00
+  waiver_id: 52209
+rpmdiff_waiver_52210: 
+  description: This is expected. log4j subpackage was removed.
+  old_result: 3
+  package_id: 2633
+  result_id: 760533
+  run_id: 50224
+  test_id: 2
+  user_id: 211874
+  waive_date: 2011-04-19 15:42:46 -04:00
+  waiver_id: 52210
+rpmdiff_waiver_52211: 
+  description: This is expected. Log4j subpackage was removed.
+  old_result: 3
+  package_id: 2633
+  result_id: 760544
+  run_id: 50224
+  test_id: 1
+  user_id: 211874
+  waive_date: 2011-04-19 15:42:56 -04:00
+  waiver_id: 52211
+rpmdiff_waiver_52212: 
+  description: "man pages are not created for the init scripts. "
+  old_result: 3
+  package_id: 2633
+  result_id: 760535
+  run_id: 50224
+  test_id: 19
+  user_id: 211874
+  waive_date: 2011-04-19 15:43:06 -04:00
+  acked: 1
+  acked_by: 3001233
+  waiver_id: 52212
+rpmdiff_waiver_52213: 
+  description: These permissions have not changed in the el6 spec since the last release.
+  old_result: 3
+  package_id: 2633
+  result_id: 760540
+  run_id: 50224
+  test_id: 6
+  user_id: 211874
+  waive_date: 2011-04-19 15:52:25 -04:00
+  waiver_id: 52213
+rpmdiff_waiver_52214: 
+  description: "Expected entries. "
+  old_result: 3
+  package_id: 2633
+  result_id: 760526
+  run_id: 50224
+  test_id: 22
+  user_id: 211874
+  waive_date: 2011-04-19 15:55:24 -04:00
+  waiver_id: 52214
+rpmdiff_waiver_52215: 
+  description: Expected change.
+  old_result: 3
+  package_id: 2633
+  result_id: 760527
+  run_id: 50224
+  test_id: 21
+  user_id: 211874
+  waive_date: 2011-04-19 15:58:02 -04:00
+  waiver_id: 52215
+rpmdiff_waiver_52216: 
+  description: tomcat6-log4j package was removed. commons-*-tomcat5 packages have been removed and replaced by commons-*.jar
+  old_result: 3
+  package_id: 2633
+  result_id: 760532
+  run_id: 50224
+  test_id: 3
+  user_id: 211874
+  waive_date: 2011-04-19 16:01:32 -04:00
+  waiver_id: 52216
+rpmdiff_waiver_52217: 
+  description: tomcat6-log4j package and commons-*-tomcat5 packages have been removed.
+  old_result: 3
+  package_id: 2633
+  result_id: 760542
+  run_id: 50224
+  test_id: 20
+  user_id: 211874
+  waive_date: 2011-04-19 16:03:11 -04:00
+  waiver_id: 52217
+rpmdiff_waiver_52218: 
+  description: Generated docs can change in size because of changes in javadoc attributes.
+  old_result: 3
+  package_id: 2633
+  result_id: 760547
+  run_id: 50224
+  test_id: 5
+  user_id: 211874
+  waive_date: 2011-04-19 16:04:27 -04:00
+  waiver_id: 52218
+rpmdiff_waiver_52219: 
+  description: Generated docs can change in type and size.
+  old_result: 3
+  package_id: 2633
+  result_id: 760552
+  run_id: 50224
+  test_id: 12
+  user_id: 211874
+  waive_date: 2011-04-19 16:05:08 -04:00
+  waiver_id: 52219
+rpmdiff_waiver_137549:
+  test_id: 17
+  waiver_id: 137549
+  waive_date: 2015-04-09 19:26:52 Z
+  result_id: 3024752
+  user_id: 270531
+  old_result: 4
+  package_id: 939
+  acked: false
+  acked_by:
+  description: All patches are now applied using "git am". See https://bugzilla.redhat.com/show_bug.cgi?id=1131573 for details
+  run_id: 121307
+rpmdiff_waiver_137666:
+  test_id: 17
+  waiver_id: 137666
+  waive_date: 2015-04-10 20:20:45 Z
+  result_id: 3026591
+  user_id: 270531
+  old_result: 4
+  package_id: 939
+  acked: false
+  acked_by:
+  description: All patches are now applied using "git am". See https://bugzilla.redhat.com/show_bug.cgi?id=1131573 for details
+  run_id: 121360

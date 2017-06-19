@@ -1,0 +1,43 @@
+<% if @build_search_errors.any? %>
+  <%= render :partial => 'build_errors' %>
+<% end %>
+<!-- Don't allow user to reload the missing product listing builds in preview page -->
+<%= render "shared/no_product_listings_warning", :allow_reload => false %>
+<table>
+  <tr>
+    <td><%= button_to "Search Again", {:action => 'list_files', :id => @errata}, :class=>'btn' %></td>
+    <td><%= button_to "Return to Advisory", {:action => 'view', :controller => 'errata', :id => @errata}, :class=>'btn'  %></td>
+  </tr>
+</table>
+<% if @build_count > 0 %>
+
+  <% if @build_relations.any?
+    have_unsatisfied_relations = @build_relations.reject(&:satisfied?).any?
+    explanations = @build_relations.map(&:general_explanation).sort.uniq
+    %>
+    <div class="infobox <%= 'with_icon alert_icon' if have_unsatisfied_relations %>"><div>
+      <p>
+      Errata Tool has automatically added some related builds to the builds list.
+
+      <% if have_unsatisfied_relations %>
+        However, some related builds could not be fetched.  Please review the build
+        search errors listed above.
+      <% end %>
+      </p>
+
+      <p>
+        The following related builds were detected:
+        <ul>
+        <% @build_relations.sort_by{|rel| [rel.nvr, rel.related_nvr, rel.summary]}.each do |rel| %>
+          <li><%= rel.related_nvr %> - <%= rel.summary %></li>
+        <% end %>
+        </ul>
+      </p>
+
+      <% explanations.each do |ex| %>
+        <p><%= ex %></p>
+      <% end %>
+    </div></div>
+  <% end %>
+  <%= render :partial => 'found_builds' %>
+<% end %>

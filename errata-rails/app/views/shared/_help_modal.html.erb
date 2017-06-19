@@ -1,0 +1,30 @@
+<%#
+  # Usage:
+  #
+  #  <%= block_render 'shared/help_modal', :link_text=>"Where's my component?" do x>
+  #    help text here
+  #  <% end x>
+  #
+  # Can also pass in a title local if you need to. Default title is same as link_text.
+  # Pass in no_icon => true to hide the info icon.
+  #
+  # The oddball layout is to avoid unwanted leading whitespace.
+  #
+-%>
+<div class="help_modal_container" style="display:inline;"><div
+  class="modal" style="display:none;">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h3><%= image_tag('icon_info.png') %> <%= (defined?(title) && title) ? title : link_text %></h3>
+    </div>
+    <div class="modal-body">
+      <%= yield %>
+    </div>
+  </div><%=
+  link_to(
+    "#{link_text}#{image_tag('icon_info.png') unless defined?(no_icon) && no_icon}".html_safe,
+    "#",
+    :class => 'open-help-modal',
+    :style=>'display:inline;'
+  )%>
+</div>

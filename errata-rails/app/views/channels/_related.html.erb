@@ -1,0 +1,25 @@
+<% display_name = Channel.display_name %>
+
+<% if can_edit_mgmt_items? %>
+  <h3>Create</h3>
+  <ul>
+    <li><%= modal_link(icon_btn_text("#{display_name}",:plus), new_product_version_channel_path(@product_version, :variant_id => @channel.try(:variant))) %></li>
+  </ul>
+<% end %>
+
+<% if @channel %>
+<h3>Related</h3>
+<ul>
+  <li><%= link_to("#{display_name.pluralize} for #{@product_version.name}", product_version_channels_path(@product_version)) %></li>
+</ul>
+<% end %>
+
+<h3>Back to</h3>
+<ul>
+<% if @channel && !@channel.new_record? %>
+  <li><%= link_to("#{@channel.variant.name} Variant", product_version_variant_path(@product_version, @channel.variant)) %></li>
+<% end %>
+  <li><%= link_to "#{@product_version.canonical_short_name} Product version", product_version_path(@product_version) %></li>
+  <li><%= link_to "#{@product_version.product.canonical_short_name} Product", product_path(@product_version.product) %></li>
+  <li><%= link_to "All Products", products_path %></li>
+</ul>

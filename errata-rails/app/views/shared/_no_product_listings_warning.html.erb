@@ -1,0 +1,31 @@
+<% allow_reload = true if allow_reload.nil? %>
+<% unless @no_listings.empty?%>
+  <div id="no_product_listing_warning" class="alert alert-block">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Could not get product listings for the following Brew Builds.</strong>
+    <p>
+    The product listings for these Brew Builds might not have been created in <%= @errata.is_pdc? ? "PDC" : "ComposeDB" %> yet or there could have been a connection
+    timeout when the listings were being fetched. If these are newly added components you might need to wait a day for nightly
+    composes to create the product listings or contact <a href="mailto:release-engineering@redhat.com">release&nbsp;engineering</a>
+    if you need to send this advisory to QE faster. This advisory will be blocked in <strong>NEW_FILES</strong> state until all
+    RPM Brew Builds have valid product listings.
+    </p>
+    <p><%= content_tag(:a, "List Brew Builds", :data => {:toggle => "collapse", :target => "#no_plc"}) %></p>
+    <div id="no_plc" class="collapse out">
+      <div class="well well-small">
+      <% @no_listings.sort_by{|pv, builds| pv.short_name}.each do |pv, builds| %>
+        <%= pv.short_name %>
+        <% builds.sort_by(&:nvr).each do |build| %>
+          <ul><li><a href="#<%= "#{pv.id}_#{build.id}" %>" class="warning-link"><%= build.nvr %></a></li></ul>
+        <% end %>
+      <% end %>
+      </div>
+    </div>
+    <% if allow_reload %>
+      <%= form_tag(erratum_reload_builds_path(@errata), :method => :post) do %>
+        <%= hidden_field_tag(:no_rpm_listing_only, "1") %>
+        <%= submit_tag("Reload these Brew Builds", :class => "btn btn-warning") %>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

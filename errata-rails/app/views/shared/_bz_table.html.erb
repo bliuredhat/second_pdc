@@ -1,0 +1,55 @@
+<%#
+  #
+  # tablesorter is loaded and inited in main_layout now
+  #
+-%>
+<% if defined?(none_message) && none_message.present? && row_items.empty? %>
+  <p class="light italic" style="<%= 'padding-bottom:10em;' unless defined?(no_pad_none_message) %>"><%=raw none_message %></p>
+
+<% else %>
+<% if defined?(wrapper_div) %><div class="<%= wrapper_div %>"><% end %>
+<table
+  class="<%= 'tablesorter ' unless defined?(no_tablesort) %>bug_list<%= " #{extra_class}" if defined?(extra_class) %>"
+  cellpadding="0" cellspacing="0"
+  width="<%= defined?(table_width) ? table_width : '100%' %>">
+
+<% unless headers.empty? %>
+  <thead>
+<tr>
+<% headers.each do |col|
+  if col.is_a? Hash %>
+    <%= content_tag(:th, col[:content].html_safe, col[:options]) %>
+  <% else %>
+    <th class="<%= 'sortable ' unless defined?(no_tablesort) %>"><%= col.html_safe %></th>
+  <% end %>
+<% end %>
+</tr>
+  </thead>
+<% end %>
+<tbody>
+
+<% if row_items.any? && defined?(group_by_func) %>
+  <%# Yet another grouping hack... %>
+  <% colspan = func.call(row_items.first).length %>
+  <% row_items.group_by { |item| group_by_func.call(item) }.each do |group_key, items| %>
+    <% reset_cycle('bz_table_rows') %>
+    <tr class="<%= cycle('bz_even', 'bz_odd', :name=>'bz_table_rows') %>">
+      <td style="font-size:120%;border-style:none!important;" colspan="<%= colspan %>"><br/><%=raw group_key %>
+    </td></tr>
+    <%= render(:partial => "shared/bz_rows", :object => items, :locals => {:func => func }) %>
+  <% end %>
+
+<% elsif row_items.any? %>
+  <%# Normal flat table %>
+  <%= render(:partial => "shared/bz_rows", :object => row_items, :locals => {:func => func }) %>
+<% elsif defined?(no_content_text) %>
+  <%# Print no content text here if the row is empty %>
+  <%= content_tag(:tr) do %>
+    <%= content_tag(:td, no_content_text, {:class => "light", :align => "center", :colspan => headers.size}) %>
+  <% end %>
+<% end %>
+
+</tbody>
+</table>
+<% if defined?(wrapper_div) %></div><% end %>
+<% end %>

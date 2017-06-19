@@ -1,0 +1,98 @@
+#!/bin/sh
+set -eu
+
+# Script for starting ET within vivd.
+# (See et-vivd ansible playbook.)
+#
+# This script will be invoked in a container with:
+# - ET code located at /code (in root filesystem)
+# - mysql volume at /var/lib/mysql
+# - A generic data volume at /data
+#
+# (All persistent.)
+#
+# It should bring the container to a state where ET is up and accepting
+# HTTP requests on port 3000.
+#
+# Please keep this script simple, ansible should do most of the work.
+
+# True if container has been initialized at least once
+has_init() {
+  test -f /data/.vivd-init
+}
+
+# Make it so that has_init returns true
+set_has_init() {
+  sudo touch /data/.vivd-init
+}
+
+start_services() {
+  sudo service mysqld start
+}
+
+pre_init() {
+  start_services
+}
+
+
+bundle_install_gems() {
+  # install into vendor/bundle/ which is where the
+  # bundle install --deployment would install gems to but requires
+  # all gems to be cached (including development and testing)
+
+  bundle install -j8 --no-cache \
+    --path vendor/bundle/ 2>&1
+}
+
+populate_db() {
+  # Ensure delayed jobs are serviced
+  echo "Creating and populating db"
+  bundle exec rake db:create db:schema:load db:fixtures:load 2>&1
+}
+
+fetch_news_feed() {
+  bundle exec rake news_feed:force_update 2>&1
+}
+
+# Do the one-time initialization of this container
+do_init() {
+  # chown all the code to self because:
+  #
+  # - The code may not have been added to root filesystem as current user.
+  #
+  # - This also allows volumes under /code (or /code itself as a volume) to
+  #   work. e.g. may be useful for making the "log" directory a volume.
+  #
+  # It's best-effort so we can try to keep going if a volume was mounted
+  # pointing at some un-chownable files, such as selinux-protected files.
+  sudo chown $(id -u):$(id -g) -R . || true
+
+  bundle_install_gems
+  populate_db
+  fetch_news_feed
+
+  set_has_init
+}
+
+# Start executing errata tool.
+# Must be initialized by this point.
+exec_et() {
+  # May be left over pid files from abnormally stopped container
+  rm -rf tmp/pids/
+
+  echo "Starting delayed jobs"
+  bundle exec rake jobs:work &
+
+  # Main http daemon
+  echo "Starting rails server"
+  exec bundle exec rails s 2>&1
+}
+
+run() {
+  cd /code
+  pre_init
+  has_init || do_init
+  exec_et
+}
+
+run

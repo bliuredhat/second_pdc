@@ -1,0 +1,119 @@
+--- 
+state_machine_rule_set_00001: 
+  created_at: 2012-09-25 20:11:45 Z
+  description: The standard RHEL Errata process
+  id: 1
+  is_locked: false
+  name: Default
+  test_requirements: !ruby/object:Set 
+    hash: 
+      docs: true
+      mandatory: true
+      rhn: true
+      rpmdiff: true
+      tps: true
+      securityapproval: true
+      ccat: true
+      stagepush: true
+      docker: true
+      dockermetarepo: true
+      bugs: true
+  updated_at: 2015-01-28 05:00:27 Z
+state_machine_rule_set_00002:
+  updated_at: 2015-01-28 05:00:27 Z
+  created_at: 2012-11-09 16:25:09 Z
+  description: Only has the mandatory Build and ShippedLive Guards
+  name: Unrestricted
+  is_locked: false
+  id: 2
+  test_requirements: !ruby/object:Set 
+    hash: 
+      mandatory: true
+      securityapproval: true
+      ccat: true
+state_machine_rule_set_00005: 
+  created_at: 2013-09-25 20:11:45 Z
+  description: The standard RHEL Errata process with mandatory rpmdiff review
+  id: 5
+  is_locked: false
+  name: Mandatory RPMDiff Review
+  test_requirements: !ruby/object:Set 
+    hash: 
+      docs: true
+      mandatory: true
+      rhn: true
+      rpmdiff: true
+      tps: true
+      securityapproval: true
+      ccat: true
+      stagepush: true
+      docker: true
+      dockermetarepo: true
+      bugs: true
+  updated_at: 2015-01-28 05:00:27 Z
+state_machine_rule_set_3:
+  updated_at: 2015-01-28 05:00:27 Z
+  created_at: 2013-03-18 06:58:10 Z
+  id: 3
+  name: CDN Push Only
+  description: Same as Default rule set but with RHN related requirements removed
+  test_requirements: !ruby/object:Set
+    hash:
+      rhn: true
+      docs: true
+      tps: true
+      mandatory: true
+      rpmdiffreview: true
+      rpmdiff: true
+      securityapproval: true
+      ccat: true
+      stagepush: true
+      docker: true
+      dockermetarepo: true
+      bugs: true
+  is_locked: false
+state_machine_rule_set_10:
+  created_at: 2015-01-28 05:00:27 Z
+  test_requirements: !ruby/object:Set
+    hash:
+      rpmdiffreview: true
+      securityapproval: true
+      mandatory: true
+      rhn: true
+      tps: true
+      rpmdiff: true
+      TpsDistQAManualOnly: true
+      ccat: true
+      stagepush: true
+      docker: true
+      dockermetarepo: true
+      bugs: true
+  name: Optional TPS DistQA
+  description: Non-blocking TPS DistQA and schedule TPS DistQA manually. Otherwise, same as default rule set.
+  is_locked: false
+  updated_at: 2015-01-28 05:00:27 Z
+  id: 10
+state_machine_rule_set_15:
+  test_requirements: !ruby/object:Set
+    hash:
+      externaltests: true
+      tps: true
+      docs: true
+      covscan: true
+      securityapproval: true
+      mandatory: true
+      abidiff: true
+      rhn: true
+      rpmdiffreview: true
+      rpmdiff: true
+      ccat: true
+      stagepush: true
+      docker: true
+      dockermetarepo: true
+      bugs: true
+  created_at: 2015-04-27 07:14:02 Z
+  is_locked: false
+  name: Covscan & ABIDiff
+  id: 15
+  updated_at: 2015-04-27 07:14:03 Z
+  description: Same as Default rule set but with non-blocking Covscan and non-blocking ABIDiff

@@ -1,0 +1,18 @@
+<%#
+  #
+  # Locals:
+  #   right (optional)
+  #   btn_text (optional)
+  #   extra_class (optional)
+  #
+  # Example usage:
+  # <%= block_render 'shared/more_button_menu', :right => true do x>
+  #   <li><%= link_to 'Foo, '#' x></li>
+  #   <li><%= link_to 'Bar, '#' x></li>
+  # <% end x>
+  #
+-%>
+<a class="btn dropdown-toggle <%= defined?(extra_class) ? extra_class : '' %>" data-toggle="dropdown" href="#"><%= defined?(btn_text) ? btn_text : 'More' %> <span class="caret"></span></a>
+<ul class="dropdown-menu<%= " pull-right" if defined?(right) && right %>">
+  <%= yield %>
+</ul>

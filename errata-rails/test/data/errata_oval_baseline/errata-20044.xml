@@ -1,0 +1,166 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:red-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:unix-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux linux-definitions-schema.xsd">
+  <generator>
+    <oval:product_name>Red Hat Errata System</oval:product_name>
+    <oval:schema_version>5.10.1</oval:schema_version>
+    <oval:timestamp>2012-12-12T12:12:12</oval:timestamp>
+  </generator>
+
+  <definitions>
+    <definition class="patch" id="oval:com.redhat.rhba:def:20151395" version="604">
+      <metadata>
+        <title>RHBA-2015:1395: rhn-client-tools bug fix update (None)</title>
+    <affected family="unix">
+      <platform>Red Hat Enterprise Linux 6</platform>
+    </affected>
+    <reference ref_id="RHBA-2015:1395-03" ref_url="https://access.redhat.com/errata/RHBA-2015:1395" source="RHBA"></reference>
+      <reference ref_id="CVE-1234-5678" ref_url="https://access.redhat.com/security/cve/CVE-1234-5678" source="CVE"></reference>
+    <description>Red Hat Network Client Tools provide programs and libraries that allow a system to receive software updates from Red Hat Network.
+This update fixes the following bugs:
+* When the rhnpush command was executed with the --server option, and the sslCACert variable was pointing to a non-existent path, rhnpush failed even when the connection to the server used the http protocol instead of https.
+With this update, rhnpush searches for CA certificate only when it is necessary, which prevents the described failure from occurring. (BZ#871028)
+* Previously, the rhn_check command returned an exception when processing a script that contained non-ascii characters. With this update, rhn_check accepts non-ascii characters as expected. (BZ#1003790)
+* When executing the rhnpush command without any options, the command redundantly prompted for user credentials, and afterwards displayed a usage message about missing options. With this update, the command displays available options without asking for credentials. (BZ#1036586)
+* Red Hat Network Client Tools did not calculate the CPU socket information on certain systems properly. With this update, rhn-client-tools parse the /proc/cpuinfo file correctly and thus provide the correct CPU socket information for all systems. (BZ#1094776)
+* Several minor bugs have been fixed in various localizations of the Red Hat Network Client Tools GUI. (BZ#1147319, BZ#1147322, BZ#1147890, BZ#1147904, BZ#1147916)
+* Previously, when running the "firstboot --reconfig" command on the system that was already registered with the Red Hat Subscription Management, the boot procedure failed on the Choose Service page. This bug has been fixed, and the exception no longer occurs on registered systems. (BZ#1147425)
+Users of rhn-client-tools are advised to upgrade to these updated packages, which fix these bugs.</description>
+
+
+
+<advisory from="secalert@redhat.com">
+        <severity>None</severity>
+        <rights>Copyright 2015 Red Hat, Inc.</rights>
+        <issued date="2015-07-22"></issued>
+        <updated date="2015-07-22"></updated>
+        <cve href="https://access.redhat.com/security/cve/CVE-1234-5678">CVE-1234-5678</cve>
+    <affected_cpe_list>
+        <cpe>cpe:/o:redhat:enterprise_linux:6</cpe>
+    </affected_cpe_list>
+</advisory>
+      </metadata>
+      <criteria operator="AND">
+ 
+ <criteria operator="OR">
+ <criterion comment="Red Hat Enterprise Linux 6 Client is installed" test_ref="oval:com.redhat.rhba:tst:20151395001"></criterion><criterion comment="Red Hat Enterprise Linux 6 Server is installed" test_ref="oval:com.redhat.rhba:tst:20151395002"></criterion><criterion comment="Red Hat Enterprise Linux 6 Workstation is installed" test_ref="oval:com.redhat.rhba:tst:20151395003"></criterion><criterion comment="Red Hat Enterprise Linux 6 ComputeNode is installed" test_ref="oval:com.redhat.rhba:tst:20151395004"></criterion>
+ 
+</criteria>
+<criteria operator="OR">
+ 
+ <criteria operator="AND">
+ <criterion comment="rhn-check is earlier than 0:1.0.0.1-32.el6" test_ref="oval:com.redhat.rhba:tst:20151395009"></criterion><criterion comment="rhn-check is signed with Red Hat redhatrelease2 key" test_ref="oval:com.redhat.rhba:tst:20151395010"></criterion>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion comment="rhn-client-tools is earlier than 0:1.0.0.1-32.el6" test_ref="oval:com.redhat.rhba:tst:20151395005"></criterion><criterion comment="rhn-client-tools is signed with Red Hat redhatrelease2 key" test_ref="oval:com.redhat.rhba:tst:20151395006"></criterion>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion comment="rhn-setup is earlier than 0:1.0.0.1-32.el6" test_ref="oval:com.redhat.rhba:tst:20151395007"></criterion><criterion comment="rhn-setup is signed with Red Hat redhatrelease2 key" test_ref="oval:com.redhat.rhba:tst:20151395008"></criterion>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion comment="rhn-setup-gnome is earlier than 0:1.0.0.1-32.el6" test_ref="oval:com.redhat.rhba:tst:20151395011"></criterion><criterion comment="rhn-setup-gnome is signed with Red Hat redhatrelease2 key" test_ref="oval:com.redhat.rhba:tst:20151395012"></criterion>
+ 
+</criteria>
+
+</criteria>
+
+</criteria>
+
+    </definition>
+  </definitions>
+  <tests>
+    
+    <rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="Red Hat Enterprise Linux 6 Client is installed" id="oval:com.redhat.rhba:tst:20151395001" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395001"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395002"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="Red Hat Enterprise Linux 6 Server is installed" id="oval:com.redhat.rhba:tst:20151395002" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395002"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395002"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="Red Hat Enterprise Linux 6 Workstation is installed" id="oval:com.redhat.rhba:tst:20151395003" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395003"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395002"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="Red Hat Enterprise Linux 6 ComputeNode is installed" id="oval:com.redhat.rhba:tst:20151395004" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395004"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395002"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="rhn-client-tools is earlier than 0:1.0.0.1-32.el6" id="oval:com.redhat.rhba:tst:20151395005" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395005"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395003"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="rhn-client-tools is signed with Red Hat redhatrelease2 key" id="oval:com.redhat.rhba:tst:20151395006" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395005"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395001"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="rhn-setup is earlier than 0:1.0.0.1-32.el6" id="oval:com.redhat.rhba:tst:20151395007" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395006"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395003"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="rhn-setup is signed with Red Hat redhatrelease2 key" id="oval:com.redhat.rhba:tst:20151395008" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395006"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395001"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="rhn-check is earlier than 0:1.0.0.1-32.el6" id="oval:com.redhat.rhba:tst:20151395009" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395007"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395003"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="rhn-check is signed with Red Hat redhatrelease2 key" id="oval:com.redhat.rhba:tst:20151395010" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395007"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395001"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="rhn-setup-gnome is earlier than 0:1.0.0.1-32.el6" id="oval:com.redhat.rhba:tst:20151395011" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395008"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395003"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="rhn-setup-gnome is signed with Red Hat redhatrelease2 key" id="oval:com.redhat.rhba:tst:20151395012" version="604">
+  <object object_ref="oval:com.redhat.rhba:obj:20151395008"></object>
+  <state state_ref="oval:com.redhat.rhba:ste:20151395001"></state>
+</rpminfo_test>
+
+  </tests>
+
+  <objects>
+    
+    <rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:obj:20151395001" version="604">
+  <name>redhat-release-client</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:obj:20151395004" version="604">
+  <name>redhat-release-computenode</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:obj:20151395002" version="604">
+  <name>redhat-release-server</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:obj:20151395003" version="604">
+  <name>redhat-release-workstation</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:obj:20151395007" version="604">
+  <name>rhn-check</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:obj:20151395005" version="604">
+  <name>rhn-client-tools</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:obj:20151395006" version="604">
+  <name>rhn-setup</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:obj:20151395008" version="604">
+  <name>rhn-setup-gnome</name>
+</rpminfo_object>
+
+  </objects>
+  <states>
+    
+    <rpminfo_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:ste:20151395001" version="604">
+  <signature_keyid operation="equals">199e2f91fd431d51</signature_keyid>
+</rpminfo_state>
+<rpminfo_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:ste:20151395002" version="604">
+  <version operation="pattern match">^6[^\d]</version>
+</rpminfo_state>
+<rpminfo_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:ste:20151395003" version="604">
+  <evr datatype="evr_string" operation="less than">0:1.0.0.1-32.el6</evr>
+</rpminfo_state>
+
+  </states>
+</oval_definitions>

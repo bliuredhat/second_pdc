@@ -1,0 +1,88 @@
+<%
+  @new_user = @user.new_record?
+  submit_button = "Save"
+  form_action = :update
+  form_method = :put
+  if @new_user
+    submit_button = "Create"
+    form_action = :create
+    form_method = :post
+  end
+%>
+
+<script>
+  init_ui_elements();
+</script>
+
+<%= page_title_h1 %>
+<br/>
+<%= wait_spinner :wait_spinner, "padding-bottom:10px;"%>
+  <%= form_for(:user, :method => form_method, :url => {:action => form_action}, :remote => true, :html =>{:id => "user_form"}) do |f| %>
+  <script>
+    $("#user_form").on('submit', function() {
+      $(".btn-primary").prop("disabled", "true");
+      $("#wait_spinner").css("display", "inline");
+    }).ajaxComplete(function(event, data, status, xhr) {
+      $(".btn-primary").removeAttr("disabled");
+      $("#wait_spinner").css("display", "none");
+    });
+  </script>
+  <div id="user_details_div" class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title"><b>Details</b></h3></div>
+    <div class="panel-body">
+      <% if @new_user || @maybe_machine_user %>
+        <div class="form_label_div small_label"><label for="user_login_name">Login name</label></div>
+        <div class="form_div">
+          <%= f.text_field :login_name,
+            :class => 'et-ui-ajax-on-enter',
+            :placeholder => '(type and press enter to search)',
+            "data-ajax-request-url"    => url_for(:controller => 'user', :action => 'new'),
+            "data-ajax-request-label"  => 'login_name',
+            "data-ajax-request-term"   => 'user_login_name',
+            "data-ajax-request-method" => 'get'
+          %>
+        </div><br/>
+
+        <% disable_realname = @new_user && @user.realname.present? %>
+        <div class="form_label_div small_label"><label for="user_realname">Real name</label></div>
+        <div class="form_div"><%= f.text_field :realname, :disabled => disable_realname %></div><br/>
+      <% else%>
+        <div class="form_label_div small_label"><label for="user_login_name">Login name</label></div>
+        <div class="form_div"><%= @user.login_name %></div><br/>
+
+        <div class="form_label_div small_label"><label for="user_realname">Real name</label></div>
+        <div class="form_div"><%= @user.realname %></div><br/>
+      <% end %>
+
+      <div class="form_label_div small_label"><label for="user_organization_name">Organization</label></div>
+      <div class="form_div">
+        <%= f.text_field :organization_name,
+          :class => "et-ui-autocomplete",
+          "data-autocomplete-url"    => search_api_v1_user_organizations_url,
+          "data-autocomplete-desc"   => "manager",
+          "data-autocomplete-hidden" => "user_user_organization_id"
+        %>
+        <%= f.hidden_field :user_organization_id %>
+      </div><% if @new_user %><label>(Default: Engineering)</label><% end %><br/>
+
+      <div class="form_label_div small_label"><label for="email_address">Email</label></div>
+      <div class="form_div">
+        <%= f.text_field :email_address, :placeholder=> @user.login_name %>
+      </div><label>(If specified, user will receive any notification via this email instead of Login name)</label><br/>
+      <div class="form_label_div small_label"><label for="user_receives_mail">Receive email?</label></div>
+      <div class="form_div"><%= f.check_box :receives_mail %></div><label>(Special/machine user must need to set 'Email' to use 'Receive email' otherwise it will be automatically unchecked)</label><br/>
+      <% if !@maybe_machine_user && @user.login_name.present? %>
+        <div class="form_div"><%= link_to 'View user in OrgChart', orgchart_url_for_user(@user.login_name), :target=>'_blank' %></div>
+        <br/>
+      <% end %>
+    </div>
+  </div>
+
+  <div id="user_roles_div" class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title"><b>Roles</b></h3></div>
+    <div class="panel-body">
+      <%= render :partial => "roles", :locals => {:f => f} %>
+    </div>
+  </div>
+  <%= f.submit(:class=>'btn btn-primary', :value => submit_button) %>
+<% end %>

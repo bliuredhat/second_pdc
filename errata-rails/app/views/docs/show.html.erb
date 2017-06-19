@@ -1,0 +1,205 @@
+<% unless @docs_only %>
+
+  <%= render 'tabs_and_common_header' %>
+
+  <div class="btn-group" style="float:right;margin-top:20px;">
+    <% if !@errata.docs_approved_or_requested? %>
+      <%= link_to("Request Docs Approval",
+        { :controller=>:docs, :action=>:request_approval, :id=>@errata.id, :back_to_c=>:docs, :back_to=>:show },
+        :method=>:post, :class=>'btn'
+      ) %>
+    <% end %>
+
+   <% if current_user.can_approve_docs? %>
+    <% if !@errata.docs_approved? && @errata.docs_approval_requested? %>
+      <%# No need to approve it if it's already approved %>
+      <%= link_to("Approve Docs",
+        { :action=>:approve, :id=>@errata.id, :back_to=>:show },
+        :method=>:post, :class=>'btn'
+      ) %>
+    <% end %>
+
+    <% if @errata.docs_approved_or_requested? %>
+      <%# No need to disapprove if approval isn't requested or granted (I guess?) %>
+      <%= link_to("Disapprove Docs",
+        { :action=>:disapprove, :id=>@errata.id, :back_to=>:show },
+        :method=>:post, :class=>'btn',
+        :confirm => ( (@errata.status_is?(:PUSH_READY) && @errata.docs_approved?) ?
+          "This disapproval will cause the advisory to be moved\nfrom PUSH_READY back to REL_PREP. Are you sure?" : nil )
+      ) %>
+    <% end %>
+   <% end %>
+  </div>
+
+  <h2>Advisory Documentation Approval - <span class='superlight small'><%= @errata.docs_status_text %></span></h2>
+
+<% end %>
+
+<% if(@docs_only || request.user_agent =~ /Mozilla\/[1234].*/)  %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <title><%= @errata.fulladvisory %></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<body>
+<div id="html_doc_view" style="padding-left: 1.5em; padding-right: 1.5em">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tr><td><%= @errata.fulltype %></td></tr>
+ <tr><td><br/></td></tr>
+ <tr>
+   <td align="left"><h1 style="font-size: xx-large"><%= @errata.fulladvisory %></h1></td>
+   <td align="center"><%= link_to 'Back', 'javascript:history.go(-1)' %></td>
+ </tr>
+ <tr><td><br/></td></tr>
+ <tr><td width="100%" colspan="2">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td colspan="2">&nbsp;</td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Synopsis</span></td>
+      <td><%=h @errata.synopsis %></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Advisory ID</span></td>
+      <td><%= @errata.fulladvisory %></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Issue Date</span></td>
+      <td><%= short_date @errata.issue_date %></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Updated on</span></td>
+      <td><%= short_date @errata.update_date %></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Product</span></td>
+      <td><%= @errata.product.name %></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Keywords</span></td>
+      <td><%= @errata.content.keywords %></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Cross References</span></td>
+      <td><%= @errata.content.crossref %></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Obsoletes</span></td>
+      <td><%= @errata.content.obsoletes %></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr>
+   </table>
+ </td></tr>
+ <tr>
+  <td valign="top">
+    <% sec = 0 -%>
+    <b><%= sec += 1 %>. Topic:</b><br/>
+    <pre><%= wrap_text(@errata.content.topic) %></pre>
+    <br/>
+    
+    <b><%= sec += 1 %>. Problem Description:</b>
+    <br/>
+    <pre><%= wrap_text(@errata.content.description) %></pre>
+    <br/>
+
+    <% unless @errata.bugs.empty? -%>
+    <b><%= sec += 1 %>. Bug IDs fixed:</b> (see <%= link_to 'bugzilla', 'https://bugzilla.redhat.com/' %> for more information)
+    <p>
+    <% @errata.bugs.each do |bug| -%>
+      <tt><%= bug_link(bug, :target=>'_blank') %> <%=h bug.short_desc %></tt><br/>
+    <% end %>
+    </p>
+    <% end %>
+
+    <% unless @errata.jira_issues.empty? -%>
+    <b><%= sec += 1 %>. <%= JiraIssue.readable_name.pluralize %> fixed:</b> (see <%= link_to 'JIRA', JiraIssue.base_url %> for more information)
+    <p>
+    <% @errata.jira_issues.each do |ji| -%>
+      <tt><%= jira_issue_link(ji, :target=>'_blank') %> <%=h ji.summary %></tt><br/>
+    <% end %>
+    </p>
+    <% end %>
+
+    <p>
+    <b><%= sec += 1 %>.  Relevant releases/architectures:</b>
+    <br/>
+    <%= br_separated @errata.relarchlist %>
+    </p>
+
+    <b><%= sec += 1 %>.  RPMs required:</b>
+    <br/>
+    <% @rpms_by_version_and_arch.each_pair do |version, arches| -%>
+      <%= version.description %>
+      <p>
+      SRPMS:<br/>
+      <% arches[Arch.SRPM].each do |r| -%>
+        <% unless Settings.suppress_srpm_ftp_url -%><tt><%= r.ftp_path -%></tt><br/><% end -%>
+        <tt><%= r.md5sum %> <%= r.rpm_name -%></tt><br/>
+      <% end -%>
+      </p>
+    
+      <% arches.each_pair do |arch, rpms| -%>
+        <% next if arch.name == 'SRPMS' -%>
+        <p>
+        <%= arch.name %>:<br/>
+        <% rpms.each do |r| -%>
+          <tt><%= r.md5sum %> <%= r.rpm_name -%></tt><br/>
+        <% end -%>
+        </p>
+      <% end -%>
+    <% end -%>
+    
+    <br/>
+    <b><%= sec += 1 %>.  Solution:</b><br/>
+    <pre><%=h @errata.content.solution %></pre>
+
+
+    <b><%= sec += 1 %>.  Verification:</b>
+    <br/>
+    <pre>
+MD5 sum                          Package Name
+-------------------------------------------------------------------------
+<% @rpms.each do |r| -%>
+<%= r.md5sum %> <%= r.rpm_name %>
+<% end -%>
+    </pre>
+        <p>  These packages are GPG signed by Red Hat, Inc. for security.  Our key is available at:<br />
+          <%= sig_keys_link %>
+        </p>
+        <p>You can verify each package with the following command:<br/><br/><code>rpm --checksig -v filename</code></p>
+        <p>
+          If you only wish to verify that each package has not been corrupted or tampered with,
+          examine only the md5sum with the following command:<br><br><code>md5sum filename</code>
+        </p>
+        <p>Note that you need RPM &gt;= 3.0 to check GnuPG keys.</p>
+
+
+    <b><%= sec += 1 %>. References:</b><br/>
+    <%= br_separated @errata.reference.split %><br/>
+    <% @errata.all_cves.each do |c| %>
+      <a href="<%= cve_url(c) %>"><%= cve_url(c) %></a><br/>
+    <% end %>
+    <br/>
+    <br/>
+  </td>
+ </tr>
+</table>
+</div>
+</body>
+</html>
+<% else %>
+<iframe name="showerrata" width="100%" height="800" style="border: 2px black solid"
+        src="<%=@errata.id%>?nolayout=1">
+</iframe>
+<% end %>

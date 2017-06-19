@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "tag_template": "latest"
+      },
+      "id": 4,
+      "relationships": {
+        "cdn_repo": {
+          "id": 3001,
+          "name": "redhat-rhscl-perl-520-rhel7"
+        },
+        "package": {
+          "id": 31616,
+          "name": "rh-ruby22-docker"
+        }
+      },
+      "type": "cdn_repo_package_tags"
+    },
+    {
+      "attributes": {
+        "tag_template": "rh-ruby22-{{version}}"
+      },
+      "id": 5,
+      "relationships": {
+        "cdn_repo": {
+          "id": 3001,
+          "name": "redhat-rhscl-perl-520-rhel7"
+        },
+        "package": {
+          "id": 31616,
+          "name": "rh-ruby22-docker"
+        }
+      },
+      "type": "cdn_repo_package_tags"
+    }
+  ]
+}

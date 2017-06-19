@@ -1,0 +1,40 @@
+{
+  "data": {
+    "attributes": {
+      "name": "libvirt"
+    },
+    "id": 939,
+    "relationships": {
+      "devel_owner": {
+        "id": 40789,
+        "realname": "Daniel Veillard"
+      },
+      "devel_responsibility": {
+        "id": 3,
+        "name": "Default"
+      },
+      "docs_responsibility": {
+        "id": 1,
+        "name": "Default"
+      },
+      "errata": [
+        {
+          "actual_ship_date": null,
+          "errata_type": "RHBA",
+          "fulladvisory": "RHBA-2015:0916-05",
+          "id": 20291,
+          "status": "NEW_FILES"
+        }
+      ],
+      "qe_owner": {
+        "id": 273956,
+        "realname": "Red Hat Kernel QE team"
+      },
+      "quality_responsibility": {
+        "id": 118,
+        "name": "Virt QE"
+      }
+    },
+    "type": "packages"
+  }
+}

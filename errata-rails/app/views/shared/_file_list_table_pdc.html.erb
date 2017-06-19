@@ -1,0 +1,49 @@
+<% mappings_by_pdc_release.group_by(&:brew_build).each do |build,mappings| %>
+  <strong class="float-right tiny">
+    <%=
+      # We display the flags for all mappings, though the UI only
+      # supports setting flags on RPM mappings for now.
+      safe_join(mappings.map(&:flags).reduce(&:merge).sort.map(&method(:build_label)))
+    %>
+    <%= build_label(build.is_signed? ? 'signed' : 'unsigned') %>
+  </strong>
+
+  <h3>Brew Build <%= brew_link(build) %>
+    (<%= link_to 'Listings', url_for(:controller => :release_engineering,
+                                    :action => :pdc_product_listings,
+                                    :rp => {:nvr => build.nvr, :pv_or_pr_id => pr.id})
+    %>)
+  </h3>
+
+  <%= safe_join(build_actions(mappings), '&nbsp;|&nbsp;'.html_safe) %>
+
+  <table class="buglist" cellspacing="0" cellpadding="0" width="100%">
+    <thead>
+      <tr>
+        <td align="center">Arch/Type</td>
+        <td align="left">Path</td>
+      </tr>
+    </thead>
+    <% mappings.each do |map| %>
+      <% unless map.rpm_build_has_valid_listing? %>
+        <tr><td style="text-align:center;" colspan="2">
+         <%= missing_listing_badge("#{map.pdc_release.id}_#{map.brew_build.id}", false) %>
+        </td></tr>
+      <% else %>
+        <% map.get_file_listing.group_by(&:variant).sort_by{|v,f| v}.each do |variant, files| %>
+          <tr bgcolor="#dedede">
+            <td colspan="6"><h3 style="display:inline;"><%= variant.uid %></h3>
+              <div style="display:inline-block;float:right;"><%= push_info_link_pdc(pr) %></div>
+            </td>
+          </tr>
+          <% files.sort_by{|f| [f.arch, f.devel_file] }.each do |file| %>
+            <tr class="<%= cycle('bz_even','bz_odd') %>">
+              <td align="center"><%= file.arch.name %></td>
+              <td align="left"><%= brew_file_link(file.brew_rpm) %></td>
+            </tr>
+          <% end %>
+        <% end %>
+      <% end %>
+    <% end %>
+  </table>
+<% end %>

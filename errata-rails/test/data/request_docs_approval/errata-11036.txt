@@ -1,0 +1,22 @@
+To: dhensley@redhat.com, docs-errata-list@redhat.com
+Subject: ET: [RHBA-2011:11036 RHEL-5.7.0] net-snmp - Text ready for review
+X-ErrataTool-Component: DOCUMENTATION
+X-ErrataTool-Action: READY
+X-Errata-QE-Group: BaseOS QE - Security
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+Text for advisory RHBA-2011:11036-01 has been marked READY for documentation approval.
+
+https://errata-test.example.com/docs/show/11036
+
+
+
+Advisory:
+  [RHBA-2011:11036 RHEL-5.7.0] net-snmp bug fix update
+  Status: NEW_FILES, Package: net-snmp
+  https://errata-test.example.com/advisory/11036
+
+
+(ET 3.11.0-0 errata-test.example.com test)

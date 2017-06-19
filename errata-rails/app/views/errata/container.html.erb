@@ -1,0 +1,16 @@
+<div class="modal taller-modal" id="container_text_modal" style="display:none;"
+  data-remote-url="<%= url_for(:controller => :errata, :action => 'modal_container_text', :id => @errata) %>">
+</div>
+
+<div style="float:right" class="btn-toolbar">
+  <div class="btn-group">
+    <%= link_to 'Collapse All', '#', :class => 'btn collapse-expand-all' %>
+    <%= link_to 'Show Bugs/Issues', '#', :class => 'btn toggle-section', 'data-selector' => '.pkg_bug_list', 'data-toggled-text' => 'Hide Bugs/Issues' %>
+    <%= link_to 'Text', "#", :class => 'btn open-modal', :data => { 'modal-id' => 'container_text_modal' } %>
+  </div>
+</div>
+
+<h1>Docker Container Content</h1>
+
+<%= content_tag :div, "Fetching data from Lightblue#{@force_update ? ' and updating cache' : ''}...", :id => 'container_content',
+    :data => { "remote-url" => url_for(:controller => :errata, :action => :container_content, :id => @errata, :force_update => @force_update) } %>

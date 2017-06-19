@@ -1,0 +1,10 @@
+# Builds a docker image by downloading a brew RPM and upgrading the last 'errata' image
+FROM <%= DOCKER_REPO + ':errata' %>
+RUN yum -y install <%= rpm_url %> \
+  && sed -r -e 's|^ *config.action_controller.asset_host|#\0|' -i /var/www/errata_rails/config/environments/staging.rb \
+  && yum clean all
+
+# FIXME: is there some way to avoid duplicating this from the source image?
+ADD config /var/www/errata_rails/config
+EXPOSE 443
+CMD ["/run-errata-in-docker"]

@@ -1,0 +1,20 @@
+container_repo_errata_1:
+  id: 1
+  container_repo_id: 1
+  errata_id: 24434
+container_repo_errata_2:
+  id: 2
+  container_repo_id: 1
+  errata_id: 24467
+container_repo_errata_3:
+  id: 3
+  container_repo_id: 1
+  errata_id: 24491
+container_repo_errata_4:
+  id: 4
+  container_repo_id: 1
+  errata_id: 24565
+container_repo_errata_5:
+  id: 5
+  container_repo_id: 1
+  errata_id: 24626

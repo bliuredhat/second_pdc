@@ -1,0 +1,337 @@
+--- 
+carbon_copy_02361: 
+  errata_id: 2128
+  id: 2361
+  who_id: 70626
+carbon_copy_03079: 
+  errata_id: 5243
+  id: 3079
+  who_id: 164808
+carbon_copy_03355: 
+  errata_id: 6310
+  id: 3355
+  who_id: 164808
+carbon_copy_04588: 
+  errata_id: 7058
+  id: 4588
+  who_id: 174587
+carbon_copy_05479: 
+  errata_id: 7390
+  id: 5479
+  who_id: 155492
+carbon_copy_05480: 
+  errata_id: 7390
+  id: 5480
+  who_id: 174587
+carbon_copy_05582: 
+  errata_id: 7519
+  id: 5582
+  who_id: 174587
+carbon_copy_06008: 
+  errata_id: 7679
+  id: 6008
+  who_id: 171534
+carbon_copy_06009: 
+  errata_id: 7679
+  id: 6009
+  who_id: 267432
+carbon_copy_06010: 
+  errata_id: 7679
+  id: 6010
+  who_id: 201409
+carbon_copy_06011: 
+  errata_id: 7679
+  id: 6011
+  who_id: 174587
+carbon_copy_07067: 
+  errata_id: 8013
+  id: 7067
+  who_id: 143139
+carbon_copy_07068: 
+  errata_id: 8013
+  id: 7068
+  who_id: 155492
+carbon_copy_07069: 
+  errata_id: 8013
+  id: 7069
+  who_id: 134666
+carbon_copy_07070: 
+  errata_id: 8013
+  id: 7070
+  who_id: 174587
+carbon_copy_08332: 
+  errata_id: 8742
+  id: 8332
+  who_id: 174587
+carbon_copy_08374: 
+  errata_id: 8751
+  id: 8374
+  who_id: 239541
+carbon_copy_08375: 
+  errata_id: 8751
+  id: 8375
+  who_id: 174587
+carbon_copy_08792: 
+  errata_id: 8854
+  id: 8792
+  who_id: 174587
+carbon_copy_09603: 
+  errata_id: 9190
+  id: 9603
+  who_id: 174587
+carbon_copy_09604: 
+  errata_id: 9190
+  id: 9604
+  who_id: 275175
+carbon_copy_09889: 
+  errata_id: 9325
+  id: 9889
+  who_id: 206801
+carbon_copy_09890: 
+  errata_id: 9325
+  id: 9890
+  who_id: 267432
+carbon_copy_09891: 
+  errata_id: 9325
+  id: 9891
+  who_id: 3000059
+carbon_copy_09892: 
+  errata_id: 9325
+  id: 9892
+  who_id: 271643
+carbon_copy_09893: 
+  errata_id: 9325
+  id: 9893
+  who_id: 268050
+carbon_copy_10252: 
+  errata_id: 9407
+  id: 10252
+  who_id: 155492
+carbon_copy_10253: 
+  errata_id: 9407
+  id: 10253
+  who_id: 174587
+carbon_copy_10428: 
+  errata_id: 9494
+  id: 10428
+  who_id: 174587
+carbon_copy_10939: 
+  errata_id: 9753
+  id: 10939
+  who_id: 174587
+carbon_copy_10940: 
+  errata_id: 9754
+  id: 10940
+  who_id: 174587
+carbon_copy_10941: 
+  errata_id: 9755
+  id: 10941
+  who_id: 174587
+carbon_copy_11053: 
+  errata_id: 9829
+  id: 11053
+  who_id: 174587
+carbon_copy_11359: 
+  errata_id: 9883
+  id: 11359
+  who_id: 81410
+carbon_copy_11521: 
+  errata_id: 10140
+  id: 11521
+  who_id: 171534
+carbon_copy_11522: 
+  errata_id: 10140
+  id: 11522
+  who_id: 268050
+carbon_copy_11523: 
+  errata_id: 10140
+  id: 11523
+  who_id: 267432
+carbon_copy_11561: 
+  errata_id: 10205
+  id: 11561
+  who_id: 174587
+carbon_copy_11587: 
+  errata_id: 10226
+  id: 11587
+  who_id: 174587
+carbon_copy_11678: 
+  errata_id: 10305
+  id: 11678
+  who_id: 174587
+carbon_copy_11711: 
+  errata_id: 10326
+  id: 11711
+  who_id: 174587
+carbon_copy_11938: 
+  errata_id: 10509
+  id: 11938
+  who_id: 174587
+carbon_copy_12076: 
+  errata_id: 10610
+  id: 12076
+  who_id: 267432
+carbon_copy_12077: 
+  errata_id: 10610
+  id: 12077
+  who_id: 206801
+carbon_copy_12181: 
+  errata_id: 10718
+  id: 12181
+  who_id: 174587
+carbon_copy_12199: 
+  errata_id: 10729
+  id: 12199
+  who_id: 174587
+carbon_copy_12301: 
+  errata_id: 10801
+  id: 12301
+  who_id: 174587
+carbon_copy_12302: 
+  errata_id: 10802
+  id: 12302
+  who_id: 174587
+carbon_copy_12317: 
+  errata_id: 10808
+  id: 12317
+  who_id: 174587
+carbon_copy_12319: 
+  errata_id: 10808
+  id: 12319
+  who_id: 155492
+carbon_copy_12348: 
+  errata_id: 10827
+  id: 12348
+  who_id: 174587
+carbon_copy_12357: 
+  errata_id: 10836
+  id: 12357
+  who_id: 174587
+carbon_copy_12363: 
+  errata_id: 10839
+  id: 12363
+  who_id: 174587
+carbon_copy_12366: 
+  errata_id: 10842
+  id: 12366
+  who_id: 174587
+carbon_copy_12368: 
+  errata_id: 10844
+  id: 12368
+  who_id: 174587
+carbon_copy_12370: 
+  errata_id: 10839
+  id: 12370
+  who_id: 155492
+carbon_copy_12375: 
+  errata_id: 10849
+  id: 12375
+  who_id: 174587
+carbon_copy_12385: 
+  errata_id: 10858
+  id: 12385
+  who_id: 174587
+carbon_copy_12434: 
+  errata_id: 10893
+  id: 12434
+  who_id: 174587
+carbon_copy_12499: 
+  errata_id: 10949
+  id: 12499
+  who_id: 174587
+carbon_copy_12533: 
+  errata_id: 10975
+  id: 12533
+  who_id: 174587
+carbon_copy_12604: 
+  errata_id: 10839
+  id: 12604
+  who_id: 3000101
+carbon_copy_12610: 
+  errata_id: 11020
+  id: 12610
+  who_id: 174587
+carbon_copy_12627: 
+  errata_id: 11031
+  id: 12627
+  who_id: 174587
+carbon_copy_12632: 
+  errata_id: 11036
+  id: 12632
+  who_id: 174587
+carbon_copy_12655: 
+  errata_id: 11056
+  id: 12655
+  who_id: 174587
+carbon_copy_12664: 
+  errata_id: 11065
+  id: 12664
+  who_id: 174587
+carbon_copy_12698: 
+  errata_id: 11095
+  id: 12698
+  who_id: 174587
+carbon_copy_12699: 
+  errata_id: 11096
+  id: 12699
+  who_id: 174587
+carbon_copy_12710: 
+  errata_id: 11105
+  id: 12710
+  who_id: 174587
+carbon_copy_12715: 
+  errata_id: 11110
+  id: 12715
+  who_id: 174587
+carbon_copy_12717: 
+  errata_id: 11112
+  id: 12717
+  who_id: 174587
+carbon_copy_12724: 
+  errata_id: 11118
+  id: 12724
+  who_id: 174587
+carbon_copy_12725: 
+  errata_id: 11119
+  id: 12725
+  who_id: 174587
+carbon_copy_12729: 
+  errata_id: 11123
+  id: 12729
+  who_id: 174587
+carbon_copy_12730: 
+  errata_id: 11123
+  id: 12730
+  who_id: 3000045
+carbon_copy_12738: 
+  errata_id: 11129
+  id: 12738
+  who_id: 174587
+carbon_copy_12741: 
+  errata_id: 11131
+  id: 12741
+  who_id: 174587
+carbon_copy_12743: 
+  errata_id: 11133
+  id: 12743
+  who_id: 174587
+carbon_copy_12753: 
+  errata_id: 11138
+  id: 12753
+  who_id: 174587
+carbon_copy_12757: 
+  errata_id: 11142
+  id: 12757
+  who_id: 174587
+carbon_copy_12768: 
+  errata_id: 11145
+  id: 12768
+  who_id: 174587
+carbon_copy_12773: 
+  errata_id: 11149
+  id: 12773
+  who_id: 174587
+carbon_copy_12776: 
+  errata_id: 11152
+  id: 12776
+  who_id: 174587

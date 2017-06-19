@@ -1,0 +1,7 @@
+<div class="float-right btn-container">
+  <%= link_to('Cancel removing released packages', { :action => :released_packages, :id => @pv.try(:id) }, :class => 'small' ) %>
+</div>
+
+<%= page_title_h1 %>
+
+<%= render 'released_packages_list', :enable_remove_package_form => true %>

@@ -1,0 +1,67 @@
+{
+  "cdn_repo": [
+
+  ],
+  "description": "JBoss Enterprise SOA Platform is the next-generation ESB and business\nprocess automation infrastructure. JBoss Enterprise SOA Platform allows IT\nto leverage existing (MoM and EAI), modern (SOA and BPM-Rules), and future\n(EDA and CEP) integration methodologies to dramatically improve business\nprocess execution speed and quality.\n\nIt was found that JBoss Seam 2 did not properly block access to JBoss\nExpression Language (EL) constructs in page exception handling, allowing\narbitrary Java methods to be executed. A remote attacker could use this\nflaw to execute arbitrary code via a specially-crafted URL provided to\ncertain applications based on the JBoss Seam 2 framework. Note: A properly\nconfigured and enabled Java Security Manager would prevent exploitation of\nthis flaw. (CVE-2011-1484)\n\nRed Hat would like to thank Martin Kouba from IT SYSTEMS a.s. for reporting\nthis issue.\n\nAll users of JBoss Enterprise SOA Platform 4.3.0.CP04 and 5.1.0 as provided\nfrom the Red Hat Customer Portal are advised to install this update.",
+  "from": "release-engineering@redhat.com",
+  "id": "RHSA-2011:11138",
+  "issued": "2011-04-15 11:27:06 UTC",
+  "pkglist": [
+    {
+      "name": "RHSA-2011:11138",
+      "packages": [
+
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+
+    ]
+  },
+  "pushcount": 7,
+  "reboot_suggested": false,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2011:11138",
+      "id": "RHSA-2011:11138",
+      "title": "RHSA-2011:11138",
+      "type": "self"
+    },
+    {
+      "href": "https://www.redhat.com/security/data/cve/CVE-2011-1484.html",
+      "id": "CVE-2011-1484",
+      "title": "CVE-2011-1484",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/updates/classification/#important",
+      "id": "classification",
+      "title": "important",
+      "type": "other"
+    },
+    {
+      "href": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=soaplatform&downloadType=securityPatches&version=4.3.0.GA_CP04",
+      "id": "ref_0",
+      "title": "other_reference_0",
+      "type": "other"
+    },
+    {
+      "href": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=soaplatform&downloadType=securityPatches&version=5.1.0+GA",
+      "id": "ref_1",
+      "title": "other_reference_1",
+      "type": "other"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2011 Red Hat Inc",
+  "severity": "Important",
+  "solution": "The References section of this erratum contains download links (you must\nlog in to download the updated file). Before applying the update, backup\nyour existing JBoss Enterprise SOA Platform installation (including its\ndatabases, applications, configuration files, and so on).\n\nImportant: JBoss Enterprise SOA Platform 4.3.0.CP04 ships with both the\nJBoss Seam and JBoss Seam 2 frameworks. Ensure you only replace version\n2 with the updated jboss-seam.jar file.\n\nThe JBoss Application Server process must be restarted for the update to\ntake effect.",
+  "status": "final",
+  "summary": "An updated jboss-seam.jar file for JBoss Enterprise SOA Platform 4.3.0.CP04\nand 5.1.0 that fixes one security issue is now available from the Red Hat\nCustomer Portal.\n\nThe Red Hat Security Response Team has rated this update as having\nimportant security impact. A Common Vulnerability Scoring System (CVSS)\nbase score, which gives a detailed severity rating, is available from the\nCVE link in the References section.",
+  "title": "Important: JBoss Enterprise SOA Platform 4.3.0.CP04 and 5.1.0 security update",
+  "type": "RHSA",
+  "updated": "2011-04-15 11:27:06 UTC",
+  "version": "7"
+}

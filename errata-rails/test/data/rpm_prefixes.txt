@@ -1,0 +1,2 @@
+RHDevToolset: devtoolset-2
+RHSCL: devassist09,devtoolset-3,git19,httpd24,mariadb55,maven30,mongodb24,mysql55,nginx14,nodejs010,perl516,php54,php55,postgresql92,python27,python33,ror40,ruby193,ruby200,thermostat1,v8314

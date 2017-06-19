@@ -1,0 +1,67 @@
+Release Notes for Version 3.12.4
+================================
+
+Overview
+--------
+
+Release 3.12.4 is the 5th release in
+the Errata Tool 3.12 development period. It closes [20 bugs and RFEs][buglist].
+
+This release of Errata Tool includes improvements to the
+RPMDiff autowaive approval workflow, batch handling, bug syncing,
+released package management, and a number of other bug fixes and enhancements.
+
+<% sort_these_first %w[ ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.12.4][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1167242%2C1259230%2C1260838%2C1278941%2C1280531%2C1308371%2C1308787%2C1311397%2C1312154%2C1316182%2C1318222%2C1319565%2C1323642%2C1323764%2C1329545%2C1330421%2C1330806%2C1330807%2C1332409%2C1334908
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.12.4-0&id2=3.12.3-0
+
+<%= all_include_content %>
+
+What's Next
+------------
+
+### Errata Tool 3.12.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.12
+in Bugzilla for inclusion in two-week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be 3.12.5.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.12 take a look at [bugs flagged with
+errata-3.12 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.13
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.13 take a look at [bugs
+flagged with errata-3.13][bugs_next].
+
+If you are interested in being involved in Errata Tool planning, please subscribe
+to [errata-dev-list][erratadevlist] and vote on the bugs and features in the
+backlog that would benefit you most.  To vote for a backlog item simply click
+the 'vote' link beside the Severity field when viewing the item then confirm
+your selection on the next page.  Each user gets a maximum of ten votes.
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.12&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.13&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

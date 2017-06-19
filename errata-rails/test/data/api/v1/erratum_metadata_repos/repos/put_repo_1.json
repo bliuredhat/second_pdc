@@ -1,0 +1,416 @@
+# HTTP 200
+[
+  {
+    "enabled": true,
+    "repo": {
+      "id": 19,
+      "name": "rhel-6-server-optional-rpms__6Server__ppc64"
+    }
+  },
+  {
+    "enabled": true,
+    "repo": {
+      "id": 20,
+      "name": "rhel-6-server-optional-rpms__6Server__x390x"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 21,
+      "name": "rhel-6-server-optional-rpms__6Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 22,
+      "name": "rhel-6-server-optional-rpms__6Server__i386"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 23,
+      "name": "rhel-6-server-rpms__6Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 24,
+      "name": "rhel-6-server-rpms__6Server__ppc64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 25,
+      "name": "rhel-6-server-rpms__6Server__s390x"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 26,
+      "name": "rhel-6-server-rpms__6Server__i386"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 28,
+      "name": "rhel-6-client-rpms__6Client__i686"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 29,
+      "name": "rhel-6-client-rpms__6Client__ia32e"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 30,
+      "name": "rhel-6-client-rpms__6Client__ia64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 31,
+      "name": "rhel-6-client-rpms__6Client__noarch"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 32,
+      "name": "rhel-6-client-rpms__6Client__ppc"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 33,
+      "name": "rhel-6-client-rpms__6Client__ppc64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 34,
+      "name": "rhel-6-client-rpms__6Client__ppc64iseries"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 35,
+      "name": "rhel-6-client-rpms__6Client__ppc64pseries"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 36,
+      "name": "rhel-6-client-rpms__6Client__s390"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 37,
+      "name": "rhel-6-client-rpms__6Client__s390x"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 38,
+      "name": "rhel-6-client-rpms__6Client__sparc"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 39,
+      "name": "rhel-6-client-rpms__6Client__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 55,
+      "name": "rhel-6-client-rpms__6Client__i386"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 65,
+      "name": "rhel-6-server-eus-rpms__6_DOT_5__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1263,
+      "name": "rhel-7-for-power-rpms__7Server__ppc64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1266,
+      "name": "rhel-7-for-system-z-rpms__7Server__s390x"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1269,
+      "name": "rhel-7-server-rpms__7Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1272,
+      "name": "rhel-7-workstation-rpms__7Workstation__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1275,
+      "name": "rhel-7-desktop-rpms__7Client__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1278,
+      "name": "rhel-7-hpc-node-rpms__7ComputeNode__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1281,
+      "name": "rhel-7-desktop-optional-rpms__7Client__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1284,
+      "name": "rhel-7-for-power-optional-rpms__7Server__ppc64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1287,
+      "name": "rhel-7-for-system-z-optional-rpms__7Server__s390x"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1290,
+      "name": "rhel-7-server-optional-rpms__7Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1293,
+      "name": "rhel-7-hpc-node-optional-rpms__7ComputeNode__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1296,
+      "name": "rhel-ha-for-rhel-7-server-rpms__7Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1299,
+      "name": "rhel-rs-for-rhel-7-server-rpms__7Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1302,
+      "name": "rhel-7-workstation-optional-rpms__7Workstation__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1362,
+      "name": "rhel-sap-for-rhel-7-server-rpms__7Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1743,
+      "name": "rhel-7-for-power-fastrack-rpms__ppc64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1746,
+      "name": "rhel-7-for-system-z-fastrack-rpms__s390x"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1749,
+      "name": "rhel-7-server-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1752,
+      "name": "rhel-7-workstation-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1755,
+      "name": "rhel-7-desktop-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1758,
+      "name": "rhel-7-for-hpc-node-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1761,
+      "name": "rhel-7-desktop-optional-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1764,
+      "name": "rhel-7-for-power-optional-fastrack-rpms__ppc64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1767,
+      "name": "rhel-7-for-system-z-optional-fastrack-rpms__s390x"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1770,
+      "name": "rhel-7-server-optional-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1773,
+      "name": "rhel-7-for-hpc-node-optional-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1776,
+      "name": "rhel-ha-for-rhel-7-server-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1779,
+      "name": "rhel-rs-for-rhel-7-server-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1782,
+      "name": "rhel-7-workstation-optional-fastrack-rpms__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 2005,
+      "name": "rhel-7-server-rt-rpms__7Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 2178,
+      "name": "rhel-7-for-power-le-rpms__7Server__ppc64le"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 2181,
+      "name": "rhel-7-for-power-le-optional-rpms__7Server__ppc64le"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 2665,
+      "name": "rhel-7-for-arm-rpms__7Server__aarch64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 2668,
+      "name": "rhel-7-for-arm-optional-rpms__7Server__aarch64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 2743,
+      "name": "rhel-sap-hana-for-rhel-7-server-rpms__7Server__x86_64"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 2750,
+      "name": "rhel-ha-for-rhel-7-for-system-z-rpms__7Server__s390x"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 2753,
+      "name": "rhel-rs-for-rhel-7-for-system-z-rpms__7Server__s390x"
+    }
+  }
+]

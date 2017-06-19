@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "name": "nss"
+      },
+      "id": 959,
+      "relationships": {
+        "devel_owner": {
+          "id": 58117,
+          "realname": "Kai Engert"
+        },
+        "devel_responsibility": {
+          "id": 3,
+          "name": "Default"
+        },
+        "docs_responsibility": {
+          "id": 19,
+          "name": "Core"
+        },
+        "errata": [
+
+        ],
+        "qe_owner": {
+          "id": 3000002,
+          "realname": "BaseOS QE - Security"
+        },
+        "quality_responsibility": {
+          "id": 114,
+          "name": "BaseOS QE - Security"
+        }
+      },
+      "type": "packages"
+    }
+  ]
+}

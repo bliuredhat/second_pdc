@@ -1,0 +1,4 @@
+<%= form_tag :action => :find_user do %>
+Enter the kerberos id of the user you wish to edit: <%= text_field :user, :login_name %>
+<%= submit_tag 'Find User', :class=>'btn btn-primary'%>
+<% end %>

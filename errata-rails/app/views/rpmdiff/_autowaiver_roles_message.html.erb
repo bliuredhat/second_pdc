@@ -1,0 +1,42 @@
+<p>Note: Only users in the Errata Tool <%= pluralize_based_on(waiver_roles, 'role') %>
+<%=raw display_list_with_and(waiver_roles.map{|r|"<b>#{r.capitalize}</b>"}, :and=>'or') %> can activate/inactivate this autowaive rule.
+
+<% if @can_activate %>
+  <%# since user can do it themselves, so just get on 'Rule Enabled' checkbox checked  %>
+  (This includes you).</p>
+
+<% else %>
+  <%# since user has no permission to approve, so have to file a ticket to get a approval %>
+  </p>
+
+  <%# explain how to request a rule activation as below: %>
+
+  <%# Note: Currently only secalert and releng actually have the rt_queue
+  info populated. Roles other than those ones will just get
+  the link to users_by_role page only %>
+
+  <% waiver_roles.map{ |role_name| Role.find_by_name(role_name) }.each do |role| %>
+
+    <p style="padding-bottom:3px;">To contact a member of the <b><%= role.pretty_name %></b> to do a request:</p>
+    <ul>
+
+      <%# Give a mailto link with a prefilled subject and body (if we know the RT queue) %>
+      <% if role.rt_email %>
+        <li>
+          Create a ticket in the <%= role.rt_queue || role.rt_email %> RT queue by using
+          <%= active_rule_rt_ticket_mail_to(role.rt_full_email, 'this pre-populated mailto link', @current_result, @errata) %>
+          to send an email to <b><%= role.rt_full_email %></b>.
+        </li>
+      <% end %>
+
+      <%# Just give a link to the users_by_role page %>
+      <li>
+        <%= link_to "Click here", {:controller=>:user, :action=>:users_by_role, :id=>role}, :target=>"_blank" %>
+        for more info about the <b><%= role.pretty_name %></b> and its members.
+      </li>
+
+    </ul>
+
+  <% end %>
+
+<% end %>

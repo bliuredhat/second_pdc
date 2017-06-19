@@ -1,0 +1,5 @@
+### This is not a Docker advisory
+# HTTP 422
+{
+  "error": "RHSA-2015:19463 does not contain Docker images"
+}

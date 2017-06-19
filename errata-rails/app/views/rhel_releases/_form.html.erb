@@ -1,0 +1,29 @@
+<%= error_messages_for @rhel_release %>
+
+<div class="clearfix"><div class="eso-greybox">
+  <%= form_for @rhel_release do |f| %>
+    <table>
+      <tr>
+        <td>
+          <div class="formlabel">Name</div>
+          <%= f.text_field :name, :size=>8 %>
+        </td>
+
+        <td>
+          <div class="formlabel">Description</div>
+          <%= f.text_field :description %>
+        </td>
+
+        <td>
+          <div class="formlabel">Exclude FTP DebugInfo</div>
+          <%= f.check_box :exclude_ftp_debuginfo  %>
+        </td>
+
+        <td class="vbottom">
+          <%= f.submit @rhel_release.new_record? ? 'Create' : 'Update', :class=>'btn btn-primary' %>
+          <%= link_to 'Cancel', rhel_releases_path %>
+        </td>
+      </tr>
+    </table>
+  <% end %>
+</div></div>

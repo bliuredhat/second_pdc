@@ -1,0 +1,58 @@
+Errata Tool will look for these variant labels in the response,
+which will be mapped to corresponding Errata Tool variants:
+
+  In response for RHEL-6-Client:
+      Client → 6Client
+      optional → 6Client-optional
+
+  In response for RHEL-6-ComputeNode:
+      ComputeNode → 6ComputeNode
+      HPN → 6ComputeNode-HPN
+      ScalableFileSystem → 6ComputeNode-ScalableFileSystem
+      optional → 6ComputeNode-optional
+
+  In response for RHEL-6-Server:
+      HPN → 6Server-HPN
+      HighAvailability → 6Server-HighAvailability
+      LoadBalancer → 6Server-LoadBalancer
+      ResilientStorage → 6Server-ResilientStorage
+      SAP → 6Server-SAP
+      SAPHANA → 6Server-SAPHANA
+      ScalableFileSystem → 6Server-ScalableFileSystem
+      Server → 6Server
+      optional → 6Server-optional
+
+  In response for RHEL-6-Server-RHCI1:
+      RHCI-EngOps → 6Server-RHCI-EngOps
+
+  In response for RHEL-6-Workstation:
+      ScalableFileSystem → 6Workstation-ScalableFileSystem
+      Workstation → 6Workstation
+      optional → 6Workstation-optional
+
+Errata Tool fetched the following data:
+
+    Brew getProductListings("RHEL-6-Client", 161869)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Client", 161869]}}
+
+    Brew getProductListings("RHEL-6-ComputeNode", 161869)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-ComputeNode", 161869]}}
+
+    Brew getProductListings("RHEL-6-Server", 161869)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Server", 161869]}}
+
+    Brew getProductListings("RHEL-6-Workstation", 161869)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Workstation", 161869]}}
+
+    Brew getProductListings("RHEL-6-Server-RHCI1", 161869) [multi-product mapping for RHEL-6-RHCI1]
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Server-RHCI1", 161869]}}

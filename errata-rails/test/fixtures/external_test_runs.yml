@@ -1,0 +1,135 @@
+---
+external_test_run_39:
+  external_message:
+  errata_id: 19032
+  external_status: FAILED
+  status: FAILED
+  brew_build_id: 408505
+  superseded_by_id: 40
+  external_test_type_id: 1
+  external_id: 27
+  id: 39
+  active: false
+  updated_at: 2015-10-07 02:20:48.863867 Z
+  created_at: 2015-10-07 02:19:08.666217 Z
+external_test_run_40:
+  external_message:
+  errata_id: 19032
+  external_status: PASSED
+  status: PASSED
+  brew_build_id: 408505
+  superseded_by_id:
+  external_test_type_id: 1
+  external_id: 28
+  id: 40
+  active: true
+  updated_at: 2015-10-07 02:21:11.676742 Z
+  created_at: 2015-10-07 02:21:11.676742 Z
+external_test_run_41:
+  external_message:
+  errata_id: 19463
+  external_status: FAILED
+  status: FAILED
+  brew_build_id: 158631
+  superseded_by_id:
+  external_test_type_id: 1
+  external_id: 34
+  id: 41
+  active: true
+  updated_at: 2015-10-07 02:24:24.432853 Z
+  created_at: 2015-10-07 02:24:24.432853 Z
+external_test_run_79:
+  external_message:
+  errata_id: 19435
+  external_test_type_id: 2
+  updated_at: 2015-10-07 04:15:58.275947 Z
+  external_id: 1960
+  brew_build_id:
+  external_status: FAILURE
+  active: false
+  id: 79
+  created_at: 2015-10-07 04:15:58.275947 Z
+  status: FAILED
+  superseded_by_id: 80
+external_test_run_80:
+  external_message:
+  errata_id: 19435
+  external_test_type_id: 2
+  updated_at: 2015-10-07 04:16:17.070210 Z
+  external_id: 1966
+  brew_build_id:
+  external_status:
+  active: true
+  id: 80
+  created_at: 2015-10-07 04:16:17.070210 Z
+  status: PENDING
+  superseded_by_id:
+external_test_run_81:
+  external_message:
+  errata_id: 18905
+  external_test_type_id: 2
+  updated_at: 2015-10-08 04:15:58.275947 Z
+  external_id: 1980
+  brew_build_id:
+  external_status: FAILURE
+  active: false
+  id: 81
+  created_at: 2015-10-08 04:15:58.275947 Z
+  status: FAILED
+  superseded_by_id: 82
+external_test_run_82:
+  external_message:
+  errata_id: 18905
+  external_test_type_id: 2
+  updated_at: 2015-10-08 04:16:17.070210 Z
+  external_id: 1982
+  brew_build_id:
+  external_status:
+  active: true
+  id: 82
+  created_at: 2015-10-08 04:16:17.070210 Z
+  status: PASSED
+  superseded_by_id:
+external_test_run_83:
+  external_message: |-
+    Metadata error
+    https://engineering.redhat.com/rt/Ticket/Display.html?id=891234
+  errata_id: 13147
+  external_test_type_id: 2
+  updated_at: 2015-10-09 04:16:17.070210 Z
+  external_id: 1983
+  brew_build_id:
+  external_status:
+  active: false
+  id: 83
+  created_at: 2015-10-09 04:16:17.070210 Z
+  status: FAILED
+  superseded_by_id: 84
+external_test_run_84:
+  external_message:
+  errata_id: 13147
+  external_test_type_id: 3
+  updated_at: 2015-10-09 04:16:17.070210 Z
+  external_id: 343
+  brew_build_id:
+  external_status:
+  active: true
+  id: 84
+  created_at: 2015-10-09 04:16:17.070210 Z
+  status: FAILED
+  superseded_by_id:
+external_test_run_85:
+  external_message: |-
+    Metadata error
+    https://projects.engineering.redhat.com/browse/ISSUE-891234
+  errata_id: 13147
+  external_test_type_id: 2
+  updated_at: 2015-10-09 04:16:17.070210 Z
+  external_id: 1985
+  brew_build_id:
+  external_status:
+  active: false
+  id: 85
+  created_at: 2015-10-09 04:16:17.070210 Z
+  status: FAILED
+  superseded_by_id:

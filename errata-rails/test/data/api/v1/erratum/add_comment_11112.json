@@ -1,0 +1,325 @@
+# HTTP 201
+{
+  "advisory_form_errors": {
+
+  },
+  "bugs": {
+    "bugs": [
+      {
+        "bug": {
+          "alias": "",
+          "bug_severity": "high",
+          "bug_status": "ON_QA",
+          "flags": "blocker+, devel_ack+, pm_ack+, qa_ack+, rhel-6.1.0+",
+          "id": 694078,
+          "is_blocker": 1,
+          "is_exception": 0,
+          "is_private": 1,
+          "is_security": 0,
+          "issuetrackers": "",
+          "keywords": "FutureFeature, OtherQA",
+          "last_updated": "2011-04-11T20:45:20Z",
+          "package_id": 16644,
+          "pm_score": 0,
+          "priority": "high",
+          "qa_whiteboard": "",
+          "reconciled_at": null,
+          "release_notes": "",
+          "short_desc": "[Intel 6.1 Bug] Missing uCode for Crane Peak wireless adapter, WiFi only",
+          "verified": "",
+          "was_marked_on_qa": 1
+        }
+      }
+    ],
+    "errata": {
+      "rhea": {
+        "actual_ship_date": null,
+        "assigned_to_id": 174587,
+        "batch_id": null,
+        "closed": 0,
+        "content_types": [
+          "rpm"
+        ],
+        "contract": null,
+        "created_at": "2011-04-11T20:21:54Z",
+        "current_state_index_id": 10589,
+        "current_tps_run": null,
+        "deleted": 0,
+        "devel_responsibility_id": 3,
+        "doc_complete": 0,
+        "docs_responsibility_id": 1,
+        "errata_id": 11112,
+        "filelist_changed": 0,
+        "filelist_locked": 0,
+        "fulladvisory": "RHEA-2011:11112-01",
+        "group_id": 147,
+        "id": 11112,
+        "is_batch_blocker": false,
+        "is_brew": 1,
+        "is_valid": 1,
+        "issue_date": "2011-04-11T20:21:54Z",
+        "mailed": 0,
+        "manager_id": 160825,
+        "old_advisory": null,
+        "old_delete_product": null,
+        "package_owner_id": 162860,
+        "priority": "normal",
+        "product_id": 16,
+        "publish_date_override": null,
+        "published": 0,
+        "published_shadow": 0,
+        "pushcount": 0,
+        "pushed": 0,
+        "qa_complete": 0,
+        "quality_responsibility_id": 2,
+        "rating": 0,
+        "release_date": null,
+        "reporter_id": 162860,
+        "request": 0,
+        "request_rcm_push_comment_id": null,
+        "resolution": "",
+        "respin_count": 0,
+        "revision": 1,
+        "rhn_complete": 0,
+        "rhnqa": 0,
+        "rhnqa_shadow": 0,
+        "security_approved": null,
+        "security_impact": "None",
+        "severity": "normal",
+        "sign_requested": 0,
+        "state_machine_rule_set_id": null,
+        "status": "QE",
+        "status_updated_at": "2011-04-12T13:11:03Z",
+        "supports_multiple_product_destinations": null,
+        "synopsis": "new package: iwl100-firmware",
+        "text_only": false,
+        "text_ready": 1,
+        "update_date": "2011-04-11T20:21:54Z",
+        "updated_at": "2011-04-12T13:11:03Z"
+      }
+    },
+    "errors": {
+
+    },
+    "id_field": "id",
+    "id_prefix": "bz:",
+    "idsfixed": [
+      "694078"
+    ],
+    "to_fetch": [
+
+    ],
+    "type": "bugs",
+    "validation_context": null
+  },
+  "changed_issues": {
+    "add": [
+
+    ]
+  },
+  "content": {
+    "content": {
+      "crossref": "",
+      "cve": "",
+      "description": "The iwlagn driver requires firmware loaded on the device in order to \nfunction.  This package provides the firmware required by that driver for\nthe iwl100 hardware line.\n\nUsers of the iwlagn driver are advised to install this new package, which\nprovides this enhancement.",
+      "doc_review_due_at": null,
+      "doc_reviewer_id": 3000624,
+      "errata_id": 11112,
+      "how_to_test": null,
+      "id": 8690,
+      "keywords": "iwl100 firmware",
+      "multilib": null,
+      "obsoletes": "",
+      "packages": null,
+      "product_version_text": null,
+      "reference": "",
+      "revision_count": 1,
+      "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\n\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttp://kbase.redhat.com/faq/docs/DOC-11259",
+      "text_only_cpe": null,
+      "topic": "An iwl100-firmware package that matches the iwlagn driver in the latest \nRed Hat Enterprise Linux kernels is now available.",
+      "updated_at": "2011-04-13T22:35:14Z"
+    }
+  },
+  "diffs": {
+
+  },
+  "errata": {
+    "rhea": {
+      "actual_ship_date": null,
+      "assigned_to_id": 174587,
+      "batch_id": null,
+      "closed": 0,
+      "content_types": [
+        "rpm"
+      ],
+      "contract": null,
+      "created_at": "2011-04-11T20:21:54Z",
+      "current_state_index_id": 10589,
+      "current_tps_run": null,
+      "deleted": 0,
+      "devel_responsibility_id": 3,
+      "doc_complete": 0,
+      "docs_responsibility_id": 1,
+      "errata_id": 11112,
+      "filelist_changed": 0,
+      "filelist_locked": 0,
+      "fulladvisory": "RHEA-2011:11112-01",
+      "group_id": 147,
+      "id": 11112,
+      "is_batch_blocker": false,
+      "is_brew": 1,
+      "is_valid": 1,
+      "issue_date": "2011-04-11T20:21:54Z",
+      "mailed": 0,
+      "manager_id": 160825,
+      "old_advisory": null,
+      "old_delete_product": null,
+      "package_owner_id": 162860,
+      "priority": "normal",
+      "product_id": 16,
+      "publish_date_override": null,
+      "published": 0,
+      "published_shadow": 0,
+      "pushcount": 0,
+      "pushed": 0,
+      "qa_complete": 0,
+      "quality_responsibility_id": 2,
+      "rating": 0,
+      "release_date": null,
+      "reporter_id": 162860,
+      "request": 0,
+      "request_rcm_push_comment_id": null,
+      "resolution": "",
+      "respin_count": 0,
+      "revision": 1,
+      "rhn_complete": 0,
+      "rhnqa": 0,
+      "rhnqa_shadow": 0,
+      "security_approved": null,
+      "security_impact": "None",
+      "severity": "normal",
+      "sign_requested": 0,
+      "state_machine_rule_set_id": null,
+      "status": "QE",
+      "status_updated_at": "2011-04-12T13:11:03Z",
+      "supports_multiple_product_destinations": null,
+      "synopsis": "new package: iwl100-firmware",
+      "text_only": false,
+      "text_ready": 1,
+      "update_date": "2011-04-11T20:21:54Z",
+      "updated_at": "2011-04-12T13:11:03Z"
+    }
+  },
+  "errors": {
+
+  },
+  "jira_issues": {
+    "errata": {
+      "rhea": {
+        "actual_ship_date": null,
+        "assigned_to_id": 174587,
+        "batch_id": null,
+        "closed": 0,
+        "content_types": [
+          "rpm"
+        ],
+        "contract": null,
+        "created_at": "2011-04-11T20:21:54Z",
+        "current_state_index_id": 10589,
+        "current_tps_run": null,
+        "deleted": 0,
+        "devel_responsibility_id": 3,
+        "doc_complete": 0,
+        "docs_responsibility_id": 1,
+        "errata_id": 11112,
+        "filelist_changed": 0,
+        "filelist_locked": 0,
+        "fulladvisory": "RHEA-2011:11112-01",
+        "group_id": 147,
+        "id": 11112,
+        "is_batch_blocker": false,
+        "is_brew": 1,
+        "is_valid": 1,
+        "issue_date": "2011-04-11T20:21:54Z",
+        "mailed": 0,
+        "manager_id": 160825,
+        "old_advisory": null,
+        "old_delete_product": null,
+        "package_owner_id": 162860,
+        "priority": "normal",
+        "product_id": 16,
+        "publish_date_override": null,
+        "published": 0,
+        "published_shadow": 0,
+        "pushcount": 0,
+        "pushed": 0,
+        "qa_complete": 0,
+        "quality_responsibility_id": 2,
+        "rating": 0,
+        "release_date": null,
+        "reporter_id": 162860,
+        "request": 0,
+        "request_rcm_push_comment_id": null,
+        "resolution": "",
+        "respin_count": 0,
+        "revision": 1,
+        "rhn_complete": 0,
+        "rhnqa": 0,
+        "rhnqa_shadow": 0,
+        "security_approved": null,
+        "security_impact": "None",
+        "severity": "normal",
+        "sign_requested": 0,
+        "state_machine_rule_set_id": null,
+        "status": "QE",
+        "status_updated_at": "2011-04-12T13:11:03Z",
+        "supports_multiple_product_destinations": null,
+        "synopsis": "new package: iwl100-firmware",
+        "text_only": false,
+        "text_ready": 1,
+        "update_date": "2011-04-11T20:21:54Z",
+        "updated_at": "2011-04-12T13:11:03Z"
+      }
+    },
+    "errors": {
+
+    },
+    "id_field": "key",
+    "id_prefix": "jira:",
+    "idsfixed": [
+
+    ],
+    "jira_issues": [
+
+    ],
+    "to_fetch": [
+
+    ],
+    "type": "jira_issues",
+    "validation_context": null
+  },
+  "params": {
+    "action": "add_comment",
+    "comment": "Happy comment",
+    "controller": "api/v1/erratum",
+    "format": "json",
+    "id": "11112"
+  },
+  "persisted": true,
+  "validation_context": null,
+  "who": {
+    "user": {
+      "email_address": null,
+      "enabled": 1,
+      "id": 3002341,
+      "login_name": "releng@redhat.com",
+      "orgchart_id": null,
+      "preferences": {
+
+      },
+      "realname": "Release Engineering User",
+      "receives_mail": true,
+      "user_organization_id": 142
+    }
+  }
+}

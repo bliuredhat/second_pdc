@@ -1,0 +1,10 @@
+$("#et_modal .modal-header h3").text("<%= new_channel_modal_title %>");
+$("#et_modal .modal-body .body-content").replaceWith("<%= escape_javascript(channel_modal_body_content) %>");
+$("#et_modal .modal-footer .footer-content").replaceWith("<%= escape_javascript(channel_modal_footer_content) %>");
+
+$("#save_channel").on("click", function() {
+  var form_id = $(this).data('form-id');
+  $('#' + form_id).submit();
+});
+
+$("#channel_name").focus();

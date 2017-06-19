@@ -1,0 +1,9 @@
+---
+- name: Install rpm file with yum downgrade
+  command: yum -y --nogpgcheck --enablerepo=et-deps,et-deps-candidate downgrade {{ rpm_file }}
+  become: yes
+  register: rpm_install
+  when: dry_run is not defined
+
+- name: Ensure rpm file is cleaned up
+  file: path={{ rpm_file }} state=absent

@@ -1,0 +1,3321 @@
+2008-01-11 12:25  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Revision 2.0.43
+
+2008-01-11 12:25  jorris
+
+	* app/models/quarterly_update.rb: Prevent fast track bugs from
+	  being added to quarterly updates.
+
+2008-01-11 12:25  jorris
+
+	* app/: controllers/bugs_controller.rb, models/release.rb: Added a
+	  get_bugs method to release. This will fetch via RPC all the bugs
+	  containing the primary release flag, e.g. 5.2.0, and then filter
+	  them based upon ACK flags and exceptions, resulting in the
+	  complete set of bugs that should be in the given release.
+
+	  Use this method for adding bugs to an errata and displaying the
+	  list of qu blockers.
+
+2008-01-11 12:24  jorris
+
+	* lib/bugzilla_rpc.rb: Use default column list for finding bugs
+	  with certain flag set.
+
+2008-01-11 12:24  jorris
+
+	* app/controllers/rhn_controller.rb: Republish tps job queue
+	  whenever an errata is pushed to RHN Stage
+
+2008-01-11 12:24  jorris
+
+	* app/models/quarterly_update.rb: Allow quarterly update bugs added
+	  if they have the base blocker flag set along with the Security
+	  keyword
+
+2008-01-11 12:24  jorris
+
+	* app/models/product_version.rb: Handle RHEL5 dir serv product.
+	  Need to talk with rel-eng about a better way of handling these
+	  RHEL5 variant issues, as this growing set of if statements is not
+	  maintainable.
+
+2008-01-10 13:33  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Revision 2.0.42 update
+
+2008-01-10 13:31  jorris
+
+	* ChangeLog: ChangeLog update
+
+2008-01-10 13:29  jorris
+
+	* app/: controllers/rhn_channel_controller.rb,
+	  helpers/application_helper.rb,
+	  views/rhn_channel/new_from_variant.rhtml: Helper method to set an
+	  H1 header containing the same string as the page title
+
+2008-01-10 13:29  jorris
+
+	* app/models/released_package.rb: Add brew build to released
+	  package
+
+2008-01-10 13:28  jorris
+
+	* app/: controllers/product_controller.rb, models/product.rb,
+	  views/product/list.rhtml, views/product/new_product.rhtml: Allow
+	  product creation from product version admin
+
+2008-01-10 13:28  jorris
+
+	* app/models/errata.rb: Fix bug in handling of tps run creation in
+	  NEW_PKGS. Since it is now effectively a one-many relation, need
+	  to filter the tps runs.
+
+2008-01-09 16:54  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Update to revision
+	  2.0.41 - Fixes to ZStream rhn push
+
+2008-01-09 16:54  jorris
+
+	* ChangeLog: Changelog update
+
+2008-01-09 14:40  jorris
+
+	* app/models/: errata_brew_mapping.rb, product_version.rb: Fix
+	  handling of ZStream in product listings so that: 1) RHEL4.5.Z
+	  variants will get properly added into the file list.	2) The rhn
+	  channel hash will be produced correctly.
+
+2008-01-09 13:01  jorris
+
+	* Makefile, errata-rails.spec, lib/system_version.rb: Update to
+	  revision 2.0.40 - Update ChangeLog, copy ChangeLog and README in
+	  Makefile install.
+
+2008-01-09 12:56  jorris
+
+	* ChangeLog: Changelog update
+
+2008-01-09 12:50  jorris
+
+	* app/controllers/user_controller.rb: Set selected tag for
+	  user_controller secondary nav
+
+2008-01-09 12:50  jorris
+
+	* app/controllers/security_controller.rb: Add secondary nav to
+	  security controller
+
+2008-01-09 12:50  jorris
+
+	* app/controllers/rhn_controller.rb, lib/push/rhn_push.rb:
+	  Refactored more of rhn_controller to consolidate push logic into
+	  push library.  Fixed issue with fast track channel pushes.
+
+2008-01-08 17:57  jorris
+
+	* Makefile, errata-rails.spec, lib/system_version.rb: Bump to
+	  2.0.39 - Add rpm-sign dependency in spec and create rails tmp
+	  directories in Makefile
+
+2008-01-08 17:05  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to 2.0.38
+
+2008-01-08 17:05  jorris
+
+	* app/: controllers/brew_controller.rb,
+	  controllers/errata_controller.rb,
+	  controllers/rpmdiff_controller.rb, controllers/tps_controller.rb,
+	  controllers/user_controller.rb, models/auditing_sweeper.rb:
+	  Eliminate unneccessary finds on user id in session. User object
+	  is already in the session, code to constantly find is obsolete
+
+2008-01-08 14:28  jorris
+
+	* app/: controllers/security_controller.rb,
+	  views/security/fix_cve_names.rhtml: Fix fix_cve_names. There was
+	  a debugging return statement that was committed
+
+2008-01-08 14:28  jorris
+
+	* app/views/layouts/_main_nav.rhtml: Make Admin and Security links
+	  dependent on role
+
+2008-01-08 14:27  jorris
+
+	* app/helpers/application_helper.rb: Set the erratum synopsis as
+	  the title of an errata link
+
+2008-01-08 14:27  jorris
+
+	* app/controllers/application.rb: Return false in the
+	  authentication filter. Otherwise subsequent filters may get run
+
+2008-01-08 11:16  jorris
+
+	* app/controllers/rhn_controller.rb, lib/bugzilla_rpc.rb: Fix
+	  closing of bugs for security product.  close_bugs method moved
+	  completely within bugzilla rpc code, and all state/product
+	  validation is done at that point.
+
+2008-01-07 18:25  jorris
+
+	* app/models/errata.rb: Fix bug 229300 - Generate a new tps run
+	  when state changes to new_pkgs.  This will enable the tps job
+	  scheduler to examine the new list of builds and assign the
+	  correct jobs.  It will also be a step towards distinguishing
+	  respin results.
+
+2008-01-07 18:25  jorris
+
+	* app/models/tps_run.rb: Fix bug 229300 - Use brew product listing
+	  data to filter the set of tps systems to use for job scheduling.
+
+2008-01-07 18:25  jorris
+
+	* app/: controllers/errata_controller.rb, views/errata/show.rhtml:
+	  Fix bug 202021 - How to Test section is not editable.
+
+2008-01-04 17:34  jorris
+
+	* app/views/release/_list_release_set.rhtml: Missing file for
+	  release listing
+
+2008-01-04 17:34  jorris
+
+	* app/: controllers/release_controller.rb, views/admin/index.rhtml,
+	  views/release/edit.rhtml, views/release/show.rhtml: Finalize
+	  release creation & edit
+
+2008-01-04 17:33  jorris
+
+	* app/: controllers/release_controller.rb,
+	  views/release/list.rhtml, views/release/show.rhtml: List release
+	  groups by type
+
+2008-01-04 17:33  jorris
+
+	* app/: controllers/release_controller.rb, models/fast_track.rb,
+	  models/quarterly_update.rb, models/release.rb, models/zstream.rb,
+	  views/release/_form.rhtml, views/release/_new_async.rhtml,
+	  views/release/_new_fasttrack.rhtml,
+	  views/release/_new_quarterlyupdate.rhtml,
+	  views/release/_new_zstream.rhtml, views/release/list.rhtml,
+	  views/release/new.rhtml, views/release/new_by_type.rhtml: Add
+	  type specific release creation.  Perform more validation in
+	  release
+
+2008-01-04 17:32  jorris
+
+	* app/controllers/release_controller.rb,
+	  app/helpers/release_helper.rb, app/views/release/_form.rhtml,
+	  app/views/release/edit.rhtml, app/views/release/list.rhtml,
+	  app/views/release/new.rhtml, app/views/release/show.rhtml,
+	  test/functional/release_controller_test.rb: Adding Release
+	  management functionality.
+
+2008-01-03 15:59  jorris
+
+	* app/: controllers/product_controller.rb,
+	  views/product/_form.rhtml, views/product/list.rhtml,
+	  views/product/new.rhtml, views/variant/show.rhtml: Number of
+	  fixes & improvements for new product version creation
+
+2008-01-03 10:32  jorris
+
+	* app/controllers/rhn_controller.rb: Check that options parameter
+	  exists; sometimes used for logging, and do not want a Nil
+	  exception just because rhn stage is being used
+
+2008-01-02 11:59  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Revision .37
+
+2008-01-02 11:59  jorris
+
+	* app/models/errata.rb, lib/change_id.rb: Fix change_id for 2008.
+	  Add get_next_errata_id method to errata.rb
+
+2008-01-02 11:59  jorris
+
+	* app/models/release.rb: Return empty list if blocker flags is
+	  null; avoids nil error on split
+
+2008-01-02 09:25  jorris
+
+	* ChangeLog: Changelog update
+
+2007-12-19 13:44  jorris
+
+	* app/: controllers/user_controller.rb, views/user/add_user.rhtml:
+	  Add ability to add new users to system instead of getting an
+	  error
+
+2007-12-19 12:18  jorris
+
+	* app/controllers/: admin_controller.rb, application.rb,
+	  product_controller.rb, rhn_channel_controller.rb,
+	  variant_controller.rb: Restrict admin controllers to pusherrata
+
+2007-12-19 12:10  jorris
+
+	* app/: controllers/rhn_channel_controller.rb,
+	  models/rhn_channel.rb, models/variant.rb,
+	  views/rhn_channel/edit.rhtml,
+	  views/rhn_channel/new_from_variant.rhtml,
+	  views/rhn_channel/show.rhtml, views/variant/show.rhtml: Fix more
+	  navigation for rhn channels as well as creation & editing
+
+2007-12-19 11:28  jorris
+
+	* app/: controllers/variant_controller.rb,
+	  helpers/application_helper.rb, models/product.rb,
+	  models/product_version.rb, models/variant.rb,
+	  views/product/show.rhtml, views/shared/_rhn_channels.rhtml,
+	  views/variant/_form.rhtml, views/variant/edit.rhtml,
+	  views/variant/list.rhtml, views/variant/new.rhtml,
+	  views/variant/show.rhtml: Fixes & improvements to editing &
+	  creation of variants
+
+2007-12-18 15:26  jorris
+
+	* app/controllers/variant_controller.rb,
+	  app/helpers/variant_helper.rb, app/views/rhn_channel/show.rhtml,
+	  app/views/variant/_form.rhtml, app/views/variant/edit.rhtml,
+	  app/views/variant/list.rhtml, app/views/variant/new.rhtml,
+	  app/views/variant/show.rhtml, test/fixtures/variants.yml,
+	  test/functional/variant_controller_test.rb,
+	  test/unit/variant_test.rb: Variant editing functions
+
+2007-12-18 13:57  jorris
+
+	* app/: controllers/rhn_channel_controller.rb, models/arch.rb,
+	  views/product/list.rhtml, views/product/show.rhtml,
+	  views/rhn_channel/_form.rhtml, views/rhn_channel/_list.rhtml,
+	  views/rhn_channel/edit.rhtml,
+	  views/rhn_channel/list_by_product_version.rhtml,
+	  views/rhn_channel/new.rhtml, views/rhn_channel/show.rhtml: Allow
+	  display & editing of rhn channels.
+
+2007-12-18 13:57  jorris
+
+	* app/models/variant.rb: Added rhn_channels relationship
+
+2007-12-18 13:56  jorris
+
+	* app/: controllers/product_controller.rb, views/admin/index.rhtml,
+	  views/product/list.rhtml: Refactor product listing page to be
+	  more intuitive, exclude archived products.  Added link to
+	  administrative pages
+
+2007-12-14 17:40  jorris
+
+	* app/controllers/rhn_controller.rb: move-pushed-erratum and more
+	  logging
+
+2007-12-14 17:40  jorris
+
+	* app/models/brew_rpm.rb: Fake out md5sum implementation in
+	  non-production environments disconnected from NFS.
+
+2007-12-14 12:15  jorris
+
+	* app/controllers/product_controller.rb,
+	  app/controllers/rhn_channel_controller.rb,
+	  app/helpers/product_helper.rb, app/helpers/rhn_channel_helper.rb,
+	  app/views/product/_form.rhtml, app/views/product/edit.rhtml,
+	  app/views/product/list.rhtml, app/views/product/new.rhtml,
+	  app/views/product/show.rhtml, app/views/rhn_channel/_form.rhtml,
+	  app/views/rhn_channel/_list.rhtml,
+	  app/views/rhn_channel/edit.rhtml,
+	  app/views/rhn_channel/list.rhtml,
+	  app/views/rhn_channel/list_by_product_version.rhtml,
+	  app/views/rhn_channel/new.rhtml,
+	  app/views/rhn_channel/show.rhtml, test/fixtures/products.yml,
+	  test/fixtures/rhn_channels.yml,
+	  test/functional/admin_controller_test.rb,
+	  test/functional/product_controller_test.rb,
+	  test/functional/rhn_channel_controller_test.rb,
+	  test/functional/security_controller_test.rb,
+	  test/unit/product_test.rb, test/unit/rhn_channel_test.rb: Adding
+	  in administrative functions for products and rhn channels.
+
+2007-12-13 15:35  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Revision 36
+
+2007-12-13 15:32  jorris
+
+	* ChangeLog: Adding ChangeLog
+
+2007-12-13 15:31  jorris
+
+	* app/controllers/brew_controller.rb: Fix bug in displaying brew
+	  tags for builds.  If a build was added using a different tag than
+	  the default in the product_version, the product version tag would
+	  still be shown when the build was revisited.
+
+2007-12-13 15:30  jorris
+
+	* app/controllers/brew_controller.rb: Sort the product versions by
+	  name in the file listing, consistent with the -legacy tool
+
+2007-12-13 15:30  jorris
+
+	* app/views/brew/list_files.rhtml: Print description for product
+	  versions in brew file listing
+
+2007-12-13 15:30  jorris
+
+	* app/controllers/: abstract_rhn_controller.rb, rhn_controller.rb:
+	  Put all RHN log related activities in the RHNLOG.  Increase
+	  amount of rhn push logging for Live.	Update package upload
+	  timestamps.
+
+2007-12-12 15:12  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Revision 35
+
+2007-12-12 15:12  jorris
+
+	* app/models/tps_run.rb: Ensure tps job queue is republished when
+	  erratum goes into ON_RHNQA
+
+2007-12-12 15:12  jorris
+
+	* app/controllers/errata_controller.rb: Eliminate spurious warning
+	  log message
+
+2007-12-12 15:12  jorris
+
+	* app/models/errata_file.rb: Fix ftp path problem for rhn push
+
+2007-12-12 15:11  jorris
+
+	* app/: apis/tps_api.rb, models/tps_service.rb: Add a ping method
+	  to tps_service.  Fix host resolution issue, which is the same one
+	  as for the error reporting: mongrel cluster is showing requests
+	  as local to the rails app, but is passing through the remote host
+	  in the HTTP_X_FORWARDED_FOR header
+
+2007-12-12 15:11  jorris
+
+	* app/controllers/application.rb: Apparently due to a change in
+	  mongrel versions, Rails is seeing all requests as local, thus
+	  disabling the exception notifier.
+
+2007-12-10 17:23  jorris
+
+	* app/: controllers/abstract_rhn_controller.rb,
+	  controllers/rhn_controller.rb, views/rhn/push_to_live.rhtml: RHN
+	  Live push options
+
+2007-12-10 11:44  jorris
+
+	* app/: controllers/errata_controller.rb, models/product.rb: Fix
+	  Bug 318101: Boilerplate Solution text no longer provided
+
+2007-12-07 10:17  jorris
+
+	* errata-rails.spec: ARGH. Somehow copied back the broken mongrel
+	  cluster setup line
+
+2007-12-07 09:52  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Revision .34
+
+2007-12-06 16:54  jorris
+
+	* app/controllers/errata_controller.rb: Check Bugzilla CVEs
+
+2007-12-06 16:54  jorris
+
+	* app/: controllers/errata_controller.rb, models/rhsa.rb: Render
+	  CVE warnings.
+
+2007-12-06 16:54  jorris
+
+	* app/models/: errata.rb, rhsa.rb: Model methods to check for
+	  problems in cve names
+
+2007-12-06 12:40  jorris
+
+	* app/models/errata_file.rb: When files are created, set the sig
+	  key from the build; that way files created after rpms are signed
+	  are properly marked as signed
+
+2007-12-05 20:57  lockhart
+
+	* app/: controllers/rpmdiff_controller.rb,
+	  helpers/rpmdiff_helper.rb, views/rpmdiff/list.rhtml:
+	  Bugfixes so the rpmdiff pages display again, plus a few
+	  enhancements.  rpmdiff_controller: preserve the flash notice
+	  across redirects, improve flash message;
+	  bugfixes: fix the verify line, and explicitly declare the helper.
+	  rpmdiff/list: explicitly pass the user/errata values, and make
+	  the table a tad more narrow.	rpmdiff_helper: fix up the
+	  reschedule_permitted handling, avoid deprecation warnings.
+
+2007-12-05 16:43  jorris
+
+	* app/views/errata/_errata_list.rhtml: Add release date back into
+	  the listrequest view
+
+2007-12-05 16:43  jorris
+
+	* app/views/layouts/_footer.rhtml: Make debugging footer a bit
+	  clearer
+
+2007-12-05 16:42  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_edit_form.rhtml: Fix resetting of Release Date in
+	  RHSA advisories.  The prior select widget was not properly
+	  functioning. switched to select_date and an explicit object for
+	  passing the data.
+
+2007-12-04 17:31  lockhart
+
+	* app/: helpers/rpmdiff_helper.rb, views/rpmdiff/list.rhtml: Allow
+	  users to reschedule a single rpmdiff run
+
+2007-12-04 17:30  lockhart
+
+	* app/controllers/rpmdiff_controller.rb: Add a verify as mentioned
+	  on IRC, and remove the superfluous use of dead.errata
+
+2007-12-04 15:32  lockhart
+
+	* app/helpers/rpmdiff_helper.rb: whitespace cleanup
+
+2007-12-04 15:09  lockhart
+
+	* app/controllers/rpmdiff_controller.rb: Add routine to reschedule
+	  a single rpmdiff run
+
+2007-12-03 16:42  jorris
+
+	* errata-rails.spec: Fix specfile
+
+2007-12-03 16:42  jorris
+
+	* Makefile: Fix makefile
+
+2007-12-03 16:17  jorris
+
+	* errata-rails.spec: Fix mongrel conf path
+
+2007-12-03 16:00  jorris
+
+	* errata-rails.spec: Copy over mongrel cluster config
+
+2007-12-03 13:47  jorris
+
+	* Makefile, errata-rails.spec, lib/system_version.rb: Bump to
+	  revision .33. Fix mongrel cluster in spec and make files.
+
+2007-11-30 12:23  jorris
+
+	* app/controllers/tps_controller.rb, lib/tps/job_queue.rb: Correct
+	  extreme stupidity with TPS queueing: Need to actually re-find
+	  associations from constants.
+
+2007-11-30 12:22  jorris
+
+	* errata-rails.spec: Add brew as a requirement
+
+2007-11-26 16:32  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .32 revision
+	  for new mongrel dependencies
+
+2007-11-26 16:32  jorris
+
+	* app/: models/errata.rb, models/oval_test.rb,
+	  views/rhn/errata_oval.rhtml: CPE display in OVAL.
+
+2007-11-26 16:32  jorris
+
+	* app/models/product_version.rb: Fix typo in product_version
+
+2007-11-26 11:26  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .31
+
+2007-11-26 11:26  jorris
+
+	* app/views/rhn/errata_oval.rhtml: Move to 5.3 schema; we are
+	  already complaint with affected_cpe_names and verified by
+	  schematron against 5.3 schema.
+
+2007-11-26 11:26  jorris
+
+	* app/models/comment_sweeper.rb: Drop logging to WARN from ERROR
+	  for comment sweeper delivery messages.
+
+2007-11-26 11:26  jorris
+
+	* app/models/tps_service.rb: Do not restrict query to tps run only;
+	  can cause load problems down the line
+
+2007-11-26 11:26  jorris
+
+	* app/models/tps_job.rb: Log whenever state changes and queue is
+	  repopulated
+
+2007-11-26 11:26  jorris
+
+	* app/models/product_version.rb: Return correct values for rhel 2.1
+
+2007-11-26 11:25  jorris
+
+	* app/models/errata_service.rb: Ensure nil results are not returned
+	  for RHN channels.
+
+2007-11-26 11:25  jorris
+
+	* app/models/: product_version.rb, rhn_channel.rb, variant.rb:
+	  Utility functions for creating product versions, variants, and
+	  channels
+
+2007-11-15 17:26  jorris
+
+	* app/models/tps_job.rb, app/models/tps_run.rb,
+	  lib/tps/job_queue.rb: In job queue, restrict variants to those
+	  within the errata itself.  In tpsjob and tpsrun, log the reason
+	  the queue is being republished.
+
+2007-11-14 14:57  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .30
+
+2007-11-14 14:57  jorris
+
+	* app/models/errata_service.rb: Qualify ambiguous columns in query,
+	  log a warning if nothing is returned for RHN channels.
+
+2007-11-14 14:57  jorris
+
+	* lib/push/rhn_push.rb: Do not add nil to the channel map in the
+	  rhnpush code
+
+2007-11-14 14:57  jorris
+
+	* app/: models/errata_brew_mapping.rb, models/product_version.rb,
+	  views/brew/list_files.rhtml: Handle cases of product listings
+	  where more variants are returned than actually used, e.g.
+	  zstream.  Improve list_files appearance: useful display code from
+	  -legacy had been left out.
+
+2007-11-14 14:57  jorris
+
+	* app/controllers/application.rb: Do not create sessions for XMLRPC
+	  calls
+
+2007-11-08 22:15  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .29 revision
+
+2007-11-08 22:15  jorris
+
+	* app/: controllers/reports_controller.rb, models/errata.rb,
+	  models/errata_activity.rb, views/reports/dashboard.rhtml: Fix
+	  several dashboard errors
+
+2007-11-08 22:15  jorris
+
+	* app/models/tps_job.rb: Fix refresh of tps jobs queue
+
+2007-11-07 23:36  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to revision .28
+
+2007-11-07 23:36  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/show_activity.rhtml: Fix backlink for errata
+	  activity.  Fix display of last activity.  Actually save text diff
+	  audit.
+
+2007-11-07 23:36  jorris
+
+	* config/environment.rb: Enable EUS pushes by default
+
+2007-11-07 23:36  jorris
+
+	* lib/tps/job_queue.rb: Log when tps queue is updated
+
+2007-11-07 23:35  jorris
+
+	* apache/: errata_beta.conf, errata_legacy.conf, errata_rails.conf,
+	  errata_xmlrpc.conf, gitweb.conf, map.txt, xmlrpcmap.txt: Adding
+	  apache config files
+
+2007-11-07 15:12  jorris
+
+	* app/models/tps_job.rb, app/models/tps_run.rb,
+	  app/models/tps_state.rb, lib/tps/job_queue.rb: Adding in support
+	  for text based TPS queueing.
+
+2007-11-07 15:12  jorris
+
+	* app/models/errata.rb: Cache the old ids for autitng, instead of
+	  finding objects. Causes too much overhead in bulk queries
+
+2007-11-07 15:12  jorris
+
+	* app/models/bug.rb: Utility to_s method
+
+2007-11-07 15:12  jorris
+
+	* app/controllers/errata_controller.rb: Re-add line missing from
+	  prior commit
+
+2007-11-07 12:49  jorris
+
+	* app/controllers/: application.rb, errata_controller.rb: In
+	  find_errata, automatically reconcile bugs for any RHSA.  Clean up
+	  errata find code in errata controller to use find_errata properly
+	  everywhere appropriate.
+
+2007-11-06 10:31  jorris
+
+	* app/: controllers/bugs_controller.rb,
+	  views/errata/_info_content.rhtml: Add Reconcile Bugs link to info
+	  page, at request of bressers.  Fix non post access to
+	  reconcile_bugs
+
+2007-11-06 10:26  jorris
+
+	* app/: controllers/security_controller.rb,
+	  views/security/fix_cve_names.rhtml: Add search box and separate
+	  method to find cve names to fix.  Allows fix_cve_names page to
+	  view without POST.
+
+2007-11-06 10:25  jorris
+
+	* app/controllers/docs_controller.rb: Fix dash in page title
+
+2007-11-06 10:25  jorris
+
+	* app/models/errata.rb: Update find method to accept integer ids as
+	  well as string integers.  Useful for command line or rails
+	  console usage
+
+2007-11-06 10:25  jorris
+
+	* app/controllers/application.rb: Have find_errata return true or
+	  false. Add controller name to redirect.
+
+2007-11-06 10:25  jorris
+
+	* app/controllers/docs_controller.rb: Fix RT 16065: Not saving
+	  errata or no feedback given
+
+2007-10-30 16:45  jorris
+
+	* app/: controllers/errata_controller.rb, models/errata.rb,
+	  models/errata_activity.rb, views/errata/show_activity.rhtml:
+	  Switch to using table errata_activities
+
+2007-10-30 10:54  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .27
+
+2007-10-30 10:54  jorris
+
+	* lib/bugzilla_rpc.rb: Update to bugzilla rpc
+
+2007-10-30 10:24  jorris
+
+	* app/views/layouts/application.rhtml, lib/bugzilla_rpc.rb,
+	  vendor/plugins/exception_notification/lib/exception_notifiable.rb:
+	  Provide a separate bugzilla XMLRPC error.  Render the bugzilla
+	  errors distinctly for the errata error page.
+
+	  Show the message for any exception
+
+2007-10-29 22:29  jorris
+
+	* errata-rails.spec: Add in rubygem-diff-lcs requirement to spec
+
+2007-10-29 22:25  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump revision to .26
+
+2007-10-29 18:02  jorris
+
+	* app/controllers/rhn_controller.rb, lib/brew.rb: Fix optional
+	  shadow parameter check in live RHN push.  Increase Brew xmlrpc
+	  timeout and use cleaner constructor form.
+
+2007-10-29 18:01  jorris
+
+	* lib/: push/rhn_push.rb, rhn.rb: Added more logging to rhn_push.
+	  Increased RHN xmlrpc timeout limit
+
+2007-10-29 14:35  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_edit_form.rhtml: Fix description length checking
+
+2007-10-26 19:39  jorris
+
+	* config/environment.rb, lib/push/rhn_push.rb,
+	  lib/text_render/oval_text_renderer.rb: Copying RHN Stage push
+	  functionality into rhn_push as part of refactoring code out of
+	  controller and into stand alone modules
+
+2007-10-26 17:29  jorris
+
+	* config/environment.rb, lib/push/rhn_push.rb: Pull in beta testing
+	  code to add eus channels in.
+
+2007-10-26 13:29  jorris
+
+	* app/controllers/errata_controller.rb, config/environment.rb: Fix
+	  broken boolean in check for diffs.  Change logging for mailer to
+	  a separate log file.
+
+2007-10-26 13:29  jorris
+
+	* app/models/errata.rb: Fix revision count
+
+2007-10-26 13:29  jorris
+
+	* app/controllers/errata_controller.rb, lib/diffstring.rb: Use
+	  diff-lcs for diffing text changes
+
+2007-10-26 13:29  jorris
+
+	* app/: models/notifier.rb, views/notifier/docs_text_changed.rhtml:
+	  Remove controller reference from docs_text_changed
+
+2007-10-26 13:29  jorris
+
+	* app/controllers/push_controller.rb: Need to restrict ftp packages
+	  to srpms and debuginfo
+
+2007-10-26 13:28  jorris
+
+	* app/controllers/tps_controller.rb: Was fetching RHN instead of
+	  rhnqa  jobs in second open jobs query
+
+2007-10-26 13:28  jorris
+
+	* app/models/errata_service.rb, lib/push/rhn_push.rb: In XMLRPC
+	  getRHNChannels, need to look up the actual errata variant, as
+	  what is sent in the call is the RHEL variant, not the product
+	  variant, i.e. 4AS instead of 4AS-GFS.
+
+	  Added a bit more doc to the rhn channel lookup implementation.
+
+2007-10-23 11:55  jorris
+
+	* app/models/errata_service.rb, lib/push/rhn_push.rb: Refactor code
+	  for finding RHN Channels for an advisory via XMLRPC.	 - Use the
+	  RhnChannels class to find the channels, and use model based
+	  searching.   - Move core of search code into the RhnPush utility
+	  module for access by other services.
+
+2007-10-23 11:55  jorris
+
+	* app/models/product_version.rb: Add has_many relationship for
+	  rhn_channels in product_version
+
+2007-10-23 11:55  jorris
+
+	* app/models/bug_list.rb, lib/push/ftp.rb: Two minor bug fixes: Set
+	  default path in ftp; missing from refactoring.  Return early in
+	  bug_list validation if no bugs to check (i.e. everything is
+	  security)  -- has caused occaisional postgres query errors in
+	  editing since postgres cannot handle empty in () statements
+
+2007-10-22 16:02  jorris
+
+	* app/controllers/rhn_controller.rb, app/models/errata_file.rb,
+	  lib/push/ftp.rb, lib/push/rhn_push.rb: Move Ftp and RHN file =>
+	  channel mapping code into libraries.
+
+2007-10-18 17:42  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .25 revision.
+	  Add in mongrel dependency
+
+2007-10-18 17:26  jorris
+
+	* app/models/: errata_brew_mapping.rb, errata_file.rb,
+	  rhn_channel.rb: Use new rhn_channels table instead of
+	  errata_rel_arch_map
+
+2007-10-18 09:46  jorris
+
+	* app/: controllers/push_controller.rb, models/notifier.rb,
+	  views/notifier/sign_advisory.rhtml, views/push/mail.rhtml: Email
+	  sign advisory request functionality.
+
+2007-10-18 09:46  jorris
+
+	* app/controllers/application.rb,
+	  app/controllers/push_controller.rb,
+	  app/controllers/rhn_controller.rb, app/views/push/ftp.rhtml,
+	  config/environment.rb: File push functionality.  Created
+	  :pusherrata_restricted filter in application controller,
+	  refactored use from RHN & push controllers.
+
+2007-10-17 08:48  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump revision to .24
+
+2007-10-16 15:49  jorris
+
+	* app/: models/errata.rb, models/notifier.rb,
+	  views/notifier/rhnpush_ticket.rhtml: Ensure qa_complete marked
+	  when advisory goes into HOLD.  File rhn push ticket with rel-eng
+	  for appropriate advisories.
+
+2007-10-16 14:00  jorris
+
+	* app/: models/errata.rb, views/errata/_bug_list.rhtml,
+	  views/errata/_errata_info.rhtml,
+	  views/errata/_info_content.rhtml: Use same partial template for
+	  rendering bugs in info and show, fixing highlighting of private
+	  bugs in info.  Sort bugs in advisory by id.
+
+2007-10-16 13:00  jorris
+
+	* app/models/errata_file.rb: Fix LACD ftp paths
+
+2007-10-16 12:44  jorris
+
+	* app/controllers/: abstract_rhn_controller.rb, push_controller.rb,
+	  rhn_controller.rb, security_controller.rb: Move push_controller
+	  functionality into abstract_rhn_controller.  push_controller will
+	  be used for other functionality.
+
+2007-10-11 12:08  jorris
+
+	*
+	  vendor/plugins/exception_notification/lib/exception_notifiable.rb:
+	  Give users a more informative error message for bad URLs.
+	  Instead of the OOPS message, which implies a system error, show
+	  them that they have entered a bad URL.  This way simple typos can
+	  be fixed, and old/missing routes are still logged at ERROR.
+
+2007-10-11 12:00  jorris
+
+	* config/routes.rb: Add some further legacy routes for dashboard
+	  and bugzilla search
+
+2007-10-11 11:54  jorris
+
+	* app/: controllers/admin_controller.rb,
+	  controllers/brew_controller.rb, models/brew_build.rb: Always save
+	  new brew builds when found by RPC. This is what happens after
+	  every make_from_rpc call anyhow, so it is better to consolodate.
+
+2007-10-09 15:08  jorris
+
+	* app/: helpers/security_helper.rb, helpers/user_helper.rb,
+	  views/notifier/request_translation.rhtml,
+	  views/security/fix_cve_names.rhtml: Add missing files from dev
+	  tree.
+
+2007-10-09 15:08  jorris
+
+	* app/controllers/errata_controller.rb: Fix flag name in filter
+
+2007-10-09 15:08  jorris
+
+	* app/models/tps_service.rb: Catch an empty list of products and
+	  log, instead of spewing exceptions
+
+2007-10-09 11:30  jorris
+
+	* errata-rails.spec, app/controllers/errata_controller.rb,
+	  app/models/async.rb, app/models/release.rb,
+	  lib/system_version.rb:  Remove unused ASYNC constant from
+	  release.rb. This appears to be what has been causing the
+	  mysterious dependency resolution problems with async, which have
+	  now crept into the production env.
+
+2007-10-08 18:06  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to revision .22
+
+2007-10-08 17:58  jorris
+
+	* app/controllers/errata_controller.rb: Fix typo in list_errata
+	  filter. Had a += instead of an != in sql query
+
+2007-10-08 17:57  jorris
+
+	* app/: controllers/errata_controller.rb, models/rhsa.rb,
+	  views/errata/preview.rhtml: Add a require release to satisfy
+	  dependency resolution in development mode
+
+2007-10-05 12:07  jorris
+
+	* app/controllers/bugs_controller.rb: Fix bug 320191 - Errata Bugs
+	  Search Broken Was still using old cross db mapping code.
+
+2007-10-05 11:32  jorris
+
+	* app/: controllers/errata_controller.rb, models/async.rb,
+	  models/bug_list.rb, views/errata/_edit_form.rhtml,
+	  views/errata/new.rhtml, views/errata/new_errata.rhtml: Add Clone
+	  Advisory functionality back in.
+
+2007-10-05 11:32  jorris
+
+	* app/views/errata/: errata_text.rhtml, preview.rhtml: Fix up text
+	  template errors.  Minor whitespace fix to preview
+
+2007-10-04 16:21  jorris
+
+	* app/models/bug_list.rb: Convert bug ids from both sets of bugs to
+	  string.  There appears to be some inconsitency in production on
+	  how the conversion is done automatically that is not showing up
+	  in test environments.
+
+2007-10-04 08:46  jorris
+
+	* app/models/notifier.rb: Pull in missing fix for bug 300821
+
+2007-10-03 19:05  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to rev. 21
+
+2007-10-03 19:00  jorris
+
+	* app/views/errata/preview.rhtml: Final fixes  for RT 16010
+
+2007-10-03 15:35  jorris
+
+	* app/: helpers/errata_helper.rb, views/errata/show.rhtml: Have to
+	  slightly rework handling of html escaping.  The old errata system
+	  escapes the text before saving, whereas Rails by default escapes
+	  displayed text.  This caused things like file paths and URLs to
+	  break since ampersands got double escaped.
+
+2007-10-03 11:49  jorris
+
+	* app/controllers/docs_controller.rb,
+	  app/controllers/tps_controller.rb, app/models/errata.rb,
+	  app/models/tps_mailer.rb, app/models/tps_run.rb,
+	  app/models/tps_service.rb,
+	  app/views/tps_mailer/query_error.rhtml,
+	  app/views/tps_mailer/report_error.rhtml, config/environment.rb,
+	  test/fixtures/tps_mailer/query_error,
+	  test/fixtures/tps_mailer/report_error,
+	  test/unit/tps_mailer_test.rb: [no log message]
+
+2007-10-02 14:27  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .20 revision
+
+2007-10-02 13:02  jorris
+
+	* lib/bugzilla_rpc.rb: Added more logging to release pending code.
+
+2007-10-02 12:56  jorris
+
+	* app/models/errata.rb: Call bugzilla rpc to put into
+	  RELEASE_PENDING
+
+2007-10-02 12:52  jorris
+
+	* config/environment.rb, lib/bugzilla_rpc.rb: Add bugzilla RPC
+	  specific log file.  clean up mark_bugs_as_release_pending a bit.
+
+2007-10-02 12:43  jorris
+
+	* app/models/state.rb, lib/bugzilla_rpc.rb: Fix bug 315501 - mark
+	  bugs as RELEASE_PENDING when the advisory goes into HOLD.
+
+2007-10-02 12:43  jorris
+
+	* app/views/rhn/push_to_live.rhtml: Eliminate spurious param debug
+	  in live push
+
+2007-10-02 12:43  jorris
+
+	* app/: models/errata.rb, views/errata/_errata_info.rhtml,
+	  views/errata/show.rhtml: Fix bug 307211 - Escape text in comments
+	  to avoid XSS.  Elimintated temp warning log message in errata.rb
+
+2007-10-02 10:51  jorris
+
+	* app/: controllers/errata_controller.rb, models/bug_list.rb:
+	  Properly update product in errata edit.  In bugzilla editing: 1)
+	  Exclude current errata frmocovered bug search.  2) Dont
+
+2007-10-02 10:51  jorris
+
+	* app/models/errata.rb: Audit changes to product and release
+
+2007-10-02 10:51  jorris
+
+	* app/models/errata_brew_mapping.rb: Specify foreign key to avoid
+	  deprecation warning
+
+2007-10-01 12:29  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_info_summary.rhtml: Provide functionality for
+	  admins to revoke bad signature status of an advisory and
+	  re-request new sigs
+
+2007-10-01 12:28  jorris
+
+	* app/controllers/docs_controller.rb: Fix bug 313701 - Do not mark
+	  as docs complete when approval requested
+
+2007-10-01 09:31  jorris
+
+	* app/views/rpmdiff/show.rhtml: Reformatting changes
+
+2007-10-01 09:31  jorris
+
+	* app/: controllers/errata_controller.rb, views/errata/list.rhtml:
+	  Add Show All back to listrequest
+
+2007-09-28 11:01  jorris
+
+	* .gitignore: Adding gitignore
+
+2007-09-27 16:48  jorris
+
+	* app/: controllers/rhn_controller.rb, models/errata_file.rb: For
+	  noarch and srpms, limit the set of rhn channels to those arches
+	  actually in the advisory
+
+2007-09-27 11:48  jorris
+
+	* app/: controllers/user_controller.rb, views/admin/index.rhtml:
+	  Fix some typos
+
+2007-09-27 11:43  jorris
+
+	* app/: controllers/user_controller.rb, views/admin/index.rhtml,
+	  views/layouts/_secondary_nav.rhtml, views/user/edit_user.rhtml,
+	  views/user/index.rhtml, views/user/list_users.rhtml,
+	  views/user/users_by_role.rhtml: User administration, redone.
+	  Also adds functionality to cover ticket 16413
+
+2007-09-27 11:43  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/request_unfiled.rhtml: If a request is unfiled,
+	  redirect from show to a warning page, like old system
+
+2007-09-27 11:43  jorris
+
+	* app/: models/notifier.rb,
+	  views/notifier/errata_file_request.rhtml: Fix bug 300821 -
+	  Include links back to the errata.
+
+2007-09-27 11:43  jorris
+
+	* app/models/state.rb: Fix bug 298261 - Do not include push to
+	  stage link unless the advisory is signed.
+
+2007-09-27 11:43  jorris
+
+	* app/models/rhsa.rb: Fix Nil issue in getting severity.
+
+2007-09-26 11:47  jorris
+
+	* app/models/errata_service.rb: Get product from errata, not
+	  variant.
+
+2007-09-26 11:30  jorris
+
+	* app/models/bug_list.rb: Check for bugs covered by other errata.
+	  Use the release method for checking bug flags.
+
+2007-09-26 11:29  jorris
+
+	* app/models/: quarterly_update.rb, release.rb: Add a
+	  has_correct_flags? method to release to consolidate bug checking
+	  logic.  quarterly updates use the allow_exception and
+	  allow_blocker flags
+
+2007-09-26 11:29  jorris
+
+	* lib/bugzilla_rpc.rb: Add is_security check for the security
+	  product.
+
+2007-09-25 10:56  jorris
+
+	* app/controllers/: push_controller.rb, rhn_controller.rb: Fix
+	  pulled from production: missing argument in function for file
+	  upload
+
+2007-09-24 18:13  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump revision to .19
+
+2007-09-24 17:42  jorris
+
+	* app/: controllers/docs_controller.rb,
+	  controllers/errata_controller.rb, models/brew_rpm.rb,
+	  models/errata.rb, views/docs/show.rhtml,
+	  views/errata/_info_content.rhtml: Fix ticket 16060: Properly
+	  render all of the information in the docs preview.
+
+2007-09-24 13:09  jorris
+
+	* app/controllers/errata_controller.rb,
+	  app/controllers/push_controller.rb,
+	  app/controllers/rhn_controller.rb,
+	  app/controllers/security_controller.rb,
+	  app/helpers/application_helper.rb,
+	  app/views/errata/_info_summary.rhtml,
+	  app/views/errata/info.rhtml, config/routes.rb: Adding fixcvenames
+	  functionaltiy back in.  Now shows a link on errata info page,
+	  restricted to pusherrata members.  security controller has
+	  permissions checks.
+
+2007-09-21 16:39  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to rev .18
+
+2007-09-21 16:38  jorris
+
+	* app/models/errata_service.rb: Drop logging level to DEBUG for
+	  g-r-p messages
+
+2007-09-21 16:18  jorris
+
+	* app/models/: carbon_copy.rb, errata.rb: Fix bug 300731 -
+	  update_date not being set on save.  Fix ticket 15712: cc-list
+	  broken: created a new cc list table
+
+2007-09-21 10:56  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_info_summary.rhtml: Fix deletion/undeletion of
+	  errata.  Note that valid? is overloaded in errata, since it is a
+	  rails specific method; need to refactor db at some point.
+
+2007-09-21 10:56  jorris
+
+	* app/helpers/application_helper.rb: Add a question mark to
+	  message.
+
+2007-09-21 10:56  jorris
+
+	* app/controllers/errata_controller.rb: Alphabetized methods in
+	  controller for easier searching & orgaizing.
+
+2007-09-21 00:08  jorris
+
+	* app/models/product_version.rb: Add missing - to stacks version
+
+2007-09-21 00:08  jorris
+
+	* app/models/product.rb: Add boolean to determine if is an extras
+	  product; need cleaner way
+
+2007-09-21 00:08  jorris
+
+	* app/controllers/brew_controller.rb: Properly handle Extras for
+	  quarterly updates
+
+2007-09-21 00:08  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_edit_form.rhtml: Eliminate breaking links for
+	  package owner and manager help.  Default these values to the most
+	  sensible thing from the ET, which is what the help links would do
+	  as it is.
+
+	  Need to migrate to getting this information from Brew and our
+	  internal management tree.
+
+2007-09-21 00:07  jorris
+
+	* lib/bugzilla_rpc.rb: Do not make xmlrpc calls that update
+	  bugzilla unless using the production environment.  Add the
+	  ability to find out how long a call to bugzilla took.
+
+2007-09-20 04:41  dgregor
+
+	* app/models/errata_service.rb: updates to getReleasedPackages
+
+2007-09-19 18:33  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump revision to .17
+
+2007-09-19 18:25  jorris
+
+	* app/models/errata_service.rb: Log a warning to the xmlrpc log if
+	  g-r-p fails
+
+2007-09-19 17:46  jorris
+
+	* app/models/errata.rb: Show RPMDIFF INFO results as PASSED, like
+	  1.0 tool.
+
+2007-09-19 17:46  jorris
+
+	* app/controllers/brew_controller.rb: Better handle errors from
+	  brew regarding missing package listings
+
+2007-09-19 17:45  jorris
+
+	* app/models/product_version.rb: Handle stacks for RHEL5; need a
+	  cleaner way of handling rhel5 versions
+
+2007-09-19 14:17  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_edit_form.rhtml: Fix error in new errata creation:
+	  need to have release variable in a different parameter hash;
+	  otherwise Errata.new gets confused and crashes since release is a
+	  String instead of an Release object.
+
+2007-09-19 14:16  jorris
+
+	* app/views/errata/errata_text.rhtml: Fix error in text rendering;
+	  bad bug method call.
+
+2007-09-19 14:16  jorris
+
+	* reconcile_bugs.rb, config/environment.rb:  Refactored bug
+	  reconcilliation code to better log what is happening.
+	      Added a reconcilliation specific log file
+
+2007-09-19 12:20  jorris
+
+	* app/controllers/rhn_controller.rb: Properly handle & report
+	  errors from rhn-pkgupload.
+
+2007-09-18 17:46  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .16
+
+2007-09-18 17:41  jorris
+
+	* app/models/errata.rb: Do not try to touch brew builds if this is
+	  an old erratum
+
+2007-09-18 16:57  dgregor
+
+	* app/: controllers/admin_controller.rb,
+	  views/admin/add_released_package.rhtml: allow a text area for
+	  mass-adding released packages
+
+2007-09-18 13:15  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump revision to .15
+
+2007-09-18 13:11  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_edit_form.rhtml: Fix bug 295011 - Use changed
+	  release to do bug verification
+
+2007-09-18 12:50  jorris
+
+	* app/controllers/admin_controller.rb: Return early if brew build
+	  not found
+
+2007-09-18 12:50  jorris
+
+	* app/models/brew_build.rb: Check that epoch is null before testing
+
+2007-09-18 12:49  jorris
+
+	* app/controllers/rhn_controller.rb: Ensure that all error messages
+	  from RHN are shown.
+
+2007-09-18 12:49  jorris
+
+	* app/: apis/errata_api.rb, models/errata_service.rb: Fix some
+	  problems and update documentation for errata XMLRPC
+
+2007-09-17 21:38  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump to .14 rev
+
+2007-09-17 21:35  jorris
+
+	* app/views/docs/show.rhtml: Fix RT 16058 - Render bug links
+	  correctly
+
+2007-09-17 21:35  jorris
+
+	* app/models/errata.rb: Fix tps rescheduling on NEW_PKGS; calling
+	  wrong attribute
+
+2007-09-17 21:34  jorris
+
+	* app/: controllers/docs_controller.rb, models/notifier.rb,
+	  views/notifier/docs_update_reviewer.rhtml: Fix reassignment of
+	  reviewer. Was using wrong relationship name
+
+2007-09-17 21:34  jorris
+
+	* app/controllers/errata_controller.rb: Save errata before content;
+	  otherwise new errata fail
+
+2007-09-17 21:34  jorris
+
+	* app/models/errata_service.rb, config/environment.rb: Add xmlrpc
+	  specific log file.
+
+	  Fix some problems in xmlrpc queries.
+
+2007-09-17 12:04  jorris
+
+	* app/controllers/errata_controller.rb: Fix ticket 16011 Edits not
+	  saved in new errata tool - Content was not properly updating from
+	  session. Directly save content & copy values instead.
+
+2007-09-17 12:04  jorris
+
+	* app/views/errata/: edit.rhtml, file_request.rhtml, new.rhtml,
+	  preview.rhtml, show.rhtml, signin_form.rhtml: Remove deprecated
+	  start_form_tag/end_form_tag usage
+
+2007-09-14 17:35  jorris
+
+	* errata-rails.spec, config/environments/production.rb,
+	  lib/system_version.rb: Bump to .13
+
+2007-09-14 17:35  jorris
+
+	* app/: controllers/tps_controller.rb, models/errata.rb,
+	  models/tps_job.rb, models/tps_run.rb: Fix bug  Bug 280201: TPS
+	  tests did not start automaticaly after respin.  Refactored job
+	  rescheduling code.
+
+2007-09-14 17:35  jorris
+
+	* app/: models/bug_list.rb, views/errata/preview.rhtml: Fix bug
+	  with bugs not properly appearing in preview.
+
+2007-09-14 16:03  jorris
+
+	* app/views/rpmdiff/show.rhtml: Fix Bug 290841: Incorrect separator
+	  in rpmdiff results page
+
+2007-09-14 16:03  jorris
+
+	* app/views/tps/: errata_results.rhtml, rhnqa_results.rhtml: Fix
+	  bad quote in warning message
+
+2007-09-14 16:03  jorris
+
+	* app/: helpers/application_helper.rb,
+	  views/tps/errata_results.rhtml, views/tps/rhnqa_results.rhtml:
+	  Fix Bug 287451: RFE: remove "Are you sure" dialog from
+	  "Reschedule All TPS Jobs - Followed rbibas
+
+2007-09-14 14:38  jorris
+
+	* app/: controllers/brew_controller.rb, models/errata.rb,
+	  models/notifier.rb, models/user.rb, views/brew/list_files.rhtml,
+	  views/brew/preview_files.rhtml,
+	  views/notifier/request_respin.rhtml: Improved some usability
+	  issues with brew builds: Fix Bug 286871 - Improving filelist
+	  locked message. Now, a developer will see, in addition to the
+	  locked message, an option to Request A Respin.  Likewise, a QE
+	  engineer will see an option to Put Errata In NEED_RESPIN.
+	  Clicking these links will, respectively, put the errata in
+	  NEED_QE, with a separate message sent to the assigned quality
+	  engineer and the qe errata list,
+
+	  and for a quality engineer, put the advisory in NEED_RESPIN, and
+	  unlock the file list.
+
+	  287791: UI issue with /brew/preview_files - Moved links to the
+	  top of the page.
+
+2007-09-13 15:49  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump version to .12
+
+2007-09-13 15:47  jorris
+
+	* app/controllers/tps_controller.rb: Replace repeated post checks
+	  with filter
+
+2007-09-13 15:46  jorris
+
+	* app/models/tps_service.rb: Speed up TPS jobQuery
+
+2007-09-13 14:01  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bumping revision to .11
+
+2007-09-13 14:00  jorris
+
+	* config/mongrel_cluster.yml: Increase cluster member size
+
+2007-09-13 14:00  jorris
+
+	* reconcile_bugs.rb, app/controllers/bugs_controller.rb,
+	  lib/bugzilla_rpc.rb: Refactored bug reconcilliation code. Now
+	  also checks for privacy changes on bugs
+
+2007-09-13 14:00  jorris
+
+	* app/controllers/docs_controller.rb: Fix bad variable in redirect
+	  that causes error
+
+2007-09-13 14:00  jorris
+
+	* app/controllers/errata_controller.rb: Pre-Check all post only
+	  methods
+
+2007-09-13 11:08  jorris
+
+	* errata-rails.spec: GAH. Forgot to change release field in spec.
+
+2007-09-13 11:02  jorris
+
+	* app/views/errata/_errata_nav.rhtml: Change rhnqa link to rhn
+	  stage.
+
+2007-09-13 10:55  jorris
+
+	* errata-rails.spec, lib/system_version.rb: Bump version to .10
+
+2007-09-13 10:54  jorris
+
+	* config/routes.rb: Fix legacy listerrata.cgi route.
+
+2007-09-13 10:54  jorris
+
+	* app/: controllers/bugs_controller.rb,
+	  helpers/application_helper.rb, views/errata/_errata_info.rhtml:
+	  Add functionality to reconcile bugzilla states from the show
+	  request page.
+
+2007-09-13 10:54  jorris
+
+	* app/views/layouts/_main_nav.rhtml: Add Advisories link to main
+	  nav
+
+2007-09-12 16:29  jorris
+
+	* app/models/notifier.rb: Fix ticket 15292 - Need subject line for
+	  partner reporting e-mail
+
+2007-09-12 16:29  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/list_errata.rhtml: list_errata filters, and filter
+	  permancence, now working
+
+2007-09-12 16:29  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  helpers/application_helper.rb, views/errata/list_errata.rhtml:
+	  list_errata sticky select working
+
+2007-09-12 16:28  jorris
+
+	* app/views/layouts/_footer.rhtml, lib/system_version.rb: Add
+	  system version constant to refer to in footer.  Possibly will use
+	  to tag auditing so that if a problem occurs, the version that
+	  caused it can be determined.
+
+2007-09-12 16:28  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/list_errata.rhtml, views/shared/_errata_list.rhtml:
+	  Add List request functionality back in. Filters working, need to
+	  make sticky, add pagnation links
+
+2007-09-12 13:06  jorris
+
+	* app/: controllers/tps_controller.rb,
+	  helpers/application_helper.rb, models/tps_state.rb,
+	  views/layouts/_main_nav.rhtml, views/tps/_failing_jobs.rhtml,
+	  views/tps/_job_list.rhtml, views/tps/_job_set.rhtml,
+	  views/tps/job_queue.rhtml: Added TPS Queue: Shows Failing,
+	  Running, and Available jobs in one place
+
+2007-09-11 14:57  jorris
+
+	* app/controllers/errata_controller.rb: Fix bad variable name for
+	  RPC.	Clear bug edits from session.  Check parameter hash for
+	  values to avoid error.
+
+2007-09-11 14:57  jorris
+
+	* app/: controllers/rhn_controller.rb,
+	  views/errata/_info_summary.rhtml: Fix link for checking RHN Stage
+	  status of an erratum.
+
+2007-09-11 14:56  jorris
+
+	* app/controllers/docs_controller.rb: Fix typo causing error on
+	  request approval
+
+2007-09-11 14:56  jorris
+
+	* app/views/user/my_errata.rhtml: Fix prior/next link rendering.
+	  link_to_if renders text unless the condition is met. We want
+	  nothing rendered.
+
+2007-09-11 14:56  jorris
+
+	* app/views/errata/show.rhtml: Fix bug 281961: Comment Email Links
+	  are Broken.
+
+2007-09-11 14:56  jorris
+
+	* app/models/rpmdiff_run.rb: Fix bug  286591: rpmdiff list page
+	  shows N-V-V not N-V-R.
+
+2007-09-11 14:56  jorris
+
+	* app/models/errata_service.rb: Fix bug 285921: xmlrpc:
+	  getRHNChannels incorrect results Variant name is being sent in
+	  UPPER CASE, so an exact match search fails.
+
+2007-09-11 14:56  jorris
+
+	* app/models/tps_service.rb: Fix tps query: Do not return an empty
+	  tps run data if nothing is found. Breaks using multiple products
+	  in a query.
+
+2007-09-11 14:56  jorris
+
+	* config/mongrel_cluster.yml: Increase the number of cluster
+	  members.
+
+2007-09-10 23:00  jorris
+
+	* errata-rails.spec, app/views/layouts/_footer.rhtml: Bump to .9
+	  version
+
+2007-09-10 22:58  jorris
+
+	* app/views/errata/list.rhtml: Fix typo in Previous/Next links
+
+2007-09-10 22:58  jorris
+
+	* app/: controllers/user_controller.rb, models/errata.rb,
+	  models/rhsa.rb, views/layouts/application.rhtml,
+	  views/shared/_errata_list.rhtml, views/shared/_errata_row.rhtml,
+	  views/user/my_errata.rhtml: Add back in My Errata Link
+
+2007-09-10 22:57  jorris
+
+	* app/controllers/rhn_controller.rb: Refactor error handling of RHN
+	  Live push.
+
+2007-09-10 22:57  jorris
+
+	* app/controllers/rhn_controller.rb: Refactoring RHN push code,
+	  starting with stage.	Ensure that all exceptions from RHN Push
+	  are caught and displayed, such that the user is not left
+	  wonderign what the error is, and leading to spurious errata
+	  system tickets that are the cause of an RHN outage.
+
+2007-09-10 13:01  jorris
+
+	* errata-rails.spec, app/views/layouts/_footer.rhtml: Update to .8
+	  version
+
+2007-09-10 12:57  jorris
+
+	* config/routes.rb: Add new legacy routes.
+
+2007-09-10 12:46  jorris
+
+	* app/models/: async.rb, comment.rb, errata.rb, tps_run.rb,
+	  user.rb: Reran model annotatoin
+
+2007-09-10 12:42  jorris
+
+	* app/models/errata.rb: Make sure that 9000+ ids are excluded from
+	  generation of new errata_id
+
+2007-09-10 12:41  jorris
+
+	* app/models/bug_list.rb: Add much more debugging & validation to
+	  bug_lists
+
+2007-09-10 12:41  jorris
+
+	* app/controllers/bugs_controller.rb,
+	  app/controllers/errata_controller.rb, lib/bugzilla_rpc.rb:
+	  Refactor moving bugs into ON_QA
+
+2007-09-10 12:41  jorris
+
+	* app/models/errata.rb: Convert state to string before adding to a
+	  new Activity
+
+2007-09-10 12:41  jorris
+
+	* app/models/tps_service.rb: Fix tps query: Need to convert states
+	  into string
+
+2007-09-10 12:41  jorris
+
+	* app/: controllers/docs_controller.rb, helpers/docs_helper.rb,
+	  views/docs/list.rhtml: Fix some problems in docs list, centering
+	  around the default docs user.  Added default user to db.  Fixed
+	  performance problems in list query
+
+2007-09-10 12:40  jorris
+
+	* app/models/user.rb: Add a default docs user constant.
+
+2007-09-10 12:40  jorris
+
+	* app/views/errata/list.rhtml: Show old releases in the select list
+	  as well as current ones.
+
+2007-09-10 12:40  jorris
+
+	* app/models/comment_sweeper.rb: Catch ActionView::ActionViewError
+	  that occurs if there is no specific template for the e-mail.
+	  This only occurs during certain webui rendering paths. The reason
+	  is uncertain, as it should hit the method_missing first.
+
+2007-09-10 12:39  jorris
+
+	* lib/bugzilla_rpc.rb: Adding method for getting user info from
+	  bugzilla
+
+2007-09-07 10:00  jorris
+
+	* app/controllers/bugs_controller.rb: Change to new errata url in
+	  comments
+
+2007-09-06 13:35  jorris
+
+	* errata-rails.spec, app/apis/errata_api.rb, app/models/bug.rb,
+	  app/models/errata_service.rb, app/views/layouts/_footer.rhtml:
+	  Bumping spec to .7 Fix potential bug with bug creation and
+	  putting NULL into is_private.  Added missing getRHNChannels
+	  xmlrpc method.
+
+2007-09-06 12:43  jorris
+
+	* app/: controllers/user_controller.rb, models/state.rb: Fix nil
+	  exception from my_requests. Always return at least an empty
+	  array.  Add some development debugging features to my_requests
+
+2007-09-06 12:41  jorris
+
+	* app/controllers/errata_controller.rb: Fix bug 280671 - preview
+	  and add/remove bugs broken.
+
+2007-09-06 12:21  jorris
+
+	* app/controllers/: docs_controller.rb, rpmdiff_controller.rb: Add
+	  some additional logic for handling legacy routes in rpmdiff and
+	  docs controllers
+
+2007-09-06 12:18  jorris
+
+	* config/routes.rb: Adding multiple routes from production to
+	  support legacy errata URLs.
+
+2007-09-06 12:18  jorris
+
+	* app/models/tps_service.rb: Need to return an empty TpsRunMetadata
+	  instead of nil, as otherwise it thinks it is an array being
+	  returned.
+
+2007-09-06 12:16  jorris
+
+	* app/apis/: errata_api.rb, tps_api.rb: Strip out errata. prefix by
+	  overwriting the API static methods.  Probably not the cleanest
+	  way of doing it, but effective.
+
+	  This will allow all xmlrpc queries prefixed with errata. to work
+	  properly until the dependent systems are updated.
+
+2007-09-05 17:21  jorris
+
+	* errata-rails.spec, app/controllers/security_controller.rb,
+	  app/views/security/_errata_row.rhtml,
+	  app/views/security/active.rhtml: Bumping revision to .6.  Adding
+	  initial security center
+
+2007-09-05 17:21  jorris
+
+	* app/: controllers/bugs_controller.rb,
+	  controllers/errata_controller.rb, models/bug_list.rb: Fix
+	  handling of bug addition for releases without blockers.  Fix bug
+	  in editing related to bug lists
+
+2007-09-05 17:21  jorris
+
+	* app/: controllers/errata_controller.rb, views/errata/list.rhtml:
+	  Fix listrequest link rendering: maintain selected entries in box.
+	  Ensure that next links always work & are reproducable.
+
+2007-09-05 17:20  jorris
+
+	* app/helpers/: application_helper.rb, errata_helper.rb: Move
+	  yes_no_icon into application helper for general access.  Add
+	  yes_no td element.
+
+2007-09-05 17:20  jorris
+
+	* app/models/: errata.rb, rhsa.rb: Utility method to get a
+	  shortened version of security impact.  Should possibly really be
+	  in an UI helper
+
+2007-09-05 17:20  jorris
+
+	* app/models/user.rb: Added a short_name method to strip the
+	  @redhat.com bit of an address
+
+2007-09-03 20:34  jorris
+
+	* app/: controllers/brew_controller.rb,
+	  helpers/application_helper.rb, views/brew/preview_files.rhtml,
+	  views/brew/save_builds.rhtml, views/errata/_info_summary.rhtml,
+	  views/errata/show_activity.rhtml, views/rpmdiff/list.rhtml,
+	  views/rpmdiff/show.rhtml, views/shared/_file_list.rhtml: Clean up
+	  more code to use utility methods for rendering common links
+
+2007-09-03 20:33  jorris
+
+	* app/: controllers/tps_controller.rb,
+	  views/notifier/tps_reschedule_all_rhnqa.rhtml,
+	  views/notifier/tps_unwaive.rhtml, views/tps/_run_result.rhtml,
+	  views/tps/errata_results.rhtml, views/tps/rhnqa_results.rhtml:
+	  Clean up waive/unwaive/rescheduling code: All links must be POST.
+	  Use helpers for links.  Add all neccessary notifier templates.
+
+2007-09-03 20:33  jorris
+
+	* app/helpers/application_helper.rb: Added utility methods:
+	  post_link and post_link_confirm to simplify usage of links with
+	  POST.  back_to_errata Back link to an advisory, a common need
+
+2007-08-30 11:02  jorris
+
+	* errata-rails.spec: Bump specfile revision
+
+2007-08-30 11:00  jorris
+
+	* app/views/layouts/_footer.rhtml, errata-rails.spec: Bump revision
+	  to 2.0-5
+
+2007-08-30 10:54  jorris
+
+	* config/environment.rb: Add timestamps to logging
+
+2007-08-30 10:54  jorris
+
+	* config/mongrel_cluster.yml: Fix cluster root path
+
+2007-08-30 10:54  jorris
+
+	* lib/bugzilla_rpc.rb: Fix bugzilla xmlrpc url
+
+2007-08-30 10:07  jorris
+
+	* app/models/comment.rb, app/models/errata.rb,
+	  db/migrate/001_create_db.rb: Update errata comments to use
+	  comments table instead of errata_comment.  New table has its own
+	  primary key and foreign keys to errata main.
+
+2007-08-30 10:03  jorris
+
+	* app/: helpers/errata_helper.rb, views/errata/_info_summary.rhtml:
+	  Fix bug 221892: Added ALT attributes to yes/no icons
+
+2007-08-30 10:02  jorris
+
+	* app/: controllers/errata_controller.rb, helpers/errata_helper.rb,
+	  views/errata/list.rhtml: Fix bug 257021 - preserve the query
+	  fields in list request.  Rewrote much of listrequest form
+	  handling to reflect latest Rails best practices.
+
+2007-08-30 10:02  jorris
+
+	* app/: controllers/errata_controller.rb, helpers/errata_helper.rb:
+	  Work in progress fixing list request form processing
+
+2007-08-28 14:23  jorris
+
+	* errata-rails.spec: Bump spec file number
+
+2007-08-28 14:19  jorris
+
+	* errata-rails.spec: errata_rails-2.0-4 spec file changes
+
+2007-08-28 14:19  jorris
+
+	* app/views/reports/dashboard.rhtml: Fix rendering problem in
+	  dashboard by converting states to string.
+
+2007-08-28 14:19  jorris
+
+	* app/views/shared/_file_list.rhtml: Revert changes to file list as
+	  map object needed in delete function
+
+2007-08-28 14:19  jorris
+
+	* app/controllers/application.rb,
+	  app/controllers/brew_controller.rb,
+	  app/controllers/errata_controller.rb, config/routes.rb: Add
+	  routes for some old_perl.cgi style paths to ease transition to
+	  new system.  Move find_errata function into application
+	  controller so that it can be shared across all controllers.  Have
+	  brew_controller use find_errata.
+
+2007-08-27 15:29  jorris
+
+	* app/: controllers/errata_controller.rb, models/errata.rb,
+	  views/errata/show.rhtml: Fix problems with comment numbering: Use
+	  the selected comments size instead of errata comments size.
+	  Remove inclusion of :who in query, as doing so completely breaks
+	  the  result set. Need to make errata_comments into first class
+	  row objects with their own primary key, instead of sharing with
+	  errata.
+
+2007-08-27 15:29  jorris
+
+	* app/: controllers/bugs_controller.rb,
+	  views/bugs/updatebugstates.rhtml: Fix issues with updating bug
+	  states: Fix bug 254029 - Make sure local cached state reflects
+	  changes.  Set select list defaults to the state of the bug.
+	  Include current bug state in select list.
+
+2007-08-27 15:29  jorris
+
+	* app/controllers/bugs_controller.rb: Fix addition of bugs to
+	  advisory.
+
+2007-08-27 15:29  jorris
+
+	* app/controllers/bugs_controller.rb: Fix removal of bugs from
+	  advisory.
+
+2007-08-27 10:41  jorris
+
+	* errata-rails.spec: Updats to spec file
+
+2007-08-27 10:41  jorris
+
+	* app/: controllers/bugs_controller.rb,
+	  controllers/errata_controller.rb, models/errata.rb,
+	  models/rpmdiff_score.rb, models/tps_run.rb, models/tps_state.rb,
+	  views/shared/_file_list.rhtml: Changes to improve show request
+	  performance by reducing queries
+
+2007-08-23 10:19  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/errata_for_release.rhtml: Show count of unassigned
+	  errata.
+
+2007-08-23 10:18  jorris
+
+	* app/models/: errata.rb, user.rb: Make default qa user a constant
+	  in User.  Add is_assigned? method to errata. Returns true if
+	  assigned_to != default qa user.
+
+2007-08-23 10:12  jorris
+
+	* public/stylesheets/master.css: Remove unused stylesheets from
+	  master.
+
+2007-08-23 10:00  jorris
+
+	* Makefile, errata-rails.spec: Add doc task to makefile.  Add
+	  docdir to rpm spec.
+
+2007-08-23 10:00  jorris
+
+	* app/models/brew_build.rb, app/models/bug.rb,
+	  app/models/errata.rb, app/models/errata_xml.rb,
+	  app/models/release.rb, app/models/user.rb,
+	  test/fixtures/brew_builds.yml: Updated model annotation
+
+2007-08-23 09:59  jorris
+
+	* errata-rails.spec: More fixes to file definition and permissions
+	  in spec file.
+
+2007-08-23 09:40  jorris
+
+	* vendor/plugins/annotate_models/: ChangeLog, README,
+	  lib/annotate_models.rb, tasks/annotate_models_tasks.rake: Adding
+	  in annotate_models plugin which somehow did not get pulled in
+	  with the git merge
+
+2007-08-22 22:05  jorris
+
+	* errata-rails.spec: Fix directory permisisons
+
+2007-08-22 22:05  jorris
+
+	* Makefile, errata-rails.spec: Adding Makefile and .spec file
+
+2007-08-21 14:52  jorris
+
+	* app/views/layouts/: _footer.rhtml, _main_nav.rhtml,
+	  _secondary_nav.rhtml, application.rhtml: Start breakign down main
+	  layout into partial templates
+
+2007-08-21 14:50  jorris
+
+	* daemon_control.rb, reconcile_bugs.rb: Task for reconciling bug
+	  states & such with bugzilla db
+
+2007-08-21 14:49  jorris
+
+	* lib/bugzilla_rpc.rb: Added a get_bugs_simple rpc call. Does the
+	  simplest query for a bug list to minimize RPC time.
+
+2007-08-19 14:56  jorris
+
+	* app/views/: bugs/qublockers.rhtml, errata/errata_error.rhtml: Fix
+	  count in qublockers.	Change error message to note that an
+	  automated message has been sent.
+
+2007-08-19 14:49  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_errata_list.rhtml, views/layouts/application.rhtml:
+	  Add assigned_to to list include.  Add realname title to
+	  assigned_to in list.
+
+2007-08-19 14:49  jorris
+
+	* app/: models/errata.rb, views/errata/errata_for_release.rhtml:
+	  Use all bug completed states.  Change name of column in list to
+	  bugs verified.
+
+2007-08-19 14:49  jorris
+
+	* app/controllers/errata_controller.rb: Use secondary navigation
+
+2007-08-19 14:49  jorris
+
+	* app/views/layouts/application.rhtml,
+	  public/stylesheets/navigation.css: Add foundation for secondary
+	  navigation infrastructure
+
+2007-08-19 14:49  jorris
+
+	* app/: controllers/errata_controller.rb, models/errata.rb,
+	  models/release.rb, views/errata/errata_for_release.rhtml: Provide
+	  basic functionality to display errata for a release
+
+2007-08-19 14:49  jorris
+
+	* lib/bugzilla_rpc.rb: Implement getBug so as to wrap result in
+	  RPCBug object.
+
+2007-08-17 13:14  jorris
+
+	* app/controllers/errata_controller.rb, app/models/bug.rb,
+	  app/models/bug_list.rb, app/models/errata.rb,
+	  lib/bugzilla_rpc.rb: Finalize bugzilla db migration. Create local
+	  bugs in errata db. Use RPC to get bug flags for errata creation
+
+2007-08-17 13:14  jorris
+
+	* app/models/: bug.rb, bug_product.rb, bug_reference.rb,
+	  component.rb, errata.rb, release.rb: Final removal of usage of
+	  bugzilla database connections.
+
+2007-08-14 11:12  jorris
+
+	* Rakefile, lib/dictionary.rb: Finalize formatting of errata.conf
+	  file. Add Facets Dictionary to libary.
+
+2007-08-13 21:11  jorris
+
+	* db/migrate/001_create_db.rb: Added more documentation to createdb
+	  migration
+
+2007-08-13 21:10  jorris
+
+	* Rakefile, db/migrate/001_create_db.rb: Rename table desc labe to
+	  description. Add migration, documentation in progress
+
+2007-08-13 13:43  jorris
+
+	* Rakefile: Add initial task for documenting db in eng services doc
+	  format.
+
+2007-08-10 15:34  jorris
+
+	* db/schema.rb: Adding schema dump
+
+2007-08-09 10:14  jorris
+
+	* app/models/state.rb: Generate state objects from NEW_PKGS
+	  reasons. Fixes comparison exception bugs.
+
+2007-08-07 22:02  jorris
+
+	* app/: controllers/application.rb, controllers/user_controller.rb,
+	  views/layouts/application.rhtml: Properly clean session. Redirect
+	  users to my_requests after login if no other attempted action
+
+2007-08-07 22:02  jorris
+
+	* app/: controllers/user_controller.rb, models/errata_finder.rb,
+	  models/state.rb, views/errata/_errata_list.rhtml,
+	  views/errata/_info_summary.rhtml,
+	  views/layouts/application.rhtml, views/rpmdiff/list.rhtml,
+	  views/user/my_requests.rhtml: Add state & user role actions to
+	  State, as well as my_requests Fixed some raw state string usage
+
+2007-08-07 22:02  jorris
+
+	* app/: controllers/errata_controller.rb, models/errata.rb,
+	  models/state.rb: Made State a first class object that errata are
+	  composed of
+
+2007-08-07 22:02  jorris
+
+	* app/: controllers/user_controller.rb,
+	  views/errata/_errata_list.rhtml, views/user/my_requests.rhtml:
+	  User request page work: show errata needing attention, assigned,
+	  watched.
+
+2007-08-07 12:49  jorris
+
+	* app/views/bugs/add_bugs_to_errata.rhtml: Fixed wording
+
+2007-08-07 12:49  jorris
+
+	* app/: controllers/bugs_controller.rb,
+	  views/bugs/remove_bugs_from_errata.rhtml,
+	  views/errata/_errata_info.rhtml: Add functionality to remove bugs
+	  from errata. Add links in errata view.
+
+2007-08-07 12:49  jorris
+
+	* app/views/bugs/add_bugs_to_errata.rhtml: Add functionality to add
+	  bugs to errata from blocker flag list.
+
+2007-08-07 12:49  jorris
+
+	* app/helpers/bugs_helper.rb: Add checkbox option for bug row
+	  display.
+
+2007-08-07 12:48  jorris
+
+	* app/views/layouts/application.rhtml: Add debug view to layout in
+	  development environment
+
+2007-08-07 12:48  jorris
+
+	* lib/bugzilla_rpc.rb: Add component filter to bugzilla flags
+	  query. Can now, say, only get kernel bugs for the rhel7-9 blocker
+
+2007-08-07 08:52  jorris
+
+	* app/models/arch.rb, app/models/brew_build.rb,
+	  app/models/brew_rpm.rb, app/models/bug.rb,
+	  app/models/bug_product.rb, app/models/bug_reference.rb,
+	  app/models/carbon_copy.rb, app/models/comment.rb,
+	  app/models/component.rb, app/models/content.rb,
+	  app/models/devel_group.rb, app/models/errata.rb,
+	  app/models/errata_activity.rb, app/models/errata_brew_mapping.rb,
+	  app/models/errata_file.rb, app/models/errata_type.rb,
+	  app/models/fast_track.rb, app/models/package.rb,
+	  app/models/product.rb, app/models/product_version.rb,
+	  app/models/quarterly_update.rb, app/models/release.rb,
+	  app/models/released_package.rb, app/models/rhel_release.rb,
+	  app/models/rpmdiff_result.rb, app/models/rpmdiff_run.rb,
+	  app/models/rpmdiff_score.rb, app/models/rpmdiff_test.rb,
+	  app/models/rpmdiff_waiver.rb, app/models/sig_key.rb,
+	  app/models/tps_job.rb, app/models/tps_run.rb,
+	  app/models/tps_stacks_release.rb, app/models/tps_state.rb,
+	  app/models/tps_system.rb, app/models/user.rb,
+	  app/models/user_group.rb, app/models/variant.rb,
+	  app/models/zstream.rb, test/fixtures/brew_builds.yml,
+	  test/fixtures/brew_rpms.yml,
+	  test/fixtures/errata_brew_mappings.yml,
+	  test/fixtures/errata_types.yml,
+	  test/fixtures/product_versions.yml,
+	  test/fixtures/rpmdiff_results.yml,
+	  test/fixtures/rpmdiff_runs.yml, test/fixtures/rpmdiff_scores.yml,
+	  test/fixtures/rpmdiff_tests.yml,
+	  test/fixtures/rpmdiff_waivers.yml,
+	  test/fixtures/tps_stacks_releases.yml: Annotated models with
+	  schema information. Will hopefully help people learn the system
+	  better.
+
+2007-08-06 16:58  jorris
+
+	* app/views/bugs/: _find_bugs.rhtml, find_errata_for_bug.rhtml,
+	  qublockers.rhtml: Add missing files from prior commit. Add
+	  missing nav bar. GAH.
+
+2007-08-06 16:22  jorris
+
+	* app/controllers/bugs_controller.rb, app/helpers/bugs_helper.rb,
+	  app/views/bugs/index.rhtml, lib/bugzilla_rpc.rb: Add method to
+	  find errata by bug
+
+2007-08-06 15:19  jorris
+
+	* app/models/: async.rb, fast_track.rb, quarterly_update.rb,
+	  release.rb, zstream.rb:  Add inheritance models for errata group
+
+2007-08-06 15:09  jorris
+
+	* app/: controllers/bugs_controller.rb, helpers/bugs_helper.rb,
+	  views/bugs/qublockers.rhtml: Adding Buzilla RPC based qublockers
+	  page.
+
+2007-08-06 15:09  jorris
+
+	* lib/bugzilla_rpc.rb: Wrap returned bug hash inside inner class to
+	  simplify access to attributes.  Shorten the column list of
+	  get_bugs_with_flags to improve query performance.  Log tome for
+	  rpc calls that hit method_missing, aka any runQuery calls.
+
+2007-08-06 15:09  jorris
+
+	* app/models/errata.rb: Speed up generation of short advisory by
+	  not relying on call to release, which loads an additional model
+	  element.
+
+2007-08-01 10:46  jorris
+
+	* app/views/: layouts/application.rhtml, rpmdiff/list.rhtml: Fix
+	  form error in layout.  Fix state list for rpmdiff rescheduling
+
+2007-07-27 12:37  jorris
+
+	* app/: apis/rpmdiff_api.rb, controllers/application.rb,
+	  controllers/rpmdiff_controller.rb, models/rpmdiff_service.rb:
+	  Initial rpmdiff xmlrpc api.
+
+2007-07-25 14:36  jorris
+
+	* lib/bugzilla_rpc.rb: Add methods to get bugs to bugzilla rpc.
+	  Note general flag query is quite slow, on order of 45 seconds.
+
+2007-07-24 14:06  jorris
+
+	* app/controllers/brew_controller.rb: Use release group level
+	  default brew tag when available
+
+2007-07-24 13:30  jorris
+
+	* app/models/errata_file.rb, app/views/errata/signin_form.rhtml,
+	  app/views/layouts/application.rhtml, config/environment.rb:
+	  Eliminate Deprecated API warnings
+
+2007-07-19 10:40  jorris
+
+	* app/views/errata/show.rhtml: It is helpful not to put the link
+	  render inside a loop :(
+
+2007-07-19 10:31  jorris
+
+	* app/: controllers/errata_controller.rb, views/errata/show.rhtml:
+	  Add functionality to hide and show automated comments. Should be
+	  done with javascript magic, but a simple parameter will suffice
+	  for now.
+
+2007-07-19 10:31  jorris
+
+	* app/controllers/rpmdiff_controller.rb: Use same score checking as
+	  perl-errata for listing failed rpmdiff runs.
+
+2007-07-17 12:38  jorris
+
+	* app/models/: contact.rb, errata.rb, errata_service.rb: Use the
+	  User.find_by_login method instead of explicit finder methods.
+
+2007-07-17 12:38  jorris
+
+	* app/models/: arch.rb, errata_service.rb, finders.rb, release.rb,
+	  tps_service.rb, user_group.rb, variant.rb: Add find_by_name
+	  convenience class method to some tables that frequently use name
+	  lookups.
+
+2007-07-11 16:21  jorris
+
+	* app/: models/notifier.rb,
+	  views/notifier/partners_changed_files.rhtml,
+	  views/notifier/partners_new_errata.rhtml: Updates for Portland
+	  project: Different footers, recipient and reply-to e-mail.
+
+2007-07-11 16:21  jorris
+
+	* app/views/rhn/errata_oval.rhtml: Fix template typo in oval view
+
+2007-07-10 11:31  jorris
+
+	* app/models/user_group.rb: Adding convenience method for
+	  management group
+
+2007-07-10 11:31  jorris
+
+	* lib/change_id.rb: Refactoring id change code.
+
+2007-07-10 11:31  jorris
+
+	* lib/bugzilla_rpc.rb: Override rpc method_missing to append
+	  authentication credentials to bugzilla rpc calls.
+
+2007-07-05 12:44  jorris
+
+	* app/models/errata_service.rb: Fix status filter for
+	  getRequestsByStatus. Eliminate synopsis truncation.
+
+2007-06-28 14:44  jorris
+
+	* app/controllers/application.rb, app/models/bugzilla_profile.rb,
+	  lib/bugzilla_rpc.rb: Switch to bugzilla xmlrpc authentication
+
+2007-06-27 15:38  jorris
+
+	* app/controllers/brew_controller.rb: Fix double render error
+
+2007-06-27 15:15  jorris
+
+	* app/views/brew/: preview_files.rhtml, save_builds.rhtml: Fix
+	  traceback problems with file_list rendering: Ensure allow_delete
+	  variable exists
+
+2007-06-27 14:49  jorris
+
+	* app/controllers/errata_controller.rb: Return after blank advisory
+	  redirect
+
+2007-06-27 14:28  jorris
+
+	* app/: controllers/rhn_controller.rb,
+	  helpers/application_helper.rb, models/errata_file.rb,
+	  models/notifier.rb, views/rhn/push_to_live.rhtml: Handle shadow
+	  channels in live push. Notify translation team in live pushes
+
+2007-06-18 12:12  jorris
+
+	* app/views/errata/signin_form.rhtml: Fix bug 241684 - RFE: update
+	  the login page with more specific info re: new accounts
+
+2007-06-08 13:39  jorris
+
+	* app/: controllers/errata_controller.rb, models/errata.rb,
+	  views/errata/_info_summary.rhtml, views/errata/errata_text.rhtml:
+	  Errata text format
+
+2007-06-07 11:21  jorris
+
+	* app/: helpers/application_helper.rb, views/bugs/erratabugs.rhtml,
+	  views/bugs/qublockers.rhtml, views/errata/_errata_info.rhtml,
+	  views/errata/_info_content.rhtml, views/errata/errata_xml.rhtml,
+	  views/rhn/errata_oval.rhtml: Moved cve and bugzilla url
+	  generation into application_helper. Replaced inline urls with
+	  helper calls.
+
+2007-06-05 11:58  jorris
+
+	* lib/change_id.rb: Adding advisory renumbering script into version
+	  control. Hopefully will never be used again if we can change how
+	  RHN handles errata in test.
+
+2007-06-04 17:52  jorris
+
+	* app/: models/errata.rb, models/notifier.rb,
+	  views/notifier/partners_changed_files.rhtml,
+	  views/notifier/partners_new_errata.rhtml: Initial project
+	  Portland support: 1. At errata creation or detection of package
+	  respin, send email to partner-testing@redhat.com (list not yet
+	  created) Only if following criteria are met:	   a. Product ==
+	  (RHEL, LACD)	   b. Type == (RHBA, RHEA, RHSA)     c. RHSA does
+	  NOT have embargo date (past, present, future)
+
+	  2. Email should contain the following information	a. Errata
+	  advisory ID (for future reference on RHN)	b. List of
+	  (non-private) bugs being fixed     c. Path to packages in
+	  brewroot	 (e.g.
+	  /mnt/redhat/brewroot/packages/{package-name}/{NVR}/{tag}/{arch}/{package-nv
+	  r-tag.rpm} )
+
+2007-06-01 18:32  jorris
+
+	* app/controllers/rhn_controller.rb, app/models/bug.rb,
+	  app/models/bug_product.rb, app/models/bug_reference.rb,
+	  app/models/notifier.rb, app/views/errata/_info_summary.rhtml,
+	  app/views/layouts/application.rhtml,
+	  app/views/notifier/rhn_update_cache.rhtml,
+	  app/views/rhn/push_to_live.rhtml, lib/bugzilla_rpc.rb,
+	  lib/dummy_rpc.rb: Adding in RHN Live push code.  Refactored a
+	  fair bit of pushing code, bugzilla updates.  Created a dummy
+	  xmlrpc client for testing environment.
+
+2007-06-01 18:32  jorris
+
+	* app/controllers/application.rb,
+	  vendor/plugins/ssl_requirement/README,
+	  vendor/plugins/ssl_requirement/lib/ssl_requirement.rb,
+	  vendor/plugins/ssl_requirement/test/ssl_requirement_test.rb:
+	  Adding in ssl_requirement files
+
+2007-05-30 13:26  jorris
+
+	* app/models/: errata_file.rb, product.rb: Update to handle
+	  misnaming of rhel5 fast track channels.  Instead of using the
+	  -fastrack convention, fast track channels are now explicitly
+	  modeled in the database.  This handles both the 386 vs i386
+	  misnaming as well as the different -fastrack convention used.
+
+2007-05-25 17:34  jorris
+
+	* app/models/: product_version.rb, released_package.rb: Fix
+	  handling of RHEL-5 layered products such as Supplementary.  Added
+	  a match for the RHX product, though obviously this will need to
+	  be changed to accomidate multiple RHEL-5 products down the road.
+	  Cleaned up released package generation, which should allow
+	  complementary cleanup and merging with file list generation.
+
+2007-05-24 11:36  jorris
+
+	* app/: controllers/rpmdiff_controller.rb,
+	  views/rpmdiff/_info.rhtml: Manage comments as waiver types like
+	  the old tool
+
+2007-05-24 11:36  jorris
+
+	* app/views/rpmdiff/: _info.rhtml, _results.rhtml, _unwaive.rhtml,
+	  _waive.rhtml, show.rhtml: Refactoring rpmdiff show result
+	  templates.
+
+2007-05-24 11:36  jorris
+
+	* app/controllers/rpmdiff_controller.rb: Clean up rpmdiff queries
+
+2007-05-24 11:36  jorris
+
+	* app/: controllers/rpmdiff_controller.rb,
+	  models/rpmdiff_result.rb: Clean up waiver code
+
+2007-05-24 11:35  jorris
+
+	* app/models/release.rb: is_async now a db field
+
+2007-05-16 10:52  jorris
+
+	* app/: models/released_package.rb, views/admin/index.rhtml:
+	  Invalidate old released packages so that updates work as well as
+	  additions.
+
+2007-05-15 16:13  jorris
+
+	* app/: controllers/rpmdiff_controller.rb, models/arch.rb,
+	  views/rpmdiff/list.rhtml: Add functionality for rescheduling
+	  rpmdiff via the UI.
+
+2007-05-15 14:01  jorris
+
+	* app/: controllers/admin_controller.rb, helpers/admin_helper.rb,
+	  models/released_package.rb,
+	  views/admin/add_released_package.rhtml, views/admin/index.rhtml,
+	  views/layouts/application.rhtml: New functionality for creating
+	  released packages if they are missing.
+
+2007-05-08 10:54  jorris
+
+	* app/: controllers/brew_controller.rb,
+	  views/brew/list_files.rhtml, views/shared/_file_list.rhtml: Clean
+	  up the brew build remove code a touch, add a back link to the
+	  errata control center from the brew build page.
+
+2007-05-08 10:53  jorris
+
+	* lib/bugzilla_rpc.rb: Increase bugzilla rpc timeout since some
+	  calls, like closeBug, are extremely slow to return.
+
+2007-05-04 13:24  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_info_summary.rhtml: Gah. Missing changes from xml
+	  commit
+
+2007-05-02 12:48  jorris
+
+	* app/views/errata/errata_xml.rhtml: Add XML errata view link
+
+2007-05-02 12:48  jorris
+
+	* app/models/: errata_brew_mapping.rb, product_version.rb: Refactor
+	  version_rhel_map into product_version.
+
+2007-04-26 16:02  jorris
+
+	* app/controllers/: errata_controller.rb, tps_controller.rb: Fix ug
+	  237746: "Reschedule All TPS Jobs" redirects me to "Oops An
+	  Error..." page Remove undefined variable.
+
+	  Check advisory existence in errata search.
+
+2007-04-24 16:41  jorris
+
+	* app/controllers/brew_controller.rb: 2.0 Fix bug 237670: Brew tag
+	  check does not warn user Add tag check and validate
+
+2007-04-20 15:13  jorris
+
+	* app/models/: errata.rb, errata_finder.rb, errata_service.rb,
+	  released_package.rb: Fix bug in errata_finder method that added
+	  valid to an errata_files query.  Update released_packages on
+	  shipped_live.  Filter released_packages by current.
+
+2007-04-17 16:49  jorris
+
+	* app/: controllers/user_controller.rb,
+	  views/errata/my_requests.rhtml, views/layouts/application.rhtml,
+	  views/user/my_requests.rhtml: Move my_requests into
+	  user_controller
+
+2007-04-17 16:49  jorris
+
+	* app/controllers/errata_controller.rb,
+	  app/controllers/reports_controller.rb,
+	  app/controllers/user_controller.rb, app/models/errata_finder.rb,
+	  app/models/user.rb, app/views/errata/my_requests.rhtml,
+	  app/views/reports/dashboard.rhtml,
+	  app/views/user/assigned_errata.rhtml,
+	  test/functional/user_controller_test.rb: Final fix for bug
+	  227329: links on errata dashboard result in 404 error Link qa
+	  user summaries on dashboard to the assigned_errata link of the
+	  user controller.
+
+	  Add functionality to the my_requests view.
+
+2007-04-17 12:58  jorris
+
+	* app/controllers/bugs_controller.rb: Fix bug 223453: Issues with
+	  Update Bug States.  Added newlines between bug status comments.
+	  Updated bugzilla and errata comments to match production.
+	  Cleaned up if(production) logic.
+
+2007-04-17 12:58  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  models/comment_sweeper.rb: Move comment formatting into listener.
+
+2007-04-17 12:58  jorris
+
+	* app/models/state.rb: Fix bug 234180: cannot change errata state
+	  from NEED_QE -> ON_QA
+
+2007-04-17 12:58  jorris
+
+	* app/views/errata/_errata_nav.rhtml: Display RHNQA Tps results if
+	  the advisory is on webqa server.
+
+2007-04-17 12:05  jorris
+
+	* app/: apis/tps_api.rb, controllers/tps_controller.rb,
+	  models/auditing_sweeper.rb, models/errata.rb, models/notifier.rb,
+	  models/rhsa.rb, models/tps_job.rb, models/tps_run.rb,
+	  models/tps_service.rb, models/tps_state.rb,
+	  views/notifier/tps_tps_service.rhtml,
+	  views/tps/_run_result.rhtml: Fix problems with tps job
+	  completion, waving, and state transitions.  Erratum moves into
+	  correct state when tps runs are completed.  xmlrpc api updated to
+	  match 1.0 production.
+
+2007-04-01 23:46  jorris
+
+	* app/: controllers/errata_controller.rb, models/notifier.rb,
+	  models/release.rb, views/notifier/request_rhnlive_push.rhtml:
+	  Version 2.0 fix for bug 234186: pushing z-stream/async
+	  {RHBA,RHEA}s: automatically file ticket with RT
+
+2007-03-23 10:46  jorris
+
+	* app/controllers/errata_controller.rb: Fix bug 233412 - Do not
+	  show invalid requests in my_requests
+
+2007-03-23 10:46  jorris
+
+	* app/: models/notifier.rb, models/user_group.rb,
+	  views/notifier/request_signatures.rhtml: Add a signer group to
+	  the errata system. Use this group for fetching addresses of
+	  signers for sign request mail.  Update sign request e-mail text
+	  to reflect new signing system
+
+2007-03-20 17:09  jorris
+
+	* app/models/tps_run.rb: Fix for bug 200099 - Restrict tps jobs to
+	  arches & variants actually supported by erratum file list.
+
+2007-03-19 15:39  jorris
+
+	* app/: apis/errata_api.rb, controllers/tps_controller.rb,
+	  models/errata_service.rb: Add rudimentary getBugsForErrata method
+	  to errata xmlrpc.  Add invoke to tps xmlrpc for web user access.
+
+2007-03-19 13:56  jorris
+
+	* app/: controllers/rhn_controller.rb, views/rhn/push.rhtml,
+	  views/rhn/show_hash.rhtml: Complementary ruby version of rhn
+	  duplicate files fix.	See perl ref:
+	  http://errata.devel.redhat.com/git_repos/?p=erratacvs.git;a=commit;h=bc8a5decc99b0259b466b12a18c0c10d49292041
+
+2007-03-19 12:28  jorris
+
+	* app/models/: errata_file.rb, released_package.rb: Fix errata_file
+	  to use correct ftp paths in RHEL5.  Add brew_rpm to
+	  released_package model.
+
+2007-03-13 18:03  jorris
+
+	* app/models/rhel_release.rb: Fix version_number regex.
+
+2007-03-13 18:03  jorris
+
+	* app/models/: errata_brew_mapping.rb, product_version.rb: Move
+	  parsing of product listings into product_version.
+
+2007-03-13 18:02  jorris
+
+	* app/models/brew_build.rb: When loading a brew build via xmlrpc,
+	  create a new package entry if one does not yet exist
+
+2007-03-13 18:02  jorris
+
+	* app/controllers/bugs_controller.rb: Only update bugs in
+	  production
+
+2007-03-13 18:02  jorris
+
+	* app/: controllers/tps_controller.rb,
+	  views/notifier/tps_reschedule_all.rhtml,
+	  views/notifier/tps_rescheduled.rhtml: Fix bugs in reschedule_all
+	  action
+
+2007-03-07 17:06  jorris
+
+	* app/models/: errata.rb, errata_file.rb: Move file path update
+	  into errata_file
+
+2007-03-07 16:53  jorris
+
+	* app/models/: errata.rb, errata_file.rb: Update signature for
+	  files when updating their signed paths in ON_RHNQA
+
+2007-03-07 16:53  jorris
+
+	* app/controllers/application.rb: Forbid access to users not in the
+	  errata group with a meaningful error message
+
+2007-03-07 16:53  jorris
+
+	* app/models/brew_build.rb: Limit errata files for a brew build to
+	  the current file list.
+
+2007-03-07 05:23  jlieskov
+
+	* app/models/tps_run.rb: Enables displaying TPS jobs in natural
+	  order (i386, ia64, s390, s390x, ppc, x86_64)
+
+2007-03-05 23:17  jorris
+
+	* app/models/errata.rb: Update the file paths and md5sums on
+	  ON_RHNQA. Ensures that brew rpms that are marked as signed have
+	  properly updated file lists.
+
+2007-03-05 23:14  jorris
+
+	* app/models/errata.rb: Fix ticket 9610 - Properly set
+	  current_tps_run in errata status change.
+	  https://engineering.redhat.com/rt3/Ticket/Display.html?id=9610
+
+2007-03-05 09:56  dgregor
+
+	* script/list_actions.rb: cleanup, added --path switch
+
+2007-03-05 09:56  dgregor
+
+	* app/apis/bugzilla_api.rb: whitespace
+
+2007-03-02 18:16  jorris
+
+	* app/views/errata/_info_summary.rhtml: Fix bug 219590 - correct
+	  link to rpmdiff results
+
+2007-03-02 18:15  jorris
+
+	* app/: controllers/docs_controller.rb, models/content.rb,
+	  models/notifier.rb, views/notifier/request_docs_approval.rhtml:
+	  Fix bug 221281 - Notifiy docs instead of giving an error
+
+2007-03-02 17:17  jorris
+
+	* app/controllers/errata_controller.rb: Fix bug 221959 - Make
+	  synopsis search case insensitive
+
+2007-03-02 17:17  jorris
+
+	* app/: controllers/errata_controller.rb,
+	  views/errata/_edit_form.rhtml: Fix bug 230289: preserve synopsis
+	  changes.  Properly select current errata type default
+
+2007-02-28 15:02  jorris
+
+	* app/views/errata/_errata_nav.rhtml: Fix bug 216896 - Correct
+	  summary data. obvious cut and paste or search/replace error.
+
+2007-02-27 18:21  jorris
+
+	* app/: models/errata.rb, views/errata/_errata_nav.rhtml: Display
+	  respin count, correct rpmdiff run count
+
+2007-02-27 18:20  jorris
+
+	* app/: models/auditing_sweeper.rb, models/build_diff.rb,
+	  controllers/errata_controller.rb, models/activity_sweeper.rb,
+	  models/comment_sweeper.rb, models/errata.rb,
+	  models/file_sweeper.rb, models/state.rb, models/tps_run.rb,
+	  views/errata/_errata_summary.rhtml: Fix problems with respins,
+	  which were not properly implemented.	Refactor various auditing
+	  related sweepers.
+
+2007-02-26 16:24  dgregor
+
+	* log/.gitignore: create a stub log/ directory
+
+2007-02-26 13:56  jorris
+
+	* app/controllers/dictionary: Pull in change from errata
+	  production: Correct javascript spelling and add some recents.
+	  http://errata.devel.redhat.com/git_repos/?p=erratacvs.git;a=commit;h=f41c028f868ad11d804a2c4d5fad24c9f3393d43
+
+2007-02-26 13:56  jorris
+
+	* app/: controllers/rhn_controller.rb, models/oval_test.rb,
+	  models/product_version.rb, models/rhsa.rb,
+	  views/errata/_info_summary.rhtml: Fixed some bugs with displaying
+	  RHEL 5 and multiple OVAL keys. Link to OVAL in erratinfo
+
+2007-02-24 01:21  jorris
+
+	* app/models/: errata_brew_mapping.rb, product_version.rb,
+	  variant.rb: Model relationship between product_version and
+	  variant.  Special case RHEL5 for errata file creation
+
+2007-02-24 01:21  jorris
+
+	* app/: controllers/errata_controller.rb, views/errata/find.rhtml,
+	  views/layouts/application.rhtml: Allow searching by synopsis
+	  keyword from anywhere.
+
+2007-02-22 17:48  jorris
+
+	* app/models/released_package.rb: Adding released_package to model
+
+2007-02-22 17:48  jorris
+
+	* app/: apis/errata_api.rb, controllers/errata_controller.rb,
+	  models/errata_service.rb, models/user.rb: Add
+	  getReleasedPackagesFromErrata xmlrpc call Fix handling of
+	  activity-by-user queries.  Expose errata xmlrpc api in the errata
+	  controller
+
+2007-02-16 17:36  jorris
+
+	* lib/rhn.rb: Adding XMLRPC interface for RHN. See
+	  https://rhn.redhat.com/rhn/apidoc/ for api ref.
+
+2007-02-16 17:36  jorris
+
+	* lib/brew.rb: Override XMLRPC module configuration in place
+	  instead of editing the lib every installed system, something that
+	  breaks the minute the ruby rpms get updated.
+
+2007-02-16 17:36  jorris
+
+	* app/models/errata.rb: Fix bug 222008: flip filelist_locked flag
+	  on NEED_RESPIN.
+
+2007-02-15 16:33  jorris
+
+	* app/models/: brew_build.rb, brew_rpm.rb, product_version.rb,
+	  sig_key.rb: Add in sig_key model, use sig_key to determine signed
+	  file paths
+
+2007-02-15 16:05  jorris
+
+	* app/models/: errata.rb, errata_type.rb: Fix errata type
+	  confusion. Since the column is used for type in errata_main, and
+	  the pk is type in errata_type, Rails confuses the type of
+	  ErrataType objects. Add errata_types table, obsoleting
+	  errata_type.
+
+2007-02-15 16:05  jorris
+
+	* app/: controllers/brew_controller.rb, models/brew_build.rb: Strip
+	  extra whitespace from brew build names when adding files
+
+2007-02-11 23:25  jorris
+
+	* app/models/errata_file.rb: RHN for now requires FTP paths on all
+	  files whether they actually go to ftp or not.
+
+2007-02-09 07:45  pmuller
+
+	* app/: controllers/errata_controller.rb, helpers/errata_helper.rb,
+	  views/errata/show.rhtml: better approach to fix bz 221579.  not
+	  breaking lines with no spaces (links) now cares about html
+	  linefeed char
+
+2007-02-08 11:43  pmuller
+
+	* app/: controllers/errata_controller.rb, views/errata/show.rhtml:
+	  fix for bug 221579 - ET now break long lines
+
+2007-02-08 10:51  jorris
+
+	* app/models/brew_rpm.rb: Add missing require for md5 support
+
+2007-02-07 16:47  jorris
+
+	* app/: controllers/rhn_controller.rb, models/bug.rb,
+	  models/bug_reference.rb, views/errata/_errata_info.rhtml:
+	  Properly mark private bugs
+
+2007-02-07 16:14  jorris
+
+	* app/controllers/bugs_controller.rb: bug_comment never
+	  initialized, causing more problems.  See:
+	  https://bugzilla.redhat.com/show_bug.cgi?id=223453#c7
+
+2007-02-07 14:40  jorris
+
+	* app/controllers/errata_controller.rb: Fix find method to not die
+	  on missing template, show useful error message on find failure.
+
+2007-02-07 14:39  jorris
+
+	* app/: controllers/rhn_controller.rb,
+	  views/rhn/push_to_stage.rhtml: Properly redirect & display push
+	  errors.  Give a link back to the errata info page.
+
+2007-02-07 10:39  jorris
+
+	* app/controllers/rhn_controller.rb: Increase xmlrpc timeout for
+	  rhn push.
+
+2007-02-06 16:48  jorris
+
+	* app/: controllers/errata_controller.rb, models/errata.rb,
+	  models/notifier.rb, views/errata/_info_summary.rhtml,
+	  views/notifier/request_signatures.rhtml: Properly handle
+	  signature requests.
+
+2007-02-06 14:46  jorris
+
+	* app/models/: carbon_copy.rb, errata_finder.rb, user.rb: Updates
+	  to the User model to support easy queries on assigned, reported
+	  and observed errata
+
+2007-02-06 14:45  jorris
+
+	* app/: controllers/reports_controller.rb,
+	  helpers/application_helper.rb, views/errata/_errata_list.rhtml,
+	  views/reports/dashboard.rhtml: Fix in part bug 227329. Does not
+	  fix user links, which is a separate problem, but does fix rpmdiff
+	  and errata links
+
+2007-02-06 13:01  jlieskov
+
+	* app/controllers/bugs_controller.rb: Fixing new lines issue for
+	  BZ#223453 by adding BZ comments
+
+2007-02-06 00:24  jorris
+
+	* app/controllers/errata_controller.rb: Fix for bug 221138
+
+2007-02-05 22:13  jorris
+
+	* app/controllers/errata_controller.rb,
+	  app/controllers/rhn_controller.rb, app/models/errata.rb,
+	  app/views/errata/_info_summary.rhtml,
+	  app/views/oval/_criteria.rhtml, app/views/oval/_criterion.rhtml,
+	  app/views/oval/_rpminfo_object.rhtml,
+	  app/views/oval/_rpminfo_state.rhtml,
+	  app/views/oval/_rpminfo_test.rhtml,
+	  app/views/oval/errata_oval.rhtml, app/views/rhn/_criteria.rhtml,
+	  app/views/rhn/_criterion.rhtml,
+	  app/views/rhn/_rpminfo_object.rhtml,
+	  app/views/rhn/_rpminfo_state.rhtml,
+	  app/views/rhn/_rpminfo_test.rhtml,
+	  app/views/rhn/errata_oval.rhtml,
+	  app/views/rhn/push_to_stage.rhtml, app/views/rhn/show_hash.rhtml,
+	  public/stylesheets/bugzilla.css, public/stylesheets/master.css:
+	  RHNQA Push working correctly.
+
+2007-02-05 22:13  jorris
+
+	* app/models/errata_file.rb: Add rhn_channels method
+
+2007-02-05 22:12  jorris
+
+	* app/controllers/rhn_controller.rb, app/helpers/rhn_helper.rb,
+	  test/functional/rhn_controller_test.rb: rhn code genesis
+
+2007-01-31 15:52  jorris
+
+	* app/: apis/bugzilla_api.rb, apis/errata_api.rb,
+	  apis/rhnqa_api.rb, apis/tps_api.rb, models/errata_service.rb,
+	  models/rhnqa_rpc.rb, models/tps_service.rb: Fix improper
+	  capitialization in API class names which rails 1.2 is stricter
+	  on.
+
+2007-01-31 11:38  jorris
+
+	* app/views/notifier/: bug_updatebugstates.rhtml,
+	  bugs_updatebugstates.rhtml: Fix for bug 223453. The mail template
+	  was misnamed.
+
+2007-01-29 11:22  jorris
+
+	* app/: controllers/oval_controller.rb, helpers/oval_helper.rb,
+	  models/brew_build.rb, models/brew_rpm.rb, models/errata.rb,
+	  models/oval_test.rb, models/product_version.rb,
+	  models/rhel_release.rb, models/rhsa.rb,
+	  views/oval/_criteria.rhtml, views/oval/_criterion.rhtml,
+	  views/oval/_rpminfo_object.rhtml,
+	  views/oval/_rpminfo_state.rhtml, views/oval/_rpminfo_test.rhtml,
+	  views/oval/errata_oval.rhtml: Merging in OVAL support code into
+	  mainline rails errata system.
+
+2007-01-29 10:53  jorris
+
+	* app/controllers/application.rb: Only check logins on the
+	  production environment. Need to create a stage environment
+	  wherein this is true as well
+
+2007-01-16 14:15  jorris
+
+	* app/models/: errata.rb, tps_run.rb: Fix for bug 222139. Creates
+	  RHNQA jobs for requests lacking them when erratum goes into
+	  ON_RHNQA. This occurred due to different methods for initializing
+	  tps jobs in the production vs beta system.
+
+2007-01-03 17:29  jorris
+
+	* README, Rakefile, app/apis/bugzilla_api.rb,
+	  app/apis/errata_api.rb, app/apis/rhnqa_api.rb,
+	  app/apis/tps_api.rb, app/controllers/application.rb,
+	  app/controllers/brew_controller.rb,
+	  app/controllers/bugs_controller.rb, app/controllers/dictionary,
+	  app/controllers/docs_controller.rb,
+	  app/controllers/errata_controller.rb,
+	  app/controllers/files_controller.rb,
+	  app/controllers/push_controller.rb,
+	  app/controllers/reports_controller.rb,
+	  app/controllers/rpmdiff_controller.rb,
+	  app/controllers/tps_controller.rb,
+	  app/helpers/application_helper.rb, app/helpers/brew_helper.rb,
+	  app/helpers/bugs_helper.rb, app/helpers/docs_helper.rb,
+	  app/helpers/errata_helper.rb, app/helpers/files_helper.rb,
+	  app/helpers/push_helper.rb, app/helpers/reports_helper.rb,
+	  app/helpers/rpmdiff_helper.rb, app/helpers/tps_helper.rb,
+	  app/models/activity_sweeper.rb, app/models/arch.rb,
+	  app/models/brew_build.rb, app/models/brew_finder.rb,
+	  app/models/brew_info.rb, app/models/brew_rpm.rb,
+	  app/models/bug.rb, app/models/bug_list.rb,
+	  app/models/bug_reference.rb, app/models/bugzilla_profile.rb,
+	  app/models/carbon_copy.rb, app/models/comment.rb,
+	  app/models/comment_sweeper.rb, app/models/component.rb,
+	  app/models/contact.rb, app/models/content.rb,
+	  app/models/devel_group.rb, app/models/errata.rb,
+	  app/models/errata_activity.rb, app/models/errata_brew_mapping.rb,
+	  app/models/errata_file.rb, app/models/errata_finder.rb,
+	  app/models/errata_service.rb, app/models/errata_type.rb,
+	  app/models/errata_xml.rb, app/models/file_sweeper.rb,
+	  app/models/notifier.rb, app/models/package.rb,
+	  app/models/product.rb, app/models/product_version.rb,
+	  app/models/release.rb, app/models/rhba.rb, app/models/rhea.rb,
+	  app/models/rhel_release.rb, app/models/rhnqa_rpc.rb,
+	  app/models/rhsa.rb, app/models/rpmdiff_result.rb,
+	  app/models/rpmdiff_run.rb, app/models/rpmdiff_score.rb,
+	  app/models/rpmdiff_test.rb, app/models/rpmdiff_waiver.rb,
+	  app/models/state.rb, app/models/tps_file.rb,
+	  app/models/tps_job.rb, app/models/tps_run.rb,
+	  app/models/tps_service.rb, app/models/tps_stacks_release.rb,
+	  app/models/tps_state.rb, app/models/tps_system.rb,
+	  app/models/user.rb, app/models/user_group.rb,
+	  app/models/variant.rb, app/views/brew/list_files.rhtml,
+	  app/views/brew/preview_files.rhtml,
+	  app/views/brew/save_builds.rhtml,
+	  app/views/brew/save_files.rhtml,
+	  app/views/bugs/_release_nav.rhtml,
+	  app/views/bugs/erratabugs.rhtml, app/views/bugs/index.rhtml,
+	  app/views/bugs/qublockers.rhtml,
+	  app/views/bugs/updatebugstates.rhtml,
+	  app/views/docs/approve.rhtml, app/views/docs/disapprove.rhtml,
+	  app/views/docs/list.rhtml, app/views/docs/show.rhtml,
+	  app/views/errata/_comment.rhtml,
+	  app/views/errata/_edit_form.rhtml,
+	  app/views/errata/_errata_info.rhtml,
+	  app/views/errata/_errata_list.rhtml,
+	  app/views/errata/_errata_nav.rhtml,
+	  app/views/errata/_errata_summary.rhtml,
+	  app/views/errata/_info_content.rhtml,
+	  app/views/errata/_info_metadata.rhtml,
+	  app/views/errata/_info_summary.rhtml,
+	  app/views/errata/edit.rhtml, app/views/errata/errata_error.rhtml,
+	  app/views/errata/file_request.rhtml,
+	  app/views/errata/file_request_error.rhtml,
+	  app/views/errata/info.rhtml, app/views/errata/list.rhtml,
+	  app/views/errata/my_requests.rhtml, app/views/errata/new.rhtml,
+	  app/views/errata/not_implemented.rhtml,
+	  app/views/errata/preview.rhtml, app/views/errata/show.rhtml,
+	  app/views/errata/show_activity.rhtml,
+	  app/views/errata/signin_form.rhtml, app/views/files/manage.rhtml,
+	  app/views/files/request_sign.rhtml, app/views/files/show.rhtml,
+	  app/views/files/sign.rhtml, app/views/layouts/application.rhtml,
+	  app/views/notifier/bug_updatebugstates.rhtml,
+	  app/views/notifier/docs_approve.rhtml,
+	  app/views/notifier/docs_ready.rhtml,
+	  app/views/notifier/docs_text_changed.rhtml,
+	  app/views/notifier/docs_update_reviewer.rhtml,
+	  app/views/notifier/errata_file_request.rhtml,
+	  app/views/notifier/errata_update.rhtml,
+	  app/views/notifier/new_errata_notify_docs_team.rhtml,
+	  app/views/notifier/new_errata_notify_qa_team.rhtml,
+	  app/views/notifier/rpmdiff_actions.rhtml,
+	  app/views/notifier/tps_completed.rhtml,
+	  app/views/notifier/tps_rescheduled.rhtml,
+	  app/views/notifier/tps_waive.rhtml, app/views/push/ftp.rhtml,
+	  app/views/push/live.rhtml, app/views/push/mail.rhtml,
+	  app/views/push/rhnqa.rhtml, app/views/reports/_reports_nav.rhtml,
+	  app/views/reports/dashboard.rhtml,
+	  app/views/reports/leaderboard.rhtml,
+	  app/views/reports/scoreboard.rhtml,
+	  app/views/rpmdiff/control.rhtml, app/views/rpmdiff/list.rhtml,
+	  app/views/rpmdiff/show.rhtml, app/views/shared/_file_list.rhtml,
+	  app/views/tps/_run_result.rhtml,
+	  app/views/tps/errata_results.rhtml,
+	  app/views/tps/rhnqa_results.rhtml, config/boot.rb,
+	  config/database.yml, config/environment.rb,
+	  config/mongrel_cluster.yml, config/routes.rb,
+	  config/environments/development.rb,
+	  config/environments/production.rb, config/environments/test.rb,
+	  doc/README_FOR_APP, lib/brew.rb, lib/bugzilla_rpc.rb,
+	  lib/validateable.rb, lib/error_handling/errata_exception.rb,
+	  public/.htaccess, public/404.html, public/500.html,
+	  public/dispatch.cgi, public/dispatch.fcgi, public/dispatch.rb,
+	  public/favicon.ico, public/index.html, public/robots.txt,
+	  public/g/chrome/bkgrnd_greydots.png,
+	  public/g/chrome/corner_mainnav_bl.png,
+	  public/g/chrome/corner_mainnav_bottom.png,
+	  public/g/chrome/corner_mainnav_br_hi.png,
+	  public/g/chrome/corner_mainnav_tl.png,
+	  public/g/chrome/corner_mainnav_top.png,
+	  public/g/chrome/corner_mainnav_tr_hi.png,
+	  public/g/chrome/corner_secnav_bl.gif,
+	  public/g/chrome/corner_secnav_bl_hi.png,
+	  public/g/chrome/corner_secnav_bottom.png,
+	  public/g/chrome/corner_secnav_br.gif,
+	  public/g/chrome/corner_secnav_tl.gif,
+	  public/g/chrome/corner_secnav_tl_hi.png,
+	  public/g/chrome/corner_secnav_top.png,
+	  public/g/chrome/corner_secnav_tr.gif, public/images/RHBA.gif,
+	  public/images/RHEA.gif, public/images/RHSA.gif,
+	  public/images/cleardot.gif, public/images/errata.png,
+	  public/images/favicon.ico, public/images/grnball.gif,
+	  public/images/grnc.png, public/images/grnc2.gif,
+	  public/images/header_logo.gif, public/images/header_redhat.gif,
+	  public/images/header_t_download.gif,
+	  public/images/header_t_rhnetwork.gif,
+	  public/images/header_t_store.gif, public/images/home_nav.gif,
+	  public/images/homepg_cart.gif, public/images/homepg_download.gif,
+	  public/images/homepg_login.gif, public/images/homepg_member.gif,
+	  public/images/homepg_rh_logo.gif,
+	  public/images/homepg_search.gif, public/images/homepg_store.gif,
+	  public/images/icon_alert.gif, public/images/icon_no.gif,
+	  public/images/icon_yes.gif, public/images/pixel.gif,
+	  public/images/rails.png, public/images/redball.gif,
+	  public/images/redx.png, public/images/redx2.gif,
+	  public/images/standby.gif, public/javascripts/application.js,
+	  public/javascripts/controls.js, public/javascripts/dragdrop.js,
+	  public/javascripts/effects.js, public/javascripts/prototype.js,
+	  public/stylesheets/buglist.css, public/stylesheets/bugzilla.css,
+	  public/stylesheets/content.css, public/stylesheets/custom.css,
+	  public/stylesheets/dig.css, public/stylesheets/global.css,
+	  public/stylesheets/headings.css, public/stylesheets/layout.css,
+	  public/stylesheets/master.css, public/stylesheets/metaerrata.css,
+	  public/stylesheets/middlenav.css,
+	  public/stylesheets/navigation.css,
+	  public/stylesheets/pagelayout.css,
+	  public/stylesheets/requests.css, public/stylesheets/rhcss.tar,
+	  public/stylesheets/tables.css,
+	  public/stylesheets/truthhappens.css,
+	  public/stylesheets/www-gis.css, script/about,
+	  script/breakpointer, script/console, script/destroy,
+	  script/generate, script/list_actions.rb, script/plugin,
+	  script/runner, script/server, script/performance/benchmarker,
+	  script/performance/profiler, script/process/reaper,
+	  script/process/spawner, script/process/spinner,
+	  sql_update/product_updates.sql, sql_update/update.sql,
+	  test/test_helper.rb, test/fixtures/brew_builds.yml,
+	  test/fixtures/brew_rpms.yml, test/fixtures/devel_groups.yml,
+	  test/fixtures/errata_activities.yml,
+	  test/fixtures/errata_brew_mappings.yml,
+	  test/fixtures/errata_types.yml, test/fixtures/errata_xmls.yml,
+	  test/fixtures/product_versions.yml, test/fixtures/rhbas.yml,
+	  test/fixtures/rheas.yml, test/fixtures/rhsas.yml,
+	  test/fixtures/rpmdiff_results.yml,
+	  test/fixtures/rpmdiff_runs.yml, test/fixtures/rpmdiff_scores.yml,
+	  test/fixtures/rpmdiff_tests.yml,
+	  test/fixtures/rpmdiff_waivers.yml, test/fixtures/tps_files.yml,
+	  test/fixtures/tps_stacks_releases.yml,
+	  test/functional/brew_controller_test.rb,
+	  test/functional/bugs_controller_test.rb,
+	  test/functional/docs_controller_test.rb,
+	  test/functional/errata_requests_controller_test.rb,
+	  test/functional/files_controller_test.rb,
+	  test/functional/push_controller_test.rb,
+	  test/functional/reports_controller_test.rb,
+	  test/functional/rpmdiff_controller_test.rb,
+	  test/functional/tps_controller_test.rb,
+	  test/unit/brew_build_test.rb, test/unit/brew_rpm_test.rb,
+	  test/unit/devel_group_test.rb, test/unit/errata_activity_test.rb,
+	  test/unit/errata_brew_mapping_test.rb,
+	  test/unit/errata_type_test.rb, test/unit/errata_xml_test.rb,
+	  test/unit/product_version_test.rb, test/unit/rhba_test.rb,
+	  test/unit/rhea_test.rb, test/unit/rhsa_test.rb,
+	  test/unit/rpmdiff_result_test.rb, test/unit/rpmdiff_runs_test.rb,
+	  test/unit/rpmdiff_scores_test.rb, test/unit/rpmdiff_test_test.rb,
+	  test/unit/rpmdiff_waiver_test.rb, test/unit/tps_file_test.rb,
+	  test/unit/tps_stacks_release_test.rb,
+	  vendor/plugins/exception_notification/README,
+	  vendor/plugins/exception_notification/init.rb,
+	  vendor/plugins/exception_notification/lib/exception_notifiable.rb,
+	  vendor/plugins/exception_notification/lib/exception_notifier.rb,
+	  vendor/plugins/exception_notification/lib/exception_notifier_helper.rb,
+	  vendor/plugins/exception_notification/views/exception_notifier/_backtrace.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_environment.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_inspect_model.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_request.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_session.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_title.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/exception_notification.rhtml:
+	  Initial import of errata 2.0 into CVS. Reflects current beta
+	  system on iolo.rdu.redhat.com
+
+2007-01-03 17:29  jorris
+
+	* README, Rakefile, app/apis/bugzilla_api.rb,
+	  app/apis/errata_api.rb, app/apis/rhnqa_api.rb,
+	  app/apis/tps_api.rb, app/controllers/application.rb,
+	  app/controllers/brew_controller.rb,
+	  app/controllers/bugs_controller.rb, app/controllers/dictionary,
+	  app/controllers/docs_controller.rb,
+	  app/controllers/errata_controller.rb,
+	  app/controllers/files_controller.rb,
+	  app/controllers/push_controller.rb,
+	  app/controllers/reports_controller.rb,
+	  app/controllers/rpmdiff_controller.rb,
+	  app/controllers/tps_controller.rb,
+	  app/helpers/application_helper.rb, app/helpers/brew_helper.rb,
+	  app/helpers/bugs_helper.rb, app/helpers/docs_helper.rb,
+	  app/helpers/errata_helper.rb, app/helpers/files_helper.rb,
+	  app/helpers/push_helper.rb, app/helpers/reports_helper.rb,
+	  app/helpers/rpmdiff_helper.rb, app/helpers/tps_helper.rb,
+	  app/models/activity_sweeper.rb, app/models/arch.rb,
+	  app/models/brew_build.rb, app/models/brew_finder.rb,
+	  app/models/brew_info.rb, app/models/brew_rpm.rb,
+	  app/models/bug.rb, app/models/bug_list.rb,
+	  app/models/bug_reference.rb, app/models/bugzilla_profile.rb,
+	  app/models/carbon_copy.rb, app/models/comment.rb,
+	  app/models/comment_sweeper.rb, app/models/component.rb,
+	  app/models/contact.rb, app/models/content.rb,
+	  app/models/devel_group.rb, app/models/errata.rb,
+	  app/models/errata_activity.rb, app/models/errata_brew_mapping.rb,
+	  app/models/errata_file.rb, app/models/errata_finder.rb,
+	  app/models/errata_service.rb, app/models/errata_type.rb,
+	  app/models/errata_xml.rb, app/models/file_sweeper.rb,
+	  app/models/notifier.rb, app/models/package.rb,
+	  app/models/product.rb, app/models/product_version.rb,
+	  app/models/release.rb, app/models/rhba.rb, app/models/rhea.rb,
+	  app/models/rhel_release.rb, app/models/rhnqa_rpc.rb,
+	  app/models/rhsa.rb, app/models/rpmdiff_result.rb,
+	  app/models/rpmdiff_run.rb, app/models/rpmdiff_score.rb,
+	  app/models/rpmdiff_test.rb, app/models/rpmdiff_waiver.rb,
+	  app/models/state.rb, app/models/tps_file.rb,
+	  app/models/tps_job.rb, app/models/tps_run.rb,
+	  app/models/tps_service.rb, app/models/tps_stacks_release.rb,
+	  app/models/tps_state.rb, app/models/tps_system.rb,
+	  app/models/user.rb, app/models/user_group.rb,
+	  app/models/variant.rb, app/views/brew/list_files.rhtml,
+	  app/views/brew/preview_files.rhtml,
+	  app/views/brew/save_builds.rhtml,
+	  app/views/brew/save_files.rhtml,
+	  app/views/bugs/_release_nav.rhtml,
+	  app/views/bugs/erratabugs.rhtml, app/views/bugs/index.rhtml,
+	  app/views/bugs/qublockers.rhtml,
+	  app/views/bugs/updatebugstates.rhtml,
+	  app/views/docs/approve.rhtml, app/views/docs/disapprove.rhtml,
+	  app/views/docs/list.rhtml, app/views/docs/show.rhtml,
+	  app/views/errata/_comment.rhtml,
+	  app/views/errata/_edit_form.rhtml,
+	  app/views/errata/_errata_info.rhtml,
+	  app/views/errata/_errata_list.rhtml,
+	  app/views/errata/_errata_nav.rhtml,
+	  app/views/errata/_errata_summary.rhtml,
+	  app/views/errata/_info_content.rhtml,
+	  app/views/errata/_info_metadata.rhtml,
+	  app/views/errata/_info_summary.rhtml,
+	  app/views/errata/edit.rhtml, app/views/errata/errata_error.rhtml,
+	  app/views/errata/file_request.rhtml,
+	  app/views/errata/file_request_error.rhtml,
+	  app/views/errata/info.rhtml, app/views/errata/list.rhtml,
+	  app/views/errata/my_requests.rhtml, app/views/errata/new.rhtml,
+	  app/views/errata/not_implemented.rhtml,
+	  app/views/errata/preview.rhtml, app/views/errata/show.rhtml,
+	  app/views/errata/show_activity.rhtml,
+	  app/views/errata/signin_form.rhtml, app/views/files/manage.rhtml,
+	  app/views/files/request_sign.rhtml, app/views/files/show.rhtml,
+	  app/views/files/sign.rhtml, app/views/layouts/application.rhtml,
+	  app/views/notifier/bug_updatebugstates.rhtml,
+	  app/views/notifier/docs_approve.rhtml,
+	  app/views/notifier/docs_ready.rhtml,
+	  app/views/notifier/docs_text_changed.rhtml,
+	  app/views/notifier/docs_update_reviewer.rhtml,
+	  app/views/notifier/errata_file_request.rhtml,
+	  app/views/notifier/errata_update.rhtml,
+	  app/views/notifier/new_errata_notify_docs_team.rhtml,
+	  app/views/notifier/new_errata_notify_qa_team.rhtml,
+	  app/views/notifier/rpmdiff_actions.rhtml,
+	  app/views/notifier/tps_completed.rhtml,
+	  app/views/notifier/tps_rescheduled.rhtml,
+	  app/views/notifier/tps_waive.rhtml, app/views/push/ftp.rhtml,
+	  app/views/push/live.rhtml, app/views/push/mail.rhtml,
+	  app/views/push/rhnqa.rhtml, app/views/reports/_reports_nav.rhtml,
+	  app/views/reports/dashboard.rhtml,
+	  app/views/reports/leaderboard.rhtml,
+	  app/views/reports/scoreboard.rhtml,
+	  app/views/rpmdiff/control.rhtml, app/views/rpmdiff/list.rhtml,
+	  app/views/rpmdiff/show.rhtml, app/views/shared/_file_list.rhtml,
+	  app/views/tps/_run_result.rhtml,
+	  app/views/tps/errata_results.rhtml,
+	  app/views/tps/rhnqa_results.rhtml, config/boot.rb,
+	  config/database.yml, config/environment.rb,
+	  config/mongrel_cluster.yml, config/routes.rb,
+	  config/environments/development.rb,
+	  config/environments/production.rb, config/environments/test.rb,
+	  doc/README_FOR_APP, lib/brew.rb, lib/bugzilla_rpc.rb,
+	  lib/validateable.rb, lib/error_handling/errata_exception.rb,
+	  public/.htaccess, public/404.html, public/500.html,
+	  public/dispatch.cgi, public/dispatch.fcgi, public/dispatch.rb,
+	  public/favicon.ico, public/index.html, public/robots.txt,
+	  public/g/chrome/bkgrnd_greydots.png,
+	  public/g/chrome/corner_mainnav_bl.png,
+	  public/g/chrome/corner_mainnav_bottom.png,
+	  public/g/chrome/corner_mainnav_br_hi.png,
+	  public/g/chrome/corner_mainnav_tl.png,
+	  public/g/chrome/corner_mainnav_top.png,
+	  public/g/chrome/corner_mainnav_tr_hi.png,
+	  public/g/chrome/corner_secnav_bl.gif,
+	  public/g/chrome/corner_secnav_bl_hi.png,
+	  public/g/chrome/corner_secnav_bottom.png,
+	  public/g/chrome/corner_secnav_br.gif,
+	  public/g/chrome/corner_secnav_tl.gif,
+	  public/g/chrome/corner_secnav_tl_hi.png,
+	  public/g/chrome/corner_secnav_top.png,
+	  public/g/chrome/corner_secnav_tr.gif, public/images/RHBA.gif,
+	  public/images/RHEA.gif, public/images/RHSA.gif,
+	  public/images/cleardot.gif, public/images/errata.png,
+	  public/images/favicon.ico, public/images/grnball.gif,
+	  public/images/grnc.png, public/images/grnc2.gif,
+	  public/images/header_logo.gif, public/images/header_redhat.gif,
+	  public/images/header_t_download.gif,
+	  public/images/header_t_rhnetwork.gif,
+	  public/images/header_t_store.gif, public/images/home_nav.gif,
+	  public/images/homepg_cart.gif, public/images/homepg_download.gif,
+	  public/images/homepg_login.gif, public/images/homepg_member.gif,
+	  public/images/homepg_rh_logo.gif,
+	  public/images/homepg_search.gif, public/images/homepg_store.gif,
+	  public/images/icon_alert.gif, public/images/icon_no.gif,
+	  public/images/icon_yes.gif, public/images/pixel.gif,
+	  public/images/rails.png, public/images/redball.gif,
+	  public/images/redx.png, public/images/redx2.gif,
+	  public/images/standby.gif, public/javascripts/application.js,
+	  public/javascripts/controls.js, public/javascripts/dragdrop.js,
+	  public/javascripts/effects.js, public/javascripts/prototype.js,
+	  public/stylesheets/buglist.css, public/stylesheets/bugzilla.css,
+	  public/stylesheets/content.css, public/stylesheets/custom.css,
+	  public/stylesheets/dig.css, public/stylesheets/global.css,
+	  public/stylesheets/headings.css, public/stylesheets/layout.css,
+	  public/stylesheets/master.css, public/stylesheets/metaerrata.css,
+	  public/stylesheets/middlenav.css,
+	  public/stylesheets/navigation.css,
+	  public/stylesheets/pagelayout.css,
+	  public/stylesheets/requests.css, public/stylesheets/rhcss.tar,
+	  public/stylesheets/tables.css,
+	  public/stylesheets/truthhappens.css,
+	  public/stylesheets/www-gis.css, script/about,
+	  script/breakpointer, script/console, script/destroy,
+	  script/generate, script/list_actions.rb, script/plugin,
+	  script/runner, script/server, script/performance/benchmarker,
+	  script/performance/profiler, script/process/reaper,
+	  script/process/spawner, script/process/spinner,
+	  sql_update/product_updates.sql, sql_update/update.sql,
+	  test/test_helper.rb, test/fixtures/brew_builds.yml,
+	  test/fixtures/brew_rpms.yml, test/fixtures/devel_groups.yml,
+	  test/fixtures/errata_activities.yml,
+	  test/fixtures/errata_brew_mappings.yml,
+	  test/fixtures/errata_types.yml, test/fixtures/errata_xmls.yml,
+	  test/fixtures/product_versions.yml, test/fixtures/rhbas.yml,
+	  test/fixtures/rheas.yml, test/fixtures/rhsas.yml,
+	  test/fixtures/rpmdiff_results.yml,
+	  test/fixtures/rpmdiff_runs.yml, test/fixtures/rpmdiff_scores.yml,
+	  test/fixtures/rpmdiff_tests.yml,
+	  test/fixtures/rpmdiff_waivers.yml, test/fixtures/tps_files.yml,
+	  test/fixtures/tps_stacks_releases.yml,
+	  test/functional/brew_controller_test.rb,
+	  test/functional/bugs_controller_test.rb,
+	  test/functional/docs_controller_test.rb,
+	  test/functional/errata_requests_controller_test.rb,
+	  test/functional/files_controller_test.rb,
+	  test/functional/push_controller_test.rb,
+	  test/functional/reports_controller_test.rb,
+	  test/functional/rpmdiff_controller_test.rb,
+	  test/functional/tps_controller_test.rb,
+	  test/unit/brew_build_test.rb, test/unit/brew_rpm_test.rb,
+	  test/unit/devel_group_test.rb, test/unit/errata_activity_test.rb,
+	  test/unit/errata_brew_mapping_test.rb,
+	  test/unit/errata_type_test.rb, test/unit/errata_xml_test.rb,
+	  test/unit/product_version_test.rb, test/unit/rhba_test.rb,
+	  test/unit/rhea_test.rb, test/unit/rhsa_test.rb,
+	  test/unit/rpmdiff_result_test.rb, test/unit/rpmdiff_runs_test.rb,
+	  test/unit/rpmdiff_scores_test.rb, test/unit/rpmdiff_test_test.rb,
+	  test/unit/rpmdiff_waiver_test.rb, test/unit/tps_file_test.rb,
+	  test/unit/tps_stacks_release_test.rb,
+	  vendor/plugins/exception_notification/README,
+	  vendor/plugins/exception_notification/init.rb,
+	  vendor/plugins/exception_notification/lib/exception_notifiable.rb,
+	  vendor/plugins/exception_notification/lib/exception_notifier.rb,
+	  vendor/plugins/exception_notification/lib/exception_notifier_helper.rb,
+	  vendor/plugins/exception_notification/views/exception_notifier/_backtrace.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_environment.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_inspect_model.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_request.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_session.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/_title.rhtml,
+	  vendor/plugins/exception_notification/views/exception_notifier/exception_notification.rhtml:
+	  Initial revision
+

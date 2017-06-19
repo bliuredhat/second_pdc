@@ -1,0 +1,76 @@
+--- 
+info_request_00050: 
+  created_at: 2010-08-02 03:33:39 -04:00
+  description: |
+    Current status: All architectures tested (tps & bugs & sanity/functionality) but ia64. I'm not able to start tomcat there (with jre-1.4.2-ibm java). 
+    
+    All I get is this exception:
+    
+    Created MBeanServer with ID: -6f6673e2:12a31b7199b:-8000:ia64-4as-m1.ss.eng.bos.redhat.com:1
+    java.lang.UnsupportedClassVersionError: org/apache/tomcat/util/log/SystemLogHandler (Unsupported major.minor version 49.0)
+    	at java.lang.ClassLoader.defineClass0(Native Method)
+    	at java.lang.ClassLoader.defineClass(ClassLoader.java:808)
+    	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:147)
+    	at java.net.URLClassLoader.defineClass(URLClassLoader.java:477)
+    	at java.net.URLClassLoader.access$500(URLClassLoader.java:111)
+    	at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:849)
+    	at java.security.AccessController.doPrivileged1(Native Method)
+    	at java.security.AccessController.doPrivileged(AccessController.java:389)
+    	at java.net.URLClassLoader.findClass(URLClassLoader.java:373)
+    	at java.lang.ClassLoader.loadClass(ClassLoader.java:570)
+    	at java.lang.ClassLoader.loadClass(ClassLoader.java:502)
+    	at java.lang.Class.getDeclaredConstructors0(Native Method)
+    	at java.lang.Class.privateGetDeclaredConstructors(Class.java:1747)
+    	at java.lang.Class.getConstructor1(Class.java:2063)
+    	at java.lang.Class.newInstance3(Class.java:331)
+    	at java.lang.Class.newInstance(Class.java:305)
+    	at org.apache.catalina.startup.Bootstrap.init(Bootstrap.java:225)
+    	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:410)
+
+  errata_id: 9754
+  id: 50
+  info_role: 2
+  is_active: false
+  state_index_id: 1699
+  summary: tomcat starting on ia64
+  updated_at: 2010-08-02 04:21:24 -04:00
+  who_id: 266715
+info_request_00054: 
+  created_at: 2010-08-02 06:28:53 -04:00
+  description: current status - I'm stuck on the same problem as in 9754 errata - tomcat5 not starting on ia64. I'm continuing with functionality testing on other architectures but until this problem is solved, the errata should not be shipped.
+  errata_id: 9753
+  id: 54
+  info_role: 2
+  is_active: true
+  state_index_id: 1763
+  summary: tomcat starting on ia64
+  updated_at: 2010-08-02 06:28:53 -04:00
+  who_id: 266715
+info_request_00219: 
+  created_at: 2011-02-17 10:39:01 -05:00
+  description: |-
+    
+    I don't see the s-s-java source RPM in the errata file list. Is that an intention or an omission?
+  errata_id: 10718
+  id: 219
+  info_role: 2
+  is_active: false
+  state_index_id: 7744
+  summary: No SRPM?
+  updated_at: 2011-02-22 12:42:13 -05:00
+  who_id: 173714
+info_request_00250: 
+  created_at: 2011-03-21 06:56:00 -04:00
+  description: |-
+    there [1] is no package for Assamese locale. Are are not creating one for this?
+    
+    
+    [1] http://download.devel.redhat.com/brewroot/packages/fonts-indic/2.3.1.1/1.el5/noarch/
+  errata_id: 10842
+  id: 250
+  info_role: 2
+  is_active: false
+  state_index_id: 8261
+  summary: Package for Assamese locale is missing
+  updated_at: 2011-03-22 01:21:08 -04:00
+  who_id: 168539

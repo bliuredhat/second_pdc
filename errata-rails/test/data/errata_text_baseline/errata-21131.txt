@@ -1,0 +1,63 @@
+=====================================================================
+                   Red Hat Bug Fix Advisory (PDC)
+
+Synopsis:          pdc test
+Advisory ID:       RHBA-2015:2399-00
+Product:           Product for PDC
+Advisory URL:      https://access.redhat.com/errata/RHBA-2015:2399
+Issue date:        2016-02-06
+Updated on:        2016-03-10
+=====================================================================
+
+1. Summary:
+
+pdc test advisory
+
+2. Relevant releases/architectures:
+
+Red Hat Ceph Storage MON - x86_64
+Red Hat Ceph Storage OSD - x86_64
+
+3. Description:
+
+does this even work?
+
+4. Solution:
+
+fix it
+
+5. Bugs fixed (https://bugzilla.redhat.com/):
+
+1196142 - Add RBD support for LIO HA
+1362639 - Object sync requests skipped in some scenarios
+
+6. Package List:
+
+Red Hat Ceph Storage MON:
+
+Source:
+ceph-10.2.3-17.el7cp.src.rpm
+
+x86_64:
+ceph-base-10.2.3-17.el7cp.x86_64.rpm
+ceph-common-10.2.3-17.el7cp.x86_64.rpm
+
+Red Hat Ceph Storage OSD:
+
+Source:
+ceph-10.2.3-17.el7cp.src.rpm
+
+x86_64:
+ceph-base-10.2.3-17.el7cp.x86_64.rpm
+ceph-common-10.2.3-17.el7cp.x86_64.rpm
+
+These packages are GPG signed by Red Hat for security.  Our key and
+details on how to verify the signature are available from
+https://access.redhat.com/security/team/key/
+
+7. Contact:
+
+The Red Hat security contact is <secalert@redhat.com>. More contact
+details at https://access.redhat.com/security/team/contact/
+
+Copyright 2016 Red Hat, Inc.

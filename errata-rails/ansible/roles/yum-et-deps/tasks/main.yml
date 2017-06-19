@@ -1,0 +1,4 @@
+---
+- name: Install repos for Errata Tool dependencies
+  become: yes
+  copy: src=yum-et-deps.repo dest=/etc/yum.repos.d/yum-et-deps.repo

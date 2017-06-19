@@ -1,0 +1,42 @@
+<%#
+  #
+  # People often can't find their package when creating a new QU advisory.
+  # They will raise a ticket or report a bug, but most of the time the system
+  # is behaving correctly.
+  #
+  # So let's explain some reasons why the component might not be available.
+  # (Suggested by Radek in Bug 835862)
+  #
+-%>
+<%= block_render('shared/help_popover', :extra_class => 'component-missing-help', :placement => 'bottom') do %>
+
+  <p>If the component or bug you wish to file an advisory for is not showing up on this
+    list please ensure that the following criteria are met:</p>
+
+  <ul class="spaced">
+    <li>
+      The component must be on the applicable ACL (Approved Component List). Please contact PM and have the component
+      added to the ACL. Contact information for the individual products and their releases is available on the 
+      <%= link_to 'Product Pages', 'https://engineering.redhat.com/pp/', :target=>'_blank' %>.
+    </li>
+    <li>
+      At least one bug in the component (or the particular bug you are looking for) must be
+      fully approved for the <%= defined?(release) && release.present? ? release.name : '' %> release and in the MODIFIED state.
+    </li>
+    <li>
+      Since the list only shows components that don't yet have an advisory in the selected
+      Y-stream update, it is required that an advisory containing the component has not already been filed.
+    </li>
+    <li>
+      Changes in the ACL and Bugzilla take some time to propagate to the Errata Tool.
+      If a bug was approved or switched to MODIFIED a short time ago it might not
+      have synced yet to ET. Please be patient and try again later.
+      (You can also use the 'Sync With Bugzilla' action on the
+      <%= link_to 'Bug Advisory Eligibility', {:controller=>'bugs', :action=>'troubleshoot'}, :target=>'_blank' %> page
+      to initiate a Bugzilla sync).
+    </li>
+  </ul>
+
+  <p><%= render 'shared/bug_troubleshoot_message' %></p>
+
+<% end %>

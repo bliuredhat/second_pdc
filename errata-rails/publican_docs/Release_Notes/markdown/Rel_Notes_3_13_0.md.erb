@@ -1,0 +1,85 @@
+Release Notes for Version 3.13.0
+================================
+
+Overview
+--------
+
+Release 3.13.0 is the 1st release in
+the Errata Tool 3.13 development period. It closes [22 bugs and RFEs][buglist].
+
+This release includes refinements to the [docker image support][dockerdocs]
+released in version 3.12.5, improved support for end to end test advisories, a
+fix for bugs with a large number of aliases, plus a number of other bug fixes
+and enhancements.
+
+<% sort_these_first %w[ ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.13.0][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1151716%2C1306265%2C1318222%2C1327930%2C1328632%2C1329048%2C1329525%2C1334146%2C1334609%2C1338530%2C1338800%2C1339452%2C1339996%2C1339997%2C1341123%2C1341518%2C1342020%2C1344160%2C1349255%2C1351028%2C1339903%2C1353391
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.13.0-0&id2=3.12.5-0
+
+<%= all_include_content %>
+
+Process
+-------
+
+### Errata Tool 3.12 Summary
+
+There were [184 bug fixes and RFEs][all312bugs] shipped during the 3.12
+development period in five major releases and three hotfix releases from
+December 2015 to June 2016.
+
+This JIRA chart shows the amount of work scheduled and the amount of work
+completed (390 story points) during that period at an average velocity of
+around 65 points per month.
+
+[![ET 3.12 version report](images/3.13.0/releasechart.png)](images/3.13.0/releasechart.png)
+
+What's Next
+------------
+
+### Errata Tool 3.13.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.13
+in Bugzilla for inclusion in two-week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be .
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.13 take a look at [bugs flagged with
+errata-3.13 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.14
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.14 take a look at [bugs
+flagged with errata-3.14][bugs_next].
+
+If you are interested in being involved in Errata Tool planning, please subscribe
+to [errata-dev-list][erratadevlist] and vote on the bugs and features in the
+backlog that would benefit you most.  To vote for a backlog item simply click
+the 'vote' link beside the Severity field when viewing the item then confirm
+your selection on the next page.  Each user gets a maximum of ten votes.
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.13&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.14&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ
+[dockerdocs]: https://errata.devel.redhat.com/user-guide/docker-docker-support.html
+[all312bugs]: https://bugzilla.redhat.com/buglist.cgi?bug_status=CLOSED&f1=flagtypes.name&o1=substring&product=Errata%20Tool&query_format=advanced&resolution=CURRENTRELEASE&v1=errata-3.12

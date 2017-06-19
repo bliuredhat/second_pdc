@@ -1,0 +1,139 @@
+---
+brew_file_meta_4:
+  title: Spice client installer sources
+  id: 4
+  brew_file_id: 698267
+  errata_id: 16409
+  rank: 5
+brew_file_meta_5:
+  title: Spice client installer build sources
+  id: 5
+  brew_file_id: 698265
+  errata_id: 16409
+  rank: 6
+brew_file_meta_6:
+  title: USB Clerk installer (64-bit)
+  id: 6
+  brew_file_id: 698263
+  errata_id: 16409
+  rank: 2
+brew_file_meta_7:
+  title: USB Clerk installer (32-bit)
+  id: 7
+  brew_file_id: 698262
+  errata_id: 16409
+  rank: 1
+brew_file_meta_8:
+  title: Virt Viewer installer (64-bit)
+  id: 8
+  brew_file_id: 698261
+  errata_id: 16409
+  rank: 4
+brew_file_meta_9:
+  title: Virt Viewer installer (32-bit)
+  id: 9
+  brew_file_id: 6982640
+  errata_id: 16409
+  rank: 3
+brew_file_meta_45:
+  rank:
+  title: Infinispan jar
+  brew_file_id: 701212
+  errata_id: 16397
+  id: 45
+brew_file_meta_46:
+  rank:
+  title: Infinispan maven metadata
+  brew_file_id: 701215
+  errata_id: 16397
+  id: 46
+brew_file_meta_47:
+  errata_id: 16657
+  title: Red Hat Support Library
+  rank: 1
+  id: 47
+  brew_file_id: 6215020
+brew_file_meta_48:
+  errata_id: 16657
+  title: Red Hat Support Library sources
+  rank: 2
+  id: 48
+  brew_file_id: 6215000
+brew_file_meta_49:
+  errata_id: 16657
+  title: Red Hat Support Library maven metadata
+  rank: 3
+  id: 49
+  brew_file_id: 621501
+brew_file_meta_50:
+  errata_id: 19029
+  id: 50
+  brew_file_id: 152157
+  rank: 5
+  title: USB sharing driver sources
+brew_file_meta_51:
+  errata_id: 19029
+  id: 51
+  brew_file_id: 1521580
+  rank: 6
+  title: USB sharing driver build metadata
+brew_file_meta_52:
+  errata_id: 19029
+  id: 52
+  brew_file_id: 1521620
+  rank: 1
+  title: USB sharing drivers (64-bit)
+brew_file_meta_53:
+  errata_id: 19029
+  id: 53
+  brew_file_id: 152161
+  rank: 2
+  title: USB sharing drivers (32-bit)
+brew_file_meta_54:
+  errata_id: 19029
+  id: 54
+  brew_file_id: 685395
+  rank: 11
+  title: libvirt configuration
+brew_file_meta_55:
+  errata_id: 19029
+  id: 55
+  brew_file_id: 6853920
+  rank: 10
+  title: Image template file
+brew_file_meta_56:
+  errata_id: 19029
+  id: 56
+  brew_file_id: 1521600
+  rank: 3
+  title: USB driver debugging info (64-bit)
+brew_file_meta_57:
+  errata_id: 19029
+  id: 57
+  brew_file_id: 152159
+  rank: 4
+  title: USB driver debugging info (32-bit)
+brew_file_meta_58:
+  errata_id: 19029
+  id: 58
+  brew_file_id: 6853960
+  rank: 7
+  title: RHEL 6.5 Server EC2 image
+brew_file_meta_59:
+  errata_id: 19029
+  id: 59
+  brew_file_id: 6853940
+  rank: 9
+  title: Anaconda script (alternative)
+brew_file_meta_60:
+  errata_id: 19029
+  id: 60
+  brew_file_id: 685393
+  rank: 8
+  title: Anaconda script
+brew_file_meta_64:
+  rank: 1
+  brew_file_id: 40074029
+  errata_id: 21101
+  id: 64
+  title: docker image

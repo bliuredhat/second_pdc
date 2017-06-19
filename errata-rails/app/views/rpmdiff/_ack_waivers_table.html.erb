@@ -1,0 +1,36 @@
+<%
+form ||= false
+row_fns = [:rpmdiff_waiver_qe_row, (:rpmdiff_waiver_ack_row if form), :rpmdiff_waiver_log_row].compact
+rows_per_item = row_fns.length
+row_func = compose_row_function(row_fns, :form => form)
+%>
+
+<%=
+  headers = [
+    'RPMDiff Run',
+    'Status <br/>' + th_actions(
+      'Expand all', 'et_rpmdiff_logs_visible(event, true)',
+      'Collapse all', 'et_rpmdiff_logs_visible(event, false)'
+    ),
+    'Test', 'Package', 'Old', 'New'
+  ]
+  if form
+    headers << 'Approve Waiver? <br/>' + th_actions(
+      'Approve all', 'et_waiver_ack_buttons_set(event, "approve")',
+      'Reject all', 'et_waiver_ack_buttons_set(event, "reject")',
+      'Clear all', 'et_waiver_ack_buttons_set(event, null)')
+  end
+  render('shared/bz_table',
+    :headers => headers,
+    :func => row_func,
+    :row_items => results.map{|r| [r]*rows_per_item}.flatten,
+    :no_tablesort => true
+  )
+%>
+
+<% if form %>
+<script type="text/javascript">
+  et_waiver_ack_buttons_init();
+</script>
+<% end %>
+

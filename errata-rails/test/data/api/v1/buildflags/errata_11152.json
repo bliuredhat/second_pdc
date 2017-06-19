@@ -1,0 +1,7 @@
+### The buildflags API only returns mappings with non-empty flags.
+### This advisory doesn't have any flags set, so the response is an
+### empty array.
+# HTTP 200
+[
+
+]

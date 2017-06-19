@@ -1,0 +1,26 @@
+<%#
+  #
+  # Locals:
+  #  - tps_jobs (required)
+  #  - state_filter (required)
+  #
+-%>
+<% ssh_host_link = lambda { |tps_job| link_to_ssh_host(tps_job.host, :style=>'text-decoration:none;') } %>
+
+<%# Filter by the job state maybe (Bz 947948) %>
+<% tps_jobs = tps_jobs.select{ |job| job.is_state?(state_filter) } unless state_filter == 'ALL' %>
+
+<%# Show the whole list %>
+<b><%= state_filter %> HOSTS</b>: <%= tps_jobs.any? ? safe_join(tps_jobs.map(&ssh_host_link), " ") : '-' %>
+
+<%# Show them grouped by RHEL Release maybe (Bz 739034) %>
+<%
+  tps_jobs_grouped = tps_jobs.group_by{ |tps_job| tps_job.variant.rhel_release.version_number }
+  if tps_jobs_grouped.keys.length > 1
+    tps_jobs_grouped.each do |rhel_release_num, jobs|
+      %><br/><br/><b><%= state_filter %> RHEL<%= rhel_release_num %> HOSTS</b>: <%= safe_join(jobs.map(&ssh_host_link), " ") %><%
+    end
+  end
+%>
+
+<br/><br/>

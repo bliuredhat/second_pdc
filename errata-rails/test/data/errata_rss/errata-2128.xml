@@ -1,0 +1,67 @@
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" version="2.0">
+  <channel>
+    <title>RHBA-2005:324 - GFS bug fix update</title>
+    <link>https://errata-unit-test/advisory/2128</link>
+    <description>RHBA-2005:324 - GFS bug fix update</description>
+    <item>
+      <title>New Advisory: RHBA-2005:324 - GFS bug fix update</title>
+      <description>New Advisory: RHBA-2005:324 - GFS bug fix update&lt;br/&gt;
+Release: ASYNC&lt;br/&gt;
+Created by: Derek Anderson (danderso@redhat.com)&lt;br/&gt;
+Bugs: &lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=130358"&gt;130358 - lock_gulm.o verbosity is not configurable&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=131142"&gt;131142 - unable to select which interface to bind to from lock_gulmd&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=145121"&gt;145121 - ccsd can get stuck on startup with zombie child&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=146672"&gt;146672 - Node panic doing a writev()&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=150029"&gt;150029 - Pool does not see all powerpath devices&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=150365"&gt;150365 - gnbd init.d scripts needed&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=150366"&gt;150366 - lock_gulm needs to start before gnbd_import and gnbd_export&lt;/a&gt;&lt;br/&gt;
+Brew Builds:&lt;br/&gt;
+</description>
+      <pubDate>Wed, 06 Apr 2005 04:00:00 -0000</pubDate>
+      <dc:date>2005-04-06T04:00:00Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Melissa Goldin (mgoldin@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/2128#c1</link>
+      <description>Errata documentation has been APPROVED.</description>
+      <pubDate>Thu, 17 Mar 2005 16:33:34 -0000</pubDate>
+      <dc:date>2005-03-17T16:33:34Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Chris Feist (cfeist@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/2128#c2</link>
+      <description>Email has been sent requesting packages to be GPG signed.&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Mon, 28 Mar 2005 21:27:18 -0000</pubDate>
+      <dc:date>2005-03-28T21:27:18Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Bill Nottingham (notting@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/2128#c3</link>
+      <description>signed.</description>
+      <pubDate>Mon, 28 Mar 2005 21:40:25 -0000</pubDate>
+      <dc:date>2005-03-28T21:40:25Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Jay Turner (jturner@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/2128#c4</link>
+      <description>RHNQA looks good for GFS-6.0.2.10-0.  Moving to HOLD.</description>
+      <pubDate>Wed, 06 Apr 2005 08:17:37 -0000</pubDate>
+      <dc:date>2005-04-06T08:17:37Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Jay Turner (jturner@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/2128#c5</link>
+      <description>Latest U5 kernel is 2.4.21-32.EL, so looks like some work will be needed here. &lt;br/&gt;Moving back to Assigned.</description>
+      <pubDate>Mon, 25 Apr 2005 07:57:44 -0000</pubDate>
+      <dc:date>2005-04-25T07:57:44Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from John Poelstra (poelstra@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/2128#c6</link>
+      <description>Looks like this errata is stale. Dropping to clear the queue. Please reopen if&lt;br/&gt;you still need it</description>
+      <pubDate>Wed, 12 Oct 2005 00:53:14 -0000</pubDate>
+      <dc:date>2005-10-12T00:53:14Z</dc:date>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<% book do %>
+  <%= xi_include "Book_Info.xml" %>
+  <%#= xi_include "Preface.xml" %>
+
+  <% part("I", "Contributing to Documentation", "How to contribute to the Errata Tool documentation") do %>
+    <%= include_generated "Docs_Contrib.xml" %>
+  <% end %>
+
+  <% part("II", "System Integration Guide", "For developers who want to interact with Errata Tool") do %>
+    <%= include_generated "API.xml" %>
+    <%= include_generated "Additional_APIs.xml" %>
+    <%= include_generated "Qpid.xml" %>
+    <%= include_generated "UMB.xml" %>
+    <%= include_generated "Push.xml" %>
+    <%= include_generated "Teiid.xml", :draft => true %>
+  <% end %>
+
+<% end %>

@@ -1,0 +1,21 @@
+<% @container_content.sort.each do |build, content| %>
+Build <%= build.nvr %>
+<%   (container_repos, common_errata) = build_container_content(build, content, :consolidate => true) %>
+<%   if container_repos.blank? && common_errata.blank? %>
+<%=    "  No content advisories found" %>
+<%     next %>
+<%   end %>
+<%   if common_errata.present? %>
+<%     container_repos.each do |container_repo| %>
+<%=      "Repository: #{container_repo.name}  Tags: #{container_repo.tag_list.join(', ')}" %>
+<%     end %>
+<%=    render(:partial => 'errata/container/errata_list_show_errata',
+       :collection => common_errata, :as => :errata, :formats => [:text]) %>
+<%   end %>
+<%   container_repos.each do |container_repo| %>
+<%     next if container_repo.errata.empty? %>
+<%=    "Repository: #{container_repo.name}  Tags: #{container_repo.tag_list.join(', ')}" %>
+<%=    render(:partial => 'errata/container/errata_list_show_errata',
+       :collection => container_repo.errata, :as => :errata, :formats => [:text]) %>
+<%   end %>
+<% end %>

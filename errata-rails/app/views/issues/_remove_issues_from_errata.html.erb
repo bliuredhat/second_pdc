@@ -1,0 +1,24 @@
+<%= javascript_include_tag "issues_select_all" %>
+<h2>Remove <%= label %> From <%= @errata.shortadvisory %> - <%= @errata.synopsis %></h2>
+<%= form_tag :action => "remove_#{issue_type.to_s.pluralize}_from_errata" do %>
+<% unless @can_be_dropped.empty? %>
+  <table class="buglist" cellpadding="0" cellspacing="0" width="100%">
+    <%= issue_select_all_row %>
+    <% for issue in @can_be_dropped %>
+      <%= issue_row(cycle('bz_odd','bz_even'), issue, issue_type, true) %>
+    <% end %>
+  </table>
+<% end %>
+  <% unless @undroppable.empty? %>
+    <h3>The following <%= label %> cannot be dropped:</h3>
+    <% @undroppable.each do |db| -%>
+      <p>
+        <%= descriptive_issue_link(db.method(issue_type).call()) %><br/>
+        <%= db.errors.values.join(',') %><br/>
+      </p>
+    <% end -%>
+  <% end %>
+  <% unless @can_be_dropped.empty? %>
+    <%= submit_tag "Remove " + label, :class=>'btn btn-primary' %>
+  <% end %>
+<% end %>

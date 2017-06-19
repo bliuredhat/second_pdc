@@ -1,0 +1,24 @@
+#!/bin/sh
+if [ "x$1" != "x--host" ]; then
+  echo '{}';
+  exit 0;
+fi
+
+hostname="$2"
+
+set -e
+set -o pipefail
+
+# FIXME: can't figure out any supported & reliable way to get the IP address for ssh on OS1...
+# This command extracts the latter ip address from this line:
+# | os1-internal-1413 network   | 172.16.113.8, 10.3.14.165                                |
+
+ip=$(nova show --minimal "$hostname" | sed -r -n -e 's/^.*network.* ([^ ]+) +\|$/\1/p')
+if [ "x$ip" = "x" ]; then
+  echo "Can't get IP address for nova instance $hostname. Ensure a working 'nova' is in PATH" 1>&2
+  exit 3
+fi
+
+echo '{'
+echo "  \"ansible_ssh_host\":\"$ip\""
+echo '}'

@@ -1,0 +1,3 @@
+Live Push Requested for Errata [<%= @errata.fulladvisory %> <%= @errata.release.name %>] <%= @errata.synopsis %>
+
+<%= url_for(:controller => :push, :action => :push_errata, :id => @errata.id, :only_path => false) %>

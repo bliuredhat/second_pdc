@@ -1,0 +1,64 @@
+{
+  "data": {
+    "attributes": {
+      "allow_blocker": false,
+      "allow_exception": false,
+      "allow_pkg_dupes": false,
+      "allow_shadow": false,
+      "blocker_flags": [
+
+      ],
+      "description": "Asyncronous Group",
+      "enable_batching": false,
+      "enabled": true,
+      "is_active": true,
+      "is_async": true,
+      "is_deferred": false,
+      "is_pdc": false,
+      "name": "ASYNC",
+      "ship_date": null,
+      "type": "Async"
+    },
+    "id": 21,
+    "relationships": {
+      "brew_tags": [
+
+      ],
+      "product_versions": [
+        {
+          "id": 200,
+          "name": "RHEL-5-JBEAP-6"
+        },
+        {
+          "id": 201,
+          "name": "RHEL-6-JBEAP-6"
+        },
+        {
+          "id": 249,
+          "name": "RHEL-7-JBEAP-6"
+        },
+        {
+          "id": 308,
+          "name": "RHEL-6.4-EUS"
+        },
+        {
+          "id": 311,
+          "name": "RHEL-5.9-EUS"
+        },
+        {
+          "id": 315,
+          "name": "RHEL-6.2.AUS"
+        },
+        {
+          "id": 345,
+          "name": "RHEL-7.0.Z"
+        },
+        {
+          "id": 384,
+          "name": "RHEL-6.6.z"
+        }
+      ]
+    },
+    "type": "releases"
+  }
+}

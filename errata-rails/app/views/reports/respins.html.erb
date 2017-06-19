@@ -1,0 +1,29 @@
+<%= page_title_h1 %>
+<h2><%= @errata_list.length %> errata respun a total of <%= @count %> times.</h2>
+<% @histogram.each_pair do |reason, count| %>
+<b><%= reason %>:</b> <%= count %>&nbsp;
+<% end %>
+<%= form_tag :action => 'respins' do  %>
+<p>
+<b>Release:</b><%= collection_select(:release, :id, @releases, :url_name, :name, {}, :class => 'submit-form-on-change') %>&nbsp;<b>Quality Team</b>:
+<%=  select(:responsibility, :id, @responsibilities, {:selected => @resp_id}, :class => 'submit-form-on-change') %>
+</p>
+<% end %>
+
+<% row_func = lambda do |errata|
+   ["#{errata.respin_count}",
+   errata_link(errata),
+   "#{errata.package_owner.to_s}",
+   "#{errata.manager.to_s}",
+   @respins[errata.id].collect {|r| r.added + ' ' + r.created_at.to_date.to_s}.join('<br/>').html_safe]
+
+end
+%>
+
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Respin Count', 'Advisory' ,'Owner','Manager', 'Respins'],
+:func => row_func,
+:row_items => @errata_list
+}) %>
+

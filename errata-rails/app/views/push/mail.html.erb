@@ -1,0 +1,13 @@
+<h3>Send notification for <font COLOR=red>[<%= @errata.fulladvisory %>]</font> <font color="blue"><%= @errata.synopsis %></font> to be approved and signed.</h3>
+(Separate email address with spaces only)<br/>
+<%= form_tag :action => 'mail' do %>
+<table cellspacing="5">
+<tr>
+    <th ALIGN="right">To:</th>
+    <td ALIGN="left">
+      <%= text_field(:mail, :to, :size => 60, :value => 'security@redhat.com') %><br/>
+      </td>
+</tr>
+</table>
+<%= submit_tag "Mail Errata", :action => 'mail', :class=>'btn btn-primary' %>
+<% end %>

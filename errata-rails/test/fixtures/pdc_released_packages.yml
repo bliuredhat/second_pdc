@@ -1,0 +1,18 @@
+---
+pdc_released_package_1:
+  arch_id: 4
+  brew_build_id: 149891
+  brew_rpm_id: 1805087
+  created_at: 2011-01-03 13:18:16 -05:00
+  current: 1
+  errata_id: 10305
+  full_path: /mnt/redhat/brewroot/packages/rhns-proxy/4.2.3/5/data/signed/db42a60e/noarch/rhns-proxy-docs-4.2.3-5.noarch.rpm
+  id: 1
+  package_id: 2275
+  pdc_release_id: 1
+  rpm_name:
+  updated_at: 2011-01-03 13:18:16 -05:00
+  pdc_variant_id: 5
+
+
+

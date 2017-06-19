@@ -1,0 +1,10 @@
+# TODO: Put column annotations here.
+# See lib/tasks/schema_docs.rake.
+---
+errata_main:
+  description: Main table for errata. Describes most of the data in an erratum, and manages much of the relationships to other objects. See also errata_content.
+  fields:
+    actual_ship_date: The actual date when an advisory was shipped
+errata_versions:
+  fields:
+    enabled: Integer (used as boolean) indicating if the variant is currently enabled

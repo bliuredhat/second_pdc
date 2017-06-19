@@ -1,0 +1,21 @@
+<%
+  start_hidden = false
+  row_items = issues
+  case list_type when :short
+    start_hidden = !user_pref(:shorten_bug_list)
+    row_items = issues[0...Settings.shorten_bug_list_length]
+  when :long
+    start_hidden = user_pref(:shorten_bug_list)
+  end
+  issue_name = !issues.empty? ? issues[0].class.readable_name : 'Unknown Issue'
+%>
+
+<div class="toggle_long_short" style="<%= hide_style_if(start_hidden) %>">
+  <%= render "shared/bz_table",
+    :headers => fields,
+    :func => method(target),
+    :row_items => row_items
+  %>
+  &nbsp;<%= long_short_toggle_button(list_type, issue_type, issues.length, :scroll_tweak=>true) %>
+  <%= more_not_shown_warning_maybe(list_type, issue_type, issues.length - Settings.shorten_bug_list_length) %>
+</div>

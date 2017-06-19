@@ -1,0 +1,6 @@
+<%= page_title_h1 %>
+<% if @errata.empty? %>
+  <p>You are not assigned to review any docs at this time.</p>
+<% else %>
+  <%= render :partial => 'doc_queue', :object => @errata, :locals => { :queue_mode => :my_queue } %>
+<% end %>

@@ -1,0 +1,36 @@
+<%=
+  unless defined?(show_subscribers)
+    show_subscribers = true
+  end
+
+  link_to_mapping = lambda do |dist, product_version|
+    linktext = "#{dist.name} (#{product_version.name})"
+    linkdest = dist_url(dist, product_version)
+    content_popover_helper(render('shared/short_dist_info', :dist=>dist),
+      dist.name, linkdest, { :limit_to=>0, :manual_text=>linktext, :target=>'_blank' })
+  end
+
+  render "shared/bz_table", {
+    :headers => ['Package', 'Origin', 'Destination', ('Subscribers' if show_subscribers), '', ''].
+      compact.
+      map{ |h| tablesort_heading_no_sort(h) },
+    :extra_class => 'bug_list_big',
+    :group_by_func => lambda { |m| [
+      link_to(m.package.name, {:controller=>:package, :action=>:show, :id=>m.package.id}, :class=>'bold'),
+      m.mapping_type == :channel  ? 'RHN' : 'CDN'
+    ].join(' - ') },
+    :row_items => mappings.
+      sort_by{|m| [m.package.name, m.origin.class.name, m.origin.name]},
+    :func => lambda { |m| [
+      '',
+      link_to_mapping.call(m.origin, m.origin_product_version),
+      link_to_mapping.call(m.destination, m.destination_product_version),
+      (safe_join(m.subscribers.map(&:to_s).sort, "<br />".html_safe) if show_subscribers),
+      link_to('Show', :controller => 'multi_product_mappings',
+                      :action => 'show',
+                      :id => m,
+                      :mapping_type => m.mapping_type),
+      is_active_icon(m.origin_product_version.canonical_is_active? && m.destination_product_version.canonical_is_active?)
+    ].compact },
+  }
+%>

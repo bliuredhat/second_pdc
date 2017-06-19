@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "cdn_stage": [
+      "is currently not an applicable push target for RHSA-2011:0451"
+    ]
+  }
+}

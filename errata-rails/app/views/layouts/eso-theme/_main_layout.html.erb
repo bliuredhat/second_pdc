@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title><%= page_title %></title>
+    <%= yield :head_top %>
+
+      <%= stylesheet_link_tag "panels.css" %>
+      <%= stylesheet_link_tag "eso-theme/eso-theme.css" %>
+      <%= stylesheet_link_tag "font-awesome/font-awesome.min.css" %>
+      <%= stylesheet_link_tag "bootstrap-scroll-modal.css" %>
+      <%= javascript_include_tag "lib/jquery.min.js" %>
+      <%= javascript_include_tag "lib/jquery-ui.custom.min.js" %>
+      <%= javascript_include_tag "lib/bootstrap.min.js" %>
+      <%= javascript_include_tag "lib/bootstrap-scroll-modal.js" %>
+      <%= javascript_include_tag "lib/chosen.min.js" %>
+      <%= javascript_include_tag "eso-theme/eso-theme.js" %>
+    
+    <%= yield :head %>
+  </head>
+
+  <body class="<%= body_class %>">
+    
+    <div id="eso-topbar">
+      <div class="eso-inner">
+        
+        <div class="topbar-left" style="background-image:url(<%= app_logo_icon_src || "images/example-app-logo.png" %>)">
+          <a class="appname" href="<%= home_url %>"><%= app_name %></a>
+          
+          <span class="env_indicator"><%= env_indicator %></span>
+        </div>
+
+        <div class="topbar-right">
+
+          <ul class="quick-menu unstyled">
+            <% if authed_user %>
+              <li class="dropdown header-help">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  <%= authed_user %><b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <%= yield :authed_user_menu %>
+                </ul>
+              </li>
+            <% end %>
+            <li class="dropdown header-help">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Help<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <%= yield :help_menu %>
+              </ul>
+            </li>
+            <% if errata_tool_qe_visible? %>
+              <li class="dropdown header-help">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="news_menu">
+                  QE<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <%= render 'errata_tool_qe/menu' %>
+                </ul>
+              </li>
+            <% end %>
+            <li class="dropdown header-help">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="news_menu">
+                News<span id="unread_indicator" style="display:none;"></span><b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu" id="rss_container">
+                <%# Content will be added here dynamically. See rss_widget.js %>
+                <%= wait_spinner(nil, 'margin-left:10px;') %>
+                <li><%= link_to "Read more&hellip;".html_safe, Settings.news_url, :target=>"_blank" %></li>
+              </ul>
+            </li>
+            <li class="dropdown header-help">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ESO-slide-button">
+                Engineering Tools<b class="caret"></b>
+              </a>
+              <div id="all-tools-dropdown" class="dropdown-menu pull-right">
+                <%= yield :engineering_tools %>
+              </div>
+            </li>
+          </ul>
+
+          <div id="topbar-search-wrapper">
+            <%# NB: The value attribute here will be overwritten by a theme update, fixme ** %>
+            <form id="topbar-search-form" action="<%= top_bar_search_action %>"><input type="text" name="<%= top_bar_search_field %>" value="<%=h params[ top_bar_search_field ] %>" /></form>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    
+    <div id="eso-topnav">
+      <div class="eso-inner">
+        <ul>
+          <%= yield :main_nav %>
+
+        </ul>
+      </div>
+    </div>
+
+    
+    <div id="eso-shadow"></div>
+
+    
+    <div id="eso-content"><div class="eso-inner">
+      <%= yield :pre_content %>
+      
+      <%= yield %>
+
+      <%= yield :post_content %>
+    </div></div>
+
+    
+    <div id="eso-footer"><div class="eso-inner">
+      <div class="footer-left">
+         Errata Tool <%= app_version %>.
+        <a target="_blank" href="https://bugzilla.redhat.com/enter_bug.cgi?product=<%= CGI.escape bugzilla_product_name %>"> Report an Issue</a>.
+        <%= yield :extra_footer_links %>
+        <br/>Ruby <%= RUBY_VERSION %>-p<%= RUBY_PATCHLEVEL %>, Rails <%= Rails.version %><%
+        unless Rails.env.production? %>, Database '<%= ErrataSystem::Application::DB_NAME %>' on <%= ErrataSystem::Application::DB_HOST %><% end %>
+        <br/>
+        Copyright &copy; <%= app_copyright_year %>-<%= Time.now.year %> Red Hat, Inc. All rights reserved.<br/>INTERNAL USE ONLY
+      </div>
+      <div class="footer-right">
+        
+        <div style="float:right;padding-left:0.5em;"><a target="_blank" href="<%= stats_url %>"><%= image_tag stylesheet_path("eso-theme/images/activetracking.png") %></a></div>
+      </div>
+
+    </div></div>
+
+    
+    <%= yield :post_footer %>
+  </body>
+</html>

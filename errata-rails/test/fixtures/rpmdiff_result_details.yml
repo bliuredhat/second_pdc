@@ -1,0 +1,36 @@
+---
+rpmdiff_result_detail_462906:
+  result_detail_id: 462906
+  score: 3
+  result_id: 760561
+  content: the devil is in the details
+rpmdiff_result_detail_462910:
+  result_detail_id: 462910
+  score: 3
+  result_id: 760561
+  content: 1 corrupt file detected
+rpmdiff_result_detail_462911:
+  result_detail_id: 462911
+  score: 3
+  result_id: 760561
+  content: bad url in spec
+rpmdiff_result_detail_462912:
+  result_detail_id: 462912
+  score: 2
+  result_id: 760561
+  content: missing symbol is normal
+rpmdiff_result_detail_462913:
+  result_detail_id: 462913
+  score: 2
+  result_id: 760561
+  content: oh known issue
+rpmdiff_result_detail_462914:
+  result_detail_id: 462914
+  score: 4
+  result_id: 3026609
+  content: security related issue
+rpmdiff_result_detail_462915:
+  result_detail_id: 462915
+  score: 4
+  result_id: 3026610
+  content: release related issue

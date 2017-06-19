@@ -1,0 +1,16 @@
+{
+  "data": {
+    "attributes": {
+      "advisory_state": "QE",
+      "created_at": "2017-01-09T23:09:01Z",
+      "errata_id": 16372,
+      "text": "Changed state from QE to NEW_FILES",
+      "who": {
+        "login_name": "errata-test@redhat.com",
+        "realname": "Devel User"
+      }
+    },
+    "id": 745780,
+    "type": "StateChangeComment"
+  }
+}

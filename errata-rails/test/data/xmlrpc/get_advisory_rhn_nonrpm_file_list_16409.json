@@ -1,0 +1,36 @@
+{
+  "spice-client-msi-3.4-4": {
+    "win/spice-client-msi-3.4-4-sources.zip": {
+      "channels": [
+        "rhel-x86_64-server-6-rhevm-3.4"
+      ],
+      "display_order": 5,
+      "id": 698267,
+      "title": "Spice client installer sources"
+    },
+    "win/spice-client-msi-3.4-4-spec.zip": {
+      "channels": [
+        "rhel-x86_64-server-6-rhevm-3.4"
+      ],
+      "display_order": 6,
+      "id": 698265,
+      "title": "Spice client installer build sources"
+    },
+    "win/usbclerk-x64-0.3.3.msi": {
+      "channels": [
+        "rhel-x86_64-server-6-rhevm-3.4"
+      ],
+      "display_order": 2,
+      "id": 698263,
+      "title": "USB Clerk installer (64-bit)"
+    },
+    "win/virt-viewer-x64-0.5.6.msi": {
+      "channels": [
+        "rhel-x86_64-server-6-rhevm-3.4"
+      ],
+      "display_order": 4,
+      "id": 698261,
+      "title": "Virt Viewer installer (64-bit)"
+    }
+  }
+}

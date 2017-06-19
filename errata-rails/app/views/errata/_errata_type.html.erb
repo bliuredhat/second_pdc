@@ -1,0 +1,39 @@
+<%#
+  #
+  # First decide which types are allowable based on the
+  # user's role and the advisory's current type.
+  #
+  # -%>
+<% if errata_type.is_security? && !@user.in_role?('secalert') %>
+  <%# Advisory is already RHSA but user is not SecAlert so it can't be changed.
+    The find here will return only one type, ie RHSA. %>
+  <% @types = ErrataType.where(:name => errata_type.errata_type) %>
+<% else %>
+  <% if @is_pdc %>
+    <% @types = ErrataType.pdc %>
+  <% else %>
+    <% @types = ErrataType.legacy %>
+  <% end %>
+<% end %>
+
+<%#
+  #
+  # Render them with radio buttons if there's a choice, or with a hidden field if there is
+  # no choice, ie when the advisory is RHSA and user does not have SecAlert role.
+  #
+  # -%>
+<% for type in @types %>
+  <label>
+  <% if @types.length > 1 %>
+    <%# A radio button for each available option %>
+    <%# (These get a jQuery onchange behaviours added, see script in _edit_form). %>
+    <%= radio_button(:advisory, :errata_type, type.name) %>
+
+  <% else %>
+    <%# A hidden field %>
+    <%= hidden_field :advisory, :errata_type %>
+
+  <% end %>
+
+  <%= type.description %></label><br/>
+<% end %>

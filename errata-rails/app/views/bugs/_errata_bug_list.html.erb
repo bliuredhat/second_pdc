@@ -1,0 +1,37 @@
+<div id="errata_bug_list">
+<% bug_count = 0
+   errata_bug_list.errata.each { |e|
+    bug_count += e.bugs.length
+   }
+%>
+<h1><%= errata_bug_list.name %> has <%= errata_bug_list.errata.length %> errata that fix a total of <%= bug_count %> bugs.
+
+<% blocking_bugs = errata_bug_list.bugs.to_set %>
+<% unless (blocking_bugs.empty?) %>
+Bugs marked in <font color="#FF0000">RED</font> do not have the correct flags.
+<% end %>
+</h1>
+
+
+<table class="buglist" cellpadding="0" cellspacing="0" width="100%">
+<% for errata in errata_bug_list.errata %>
+<tr class="buglist-over"><td><%= link_to errata.advisory_name, :controller => 'errata', :action => 'show', :id => errata.id %> - <%= errata.synopsis %></td></tr>
+<% bz_class = 'bz_odd'
+ for bug in errata.bugs
+   if(bz_class == 'bz_even')
+     bz_class = 'bz_odd'
+    else
+      bz_class = 'bz_even'
+    end
+ %>
+<tr class="<%= bz_class %>"><td>&nbsp;&nbsp;&nbsp;
+
+<% unless blocking_bugs.empty? || blocking_bugs.include?(bug) %><font color="#FF0000">&nbsp;<b>X</b>&nbsp;<% end %>
+<%= bug_link(bug) %> - (<%= bug.component_name %>) - <%=h bug.short_desc %>
+<% unless blocking_bugs.empty? || blocking_bugs.include?(bug) %></font><% end %>
+</td></tr>
+<% end %>
+<% end %>
+
+</table>
+</div>

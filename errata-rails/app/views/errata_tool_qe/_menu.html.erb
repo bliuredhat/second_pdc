@@ -1,0 +1,15 @@
+
+<%#-------------------------------------------------------------------
+  # Todo: Some context sensitive items here based on controller and action
+-%>
+
+<%#-------------------------------------------------------------------
+  # Add/remove some useful roles
+-%>
+<% %w[createasync devel qa pusherrata releng secalert admin readonly].each do |role| %>
+  <% if User.current_user.in_role?(role) %>
+    <li><%= link_to "Remove role <b>#{role}</b>".html_safe, {:controller=>:errata_tool_qe, :action=>:remove_role, :role=>role} %></li>
+  <% else %>
+    <li><%= link_to "Add role <b>#{role}</b>".html_safe, {:controller=>:errata_tool_qe, :action=>:add_role, :role=>role} %></li>
+  <% end %>
+<% end %>

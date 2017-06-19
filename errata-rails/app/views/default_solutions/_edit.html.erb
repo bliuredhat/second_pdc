@@ -1,0 +1,5 @@
+<%= table_rows_helper([
+  [ 'Name',     f.object.title ],
+  [ 'Text',     f.text_area(:text, :style=>'width:55em;height:20em;') ],
+  [ 'Current?', f.check_box(:active) ],
+], :labels=>true) %>

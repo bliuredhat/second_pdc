@@ -1,0 +1,2531 @@
+--- 
+brew_build_121527: 
+  epoch: 
+  id: 121527
+  nvr: condor-7.4.1-0.7.1.el4
+  package_id: 1911
+  release: 0.7.1.el4
+  released_errata_id: 9190
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 7.4.1
+brew_build_122148: 
+  epoch: 
+  id: 122148
+  nvr: dirsec-nss-3.11.5-4
+  package_id: 1583
+  release: "4"
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 3.11.5
+brew_build_122910: 
+  epoch: 
+  id: 122910
+  nvr: dirsec-nss-3.11.5-5
+  package_id: 1583
+  release: "5"
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 3.11.5
+brew_build_126837: 
+  epoch: 
+  id: 126837
+  nvr: rhev-hypervisor-5.5-2.2.0.2.el5rhev
+  package_id: 14597
+  release: 2.2.0.2.el5rhev
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "5.5"
+brew_build_127068: 
+  epoch: 
+  id: 127068
+  nvr: rhev-hypervisor-5.4-2.1.9.el5_4rhev2_1
+  package_id: 14597
+  release: 2.1.9.el5_4rhev2_1
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "5.4"
+brew_build_127206: 
+  epoch: 
+  id: 127206
+  nvr: rhev-hypervisor-5.4-2.1.10.el5_4rhev2_1
+  package_id: 14597
+  release: 2.1.10.el5_4rhev2_1
+  released_errata_id: 9407
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "5.4"
+brew_build_127995: 
+  epoch: 
+  id: 127995
+  nvr: GFS-kernel-2.6.9-85.2.el4_8.10
+  package_id: 4
+  release: 85.2.el4_8.10
+  released_errata_id: 9494
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 2.6.9
+brew_build_137251: 
+  epoch: "0"
+  id: 137251
+  nvr: tomcat6-6.0.24-7.patch_01.jdk6.ep5.el5
+  package_id: 2633
+  release: 7.patch_01.jdk6.ep5.el5
+  released_errata_id: 9755
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 6.0.24
+brew_build_137283: 
+  epoch: "0"
+  id: 137283
+  nvr: tomcat6-6.0.24-7.patch_01.jdk6.ep5.el4
+  package_id: 2633
+  release: 7.patch_01.jdk6.ep5.el4
+  released_errata_id: 9755
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 6.0.24
+brew_build_138356: 
+  epoch: "0"
+  id: 138356
+  nvr: tomcat5-5.5.28-9.patch_01.jdk6.ep5.el5
+  package_id: 677
+  release: 9.patch_01.jdk6.ep5.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 5.5.28
+brew_build_138357: 
+  epoch: "0"
+  id: 138357
+  nvr: tomcat5-5.5.28-9.patch_01.jdk6.ep5.el4
+  package_id: 677
+  release: 9.patch_01.jdk6.ep5.el4
+  released_errata_id: 9755
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 5.5.28
+brew_build_138432: 
+  epoch: "0"
+  id: 138432
+  nvr: tomcat5-5.5.28-9.patch_01.1.jdk6.ep5.el5
+  package_id: 677
+  release: 9.patch_01.1.jdk6.ep5.el5
+  released_errata_id: 9755
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 5.5.28
+brew_build_138617: 
+  epoch: "0"
+  id: 138617
+  nvr: tomcat5-5.5.23-0jpp_4rh.17
+  package_id: 677
+  release: 0jpp_4rh.17
+  released_errata_id: 9754
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 5.5.23
+brew_build_138828: 
+  epoch: "0"
+  id: 138828
+  nvr: tomcat5-5.5.23-0jpp_21rh
+  package_id: 677
+  release: 0jpp_21rh
+  released_errata_id: 9753
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 5.5.23
+brew_build_144277: 
+  epoch: 
+  id: 144277
+  nvr: kernel-rt-2.6.24.7-166.el5rt
+  package_id: 1952
+  release: 166.el5rt
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.6.24.7
+brew_build_145079: 
+  epoch: 
+  id: 145079
+  nvr: kernel-rt-2.6.24.7-169.el5rt
+  package_id: 1952
+  release: 169.el5rt
+  released_errata_id: 9883
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 2.6.24.7
+brew_build_145346: 
+  epoch: "0"
+  id: 145346
+  nvr: jboss-wfk-1.0.0-uninstall-1.0.0-1.jdk6.ep5.el4
+  package_id: 16504
+  release: 1.jdk6.ep5.el4
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.0
+brew_build_146278: 
+  epoch: "0"
+  id: 146278
+  nvr: jboss-wfk-1.0.0-uninstall-1.0.0-1.1.jdk6.ep5.el5
+  package_id: 16504
+  release: 1.1.jdk6.ep5.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.0
+brew_build_146306: 
+  epoch: 
+  id: 146306
+  nvr: rhpki-ca-7.3.0-21.el4
+  package_id: 1568
+  release: 21.el4
+  released_errata_id: 10140
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 7.3.0
+brew_build_146308: 
+  epoch: 
+  id: 146308
+  nvr: rhpki-common-7.3.0-41.el4
+  package_id: 1565
+  release: 41.el4
+  released_errata_id: 10140
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 7.3.0
+brew_build_146317: 
+  epoch: 
+  id: 146317
+  nvr: rhpki-util-7.3.0-21.el4
+  package_id: 1569
+  release: 21.el4
+  released_errata_id: 10140
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 7.3.0
+brew_build_147656: 
+  epoch: "2"
+  id: 147656
+  nvr: libogg-1.1.4-3.el6_0.1
+  package_id: 14067
+  release: 3.el6_0.1
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.1.4
+brew_build_147658: 
+  epoch: "2"
+  id: 147658
+  nvr: libogg-1.1.3-4.el5_5.1
+  package_id: 14067
+  release: 4.el5_5.1
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.1.3
+brew_build_147659: 
+  epoch: "2"
+  id: 147659
+  nvr: libogg-1.1.2-2.el4_8.1
+  package_id: 14067
+  release: 2.el4_8.1
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.1.2
+brew_build_147799: 
+  epoch: "2"
+  id: 147799
+  nvr: libogg-1.1.3-4.el5_5.2
+  package_id: 14067
+  release: 4.el5_5.2
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.1.3
+brew_build_147800: 
+  epoch: "2"
+  id: 147800
+  nvr: libogg-1.1.2-2.el4_8.2
+  package_id: 14067
+  release: 2.el4_8.2
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.1.2
+brew_build_149891: 
+  epoch: 
+  id: 149891
+  nvr: rhns-proxy-4.2.3-5
+  package_id: 2275
+  release: "5"
+  released_errata_id: 10305
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 4.2.3
+brew_build_149892: 
+  epoch: 
+  id: 149892
+  nvr: rhns-proxy-4.2.3-6
+  package_id: 2275
+  release: "6"
+  released_errata_id: 10305
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 4.2.3
+brew_build_150490: 
+  epoch: "0"
+  id: 150490
+  nvr: jboss-wfk-1.0.0-uninstall-1.0.0-3.ep5.el5
+  package_id: 16504
+  release: 3.ep5.el5
+  released_errata_id: 9829
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 1.0.0
+brew_build_150492: 
+  epoch: "0"
+  id: 150492
+  nvr: jboss-wfk-1.0.0-uninstall-1.0.0-3.ep5.el4
+  package_id: 16504
+  release: 3.ep5.el4
+  released_errata_id: 9829
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 1.0.0
+brew_build_152276: 
+  epoch: 
+  id: 152276
+  nvr: libdfp-1.0.4-1.el6
+  package_id: 16517
+  release: 1.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.4
+brew_build_154358: 
+  epoch: 
+  id: 154358
+  nvr: libdfp-1.0.4-2.el6
+  package_id: 16517
+  release: 2.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.4
+brew_build_154386: 
+  epoch: 
+  id: 154386
+  nvr: libdfp-1.0.4-3.el6
+  package_id: 16517
+  release: 3.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.4
+brew_build_154403: 
+  epoch: 
+  id: 154403
+  nvr: libdfp-1.0.4-4.el6
+  package_id: 16517
+  release: 4.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.4
+brew_build_154483: 
+  epoch: 
+  id: 154483
+  nvr: libdfp-1.0.5-1.el6
+  package_id: 16517
+  release: 1.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.5
+brew_build_154621: 
+  epoch: 
+  id: 154621
+  nvr: libdfp-1.0.6-1.el6
+  package_id: 16517
+  release: 1.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.6
+brew_build_155677: 
+  epoch: 
+  id: 155677
+  nvr: redhat-ds-base-8.2.4-1.el5dsrv
+  package_id: 1594
+  release: 1.el5dsrv
+  released_errata_id: 10610
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 8.2.4
+brew_build_155678: 
+  epoch: 
+  id: 155678
+  nvr: redhat-ds-base-8.2.4-1.el4dsrv
+  package_id: 1594
+  release: 1.el4dsrv
+  released_errata_id: 10610
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 8.2.4
+brew_build_155679: 
+  epoch: 
+  id: 155679
+  nvr: redhat-ds-admin-8.2.1-1.el5dsrv
+  package_id: 1593
+  release: 1.el5dsrv
+  released_errata_id: 10610
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 8.2.1
+brew_build_155682: 
+  epoch: 
+  id: 155682
+  nvr: redhat-ds-admin-8.2.1-1.el4dsrv
+  package_id: 1593
+  release: 1.el4dsrv
+  released_errata_id: 10610
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 8.2.1
+brew_build_155873: 
+  epoch: 
+  id: 155873
+  nvr: system-switch-java-1.1.5-2.el6
+  package_id: 1373
+  release: 2.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 1.1.5
+brew_build_156613: 
+  epoch: 
+  id: 156613
+  nvr: fonts-indic-2.3.1.1-1.el5
+  package_id: 826
+  release: 1.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 2.3.1.1
+brew_build_156648: 
+  epoch: 
+  id: 156648
+  nvr: virtio-win-1.1.16-1.el6
+  package_id: 14508
+  release: 1.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.1.16
+brew_build_157288: 
+  epoch: 
+  id: 157288
+  nvr: spacewalk-backend-1.2.13-26.1.el5sat
+  package_id: 14538
+  release: 26.1.el5sat
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.2.13
+brew_build_157289: 
+  epoch: 
+  id: 157289
+  nvr: spacewalk-java-1.2.39-35.1.el5sat
+  package_id: 14541
+  release: 35.1.el5sat
+  released_errata_id: 10827
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 1.2.39
+brew_build_157385: 
+  epoch: 
+  id: 157385
+  nvr: spacewalk-backend-1.2.13-26.2.el5sat
+  package_id: 14538
+  release: 26.2.el5sat
+  released_errata_id: 10827
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 1.2.13
+brew_build_157451: 
+  epoch: 
+  id: 157451
+  nvr: squashfs-tools-4.0-5.el6
+  package_id: 1029
+  release: 5.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: "4.0"
+brew_build_157511: 
+  epoch: "0"
+  id: 157511
+  nvr: java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el5
+  package_id: 16390
+  release: 1jpp.2.el5
+  released_errata_id: 10844
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 1.4.2.13.8.sap
+brew_build_157514: 
+  epoch: "0"
+  id: 157514
+  nvr: java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el4_8
+  package_id: 16390
+  release: 1jpp.2.el4_8
+  released_errata_id: 10844
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 1.4.2.13.8.sap
+brew_build_157836: 
+  epoch: "0"
+  id: 157836
+  nvr: java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.1.el6
+  package_id: 16390
+  release: 1jpp.1.el6
+  released_errata_id: 10844
+  shipped: 0
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 1.4.2.13.8.sap
+brew_build_158040: 
+  epoch: 
+  id: 158040
+  nvr: xenpv-win-1.3.4-2.el5
+  package_id: 2025
+  release: 2.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.3.4
+brew_build_158120: 
+  epoch: 
+  id: 158120
+  nvr: system-config-network-1.3.99.19-1.el5
+  package_id: 661
+  release: 1.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.3.99.19
+brew_build_158687: 
+  epoch: 
+  id: 158687
+  nvr: xenpv-win-1.3.4-5.el5
+  package_id: 2025
+  release: 5.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.3.4
+brew_build_158809: 
+  epoch: "0"
+  id: 158809
+  nvr: tomcat6-6.0.24-22.el6
+  package_id: 2633
+  release: 22.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 6.0.24
+brew_build_158973: 
+  epoch: 
+  id: 158973
+  nvr: xenpv-win-1.3.4-6.el5
+  package_id: 2025
+  release: 6.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.3.4
+brew_build_159278: 
+  epoch: "0"
+  id: 159278
+  nvr: tomcat6-6.0.24-25.el6
+  package_id: 2633
+  release: 25.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 6.0.24
+brew_build_159587: 
+  epoch: "0"
+  id: 159587
+  nvr: tomcat6-6.0.24-26.el6
+  package_id: 2633
+  release: 26.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 6.0.24
+brew_build_160811: 
+  epoch: 
+  id: 160811
+  nvr: mingw32-qpid-cpp-0.10-1.el6
+  package_id: 16602
+  release: 1.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "0.10"
+brew_build_161017: 
+  epoch: 
+  id: 161017
+  nvr: lapack-3.0-38.el5
+  package_id: 14043
+  release: 38.el5
+  released_errata_id: 11031
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "3.0"
+brew_build_161038: 
+  epoch: "1"
+  id: 161038
+  nvr: net-snmp-5.3.2.2-10.el5
+  package_id: 422
+  release: 10.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 5.3.2.2
+brew_build_161130: 
+  epoch: 
+  id: 161130
+  nvr: xenpv-win-1.3.4-7.el5
+  package_id: 2025
+  release: 7.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.3.4
+brew_build_161350: 
+  epoch: 
+  id: 161350
+  nvr: tetex-3.0-33.12.el5
+  package_id: 673
+  release: 33.12.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "3.0"
+brew_build_161531: 
+  epoch: "1"
+  id: 161531
+  nvr: net-snmp-5.3.2.2-11.el5
+  package_id: 422
+  release: 11.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 5.3.2.2
+brew_build_161695: 
+  epoch: 
+  id: 161695
+  nvr: jboss-seam2-2.2.2.EAP-17.ep5.el5
+  package_id: 1982
+  release: 17.ep5.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 2.2.2.EAP
+brew_build_161705: 
+  epoch: 
+  id: 161705
+  nvr: jboss-seam2-2.2.2.EAP-17.el4_8
+  package_id: 1982
+  release: 17.el4_8
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 2.2.2.EAP
+brew_build_161861: 
+  epoch: 
+  id: 161861
+  nvr: ia32el-1.7-7.el5
+  package_id: 237
+  release: 7.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "1.7"
+brew_build_161869: 
+  epoch: 
+  id: 161869
+  nvr: iwl100-firmware-39.31.5.1-1.el6
+  package_id: 16644
+  release: 1.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 39.31.5.1
+brew_build_161968: 
+  epoch: "2"
+  id: 161968
+  nvr: xinetd-2.3.14-11.el5
+  package_id: 724
+  release: 11.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.3.14
+brew_build_162080: 
+  epoch: "2"
+  id: 162080
+  nvr: xinetd-2.3.14-12.el5
+  package_id: 724
+  release: 12.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.3.14
+brew_build_162097: 
+  epoch: 
+  id: 162097
+  nvr: tetex-3.0-33.13.el5
+  package_id: 673
+  release: 33.13.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "3.0"
+brew_build_162118: 
+  epoch: 
+  id: 162118
+  nvr: python-urlgrabber-3.9.1-8.el6
+  package_id: 1001
+  release: 8.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 3.9.1
+brew_build_162183: 
+  epoch: 
+  id: 162183
+  nvr: acroread-9.4.2-4.el6
+  package_id: 18
+  release: 4.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 9.4.2
+brew_build_162233: 
+  epoch: 
+  id: 162233
+  nvr: krb5-1.8.2-3.el6_0.7
+  package_id: 319
+  release: 3.el6_0.7
+  released_errata_id: 11129
+  shipped: 0
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 1.8.2
+brew_build_162236: 
+  epoch: "0"
+  id: 162236
+  nvr: tomcat6-6.0.24-29.el6
+  package_id: 2633
+  release: 29.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 6.0.24
+brew_build_162288: 
+  epoch: 
+  id: 162288
+  nvr: acroread-9.4.2-5.el6
+  package_id: 18
+  release: 5.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 9.4.2
+brew_build_162692: 
+  epoch: 
+  id: 162692
+  nvr: python-2.3.4-14.10.el4
+  package_id: 496
+  release: 14.10.el4
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.3.4
+brew_build_162730: 
+  epoch: 
+  id: 162730
+  nvr: flash-plugin-10.2.159.1-1.el5
+  package_id: 155
+  release: 1.el5
+  released_errata_id: 11131
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 10.2.159.1
+brew_build_162731: 
+  epoch: 
+  id: 162731
+  nvr: flash-plugin-10.2.159.1-1.el6
+  package_id: 155
+  release: 1.el6
+  released_errata_id: 11131
+  shipped: 0
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 10.2.159.1
+brew_build_162854: 
+  epoch: "7"
+  id: 162854
+  nvr: kdenetwork-4.3.4-11.el6_0.1
+  package_id: 312
+  release: 11.el6_0.1
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 4.3.4
+brew_build_162864: 
+  epoch: "7"
+  id: 162864
+  nvr: kdenetwork-3.5.4-10.el5_6.1
+  package_id: 312
+  release: 10.el5_6.1
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 3.5.4
+brew_build_162869: 
+  epoch: 
+  id: 162869
+  nvr: xorg-x11-drv-qxl-0.0.12-2.el5
+  package_id: 14509
+  release: 2.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 0.0.12
+brew_build_162916: 
+  epoch: "0"
+  id: 162916
+  nvr: tomcat6-6.0.24-30.el6
+  package_id: 2633
+  release: 30.el6
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 6.0.24
+brew_build_56841: 
+  epoch: ""
+  id: 56841
+  nvr: dlm-kernel-2.6.9-44.9
+  package_id: 110
+  release: "44.9"
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 2.6.9
+brew_build_65336: 
+  epoch: 
+  id: 65336
+  nvr: EnterpriseDB-8.1.9.27-1
+  package_id: 1560
+  release: "1"
+  released_errata_id: 6310
+  shipped: 1
+  sig_key_id: 7
+  signed_rpms_written: 1
+  version: 8.1.9.27
+brew_build_69360: 
+  epoch: 
+  id: 69360
+  nvr: gnome-vfs2-2.8.2-8.7.EL4
+  package_id: 201
+  release: 8.7.EL4
+  released_errata_id: 7058
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 2.8.2
+brew_build_69361: 
+  epoch: 
+  id: 69361
+  nvr: nautilus-2.8.1-5.EL4
+  package_id: 416
+  release: 5.EL4
+  released_errata_id: 7058
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 2.8.1
+brew_build_70726: 
+  epoch: 
+  id: 70726
+  nvr: nautilus-2.8.1-6.EL4
+  package_id: 416
+  release: 6.EL4
+  released_errata_id: 7058
+  shipped: 1
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 2.8.1
+brew_build_72344: 
+  epoch: 
+  id: 72344
+  nvr: perl-DBD-SQLite-1.14-1.el5
+  package_id: 2647
+  release: 1.el5
+  released_errata_id: 
+  shipped: 1
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "1.14"
+brew_build_72375: 
+  epoch: 
+  id: 72375
+  nvr: perl-HTML-Template-2.8-2.el5
+  package_id: 2646
+  release: 2.el5
+  released_errata_id: 
+  shipped: 1
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "2.8"
+brew_build_72591: 
+  epoch: 
+  id: 72591
+  nvr: classads-1.0-2.el5
+  package_id: 1916
+  release: 2.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "1.0"
+brew_build_72592: 
+  epoch: 
+  id: 72592
+  nvr: classads-1.0-2.el4
+  package_id: 1916
+  release: 2.el4
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: "1.0"
+brew_build_72722: 
+  epoch: 
+  id: 72722
+  nvr: hts-5.2-16.el4
+  package_id: 1380
+  release: 16.el4
+  released_errata_id: 7390
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: "5.2"
+brew_build_72783: 
+  epoch: 
+  id: 72783
+  nvr: qpidc-0.2.667603-16.el4
+  package_id: 1915
+  release: 16.el4
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 0.2.667603
+brew_build_72810: 
+  epoch: 
+  id: 72810
+  nvr: rhm-0.2.2153-1.el5
+  package_id: 1910
+  release: 1.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 0.2.2153
+brew_build_72811: 
+  epoch: 
+  id: 72811
+  nvr: rhm-0.2.2153-1.el4
+  package_id: 1910
+  release: 1.el4
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 1
+  signed_rpms_written: 1
+  version: 0.2.2153
+brew_build_72816: 
+  epoch: 
+  id: 72816
+  nvr: cumin-0.1.2155-1.el5
+  package_id: 1912
+  release: 1.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 0.1.2155
+brew_build_72839: 
+  epoch: 
+  id: 72839
+  nvr: tuna-0.4-1.el5rt
+  package_id: 1917
+  release: 1.el5rt
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "0.4"
+brew_build_73010: 
+  epoch: 
+  id: 73010
+  nvr: qpidc-0.2.667603-2.el5
+  package_id: 1915
+  release: 2.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 0.2.667603
+brew_build_73245: 
+  epoch: 
+  id: 73245
+  nvr: condor-7.0.2-4.el5
+  package_id: 1911
+  release: 4.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 7.0.2
+brew_build_73246: 
+  epoch: 
+  id: 73246
+  nvr: condor-7.0.2-4.el4
+  package_id: 1911
+  release: 4.el4
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 7.0.2
+brew_build_74432: 
+  epoch: 
+  id: 74432
+  nvr: ipa-1.0.0-20.el5ipa
+  package_id: 1876
+  release: 20.el5ipa
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.0
+brew_build_74518: 
+  epoch: 
+  id: 74518
+  nvr: ipa-1.0.0-21.el5ipa
+  package_id: 1876
+  release: 21.el5ipa
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.0
+brew_build_74621: 
+  epoch: 
+  id: 74621
+  nvr: ipa-1.0.0-23.el5ipa
+  package_id: 1876
+  release: 23.el5ipa
+  released_errata_id: 7679
+  shipped: 1
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 1.0.0
+brew_build_77152: 
+  epoch: 
+  id: 77152
+  nvr: Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-12
+  package_id: 2631
+  release: "12"
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "3"
+brew_build_77161: 
+  epoch: 
+  id: 77161
+  nvr: Red_Hat_Enterprise_MRG-Realtime_Tuning_Guide-1.1-web-en-US-1.1-1
+  package_id: 2630
+  release: "1"
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "1.1"
+brew_build_77553: 
+  epoch: 
+  id: 77553
+  nvr: perl-Publican-WebSite-0.4-0.el5_2
+  package_id: 2644
+  release: 0.el5_2
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "0.4"
+brew_build_77693: 
+  epoch: 
+  id: 77693
+  nvr: publican-WebSite-obsoletes-0.7-0.el5_2
+  package_id: 2645
+  release: 0.el5_2
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "0.7"
+brew_build_78629: 
+  epoch: 
+  id: 78629
+  nvr: publican-WebSite-obsoletes-0.97-0.el5_2
+  package_id: 2645
+  release: 0.el5_2
+  released_errata_id: 
+  shipped: 1
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "0.97"
+brew_build_79182: 
+  epoch: 
+  id: 79182
+  nvr: perl-Publican-WebSite-0.6-0.el5
+  package_id: 2644
+  release: 0.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "0.6"
+brew_build_80871: 
+  epoch: 
+  id: 80871
+  nvr: Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-16.el5
+  package_id: 2631
+  release: 16.el5
+  released_errata_id: 
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "3"
+brew_build_81177: 
+  epoch: 
+  id: 81177
+  nvr: perl-Publican-WebSite-0.7-0.el5
+  package_id: 2644
+  release: 0.el5
+  released_errata_id: 
+  shipped: 1
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "0.7"
+brew_build_81178: 
+  epoch: 
+  id: 81178
+  nvr: Red_Hat_Enterprise_Linux-Deployment_Guide-5-web-en-US-3-17.el5
+  package_id: 2631
+  release: 17.el5
+  released_errata_id: 8013
+  shipped: 1
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "3"
+brew_build_90547: 
+  epoch: 
+  id: 90547
+  nvr: nagios-2.12-3.el5
+  package_id: 2122
+  release: 3.el5
+  released_errata_id: 8742
+  shipped: 1
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: "2.12"
+brew_build_90822: 
+  epoch: 
+  id: 90822
+  nvr: httpd-2.2.11-3.el5s2
+  package_id: 232
+  release: 3.el5s2
+  released_errata_id: 8751
+  shipped: 0
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: 2.2.11
+brew_build_163639: 
+  signed_rpms_written: 0
+  sig_key_id: 5
+  package_id: 2633
+  epoch: "0"
+  released_errata_id: 
+  id: 163639
+  version: 6.0.24
+  release: 33.el6
+  shipped: 0
+  nvr: tomcat6-6.0.24-33.el6
+brew_build_201536: 
+  nvr: sblim-cim-client2-2.1.3-2.el6
+  epoch: 
+  version: 2.1.3
+  sig_key_id: 8
+  released_errata_id: 13147
+  release: 2.el6
+  id: 210536
+  signed_rpms_written: 1
+  shipped: 0
+  package_id: 16217
+brew_build_21980:
+  signed_rpms_written: 1
+  released_errata_id:
+  package_id: 21980
+  shipped: 0
+  release: 2.el6rhci
+  nvr: pigz-2.1.6-2.el6rhci
+  id: 313600
+  epoch:
+  sig_key_id: 10
+  version: 2.1.6
+brew_build_30001:
+  id: 30001
+  package_id: 14711
+  epoch:
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 0.31.1
+  release: 26.el6
+  nvr: autotrace-0.31.1-26.el6
+  released_errata_id:
+  shipped: 0
+brew_build_208617:
+  id: 208617
+  package_id: 17186
+  epoch: "2"
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "0.12.1.2"
+  release: "2.272.el6"
+  nvr: "qemu-kvm-rhev-0.12.1.2-2.272.el6"
+  released_errata_id:
+  shipped: 0
+brew_build_310042:
+  id: 310042
+  package_id: 15253
+  epoch:
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: "004"
+  release: "336.el6_5.1"
+  nvr: "dracut-004-336.el6_5.1"
+  released_errata_id:
+  shipped: 0
+brew_build_213199:
+  id: 213199
+  package_id: 325
+  epoch: 
+  sig_key_id: 6
+  signed_rpms_written: 1
+  version: '436'
+  release: 9.el5_8.sjis.2
+  nvr: less-436-9.el5_8.sjis.2
+  released_errata_id: 13236
+  shipped: 0
+brew_build_196996:
+  id: 196996
+  package_id: 16432
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "7"
+  release: 1.el7
+  nvr: redhat-bookmarks-7-1.el7
+  released_errata_id:
+  shipped: 0
+brew_build_201792:
+  id: 201792
+  package_id: 13819
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "10.0"
+  release: 6.el7
+  nvr: basesystem-10.0-6.el7
+  released_errata_id:
+  shipped: 0
+brew_build_203686:
+  id: 203686
+  package_id: 14677
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "1.0"
+  release: 4.el7
+  nvr: crash-trace-command-1.0-4.el7
+  released_errata_id:
+  shipped: 0
+brew_build_204274:
+  id: 204274
+  package_id: 87
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "8.15"
+  release: 2.el7
+  nvr: coreutils-8.15-2.el7
+  released_errata_id:
+  shipped: 0
+brew_build_204740:
+  id: 204740
+  package_id: 14053
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.6.4
+  release: 8.el7
+  nvr: libglade2-2.6.4-8.el7
+  released_errata_id:
+  shipped: 0
+brew_build_207095:
+  id: 207095
+  package_id: 15352
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.6
+  release: 2.el7
+  nvr: virt-top-1.0.6-2.el7
+  released_errata_id:
+  shipped: 0
+brew_build_207101:
+  id: 207101
+  package_id: 15529
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 0.8.3
+  release: 2.el7
+  nvr: virt-v2v-0.8.3-2.el7
+  released_errata_id:
+  shipped: 0
+brew_build_207796:
+  id: 207796
+  package_id: 87
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "8.15"
+  release: 6.1.el7
+  nvr: coreutils-8.15-6.1.el7
+  released_errata_id:
+  shipped: 0
+brew_build_209820:
+  id: 209820
+  package_id: 1968
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.0.1
+  release: 21.el7
+  nvr: python-matplotlib-1.0.1-21.el7
+  released_errata_id:
+  shipped: 0
+brew_build_211990:
+  id: 211990
+  package_id: 1795
+  epoch: "0"
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "1.0"
+  release: 47.el7
+  nvr: maven2-common-poms-1.0-47.el7
+  released_errata_id:
+  shipped: 0
+brew_build_212843:
+  id: 212843
+  package_id: 1876
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.2.0
+  release: 12.el7
+  nvr: ipa-2.2.0-12.el7
+  released_errata_id:
+  shipped: 0
+brew_build_213010:
+  id: 213010
+  package_id: 16441
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "0.91"
+  release: 1.el7
+  nvr: flightrecorder-0.91-1.el7
+  released_errata_id:
+  shipped: 0
+brew_build_213013:
+  id: 213013
+  package_id: 1625
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.0.34
+  release: 1.el7
+  nvr: dapl-2.0.34-1.el7
+  released_errata_id:
+  shipped: 0
+brew_build_213015:
+  id: 213015
+  package_id: 1626
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "0.5"
+  release: 6.el7
+  nvr: ibsim-0.5-6.el7
+  released_errata_id:
+  shipped: 0
+brew_build_213017:
+  id: 213017
+  package_id: 765
+  epoch: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.5.7
+  release: 6.el7
+  nvr: ibutils-1.5.7-6.el7
+  released_errata_id:
+  shipped: 0
+brew_build_300001: 
+  nvr: sblim-cim-client2-2.1.3-1.el6
+  epoch: 
+  version: 2.1.3
+  sig_key_id: 8
+  released_errata_id:
+  release: 1.el6
+  id: 300001
+  signed_rpms_written: 1
+  shipped: 0
+  package_id: 16217
+brew_build_300002: 
+  nvr: sblim-cim-client2-2.1.3-1.el6_5.1
+  epoch: 
+  version: 2.1.3
+  sig_key_id: 8
+  released_errata_id:
+  release: 1.el6_5.1
+  id: 300002
+  signed_rpms_written: 1
+  shipped: 0
+  package_id: 16217
+brew_build_367572:
+  shipped: 0
+  release: "22"
+  epoch: 0
+  nvr: rhel-server-docker-7.0-22
+  signed_rpms_written: 0
+  sig_key_id: 5
+  version: "7.0"
+  package_id: 22001
+  id: 367572
+  released_errata_id:
+brew_build_362089:
+  shipped: 0
+  release: "8"
+  epoch: "0"
+  sig_key_id: 5
+  signed_rpms_written: 0
+  nvr: rhel-server-x86_64-ec2-starter-6.5-8
+  id: 362089
+  package_id: 22002
+  version: "6.5"
+  released_errata_id:
+brew_build_368625:
+  shipped: 0
+  release: 8.win6
+  epoch:
+  nvr: jboss-eap-6.3.0-8.win6
+  signed_rpms_written: 0
+  sig_key_id: 5
+  version: 6.3.0
+  package_id: 22003
+  id: 368625
+  released_errata_id:
+brew_build_354641:
+  shipped: 0
+  release: "20140430.0"
+  epoch: 0
+  nvr: rhevh-6.5-20140430.0
+  signed_rpms_written: 0
+  sig_key_id: 5
+  version: "6.5"
+  package_id: 22004
+  id: 354641
+  released_errata_id:
+brew_build_368489:
+  shipped: 0
+  release: "1"
+  epoch:
+  nvr: org.picketbox-picketbox-infinispan-4.0.9.Final-1
+  signed_rpms_written: 0
+  sig_key_id: 5
+  version: 4.0.9.Final
+  package_id: 22005
+  id: 368489
+  released_errata_id:
+brew_build_328501:
+  shipped: 0
+  release: "20140109.3"
+  epoch:
+  nvr: CloudForms-3.0-20140109.3
+  signed_rpms_written: 0
+  sig_key_id: 5
+  version: "3.0"
+  package_id: 22006
+  id: 328501
+  released_errata_id:
+brew_build_367585:
+  shipped: 0
+  release: "4"
+  epoch:
+  nvr: spice-client-msi-3.4-4
+  signed_rpms_written: 0
+  sig_key_id: 5
+  version: "3.4"
+  package_id: 22007
+  id: 367585
+  released_errata_id:
+brew_build_194800:
+  sig_key_id: 5
+  nvr: spice-usb-share-win-5.0-6
+  released_errata_id:
+  release: "6"
+  package_id: 22008
+  epoch:
+  id: 194800
+  version: "5.0"
+  signed_rpms_written: 0
+  shipped: 0
+brew_build_368626:
+  nvr: kdenetwork-3.5.4-11.el5_6.1
+  id: 368626
+  released_errata_id:
+  package_id: 312
+  version: 3.5.4
+  shipped: 0
+  signed_rpms_written: 0
+  sig_key_id: 5
+  release: 11.el5_6.1
+  epoch: "7"
+brew_build_389641:
+  package_id: 23967
+  shipped: 0
+  id: 389641
+  released_errata_id:
+  signed_rpms_written: 1
+  release: 1.b17.el6
+  nvr: java-1.8.0-openjdk-1.8.0.25-1.b17.el6
+  sig_key_id: 5
+  epoch: "0"
+  version: 1.8.0.25
+brew_build_387737:
+  released_errata_id: 18905
+  package_id: 14996
+  signed_rpms_written: 1
+  sig_key_id: 8
+  release: 6.el6_5.1
+  nvr: libcgroup-0.40.rc1-6.el6_5.1
+  shipped: 0
+  id: 387737
+  epoch:
+  version: 0.40.rc1
+brew_build_232444:
+  signed_rpms_written: 1
+  released_errata_id:
+  shipped: 0
+  package_id: 14525
+  release: "21.el6sat"
+  epoch: ~
+  nvr: "cobbler-2.0.7-21.el6sat"
+  version: "2.0.7"
+  id: 232444
+  sig_key_id: 8
+brew_build_343329:
+  sig_key_id: 5
+  version: 1.0.4
+  nvr: com.redhat.gss-redhat-support-lib-java-1.0.4-2
+  signed_rpms_written: 0
+  shipped: 0
+  package_id: 22009
+  release: "2"
+  id: 343329
+  released_errata_id:
+  epoch:
+brew_build_388437:
+  nvr: qemu-kvm-1.5.3-60.el7_0.10
+  released_errata_id:
+  shipped: 0
+  package_id: 16181
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.5.3
+  epoch: "10"
+  release: 60.el7_0.10
+  id: 388437
+brew_build_153968:
+  released_errata_id:
+  signed_rpms_written: 1
+  id: 153968
+  package_id: 14828
+  version: "0.19"
+  nvr: btrfs-progs-0.19-12.el6
+  shipped: 0
+  epoch:
+  sig_key_id: 5
+  release: 12.el6
+brew_build_294661:
+  released_errata_id:
+  signed_rpms_written: 1
+  id: 294661
+  package_id: 15003
+  version: 1.4.4
+  nvr: cronie-1.4.4-12.el6
+  shipped: 0
+  epoch:
+  sig_key_id: 5
+  release: 12.el6
+brew_build_408505:
+  released_errata_id:
+  signed_rpms_written: 1
+  id: 408505
+  package_id: 100
+  version: 0.4.9
+  nvr: device-mapper-multipath-0.4.9-82.el6
+  shipped: 0
+  epoch:
+  sig_key_id: 5
+  release: 82.el6
+brew_build_178360:
+  released_errata_id:
+  signed_rpms_written: 1
+  id: 178360
+  package_id: 1987
+  version: 1.0.1
+  nvr: blktrace-1.0.1-6.el6
+  shipped: 0
+  epoch:
+  sig_key_id: 5
+  release: 6.el6
+brew_build_158631:
+  package_id: 1966
+  sig_key_id: 5
+  released_errata_id:
+  nvr: python-ethtool-0.6-1.el6
+  release: 1.el6
+  signed_rpms_written: 1
+  version: "0.6"
+  id: 158631
+  epoch:
+  shipped: 0
+brew_build_387078:
+  id: 387078
+  released_errata_id:
+  signed_rpms_written: 0
+  version: "1.5.3"
+  shipped: 0
+  package_id: 16181
+  sig_key_id: 5
+  release: "60.el7_0.9"
+  nvr: "qemu-kvm-1.5.3-60.el7_0.9"
+  epoch: "10"
+brew_build_420092:
+  package_id: 251
+  epoch:
+  version: 6.2.0.873
+  release: 29.el7
+  signed_rpms_written: 0
+  sig_key_id: 5
+  id: 420092
+  shipped: 0
+  nvr: iscsi-initiator-utils-6.2.0.873-29.el7
+  released_errata_id:
+brew_build_420620:
+  package_id: 881
+  epoch:
+  version: 2.0.7
+  release: 19.el7
+  signed_rpms_written: 0
+  sig_key_id: 5
+  id: 420620
+  shipped: 0
+  nvr: kexec-tools-2.0.7-19.el7
+  released_errata_id:
+brew_build_420053:
+  package_id: 14730
+  epoch:
+  version: 1.12.2
+  release: 58.ael7b
+  signed_rpms_written: 0
+  sig_key_id: 5
+  id: 420053
+  shipped: 0
+  nvr: sssd-1.12.2-58.ael7b
+  released_errata_id:
+brew_build_420050:
+  package_id: 14730
+  epoch:
+  version: 1.12.2
+  release: 58.el7
+  signed_rpms_written: 0
+  sig_key_id: 5
+  id: 420050
+  shipped: 0
+  nvr: sssd-1.12.2-58.el7
+  released_errata_id:
+brew_build_419836:
+  package_id: 686
+  epoch:
+  version: 2015a
+  release: 1.ael7b
+  signed_rpms_written: 0
+  sig_key_id: 5
+  id: 419836
+  shipped: 0
+  nvr: tzdata-2015a-1.ael7b
+  released_errata_id:
+brew_build_419835:
+  package_id: 686
+  epoch:
+  version: 2015a
+  release: 1.el7
+  signed_rpms_written: 0
+  sig_key_id: 5
+  id: 419835
+  shipped: 0
+  nvr: tzdata-2015a-1.el7
+  released_errata_id:
+brew_build_421698:
+  sig_key_id: 5
+  nvr: ruby-1.8.7.374-4.el6_6
+  released_errata_id:
+  package_id: 613
+  version: 1.8.7.374
+  shipped: 0
+  id: 421698
+  epoch:
+  signed_rpms_written: 0
+  release: 4.el6_6
+brew_build_421683:
+  sig_key_id: 5
+  nvr: kernel-2.6.32-532.el6
+  released_errata_id:
+  package_id: 314
+  version: 2.6.32
+  shipped: 0
+  id: 421683
+  epoch:
+  signed_rpms_written: 0
+  release: 532.el6
+brew_build_421720:
+  sig_key_id: 5
+  nvr: openscap-1.0.10-2.el6
+  released_errata_id:
+  package_id: 16202
+  version: 1.0.10
+  shipped: 0
+  id: 421720
+  epoch:
+  signed_rpms_written: 0
+  release: 2.el6
+brew_build_421717:
+  sig_key_id: 5
+  nvr: anaconda-19.31.123-1.el7
+  released_errata_id:
+  package_id: 25
+  version: 19.31.123
+  shipped: 0
+  id: 421717
+  epoch:
+  signed_rpms_written: 0
+  release: 1.el7
+brew_build_421726:
+  sig_key_id: 5
+  nvr: sos-3.0-23.el7_0.11
+  released_errata_id:
+  package_id: 1027
+  version: "3.0"
+  shipped: 0
+  id: 421726
+  epoch:
+  signed_rpms_written: 0
+  release: 23.el7_0.11
+brew_build_421719:
+  sig_key_id: 5
+  nvr: selinux-policy-3.12.1-153.el7_0.15
+  released_errata_id:
+  package_id: 1023
+  version: 3.12.1
+  shipped: 0
+  id: 421719
+  epoch:
+  signed_rpms_written: 0
+  release: 153.el7_0.15
+brew_build_419759:
+  released_errata_id:
+  id: 419759
+  signed_rpms_written: 0
+  epoch:
+  sig_key_id: 5
+  release: 56.el7
+  nvr: sssd-1.12.2-56.el7
+  shipped: 0
+  package_id: 14730
+  version: 1.12.2
+brew_build_403532:
+  version: 1.900.1
+  nvr: jasper-1.900.1-26.el7_0.2
+  shipped: 0
+  id: 403532
+  released_errata_id: 19435
+  sig_key_id: 8
+  epoch:
+  release: 26.el7_0.2
+  signed_rpms_written: 1
+  package_id: 15336
+brew_build_403534:
+  version: 1.900.1
+  nvr: jasper-1.900.1-16.el6_6.2
+  shipped: 0
+  id: 403534
+  released_errata_id: 19554
+  sig_key_id: 8
+  epoch:
+  release: 16.el6_6.2
+  signed_rpms_written: 1
+  package_id: 15336
+brew_build_428960:
+  id: 428960
+  version: "0.17"
+  package_id: 611
+  signed_rpms_written: 0
+  shipped: 0
+  released_errata_id:
+  epoch:
+  sig_key_id: 5
+  nvr: rsh-0.17-76.aa7a_1.1
+  release: 76.aa7a_1.1
+brew_build_428958:
+  id: 428958
+  version: "0.17"
+  package_id: 611
+  signed_rpms_written: 0
+  shipped: 0
+  released_errata_id:
+  epoch:
+  sig_key_id: 5
+  nvr: rsh-0.17-76.el7_1.1
+  release: 76.el7_1.1
+brew_build_428959:
+  id: 428959
+  sig_key_id: 5
+  shipped: 0
+  signed_rpms_written: 0
+  version: "0.17"
+  released_errata_id:
+  package_id: 611
+  epoch:
+  release: 76.ael7b_1.1
+  nvr: rsh-0.17-76.ael7b_1.1
+brew_build_429392:
+  shipped: 0
+  package_id: 939
+  signed_rpms_written: 1
+  epoch:
+  sig_key_id: 8
+  released_errata_id: 20291
+  id: 429392
+  nvr: libvirt-0.10.2-46.el6_6.6
+  version: 0.10.2
+  release: 46.el6_6.6
+brew_build_429175:
+  id: 429175
+  version: 0.10.2
+  sig_key_id: 5
+  epoch:
+  nvr: libvirt-0.10.2-46.el6_6.5
+  release: 46.el6_6.5
+  package_id: 939
+  signed_rpms_written: 0
+  released_errata_id:
+  shipped: 0
+brew_build_400972:
+  id: 400972
+  signed_rpms_written: 0
+  shipped: 0
+  sig_key_id: 5
+  package_id: 17188
+  version: 3.18.1
+  epoch: "0"
+  release: 6.GA_redhat_1.1.ep6.el7
+  nvr: javassist-eap6-3.18.1-6.GA_redhat_1.1.ep6.el7
+  released_errata_id:
+brew_build_321724:
+  release: 10.el7
+  epoch:
+  shipped: 0
+  signed_rpms_written: 0
+  nvr: javassist-3.16.1-10.el7
+  sig_key_id: 5
+  id: 321724
+  package_id: 1396
+  released_errata_id:
+  version: 3.16.1
+brew_build_314687:
+  release: 1.GA_redhat_1.1.ep6.el7
+  epoch: "0"
+  shipped: 0
+  signed_rpms_written: 1
+  nvr: javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7
+  sig_key_id: 8
+  id: 314687
+  package_id: 17188
+  released_errata_id: 17368
+  version: 3.18.1
+brew_build_429138:
+  epoch: "0"
+  version: 4.1.12
+  sig_key_id: 8
+  id: 429138
+  shipped: 0
+  signed_rpms_written: 1
+  released_errata_id:
+  release: 23.el7_1
+  package_id: 617
+  nvr: samba-4.1.12-23.el7_1
+brew_build_454679:
+  package_id: 617
+  epoch: "0"
+  version: 4.2.3
+  shipped: 0
+  signed_rpms_written: 0
+  nvr: samba-4.2.3-7.el7
+  released_errata_id:
+  id: 454679
+  sig_key_id: 5
+  release: 7.el7
+brew_build_428475:
+  epoch:
+  signed_rpms_written: 1
+  shipped: 0
+  nvr: rhn-client-tools-1.0.0.1-32.el6
+  version: 1.0.0.1
+  released_errata_id: 20044
+  package_id: 1007
+  sig_key_id: 8
+  id: 428475
+  release: 32.el6
+brew_build_430533:
+  epoch: "1"
+  signed_rpms_written: 1
+  shipped: 0
+  nvr: liberation-fonts-1.07.2-15.el7
+  version: 1.07.2
+  released_errata_id: 20466
+  package_id: 1366
+  sig_key_id: 8
+  id: 430533
+  release: 15.el7
+brew_build_379848:
+  epoch:
+  signed_rpms_written: 1
+  shipped: 0
+  nvr: rhn-client-tools-1.0.0.1-18.el6
+  version: 1.0.0.1
+  released_errata_id: 17997
+  package_id: 1007
+  sig_key_id: 8
+  id: 379848
+  release: 18.el6
+brew_build_406028:
+  epoch: "1"
+  signed_rpms_written: 0
+  shipped: 0
+  nvr: liberation-fonts-1.07.2-14.ael7b
+  version: 1.07.2
+  released_errata_id:
+  package_id: 1366
+  sig_key_id: 5
+  id: 406028
+  release: 14.ael7b
+brew_build_143062:
+  released_errata_id:
+  package_id: 100
+  shipped: 0
+  epoch:
+  sig_key_id: 5
+  id: 143062
+  version: 0.4.9
+  signed_rpms_written: 0
+  release: 31.el6
+  nvr: device-mapper-multipath-0.4.9-31.el6
+brew_build_355524:
+  package_id: 18386
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6
+  nvr: python-six-1.6.1-1.el6
+  shipped: 0
+  version: 1.6.1
+  id: 355524
+  released_errata_id: 19655
+brew_build_369354:
+  package_id: 20366
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 3.el6ev
+  nvr: python-pthreading-0.1.3-3.el6ev
+  shipped: 0
+  version: 0.1.3
+  id: 369354
+  released_errata_id: 19655
+brew_build_370036:
+  package_id: 18716
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 8.1.el6
+  nvr: python-requests-1.1.0-8.1.el6
+  shipped: 0
+  version: 1.1.0
+  id: 370036
+  released_errata_id: 19655
+brew_build_395660:
+  package_id: 29082
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 3.el6ev
+  nvr: ioprocess-0.14.0-3.el6ev
+  shipped: 0
+  version: 0.14.0
+  id: 395660
+  released_errata_id: 19655
+brew_build_411218:
+  package_id: 13991
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 38.el6
+  nvr: gdbm-1.8.0-38.el6
+  shipped: 0
+  version: 1.8.0
+  id: 411218
+  released_errata_id: 19655
+brew_build_422325:
+  package_id: 28027
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6rhs
+  nvr: gluster-nagios-addons-0.1.16-1.el6rhs
+  shipped: 0
+  version: 0.1.16
+  id: 422325
+  released_errata_id: 19655
+brew_build_422420:
+  package_id: 25079
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6rhs
+  nvr: redhat-storage-server-3.0.4.0-1.el6rhs
+  shipped: 0
+  version: 3.0.4.0
+  id: 422420
+  released_errata_id: 19655
+brew_build_422706:
+  package_id: 28377
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6rhs
+  nvr: ctdb2.5-2.5.4-1.el6rhs
+  shipped: 0
+  version: 2.5.4
+  id: 422706
+  released_errata_id: 19655
+brew_build_423513:
+  package_id: 15312
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6rhs
+  nvr: libtdb-1.3.4-1.el6rhs
+  shipped: 0
+  version: 1.3.4
+  id: 423513
+  released_errata_id: 19655
+brew_build_423661:
+  package_id: 15099
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 3.el6rhs
+  nvr: libtalloc-2.1.1-3.el6rhs
+  shipped: 0
+  version: 2.1.1
+  id: 423661
+  released_errata_id: 19655
+brew_build_423664:
+  package_id: 15439
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6rhs
+  nvr: libtevent-0.9.23-1.el6rhs
+  shipped: 0
+  version: 0.9.23
+  id: 423664
+  released_errata_id: 19655
+brew_build_423671:
+  package_id: 16424
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6rhs
+  nvr: libldb-1.1.20-1.el6rhs
+  shipped: 0
+  version: 1.1.20
+  id: 423671
+  released_errata_id: 19655
+brew_build_425010:
+  package_id: 30073
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 2.1.el6rhs
+  nvr: gstatus-0.63-2.1.el6rhs
+  shipped: 0
+  version: 0.63
+  id: 425010
+  released_errata_id: 19655
+brew_build_425291:
+  package_id: 14644
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 6.2.el6rhs
+  nvr: vdsm-4.16.8.1-6.2.el6rhs
+  shipped: 0
+  version: 4.16.8.1
+  id: 425291
+  released_errata_id: 19655
+brew_build_425709:
+  package_id: 16773
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6
+  nvr: glusterfs-3.6.0.53-1.el6
+  shipped: 0
+  version: 3.6.0.53
+  id: 425709
+  released_errata_id: 19655
+brew_build_425710:
+  package_id: 16773
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 6
+  release: 1.el5
+  nvr: glusterfs-3.6.0.53-1.el5
+  shipped: 0
+  version: 3.6.0.53
+  id: 425710
+  released_errata_id: 19655
+brew_build_425711:
+  package_id: 16773
+  signed_rpms_written: 1
+  epoch: 
+  sig_key_id: 8
+  release: 1.el6rhs
+  nvr: glusterfs-3.6.0.53-1.el6rhs
+  shipped: 0
+  version: 3.6.0.53
+  id: 425711
+  released_errata_id: 19655
+brew_build_411565:
+  package_id: 14685
+  sig_key_id: 8
+  epoch: 
+  version: 1.0.0
+  released_errata_id: 20303
+  shipped: 0
+  release: 7.el6_6.1
+  nvr: augeas-1.0.0-7.el6_6.1
+  id: 411565
+  signed_rpms_written: 1
+brew_build_420186:
+  package_id: 16773
+  sig_key_id: 8
+  epoch: 
+  version: 3.6.0.42.1
+  released_errata_id: 19728
+  shipped: 0
+  release: 1.el6rhs
+  nvr: glusterfs-3.6.0.42.1-1.el6rhs
+  id: 420186
+  signed_rpms_written: 1
+brew_build_420205:
+  package_id: 16773
+  sig_key_id: 6
+  epoch: 
+  version: 3.6.0.42.1
+  released_errata_id: 19728
+  shipped: 0
+  release: 1.el5
+  nvr: glusterfs-3.6.0.42.1-1.el5
+  id: 420205
+  signed_rpms_written: 1
+brew_build_420206:
+  package_id: 16773
+  sig_key_id: 8
+  epoch: 
+  version: 3.6.0.42.1
+  released_errata_id: 19728
+  shipped: 0
+  release: 1.el6
+  nvr: glusterfs-3.6.0.42.1-1.el6
+  id: 420206
+  signed_rpms_written: 1
+brew_build_414159:
+  released_errata_id: 18437
+  id: 414159
+  sig_key_id: 8
+  shipped: 0
+  package_id: 183
+  signed_rpms_written: 1
+  nvr: glibc-2.17-78.el7
+  release: 78.el7
+  epoch:
+  version: "2.17"
+brew_build_426073:
+  release: 46.el6_6.4
+  epoch:
+  shipped: 0
+  released_errata_id: 20159
+  package_id: 939
+  version: 0.10.2
+  id: 426073
+  sig_key_id: 8
+  signed_rpms_written: 1
+  nvr: libvirt-0.10.2-46.el6_6.4
+brew_build_460081:
+  signed_rpms_written: 1
+  version: 4.2.0
+  id: 460081
+  epoch:
+  release: 0.21.el7
+  nvr: kernel-aarch64-4.2.0-0.21.el7
+  released_errata_id: 21009
+  package_id: 31965
+  sig_key_id: 8
+  shipped: 0
+brew_build_466423:
+  sig_key_id: 5
+  version: 3.10.0
+  package_id: 314
+  epoch:
+  released_errata_id:
+  signed_rpms_written: 0
+  shipped: 0
+  nvr: kernel-3.10.0-327.2.1.el7
+  id: 466423
+  release: 327.2.1.el7
+brew_build_409889:
+  package_id: 22001
+  shipped: 0
+  epoch: 0
+  release: "3"
+  version: "7.1"
+  released_errata_id:
+  nvr: rhel-server-docker-7.1-3
+  sig_key_id: 5
+  id: 409889
+  signed_rpms_written: 0
+brew_build_483273:
+  volume_name: DEFAULT
+  version: "6.8"
+  epoch: "0"
+  release: "25"
+  sig_key_id: 5
+  package_id: 22001
+  nvr: rhel-server-docker-6.8-25
+  shipped: 0
+  id: 483273
+  signed_rpms_written: 0
+  released_errata_id:
+brew_build_488008:
+  package_id: 27269
+  shipped: 0
+  epoch: 0
+  release: "1.el6"
+  version: "49.0.2623.108"
+  released_errata_id:
+  nvr: chromium-browser-49.0.2623.108-1.el6
+  sig_key_id: 8
+  id: 488008
+  signed_rpms_written: 1
+brew_build_163534:
+  epoch:
+  id: 163534
+  nvr: virtio-win-1.2.0-1.el6
+  package_id: 14508
+  release: 1.el6
+  released_errata_id:
+  shipped: 0
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.2.0
+brew_build_488875:
+  id: 488875
+  package_id: 371
+  epoch:
+  volume_name:
+  shipped: 0
+  version: 2.02.143
+  release: 7.el6
+  released_errata_id: 22508
+  sig_key_id: 8
+  signed_rpms_written: 1
+  nvr: lvm2-2.02.143-7.el6
+brew_build_512708:
+  id: 512708
+  package_id: 30994
+  epoch:
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: "7.2"
+  release: "51"
+  nvr: rhel-tools-docker-7.2-51
+  released_errata_id: 24604
+  shipped: 0
+  volume_name: DEFAULT
+brew_build_509391:
+  id: 509391
+  package_id: 314
+  epoch:
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 3.10.0
+  release: 327.36.1.el7
+  nvr: kernel-3.10.0-327.36.1.el7
+  released_errata_id: 24434
+  shipped: 0
+  volume_name: DEFAULT
+brew_build_511805:
+  id: 511805
+  package_id: 1023
+  epoch:
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 3.13.1
+  release: 60.el7_2.9
+  nvr: selinux-policy-3.13.1-60.el7_2.9
+  released_errata_id: 24467
+  shipped: 0
+  volume_name: DEFAULT
+brew_build_508705:
+  id: 508705
+  package_id: 100
+  epoch:
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 0.4.9
+  release: 85.el7_2.6
+  nvr: device-mapper-multipath-0.4.9-85.el7_2.6
+  released_errata_id: 24491
+  shipped: 0
+  volume_name: DEFAULT
+brew_build_511700:
+  id: 511700
+  package_id: 18258
+  epoch:
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: "20"
+  release: 8.el7_2
+  nvr: kmod-20-8.el7_2
+  released_errata_id: 24565
+  shipped: 0
+  volume_name: DEFAULT
+brew_build_511174:
+  id: 511174
+  package_id: 496
+  epoch:
+  sig_key_id: 8
+  signed_rpms_written: 1
+  version: 2.7.5
+  release: 39.el7_2
+  nvr: python-2.7.5-39.el7_2
+  released_errata_id: 24626
+  shipped: 0
+  volume_name: DEFAULT
+brew_build_528033:
+  signed_rpms_written: 1
+  released_errata_id:
+  shipped: 0
+  package_id: 34590
+  release: "17.el7cp"
+  epoch: ~
+  nvr: "ceph-10.2.3-17.el7cp"
+  version: "10.2.3"
+  id: 528033
+  sig_key_id: 8
+brew_build_538104:
+  signed_rpms_written: 1
+  released_errata_id:
+  shipped: 0
+  package_id: 34590
+  release: "26.el7cp"
+  epoch: ~
+  nvr: "ceph-10.2.5-26.el7cp"
+  version: "10.2.5"
+  id: 538104
+  sig_key_id: 8
+brew_build_539733:
+  id: 539733
+  package_id: 34591
+  epoch:
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 1.5.3
+  release: 1.el7cp
+  nvr: calamari-server-1.5.3-1.el7cp
+  released_errata_id:
+  shipped: 0
+  volume_name: DEFAULT
+brew_build_540733:
+  id: 540733
+  package_id: 15068
+  epoch:
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.6.1
+  release: 1.2.el7cp
+  nvr: python-crypto-2.6.1-1.2.el7cp
+  released_errata_id:
+  shipped: 0
+  volume_name: DEFAULT 
+brew_build_540743:
+  id: 540743
+  package_id: 15068
+  epoch:
+  sig_key_id: 5
+  signed_rpms_written: 0
+  version: 2.6.1
+  release: 1.1.el7cp
+  nvr: python-crypto-2.6.1-1.1.el7cp
+  released_errata_id:
+  shipped: 0
+  volume_name: DEFAULT

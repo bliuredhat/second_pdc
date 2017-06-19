@@ -1,0 +1,73 @@
+source "https://rubygems.org"
+
+ruby '2.2.2'
+
+gem 'i18n', '~> 0.6.5'
+gem 'rake', '~> 10.4.2'
+gem 'rails', '~> 3.2.22'
+gem 'exception_notification', '< 4.0.1'
+gem 'will_paginate', '~> 3.0.0'
+gem 'xml-simple'
+gem 'diff-lcs'
+gem 'dynamic_form'
+gem 'curb'
+gem 'mysql2', '~> 0.3.20'
+gem 'jquery-rails'
+gem 'rails_autolink', '< 1.1.5'
+gem 'bartt-ssl_requirement', '~>1.4.0', require: 'ssl_requirement'
+gem 'schema_plus', '~> 0.4.1'
+gem 'jira-ruby'
+gem 'qpid_messaging', '~> 0.18.5'
+gem 'qpid_proton', '~> 0.10.1'
+gem 'fast_trie', '~> 0.5.0'
+gem 'daemons', '~> 1.2.3'
+gem 'rack-cors', require: 'rack/cors'
+gem 'validates_timeliness', '~> 3.0'
+gem 'acts_as_tree', '~> 2.6.0'
+gem 'memoist'
+gem 'jbuilder'
+gem 'pdc'
+
+### required by push scripts in bin/
+gem 'krb5-auth', require: false
+
+# NOTE: required for rails console to work in prod
+# ref: https://github.com/rails/rails/issues/9256
+gem 'test-unit'
+
+# Requires old yaml engine to fix broken OrderedHash.to_yaml
+gem 'syck'
+
+group :development, :test do
+  gem 'parallel_tests'
+  gem 'awesome_print'
+  gem 'pry-byebug'
+end
+
+group :test do
+  gem 'mocha', '~> 1.1.0'
+  gem 'rubyzip'
+  gem 'capybara'
+  gem 'test_after_commit', '~> 0.2.4'
+  gem 'fakeweb'
+  gem 'nokogiri'
+  gem 'ci_reporter'
+  gem 'yajl-ruby', '~> 1.2.1'
+  gem 'simplecov',      require: false
+  gem 'simplecov-rcov', require: false
+  gem 'webmock'
+  gem 'vcr'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+
+  gem 'poltergeist'
+  gem 'launchy'
+end
+
+group :development do
+  gem 'pry'
+  gem 'pry-rails'
+
+  f = File.expand_path('~/.errata/extra_gemfile')
+  eval_gemfile(f) if File.exist?(f)
+end

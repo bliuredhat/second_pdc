@@ -1,0 +1,91 @@
+<%
+  row_func = lambda do |repo|
+    direct = @indirect_repos.include?(repo) ? false : true
+    object_name = controller_name.singularize
+
+    if repo.kind_of?(Channel)
+      release_type = repo.short_type
+      repo_type = nil
+    else
+      release_type = repo.short_release_type
+      repo_type = repo.short_type
+    end
+
+    row = []
+    menu = []
+    if !direct
+      # add a checkbox for detaching if it is a indirect repo
+      row << bz_row_helper(check_box_tag("#{object_name}[id][]", repo.id, false), {:style => "width:20px;"}) if can_edit_mgmt_items?
+    else
+      # otherwise, show edit and delete group button
+      # Retain the active tab after performing the request
+      back_to = repo.links.any? ? "active_repos" : "inactive_repos"
+      menu << link_to('Edit', url_for([:edit, @product_version, repo]))
+      menu << link_to('Delete', url_for([@product_version, repo]) + "?back_to_tab=#{back_to}", :confirm => 'Are you sure?', :method => :delete)
+    end
+
+    row.concat([
+      link_to(repo.name, url_for([repo.product_version, repo])),
+      link_to(repo.variant.name, url_for(repo.variant)),
+      bz_row_helper(repo.arch.name),
+      bz_row_helper(release_type),
+      (bz_row_helper(repo_type) if repo_type),
+      bz_row_helper(repo.has_stable_systems_subscribed?, {:method => :sortable_yes_no_icon, :style => "width:10px"}),
+      bz_row_helper(content_tag(:span, repo.links.size, :class => "badge badge-info")),
+      (dropdown_button_helper(menu, :style => "float:right;", :class => 'btn-mini') if menu.any? && can_edit_mgmt_items?),
+    ])
+    row.compact
+  end
+
+  render_table = lambda do |list, direct|
+    object_name = controller_name.singularize
+    release_field = object_name == "channel" ? "short_type" : "short_release_type"
+
+    headers = [
+      (bz_row_helper("", :style => "width:5px;") unless direct || !can_edit_mgmt_items?),
+      'Name',
+      'Owned By (Variant)',
+      bz_row_helper('Arch'),
+      bz_row_helper('Release Type'),
+      (bz_row_helper('Content Type') if object_name == "cdn_repo"),
+      tablesort_heading_custom_sort('TPS?'),
+      bz_row_helper('Links'),
+      (tablesort_heading_no_sort("", {:style => "width:60px"}) if direct && can_edit_mgmt_items?)
+    ].compact
+
+    render(:partial => "shared/bz_table", :locals => {
+      :headers => headers,
+      :func => row_func,
+      :row_items => list.sort_by{|repo| [repo.variant, repo.arch, repo.name, repo.send(release_field)]},
+      :no_content_text => "Not found"
+    })
+  end
+
+  klass = controller_name.singularize.classify.constantize
+  common_text = "List all #{klass.display_name.pluralize} that belong to"
+  direct_tip = "#{common_text} product version '#{@product_version.name}' and are attached to one or more variants."
+  inactive_tip = "#{common_text} product version '#{@product_version.name}' but aren't attached to any variants."
+  indirect_tip = "#{common_text} other product versions and are attached to product version '#{@product_version.name}'"
+  note = content_tag(:div, :class => "small light", :style => "padding-bottom:5px;") do
+    "The <b>'Links'</b> column shows the total number of variants that a #{klass.display_name} is attached to.".html_safe
+  end
+
+  tabs = [
+    [ 'active_repos', #tab id
+      "Active direct #{klass.display_name}",  # tab label
+      render_table.call(@active_repos, true), # tab content
+      {:tooltip => direct_tip, :note => note} # additional options, such as tab tooltip
+    ],
+    [ 'inactive_repos',
+       "Inactive direct #{klass.display_name}",
+       render_table.call(@inactive_repos, true),
+       {:tooltip => inactive_tip, :note => note} ],
+    [ 'indirect_repos',
+      "Indirect #{klass.display_name}",
+      render("shared/indirect_repos", :table_func => render_table),
+      {:tooltip => indirect_tip, :note => note}
+    ]
+  ]
+%>
+
+<%= render "shared/mgmt_list", :parent => @parent, :klass => klass, :tabs => tabs %>

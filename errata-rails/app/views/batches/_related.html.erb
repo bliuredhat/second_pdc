@@ -1,0 +1,10 @@
+<h3>Create</h3>
+<ul>
+  <li><%= link_to icon_btn_text('Batch', :plus), {:action => :new} %></li>
+</ul>
+
+<h3>Back to</h3>
+<ul>
+  <li><%= link_to "Batches", batches_path %></li>
+  <li><%= link_to "Release #{@batch.release.name}", {:controller => :release, :action => :show, :id => batch.release} %></li>
+</ul>

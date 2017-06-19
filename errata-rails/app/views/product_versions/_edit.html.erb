@@ -1,0 +1,40 @@
+<% product_version = f.object %>
+<%= table_rows_helper([
+  [ {:colspan=>2, :content=>error_messages_for('product_version')} ],
+  [ 'RHEL Version',         f.collection_select(:rhel_release_id, RhelRelease.order(:name).all, :id, :name) ],
+  (['Base Product Version', f.collection_select(:base_product_version_id, ProductVersion.valid_base_products, :id, :name, {:include_blank=>true}) ] if product_version.is_zstream?),
+  [ 'Default Signing Key',  f.collection_select(:sig_key_id, SigKey.all, :id, :name, {:selected => product_version.sig_key_id || SigKey.default_key.id}) ],
+  [ 'Name',                 f.text_field(:name) ],
+  [ 'Description',          f.text_field(:description) ],
+  [ 'Default Brew Tag',     f.text_field(:default_brew_tag) ],
+  [ 'Server Only?',         {:content=>f.check_box(:is_server_only),
+                              :note=>"If set, only '-Server' variants will be used in searching Compose for product listings. (Not applicable for RHEL 4 and earlier)" } ],
+  [ 'Enabled?',             {:content=>f.check_box(:enabled),
+                              :note=>'Product versions show up in brew forms, lists of advisories, etc'} ],
+  [ 'Allow Debuginfo?',     {:content=>f.check_box(:allow_rhn_debuginfo),
+                              :note=>'Debuginfo packages will be pushed to RHN'} ],
+  [ 'Allow Buildroot Push?',{:content=>f.check_box(:allow_buildroot_push),
+                              :note=>'If enabled, "Push to Buildroots" may be triggered on builds using this product version. ' +
+                                     'Only makes sense with certain Brew configurations. If in doubt, consult release-engineering.'} ],
+  [ 'Oval Product?',        {:content=>f.check_box(:is_oval_product),
+                              :note=>'OVAL supported products will generate OVAL for Secalert, RHN'} ],
+  (['RHEL Add-on?',         {:content=>f.check_box(:is_rhel_addon),
+                              :note=>'Flags whether this product is considered an Addon to Red Hat Enterprise Linux. Examples are Extras, Supplementary, EIR, etc'} ] unless product_version.product.is_rhel?),
+  [ 'Allowed Push Targets', render('edit_push_targets', :product_version=>product_version) ],
+  [ 'Brew Tags',            {:content=>(product_version.new_record? ? '-' : render('shared/brew_tags_and_edit_btn', :brew_tags => product_version.brew_tags)),
+                              :note=>(product_version.new_record? ? '(Add additional brew tags after creation)' : nil )}],
+], :labels=>true) %>
+
+<%# Have to keep this outside the main form, hence this content_for hackery... %>
+<% content_for :outside_form do %>
+  <%# Modal for changing brew tags. Starts hidden. %>
+  <div class="modal" id="edit_brew_tags_modal" style="display:none;">
+    <div class="modal-header"><h3>Edit Brew Tags</h3></div>
+    <div class="modal-body">
+      <%= render(:partial => "shared/brew_tag_admin", :object => product_version) %>
+    </div>
+    <div class="modal-footer">
+      <%= link_to 'Done', "#", :class=>'btn btn-cancel-modal' %>
+    </div>
+  </div>
+<% end %>

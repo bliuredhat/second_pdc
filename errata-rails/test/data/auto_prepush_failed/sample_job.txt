@@ -1,0 +1,37 @@
+To: release-engineering@redhat.com
+Subject: ET: [RHSA-2015:19463 RHEL-6.1.0] Moderate: python-ethtool - Pub pre-push job 100001 failed
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+An automated nochannel push has failed.
+
+  Push target: RhnLive
+  Push job:    https://errata-test.example.com/push/push_results/112233
+
+  2015-08-10 09:46:40 +0000 Checking that oval is well formed...
+  2015-08-10 09:46:40 +0000 done.
+  2015-08-10 09:46:40 +0000 Checking that oval is well formed...
+  2015-08-10 09:46:40 +0000 done.
+  2015-08-10 09:46:40 +0000 Running pre push tasks
+  2015-08-10 09:46:40 +0000 Pub task created, task id: 100001
+  2015-08-10 09:46:40 +0000 Note: this is a nochannel push.
+  2015-08-10 09:46:40 +0000 Link to the pub task:
+  http://pub.qa.engineering.redhat.com/pub/task/100001
+  2015-08-10 09:46:40 +0000 Waiting on pub to finish.
+  2015-08-10 09:46:40 +0000 error
+
+This push job was triggered automatically by Errata Tool due to a staging
+push. This failure doesn't block the advisory, but may result in a slow
+live push.
+
+This ticket has been filed for the investigation of this problem.
+
+
+Advisory:
+  [RHSA-2015:19463 RHEL-6.1.0] Moderate: python-ethtool security update
+  Status: REL_PREP, Package: python-ethtool
+  https://errata-test.example.com/advisory/19463
+
+
+(ET x.y.z errata-test.example.com test)

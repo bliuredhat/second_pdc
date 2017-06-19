@@ -1,0 +1,11 @@
+{
+  "rpmdiff_result": {
+    "can_approve_waiver": "releng",
+    "log": "<table>\n</table>\n",
+    "need_push_priv": 0,
+    "result_id": 3026610,
+    "run_id": 40893,
+    "score": 4,
+    "test_id": 33
+  }
+}

@@ -1,0 +1,247 @@
+# HTTP 200
+{
+  "data": [
+    {
+      "attributes": {
+        "active": false,
+        "created_at": "2015-10-07T02:19:08Z",
+        "external_id": 27,
+        "external_message": null,
+        "external_status": "FAILED",
+        "status": "FAILED",
+        "test_type": "covscan",
+        "updated_at": "2015-10-07T02:20:48Z"
+      },
+      "id": 39,
+      "relationships": {
+        "brew_build": {
+          "id": 408505,
+          "nvr": "device-mapper-multipath-0.4.9-82.el6"
+        },
+        "errata": {
+          "errata_type": "RHBA",
+          "fulladvisory": "RHBA-2015:19032-02",
+          "id": 19032
+        },
+        "superseded_by": {
+          "id": 40,
+          "status": "PASSED",
+          "test_type": "covscan"
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "created_at": "2015-10-07T02:21:11Z",
+        "external_id": 28,
+        "external_message": null,
+        "external_status": "PASSED",
+        "status": "PASSED",
+        "test_type": "covscan",
+        "updated_at": "2015-10-07T02:21:11Z"
+      },
+      "id": 40,
+      "relationships": {
+        "brew_build": {
+          "id": 408505,
+          "nvr": "device-mapper-multipath-0.4.9-82.el6"
+        },
+        "errata": {
+          "errata_type": "RHBA",
+          "fulladvisory": "RHBA-2015:19032-02",
+          "id": 19032
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "created_at": "2015-10-07T02:24:24Z",
+        "external_id": 34,
+        "external_message": null,
+        "external_status": "FAILED",
+        "status": "FAILED",
+        "test_type": "covscan",
+        "updated_at": "2015-10-07T02:24:24Z"
+      },
+      "id": 41,
+      "relationships": {
+        "brew_build": {
+          "id": 158631,
+          "nvr": "python-ethtool-0.6-1.el6"
+        },
+        "errata": {
+          "errata_type": "RHSA",
+          "fulladvisory": "RHSA-2015:19463-01",
+          "id": 19463
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "created_at": "2015-10-07T04:15:58Z",
+        "external_id": 1960,
+        "external_message": null,
+        "external_status": "FAILURE",
+        "status": "FAILED",
+        "test_type": "ccat",
+        "updated_at": "2015-10-07T04:15:58Z"
+      },
+      "id": 79,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHSA",
+          "fulladvisory": "RHSA-2014:2021-08",
+          "id": 19435
+        },
+        "superseded_by": {
+          "id": 80,
+          "status": "PENDING",
+          "test_type": "ccat"
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "created_at": "2015-10-07T04:16:17Z",
+        "external_id": 1966,
+        "external_message": null,
+        "external_status": null,
+        "status": "PENDING",
+        "test_type": "ccat",
+        "updated_at": "2015-10-07T04:16:17Z"
+      },
+      "id": 80,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHSA",
+          "fulladvisory": "RHSA-2014:2021-08",
+          "id": 19435
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "created_at": "2015-10-08T04:15:58Z",
+        "external_id": 1980,
+        "external_message": null,
+        "external_status": "FAILURE",
+        "status": "FAILED",
+        "test_type": "ccat",
+        "updated_at": "2015-10-08T04:15:58Z"
+      },
+      "id": 81,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHBA",
+          "fulladvisory": "RHBA-2014:1328-04",
+          "id": 18905
+        },
+        "superseded_by": {
+          "id": 82,
+          "status": "PASSED",
+          "test_type": "ccat"
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "created_at": "2015-10-08T04:16:17Z",
+        "external_id": 1982,
+        "external_message": null,
+        "external_status": null,
+        "status": "PASSED",
+        "test_type": "ccat",
+        "updated_at": "2015-10-08T04:16:17Z"
+      },
+      "id": 82,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHBA",
+          "fulladvisory": "RHBA-2014:1328-04",
+          "id": 18905
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "created_at": "2015-10-09T04:16:17Z",
+        "external_id": 1983,
+        "external_message": "Metadata error\nhttps://engineering.redhat.com/rt/Ticket/Display.html?id=891234",
+        "external_status": null,
+        "status": "FAILED",
+        "test_type": "ccat",
+        "updated_at": "2015-10-09T04:16:17Z"
+      },
+      "id": 83,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHSA",
+          "fulladvisory": "RHSA-2012:0987-01",
+          "id": 13147
+        },
+        "superseded_by": {
+          "id": 84,
+          "status": "FAILED",
+          "test_type": "ccat/manual"
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "created_at": "2015-10-09T04:16:17Z",
+        "external_id": 343,
+        "external_message": null,
+        "external_status": null,
+        "status": "FAILED",
+        "test_type": "ccat/manual",
+        "updated_at": "2015-10-09T04:16:17Z"
+      },
+      "id": 84,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHSA",
+          "fulladvisory": "RHSA-2012:0987-01",
+          "id": 13147
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "created_at": "2015-10-09T04:16:17Z",
+        "external_id": 1985,
+        "external_message": "Metadata error\nhttps://projects.engineering.redhat.com/browse/ISSUE-891234",
+        "external_status": null,
+        "status": "FAILED",
+        "test_type": "ccat",
+        "updated_at": "2015-10-09T04:16:17Z"
+      },
+      "id": 85,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHSA",
+          "fulladvisory": "RHSA-2012:0987-01",
+          "id": 13147
+        }
+      },
+      "type": "external_tests"
+    }
+  ]
+}

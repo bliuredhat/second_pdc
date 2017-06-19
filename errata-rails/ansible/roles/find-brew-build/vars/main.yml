@@ -1,0 +1,5 @@
+---
+build_name_format: errata-rails-%s-%s.el6eso
+rpm_name_format: '%s.noarch.rpm'
+download_dir: /tmp
+builds_index: https://brewweb.engineering.redhat.com/brew/packageinfo?packageID=3915

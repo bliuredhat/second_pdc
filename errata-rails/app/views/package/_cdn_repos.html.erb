@@ -1,0 +1,17 @@
+<b>This package is associated with the following <%= 'CDN repository'.pluralize(@package.cdn_repos.count) %>:</b>
+<ul>
+  <% @package.cdn_repo_packages.each do |r| =%>
+    <li><%= link_to r.cdn_repo.name, variant_cdn_repo_path(r.cdn_repo.variant, r.cdn_repo) %> </li>
+    <% if r.cdn_repo_package_tags.any? %>
+      using these tags:
+      <ul>
+        <% r.tag_templates.each do |t| %>
+          <li><%= t %></li>
+        <% end %>
+      </ul>
+    <% else %>
+      <i>No tags defined</i>
+    <% end %>
+  <% end %>
+</ul>
+

@@ -1,0 +1,10 @@
+{
+  "channel": {
+    "name": "new_channel_name",
+    "release_type": "Primary",
+    "variant_name": "7Client",
+    "arch_name": "x86_64",
+    "use_for_tps": true
+  }
+}
+

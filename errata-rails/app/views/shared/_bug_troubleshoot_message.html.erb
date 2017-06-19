@@ -1,0 +1,5 @@
+<%# This can take a local bug_id %>
+If you can't see a bug you are expecting to see or you can't add a particular bug to an advisory, please see the
+<%= link_to 'Bug Advisory Eligibility', {:controller=>'bugs', :action=>'troubleshoot', :bug_id=>((defined?(bug_id) ? bug_id : nil) || @bug_id || @bug || nil)}, :target=>"_blank" %>
+page, or the <%= link_to "Syncing Bugs FAQ", Settings.syncing_bugs_faq_url, :target=>"_blank" %> page
+to help identify the reasons why.

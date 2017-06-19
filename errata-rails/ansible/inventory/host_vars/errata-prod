@@ -1,0 +1,5 @@
+---
+ansible_ssh_host: errata.devel.redhat.com
+
+rails_env: production
+site_url: https://errata.devel.redhat.com/errata

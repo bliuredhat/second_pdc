@@ -1,0 +1,206 @@
+<h1>Preview Changes </h1>
+<%= javascript_include_tag "spelling" %>
+
+<span class="light small">(To re-edit use your back button)</span>
+
+<%= form_tag :action => 'save_errata' do %>
+
+  <%= block_render 'shared/pretty_form_container', :submit_tag_content => submit_tag("Save Errata", :action => 'save_errata', :class=>'btn btn-primary') do %>
+
+    <% unless @cve_problems.empty? %>
+      <%= render(:partial => 'cve_warnings') %>
+    <% end %>
+
+    <% if @advisory.new_record? %>
+      <%# For a new advisory, show the message about bugs. Probably only useful when it is a Y-stream... %>
+      <p><b>Note:</b> <%= render 'shared/bug_troubleshoot_message' %></p>
+    <% else %>
+      <div class="infobox grey" ><div style="background-color:#f8f8f8;">
+        <table style="margin-bottom:0em;">
+          <tr>
+            <%# Won't expect anyone to want to request docs approval when creating an advisory %>
+            <td style="vertical-align:middle;padding-right:2em;">
+              <% if @advisory.docs_approved? && !@advisory.docs_have_changed? %>
+                <%# No need to request docs approval because it is already approved and there are no changes %>
+                (Docs approval already approved)
+
+              <% elsif @advisory.docs_approved? && @advisory.docs_have_changed? %>
+                <%# This will cause docs approval to be recinded so need to ask if user wants to request approval again %>
+                &nbsp;<%= check_box(:advisory, :request_docs_approval_after_persist) %> <%= label(:advisory, :request_docs_approval_after_persist, 'Request docs approval') %>
+
+              <% elsif @advisory.docs_approval_requested? %>
+                <%# No need to request docs approval because it is already requested %>
+                (Docs approval already requested)
+
+              <% else %>
+                <%# Docs approval not requested or approved %>
+                <%# User can request it if they want to %>
+                &nbsp;<%= check_box(:advisory, :request_docs_approval_after_persist) %> <%= label(:advisory, :request_docs_approval_after_persist, 'Request docs approval') %>
+
+              <% end %>
+            </td>
+          </tr>
+        </table>
+      </div></div>
+    <% end %>
+
+
+    <%= render 'docs_approved_message' %>
+    <br/>
+
+    <% unless @advisory.new_record? %>
+      <h3>Docs Approval Status:</h3>
+      <p style="margin:0 0 1em 2em;"><%= @advisory.docs_status_text %></p>
+      <% if @advisory.docs_have_changed? %>
+        <h3>Changes:</h3>
+        <pre style="margin:0.5em 0 1em 2.5em;line-height:120%;">
+        <% if @advisory.diffs.any? %>
+<%= @advisory.diffs_to_text %><br/>
+        <% end %>
+        <% if @advisory.issues_have_changed? %>
+<%= @advisory.changed_issues_diff_text%>
+        <% end %>
+        </pre>
+      <% end %>
+    <% end %>
+
+    <% if @spelling_errors.any? %>
+      <h3>Spelling Errors:</h3>
+      <ul id="spelling-errors" style="margin-top:0;">
+        <% @spelling_errors.each_pair do |key, list| %>
+          <li style="line-height:100%;font-size:85%;" data-key="<%= key %>" data-list="<%= list.join(',')%>"><b><%=h key %></b>:&nbsp;<%=h list.join(', ') %></li>
+        <% end %>
+      </ul>
+    <% end %>
+
+    <% unless @url_issues.empty? %>
+      <h3>Check these reference URLs that gave errors:</h3>
+      <ul style="margin-top:0;">
+        <% @url_issues.each do |url| %>
+          <li style="line-height:100%;font-size:85%;"><%= url %></li>
+        <% end %>
+      </ul>
+    <% end %>
+
+    <% unless @advisory.new_record? %>
+      <%= hidden_field_tag(:id, @advisory.id) %>
+    <% end %>
+    <%= hidden_field(:advisory, :errata_type) %>
+    <%= hidden_field(:advisory, :security_impact) %>
+    <%= hidden_field(:advisory, :supports_multiple_product_destinations) %>
+    <%= hidden_field(:advisory, :text_only) %>
+
+    <%= hidden_field(:advisory, :enable_embargo_date) %>
+    <%= hidden_field(:advisory, :release_date) %><%# actually this is the embargo date %>
+
+    <%= hidden_field(:advisory, :enable_release_date) %>
+    <%= hidden_field(:advisory, :publish_date_override) %><%# actually this is the release date %>
+
+    <%= hidden_field(:advisory, :synopsis) %>
+    <%= hidden_field(:advisory, :package_owner_email) %>
+    <%= hidden_field(:advisory, :manager_email) %>
+    <%= hidden_field(:advisory, :assigned_to_email) %>
+    <%= hidden_field(:product, :id) %>
+    <%= hidden_field(:release, :id) %>
+    <%= hidden_field(:advisory, :idsfixed) %>
+    <%= hidden_field(:advisory, :text_only_cpe) %>
+    <%= hidden_field(:advisory, :product_version_text) %>
+    <%= hidden_field(:advisory, :reference) %>
+    <%= hidden_field(:advisory, :topic) %>
+    <%= hidden_field(:advisory, :solution) %>
+    <%= hidden_field(:advisory, :cve) %>
+    <%= hidden_field(:advisory, :description) %>
+    <%= hidden_field(:advisory, :crossref) %>
+    <%= hidden_field(:advisory, :keywords) %>
+
+<div id="errata_text" style="white-space:pre-wrap;margin-top:1.5em;padding:0.5em 2em 2em 2em;border:1px solid #ccc;font-size:110%;background-color:#f8f8f8;"><tt>
+---------------------------------------------------------------------
+                   <%= @advisory.fulltype %>
+Synopsis:          <div id="synopsis" style="display:inline;"><%= @advisory.synopsis_preview %></div>
+Advisory ID:       <%= @advisory.advisory_name %>
+Advisory URL:      <%= Errata.public_url(@advisory.advisory_name) %>
+Issue date:        <% if @advisory.issue_date %><%= @advisory.issue_date.to_date %><% else %><%= Time.now.to_date %><% end %>
+Updated on:        <% if @advisory.update_date %><%= @advisory.update_date.to_date %><% else %><%= Time.now.to_date %><% end %>
+Product:           <%= @advisory.product.name %>
+<% if @advisory.content.keywords? -%>
+Keywords:          <%= @advisory.content.keywords %>
+<% end -%>
+<% if @advisory.content.crossref? -%>
+Cross references:  <%= @advisory.content.crossref %>
+<% end -%>
+<% if @advisory.content.obsoletes? -%>
+Obsoletes:        <%= @advisory.content.obsoletes %>
+<% end -%>
+<% if @advisory.content.cve? -%>
+<% cve_display = []
+   cve3 = []
+   cve_list = @advisory.cve_list
+   cve_list.each do |c|
+     cve3 << c
+     if cve3.length == 3
+      cve_display << cve3.join(' ')
+      cve3 = []
+     end
+   end
+   cve_display << cve3.join(' ') unless cve3.empty?
+-%>
+CVE Names:         <%= cve_display.join("\n                   ") %>
+<% end -%>
+---------------------------------------------------------------------
+
+<% count = 1 -%>
+<%= count %>. Summary:
+<div id="topic">
+<%=h @advisory.content.topic %>
+</div>
+<%= count += 1 %>. Problem Description:
+<div id="description" >
+<%=h @advisory.content.description %>
+</div>
+<%= count += 1 %>. Solution:
+
+<%=h @advisory.content.solution %>
+<% unless @advisory.bugs.buglist.empty? %>
+
+<%= count += 1 %>. Bug IDs fixed (https://bugzilla.redhat.com/):
+
+<% for bug in @advisory.bugs.buglist -%>
+<%= bug.id %> - <%=h bug.short_desc %>
+<% end -%>
+<% end %>
+
+<% unless @advisory.jira_issues.list.empty? %>
+<%= count += 1 %>. <%= JiraIssue.readable_name.pluralize %> fixed (<%= JiraIssue.base_url %>):
+
+<% for jira_issue in @advisory.jira_issues.list -%>
+<%= jira_issue.key %> - <%=h jira_issue.summary %>
+<% end -%>
+<% end %>
+<% if @advisory.content.reference? || @advisory.content.cve? -%>
+
+<%= count += 1 %>. References:
+
+<% if @advisory.content.cve? -%>
+<% @advisory.content.cve.split(' ').each do |c| -%>
+<%= cve_url(c) %>
+<% end -%>
+<% end -%>
+<% if @advisory.content.reference? -%>
+<%= @advisory.content.reference %>
+<% end -%>
+<% end -%>
+
+<%= count += 1 %>. Contact:
+
+The Red Hat security contact is secalert@redhat.com. More contact
+details at https://access.redhat.com/security/team/contact/
+
+Copyright <%= Time.now.year %> Red Hat, Inc.
+</tt></div>
+
+  <% end %><%# end block_render %>
+<% end %><%# end form %>
+
+<% if @advisory.new_record? %>
+  <p><%= link_to('Start Over', :action => 'new_choose') %></p>
+<% end %>

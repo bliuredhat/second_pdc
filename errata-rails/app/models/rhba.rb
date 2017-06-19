@@ -1,0 +1,2 @@
+class RHBA < LegacyErrata
+end

@@ -1,0 +1,3038 @@
+--- 
+errata_brew_mapping_00628: 
+  added_index_id: 
+  brew_build_id: 56841
+  build_tag: dist-4E-cluster-U4-errata
+  created_at: 2007-02-21 12:14:16 -05:00
+  current: 1
+  errata_id: 5028
+  id: 628
+  package_id: 110
+  product_version_id: 8
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_02325: 
+  added_index_id: 
+  brew_build_id: 65336
+  build_tag: dist-5E-rhx
+  created_at: 2007-09-19 15:38:17 -04:00
+  current: 1
+  errata_id: 6310
+  id: 2325
+  package_id: 1560
+  product_version_id: 27
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_03661: 
+  added_index_id: 
+  brew_build_id: 69360
+  build_tag: dist-4E-U6-errata
+  created_at: 2008-02-19 09:38:09 -05:00
+  current: 1
+  errata_id: 7058
+  id: 3661
+  package_id: 201
+  product_version_id: 3
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_03662: 
+  added_index_id: 
+  brew_build_id: 69361
+  build_tag: dist-4E-U6-errata
+  created_at: 2008-02-19 09:38:17 -05:00
+  current: 0
+  errata_id: 7058
+  id: 3662
+  package_id: 416
+  product_version_id: 3
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_04643: 
+  added_index_id: 
+  brew_build_id: 70726
+  build_tag: dist-4E-U6-errata
+  created_at: 2008-04-30 05:01:24 -04:00
+  current: 1
+  errata_id: 7058
+  id: 4643
+  package_id: 416
+  product_version_id: 3
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05059: 
+  added_index_id: 
+  brew_build_id: 72722
+  build_tag: hwcert-4E
+  created_at: 2008-06-18 16:04:32 -04:00
+  current: 1
+  errata_id: 7390
+  id: 5059
+  package_id: 1380
+  product_version_id: 15
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05185: 
+  added_index_id: 
+  brew_build_id: 73246
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 13:26:54 -04:00
+  current: 0
+  errata_id: 7517
+  id: 5185
+  package_id: 1911
+  product_version_id: 71
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05186: 
+  added_index_id: 
+  brew_build_id: 72783
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 13:27:04 -04:00
+  current: 0
+  errata_id: 7517
+  id: 5186
+  package_id: 1915
+  product_version_id: 69
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05187: 
+  added_index_id: 
+  brew_build_id: 72811
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 13:27:08 -04:00
+  current: 0
+  errata_id: 7517
+  id: 5187
+  package_id: 1910
+  product_version_id: 70
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05188: 
+  added_index_id: 
+  brew_build_id: 72810
+  build_tag: dist-5E-mrg
+  created_at: 2008-07-07 14:12:22 -04:00
+  current: 0
+  errata_id: 7519
+  id: 5188
+  package_id: 1910
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05189: 
+  added_index_id: 
+  brew_build_id: 73010
+  build_tag: dist-5E-mrg
+  created_at: 2008-07-07 14:13:41 -04:00
+  current: 0
+  errata_id: 7519
+  id: 5189
+  package_id: 1915
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05190: 
+  added_index_id: 
+  brew_build_id: 73245
+  build_tag: dist-5E-mrg
+  created_at: 2008-07-07 14:36:48 -04:00
+  current: 0
+  errata_id: 7519
+  id: 5190
+  package_id: 1911
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05196: 
+  added_index_id: 
+  brew_build_id: 73245
+  build_tag: dist-5E-mrg
+  created_at: 2008-07-07 15:36:33 -04:00
+  current: 1
+  errata_id: 7519
+  id: 5196
+  package_id: 1911
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05197: 
+  added_index_id: 
+  brew_build_id: 72591
+  build_tag: dist-5E-mrg
+  created_at: 2008-07-07 15:37:02 -04:00
+  current: 1
+  errata_id: 7519
+  id: 5197
+  package_id: 1916
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05198: 
+  added_index_id: 
+  brew_build_id: 72810
+  build_tag: dist-5E-mrg
+  created_at: 2008-07-07 15:51:10 -04:00
+  current: 1
+  errata_id: 7519
+  id: 5198
+  package_id: 1910
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05199: 
+  added_index_id: 
+  brew_build_id: 72816
+  build_tag: dist-5E-mrg
+  created_at: 2008-07-07 15:51:11 -04:00
+  current: 1
+  errata_id: 7519
+  id: 5199
+  package_id: 1912
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05200: 
+  added_index_id: 
+  brew_build_id: 73010
+  build_tag: dist-5E-mrg
+  created_at: 2008-07-07 15:51:15 -04:00
+  current: 1
+  errata_id: 7519
+  id: 5200
+  package_id: 1915
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05201: 
+  added_index_id: 
+  brew_build_id: 72839
+  build_tag: dist-5E-rt
+  created_at: 2008-07-07 15:53:25 -04:00
+  current: 1
+  errata_id: 7519
+  id: 5201
+  package_id: 1917
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05202: 
+  added_index_id: 
+  brew_build_id: 73246
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 16:00:24 -04:00
+  current: 1
+  errata_id: 7517
+  id: 5202
+  package_id: 1911
+  product_version_id: 71
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05203: 
+  added_index_id: 
+  brew_build_id: 72592
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 16:00:32 -04:00
+  current: 1
+  errata_id: 7517
+  id: 5203
+  package_id: 1916
+  product_version_id: 71
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05204: 
+  added_index_id: 
+  brew_build_id: 72783
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 16:00:35 -04:00
+  current: 0
+  errata_id: 7517
+  id: 5204
+  package_id: 1915
+  product_version_id: 69
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05205: 
+  added_index_id: 
+  brew_build_id: 72783
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 16:00:38 -04:00
+  current: 0
+  errata_id: 7517
+  id: 5205
+  package_id: 1915
+  product_version_id: 70
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05206: 
+  added_index_id: 
+  brew_build_id: 72811
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 16:00:40 -04:00
+  current: 1
+  errata_id: 7517
+  id: 5206
+  package_id: 1910
+  product_version_id: 70
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05207: 
+  added_index_id: 
+  brew_build_id: 72783
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 16:05:42 -04:00
+  current: 0
+  errata_id: 7517
+  id: 5207
+  package_id: 1915
+  product_version_id: 70
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05208: 
+  added_index_id: 
+  brew_build_id: 72783
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 16:07:04 -04:00
+  current: 1
+  errata_id: 7517
+  id: 5208
+  package_id: 1915
+  product_version_id: 69
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05209: 
+  added_index_id: 
+  brew_build_id: 72783
+  build_tag: dist-4E-mrg
+  created_at: 2008-07-07 16:08:12 -04:00
+  current: 1
+  errata_id: 7517
+  id: 5209
+  package_id: 1915
+  product_version_id: 70
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05704: 
+  added_index_id: 
+  brew_build_id: 74432
+  build_tag: dist-5E-ipa-1.0
+  created_at: 2008-08-25 16:54:44 -04:00
+  current: 0
+  errata_id: 7679
+  id: 5704
+  package_id: 1876
+  product_version_id: 66
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05706: 
+  added_index_id: 
+  brew_build_id: 74518
+  build_tag: dist-5E-ipa-1.0
+  created_at: 2008-08-25 18:06:43 -04:00
+  current: 0
+  errata_id: 7679
+  id: 5706
+  package_id: 1876
+  product_version_id: 66
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_05762: 
+  added_index_id: 
+  brew_build_id: 74621
+  build_tag: dist-5E-ipa-1.0
+  created_at: 2008-08-28 10:51:48 -04:00
+  current: 1
+  errata_id: 7679
+  id: 5762
+  package_id: 1876
+  product_version_id: 66
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_07441: 
+  added_index_id: 
+  brew_build_id: 77161
+  build_tag: 
+  created_at: 2008-10-30 04:11:07 -04:00
+  current: 0
+  errata_id: 8013
+  id: 7441
+  package_id: 2630
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_07462: 
+  added_index_id: 
+  brew_build_id: 77152
+  build_tag: 
+  created_at: 2008-10-31 00:23:03 -04:00
+  current: 0
+  errata_id: 8013
+  id: 7462
+  package_id: 2631
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 
+errata_brew_mapping_07649: 
+  added_index_id: 
+  brew_build_id: 72375
+  build_tag: 
+  created_at: 2008-11-13 22:12:11 -05:00
+  current: 1
+  errata_id: 8013
+  id: 7649
+  package_id: 2646
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 2
+  updated_at: 
+errata_brew_mapping_07650: 
+  added_index_id: 
+  brew_build_id: 72344
+  build_tag: 
+  created_at: 2008-11-13 22:13:53 -05:00
+  current: 1
+  errata_id: 8013
+  id: 7650
+  package_id: 2647
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 2
+  updated_at: 
+errata_brew_mapping_07651: 
+  added_index_id: 
+  brew_build_id: 77693
+  build_tag: 
+  created_at: 2008-11-13 22:15:13 -05:00
+  current: 0
+  errata_id: 8013
+  id: 7651
+  package_id: 2645
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 2
+  updated_at: 
+errata_brew_mapping_07652: 
+  added_index_id: 
+  brew_build_id: 77553
+  build_tag: 
+  created_at: 2008-11-13 22:16:27 -05:00
+  current: 0
+  errata_id: 8013
+  id: 7652
+  package_id: 2644
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 2
+  updated_at: 
+errata_brew_mapping_09293: 
+  added_index_id: 
+  brew_build_id: 80871
+  build_tag: 
+  created_at: 2009-01-27 18:43:27 -05:00
+  current: 0
+  errata_id: 8013
+  id: 9293
+  package_id: 2631
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 3
+  updated_at: 
+errata_brew_mapping_09534: 
+  added_index_id: 
+  brew_build_id: 78629
+  build_tag: 
+  created_at: 2009-02-03 17:39:41 -05:00
+  current: 1
+  errata_id: 8013
+  id: 9534
+  package_id: 2645
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 4
+  updated_at: 
+errata_brew_mapping_09545: 
+  added_index_id: 
+  brew_build_id: 79182
+  build_tag: 
+  created_at: 2009-02-04 20:31:23 -05:00
+  current: 0
+  errata_id: 8013
+  id: 9545
+  package_id: 2644
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 5
+  updated_at: 
+errata_brew_mapping_09546: 
+  added_index_id: 
+  brew_build_id: 81177
+  build_tag: 
+  created_at: 2009-02-05 02:53:53 -05:00
+  current: 1
+  errata_id: 8013
+  id: 9546
+  package_id: 2644
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 6
+  updated_at: 
+errata_brew_mapping_09547: 
+  added_index_id: 
+  brew_build_id: 81178
+  build_tag: 
+  created_at: 2009-02-05 02:53:54 -05:00
+  current: 1
+  errata_id: 8013
+  id: 9547
+  package_id: 2631
+  product_version_id: 96
+  removed_index_id: 
+  shipped: 0
+  spin_version: 6
+  updated_at: 
+errata_brew_mapping_11544: 
+  added_index_id: 
+  brew_build_id: 90547
+  build_tag: 
+  created_at: 2009-06-30 08:52:29 -04:00
+  current: 1
+  errata_id: 8742
+  id: 11544
+  package_id: 2122
+  product_version_id: 72
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_11574: 
+  added_index_id: 
+  brew_build_id: 90822
+  build_tag: 
+  created_at: 2009-07-06 08:58:14 -04:00
+  current: 1
+  errata_id: 8751
+  id: 11574
+  package_id: 232
+  product_version_id: 36
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_13654: 
+  added_index_id: 
+  brew_build_id: 121527
+  build_tag: 
+  created_at: 2009-12-14 15:03:48 -05:00
+  current: 1
+  errata_id: 9190
+  id: 13654
+  package_id: 1911
+  product_version_id: 71
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_13655: 
+  added_index_id: 
+  brew_build_id: 121527
+  build_tag: 
+  created_at: 2009-12-14 15:03:58 -05:00
+  current: 1
+  errata_id: 9190
+  id: 13655
+  package_id: 1911
+  product_version_id: 102
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_13942: 
+  added_index_id: 
+  brew_build_id: 122148
+  build_tag: 
+  created_at: 2010-01-12 10:06:49 -05:00
+  current: 0
+  errata_id: 9325
+  id: 13942
+  package_id: 1583
+  product_version_id: 58
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_13948: 
+  added_index_id: 
+  brew_build_id: 122910
+  build_tag: 
+  created_at: 2010-01-12 17:41:50 -05:00
+  current: 1
+  errata_id: 9325
+  id: 13948
+  package_id: 1583
+  product_version_id: 58
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_14367: 
+  added_index_id: 
+  brew_build_id: 126837
+  build_tag: 
+  created_at: 2010-02-25 17:43:03 -05:00
+  current: 0
+  errata_id: 9407
+  id: 14367
+  package_id: 14597
+  product_version_id: 109
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_14552: 
+  added_index_id: 
+  brew_build_id: 127068
+  build_tag: 
+  created_at: 2010-03-01 17:43:39 -05:00
+  current: 0
+  errata_id: 9407
+  id: 14552
+  package_id: 14597
+  product_version_id: 109
+  removed_index_id: 
+  shipped: 0
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_14577: 
+  added_index_id: 
+  brew_build_id: 127206
+  build_tag: 
+  created_at: 2010-03-02 18:43:17 -05:00
+  current: 1
+  errata_id: 9407
+  id: 14577
+  package_id: 14597
+  product_version_id: 109
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 
+errata_brew_mapping_14979: 
+  added_index_id: 
+  brew_build_id: 127995
+  build_tag: 
+  created_at: 2010-03-23 12:16:55 -04:00
+  current: 1
+  errata_id: 9494
+  id: 14979
+  package_id: 4
+  product_version_id: 11
+  removed_index_id: 
+  shipped: 1
+  spin_version: 0
+  updated_at: 
+errata_brew_mapping_17094: 
+  added_index_id: 1373
+  brew_build_id: 137283
+  build_tag: 
+  created_at: 2010-07-27 09:17:05 -04:00
+  current: 1
+  errata_id: 9755
+  id: 17094
+  package_id: 2633
+  product_version_id: 98
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-08-02 16:39:04 -04:00
+errata_brew_mapping_17095: 
+  added_index_id: 1373
+  brew_build_id: 138357
+  build_tag: 
+  created_at: 2010-07-27 09:17:07 -04:00
+  current: 1
+  errata_id: 9755
+  id: 17095
+  package_id: 677
+  product_version_id: 98
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-08-02 16:39:04 -04:00
+errata_brew_mapping_17096: 
+  added_index_id: 1373
+  brew_build_id: 137251
+  build_tag: 
+  created_at: 2010-07-27 09:17:10 -04:00
+  current: 1
+  errata_id: 9755
+  id: 17096
+  package_id: 2633
+  product_version_id: 97
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-08-02 16:39:04 -04:00
+errata_brew_mapping_17097: 
+  added_index_id: 1373
+  brew_build_id: 138356
+  build_tag: 
+  created_at: 2010-07-27 09:17:12 -04:00
+  current: 0
+  errata_id: 9755
+  id: 17097
+  package_id: 677
+  product_version_id: 97
+  removed_index_id: 1373
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-07-27 11:33:57 -04:00
+errata_brew_mapping_17098: 
+  added_index_id: 1373
+  brew_build_id: 138432
+  build_tag: 
+  created_at: 2010-07-27 11:33:57 -04:00
+  current: 1
+  errata_id: 9755
+  id: 17098
+  package_id: 677
+  product_version_id: 97
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-08-02 16:39:05 -04:00
+errata_brew_mapping_17291: 
+  added_index_id: 1372
+  brew_build_id: 138617
+  build_tag: 
+  created_at: 2010-07-28 17:03:11 -04:00
+  current: 1
+  errata_id: 9754
+  id: 17291
+  package_id: 677
+  product_version_id: 7
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-08-02 16:17:44 -04:00
+errata_brew_mapping_17341: 
+  added_index_id: 1371
+  brew_build_id: 138828
+  build_tag: 
+  created_at: 2010-07-29 18:58:37 -04:00
+  current: 1
+  errata_id: 9753
+  id: 17341
+  package_id: 677
+  product_version_id: 18
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-08-02 16:17:39 -04:00
+errata_brew_mapping_18296: 
+  added_index_id: 2093
+  brew_build_id: 144277
+  build_tag: 
+  created_at: 2010-09-27 14:44:43 -04:00
+  current: 0
+  errata_id: 9883
+  id: 18296
+  package_id: 1952
+  product_version_id: 68
+  removed_index_id: 3111
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-10-04 12:21:13 -04:00
+errata_brew_mapping_18396: 
+  added_index_id: 3111
+  brew_build_id: 145079
+  build_tag: 
+  created_at: 2010-10-04 12:22:00 -04:00
+  current: 1
+  errata_id: 9883
+  id: 18396
+  package_id: 1952
+  product_version_id: 68
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-10-07 22:12:03 -04:00
+errata_brew_mapping_19123: 
+  added_index_id: 1821
+  brew_build_id: 145346
+  build_tag: 
+  created_at: 2010-10-14 12:29:38 -04:00
+  current: 0
+  errata_id: 9829
+  id: 19123
+  package_id: 16504
+  product_version_id: 100
+  removed_index_id: 4208
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-11-30 16:58:58 -05:00
+errata_brew_mapping_19124: 
+  added_index_id: 1821
+  brew_build_id: 146278
+  build_tag: 
+  created_at: 2010-10-14 12:29:38 -04:00
+  current: 0
+  errata_id: 9829
+  id: 19124
+  package_id: 16504
+  product_version_id: 101
+  removed_index_id: 4208
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-11-30 16:58:59 -05:00
+errata_brew_mapping_19148: 
+  added_index_id: 3548
+  brew_build_id: 146306
+  build_tag: 
+  created_at: 2010-10-15 13:10:14 -04:00
+  current: 1
+  errata_id: 10140
+  id: 19148
+  package_id: 1568
+  product_version_id: 58
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-11-08 15:06:51 -05:00
+errata_brew_mapping_19149: 
+  added_index_id: 3548
+  brew_build_id: 146308
+  build_tag: 
+  created_at: 2010-10-15 13:10:14 -04:00
+  current: 1
+  errata_id: 10140
+  id: 19149
+  package_id: 1565
+  product_version_id: 58
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-11-08 15:06:52 -05:00
+errata_brew_mapping_19150: 
+  added_index_id: 3548
+  brew_build_id: 146317
+  build_tag: 
+  created_at: 2010-10-15 13:10:15 -04:00
+  current: 1
+  errata_id: 10140
+  id: 19150
+  package_id: 1569
+  product_version_id: 58
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2010-11-08 15:06:52 -05:00
+errata_brew_mapping_19427: 
+  added_index_id: 3958
+  brew_build_id: 147659
+  build_tag: 
+  created_at: 2010-10-28 03:48:01 -04:00
+  current: 0
+  errata_id: 10205
+  id: 19427
+  package_id: 14067
+  product_version_id: 3
+  removed_index_id: 3958
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-10-28 08:43:26 -04:00
+errata_brew_mapping_19428: 
+  added_index_id: 3958
+  brew_build_id: 147658
+  build_tag: 
+  created_at: 2010-10-28 03:48:04 -04:00
+  current: 0
+  errata_id: 10205
+  id: 19428
+  package_id: 14067
+  product_version_id: 16
+  removed_index_id: 3958
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-10-28 08:43:29 -04:00
+errata_brew_mapping_19429: 
+  added_index_id: 3958
+  brew_build_id: 147656
+  build_tag: 
+  created_at: 2010-10-28 03:48:07 -04:00
+  current: 0
+  errata_id: 10205
+  id: 19429
+  package_id: 14067
+  product_version_id: 149
+  removed_index_id: 3958
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-10-28 08:35:47 -04:00
+errata_brew_mapping_19432: 
+  added_index_id: 3958
+  brew_build_id: 147800
+  build_tag: 
+  created_at: 2010-10-28 08:43:26 -04:00
+  current: 1
+  errata_id: 10205
+  id: 19432
+  package_id: 14067
+  product_version_id: 3
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-10-28 08:43:26 -04:00
+errata_brew_mapping_19433: 
+  added_index_id: 3958
+  brew_build_id: 147799
+  build_tag: 
+  created_at: 2010-10-28 08:43:29 -04:00
+  current: 1
+  errata_id: 10205
+  id: 19433
+  package_id: 14067
+  product_version_id: 16
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2010-10-28 08:43:29 -04:00
+errata_brew_mapping_19695: 
+  added_index_id: 4775
+  brew_build_id: 149891
+  build_tag: 
+  created_at: 2010-11-19 07:00:49 -05:00
+  current: 1
+  errata_id: 10305
+  id: 19695
+  package_id: 2275
+  product_version_id: 74
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-01-03 13:18:16 -05:00
+errata_brew_mapping_19696: 
+  added_index_id: 4775
+  brew_build_id: 149892
+  build_tag: 
+  created_at: 2010-11-19 07:00:51 -05:00
+  current: 1
+  errata_id: 10305
+  id: 19696
+  package_id: 2275
+  product_version_id: 73
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-01-03 13:18:16 -05:00
+errata_brew_mapping_19787: 
+  added_index_id: 4208
+  brew_build_id: 150492
+  build_tag: 
+  created_at: 2010-11-30 16:58:58 -05:00
+  current: 1
+  errata_id: 9829
+  id: 19787
+  package_id: 16504
+  product_version_id: 100
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-01-25 10:34:21 -05:00
+errata_brew_mapping_19788: 
+  added_index_id: 4208
+  brew_build_id: 150490
+  build_tag: 
+  created_at: 2010-11-30 16:58:59 -05:00
+  current: 1
+  errata_id: 9829
+  id: 19788
+  package_id: 16504
+  product_version_id: 101
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-01-25 10:34:21 -05:00
+errata_brew_mapping_20429: 
+  added_index_id: 5039
+  brew_build_id: 152276
+  build_tag: 
+  created_at: 2011-01-17 05:22:10 -05:00
+  current: 0
+  errata_id: 10326
+  id: 20429
+  package_id: 16517
+  product_version_id: 150
+  removed_index_id: 5039
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-01-17 08:42:14 -05:00
+errata_brew_mapping_20440: 
+  added_index_id: 5039
+  brew_build_id: 154358
+  build_tag: 
+  created_at: 2011-01-17 08:42:14 -05:00
+  current: 0
+  errata_id: 10326
+  id: 20440
+  package_id: 16517
+  product_version_id: 150
+  removed_index_id: 5039
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-01-17 11:52:46 -05:00
+errata_brew_mapping_20460: 
+  added_index_id: 5039
+  brew_build_id: 154386
+  build_tag: 
+  created_at: 2011-01-17 11:52:46 -05:00
+  current: 0
+  errata_id: 10326
+  id: 20460
+  package_id: 16517
+  product_version_id: 150
+  removed_index_id: 5039
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-01-17 12:48:03 -05:00
+errata_brew_mapping_20462: 
+  added_index_id: 5039
+  brew_build_id: 154403
+  build_tag: 
+  created_at: 2011-01-17 12:48:03 -05:00
+  current: 0
+  errata_id: 10326
+  id: 20462
+  package_id: 16517
+  product_version_id: 150
+  removed_index_id: 6743
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-01-18 08:39:25 -05:00
+errata_brew_mapping_20486: 
+  added_index_id: 6743
+  brew_build_id: 154483
+  build_tag: 
+  created_at: 2011-01-18 08:39:25 -05:00
+  current: 0
+  errata_id: 10326
+  id: 20486
+  package_id: 16517
+  product_version_id: 150
+  removed_index_id: 6786
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-01-19 09:17:51 -05:00
+errata_brew_mapping_20519: 
+  added_index_id: 6786
+  brew_build_id: 154621
+  build_tag: 
+  created_at: 2011-01-19 09:17:52 -05:00
+  current: 1
+  errata_id: 10326
+  id: 20519
+  package_id: 16517
+  product_version_id: 150
+  removed_index_id: 
+  shipped: 0
+  spin_version: 2
+  updated_at: 2011-01-19 09:17:52 -05:00
+errata_brew_mapping_20747: 
+  added_index_id: 6797
+  brew_build_id: 155678
+  build_tag: 
+  created_at: 2011-01-28 14:01:01 -05:00
+  current: 1
+  errata_id: 10610
+  id: 20747
+  package_id: 1594
+  product_version_id: 60
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-22 12:46:01 -05:00
+errata_brew_mapping_20748: 
+  added_index_id: 6797
+  brew_build_id: 155677
+  build_tag: 
+  created_at: 2011-01-28 14:01:03 -05:00
+  current: 1
+  errata_id: 10610
+  id: 20748
+  package_id: 1594
+  product_version_id: 61
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-22 12:46:01 -05:00
+errata_brew_mapping_20749: 
+  added_index_id: 6797
+  brew_build_id: 155682
+  build_tag: 
+  created_at: 2011-01-28 14:35:20 -05:00
+  current: 1
+  errata_id: 10610
+  id: 20749
+  package_id: 1593
+  product_version_id: 60
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-22 12:46:01 -05:00
+errata_brew_mapping_20750: 
+  added_index_id: 6797
+  brew_build_id: 155679
+  build_tag: 
+  created_at: 2011-01-28 14:35:21 -05:00
+  current: 1
+  errata_id: 10610
+  id: 20750
+  package_id: 1593
+  product_version_id: 61
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-22 12:46:01 -05:00
+errata_brew_mapping_20961: 
+  added_index_id: 7268
+  brew_build_id: 155873
+  build_tag: 
+  created_at: 2011-02-03 16:01:14 -05:00
+  current: 1
+  errata_id: 10718
+  id: 20961
+  package_id: 1373
+  product_version_id: 150
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-02-03 16:01:14 -05:00
+errata_brew_mapping_21198: 
+  added_index_id: 7856
+  brew_build_id: 156648
+  build_tag: 
+  created_at: 2011-02-14 17:15:28 -05:00
+  current: 1
+  errata_id: 10808
+  id: 21198
+  package_id: 14508
+  product_version_id: 150
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-02-14 17:15:28 -05:00
+errata_brew_mapping_21357: 
+  added_index_id: 8144
+  brew_build_id: 157288
+  build_tag: 
+  created_at: 2011-02-17 09:15:16 -05:00
+  current: 0
+  errata_id: 10827
+  id: 21357
+  package_id: 14538
+  product_version_id: 148
+  removed_index_id: 8179
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-02-18 05:57:44 -05:00
+errata_brew_mapping_21358: 
+  added_index_id: 8144
+  brew_build_id: 157289
+  build_tag: 
+  created_at: 2011-02-17 09:15:20 -05:00
+  current: 1
+  errata_id: 10827
+  id: 21358
+  package_id: 14541
+  product_version_id: 148
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-23 14:01:27 -05:00
+errata_brew_mapping_21662: 
+  added_index_id: 8179
+  brew_build_id: 157385
+  build_tag: 
+  created_at: 2011-02-18 05:57:45 -05:00
+  current: 1
+  errata_id: 10827
+  id: 21662
+  package_id: 14538
+  product_version_id: 148
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-23 14:01:28 -05:00
+errata_brew_mapping_21674: 
+  added_index_id: 8197
+  brew_build_id: 157451
+  build_tag: 
+  created_at: 2011-02-18 17:32:37 -05:00
+  current: 1
+  errata_id: 10836
+  id: 21674
+  package_id: 1029
+  product_version_id: 149
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-02-18 17:32:37 -05:00
+errata_brew_mapping_21730: 
+  added_index_id: 8258
+  brew_build_id: 156613
+  build_tag: 
+  created_at: 2011-02-22 02:24:46 -05:00
+  current: 1
+  errata_id: 10842
+  id: 21730
+  package_id: 826
+  product_version_id: 16
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-02-22 02:24:46 -05:00
+errata_brew_mapping_21775: 
+  added_index_id: 8309
+  brew_build_id: 157514
+  build_tag: 
+  created_at: 2011-02-23 02:48:31 -05:00
+  current: 1
+  errata_id: 10844
+  id: 21775
+  package_id: 16390
+  product_version_id: 123
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-23 13:41:01 -05:00
+errata_brew_mapping_21776: 
+  added_index_id: 8309
+  brew_build_id: 157511
+  build_tag: 
+  created_at: 2011-02-23 02:48:33 -05:00
+  current: 1
+  errata_id: 10844
+  id: 21776
+  package_id: 16390
+  product_version_id: 110
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-23 13:41:01 -05:00
+errata_brew_mapping_21777: 
+  added_index_id: 8309
+  brew_build_id: 157836
+  build_tag: 
+  created_at: 2011-02-23 03:27:01 -05:00
+  current: 1
+  errata_id: 10844
+  id: 21777
+  package_id: 16390
+  product_version_id: 157
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-02-23 13:41:01 -05:00
+errata_brew_mapping_21835: 
+  added_index_id: 8239
+  brew_build_id: 158040
+  build_tag: 
+  created_at: 2011-02-25 05:57:55 -05:00
+  current: 0
+  errata_id: 10839
+  id: 21835
+  package_id: 2025
+  product_version_id: 17
+  removed_index_id: 8790
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-03-04 04:30:41 -05:00
+errata_brew_mapping_21837: 
+  added_index_id: 8478
+  brew_build_id: 158120
+  build_tag: 
+  created_at: 2011-02-25 07:58:29 -05:00
+  current: 1
+  errata_id: 10858
+  id: 21837
+  package_id: 661
+  product_version_id: 16
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-02-25 07:58:29 -05:00
+errata_brew_mapping_22016: 
+  added_index_id: 8790
+  brew_build_id: 158687
+  build_tag: 
+  created_at: 2011-03-04 04:30:41 -05:00
+  current: 0
+  errata_id: 10839
+  id: 22016
+  package_id: 2025
+  product_version_id: 17
+  removed_index_id: 8931
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-03-09 03:10:26 -05:00
+errata_brew_mapping_22041: 
+  added_index_id: 8818
+  brew_build_id: 158809
+  build_tag: 
+  created_at: 2011-03-04 17:37:10 -05:00
+  current: 0
+  errata_id: 10893
+  id: 22041
+  package_id: 2633
+  product_version_id: 149
+  removed_index_id: 8818
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-03-14 15:57:02 -04:00
+errata_brew_mapping_22142: 
+  added_index_id: 8931
+  brew_build_id: 158973
+  build_tag: 
+  created_at: 2011-03-09 03:10:26 -05:00
+  current: 0
+  errata_id: 10839
+  id: 22142
+  package_id: 2025
+  product_version_id: 17
+  removed_index_id: 10029
+  shipped: 0
+  spin_version: 2
+  updated_at: 2011-04-01 12:28:22 -04:00
+errata_brew_mapping_22240: 
+  added_index_id: 8818
+  brew_build_id: 159278
+  build_tag: 
+  created_at: 2011-03-14 15:57:02 -04:00
+  current: 0
+  errata_id: 10893
+  id: 22240
+  package_id: 2633
+  product_version_id: 149
+  removed_index_id: 9215
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-03-15 12:45:17 -04:00
+errata_brew_mapping_22267: 
+  added_index_id: 9215
+  brew_build_id: 159587
+  build_tag: 
+  created_at: 2011-03-15 12:45:17 -04:00
+  current: 0
+  errata_id: 10893
+  id: 22267
+  package_id: 2633
+  product_version_id: 149
+  removed_index_id: 9239
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-13 17:29:38 -04:00
+errata_brew_mapping_22794: 
+  added_index_id: 9908
+  brew_build_id: 160811
+  build_tag: 
+  created_at: 2011-03-30 09:36:38 -04:00
+  current: 1
+  errata_id: 11020
+  id: 22794
+  package_id: 16602
+  product_version_id: 149
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-03-30 09:36:38 -04:00
+errata_brew_mapping_22829: 
+  added_index_id: 9979
+  brew_build_id: 161017
+  build_tag: 
+  created_at: 2011-03-31 06:42:42 -04:00
+  current: 1
+  errata_id: 11031
+  id: 22829
+  package_id: 14043
+  product_version_id: 16
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-04-13 16:13:41 -04:00
+errata_brew_mapping_22834: 
+  added_index_id: 9997
+  brew_build_id: 161038
+  build_tag: 
+  created_at: 2011-03-31 10:17:48 -04:00
+  current: 0
+  errata_id: 11036
+  id: 22834
+  package_id: 422
+  product_version_id: 16
+  removed_index_id: 10233
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-06 05:00:32 -04:00
+errata_brew_mapping_22853: 
+  added_index_id: 10029
+  brew_build_id: 161130
+  build_tag: 
+  created_at: 2011-04-01 12:28:22 -04:00
+  current: 1
+  errata_id: 10839
+  id: 22853
+  package_id: 2025
+  product_version_id: 17
+  removed_index_id: 
+  shipped: 0
+  spin_version: 3
+  updated_at: 2011-04-01 12:28:22 -04:00
+errata_brew_mapping_23361: 
+  added_index_id: 10233
+  brew_build_id: 161531
+  build_tag: 
+  created_at: 2011-04-06 05:00:33 -04:00
+  current: 1
+  errata_id: 11036
+  id: 23361
+  package_id: 422
+  product_version_id: 16
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-06 05:00:33 -04:00
+errata_brew_mapping_23490: 
+  added_index_id: 10411
+  brew_build_id: 161861
+  build_tag: 
+  created_at: 2011-04-08 07:55:29 -04:00
+  current: 1
+  errata_id: 11095
+  id: 23490
+  package_id: 237
+  product_version_id: 17
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-08 07:55:29 -04:00
+errata_brew_mapping_23502: 
+  added_index_id: 10417
+  brew_build_id: 161350
+  build_tag: 
+  created_at: 2011-04-08 10:52:12 -04:00
+  current: 0
+  errata_id: 11096
+  id: 23502
+  package_id: 673
+  product_version_id: 16
+  removed_index_id: 10417
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-12 12:17:40 -04:00
+errata_brew_mapping_23547: 
+  added_index_id: 10511
+  brew_build_id: 161968
+  build_tag: 
+  created_at: 2011-04-11 10:11:09 -04:00
+  current: 0
+  errata_id: 11105
+  id: 23547
+  package_id: 724
+  product_version_id: 16
+  removed_index_id: 10591
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-12 09:34:49 -04:00
+errata_brew_mapping_23558: 
+  added_index_id: 10531
+  brew_build_id: 161705
+  build_tag: 
+  created_at: 2011-04-11 14:14:05 -04:00
+  current: 1
+  errata_id: 11110
+  id: 23558
+  package_id: 1982
+  product_version_id: 139
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-11 14:14:05 -04:00
+errata_brew_mapping_23559: 
+  added_index_id: 10531
+  brew_build_id: 161695
+  build_tag: 
+  created_at: 2011-04-11 14:14:05 -04:00
+  current: 1
+  errata_id: 11110
+  id: 23559
+  package_id: 1982
+  product_version_id: 140
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-11 14:14:05 -04:00
+errata_brew_mapping_23604: 
+  added_index_id: 10546
+  brew_build_id: 161869
+  build_tag: 
+  created_at: 2011-04-12 09:10:15 -04:00
+  current: 1
+  errata_id: 11112
+  id: 23604
+  package_id: 16644
+  product_version_id: 149
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-12 09:10:15 -04:00
+errata_brew_mapping_23607: 
+  added_index_id: 10591
+  brew_build_id: 162080
+  build_tag: 
+  created_at: 2011-04-12 09:34:51 -04:00
+  current: 1
+  errata_id: 11105
+  id: 23607
+  package_id: 724
+  product_version_id: 16
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-12 09:34:51 -04:00
+errata_brew_mapping_23622: 
+  added_index_id: 10417
+  brew_build_id: 162097
+  build_tag: 
+  created_at: 2011-04-12 12:17:41 -04:00
+  current: 1
+  errata_id: 11096
+  id: 23622
+  package_id: 673
+  product_version_id: 16
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-12 12:17:41 -04:00
+errata_brew_mapping_23648: 
+  added_index_id: 10626
+  brew_build_id: 162118
+  build_tag: 
+  created_at: 2011-04-12 13:46:36 -04:00
+  current: 1
+  errata_id: 11118
+  id: 23648
+  package_id: 1001
+  product_version_id: 149
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-12 13:46:36 -04:00
+errata_brew_mapping_23677: 
+  added_index_id: 10673
+  brew_build_id: 162183
+  build_tag: 
+  created_at: 2011-04-13 06:28:06 -04:00
+  current: 0
+  errata_id: 11123
+  id: 23677
+  package_id: 18
+  product_version_id: 150
+  removed_index_id: 10754
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-14 09:36:00 -04:00
+errata_brew_mapping_23698: 
+  added_index_id: 10729
+  brew_build_id: 162233
+  build_tag: 
+  created_at: 2011-04-13 17:27:49 -04:00
+  current: 0
+  errata_id: 11129
+  id: 23698
+  package_id: 319
+  product_version_id: 149
+  removed_index_id: 10729
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-13 17:29:29 -04:00
+errata_brew_mapping_23699: 
+  added_index_id: 10729
+  brew_build_id: 162233
+  build_tag: 
+  created_at: 2011-04-13 17:29:30 -04:00
+  current: 1
+  errata_id: 11129
+  id: 23699
+  package_id: 319
+  product_version_id: 149
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-04-14 14:16:26 -04:00
+errata_brew_mapping_23700: 
+  added_index_id: 9239
+  brew_build_id: 162236
+  build_tag: 
+  created_at: 2011-04-13 17:29:38 -04:00
+  current: 0
+  errata_id: 10893
+  id: 23700
+  package_id: 2633
+  product_version_id: 149
+  removed_index_id: 9239
+  shipped: 0
+  spin_version: 2
+  updated_at: 2011-04-19 15:36:00 -04:00
+errata_brew_mapping_23706: 
+  added_index_id: 10754
+  brew_build_id: 162288
+  build_tag: 
+  created_at: 2011-04-14 09:36:00 -04:00
+  current: 1
+  errata_id: 11123
+  id: 23706
+  package_id: 18
+  product_version_id: 150
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-14 09:36:00 -04:00
+errata_brew_mapping_23770: 
+  added_index_id: 10210
+  brew_build_id: 162692
+  build_tag: 
+  created_at: 2011-04-15 18:19:35 -04:00
+  current: 1
+  errata_id: 11065
+  id: 23770
+  package_id: 496
+  product_version_id: 3
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-15 18:19:35 -04:00
+errata_brew_mapping_23774: 
+  added_index_id: 10736
+  brew_build_id: 162730
+  build_tag: 
+  created_at: 2011-04-18 03:22:42 -04:00
+  current: 1
+  errata_id: 11131
+  id: 23774
+  package_id: 155
+  product_version_id: 17
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-04-18 11:38:52 -04:00
+errata_brew_mapping_23775: 
+  added_index_id: 10736
+  brew_build_id: 162731
+  build_tag: 
+  created_at: 2011-04-18 03:22:44 -04:00
+  current: 1
+  errata_id: 11131
+  id: 23775
+  package_id: 155
+  product_version_id: 150
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2011-04-18 11:38:52 -04:00
+errata_brew_mapping_23813: 
+  added_index_id: 10878
+  brew_build_id: 162854
+  build_tag: 
+  created_at: 2011-04-19 09:27:50 -04:00
+  current: 1
+  errata_id: 11145
+  id: 23813
+  package_id: 312
+  product_version_id: 149
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-19 09:27:50 -04:00
+errata_brew_mapping_23816: 
+  added_index_id: 10822
+  brew_build_id: 162864
+  build_tag: 
+  created_at: 2011-04-19 10:08:54 -04:00
+  current: 1
+  errata_id: 11142
+  id: 23816
+  package_id: 312
+  product_version_id: 165
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-19 10:08:54 -04:00
+errata_brew_mapping_23823: 
+  added_index_id: 10947
+  brew_build_id: 162869
+  build_tag: 
+  created_at: 2011-04-19 12:19:56 -04:00
+  current: 1
+  errata_id: 11152
+  id: 23823
+  package_id: 14509
+  product_version_id: 16
+  removed_index_id: 
+  shipped: 0
+  spin_version: 1
+  updated_at: 2011-04-19 12:19:56 -04:00
+errata_brew_mapping_23831: 
+  added_index_id: 9239
+  brew_build_id: 162916
+  build_tag: 
+  created_at: 2011-04-19 15:36:01 -04:00
+  current: 1
+  errata_id: 10893
+  id: 23831
+  package_id: 2633
+  product_version_id: 149
+  removed_index_id: 
+  shipped: 0
+  spin_version: 2
+  updated_at: 2011-04-19 15:36:01 -04:00
+errata_brew_mapping_33864: 
+  added_index_id: 27430
+  brew_build_id: 210536
+  build_tag: 
+  created_at: 2012-04-23 13:00:16 Z
+  current: 1
+  errata_id: 13147
+  id: 33864
+  package_id: 16217
+  product_version_id: 149
+  removed_index_id: 
+  shipped: 1
+  spin_version: 1
+  updated_at: 2012-06-19 15:28:14
+errata_brew_mapping_313600:
+  added_index_id: 54660
+  brew_build_id: 313600
+  spin_version: 1
+  product_version_id: 252
+  created_at: 2014-01-22 14:50:21 Z
+  removed_index_id:
+  updated_at: 2014-01-22 14:50:21 Z
+  errata_id: 16374
+  package_id: 21980
+  shipped: 0
+  current: 1
+  id: 55945
+  build_tag:
+errata_brew_mapping_313610:
+  added_index_id: 54660
+  brew_build_id: 313600
+  spin_version: 1
+  product_version_id: 252
+  created_at: 2014-01-22 14:50:21 Z
+  removed_index_id:
+  updated_at: 2014-01-22 14:50:21 Z
+  errata_id: 16384
+  package_id: 21980
+  shipped: 0
+  current: 1
+  id: 55955
+  build_tag:
+errata_brew_mapping_55968:
+  created_at: 2014-07-23 01:45:57 Z
+  spin_version: 1
+  package_id: 22001
+  build_tag:
+  updated_at: 2014-07-23 01:45:57 Z
+  added_index_id: 54683
+  brew_build_id: 367572
+  current: 1
+  removed_index_id:
+  product_version_id: 317
+  errata_id: 16396
+  shipped: 0
+  id: 55968
+errata_brew_mapping_55969:
+  created_at: 2014-07-23 01:45:57 Z
+  spin_version: 1
+  package_id: 22001
+  build_tag:
+  updated_at: 2014-07-23 01:45:57 Z
+  added_index_id: 54683
+  brew_build_id: 367572
+  current: 1
+  removed_index_id:
+  product_version_id: 317
+  errata_id: 16396
+  shipped: 0
+  brew_archive_type_id: 38
+  id: 55969
+errata_brew_mapping_55970:
+  created_at: 2014-07-23 01:45:58 Z
+  spin_version: 1
+  package_id: 22001
+  build_tag:
+  updated_at: 2014-07-23 01:45:58 Z
+  added_index_id: 54683
+  brew_build_id: 367572
+  current: 1
+  removed_index_id:
+  product_version_id: 317
+  errata_id: 16396
+  shipped: 0
+  brew_archive_type_id: 4
+  id: 55970
+errata_brew_mapping_55971:
+  shipped: 0
+  created_at: 2014-07-23 02:54:47 Z
+  spin_version: 1
+  id: 55971
+  brew_build_id: 368489
+  product_version_id: 200
+  build_tag:
+  brew_archive_type_id: 3
+  errata_id: 16397
+  added_index_id: 54684
+  package_id: 22005
+  current: 1
+  updated_at: 2014-07-23 02:54:47 Z
+  removed_index_id:
+errata_brew_mapping_55972:
+  shipped: 0
+  created_at: 2014-07-23 02:54:48 Z
+  spin_version: 1
+  id: 55972
+  brew_build_id: 368489
+  product_version_id: 201
+  build_tag:
+  brew_archive_type_id: 3
+  errata_id: 16397
+  added_index_id: 54684
+  package_id: 22005
+  current: 1
+  updated_at: 2014-07-23 02:54:48 Z
+  removed_index_id:
+errata_brew_mapping_55973:
+  shipped: 0
+  created_at: 2014-07-23 02:54:48 Z
+  spin_version: 1
+  id: 55973
+  brew_build_id: 368489
+  product_version_id: 200
+  build_tag:
+  brew_archive_type_id: 1
+  errata_id: 16397
+  added_index_id: 54684
+  package_id: 22005
+  current: 1
+  updated_at: 2014-07-23 02:54:48 Z
+  removed_index_id:
+errata_brew_mapping_55974:
+  shipped: 0
+  created_at: 2014-07-23 02:54:48 Z
+  spin_version: 1
+  id: 55974
+  brew_build_id: 368489
+  product_version_id: 201
+  build_tag:
+  brew_archive_type_id: 1
+  errata_id: 16397
+  added_index_id: 54684
+  package_id: 22005
+  current: 1
+  updated_at: 2014-07-23 02:54:48 Z
+  removed_index_id:
+errata_brew_mapping_55984:
+  errata_id: 16409
+  brew_build_id: 367585
+  created_at: 2014-09-04 01:23:02 Z
+  product_version_id: 318
+  spin_version: 1
+  updated_at: 2014-09-04 01:23:02 Z
+  shipped: 0
+  added_index_id: 54712
+  build_tag:
+  package_id: 22007
+  current: 1
+  removed_index_id:
+  brew_archive_type_id:
+  id: 55984
+  flags: !ruby/object:Set
+    hash:
+      buildroot-push: true
+errata_brew_mapping_55985:
+  errata_id: 16409
+  brew_build_id: 367585
+  created_at: 2014-09-04 01:23:02 Z
+  product_version_id: 318
+  spin_version: 1
+  updated_at: 2014-09-04 01:23:02 Z
+  shipped: 0
+  added_index_id: 54712
+  build_tag:
+  package_id: 22007
+  current: 1
+  removed_index_id:
+  brew_archive_type_id: 15
+  id: 55985
+errata_brew_mapping_55986:
+  errata_id: 16409
+  brew_build_id: 367585
+  created_at: 2014-09-04 01:23:02 Z
+  product_version_id: 318
+  spin_version: 1
+  updated_at: 2014-09-04 01:23:02 Z
+  shipped: 0
+  added_index_id: 54712
+  build_tag:
+  package_id: 22007
+  current: 1
+  removed_index_id:
+  brew_archive_type_id: 2
+  id: 55986
+errata_brew_mapping_82319:
+  brew_build_id: 389641
+  package_id: 23967
+  shipped: 0
+  created_at: 2014-10-07 12:41:53 Z
+  product_version_id: 384
+  id: 82319
+  brew_archive_type_id:
+  current: 1
+  updated_at: 2014-10-07 12:41:53 Z
+  errata_id: 19028
+  spin_version: 1
+  build_tag:
+  added_index_id: 79737
+  removed_index_id:
+errata_brew_mapping_81930:
+  updated_at: 2014-09-30 10:31:53 Z
+  product_version_id: 268
+  removed_index_id:
+  brew_build_id: 387737
+  added_index_id: 79087
+  brew_archive_type_id:
+  package_id: 14996
+  created_at: 2014-09-26 17:31:57 Z
+  errata_id: 18918
+  current: 1
+  shipped: 1
+  id: 81930
+  spin_version: 1
+  build_tag:
+errata_brew_mapping_81823:
+  updated_at: 2014-09-30 10:33:42 Z
+  product_version_id: 306
+  removed_index_id:
+  brew_build_id: 387737
+  added_index_id: 78971
+  brew_archive_type_id:
+  package_id: 14996
+  created_at: 2014-09-25 11:19:43 Z
+  errata_id: 18905
+  current: 1
+  shipped: 1
+  id: 81823
+  spin_version: 1
+  build_tag:
+errata_brew_mapping_81932:
+  updated_at: 2014-09-30 10:31:55 Z
+  product_version_id: 320
+  removed_index_id:
+  brew_build_id: 387737
+  added_index_id: 79084
+  brew_archive_type_id:
+  package_id: 14996
+  created_at: 2014-09-26 17:32:03 Z
+  errata_id: 18916
+  current: 1
+  shipped: 1
+  id: 81932
+  spin_version: 1
+  build_tag:
+errata_brew_mapping_81931:
+  updated_at: 2014-09-30 10:31:54 Z
+  product_version_id: 284
+  removed_index_id:
+  brew_build_id: 387737
+  added_index_id: 79086
+  brew_archive_type_id:
+  package_id: 14996
+  created_at: 2014-09-26 17:32:01 Z
+  errata_id: 18917
+  current: 1
+  shipped: 1
+  id: 81931
+  spin_version: 1
+  build_tag:
+errata_brew_mapping_55987:
+  brew_build_id: 343329
+  current: 1
+  updated_at: 2014-11-04 04:07:43 Z
+  created_at: 2014-11-04 04:07:43 Z
+  removed_index_id:
+  errata_id: 16657
+  build_tag:
+  product_version_id: 318
+  shipped: 0
+  brew_archive_type_id: 1
+  package_id: 22009
+  id: 55987
+  added_index_id: 55010
+  spin_version: 1
+errata_brew_mapping_55988:
+  brew_build_id: 343329
+  current: 1
+  updated_at: 2014-11-04 04:07:43 Z
+  created_at: 2014-11-04 04:07:43 Z
+  removed_index_id:
+  errata_id: 16657
+  build_tag:
+  product_version_id: 318
+  shipped: 0
+  brew_archive_type_id: 3
+  package_id: 22009
+  id: 55988
+  added_index_id: 55010
+  spin_version: 1
+errata_brew_mapping_55989:
+  brew_build_id: 343329
+  current: 1
+  updated_at: 2014-11-04 04:07:43 Z
+  created_at: 2014-11-04 04:07:43 Z
+  removed_index_id:
+  errata_id: 16657
+  build_tag:
+  product_version_id: 318
+  shipped: 0
+  brew_archive_type_id: 2
+  package_id: 22009
+  id: 55989
+  added_index_id: 55010
+  spin_version: 1
+errata_brew_mapping_82002:
+  product_version_id: 345
+  build_tag:
+  brew_archive_type_id:
+  brew_build_id: 388437
+  shipped: 0
+  added_index_id: 79213
+  package_id: 16181
+  current: 1
+  created_at: 2014-09-29 15:14:57 Z
+  spin_version: 1
+  errata_id: 18894
+  id: 82002
+  updated_at: 2014-09-29 15:14:57 Z
+  removed_index_id:
+errata_brew_mapping_82320:
+  spin_version: 1
+  errata_id: 19029
+  current: 1
+  updated_at: 2015-01-07 03:01:07 Z
+  created_at: 2015-01-07 03:01:07 Z
+  id: 82320
+  flags: !ruby/object:Set
+    hash: {}
+  build_tag:
+  package_id: 22002
+  added_index_id: 79984
+  brew_build_id: 362089
+  product_version_id: 149
+  shipped: 0
+  removed_index_id:
+  brew_archive_type_id: 38
+errata_brew_mapping_82321:
+  spin_version: 1
+  errata_id: 19029
+  current: 1
+  updated_at: 2015-01-07 03:01:07 Z
+  created_at: 2015-01-07 03:01:07 Z
+  id: 82321
+  flags: !ruby/object:Set
+    hash: {}
+  build_tag:
+  package_id: 22002
+  added_index_id: 79984
+  brew_build_id: 362089
+  product_version_id: 149
+  shipped: 0
+  removed_index_id:
+  brew_archive_type_id: 26
+errata_brew_mapping_82322:
+  spin_version: 1
+  errata_id: 19029
+  current: 1
+  updated_at: 2015-01-07 03:01:07 Z
+  created_at: 2015-01-07 03:01:07 Z
+  id: 82322
+  flags: !ruby/object:Set
+    hash: {}
+  build_tag:
+  package_id: 22002
+  added_index_id: 79984
+  brew_build_id: 362089
+  product_version_id: 149
+  shipped: 0
+  removed_index_id:
+  brew_archive_type_id: 5
+errata_brew_mapping_82323:
+  spin_version: 1
+  errata_id: 19029
+  current: 1
+  updated_at: 2015-01-07 03:01:07 Z
+  created_at: 2015-01-07 03:01:07 Z
+  id: 82323
+  flags: !ruby/object:Set
+    hash: {}
+  build_tag:
+  package_id: 22008
+  added_index_id: 79984
+  brew_build_id: 194800
+  product_version_id: 149
+  shipped: 0
+  removed_index_id:
+  brew_archive_type_id: 16
+errata_brew_mapping_82324:
+  spin_version: 1
+  errata_id: 19029
+  current: 1
+  updated_at: 2015-01-07 03:01:07 Z
+  created_at: 2015-01-07 03:01:07 Z
+  id: 82324
+  flags: !ruby/object:Set
+    hash: {}
+  build_tag:
+  package_id: 22008
+  added_index_id: 79984
+  brew_build_id: 194800
+  product_version_id: 149
+  shipped: 0
+  removed_index_id:
+  brew_archive_type_id: 2
+errata_brew_mapping_82325:
+  spin_version: 1
+  errata_id: 19029
+  current: 1
+  updated_at: 2015-01-07 03:01:07 Z
+  created_at: 2015-01-07 03:01:07 Z
+  id: 82325
+  flags: !ruby/object:Set
+    hash: {}
+  build_tag:
+  package_id: 15253
+  added_index_id: 79984
+  brew_build_id: 310042
+  product_version_id: 149
+  shipped: 0
+  removed_index_id:
+  brew_archive_type_id:
+errata_brew_mapping_83320:
+  errata_id: 19030
+  brew_build_id: 153968
+  current: 1
+  created_at: 2015-01-12 03:51:38 Z
+  flags: !ruby/object:Set
+    hash: {}
+  spin_version: 1
+  id: 83320
+  package_id: 14828
+  shipped: 0
+  build_tag:
+  updated_at: 2015-01-12 03:51:38 Z
+  added_index_id: 89985
+  removed_index_id:
+  product_version_id: 149
+  brew_archive_type_id:
+errata_brew_mapping_83321:
+  errata_id: 19031
+  brew_build_id: 294661
+  current: 1
+  created_at: 2015-01-12 05:01:28 Z
+  flags: !ruby/object:Set
+    hash: {}
+  spin_version: 1
+  id: 83321
+  package_id: 15003
+  shipped: 0
+  build_tag:
+  updated_at: 2015-01-12 05:01:28 Z
+  added_index_id: 79989
+  removed_index_id:
+  product_version_id: 149
+  brew_archive_type_id:
+errata_brew_mapping_83322:
+  errata_id: 19032
+  brew_build_id: 408505
+  current: 1
+  created_at: 2015-01-12 05:03:08 Z
+  flags: !ruby/object:Set
+    hash: {}
+  spin_version: 1
+  id: 83322
+  package_id: 100
+  shipped: 0
+  build_tag:
+  updated_at: 2015-01-12 05:03:08 Z
+  added_index_id: 79990
+  removed_index_id:
+  product_version_id: 149
+  brew_archive_type_id:
+errata_brew_mapping_83323:
+  errata_id: 19033
+  brew_build_id: 178360
+  current: 1
+  created_at: 2015-01-12 05:05:19 Z
+  flags: !ruby/object:Set
+    hash: {}
+  spin_version: 1
+  id: 83323
+  package_id: 1987
+  shipped: 0
+  build_tag:
+  updated_at: 2015-01-12 05:05:19 Z
+  added_index_id: 79991
+  removed_index_id:
+  product_version_id: 149
+  brew_archive_type_id:
+errata_brew_mapping_85040:
+  package_id: 1966
+  updated_at: 2015-01-30 00:02:23 Z
+  errata_id: 19463
+  created_at: 2015-01-30 00:02:23 Z
+  spin_version: 1
+  brew_build_id: 158631
+  current: 1
+  removed_index_id:
+  flags: !ruby/object:Set
+    hash: {}
+  product_version_id: 149
+  added_index_id: 92515
+  build_tag:
+  id: 85040
+  shipped: 0
+  brew_archive_type_id:
+errata_brew_mapping_81817:
+  id: 81817
+  build_tag:
+  updated_at: Mon, 29 Sep 2014 15:14:57 UTC +00:00
+  product_version_id: 345
+  created_at: Thu, 25 Sep 2014 08:37:18 UTC +00:00
+  shipped: 0
+  brew_archive_type_id:
+  current: 0
+  added_index_id: 78924
+  errata_id: 18894
+  removed_index_id: 79213
+  brew_build_id: 387078
+  package_id: 16181
+  spin_version: 1
+errata_brew_mapping_83877:
+  current: 1
+  updated_at: 2015-02-11 06:02:13 Z
+  product_version_id: 417
+  added_index_id: 82828
+  flags: !ruby/object:Set
+    hash: {}
+  errata_id: 19829
+  shipped: 0
+  removed_index_id:
+  build_tag:
+  created_at: 2015-02-11 06:02:13 Z
+  brew_archive_type_id:
+  spin_version: 1
+  id: 83877
+  brew_build_id: 201792
+  package_id: 13819
+errata_brew_mapping_83878:
+  current: 1
+  updated_at: 2015-02-11 06:02:13 Z
+  product_version_id: 417
+  added_index_id: 82828
+  flags: !ruby/object:Set
+    hash: {}
+  errata_id: 19829
+  shipped: 0
+  removed_index_id:
+  build_tag:
+  created_at: 2015-02-11 06:02:13 Z
+  brew_archive_type_id:
+  spin_version: 1
+  id: 83878
+  brew_build_id: 204274
+  package_id: 87
+errata_brew_mapping_83879:
+  current: 1
+  updated_at: 2015-02-11 06:02:13 Z
+  product_version_id: 417
+  added_index_id: 82828
+  flags: !ruby/object:Set
+    hash: {}
+  errata_id: 19829
+  shipped: 0
+  removed_index_id:
+  build_tag:
+  created_at: 2015-02-11 06:02:13 Z
+  brew_archive_type_id:
+  spin_version: 1
+  id: 83879
+  brew_build_id: 203686
+  package_id: 14677
+errata_brew_mapping_86404:
+  current: 1
+  package_id: 613
+  shipped: 0
+  removed_index_id:
+  id: 86404
+  spin_version: 1
+  errata_id: 19828
+  build_tag:
+  created_at: 2015-02-18 05:32:50 Z
+  added_index_id: 94603
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}
+  brew_build_id: 421698
+  product_version_id: 384
+  updated_at: 2015-02-18 05:32:50 Z
+errata_brew_mapping_86406:
+  current: 1
+  package_id: 16202
+  shipped: 0
+  removed_index_id:
+  id: 86406
+  spin_version: 1
+  errata_id: 19828
+  build_tag:
+  created_at: 2015-02-18 05:32:50 Z
+  added_index_id: 94603
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}
+  brew_build_id: 421720
+  product_version_id: 384
+  updated_at: 2015-02-18 05:32:50 Z
+errata_brew_mapping_86407:
+  current: 1
+  package_id: 25
+  shipped: 0
+  removed_index_id:
+  id: 86407
+  spin_version: 1
+  errata_id: 19828
+  build_tag:
+  created_at: 2015-02-18 05:32:50 Z
+  added_index_id: 94603
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}
+  brew_build_id: 421717
+  product_version_id: 345
+  updated_at: 2015-02-18 05:32:50 Z
+errata_brew_mapping_86409:
+  current: 1
+  package_id: 1023
+  shipped: 0
+  removed_index_id:
+  id: 86409
+  spin_version: 1
+  errata_id: 19828
+  build_tag:
+  created_at: 2015-02-18 05:32:50 Z
+  added_index_id: 94603
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}
+  brew_build_id: 421719
+  product_version_id: 345
+  updated_at: 2015-02-18 05:32:50 Z
+errata_brew_mapping_86488:
+  brew_build_id: 403532
+  current: 1
+  brew_archive_type_id:
+  shipped: 1
+  flags: !ruby/object:Set
+    hash: {}
+  id: 86488
+  build_tag:
+  created_at: 2014-12-12 13:53:04 Z
+  updated_at: 2014-12-18 18:32:14 Z
+  removed_index_id:
+  product_version_id: 345
+  spin_version: 1
+  package_id: 15336
+  added_index_id: 85268
+  errata_id: 19435
+errata_brew_mapping_86489:
+  brew_build_id: 403534
+  current: 1
+  brew_archive_type_id:
+  shipped: 1
+  flags: !ruby/object:Set
+    hash: {}
+  id: 86489
+  build_tag:
+  created_at: 2014-12-12 13:53:04 Z
+  updated_at: 2014-12-18 18:32:14 Z
+  removed_index_id:
+  product_version_id: 384
+  spin_version: 1
+  package_id: 15336
+  added_index_id: 85268
+  errata_id: 19435
+errata_brew_mapping_96740:
+  shipped: 1
+  package_id: 939
+  created_at: 2015-04-10 18:56:27 Z
+  updated_at: 2015-04-29 10:11:53 Z
+  build_tag:
+  added_index_id: 94452
+  errata_id: 20291
+  brew_build_id: 429392
+  flags: !ruby/object:Set
+    hash: {}
+  current: 1
+  removed_index_id:
+  brew_archive_type_id:
+  id: 96740
+  spin_version: 1
+  product_version_id: 384
+errata_brew_mapping_96686:
+  build_tag:
+  current: 0
+  created_at: 2015-04-09 19:17:18 Z
+  added_index_id: 94372
+  errata_id: 20291
+  removed_index_id: 94452
+  shipped: 0
+  updated_at: 2015-04-10 18:56:27 Z
+  flags: !ruby/object:Set
+    hash: {}
+  spin_version: 1
+  brew_archive_type_id:
+  id: 96686
+  product_version_id: 384
+  package_id: 939
+  brew_build_id: 429175
+errata_brew_mapping_96741:
+  id: 96741
+  shipped: 0
+  brew_archive_type_id:
+  package_id: 17188
+  current: 1
+  created_at: 2015-09-17 06:24:08 Z
+  spin_version: 1
+  errata_id: 20292
+  updated_at: 2015-09-17 06:24:08 Z
+  removed_index_id:
+  brew_build_id: 400972
+  build_tag:
+  product_version_id: 249
+  added_index_id: 104688
+  flags: !ruby/object:Set
+    hash: {}
+errata_brew_mapping_98726:
+  package_id: 617
+  shipped: 0
+  brew_build_id: 454679
+  created_at: 2015-09-22 05:09:30 Z
+  removed_index_id:
+  errata_id: 20836
+  product_version_id: 244
+  build_tag:
+  updated_at: 2015-09-22 05:09:30 Z
+  flags: !ruby/object:Set
+    hash: {}
+  id: 98726
+  spin_version: 1
+  current: 1
+  added_index_id: 107372
+  brew_archive_type_id:
+errata_brew_mapping_96429:
+  product_version_id: 149
+  brew_archive_type_id:
+  shipped: 1
+  updated_at: 2015-07-20 14:27:30 Z
+  build_tag:
+  removed_index_id:
+  flags: !ruby/object:Set
+    hash: {}
+  spin_version: 2
+  added_index_id: 93957
+  errata_id: 20044
+  package_id: 1007
+  brew_build_id: 428475
+  current: 1
+  id: 96429
+  created_at: 2015-04-02 10:20:28 Z
+errata_brew_mapping_97836:
+  product_version_id: 244
+  brew_archive_type_id:
+  shipped: 1
+  updated_at: 2015-07-27 09:30:45 Z
+  build_tag:
+  removed_index_id:
+  flags: !ruby/object:Set
+    hash: {}
+  spin_version: 1
+  added_index_id: 96084
+  errata_id: 20466
+  package_id: 1366
+  brew_build_id: 430533
+  current: 1
+  id: 97836
+  created_at: 2015-05-06 07:20:19 Z
+errata_brew_mapping_92176:
+  package_id: 29082
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-02-04 11:36:05 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 92176
+  brew_build_id: 395660
+errata_brew_mapping_92177:
+  package_id: 20366
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-02-04 11:36:54 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 92177
+  brew_build_id: 369354
+errata_brew_mapping_93199:
+  package_id: 28027
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-02-20 10:03:32 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 93199
+  brew_build_id: 422325
+errata_brew_mapping_93424:
+  package_id: 28377
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-02-25 09:51:00 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 93424
+  brew_build_id: 422706
+errata_brew_mapping_93427:
+  package_id: 25079
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-02-25 11:51:18 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 93427
+  brew_build_id: 422420
+errata_brew_mapping_93751:
+  package_id: 15312
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-02-27 17:14:24 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 93751
+  brew_build_id: 423513
+errata_brew_mapping_93809:
+  package_id: 15439
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 93079
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-02 15:54:42 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 93809
+  brew_build_id: 423664
+errata_brew_mapping_93810:
+  package_id: 15099
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-02 15:54:42 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 93810
+  brew_build_id: 423661
+errata_brew_mapping_93811:
+  package_id: 16424
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 93079
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-02 15:54:42 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 93811
+  brew_build_id: 423671
+errata_brew_mapping_94120:
+  package_id: 18386
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-09 06:31:02 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 94120
+  brew_build_id: 355524
+errata_brew_mapping_94121:
+  package_id: 18716
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-09 06:42:15 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 94121
+  brew_build_id: 370036
+errata_brew_mapping_94815:
+  package_id: 30073
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-12 09:58:52 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 94815
+  brew_build_id: 425010
+errata_brew_mapping_95386:
+  package_id: 14644
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-13 09:02:43 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 95386
+  brew_build_id: 425291
+errata_brew_mapping_95570:
+  package_id: 13991
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-18 07:18:35 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 95570
+  brew_build_id: 411218
+errata_brew_mapping_95595:
+  package_id: 16773
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 334
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-18 12:33:55 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 95595
+  brew_build_id: 425711
+errata_brew_mapping_95596:
+  package_id: 16773
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 227
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-18 12:33:56 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 95596
+  brew_build_id: 425710
+errata_brew_mapping_95597:
+  package_id: 16773
+  errata_id: 19655
+  build_tag: 
+  added_index_id: 86876
+  product_version_id: 226
+  spin_version: 1
+  updated_at: 2015-03-26 06:37:21 Z
+  removed_index_id: 
+  shipped: 1
+  current: 1
+  created_at: 2015-03-18 12:33:56 Z
+  flags: !ruby/object:Set 
+    hash: {}
+  brew_archive_type_id: 
+  id: 95597
+  brew_build_id: 425709
+errata_brew_mapping_108168:
+  current: 1
+  shipped: 1
+  updated_at: 2015-11-19 18:04:36 Z
+  added_index_id: 99858
+  id: 108168
+  removed_index_id:
+  product_version_id: 244
+  package_id: 31965
+  created_at: 2015-10-07 11:58:20 Z
+  spin_version: 1
+  brew_archive_type_id:
+  brew_build_id: 460081
+  flags: !ruby/object:Set
+    hash: {}
+  errata_id: 21009
+  build_tag:
+errata_brew_mapping_110001:
+  created_at: 2016-02-03 01:00:00 Z
+  spin_version: 1
+  package_id: 22001
+  build_tag:
+  updated_at: 2016-02-03 01:00:00 Z
+  added_index_id: 54683
+  brew_build_id: 409889
+  current: 1
+  removed_index_id:
+  product_version_id: 417
+  errata_id: 21100
+  shipped: 0
+  brew_archive_type_id: 4
+  id: 110001
+errata_brew_mapping_110002:
+  added_index_id: 112449
+  brew_archive_type_id: 4
+  created_at: 2016-04-26 05:45:30 Z
+  spin_version: 1
+  brew_build_id: 483273
+  build_tag:
+  flags: !ruby/object:Set
+    hash: {}
+  current: 1
+  package_id: 22001
+  shipped: 0
+  removed_index_id:
+  product_version_id: 149
+  id: 110002
+  updated_at: 2016-04-26 05:45:30 Z
+  errata_id: 21101
+errata_brew_mapping_121342:
+  created_at: 2016-03-29 01:00:00 Z
+  spin_version: 1
+  package_id: 27269
+  build_tag:
+  updated_at: 2016-03-29 01:00:00 Z
+  added_index_id: 121494
+  brew_build_id: 488008
+  current: 1
+  removed_index_id:
+  product_version_id: 449
+  errata_id: 23101
+  shipped: 0
+  brew_archive_type_id:
+  id: 121342
+errata_brew_mapping_110031:
+  created_at: 2016-02-03 01:00:00 Z
+  spin_version: 1
+  package_id: 22001
+  build_tag:
+  updated_at: 2016-02-03 01:00:00 Z
+  added_index_id: 110050
+  brew_build_id: 409889
+  current: 1
+  removed_index_id:
+  product_version_id: 417
+  errata_id: 21130
+  shipped: 0
+  brew_archive_type_id: 4
+  id: 110031
+errata_brew_mapping_121914:
+  id: 121914
+  package_id: 371
+  current: 1
+  brew_archive_type_id:
+  added_index_id: 122391
+  brew_build_id: 488875
+  shipped: 1
+  updated_at: 2016-05-11 02:21:28 Z
+  removed_index_id:
+  errata_id: 22508
+  created_at: 2016-04-06 15:14:08 Z
+  product_version_id: 149
+  spin_version: 8
+  build_tag:
+  flags: !ruby/object:Set
+    hash: {}
+errata_brew_mapping_137793:
+  id: 137793
+  errata_id: 24604
+  brew_build_id: 512708
+  build_tag:
+  product_version_id: 357
+  package_id: 30994
+  current: 1
+  created_at: 2016-09-09 19:14:12 Z
+  spin_version: 3
+  shipped: 1
+  updated_at: 2016-09-15 11:05:17 Z
+  added_index_id: 138001
+  removed_index_id:
+  brew_archive_type_id: 4
+  flags: !ruby/object:Set
+    hash: {}
+errata_brew_mapping_135919:
+  id: 135919
+  errata_id: 24434
+  brew_build_id: 509391
+  build_tag:
+  product_version_id: 467
+  package_id: 314
+  current: 1
+  created_at: 2016-08-17 16:56:55 Z
+  spin_version: 1
+  shipped: 1
+  updated_at: 2016-09-15 08:36:22 Z
+  added_index_id: 134542
+  removed_index_id:
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}
+errata_brew_mapping_137170:
+  id: 137170
+  errata_id: 24467
+  brew_build_id: 511805
+  build_tag:
+  product_version_id: 467
+  package_id: 1023
+  current: 1
+  created_at: 2016-09-01 08:51:15 Z
+  spin_version: 1
+  shipped: 1
+  updated_at: 2016-09-15 08:38:18 Z
+  added_index_id: 136780
+  removed_index_id:
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}
+errata_brew_mapping_135492:
+  id: 135492
+  errata_id: 24491
+  brew_build_id: 508705
+  build_tag:
+  product_version_id: 467
+  package_id: 100
+  current: 1
+  created_at: 2016-08-11 22:56:24 Z
+  spin_version: 1
+  shipped: 1
+  updated_at: 2016-09-15 08:55:45 Z
+  added_index_id: 134169
+  removed_index_id:
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}
+errata_brew_mapping_137107:
+  id: 137107
+  errata_id: 24565
+  brew_build_id: 511700
+  build_tag:
+  product_version_id: 467
+  package_id: 18258
+  current: 1
+  created_at: 2016-08-31 16:07:55 Z
+  spin_version: 2
+  shipped: 1
+  updated_at: 2016-09-15 08:56:55 Z
+  added_index_id: 136696
+  removed_index_id:
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}
+errata_brew_mapping_136863:
+  id: 136863
+  errata_id: 24626
+  brew_build_id: 511174
+  build_tag:
+  product_version_id: 467
+  package_id: 496
+  current: 1
+  created_at: 2016-08-29 15:15:00 Z
+  spin_version: 1
+  shipped: 1
+  updated_at: 2016-09-15 08:59:51 Z
+  added_index_id: 136447
+  removed_index_id:
+  brew_archive_type_id:
+  flags: !ruby/object:Set
+    hash: {}

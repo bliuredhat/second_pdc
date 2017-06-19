@@ -1,0 +1,75 @@
+<% book do %>
+  <%= xi_include "Book_Info.xml" %>
+
+  <%# **** %>
+  <%# This is the current User Guide without "parts" %>
+  <%# **** %>
+  <% show_maybe(:non_draft_only => true) do %>
+    <%= include_generated "Intro.xml" %>
+    <%= include_generated "Resources.xml" %>
+    <%= include_generated "About.xml" %>
+    <%= include_generated "Filing_an_Advisory.xml" %>
+    <%= include_generated "JIRA.xml" %>
+    <%= include_generated "Rpmdiff.xml" %>
+    <%= include_generated "Covscan.xml" %>
+    <%= include_generated "Additional_Features.xml" %>
+    <%= include_generated "Batching.xml" %>
+    <%= include_generated "Docker.xml" %>
+    <%= include_generated "Requests.xml" %>
+  <% end %>
+
+  <%# **** %>
+  <%# From here down it's the WIP draft content %>
+  <%# Notice it includes the same generated content %>
+  <%# **** %>
+  <% part("I", "Introduction", "Introduction to Errata Tool", :draft => true) do %>
+    <%= include_generated "Intro.xml" %>
+    <%= include_generated "Resources.xml" %>
+    <%= include_generated "About.xml" %>
+  <% end %>
+
+  <% part("II", "Filing Advisories", "A guide to filing an advisory using Errata Tool", :draft => true) do %>
+    <%= include_generated "Filing_an_Advisory.xml" %>
+    <%= include_generated "Rpmdiff.xml" %>
+    <%= include_generated "JIRA.xml" %>
+  <% end %>
+
+  <% part("III", "Automated Testing", "A description of automated tests performed on advisories", :draft => true) do %>
+    <%= include_generated "Abidiff.xml", :draft => true %>
+    <%= include_generated "Covscan.xml" %>
+    <%= include_generated "TPS.xml", :draft => true %>
+  <% end %>
+
+  <% part("IV", "Advisory QE", "A guide to the advisory QE process in Errata Tool", :draft => true) do %>
+    <%= include_generated "QE.xml", :draft => true %>
+  <% end %>
+
+  <% part("V", "Advisory Documentation", "A guide to preparing advisory documentation for ECS users of Errata Tool", :draft => true) do %>
+    <%= include_generated "Docs.xml", :draft => true %>
+  <% end %>
+
+  <% part("VI", "The Advisory Release Process", "A guide to errata release process for Rel-Eng users of Errata Tool", :draft => true) do %>
+    <%= include_generated "RelEng.xml", :draft => true %>
+  <% end %>
+
+  <% part("VII", "Security Advisories", "About security advisories in Errata Tool", :draft => true) do %>
+    <%= include_generated "Security.xml", :draft => true %>
+  <% end %>
+
+  <% part("VIII", "Administrator Guide", "A guide to managing products, product versions, releases, channels in Errata Tool", :draft => true) do %>
+    <%= include_generated "Admin.xml", :draft => true %>
+  <% end %>
+
+  <% part("IX", "Request Handling", "A guide to dealing with to Errata Tool requests", :draft => true) do %>
+    <%= include_generated "Requests.xml", :draft => true %>
+  <% end %>
+
+  <% part("X", "Advisory Batching", "About Advisory Batching in Errata Tool", :draft => true) do %>
+    <%= include_generated "Batching.xml", :draft => true %>
+  <% end %>
+
+  <% part("XI", "Docker", "About Docker support in Errata Tool", :draft => true) do %>
+    <%= include_generated "Docker.xml", :draft => true %>
+  <% end %>
+
+<% end %>

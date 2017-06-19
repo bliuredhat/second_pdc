@@ -1,0 +1,125 @@
+{
+  "rhel-i386-client-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-i386-client-fastrack-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-i386-client-workstation-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-i386-client-workstation-fastrack-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-i386-server-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-i386-server-fastrack-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-ia64-server-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ia64/blas-3.0-38.el5.ia64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ia64/blas-devel-3.0-38.el5.ia64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ia64/lapack-3.0-38.el5.ia64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ia64/lapack-debuginfo-3.0-38.el5.ia64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ia64/lapack-devel-3.0-38.el5.ia64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-ppc-server-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc/blas-3.0-38.el5.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc/blas-devel-3.0-38.el5.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc/lapack-3.0-38.el5.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc/lapack-debuginfo-3.0-38.el5.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc/lapack-devel-3.0-38.el5.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc64/blas-3.0-38.el5.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc64/blas-devel-3.0-38.el5.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc64/lapack-3.0-38.el5.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc64/lapack-debuginfo-3.0-38.el5.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/ppc64/lapack-devel-3.0-38.el5.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-s390x-server-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390/blas-3.0-38.el5.s390.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390/blas-devel-3.0-38.el5.s390.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390/lapack-3.0-38.el5.s390.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390/lapack-debuginfo-3.0-38.el5.s390.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390/lapack-devel-3.0-38.el5.s390.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390x/blas-3.0-38.el5.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390x/blas-devel-3.0-38.el5.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390x/lapack-3.0-38.el5.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390x/lapack-debuginfo-3.0-38.el5.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/s390x/lapack-devel-3.0-38.el5.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm"
+  ],
+  "rhel-x86_64-client-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/blas-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-debuginfo-3.0-38.el5.x86_64.rpm"
+  ],
+  "rhel-x86_64-client-fastrack-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/blas-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-debuginfo-3.0-38.el5.x86_64.rpm"
+  ],
+  "rhel-x86_64-client-workstation-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/blas-devel-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-debuginfo-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-devel-3.0-38.el5.x86_64.rpm"
+  ],
+  "rhel-x86_64-client-workstation-fastrack-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/blas-devel-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-debuginfo-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-devel-3.0-38.el5.x86_64.rpm"
+  ],
+  "rhel-x86_64-server-5": [
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/blas-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-debuginfo-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/i386/lapack-devel-3.0-38.el5.i386.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/src/lapack-3.0-38.el5.src.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/blas-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/blas-devel-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-debuginfo-3.0-38.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/lapack/3.0/38.el5/data/signed/37017186/x86_64/lapack-devel-3.0-38.el5.x86_64.rpm"
+  ]
+}

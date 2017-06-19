@@ -1,0 +1,5 @@
+---
+- name: additional mysql configuration
+  become: yes
+  template: src=from-ansible.cnf.j2 dest=/etc/mysql/conf.d/from-ansible.cnf
+  notify: restart mysql

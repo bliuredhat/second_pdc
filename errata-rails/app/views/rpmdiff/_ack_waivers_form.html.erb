@@ -1,0 +1,31 @@
+<%= form_tag :action => 'ack_waivers' do %>
+<%= hidden_field_tag('id', @errata.id) %>
+
+<%= render :partial => 'ack_waivers_table', :locals => {:results => results, :form => true} %>
+
+<div class="small">
+ <p>
+ You may submit this form to approve or reject the waivers listed above.
+ </p>
+ <p>
+ If you are rejecting any waivers, please provide some text explaining why the waiver is not acceptable.
+ </p>
+ <p>
+ If you are approving any waivers, you may optionally provide a comment.
+ </p>
+ <p>
+ The explanation provided here will be combined with the text per result provided in the table above.
+ If the explanations already provided are sufficient, this field may be left blank.
+ </p>
+</div>
+
+<%= text_area_tag \
+  'ack_text_shared',
+  '',
+  :wrap    => 'soft',
+  :id      => 'ack_text_textarea',
+  :class   => 'waive_reason'
+%><br/>
+<%= submit_tag 'Submit', :class=>'btn btn-primary' %>
+
+<% end # form %>

@@ -1,0 +1,12 @@
+### Passed an invalid filter option, it should tell me so
+# HTTP 400
+{
+  "errors": {
+    "codes": [
+      "invalid_filter"
+    ],
+    "params": [
+      "garbage"
+    ]
+  }
+}

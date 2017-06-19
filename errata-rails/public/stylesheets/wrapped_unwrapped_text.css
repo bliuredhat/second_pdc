@@ -1,0 +1,13 @@
+/* Override default pre styles so it looks like a normal div */
+.wrapped-unwrapped-container pre {
+  background-color: inherit;
+  font-family: sans-serif;
+  border-style: none;
+  word-break: normal;
+  padding: 0px;
+}
+
+/* Hide or unhide the wrapped or unwrapped elements */
+.wrapped-unwrapped-container .unwrapped-text { display:none; }
+.wrapped-unwrapped-container.show-unwrapped .wrapped-text { display:none; }
+.wrapped-unwrapped-container.show-unwrapped .unwrapped-text { display:block; }

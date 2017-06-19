@@ -1,0 +1,7 @@
+# file: roles/packaging/defaults/main.yml
+---
+repo_dir: "{{ansible_distribution|lower}}-{{ansible_distribution_version|int}}"
+
+packaging_tools:
+  - koji
+  - rhpkg

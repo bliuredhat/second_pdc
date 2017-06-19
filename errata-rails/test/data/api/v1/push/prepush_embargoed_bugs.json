@@ -1,0 +1,11 @@
+# HTTP 400
+{
+  "errors": {
+    "RHSA-2011:11133 cdn": [
+      "is currently not an applicable push target for RHSA-2011:11133"
+    ],
+    "RHSA-2011:11133 rhn_live": [
+      "Can't push advisory to Rhn Live now due to: has embargoed bugs: 692421"
+    ]
+  }
+}

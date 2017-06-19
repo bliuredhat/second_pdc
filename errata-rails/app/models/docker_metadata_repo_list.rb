@@ -1,0 +1,2 @@
+class DockerMetadataRepoList < TextOnlyChannelList
+end

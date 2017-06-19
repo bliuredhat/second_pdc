@@ -1,0 +1,13 @@
+Builds may not be added for the following inactive
+<%= @product_version_or_pdc_release.pluralize(@inactive_product_versions_or_pdc_releases.count) %> :
+
+<ul>
+<% @inactive_product_versions_or_pdc_releases.each do |pv_or_pr| %>
+    <li class="small light" style="margin-top: 0.5em;">
+    <h4>
+      <%= link_to_release_version(pv_or_pr, target: '_blank') %> -
+      <span class="superlight"> <%= pv_or_pr.verbose_name %></span>
+    </h4>
+  </li>
+<% end %>
+</ul>

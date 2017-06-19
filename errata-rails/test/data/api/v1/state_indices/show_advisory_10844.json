@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "created_at": "2011-02-22T19:35:45Z",
+        "current": "NEW_FILES",
+        "errata_id": 10844,
+        "previous": "",
+        "who": {
+          "login_name": "mschoene@redhat.com",
+          "realname": "Marc Schoenefeld"
+        }
+      },
+      "id": 8309
+    },
+    {
+      "attributes": {
+        "created_at": "2011-02-23T08:35:27Z",
+        "current": "QE",
+        "errata_id": 10844,
+        "previous": "NEW_FILES",
+        "who": {
+          "login_name": "jvanek@redhat.com",
+          "realname": "jiri Vanek"
+        }
+      },
+      "id": 8333
+    },
+    {
+      "attributes": {
+        "created_at": "2011-02-23T17:58:50Z",
+        "current": "REL_PREP",
+        "errata_id": 10844,
+        "previous": "QE",
+        "who": {
+          "login_name": "rbiba@redhat.com",
+          "realname": "Radek Bíba"
+        }
+      },
+      "id": 8372
+    },
+    {
+      "attributes": {
+        "created_at": "2011-02-23T18:00:38Z",
+        "current": "PUSH_READY",
+        "errata_id": 10844,
+        "previous": "REL_PREP",
+        "who": {
+          "login_name": "errata/beehive@redhat.com",
+          "realname": "Errata System"
+        }
+      },
+      "id": 8373
+    },
+    {
+      "attributes": {
+        "created_at": "2011-02-23T18:41:00Z",
+        "current": "SHIPPED_LIVE",
+        "errata_id": 10844,
+        "previous": "PUSH_READY",
+        "who": {
+          "login_name": "jlieskov@redhat.com",
+          "realname": "Jan Lieskovsky"
+        }
+      },
+      "id": 8374
+    }
+  ]
+}

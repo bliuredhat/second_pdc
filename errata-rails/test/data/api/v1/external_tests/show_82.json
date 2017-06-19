@@ -1,0 +1,24 @@
+# HTTP 200
+{
+  "data": {
+    "attributes": {
+      "active": true,
+      "created_at": "2015-10-08T04:16:17Z",
+      "external_id": 1982,
+      "external_message": null,
+      "external_status": null,
+      "status": "PASSED",
+      "test_type": "ccat",
+      "updated_at": "2015-10-08T04:16:17Z"
+    },
+    "id": 82,
+    "relationships": {
+      "errata": {
+        "errata_type": "RHBA",
+        "fulladvisory": "RHBA-2014:1328-04",
+        "id": 18905
+      }
+    },
+    "type": "external_tests"
+  }
+}

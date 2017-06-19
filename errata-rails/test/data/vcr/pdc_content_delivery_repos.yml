@@ -1,0 +1,543 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/release-variants/?release=ceph-2.1-updates@rhel-7&uid=MON
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:36 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:06 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 03 May 2017 02:28:10 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"count\":1,\"next\":null,\"previous\":null,\"results\":[{\"release\":\"ceph-2.1-updates@rhel-7\",\"id\":\"MON\",\"uid\":\"MON\",\"name\":\"MON\",\"type\":\"variant\",\"arches\":[\"x86_64\"]}]}"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:36 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/releases/ceph-2.1-updates@rhel-7/
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:38 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:08 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Mon, 24 Apr 2017 19:07:42 GMT
+      Allow: 
+      - GET, PUT, PATCH, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"release_id\":\"ceph-2.1-updates@rhel-7\",\"short\":\"ceph\",\"version\":\"2.1\",\"name\":\"Red Hat Ceph Storage\",\"base_product\":\"rhel-7\",\"active\":true,\"product_version\":\"ceph-2\",\"release_type\":\"updates\",\"compose_set\":[\"RHCEPH-2.1-RHEL-7-20161201.t.0\",\"RHCEPH-2.1-RHEL-7-20161207.t.0\",\"RHCEPH-2.1-RHEL-7-20161208.t.0\",\"RHCEPH-2.1-RHEL-7-20161208.t.1\"],\"integrated_with\":null,\"bugzilla\":null,\"dist_git\":null,\"brew\":{\"default_target\":\"ceph-2-rhel-7-candidate\",\"allowed_tags\":[\"ceph-2-rhel-7-candidate\",\"ceph-2-rhel-7\"]},\"product_pages\":null,\"errata\":null}"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:38 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/content-delivery-repos/?page_size=-1&release_id=ceph-2.1-updates@rhel-7&service=rhn&variant_uid=MON
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:39 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:09 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 03 May 2017 07:23:39 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "[{\"id\":34687,\"release_id\":\"ceph-2.1-updates@rhel-7\",\"variant_uid\":\"MON\",\"arch\":\"x86_64\",\"service\":\"rhn\",\"repo_family\":\"dist\",\"content_format\":\"rpm\",\"content_category\":\"binary\",\"name\":\"rhel-x86_64-server-7-rhceph-2-mon\",\"shadow\":false,\"product_id\":null},{\"id\":39804,\"release_id\":\"ceph-2.1-updates@rhel-7\",\"variant_uid\":\"MON\",\"arch\":\"x86_64\",\"service\":\"rhn\",\"repo_family\":\"dist\",\"content_format\":\"rpm\",\"content_category\":\"debug\",\"name\":\"rhel-x86_64-server-7-rhceph-2-mon-debuginfo\",\"shadow\":false,\"product_id\":null}]"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:40 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/release-variants/?release=ceph-2.1-updates@rhel-7&uid=MON
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:41 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:11 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 03 May 2017 02:28:10 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"count\":1,\"next\":null,\"previous\":null,\"results\":[{\"release\":\"ceph-2.1-updates@rhel-7\",\"id\":\"MON\",\"uid\":\"MON\",\"name\":\"MON\",\"type\":\"variant\",\"arches\":[\"x86_64\"]}]}"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:41 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/releases/ceph-2.1-updates@rhel-7/
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:43 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:13 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Mon, 24 Apr 2017 19:07:42 GMT
+      Allow: 
+      - GET, PUT, PATCH, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"release_id\":\"ceph-2.1-updates@rhel-7\",\"short\":\"ceph\",\"version\":\"2.1\",\"name\":\"Red Hat Ceph Storage\",\"base_product\":\"rhel-7\",\"active\":true,\"product_version\":\"ceph-2\",\"release_type\":\"updates\",\"compose_set\":[\"RHCEPH-2.1-RHEL-7-20161201.t.0\",\"RHCEPH-2.1-RHEL-7-20161207.t.0\",\"RHCEPH-2.1-RHEL-7-20161208.t.0\",\"RHCEPH-2.1-RHEL-7-20161208.t.1\"],\"integrated_with\":null,\"bugzilla\":null,\"dist_git\":null,\"brew\":{\"default_target\":\"ceph-2-rhel-7-candidate\",\"allowed_tags\":[\"ceph-2-rhel-7-candidate\",\"ceph-2-rhel-7\"]},\"product_pages\":null,\"errata\":null}"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:43 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/content-delivery-repos/?page_size=-1&release_id=ceph-2.1-updates@rhel-7&service=rhn&variant_uid=MON
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:44 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:15 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 03 May 2017 07:23:45 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "[{\"id\":34687,\"release_id\":\"ceph-2.1-updates@rhel-7\",\"variant_uid\":\"MON\",\"arch\":\"x86_64\",\"service\":\"rhn\",\"repo_family\":\"dist\",\"content_format\":\"rpm\",\"content_category\":\"binary\",\"name\":\"rhel-x86_64-server-7-rhceph-2-mon\",\"shadow\":false,\"product_id\":null},{\"id\":39804,\"release_id\":\"ceph-2.1-updates@rhel-7\",\"variant_uid\":\"MON\",\"arch\":\"x86_64\",\"service\":\"rhn\",\"repo_family\":\"dist\",\"content_format\":\"rpm\",\"content_category\":\"debug\",\"name\":\"rhel-x86_64-server-7-rhceph-2-mon-debuginfo\",\"shadow\":false,\"product_id\":null}]"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:45 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/release-variants/?release=ceph-2.1-updates@rhel-7&uid=MON
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:49 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:19 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 03 May 2017 02:28:10 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"count\":1,\"next\":null,\"previous\":null,\"results\":[{\"release\":\"ceph-2.1-updates@rhel-7\",\"id\":\"MON\",\"uid\":\"MON\",\"name\":\"MON\",\"type\":\"variant\",\"arches\":[\"x86_64\"]}]}"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:49 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/releases/ceph-2.1-updates@rhel-7/
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:50 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:21 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Mon, 24 Apr 2017 19:07:42 GMT
+      Allow: 
+      - GET, PUT, PATCH, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"release_id\":\"ceph-2.1-updates@rhel-7\",\"short\":\"ceph\",\"version\":\"2.1\",\"name\":\"Red Hat Ceph Storage\",\"base_product\":\"rhel-7\",\"active\":true,\"product_version\":\"ceph-2\",\"release_type\":\"updates\",\"compose_set\":[\"RHCEPH-2.1-RHEL-7-20161201.t.0\",\"RHCEPH-2.1-RHEL-7-20161207.t.0\",\"RHCEPH-2.1-RHEL-7-20161208.t.0\",\"RHCEPH-2.1-RHEL-7-20161208.t.1\"],\"integrated_with\":null,\"bugzilla\":null,\"dist_git\":null,\"brew\":{\"default_target\":\"ceph-2-rhel-7-candidate\",\"allowed_tags\":[\"ceph-2-rhel-7-candidate\",\"ceph-2-rhel-7\"]},\"product_pages\":null,\"errata\":null}"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:51 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/content-delivery-repos/?content_category=debug&page_size=-1&release_id=ceph-2.1-updates@rhel-7&service=pulp&variant_uid=MON
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:52 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:22 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 03 May 2017 07:23:52 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "[{\"id\":34673,\"release_id\":\"ceph-2.1-updates@rhel-7\",\"variant_uid\":\"MON\",\"arch\":\"x86_64\",\"service\":\"pulp\",\"repo_family\":\"dist\",\"content_format\":\"rpm\",\"content_category\":\"debug\",\"name\":\"rhel-7-server-rhceph-2-mon-debug-rpms__7Server__x86_64\",\"shadow\":false,\"product_id\":286}]"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:52 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/release-variants/?release=ceph-2.1-updates@rhel-7&uid=MON
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:54 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:24 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 03 May 2017 02:28:10 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"count\":1,\"next\":null,\"previous\":null,\"results\":[{\"release\":\"ceph-2.1-updates@rhel-7\",\"id\":\"MON\",\"uid\":\"MON\",\"name\":\"MON\",\"type\":\"variant\",\"arches\":[\"x86_64\"]}]}"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:54 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/releases/ceph-2.1-updates@rhel-7/
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:56 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:26 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Mon, 24 Apr 2017 19:07:42 GMT
+      Allow: 
+      - GET, PUT, PATCH, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"release_id\":\"ceph-2.1-updates@rhel-7\",\"short\":\"ceph\",\"version\":\"2.1\",\"name\":\"Red Hat Ceph Storage\",\"base_product\":\"rhel-7\",\"active\":true,\"product_version\":\"ceph-2\",\"release_type\":\"updates\",\"compose_set\":[\"RHCEPH-2.1-RHEL-7-20161201.t.0\",\"RHCEPH-2.1-RHEL-7-20161207.t.0\",\"RHCEPH-2.1-RHEL-7-20161208.t.0\",\"RHCEPH-2.1-RHEL-7-20161208.t.1\"],\"integrated_with\":null,\"bugzilla\":null,\"dist_git\":null,\"brew\":{\"default_target\":\"ceph-2-rhel-7-candidate\",\"allowed_tags\":[\"ceph-2-rhel-7-candidate\",\"ceph-2-rhel-7\"]},\"product_pages\":null,\"errata\":null}"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:56 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/content-delivery-repos/?content_category=source&page_size=-1&release_id=ceph-2.1-updates@rhel-7&service=pulp&variant_uid=MON
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 03 May 2017 07:23:58 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 03 May 2017 07:24:28 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 03 May 2017 07:23:58 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "[{\"id\":34675,\"release_id\":\"ceph-2.1-updates@rhel-7\",\"variant_uid\":\"MON\",\"arch\":\"x86_64\",\"service\":\"pulp\",\"repo_family\":\"dist\",\"content_format\":\"rpm\",\"content_category\":\"source\",\"name\":\"rhel-7-server-rhceph-2-mon-source-rpms__7Server__x86_64\",\"shadow\":false,\"product_id\":286}]"
+    http_version: 
+  recorded_at: Wed, 03 May 2017 07:23:58 GMT
+recorded_with: VCR 3.0.3

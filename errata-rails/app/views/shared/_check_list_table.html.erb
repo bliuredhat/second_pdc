@@ -1,0 +1,14 @@
+<%# pass in check_list as a local %>
+<table class="check_list_table">
+  <tbody>
+    <% check_list.checks.each do |check| %>
+      <tr>
+        <td class="small_label">
+          <%= check.title.html_safe %>
+        <td>
+          <%= render 'shared/check', :check => check %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

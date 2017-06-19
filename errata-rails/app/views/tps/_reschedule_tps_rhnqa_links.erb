@@ -1,0 +1,7 @@
+<%= post_link_confirm( "Reschedule All", :reschedule_all_distqa, @tpsrun,
+      'You are going to invalidate all current RHNQA TPS results for this errata and re-add new TPS jobs to the queue. Are you sure?', :class=>'btn' ) %>
+
+<%= post_link_confirm( "Reschedule Failing", :reschedule_all_rhnqa_failure, @tpsrun,
+      'You are going to invalidate all RHNQA TPS results in state BAD for this errata and re-add new TPS jobs to the queue. Are you sure?', :class=>'btn' ) %>
+
+<%= post_link( "Check For Missing", :check_for_missing_rhnqa_jobs, @tpsrun, :class=>'btn' ) %>

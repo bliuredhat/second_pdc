@@ -1,0 +1,9 @@
+<% issues = @errata.bugs.sort_by(&:bug_id) + (Settings.jira_private_only ? [] : @errata.jira_issues.sort_by(&:key)) -%>
+<% issues.each do |i| %>
+
+<%= i.display_id -%>
+<% unless i.is_private? -%>
+- <%= i.summary -%>
+<% end -%>
+
+<% end %>

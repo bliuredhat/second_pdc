@@ -1,0 +1,53 @@
+<%
+  # Todo: Refactor and move this out of the view
+  version_builds = HashList.new
+  pv_ids = []
+  bb_ids = []
+  pkg_ids = []
+  errata.
+    errata_brew_mappings.
+    includes(:errata, :brew_build => [:package, :sig_key]).
+    each do |m|
+      version_builds[m.product_version] << m
+      pv_ids << m.product_version_id
+      bb_ids << m.brew_build_id
+      pkg_ids << m.package_id
+  end
+
+  bb_ids.uniq!
+  pv_ids.uniq!
+  pkg_ids.uniq!
+%>
+
+<% if(bb_ids.size > 0) %>
+  <%
+    ThreadLocal.with_thread_locals(
+      :cached_archive_types => BrewArchiveType.prepare_cached_archive_types,
+      :cached_restrictions => Package.prepare_cached_package_restrictions(pkg_ids),
+      :cached_arches   => Arch.prepare_cached_arches,
+      :cached_files    => BrewBuild.prepare_cached_files(bb_ids),
+      :cached_listings => ProductListingCache.prepare_cached_listings(pv_ids, bb_ids)
+    ) do
+      @no_listings = version_builds.values.
+        flatten.
+        reject(&:rpm_build_has_valid_listing?).
+        each_with_object(HashList.new) do |m,h|
+          h[m.product_version] << m.brew_build
+      end
+  %>
+    <%= render "shared/no_product_listings_warning" %>
+    <h2><%= pluralize(bb_ids.size, 'Brew Build') %></h2>
+    <% version_builds.keys.sort_by(&:name).each do |pv| %>
+      <% (valid_mappings, invalid_mappings) = version_builds[pv].partition(&:rpm_build_has_valid_listing?) %>
+      <h2>Builds for <%= pv.name %></h2>
+      <%
+         # Mappings with empty product listings show first
+         [invalid_mappings, valid_mappings].each do |mappings_by_product_version|
+      %>
+        <%= render "shared/file_list_table",
+              :mappings_by_product_version => mappings_by_product_version,
+              :pv => pv %>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>

@@ -1,0 +1,17 @@
+<%= back_to_info(@errata) %>
+<%= page_title_h1 %>
+<%= form_tag :action => :text_only_channels, :id => @errata do %>
+  <% @channels_and_repos.group_by(&:product_version).sort_by{|pv, _|pv.name}.each do |pv, c| %>
+    <h4 style="margin-top:12px;"><%= pv.name %></h4>
+    <% c.each do |c| %>
+      <%
+        tag_id = "#{c.class.name}_#{c.id}"
+        model_name = "#{c.class.model_name.pluralize.downcase}[]"
+      %>
+      &nbsp; <%= check_box_tag(model_name, c.id, @current.include?(c.name), :id => tag_id) %>
+      <%= label_tag(tag_id, "#{c.name} (#{c.short_type})") %><br/>
+    <% end %>
+  <% end %>
+  <br/>
+  <%= submit_tag 'Update', :class=>'btn btn-primary' %>
+<% end %>

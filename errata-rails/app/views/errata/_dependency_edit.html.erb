@@ -1,0 +1,45 @@
+<%
+  #
+  # This is used for both blocks and depends on lists.
+  # Pass in a local called `mode` to specify which to use.
+  #
+  case mode
+  when :depends_on
+    div_id        = 'depends_on_errata'
+    errata_method = :blocking_errata
+    remove_action = 'remove_blocking_advisory'
+    add_action    = 'add_blocking_advisory'
+    name_text     = 'Depends on'
+  when :blocks
+    div_id        = 'blocks_errata'
+    errata_method = :dependent_errata
+    remove_action = 'remove_dependent_advisory'
+    add_action    = 'add_dependent_advisory'
+    name_text     = 'Blocks'
+  else
+    raise "weird mode in _dependency_edit"
+  end
+  add_field_id = add_action + '_field'
+-%>
+
+<div id="<%= div_id %>" style="padding:0.5em 1em;background-color:#f8f8f8;border:1px solid #ccc;border-radius:4px;min-width:350px;">
+  <% @errata.send(errata_method).each do |b| -%>
+    <div style="padding-bottom:5px;">
+      <%= errata_link(b) %>
+      <span class="light small"><%= b.synopsis %></span>
+      <%= link_to('Remove',
+        {:action => remove_action, :id => @errata, :blocker_id => b.id},
+        :remote => true, :method => :post, :title => 'Remove', :confirm=>"Remove #{b.advisory_name} from '#{name_text}'?", :class=>'btn btn-mini'
+      ) if @errata.can_edit_dependencies? %>
+    </div>
+  <% end %>
+
+  <% if @errata.can_edit_dependencies? %> 
+    <div style="margin-top:0.5em;" >
+      <%= form_tag(url_for(:controller => :errata, :action => add_action, :id => @errata), :remote => true) do -%>
+        <%= text_field_tag('advisory_id', nil, {:id => add_field_id}) %>
+        <%= submit_tag 'Add' %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

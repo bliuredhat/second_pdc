@@ -1,0 +1,29 @@
+<% if @errata.bugs.count >= Settings.shorten_bug_list_threshold %>
+  <div class="btn-group text-buttons">
+    <%= long_short_toggle_button(:short, "bugs", @errata.bugs.count, :class=>'toggle_long_short', :style=>show_if_user_pref(:shorten_bug_list), :no_icon=>true) %>
+    <%= long_short_toggle_button(:long,  "bugs", @errata.bugs.count, :class=>'toggle_long_short', :style=>hide_if_user_pref(:shorten_bug_list), :no_icon=>true) %>
+  </div>
+<% end %>
+
+<div class="btn-group">
+  <% if @errata.status_is?(:NEW_FILES)  %>
+    <%= link_to("Add Bugs",    { :action => 'add_bugs_to_errata',       :controller => 'bugs', :id => @errata}, :class => 'btn' ) %>
+    <% if @errata.bugs.any? %>
+      <%= link_to("Remove Bugs", { :action => 'remove_bugs_from_errata',  :controller => 'bugs', :id => @errata}, :class => 'btn' ) %>
+    <% end -%>
+  <% end %>
+
+  <% if @errata.bugs.any? %>
+    <%= link_to("Update Bug Statuses", { :action => 'updatebugstates', :controller => 'bugs', :id => @errata}, :class => 'btn' ) %>
+    <%= block_render 'shared/more_button_menu', :right => true do %>
+      <li>
+        <%= link_to("Reconcile with Bugzilla",
+          { :action => 'reconcile_bugs', :controller => 'bugs', :id => @errata },
+          :method => :post,
+          :title  => 'Updates bugs to reflect the current status in Bugzilla, if they are out of sync'
+        ) %>
+      </li>
+      <li><%= link_to_bug_list 'View bug list in Bugzilla', @errata.bugs, :target => '_blank' %></li>
+    <% end %>
+  <% end %>
+</div>

@@ -1,0 +1,127 @@
+#!/usr/bin/env ruby
+require 'fileutils'
+require 'getoptlong'
+
+PREFIX = 'docker-registry.usersys.redhat.com/errata_tool/'
+
+def help
+  puts <<-"eos"
+Usage: build [options] [pattern]
+
+Build/rebuild docker images for Errata, in sequence.
+
+Options:
+
+  pattern
+     Only build images matching the given regex.
+
+  --from <number>, --from <tag>
+  --to <number>, --to <tag>
+     Start building images from the given number or tag
+     and/or stop building at the give number or tag.
+     By default, all images will be built.
+
+  --dry-run
+     Print the docker commands which would be run, instead of runnign them.
+
+  --prefix <prefix>
+     Prepend the given string to all docker repository names.
+     Default: #{PREFIX}
+
+Examples:
+
+  # Rebuild specific container
+  build 90
+
+  # Rebuild all containers >= number 30
+  build --from 30
+
+  # Rebuild all mysql-related containers
+  build mysql
+eos
+end
+
+def runcmd(cmd, *args)
+  cmdstr = [cmd, args].flatten.join(' ')
+  puts "run: #{cmdstr}"
+  result = system(cmd, *args)
+  raise "command failed: #{cmdstr}" unless result
+end
+
+def main
+  prefix = PREFIX
+  opts = GetoptLong.new(
+    [ '--help', GetoptLong::NO_ARGUMENT ],
+    [ '--from', GetoptLong::REQUIRED_ARGUMENT ],
+    [ '--to', GetoptLong::REQUIRED_ARGUMENT ],
+    [ '--prefix', GetoptLong::REQUIRED_ARGUMENT ],
+    [ '--dry-run', GetoptLong::NO_ARGUMENT ]
+  )
+  from_num = nil
+  from_tag = nil
+  to_num = nil
+  to_tag = nil
+  dryrun = nil
+  opts.each do |opt, arg|
+    case opt
+      when '--help'
+        help()
+        exit 1
+      when '--from'
+        if arg =~ /^\d+/
+          from_num = arg.to_i
+        else
+          from_tag = arg
+        end
+      when '--to'
+        if arg =~ /^\d+/
+          to_num = arg.to_i
+        else
+          to_tag = arg
+        end
+      when '--prefix'
+        prefix = arg
+      when '--dry-run'
+        dryrun = true
+    end
+  end
+
+  pattern = /./
+  if ARGV.length == 1
+    pattern = /#{ARGV.shift}/
+  end
+
+  topdir = File.dirname(__FILE__)
+  FileUtils.cd topdir do
+
+    enabled = from_num.nil? && from_tag.nil?
+    Dir.glob('*/').sort.each do |dir|
+      next unless dir =~ /^(\d+)-(.+)\/$/
+      num = $1.to_i
+      tag = $2
+
+      if !enabled
+        enabled ||= (num == from_num || tag == from_tag)
+      else
+        enabled &&= (num != to_num && tag != to_tag)
+      end
+
+      next unless enabled
+      next unless dir =~ pattern
+
+      if ! File.exist?("#{dir}/Dockerfile")
+        puts "Skipping #{dir} - no Dockerfile present"
+        next
+      end
+
+      cmd = "sudo docker build -t #{prefix}#{tag}:latest #{dir}"
+      if dryrun
+        puts "would run: #{cmd}"
+      else
+        runcmd cmd
+      end
+    end
+  end
+end
+
+main()

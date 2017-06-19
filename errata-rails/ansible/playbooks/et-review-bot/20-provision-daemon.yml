@@ -1,0 +1,86 @@
+---
+- name: Deploy files for review bot
+  hosts: et-review-bot
+  sudo: yes
+  tasks:
+    - name: Copy private ssh key
+      copy:
+        content: "{{ review_bot_ssh_key }}"
+        dest: /etc/gerrit-review-bot.id_rsa
+        owner: 1000
+        group: 1000
+        mode: 0400
+
+    - name: Create workdir for review bot
+      file: path=/var/lib/gerrit-review-bot state=directory owner=1000 group=1000 mode=0755
+
+- name: Launch ET review bot docker image
+  hosts: et-review-bot
+  sudo: yes
+  vars:
+    docker_pkg: "{{ 'docker-io' if ansible_distribution=='Fedora' else 'docker' }}"
+
+  tasks:
+
+    - name: ensure docker is installed
+      yum: name={{ docker_pkg }} state=present
+
+    - name: ensure docker is enabled
+      service: name=docker enabled=yes
+
+    - name: ensure docker is started
+      service: name=docker state=started
+
+    - name: ensure pip is installed
+      easy_install: name=pip
+
+    - name: ensure docker-py is installed
+      pip: name=docker-py version=0.3.1
+
+    - name: check if latest docker image is present
+      command: docker images -q
+      register: docker_images
+      changed_when: docker_images.stdout.find(docker_image_id) == -1
+
+    - name: pull updated docker image
+      command: docker pull {{ docker_image_tag }}
+      when: docker_images.changed
+
+    # FIXME: in my testing the 'docker' module fails to automatically stop/restart
+    # the container if the image or command changes, so we have these steps first
+    # to stop a running container if the image changed, and delete a stopped container
+    # if one exists.
+    - name: check if container is running
+      command: docker ps --no-trunc
+      register: docker_running_containers
+      changed_when: docker_running_containers.stdout.find(inventory_hostname)!=-1
+
+    - name: check if container is stopped
+      command: docker ps -a
+      register: docker_stopped_containers
+      changed_when: docker_running_containers.stdout.find(inventory_hostname)==-1 and docker_stopped_containers.stdout.find(inventory_hostname)!=-1
+
+    - name: inspect container
+      command: docker inspect {{ inventory_hostname }}
+      register: docker_inspect
+      when: docker_running_containers.changed or docker_stopped_containers.changed
+      changed_when: force_restart is defined or docker_inspect.stdout.find(docker_image_id) == -1
+
+    - name: stop container
+      command: docker stop {{ inventory_hostname }}
+      when: docker_running_containers.changed and docker_inspect.changed
+
+    - name: remove container
+      command: docker rm {{ inventory_hostname }}
+      when: docker_inspect.changed
+
+    - name: ensure container is running
+      sudo: yes
+      docker:
+        name: "{{ inventory_hostname }}"
+        image: "{{ docker_image_id }}"
+        state: running
+        volumes:
+          - /etc/gerrit-review-bot.id_rsa:/home/review-bot/.ssh/id_rsa
+          - /var/lib/gerrit-review-bot:/home/review-bot/gerrit-review-bot
+        env: REVIEW_BOT_REALLY=1

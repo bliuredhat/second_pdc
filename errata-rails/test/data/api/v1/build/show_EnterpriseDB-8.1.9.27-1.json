@@ -1,0 +1,41 @@
+# HTTP 200
+{
+  "all_errata": [
+    {
+      "id": 6310,
+      "name": "RHSA-2007:0895",
+      "status": "SHIPPED_LIVE"
+    }
+  ],
+  "files": [
+    {
+      "arch": {
+        "id": 4,
+        "name": "i386"
+      },
+      "id": 1034726,
+      "path": "/mnt/redhat/brewroot/packages/EnterpriseDB/8.1.9.27/1/data/signed/42193e6b/i386/EnterpriseDB-8.1.9.27-1.i386.rpm",
+      "type": "rpm"
+    },
+    {
+      "arch": {
+        "id": 5,
+        "name": "i586"
+      },
+      "id": 1036478,
+      "path": "/mnt/redhat/brewroot/packages/EnterpriseDB/8.1.9.27/1/data/signed/42193e6b/i586/EnterpriseDB-8.1.9.27-1.i586.rpm",
+      "type": "rpm"
+    }
+  ],
+  "id": 65336,
+  "nvr": "EnterpriseDB-8.1.9.27-1",
+  "package": {
+    "id": 1560,
+    "name": "EnterpriseDB"
+  },
+  "released_errata": {
+    "id": 6310,
+    "name": "RHSA-2007:0895"
+  },
+  "rpms_signed": true
+}

@@ -1,0 +1,514 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 17,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 37,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-6-server-debuginfo-rpms__6Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 62,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-optional-rpms__6Server__x390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 20,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rpms__6Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 25,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          },
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-system-z-debug-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1265,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-system-z-fastrack-debug-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1745,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-system-z-fastrack-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1746,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-system-z-fastrack-source-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1747,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-system-z-optional-debug-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1286,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-system-z-optional-fastrack-debug-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1766,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-system-z-optional-fastrack-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1767,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-system-z-optional-fastrack-source-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1768,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-system-z-optional-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1287,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-system-z-optional-source-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1288,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-system-z-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1266,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-system-z-source-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1267,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-ha-for-rhel-7-for-system-z-debug-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2749,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 704,
+            "name": "7Server-HighAvailability"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-ha-for-rhel-7-for-system-z-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2750,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 704,
+            "name": "7Server-HighAvailability"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-ha-for-rhel-7-for-system-z-source-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2751,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 704,
+            "name": "7Server-HighAvailability"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-rs-for-rhel-7-for-system-z-debug-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2752,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 706,
+            "name": "7Server-ResilientStorage"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-rs-for-rhel-7-for-system-z-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2753,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 706,
+            "name": "7Server-ResilientStorage"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-rs-for-rhel-7-for-system-z-source-rpms__7Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2754,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 706,
+            "name": "7Server-ResilientStorage"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    }
+  ]
+}

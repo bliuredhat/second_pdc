@@ -1,0 +1,213 @@
+<%
+#
+# Generate Markdown for pasting into
+# https://docs.engineering.redhat.com/x/1AIjAQ
+#
+
+search_url = 'https://bugzilla.redhat.com/buglist.cgi'
+
+product_name = 'Errata Tool'
+
+column_list = %w[bug_status short_desc cf_story_points assigned_to_realname reporter_realname
+  priority bug_severity component flagtypes.name cf_internal_whiteboard keywords votes]
+
+sort_order = ['bug_status DESC', 'priority', 'bug_severity', 'cf_story_points DESC', 'bug_id DESC']
+
+active_statuses = %w[ASSIGNED POST MODIFIED ON_QA VERIFIED RELEASE_PENDING]
+
+summary_labels = %w[EPIC RFE Tracker Spike Cleanup Testing Regression Usability Performance docker errata-migration MX]
+
+keywords = %w[ Reopened ]
+
+verifieds = %w[ FailedQA ]
+
+components = get_data_from_teiid(<<eos).flatten
+  SELECT components.name FROM Bugzilla.products
+    JOIN Bugzilla.components ON products.id = components.product_id
+    WHERE products.name = 'Errata Tool'
+    ORDER BY components.name
+eos
+
+#----------------------------------------------------------------------------
+
+product = {
+  :product => product_name,
+}
+
+format = {
+  :columnlist => column_list.join(','),
+  :order => sort_order.join(','),
+}
+
+summary_label = lambda { |l| {
+  :short_desc => "[#{l}]",
+  :short_desc_type => 'substring',
+}}
+
+# (Beware you have to be check the f1 vs f2 etc when combining multiple
+# advanced query params. There's no attempt to handle that nicely.)
+
+flag = lambda { |f| {
+  :query_format => 'advanced',
+  :f1 => 'flagtypes.name',
+  :o1 => 'substring',
+  :v1 => "errata-#{f}",
+}}
+
+missing_flag = {
+  :query_format => 'advanced',
+  :f1 => 'flagtypes.name',
+  :o1 => 'notsubstring',
+  :v1 => 'errata-',
+}
+
+not_new = {
+  :query_format => 'advanced',
+  :f1 => 'bug_status',
+  :o1 => 'notequals',
+  :v1 => 'NEW',
+}
+
+hotfix = {
+  :query_format => 'advanced',
+  :f2 => 'flagtypes.name',
+  :o2 => 'substring',
+  :v2 => 'hot_fix',
+}
+
+needinfo = {
+  :query_format => 'advanced',
+  :f1 => 'flagtypes.name',
+  :o1 => 'substring',
+  :v1 => 'needinfo',
+}
+
+missing_points = {
+  :query_format => 'advanced',
+  :f2 => 'cf_story_points',
+  :o2 => 'equals',
+  :v2 => '---',
+}
+
+missing_priority = {
+  :query_format => 'advanced',
+  :j_top => 'OR',
+  :f1 => 'priority',
+  :o1 => 'equals',
+  :v1 => 'unspecified',
+  :f2 => 'bug_severity',
+  :o2 => 'equals',
+  :v2 => 'unspecified',
+}
+
+pnt_devops_flag = {
+  :query_format => 'advanced',
+  :f1 => 'cf_internal_whiteboard',
+  :o1 => 'substring',
+  :v1 => 'PnT-DevOps-Epic',
+}
+
+keyword = lambda { |k| {
+  :query_format => 'advanced',
+  :f1 => 'keywords',
+  :o1 => 'substring',
+  :v1 => k,
+}}
+
+verified = lambda { |k| {
+  :query_format => 'advanced',
+  :f1 => 'cf_verified',
+  :o1 => 'substring',
+  :v1 => k,
+}}
+
+status = lambda { |s| {
+  :bug_status => s
+}}
+
+component = lambda { |c| {
+  :component => c
+}}
+
+open = status['__open__']
+assigned = status['ASSIGNED']
+done = status['CLOSED'].merge(:resolution => 'CURRENTRELEASE')
+
+#----------------------------------------------------------------------------
+
+# Merge any number of hashes together
+merge  = lambda { |*hashes| hashes.inject(&:merge) }
+
+# Use Rails's Hash#to_query to make a query string
+# Also add the product to the params since everything gets that
+param_string = lambda { |*params| merge[product, *params].to_query }
+
+# Assemble a Bugzilla URL
+bz_url = lambda { |*params| "#{search_url}?#{param_string[*params]}" }
+
+# Markdown syntax for a link
+short_link = lambda { |text, *link_params| "[#{text}](#{bz_url[*link_params]})" }
+
+# Include columns and ordering params by default (though it makes the url quite long)
+link = lambda { |text, *link_params| short_link[text, format, *link_params] }
+
+# Bleh
+comma = lambda { |i| ', ' unless i == 0 }
+
+past = %w[3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0]
+future = %w[3.14 3.15 3.16 3.x]
+current = future.first
+
+#----------------------------------------------------------------------------
+%>
+<!-- Content for https://docs.engineering.redhat.com/x/1AIjAQ -->
+
+<!-- Left Column -->
+
+### Triage required
+
+* <%= link['Missing release flag', open, missing_flag] %>
+* <%= link['Missing points estimate', open, flag[current], missing_points] %>
+* <%= link['Missing priority or severity', open, missing_priority] %>
+
+### In progress/open
+
+* By status: <% active_statuses.each_with_index do |s, i| %><%= comma[i] %><%= link[s, status[s]] %><% end %>
+* By status (short urls): <% active_statuses.each_with_index do |s, i| %><%= comma[i] %><%= short_link[s, status[s]] %><% end %>
+* <%= link['All active', open, not_new] %>
+* <%= link['All open', open] %>
+* <%= link['Flagged as hotfix', flag[current], open, hotfix] %>
+* <%= link['NEW in current flag', flag[current], status['NEW']] %>
+* <%= link['Flagged as needinfo', open, needinfo] %>
+* <%= link['With PnT DevOps Epic flag', open, pnt_devops_flag] %>
+* By keyword: <% keywords.each_with_index do |k, i| %><%= comma[i] %><%= link[k, open, keyword[k]] %><% end %>
+* FailedQA items in ASSIGNED: <% verifieds.each_with_index do |k, i| %><%= comma[i] %><%= link[k, open, assigned, verified[k]] %><% end %>
+* By summary label: <% summary_labels.each_with_index do |l, i| %><%= comma[i] %><%= link[l, open, summary_label[l]] %><% end %>
+* By component: <% components.each_with_index do |c, i| %><%= comma[i] %><%= link[c, open, component[c]] %><% end %>
+
+### Current & future (open items)
+
+<% future.each do |f|
+%>* <%= link["Errata Tool #{f}", flag[f], open] %>
+<% end %>
+
+<!-- Right Column -->
+
+### RPMDiff Bugs with component 'Errata UI'
+
+* <%= link['All open items', open, component['Errata UI'], { :product => 'RPMDiff' }] %>
+* <%= link['All done items', done, component['Errata UI'], { :product => 'RPMDiff' }]  %>
+
+### Past (done items)
+
+* <%= link['With PnT DevOps Epic flag', done, pnt_devops_flag] %>
+* <%= link['Flagged as hotfix', done, hotfix] %>
+<% past.each do |f|
+%> * <%= link["Errata Tool #{f}", flag[f], done] %>
+<% end %>
+* <%= link['All done items', done, {:order=>'bug_id DESC'}] %>
+
+### See also
+* [Errata Tool Roadmap](https://docs.engineering.redhat.com/x/5I-lAQ )
+* [ET FAQ: Scheduling and prioritizing work](https://docs.engineering.redhat.com/x/Zz8OAg )
+* [ET Scrum Board](https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401&view=detail )

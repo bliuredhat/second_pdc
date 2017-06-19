@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "code": [
+      "package_in_use"
+    ],
+    "locked_packages": [
+      "rhel-server-docker"
+    ]
+  }
+}

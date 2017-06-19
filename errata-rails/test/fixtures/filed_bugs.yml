@@ -1,0 +1,3376 @@
+--- 
+filed_bug_03198: 
+  bug_id: 459581
+  created_at: 2008-08-25 16:51:20 -04:00
+  errata_id: 7679
+  id: 3198
+  state_index_id: 
+  user_id: 215839
+filed_bug_03199: 
+  bug_id: 457835
+  created_at: 2008-08-25 16:51:20 -04:00
+  errata_id: 7679
+  id: 3199
+  state_index_id: 
+  user_id: 215839
+filed_bug_06336: 
+  bug_id: 429286
+  created_at: 2008-07-07 10:25:36 -04:00
+  errata_id: 7517
+  id: 6336
+  state_index_id: 
+  user_id: 100135
+filed_bug_06397: 
+  bug_id: 436062
+  created_at: 2008-07-07 13:13:14 -04:00
+  errata_id: 7519
+  id: 6397
+  state_index_id: 
+  user_id: 100135
+filed_bug_06488: 
+  bug_id: 438086
+  created_at: 2008-10-30 17:53:51 -04:00
+  errata_id: 8013
+  id: 6488
+  state_index_id: 
+  user_id: 96230
+filed_bug_08981: 
+  bug_id: 284521
+  created_at: 2007-09-10 08:42:08 -04:00
+  errata_id: 6310
+  id: 8981
+  state_index_id: 
+  user_id: 35599
+filed_bug_09183: 
+  bug_id: 439214
+  created_at: 2008-04-30 04:25:34 -04:00
+  errata_id: 7058
+  id: 9183
+  state_index_id: 
+  user_id: 256461
+filed_bug_14773: 
+  bug_id: 427339
+  created_at: 2008-05-20 23:01:53 -04:00
+  errata_id: 7390
+  id: 14773
+  state_index_id: 
+  user_id: 194055
+filed_bug_14774: 
+  bug_id: 435827
+  created_at: 2008-05-20 23:01:53 -04:00
+  errata_id: 7390
+  id: 14774
+  state_index_id: 
+  user_id: 194055
+filed_bug_14775: 
+  bug_id: 438376
+  created_at: 2008-05-20 23:01:53 -04:00
+  errata_id: 7390
+  id: 14775
+  state_index_id: 
+  user_id: 194055
+filed_bug_14776: 
+  bug_id: 439819
+  created_at: 2008-05-20 23:01:53 -04:00
+  errata_id: 7390
+  id: 14776
+  state_index_id: 
+  user_id: 194055
+filed_bug_17399: 
+  bug_id: 426482
+  created_at: 2008-02-19 09:34:37 -05:00
+  errata_id: 7058
+  id: 17399
+  state_index_id: 
+  user_id: 256461
+filed_bug_19491: 
+  bug_id: 146672
+  created_at: 2005-04-06 00:00:00 -04:00
+  errata_id: 2128
+  id: 19491
+  state_index_id: 
+  user_id: 156799
+filed_bug_19492: 
+  bug_id: 150029
+  created_at: 2005-04-06 00:00:00 -04:00
+  errata_id: 2128
+  id: 19492
+  state_index_id: 
+  user_id: 156799
+filed_bug_19493: 
+  bug_id: 130358
+  created_at: 2005-04-06 00:00:00 -04:00
+  errata_id: 2128
+  id: 19493
+  state_index_id: 
+  user_id: 156799
+filed_bug_19494: 
+  bug_id: 145121
+  created_at: 2005-04-06 00:00:00 -04:00
+  errata_id: 2128
+  id: 19494
+  state_index_id: 
+  user_id: 156799
+filed_bug_19495: 
+  bug_id: 150365
+  created_at: 2005-04-06 00:00:00 -04:00
+  errata_id: 2128
+  id: 19495
+  state_index_id: 
+  user_id: 156799
+filed_bug_19496: 
+  bug_id: 131142
+  created_at: 2005-04-06 00:00:00 -04:00
+  errata_id: 2128
+  id: 19496
+  state_index_id: 
+  user_id: 156799
+filed_bug_19497: 
+  bug_id: 150366
+  created_at: 2005-04-06 00:00:00 -04:00
+  errata_id: 2128
+  id: 19497
+  state_index_id: 
+  user_id: 156799
+filed_bug_30337: 
+  bug_id: 508646
+  created_at: 2009-06-29 14:00:20 -04:00
+  errata_id: 8742
+  id: 30337
+  state_index_id: 
+  user_id: 215839
+filed_bug_30338: 
+  bug_id: 508649
+  created_at: 2009-06-29 14:00:20 -04:00
+  errata_id: 8742
+  id: 30338
+  state_index_id: 
+  user_id: 215839
+filed_bug_30467: 
+  bug_id: 509125
+  created_at: 2009-07-06 04:00:47 -04:00
+  errata_id: 8751
+  id: 30467
+  state_index_id: 
+  user_id: 215839
+filed_bug_30468: 
+  bug_id: 489436
+  created_at: 2009-07-06 04:00:47 -04:00
+  errata_id: 8751
+  id: 30468
+  state_index_id: 
+  user_id: 215839
+filed_bug_30469: 
+  bug_id: 509781
+  created_at: 2009-07-06 04:00:47 -04:00
+  errata_id: 8751
+  id: 30469
+  state_index_id: 
+  user_id: 215839
+filed_bug_30470: 
+  bug_id: 509375
+  created_at: 2009-07-06 04:00:47 -04:00
+  errata_id: 8751
+  id: 30470
+  state_index_id: 
+  user_id: 215839
+filed_bug_31218: 
+  bug_id: 476671
+  created_at: 2009-08-31 11:14:22 -04:00
+  errata_id: 8854
+  id: 31218
+  state_index_id: 
+  user_id: 35599
+filed_bug_33042: 
+  bug_id: 545352
+  created_at: 2009-12-09 12:23:10 -05:00
+  errata_id: 9190
+  id: 33042
+  state_index_id: 
+  user_id: 275188
+filed_bug_33043: 
+  bug_id: 544371
+  created_at: 2009-12-09 12:23:10 -05:00
+  errata_id: 9190
+  id: 33043
+  state_index_id: 
+  user_id: 275188
+filed_bug_34128: 
+  bug_id: 533125
+  created_at: 2010-01-11 07:55:44 -05:00
+  errata_id: 9325
+  id: 34128
+  state_index_id: 
+  user_id: 215839
+filed_bug_34679: 
+  bug_id: 557025
+  created_at: 2010-02-15 14:08:30 -05:00
+  errata_id: 9407
+  id: 34679
+  state_index_id: 
+  user_id: 3000113
+filed_bug_34680: 
+  bug_id: 560771
+  created_at: 2010-02-15 14:08:30 -05:00
+  errata_id: 9407
+  id: 34680
+  state_index_id: 
+  user_id: 3000113
+filed_bug_34681: 
+  bug_id: 531660
+  created_at: 2010-02-15 14:08:30 -05:00
+  errata_id: 9407
+  id: 34681
+  state_index_id: 
+  user_id: 3000113
+filed_bug_34682: 
+  bug_id: 563934
+  created_at: 2010-02-15 14:08:30 -05:00
+  errata_id: 9407
+  id: 34682
+  state_index_id: 
+  user_id: 3000113
+filed_bug_34683: 
+  bug_id: 563468
+  created_at: 2010-02-15 14:08:30 -05:00
+  errata_id: 9407
+  id: 34683
+  state_index_id: 
+  user_id: 3000113
+filed_bug_34684: 
+  bug_id: 563463
+  created_at: 2010-02-15 14:08:30 -05:00
+  errata_id: 9407
+  id: 34684
+  state_index_id: 
+  user_id: 3000113
+filed_bug_34694: 
+  bug_id: 555668
+  created_at: 2010-02-16 05:39:01 -05:00
+  errata_id: 9407
+  id: 34694
+  state_index_id: 
+  user_id: 3000113
+filed_bug_34695: 
+  bug_id: 555658
+  created_at: 2010-02-16 05:39:01 -05:00
+  errata_id: 9407
+  id: 34695
+  state_index_id: 
+  user_id: 3000113
+filed_bug_35055: 
+  bug_id: 568519
+  created_at: 2010-02-25 17:00:40 -05:00
+  errata_id: 9407
+  id: 35055
+  state_index_id: 
+  user_id: 100112
+filed_bug_35066: 
+  bug_id: 569459
+  created_at: 2010-03-01 20:18:04 -05:00
+  errata_id: 9407
+  id: 35066
+  state_index_id: 
+  user_id: 100112
+filed_bug_35352: 
+  bug_id: 571299
+  created_at: 2010-03-22 23:16:47 -04:00
+  errata_id: 9494
+  id: 35352
+  state_index_id: 
+  user_id: 196179
+filed_bug_35394: 
+  bug_id: 570863
+  created_at: 2010-03-24 20:45:10 -04:00
+  errata_id: 9494
+  id: 35394
+  state_index_id: 
+  user_id: 223091
+filed_bug_36662: 
+  bug_id: 612799
+  created_at: 2010-07-13 08:55:51 -04:00
+  errata_id: 9753
+  id: 36662
+  state_index_id: 1371
+  user_id: 215107
+filed_bug_36663: 
+  bug_id: 612799
+  created_at: 2010-07-13 08:58:58 -04:00
+  errata_id: 9754
+  id: 36663
+  state_index_id: 1372
+  user_id: 215107
+filed_bug_36664: 
+  bug_id: 612799
+  created_at: 2010-07-13 09:41:41 -04:00
+  errata_id: 9755
+  id: 36664
+  state_index_id: 1373
+  user_id: 215107
+filed_bug_36665: 
+  bug_id: 613948
+  created_at: 2010-07-13 09:43:04 -04:00
+  errata_id: 9755
+  id: 36665
+  state_index_id: 1373
+  user_id: 215107
+filed_bug_36666: 
+  bug_id: 613944
+  created_at: 2010-07-13 09:43:04 -04:00
+  errata_id: 9755
+  id: 36666
+  state_index_id: 1373
+  user_id: 215107
+filed_bug_36667: 
+  bug_id: 613945
+  created_at: 2010-07-13 09:43:04 -04:00
+  errata_id: 9755
+  id: 36667
+  state_index_id: 1373
+  user_id: 215107
+filed_bug_36668: 
+  bug_id: 613946
+  created_at: 2010-07-13 09:43:04 -04:00
+  errata_id: 9755
+  id: 36668
+  state_index_id: 1373
+  user_id: 215107
+filed_bug_36680: 
+  bug_id: 614422
+  created_at: 2010-07-14 09:14:31 -04:00
+  errata_id: 9754
+  id: 36680
+  state_index_id: 1372
+  user_id: 215107
+filed_bug_36681: 
+  bug_id: 559738
+  created_at: 2010-07-14 09:14:31 -04:00
+  errata_id: 9754
+  id: 36681
+  state_index_id: 1372
+  user_id: 215107
+filed_bug_36682: 
+  bug_id: 559761
+  created_at: 2010-07-14 09:14:31 -04:00
+  errata_id: 9754
+  id: 36682
+  state_index_id: 1372
+  user_id: 215107
+filed_bug_36683: 
+  bug_id: 614424
+  created_at: 2010-07-14 09:18:13 -04:00
+  errata_id: 9753
+  id: 36683
+  state_index_id: 1371
+  user_id: 215107
+filed_bug_37135: 
+  bug_id: 606706
+  created_at: 2010-08-04 07:21:32 -04:00
+  errata_id: 9829
+  id: 37135
+  state_index_id: 1821
+  user_id: 215107
+filed_bug_37404: 
+  bug_id: 624604
+  created_at: 2010-08-19 04:40:06 -04:00
+  errata_id: 9883
+  id: 37404
+  state_index_id: 2093
+  user_id: 196179
+filed_bug_38471: 
+  bug_id: 634458
+  created_at: 2010-09-21 23:23:08 -04:00
+  errata_id: 9883
+  id: 38471
+  state_index_id: 2093
+  user_id: 196179
+filed_bug_38472: 
+  bug_id: 634457
+  created_at: 2010-09-21 23:23:08 -04:00
+  errata_id: 9883
+  id: 38472
+  state_index_id: 2093
+  user_id: 196179
+filed_bug_38473: 
+  bug_id: 622952
+  created_at: 2010-09-21 23:28:03 -04:00
+  errata_id: 9883
+  id: 38473
+  state_index_id: 2093
+  user_id: 196179
+filed_bug_38475: 
+  bug_id: 629444
+  created_at: 2010-09-21 23:28:03 -04:00
+  errata_id: 9883
+  id: 38475
+  state_index_id: 2093
+  user_id: 196179
+filed_bug_38477: 
+  bug_id: 629441
+  created_at: 2010-09-21 23:28:03 -04:00
+  errata_id: 9883
+  id: 38477
+  state_index_id: 2093
+  user_id: 196179
+filed_bug_39017: 
+  bug_id: 640334
+  created_at: 2010-10-05 11:41:59 -04:00
+  errata_id: 9883
+  id: 39017
+  state_index_id: 3156
+  user_id: 61112
+filed_bug_39364: 
+  bug_id: 609327
+  created_at: 2010-10-15 06:17:09 -04:00
+  errata_id: 10140
+  id: 39364
+  state_index_id: 3548
+  user_id: 215839
+filed_bug_40117: 
+  bug_id: 640788
+  created_at: 2010-10-27 10:47:50 -04:00
+  errata_id: 10205
+  id: 40117
+  state_index_id: 3958
+  user_id: 163483
+filed_bug_40118: 
+  bug_id: 640783
+  created_at: 2010-10-27 10:47:50 -04:00
+  errata_id: 10205
+  id: 40118
+  state_index_id: 3958
+  user_id: 163483
+filed_bug_40119: 
+  bug_id: 640786
+  created_at: 2010-10-27 10:47:50 -04:00
+  errata_id: 10205
+  id: 40119
+  state_index_id: 3958
+  user_id: 163483
+filed_bug_40241: 
+  bug_id: 615956
+  created_at: 2010-11-01 09:51:34 -04:00
+  errata_id: 10226
+  id: 40241
+  state_index_id: 4068
+  user_id: 35599
+filed_bug_40298: 
+  bug_id: 648886
+  created_at: 2010-11-02 09:35:16 -04:00
+  errata_id: 10140
+  id: 40298
+  state_index_id: 3571
+  user_id: 215839
+filed_bug_40299: 
+  bug_id: 648882
+  created_at: 2010-11-02 09:35:16 -04:00
+  errata_id: 10140
+  id: 40299
+  state_index_id: 3571
+  user_id: 215839
+filed_bug_40300: 
+  bug_id: 648883
+  created_at: 2010-11-02 09:35:16 -04:00
+  errata_id: 10140
+  id: 40300
+  state_index_id: 3571
+  user_id: 215839
+filed_bug_40635: 
+  bug_id: 654664
+  created_at: 2010-11-18 10:05:52 -05:00
+  errata_id: 10305
+  id: 40635
+  state_index_id: 4775
+  user_id: 35599
+filed_bug_42058: 
+  bug_id: 642693
+  created_at: 2011-01-13 10:36:13 -05:00
+  errata_id: 10509
+  id: 42058
+  state_index_id: 6498
+  user_id: 3000057
+filed_bug_42059: 
+  bug_id: 625495
+  created_at: 2011-01-13 10:36:13 -05:00
+  errata_id: 10509
+  id: 42059
+  state_index_id: 6498
+  user_id: 3000057
+filed_bug_42060: 
+  bug_id: 628670
+  created_at: 2011-01-13 10:36:13 -05:00
+  errata_id: 10509
+  id: 42060
+  state_index_id: 6498
+  user_id: 3000057
+filed_bug_43019: 
+  bug_id: 670914
+  created_at: 2011-01-19 11:48:14 -05:00
+  errata_id: 10610
+  id: 43019
+  state_index_id: 6797
+  user_id: 275188
+filed_bug_43021: 
+  bug_id: 670922
+  created_at: 2011-01-19 12:01:10 -05:00
+  errata_id: 10610
+  id: 43021
+  state_index_id: 6797
+  user_id: 275188
+filed_bug_43024: 
+  bug_id: 666076
+  created_at: 2011-01-19 16:23:50 -05:00
+  errata_id: 10610
+  id: 43024
+  state_index_id: 6797
+  user_id: 172337
+filed_bug_43099: 
+  bug_id: 671199
+  created_at: 2011-01-20 14:39:45 -05:00
+  errata_id: 10610
+  id: 43099
+  state_index_id: 6797
+  user_id: 184429
+filed_bug_43569: 
+  bug_id: 672468
+  created_at: 2011-01-28 14:47:06 -05:00
+  errata_id: 10610
+  id: 43569
+  state_index_id: 7145
+  user_id: 268050
+filed_bug_43816: 
+  bug_id: 663322
+  created_at: 2011-02-01 16:44:26 -05:00
+  errata_id: 10718
+  id: 43816
+  state_index_id: 7268
+  user_id: 104688
+filed_bug_43865: 
+  bug_id: 674336
+  created_at: 2011-02-02 12:12:26 -05:00
+  errata_id: 10729
+  id: 43865
+  state_index_id: 7321
+  user_id: 215107
+filed_bug_44887: 
+  bug_id: 674336
+  created_at: 2011-02-10 05:05:18 -05:00
+  errata_id: 10801
+  id: 44887
+  state_index_id: 7767
+  user_id: 215107
+filed_bug_44888: 
+  bug_id: 674336
+  created_at: 2011-02-10 05:19:58 -05:00
+  errata_id: 10802
+  id: 44888
+  state_index_id: 7769
+  user_id: 215107
+filed_bug_44950: 
+  bug_id: 610787
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44950
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44951: 
+  bug_id: 617000
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44951
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44952: 
+  bug_id: 621834
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44952
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44953: 
+  bug_id: 625036
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44953
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44954: 
+  bug_id: 625465
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44954
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44955: 
+  bug_id: 630536
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44955
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44956: 
+  bug_id: 630830
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44956
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44957: 
+  bug_id: 633208
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44957
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44958: 
+  bug_id: 633243
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44958
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44959: 
+  bug_id: 634536
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44959
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44960: 
+  bug_id: 635506
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44960
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44961: 
+  bug_id: 637713
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44961
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44962: 
+  bug_id: 649773
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44962
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44963: 
+  bug_id: 669276
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44963
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44964: 
+  bug_id: 669314
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44964
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44965: 
+  bug_id: 669316
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44965
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44966: 
+  bug_id: 669597
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44966
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44967: 
+  bug_id: 669633
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44967
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_44968: 
+  bug_id: 671187
+  created_at: 2011-02-13 10:39:10 -05:00
+  errata_id: 10808
+  id: 44968
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_45086: 
+  bug_id: 634828
+  created_at: 2011-02-16 09:16:19 -05:00
+  errata_id: 10808
+  id: 45086
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_45101: 
+  bug_id: 616685
+  created_at: 2011-02-17 01:16:01 -05:00
+  errata_id: 10808
+  id: 45101
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_45105: 
+  bug_id: 678283
+  created_at: 2011-02-17 08:58:35 -05:00
+  errata_id: 10827
+  id: 45105
+  state_index_id: 8144
+  user_id: 184429
+filed_bug_45106: 
+  bug_id: 672163
+  created_at: 2011-02-17 08:58:35 -05:00
+  errata_id: 10827
+  id: 45106
+  state_index_id: 8144
+  user_id: 184429
+filed_bug_45107: 
+  bug_id: 672159
+  created_at: 2011-02-17 08:58:35 -05:00
+  errata_id: 10827
+  id: 45107
+  state_index_id: 8144
+  user_id: 184429
+filed_bug_45152: 
+  bug_id: 676774
+  created_at: 2011-02-18 17:31:41 -05:00
+  errata_id: 10836
+  id: 45152
+  state_index_id: 8197
+  user_id: 100112
+filed_bug_45168: 
+  bug_id: 655952
+  created_at: 2011-02-18 18:54:05 -05:00
+  errata_id: 10836
+  id: 45168
+  state_index_id: 8197
+  user_id: 100112
+filed_bug_45189: 
+  bug_id: 670713
+  created_at: 2011-02-21 13:09:11 -05:00
+  errata_id: 10808
+  id: 45189
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_45267: 
+  bug_id: 674486
+  created_at: 2011-02-22 01:09:52 -05:00
+  errata_id: 10842
+  id: 45267
+  state_index_id: 8258
+  user_id: 246681
+filed_bug_45288: 
+  bug_id: 674336
+  created_at: 2011-02-22 14:35:45 -05:00
+  errata_id: 10844
+  id: 45288
+  state_index_id: 8309
+  user_id: 215107
+filed_bug_45291: 
+  bug_id: 679532
+  created_at: 2011-02-22 14:43:35 -05:00
+  errata_id: 10844
+  id: 45291
+  state_index_id: 8309
+  user_id: 215107
+filed_bug_45292: 
+  bug_id: 679533
+  created_at: 2011-02-22 14:43:35 -05:00
+  errata_id: 10844
+  id: 45292
+  state_index_id: 8309
+  user_id: 215107
+filed_bug_45293: 
+  bug_id: 679535
+  created_at: 2011-02-22 14:43:35 -05:00
+  errata_id: 10844
+  id: 45293
+  state_index_id: 8309
+  user_id: 215107
+filed_bug_45312: 
+  bug_id: 674336
+  created_at: 2011-02-23 06:29:05 -05:00
+  errata_id: 10849
+  id: 45312
+  state_index_id: 8345
+  user_id: 215107
+filed_bug_45377: 
+  bug_id: 679144
+  created_at: 2011-02-24 11:39:50 -05:00
+  errata_id: 10839
+  id: 45377
+  state_index_id: 8239
+  user_id: 3000076
+filed_bug_45378: 
+  bug_id: 656776
+  created_at: 2011-02-24 11:42:57 -05:00
+  errata_id: 10839
+  id: 45378
+  state_index_id: 8239
+  user_id: 3000076
+filed_bug_45430: 
+  bug_id: 679669
+  created_at: 2011-02-25 06:15:15 -05:00
+  errata_id: 10839
+  id: 45430
+  state_index_id: 8239
+  user_id: 3000076
+filed_bug_45431: 
+  bug_id: 492915
+  created_at: 2011-02-25 07:55:39 -05:00
+  errata_id: 10858
+  id: 45431
+  state_index_id: 8478
+  user_id: 10886
+filed_bug_45715: 
+  bug_id: 584249
+  created_at: 2011-03-04 04:20:14 -05:00
+  errata_id: 10839
+  id: 45715
+  state_index_id: 8790
+  user_id: 3000076
+filed_bug_45716: 
+  bug_id: 681762
+  created_at: 2011-03-04 04:20:14 -05:00
+  errata_id: 10839
+  id: 45716
+  state_index_id: 8790
+  user_id: 3000076
+filed_bug_45727: 
+  bug_id: 661244
+  created_at: 2011-03-04 17:34:20 -05:00
+  errata_id: 10893
+  id: 45727
+  state_index_id: 8818
+  user_id: 211874
+filed_bug_45758: 
+  bug_id: 636997
+  created_at: 2011-03-07 13:38:02 -05:00
+  errata_id: 10893
+  id: 45758
+  state_index_id: 8818
+  user_id: 193262
+filed_bug_45765: 
+  bug_id: 678671
+  created_at: 2011-03-07 14:55:52 -05:00
+  errata_id: 10893
+  id: 45765
+  state_index_id: 8818
+  user_id: 193262
+filed_bug_45777: 
+  bug_id: 656403
+  created_at: 2011-03-07 16:44:56 -05:00
+  errata_id: 10893
+  id: 45777
+  state_index_id: 8818
+  user_id: 275188
+filed_bug_45778: 
+  bug_id: 676011
+  created_at: 2011-03-07 16:44:56 -05:00
+  errata_id: 10893
+  id: 45778
+  state_index_id: 8818
+  user_id: 275188
+filed_bug_45779: 
+  bug_id: 675926
+  created_at: 2011-03-07 16:44:56 -05:00
+  errata_id: 10893
+  id: 45779
+  state_index_id: 8818
+  user_id: 275188
+filed_bug_45844: 
+  bug_id: 675786
+  created_at: 2011-03-08 19:01:25 -05:00
+  errata_id: 10893
+  id: 45844
+  state_index_id: 8818
+  user_id: 275188
+filed_bug_45845: 
+  bug_id: 675792
+  created_at: 2011-03-08 19:01:25 -05:00
+  errata_id: 10893
+  id: 45845
+  state_index_id: 8818
+  user_id: 275188
+filed_bug_45846: 
+  bug_id: 656246
+  created_at: 2011-03-08 19:01:25 -05:00
+  errata_id: 10893
+  id: 45846
+  state_index_id: 8818
+  user_id: 275188
+filed_bug_45848: 
+  bug_id: 681440
+  created_at: 2011-03-09 03:15:26 -05:00
+  errata_id: 10839
+  id: 45848
+  state_index_id: 8931
+  user_id: 3000076
+filed_bug_46070: 
+  bug_id: 643809
+  created_at: 2011-03-15 11:33:28 -04:00
+  errata_id: 10893
+  id: 46070
+  state_index_id: 9215
+  user_id: 193262
+filed_bug_46215: 
+  bug_id: 495911
+  created_at: 2011-03-17 18:35:03 -04:00
+  errata_id: 10949
+  id: 46215
+  state_index_id: 9328
+  user_id: 206427
+filed_bug_46404: 
+  bug_id: 688839
+  created_at: 2011-03-21 21:53:19 -04:00
+  errata_id: 10808
+  id: 46404
+  state_index_id: 7856
+  user_id: 3000053
+filed_bug_46446: 
+  bug_id: 651183
+  created_at: 2011-03-22 13:15:34 -04:00
+  errata_id: 10975
+  id: 46446
+  state_index_id: 9494
+  user_id: 275188
+filed_bug_46447: 
+  bug_id: 689595
+  created_at: 2011-03-22 13:15:34 -04:00
+  errata_id: 10975
+  id: 46447
+  state_index_id: 9494
+  user_id: 275188
+filed_bug_46448: 
+  bug_id: 689597
+  created_at: 2011-03-22 13:15:34 -04:00
+  errata_id: 10975
+  id: 46448
+  state_index_id: 9494
+  user_id: 275188
+filed_bug_46768: 
+  bug_id: 690713
+  created_at: 2011-03-28 16:53:01 -04:00
+  errata_id: 10808
+  id: 46768
+  state_index_id: 7856
+  user_id: 3000386
+filed_bug_46994: 
+  bug_id: 608039
+  created_at: 2011-03-31 06:08:02 -04:00
+  errata_id: 11031
+  id: 46994
+  state_index_id: 9979
+  user_id: 168000
+filed_bug_47011: 
+  bug_id: 683142
+  created_at: 2011-03-31 10:15:27 -04:00
+  errata_id: 11036
+  id: 47011
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47012: 
+  bug_id: 600319
+  created_at: 2011-03-31 10:21:02 -04:00
+  errata_id: 11036
+  id: 47012
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47013: 
+  bug_id: 654384
+  created_at: 2011-03-31 10:21:02 -04:00
+  errata_id: 11036
+  id: 47013
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47014: 
+  bug_id: 556842
+  created_at: 2011-03-31 10:21:02 -04:00
+  errata_id: 11036
+  id: 47014
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47015: 
+  bug_id: 574035
+  created_at: 2011-03-31 10:21:03 -04:00
+  errata_id: 11036
+  id: 47015
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47016: 
+  bug_id: 587785
+  created_at: 2011-03-31 10:21:03 -04:00
+  errata_id: 11036
+  id: 47016
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47017: 
+  bug_id: 630905
+  created_at: 2011-03-31 10:21:03 -04:00
+  errata_id: 11036
+  id: 47017
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47018: 
+  bug_id: 554956
+  created_at: 2011-03-31 10:21:03 -04:00
+  errata_id: 11036
+  id: 47018
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47019: 
+  bug_id: 561875
+  created_at: 2011-03-31 10:21:03 -04:00
+  errata_id: 11036
+  id: 47019
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47020: 
+  bug_id: 653780
+  created_at: 2011-03-31 10:21:03 -04:00
+  errata_id: 11036
+  id: 47020
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47021: 
+  bug_id: 562376
+  created_at: 2011-03-31 10:21:03 -04:00
+  errata_id: 11036
+  id: 47021
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47022: 
+  bug_id: 591416
+  created_at: 2011-03-31 10:21:04 -04:00
+  errata_id: 11036
+  id: 47022
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47023: 
+  bug_id: 561882
+  created_at: 2011-03-31 10:21:04 -04:00
+  errata_id: 11036
+  id: 47023
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47024: 
+  bug_id: 595322
+  created_at: 2011-03-31 10:21:04 -04:00
+  errata_id: 11036
+  id: 47024
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47025: 
+  bug_id: 645317
+  created_at: 2011-03-31 10:21:04 -04:00
+  errata_id: 11036
+  id: 47025
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47026: 
+  bug_id: 663863
+  created_at: 2011-03-31 10:21:04 -04:00
+  errata_id: 11036
+  id: 47026
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47027: 
+  bug_id: 664523
+  created_at: 2011-03-31 10:21:04 -04:00
+  errata_id: 11036
+  id: 47027
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47028: 
+  bug_id: 587617
+  created_at: 2011-03-31 10:21:04 -04:00
+  errata_id: 11036
+  id: 47028
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47029: 
+  bug_id: 680347
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47029
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47030: 
+  bug_id: 557758
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47030
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47031: 
+  bug_id: 584807
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47031
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47032: 
+  bug_id: 659354
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47032
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47033: 
+  bug_id: 584769
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47033
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47034: 
+  bug_id: 556824
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47034
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47035: 
+  bug_id: 583807
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47035
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47036: 
+  bug_id: 613584
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47036
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47037: 
+  bug_id: 676669
+  created_at: 2011-03-31 10:21:05 -04:00
+  errata_id: 11036
+  id: 47037
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47038: 
+  bug_id: 676955
+  created_at: 2011-03-31 10:21:06 -04:00
+  errata_id: 11036
+  id: 47038
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47039: 
+  bug_id: 645303
+  created_at: 2011-03-31 10:21:06 -04:00
+  errata_id: 11036
+  id: 47039
+  state_index_id: 9997
+  user_id: 211668
+filed_bug_47063: 
+  bug_id: 689748
+  created_at: 2011-04-01 11:09:20 -04:00
+  errata_id: 10839
+  id: 47063
+  state_index_id: 10029
+  user_id: 3000076
+filed_bug_47176: 
+  bug_id: 529483
+  created_at: 2011-04-05 11:59:40 -04:00
+  errata_id: 11056
+  id: 47176
+  state_index_id: 10166
+  user_id: 184429
+filed_bug_47177: 
+  bug_id: 693796
+  created_at: 2011-04-05 11:59:40 -04:00
+  errata_id: 11056
+  id: 47177
+  state_index_id: 10166
+  user_id: 184429
+filed_bug_47238: 
+  bug_id: 598197
+  created_at: 2011-04-06 02:31:27 -04:00
+  errata_id: 11065
+  id: 47238
+  state_index_id: 10210
+  user_id: 3000183
+filed_bug_47239: 
+  bug_id: 531697
+  created_at: 2011-04-06 02:31:27 -04:00
+  errata_id: 11065
+  id: 47239
+  state_index_id: 10210
+  user_id: 3000183
+filed_bug_47240: 
+  bug_id: 590690
+  created_at: 2011-04-06 02:31:27 -04:00
+  errata_id: 11065
+  id: 47240
+  state_index_id: 10210
+  user_id: 3000183
+filed_bug_47241: 
+  bug_id: 690560
+  created_at: 2011-04-06 02:31:27 -04:00
+  errata_id: 11065
+  id: 47241
+  state_index_id: 10210
+  user_id: 3000183
+filed_bug_47242: 
+  bug_id: 632200
+  created_at: 2011-04-06 02:31:27 -04:00
+  errata_id: 11065
+  id: 47242
+  state_index_id: 10210
+  user_id: 3000183
+filed_bug_47243: 
+  bug_id: 680094
+  created_at: 2011-04-06 02:31:27 -04:00
+  errata_id: 11065
+  id: 47243
+  state_index_id: 10210
+  user_id: 3000183
+filed_bug_47244: 
+  bug_id: 693954
+  created_at: 2011-04-06 02:31:27 -04:00
+  errata_id: 11065
+  id: 47244
+  state_index_id: 10210
+  user_id: 3000183
+filed_bug_47408: 
+  bug_id: 548655
+  created_at: 2011-04-08 06:17:30 -04:00
+  errata_id: 11095
+  id: 47408
+  state_index_id: 10411
+  user_id: 190465
+filed_bug_47409: 
+  bug_id: 448099
+  created_at: 2011-04-08 08:32:18 -04:00
+  errata_id: 11096
+  id: 47409
+  state_index_id: 10417
+  user_id: 165199
+filed_bug_47604: 
+  bug_id: 624800
+  created_at: 2011-04-11 09:36:31 -04:00
+  errata_id: 11105
+  id: 47604
+  state_index_id: 10511
+  user_id: 3000530
+filed_bug_47606: 
+  bug_id: 428811
+  created_at: 2011-04-11 10:11:30 -04:00
+  errata_id: 11105
+  id: 47606
+  state_index_id: 10511
+  user_id: 3000530
+filed_bug_47607: 
+  bug_id: 438986
+  created_at: 2011-04-11 10:11:30 -04:00
+  errata_id: 11105
+  id: 47607
+  state_index_id: 10511
+  user_id: 3000530
+filed_bug_47608: 
+  bug_id: 498119
+  created_at: 2011-04-11 10:11:30 -04:00
+  errata_id: 11105
+  id: 47608
+  state_index_id: 10511
+  user_id: 3000530
+filed_bug_47609: 
+  bug_id: 501604
+  created_at: 2011-04-11 10:11:30 -04:00
+  errata_id: 11105
+  id: 47609
+  state_index_id: 10511
+  user_id: 3000530
+filed_bug_47637: 
+  bug_id: 692421
+  created_at: 2011-04-11 13:45:17 -04:00
+  errata_id: 11110
+  id: 47637
+  state_index_id: 10531
+  user_id: 215107
+filed_bug_47645: 
+  bug_id: 694078
+  created_at: 2011-04-11 16:21:56 -04:00
+  errata_id: 11112
+  id: 47645
+  state_index_id: 10546
+  user_id: 162860
+filed_bug_47673: 
+  bug_id: 695674
+  created_at: 2011-04-12 09:37:09 -04:00
+  errata_id: 11105
+  id: 47673
+  state_index_id: 10591
+  user_id: 3000530
+filed_bug_47676: 
+  bug_id: 577329
+  created_at: 2011-04-12 11:09:29 -04:00
+  errata_id: 11096
+  id: 47676
+  state_index_id: 10417
+  user_id: 165199
+filed_bug_47682: 
+  bug_id: 695747
+  created_at: 2011-04-12 13:45:39 -04:00
+  errata_id: 11118
+  id: 47682
+  state_index_id: 10626
+  user_id: 73713
+filed_bug_47683: 
+  bug_id: 667112
+  created_at: 2011-04-12 14:07:47 -04:00
+  errata_id: 11119
+  id: 47683
+  state_index_id: 10632
+  user_id: 3000386
+filed_bug_47728: 
+  bug_id: 680202
+  created_at: 2011-04-13 06:27:06 -04:00
+  errata_id: 11123
+  id: 47728
+  state_index_id: 10673
+  user_id: 262302
+filed_bug_47756: 
+  bug_id: 695284
+  created_at: 2011-04-13 16:12:18 -04:00
+  errata_id: 10893
+  id: 47756
+  state_index_id: 9239
+  user_id: 193262
+filed_bug_47764: 
+  bug_id: 696334
+  created_at: 2011-04-13 17:13:41 -04:00
+  errata_id: 11129
+  id: 47764
+  state_index_id: 10729
+  user_id: 275188
+filed_bug_47765: 
+  bug_id: 696341
+  created_at: 2011-04-13 17:13:41 -04:00
+  errata_id: 11129
+  id: 47765
+  state_index_id: 10729
+  user_id: 275188
+filed_bug_47768: 
+  bug_id: 695546
+  created_at: 2011-04-14 00:33:14 -04:00
+  errata_id: 11131
+  id: 47768
+  state_index_id: 10736
+  user_id: 3000183
+filed_bug_47769: 
+  bug_id: 696433
+  created_at: 2011-04-14 00:33:14 -04:00
+  errata_id: 11131
+  id: 47769
+  state_index_id: 10736
+  user_id: 3000183
+filed_bug_47770: 
+  bug_id: 696434
+  created_at: 2011-04-14 00:33:14 -04:00
+  errata_id: 11131
+  id: 47770
+  state_index_id: 10736
+  user_id: 3000183
+filed_bug_47775: 
+  bug_id: 692421
+  created_at: 2011-04-14 06:09:05 -04:00
+  errata_id: 11133
+  id: 47775
+  state_index_id: 10746
+  user_id: 215107
+filed_bug_47818: 
+  bug_id: 692421
+  created_at: 2011-04-15 08:31:51 -04:00
+  errata_id: 11138
+  id: 47818
+  state_index_id: 10799
+  user_id: 215107
+filed_bug_47837: 
+  bug_id: 696768
+  created_at: 2011-04-15 13:37:18 -04:00
+  errata_id: 11142
+  id: 47837
+  state_index_id: 10822
+  user_id: 163483
+filed_bug_47838: 
+  bug_id: 696769
+  created_at: 2011-04-15 13:37:18 -04:00
+  errata_id: 11142
+  id: 47838
+  state_index_id: 10822
+  user_id: 163483
+filed_bug_47839: 
+  bug_id: 694455
+  created_at: 2011-04-15 13:37:18 -04:00
+  errata_id: 11142
+  id: 47839
+  state_index_id: 10822
+  user_id: 163483
+filed_bug_47840: 
+  bug_id: 694456
+  created_at: 2011-04-15 13:37:18 -04:00
+  errata_id: 11142
+  id: 47840
+  state_index_id: 10822
+  user_id: 163483
+filed_bug_47854: 
+  bug_id: 697042
+  created_at: 2011-04-18 13:32:50 -04:00
+  errata_id: 11145
+  id: 47854
+  state_index_id: 10878
+  user_id: 275188
+filed_bug_47855: 
+  bug_id: 697045
+  created_at: 2011-04-18 13:32:50 -04:00
+  errata_id: 11145
+  id: 47855
+  state_index_id: 10878
+  user_id: 275188
+filed_bug_47885: 
+  bug_id: 618189
+  created_at: 2011-04-19 09:42:17 -04:00
+  errata_id: 11149
+  id: 47885
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47886: 
+  bug_id: 675786
+  created_at: 2011-04-19 09:42:17 -04:00
+  errata_id: 11149
+  id: 47886
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47887: 
+  bug_id: 675792
+  created_at: 2011-04-19 09:42:17 -04:00
+  errata_id: 11149
+  id: 47887
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47888: 
+  bug_id: 656246
+  created_at: 2011-04-19 09:42:17 -04:00
+  errata_id: 11149
+  id: 47888
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47889: 
+  bug_id: 640281
+  created_at: 2011-04-19 09:42:17 -04:00
+  errata_id: 11149
+  id: 47889
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47890: 
+  bug_id: 585331
+  created_at: 2011-04-19 09:42:17 -04:00
+  errata_id: 11149
+  id: 47890
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47891: 
+  bug_id: 632994
+  created_at: 2011-04-19 09:42:17 -04:00
+  errata_id: 11149
+  id: 47891
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47896: 
+  bug_id: 531697
+  created_at: 2011-04-19 10:31:02 -04:00
+  errata_id: 11149
+  id: 47896
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47897: 
+  bug_id: 659462
+  created_at: 2011-04-19 10:31:02 -04:00
+  errata_id: 11149
+  id: 47897
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47898: 
+  bug_id: 660650
+  created_at: 2011-04-19 10:31:02 -04:00
+  errata_id: 11149
+  id: 47898
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47899: 
+  bug_id: 570924
+  created_at: 2011-04-19 10:31:02 -04:00
+  errata_id: 11149
+  id: 47899
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47900: 
+  bug_id: 530715
+  created_at: 2011-04-19 10:31:02 -04:00
+  errata_id: 11149
+  id: 47900
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47901: 
+  bug_id: 533174
+  created_at: 2011-04-19 10:31:02 -04:00
+  errata_id: 11149
+  id: 47901
+  state_index_id: 10926
+  user_id: 215839
+filed_bug_47927: 
+  bug_id: 581841
+  created_at: 2011-04-19 12:18:33 -04:00
+  errata_id: 11152
+  id: 47927
+  state_index_id: 10947
+  user_id: 8448
+filed_bug_47928: 
+  bug_id: 585141
+  created_at: 2011-04-19 12:18:33 -04:00
+  errata_id: 11152
+  id: 47928
+  state_index_id: 10947
+  user_id: 8448
+filed_bug_93792:
+  id: 93792
+  errata_id: 16372
+  bug_id: 1029796
+  created_at: 2013-11-18 19:06:39
+  user_id: 160436
+  state_index_id: 54639
+filed_bug_93798:
+  id: 93798
+  errata_id: 16409
+  bug_id: 697046
+  created_at: 2014-09-04 19:06:39
+  user_id: 160436
+  state_index_id: 54712
+filed_bug_93857:
+  bug_id: 243098
+  id: 93857
+  errata_id: 16616
+  user_id: 3000931
+  state_index_id: 54923
+  created_at: 2014-09-22 06:21:18 Z
+filed_bug_93858:
+  errata_id: 16654
+  id: 93858
+  bug_id: 696512
+  created_at: 2014-09-30 06:32:50 Z
+  user_id: 3000931
+  state_index_id: 55007
+filed_bug_117718:
+  state_index_id: 79737
+  created_at: 2014-10-03 15:02:05 Z
+  id: 117718
+  errata_id: 19028
+  bug_id: 1148896
+  user_id: 215839
+filed_bug_116582:
+  state_index_id: 79087
+  created_at: 2014-09-26 15:05:04 Z
+  errata_id: 18918
+  user_id: 3001309
+  id: 116582
+  bug_id: 1147004
+filed_bug_116478:
+  state_index_id: 78971
+  created_at: 2014-09-25 11:15:33 Z
+  errata_id: 18905
+  user_id: 3001585
+  id: 116478
+  bug_id: 1142089
+filed_bug_116580:
+  state_index_id: 79084
+  created_at: 2014-09-26 14:55:33 Z
+  errata_id: 18916
+  user_id: 3001309
+  id: 116580
+  bug_id: 1147006
+filed_bug_116581:
+  state_index_id: 79086
+  created_at: 2014-09-26 15:02:20 Z
+  errata_id: 18917
+  user_id: 3001309
+  id: 116581
+  bug_id: 1147005
+filed_bug_93861:
+  created_at: 2014-11-04 03:58:03 Z
+  errata_id: 16657
+  state_index_id: 55010
+  user_id: 3000931
+  bug_id: 693792
+  id: 93861
+filed_bug_116442:
+  bug_id: 1139115
+  state_index_id: 78924
+  created_at: 2014-09-25 02:37:47 Z
+  errata_id: 18894
+  id: 116442
+  user_id: 3000644
+filed_bug_116441:
+  bug_id: 1139117
+  state_index_id: 78924
+  created_at: 2014-09-25 02:37:47 Z
+  errata_id: 18894
+  id: 116441
+  user_id: 3000644
+filed_bug_116473:
+  bug_id: 1141189
+  state_index_id: 78924
+  created_at: 2014-09-25 08:45:58 Z
+  errata_id: 18894
+  id: 116473
+  user_id: 3000069
+filed_bug_116474:
+  bug_id: 1145055
+  state_index_id: 78924
+  created_at: 2014-09-25 08:45:58 Z
+  errata_id: 18894
+  id: 116474
+  user_id: 3000069
+filed_bug_117719:
+  state_index_id: 79984
+  errata_id: 19029
+  bug_id: 667196
+  created_at: 2015-01-07 02:55:57 Z
+  user_id: 3000931
+  id: 117719
+filed_bug_117723:
+  errata_id: 19030
+  bug_id: 645741
+  created_at: 2015-01-12 03:49:27 Z
+  state_index_id: 89985
+  id: 117723
+  user_id: 3000931
+filed_bug_117724:
+  errata_id: 19031
+  bug_id: 615107
+  created_at: 2015-01-12 04:54:46 Z
+  state_index_id: 79989
+  id: 117724
+  user_id: 3000931
+filed_bug_117725:
+  errata_id: 19031
+  bug_id: 676040
+  created_at: 2015-01-12 04:54:46 Z
+  state_index_id: 79989
+  id: 117725
+  user_id: 3000931
+filed_bug_117726:
+  errata_id: 19031
+  bug_id: 676081
+  created_at: 2015-01-12 04:54:46 Z
+  state_index_id: 79989
+  id: 117726
+  user_id: 3000931
+filed_bug_117727:
+  errata_id: 19032
+  bug_id: 576919
+  created_at: 2015-01-12 05:01:06 Z
+  state_index_id: 79990
+  id: 117727
+  user_id: 3000931
+filed_bug_117728:
+  errata_id: 19032
+  bug_id: 611779
+  created_at: 2015-01-12 05:01:06 Z
+  state_index_id: 79990
+  id: 117728
+  user_id: 3000931
+filed_bug_117729:
+  errata_id: 19032
+  bug_id: 623644
+  created_at: 2015-01-12 05:01:06 Z
+  state_index_id: 79990
+  id: 117729
+  user_id: 3000931
+filed_bug_117730:
+  errata_id: 19032
+  bug_id: 628095
+  created_at: 2015-01-12 05:01:07 Z
+  state_index_id: 79990
+  id: 117730
+  user_id: 3000931
+filed_bug_117731:
+  errata_id: 19032
+  bug_id: 636071
+  created_at: 2015-01-12 05:01:07 Z
+  state_index_id: 79990
+  id: 117731
+  user_id: 3000931
+filed_bug_117732:
+  errata_id: 19032
+  bug_id: 680480
+  created_at: 2015-01-12 05:01:07 Z
+  state_index_id: 79990
+  id: 117732
+  user_id: 3000931
+filed_bug_117733:
+  errata_id: 19033
+  bug_id: 583615
+  created_at: 2015-01-12 05:02:33 Z
+  state_index_id: 79991
+  id: 117733
+  user_id: 3000931
+filed_bug_117734:
+  errata_id: 19033
+  bug_id: 583695
+  created_at: 2015-01-12 05:02:33 Z
+  state_index_id: 79991
+  id: 117734
+  user_id: 3000931
+filed_bug_117735:
+  errata_id: 19033
+  bug_id: 595356
+  created_at: 2015-01-12 05:02:33 Z
+  state_index_id: 79991
+  id: 117735
+  user_id: 3000931
+filed_bug_117736:
+  errata_id: 19033
+  bug_id: 595413
+  created_at: 2015-01-12 05:02:33 Z
+  state_index_id: 79991
+  id: 117736
+  user_id: 3000931
+filed_bug_117737:
+  errata_id: 19033
+  bug_id: 595419
+  created_at: 2015-01-12 05:02:33 Z
+  state_index_id: 79991
+  id: 117737
+  user_id: 3000931
+filed_bug_117738:
+  errata_id: 19033
+  bug_id: 595615
+  created_at: 2015-01-12 05:02:34 Z
+  state_index_id: 79991
+  id: 117738
+  user_id: 3000931
+filed_bug_117739:
+  errata_id: 19033
+  bug_id: 595620
+  created_at: 2015-01-12 05:02:34 Z
+  state_index_id: 79991
+  id: 117739
+  user_id: 3000931
+filed_bug_117740:
+  errata_id: 19033
+  bug_id: 595623
+  created_at: 2015-01-12 05:02:34 Z
+  state_index_id: 79991
+  id: 117740
+  user_id: 3000931
+filed_bug_117741:
+  errata_id: 19033
+  bug_id: 595628
+  created_at: 2015-01-12 05:02:34 Z
+  state_index_id: 79991
+  id: 117741
+  user_id: 3000931
+filed_bug_117742:
+  errata_id: 19033
+  bug_id: 619201
+  created_at: 2015-01-12 05:02:34 Z
+  state_index_id: 79991
+  id: 117742
+  user_id: 3000931
+filed_bug_117743:
+  errata_id: 19033
+  bug_id: 650229
+  created_at: 2015-01-12 05:02:34 Z
+  state_index_id: 79991
+  id: 117743
+  user_id: 3000931
+filed_bug_117744:
+  errata_id: 19033
+  bug_id: 650243
+  created_at: 2015-01-12 05:02:34 Z
+  state_index_id: 79991
+  id: 117744
+  user_id: 3000931
+
+filed_bug_121257:
+  errata_id: 19463
+  created_at: 2015-01-29 23:57:15 Z
+  state_index_id: 92515
+  id: 121257
+  bug_id: 605533
+  user_id: 3000931
+filed_bug_121258:
+  errata_id: 19463
+  created_at: 2015-01-29 23:57:15 Z
+  state_index_id: 92515
+  id: 121258
+  bug_id: 605535
+  user_id: 3000931
+filed_bug_121259:
+  errata_id: 19463
+  created_at: 2015-01-29 23:57:15 Z
+  state_index_id: 92515
+  id: 121259
+  bug_id: 680269
+  user_id: 3000931
+filed_bug_120454:
+  errata_id: 19401
+  id: 120454
+  user_id: 3000931
+  state_index_id: 81623
+  created_at: 2015-02-11 01:46:49 Z
+  bug_id: 1179756
+filed_bug_124004:
+  errata_id: 19829
+  user_id: 3000931
+  created_at: 2015-02-11 05:54:22 Z
+  bug_id: 1177060
+  state_index_id: 82828
+  id: 124004
+filed_bug_122887:
+  user_id: 3000931
+  id: 122887
+  state_index_id: 94603
+  errata_id: 19828
+  created_at: 2015-02-18 05:14:48 Z
+  bug_id: 696342
+filed_bug_121623:
+  id: 121623
+  created_at: 2014-12-05 17:00:36 Z
+  bug_id: 1167537
+  user_id: 3001330
+  state_index_id: 84802
+  errata_id: 19435
+filed_bug_121622:
+  id: 121622
+  created_at: 2014-12-05 17:00:36 Z
+  bug_id: 1171208
+  user_id: 3001330
+  state_index_id: 84802
+  errata_id: 19435
+filed_bug_121624:
+  id: 121624
+  created_at: 2014-12-05 17:12:12 Z
+  bug_id: 1171210
+  user_id: 3001330
+  state_index_id: 84802
+  errata_id: 19435
+filed_bug_121981:
+  id: 121981
+  created_at: 2014-12-12 12:42:42 Z
+  bug_id: 1173157
+  user_id: 215839
+  state_index_id: 85268
+  errata_id: 19435
+filed_bug_121980:
+  id: 121980
+  created_at: 2014-12-12 12:42:42 Z
+  bug_id: 1173162
+  user_id: 215839
+  state_index_id: 85268
+  errata_id: 19435
+filed_bug_121982:
+  id: 121982
+  created_at: 2014-12-12 12:42:42 Z
+  bug_id: 1173566
+  user_id: 215839
+  state_index_id: 85268
+  errata_id: 19435
+filed_bug_121979:
+  id: 121979
+  created_at: 2014-12-12 12:42:41 Z
+  bug_id: 1173568
+  user_id: 215839
+  state_index_id: 85268
+  errata_id: 19435
+filed_bug_129070:
+  state_index_id: 94372
+  created_at: 2015-04-09 19:13:42 Z
+  errata_id: 20291
+  bug_id: 1208619
+  id: 129070
+  user_id: 270531
+filed_bug_129071:
+  state_index_id: 94372
+  created_at: 2015-04-09 19:13:43 Z
+  errata_id: 20291
+  bug_id: 1209891
+  id: 129071
+  user_id: 270531
+filed_bug_129072:
+  id: 129072
+  bug_id: 1105219
+  created_at: 2015-09-17 06:01:27 Z
+  errata_id: 20292
+  state_index_id: 104688
+  user_id: 3000931
+filed_bug_131366:
+  user_id: 3000931
+  created_at: 2015-09-22 04:55:25 Z
+  errata_id: 20836
+  bug_id: 1205283
+  state_index_id: 107372
+  id: 131366
+filed_bug_126486:
+  state_index_id: 90117
+  bug_id: 871028
+  errata_id: 20044
+  id: 126486
+  created_at: 2015-03-03 10:43:42 Z
+  user_id: 3000772
+filed_bug_126487:
+  state_index_id: 90117
+  bug_id: 1003790
+  errata_id: 20044
+  id: 126487
+  created_at: 2015-03-03 10:43:42 Z
+  user_id: 3000772
+filed_bug_126488:
+  state_index_id: 90117
+  bug_id: 1011218
+  errata_id: 20044
+  id: 126488
+  created_at: 2015-03-03 10:43:42 Z
+  user_id: 3000772
+filed_bug_126489:
+  state_index_id: 90117
+  bug_id: 1036586
+  errata_id: 20044
+  id: 126489
+  created_at: 2015-03-03 10:43:42 Z
+  user_id: 3000772
+filed_bug_126490:
+  state_index_id: 90117
+  bug_id: 1094776
+  errata_id: 20044
+  id: 126490
+  created_at: 2015-03-03 10:43:42 Z
+  user_id: 3000772
+filed_bug_126491:
+  state_index_id: 90117
+  bug_id: 1147319
+  errata_id: 20044
+  id: 126491
+  created_at: 2015-03-03 10:43:42 Z
+  user_id: 3000772
+filed_bug_126492:
+  state_index_id: 90117
+  bug_id: 1147322
+  errata_id: 20044
+  id: 126492
+  created_at: 2015-03-03 10:43:43 Z
+  user_id: 3000772
+filed_bug_126493:
+  state_index_id: 90117
+  bug_id: 1147425
+  errata_id: 20044
+  id: 126493
+  created_at: 2015-03-03 10:43:43 Z
+  user_id: 3000772
+filed_bug_126494:
+  state_index_id: 90117
+  bug_id: 1147890
+  errata_id: 20044
+  id: 126494
+  created_at: 2015-03-03 10:43:43 Z
+  user_id: 3000772
+filed_bug_126495:
+  state_index_id: 90117
+  bug_id: 1147904
+  errata_id: 20044
+  id: 126495
+  created_at: 2015-03-03 10:43:43 Z
+  user_id: 3000772
+filed_bug_126496:
+  state_index_id: 90117
+  bug_id: 1147916
+  errata_id: 20044
+  id: 126496
+  created_at: 2015-03-03 10:43:43 Z
+  user_id: 3000772
+filed_bug_130845:
+  state_index_id: 96084
+  bug_id: 1193457
+  errata_id: 20466
+  id: 130845
+  created_at: 2015-05-06 07:05:01 Z
+  user_id: 246681
+filed_bug_136164:
+  bug_id: 963432
+  id: 136164
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:23:37 Z
+  errata_id: 21009
+filed_bug_136144:
+  bug_id: 963483
+  id: 136144
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:13 Z
+  errata_id: 21009
+filed_bug_139041:
+  bug_id: 1065064
+  id: 139041
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 13:23:11 Z
+  errata_id: 21009
+filed_bug_136165:
+  bug_id: 1093352
+  id: 136165
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:56 Z
+  errata_id: 21009
+filed_bug_136166:
+  bug_id: 1144036
+  id: 136166
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:56 Z
+  errata_id: 21009
+filed_bug_136167:
+  bug_id: 1144130
+  id: 136167
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:56 Z
+  errata_id: 21009
+filed_bug_136168:
+  bug_id: 1152120
+  id: 136168
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:56 Z
+  errata_id: 21009
+filed_bug_136169:
+  bug_id: 1155279
+  id: 136169
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_136170:
+  bug_id: 1160383
+  id: 136170
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_136171:
+  bug_id: 1163947
+  id: 136171
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_136172:
+  bug_id: 1169828
+  id: 136172
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_136173:
+  bug_id: 1171156
+  id: 136173
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_136174:
+  bug_id: 1175864
+  id: 136174
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_136175:
+  bug_id: 1179954
+  id: 136175
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_136176:
+  bug_id: 1185078
+  id: 136176
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_136177:
+  bug_id: 1186517
+  id: 136177
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:57 Z
+  errata_id: 21009
+filed_bug_138775:
+  bug_id: 1186530
+  id: 138775
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-27 10:33:12 Z
+  errata_id: 21009
+filed_bug_136145:
+  bug_id: 1186788
+  id: 136145
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:14 Z
+  errata_id: 21009
+filed_bug_139033:
+  bug_id: 1188039
+  id: 139033
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 12:01:05 Z
+  errata_id: 21009
+filed_bug_136178:
+  bug_id: 1188382
+  id: 136178
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:58 Z
+  errata_id: 21009
+filed_bug_136179:
+  bug_id: 1189098
+  id: 136179
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:58 Z
+  errata_id: 21009
+filed_bug_136146:
+  bug_id: 1189951
+  id: 136146
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:14 Z
+  errata_id: 21009
+filed_bug_139021:
+  bug_id: 1193233
+  id: 139021
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:40 Z
+  errata_id: 21009
+filed_bug_139042:
+  bug_id: 1194075
+  id: 139042
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 13:23:11 Z
+  errata_id: 21009
+filed_bug_139392:
+  bug_id: 1195861
+  id: 139392
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:41 Z
+  errata_id: 21009
+filed_bug_139022:
+  bug_id: 1198804
+  id: 139022
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:40 Z
+  errata_id: 21009
+filed_bug_138732:
+  bug_id: 1201854
+  id: 138732
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-24 16:22:34 Z
+  errata_id: 21009
+filed_bug_136147:
+  bug_id: 1201885
+  id: 136147
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:14 Z
+  errata_id: 21009
+filed_bug_136148:
+  bug_id: 1201902
+  id: 136148
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:14 Z
+  errata_id: 21009
+filed_bug_139034:
+  bug_id: 1202910
+  id: 139034
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 12:01:05 Z
+  errata_id: 21009
+filed_bug_136149:
+  bug_id: 1203109
+  id: 136149
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:14 Z
+  errata_id: 21009
+filed_bug_136180:
+  bug_id: 1205613
+  id: 136180
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:58 Z
+  errata_id: 21009
+filed_bug_139023:
+  bug_id: 1206235
+  id: 139023
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:40 Z
+  errata_id: 21009
+filed_bug_136181:
+  bug_id: 1206817
+  id: 136181
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:58 Z
+  errata_id: 21009
+filed_bug_136182:
+  bug_id: 1209411
+  id: 136182
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:58 Z
+  errata_id: 21009
+filed_bug_136150:
+  bug_id: 1209589
+  id: 136150
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:14 Z
+  errata_id: 21009
+filed_bug_139037:
+  bug_id: 1210056
+  id: 139037
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 13:12:58 Z
+  errata_id: 21009
+filed_bug_139024:
+  bug_id: 1210075
+  id: 139024
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:40 Z
+  errata_id: 21009
+filed_bug_139025:
+  bug_id: 1210095
+  id: 139025
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:41 Z
+  errata_id: 21009
+filed_bug_136183:
+  bug_id: 1210154
+  id: 136183
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:58 Z
+  errata_id: 21009
+filed_bug_139038:
+  bug_id: 1210603
+  id: 139038
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 13:12:58 Z
+  errata_id: 21009
+filed_bug_139026:
+  bug_id: 1210813
+  id: 139026
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:41 Z
+  errata_id: 21009
+filed_bug_139027:
+  bug_id: 1211775
+  id: 139027
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:41 Z
+  errata_id: 21009
+filed_bug_136184:
+  bug_id: 1211906
+  id: 136184
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:58 Z
+  errata_id: 21009
+filed_bug_139028:
+  bug_id: 1213492
+  id: 139028
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:41 Z
+  errata_id: 21009
+filed_bug_139393:
+  bug_id: 1213572
+  id: 139393
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:42 Z
+  errata_id: 21009
+filed_bug_136151:
+  bug_id: 1215036
+  id: 136151
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:14 Z
+  errata_id: 21009
+filed_bug_136152:
+  bug_id: 1215041
+  id: 136152
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:14 Z
+  errata_id: 21009
+filed_bug_139039:
+  bug_id: 1215090
+  id: 139039
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 13:12:58 Z
+  errata_id: 21009
+filed_bug_139029:
+  bug_id: 1216287
+  id: 139029
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:41 Z
+  errata_id: 21009
+filed_bug_139030:
+  bug_id: 1216301
+  id: 139030
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:41 Z
+  errata_id: 21009
+filed_bug_140797:
+  bug_id: 1217125
+  id: 140797
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-08-25 21:35:35 Z
+  errata_id: 21009
+filed_bug_136185:
+  bug_id: 1218113
+  id: 136185
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:58 Z
+  errata_id: 21009
+filed_bug_139043:
+  bug_id: 1218641
+  id: 139043
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 13:23:11 Z
+  errata_id: 21009
+filed_bug_136186:
+  bug_id: 1218643
+  id: 136186
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:59 Z
+  errata_id: 21009
+filed_bug_136187:
+  bug_id: 1219838
+  id: 136187
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:59 Z
+  errata_id: 21009
+filed_bug_139798:
+  bug_id: 1220511
+  id: 139798
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-11 14:43:40 Z
+  errata_id: 21009
+filed_bug_139031:
+  bug_id: 1220581
+  id: 139031
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:41 Z
+  errata_id: 21009
+filed_bug_136188:
+  bug_id: 1220926
+  id: 136188
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:59 Z
+  errata_id: 21009
+filed_bug_136189:
+  bug_id: 1220945
+  id: 136189
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:59 Z
+  errata_id: 21009
+filed_bug_136190:
+  bug_id: 1222087
+  id: 136190
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:59 Z
+  errata_id: 21009
+filed_bug_136191:
+  bug_id: 1226348
+  id: 136191
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:59 Z
+  errata_id: 21009
+filed_bug_136192:
+  bug_id: 1228078
+  id: 136192
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:41:59 Z
+  errata_id: 21009
+filed_bug_139032:
+  bug_id: 1228573
+  id: 139032
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 11:44:42 Z
+  errata_id: 21009
+filed_bug_136193:
+  bug_id: 1229454
+  id: 136193
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-07-01 17:42:00 Z
+  errata_id: 21009
+filed_bug_138776:
+  bug_id: 1230359
+  id: 138776
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-27 10:33:12 Z
+  errata_id: 21009
+filed_bug_139132:
+  bug_id: 1230869
+  id: 139132
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 20:20:23 Z
+  errata_id: 21009
+filed_bug_136154:
+  bug_id: 1230887
+  id: 136154
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-01 13:07:15 Z
+  errata_id: 21009
+filed_bug_141438:
+  bug_id: 1231596
+  id: 141438
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-09-01 17:46:57 Z
+  errata_id: 21009
+filed_bug_140798:
+  bug_id: 1233842
+  id: 140798
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-08-25 21:35:35 Z
+  errata_id: 21009
+filed_bug_139394:
+  bug_id: 1234589
+  id: 139394
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:42 Z
+  errata_id: 21009
+filed_bug_138816:
+  bug_id: 1236621
+  id: 138816
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-27 14:49:45 Z
+  errata_id: 21009
+filed_bug_140860:
+  bug_id: 1237310
+  id: 140860
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-26 20:26:59 Z
+  errata_id: 21009
+filed_bug_139658:
+  bug_id: 1238890
+  id: 139658
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-07 14:52:24 Z
+  errata_id: 21009
+filed_bug_139135:
+  bug_id: 1240381
+  id: 139135
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 20:36:20 Z
+  errata_id: 21009
+filed_bug_141846:
+  bug_id: 1240785
+  id: 141846
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-09-08 18:27:32 Z
+  errata_id: 21009
+filed_bug_139799:
+  bug_id: 1240858
+  id: 139799
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-11 14:43:41 Z
+  errata_id: 21009
+filed_bug_139800:
+  bug_id: 1240861
+  id: 139800
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-11 14:43:41 Z
+  errata_id: 21009
+filed_bug_143649:
+  bug_id: 1241394
+  id: 143649
+  user_id: 224771
+  state_index_id: 99858
+  created_at: 2015-10-19 15:37:26 Z
+  errata_id: 21009
+filed_bug_139395:
+  bug_id: 1242680
+  id: 139395
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:42 Z
+  errata_id: 21009
+filed_bug_139396:
+  bug_id: 1242696
+  id: 139396
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:42 Z
+  errata_id: 21009
+filed_bug_139405:
+  bug_id: 1242972
+  id: 139405
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 20:40:02 Z
+  errata_id: 21009
+filed_bug_139397:
+  bug_id: 1242981
+  id: 139397
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:42 Z
+  errata_id: 21009
+filed_bug_139398:
+  bug_id: 1242984
+  id: 139398
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:42 Z
+  errata_id: 21009
+filed_bug_139399:
+  bug_id: 1242995
+  id: 139399
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:42 Z
+  errata_id: 21009
+filed_bug_139659:
+  bug_id: 1243000
+  id: 139659
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-07 14:52:24 Z
+  errata_id: 21009
+filed_bug_139133:
+  bug_id: 1243042
+  id: 139133
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 20:20:23 Z
+  errata_id: 21009
+filed_bug_138471:
+  bug_id: 1243150
+  id: 138471
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-21 20:44:11 Z
+  errata_id: 21009
+filed_bug_138469:
+  bug_id: 1243551
+  id: 138469
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-21 20:26:07 Z
+  errata_id: 21009
+filed_bug_138470:
+  bug_id: 1243583
+  id: 138470
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-21 20:26:08 Z
+  errata_id: 21009
+filed_bug_139134:
+  bug_id: 1243663
+  id: 139134
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-07-29 20:20:23 Z
+  errata_id: 21009
+filed_bug_141439:
+  bug_id: 1244692
+  id: 141439
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-09-01 17:46:57 Z
+  errata_id: 21009
+filed_bug_141440:
+  bug_id: 1246044
+  id: 141440
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-09-01 17:46:57 Z
+  errata_id: 21009
+filed_bug_139400:
+  bug_id: 1247190
+  id: 139400
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:42 Z
+  errata_id: 21009
+filed_bug_139401:
+  bug_id: 1247716
+  id: 139401
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-03 19:33:43 Z
+  errata_id: 21009
+filed_bug_139541:
+  bug_id: 1250227
+  id: 139541
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-05 20:27:39 Z
+  errata_id: 21009
+filed_bug_140201:
+  bug_id: 1250263
+  id: 140201
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-14 15:40:29 Z
+  errata_id: 21009
+filed_bug_141441:
+  bug_id: 1252439
+  id: 141441
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-09-01 17:46:57 Z
+  errata_id: 21009
+filed_bug_140202:
+  bug_id: 1252569
+  id: 140202
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-14 15:40:30 Z
+  errata_id: 21009
+filed_bug_140861:
+  bug_id: 1254782
+  id: 140861
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-08-26 20:27:00 Z
+  errata_id: 21009
+filed_bug_142137:
+  bug_id: 1257147
+  id: 142137
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-09-14 19:34:57 Z
+  errata_id: 21009
+filed_bug_142608:
+  bug_id: 1259615
+  id: 142608
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-09-23 17:32:13 Z
+  errata_id: 21009
+filed_bug_143213:
+  bug_id: 1268381
+  id: 143213
+  user_id: 3002080
+  state_index_id: 99858
+  created_at: 2015-10-07 12:02:47 Z
+  errata_id: 21009
+filed_bug_143650:
+  state_index_id: 112449
+  user_id: 3000931
+  errata_id: 21101
+  created_at: 2016-04-26 05:07:41 Z
+  bug_id: 1283655
+  id: 143650
+filed_bug_150370:
+  id: 150370
+  bug_id: 753914
+  state_index_id: 117574
+  errata_id: 22508
+  created_at: 2016-02-10 13:44:02 Z
+  user_id: 271514
+filed_bug_151294:
+  id: 151294
+  bug_id: 800012
+  state_index_id: 118737
+  errata_id: 22508
+  created_at: 2016-02-24 14:12:04 Z
+  user_id: 271514
+filed_bug_149137:
+  id: 149137
+  bug_id: 838257
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:50 Z
+  user_id: 271514
+filed_bug_149138:
+  id: 149138
+  bug_id: 844493
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:50 Z
+  user_id: 271514
+filed_bug_151295:
+  id: 151295
+  bug_id: 866971
+  state_index_id: 118737
+  errata_id: 22508
+  created_at: 2016-02-24 14:12:04 Z
+  user_id: 271514
+filed_bug_149139:
+  id: 149139
+  bug_id: 867333
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:50 Z
+  user_id: 271514
+filed_bug_149140:
+  id: 149140
+  bug_id: 889651
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:50 Z
+  user_id: 271514
+filed_bug_149141:
+  id: 149141
+  bug_id: 891783
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:50 Z
+  user_id: 271514
+filed_bug_149169:
+  id: 149169
+  bug_id: 908792
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 16:48:14 Z
+  user_id: 271514
+filed_bug_149142:
+  id: 149142
+  bug_id: 911676
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:50 Z
+  user_id: 271514
+filed_bug_149143:
+  id: 149143
+  bug_id: 985974
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:50 Z
+  user_id: 271514
+filed_bug_152897:
+  id: 152897
+  bug_id: 1003496
+  state_index_id: 120980
+  errata_id: 22508
+  created_at: 2016-03-21 14:03:16 Z
+  user_id: 271514
+filed_bug_152898:
+  id: 152898
+  bug_id: 1014806
+  state_index_id: 120980
+  errata_id: 22508
+  created_at: 2016-03-21 14:03:16 Z
+  user_id: 271514
+filed_bug_149503:
+  id: 149503
+  bug_id: 1019328
+  state_index_id: 116525
+  errata_id: 22508
+  created_at: 2016-01-26 14:56:18 Z
+  user_id: 271514
+filed_bug_151296:
+  id: 151296
+  bug_id: 1021878
+  state_index_id: 118737
+  errata_id: 22508
+  created_at: 2016-02-24 14:12:04 Z
+  user_id: 271514
+filed_bug_152899:
+  id: 152899
+  bug_id: 1071457
+  state_index_id: 120980
+  errata_id: 22508
+  created_at: 2016-03-21 14:03:16 Z
+  user_id: 271514
+filed_bug_149144:
+  id: 149144
+  bug_id: 1112642
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:50 Z
+  user_id: 271514
+filed_bug_152697:
+  id: 152697
+  bug_id: 1130329
+  state_index_id: 120758
+  errata_id: 22508
+  created_at: 2016-03-16 13:40:38 Z
+  user_id: 271514
+filed_bug_149145:
+  id: 149145
+  bug_id: 1143823
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:51 Z
+  user_id: 271514
+filed_bug_150371:
+  id: 150371
+  bug_id: 1181852
+  state_index_id: 117574
+  errata_id: 22508
+  created_at: 2016-02-10 13:44:02 Z
+  user_id: 271514
+filed_bug_149146:
+  id: 149146
+  bug_id: 1194786
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:51 Z
+  user_id: 271514
+filed_bug_152994:
+  id: 152994
+  bug_id: 1196910
+  state_index_id: 121110
+  errata_id: 22508
+  created_at: 2016-03-22 15:13:44 Z
+  user_id: 271514
+filed_bug_149147:
+  id: 149147
+  bug_id: 1203456
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:51 Z
+  user_id: 271514
+filed_bug_150372:
+  id: 150372
+  bug_id: 1206381
+  state_index_id: 117574
+  errata_id: 22508
+  created_at: 2016-02-10 13:44:02 Z
+  user_id: 271514
+filed_bug_149148:
+  id: 149148
+  bug_id: 1211575
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:51 Z
+  user_id: 271514
+filed_bug_149149:
+  id: 149149
+  bug_id: 1213735
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:51 Z
+  user_id: 271514
+filed_bug_152995:
+  id: 152995
+  bug_id: 1215228
+  state_index_id: 121110
+  errata_id: 22508
+  created_at: 2016-03-22 15:13:44 Z
+  user_id: 271514
+filed_bug_149150:
+  id: 149150
+  bug_id: 1219222
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:51 Z
+  user_id: 271514
+filed_bug_149151:
+  id: 149151
+  bug_id: 1220529
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:51 Z
+  user_id: 271514
+filed_bug_149152:
+  id: 149152
+  bug_id: 1225580
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:52 Z
+  user_id: 271514
+filed_bug_149153:
+  id: 149153
+  bug_id: 1226975
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:52 Z
+  user_id: 271514
+filed_bug_149154:
+  id: 149154
+  bug_id: 1233954
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:52 Z
+  user_id: 271514
+filed_bug_149155:
+  id: 149155
+  bug_id: 1240507
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:52 Z
+  user_id: 271514
+filed_bug_149156:
+  id: 149156
+  bug_id: 1244257
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:52 Z
+  user_id: 271514
+filed_bug_149157:
+  id: 149157
+  bug_id: 1260194
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:52 Z
+  user_id: 271514
+filed_bug_149158:
+  id: 149158
+  bug_id: 1263061
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:52 Z
+  user_id: 271514
+filed_bug_149159:
+  id: 149159
+  bug_id: 1264596
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:52 Z
+  user_id: 271514
+filed_bug_149160:
+  id: 149160
+  bug_id: 1267664
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:53 Z
+  user_id: 271514
+filed_bug_149161:
+  id: 149161
+  bug_id: 1278920
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:53 Z
+  user_id: 271514
+filed_bug_149162:
+  id: 149162
+  bug_id: 1290775
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 15:41:53 Z
+  user_id: 271514
+filed_bug_149166:
+  id: 149166
+  bug_id: 1298932
+  state_index_id: 116115
+  errata_id: 22508
+  created_at: 2016-01-20 16:40:05 Z
+  user_id: 271514
+filed_bug_150373:
+  id: 150373
+  bug_id: 1300964
+  state_index_id: 117574
+  errata_id: 22508
+  created_at: 2016-02-10 13:44:02 Z
+  user_id: 271514
+filed_bug_151297:
+  id: 151297
+  bug_id: 1301744
+  state_index_id: 118737
+  errata_id: 22508
+  created_at: 2016-02-24 14:12:04 Z
+  user_id: 271514
+filed_bug_150374:
+  id: 150374
+  bug_id: 1302398
+  state_index_id: 117574
+  errata_id: 22508
+  created_at: 2016-02-10 13:44:02 Z
+  user_id: 271514
+filed_bug_154338:
+  id: 154338
+  bug_id: 1307111
+  state_index_id: 122391
+  errata_id: 22508
+  created_at: 2016-04-06 15:17:20 Z
+  user_id: 271514
+filed_bug_152698:
+  id: 152698
+  bug_id: 1315491
+  state_index_id: 120758
+  errata_id: 22508
+  created_at: 2016-03-16 13:40:39 Z
+  user_id: 271514
+filed_bug_154466:
+  created_at: 2016-08-19 04:36:07 Z
+  user_id: 174587
+  state_index_id: 54684
+  bug_id: 1283836
+  errata_id: 16397
+  id: 154466
+filed_bug_154472:
+  created_at: 2016-08-19 04:45:34 Z
+  user_id: 174587
+  state_index_id: 54683
+  bug_id: 1283842
+  errata_id: 16396
+  id: 154472
+filed_bug_164183:
+  bug_id: 1283845
+  state_index_id: 126334
+  errata_id: 21100
+  created_at: 2016-09-26 04:00:09 Z
+  user_id: 3000931
+  id: 164183
+filed_bug_166679:
+  id: 166679
+  errata_id: 24604
+  bug_id: 1370201
+  created_at: 2016-08-25 14:04:43 Z
+  user_id: 3000650
+  state_index_id: 136264
+filed_bug_165425:
+  id: 165425
+  errata_id: 24434
+  bug_id: 1317383
+  created_at: 2016-08-08 09:37:11 Z
+  user_id: 3000644
+  state_index_id: 133605
+filed_bug_165764:
+  id: 165764
+  errata_id: 24434
+  bug_id: 1343640
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165765:
+  id: 165765
+  errata_id: 24434
+  bug_id: 1345774
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165401:
+  id: 165401
+  errata_id: 24434
+  bug_id: 1349722
+  created_at: 2016-08-07 08:19:29 Z
+  user_id: 3000644
+  state_index_id: 133605
+filed_bug_165426:
+  id: 165426
+  errata_id: 24434
+  bug_id: 1349886
+  created_at: 2016-08-08 09:37:11 Z
+  user_id: 3000644
+  state_index_id: 133605
+filed_bug_165782:
+  id: 165782
+  errata_id: 24434
+  bug_id: 1350304
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165775:
+  id: 165775
+  errata_id: 24434
+  bug_id: 1350352
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165762:
+  id: 165762
+  errata_id: 24434
+  bug_id: 1351972
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165757:
+  id: 165757
+  errata_id: 24434
+  bug_id: 1352939
+  created_at: 2016-08-10 13:57:58 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165766:
+  id: 165766
+  errata_id: 24434
+  bug_id: 1353947
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165777:
+  id: 165777
+  errata_id: 24434
+  bug_id: 1354285
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165779:
+  id: 165779
+  errata_id: 24434
+  bug_id: 1354302
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165780:
+  id: 165780
+  errata_id: 24434
+  bug_id: 1354313
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165773:
+  id: 165773
+  errata_id: 24434
+  bug_id: 1356880
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165758:
+  id: 165758
+  errata_id: 24434
+  bug_id: 1357130
+  created_at: 2016-08-10 13:57:58 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165763:
+  id: 165763
+  errata_id: 24434
+  bug_id: 1357868
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165771:
+  id: 165771
+  errata_id: 24434
+  bug_id: 1358777
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165774:
+  id: 165774
+  errata_id: 24434
+  bug_id: 1359630
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165759:
+  id: 165759
+  errata_id: 24434
+  bug_id: 1360155
+  created_at: 2016-08-10 13:57:58 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165760:
+  id: 165760
+  errata_id: 24434
+  bug_id: 1360161
+  created_at: 2016-08-10 13:57:58 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165761:
+  id: 165761
+  errata_id: 24434
+  bug_id: 1361019
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165767:
+  id: 165767
+  errata_id: 24434
+  bug_id: 1361020
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165776:
+  id: 165776
+  errata_id: 24434
+  bug_id: 1361462
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165778:
+  id: 165778
+  errata_id: 24434
+  bug_id: 1362040
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165769:
+  id: 165769
+  errata_id: 24434
+  bug_id: 1363611
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165772:
+  id: 165772
+  errata_id: 24434
+  bug_id: 1363617
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165770:
+  id: 165770
+  errata_id: 24434
+  bug_id: 1363677
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165768:
+  id: 165768
+  errata_id: 24434
+  bug_id: 1363847
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_166197:
+  id: 166197
+  errata_id: 24434
+  bug_id: 1363860
+  created_at: 2016-08-17 17:06:44 Z
+  user_id: 3000766
+  state_index_id: 134542
+filed_bug_166196:
+  id: 166196
+  errata_id: 24434
+  bug_id: 1364074
+  created_at: 2016-08-17 17:06:44 Z
+  user_id: 3000766
+  state_index_id: 134542
+filed_bug_165783:
+  id: 165783
+  errata_id: 24434
+  bug_id: 1364384
+  created_at: 2016-08-10 13:57:59 Z
+  user_id: 3000766
+  state_index_id: 133605
+filed_bug_165424:
+  id: 165424
+  errata_id: 24434
+  bug_id: 1364809
+  created_at: 2016-08-08 09:37:11 Z
+  user_id: 3000644
+  state_index_id: 133605
+filed_bug_165714:
+  id: 165714
+  errata_id: 24467
+  bug_id: 1365640
+  created_at: 2016-08-10 09:05:32 Z
+  user_id: 3001782
+  state_index_id: 133889
+filed_bug_166973:
+  id: 166973
+  errata_id: 24467
+  bug_id: 1372182
+  created_at: 2016-09-01 08:56:33 Z
+  user_id: 3001782
+  state_index_id: 136780
+filed_bug_166974:
+  id: 166974
+  errata_id: 24467
+  bug_id: 1372191
+  created_at: 2016-09-01 08:56:33 Z
+  user_id: 3001782
+  state_index_id: 136780
+filed_bug_165909:
+  id: 165909
+  errata_id: 24491
+  bug_id: 1364905
+  created_at: 2016-08-11 22:54:33 Z
+  user_id: 156798
+  state_index_id: 134169
+filed_bug_166434:
+  id: 166434
+  errata_id: 24565
+  bug_id: 1367662
+  created_at: 2016-08-22 17:47:07 Z
+  user_id: 214794
+  state_index_id: 135343
+filed_bug_166774:
+  id: 166774
+  errata_id: 24626
+  bug_id: 1371132
+  created_at: 2016-08-29 15:12:10 Z
+  user_id: 3002340
+  state_index_id: 136447
+filed_bug_166975:
+  id: 166975
+  errata_id: 21131
+  bug_id: 1196142
+  created_at: 2017-03-21 05:37:15 Z
+  user_id: 3000931
+  state_index_id: 138999
+filed_bug_166976:
+  id: 166976
+  errata_id: 21131
+  bug_id: 1362639
+  created_at: 2017-03-21 05:37:15 Z
+  user_id: 3000931
+  state_index_id: 138999
+filed_bug_166977:
+  id: 166977
+  errata_id: 21132
+  bug_id: 1196142
+  created_at: 2017-03-21 05:37:15 Z
+  user_id: 3000931
+  state_index_id: 138735
+filed_bug_166978:
+  id: 166978
+  errata_id: 21132
+  bug_id: 1362639
+  created_at: 2017-03-21 05:37:15 Z
+  user_id: 3000931
+  state_index_id: 138735

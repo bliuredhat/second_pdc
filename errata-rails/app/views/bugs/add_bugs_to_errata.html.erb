@@ -1,0 +1,39 @@
+<%= javascript_include_tag "issues_select_all" %>
+<h2>Add Bugs to <%= @errata.shortadvisory %> - <%= @errata.synopsis %> </h2>
+<% if @release_bugs.empty? && @package_bugs.empty? %>
+  <p>There are no new bugs currently available for this advisory.</p>
+<% else %>
+  <%= form_tag :action => 'add_bugs_to_errata' do %>
+    <% [
+        [@package_bugs, 'for brew builds in this advisory'],
+        [@release_bugs, "for release #{@errata.release.name}"]
+      ].each do |bugs,type|
+        next if bugs.empty?
+        bugs = bugs.sort do |a,b|
+          if (out = a.package.name <=> b.package.name) == 0
+            out = a.id <=> b.id
+          end
+          out
+        end
+    %>
+      <p>The following bugs can be added <%= type %>:</p>
+      <table class="buglist" cellpadding="0" cellspacing="0" width="100%">
+        <%= issue_select_all_row %>
+        <% for bug in bugs %>
+          <%= issue_row(cycle('bz_odd','bz_even'), bug, :bug, true) %>
+        <% end %>
+      </table>
+      <%= submit_tag "Add Bugs", :class=>'btn btn-primary btn-add-bugs' %>
+    <% end # bugs %>
+  <% end # form %>
+<% end # else %>
+
+<div class="alert alert-info" style="margin-top:2em;">
+  <p class="bold">Note:</p>
+  <ul class="spaced">
+    <li><%= render 'shared/bug_troubleshoot_message' %></li>
+    <li>You can also add bugs to an advisory by <%= link_to 'editing the advisory', {:controller=>:errata,:action=>:edit,:id=>@errata} %>
+    and adding the bug id to the 'Bugs or JIRA Issues Fixed'
+    field.</li>
+  </ul>
+</div>

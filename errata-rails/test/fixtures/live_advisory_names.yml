@@ -1,0 +1,218 @@
+--- 
+live_advisory_name_00001: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 5028
+  id: 1
+  live_id: 92
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2007
+live_advisory_name_00002: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 5243
+  id: 2
+  live_id: 151
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2007
+live_advisory_name_00003: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 6310
+  id: 3
+  live_id: 895
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2007
+live_advisory_name_00004: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 7058
+  id: 4
+  live_id: 8205
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2008
+live_advisory_name_00005: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 7390
+  id: 5
+  live_id: 495
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2008
+live_advisory_name_00006: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 7679
+  id: 6
+  live_id: 860
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2008
+live_advisory_name_00007: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 8742
+  id: 7
+  live_id: 1141
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2009
+live_advisory_name_00008: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 8751
+  id: 8
+  live_id: 1156
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2009
+live_advisory_name_00009: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 9190
+  id: 9
+  live_id: 1688
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2009
+live_advisory_name_00010: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 9407
+  id: 10
+  live_id: 172
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2010
+live_advisory_name_00011: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 9494
+  id: 11
+  live_id: 331
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2010
+live_advisory_name_00012: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 9753
+  id: 12
+  live_id: 583
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2010
+live_advisory_name_00013: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 9754
+  id: 13
+  live_id: 582
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2010
+live_advisory_name_00014: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 9755
+  id: 14
+  live_id: 581
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2010
+live_advisory_name_00015: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 9829
+  id: 15
+  live_id: 175
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00016: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 9883
+  id: 16
+  live_id: 758
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2010
+live_advisory_name_00017: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 10140
+  id: 17
+  live_id: 837
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2010
+live_advisory_name_00018: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 10305
+  id: 18
+  live_id: 2
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00019: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 10610
+  id: 19
+  live_id: 293
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00020: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 10801
+  id: 20
+  live_id: 212
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00021: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 10802
+  id: 21
+  live_id: 213
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00022: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 10827
+  id: 22
+  live_id: 300
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00023: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 10844
+  id: 23
+  live_id: 299
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00024: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 10849
+  id: 24
+  live_id: 334
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00025: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 11031
+  id: 25
+  live_id: 442
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00026: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 11129
+  id: 26
+  live_id: 447
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00027: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 11131
+  id: 27
+  live_id: 451
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2011
+live_advisory_name_00028: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 13147
+  id: 28
+  live_id: 987
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2012
+live_advisory_name_00029: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 7517
+  id: 29
+  live_id: 588
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2008
+live_advisory_name_00030: 
+  created_at: 2013-09-26 22:36:49 Z
+  errata_id: 7519
+  id: 30
+  live_id: 590
+  updated_at: 2013-09-26 22:36:49 Z
+  year: 2008
+live_advisory_name_31:
+  updated_at: 2014-11-04 06:35:03 Z
+  live_id: 1
+  created_at: 2014-11-04 06:35:03 Z
+  errata_id: 16657
+  id: 31
+  year: 2014

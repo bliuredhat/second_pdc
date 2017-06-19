@@ -1,0 +1,20 @@
+Jenkins Scripts
+===============
+
+This directory contains scripts intended for usage in Jenkins.
+Generally, a Jenkins job should do nothing more than execute one script
+in this directory.
+
+It's also possible to use the scripts locally, but note the following:
+
+* The scripts expect to be able to write to the workspace (errata-rails
+  checkout).  For example, they'll write test report files or RPMs
+  into the top-level errata-rails directory.
+
+* The scripts use some docker containers which execute as uid=1000.  If
+  this is not your uid then you may have to take some action to let the
+  containers write to the workspace, e.g.
+
+    setfacl -m u:1000:rwX -R .
+
+* It might be necessary to disable SELinux.

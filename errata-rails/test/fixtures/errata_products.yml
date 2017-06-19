@@ -1,0 +1,892 @@
+--- 
+errata_product_00016: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Errata Related to Red Hat Advanced Products
+  ftp_path: os
+  ftp_subdir: os
+  id: 16
+  isactive: 1
+  name: Red Hat Enterprise Linux
+  path: /mnt/redhat/beehive/updates/dist
+  short_name: RHEL
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00020: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Cluster Suite
+  ftp_path: os
+  ftp_subdir: 
+  id: 20
+  isactive: 1
+  name: Red Hat Cluster Suite
+  path: /mnt/redhat/beehive/updates/dist
+  short_name: RHCS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00022: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Application Server
+  ftp_path: os
+  ftp_subdir: 
+  id: 22
+  isactive: 1
+  name: Red Hat Application Server
+  path: /mnt/redhat/beehive/updates/dist
+  short_name: RHAPS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00023: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Enterprise Linux Extras
+  ftp_path: os
+  ftp_subdir: 
+  id: 23
+  isactive: 1
+  name: Red Hat Enterprise Linux Extras
+  path: /mnt/redhat/beehive/updates/dist
+  short_name: RHEL-EXTRAS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00024: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Global File System
+  ftp_path: os
+  ftp_subdir: 
+  id: 24
+  isactive: 1
+  name: Red Hat Global File System
+  path: /mnt/redhat/beehive/updates/dist
+  short_name: RHGFS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00027: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Hardware Certification
+  ftp_path: 
+  ftp_subdir: 
+  id: 27
+  isactive: 1
+  name: Red Hat Hardware Certification
+  path: /mnt/redhat/beehive/updates/hwcert
+  short_name: RHHC
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00029: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Errata for the Red Hat Directory Server Product
+  ftp_path: 
+  ftp_subdir: 
+  id: 29
+  isactive: 1
+  name: Red Hat Directory Server
+  path: /mnt/redhat/beehive/updates/dist
+  short_name: RHDirServ
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00030: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Developer Suite v.3
+  ftp_path: 
+  ftp_subdir: RHDS3
+  id: 30
+  isactive: 1
+  name: Red Hat Developer Suite v.3
+  path: /mnt/redhat/beehive/updates/dist
+  short_name: RHDS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00037: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Application Stack
+  ftp_path: 
+  ftp_subdir: 
+  id: 37
+  isactive: 1
+  name: Red Hat Application Stack
+  path: /mnt/redhat/beehive/updates/dist
+  short_name: RHWAS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00038: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: JBoss Application Server (for text only advisories)
+  ftp_path: 
+  ftp_subdir: 
+  id: 38
+  isactive: 1
+  name: JBoss Application Server
+  path: /mnt/redhat/beehive/updates/stronghold
+  short_name: JBOSS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00039: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: http://www.redhat.com/rhx/
+  ftp_path: 
+  ftp_subdir: 
+  id: 39
+  isactive: 1
+  name: Red Hat Exchange (RHX)
+  path: 
+  short_name: RHX
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00040: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Network Satellite
+  ftp_path: ""
+  ftp_subdir: RHNSAT
+  id: 40
+  isactive: 1
+  name: Red Hat Network Satellite Server
+  path: " "
+  short_name: RHNSAT
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED,ON_DEV
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00041: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: JBoss Enterprise Application Platform
+  ftp_path: ""
+  ftp_subdir: JBEAP
+  id: 41
+  isactive: 1
+  name: JBoss Enterprise Application Platform
+  path: 
+  short_name: JBEAP
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00042: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Certificate System
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 42
+  isactive: 1
+  name: Red Hat Certificate System
+  path: /mnt/redhat/brewroot
+  short_name: RHCERT
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00045: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Enterprise Identity, Policy, and Audit
+  ftp_path: 
+  ftp_subdir: 
+  id: 45
+  isactive: 1
+  name: Red Hat Enterprise IPA
+  path: 
+  short_name: RHEIPA
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00046: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Network Proxy Server
+  ftp_path: ""
+  ftp_subdir: RHNPROXY
+  id: 46
+  isactive: 1
+  name: Red Hat Network Proxy Server
+  path: /
+  short_name: RHNPROXY
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00047: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Enterprise Messaging, Realtime, and Grid
+  ftp_path: 
+  ftp_subdir: RHEMRG
+  id: 47
+  isactive: 1
+  name: Red Hat Enterprise MRG for RHEL-5
+  path: 
+  short_name: RHEMRG-RHEL5
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00048: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Enterprise Messaging, Realtime, and Grid for RHEL-4
+  ftp_path: 
+  ftp_subdir: RHEMRG
+  id: 48
+  isactive: 1
+  name: Red Hat Enterprise MRG for RHEL-4
+  path: 
+  short_name: RHEMRG-RHEL4
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00049: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: "Red Hat HPC Solution "
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 49
+  isactive: 1
+  name: Red Hat HPC Solution
+  path: 
+  short_name: RHHPC
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00052: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Documentation
+  ftp_path: 
+  ftp_subdir: 
+  id: 52
+  isactive: 1
+  name: Red Hat Documentation
+  path: 
+  short_name: RHDOCS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00053: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: "JBEWS"
+  ftp_path: ""
+  ftp_subdir: JBEWS
+  id: 53
+  isactive: 1
+  name: JBoss Enterprise Web Server
+  path: 
+  short_name: JBEWS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00054: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: "JBWFK"
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 54
+  isactive: 1
+  name: JBoss Web Framework Kit
+  path: 
+  short_name: JBWFK
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00055: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Enterprise Virtualization
+  ftp_path: ""
+  ftp_subdir: RHEV
+  id: 55
+  isactive: 1
+  name: Red Hat Enterprise Virtualization
+  path: 
+  short_name: RHEV
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED,ON_QA
+  is_internal: 0
+  move_bugs_on_qe: 1
+errata_product_00056: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: RHEL AP for SAP
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 56
+  isactive: 1
+  name: RHEL for SAP
+  path: 
+  short_name: RHEL-SAP
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00057: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Enterprise Linux Scalable File System
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 57
+  isactive: 1
+  name: Red Hat Enterprise Linux Scalable File System
+  path: 
+  short_name: SFS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00058: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Software Test Suite
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 58
+  isactive: 1
+  name: "Red Hat Software Test Suite "
+  path: 
+  short_name: RHSTS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00060: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 3
+  description: Red Hat Network Tools
+  ftp_path: ""
+  ftp_subdir: RHNTOOLS
+  id: 60
+  isactive: 1
+  name: Red Hat Network Tools
+  path: 
+  short_name: RHNTOOLS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00061: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: RHEL S-JIS Service
+  ftp_path: ""
+  ftp_subdir: SJIS
+  id: 61
+  isactive: 1
+  name: RHEL S-JIS Service
+  path: 
+  short_name: SJIS
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00062: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: "JBEWP"
+  ftp_path: ""
+  ftp_subdir: JBEWP
+  id: 62
+  isactive: 1
+  name: JBoss Enterprise Web Platform
+  path: 
+  short_name: JBEWP
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00063: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: RHEL HPN
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 63
+  isactive: 1
+  name: RHEL HPN
+  path: 
+  short_name: RHEL-HPN
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00064: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: RHEL V2VWin
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 64
+  isactive: 1
+  name: RHEL V2VWin
+  path: 
+  short_name: RHEL-V2VWin
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00065: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: JBoss Enterprise Middleware (for text-only advisories)
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 65
+  isactive: 1
+  name: JBoss Enterprise Middleware
+  path: 
+  short_name: JBEM
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00066: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Enterprise Identity Replication
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 66
+  isactive: 1
+  name: Enterprise Identity Replication
+  path: 
+  short_name: EIR
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00067: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Enterprise Messaging, Realtime, and Grid
+  ftp_path: ""
+  ftp_subdir: RHEMRG-RHEL6
+  id: 67
+  isactive: 1
+  name: Red Hat Enterprise MRG for RHEL-6
+  path: 
+  short_name: RHEMRG-RHEL6
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00068: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Provide content updates in a public cloud
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 68
+  isactive: 1
+  name: Red Hat Update Infrastructure
+  path: 
+  short_name: RHUI
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00069: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Initial offering of GlusterFS
+  ftp_path: ""
+  ftp_subdir: SSA
+  id: 69
+  isactive: 1
+  name: Red Hat Storage Software Appliance
+  path: 
+  short_name: SSA
+  state_machine_rule_set_id: 1
+  valid_bug_states: ASSIGNED,MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00070: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Red Hat Subscription Asset Manager
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 70
+  isactive: 1
+  name: Red Hat Subscription Asset Manager
+  path: 
+  short_name: SAM
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00071: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: CloudForms Portfolio for RHEL
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 71
+  isactive: 1
+  name: Red Hat CloudForms
+  path: 
+  short_name: CloudForms
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00072: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: Red Hat Developer Toolset
+  ftp_path: ""
+  ftp_subdir: RHDevToolset
+  id: 72
+  isactive: 1
+  name: Red Hat Developer Toolset
+  path: 
+  short_name: RHDevToolset
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00073: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: JBoss Operations Network
+  ftp_path: ""
+  ftp_subdir: JON
+  id: 73
+  isactive: 1
+  name: JBoss Operations Network
+  path: 
+  short_name: JON
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00074: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Integrated offering of gluster product
+  ftp_path: ""
+  ftp_subdir: RHS
+  id: 74
+  isactive: 1
+  name: Red Hat Storage
+  path: 
+  short_name: RHS
+  state_machine_rule_set_id: 1
+  valid_bug_states: ASSIGNED,MODIFIED,VERIFIED,ON_QA
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00075: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 1
+  description: A test product to exercise ET against SCL-built packages
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 75
+  isactive: 1
+  name: ruby-scl-test
+  path: 
+  short_name: ruby-scl-test
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00076: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Kernels for IBM P7IH
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 76
+  isactive: 1
+  name: P7IH
+  path: 
+  short_name: P7IH
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_00077: 
+  build_path: 
+  cdw_flag_prefix: 
+  default_solution_id: 2
+  description: Enhanced Kernel for RHEL 6 HPC for Blue Gene
+  ftp_path: ""
+  ftp_subdir: ""
+  id: 77
+  isactive: 1
+  name: BlueGene
+  path: 
+  short_name: BlueGene
+  state_machine_rule_set_id: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: 0
+  move_bugs_on_qe: 0
+errata_product_0078: 
+  name: Red Hat Core Infrastructure
+  isactive: 1
+  ftp_subdir: ""
+  valid_bug_states: MODIFIED,VERIFIED
+  build_path: 
+  state_machine_rule_set_id: 2
+  default_solution_id: 1
+  is_internal: true
+  description: "Red Hat's infrastructure for delivering  products to customers."
+  short_name: RHCI
+  id: 82
+  path: 
+  ftp_path: ""
+  cdw_flag_prefix: hss
+  move_bugs_on_qe: 0
+product_79:
+  name: Red Hat OpenShift Enterprise
+  state_machine_rule_set_id: 1
+  ftp_path: ""
+  isactive: 1
+  default_solution_id: 2
+  build_path:
+  description: Red Hat OpenShift Enterprise
+  valid_bug_states: MODIFIED,VERIFIED
+  path:
+  short_name: RHOSE
+  id: 79
+  ftp_subdir: ""
+  cdw_flag_prefix:
+  is_internal: false
+  move_bugs_on_qe: 0
+product_83:
+  valid_bug_states: MODIFIED,VERIFIED
+  id: 83
+  description: Red Hat Software Collections
+  build_path:
+  default_solution_id: 2
+  state_machine_rule_set_id: 3
+  is_internal: false
+  name: Red Hat Software Collections
+  path:
+  ftp_path: ""
+  isactive: 1
+  ftp_subdir: RHSCL
+  cdw_flag_prefix:
+  short_name: RHSCL
+  move_bugs_on_qe: 0
+product_112:
+  valid_bug_states: MODIFIED,VERIFIED
+  id: 112
+  description: Red Hat Enterprise Linux Supplementary
+  build_path:
+  default_solution_id: 2
+  state_machine_rule_set_id: 1
+  is_internal: false
+  name: Red Hat Enterprise Linux Supplementary
+  path: "/mnt/redhat/beehive/updates/dist"
+  ftp_path: "os"
+  isactive: 1
+  ftp_subdir: "LACD"
+  cdw_flag_prefix:
+  short_name: "LACD"
+  move_bugs_on_qe: 0
+product_116:
+  cdw_flag_prefix:
+  move_bugs_on_qe: false
+  id: 116
+  build_path:
+  short_name: release-e2e-test
+  state_machine_rule_set_id: 1
+  ftp_path: ""
+  isactive: 1
+  valid_bug_states: MODIFIED,VERIFIED
+  is_internal: false
+  name: Release End2End Test
+  ftp_subdir: ""
+  default_solution_id: 1
+  description: For DevOps Automation team purposes.
+  path:
+product_222:
+  id: 222
+  name: PDC Test Product
+  description: Product for testing PDC
+  path:
+  ftp_path:
+  build_path:
+  short_name: PDC-TP
+  isactive: 1
+  ftp_subdir:
+  default_solution_id: 2
+  valid_bug_states: MODIFIED,VERIFIED
+  state_machine_rule_set_id: 1
+  cdw_flag_prefix:
+  is_internal: false
+  move_bugs_on_qe: false
+  supports_pdc: true
+  pdc_product_id: 3
+product_102:
+  id: 102
+  name: Red Hat Enterprise Linux Extras 2
+  description: Red Hat Enterprise Linux Extras
+  path:
+  ftp_path: ""
+  build_path:
+  short_name: RHEL-EXTRAS-2
+  isactive: 1
+  ftp_subdir: ""
+  default_solution_id: 2
+  valid_bug_states: MODIFIED,VERIFIED
+  state_machine_rule_set_id: 1
+  cdw_flag_prefix:
+  is_internal: false
+  move_bugs_on_qe: false
+product_223:
+  id: 223
+  name: Product for PDC
+  description: Product for PDC
+  path:
+  ftp_path:
+  build_path:
+  short_name: PDC-PRODUCT
+  isactive: 1
+  ftp_subdir:
+  default_solution_id: 2
+  valid_bug_states: MODIFIED,VERIFIED
+  state_machine_rule_set_id: 1
+  cdw_flag_prefix:
+  is_internal: false
+  move_bugs_on_qe: false
+  supports_pdc: true
+  pdc_product_id: 3
+product_224:
+  id: 224
+  name: Product for PDC without release
+  description: Product for PDC but without release
+  path:
+  ftp_path:
+  build_path:
+  short_name: PDC-PRODUCT-WITHOUT-RELEASE
+  isactive: 1
+  ftp_subdir:
+  default_solution_id: 2
+  valid_bug_states: MODIFIED,VERIFIED
+  state_machine_rule_set_id: 1
+  cdw_flag_prefix:
+  is_internal: false
+  move_bugs_on_qe: false
+  supports_pdc: true
+product_225:
+  id: 225
+  name: PDC Product to test pdc releases
+  description: PDC Product to test pdc releases
+  path:
+  ftp_path:
+  build_path:
+  short_name: PDC-PRODUCT-TO-TEST-PDC-RELEASE
+  isactive: 1
+  ftp_subdir:
+  default_solution_id: 2
+  valid_bug_states: MODIFIED,VERIFIED
+  state_machine_rule_set_id: 1
+  cdw_flag_prefix:
+  is_internal: false
+  move_bugs_on_qe: false
+  pdc_product_id: 3
+  supports_pdc: true
+product_104: 
+  id: 104
+  name: Red Hat Ceph Storage
+  description: Red Hat Ceph Storage
+  path: 
+  ftp_path:
+  build_path: 
+  short_name: RHCEPH
+  isactive: 1
+  ftp_subdir: RHCEPH
+  default_solution_id: 2
+  valid_bug_states: NEW,ON_DEV,ASSIGNED,MODIFIED,POST,VERIFIED,ON_QA
+  state_machine_rule_set_id: 1
+  cdw_flag_prefix: 
+  is_internal: false
+  move_bugs_on_qe: false
+  text_only_advisories_require_dists: true
+  supports_pdc: true
+  pdc_product_id: 2
+

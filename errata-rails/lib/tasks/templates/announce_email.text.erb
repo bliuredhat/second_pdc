@@ -1,0 +1,48 @@
+<!-- Instructions: https://docs.engineering.redhat.com/x/QgAgAg -->
+
+<!-- Title: Errata Tool <%= short_name %> released -->
+
+[PnT DevOps][0] is pleased to announce that Errata Tool <%= full_name %> was deployed to production on <%= release_time %>.
+
+## What's new
+
+<%= overview %>
+
+This release closes [<%= changelog_count %> bugs<%= " and RFEs" if has_release_notes %>][2]. For information on what <%= "else " if has_release_notes %>is new in this release please view <%= "the [release notes][1]#{ mode == 'txt' ? ', ' : ' or ' }" if has_release_notes %>the [bug list][2]<%= ', or see the change log included below' if mode == 'txt' %>.
+
+## Thanks to...
+
+This release was brought to you by the [Errata Tool Team][3]. Thanks to <%= deployed_by %> who [deployed][4] the release to production. Thanks also to everyone who provided bug reports, feature requests, suggestions and comments on the mailing list or via Bugzilla.
+
+## Get in touch
+
+If you experience any problems with Errata Tool, or you want to request a feature, please [create a bug][5] in Bugzilla, [raise a ticket][6] in RT, or ask for help on #errata on IRC.
+
+If you're interested in Errata Tool development please subscribe to [errata-dev-list][7], or join #erratadev on IRC.
+
+<%= '&nbsp;' if mode == 'md' %>
+
+Regards,
+
+<%= your_name %>.
+
+<% if mode == 'txt' %>
+This announcement is also [available][8] via the [announcements][9] page in Confluence.
+
+<% end %>
+[0]: https://mojo.redhat.com/groups/pnt-devops/overview<% if has_release_notes %>
+[1]: https://errata.devel.redhat.com/release-notes/rel-notes-<%= short_name.gsub(/\./,'-') %>-release-notes-for-version-<%= short_name %>.html<% end %>
+[2]: <%= bugs_link %>
+[3]: https://docs.engineering.redhat.com/x/0IcEAQ
+[4]: https://projects.engineering.redhat.com/browse/<%= jira_task_id %>
+[5]: https://bugzilla.redhat.com/enter_bug.cgi?product=Errata+Tool
+[6]: mailto:<%= Settings.errata_help_email %>
+[7]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[8]: https://docs.engineering.redhat.com/display/HTD/<%= url_date %>/Errata+Tool+<%= short_name %>+Released
+[9]: https://docs.engineering.redhat.com/pages/viewrecentblogposts.action?key=HTD
+
+<% if mode == 'txt' %>
+## Change log
+
+<%= changelog_text %>
+<% end %>

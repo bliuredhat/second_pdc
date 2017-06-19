@@ -1,0 +1,64 @@
+Please update (stage and then) production Errata Tool to version <%= ver %>-<%= rel %>
+
+Stage Errata Tool:
+  https://errata-stage.app.eng.bos.redhat.com/
+
+Production Errata Tool:
+  https://errata.devel.redhat.com/
+
+Please update the staging server first. Ensure that the playbook
+completes without error, and the staging server is operational
+before updating the production server.
+
+Please also paste the output from each of the ansible playbook
+runs in this task, either directly or using a pastebin.
+
+(See https://docs.engineering.redhat.com/x/PIS0AQ for a more
+detailed description of the deploy process.)
+
+Details
+=======
+
+NVR: errata-rails-<%= ver %>-<%= rel %>.el6eso
+
+Brew build: <%= Brew.base_url %>/buildinfo?buildID=<%= brew_build_id %>
+
+Config changes: none
+
+New dependencies: none
+
+Additional instructions: none
+
+Schema changes: TBA
+
+
+Install procedure
+=================
+
+Please use the 'errata-upgrade' ansible playbook from the oldworld-maintenance repo:
+https://gitlab.infra.prod.eng.rdu2.redhat.com/mgrigull/oldworld-maintenance
+
+For Errata Tool stage deploy:
+$ ansible-playbook -v -i inventory playbooks/errata-upgrade.yml --limit errata-stage
+
+For Errata Tool production deploy:
+$ ansible-playbook -v -i inventory playbooks/errata-upgrade.yml --limit errata-production
+
+
+Extra info
+==========
+
+Bug List:
+<%= bug_list_link %>
+
+Code Diff:
+http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=<%= this_tag %>&id2=<%= prev_tag %>
+
+Dev Contacts:
+  https://docs.engineering.redhat.com/x/0IcEAQ
+
+Sign-off:
+  Simon Baird <sbaird@redhat.com>
+
+Change Log:
+<%= changelog %>

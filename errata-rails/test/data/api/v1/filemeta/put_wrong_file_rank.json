@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "file": [
+      "3416484 is not a non-RPM file associated with this advisory"
+    ]
+  }
+}

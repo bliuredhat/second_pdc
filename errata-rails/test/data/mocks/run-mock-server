@@ -1,0 +1,148 @@
+#!/usr/bin/env ruby
+#
+# This script launches a mock server with all the mock files
+# configured under test/data/mocks.
+#
+# The server may be used for mocking HTTP services used by Errata
+# Tool.
+#
+require 'rubygems'
+require 'net/http'
+require 'json'
+
+JAR = "mockserver-netty-3.9.1-jar-with-dependencies.jar"
+CHECKSUM = "5140f32a3563829fe196c5edbf6ad844cfa67005bd2fc4e07ea8d7c00ac35530"
+URL = "http://search.maven.org/remotecontent?filepath=org/mock-server/mockserver-netty/3.9.1/#{JAR}"
+
+def run_server(port)
+  system("fuser -n tcp -k #{port}")
+
+  pid = Process.fork
+  if pid.nil?
+    Process.exec('/bin/sh', '-c', <<"END_SCRIPT")
+set -e
+test -f "#{JAR}" || curl -L -O "#{URL}"
+echo "#{CHECKSUM}  #{JAR}" | sha256sum --check
+exec java -jar "#{JAR}" -serverPort #{port}
+END_SCRIPT
+
+    raise 'unexpectedly alive after exec'
+  end
+  return pid
+end
+
+def check_server(port)
+  begin
+    Net::HTTP.start('localhost', port) do |http|
+      response = http.send_request('PUT', '/status')
+      # response.code is a string
+      return [response.code.to_s == '200', response.inspect]
+    end
+  rescue StandardError => ex
+    return [false, ex.inspect]
+  end
+end
+
+def wait_for_ok(pid, port)
+  start = Time.now
+  is_up = false
+  while !is_up && ((Time.now - start) < 60)
+    got = Process.wait(pid, Process::WNOHANG)
+    if (got == pid)
+      raise "server unexpectedly exited with status #{$?}"
+    end
+
+    (is_up, problem) = check_server(port)
+    if is_up
+      puts "Server on port #{port} is up."
+    else
+      puts "Server on port #{port} is not up yet.  (#{problem})"
+      sleep 1
+    end
+  end
+
+  if !is_up
+    puts 'Giving up.'
+    Process.kill('TERM', pid)
+    Process.wait(pid)
+    raise 'The mock server repeatedly failed to respond to a status check.'
+  end
+end
+
+def put_expectation(port, args)
+  expectation = {
+    :httpRequest => {
+      :method => 'GET',
+      :path => args[:path],
+    },
+    :httpResponse => {
+      :statusCode => args[:status].to_i,
+      :headers => [
+        ({:name => 'Content-Type', :values => [args[:'content-type']]} if args[:'content-type'])
+      ].compact,
+      :body => args[:content],
+    },
+    :times => {
+      :unlimited => true
+    },
+  }
+
+  Net::HTTP.start('localhost', port) do |http|
+    response = http.send_request(
+      'PUT',
+      '/expectation',
+      JSON.dump(expectation),
+      {'Content-Type' => 'application/json'}
+    )
+    if response.code == '201'
+      puts "  #{args[:ident]}"
+    else
+      raise "failed to set up #{args[:ident]}: #{response.inspect}"
+    end
+  end
+end
+
+def put_mock(port, mock)
+  put_expectation(port, mock.merge(
+    :ident => "#{File.basename(mock[:source])}"
+  ))
+end
+
+def put_mocks(port)
+  test_dir = File.expand_path File.join(File.dirname(__FILE__), '..', '..')
+  require "#{test_dir}/test_helper/mock_server.rb"
+
+  return TestHelper::MockServer.parse_all_mocks.each do |mock|
+    put_mock(port, mock)
+  end
+end
+
+def main(args)
+  port = 8889
+  server_pid = run_server(port)
+  puts "server running: #{server_pid}, on port #{port}\nWaiting for server to come up ..."
+
+  wait_for_ok(server_pid, port)
+
+  puts "Configuring server..."
+  mocks = put_mocks(port)
+  urls = mocks.map{|m| "http://localhost:8889#{m[:path]}"}
+
+  puts <<"END"
+
+MOCK SERVER IS RUNNING
+======================
+
+Mocked URLs:
+
+  #{urls.sort.join("\n  ")}
+
+To stop the mock server, run:
+
+  kill #{server_pid}
+END
+
+  Process.detach(server_pid)
+end
+
+main(ARGV)

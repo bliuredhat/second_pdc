@@ -1,0 +1,31 @@
+---
+job_tracker_delayed_map_3:
+  updated_at: 2014-11-17 04:45:29 Z
+  created_at: 2014-11-17 04:45:29 Z
+  job_tracker_id: 1
+  id: 3
+  delayed_job_id: 3
+job_tracker_delayed_map_4:
+  updated_at: 2014-11-17 04:45:29 Z
+  created_at: 2014-11-17 04:45:29 Z
+  job_tracker_id: 1
+  id: 4
+  delayed_job_id: 4
+job_tracker_delayed_map_5:
+  updated_at: 2014-11-17 04:45:43 Z
+  created_at: 2014-11-17 04:45:43 Z
+  job_tracker_id: 2
+  id: 5
+  delayed_job_id: 5
+job_tracker_delayed_map_6:
+  updated_at: 2014-11-17 04:45:43 Z
+  created_at: 2014-11-17 04:45:43 Z
+  job_tracker_id: 2
+  id: 6
+  delayed_job_id: 6
+job_tracker_delayed_map_7:
+  updated_at: 2014-11-17 04:45:43 Z
+  created_at: 2014-11-17 04:45:43 Z
+  job_tracker_id: 2
+  id: 7
+  delayed_job_id: 7

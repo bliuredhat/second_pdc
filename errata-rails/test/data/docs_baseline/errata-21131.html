@@ -1,0 +1,153 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <title>RHBA-2015:2399-17</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<body>
+<div id="html_doc_view" style="padding-left: 1.5em; padding-right: 1.5em">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tr><td>Red Hat Bug Fix Advisory (PDC)</td></tr>
+ <tr><td><br/></td></tr>
+ <tr>
+   <td align="left"><h1 style="font-size: xx-large">RHBA-2015:2399-17</h1></td>
+   <td align="center"><a href="javascript:history.go(-1)">Back</a></td>
+ </tr>
+ <tr><td><br/></td></tr>
+ <tr><td width="100%" colspan="2">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td colspan="2">&nbsp;</td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Synopsis</span></td>
+      <td>pdc test</td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Advisory ID</span></td>
+      <td>RHBA-2015:2399-17</td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Issue Date</span></td>
+      <td>2016-02-06</td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Updated on</span></td>
+      <td>2016-03-10</td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Product</span></td>
+      <td>Product for PDC</td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Keywords</span></td>
+      <td></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Cross References</span></td>
+      <td></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr><tr>
+      <td><span class="subhead2">Obsoletes</span></td>
+      <td></td>
+    </tr><tr>
+      <td colspan="2"><hr class="gray" noshade="noshade" /></td>
+    </tr>
+   </table>
+ </td></tr>
+ <tr>
+  <td valign="top">
+    <b>1. Topic:</b><br/>
+    <pre>pdc test advisory</pre>
+    <br/>
+    
+    <b>2. Problem Description:</b>
+    <br/>
+    <pre>does this even work?</pre>
+    <br/>
+
+    <b>3. Bug IDs fixed:</b> (see <a href="https://bugzilla.redhat.com/">bugzilla</a> for more information)
+    <p>
+      <tt><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1196142" target="_blank">1196142</a> Add RBD support for LIO HA</tt><br/>
+      <tt><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1362639" target="_blank">1362639</a> Object sync requests skipped in some scenarios</tt><br/>
+    </p>
+
+
+    <p>
+    <b>4.  Relevant releases/architectures:</b>
+    <br/>
+    Red Hat Ceph Storage MON - x86_64<br/>
+Red Hat Ceph Storage OSD - x86_64
+    </p>
+
+    <b>5.  RPMs required:</b>
+    <br/>
+      Red Hat Ceph Storage OSD
+      <p>
+      SRPMS:<br/>
+        
+        <tt>fake:6325cae72e2d35c9bf161b9e35c ceph-10.2.3-17.el7cp.src.rpm</tt><br/>
+      </p>
+    
+        <p>
+        x86_64:<br/>
+          <tt>fake:55c472f29f912aac03fe4de6101 ceph-base-10.2.3-17.el7cp.x86_64.rpm</tt><br/>
+          <tt>fake:e41eb698b188bb73a6da5ebee9c ceph-common-10.2.3-17.el7cp.x86_64.rpm</tt><br/>
+        </p>
+      Red Hat Ceph Storage MON
+      <p>
+      SRPMS:<br/>
+        
+        <tt>fake:6325cae72e2d35c9bf161b9e35c ceph-10.2.3-17.el7cp.src.rpm</tt><br/>
+      </p>
+    
+        <p>
+        x86_64:<br/>
+          <tt>fake:55c472f29f912aac03fe4de6101 ceph-base-10.2.3-17.el7cp.x86_64.rpm</tt><br/>
+          <tt>fake:e41eb698b188bb73a6da5ebee9c ceph-common-10.2.3-17.el7cp.x86_64.rpm</tt><br/>
+        </p>
+    
+    <br/>
+    <b>6.  Solution:</b><br/>
+    <pre>fix it</pre>
+
+
+    <b>7.  Verification:</b>
+    <br/>
+    <pre>
+MD5 sum                          Package Name
+-------------------------------------------------------------------------
+fake:6325cae72e2d35c9bf161b9e35c ceph-10.2.3-17.el7cp.src.rpm
+fake:55c472f29f912aac03fe4de6101 ceph-base-10.2.3-17.el7cp.x86_64.rpm
+fake:e41eb698b188bb73a6da5ebee9c ceph-common-10.2.3-17.el7cp.x86_64.rpm
+    </pre>
+        <p>  These packages are GPG signed by Red Hat, Inc. for security.  Our key is available at:<br />
+          <a href="https://access.redhat.com/security/team/key/">https://access.redhat.com/security/team/key/</a>
+        </p>
+        <p>You can verify each package with the following command:<br/><br/><code>rpm --checksig -v filename</code></p>
+        <p>
+          If you only wish to verify that each package has not been corrupted or tampered with,
+          examine only the md5sum with the following command:<br><br><code>md5sum filename</code>
+        </p>
+        <p>Note that you need RPM &gt;= 3.0 to check GnuPG keys.</p>
+
+
+    <b>8. References:</b><br/>
+    <br/>
+    <br/>
+    <br/>
+  </td>
+ </tr>
+</table>
+</div>
+</body>
+</html>

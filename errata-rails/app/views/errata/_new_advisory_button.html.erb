@@ -1,0 +1,3 @@
+<% if     has_role? :devel    %><%= link_to "My Filed",          {:controller => 'devel', :action => 'my_requests'}, :class=>'btn' %><% end %>
+<% if     has_role? :qa       %><%= link_to "My Assigned",       {:controller => 'qe',    :action => 'my_requests'}, :class=>'btn' %><% end %>
+<% unless has_role? :readonly %><%= link_to icon_btn_text('New Advisory','plus'), {:controller => :errata, :action => :new_choose},  :class=>'btn' %><% end %>

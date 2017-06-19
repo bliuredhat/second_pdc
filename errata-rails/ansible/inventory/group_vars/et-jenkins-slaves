@@ -1,0 +1,17 @@
+---
+docker_image_tag: docker-registry.usersys.redhat.com/errata_tool/jenkins_dind_slave:latest
+
+# Since recent docker(> 1.8.2) uses v2 while
+# http://docker-registry.usersys.redhat.com still uses v1, docker pull
+# automatically converts image ID to new checksum based ID. Thus, let's just
+# grep the new one(it was ab1ca5a1ee65).
+docker_image_id: 3dde3901d164
+jenkins_url: https://jenkins.engineering.redhat.com/
+
+# xlarge
+openstack_flavor_id: ad87e76a-4fe5-437a-98f6-1151359be651
+
+# Fedora 20
+openstack_image_id: 4f8ce807-e3b9-4cb5-802c-f7135f3cd3ae
+
+openstack_key_name: jenkins-os1

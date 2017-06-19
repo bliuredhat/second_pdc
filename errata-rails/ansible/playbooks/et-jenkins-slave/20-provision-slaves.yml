@@ -1,0 +1,99 @@
+---
+- name: Launch ET jenkins slave docker images
+  hosts: et-jenkins-slaves
+  vars:
+    docker_pkg: "{{ 'docker-io' if ansible_distribution=='Fedora' else 'docker' }}"
+    docker_args: "--insecure-registry docker-registry.usersys.redhat.com"
+  sudo: yes
+  handlers:
+    - name: restart docker
+      service: name=docker state=restarted
+
+  tasks:
+    - name: ensure selinux is permissive
+      selinux: state=permissive policy=targeted
+      when: ansible_distribution=='Fedora' or ansible_distribution=='RedHat'
+
+    - name: ensure docker is installed
+      yum: name={{ docker_pkg }} state=present
+
+    # There are two flavors of /etc/sysconfig/docker around.
+    # The one used by systemd uses INSECURE_REGISTRY which is commented out by default.
+    - name: update insecure registry for docker
+      lineinfile:
+        dest=/etc/sysconfig/docker
+        line="INSECURE_REGISTRY=\'{{ docker_args }} \\1\'"
+        regexp="^INSECURE_REGISTRY=\'(?!{{ docker_args }})(.*?)\'"
+        backrefs=yes
+      register: update_insecure_registry
+
+    - name: check if docker repository was added
+      shell: grep -e "^INSECURE_REGISTRY='--insecure-registry[[:space:]]docker-registry.usersys.redhat.com" /etc/sysconfig/docker |wc -l
+      register: is_docker_repo_added
+      when:  update_insecure_registry.changed == False
+
+    - name: create insecure registry for docker if not found
+      lineinfile:
+              dest=/etc/sysconfig/docker
+              line="INSECURE_REGISTRY='{{ docker_args }} '"
+      when: is_docker_repo_added.stdout is defined and is_docker_repo_added.stdout == "0"
+
+    - name: ensure docker-registry can be used (other_args style)
+      lineinfile: dest=/etc/sysconfig/docker regexp='^other_args="?(?!{{ docker_args }})(.*?)"?$' backrefs=yes line='other_args="{{ docker_args }} \1"'
+      notify: restart docker
+
+    - name: ensure docker is enabled
+      service: name=docker enabled=yes
+
+    - name: ensure docker is started
+      service: name=docker state=started
+
+    - name: check if latest docker image is present
+      command: docker images -q
+      register: docker_images
+      changed_when: docker_images.stdout.find(docker_image_id) == -1
+
+    - name: pull updated docker image
+      command: docker pull {{ docker_image_tag }}
+      when: docker_images.changed
+
+    # FIXME: in my testing the 'docker' module fails to automatically stop/restart
+    # the container if the image or command changes, so we have these steps first
+    # to stop a running container if the image changed, and delete a stopped container
+    # if one exists.
+    - name: check if container is running
+      command: docker ps --no-trunc
+      register: docker_running_containers
+      changed_when: docker_running_containers.stdout.find(inventory_hostname)!=-1
+
+    - name: check if container is stopped
+      command: docker ps -a
+      register: docker_stopped_containers
+      changed_when: docker_running_containers.stdout.find(inventory_hostname)==-1 and docker_stopped_containers.stdout.find(inventory_hostname)!=-1
+
+    - name: inspect container
+      command: docker inspect {{ inventory_hostname }}
+      register: docker_inspect
+      when: docker_running_containers.changed or docker_stopped_containers.changed
+      changed_when: force_restart is defined or docker_inspect.stdout.find(docker_image_id) == -1
+
+    - name: stop container
+      command: docker stop {{ inventory_hostname }}
+      when: docker_running_containers.changed and docker_inspect.changed
+
+    - name: remove container
+      command: docker rm {{ inventory_hostname }}
+      when: docker_inspect.changed
+
+    - name: ensure container is running
+      # -t
+      # systemd won't output to the docker logs unless there's a tty
+      #
+      # -v
+      # mount /var/lib/jenkins as shared since it is mounted by the guest
+      # (dind) inside the container and defaults otherwise to private
+      # see mount(8) under shared subtree operations
+      command: >
+          docker run -d -t --name {{ inventory_hostname }} --privileged
+          -v /var/lib/jenkins:/var/lib/jenkins:rslave {{ docker_image_id }}
+          {{ jenkins_url }} {{ inventory_hostname }} {{ jenkins_secret }}

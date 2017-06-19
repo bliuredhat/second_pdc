@@ -1,0 +1,29 @@
+<% if @errata.jira_issues.count >= Settings.shorten_bug_list_threshold %>
+  <div class="btn-group text-buttons">
+    <%= long_short_toggle_button(:short, "jira_issues", @errata.jira_issues.count, :class=>'toggle_long_short', :style=>show_if_user_pref(:shorten_bug_list), :no_icon=>true) %>
+    <%= long_short_toggle_button(:long,  "jira_issues", @errata.jira_issues.count, :class=>'toggle_long_short', :style=>hide_if_user_pref(:shorten_bug_list), :no_icon=>true) %>
+  </div>
+<% end %>
+
+<% jira_issue_label = JiraIssue.readable_name.pluralize %>
+<div class="btn-group">
+  <% if @errata.status_is?(:NEW_FILES)  %>
+    <%= link_to("Add #{jira_issue_label}",    { :action => 'add_jira_issues_to_errata',       :controller => 'jira_issues', :id => @errata}, :class => 'btn' ) %>
+    <% if @errata.jira_issues.any? %>
+      <%= link_to("Remove #{jira_issue_label}", { :action => 'remove_jira_issues_from_errata',  :controller => 'jira_issues', :id => @errata}, :class => 'btn' ) %>
+    <% end -%>
+  <% end %>
+
+  <% if @errata.jira_issues.any? %>
+    <%= block_render 'shared/more_button_menu', :right => true do %>
+      <li>
+        <%= link_to("Reconcile with JIRA",
+          { :action => 'reconcile_jira_issues', :controller => 'jira_issues', :id => @errata },
+          :method => :post,
+          :title  => 'Updates issues to reflect the current status in JIRA, if they are out of sync'
+        ) %>
+      </li>
+      <li><%= link_to_jira_issue_list 'View Issue list in JIRA', @errata.jira_issues, :target => '_blank' %></li>
+    <% end %>
+  <% end %>
+</div>

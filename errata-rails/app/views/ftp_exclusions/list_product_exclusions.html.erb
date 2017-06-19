@@ -1,0 +1,66 @@
+<div style="float:right"><%= link_to 'Back to Products', :controller => :products %></div>
+<h2>All Product &amp; Product Version Based FTP Exclusions</h2>
+
+<p>These FTP exclusions rules are applied regardless of the individual package.<br/>
+<span class="note">Note: This only shows currently active products and product versions.</span></p>
+<p>(See also <%= link_to 'Lookup FTP Exclusions by Package', :action => :lookup_package_exclusions %>).</p>
+
+<table class="bug_list ftp_exclusions bug_list_big">
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th style="min-width:32em;">Product Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% any_asterix = false %>
+    <% @products.each do |product| %>
+
+      <% product_versions = product.product_versions %>
+      <tr>
+        <td rowspan="<%= [product_versions.length, 1].max %>" class="<%= (product.allow_ftp? ? 'green_bg' : 'red_bg') %>">
+          <div class="floatright tiny" style="padding-left:1em;"><%= link_to 'edit', edit_product_path(product) %></a></div>
+          <b><%= product_link(product, "#{product.short_name} (#{product.name})") %></b><br/>
+          <%= is_excluded_text(product.allow_ftp?,'Product allows FTP','Product disallows FTP') %>
+        </td>
+        <% if product_versions.empty? %>
+          <td class="<%= product.allow_ftp? ? 'green_bg' : 'red_bg' %>"><i>n/a</i></td>
+        <% else %>
+          <% product_versions.each do |product_version| %>
+            <td class="<%= (product.allow_ftp? && !product_version.forbid_ftp?) ? 'green_bg' : 'red_bg' %>">
+
+              <div class="floatright tiny" style="padding-left:1em;"><%= link_to 'edit', edit_product_version_path(product_version) %></a></div>
+              <b><%= product_version_link(product_version) %></b><br/>
+
+              <% if !product_version.forbid_ftp? && !product.allow_ftp? %>
+                <span class="red">SRPMs not published</span> <span class="light tiny">(product default)</span>
+              <% elsif !product_version.forbid_ftp? && product.allow_ftp? %>
+                <span class="green">SRPMs published</span> <span class="light tiny">(product default)</span>
+              <% elsif product_version.forbid_ftp? && !product.allow_ftp? %>
+                <% any_asterix = true %>
+                <b class="red">SRPMs not published*</b>
+              <% elsif product_version.forbid_ftp? && product.allow_ftp? %>
+                <b class="red">SRPMs not published</b>
+              <% end %>
+
+              <br/>
+              <div class="tiny" style="padding-top:0.7em;"><%= is_excluded_text(product_version.allow_rhn_debuginfo?, 'debuginfo published', "debuginfo not published") %></div>
+
+            </td>
+            <%# This </tr> looks crazy but it works. It's because of the rowspan shenanigans above. %>
+          </tr>
+          <tr>
+          <% end %>
+          <%# We end up with one empty tr... %>
+        </tr>
+
+        <% end %>
+    </tbody>
+
+  <% end %>
+</table>
+
+<% if any_asterix %>
+  <br/>
+  <p class="note">* This rule is redundant since the product default is to disallow FTP.</p>
+<% end %>

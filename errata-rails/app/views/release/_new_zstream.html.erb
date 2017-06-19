@@ -1,0 +1,5 @@
+<p><label for="release_blocker_flags">Blocker flags</label> - ZStream releases assume pm_ack, devel_ack, and qa_ack. Add the release specific blocker flag, ex. 5.2.0<br/>
+<%= text_field 'release', 'blocker_flags'  %></p>
+
+<p><label for="release_ship_date">Ship date</label> - This is the earliest advisories in this release can be pushed to RHN Live.<br/>
+<%= text_field :release, :ship_date, {:class => 'eso-datepicker'} %></p>

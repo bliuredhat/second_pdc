@@ -1,0 +1,1776 @@
+--- 
+ftp_exclusion_00003: 
+  id: 3
+  package_id: 29
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00004: 
+  id: 4
+  package_id: 30
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00005: 
+  id: 5
+  package_id: 36
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00006: 
+  id: 6
+  package_id: 47
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00007: 
+  id: 7
+  package_id: 1385
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00008: 
+  id: 8
+  package_id: 2151
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00009: 
+  id: 9
+  package_id: 1687
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00011: 
+  id: 11
+  package_id: 1693
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00012: 
+  id: 12
+  package_id: 1386
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00013: 
+  id: 13
+  package_id: 74
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00014: 
+  id: 14
+  package_id: 1387
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00015: 
+  id: 15
+  package_id: 2152
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00017: 
+  id: 17
+  package_id: 1388
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00018: 
+  id: 18
+  package_id: 2270
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00019: 
+  id: 19
+  package_id: 2154
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00021: 
+  id: 21
+  package_id: 1725
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00022: 
+  id: 22
+  package_id: 1391
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00023: 
+  id: 23
+  package_id: 1392
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00024: 
+  id: 24
+  package_id: 1858
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00025: 
+  id: 25
+  package_id: 2155
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00027: 
+  id: 27
+  package_id: 261
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00028: 
+  id: 28
+  package_id: 865
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00029: 
+  id: 29
+  package_id: 262
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00030: 
+  id: 30
+  package_id: 2163
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00031: 
+  id: 31
+  package_id: 2164
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00032: 
+  id: 32
+  package_id: 2165
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00033: 
+  id: 33
+  package_id: 30
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00034: 
+  id: 34
+  package_id: 30
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00035: 
+  id: 35
+  package_id: 14440
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00036: 
+  id: 36
+  package_id: 1690
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00038: 
+  id: 38
+  package_id: 1386
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00039: 
+  id: 39
+  package_id: 74
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00040: 
+  id: 40
+  package_id: 75
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00041: 
+  id: 41
+  package_id: 2152
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00042: 
+  id: 42
+  package_id: 2153
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00043: 
+  id: 43
+  package_id: 1388
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00044: 
+  id: 44
+  package_id: 2154
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00045: 
+  id: 45
+  package_id: 177
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00047: 
+  id: 47
+  package_id: 1391
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00048: 
+  id: 48
+  package_id: 1392
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00049: 
+  id: 49
+  package_id: 1393
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00050: 
+  id: 50
+  package_id: 2155
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00051: 
+  id: 51
+  package_id: 260
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00052: 
+  id: 52
+  package_id: 261
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00053: 
+  id: 53
+  package_id: 262
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00054: 
+  id: 54
+  package_id: 263
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00055: 
+  id: 55
+  package_id: 265
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00056: 
+  id: 56
+  package_id: 866
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00057: 
+  id: 57
+  package_id: 867
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00058: 
+  id: 58
+  package_id: 267
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00059: 
+  id: 59
+  package_id: 1742
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00060: 
+  id: 60
+  package_id: 268
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00061: 
+  id: 61
+  package_id: 269
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00062: 
+  id: 62
+  package_id: 2159
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00063: 
+  id: 63
+  package_id: 30
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00064: 
+  id: 64
+  package_id: 36
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00065: 
+  id: 65
+  package_id: 47
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00066: 
+  id: 66
+  package_id: 1385
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00067: 
+  id: 67
+  package_id: 2151
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00068: 
+  id: 68
+  package_id: 1687
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00069: 
+  id: 69
+  package_id: 1693
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00070: 
+  id: 70
+  package_id: 1386
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00071: 
+  id: 71
+  package_id: 74
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00072: 
+  id: 72
+  package_id: 1387
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00073: 
+  id: 73
+  package_id: 2152
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00075: 
+  id: 75
+  package_id: 1388
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00076: 
+  id: 76
+  package_id: 2270
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00077: 
+  id: 77
+  package_id: 2154
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00078: 
+  id: 78
+  package_id: 1725
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00079: 
+  id: 79
+  package_id: 1391
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00080: 
+  id: 80
+  package_id: 1392
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00081: 
+  id: 81
+  package_id: 1858
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00082: 
+  id: 82
+  package_id: 2155
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00084: 
+  id: 84
+  package_id: 261
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00085: 
+  id: 85
+  package_id: 865
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00086: 
+  id: 86
+  package_id: 262
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00087: 
+  id: 87
+  package_id: 264
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00088: 
+  id: 88
+  package_id: 265
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00089: 
+  id: 89
+  package_id: 866
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00090: 
+  id: 90
+  package_id: 266
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00091: 
+  id: 91
+  package_id: 267
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00092: 
+  id: 92
+  package_id: 1744
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00093: 
+  id: 93
+  package_id: 268
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00094: 
+  id: 94
+  package_id: 269
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00095: 
+  id: 95
+  package_id: 270
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00096: 
+  id: 96
+  package_id: 271
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00097: 
+  id: 97
+  package_id: 2159
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00098: 
+  id: 98
+  package_id: 2162
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00099: 
+  id: 99
+  package_id: 1405
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00100: 
+  id: 100
+  package_id: 2164
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00101: 
+  id: 101
+  package_id: 2165
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00102: 
+  id: 102
+  package_id: 1803
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00103: 
+  id: 103
+  package_id: 1804
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00104: 
+  id: 104
+  package_id: 2172
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00106: 
+  id: 106
+  package_id: 2174
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00107: 
+  id: 107
+  package_id: 2175
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00108: 
+  id: 108
+  package_id: 2176
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00109: 
+  id: 109
+  package_id: 2177
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00110: 
+  id: 110
+  package_id: 2272
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00112: 
+  id: 112
+  package_id: 1745
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00113: 
+  id: 113
+  package_id: 272
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00114: 
+  id: 114
+  package_id: 273
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00115: 
+  id: 115
+  package_id: 274
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00116: 
+  id: 116
+  package_id: 869
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00117: 
+  id: 117
+  package_id: 2271
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00118: 
+  id: 118
+  package_id: 1396
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00119: 
+  id: 119
+  package_id: 1561
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00120: 
+  id: 120
+  package_id: 285
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00121: 
+  id: 121
+  package_id: 1772
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00122: 
+  id: 122
+  package_id: 1776
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00123: 
+  id: 123
+  package_id: 1777
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00124: 
+  id: 124
+  package_id: 2156
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00125: 
+  id: 125
+  package_id: 364
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00126: 
+  id: 126
+  package_id: 2157
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00127: 
+  id: 127
+  package_id: 14083
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00128: 
+  id: 128
+  package_id: 1404
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00129: 
+  id: 129
+  package_id: 412
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00130: 
+  id: 130
+  package_id: 2160
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00131: 
+  id: 131
+  package_id: 2161
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00132: 
+  id: 132
+  package_id: 2171
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00133: 
+  id: 133
+  package_id: 973
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00134: 
+  id: 134
+  package_id: 2178
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00135: 
+  id: 135
+  package_id: 2180
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00136: 
+  id: 136
+  package_id: 2181
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00137: 
+  id: 137
+  package_id: 280
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00138: 
+  id: 138
+  package_id: 2158
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00139: 
+  id: 139
+  package_id: 2160
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00140: 
+  id: 140
+  package_id: 2161
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00141: 
+  id: 141
+  package_id: 280
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00142: 
+  id: 142
+  package_id: 283
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00143: 
+  id: 143
+  package_id: 1562
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00144: 
+  id: 144
+  package_id: 1772
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00145: 
+  id: 145
+  package_id: 1776
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00146: 
+  id: 146
+  package_id: 1777
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00147: 
+  id: 147
+  package_id: 302
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00148: 
+  id: 148
+  package_id: 2156
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00149: 
+  id: 149
+  package_id: 364
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00150: 
+  id: 150
+  package_id: 2157
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00151: 
+  id: 151
+  package_id: 399
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00152: 
+  id: 152
+  package_id: 14083
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00153: 
+  id: 153
+  package_id: 1404
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00154: 
+  id: 154
+  package_id: 2173
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00155: 
+  id: 155
+  package_id: 973
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00156: 
+  id: 156
+  package_id: 2178
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00157: 
+  id: 157
+  package_id: 2179
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00158: 
+  id: 158
+  package_id: 2180
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00159: 
+  id: 159
+  package_id: 2181
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00160: 
+  id: 160
+  package_id: 2182
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00161: 
+  id: 161
+  package_id: 2183
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00162: 
+  id: 162
+  package_id: 2184
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00163: 
+  id: 163
+  package_id: 1859
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00164: 
+  id: 164
+  package_id: 2139
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00165: 
+  id: 165
+  package_id: 2185
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00166: 
+  id: 166
+  package_id: 2186
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00167: 
+  id: 167
+  package_id: 2187
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00168: 
+  id: 168
+  package_id: 2188
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00169: 
+  id: 169
+  package_id: 2189
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00170: 
+  id: 170
+  package_id: 2190
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00171: 
+  id: 171
+  package_id: 2191
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00172: 
+  id: 172
+  package_id: 2192
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00173: 
+  id: 173
+  package_id: 2193
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00174: 
+  id: 174
+  package_id: 2194
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00175: 
+  id: 175
+  package_id: 2195
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00176: 
+  id: 176
+  package_id: 2196
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00177: 
+  id: 177
+  package_id: 2197
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00178: 
+  id: 178
+  package_id: 472
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00179: 
+  id: 179
+  package_id: 2198
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00180: 
+  id: 180
+  package_id: 2199
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00181: 
+  id: 181
+  package_id: 2200
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00182: 
+  id: 182
+  package_id: 2202
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00183: 
+  id: 183
+  package_id: 2203
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00184: 
+  id: 184
+  package_id: 2204
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00185: 
+  id: 185
+  package_id: 2205
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00187: 
+  id: 187
+  package_id: 2206
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00188: 
+  id: 188
+  package_id: 977
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00189: 
+  id: 189
+  package_id: 2207
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00190: 
+  id: 190
+  package_id: 2208
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00191: 
+  id: 191
+  package_id: 2209
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00192: 
+  id: 192
+  package_id: 2210
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00193: 
+  id: 193
+  package_id: 2211
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00194: 
+  id: 194
+  package_id: 2212
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00195: 
+  id: 195
+  package_id: 2213
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00196: 
+  id: 196
+  package_id: 2214
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00197: 
+  id: 197
+  package_id: 2140
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00198: 
+  id: 198
+  package_id: 2273
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00199: 
+  id: 199
+  package_id: 2215
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00200: 
+  id: 200
+  package_id: 2216
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00201: 
+  id: 201
+  package_id: 2217
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00202: 
+  id: 202
+  package_id: 2218
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00203: 
+  id: 203
+  package_id: 2219
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00204: 
+  id: 204
+  package_id: 2220
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00205: 
+  id: 205
+  package_id: 2221
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00206: 
+  id: 206
+  package_id: 2222
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00207: 
+  id: 207
+  package_id: 2223
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00208: 
+  id: 208
+  package_id: 2224
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00209: 
+  id: 209
+  package_id: 2225
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00210: 
+  id: 210
+  package_id: 2226
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00211: 
+  id: 211
+  package_id: 2227
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00212: 
+  id: 212
+  package_id: 2228
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00213: 
+  id: 213
+  package_id: 2229
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00214: 
+  id: 214
+  package_id: 2230
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00215: 
+  id: 215
+  package_id: 2231
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00216: 
+  id: 216
+  package_id: 2232
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00217: 
+  id: 217
+  package_id: 2233
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00218: 
+  id: 218
+  package_id: 1805
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00219: 
+  id: 219
+  package_id: 2234
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00220: 
+  id: 220
+  package_id: 2235
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00221: 
+  id: 221
+  package_id: 2236
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00222: 
+  id: 222
+  package_id: 2237
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00223: 
+  id: 223
+  package_id: 1369
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00224: 
+  id: 224
+  package_id: 2238
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00225: 
+  id: 225
+  package_id: 2239
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00226: 
+  id: 226
+  package_id: 2240
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00227: 
+  id: 227
+  package_id: 2241
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00228: 
+  id: 228
+  package_id: 1811
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00229: 
+  id: 229
+  package_id: 2242
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00230: 
+  id: 230
+  package_id: 2243
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00231: 
+  id: 231
+  package_id: 2244
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00232: 
+  id: 232
+  package_id: 2245
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00233: 
+  id: 233
+  package_id: 1406
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00234: 
+  id: 234
+  package_id: 1407
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00235: 
+  id: 235
+  package_id: 2246
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00236: 
+  id: 236
+  package_id: 529
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00237: 
+  id: 237
+  package_id: 1408
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00238: 
+  id: 238
+  package_id: 1006
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00239: 
+  id: 239
+  package_id: 2247
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00240: 
+  id: 240
+  package_id: 2248
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00241: 
+  id: 241
+  package_id: 1666
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00242: 
+  id: 242
+  package_id: 2249
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00243: 
+  id: 243
+  package_id: 2250
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00244: 
+  id: 244
+  package_id: 1543
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00245: 
+  id: 245
+  package_id: 2251
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00246: 
+  id: 246
+  package_id: 2252
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00247: 
+  id: 247
+  package_id: 2253
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00248: 
+  id: 248
+  package_id: 2254
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00249: 
+  id: 249
+  package_id: 1665
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00250: 
+  id: 250
+  package_id: 1865
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00251: 
+  id: 251
+  package_id: 2255
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00252: 
+  id: 252
+  package_id: 1938
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00253: 
+  id: 253
+  package_id: 2256
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00254: 
+  id: 254
+  package_id: 2257
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00255: 
+  id: 255
+  package_id: 2258
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00256: 
+  id: 256
+  package_id: 2259
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00257: 
+  id: 257
+  package_id: 2260
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00258: 
+  id: 258
+  package_id: 2261
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00259: 
+  id: 259
+  package_id: 2262
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00260: 
+  id: 260
+  package_id: 2263
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00261: 
+  id: 261
+  package_id: 2264
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00262: 
+  id: 262
+  package_id: 629
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00263: 
+  id: 263
+  package_id: 1832
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00264: 
+  id: 264
+  package_id: 2265
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00265: 
+  id: 265
+  package_id: 2266
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00266: 
+  id: 266
+  package_id: 2267
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00267: 
+  id: 267
+  package_id: 2268
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00268: 
+  id: 268
+  package_id: 647
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00269: 
+  id: 269
+  package_id: 666
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00270: 
+  id: 270
+  package_id: 677
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00271: 
+  id: 271
+  package_id: 2269
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00272: 
+  id: 272
+  package_id: 685
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00273: 
+  id: 273
+  package_id: 1039
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00274: 
+  id: 274
+  package_id: 1413
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00275: 
+  id: 275
+  package_id: 717
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00276: 
+  id: 276
+  package_id: 723
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00277: 
+  id: 277
+  package_id: 728
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00278: 
+  id: 278
+  package_id: 1044
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00279: 
+  id: 279
+  package_id: 1417
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00280: 
+  id: 280
+  package_id: 1418
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00281: 
+  id: 281
+  package_id: 1419
+  product_id: 40
+  product_version_id: 
+ftp_exclusion_00282: 
+  id: 282
+  package_id: 2122
+  product_id: 49
+  product_version_id: 
+ftp_exclusion_00283: 
+  id: 283
+  package_id: 29
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00284: 
+  id: 284
+  package_id: 30
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00285: 
+  id: 285
+  package_id: 30
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00288: 
+  id: 288
+  package_id: 45
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00289: 
+  id: 289
+  package_id: 46
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00290: 
+  id: 290
+  package_id: 75
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00293: 
+  id: 293
+  package_id: 177
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00294: 
+  id: 294
+  package_id: 177
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00296: 
+  id: 296
+  package_id: 232
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00299: 
+  id: 299
+  package_id: 260
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00300: 
+  id: 300
+  package_id: 260
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00301: 
+  id: 301
+  package_id: 262
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00302: 
+  id: 302
+  package_id: 262
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00303: 
+  id: 303
+  package_id: 263
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00304: 
+  id: 304
+  package_id: 264
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00305: 
+  id: 305
+  package_id: 265
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00306: 
+  id: 306
+  package_id: 265
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00308: 
+  id: 308
+  package_id: 266
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00309: 
+  id: 309
+  package_id: 266
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00310: 
+  id: 310
+  package_id: 269
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00311: 
+  id: 311
+  package_id: 270
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00312: 
+  id: 312
+  package_id: 270
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00313: 
+  id: 313
+  package_id: 271
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00314: 
+  id: 314
+  package_id: 272
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00315: 
+  id: 315
+  package_id: 273
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00316: 
+  id: 316
+  package_id: 273
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00317: 
+  id: 317
+  package_id: 274
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00318: 
+  id: 318
+  package_id: 274
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00321: 
+  id: 321
+  package_id: 302
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00322: 
+  id: 322
+  package_id: 302
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00323: 
+  id: 323
+  package_id: 364
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00324: 
+  id: 324
+  package_id: 364
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00325: 
+  id: 325
+  package_id: 399
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00326: 
+  id: 326
+  package_id: 412
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00327: 
+  id: 327
+  package_id: 529
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00328: 
+  id: 328
+  package_id: 629
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00329: 
+  id: 329
+  package_id: 629
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00330: 
+  id: 330
+  package_id: 647
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00331: 
+  id: 331
+  package_id: 647
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00333: 
+  id: 333
+  package_id: 677
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00335: 
+  id: 335
+  package_id: 717
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00336: 
+  id: 336
+  package_id: 717
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00338: 
+  id: 338
+  package_id: 723
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00339: 
+  id: 339
+  package_id: 723
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00340: 
+  id: 340
+  package_id: 728
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00341: 
+  id: 341
+  package_id: 728
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00344: 
+  id: 344
+  package_id: 794
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00345: 
+  id: 345
+  package_id: 865
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00346: 
+  id: 346
+  package_id: 865
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00347: 
+  id: 347
+  package_id: 867
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00348: 
+  id: 348
+  package_id: 867
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00349: 
+  id: 349
+  package_id: 868
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00351: 
+  id: 351
+  package_id: 1039
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00352: 
+  id: 352
+  package_id: 1044
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00353: 
+  id: 353
+  package_id: 1044
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00402: 
+  id: 402
+  package_id: 1640
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00403: 
+  id: 403
+  package_id: 1640
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00405: 
+  id: 405
+  package_id: 1641
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00406: 
+  id: 406
+  package_id: 1641
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00408: 
+  id: 408
+  package_id: 1642
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00410: 
+  id: 410
+  package_id: 1643
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00421: 
+  id: 421
+  package_id: 1675
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00422: 
+  id: 422
+  package_id: 1678
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00423: 
+  id: 423
+  package_id: 1678
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00424: 
+  id: 424
+  package_id: 1714
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00425: 
+  id: 425
+  package_id: 1715
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00426: 
+  id: 426
+  package_id: 1737
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00427: 
+  id: 427
+  package_id: 1737
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00429: 
+  id: 429
+  package_id: 1742
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00431: 
+  id: 431
+  package_id: 1799
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00432: 
+  id: 432
+  package_id: 1799
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00433: 
+  id: 433
+  package_id: 1803
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00434: 
+  id: 434
+  package_id: 1803
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00441: 
+  id: 441
+  package_id: 2633
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00442: 
+  id: 442
+  package_id: 2648
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00445: 
+  id: 445
+  package_id: 2655
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00449: 
+  id: 449
+  package_id: 2662
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00450: 
+  id: 450
+  package_id: 2749
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00451: 
+  id: 451
+  package_id: 13975
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00452: 
+  id: 452
+  package_id: 14440
+  product_id: 53
+  product_version_id: 
+ftp_exclusion_00453: 
+  id: 453
+  package_id: 14498
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00454: 
+  id: 454
+  package_id: 14499
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00455: 
+  id: 455
+  package_id: 14501
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00456: 
+  id: 456
+  package_id: 14514
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00457: 
+  id: 457
+  package_id: 14522
+  product_id: 54
+  product_version_id: 
+ftp_exclusion_00958:
+  product_id: 16
+  id: 958
+  package_id: 14522
+  product_version_id: 306

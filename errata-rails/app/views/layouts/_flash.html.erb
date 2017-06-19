@@ -1,0 +1,36 @@
+<%
+  #
+  # Pass in flash_type as a local
+  # and also have to pass in flash itself (as flash_obj),
+  # because for some reason it is not visible here.
+  #
+  # flash_type should be :notice, :alert or :error
+  #
+  # See ErrataController#test_flash_notices
+  #
+
+  case flash_type
+  when :notice
+    div_id = 'flash_notice'
+    alert_class = 'alert-success'
+  when :alert
+    div_id = 'flash_alert'
+    alert_class = 'alert-warning'
+  when :error
+    div_id = 'flash_error'
+    alert_class = 'alert-error'
+  else
+    raise "Unknown flash_type!"
+  end
+
+-%>
+<% if flash_obj && flash_obj[flash_type] %>
+  <div id="<%= div_id %>" class="alert <%= alert_class %>">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <%=raw flash_message_sanitize(flash_obj[flash_type]) %>
+  </div>
+<% else %>
+  <%# Ajax responses can put text in here dynamically.
+  TODO: These should have a close button too. (It's not simple). %>
+  <div id="<%= div_id %>" class="alert <%= alert_class %>" style="display:none;"></div>
+<% end %>

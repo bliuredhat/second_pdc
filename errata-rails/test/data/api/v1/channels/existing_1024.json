@@ -1,0 +1,31 @@
+{
+  "data": {
+    "attributes": {
+      "name": "rhel-x86_64-workstation-optional-7",
+      "release_type": "Primary",
+      "use_for_tps": true
+    },
+    "id": 1024,
+    "relationships": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "variants": [
+        {
+          "id": 707,
+          "name": "7Workstation-optional"
+        },
+        {
+          "id": 852,
+          "name": "7Workstation-optional-7.0.Z"
+        },
+        {
+          "id": 1033,
+          "name": "7Workstation-optional-7.1.Z"
+        }
+      ]
+    },
+    "type": "channels"
+  }
+}

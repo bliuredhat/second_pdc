@@ -1,0 +1,21 @@
+<li class="errata_list_keys" data-errata="<%= errata.id %>">
+  <div class="errata-item">
+    <div>
+      <span class="errata-link">
+        <%= link_to(errata.advisory_name, {:id => errata, :controller => :errata, :action => :view},
+                    :class=>"advisory_link show_type show_type_#{errata.errata_type}") %>
+      </span>
+      <span class="errata-status" style="font-size:120%;"><%=raw state_display(errata, :short=>true) %></span>
+      <%= errata.synopsis %>
+    </div>
+    <% if errata.cve.present? %>
+      <p class="errata-cves">
+        <%= errata.cve_list.map{|c| cve_link(c)}.join(', ').html_safe %>
+      </p>
+    <% end %>
+    <div class="pkg_bug_list hidden" >
+      <%= render :partial => 'errata/container/errata_list_show_bug', :collection => errata.bugs, :as => :bug %>
+      <%= render :partial => 'errata/container/errata_list_show_jira_issue', :collection => errata.jira_issues, :as => :issue %>
+    </div>
+  </div>
+</li>

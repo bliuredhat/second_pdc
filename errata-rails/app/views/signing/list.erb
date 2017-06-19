@@ -1,0 +1,26 @@
+<h1>Advisories Awaiting Signatures</h1>
+<% 
+row_func = lambda do |errata|
+   [errata_link(errata),
+      errata.synopsis, 
+      errata.product.short_name,
+      errata.release.name, 
+      errata.quality_responsibility.name,
+      errata.status]
+end
+  headers = ['Advisory', 'Synopsis', 'Product', 'Release', 'QE Owner', 'Status']
+%>
+
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => headers,
+:func => row_func,
+:row_items => @tosign
+}) %>
+
+
+
+
+
+
+

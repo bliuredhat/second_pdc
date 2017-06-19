@@ -1,0 +1,90 @@
+# HTTP 200
+[
+  {
+    "cpe": null,
+    "variants": [
+      {
+        "description": "RHN Tools (v. 5.6.z Server)",
+        "id": 405,
+        "live": false,
+        "name": "5Server-RHNTools-5.6.z"
+      },
+      {
+        "description": "SJIS (v. 5.3.z Server)",
+        "id": 403,
+        "live": false,
+        "name": "5Server-SJIS-5.3.z"
+      },
+      {
+        "description": "Red Hat Hardware Certification (v. 6 Server)",
+        "id": 379,
+        "live": false,
+        "name": "6Server-RHHC"
+      },
+      {
+        "description": "Red Hat Software Test Suite (v. 6 Server)",
+        "id": 466,
+        "live": false,
+        "name": "6Server-STS"
+      }
+    ]
+  },
+  {
+    "cpe": "cpe:/a:redhat:enterprise_mrg:1.0::el4",
+    "variants": [
+      {
+        "description": "Red Hat MRG Grid for RHEL-4 AS",
+        "id": 212,
+        "live": true,
+        "name": "4AS-MRG-Grid-1.0"
+      },
+      {
+        "description": "Red Hat MRG Grid Execute Node for RHEL-4 AS",
+        "id": 255,
+        "live": true,
+        "name": "4AS-MRG-Grid-Execute-Node-1.0"
+      },
+      {
+        "description": "Red Hat MRG Messaging Base for RHEL-4 AS",
+        "id": 221,
+        "live": false,
+        "name": "4AS-MRG-Messaging-Base-1.0"
+      },
+      {
+        "description": "Red Hat MRG Grid for RHEL-4 ES",
+        "id": 213,
+        "live": true,
+        "name": "4ES-MRG-Grid-1.0"
+      },
+      {
+        "description": "Red Hat MRG Messaging Base for RHEL-4 ES",
+        "id": 222,
+        "live": false,
+        "name": "4ES-MRG-Messaging-Base-1.0"
+      }
+    ]
+  },
+  {
+    "cpe": "cpe:/a:redhat:rhel_extras:5::client",
+    "variants": [
+      {
+        "description": "Red Hat Enterprise Linux Desktop Supplementary (v. 5)",
+        "id": 134,
+        "live": true,
+        "name": "5Client-Supplementary"
+      },
+      {
+        "description": "Red Hat Enterprise Linux Desktop Supplementary (v. 5)",
+        "id": 410,
+        "live": false,
+        "name": "5Client-Supplementary-5.6.Z"
+      },
+      {
+        "description": "Red Hat Enterprise Linux Desktop Supplementary (v. 5)",
+        "id": 464,
+        "live": false,
+        "name": "5Client-Supplementary-5.7.Z"
+      }
+    ]
+  }
+]

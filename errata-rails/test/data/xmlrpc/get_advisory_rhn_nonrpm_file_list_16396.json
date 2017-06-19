@@ -1,0 +1,20 @@
+{
+  "rhel-server-docker-7.0-22": {
+    "images/rhel-7-server-docker.ks": {
+      "channels": [
+        "rhel-x86_64-server-supplementary-7"
+      ],
+      "display_order": null,
+      "id": 698251,
+      "title": null
+    },
+    "images/rhel-server-docker-7.0-22.x86_64.tar.gz": {
+      "channels": [
+        "rhel-x86_64-server-supplementary-7"
+      ],
+      "display_order": null,
+      "id": 698253,
+      "title": null
+    }
+  }
+}

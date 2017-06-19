@@ -1,0 +1,137 @@
+{
+  "kdenetwork-4.3.4-11.el6_0.1": {
+    "checksums": {
+      "md5": {
+        "kdenetwork-4.3.4-11.el6_0.1.i686.rpm": "fake:351eedf51c6af85bc3aa6092d20",
+        "kdenetwork-4.3.4-11.el6_0.1.ppc64.rpm": "fake:723af0967fa470e98b256e2656b",
+        "kdenetwork-4.3.4-11.el6_0.1.s390x.rpm": "fake:a010adca87da1e51a6ee7407fd0",
+        "kdenetwork-4.3.4-11.el6_0.1.src.rpm": "fake:fe168a699a7c3edb0e6ee829803",
+        "kdenetwork-4.3.4-11.el6_0.1.x86_64.rpm": "fake:32f55ee640c30fb15e59743c1c0",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.i686.rpm": "fake:4632a0ecd02f36151c3133937b2",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.ppc.rpm": "fake:06450cb8e8808ff36f06381e25c",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.ppc64.rpm": "fake:0b764fd1663d964b07f88345901",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.s390.rpm": "fake:63c4fd3840a1c13d9236de988b3",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.s390x.rpm": "fake:94217afdc7f2f29d7c3a2a1e3d2",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.x86_64.rpm": "fake:c04318926cacec333bc6d5af4be",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.i686.rpm": "fake:1b4cffeab843349aaf05a792c54",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.ppc.rpm": "fake:2006a444c93d688fffca16a4ce6",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.ppc64.rpm": "fake:713685d03f08bcd674a970fe6d2",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.s390.rpm": "fake:26201c0a4b64c785ca2e52ffea9",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.s390x.rpm": "fake:d2c7bbf6e6d9c65d9847610a250",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.x86_64.rpm": "fake:b8c2ed67619e7ef08c020b5681c",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.i686.rpm": "fake:42eaa5f092a9c24cf62805c9ef3",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.ppc.rpm": "fake:1f5314a1bcf2f6faa98c30f16c5",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.ppc64.rpm": "fake:3c22f014566a8b907daa4a7b75f",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.s390.rpm": "fake:e54d65d32ed1acda8d3783ad6d4",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.s390x.rpm": "fake:fb80f7751a23d2dc870ea9dadc2",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.x86_64.rpm": "fake:1a53ea016a45f46196b2468a9a5"
+      },
+      "sha256": {
+        "kdenetwork-4.3.4-11.el6_0.1.i686.rpm": "fake:f404a7b824cd76a3fdbfbe5b31a38e1217b7b71e49a456897bc03e9d7be",
+        "kdenetwork-4.3.4-11.el6_0.1.ppc64.rpm": "fake:6cb38e532659b370a8d080c83beae399c9295a719e49776281c22d5abe4",
+        "kdenetwork-4.3.4-11.el6_0.1.s390x.rpm": "fake:f1e55b9ffe16a4a8ea69fa6b793d3f2a627447944ca4bb91b22d336c238",
+        "kdenetwork-4.3.4-11.el6_0.1.src.rpm": "fake:95b47ce1dce4a5c91e42139d6dfa540fcbc7d9ab5b2860915d405b9022d",
+        "kdenetwork-4.3.4-11.el6_0.1.x86_64.rpm": "fake:04261ce165eb6f2d905b9ee0ae2d13f0d3e72b17772847be8f2b34083e0",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.i686.rpm": "fake:7f5b122d12e4b3e820e2934eccb88da14334a178ce1746a2782b00b5b21",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.ppc.rpm": "fake:48d2687e3da90a899b41d0c830a6327eb271e485620b348a0a555feac17",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.ppc64.rpm": "fake:a4a193c6593786c7547151ae588e5d05f083ab5887e63b26e6140ed34a3",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.s390.rpm": "fake:c28d3a9037047fff11f9a172f71a3210f162e8d1902f5c0e40259e652fb",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.s390x.rpm": "fake:f973921e86c4f5e348e4d5597f03b7260201b8c820ecd521d860c51467a",
+        "kdenetwork-debuginfo-4.3.4-11.el6_0.1.x86_64.rpm": "fake:d4cbaf0a2d04e017f805e4ad874e06207790c3d988af10b934bbe37a953",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.i686.rpm": "fake:c173ea6fce57a7348c23ec1e502e64d46417cfa5c2122ac30ce3addd29c",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.ppc.rpm": "fake:90ead60b048ed43a3f9f58f66933b2e9032fa6ea6540a58520fc29637ca",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.ppc64.rpm": "fake:c37945b59e06f1c9bec393664beb960cf68ae766cdb577c2d8dc3426050",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.s390.rpm": "fake:ff110aba3990503bd9669ca5d220b30c911c8bd79a14e28983fb23ba415",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.s390x.rpm": "fake:0773ed586c1eb09e4b139843ed1759bf4ec171ebcb0530c417c6859c02a",
+        "kdenetwork-devel-4.3.4-11.el6_0.1.x86_64.rpm": "fake:b7d60226fee9c597ae2e9d1553eb287ac07a2c1a93e1dc83b52d1076e13",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.i686.rpm": "fake:ce63ef1ac26bcaa2935a0cf9d160886c234e9b406ab7320283602b6e9cc",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.ppc.rpm": "fake:1a4ea21a9770f53f284b9439db4a521f305c5ec4c8ca77cd1280954d333",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.ppc64.rpm": "fake:165f62d16a786d052ea9cf94f9f8f3eb1354cbf24cee1650b077313a208",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.s390.rpm": "fake:dbcb4eb3a915e5d8e572222c3efd99cf86b0a0f15d4fe52b1af0d9de0c5",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.s390x.rpm": "fake:2980417b26b56470797e65b831b59471d4fd07dab11f41c865d1926cf95",
+        "kdenetwork-libs-4.3.4-11.el6_0.1.x86_64.rpm": "fake:f46068ffc641046f5b80807384ec300d293b995ec27bf996035997ba70d"
+      }
+    },
+    "rpms": {
+      "kdenetwork-4.3.4-11.el6_0.1.i686.rpm": [
+        "rhel-6-client-rpms__6Client__i386",
+        "rhel-6-server-rpms__6Server__i386"
+      ],
+      "kdenetwork-4.3.4-11.el6_0.1.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "kdenetwork-4.3.4-11.el6_0.1.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "kdenetwork-4.3.4-11.el6_0.1.src.rpm": [
+        "rhel-6-client-source-rpms__6Client__x86_64",
+        "rhel-6-server-source-rpms__6Server__x86_64"
+      ],
+      "kdenetwork-4.3.4-11.el6_0.1.x86_64.rpm": [
+        "rhel-6-client-rpms__6Client__x86_64",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "kdenetwork-debuginfo-4.3.4-11.el6_0.1.i686.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__i386",
+        "rhel-6-server-debuginfo-rpms__6Server__x86_64"
+      ],
+      "kdenetwork-debuginfo-4.3.4-11.el6_0.1.ppc.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__ppc64"
+      ],
+      "kdenetwork-debuginfo-4.3.4-11.el6_0.1.ppc64.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__ppc64"
+      ],
+      "kdenetwork-debuginfo-4.3.4-11.el6_0.1.s390.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__s390x"
+      ],
+      "kdenetwork-debuginfo-4.3.4-11.el6_0.1.s390x.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__s390x"
+      ],
+      "kdenetwork-debuginfo-4.3.4-11.el6_0.1.x86_64.rpm": [
+        "rhel-6-client-debuginfo-rpms__6Client__x86_64",
+        "rhel-6-server-debuginfo-rpms__6Server__x86_64"
+      ],
+      "kdenetwork-devel-4.3.4-11.el6_0.1.i686.rpm": [
+        "rhel-6-server-rpms__6Server__i386",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "kdenetwork-devel-4.3.4-11.el6_0.1.ppc.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "kdenetwork-devel-4.3.4-11.el6_0.1.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "kdenetwork-devel-4.3.4-11.el6_0.1.s390.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "kdenetwork-devel-4.3.4-11.el6_0.1.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "kdenetwork-devel-4.3.4-11.el6_0.1.x86_64.rpm": [
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "kdenetwork-libs-4.3.4-11.el6_0.1.i686.rpm": [
+        "rhel-6-client-rpms__6Client__i386",
+        "rhel-6-server-rpms__6Server__i386",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "kdenetwork-libs-4.3.4-11.el6_0.1.ppc.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "kdenetwork-libs-4.3.4-11.el6_0.1.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "kdenetwork-libs-4.3.4-11.el6_0.1.s390.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "kdenetwork-libs-4.3.4-11.el6_0.1.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "kdenetwork-libs-4.3.4-11.el6_0.1.x86_64.rpm": [
+        "rhel-6-client-rpms__6Client__x86_64",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ]
+    },
+    "sig_key": ""
+  }
+}

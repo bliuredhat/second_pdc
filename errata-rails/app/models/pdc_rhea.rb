@@ -1,0 +1,2 @@
+class PdcRHEA < PdcErrata
+end

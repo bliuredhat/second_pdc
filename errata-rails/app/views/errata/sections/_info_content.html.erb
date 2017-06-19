@@ -1,0 +1,18 @@
+<%#
+  #
+  # Two versions 'full' and 'brief'. User can flip between them
+  # and can chose which one to start on via a user preference.
+  #
+  # (Once again using the toggle trick, so to change, just toggle
+  # .info_full_brief_details)
+  #
+-%>
+<div class="info_full_brief_details" style="<%= hide_if_user_pref(:show_full_info) %>" %>
+  <table style="padding-bottom:1em;" class="compact">
+    <%= table_rows_helper(errata_details_tabular(:brief_summary,@errata), :labels => true)%>
+  </table>
+</div>
+<div class="info_full_brief_details" style="<%= show_if_user_pref(:show_full_info) %>" >
+  <%# Actually grabbing this from another section, ie the details section %>
+  <%= render 'errata/sections/details_content' %>
+</div>

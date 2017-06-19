@@ -1,0 +1,16 @@
+---
+- name: copy all repos directory to /etc/yum.repos.d
+  copy: src="{{item}}" dest=/etc/yum.repos.d/
+  sudo: yes
+  with_fileglob:
+    - "{{repo_dir}}/*.repo"
+  notify:
+    - yum clean all
+    - yum repolist
+
+- meta: flush_handlers
+
+- name: install publican
+  sudo: yes
+  yum: name={{ item }} state=latest enablerepo=eng-rhel-6,epel
+  with_items: doc_tools

@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+set -x
+
+cd /var/lib/jenkins
+source ./.jenkinsrc
+
+rm -f slave.jar slave.jnlp
+curl --fail -O -L $JENK/jnlpJars/slave.jar -H 'Bypass-Kerberos: x'
+curl --fail -o slave.jnlp -L "$JENK/computer/$NAME/slave-agent.jnlp?encrypt=true" -H 'Bypass-Kerberos: x'
+exec java -Djsse.enableSNIExtension=false -jar slave.jar -jnlpUrl file://$PWD/slave.jnlp -secret $SECRET

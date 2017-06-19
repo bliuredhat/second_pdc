@@ -1,0 +1,18 @@
+[rhel]
+name=Red Hat Enterprise Linux $releasever - $basearch
+baseurl=http://cdn.rcm-internal.redhat.com/content/dist/rhel/server/7/7Server/x86_64/os/
+enabled=1
+gpgcheck=0
+
+[rhel-extras]
+name=Red Hat Enterprise Linux Extras $releasever - $basearch
+baseurl=http://cdn.rcm-internal.redhat.com/content/dist/rhel/server/7/7Server/x86_64/extras/os/
+enabled=1
+gpgcheck=0
+
+[rhel-optional]
+name=Red Hat Enterprise Linux Optional $releasever - $basearch
+baseurl=http://cdn.rcm-internal.redhat.com/content/dist/rhel/server/7/7Server/x86_64/optional/os/
+enabled=1
+gpgcheck=0
+

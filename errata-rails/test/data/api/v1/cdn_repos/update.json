@@ -1,0 +1,24 @@
+{
+  "data": {
+    "attributes": {
+      "content_type": "Source",
+      "name": "updated_cdn_repo_name",
+      "release_type": "Primary",
+      "use_for_tps": true
+    },
+    "id": 1,
+    "relationships": {
+      "arch": {
+        "id": 24,
+        "name": "SRPMS"
+      },
+      "variants": [
+        {
+          "id": 617,
+          "name": "6Server-RHCI-EngOps"
+        }
+      ]
+    },
+    "type": "cdn_repos"
+  }
+}

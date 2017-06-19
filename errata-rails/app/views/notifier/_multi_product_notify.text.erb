@@ -1,0 +1,26 @@
+  Advisory:       <%= @errata.advisory_name %>
+  Base product:   <%= @errata.product.short_name %>
+  Other products: <%= @mapped_products.map(&:short_name).sort.join(', ') %>
+
+When this advisory is shipped to the base product, it may also ship content to
+the following channels/repos in other products:
+
+<% @mapped_packages.sort_by{ |pkg, _| pkg.name }.each do |pkg, product_to_dists| %>
+  <%= pkg.name %>:
+<% product_to_dists.sort_by{ |product,_| product.name }.each do |product, dists| %>
+    <%= product.short_name %>:
+<% dists.each do |dist| %>
+      <%= dist.name %>
+<% end # dists -%>
+<% end # products -%>
+<% end # package %>
+
+For more information regarding the content of this advisory, please see
+<%= url_for(:controller => :errata, :action => :content, :id => @errata.id,
+            :only_path => false) %> .
+
+You are receiving this email because you are subscribed to multi-product mapping
+rules which have been activated for this advisory.  To see more information
+about multi-product mapping, including how to adjust your subscription
+preferences, please visit <%= url_for(:controller => :multi_product_mappings, :action => :index,
+                                      :only_path => false) %> .

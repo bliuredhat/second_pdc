@@ -1,0 +1,96 @@
+{
+  "description": "does this even work?",
+  "from": "release-engineering@redhat.com",
+  "id": "RHBA-2015:2399",
+  "issued": "2016-02-06 04:00:00 UTC",
+  "pkglist": [
+    {
+      "name": "RHBA-2015:2399",
+      "packages": [
+        {
+          "arch": "SRPMS",
+          "epoch": 0,
+          "filename": "ceph-10.2.3-17.el7cp.src.rpm",
+          "name": "ceph",
+          "release": "17.el7cp",
+          "src": "ceph-10.2.3-17.el7cp.src.rpm",
+          "sum": [
+            "md5",
+            "fake:6325cae72e2d35c9bf161b9e35c",
+            "sha256",
+            "fake:ee2b68fc3e8332edebd2a7545f5a2eaacbddecc2071b67e4ca8ecd3c2c3"
+          ],
+          "version": "10.2.3"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "ceph-base-10.2.3-17.el7cp.x86_64.rpm",
+          "name": "ceph-base",
+          "release": "17.el7cp",
+          "src": "ceph-10.2.3-17.el7cp.src.rpm",
+          "sum": [
+            "md5",
+            "fake:55c472f29f912aac03fe4de6101",
+            "sha256",
+            "fake:c673841daf44818781602fafb36f1291e95d79fdd1c9e1de6cb71aec964"
+          ],
+          "version": "10.2.3"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "ceph-common-10.2.3-17.el7cp.x86_64.rpm",
+          "name": "ceph-common",
+          "release": "17.el7cp",
+          "src": "ceph-10.2.3-17.el7cp.src.rpm",
+          "sum": [
+            "md5",
+            "fake:e41eb698b188bb73a6da5ebee9c",
+            "sha256",
+            "fake:a80c7d6044c57592c3a0c371b1a9c2d83a719bcfe37bafa86dfe9f7665e"
+          ],
+          "version": "10.2.3"
+        }
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+      "rpm"
+    ]
+  },
+  "pushcount": 17,
+  "reboot_suggested": false,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHBA-2015:2399",
+      "id": "RHBA-2015:2399",
+      "title": "RHBA-2015:2399",
+      "type": "self"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=1196142",
+      "id": "1196142",
+      "title": "Add RBD support for LIO HA",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=1362639",
+      "id": "1362639",
+      "title": "Object sync requests skipped in some scenarios",
+      "type": "bugzilla"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2015 Red Hat Inc",
+  "severity": "None",
+  "solution": "fix it",
+  "status": "final",
+  "summary": "pdc test advisory",
+  "title": "pdc test",
+  "type": "RHBA",
+  "updated": "2016-03-10 14:44:01 UTC",
+  "version": "17"
+}

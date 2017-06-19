@@ -1,0 +1,32 @@
+<%# the comment_collapse_opt class will be noticed by the javascript, see errata_view.js %>
+<%# hack so that old advisories with no state_indices will be expanded since we are creating a bogus state index, there is only one of them %>
+<% collapse_mode = (@errata.state_indices.empty? ? 'expand' : (user_pref(:comment_collapse_opt) || 'default')) %>
+<% if @errata.state_indices.empty? %><span class="light small">(Note: can't show comments grouped by state for this old advisory)</span><% end %>
+<div id="state_group_list" class="comment_collapse_opt_<%= collapse_mode %>">
+
+  <% if @errata.state_indices.empty? %>
+    <%#
+      # Old advisories don't have state indexes so we have to do this mad hack otherwise nothing appears...
+    -%>
+    <% bogus_state_index = StateIndex.new(:errata => @errata, :comments=>reversed_if(!@comments_newest_first, @errata.comments), :current=>nil) %>
+    <%= render :partial => 'errata/sections/state_group', :object => bogus_state_index, :locals => { :newest_first => @comments_newest_first } %>
+
+  <% else %>
+    <%#
+      # Normal. Loop over state indexes, aka state groups.
+      # (NB: these state_indexes default to sort by 'created_at desc' (instead of asc) so reverse is
+      # reversed compared to comments if you know what i mean..)
+    -%>
+    <% reversed_if(!@comments_newest_first, @errata.state_indices).each do |state_index| %>
+      <%#
+        # Non-current state indexes never change, so cache them forever.
+        # For simplicity we won't cache the current state index.
+      -%>
+      <% cache_unless(state_index.current_index?, non_current_state_index_cache_key(state_index, @comments_newest_first)) do %>
+        <%= render :partial => 'errata/sections/state_group', :object => state_index, :locals => { :newest_first => @comments_newest_first } %>
+      <% end %>
+    <% end %>
+
+  <% end %>
+
+</div>

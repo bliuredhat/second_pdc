@@ -1,0 +1,20 @@
+<%= page_title_h1 %>
+<% row_func = lambda do |elem|
+     cpe = elem.first
+     info = elem.last
+     [cpe,
+      info[:name],
+      info[:description]
+     ]
+end
+ %>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['CPE','Name', 'Description'],
+:func => row_func,
+:row_items => @unique_cpe.sort
+}) %>
+
+
+
+

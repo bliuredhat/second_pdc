@@ -1,0 +1,7 @@
+<%# pass in state as a local %>
+<div style="margin-top:4px;">
+<% state_prevent_or_allow_reasons(state)[:allow].each do |reason| %><%= status_icon(:ok)    %> <%= reason %><br/><% end %>
+<% state_prevent_or_allow_reasons(state)[:info ].each do |reason| %><%= status_icon(:info)  %> <%= reason %><br/><% end %>
+<% state_prevent_or_allow_reasons(state)[:block].each do |reason| %><%= status_icon(:block) %> <%= reason %><br/><% end %>
+</div>
+

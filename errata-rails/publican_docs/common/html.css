@@ -1,0 +1,70 @@
+/* Add some spacing and a subtle shadow around our screenshots */
+.chapter .inlinemediaobject > img {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0 , 0, 0.2) inset;
+    margin:0.5em 0 0.8em;
+    padding:1em 1em 1.5em 1em;
+    max-width:97%; /* ..instead of 100% to compensate for the padding */
+}
+
+/* Fix margin on header. The brand default margin-top -0.5em for some reason. */
+/* Also the logo is floating so we need to tweak this to match the logo height. */
+.header {
+  margin-top: 7px;
+  margin-bottom: 29px;
+}
+
+/* People/Product/Performance/Plan links are either obsolete so let's hide them */
+/* (Keeping the ESO logo though even though the branding is wrong. */
+/* Let's keep it for now until we have something better) */
+.header .links {
+  display: none;
+}
+
+/* Add our logo instead of generic one */
+.main-content-header .main-content-header-text {
+  background-image: url(../images/erratatool18.png);
+  padding-left: 1.5em;
+}
+
+.docnav {
+  /* Adjust padding of nav controls */
+  padding: 1em 0px 1em;
+  /* Lighter border color */
+  border-color: #d8d8d8;
+}
+
+/* Adjust appearance of main book title */
+.docnav li.home {
+  font-size: 120%;
+  font-weight: bold;
+  color: #999;
+}
+
+/* Lighter and more consistent borders */
+.main-content {
+  border-left-color: #d8d8d8;
+  border-right-color: #d8d8d8;
+}
+
+.main-content-header {
+  /* Remove fixed height gradient bg image */
+  background-image: none;
+  /* Lighter and more consistent borders */
+  border: 1px solid #a7a8a6;
+}
+
+/* Add whitespace at bottom of content */
+.main-content .confidential {
+  margin-top: 7em;
+}
+
+/* Add whitespace at bottom of page */
+body {
+  margin-bottom: 4em;
+}
+
+/* Default markdown backticked word comes out as monospace and bold. */
+/* The bold looks too heavy so let's remove it. */
+code.literal {
+  font-weight: normal;
+}

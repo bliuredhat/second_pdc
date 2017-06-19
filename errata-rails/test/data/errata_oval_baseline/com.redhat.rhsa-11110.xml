@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:unix-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:red-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux linux-definitions-schema.xsd">
+  <generator>
+    <oval:product_name>Red Hat Errata System</oval:product_name>
+    <oval:schema_version>5.10.1</oval:schema_version>
+    <oval:timestamp>2012-12-12T12:12:12</oval:timestamp>
+  </generator>
+
+  <definitions>
+    <definition id="oval:com.redhat.rhsa:def:20120988" version="601" class="patch">
+      <metadata>
+        <title>RHSA-2012:0988: jboss-seam2 security update (Important)</title>
+    <affected family="unix">
+      <platform>JBEAP 5 for RHEL 4</platform>
+      <platform>JBEAP 5 for RHEL 5</platform>
+    </affected>
+    <reference source="RHSA" ref_id="RHSA-2012:0988-00" ref_url="https://access.redhat.com/errata/RHSA-2012:0988"/>
+      <reference source="CVE" ref_id="CVE-2011-1484" ref_url="https://access.redhat.com/security/cve/CVE-2011-1484"/>
+    <description>The JBoss Seam 2 framework is an application framework for building web
+applications in Java.
+
+It was found that JBoss Seam 2 did not properly block access to JBoss
+Expression Language (EL) constructs in page exception handling, allowing
+arbitrary Java methods to be executed. A remote attacker could use this
+flaw to execute arbitrary code via a specially-crafted URL provided to
+certain applications based on the JBoss Seam 2 framework. Note: A properly
+configured and enabled Java Security Manager would prevent exploitation of
+this flaw. (CVE-2011-1484)
+
+Red Hat would like to thank Martin Kouba from IT SYSTEMS a.s. for reporting
+this issue.
+
+Users of jboss-seam2 should upgrade to these updated packages, which
+correct this issue. The JBoss server process must be restarted for this
+update to take effect.</description>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~   advisory details   ~~~~~~~~~~~~~~~~~~~ -->
+
+<advisory from="secalert@redhat.com">
+        <severity>Important</severity>
+        <rights>Copyright 2012 Red Hat, Inc.</rights>
+        <issued date="2012-12-12"/>
+        <updated date="2012-12-12"/>
+        <cve href="https://access.redhat.com/security/cve/CVE-2011-1484">CVE-2011-1484</cve>
+    <affected_cpe_list>
+        <cpe>cpe:/a:redhat:jboss_enterprise_application_platform:5</cpe>
+    </affected_cpe_list>
+</advisory>
+      </metadata>
+      <criteria operator="OR">
+ 
+ <criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988001" comment="Red Hat Enterprise Linux 4 is installed" />
+ <criteria operator="OR">
+ 
+ <criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988002" comment="jboss-seam2 is earlier than 0:2.2.2.EAP-17.el4_8" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988003" comment="jboss-seam2 is signed with Red Hat master key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988012" comment="jboss-seam2-docs is earlier than 0:2.2.2.EAP-17.el4_8" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988013" comment="jboss-seam2-docs is signed with Red Hat master key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988014" comment="jboss-seam2-examples is earlier than 0:2.2.2.EAP-17.el4_8" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988015" comment="jboss-seam2-examples is signed with Red Hat master key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988008" comment="jboss-seam2-examples-zip is earlier than 0:2.2.2.EAP-17.el4_8" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988009" comment="jboss-seam2-examples-zip is signed with Red Hat master key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988010" comment="jboss-seam2-runtime is earlier than 0:2.2.2.EAP-17.el4_8" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988011" comment="jboss-seam2-runtime is signed with Red Hat master key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988006" comment="jboss-seam2-src-zip is earlier than 0:2.2.2.EAP-17.el4_8" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988007" comment="jboss-seam2-src-zip is signed with Red Hat master key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988004" comment="jboss-seam2-zip is earlier than 0:2.2.2.EAP-17.el4_8" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988005" comment="jboss-seam2-zip is signed with Red Hat master key" />
+ 
+</criteria>
+
+</criteria>
+
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988016" comment="Red Hat Enterprise Linux 5 is installed" />
+ <criteria operator="OR">
+ 
+ <criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988017" comment="jboss-seam2 is earlier than 0:2.2.2.EAP-17.ep5.el5" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988018" comment="jboss-seam2 is signed with Red Hat redhatrelease key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988023" comment="jboss-seam2-docs is earlier than 0:2.2.2.EAP-17.ep5.el5" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988024" comment="jboss-seam2-docs is signed with Red Hat redhatrelease key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988025" comment="jboss-seam2-examples is earlier than 0:2.2.2.EAP-17.ep5.el5" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988026" comment="jboss-seam2-examples is signed with Red Hat redhatrelease key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988021" comment="jboss-seam2-examples-zip is earlier than 0:2.2.2.EAP-17.ep5.el5" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988022" comment="jboss-seam2-examples-zip is signed with Red Hat redhatrelease key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988029" comment="jboss-seam2-runtime is earlier than 0:2.2.2.EAP-17.ep5.el5" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988030" comment="jboss-seam2-runtime is signed with Red Hat redhatrelease key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988027" comment="jboss-seam2-src-zip is earlier than 0:2.2.2.EAP-17.ep5.el5" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988028" comment="jboss-seam2-src-zip is signed with Red Hat redhatrelease key" />
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20120988019" comment="jboss-seam2-zip is earlier than 0:2.2.2.EAP-17.ep5.el5" /><criterion test_ref="oval:com.redhat.rhsa:tst:20120988020" comment="jboss-seam2-zip is signed with Red Hat redhatrelease key" />
+ 
+</criteria>
+
+</criteria>
+
+</criteria>
+
+</criteria>
+
+    </definition>
+  </definitions>
+  <tests>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~   rpminfo tests   ~~~~~~~~~~~~~~~~~~~~~ -->
+    <rpminfo_test id="oval:com.redhat.rhsa:tst:20120988001"  version="601" comment="Red Hat Enterprise Linux 4 is installed" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988001" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988003" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988002"  version="601" comment="jboss-seam2 is earlier than 0:2.2.2.EAP-17.el4_8" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988002" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988004" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988003"  version="601" comment="jboss-seam2 is signed with Red Hat master key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988002" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988001" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988004"  version="601" comment="jboss-seam2-zip is earlier than 0:2.2.2.EAP-17.el4_8" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988003" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988004" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988005"  version="601" comment="jboss-seam2-zip is signed with Red Hat master key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988003" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988001" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988006"  version="601" comment="jboss-seam2-src-zip is earlier than 0:2.2.2.EAP-17.el4_8" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988004" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988004" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988007"  version="601" comment="jboss-seam2-src-zip is signed with Red Hat master key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988004" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988001" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988008"  version="601" comment="jboss-seam2-examples-zip is earlier than 0:2.2.2.EAP-17.el4_8" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988005" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988004" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988009"  version="601" comment="jboss-seam2-examples-zip is signed with Red Hat master key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988005" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988001" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988010"  version="601" comment="jboss-seam2-runtime is earlier than 0:2.2.2.EAP-17.el4_8" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988006" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988004" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988011"  version="601" comment="jboss-seam2-runtime is signed with Red Hat master key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988006" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988001" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988012"  version="601" comment="jboss-seam2-docs is earlier than 0:2.2.2.EAP-17.el4_8" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988007" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988004" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988013"  version="601" comment="jboss-seam2-docs is signed with Red Hat master key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988007" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988001" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988014"  version="601" comment="jboss-seam2-examples is earlier than 0:2.2.2.EAP-17.el4_8" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988008" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988004" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988015"  version="601" comment="jboss-seam2-examples is signed with Red Hat master key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988008" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988001" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988016"  version="601" comment="Red Hat Enterprise Linux 5 is installed" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988001" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988005" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988017"  version="601" comment="jboss-seam2 is earlier than 0:2.2.2.EAP-17.ep5.el5" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988002" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988006" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988018"  version="601" comment="jboss-seam2 is signed with Red Hat redhatrelease key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988002" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988002" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988019"  version="601" comment="jboss-seam2-zip is earlier than 0:2.2.2.EAP-17.ep5.el5" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988003" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988006" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988020"  version="601" comment="jboss-seam2-zip is signed with Red Hat redhatrelease key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988003" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988002" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988021"  version="601" comment="jboss-seam2-examples-zip is earlier than 0:2.2.2.EAP-17.ep5.el5" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988005" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988006" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988022"  version="601" comment="jboss-seam2-examples-zip is signed with Red Hat redhatrelease key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988005" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988002" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988023"  version="601" comment="jboss-seam2-docs is earlier than 0:2.2.2.EAP-17.ep5.el5" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988007" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988006" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988024"  version="601" comment="jboss-seam2-docs is signed with Red Hat redhatrelease key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988007" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988002" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988025"  version="601" comment="jboss-seam2-examples is earlier than 0:2.2.2.EAP-17.ep5.el5" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988008" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988006" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988026"  version="601" comment="jboss-seam2-examples is signed with Red Hat redhatrelease key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988008" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988002" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988027"  version="601" comment="jboss-seam2-src-zip is earlier than 0:2.2.2.EAP-17.ep5.el5" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988004" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988006" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988028"  version="601" comment="jboss-seam2-src-zip is signed with Red Hat redhatrelease key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988004" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988002" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988029"  version="601" comment="jboss-seam2-runtime is earlier than 0:2.2.2.EAP-17.ep5.el5" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988006" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988006" />
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20120988030"  version="601" comment="jboss-seam2-runtime is signed with Red Hat redhatrelease key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120988006" />
+  <state state_ref="oval:com.redhat.rhsa:ste:20120988002" />
+</rpminfo_test>
+
+  </tests>
+
+  <objects>
+    <!-- ~~~~~~~~~~~~~~~~~~~~   rpminfo objects   ~~~~~~~~~~~~~~~~~~~~ -->
+    <rpminfo_object id="oval:com.redhat.rhsa:obj:20120988002"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>jboss-seam2</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20120988007"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>jboss-seam2-docs</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20120988008"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>jboss-seam2-examples</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20120988005"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>jboss-seam2-examples-zip</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20120988006"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>jboss-seam2-runtime</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20120988004"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>jboss-seam2-src-zip</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20120988003"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>jboss-seam2-zip</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20120988001"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>redhat-release</name>
+</rpminfo_object>
+
+  </objects>
+  <states>
+    <!-- ~~~~~~~~~~~~~~~~~~~~   rpminfo states   ~~~~~~~~~~~~~~~~~~~~~ -->
+    <rpminfo_state id="oval:com.redhat.rhsa:ste:20120988001"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <signature_keyid  operation="equals">219180cddb42a60e</signature_keyid>
+</rpminfo_state>
+<rpminfo_state id="oval:com.redhat.rhsa:ste:20120988002"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <signature_keyid  operation="equals">5326810137017186</signature_keyid>
+</rpminfo_state>
+<rpminfo_state id="oval:com.redhat.rhsa:ste:20120988003"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <version  operation="pattern match">^4[^\d]</version>
+</rpminfo_state>
+<rpminfo_state id="oval:com.redhat.rhsa:ste:20120988004"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <evr datatype="evr_string" operation="less than">0:2.2.2.EAP-17.el4_8</evr>
+</rpminfo_state>
+<rpminfo_state id="oval:com.redhat.rhsa:ste:20120988005"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <version  operation="pattern match">^5[^\d]</version>
+</rpminfo_state>
+<rpminfo_state id="oval:com.redhat.rhsa:ste:20120988006"  version="601" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <evr datatype="evr_string" operation="less than">0:2.2.2.EAP-17.ep5.el5</evr>
+</rpminfo_state>
+
+  </states>
+</oval_definitions>
+

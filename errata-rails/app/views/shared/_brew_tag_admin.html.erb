@@ -1,0 +1,34 @@
+<div id="brew_tag_admin">
+  <h3>Brew Tags</h3>
+  <div id="brew_tags">
+
+    <table class="buglist">
+      <% brew_tag_admin.brew_tags.each do |t| %>
+        <tr class="<%= cycle('bz_even','bz_odd') %>">
+          <td><big><%= t.name %></big></td>
+          <td>
+            <%= link_to('Remove', {
+                :action => 'remove_tag',
+                :id     => brew_tag_admin.id,
+                :tag_id => t.id
+              },
+              :remote => true,
+              :method => :post,
+              :class=>'btn btn-mini'
+            )%>
+
+          </td>
+        </tr>
+      <% end %>
+    </table>
+
+  </div>
+
+  <%= form_tag({:action => 'add_tag'}, :remote => true) do %>
+    <%= hidden_field_tag :id, brew_tag_admin.id %>
+    <%= text_field 'tag', 'name' %> <%= submit_tag 'Add a Tag', :class=>'btn btn-primary' %>
+  <% end %>
+
+  <p class="small light"><i>Note: updates are applied immediately.</i></p>
+</div>
+<br/>

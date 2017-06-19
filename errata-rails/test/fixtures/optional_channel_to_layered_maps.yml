@@ -1,0 +1,22 @@
+--- 
+optional_channel_to_layered_map_00001: 
+  created_at: 2013-01-18 18:48:44 Z
+  id: 1
+  layered_channel_id: 552
+  optional_channel_id: 4
+  package_id: 14685
+  updated_at: 2013-01-18 18:48:44 Z
+optional_channel_to_layered_map_00002: 
+  created_at: 2013-01-18 18:48:44 Z
+  id: 2
+  layered_channel_id: 553
+  optional_channel_id: 4
+  package_id: 14685
+  updated_at: 2013-01-18 18:48:44 Z
+optional_channel_to_layered_map_00003: 
+  created_at: 2013-01-18 18:49:01 Z
+  id: 3
+  layered_channel_id: 552
+  optional_channel_id: 4
+  package_id: 16217
+  updated_at: 2013-01-18 18:49:01 Z

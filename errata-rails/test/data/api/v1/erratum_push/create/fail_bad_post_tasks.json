@@ -1,0 +1,9 @@
+# HTTP 400
+{
+  "errors": {
+    "cdn base": [
+      "Task 'bar' is not a valid task for this push job",
+      "Task 'foo' is not a valid task for this push job"
+    ]
+  }
+}

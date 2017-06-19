@@ -1,0 +1,7 @@
+<%= form_for :content do |f| %>
+<h2>Edit Notes</h2>
+<%= f.text_area(:how_to_test, :wrap => 'soft', :style=>'width:400px;height:200px;') %>
+<input id="errata_id" name="id" type="hidden" value="<%= @errata.id %>" />
+<br>
+<%= submit_tag "Save Changes", :action => :edit_notes, :class=>'btn btn-primary' %>
+<% end %>

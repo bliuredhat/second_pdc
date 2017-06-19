@@ -1,0 +1,122 @@
+{
+  "rhel-7-desktop-fastrack-rpms__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-desktop-fastrack-source-rpms__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-desktop-rpms__7Client__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-desktop-source-rpms__7Client__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-for-hpc-node-fastrack-rpms__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-for-hpc-node-fastrack-source-rpms__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-for-power-fastrack-rpms__ppc64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-for-power-fastrack-source-rpms__ppc64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-for-power-rpms__7Server__ppc64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-for-power-source-rpms__7Server__ppc64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-for-system-z-fastrack-rpms__s390x": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-for-system-z-fastrack-source-rpms__s390x": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-for-system-z-rpms__7Server__s390x": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-for-system-z-source-rpms__7Server__s390x": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-hpc-node-rpms__7ComputeNode__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-hpc-node-source-rpms__7ComputeNode__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-server-fastrack-rpms__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-server-fastrack-source-rpms__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-server-rpms__7Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-server-source-rpms__7Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-workstation-fastrack-rpms__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-workstation-fastrack-source-rpms__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ],
+  "rhel-7-workstation-rpms__7Workstation__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-fonts-common-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-mono-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-narrow-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-sans-fonts-1.07.2-15.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/noarch/liberation-serif-fonts-1.07.2-15.el7.noarch.rpm"
+  ],
+  "rhel-7-workstation-source-rpms__7Workstation__x86_64": [
+    "/mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/data/signed/fd431d51/src/liberation-fonts-1.07.2-15.el7.src.rpm"
+  ]
+}

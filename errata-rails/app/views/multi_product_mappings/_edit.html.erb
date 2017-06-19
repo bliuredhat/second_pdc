@@ -1,0 +1,42 @@
+<%= table_rows_helper([
+[ { :colspan=>2, :content=>error_messages_for(@multi_product_mapping) } ],
+[ f.label(:mapping_type, 'Mapping Type'),
+  if @multi_product_mapping.new_record?
+    safe_join([
+      f.radio_button(:mapping_type, MultiProductChannelMap.mapping_type),
+      f.label(:mapping_type_channel, Channel.display_name),
+      f.radio_button(:mapping_type, MultiProductCdnRepoMap.mapping_type),
+      f.label(:mapping_type_cdn_repo, CdnRepo.display_name)], ' ')
+  else
+    safe_join([
+      @multi_product_mapping.mapping_type.to_s.camelize.constantize.display_name,
+      f.hidden_field(:mapping_type)])
+  end
+],
+[ f.label(:package, 'Package'),
+  f.text_field(
+    :package,
+    :class => "et-ui-autocomplete",
+    "data-autocomplete-url" => packages_url,
+    "data-autocomplete-desc" => 'realname',
+    "data-autocomplete-value" => 'name') ],
+[ f.label(:origin, 'Origin Channel/Cdn Repo'),
+  f.text_field(
+    :origin,
+    :class => "et-ui-autocomplete longer",
+    "data-autocomplete-url" => @multi_product_mapping.mapping_type == :channel ?
+      search_by_name_like_channels_url : search_by_name_like_cdn_repos_url,
+    "data-autocomplete-desc" => 'product',
+    "data-autocomplete-value" => 'name')
+],
+[ f.label(:destination, 'Destination Channel/Cdn Repo'),
+  f.text_field(
+    :destination,
+    :class => "et-ui-autocomplete longer",
+    "data-autocomplete-url" => @multi_product_mapping.mapping_type == :channel ?
+      search_by_name_like_channels_url : search_by_name_like_cdn_repos_url,
+    "data-autocomplete-desc" => 'product',
+    "data-autocomplete-value" => 'name')
+]
+], :labels=>true, :table=>'form-inline')
+%>

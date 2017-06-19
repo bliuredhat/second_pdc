@@ -1,0 +1,39 @@
+// Path: /rcm/composedb/get-product-listings/RHEL-7.0-Supplementary/rhel-server-docker-7.0-22
+// Status: 200
+// Content-Type: application/json
+{
+  "build": {
+    "id": 367572,
+    "nvr": "rhel-server-docker-7.0-22"
+  },
+  "product": "RHEL-7.0-Supplementary",
+  "variants": {
+    "Server-Server": {
+      "rpms": {
+        "rhel-server-docker-7.0-22": {
+          "noarch": ["x86_64"],
+          "src": ["x86_64"]
+        }
+      },
+      "archives": {
+        "698251": {
+          "path": "/brewroot/packages/rhel-server-docker/7.0/22/images/rhel-7-server-docker.ks",
+          "destination_arches": ["x86_64"]
+        },
+        "698253": {
+          "path": "/brewroot/packages/rhel-server-docker/7.0/22/images/rhel-server-docker-7.0-22.x86_64.tar.gz",
+          "destination_arches": ["x86_64"]
+        }
+      }
+    },
+    "Client-Client": {
+      "rpms": {
+        "rhel-server-docker-7.0-22": {
+          "noarch": ["x86_64", "ppc64"],
+          "src": ["x86_64", "ppc64"]
+        }
+      },
+      "archives": {}
+    }
+  }
+}

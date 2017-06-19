@@ -1,0 +1,31 @@
+<dl class="links">
+  <dt><%= link_to 'Release Groups',             :action => :list,                :controller => :release             %></dt><dd>Add and edit release groups, i.e. Quarterly Updates, Fast Track, etc</dd>
+  <dt><%= link_to 'Product Administration',     products_path      %></dt><dd>Add and edit products and product versions</dd>
+  <dt><%= link_to 'RHEL Version Administration',rhel_releases_path %></dt><dd>Add and edit RHEL versions</dd>
+  <dt><%= link_to 'Default Solution Text',      :action => :index,               :controller => :default_solutions   %></dt><dd>List and modify 'Default Solution' text</dd>
+  <dt><%= link_to 'Advisory Batching',          :action => :index,               :controller => :batches             %></dt><dd>Manage advisory release batches</dd>
+  <hr/>
+
+  <dt><%= link_to 'Add/Update Released Package',:action => :add_released_package,:controller => :release_engineering %></dt><dd>Add or update released packages</dd>
+  <dt><%= link_to 'RHN Push History',           :action => :rhn_push_log,        :controller => :push                %></dt><dd>History of errata pushed to RHN</dd>
+  <dt><%= link_to 'Multiple Product Mappings',
+                                                :action => :index,               :controller => :multi_product_mappings
+                                                                                                                     %></dt><dd>List mappings between channels and repositories used for multi-product advisories</dd>
+  <dt><%= link_to 'Brew RPM Name Prefixes',     :action => :rpm_prefixes,        :controller => :products            %></dt><dd>List currently defined RPM name prefixes (used by SCL and other layered products)</dd>
+  <hr/>
+
+  <dt><%= link_to 'Workflow Rule Sets',         :action => :index,               :controller => :workflow_rules      %></dt><dd>View workflow rule sets and advisory state transition guards</dd>
+  <dt><%= link_to 'User Administration',        :action => :index,               :controller => :user                %></dt><dd>Administer users</dd>
+  <hr/>
+
+  <% ExternalTestType.toplevel.each do |tt| %>
+    <dt><%= link_to "#{tt.display_name} tests", :action => :list_all,            :controller => :external_tests, :test_type => tt.name %></dt><dd>List external test runs for <%= tt.display_name %></dd>
+  <% end %>
+  <hr/>
+
+  <dt><%= link_to 'Background Jobs',            :action => :index,               :controller => :background_job      %></dt><dd>View the delayed job queue</dd>
+  <dt><%= link_to 'Job Trackers',               :action => :index,               :controller => :job_trackers        %></dt><dd>View delayed job trackers</dd>
+  <% if @current_user.in_role?('super-user') %>
+    <dt><%= link_to 'Settings',                 :action => :settings,            :controller => :admin               %></dt><dd>View/manage application settings</dd>
+  <% end %>
+</dl>

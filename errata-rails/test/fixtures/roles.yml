@@ -1,0 +1,113 @@
+--- 
+role_00001: 
+  blocking_issue_target: 
+  description: The QA role can perform all QA state transitions, and will show up in the QA Owners list. Can be assigned to test errata.
+  id: 1
+  info_request_target: 
+  name: qa
+  notify_same_role: true
+role_00002: 
+  blocking_issue_target: 
+  description: The Developer role can perform all Developer state transitions, and is able to file errata.
+  id: 2
+  info_request_target: 
+  name: devel
+  notify_same_role: true
+role_00003: 
+  blocking_issue_target: 
+  description: The Pusherrata role can push errata to RHN and perform administrative actions. Be careful about who you add.
+  id: 3
+  info_request_target: 
+  name: pusherrata
+  notify_same_role: true
+role_00004: 
+  blocking_issue_target: 
+  description: Users in the Errata role can read and comment on errata. All users are added to this role by default
+  id: 4
+  info_request_target: 
+  name: errata
+  notify_same_role: true
+role_00005: 
+  blocking_issue_target: 
+  description: The Docs role can approve, disapprove, and edit errata documentation. Users in this role will show up as possible assignees in the Documentation Queue.
+  id: 5
+  info_request_target: 
+  name: docs
+  notify_same_role: true
+role_00006: 
+  blocking_issue_target: 
+  description: The management role is for PM, Quality Engineering and Development managers. Receive automated reports
+  id: 6
+  info_request_target: 
+  name: management
+  notify_same_role: true
+role_00007: 
+  blocking_issue_target: 
+  description: Signers have the authority to sign packages with the Red Hat master keys. They receive e-mails for signature requests
+  id: 7
+  info_request_target: 
+  name: signer
+  notify_same_role: true
+role_00008: 
+  blocking_issue_target: release-engineering@redhat.com
+  description: Release Engineering Role. Release engineers are responsible for pushing content to RHN and the public FTP server
+  id: 8
+  info_request_target: release-engineering@redhat.com
+  name: releng
+  notify_same_role: true
+role_00009: 
+  blocking_issue_target: security-response@redhat.com
+  description: Users in the security alert team, or otherwise privy to security sensitive errata information.
+  id: 9
+  info_request_target: security-response@redhat.com
+  name: secalert
+  notify_same_role: false
+role_00010: 
+  blocking_issue_target: 
+  description: Administrative users. Can perform CRUD operations on releases, users, channels, etc.
+  id: 10
+  info_request_target: 
+  name: admin
+  notify_same_role: true
+role_00011: 
+  blocking_issue_target: 
+  description: Project Management Group
+  id: 11
+  info_request_target: 
+  name: pm
+  notify_same_role: true
+role_00012: 
+  blocking_issue_target: 
+  description: Readonly user. This role supercedes any other roles
+  id: 12
+  info_request_target: 
+  name: readonly
+  notify_same_role: true
+role_00013: 
+  blocking_issue_target: 
+  description: Can Read any admin pages. GET request only
+  id: 13
+  info_request_target: 
+  name: readonly-admin
+  notify_same_role: true
+role_00014: 
+  blocking_issue_target: 
+  description: Can perform application level configuration. Mainly for use by Errata Tool developers.
+  id: 14
+  info_request_target: 
+  name: super-user
+  notify_same_role: true
+role_00015: 
+  blocking_issue_target: 
+  description: Can reschedule Covscan runs and view Covscan related reports
+  id: 15
+  info_request_target: 
+  name: covscan-admin
+  notify_same_role: true
+role_00016:
+  blocking_issue_target:
+  description: The Createasync role can create ASYNC advisories
+  id: 16
+  info_request_target:
+  name: createasync
+  notify_same_role: true

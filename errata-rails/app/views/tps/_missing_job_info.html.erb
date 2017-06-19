@@ -1,0 +1,10 @@
+<p>
+  <div class="small light">
+    <span class="label label-info">Note</span> If you are expecting a TPS job but you can't see it in the job list below,
+    it might be because the RHN channel or CDN repository has TPS scheduling disabled. You can
+    <b><%= link_to "click here", "#", :data => { "remote-url" => "#{url_for(:controller => 'tps', :action => 'troubleshooter', :id => @tpsrun.id)}" }, :id => 'btn-open-repolist', :style => "white-space: nowrap;" %></b> to view a list of RHN channels
+    and CDN repositories that are applicable to this advisory but are currently <b>disabled for TPS scheduling</b>.
+  </div>
+</p>
+<%= wait_spinner :wait_spinner, "padding-bottom:10px;"%>
+<div id="repo_list_div" class="panel panel-info" style="display:none"></div>

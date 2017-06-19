@@ -1,0 +1,76 @@
+#!/bin/sh
+cd "$(dirname "$0")/.."
+set -xeu
+
+packaging_related_files_changed() {
+  git diff-tree --no-commit-id --name-only  -r $GIT_COMMIT |
+    grep -q -E \
+      -e '^errata-rails.spec$' \
+      -e '^lib\/system_version.rb$' \
+      -e '^Gemfile$' \
+      -e '^Gemfile.lock$/' \
+      -e '^vendor\/cache\/.*\.gem$' \
+      -e '^jenkins\/errata-tool-package-ruby2$' \
+      -e '^misc\/packaging\/'
+}
+
+# build packages by default
+BUILD_ONLY_IF_NEEDED=${BUILD_ONLY_IF_NEEDED:-false}
+
+if ${BUILD_ONLY_IF_NEEDED} && ! packaging_related_files_changed; then
+  echo "INFO: skipping packaging as no files related to it has changed"
+  exit 0
+fi
+
+mkdir -p ../gems/
+ls ../
+
+IMG=docker-registry.engineering.redhat.com/errata-tool/errata_tester_ruby2:mock_added
+docker pull $IMG || echo "pull failed - maybe testing using an old image!"
+
+docker run  --rm=true -i --privileged \
+  -v $PWD:/workspace \
+  -v $PWD/../gems:/gems \
+  $IMG <<END_SCRIPT
+#!/bin/bash
+set -eux
+
+cd /workspace
+
+### probe the current environment
+ruby --version
+env
+git status
+
+bundle install \
+  --binstubs \
+  --no-cache \
+  --path=/gems/ruby22
+
+export PATH=./bin:\$PATH
+
+# does bundle exec work?
+bundle exec gem list
+gem env
+
+# get sha of current head
+sha=\$(git rev-parse --short HEAD)
+
+# prep release notes for next release
+# (actually this makes a commit, but we'll pretend we're using
+# the previous sha when we build the src rpm)
+bundle exec rake publican:release_note_init \
+  BOOK=Release_Notes
+
+# build src rpm
+bundle exec rake deploy:build_src_rpm \
+  RELEASE=git.${BUILD_NUMBER:-0}.pdc.\${sha} \
+  SPEC_FILE=errata-rails.spec
+
+# build rpm
+mock \
+  --configdir=misc/packaging/mock/ruby2 \
+  --resultdir=. \
+  --rebuild ~/rpmbuild/SRPMS/*-git.${BUILD_NUMBER:-0}.pdc.\${sha}.el6.src.rpm
+
+END_SCRIPT

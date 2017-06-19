@@ -1,0 +1,54 @@
+{
+  "rhel-server-x86_64-ec2-starter-6.5-8": {
+    "images/rhel-6-server-starter-ec2.ks": {
+      "channels": [
+        "rhel-x86_64-client-6"
+      ],
+      "display_order": 8,
+      "id": 685393,
+      "title": "Anaconda script"
+    },
+    "images/rhel-server-x86_64-ec2-starter-6.5-8.x86_64.raw": {
+      "channels": [
+        "rhel-x86_64-client-6"
+      ],
+      "display_order": 7,
+      "id": 685396,
+      "title": "RHEL 6.5 Server EC2 image"
+    }
+  },
+  "spice-usb-share-win-5.0-6": {
+    "win/pdb/x64/usbrdrctrl.pdb": {
+      "channels": [
+        "rhel-x86_64-client-6"
+      ],
+      "display_order": 3,
+      "id": 152160,
+      "title": "USB driver debugging info (64-bit)"
+    },
+    "win/spice-usb-share-win-5.0-6-sources.zip": {
+      "channels": [
+        "rhel-x86_64-client-6"
+      ],
+      "display_order": 5,
+      "id": 152157,
+      "title": "USB sharing driver sources"
+    },
+    "win/spice-usb-share-win-5.0-6-spec.zip": {
+      "channels": [
+        "rhel-x86_64-client-6"
+      ],
+      "display_order": 6,
+      "id": 152158,
+      "title": "USB sharing driver build metadata"
+    },
+    "win/spice-usb-share-win_x64.zip": {
+      "channels": [
+        "rhel-x86_64-client-6"
+      ],
+      "display_order": 1,
+      "id": 152162,
+      "title": "USB sharing drivers (64-bit)"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+Release Notes for Version 3.10.0
+================================
+
+Overview
+--------
+
+Release 3.10.0 is the first release in Errata Tool 3.10. It closes [32 bugs and
+RFEs][buglist].
+
+The major new features included in this release are support for adding non-RPM
+files to advisories, and the ability to configure push targets per variant and
+per package.
+
+Additionally, during the 3.10.0 development period, an additional [4 bug fixes][hotfixes]
+were shipped in 3.9.z releases.
+
+<%
+  sort_these_first(%w[ 1121192 1080406 1085498 1103964 ])
+%>
+
+<%= highlight_content('preview') %>
+
+<%= highlight_content('new') %>
+
+<%= highlight_content('improved') %>
+
+<%= highlight_content('fixed') %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcement][announce]
+* [Bug List for Errata Tool Release 3.10.0][buglist]
+* [Full code diff for this release][diff1]
+* [Full code diff (since 3.9)][diff2]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?quicksearch=1133449+1133432+1132328+1125786+1124272+1121937+1121192+1120917+1120883+1120522+1119523+1118516+1118173+1114426+1110054+1103964+1093229+1088832+1087399+1085498+1082869+1081788+1080406+1076284+1075841+1074749+1071138+1060331+1032875+1010285+1006683+999314
+[hotfixes]: https://bugzilla.redhat.com/buglist.cgi?quicksearch=1118521+1119948+1120438+1132140
+[announce]: https://docs.engineering.redhat.com/display/HTD/2014/09/12/Errata+Tool+3.10.0+Released
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.10.0.0-0&id2=3.9-3.0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.10.0.0-0&id2=3.9-0.0
+
+Technical Previews
+------------------
+
+<%= include_content('preview') %>
+
+
+New Features
+------------
+
+<%= include_content('new') %>
+
+
+Improvements
+------------
+
+<%= include_content('improved') %>
+
+
+Fixes
+-----
+
+<%= include_content('fixed') %>
+
+
+Process and Team Changes
+------------------------
+
+### Code coverage metrics
+
+Since the Errata Tool 3.9 release our code coverage ratio, as reported by
+Jenkins using rcov, has increased by around 2% from 87.7% to 89.1%.
+
+Increased code coverage means better maintainability, and a reduced chance of
+shipping regressions and new bugs. It also means we can more confidently
+refactor and improve existing code.
+
+[![rcov](images/3.10.0/rcov.png)](images/3.10.0/rcov.png)
+
+### Scrum adoption
+
+Starting with the 3.10 development period, the team has adopted scrum practices
+(a bit more seriously than in the past). We are doing two week sprints with
+reviews, retrospectives and planning sessions and using JIRA for sprint plans
+and for tracking progress.
+
+The goals are to be able to deliver value faster and with more agility, to
+access better information to help with planning and scheduling, and to
+regularly iterate our processes.
+
+This is an example of a JIRA burndown chart (showing data from the final ET
+3.10.0 sprint).
+
+[![sprint3](images/3.10.0/sprint3.png)](images/3.10.0/sprint3.png)
+
+Note that Bugzilla is still the primary location for managing our backlog.
+Issues in JIRA are synced in one direction only, hence Bugzilla is the primary
+source for reporting and commenting on bugs and RFEs.
+
+### Version numbering changes
+
+We're changing the *version-release* numbering scheme used for Errata Tool
+releases. The new scheme introduces an extra level of granularity between minor
+release and hotfix. Also it moves the hotfix number out of the release
+field and into the version field.
+
+One of the main goals for this change is to make it convenient to do more
+frequent, (more "agile"), end-of-sprint deploys. With the new numbering schema
+we can more easily schedule further releases in 3.10 before we move on to 3.11.
+
+The new format is *\$MAJOR.\$MINOR.\$INCREMENT.\$HOTFIX&ndash;\$REBUILD*.
+
+For example, the full nvr for this release is `errata-rails-3.10.0.0-0`. There
+are more details on the release numbering scheme [available here][relnums].
+
+[relnums]: https://docs.engineering.redhat.com/x/tJe0AQ
+
+### Team changes
+
+We've been lucky enough to keep Hao (hyu) on the team (despite previous
+announcements about his departure). The development team currently consists of
+Hao, Simon (sbaird) and Rohan (rmcgover).
+
+We've also welcomed Mingfang Guo (miguo) who has joined Joyce (jinzhang) on
+the QE team, and Jason (jmcdonal)'s role as Product Owner has been solidified
+as part of our adoption of scrum.
+
+
+What's Next
+-----------
+
+### Errata Tool 3.10.z
+
+The team will continue to select bugs and RFEs flagged as `errata-3.10` in
+Bugzilla for inclusion in two week sprints. Once enough content is verified and
+ready to ship we will do an end-of-sprint release. The next release in this
+series will be 3.10.1.
+
+To see bugs currently scheduled for ET 3.10 take a look [at the errata-3.10
+flag in Bugzilla][bugs3.10].
+
+### Errata Tool 3.11
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For details
+see [Errata Tool Bug Lists][buglists].
+
+To see what's currently scheduled take a look at the [errata-3.11 flag
+link][bugs3.11] on the above page.
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to `errata-dev-list@redhat.com`.
+
+[bugs3.10]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.10&bug_status=__open__
+[bugs3.11]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[buglists]: https://docs.engineering.redhat.com/x/1AIjAQ

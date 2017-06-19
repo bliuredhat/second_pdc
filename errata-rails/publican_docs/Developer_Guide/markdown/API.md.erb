@@ -1,0 +1,201 @@
+HTTP API
+========
+
+Introduction
+------------
+
+This is a REST-style API that uses JSON for serialization and Kerberos
+Negotiate for authentication.
+
+### Authentication
+
+Except for a small subset used by TPS, all requests use SSL and Kerberos
+authentication.
+
+For more information on configuring kerberos authentication, see
+[here](https://mojo.redhat.com/docs/DOC-87898).
+
+You may need to install the Red Hat IS CA Root Certificate in order to use SSL
+without warnings or validation overrides.
+
+### Making a request
+
+Example using curl to GET a resource:
+
+```` Bash
+# Requires valid kerberos ticket
+curl --user ':' --negotiate 'https://errata.devel.redhat.com/api/v1/erratum/17994.json'
+````
+
+Example using curl to PUT (update) a resource, using headers for content negotiation:
+
+```` Bash
+curl \
+  --user ':' \
+  --negotiate \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json' \
+  -d '{"advisory":{"idsfixed":"112233 ABC-456","security_impact":"Low"}}' \
+  -X PUT \
+  https://errata.devel.redhat.com/api/v1/erratum/17994
+````
+
+### JSON Formats
+
+We only support JSON for serialization of data.
+
+Clients should send `Content-Type: application/json; charset=utf-8` when POSTing or PUTing data.
+
+When GETting requests, as well as setting the `Accept: application/json`
+header you can use either `https://errata.devel.redhat.com/some/thing/90210.json` or
+`https://errata.devel.redhat.com/get/stuff?format=json` in the URL.
+
+### Boolean Values
+
+It is recommended that JSON boolean values (true or false) are used in the
+request to avoid confusion. However, Errata Tool will generally accept the
+following values to mean true:
+
+`[true, 1, '1', 't', 'T', 'true', 'TRUE', 'on', 'ON']`
+
+All other values are considered to mean false. This is consistent with ActiveRecord
+in Ruby on Rails.
+
+### DateTime Values
+
+DateTime values should be specified in
+[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format.
+
+### Pagination
+
+[paginated API]: \#api-pagination
+
+For APIs documented as supporting pagination, unless otherwise specified, this
+pagination scheme is used:
+
+* Set `page[number]` and `page[size]` query parameters to set the page number
+  and size.
+
+* `page[number]` starts counting at 1 (which is also the default page).
+
+* If `page[size]` is omitted, a server default page size applies.
+
+* If `page[size]` is too large, the request will fail.
+
+Clients wishing to paginate through all data should continue to increment
+`page[number]` until an empty array is returned.
+
+### Error handling
+
+If a request fails due to an error, both the response code and body
+may be inspected to determine the cause.
+
+Errata Tool's API makes use of the following HTTP status codes:
+
+* 401 - client must authenticate first.
+
+* 403 - client is authenticated, but the user is forbidden from
+        performing this action.
+
+* 404 - an object referenced by the request could not be found.
+
+* 422 - the request is correctly formed but the server can't process it
+        due to invalid semantics or business logic violations.
+
+* 400 - generic error code used for any other case where the client's
+        request has an error.
+
+* 500 - an unanticipated error occurred; generally a bug in Errata Tool.
+
+When an error occurs, the response body will be an error object using
+two possible formats.
+
+For a simple generic error message, an object is returned with a
+single "error" property:
+
+```` JavaScript
+{"error":"You do not have permission to perform this action"}
+````
+
+More detailed errors are communicated using an object with an "errors"
+property, which contains nested error strings.  This is used to show
+which part of a request was problematic.  The keys within "errors"
+often correspond directly to attributes passed in the failed request.
+
+```` JavaScript
+{
+  "errors": {
+    "cdn options": [
+      "Option 'bar' is not a valid option for this push job",
+      "Option 'foo' is not a valid option for this push job"
+    ],
+    "rhn_live": [
+      "is not a valid push target for this advisory"
+    ]
+  }
+}
+````
+
+When an error occurs, clients may check if the returned object
+contains an "error" or "errors" key and log or display the errors
+appropriately.
+
+Error strings are intended to be displayed to users.  Clients should
+_not_ attempt to parse the error strings and make decisions based on
+their content, as the strings may change without warning.
+
+### Backwards compatibility
+
+Newer APIs in Errata Tool are namespaced and versioned using an **/api/{version}** scheme.
+The current version of the API is `v1`.
+
+The Errata Tool development team strives to maintain
+backwards-compatibility for all versioned APIs, which means that
+within version 1 of the API:
+
+* Attributes won't be removed from objects.
+
+* New attributes may be added to objects.
+
+* The semantics of an API generally won't be changed. Inflexible
+  methods may be deprecated, but won't be removed.
+
+Some older APIs exist outside of the `/api` namespace.  These are
+sometimes undocumented and not covered by automated tests.  Users of
+these APIs are advised to file an Errata Tool RFE to have the API
+reviewed and brought up to fully supported status.
+
+APIs
+----
+
+<%
+# Get certain categories sorted in a reasonable way
+category_order = [
+  'Advisories',
+  'Builds',
+  'Pushing Advisories',
+  # placeholder for any other categories
+  nil,
+  'Legacy'
+]
+category_name = lambda{|file| File.basename(file, '.md').gsub('_', ' ')}
+
+Dir["#{content_dir}/[a-zA-Z]*.md"].sort_by{|file|
+  name = category_name.call(file)
+  [
+    category_order.find_index(name) || category_order.find_index(nil),
+    name
+  ]
+}.each do |file| %>
+### <%= category_name.call(file) %>
+
+<%= File.read(file) %>
+
+<% end %>
+
+Index by URL
+------------
+
+This table links to every documented HTTP endpoint in Errata Tool.
+
+<%= File.read("#{content_dir}/_index.md") %>

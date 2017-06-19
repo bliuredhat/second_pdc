@@ -1,0 +1,10 @@
+<% if @errata.brew_builds.count >= Settings.shorten_builds_list_threshold %>
+  <div class="btn-group text-buttons">
+    <%= long_short_toggle_button(:short, "builds", @errata.brew_builds.count, :class=>'toggle_long_short', :style=>hide_if_user_pref(:dont_shorten_builds_list), :no_icon=>true) %>
+    <%= long_short_toggle_button(:long,  "builds", @errata.brew_builds.count, :class=>'toggle_long_short', :style=>show_if_user_pref(:dont_shorten_builds_list), :no_icon=>true) %>
+  </div>
+<% end %>
+
+<div class="btn-group">
+  <%= link_to(@errata.filelist_unlocked? ? "View/Modify" : "View Details", { :controller => 'brew', :action => 'list_files', :id => @errata.id }, :class=>'btn' ) %>
+</div>

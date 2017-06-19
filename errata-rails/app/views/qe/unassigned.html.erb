@@ -1,0 +1,23 @@
+<h1><%= @page_title %></h1>
+<% row_func = lambda do |e|
+   [link_to(e.advisory_name, :controller => :errata, :action => :show, :id => e),
+   "#{e.product.short_name}" ,
+   "#{e.release.name}" ,
+   "#{e.synopsis}" ,
+   embargo_date_content(e),
+   release_date_content(e),
+   "#{e.quality_responsibility.name}",
+   state_display(e),
+   {:content=>link_to('Take Ownership', {:action => :assign_errata_to_me, :id => e}, :method => :post), :options=>{:class=>'compact'}} ]
+end
+ %>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Advisory', 'Product', 'Release', 'Synopsis', tablesort_heading_custom_sort_numeric('Embargo'),
+  tablesort_heading_custom_sort_numeric('Release'), 'QE Group', 'Status', 'Action'],
+:func => row_func,
+:row_items => @unassigned
+}) %>
+
+
+

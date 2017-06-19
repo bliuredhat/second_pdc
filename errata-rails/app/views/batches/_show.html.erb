@@ -1,0 +1,24 @@
+<%=
+  panel_helper(
+    'This batch has been released',
+    "Batch '#{batch.name}' was released on #{nice_date(batch.released_at)}. It cannot be edited."
+  ) if batch.is_released?
+%>
+
+<%= table_rows_helper([
+  [ 'Name',                   batch.name ],
+  [ 'Release',                batch.release.name ],
+  [ 'Description',            content_tag(:div, batch.description, :style=>'white-space:pre;') ],
+  [ 'Release Date (planned)', nice_date(batch.release_date, '<i class="light">Not set yet</i>'.html_safe) ],
+  [ 'Release Date (actual)',  nice_date(batch.released_at, '<i class="light">Not released yet</i>'.html_safe) ],
+  [ 'Active?',                {
+      :content => yes_no_icon_and_text(batch.is_active?),
+      :note => (
+        'Batch checks are disabled, advisories will not inherit the batch release date' if !batch.is_active? && batch.errata.active.any?
+      )
+  } ],
+  [ 'Locked?',                lock_icon_and_text(batch.is_locked?) ],
+  [ 'Advisories in batch',    link_to(n_thing_or_things(batch.errata.count, 'advisory'), filter_url_for_batch(batch)) ],
+  [ 'Created At',             batch.created_at ],
+  [ 'Created By',             batch.who ],
+], :labels=>true) %>

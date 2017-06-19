@@ -1,0 +1,220 @@
+/*
+ * Some styles for the new Management UI
+ * (aka the Admin UI)
+ */
+
+.mgmt-main {
+  background-color:#fff;
+  padding:1em;
+  padding-right:0em;
+  margin-bottom:0.5em;
+  min-width:800px;
+  max-width:890px;
+}
+
+.mgmt select {
+  background-color:white;
+}
+
+.mgmt.edit-mode .mgmt-main {
+}
+
+.mgmt.edit-mode .small_label {
+  color:#666;
+}
+
+.mgmt-sidebar {
+  padding:1em;
+  width:10em;
+  min-height:200px;
+  padding-left:20px;
+  margin-top:4.5em;
+  margin-left:1em;
+  zzborder-top:1px solid #ddd;
+  zzbackground-color:#f8f8f8;
+}
+
+.mgmt-sidebar ul {
+  margin-left:5px;
+}
+
+.mgmt-sidebar li {
+  padding:4px 8px;
+  background-color:#f8f8f8;
+  border:1px solid #eee;
+  border-radius:4px;
+  list-style:none;
+  margin-left:1px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05) inset;
+  margin-bottom:0.25em;
+  font-size:90%;
+}
+
+.mgmt-sidebar li a {
+  display:block;
+}
+
+.mgmt-sidebar li:hover {
+  border:1px solid #ddd;
+  box-shadow:0 0 2px 2px #eee;
+}
+
+.mgmt .errorExplanation {
+  box-shadow: 0px 0px 12px #dcc inset;
+  border-width:1px;
+  border-radius:0.5em;
+  padding:0.25em 1em 0.5em 1em;
+  margin-bottom:1em;
+}
+
+.mgmt .errorExplanation h2 {
+  padding-left:22px;
+  padding-bottom:0px;
+  background-repeat:no-repeat; background-position:0px 8px; background-image:url(/images/icon_alert.gif);
+}
+
+.mgmt-sidebar h3 {
+  font-size:100%;
+  color:#bbb;
+  font-variant:small-caps;
+}
+
+.mgmt .editing-notice {
+  font-size:110%;
+  font-weight:bold;
+  font-size:180%;
+  color:#08c;
+  display:none;
+}
+
+.mgmt.edit-mode .editing-notice { display:inline; }
+
+.mgmt-title .short-name {
+  font-weight:bold;
+  font-size:180%;
+}
+
+.mgmt-title .long-name {
+  margin-top:0.3em;
+  margin-bottom:0.3em;
+  display:block;
+  color:#777;
+  font-size:180%;
+}
+
+.mgmt-title .object-type {
+  color:#ddd;
+  font-size:90%;
+  padding-left:0.5em;
+  font-size:120%;
+}
+
+.mgmt-title .wait-spinner {
+  margin-left:0.5em;
+}
+
+.mgmt table.fields {
+  margin:1em 1em 1em 0;
+}
+
+.mgmt-children {
+  margin-top:1.5em;
+}
+
+.mgmt-children h3 {
+  color:#aaa;
+}
+
+.mgmt input.shorter { width:8em; }
+.mgmt select.shorter { width:12em; }
+.mgmt input.longer { width:50em; }
+.mgmt select.longer { width:40em; }
+
+.mgmt .select-text { display:none; }
+
+.mgmt .scroll-if-long {
+  max-height:7em;
+  overflow:auto;
+}
+
+.mgmt .field_with_errors:before { content:'\2192'; color:red; font-size:180%; font-weight:bold; }
+
+.mgmt .disabled { opacity: 0.5; }
+
+.mgmt .submit-buttons {
+  border-top:1px solid #ddd;
+  padding-top:1em;
+  margin-top:3.5em;
+}
+
+.mgmt .submit-buttons .btn {
+  margin-right:0.5em;
+}
+
+.mgmt .mouseover-highlight:hover {
+  background-color:#f7f2d0!important;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* filtering breaks the striping :/ */
+/* .mgmt .clickable_row:nth-child(even) { background-color:#fff; }
+.mgmt .clickable_row:nth-child(odd) { background-color:#f5f5f5; } */
+
+.mgmt .clickable_row.bz_odd {
+  background-color:#f5f5f5;
+}
+
+.mgmt .clickable_row { border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
+
+/* this sucks a bit.. */
+.mgmt .is_inactive .clickable_row_link { /* text-decoration: line-through; */ opacity:0.5; }
+
+.mgmt .light a { text-decoration:none!important; }
+.mgmt .clickable_row .light a:hover { text-decoration:underline!important; }
+
+.mgmt .eso-tab-content {
+  margin-top:1em;
+  padding-top:0.25em;
+}
+
+.mgmt .quick_filter {
+  padding:0 0.5em;
+  color:#aaa;
+  margin-bottom:1.5em;
+}
+
+.mgmt .quick_filter input {
+  background-color:#f8f8f8;
+  border-radius:4px;
+  padding:5px;
+  border-color:#ccc!important;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1) inset;
+}
+
+.mgmt .quick_filter.inactive input {
+  opacity:0.5;
+}
+
+.mgmt .quick_filter.inactive a {
+  visibility:hidden;
+}
+
+.mgmt .quick_filter.inactive input:focus {
+  opacity:1.0;
+}
+
+.mgmt .quick_filter a.clear {
+  margin-left:-15px;
+  margin-top:6px;
+  font-weight:bold;
+  color:#999;
+}
+
+.btn-toolbar .text-buttons {
+  padding-right:1em;
+  padding-top:0.5em;
+}
+
+input.no-bottom {
+  margin-bottom: 0px;
+}

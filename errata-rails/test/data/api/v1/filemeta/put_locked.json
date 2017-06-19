@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "errata": [
+      "filelist must be unlocked to update file metadata"
+    ]
+  }
+}

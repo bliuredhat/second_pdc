@@ -1,0 +1,789 @@
+---
+release_00021:
+  allow_beta: 0
+  allow_blocker: 0
+  allow_exception: 0
+  allow_shadow: 0
+  blocker_bugs:
+  blocker_flags:
+  bugs_last_synched_at:
+  default_brew_tag:
+  description: Asyncronous Group
+  enabled: 1
+  id: 21
+  is_async: 1
+  is_deferred: 0
+  isactive: 1
+  name: ASYNC
+  product_id:
+  ship_date:
+  type: Async
+  url_name: async
+release_00065:
+  allow_beta: 0
+  allow_blocker: 0
+  allow_exception: 0
+  allow_shadow: 1
+  blocker_bugs: ""
+  blocker_flags: rhel-4.7,fast
+  bugs_last_synched_at:
+  default_brew_tag:
+  description: Fastrack errata for RHEL 4.7
+  enabled: 0
+  id: 65
+  is_async: 0
+  is_deferred: 0
+  isactive: 0
+  name: FAST4.7
+  product_id: 16
+  ship_date:
+  type: FastTrack
+  url_name: fast4_7
+release_00147:
+  allow_beta: 0
+  allow_blocker: 0
+  allow_exception: 0
+  allow_shadow: 0
+  blocker_bugs:
+  blocker_flags: rhel-6.1.0
+  bugs_last_synched_at:
+  default_brew_tag: ""
+  description: RHEL 6.1
+  enabled: 1
+  id: 147
+  is_async: 0
+  is_deferred: 0
+  isactive: 1
+  name: RHEL-6.1.0
+  product_id: 16
+  ship_date: 2011-05-31 00:00:00 Z
+  type: QuarterlyUpdate
+  url_name: rhel_6_1_0
+  enable_batching: true
+release_00161:
+  allow_beta: 0
+  allow_blocker: 0
+  allow_exception: 0
+  allow_shadow: 0
+  blocker_bugs:
+  blocker_flags: rhel-5.7.0,fast
+  bugs_last_synched_at:
+  default_brew_tag: dist-5E-fastrack-candidate
+  description: Fastrack errata for RHEL 5.7
+  enabled: 1
+  id: 161
+  is_async: 0
+  is_deferred: 0
+  isactive: 1
+  name: FAST5.7
+  product_id: 16
+  ship_date:
+  type: FastTrack
+  url_name: fast5_7
+release_00164:
+  allow_beta: 0
+  allow_blocker: 1
+  allow_exception: 1
+  allow_shadow: 1
+  blocker_bugs:
+  blocker_flags: rhel-5.7.0
+  bugs_last_synched_at:
+  default_brew_tag: ""
+  description: RHEL-5.7
+  enabled: 1
+  id: 164
+  is_async: 0
+  is_deferred: 1
+  isactive: 1
+  name: RHEL-5.7.0
+  product_id: 16
+  ship_date: 2011-07-21 00:00:00 Z
+  type: QuarterlyUpdate
+  url_name: rhel_5_7_0
+release_205:
+  program_manager_id:
+  product_id: 16
+  allow_shadow: 1
+  product_version_id: 149
+  default_brew_tag: ""
+  url_name: rhel_6_3_0
+  is_deferred: 0
+  allow_beta: 0
+  type: QuarterlyUpdate
+  isactive: 1
+  ship_date: 2012-06-19 00:00:00 Z
+  blocker_bugs:
+  allow_exception: 0
+  state_machine_rule_set_id:
+  description: RHEL-6.3.0
+  is_async: 0
+  name: RHEL-6.3.0
+  bugs_last_synched_at: 2012-06-25 19:37:42 Z
+  id: 205
+  enabled: 0
+  blocker_flags: rhel-6.3.0
+  allow_blocker: 0
+release_269:
+  enabled: 1
+  blocker_bugs:
+  is_async: 1
+  allow_blocker: 0
+  allow_exception: 0
+  allow_beta: 0
+  product_id: 82
+  program_manager_id: 193645
+  description: RHCI for the masses
+  type: Async
+  url_name: rhci_1
+  blocker_flags: ""
+  default_brew_tag: ""
+  bugs_last_synched_at:
+  id: 269
+  ship_date:
+  is_deferred: 0
+  state_machine_rule_set_id:
+  name: RHCI-1
+  isactive: 1
+  allow_shadow: 0
+  product_version_id:
+release_246:
+  id: 246
+  name: "RHEV-H 6.4.0"
+  description: "The 6.4 Release of RHEV-H"
+  enabled: 0
+  isactive: 1
+  blocker_bugs:
+  ship_date: "2013-02-21 00:00:00"
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: "rhel-6.4.0"
+  product_version_id: 153
+  is_async: 0
+  default_brew_tag: "rhevh-rhel-6.4-candidate"
+  type: "QuarterlyUpdate"
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 55
+  url_name: "rhev_h 6_4_0"
+  bugs_last_synched_at:
+  program_manager_id: 193645
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+release_325:
+  id: 325
+  name: "RHEL-6.5.z"
+  description: "RHEL-6.5.z"
+  enabled: 1
+  isactive: 1
+  blocker_bugs:
+  ship_date: "2013-11-21 00:00:00"
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: "rhel-6.5.z"
+  product_version_id: 306
+  is_async: 1
+  default_brew_tag: ""
+  type: "Zstream"
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 16
+  url_name: "rhel_6_5_z"
+  bugs_last_synched_at:
+  program_manager_id: 193645
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+release_259:
+  id: 259
+  name: "RHEL-7.0.0"
+  description: "RHEL-7.0.0"
+  enabled: 1
+  isactive: 1
+  blocker_bugs: ~
+  ship_date: "2017-04-01 00:00:00"
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: "rhel-7.0.0"
+  is_async: 0
+  default_brew_tag: ""
+  type: "QuarterlyUpdate"
+  allow_blocker: 1
+  allow_exception: 1
+  is_deferred: 1
+  product_id: 16
+  url_name: "rhel_7_0_0"
+  bugs_last_synched_at: "2014-04-07 23:17:50"
+  program_manager_id: 197253
+  state_machine_rule_set_id: 4
+  allow_pkg_dupes: false
+async_152:
+  description: RHEV Manager 3.y async updates
+  isactive: 1
+  allow_blocker: 0
+  product_version_id: 155
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+  name: RHEV-M 3.y-Async
+  type: Async
+  id: 152
+  bugs_last_synched_at:
+  blocker_bugs:
+  ship_date:
+  allow_exception: 0
+  url_name: rhev_m 3_y_async
+  program_manager_id: 270875
+  enabled: 1
+  allow_shadow: 0
+  is_deferred: 0
+  product_id: 55
+  blocker_flags: ""
+  allow_beta: 0
+  is_async: 1
+  default_brew_tag: rhevm-3.3-rhel-6-candidate
+zstream_286:
+  name: RHOSE 1.2.z
+  allow_beta: 0
+  is_async: 1
+  state_machine_rule_set_id:
+  enabled: 1
+  isactive: 1
+  blocker_flags: ose-1.2.z
+  product_version_id:
+  url_name: rhose 1_2_z
+  bugs_last_synched_at: 2014-10-08 05:30:57 Z
+  product_id: 79
+  allow_pkg_dupes: false
+  program_manager_id: 3001152
+  allow_exception: 0
+  description: Red Hat OpenShift Enterprise 1.2 Z Stream
+  allow_shadow: 0
+  default_brew_tag: devops-1.2-rhel-6-candidate
+  type: Zstream
+  allow_blocker: 0
+  id: 286
+  blocker_bugs:
+  is_deferred: 0
+  ship_date: 2013-11-20 00:00:00 Z
+async_361:
+  name: RHOSE 2.1.z
+  allow_beta: 0
+  is_async: 1
+  state_machine_rule_set_id:
+  enabled: 1
+  isactive: 1
+  blocker_flags: ose-2.1.z
+  product_version_id:
+  url_name: rhose 2_1_z
+  bugs_last_synched_at: 2014-10-08 05:31:31 Z
+  product_id: 79
+  allow_pkg_dupes: false
+  program_manager_id: 3001152
+  allow_exception: 0
+  description: Red Hat OpenShift Enterprise 2.1 Z Stream
+  allow_shadow: 0
+  default_brew_tag: rhose-2.1-rhel-6-candidate
+  type: Async
+  allow_blocker: 0
+  id: 361
+  blocker_bugs:
+  is_deferred: 0
+  ship_date: 2014-05-13 00:00:00 Z
+zstream_334:
+  name: RHOSE 2.0.z
+  allow_beta: 0
+  is_async: 1
+  state_machine_rule_set_id:
+  enabled: 1
+  isactive: 1
+  blocker_flags: ose-2.0.z
+  product_version_id:
+  url_name: rhose 2_0_z
+  bugs_last_synched_at: 2014-10-08 05:31:18 Z
+  product_id: 79
+  allow_pkg_dupes: false
+  program_manager_id: 3001152
+  allow_exception: 0
+  description: Red Hat OpenShift Enterprise 2.0 Z Stream
+  allow_shadow: 0
+  default_brew_tag: rhose-2.0-rhel-6-candidate
+  type: Zstream
+  allow_blocker: 0
+  id: 334
+  blocker_bugs:
+  is_deferred: 0
+  ship_date: 2014-05-13 00:00:00 Z
+zstream_356:
+  url_name: rhel_7_0_z
+  ship_date: 2014-06-10 00:00:00 Z
+  product_version_id:
+  type: Zstream
+  bugs_last_synched_at: 2014-10-08 05:31:31 Z
+  state_machine_rule_set_id:
+  name: RHEL-7.0.Z
+  enabled: 1
+  allow_beta: 0
+  allow_pkg_dupes: false
+  isactive: 1
+  allow_blocker: 0
+  is_deferred: 0
+  default_brew_tag: ""
+  product_id: 16
+  blocker_flags: rhel-7.0.z
+  is_async: 1
+  allow_exception: 0
+  id: 356
+  description: RHEL-7.0.Z
+  blocker_bugs:
+  program_manager_id: 3000743
+  allow_shadow: 0
+release_238:
+  blocker_flags: "rhel-6.3.z"
+  blocker_bugs: ~
+  ship_date: Wed, 20 Jun 2012 00:00:00 UTC +00:00
+  allow_blocker: 0
+  allow_beta: 0
+  is_async: 1
+  description: "RHEL 6.3.z"
+  allow_shadow: 0
+  product_id: 16
+  url_name: "rhel_6_3_z"
+  program_manager_id: 197253
+  name: "RHEL-6.3.z"
+  allow_exception: 0
+  type: "Zstream"
+  is_deferred: 0
+  id: 238
+  isactive: 1
+  product_version_id: 221
+  enabled: 0
+  bugs_last_synched_at: Thu, 13 Jun 2013 04:46:17 UTC +00:00
+  state_machine_rule_set_id: ~
+  allow_pkg_dupes: false
+  default_brew_tag: ""
+release_130:
+  name: "RHN Tools"
+  id: 130
+  enabled: 1
+  allow_blocker: 0
+  allow_exception: 0
+  url_name: "rhn tools"
+  product_version_id: 151
+  isactive: 1
+  ship_date: ~
+  allow_shadow: 0
+  type: "Async"
+  product_id: 60
+  state_machine_rule_set_id: ~
+  description: "RHN Tools"
+  bugs_last_synched_at: ~
+  blocker_bugs: ~
+  allow_beta: 0
+  is_async: 1
+  default_brew_tag: ""
+  is_deferred: 0
+  program_manager_id: ~
+  blocker_flags: ""
+  allow_pkg_dupes: false
+async_452:
+  url_name: rhel_7_1_z
+  blocker_bugs:
+  is_async: 1
+  default_brew_tag: ""
+  allow_exception: 0
+  isactive: 1
+  is_deferred: 0
+  allow_blocker: 0
+  product_id: 16
+  ship_date:
+  type: Async
+  program_manager_id: 3001326
+  name: RHEL-7.1.Z
+  enabled: 1
+  allow_shadow: 0
+  allow_beta: 0
+  id: 452
+  description: RHEL-7.1.Z
+  product_version_id:
+  allow_pkg_dupes: false
+  blocker_flags: rhel-7.1.z
+  bugs_last_synched_at: 2015-02-07 22:38:03 Z
+  state_machine_rule_set_id:
+  enable_batching: true
+fast_track_375:
+  url_name: fast7_1
+  blocker_bugs:
+  is_async: 1
+  default_brew_tag: rhel-7.1-fastrack-candidate
+  allow_exception: 0
+  isactive: 1
+  is_deferred: 0
+  allow_blocker: 0
+  product_id: 16
+  ship_date:
+  type: FastTrack
+  program_manager_id: 3000743
+  name: FAST7.1
+  enabled: 1
+  allow_shadow: 0
+  allow_beta: 0
+  id: 375
+  description: rhel-7.1-fastrack-candidate
+  product_version_id:
+  allow_pkg_dupes: false
+  blocker_flags: rhel-7.1.0,fast
+  bugs_last_synched_at: 2015-02-07 22:36:42 Z
+  state_machine_rule_set_id: 4
+fast_track_421:
+  enabled: 1
+  allow_blocker: 0
+  state_machine_rule_set_id: 4
+  isactive: 1
+  default_brew_tag: RHEL-6-fastrack-candidate
+  product_id: 16
+  id: 421
+  url_name: fast6_7
+  blocker_bugs: ~
+  ship_date: ~
+  description: RHEL-6.7 Fastrack
+  allow_beta: 0
+  name: FAST6.7
+  type: FastTrack
+  is_deferred: 0
+  program_manager_id: 3000743
+  allow_exception: 0
+  allow_pkg_dupes: false
+  product_version_id: ~
+  is_async: 1
+  bugs_last_synched_at: Thu, 12 Mar 2015 00:07:45 UTC +00:00
+  allow_shadow: 0
+  blocker_flags: rhel-6.7.0,fast
+release_468:
+  allow_pkg_dupes: false
+  product_version_id: ~
+  allow_blocker: 1
+  state_machine_rule_set_id: 10
+  name: RHEL-7.2.0
+  description: RHEL-7.2.0
+  enabled: 1
+  blocker_bugs: ~
+  ship_date: 2015-11-10 00:00:00 Z
+  isactive: 1
+  allow_beta: 0
+  url_name: rhel_7_2_0
+  program_manager_id: 3000743
+  allow_shadow: 1
+  blocker_flags: rhel-7.2.0
+  default_brew_tag: rhel-7.2-candidate
+  id: 468
+  is_deferred: 1
+  product_id: 16
+  type: QuarterlyUpdate
+  allow_exception: 1
+  is_async: 0
+  bugs_last_synched_at: Sun, 28 Jun 2015 01:15:03 UTC +00:00
+  enable_batching: true
+zstream_412:
+  default_brew_tag: ""
+  isactive: 1
+  allow_shadow: 0
+  url_name: rhel_6_6_z
+  allow_beta: 0
+  ship_date: 2014-10-14 00:00:00 Z
+  allow_blocker: 0
+  program_manager_id: 3001326
+  product_id: 16
+  type: Zstream
+  is_async: 1
+  bugs_last_synched_at: 2015-07-27 05:24:59 Z
+  description: RHEL-6.6.z
+  blocker_bugs:
+  enabled: 1
+  allow_exception: 0
+  id: 412
+  name: RHEL-6.6.z
+  blocker_flags: rhel-6.6.z
+  is_deferred: 0
+  allow_pkg_dupes: false
+  product_version_id:
+  state_machine_rule_set_id: 6
+quarterly_update_424:
+  blocker_bugs:
+  allow_shadow: 1
+  product_version_id:
+  bugs_last_synched_at: 2015-07-29 02:05:28 Z
+  url_name: rhel_6_7_0
+  allow_pkg_dupes: false
+  enable_batching: false
+  allow_beta: 0
+  isactive: 1
+  is_async: 0
+  default_brew_tag: ""
+  is_deferred: 0
+  enabled: 0
+  blocker_flags: rhel-6.7.0
+  product_id: 16
+  name: RHEL-6.7.0
+  program_manager_id: 3001030
+  description: RHEL-6.7.0
+  state_machine_rule_set_id: 8
+  allow_blocker: 1
+  id: 424
+  allow_exception: 1
+  ship_date: 2015-07-22 00:00:00 Z
+  type: QuarterlyUpdate
+fast_track_465:
+  blocker_bugs:
+  allow_shadow: 0
+  product_version_id:
+  bugs_last_synched_at: 2015-10-17 20:11:10 Z
+  url_name: fast7_2
+  allow_pkg_dupes: false
+  enable_batching: false
+  allow_beta: 0
+  isactive: 1
+  is_async: 1
+  default_brew_tag: rhel-7.2-fastrack-candidate
+  is_deferred: 0
+  enabled: 1
+  blocker_flags: rhel-7.2.0,fast
+  product_id: 16
+  name: FAST7.2
+  program_manager_id: 3000743
+  description: rhel-7.2-fastrack-candidate
+  state_machine_rule_set_id: 4
+  allow_blocker: 0
+  id: 465
+  allow_exception: 0
+  ship_date:
+  type: FastTrack
+async_401:
+  id: 401
+  product_version_id:
+  blocker_bugs:
+  isactive: 1
+  ship_date:
+  allow_shadow: 0
+  blocker_flags: rhs-3.0.z
+  url_name: rhs_3_0_z
+  type: Async
+  enabled: 1
+  allow_beta: 0
+  allow_exception: 0
+  allow_pkg_dupes: false
+  enable_batching: false
+  description: Red Hat Storage 3.0.z
+  allow_blocker: 0
+  is_deferred: 0
+  product_id: 74
+  bugs_last_synched_at: 2015-11-08 01:13:49 Z
+  state_machine_rule_set_id:
+  is_async: 1
+  name: RHS-3.0.z
+  default_brew_tag: ""
+  program_manager_id: 206801
+quarterly_update_516:
+  enabled: 1
+  ship_date: 2016-05-11 00:00:00 Z
+  allow_shadow: 1
+  allow_beta: 0
+  type: QuarterlyUpdate
+  allow_pkg_dupes: false
+  is_async: 0
+  id: 516
+  description: RHEL-6.8.0
+  isactive: 1
+  allow_blocker: 1
+  state_machine_rule_set_id:
+  allow_exception: 1
+  url_name: rhel_6_8_0
+  enable_batching: false
+  name: RHEL-6.8.0
+  blocker_flags: rhel-6.8.0
+  default_brew_tag: rhel-6.8-candidate
+  is_deferred: 0
+  blocker_bugs:
+  product_id: 16
+  product_version_id:
+  bugs_last_synched_at: 2015-11-21 21:37:54 Z
+  program_manager_id: 3001030
+async_444:
+  id: 444
+  name: PDCTestRelease
+  description: PDC test release
+  enabled: 1
+  isactive: 1
+  blocker_bugs:
+  ship_date:
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags:
+  product_version_id:
+  is_async: 1
+  default_brew_tag:
+  type: Async
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 223
+  url_name: pdctestrelease
+  bugs_last_synched_at:
+  program_manager_id:
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+  enable_batching: false
+  is_pdc: true
+async_369:
+  id: 369
+  name: Extras-RHEL-7
+  description: Extras for RHEL-7
+  enabled: 1
+  isactive: 1
+  blocker_bugs:
+  ship_date: 2015-03-04 00:00:00 Z
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: ""
+  product_version_id:
+  is_async: 1
+  default_brew_tag: ""
+  type: Async
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 102
+  url_name: extras_rhel_7
+  bugs_last_synched_at: 2015-05-22 05:37:14 Z
+  program_manager_id: 3002134
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+  enable_batching: true
+zstream_524:
+  id: 524
+  name: RHEL-7.2.Z
+  description: RHEL-7.2.Z
+  enabled: 1
+  isactive: 1
+  blocker_bugs:
+  ship_date: 2015-11-19 00:00:00 Z
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: rhel-7.2.z
+  product_version_id:
+  is_async: 1
+  default_brew_tag: ""
+  type: Zstream
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 16
+  url_name: rhel_7_2_z
+  bugs_last_synched_at: 2016-10-01 09:58:58 Z
+  program_manager_id: 3001326
+  state_machine_rule_set_id: 4
+  allow_pkg_dupes: false
+  enable_batching: true
+quarterly_update_445:
+  id: 445
+  name: ReleaseForPDC
+  description: Release for PDC
+  enabled: 1
+  isactive: 1
+  blocker_bugs:
+  ship_date: 2016-11-19 00:00:00 Z
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: ""
+  product_version_id:
+  is_async: 0
+  default_brew_tag:
+  type: QuarterlyUpdate
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 223
+  url_name: releaseforpdc
+  bugs_last_synched_at:
+  program_manager_id:
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+  enable_batching: false
+  is_pdc: true
+quarterly_update_446:
+  id: 446
+  name: PDCTestRelease
+  description: Release for testing PDC
+  enabled: 1
+  isactive: 1
+  blocker_bugs:
+  ship_date: 2016-11-19 00:00:00 Z
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: ""
+  product_version_id:
+  is_async: 0
+  default_brew_tag:
+  type: QuarterlyUpdate
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 222
+  url_name: pdctestrelease
+  bugs_last_synched_at:
+  program_manager_id:
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+  enable_batching: false
+  is_pdc: true
+quarterly_update_447:
+  id: 447
+  name: ReleaseTestPdcRelease
+  description: Release to test PDC release
+  enabled: 1
+  isactive: 1
+  blocker_bugs:
+  ship_date: 2016-11-19 00:00:00 Z
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: ""
+  product_version_id:
+  is_async: 0
+  default_brew_tag:
+  type: QuarterlyUpdate
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 225
+  url_name: releasetestpdcrelease
+  bugs_last_synched_at:
+  program_manager_id:
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+  enable_batching: false
+  is_pdc: true
+quarterly_update_448:
+  id: 448
+  name: ReleaseTestPdcRelease1
+  description: Release to test PDC release with advisory using it
+  enabled: 1
+  isactive: 1
+  blocker_bugs:
+  ship_date: 2016-11-19 00:00:00 Z
+  allow_shadow: 0
+  allow_beta: 0
+  blocker_flags: ""
+  product_version_id:
+  is_async: 0
+  default_brew_tag:
+  type: QuarterlyUpdate
+  allow_blocker: 0
+  allow_exception: 0
+  is_deferred: 0
+  product_id: 225
+  url_name: releasetestpdcrelease
+  bugs_last_synched_at:
+  program_manager_id:
+  state_machine_rule_set_id:
+  allow_pkg_dupes: false
+  enable_batching: false
+  is_pdc: true

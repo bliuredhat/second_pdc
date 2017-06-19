@@ -1,0 +1,11 @@
+<p><label for="release_blocker_flags">Blocker flags</label> - Quarterly Update releases assume pm_ack, devel_ack, and qa_ack. Add the release specific blocker flag, ex. 5.2.0<br/>
+<%= text_field 'release', 'blocker_flags'  %></p>
+
+<p><label for="release_ship_date">Ship date</label> - This is the earliest advisories in this release can be pushed to RHN Live.<br/>
+<%= text_field :release, :ship_date, {:class => 'eso-datepicker'} %></p>
+
+<p><%= check_box(:release, :allow_shadow,    {:checked=>@release.allow_shadow?   }) %>&nbsp;<label for="release_allow_shadow"   ><b>Allow shadow</b>    - Check if errata in this release can be pushed to RHN shadow channels and CDN shadow repositories.</label></p>
+<p><%= check_box(:release, :allow_blocker,   {:checked=>@release.allow_blocker?  }) %>&nbsp;<label for="release_allow_blocker"  ><b>Allow blocker</b>   - Enables bugs to be added to errata that lack ack flags as long as the blocker flag is set.</label></p>
+<p><%= check_box(:release, :allow_exception, {:checked=>@release.allow_exception?}) %>&nbsp;<label for="release_allow_exception"><b>Allow exception</b> - Enables bugs to be added to errata that lack ack flags as long as the exception flag is set.</label></p>
+<p><%= check_box(:release, :allow_pkg_dupes, {:checked=>@release.allow_pkg_dupes?}) %>&nbsp;<label for="release_allow_pkg_dupes"><b>Allow multiple advisories per package</b> - Allows multiple advisories in this release to refer to the same package.</label></p>
+<p><%= check_box(:release, :is_deferred,     {:checked=>@release.is_deferred?    }) %>&nbsp;<label for="release_is_deferred"    ><b>Is Deferred</b>     - If set, this release is deferred to sometime in the future.<br/>Many errata will be released before any in this release, so they are given temporary advisory ids starting &gt; 8000.</label></p>

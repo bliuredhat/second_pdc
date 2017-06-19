@@ -1,0 +1,102 @@
+# HTTP 200
+{
+
+    "libvirt-0.10.2-46.el6_6.6": {
+        "variant_files": {
+            "6Server-optional": [
+                "libvirt-lock-sanlock-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm"
+            ],
+            "6ComputeNode": [
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-0.10.2-46.el6_6.6.src.rpm",
+                "libvirt-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.x86_64.rpm"
+            ],
+            "6ComputeNode-optional": [
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-lock-sanlock-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.i686.rpm"
+            ],
+            "6Client": [
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-0.10.2-46.el6_6.6.src.rpm",
+                "libvirt-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.x86_64.rpm"
+            ],
+            "6Workstation-optional": [
+                "libvirt-lock-sanlock-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm"
+            ],
+            "6Workstation": [
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-0.10.2-46.el6_6.6.src.rpm",
+                "libvirt-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.x86_64.rpm"
+            ],
+            "6Server": [
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.ppc.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.s390.rpm",
+                "libvirt-0.10.2-46.el6_6.6.s390x.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.ppc64.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.ppc.rpm",
+                "libvirt-0.10.2-46.el6_6.6.ppc64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.s390x.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-0.10.2-46.el6_6.6.src.rpm",
+                "libvirt-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.ppc64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.s390x.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.s390x.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.ppc64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.s390.rpm",
+                "libvirt-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.ppc.rpm",
+                "libvirt-python-0.10.2-46.el6_6.6.ppc64.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.s390x.rpm",
+                "libvirt-client-0.10.2-46.el6_6.6.s390.rpm"
+            ],
+            "6Client-optional": [
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.i686.rpm",
+                "libvirt-lock-sanlock-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-devel-0.10.2-46.el6_6.6.i686.rpm"
+            ]
+        },
+        "mapped_variant_files": {
+            "6Server-RHS-Server-3": [
+                "libvirt-lock-sanlock-0.10.2-46.el6_6.6.x86_64.rpm"
+            ],
+            "6Server-RHEV-Virt-Agent": [
+                "libvirt-lock-sanlock-0.10.2-46.el6_6.6.x86_64.rpm",
+                "libvirt-debuginfo-0.10.2-46.el6_6.6.x86_64.rpm"
+            ]
+        }
+    }
+
+}

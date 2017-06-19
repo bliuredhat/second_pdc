@@ -1,0 +1,24 @@
+<tr class="mouseover-highlight clickable_row <%= 'is_inactive' unless product_version.canonical_is_active? %>">
+  <td style="padding-left:1em!important;">
+    <a href="<%= product_product_version_path(product_version.product, product_version) %>" class="clickable_row_link" style="color:inherit">
+      <span class="bold big filter_on"><%= product_version.canonical_short_name %></span>
+    </a>
+    <br/>
+    <span class="small superlight filter_on"><%= product_version.canonical_long_name.blank? ? raw('&nbsp;') : product_version.canonical_long_name %></span>
+  </td>
+  <td>
+    <%= is_active_icon(product_version.canonical_is_active?) %>
+  </td>
+  <td class="small light">
+    <%= product_version.default_brew_tag %>
+  </td>
+  <td class="small light">
+    <%= link_to(n_thing_or_things(product_version.channels, 'channel'), product_version_channels_path(product_version)) %>
+  </td>
+  <td class="small light">
+    <%= link_to(n_thing_or_things(product_version.cdn_repos, 'repo'), product_version_cdn_repos_path(product_version)) %>
+  </td>
+  <td class="small light">
+    <%= link_to(n_thing_or_things(product_version.variants, 'variant'), product_version_variants_path(product_version)) %>
+  </td>
+</tr>

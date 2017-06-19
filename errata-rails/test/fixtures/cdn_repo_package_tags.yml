@@ -1,0 +1,96 @@
+cdn_repo_package_tag_1:
+  cdn_repo_package_id: 1
+  id: 1
+  created_at: 2016-01-29 01:35:48 Z
+  updated_at: 2016-01-29 01:35:48 Z
+  tag_template: perl520-{{release}}
+  who_id: 174587
+cdn_repo_package_tag_2:
+  updated_at: 2016-02-09 23:14:07 Z
+  who_id: 3000931
+  created_at: 2016-02-09 23:14:07 Z
+  id: 2
+  cdn_repo_package_id: 1
+  tag_template: latest
+cdn_repo_package_tag_3:
+  updated_at: 2016-02-09 23:14:35 Z
+  who_id: 3000931
+  created_at: 2016-02-09 23:14:35 Z
+  id: 3
+  cdn_repo_package_id: 1
+  tag_template: rh-perl520-{{version}}
+cdn_repo_package_tag_4:
+  created_at: 2016-02-09 23:19:57 Z
+  who_id: 3000931
+  updated_at: 2016-02-09 23:19:57 Z
+  tag_template: latest
+  id: 4
+  cdn_repo_package_id: 2
+cdn_repo_package_tag_5:
+  created_at: 2016-02-09 23:22:26 Z
+  who_id: 3000931
+  updated_at: 2016-02-09 23:22:26 Z
+  tag_template: rh-ruby22-{{version}}
+  id: 5
+  cdn_repo_package_id: 2
+cdn_repo_package_tag_6:
+  created_at: 2016-03-03 04:24:31 Z
+  updated_at: 2016-03-03 04:24:31 Z
+  who_id: 3000931
+  id: 6
+  tag_template: latest
+  cdn_repo_package_id: 3
+cdn_repo_package_tag_7:
+  created_at: 2016-03-03 04:24:41 Z
+  updated_at: 2016-03-03 04:24:41 Z
+  who_id: 3000931
+  id: 7
+  tag_template: "{{release}}-{{version}}"
+  cdn_repo_package_id: 3
+cdn_repo_package_tag_8:
+  cdn_repo_package_id: 4
+  updated_at: 2016-05-08 22:37:20 Z
+  id: 8
+  created_at: 2016-05-08 22:37:20 Z
+  tag_template: latest
+  who_id: 3000931
+cdn_repo_package_tag_9:
+  who_id: 3000931
+  id: 9
+  cdn_repo_package_id: 3
+  tag_template: test-7server
+  created_at: 2016-08-11 23:34:19 Z
+  updated_at: 2016-08-11 23:34:19 Z
+  variant_id: 594
+cdn_repo_package_tag_10:
+  who_id: 3000931
+  id: 10
+  cdn_repo_package_id: 3
+  tag_template: test-7.1.z
+  created_at: 2016-08-11 23:35:03 Z
+  updated_at: 2016-08-11 23:35:03 Z
+  variant_id: 1023
+cdn_repo_package_tag_60:
+  id: 60
+  cdn_repo_package_id: 22
+  tag_template: latest
+  who_id: 3002075
+  created_at: 2016-07-15 14:28:23 Z
+  updated_at: 2016-07-15 14:28:23 Z
+  variant_id:
+cdn_repo_package_tag_58:
+  id: 58
+  cdn_repo_package_id: 22
+  tag_template: "{{version}}"
+  who_id: 3002075
+  created_at: 2016-07-15 14:28:09 Z
+  updated_at: 2016-07-15 14:28:09 Z
+  variant_id:
+cdn_repo_package_tag_59:
+  id: 59
+  cdn_repo_package_id: 22
+  tag_template: "{{version}}-{{release}}"
+  who_id: 3002075
+  created_at: 2016-07-15 14:28:16 Z
+  updated_at: 2016-07-15 14:28:16 Z
+  variant_id:

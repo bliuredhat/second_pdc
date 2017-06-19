@@ -1,0 +1,24 @@
+{
+   "data" : [
+      {
+         "type" : "batches",
+         "relationships" : {
+            "release" : {
+               "name" : "RHEL-7.1.Z",
+               "id" : 452
+            },
+            "errata" : [
+               { "id" : 19401 }, { "id" : 19829 }, { "id" : 19830 }
+            ]
+         },
+         "id" : 2,
+         "attributes" : {
+            "description" : "This is a batch description",
+            "release_date" : "2015-09-14",
+            "is_active" : true,
+            "name" : "batch_2"
+         }
+      },
+      ...
+   ]
+}

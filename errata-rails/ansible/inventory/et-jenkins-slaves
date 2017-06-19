@@ -1,0 +1,21 @@
+[et-jenkins-slaves]
+docker-[01:04] docker_py_version=1.5.0
+docker-04 ansible_ssh_host=jenkins-slave-errata.eng.bne.redhat.com
+
+# These hosts run in os1
+[nova]
+# currently none due to instability; if we had one, it might
+# look like this
+#docker-04 ansible_ssh_user=fedora
+
+# These run on rmcgover workstation
+[rmcgover-ws]
+docker-02
+
+# These run on sbaird's workstation
+[hoggle]
+docker-03
+
+# This is a box next to sbaird's workstation
+[cetty]
+docker-01

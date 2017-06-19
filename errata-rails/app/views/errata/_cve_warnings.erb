@@ -1,0 +1,8 @@
+<div id="cve_warnings" class="errorExplanation" style="border-radius:0.5em;margin-top:0.7em;margin-bottom:1em;">
+  <h2 style="padding-top:0;">CVE Warnings:</h2>
+  <ul>
+    <% @cve_problems.each do |c| %>
+      <li><%= c %></li>
+    <% end %>
+  </ul>
+</div>

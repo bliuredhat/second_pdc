@@ -1,0 +1,21 @@
+To: errata-test@redhat.com, kernel-qe@redhat.com, release-engineering@redhat.com
+Subject: ET: [RHBA-2015:19032 RHEL-6.1.0] device-mapper-multipath - Live push request RHBA-2015:19032-0
+X-ErrataTool-Component: ERRATA
+X-ErrataTool-Action: PUSH-REQUEST
+X-Errata-QE-Group: Kernel QE
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+Live Push Requested for Errata [RHBA-2015:19032-02 RHEL-6.1.0] device-mapper-multipath bug fix and enhancement update [cdn restricted]
+
+https://errata-test.example.com/push/push_errata/19032
+
+
+Advisory:
+  [RHBA-2015:19032 RHEL-6.1.0] device-mapper-multipath bug fix and enhancement update [cdn restricted]
+  Status: PUSH_READY, Package: device-mapper-multipath
+  https://errata-test.example.com/advisory/19032
+
+
+(ET 3.11.0-0 errata-test.example.com test)

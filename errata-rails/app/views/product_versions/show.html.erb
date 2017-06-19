@@ -1,0 +1,16 @@
+<%
+  tabs = []
+  dist_repo_types = @variant_map.members.sort
+  dist_repo_types.each do |type|
+    contents = []
+    klass = type.to_s.classify.constantize
+    block_or_none_text(@variant_map.send(type).sort) do |list|
+      list.each do |(variant, dist_repos)|
+        contents << render("shared/variants/channels_and_repos_for_variant", :variant => variant, :dist_repos => dist_repos, :klass => klass)
+      end
+    end
+    tabs << [type, "Attached #{klass.display_name.pluralize}", safe_join(contents)]
+  end
+%>
+
+<%= render 'shared/mgmt_object', :parent => @product, :tabs => tabs %>

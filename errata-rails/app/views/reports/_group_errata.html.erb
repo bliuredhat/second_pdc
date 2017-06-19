@@ -1,0 +1,88 @@
+<% total_verified = 0 
+   total_bugs = 0
+   @org_errata.values.each do |errata| 
+     errata.each do |e| 
+       total_verified += e.verified_bugs.length
+       total_bugs += e.bugs.length
+     end
+   end
+%>
+<h2><%= total_verified %> Bugs Verified out of <%= total_bugs %></h2>
+<table class="buglist" CELLPADDING="0" CELLSPACING="0" ALIGN="CENTER">
+  <thead>
+    <tr>
+    <td ALIGN="left">Advisory&nbsp;</td>
+    <td ALIGN="center">Product&nbsp;</td>
+    <td ALIGN="center">Release&nbsp;</td>
+    <td ALIGN="left">Synopsis&nbsp;</td>
+    <td ALIGN="left"><%= @responsible.to_s.split('_').collect {|s| s.capitalize }.join(' ') %>&nbsp;</td>
+    <td ALIGN="left">Respins</td>
+    <td ALIGN="center">Status&nbsp;</td>
+    <td ALIGN="center">Status Time&nbsp;</td>
+    <td ALIGN="center">Bugs Completed&nbsp;</td>
+    </tr>
+  </thead>
+
+
+<% @org_errata.keys.sort {|a,b| a.name <=> b.name }.each do |org| 
+   org_verified = 0
+   org_total = 0
+   @org_errata[org].each do |e| 
+     org_verified += e.verified_bugs.length 
+     org_total += e.bugs.length
+   end
+   if org.manager
+   if org.manager.realname == org.name
+   manager = org.manager.login_name
+   else
+   manager = org.manager.to_s 
+   end
+   end
+   manager = 'No assigned manager' unless org.manager
+
+-%>
+
+
+
+   
+<tr bgcolor="#dedede">
+<td ALIGN="center" colspan="9" style="background-color:#fff;">
+  <br/>
+  <b style="font-size:140%"><%=h org.name %> - <%=h manager %></b>&nbsp;&nbsp;&nbsp;<%= org_verified %> out of <%= org_total %> Bugs Verified
+</td>
+</tr>
+<% errata = @org_errata[org] %>
+<% bz_class = 'bz_odd'
+
+    for e in errata.sort {|a,b| a.advisory_name <=> b.advisory_name}
+         if(bz_class == 'bz_even')
+            bz_class = 'bz_odd'
+         else
+            bz_class = 'bz_even'
+         end
+%>
+<% bz_class = 'bz_warning' if @alert_state == e.status.to_s %>
+ <tr class="<%= bz_class %>">
+  <td ALIGN="left"><%= errata_link(e) %></td>
+  <td><%=h e.product.short_name %></td>
+  <td><%=h e.release.name %></td>
+  <td><%=h e.synopsis %></td>
+  <% user = e.send(@responsible) %>
+  <td title="<%=h user.realname %>">
+    <%= link_to user.login_name, {:controller => 'user', :action => 'assigned_errata', :id => user.url_name}, :title => user.realname %>
+  </td>
+  <td><%=h e.respin_count %></td>
+  <td><%=h e.status %></td>
+  <td><%= time_ago_in_words(e.status_updated_at,true)%></td>
+  <td>
+    <% if e.verified_bugs.length == e.bugs.length -%>
+    All <%= e.bugs.length %>
+    <% else %>
+    <%= e.verified_bugs.length %> out of <%= e.bugs.length %>
+    <% end %>
+
+</td>
+</tr>
+<% end %>
+<% end %>
+</table>

@@ -1,0 +1,8 @@
+  <% product_version.product.push_targets.each do |push_target| %>
+    <label>
+      <%= check_box_tag('product_version[push_targets][]', push_target.id, product_version.push_targets.include?(push_target)) %>&nbsp;
+      <%= push_target.description %> (Pub Target: <i><tt><%= push_target.pub_target %>)</tt></i>
+    </label>
+    <br/>
+  <% end %>
+  <span class ="small light">If a push target is disallowed in the product version level, then it will also be unset in the variant level.</span>

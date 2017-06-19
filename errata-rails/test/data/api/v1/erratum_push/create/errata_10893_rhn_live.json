@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "rhn_live": [
+      "Can't push advisory to Rhn Live now due to: State NEW_FILES invalid. Must be one of: PUSH_READY, IN_PUSH, SHIPPED_LIVE"
+    ]
+  }
+}

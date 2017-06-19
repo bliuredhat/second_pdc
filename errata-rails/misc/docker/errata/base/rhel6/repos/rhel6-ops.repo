@@ -1,0 +1,28 @@
+[Eng-systems]
+name=Engineering Systems - $releasever - $basearch
+baseurl=http://download.devel.redhat.com/yum/redhat/eng-systems/rhel6/live/$basearch/
+gpgcheck=1
+gpgkey=http://download.devel.redhat.com/yum/RPM-GPG-KEY-redhatengsystems
+enabled=1
+
+[Eng-systems-noarch]
+name=Engineering Systems - $releasever - noarch
+baseurl=http://download.devel.redhat.com/yum/redhat/eng-systems/rhel6/live/noarch/
+gpgcheck=1
+gpgkey=http://download.devel.redhat.com/yum/RPM-GPG-KEY-redhatengsystems
+enabled=1
+
+
+[Eng-systems-stage]
+name=Engineering Systems - stage - $releasever - $basearch
+baseurl=http://download.devel.redhat.com/yum/redhat/eng-systems/rhel6/stage/$basearch/
+gpgcheck=1
+gpgkey=http://download.devel.redhat.com/yum/RPM-GPG-KEY-redhatengsystems
+enabled=0
+
+[Eng-systems-stage-noarch]
+name=Engineering Systems - stage - $releasever - noarch
+baseurl=http://download.devel.redhat.com/yum/redhat/eng-systems/rhel6/stage/noarch/
+gpgcheck=1
+gpgkey=http://download.devel.redhat.com/yum/RPM-GPG-KEY-redhatengsystems
+enabled=0

@@ -1,0 +1,38 @@
+<%= render :partial => "shared/bz_table", :locals => {
+  :row_items => @rhel_releases,
+
+  :headers => [
+    'Name',
+    'Description',
+    'FTP DebugInfo',
+    {:content => 'Delete', :options => {:class=>'unsortable'}},
+    {:content => 'Edit',   :options => {:class=>'unsortable alignright'}}
+  ],
+
+  :func => lambda do |rhel_release|
+    [
+      rhel_release.name,
+      rhel_release.description,
+
+      # Indicate the exclude_ftp_debuginfo flag value in a nice readable way
+      (
+        rhel_release.exclude_ftp_debuginfo ?
+          content_tag(:span, 'EXCLUDED',  :class=>'red bold' ) :
+          content_tag(:span, 'published', :class=>'green'    )
+      ),
+
+      # Delete button but only if it is okay to delete
+      (
+        link_to('Delete', rhel_release,
+          :method  => :delete,
+          :confirm => "Really delete RHEL version '#{rhel_release.name}'?"
+        ) if rhel_release.delete_ok?
+      ),
+
+      # Edit button
+      {
+        :content => link_to('Edit', edit_rhel_release_path(rhel_release))
+      },
+    ]
+  end
+} %>

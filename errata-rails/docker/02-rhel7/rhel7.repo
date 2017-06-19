@@ -1,0 +1,23 @@
+[rel-eng-rhel-7.0]
+name=rel-eng Red Hat Enterprise Linux $releasever - $basearch
+baseurl=http://download.devel.redhat.com/rel-eng/repos/rhel-7.0/$basearch/
+enabled=1
+gpgcheck=0
+
+[rel-eng-rhel-7.0-z]
+name=rel-eng Red Hat Enterprise Linux Updates $releasever - $basearch
+baseurl=http://download.devel.redhat.com/rel-eng/repos/rhel-7.0-z/$basearch/
+enabled=1
+gpgcheck=0
+
+[extras-7.0]
+name=brew Red Hat Enterprise Linux extras 7.0 - $basearch
+baseurl=http://download.devel.redhat.com/brewroot/repos/extras-rhel-7.0-build/latest/$basearch/
+enabled=1
+gpgcheck=0
+
+[extras-7.1]
+name=brew Red Hat Enterprise Linux extras 7.1 - $basearch
+baseurl=http://download.devel.redhat.com/brewroot/repos/extras-rhel-7.1-build/latest/$basearch/
+enabled=1
+gpgcheck=0

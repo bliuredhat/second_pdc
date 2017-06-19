@@ -1,0 +1,81 @@
+<%#
+  #
+  # Edit tags for packages mapped to CDN repos.
+  #
+%>
+
+<%= page_title_h1 %>
+<%= javascript_include_tag 'package_show' %>
+
+Multiple tag templates may be defined for each package. The following attributes are supported:
+<ul>
+  <li><kbd>{{release}}</kbd> : Build release</li>
+  <li><kbd>{{version}}</kbd> : Build version</li>
+</ul>
+Dot-separated groups of digits may be extracted by specifying the number of groups in parentheses.
+<br />
+For example, if the version string is <b>"v3.2.0.20-3"</b>, <kbd>{{version(3)}}</kbd> would return <b>"3.2.0"</b>.
+<br /><br />
+<% if @tags.empty? %>
+  No tags are currently associated with this package in this CDN repository.
+  <br /><br />
+
+<% else %>
+  The following tags will be applied to this package when pushed to CDN repository <b>'<%= @cdn_repo.name %>'</b>:
+  <br /><br />
+
+  <% @tags.group_by(&:variant).sort_by{|a,b| a.try(:name)||''}.each do |variant, tags| %>
+    <h4><%= variant ?
+      "Variant #{link_to(variant.name, product_version_variant_path(variant.product_version, variant))}".html_safe :
+      'Any Variant'
+    %></h4>
+
+    <ul>
+      <% tags.sort_by(&:tag_template).each do |tag| %>
+        <li>
+        <kbd><%= tag.tag_template %></kbd>
+        <% if current_user.can_manage_cdn_repo_packages? %>
+          <%# Button to delete the package tag %>
+          <%= link_to 'Delete',
+          { :action => 'remove_package_tag', :cdn_repo_package_tag_id => tag.id },
+            :method  => :post,
+            :title   => 'Delete',
+            :confirm => "Remove tag template '#{tag.tag_template}'?",
+            :class   => 'btn btn-mini btn-delete'
+          %>
+        <% end %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+<% end %>
+
+<%# Re-using existing package_show.js for hiding/unhiding %>
+<div class="excl_container" style="margin-bottom:1em;">
+  <% if current_user.can_manage_cdn_repo_packages? %>
+
+    <%# Button to show the hidden form %>
+    <%= link_to 'Add', "#", :class=>'show_ex_form btn btn-mini btn-toggle btn-add' %>
+
+    <div class="exclusion_form" style="display:none;">
+      <%= form_tag :action => :add_package_tag, :cdn_repo_package_id => @mapping.id do %>
+        <table style="mgmt">
+          <%= table_rows_helper([
+            [ 'Tag template', text_field_tag(:tag_template) ],
+            [ 'Variant (optional)',
+              select_tag(:variant_id,
+                         options_for_select(@cdn_repo.cdn_repo_links.map(&:variant).sort_by(&:name).map{|v| [v.name, v.id]}.unshift(['Any', nil])),
+                         :class => 'eso-chosen-select')
+            ],
+          ], :labels => true) %>
+        </table>
+        <%= submit_tag( 'Create', :class=>'btn btn-primary')%>
+        <%= link_to( "Cancel", "#", :class=>'btn-toggle') %>
+      <% end %>
+    </div>
+
+  <% end %>
+</div>
+
+<%= link_to 'Back', variant_cdn_repo_path(@cdn_repo.variant, @cdn_repo, :anchor => "packages_tab") %>
+

@@ -1,0 +1,28 @@
+{
+  "data": {
+    "attributes": {
+      "content_type": "Binary",
+      "name": "rhel-7-desktop-rpms__7Client__x86_64",
+      "release_type": "Primary",
+      "use_for_tps": true
+    },
+    "id": 1275,
+    "relationships": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "variants": [
+        {
+          "id": 842,
+          "name": "7Client-7.0.Z"
+        },
+        {
+          "id": 699,
+          "name": "7Client"
+        }
+      ]
+    },
+    "type": "cdn_repos"
+  }
+}

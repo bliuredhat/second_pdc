@@ -1,0 +1,6 @@
+<%= f.select(:state_machine_rule_set_id, StateMachineRuleSet.all.map{|r|[r.name,r.id]}, {}, :class=>'shorter select-with-text') %>
+<% StateMachineRuleSet.all.each do |state_machine_rule_set| %>
+  <span class="select-text select-text-<%= state_machine_rule_set.id %>" style="padding-left:0.5em;">
+    <%= state_machine_rule_set.description %>
+  </span>
+<% end %>

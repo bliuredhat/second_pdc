@@ -1,0 +1,88 @@
+Release Notes for Version 3.12.3
+================================
+
+Overview
+--------
+
+Release 3.12.3 is the 4th release in
+the Errata Tool 3.12 development period. It closes [16 bugs and RFEs][buglist].
+
+This release of Errata Tool includes enhancements to batch functionality
+which now allows set of advisories in a batch to be locked, and a number of
+enhancements to Product Security workflow, UI, and Pub integration.
+
+Additionally, during the 3.12.3 development period, an additional [3 bug
+fixes][hotfixes] were shipped in 3.12.2.1.
+
+<% sort_these_first %w[1323229 1318218] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.12.3][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1189881%2C1189882%2C1304925%2C1305977%2C1309570%2C1310589%2C1315118%2C1318218%2C1320323%2C1323229%2C1323541%2C1323693%2C1325801%2C1325820%2C1325840%2C1326300
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.12.3-0&id2=3.12.2-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.12.3-0&id2=3.12.2.1-0
+[hotfixes]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1318588%2C1314640%2C1310471
+
+<%= all_include_content %>
+
+## Process and Team Changes
+
+### Code coverage
+
+The Errata Tool team continues to gradually improve code coverage by requiring
+all new features and bugfixes to be accompanied by an autotest.
+
+In Errata Tool 3.12.3 our coverage ratio is 94.1%.
+
+[![Rcov coverage report](images/3.12.3/rcov.png)](images/3.12.3/rcov.png)
+
+### Team changes
+
+Rohan McGovern is leaving the team permanently to lead the newly formed
+Content Delivery team, who will be responsible for improving the processes
+and tools in the part of the release workflow downstream from Errata Tool.
+Jason McDonald will be the Product Owner for that team, but also continues
+as the Product Owner for Errata Tool.
+
+What's Next
+------------
+
+### Errata Tool 3.12.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.12
+in Bugzilla for inclusion in two week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be 3.12.4.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.12 take a look at [bugs flagged with
+errata-3.12 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.13
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.13 take a look at [bugs
+flagged with errata-3.13][bugs_next].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.12&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.13&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

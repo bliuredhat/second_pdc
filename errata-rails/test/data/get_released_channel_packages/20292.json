@@ -1,0 +1,10 @@
+{
+  "jbappplatform-6-ppc64-server-7-rpm": [
+    "/mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/1.GA_redhat_1.1.ep6.el7/data/signed/fd431d51/noarch/javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/1.GA_redhat_1.1.ep6.el7/data/signed/fd431d51/src/javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7.src.rpm"
+  ],
+  "jbappplatform-6-x86_64-server-7-rpm": [
+    "/mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/1.GA_redhat_1.1.ep6.el7/data/signed/fd431d51/noarch/javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/1.GA_redhat_1.1.ep6.el7/data/signed/fd431d51/src/javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7.src.rpm"
+  ]
+}

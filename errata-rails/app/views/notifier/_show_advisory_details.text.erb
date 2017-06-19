@@ -1,0 +1,4 @@
+Advisory:
+  <%= errata.name_release_and_synopsis %>
+  Status: <%= errata.status %><%= ", #{pluralize_based_on(errata.packages,'Package')}: #{errata.packages.join(', ')}" if !errata.packages.empty? %>
+  <%= errata_text_url(errata) %>

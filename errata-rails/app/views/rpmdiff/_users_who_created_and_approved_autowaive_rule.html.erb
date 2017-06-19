@@ -1,0 +1,11 @@
+<ul id="show-rpmdiff-autowaive-rule-who">
+  <% if rule.who %>
+    <li>Created by <%= nice_mailto_link(rule.who) %> at <%= rule.created_at %> </li>
+  <% end %>
+  <% if rule.approved_by %>
+    <li>Approved by <%= nice_mailto_link(rule.approved_by) %> at <%= rule.approved_at %></li>
+  <% end %>
+  <% if rule.active %>
+    <li><%= rule.active ? 'Already active' : 'Inactive' %></li>
+  <% end %>
+</ul>

@@ -1,0 +1,71 @@
+<%= form_tag :action => 'save_builds', :id => @errata do %>
+  <%= render 'content_types_select' %>
+  <%= submit_tag 'Save Builds', :class=>'btn btn-primary' %>
+  <% @product_builds.keys.each do |pv| %>
+    <%# Note: The pv here might be a product_version
+        or a pdc_release, but let's not rename it just now. %>
+    <table class="buglist" cellspacing="2" cellpadding="0">
+      <% brew_builds = @product_builds[pv] %>
+      <% if brew_builds.empty? %>
+        <h2>No New Builds for <%= pv.short_name %></h2>
+      <% else %>
+        <caption><h2><%= pv.short_name %> has new builds</h2></caption>
+      <% end %>
+      <% brew_builds.each do |build| %>
+        <tr>
+          <thead>
+            <% obsolete = ''
+               # Note that, if a build is implicitly added due to _multiple_ relationships, currently
+               # we only display info about the first.  I think that's OK, no need for information
+               # overload.
+               related = @build_relations.select{|rel| rel.satisfied && rel.related_nvr == build.nvr}.first
+            %>
+            <% if (@old_builds_by_product[pv].has_key?(build.package)) %>
+              <% old_build = @old_builds_by_product[pv][build.package] %>
+              <% obsolete = ", obsoletes #{brew_link(old_build)}" %>
+            <% end %>
+            <td align="center">Build <%= brew_link(build) %><%=raw obsolete %>. <%= build_relation_badge(related) %></td>
+            <td><div style="float:right;"><%= missing_listing_badge("#{pv.id}_#{build.id}", build.has_valid_listing?(pv)) %></div></td>
+          </thead>
+        </tr>
+        <%# Multi-product mappings are defined based on product versions
+            so won't work for PDC advisories currently. Skip this for now. %>
+        <% if !@errata.is_pdc? %>
+         <% relevant_product_versions = MultiProductMap.mapped_product_versions(pv, build.package) %>
+         <% if relevant_product_versions.any? %>
+          <% if @errata.supports_multiple_product_destinations? %>
+            <tr>
+              <td class="alert alert-info big" colspan="2">
+                <%# It's explicitly on %>
+                Note: Due to <%= link_to 'multi-product mappings', { :controller => :multi_product_mappings }, :target => "_blank" %> for
+                <%= build.package.name %> this build may also include contents for <%= link_to "mapped product versions( #{display_list_with_and(relevant_product_versions.map(&:name))} )", { :controller => :multi_product_mappings }, :target => "_blank" %>.<br>
+                For more details please see <%= link_to "advisory's Content tab", { :controller => :errata, :id => @errata, :action => :content }, :target => "_blank" %>
+                after the build has been saved.
+              </td>
+            </tr>
+          <% elsif @errata.supports_multiple_product_destinations.nil? %>
+            <tr>
+              <td class="alert alert-info big" colspan="2">
+                <%# Will set it if user adds these builds %>
+                There are some applicable multi-product mappings so adding
+                these builds will enable the 'Multiple products' feature for this advisory.
+                It can be disabled later if required.
+              </td>
+            </tr>
+          <% else %>
+            <tr>
+              <td class="alert alert-info big" colspan="2">
+                <%# It's explicitly off %>
+                Note: The 'Multiple products' feature has been disabled for this advisory.
+                However, <%= build.package.name %> has <%= link_to "mapped product versions( #{display_list_with_and(relevant_product_versions.map(&:name))} )", { :controller => :multi_product_mappings }, :target => "_blank" %>.
+                To enable it, please visit <%= link_to "advisory's Edit page", { :controller => :errata, :id => @errata, :action => :edit }, :target => "_blank" %>.
+              </td>
+            </tr>
+          <% end %>
+         <% end %>
+        <% end %><%# !@errata.is_pdc? %>
+        <%= render 'brew_file_select', :build => build, :pv => pv %>
+      <% end %>
+    </table>
+  <% end %>
+<% end %>

@@ -1,0 +1,10 @@
+<%= form_tag(url_for([:detach, @parent, controller_name]), {:method => "post"}) do %>
+  <% if can_edit_mgmt_items? %>
+    <div class="btn-group" style="padding:5px;float:right;">
+      <%= submit_tag("Detach selected", :class => "btn") %>
+    </div>
+  <% end %>
+  <p style="clear:both;"></p>
+  <%= hidden_field_tag(:back_to_tab, "indirect_repos") %>
+  <%= table_func.call(@indirect_repos, false) %>
+<% end %>

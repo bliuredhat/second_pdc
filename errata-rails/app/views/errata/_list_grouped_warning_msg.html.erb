@@ -1,0 +1,10 @@
+<% if @errata_filter.is_grouped? && @erratas.total_pages > 1 %>
+  <div style="padding:3em;">
+    <div class="alert alert-info tiny">
+      <%# @_previous_group_val is set in _list_grouped_header.  It is an @ var just so we can use it here as well. -%>
+      <%= image_tag 'icon_warning.png' %> <b>NB</b>: There might be more
+      <b><%= @_previous_group_val.send(@errata_filter.group_by[:group_label]) if @_previous_group_val %></b> advisories
+      on the next page due to the way pagination works with grouped advisory lists.
+    </div>
+  </div>
+<% end %>

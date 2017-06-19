@@ -1,0 +1,34 @@
+<%= block_render 'shared/in_box' do %>
+  <h2 style="margin-top:0;">Approve Changes</h2>
+
+  <div class="small">
+   Please enter an explanation below if these changes are valid and intentional. Doing so will change the test result for this test to a passing<br/>
+   status. Someone looking at this explanation a year from now should be able to understand your reasoning in accepting the change. Specific<br/>
+   things to mention may include bug #'s fixed, issue tracker numbers and/or parts from the errata advisory or package changelog. Alternatively,<br/>
+   you can create a new package with these items fixed and replace the erratum files.
+  </div>
+
+  <%= form_tag :action => 'waive', :id => waive.result_id do %>
+    <% initial_content = (waive.latest_waiver ? waive.latest_waiver.description : 'This change is ok because ') %>
+    <%# Let's provide restore and clear links for users who get suprised and bewildered by clearWaiveText() %>
+    <span class="tiny">
+      <%= link_to 'Clear', '#', :id => 'clear-waive-text' %> &nbsp;
+      <%= link_to 'Revert', '#',:id => 'revert-waive-text', :data => { 'placeholder' => "#{j initial_content}" } %>
+    </span>
+    <br/>
+    <%= text_area_tag \
+      'waive_text',
+      initial_content,
+      :wrap    => 'soft',
+      :id      => 'waive_text_textarea',
+      :class   => 'waive_reason'
+    %><br/>
+    <%= hidden_form_elements(waive.rpmdiff_run.errata,waive.rpmdiff_run,waive) %>
+    <%= submit_tag 'Waive', :class=>'btn btn-primary' %>
+  <% end %>
+
+  <div class="small">
+    <%= render 'waiver_roles_message', :waiver_roles => waive.waiver_roles %>
+  </div>
+
+<% end %>

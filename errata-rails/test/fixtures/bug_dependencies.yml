@@ -1,0 +1,76 @@
+---
+bug_dependency_10421:
+  id: 10421
+  bug_id: 1147004
+  blocks_bug_id: 1147005
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10422:
+  id: 10422
+  bug_id: 1147004
+  blocks_bug_id: 1147006
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10423:
+  id: 10423
+  bug_id: 1036355
+  blocks_bug_id: 1147004
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10424:
+  id: 10424
+  bug_id: 1142089
+  blocks_bug_id: 1147004
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10425:
+  id: 10425
+  bug_id: 1147005
+  blocks_bug_id: 1147006
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10426:
+  id: 10426
+  bug_id: 1036355
+  blocks_bug_id: 1147005
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10427:
+  id: 10427
+  bug_id: 1142089
+  blocks_bug_id: 1147005
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10428:
+  id: 10428
+  bug_id: 1036355
+  blocks_bug_id: 1147006
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10429:
+  id: 10429
+  bug_id: 1142089
+  blocks_bug_id: 1147006
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10430:
+  id: 10430
+  bug_id: 1148896
+  blocks_bug_id: 1148722
+  created_at: 2015-11-03 05:40:38 Z
+bug_dependency_10431:
+  id: 10431
+  bug_id: 1162080
+  blocks_bug_id: 1188200
+  created_at: 2015-11-03 05:40:39 Z
+bug_dependency_10432:
+  id: 10432
+  bug_id: 1162080
+  blocks_bug_id: 1191384
+  created_at: 2015-11-03 05:40:39 Z
+bug_dependency_10433:
+  id: 10433
+  bug_id: 1162080
+  blocks_bug_id: 1191385
+  created_at: 2015-11-03 05:40:39 Z
+bug_dependency_10434:
+  id: 10434
+  bug_id: 1205283
+  blocks_bug_id: 1122979
+  created_at: 2015-11-03 05:40:39 Z
+bug_dependency_10435:
+  id: 10435
+  bug_id: 1205283
+  blocks_bug_id: 1172230
+  created_at: 2015-11-03 05:40:39 Z

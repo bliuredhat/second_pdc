@@ -1,0 +1,11 @@
+<% unless waivers.blank? %>
+  <table class="embedded_waivers">
+  <% waivers.map do |w| -%>
+    <tr>
+      <td><%= w.waive_date %></td>
+      <td><%= "#{w.is_unwaive? ? 'Unwaived' : 'Waived'} by #{w.person}" %></td>
+      <td class="pre"><%= w.description %></td>
+    </tr>
+  <% end -%>
+  </table>
+<% end -%>

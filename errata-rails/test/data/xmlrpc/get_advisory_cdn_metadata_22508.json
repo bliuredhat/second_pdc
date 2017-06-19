@@ -1,0 +1,876 @@
+{
+  "description": "The lvm2 packages include complete support for handling read and write operations on physical volumes, creating volume groups from one or more physical volumes, and creating one or more logical volumes in volume groups.\nFor detailed information on changes in this release, see the Red Hat Enterprise Linux 6.8 Release Notes and Red Hat Enterprise Linux 6.8 Technical Notes linked from the References section.\nUsers of lvm2 are advised to upgrade to these updated packages.",
+  "from": "release-engineering@redhat.com",
+  "id": "RHBA-2016:0964",
+  "issued": "2016-05-10 06:42:46 UTC",
+  "pkglist": [
+    {
+      "name": "RHBA-2016:0964",
+      "packages": [
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "device-mapper-1.02.117-7.el6.i686.rpm",
+          "name": "device-mapper",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:dee16f7015f55d4a68898ecfba4",
+            "sha256",
+            "fake:0680926706fe3dc0850b5a2c6daab8f16b62f740990d0302ce233bd128b"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "device-mapper-1.02.117-7.el6.ppc64.rpm",
+          "name": "device-mapper",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:ff942a384dd40adfdecb0ee9bce",
+            "sha256",
+            "fake:5ae35c4d1513f444878892bfaf7f5549f19c53a8b08fefb3be7495f4b86"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "device-mapper-1.02.117-7.el6.s390x.rpm",
+          "name": "device-mapper",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:7d1c58f7a8435126b5cd3d73314",
+            "sha256",
+            "fake:c457f740ed0203a621aece5541ebd0938e7ba9e1d68d5ab63518412f2b9"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "device-mapper-1.02.117-7.el6.x86_64.rpm",
+          "name": "device-mapper",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:4ed50e6a20093fa375984d15ebc",
+            "sha256",
+            "fake:a9f658fc40a89d4c44ee7652998ab10723e9df22d16e4c1c77a1b7e2b10"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "device-mapper-devel-1.02.117-7.el6.i686.rpm",
+          "name": "device-mapper-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:17eaf974d982129c5710e432c54",
+            "sha256",
+            "fake:be342597049bcb164a3e4cfce83406ea690374e94d1becd11361004b612"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc",
+          "epoch": 0,
+          "filename": "device-mapper-devel-1.02.117-7.el6.ppc.rpm",
+          "name": "device-mapper-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:b9a9f9df9163fd6060460f41aff",
+            "sha256",
+            "fake:91acc5c61b2571c1c38dc074b99cc0613df4388e1dd6ac2feeda12afb5a"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "device-mapper-devel-1.02.117-7.el6.ppc64.rpm",
+          "name": "device-mapper-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:9bf5afc8ad1b08fa320c8fde2e6",
+            "sha256",
+            "fake:924ec0777ac409da2a0a68718251273d0ab7102dff09e09c67ea11f2b19"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390",
+          "epoch": 0,
+          "filename": "device-mapper-devel-1.02.117-7.el6.s390.rpm",
+          "name": "device-mapper-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:2628468c617d44c9b9d3bb85cb1",
+            "sha256",
+            "fake:ac3845e8638df497a033919ed8746c944db6666f9e88f3a8127b71f10e6"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "device-mapper-devel-1.02.117-7.el6.s390x.rpm",
+          "name": "device-mapper-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:7895c60c69ddc841a694660cf21",
+            "sha256",
+            "fake:200b280034298c319619fc2c48307441fb5d1badc070bf079ae6f7dfa90"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "device-mapper-devel-1.02.117-7.el6.x86_64.rpm",
+          "name": "device-mapper-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:c8c062d8af688de1664091f4746",
+            "sha256",
+            "fake:94d7eb12364e8ce6d87fd72cb09d2f5bfb6a3687498c39dea0f3ae9f1e5"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "device-mapper-event-1.02.117-7.el6.i686.rpm",
+          "name": "device-mapper-event",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:65fea05f0f6f3b3a6cd7d5abc35",
+            "sha256",
+            "fake:1afa4bdf65015f77cd7740b84d72374ef401c263c070d40818ddbd73da4"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "device-mapper-event-1.02.117-7.el6.ppc64.rpm",
+          "name": "device-mapper-event",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:f310f1f0bdfc226f5a11c2f055f",
+            "sha256",
+            "fake:e056753a186e212c9db675e3c6a1f7cf137b35064f61b1873ab29c9a771"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "device-mapper-event-1.02.117-7.el6.s390x.rpm",
+          "name": "device-mapper-event",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:a0acb4db1efdb37f2818c13ff40",
+            "sha256",
+            "fake:a78659677a574130b730e9b58298f402774b6100836e8972b76795dcaed"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "device-mapper-event-1.02.117-7.el6.x86_64.rpm",
+          "name": "device-mapper-event",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:d52e8e0865f1ea5441670cf016b",
+            "sha256",
+            "fake:804ae45b652299860fa589b798fa75e8fcfb8e518a901d681ce066c488d"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "device-mapper-event-devel-1.02.117-7.el6.i686.rpm",
+          "name": "device-mapper-event-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:0435a1bf4e65c5ec319eb3340f0",
+            "sha256",
+            "fake:db8d1b57b48fbfb8fce9f07d6c5c91b376735f2ea3270c167bb87a36fdf"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc",
+          "epoch": 0,
+          "filename": "device-mapper-event-devel-1.02.117-7.el6.ppc.rpm",
+          "name": "device-mapper-event-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:d7f624000e7555fe5c45f3caa9b",
+            "sha256",
+            "fake:9903d1ee8e28fde7b05d1e3a4afdb1b869be07b54f1202e2001db4544e6"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "device-mapper-event-devel-1.02.117-7.el6.ppc64.rpm",
+          "name": "device-mapper-event-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:48a3670bde111df88bdda270688",
+            "sha256",
+            "fake:812d55525bf8f0335f37e60df005c6f0fe8f54f2cbc750ce6c6fb53cb11"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390",
+          "epoch": 0,
+          "filename": "device-mapper-event-devel-1.02.117-7.el6.s390.rpm",
+          "name": "device-mapper-event-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:91405a98b73de5a032fcbea5902",
+            "sha256",
+            "fake:9e166df647d47c7d987abca837206d368e0ec1f1650b9ec387596e53b2e"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "device-mapper-event-devel-1.02.117-7.el6.s390x.rpm",
+          "name": "device-mapper-event-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:d9908af415e8847e8f1def582d3",
+            "sha256",
+            "fake:9e1d6857556975c6acbf69fb06dd6ffed289db54f33c9e6ab73b47c10b0"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "device-mapper-event-devel-1.02.117-7.el6.x86_64.rpm",
+          "name": "device-mapper-event-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:2c02af6ddda380e92d38e39ca53",
+            "sha256",
+            "fake:fd7b2529b2daaf619a00131261e10dea116ca19060c13f8b385d40f0a43"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "device-mapper-event-libs-1.02.117-7.el6.i686.rpm",
+          "name": "device-mapper-event-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:38c49f6ae0f89452bcf5903aaec",
+            "sha256",
+            "fake:cbc8325c3b5c3b86e101aa935ed37628cc1f46d97d6eb1d037b42963879"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc",
+          "epoch": 0,
+          "filename": "device-mapper-event-libs-1.02.117-7.el6.ppc.rpm",
+          "name": "device-mapper-event-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:ed1b3436adf394f33493a6b3857",
+            "sha256",
+            "fake:d7975611635efc9a7a8ab8da740a9f6fd7ca23bea43b42163039e214e64"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "device-mapper-event-libs-1.02.117-7.el6.ppc64.rpm",
+          "name": "device-mapper-event-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:420d2dbd5deb52f0119a3dc55a9",
+            "sha256",
+            "fake:835992f514eadda7436a23766fdf89fc65f7066f2190def803842381233"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390",
+          "epoch": 0,
+          "filename": "device-mapper-event-libs-1.02.117-7.el6.s390.rpm",
+          "name": "device-mapper-event-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:845bc4d2aab555cdcf6f989aaf8",
+            "sha256",
+            "fake:14b09b537181b7c03112b3abda347035ab0f4edea042dcd959ff570d84a"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "device-mapper-event-libs-1.02.117-7.el6.s390x.rpm",
+          "name": "device-mapper-event-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:e52d5a5a1482307f6efd6250968",
+            "sha256",
+            "fake:e86434f0a6d748fa6a3c2c0398e205edf0918926970b8c7eb5991061e86"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "device-mapper-event-libs-1.02.117-7.el6.x86_64.rpm",
+          "name": "device-mapper-event-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:9ad4a51a47a5e1ef06b4e358da5",
+            "sha256",
+            "fake:700515f84cd6669dc06484cf53eb498c276e54b7ab1fbd0b0d747492c3b"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "device-mapper-libs-1.02.117-7.el6.i686.rpm",
+          "name": "device-mapper-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:c41e9ad4d770ee2fc9ee704c1b9",
+            "sha256",
+            "fake:ce5cad8bc7dd766729228e5318f2ecd812e2c07224a73043b913c085233"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc",
+          "epoch": 0,
+          "filename": "device-mapper-libs-1.02.117-7.el6.ppc.rpm",
+          "name": "device-mapper-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:689bd68fe0d4ca34a1d520d6f81",
+            "sha256",
+            "fake:c7aea0f13879adbef71405cb2d0f0378d77d5c60c54adb5c063fa76d513"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "device-mapper-libs-1.02.117-7.el6.ppc64.rpm",
+          "name": "device-mapper-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:d380af302ffd3e8b47b52cc4a7b",
+            "sha256",
+            "fake:138b46e464d5591a224c2f210f7ae2c3741a906eaf6f6e2f9b69f6421c0"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390",
+          "epoch": 0,
+          "filename": "device-mapper-libs-1.02.117-7.el6.s390.rpm",
+          "name": "device-mapper-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:dbd1aff6c23a5e6aaac3c35791c",
+            "sha256",
+            "fake:1308eda7570de85418eb509e8945d49b3568bc3dbf4775e6a016fb8844c"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "device-mapper-libs-1.02.117-7.el6.s390x.rpm",
+          "name": "device-mapper-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:ea243b5b240db119e863a56c9e3",
+            "sha256",
+            "fake:f714934fb8a0a097f7587e6d01aeceb4aa86c1cca0da7090548b659fc46"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "device-mapper-libs-1.02.117-7.el6.x86_64.rpm",
+          "name": "device-mapper-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:da058fb96209a87856a71138c80",
+            "sha256",
+            "fake:9aafebec51edc5abe5e5f469f91ad65576706e4be079d78ddac0b650550"
+          ],
+          "version": "1.02.117"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "lvm2-2.02.143-7.el6.i686.rpm",
+          "name": "lvm2",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:5b5a53fc9604bcfe7324936168a",
+            "sha256",
+            "fake:39436ce0beb00a246e8b7ce65fd6f87a5b355d464c95a63621095aacce2"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "lvm2-2.02.143-7.el6.ppc64.rpm",
+          "name": "lvm2",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:5c59ea2d17dd1d29308199e94d4",
+            "sha256",
+            "fake:fb659393bf88b4a1af2840cd2610d6802b37a5a5f54959a89e66ab708cb"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "lvm2-2.02.143-7.el6.s390x.rpm",
+          "name": "lvm2",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:7e1f7df06531db1f894ffc7ff7b",
+            "sha256",
+            "fake:490ea7bc09a0db6ebdf27076a4c5fd010c9d48b3f0e206b6adf911c7659"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "SRPMS",
+          "epoch": 0,
+          "filename": "lvm2-2.02.143-7.el6.src.rpm",
+          "name": "lvm2",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:a9fadc860cb8227ed5404b369d4",
+            "sha256",
+            "fake:e31763b3b62895d6e2db254c2a070b3bfcf5803c2ed2245ed96a9bad6c7"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "lvm2-2.02.143-7.el6.x86_64.rpm",
+          "name": "lvm2",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:fdd470ba0333722b77a4c6e1969",
+            "sha256",
+            "fake:c940a8c08cb0de988e9cb4f37bd1981dbcc28a167c9c52b31c1da1e028e"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "lvm2-debuginfo-2.02.143-7.el6.i686.rpm",
+          "name": "lvm2-debuginfo",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:2e4017ebb57ddea34a529c02705",
+            "sha256",
+            "fake:02ffb0ad8c0b35e3256a6efadff9dfeb4aace91b5a5c8e03ab35ae63f66"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "ppc",
+          "epoch": 0,
+          "filename": "lvm2-debuginfo-2.02.143-7.el6.ppc.rpm",
+          "name": "lvm2-debuginfo",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:e7b7dd36cfaa3b638ef7c7f7b95",
+            "sha256",
+            "fake:00fff5a404f0807dccd647549a7bc248952f7c0c52163495e6660abae42"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "lvm2-debuginfo-2.02.143-7.el6.ppc64.rpm",
+          "name": "lvm2-debuginfo",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:c5489701e162bed249c811e1273",
+            "sha256",
+            "fake:a758c0baae671376ba7967625b65276db90ca6f50b0c884804adef29fd1"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "s390",
+          "epoch": 0,
+          "filename": "lvm2-debuginfo-2.02.143-7.el6.s390.rpm",
+          "name": "lvm2-debuginfo",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:18fc6fa44716e3b1f27466b0f93",
+            "sha256",
+            "fake:01d1d7f2c6c6589a35290281118980da488ce9fad65a03065eb4c47fafb"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "lvm2-debuginfo-2.02.143-7.el6.s390x.rpm",
+          "name": "lvm2-debuginfo",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:5ec45ea46ea6ec2b39157704991",
+            "sha256",
+            "fake:4d3ea09f0de36ba359cc84c8711143987f541cb9694901ee4cd9f8a41ed"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "lvm2-debuginfo-2.02.143-7.el6.x86_64.rpm",
+          "name": "lvm2-debuginfo",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:87ae6f8449c23079b82e596b853",
+            "sha256",
+            "fake:f3af17267dff296791af8514a567a48b6eb68eff1c4b26650a482f039d6"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "lvm2-devel-2.02.143-7.el6.i686.rpm",
+          "name": "lvm2-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:bb1dd936c0125c26dcac7e91564",
+            "sha256",
+            "fake:40fb29931de85585127a0e9401331a23376109a5cdd216c1f89d5dab500"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "ppc",
+          "epoch": 0,
+          "filename": "lvm2-devel-2.02.143-7.el6.ppc.rpm",
+          "name": "lvm2-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:5c924b38f115e0ce5210037f320",
+            "sha256",
+            "fake:b91646ea6945aac47f25da99b8f485de10ffaf8fbe1b7485c5ff667411c"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "lvm2-devel-2.02.143-7.el6.ppc64.rpm",
+          "name": "lvm2-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:d3324f7ffcce2ef8c7cbb0327bb",
+            "sha256",
+            "fake:520723012729d3b5a87819d235777730542c9057826a2778627955cdd61"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "s390",
+          "epoch": 0,
+          "filename": "lvm2-devel-2.02.143-7.el6.s390.rpm",
+          "name": "lvm2-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:b84537ea9e9b7dcf2c6e304421f",
+            "sha256",
+            "fake:dd106bedfdb4ec990dabb7896180339de71a01b3324daec62f102c8eb69"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "lvm2-devel-2.02.143-7.el6.s390x.rpm",
+          "name": "lvm2-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:20680a38a25b1a35dbd5c312b30",
+            "sha256",
+            "fake:f09cb9f82d9a42113f77227a5a22c3282693145de921f17bdd64e1d3ea5"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "lvm2-devel-2.02.143-7.el6.x86_64.rpm",
+          "name": "lvm2-devel",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:71a75d27614b50fc8f73de8132e",
+            "sha256",
+            "fake:18ed8fc1b73ad004c80f6a144f561ab2e128ef949c3d62fbe070cac8e71"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "i686",
+          "epoch": 0,
+          "filename": "lvm2-libs-2.02.143-7.el6.i686.rpm",
+          "name": "lvm2-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:933e4306948905a63ae0544e42a",
+            "sha256",
+            "fake:8b0f6f16500d9b09581746dd6a894fb40f2f886e8fef6f5b2387afad1e0"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "ppc",
+          "epoch": 0,
+          "filename": "lvm2-libs-2.02.143-7.el6.ppc.rpm",
+          "name": "lvm2-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:287bda465d2afd519b2b815ee64",
+            "sha256",
+            "fake:58a6af98983e24886605a2ccfd22ff5b129c3fee15969c260e98bf91421"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "ppc64",
+          "epoch": 0,
+          "filename": "lvm2-libs-2.02.143-7.el6.ppc64.rpm",
+          "name": "lvm2-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:59ed268958ebf5cd1106f6425b8",
+            "sha256",
+            "fake:f401d141ccd5669186ea714590f2ea8825f2cfdbbe17db84f4add8018b2"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "s390",
+          "epoch": 0,
+          "filename": "lvm2-libs-2.02.143-7.el6.s390.rpm",
+          "name": "lvm2-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:cb4cccb1ebbe32e1f3805e8d640",
+            "sha256",
+            "fake:cb03166b9536a00d96bbdd0b23d42b4966ef56d1c1d42b7d355fa44eecf"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "s390x",
+          "epoch": 0,
+          "filename": "lvm2-libs-2.02.143-7.el6.s390x.rpm",
+          "name": "lvm2-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:76ff38431c942e9da9ad2528b60",
+            "sha256",
+            "fake:692e19664f7eb1de521f46c429225727db4ce69c1b71400aecb817989ad"
+          ],
+          "version": "2.02.143"
+        },
+        {
+          "arch": "x86_64",
+          "epoch": 0,
+          "filename": "lvm2-libs-2.02.143-7.el6.x86_64.rpm",
+          "name": "lvm2-libs",
+          "release": "7.el6",
+          "src": "lvm2-2.02.143-7.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:b296bd74dbeecc70af9a2be8620",
+            "sha256",
+            "fake:7cedd8ecd688670b933cebb322c628f4968917487f5d870004cc6598c21"
+          ],
+          "version": "2.02.143"
+        }
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+      "rpm"
+    ]
+  },
+  "pushcount": 2,
+  "reboot_suggested": false,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHBA-2016:0964",
+      "id": "RHBA-2016:0964",
+      "title": "RHBA-2016:0964",
+      "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/6.8_Release_Notes/index.html",
+      "id": "ref_0",
+      "title": "other_reference_0",
+      "type": "other"
+    },
+    {
+      "href": "https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/6.8_Technical_Notes/index.html",
+      "id": "ref_1",
+      "title": "other_reference_1",
+      "type": "other"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2016 Red Hat Inc",
+  "severity": "None",
+  "solution": "For details on how to apply this update, refer to:\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "An update for lvm2 is now available for Red Hat Enterprise Linux 6.",
+  "title": "lvm2 bug fix and enhancement update",
+  "type": "RHBA",
+  "updated": "2016-05-10 06:42:46 UTC",
+  "version": "2"
+}

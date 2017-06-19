@@ -1,0 +1,122 @@
+<%#
+  #
+  # See behaviour defined in errata_filter.js.
+  #
+-%>
+
+<%#
+  # Tell user where they can set their prefered default filter
+-%>
+<span class="tiny">
+  (Select a default filter in <%= link_to 'preferences', { :controller => :user, :action => :preferences } %>).
+</span>
+
+<%#
+  #
+  # Using GET for the searches. It means we have a long param string, but I think it is worth
+  # it because it means filters are bookmarkable. Bugzilla is similar.
+  #
+  # When user is saving a new filter or updating an existing filter, some javascript in errata_filter.js
+  # will set the method to POST. The server then knows to do an update.
+  #
+-%>
+<%= form_for @errata_filter, :html => { :method => 'GET', :id=>'filter_form_form' }, :url => { :controller => :errata } do |f| %>
+
+  <div class="filter_form_box">
+
+    <div class="clearfix float-child-divs">
+      <div class="filter_explanation" style="float:right;max-width:490px;text-align:right;line-height:95%;">
+        (<%= @errata_filter.in_words %>)
+      </div>
+      <div class="filter_label">Filter</div>
+      <div class="filter_select_div">
+        <%= select_tag 'errata_filter[id]',
+          # Could probably use grouped_options_for_select here.
+          # This is a bit untidy but good enough for now...
+          [
+            '<option value="" selected="selected">(Unsaved Filter)</option>',
+            '<optgroup label="System Filters" id="system_filters_optgroup">',
+              options_from_collection_for_select(@system_filters, :id, :name, @errata_filter.id),
+            '</optgroup>',
+            '<optgroup label="User Defined Filters" id="user_filters_optgroup">',
+              options_from_collection_for_select(@user_filters, :id, :name, @errata_filter.id),
+            '</optgroup>',
+          ].compact.join.html_safe,
+          :style => 'min-width:200px;',
+          :class => 'eso-chosen-select',
+          :id => 'filter_select'
+        %>
+      </div>
+      <div class="filter_buttons_div">
+        <%# Will give these their behaviour in errata_filter.js %>
+        <%= icon_btn_link 'Refresh', 'refresh', '', :id=>'filter_btn_refresh', :class=>'btn btn-small submit-button refresh-submit-button' %>
+        <%= icon_btn_link 'Modify Filter',  'edit',    '', :id=>'filter_btn_modify',  :class=>'btn btn-small' %>
+        <%= icon_btn_link 'New Filter',     'plus',    '', :id=>'filter_btn_new',     :class=>'btn btn-small' %>
+      </div>
+      <div class="please_wait_div" style="display:none;">
+        Please wait...
+      </div>
+    </div>
+
+    <div class="modal modal-lg" id="filter_form" style="display:none;">
+      <div class="modal-header">
+        <h3 class="show_only_in_edit_mode">
+          <% if @errata_filter.id.present? %>
+            Modify '<%= @errata_filter.name %>'
+          <% else %>
+            <%# Edge case where user clicks Edit on an unsaved filter %>
+            <%# Probably won't get here now since the js check for a selected saved filter
+            when user clicks Edit and treat is as if they clicked New.. %>
+            Unsaved Filter
+          <% end %>
+        </h3>
+        <h3 class="show_only_in_create_mode">
+          Unsaved Filter
+        </h3>
+      </div>
+      <div class="modal-body">
+        <%= render 'filter_form_fields' %>
+      </div>
+      <div class="modal-footer">
+
+        <span class="hide_if_adding_name">
+          <%# Closes the modal form %>
+          <%= link_to 'Cancel', '#', :id=>'cancel_filter_btn', :class=>"btn" %>
+
+          <%# Delete a filter. Visible in 'edit' mode. %>
+          <%= submit_tag 'Delete', :id=>'delete_submit_btn', :class=>'show_only_in_edit_mode btn'%>
+
+          <%# Show the hidden filter name text field and the "real" save button.  Visible in 'create' mode. %>
+          <%= link_to 'Save', '#', :id=>'show_name_field_btn', :class=>'show_only_in_create_mode btn'%>
+
+          <%# Show the hidden filter name text field and the "real" save button.  Visible in 'edit' mode. %>
+          <%= link_to 'Save as...', '#', :id=>'save_as_btn', :class=>'show_only_in_edit_mode btn'%>
+
+          <%# Submits form to update an existing saved filter. Visible in 'edit' mode. %>
+          <%= submit_tag 'Update', :id=>'update_submit_btn', :class=>'show_only_in_edit_mode btn'%>
+        </span>
+
+        <%# This span starts hidden, gets revealed when user clicks #show_name_field_btn %>
+        <span id="name_field_container" style="display:none;">
+          <%# Cancels adding a name for unsaved filter %>
+          <%= link_to 'Cancel', '#', :id=>'cancel_save_btn', :class=>'btn' %>
+
+          <%# Field to enter a name for a new filter %>
+          <span class="formlabel">Name this filter:</span>
+          <%= text_field_tag 'errata_filter[name]', '', :id=>'filter_name', :style=>'margin:0;' %>
+
+          <%# Submits form to create a new filter %>
+          <%= submit_tag 'Save', :id=>'save_submit_btn', :class=>'btn btn-primary' %>
+
+        </span>
+
+        <span class="hide_if_adding_name" style="padding-left:5px;">
+          <%# Submits without saving or updating a filter %>
+          <%= submit_tag 'Apply', :id=>'apply_submit_btn', :class=>'btn btn-primary' %>
+        </span>
+
+      </div>
+    </div>
+
+  </div>
+<% end %>

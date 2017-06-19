@@ -1,0 +1,6 @@
+<%= f.select(:default_solution_id, DefaultSolution.all.map{|d|[d.select_title,d.id]}, {}, :class=>'shorter select-with-text') %><br/>
+<% DefaultSolution.all.each do |default_solution| %>
+  <%= content_tag(:pre, default_solution.text,
+                  :class=>"scroll-if-long select-text select-text-#{default_solution.id}",
+                  :style=>"width:50em;background-color:white;font-size:80%;margin-top:0.5em;#{show_style_if(f.object.default_solution == default_solution)}") %>
+<% end %>

@@ -1,0 +1,105 @@
+<advisory from="secalert@redhat.com" version="1.0">
+  <id>RHBA-2005:324</id>
+  <pushcount>0</pushcount>
+  <product>Red Hat Global File System</product>
+  <type short="RHBA">Red Hat Bug Fix Advisory</type>
+  <synopsis xml:lang="en_US">GFS bug fix update</synopsis>
+  <issued date="2005-04-06 04:00:00 UTC"></issued>
+  <updated date="2005-04-06 04:00:00 UTC"></updated>
+  <keywords xml:lang="en_US">package GFS</keywords>
+  <references>
+    <reference href="https://access.redhat.com/errata/RHBA-2005:324" type="self"></reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=130358" type="bugzilla">
+      <bugzilla>130358</bugzilla>
+      <summary>lock_gulm.o verbosity is not configurable</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=131142" type="bugzilla">
+      <bugzilla>131142</bugzilla>
+      <summary>unable to select which interface to bind to from lock_gulmd</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=145121" type="bugzilla">
+      <bugzilla>145121</bugzilla>
+      <summary>ccsd can get stuck on startup with zombie child</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=146672" type="bugzilla">
+      <bugzilla>146672</bugzilla>
+      <summary>Node panic doing a writev()</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=150029" type="bugzilla">
+      <bugzilla>150029</bugzilla>
+      <summary>Pool does not see all powerpath devices</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=150365" type="bugzilla">
+      <bugzilla>150365</bugzilla>
+      <summary>gnbd init.d scripts needed</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=150366" type="bugzilla">
+      <bugzilla>150366</bugzilla>
+      <summary>lock_gulm needs to start before gnbd_import and gnbd_export</summary>
+    </reference>
+  </references>
+  <topic xml:lang="en">
+    <p>
+Updated GFS packages that resolve module loading issues and other various
+bugs are now available for Red Hat Enterprise Linux 3 Update 5, kernel
+release (2.4.21-31.EL).    </p>
+  </topic>
+  <description xml:lang="en">
+    <p>
+The Red Hat Global File System (GFS) provides high availability of critical
+server applications in the event of planned or unplanned system downtime.
+
+These updated GFS packages are in sync with the latest kernel
+(2.4.21-31.EL). The modules in earlier GFS packages fail to load because
+they do not match the running kernel. It is possible to force load the
+modules; however, this update alleviates the need to do so.
+
+In addition, the following bugs have been discovered and addressed since
+the previous release:
+
+- Fixed a node panic doing a writev
+- lock_gulm.o now has the ability to modify its verbosity level
+- Pool tools read the /dev/ directory structure when emcpower devices are
+detected in /proc/partitions
+- Fixed a race condition in the ccsd startup process which causes ccsd to
+hang when the 'lo' device has not been configured
+- Added sanbox2 fencing agent
+- Clarified fence_brocade help
+- Init scripts for gnbd have been added
+- Added an optional key, "usedev" to a node in the nodes.ccs which will
+force gulm to use the IP address from the device specified
+- An updated fsck command was added that greatly reduces the fsck times for
+GFS filesystems
+
+Users are advised to upgrade to these latest GFS packages, which are
+updated for use with the 2.4.21-31.EL kernel.    </p>
+  </description>
+  <solution xml:lang="en">
+    <p>
+Before applying this update, make sure all previously released errata
+relevant to your system have been applied.
+
+To update all RPMs for your particular architecture, run:
+
+rpm -Fvh [filenames]
+
+where [filenames] is a list of the RPMs you wish to upgrade.  Only those
+RPMs which are currently installed will be updated.  Those RPMs which are
+not installed but included in the list will not be updated.  Note that you
+can also use wildcards (*.rpm) if your current directory *only* contains the
+desired RPMs.
+
+Please note that this update is also available via Red Hat Network.  Many
+people find this an easier way to apply updates.  To use Red Hat Network,
+launch the Red Hat Update Agent with the following command:
+
+up2date
+
+This will start an interactive process that will result in the appropriate
+RPMs being upgraded on your system.    </p>
+  </solution>
+  <contact xml:lang="en_US">
+    <p>The Red Hat security contact is secalert@redhat.com. More details at:</p>
+    <a href="https://access.redhat.com/security/team/contact/">https://access.redhat.com/security/team/contact/</a>
+  </contact>
+</advisory>

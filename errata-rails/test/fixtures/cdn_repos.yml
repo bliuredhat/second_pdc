@@ -1,0 +1,2040 @@
+--- 
+cdnrepo_40: 
+  id: 40
+  name: cdn-rhel6-repo-SRPMS
+  variant_id: 345
+  arch_id: 24
+  created_at: 2014-02-19 00:15:47 Z
+  type: CdnSourceRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:47 Z
+  has_stable_systems_subscribed: true
+cdnrepo_28: 
+  id: 28
+  name: rhel-6-client-rpms__6Client__i686
+  variant_id: 345
+  arch_id: 6
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_29: 
+  id: 29
+  name: rhel-6-client-rpms__6Client__ia32e
+  variant_id: 345
+  arch_id: 23
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_9: 
+  id: 9
+  name: cdnrepo-ia32e
+  variant_id: 617
+  arch_id: 23
+  created_at: 2014-02-18 23:51:25 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:25 Z
+  has_stable_systems_subscribed: true
+cdnrepo_7: 
+  id: 7
+  name: cdnrepo-i586
+  variant_id: 617
+  arch_id: 5
+  created_at: 2014-02-18 23:51:25 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:25 Z
+  has_stable_systems_subscribed: true
+cdnrepo_5: 
+  id: 5
+  name: cdnrepo-athlon
+  variant_id: 617
+  arch_id: 3
+  created_at: 2014-02-18 23:51:24 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:24 Z
+  has_stable_systems_subscribed: true
+cdnrepo_3: 
+  id: 3
+  name: cdnrepo-alpha
+  variant_id: 617
+  arch_id: 1
+  created_at: 2014-02-18 23:51:24 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:24 Z
+  has_stable_systems_subscribed: true
+cdnrepo_1: 
+  id: 1
+  name: cdntest-foo
+  variant_id: 617
+  arch_id: 24
+  created_at: 2014-02-18 23:48:57 Z
+  type: CdnSourceRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:48:57 Z
+  has_stable_systems_subscribed: true
+cdnrepo_2: 
+  id: 2
+  name: cdnrepo-src
+  variant_id: 617
+  arch_id: 24
+  created_at: 2014-02-18 23:50:51 Z
+  type: CdnSourceRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:50:51 Z
+  has_stable_systems_subscribed: true
+cdnrepo_4: 
+  id: 4
+  name: cdnrepo-amd64
+  variant_id: 617
+  arch_id: 21
+  created_at: 2014-02-18 23:51:24 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:24 Z
+  has_stable_systems_subscribed: true
+cdnrepo_6: 
+  id: 6
+  name: cdnrepo-i386
+  variant_id: 617
+  arch_id: 4
+  created_at: 2014-02-18 23:51:24 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:24 Z
+  has_stable_systems_subscribed: true
+cdnrepo_8: 
+  id: 8
+  name: cdnrepo-i686
+  variant_id: 617
+  arch_id: 6
+  created_at: 2014-02-18 23:51:25 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:25 Z
+  has_stable_systems_subscribed: true
+cdnrepo_38: 
+  id: 38
+  name: rhel-6-client-rpms__6Client__sparc
+  variant_id: 345
+  arch_id: 10
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_36: 
+  id: 36
+  name: rhel-6-client-rpms__6Client__s390
+  variant_id: 345
+  arch_id: 9
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_34: 
+  id: 34
+  name: rhel-6-client-rpms__6Client__ppc64iseries
+  variant_id: 345
+  arch_id: 19
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_32: 
+  id: 32
+  name: rhel-6-client-rpms__6Client__ppc
+  variant_id: 345
+  arch_id: 17
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_30: 
+  id: 30
+  name: rhel-6-client-rpms__6Client__ia64
+  variant_id: 345
+  arch_id: 7
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_31: 
+  id: 31
+  name: rhel-6-client-rpms__6Client__noarch
+  variant_id: 345
+  arch_id: 8
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_33: 
+  id: 33
+  name: rhel-6-client-rpms__6Client__ppc64
+  variant_id: 345
+  arch_id: 18
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_35: 
+  id: 35
+  name: rhel-6-client-rpms__6Client__ppc64pseries
+  variant_id: 345
+  arch_id: 20
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_37: 
+  id: 37
+  name: rhel-6-client-rpms__6Client__s390x
+  variant_id: 345
+  arch_id: 14
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_39: 
+  id: 39
+  name: rhel-6-client-rpms__6Client__x86_64
+  variant_id: 345
+  arch_id: 13
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: true
+cdnrepo_17: 
+  id: 17
+  name: cdnrepo-s390x
+  variant_id: 617
+  arch_id: 14
+  created_at: 2014-02-18 23:51:26 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:26 Z
+  has_stable_systems_subscribed: true
+cdnrepo_15: 
+  id: 15
+  name: cdnrepo-ppc64pseries
+  variant_id: 617
+  arch_id: 20
+  created_at: 2014-02-18 23:51:26 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:26 Z
+  has_stable_systems_subscribed: true
+cdnrepo_13: 
+  id: 13
+  name: cdnrepo-ppc64
+  variant_id: 617
+  arch_id: 18
+  created_at: 2014-02-18 23:51:26 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:26 Z
+  has_stable_systems_subscribed: true
+cdnrepo_11: 
+  id: 11
+  name: cdnrepo-noarch
+  variant_id: 617
+  arch_id: 8
+  created_at: 2014-02-18 23:51:25 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:25 Z
+  has_stable_systems_subscribed: true
+cdnrepo_10: 
+  id: 10
+  name: cdnrepo-ia64
+  variant_id: 617
+  arch_id: 7
+  created_at: 2014-02-18 23:51:25 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:25 Z
+  has_stable_systems_subscribed: true
+cdnrepo_12: 
+  id: 12
+  name: cdnrepo-ppc
+  variant_id: 617
+  arch_id: 17
+  created_at: 2014-02-18 23:51:26 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:26 Z
+  has_stable_systems_subscribed: true
+cdnrepo_14: 
+  id: 14
+  name: cdnrepo-ppc64iseries
+  variant_id: 617
+  arch_id: 19
+  created_at: 2014-02-18 23:51:26 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:26 Z
+  has_stable_systems_subscribed: true
+cdnrepo_16: 
+  id: 16
+  name: cdnrepo-s390
+  variant_id: 617
+  arch_id: 9
+  created_at: 2014-02-18 23:51:26 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:26 Z
+  has_stable_systems_subscribed: true
+cdnrepo_18: 
+  id: 18
+  name: cdnrepo-sparc
+  variant_id: 617
+  arch_id: 10
+  created_at: 2014-02-18 23:51:27 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:27 Z
+  has_stable_systems_subscribed: true
+cdnrepo_19:
+  id: 19
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-optional-rpms__6Server__ppc64"
+  variant_id: 339
+  arch_id: 18
+  created_at: "2014-03-17 02:09:28"
+  updated_at: "2014-03-24 14:28:13"
+  has_stable_systems_subscribed: true
+cdnrepo_20:
+  id: 20
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-optional-rpms__6Server__x390x"
+  variant_id: 339
+  arch_id: 14
+  created_at: "2014-03-17 02:10:44"
+  updated_at: "2014-03-24 14:28:27"
+  has_stable_systems_subscribed: true
+cdnrepo_21:
+  id: 21
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-optional-rpms__6Server__x86_64"
+  variant_id: 339
+  arch_id: 13
+  created_at: "2014-03-17 02:11:11"
+  updated_at: "2014-03-24 14:28:53"
+  has_stable_systems_subscribed: true
+cdnrepo_22:
+  id: 22
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-optional-rpms__6Server__i386"
+  variant_id: 339
+  arch_id: 4
+  created_at: "2014-03-17 02:11:11"
+  updated_at: "2014-03-24 14:28:53"
+  has_stable_systems_subscribed: true
+cdnrepo_23:
+  id: 23
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-rpms__6Server__x86_64"
+  variant_id: 340
+  arch_id: 13
+  created_at: "2014-02-25 04:47:15"
+  updated_at: "2014-02-26 13:33:49"
+  has_stable_systems_subscribed: true
+cdnrepo_24:
+  id: 24
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-rpms__6Server__ppc64"
+  variant_id: 340
+  arch_id: 18
+  created_at: "2014-02-25 04:49:51"
+  updated_at: "2014-03-18 07:40:19"
+  has_stable_systems_subscribed: true
+cdnrepo_25:
+  id: 25
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-rpms__6Server__s390x"
+  variant_id: 340
+  arch_id: 14
+  created_at: "2014-02-25 04:53:13"
+  updated_at: "2014-02-26 13:34:27"
+  has_stable_systems_subscribed: true
+cdnrepo_26:
+  id: 26
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-rpms__6Server__i386"
+  variant_id: 340
+  arch_id: 4
+  created_at: "2014-02-25 04:53:13"
+  updated_at: "2014-02-26 13:34:27"
+  has_stable_systems_subscribed: true
+cdnrepo_27:
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 27
+  name: rhel-6-server-rhev-agent-rpms__6Server__x86_64
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 369
+  has_stable_systems_subscribed: true
+cdnrepo_50: 
+  id: 50
+  name: cdnrepo-x86_64
+  variant_id: 617
+  arch_id: 13
+  created_at: 2014-02-18 23:51:27 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-18 23:51:27 Z
+  has_stable_systems_subscribed: true
+cdnrepo_51: 
+  id: 51
+  name: rhel-6-client-rpms__6Client__alpha
+  variant_id: 345
+  arch_id: 1
+  created_at: 2014-02-19 00:15:34 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:34 Z
+  has_stable_systems_subscribed: true
+cdnrepo_52: 
+  id: 52
+  name: rhel-6-client-rpms__6Client__amd64
+  variant_id: 345
+  arch_id: 21
+  created_at: 2014-02-19 00:15:34 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:34 Z
+  has_stable_systems_subscribed: true
+cdnrepo_53: 
+  id: 53
+  name: rhel-6-client-rpms__6Client__athlon
+  variant_id: 345
+  arch_id: 3
+  created_at: 2014-02-19 00:15:34 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:34 Z
+  has_stable_systems_subscribed: true
+cdnrepo_54: 
+  id: 54
+  name: rhel-6-client-rpms__6Client__i586
+  variant_id: 345
+  arch_id: 5
+  created_at: 2014-02-19 00:15:34 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:34 Z
+  has_stable_systems_subscribed: true
+cdnrepo_55: 
+  id: 55
+  name: rhel-6-client-rpms__6Client__i386
+  variant_id: 345
+  arch_id: 4
+  created_at: 2014-02-19 00:15:34 Z
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:34 Z
+  has_stable_systems_subscribed: true
+cdnrepo_56:
+  id: 56
+  type: CdnSourceRepo
+  release_type: PrimaryCdnRepo
+  name: rhel-6-server-source-rpms__6Server__x86_64
+  variant_id: 340
+  arch_id: 13
+  created_at: 2014-02-25 04:47:15
+  updated_at: 2014-02-26 13:33:49
+  has_stable_systems_subscribed: false
+cdnrepo_57:
+  id: 57
+  type: CdnDebuginfoRepo
+  release_type: PrimaryCdnRepo
+  name: rhel-6-server-debuginfo-rpms__6Server__x86_64
+  variant_id: 340
+  arch_id: 13
+  created_at: 2014-02-25 04:47:15
+  updated_at: 2014-02-26 13:33:49
+  has_stable_systems_subscribed: false
+cdnrepo_58:
+  id: 58
+  name: rhel-6-client-source-rpms__6Client__x86_64
+  variant_id: 345
+  arch_id: 13
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnSourceRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: false
+cdnrepo_59:
+  id: 59
+  name: rhel-6-client-debuginfo-rpms__6Client__x86_64
+  variant_id: 345
+  arch_id: 13
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnDebuginfoRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: false
+cdnrepo_156:
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 156
+  name: rhel-6-rhev-s-rpms__6Server-RHEV-S__x86_64
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 374
+  has_stable_systems_subscribed: true
+cdnrepo_1274:
+  id: 1274
+  name: rhel-7-desktop-debug-rpms__7Client__x86_64
+  variant_id: 699
+  arch_id: 13
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnDebuginfoRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: false
+cdnrepo_1275:
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 1275
+  name: rhel-7-desktop-rpms__7Client__x86_64
+  type: "CdnBinaryRepo"
+  release_type: PrimaryCdnRepo
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 699
+  has_stable_systems_subscribed: true
+cdnrepo_1276:
+  id: 1276
+  name: rhel-7-desktop-source-rpms__7Client__x86_64
+  variant_id: 699
+  arch_id: 13
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnSourceRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: false
+cdnrepo_1271:
+  id: 1271
+  name: rhel-7-workstation-debug-rpms__7Workstation__x86_64
+  variant_id: 640
+  arch_id: 13
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnDebuginfoRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: false
+cdnrepo_1272:
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 1272
+  name: rhel-7-workstation-rpms__7Workstation__x86_64
+  type: "CdnBinaryRepo"
+  release_type: PrimaryCdnRepo
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 640
+  has_stable_systems_subscribed: true
+cdnrepo_1273:
+  id: 1273
+  name: rhel-7-workstation-source-rpms__7Workstation__x86_64
+  variant_id: 640
+  arch_id: 13
+  created_at: 2014-02-19 00:15:35 Z
+  type: CdnSourceRepo
+  release_type: PrimaryCdnRepo
+  updated_at: 2014-02-19 00:15:35 Z
+  has_stable_systems_subscribed: false
+cdnrepo_60:
+  id: 60
+  type: CdnDebuginfoRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-debuginfo-rpms__6Server__ppc64"
+  variant_id: 340
+  arch_id: 18
+  created_at: "2014-02-25 04:49:51"
+  updated_at: "2014-03-18 07:40:19"
+cdnrepo_61:
+  id: 61
+  type: CdnDebuginfoRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-debuginfo-rpms__6Server__i386"
+  variant_id: 340
+  arch_id: 4
+  created_at: "2014-02-25 04:53:13"
+  updated_at: "2014-02-26 13:34:27"
+  has_stable_systems_subscribed: true
+cdnrepo_62:
+  id: 62
+  type: CdnDebuginfoRepo
+  release_type: PrimaryCdnRepo
+  name: "rhel-6-server-debuginfo-rpms__6Server__s390x"
+  variant_id: 340
+  arch_id: 14
+  created_at: "2014-02-25 04:53:13"
+  updated_at: "2014-02-26 13:34:27"
+  has_stable_systems_subscribed: true
+cdnrepo_63:
+  id: 63
+  type: CdnSourceRepo
+  release_type: EusCdnRepo
+  name: rhel-6-server-eus-source-rpms__6_DOT_5__x86_64
+  variant_id: 744
+  arch_id: 13
+  created_at: 2014-02-25 04:47:15
+  updated_at: 2014-02-26 13:33:49
+  has_stable_systems_subscribed: false
+cdnrepo_64:
+  id: 64
+  type: CdnDebuginfoRepo
+  release_type: EusCdnRepo
+  name: rhel-6-server-eus-debug-rpms__6_DOT_5__x86_64
+  variant_id: 744
+  arch_id: 13
+  created_at: 2014-02-25 04:47:15
+  updated_at: 2014-02-26 13:33:49
+  has_stable_systems_subscribed: false
+cdnrepo_65:
+  id: 65
+  type: CdnBinaryRepo
+  release_type: EusCdnRepo
+  name: rhel-6-server-eus-rpms__6_DOT_5__x86_64
+  variant_id: 744
+  arch_id: 13
+  created_at: 2014-02-25 04:47:15
+  updated_at: 2014-02-26 13:33:49
+  has_stable_systems_subscribed: false
+cdnrepo_66:
+  id: 66
+  type: CdnBinaryRepo
+  release_type: PrimaryCdnRepo
+  name: rhel-server-rhscl-6-eus-rpms__6_DOT_5__x86_64
+  variant_id: 745
+  arch_id: 13
+  created_at: 2014-02-25 04:47:15
+  updated_at: 2014-02-26 13:33:49
+  has_stable_systems_subscribed: true
+cdnrepo_1211:
+  arch_id: 13,
+  updated_at: Fri, 27 Jun 2014 02:19:44 UTC +00:00
+  created_at: Fri, 25 Apr 2014 00:59:09 UTC +00:00
+  has_stable_systems_subscribed: true
+  variant_id: 791
+  id: 1211
+  type: CdnDebuginfoRepo
+  name: rhel-7-server-supplementary-debug-rpms__7Server__x86_64
+  release_type: PrimaryCdnRepo
+cdnrepo_1212:
+  arch_id: 13
+  updated_at: Fri, 27 Jun 2014 02:19:44 UTC +00:00
+  created_at: Fri, 25 Apr 2014 00:59:09 UTC +00:00
+  has_stable_systems_subscribed: true
+  variant_id: 791
+  id: 1212
+  type: CdnBinaryRepo
+  name: rhel-7-server-supplementary-rpms__7Server__x86_64
+  release_type: PrimaryCdnRepo
+cdnrepo_1213:
+  arch_id: 13
+  updated_at: Fri, 27 Jun 2014 02:19:44 UTC +00:00
+  created_at: Fri, 25 Apr 2014 00:59:09 UTC +00:00
+  has_stable_systems_subscribed: true
+  variant_id: 791
+  id: 1213
+  type: CdnSourceRepo
+  name: rhel-7-server-supplementary-source-rpms__7Server__x86_64
+  release_type: PrimaryCdnRepo
+cdnrepo_1356:
+  arch_id: 13
+  updated_at: Wed, 21 May 2014 14:02:32 UTC +00:00
+  created_at: Wed, 21 May 2014 14:02:32 UTC +00:00
+  has_stable_systems_subscribed: false
+  variant_id: 870
+  id: 1356
+  type: CdnDebuginfoRepo
+  name: rhel-7-server-rhev-mgmt-agent-debug-rpms__7Server__x86_64
+  release_type: PrimaryCdnRepo
+cdnrepo_1358:
+  arch_id: 13
+  updated_at: Mon, 30 Jun 2014 07:06:07 UTC +00:00
+  created_at: Wed, 21 May 2014 14:02:33 UTC +00:00
+  has_stable_systems_subscribed: true
+  variant_id: 870
+  id: 1358
+  type: CdnBinaryRepo
+  name: rhel-7-server-rhev-mgmt-agent-rpms__7Server__x86_64
+  release_type: PrimaryCdnRepo
+cdnrepo_1360:
+  arch_id: 13
+  updated_at: Wed, 21 May 2014 14:02:33 UTC +00:00
+  created_at: Wed, 21 May 2014 14:02:33 UTC +00:00
+  has_stable_systems_subscribed: false
+  variant_id: 870
+  id: 1360
+  type: CdnSourceRepo
+  name: rhel-7-server-rhev-mgmt-agent-source-rpms__7Server__x86_64
+  release_type: PrimaryCdnRepo
+cdnrepo_1269:
+  arch_id: 13
+  has_stable_systems_subscribed: true
+  id: 1269
+  created_at: Tue, 06 May 2014 11:03:00 UTC +00:00
+  updated_at: Fri, 27 Jun 2014 02:19:44 UTC +00:00
+  type: CdnBinaryRepo
+  name: rhel-7-server-rpms__7Server__x86_64
+  variant_id: 594
+  release_type: PrimaryCdnRepo
+cdnrepo_1268:
+  arch_id: 13
+  has_stable_systems_subscribed: true
+  id: 1268
+  created_at: Tue, 06 May 2014 11:02:59 UTC +00:00
+  updated_at: Fri, 27 Jun 2014 02:19:44 UTC +00:00
+  type: CdnDebuginfoRepo
+  name: rhel-7-server-debug-rpms__7Server__x86_64
+  variant_id: 594
+  release_type: PrimaryCdnRepo
+cdnrepo_1270:
+  arch_id: 13
+  has_stable_systems_subscribed: true
+  id: 1270
+  created_at: Tue, 06 May 2014 11:03:00 UTC +00:00
+  updated_at: Fri, 27 Jun 2014 02:19:44 UTC +00:00
+  type: CdnSourceRepo
+  name: rhel-7-server-source-rpms__7Server__x86_64
+  variant_id: 594
+  release_type: PrimaryCdnRepo
+cdn_repo_736:
+  has_stable_systems_subscribed: false
+  arch_id: 4
+  variant_id: 385
+  id: 736
+  created_at: 2014-04-17 17:04:00 Z
+  type: CdnBinaryRepo
+  name: rhel-6-server-rhev-agent-rpms__6Server__i386
+  updated_at: 2014-04-17 17:04:00 Z
+  release_type: PrimaryCdnRepo
+cdn_repo_1334:
+  has_stable_systems_subscribed: false
+  arch_id: 4
+  variant_id: 385
+  id: 1334
+  created_at: 2014-05-21 13:52:13 Z
+  type: CdnBinaryRepo
+  name: rhel-6-server-rhev-agent-rpms__6_DOT_5__i386
+  updated_at: 2014-05-21 13:52:13 Z
+  release_type: PrimaryCdnRepo
+cdn_repo_1335:
+  has_stable_systems_subscribed: false
+  arch_id: 13
+  variant_id: 385
+  id: 1335
+  created_at: 2014-05-21 13:52:13 Z
+  type: CdnBinaryRepo
+  name: rhel-6-server-rhev-agent-rpms__6_DOT_5__x86_64
+  updated_at: 2014-05-21 13:52:13 Z
+  release_type: PrimaryCdnRepo
+cdn_repo_1278:
+  created_at: 2014-05-06 11:03:02 Z
+  type: CdnBinaryRepo
+  name: rhel-7-hpc-node-rpms__7ComputeNode__x86_64
+  variant_id: 700
+  updated_at: 2014-06-27 02:19:44 Z
+  release_type: PrimaryCdnRepo
+  id: 1278
+  arch_id: 13
+  has_stable_systems_subscribed: true
+cdn_repo_1266:
+  created_at: 2014-05-06 11:02:59 Z
+  type: CdnBinaryRepo
+  name: rhel-7-for-system-z-rpms__7Server__s390x
+  variant_id: 594
+  updated_at: 2014-06-27 02:19:44 Z
+  release_type: PrimaryCdnRepo
+  id: 1266
+  arch_id: 14
+  has_stable_systems_subscribed: true
+cdn_repo_1263:
+  created_at: 2014-05-06 11:02:58 Z
+  type: CdnBinaryRepo
+  name: rhel-7-for-power-rpms__7Server__ppc64
+  variant_id: 594
+  updated_at: 2014-06-27 02:19:44 Z
+  release_type: PrimaryCdnRepo
+  id: 1263
+  arch_id: 18
+  has_stable_systems_subscribed: true
+cdn_repo_9999001:
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 9999001
+  name: rhn-tools-for-rhel-6-server-rpms__x86_64
+  type: CdnBinaryRepo
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 359
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+cdn_repo_9999002:
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 9999002
+  name: rhn-tools-for-rhel-6-server-source-rpms__x86_64
+  type: CdnSourceRepo
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 359
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+cdn_repo_9999003:
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 9999003
+  name: rhn-tools-for-rhel-6-server-debuginfo-rpms__x86_64
+  type: CdnDebuginfoRepo
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 359
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+cdn_repo_1648:
+  created_at: 2014-07-15 04:09:42 Z
+  updated_at: 2015-03-03 14:23:12 Z
+  type: CdnDebuginfoRepo
+  variant_id: 610
+  release_type: PrimaryCdnRepo
+  id: 1648
+  name: jb-eap-6-for-rhel-7-for-power-debug-rpms__7Server__ppc64
+  arch_id: 18
+  has_stable_systems_subscribed: true
+cdn_repo_1649:
+  created_at: 2014-07-15 04:09:42 Z
+  updated_at: 2014-07-21 08:31:18 Z
+  type: CdnBinaryRepo
+  variant_id: 610
+  release_type: PrimaryCdnRepo
+  id: 1649
+  name: jb-eap-6-for-rhel-7-for-power-rpms__7Server__ppc64
+  arch_id: 18
+  has_stable_systems_subscribed: true
+cdn_repo_1650:
+  created_at: 2014-07-15 04:09:42 Z
+  updated_at: 2014-07-15 04:09:42 Z
+  type: CdnSourceRepo
+  variant_id: 610
+  release_type: PrimaryCdnRepo
+  id: 1650
+  name: jb-eap-6-for-rhel-7-for-power-source-rpms__7Server__ppc64
+  arch_id: 18
+  has_stable_systems_subscribed: false
+cdn_repo_1651:
+  created_at: 2014-07-15 04:09:42 Z
+  updated_at: 2015-03-17 03:42:20 Z
+  type: CdnDebuginfoRepo
+  variant_id: 610
+  release_type: PrimaryCdnRepo
+  id: 1651
+  name: jb-eap-6-for-rhel-7-server-debug-rpms__7Server__x86_64
+  arch_id: 13
+  has_stable_systems_subscribed: true
+cdn_repo_1652:
+  created_at: 2014-07-15 04:09:42 Z
+  updated_at: 2014-07-21 08:31:24 Z
+  type: CdnBinaryRepo
+  variant_id: 610
+  release_type: PrimaryCdnRepo
+  id: 1652
+  name: jb-eap-6-for-rhel-7-server-rpms__7Server__x86_64
+  arch_id: 13
+  has_stable_systems_subscribed: true
+cdn_repo_1653:
+  created_at: 2014-07-15 04:09:42 Z
+  updated_at: 2014-07-15 04:09:42 Z
+  type: CdnSourceRepo
+  variant_id: 610
+  release_type: PrimaryCdnRepo
+  id: 1653
+  name: jb-eap-6-for-rhel-7-server-source-rpms__7Server__x86_64
+  arch_id: 13
+  has_stable_systems_subscribed: false
+cdn_repo_1262:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 594
+  updated_at: 2014-06-27 02:19:43 Z
+  name: rhel-7-for-power-debug-rpms__7Server__ppc64
+  arch_id: 18
+  id: 1262
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:02:58 Z
+cdn_repo_1264:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 594
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-for-power-source-rpms__7Server__ppc64
+  arch_id: 18
+  id: 1264
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:02:58 Z
+cdn_repo_1265:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 594
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-for-system-z-debug-rpms__7Server__s390x
+  arch_id: 14
+  id: 1265
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:02:59 Z
+cdn_repo_1267:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 594
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-for-system-z-source-rpms__7Server__s390x
+  arch_id: 14
+  id: 1267
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:02:59 Z
+cdn_repo_1742:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:03 Z
+  name: rhel-7-for-power-fastrack-debug-rpms__ppc64
+  arch_id: 18
+  id: 1742
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:03 Z
+cdn_repo_1743:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:03 Z
+  name: rhel-7-for-power-fastrack-rpms__ppc64
+  arch_id: 18
+  id: 1743
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:03 Z
+cdn_repo_1744:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:03 Z
+  name: rhel-7-for-power-fastrack-source-rpms__ppc64
+  arch_id: 18
+  id: 1744
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:03 Z
+cdn_repo_1745:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:03 Z
+  name: rhel-7-for-system-z-fastrack-debug-rpms__s390x
+  arch_id: 14
+  id: 1745
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:03 Z
+cdn_repo_1746:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:04 Z
+  name: rhel-7-for-system-z-fastrack-rpms__s390x
+  arch_id: 14
+  id: 1746
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:04 Z
+cdn_repo_1747:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:04 Z
+  name: rhel-7-for-system-z-fastrack-source-rpms__s390x
+  arch_id: 14
+  id: 1747
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:04 Z
+cdn_repo_1748:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:04 Z
+  name: rhel-7-server-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1748
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:04 Z
+cdn_repo_1749:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:04 Z
+  name: rhel-7-server-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1749
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:04 Z
+cdn_repo_1750:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 594
+  updated_at: 2014-07-24 15:04:04 Z
+  name: rhel-7-server-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1750
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:04 Z
+cdn_repo_2665:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 594
+  updated_at: 2015-07-17 14:26:42 Z
+  name: rhel-7-for-arm-rpms__7Server__aarch64
+  arch_id: 26
+  id: 2665
+  type: CdnBinaryRepo
+  created_at: 2015-07-17 13:00:43 Z
+cdn_repo_2666:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 594
+  updated_at: 2015-07-17 14:28:04 Z
+  name: rhel-7-for-arm-debug-rpms__7Server__aarch64
+  arch_id: 26
+  id: 2666
+  type: CdnDebuginfoRepo
+  created_at: 2015-07-17 14:28:04 Z
+cdn_repo_2667:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 594
+  updated_at: 2015-07-17 14:29:07 Z
+  name: rhel-7-for-arm-source-rpms__7Server__aarch64
+  arch_id: 26
+  id: 2667
+  type: CdnSourceRepo
+  created_at: 2015-07-17 14:29:07 Z
+cdn_repo_2177:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 1037
+  updated_at: 2015-06-03 13:27:21 Z
+  name: rhel-7-for-power-le-debug-rpms__7Server__ppc64le
+  arch_id: 27
+  id: 2177
+  type: CdnDebuginfoRepo
+  created_at: 2015-03-02 12:27:31 Z
+cdn_repo_2178:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 1037
+  updated_at: 2015-03-02 12:27:32 Z
+  name: rhel-7-for-power-le-rpms__7Server__ppc64le
+  arch_id: 27
+  id: 2178
+  type: CdnBinaryRepo
+  created_at: 2015-03-02 12:27:32 Z
+cdn_repo_2179:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 1037
+  updated_at: 2015-03-02 14:56:19 Z
+  name: rhel-7-for-power-le-source-rpms__7Server__ppc64le
+  arch_id: 27
+  id: 2179
+  type: CdnSourceRepo
+  created_at: 2015-03-02 12:27:32 Z
+cdn_repo_1751:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 640
+  updated_at: 2014-07-24 15:04:06 Z
+  name: rhel-7-workstation-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1751
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:06 Z
+cdn_repo_1752:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 640
+  updated_at: 2014-07-24 15:04:06 Z
+  name: rhel-7-workstation-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1752
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:06 Z
+cdn_repo_1753:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 640
+  updated_at: 2014-07-24 15:04:07 Z
+  name: rhel-7-workstation-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1753
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:07 Z
+cdn_repo_1754:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 699
+  updated_at: 2014-07-24 15:04:09 Z
+  name: rhel-7-desktop-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1754
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:09 Z
+cdn_repo_1755:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 699
+  updated_at: 2014-07-24 15:04:09 Z
+  name: rhel-7-desktop-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1755
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:09 Z
+cdn_repo_1756:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 699
+  updated_at: 2014-07-24 15:04:09 Z
+  name: rhel-7-desktop-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1756
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:09 Z
+cdn_repo_1277:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 700
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-hpc-node-debug-rpms__7ComputeNode__x86_64
+  arch_id: 13
+  id: 1277
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:01 Z
+cdn_repo_1279:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 700
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-hpc-node-source-rpms__7ComputeNode__x86_64
+  arch_id: 13
+  id: 1279
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:02 Z
+cdn_repo_1757:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 700
+  updated_at: 2014-07-24 15:04:12 Z
+  name: rhel-7-for-hpc-node-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1757
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:12 Z
+cdn_repo_1758:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 700
+  updated_at: 2014-07-24 15:04:12 Z
+  name: rhel-7-for-hpc-node-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1758
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:12 Z
+cdn_repo_1759:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 700
+  updated_at: 2014-07-24 15:04:12 Z
+  name: rhel-7-for-hpc-node-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1759
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:12 Z
+cdn_repo_1280:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 701
+  updated_at: 2014-06-27 02:19:43 Z
+  name: rhel-7-desktop-optional-debug-rpms__7Client__x86_64
+  arch_id: 13
+  id: 1280
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:02 Z
+cdn_repo_1281:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 701
+  updated_at: 2014-06-27 02:19:43 Z
+  name: rhel-7-desktop-optional-rpms__7Client__x86_64
+  arch_id: 13
+  id: 1281
+  type: CdnBinaryRepo
+  created_at: 2014-05-06 11:03:02 Z
+cdn_repo_1282:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 701
+  updated_at: 2014-06-27 02:19:43 Z
+  name: rhel-7-desktop-optional-source-rpms__7Client__x86_64
+  arch_id: 13
+  id: 1282
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:03 Z
+cdn_repo_1760:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 701
+  updated_at: 2014-07-24 15:04:16 Z
+  name: rhel-7-desktop-optional-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1760
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:16 Z
+cdn_repo_1761:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 701
+  updated_at: 2014-07-24 15:04:16 Z
+  name: rhel-7-desktop-optional-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1761
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:16 Z
+cdn_repo_1762:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 701
+  updated_at: 2014-07-24 15:04:16 Z
+  name: rhel-7-desktop-optional-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1762
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:16 Z
+cdn_repo_1283:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-02-18 12:49:25 Z
+  name: rhel-7-for-power-optional-debug-rpms__7Server__ppc64
+  arch_id: 18
+  id: 1283
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:03 Z
+cdn_repo_1284:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-for-power-optional-rpms__7Server__ppc64
+  arch_id: 18
+  id: 1284
+  type: CdnBinaryRepo
+  created_at: 2014-05-06 11:03:03 Z
+cdn_repo_1285:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-02-18 12:49:41 Z
+  name: rhel-7-for-power-optional-source-rpms__7Server__ppc64
+  arch_id: 18
+  id: 1285
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:04 Z
+cdn_repo_1286:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-02-18 12:50:24 Z
+  name: rhel-7-for-system-z-optional-debug-rpms__7Server__s390x
+  arch_id: 14
+  id: 1286
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:04 Z
+cdn_repo_1287:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-for-system-z-optional-rpms__7Server__s390x
+  arch_id: 14
+  id: 1287
+  type: CdnBinaryRepo
+  created_at: 2014-05-06 11:03:04 Z
+cdn_repo_1288:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-02-18 12:48:41 Z
+  name: rhel-7-for-system-z-optional-source-rpms__7Server__s390x
+  arch_id: 14
+  id: 1288
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:04 Z
+cdn_repo_1289:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-02-18 12:50:18 Z
+  name: rhel-7-server-optional-debug-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1289
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:04 Z
+cdn_repo_1290:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-server-optional-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1290
+  type: CdnBinaryRepo
+  created_at: 2014-05-06 11:03:04 Z
+cdn_repo_1291:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-02-18 12:50:21 Z
+  name: rhel-7-server-optional-source-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1291
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:05 Z
+cdn_repo_1763:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:19 Z
+  name: rhel-7-for-power-optional-fastrack-debug-rpms__ppc64
+  arch_id: 18
+  id: 1763
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:19 Z
+cdn_repo_1764:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:19 Z
+  name: rhel-7-for-power-optional-fastrack-rpms__ppc64
+  arch_id: 18
+  id: 1764
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:19 Z
+cdn_repo_1765:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:19 Z
+  name: rhel-7-for-power-optional-fastrack-source-rpms__ppc64
+  arch_id: 18
+  id: 1765
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:19 Z
+cdn_repo_1766:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:19 Z
+  name: rhel-7-for-system-z-optional-fastrack-debug-rpms__s390x
+  arch_id: 14
+  id: 1766
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:19 Z
+cdn_repo_1767:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:20 Z
+  name: rhel-7-for-system-z-optional-fastrack-rpms__s390x
+  arch_id: 14
+  id: 1767
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:20 Z
+cdn_repo_1768:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:20 Z
+  name: rhel-7-for-system-z-optional-fastrack-source-rpms__s390x
+  arch_id: 14
+  id: 1768
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:20 Z
+cdn_repo_1769:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:20 Z
+  name: rhel-7-server-optional-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1769
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:20 Z
+cdn_repo_1770:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:20 Z
+  name: rhel-7-server-optional-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1770
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:20 Z
+cdn_repo_1771:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 702
+  updated_at: 2014-07-24 15:04:20 Z
+  name: rhel-7-server-optional-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1771
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:20 Z
+cdn_repo_2668:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-07-17 14:32:16 Z
+  name: rhel-7-for-arm-optional-rpms__7Server__aarch64
+  arch_id: 26
+  id: 2668
+  type: CdnBinaryRepo
+  created_at: 2015-07-17 14:32:16 Z
+cdn_repo_2669:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-07-17 14:33:08 Z
+  name: rhel-7-for-arm-optional-debug-rpms__7Server__aarch64
+  arch_id: 26
+  id: 2669
+  type: CdnDebuginfoRepo
+  created_at: 2015-07-17 14:33:08 Z
+cdn_repo_2670:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 702
+  updated_at: 2015-07-17 14:34:16 Z
+  name: rhel-7-for-arm-optional-source-rpms__7Server__aarch64
+  arch_id: 26
+  id: 2670
+  type: CdnSourceRepo
+  created_at: 2015-07-17 14:34:16 Z
+cdn_repo_2180:
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+  variant_id: 1038
+  updated_at: 2015-06-03 13:30:35 Z
+  name: rhel-7-for-power-le-optional-debug-rpms__7Server__ppc64le
+  arch_id: 27
+  id: 2180
+  type: CdnDebuginfoRepo
+  created_at: 2015-03-02 12:27:32 Z
+cdn_repo_2181:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 1038
+  updated_at: 2015-03-02 12:27:32 Z
+  name: rhel-7-for-power-le-optional-rpms__7Server__ppc64le
+  arch_id: 27
+  id: 2181
+  type: CdnBinaryRepo
+  created_at: 2015-03-02 12:27:32 Z
+cdn_repo_2182:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 1038
+  updated_at: 2015-03-02 14:56:25 Z
+  name: rhel-7-for-power-le-optional-source-rpms__7Server__ppc64le
+  arch_id: 27
+  id: 2182
+  type: CdnSourceRepo
+  created_at: 2015-03-02 12:27:33 Z
+cdn_repo_1292:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 703
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-hpc-node-optional-debug-rpms__7ComputeNode__x86_64
+  arch_id: 13
+  id: 1292
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:05 Z
+cdn_repo_1293:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 703
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-hpc-node-optional-rpms__7ComputeNode__x86_64
+  arch_id: 13
+  id: 1293
+  type: CdnBinaryRepo
+  created_at: 2014-05-06 11:03:05 Z
+cdn_repo_1294:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 703
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-hpc-node-optional-source-rpms__7ComputeNode__x86_64
+  arch_id: 13
+  id: 1294
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:05 Z
+cdn_repo_1772:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 703
+  updated_at: 2014-07-24 15:04:22 Z
+  name: rhel-7-for-hpc-node-optional-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1772
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:22 Z
+cdn_repo_1773:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 703
+  updated_at: 2014-07-24 15:04:23 Z
+  name: rhel-7-for-hpc-node-optional-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1773
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:23 Z
+cdn_repo_1774:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 703
+  updated_at: 2014-07-24 15:04:23 Z
+  name: rhel-7-for-hpc-node-optional-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1774
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:23 Z
+cdn_repo_1295:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 704
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-ha-for-rhel-7-server-debug-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1295
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:05 Z
+cdn_repo_1296:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 704
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-ha-for-rhel-7-server-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1296
+  type: CdnBinaryRepo
+  created_at: 2014-05-06 11:03:06 Z
+cdn_repo_1297:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 704
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-ha-for-rhel-7-server-source-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1297
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:06 Z
+cdn_repo_1775:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 704
+  updated_at: 2014-07-24 15:04:26 Z
+  name: rhel-ha-for-rhel-7-server-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1775
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:26 Z
+cdn_repo_1776:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 704
+  updated_at: 2014-07-24 15:04:26 Z
+  name: rhel-ha-for-rhel-7-server-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1776
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:26 Z
+cdn_repo_1777:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 704
+  updated_at: 2014-07-24 15:04:26 Z
+  name: rhel-ha-for-rhel-7-server-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1777
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:26 Z
+cdn_repo_2749:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 704
+  updated_at: 2015-09-17 15:04:17 Z
+  name: rhel-ha-for-rhel-7-for-system-z-debug-rpms__7Server__s390x
+  arch_id: 14
+  id: 2749
+  type: CdnDebuginfoRepo
+  created_at: 2015-09-17 15:02:55 Z
+cdn_repo_2750:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 704
+  updated_at: 2015-09-17 15:04:40 Z
+  name: rhel-ha-for-rhel-7-for-system-z-rpms__7Server__s390x
+  arch_id: 14
+  id: 2750
+  type: CdnBinaryRepo
+  created_at: 2015-09-17 15:04:40 Z
+cdn_repo_2751:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 704
+  updated_at: 2015-09-17 15:04:55 Z
+  name: rhel-ha-for-rhel-7-for-system-z-source-rpms__7Server__s390x
+  arch_id: 14
+  id: 2751
+  type: CdnSourceRepo
+  created_at: 2015-09-17 15:04:55 Z
+cdn_repo_1298:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 706
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-rs-for-rhel-7-server-debug-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1298
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:06 Z
+cdn_repo_1299:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 706
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-rs-for-rhel-7-server-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1299
+  type: CdnBinaryRepo
+  created_at: 2014-05-06 11:03:06 Z
+cdn_repo_1300:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 706
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-rs-for-rhel-7-server-source-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1300
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:07 Z
+cdn_repo_1778:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 706
+  updated_at: 2014-07-24 15:04:31 Z
+  name: rhel-rs-for-rhel-7-server-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1778
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:31 Z
+cdn_repo_1779:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 706
+  updated_at: 2014-07-24 15:04:31 Z
+  name: rhel-rs-for-rhel-7-server-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1779
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:31 Z
+cdn_repo_1780:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 706
+  updated_at: 2014-07-24 15:04:31 Z
+  name: rhel-rs-for-rhel-7-server-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1780
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:31 Z
+cdn_repo_2752:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 706
+  updated_at: 2015-09-17 15:05:14 Z
+  name: rhel-rs-for-rhel-7-for-system-z-debug-rpms__7Server__s390x
+  arch_id: 14
+  id: 2752
+  type: CdnDebuginfoRepo
+  created_at: 2015-09-17 15:05:14 Z
+cdn_repo_2753:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 706
+  updated_at: 2015-09-17 15:05:31 Z
+  name: rhel-rs-for-rhel-7-for-system-z-rpms__7Server__s390x
+  arch_id: 14
+  id: 2753
+  type: CdnBinaryRepo
+  created_at: 2015-09-17 15:05:31 Z
+cdn_repo_2754:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 706
+  updated_at: 2015-09-17 15:05:48 Z
+  name: rhel-rs-for-rhel-7-for-system-z-source-rpms__7Server__s390x
+  arch_id: 14
+  id: 2754
+  type: CdnSourceRepo
+  created_at: 2015-09-17 15:05:48 Z
+cdn_repo_1301:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 707
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-workstation-optional-debug-rpms__7Workstation__x86_64
+  arch_id: 13
+  id: 1301
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-06 11:03:07 Z
+cdn_repo_1302:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 707
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-workstation-optional-rpms__7Workstation__x86_64
+  arch_id: 13
+  id: 1302
+  type: CdnBinaryRepo
+  created_at: 2014-05-06 11:03:07 Z
+cdn_repo_1303:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 707
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-7-workstation-optional-source-rpms__7Workstation__x86_64
+  arch_id: 13
+  id: 1303
+  type: CdnSourceRepo
+  created_at: 2014-05-06 11:03:07 Z
+cdn_repo_1781:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 707
+  updated_at: 2014-07-24 15:04:33 Z
+  name: rhel-7-workstation-optional-fastrack-debug-rpms__x86_64
+  arch_id: 13
+  id: 1781
+  type: CdnDebuginfoRepo
+  created_at: 2014-07-24 15:04:33 Z
+cdn_repo_1782:
+  has_stable_systems_subscribed: true
+  release_type: FastTrackCdnRepo
+  variant_id: 707
+  updated_at: 2014-07-24 15:04:34 Z
+  name: rhel-7-workstation-optional-fastrack-rpms__x86_64
+  arch_id: 13
+  id: 1782
+  type: CdnBinaryRepo
+  created_at: 2014-07-24 15:04:34 Z
+cdn_repo_1783:
+  has_stable_systems_subscribed: false
+  release_type: FastTrackCdnRepo
+  variant_id: 707
+  updated_at: 2014-07-24 15:04:34 Z
+  name: rhel-7-workstation-optional-fastrack-source-rpms__x86_64
+  arch_id: 13
+  id: 1783
+  type: CdnSourceRepo
+  created_at: 2014-07-24 15:04:34 Z
+cdn_repo_1362:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 822
+  updated_at: 2014-05-29 06:41:50 Z
+  name: rhel-sap-for-rhel-7-server-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1362
+  type: CdnBinaryRepo
+  created_at: 2014-05-29 06:38:44 Z
+cdn_repo_1363:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 822
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-sap-for-rhel-7-server-debug-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1363
+  type: CdnDebuginfoRepo
+  created_at: 2014-05-29 06:39:47 Z
+cdn_repo_1364:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 822
+  updated_at: 2014-06-27 02:19:44 Z
+  name: rhel-sap-for-rhel-7-server-source-rpms__7Server__x86_64
+  arch_id: 13
+  id: 1364
+  type: CdnSourceRepo
+  created_at: 2014-05-29 06:40:48 Z
+cdn_repo_2005:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 990
+  updated_at: 2015-02-05 15:29:24 Z
+  name: rhel-7-server-rt-rpms__7Server__x86_64
+  arch_id: 13
+  id: 2005
+  type: CdnBinaryRepo
+  created_at: 2014-11-18 13:07:20 Z
+cdn_repo_2006:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 990
+  updated_at: 2015-02-05 15:29:26 Z
+  name: rhel-7-server-rt-debug-rpms__7Server__x86_64
+  arch_id: 13
+  id: 2006
+  type: CdnDebuginfoRepo
+  created_at: 2014-11-18 13:07:43 Z
+cdn_repo_2007:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 990
+  updated_at: 2015-02-05 15:29:22 Z
+  name: rhel-7-server-rt-source-rpms__7Server__x86_64
+  arch_id: 13
+  id: 2007
+  type: CdnSourceRepo
+  created_at: 2014-11-18 13:08:20 Z
+cdn_repo_2743:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 1161
+  updated_at: 2015-08-18 12:44:11 Z
+  name: rhel-sap-hana-for-rhel-7-server-rpms__7Server__x86_64
+  arch_id: 13
+  id: 2743
+  type: CdnBinaryRepo
+  created_at: 2015-08-18 12:44:11 Z
+cdn_repo_2744:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 1161
+  updated_at: 2015-08-18 12:44:49 Z
+  name: rhel-sap-hana-for-rhel-7-server-debug-rpms__7Server__x86_64
+  arch_id: 13
+  id: 2744
+  type: CdnDebuginfoRepo
+  created_at: 2015-08-18 12:44:33 Z
+cdn_repo_2745:
+  has_stable_systems_subscribed: true
+  release_type: PrimaryCdnRepo
+  variant_id: 1161
+  updated_at: 2015-08-18 12:45:08 Z
+  name: rhel-sap-hana-for-rhel-7-server-source-rpms__7Server__x86_64
+  arch_id: 13
+  id: 2745
+  type: CdnSourceRepo
+  created_at: 2015-08-18 12:45:08 Z
+cdn_repo_1643:
+  created_at: 2014-07-14 11:08:12 Z
+  name: rhel-5-server-rhs-client-1-debug-rpms__5Server__x86_64
+  has_stable_systems_subscribed: false
+  variant_id: 565
+  updated_at: 2014-07-14 11:08:12 Z
+  id: 1643
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnDebuginfoRepo
+cdn_repo_1644:
+  created_at: 2014-07-14 11:08:12 Z
+  name: rhel-5-server-rhs-client-1-rpms__5Server__x86_64
+  has_stable_systems_subscribed: true
+  variant_id: 565
+  updated_at: 2014-07-23 04:51:52 Z
+  id: 1644
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnBinaryRepo
+cdn_repo_1645:
+  created_at: 2014-07-14 11:08:12 Z
+  name: rhel-5-server-rhs-client-1-source-rpms__5Server__x86_64
+  has_stable_systems_subscribed: false
+  variant_id: 565
+  updated_at: 2014-07-14 11:08:12 Z
+  id: 1645
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnSourceRepo
+cdn_repo_1694:
+  created_at: 2014-07-18 19:47:33 Z
+  name: rhs-nagios-3-for-rhel-6-server-debug-rpms__6Server__x86_64
+  has_stable_systems_subscribed: false
+  variant_id: 901
+  updated_at: 2014-07-18 19:47:33 Z
+  id: 1694
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnDebuginfoRepo
+cdn_repo_1695:
+  created_at: 2014-07-18 19:47:33 Z
+  name: rhs-nagios-3-for-rhel-6-server-rpms__6Server__x86_64
+  has_stable_systems_subscribed: true
+  variant_id: 901
+  updated_at: 2014-07-18 19:47:33 Z
+  id: 1695
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnBinaryRepo
+cdn_repo_1696:
+  created_at: 2014-07-18 19:47:33 Z
+  name: rhs-nagios-3-for-rhel-6-server-source-rpms__6Server__x86_64
+  has_stable_systems_subscribed: false
+  variant_id: 901
+  updated_at: 2014-07-18 19:47:33 Z
+  id: 1696
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnSourceRepo
+cdn_repo_2156:
+  created_at: 2015-02-18 05:50:19 Z
+  name: rhs-3-for-rhel-6-server-rpms__6Server__x86_64
+  has_stable_systems_subscribed: true
+  variant_id: 853
+  updated_at: 2015-02-18 05:50:19 Z
+  id: 2156
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnBinaryRepo
+cdn_repo_2157:
+  created_at: 2015-02-18 05:50:44 Z
+  name: rhs-3-for-rhel-6-server-debug-rpms__6Server__x86_64
+  has_stable_systems_subscribed: false
+  variant_id: 853
+  updated_at: 2015-02-18 05:50:44 Z
+  id: 2157
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnDebuginfoRepo
+cdn_repo_2158:
+  created_at: 2015-02-18 05:51:16 Z
+  name: rhs-3-for-rhel-6-server-source-rpms__6Server__x86_64
+  has_stable_systems_subscribed: false
+  variant_id: 853
+  updated_at: 2015-02-18 05:51:16 Z
+  id: 2158
+  arch_id: 13
+  release_type: PrimaryCdnRepo
+  type: CdnSourceRepo
+cdn_repo_3001:
+  arch_id: 13
+  has_stable_systems_subscribed: false
+  id: 3001
+  created_at: Tue, 06 May 2014 11:03:00 UTC +00:00
+  updated_at: Fri, 27 Jun 2014 02:19:44 UTC +00:00
+  type: CdnDockerRepo
+  name: redhat-rhscl-perl-520-rhel7
+  variant_id: 594
+  release_type: PrimaryCdnRepo
+cdn_repo_9999005:
+  created_at: 2016-03-03 04:22:54 Z
+  updated_at: 2016-03-03 04:22:54 Z
+  has_stable_systems_subscribed: false
+  arch_id: 13
+  id: 9999005
+  variant_id: 594
+  type: CdnDockerRepo
+  name: test_docker_7-1
+  release_type: PrimaryCdnRepo
+cdn_repo_9999006:
+  updated_at: 2016-05-08 22:36:10 Z
+  id: 9999006
+  release_type: PrimaryCdnRepo
+  created_at: 2016-05-08 22:36:10 Z
+  type: CdnDockerRepo
+  name: test_rhel6_docker
+  has_stable_systems_subscribed: false
+  variant_id: 340
+  arch_id: 13
+cdn_repo_9999007:
+  name: test_2_docker_7-1
+  has_stable_systems_subscribed: false
+  updated_at: 2016-05-11 03:47:41 Z
+  type: CdnDockerRepo
+  id: 9999007
+  release_type: PrimaryCdnRepo
+  arch_id: 13
+  variant_id: 1023
+  created_at: 2016-05-11 03:47:41 Z
+cdn_repo_4342:
+  id: 4342
+  type: CdnDockerRepo
+  name: redhat-rhel7-rhel-tools
+  variant_id: 888
+  arch_id: 13
+  created_at: 2016-07-15 14:27:28 Z
+  updated_at: 2016-07-15 14:27:28 Z
+  has_stable_systems_subscribed: false
+  release_type: PrimaryCdnRepo
+cdn_repo_3894:
+  id: 3894
+  type: "CdnDebuginfoRepo"
+  name: "rhel-7-server-rhceph-2-mon-debug-rpms__7Server__x86_64"
+  variant_id: 1277
+  arch_id: 13
+  created_at: Thu, 17 Mar 2016 174928 UTC +0000
+  updated_at: Thu, 17 Mar 2016 174928 UTC +0000
+  has_stable_systems_subscribed: true
+  release_type: "PrimaryCdnRepo"
+cdn_repo_3893:
+  id: 3893
+  type: "CdnBinaryRepo"
+  name: "rhel-7-server-rhceph-2-mon-rpms__7Server__x86_64"
+  variant_id: 1277
+  arch_id: 13
+  created_at: Thu, 17 Mar 2016 174801 UTC +0000
+  updated_at: Thu, 17 Mar 2016 174951 UTC +0000
+  has_stable_systems_subscribed: true
+  release_type: "PrimaryCdnRepo"
+cdn_repo_3895:
+  id: 3895
+  type: "CdnSourceRepo"
+  name: "rhel-7-server-rhceph-2-mon-source-rpms__7Server__x86_64"
+  variant_id: 1277
+  arch_id: 13
+  created_at: Thu, 17 Mar 2016 175115 UTC +0000
+  updated_at: Thu, 17 Mar 2016 175115 UTC +0000
+  has_stable_systems_subscribed: true
+  release_type: "PrimaryCdnRepo"

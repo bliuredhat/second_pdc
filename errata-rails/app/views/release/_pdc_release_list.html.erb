@@ -1,0 +1,24 @@
+<% if pdc_release_list.to_a.any? %>
+  <ul>
+    <% pdc_release_list.each do |pdc_rel| %>
+      <% selected = @release && @release.pdc_releases && @release.pdc_releases.include?(pdc_rel) %>
+      <% in_use = @pdc_releases_id_in_use.include?(pdc_rel.id) %>
+      <li>
+        <%= check_box_tag 'release[pdc_releases][]', pdc_rel.pdc_id, selected, :disabled => in_use -%>
+        <%= link_to_release_version(pdc_rel) %><%= " (used by advisory now)" if in_use %>
+      </li>
+    <% end %>
+  </ul>
+<% elsif @in_error %>
+  <div class="alert alert-warning">
+    - An error occurred when accessing the PDC server
+  </div>
+<% elsif !@release.product.pdc_product %>
+  <div class="alert alert-warning">
+    - No PDC product is associated with this product
+  </div>
+<% else %>
+  <div class="alert alert-warning">
+    - No PDC releases were found for this product
+  </div>
+<% end %>

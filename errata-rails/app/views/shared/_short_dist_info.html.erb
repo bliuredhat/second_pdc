@@ -1,0 +1,16 @@
+<%=
+#
+# For use in popover tooltips.
+# (Fairly similar to app/views/{channel,cdn_repo}/_show).
+#
+is_cdn_repo = dist.is_a?(CdnRepo)
+table_rows_helper([
+  ['Type', dist.class.display_name],
+  (['Release Type', dist.short_type] unless is_cdn_repo),
+  (['Release Type', dist.short_release_type] if is_cdn_repo),
+  (['Content Type', dist.short_type] if is_cdn_repo),
+  ['Arch', dist.arch.name],
+  ['Variant Type', dist.variant.name],
+  ['Product Version', dist.product_version.name],
+], :labels => true, :table => 'compact'
+) -%>

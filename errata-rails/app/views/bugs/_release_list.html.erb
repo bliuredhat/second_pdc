@@ -1,0 +1,4 @@
+<div id="release_list">
+    <%= release_list.collect! { |d| [d.name,d.id]}
+        select(:release, :id, release_list,{:selected => release.id}) %>
+</div>

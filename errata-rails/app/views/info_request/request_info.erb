@@ -1,0 +1,18 @@
+<%= form_tag :action => :request_info, :id => @errata do %>
+  <p>
+    Role information is needed from: <%= select_tag 'role', 
+                                         ['devel', 'qa','pm', 'releng','secalert'].collect {|r| "<option>#{r}</option>"}.join.html_safe
+                                         %>
+ 
+  </p>
+  <p>
+    Brief description of the request<br/>
+    <%= text_field_tag 'summary', nil, :size => 75 %>
+  </p>
+  <p>
+    Detailed description of the request<br/>
+    <%= text_area_tag 'description', nil, :rows => 10, :cols => 75, :wrap => 'soft' %>
+  </p>
+
+  <%= submit_tag 'Submit', :class=>'btn btn-primary' %>
+<% end %>

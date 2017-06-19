@@ -1,0 +1,12 @@
+// Path: /rcm/composedb/get-product-listings/RHEL-6-Server-JBEAP-6/org.picketbox-picketbox-infinispan-4.0.9.Final-1
+// Status: 200
+// Content-Type: application/json
+// This build does not have any product listings.
+{
+  "build": {
+    "id": 368489,
+    "nvr": "org.picketbox-picketbox-infinispan-4.0.9.Final-1"
+  },
+  "product": "RHEL-6-Server-JBEAP-6",
+  "variants": {}
+}

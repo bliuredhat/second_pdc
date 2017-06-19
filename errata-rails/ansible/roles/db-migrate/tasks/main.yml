@@ -1,0 +1,6 @@
+---
+- name: Run migrations
+  become: yes
+  become_user: erratatool
+  shell: chdir={{ rails_root }} RAILS_ENV={{ rails_env }} SILENCE_DEPRECATIONS=1 rake db:migrate
+  register: migration_result

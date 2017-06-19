@@ -1,0 +1,66 @@
+<%= javascript_include_tag "variant_form" %>
+<%= error_messages_for 'variant' %>
+  <div class="form_label_div small_label"><label for="variant_rhel_variant_id">RHEL Variant</label></div>
+  <div class="form_div"><%= form.collection_select(:rhel_variant_id,
+                          @variant.product_version.rhel_variants, :id, :name, {:include_blank => @variant.new_record?}) %></div>
+  <% if @variant.new_record? %>
+    <div class="help_button" title="RHEL Variant should be left blank if this is a base variant,&#10;like 5Server or 8Client. Otherwise, it must match to the&#10;sub variant's type. e.g.&#10;6Server-HighAvailability => 6Server&#10;6Server-RHNTools-6.0.Z => 6Server-6.0.Z" ><span>?</span></div>
+  <%
+       default_tps_stream = nil
+     elsif @variant.tps_stream.blank?
+       # don't set the placeholder if tps_stream is saved in db
+       default_tps_stream = @variant.get_tps_stream
+     end
+
+     # Show the tps stream field if user is editing a base variant
+     # or creating a new variant
+     show_tps_stream_field = @variant.is_parent? || @variant.new_record? ? true : false
+  %>
+
+  <br/>
+
+  <div class="form_label_div small_label"><label for="variant_name">Name</label></div>
+  <div class="form_div"><%= form.text_field :name  %></div>
+
+  <br/>
+
+  <% if show_tps_stream_field %>
+    <span id="tps_stream_span">
+      <div class="form_label_div small_label"><label for="variant_tps_stream">TPS Stream</label></div>
+      <div class="form_div"><%= form.text_field :tps_stream, :placeholder => default_tps_stream %></div>
+      <div class="help_button" title="TPS stream is an optional field. If it is not provided, the&#10;system will try to determine the TPS stream for the new&#10;RHEL Variant. If the system is unable to determine the&#10;TPS stream, the field becomes mandatory."><span>?</span></div>
+      <br/>
+    </span>
+  <% end %>
+
+  <div class="form_label_div small_label"><label for="variant_description">Description</label></div>
+  <div class="form_div"><%= form.text_field :description %></div>
+  <br/>
+
+  <div class="form_label_div small_label"><label for="variant_cpe">CPE</label></div>
+  <% if can_edit_cpe? %>
+    <div class="form_div"><%= form.text_field :cpe %></div>
+  <% else %>
+    <% if @variant.cpe.blank? %>
+      <div class="form_div small_label">You do not have permission to edit CPE</div>
+    <% else %>
+      <div class="form_div"><%= @variant.cpe %></div>
+    <% end %>
+  <% end %>
+  <br/>
+
+  <div class="form_label_div small_label"><label>Allowable Push Targets</label></div>
+  <div class="form_div">
+    <% @variant.product_version.push_targets.allowable_by_variant.each do |push_target|
+    %>
+      <label>
+        <%= check_box_tag('variant[push_targets][]', push_target.id, @variant.push_targets.include?(push_target)) %>&nbsp;
+        <%= push_target.description.titleize %> (Pub Target: <i><tt><%= push_target.pub_target %></tt></i>)
+      </label>
+      <br/>
+    <% end %>
+  </div>
+  <div class="form_div" style="vertical-align:top;">
+    <div class="help_button" title="If a push target is disallowed in the variant level, then&#10;it will also be unset in the package level."><span>?</span></div>
+  </div>
+  <br/>

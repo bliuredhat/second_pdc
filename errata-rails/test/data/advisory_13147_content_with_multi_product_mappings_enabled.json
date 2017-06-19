@@ -1,0 +1,239 @@
+{
+  "sblim-cim-client2-2.1.3-2.el6": {
+    "direct": [
+      {
+        "dist": "rhel-6-server-optional-rpms__6Server__i386",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-6-server-optional-rpms__6Server__ppc64",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-6-server-optional-rpms__6Server__x390x",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-6-server-optional-rpms__6Server__x86_64",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-6-server-rpms__6Server__i386",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-6-server-rpms__6Server__ppc64",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-6-server-rpms__6Server__s390x",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-6-server-rpms__6Server__x86_64",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-6-server-source-rpms__6Server__x86_64",
+        "files": [
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-i386-server-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-i386-server-optional-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-i386-workstation-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-i386-workstation-optional-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-ppc64-server-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-ppc64-server-optional-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-s390x-server-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-s390x-server-optional-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-x86_64-server-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-x86_64-server-optional-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-x86_64-workstation-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      },
+      {
+        "dist": "rhel-x86_64-workstation-optional-6",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-6"
+        ]
+      }
+    ],
+    "multi_product_maps": [
+      {
+        "dist": "rhel-6-rhev-s-rpms__6Server-RHEV-S__x86_64",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-2.el6.noarch.rpm"
+        ],
+        "listing": [
+
+        ]
+      },
+      {
+        "dist": "rhel-x86_64-server-6-rhevh",
+        "files": [
+          "data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+          "data/signed/fd431d51/src/sblim-cim-client2-2.1.3-2.el6.src.rpm"
+        ],
+        "listing": [
+
+        ]
+      }
+    ]
+  }
+}

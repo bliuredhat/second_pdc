@@ -1,0 +1,31 @@
+--- 
+tpsstate_00001: 
+  id: 1
+  state: NOT_STARTED
+tpsstate_00002: 
+  id: 2
+  state: INVALIDATED
+tpsstate_00003: 
+  id: 3
+  state: PENDING
+tpsstate_00004: 
+  id: 4
+  state: BUSY
+tpsstate_00005: 
+  id: 5
+  state: GOOD
+tpsstate_00006: 
+  id: 6
+  state: BAD
+tpsstate_00007: 
+  id: 7
+  state: INFO
+tpsstate_00008: 
+  id: 8
+  state: VERIFY
+tpsstate_00009: 
+  id: 9
+  state: WAIVED
+tpsstate_00099:
+  id: 99
+  state: NOT_SCHEDULED

@@ -1,0 +1,16 @@
+<div class='tps_error'>
+  <ul>
+  <% errors.each do |error| %>
+    <li><%= 'TPS stream ' + error.message(true) %></li>
+  <% end %>
+  </ul><br/>
+  <p class='light small'><i>
+    <%
+      # FIXME: gsub(/"/, "'") to keep the popover method happy because the entire data-content is using
+      # double quote. If we put double quote within it, then the entire popover box will become crazy.
+      # See 'content_popover_helper' method.
+    %>
+    New updates from TPS server might take up to 1 day to take effect in Errata Tool. If you
+    cannot wait 1 day, you can file a ticket to <%= mail_to(Settings.errata_admin_email || 'errata-admin@redhat.com').gsub(/"/, "'") %>.
+  </i></p>
+</div>

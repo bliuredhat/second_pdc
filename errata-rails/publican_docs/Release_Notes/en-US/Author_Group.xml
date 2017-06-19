@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE authorgroup PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Main.ent">
+%BOOK_ENTITIES;
+]>
+<authorgroup>
+  <author><firstname>Simon</firstname><surname>Baird</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>sbaird@redhat.com</email></author>
+  <author><firstname>Jon</firstname><surname>Orris</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>jorris@redhat.com</email></author>
+  <author><firstname>Róman</firstname><surname>Joost</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>rjoost@redhat.com</email></author>
+  <author><firstname>Rohan</firstname><surname>McGovern</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>rmcgover@redhat.com</email></author>
+  <author><firstname>Hao</firstname><surname>Yu</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>hyu@redhat.com</email></author>
+  <author><firstname>Haibo</firstname><surname>Lin</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>hlin@redhat.com</email></author>
+  <author><firstname>Deshi</firstname><surname>Xiao</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>dxiao@redhat.com</email></author>
+  <author><firstname>Weitou</firstname><surname>Zhou</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>weizhou@redhat.com</email></author>
+  <author><firstname>David</firstname><surname>Clark</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>daclark@redhat.com</email></author>
+  <author><firstname>Sunil</firstname><surname>Thaha</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>sthaha@redhat.com</email></author>
+  <author><firstname>Wangsung</firstname><surname>Kim</surname><affiliation><orgname>PnT DevOps</orgname><orgdiv>Development</orgdiv></affiliation><email>brkim@redhat.com</email></author>
+</authorgroup>

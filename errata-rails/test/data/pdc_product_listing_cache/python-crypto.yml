@@ -1,0 +1,9 @@
+--- !ruby/object:OpenStruct
+table:
+  :MON: !ruby/object:OpenStruct
+    table:
+      :x86_64: !ruby/object:OpenStruct
+        table:
+          :"python-crypto":
+          - src
+          - x86_64

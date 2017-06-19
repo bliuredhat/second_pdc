@@ -1,0 +1,16 @@
+RHBA-2015:1395 CVE-1234-5678 cpe:/o:redhat:enterprise_linux:6::client/rhn-client-tools,cpe:/o:redhat:enterprise_linux:6::computenode/rhn-client-tools,cpe:/o:redhat:enterprise_linux:6::server/rhn-client-tools,cpe:/o:redhat:enterprise_linux:6::workstation/rhn-client-tools
+RHBA-2015:2394 CVE-2007-1234 cpe:/o:redhat:enterprise_linux:7::server/kernel-aarch64
+RHBA-2016:2399 CVE-2008-7270,CVE-2009-3245,CVE-2009-3560,CVE-2009-3720,CVE-2009-3767,CVE-2010-1157,CVE-2010-1452,CVE-2010-1623,CVE-2010-2068,CVE-2010-3718,CVE-2010-4172,CVE-2010-4180,CVE-2011-0013 
+RHSA-2011:0175 CVE-2010-1622 cpe:/a:redhat:jboss_web_framework_kit:1::el4/jboss-wfk-1.0.0-uninstall,cpe:/a:redhat:jboss_web_framework_kit:1::el5/jboss-wfk-1.0.0-uninstall
+RHSA-2011:0212 CVE-2010-4476 TEXTONLYCPE2
+RHSA-2011:0213 CVE-2010-4476 TEXTONLYCPE1
+RHSA-2011:0293 CVE-2011-0019,CVE-2011-0022,CVE-2011-0532 cpe:/a:redhat:directory_server:8::el4/redhat-ds-admin,cpe:/a:redhat:directory_server:8::el4/redhat-ds-base,cpe:/a:redhat:directory_server:8::el5/redhat-ds-admin,cpe:/a:redhat:directory_server:8::el5/redhat-ds-base
+RHSA-2011:0299 CVE-2010-4476 cpe:/a:redhat:rhel_extras_sap:4/java-1.4.2-ibm-sap,cpe:/a:redhat:rhel_extras_sap:5/java-1.4.2-ibm-sap
+RHSA-2011:0300 CVE-2011-0717,CVE-2011-0718 cpe:/a:redhat:network_satellite:5.4::el5/spacewalk-backend,cpe:/a:redhat:network_satellite:5.4::el5/spacewalk-java
+RHSA-2011:0334 CVE-2010-4476 TEXTONLYCPE0
+RHSA-2011:0447 CVE-2011-0285 cpe:/o:redhat:enterprise_linux:6::client/krb5,cpe:/o:redhat:enterprise_linux:6::computenode/krb5,cpe:/o:redhat:enterprise_linux:6::server/krb5,cpe:/o:redhat:enterprise_linux:6::workstation/krb5
+RHSA-2011:0451 CVE-2011-0611 cpe:/a:redhat:rhel_extras:5::client/flash-plugin,cpe:/a:redhat:rhel_extras:5::server/flash-plugin,cpe:/a:redhat:rhel_extras:6/flash-plugin
+RHSA-2012:0987 CVE-2012-2328 cpe:/o:redhat:enterprise_linux:6::hypervisor/sblim-cim-client2,cpe:/o:redhat:enterprise_linux:6::server/sblim-cim-client2,cpe:/o:redhat:enterprise_linux:6::workstation/sblim-cim-client2
+RHSA-2014:0001 CVE-2014-8888 
+RHSA-2014:2021 CVE-2014-8137,CVE-2014-8138,CVE-2014-9029  	cpe:/o:redhat:enterprise_linux:6::client/jasper, 	cpe:/o:redhat:enterprise_linux:6::computenode/jasper, 	cpe:/o:redhat:enterprise_linux:6::server/jasper,cpe:/o:redhat:enterprise_linux:6::client/jasper,cpe:/o:redhat:enterprise_linux:6::computenode/jasper,cpe:/o:redhat:enterprise_linux:6::server/jasper,cpe:/o:redhat:enterprise_linux:6::workstation/jasper,cpe:/o:redhat:enterprise_linux:7::client/jasper,cpe:/o:redhat:enterprise_linux:7::computenode/jasper,cpe:/o:redhat:enterprise_linux:7::server/jasper,cpe:/o:redhat:enterprise_linux:7::workstation/jasper
+RHSA-2016:1847 CVE-2016-3134,CVE-2016-4997,CVE-2016-4998 

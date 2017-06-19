@@ -1,0 +1,74 @@
+# HTTP 200
+{
+  "all_errata": [
+    {
+      "id": 16396,
+      "name": "RHBA-2014:16385",
+      "status": "NEW_FILES"
+    }
+  ],
+  "files": [
+    {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "id": 698250,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/images/tdl-x86_64.xml",
+      "type": "xml"
+    },
+    {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "id": 698251,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/images/rhel-7-server-docker.ks",
+      "type": "ks"
+    },
+    {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "id": 698252,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/images/koji-image-guest-rhel-7.0-docker-build-7652483.ks",
+      "type": "ks"
+    },
+    {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "id": 698253,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/images/rhel-server-docker-7.0-22.x86_64.tar.gz",
+      "type": "tar"
+    },
+    {
+      "arch": {
+        "id": 24,
+        "name": "SRPMS"
+      },
+      "id": 3416402,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/src/rhel-server-docker-7.0-22.src.rpm",
+      "type": "rpm"
+    },
+    {
+      "arch": {
+        "id": 8,
+        "name": "noarch"
+      },
+      "id": 3416403,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/noarch/rhel-server-docker-7.0-22.noarch.rpm",
+      "type": "rpm"
+    }
+  ],
+  "id": 367572,
+  "nvr": "rhel-server-docker-7.0-22",
+  "package": {
+    "id": 22001,
+    "name": "rhel-server-docker"
+  },
+  "released_errata": null,
+  "rpms_signed": false
+}

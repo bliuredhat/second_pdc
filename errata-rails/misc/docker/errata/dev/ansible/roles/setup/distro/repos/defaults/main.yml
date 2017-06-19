@@ -1,0 +1,5 @@
+repo_dir: "{{ansible_distribution|lower}}-{{ansible_distribution_version|int}}"
+
+setup_skip_repo_deletion: false
+
+

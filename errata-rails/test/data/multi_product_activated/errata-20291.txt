@@ -1,0 +1,38 @@
+To: sgirijan@redhat.com
+Subject: ET: [RHBA-2015:0916 RHEL-6.6.z] libvirt - Multi-product advisory is available
+X-ErrataTool-Component: ERRATA
+X-ErrataTool-Action: MULTI-PRODUCT-ACTIVATED
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+Multi-product support has been enabled on an advisory.
+
+  Advisory:       RHBA-2015:0916
+  Base product:   RHEL
+  Other products: RHEV, RHS
+
+When this advisory is shipped to the base product, it may also ship content to
+the following channels/repos in other products:
+
+  libvirt:
+    RHEV:
+      rhel-x86_64-rhev-agent-6-server
+    RHS:
+      rhel-x86_64-server-6-rhs-3
+
+For more information regarding the content of this advisory, please see
+https://errata-test.example.com/errata/content/20291 .
+
+You are receiving this email because you are subscribed to multi-product mapping
+rules which have been activated for this advisory.  To see more information
+about multi-product mapping, including how to adjust your subscription
+preferences, please visit https://errata-test.example.com/multi_product_mappings .
+
+Advisory:
+  [RHBA-2015:0916 RHEL-6.6.z] libvirt bug fix update
+  Status: NEW_FILES, Package: libvirt
+  https://errata-test.example.com/advisory/20291
+
+
+(ET 3.11.0-0 errata-test.example.com test)

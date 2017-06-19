@@ -1,0 +1,17 @@
+<% @bare_layout_mode = true  # Don't display nav links, etc %>
+
+<div class="site_message">
+  <h1>User access required</h1>
+  <div class="highlight"><div class="just_text">
+    Your account does not have permission to access the Errata Tool.
+  </div></div>
+  <p>
+    Access to the Errata Tool is limited since it contains sensitive information about
+    embargoed security issues.
+  </p>
+  <p>
+    If you work in Quality Engineering, Development, Security Response, Release
+    Engineering, Content Services, or GSS, you can request access to the Errata Tool.
+  </p>
+  <%= render '/shared/site_messages/request_access_howto' %>
+</div>

@@ -1,0 +1,36 @@
+
+<% roles = Role.find(:all, :order => 'name') %>
+
+<% if @user.in_role?('readonly') %>
+  <dl class="spaced">
+    <dt>
+      <span class="green big bold">&check;</span>
+      Readonly
+    </dt>
+      <dd class="small light">
+        <%= Role.find_by_name('readonly').description %>
+      </dd>
+  </dl>
+<% end %>
+<dl class="spaced">
+  <% roles.select(&:is_normal?).each do |r| -%>
+    <dt>
+      <%if @user.in_role?(r.name) && !@user.in_role?('readonly') %>
+        <span class="green big bold">&check;</span>
+        <b><%= link_to r.title_name, :controller=>:user, :action=>:users_by_role, :id=>r %></b>
+      <% else %>
+        <span class="red big bold">&times;</span>
+        <span class="light"><%= link_to r.title_name, :controller=>:user, :action=>:users_by_role, :id=>r %></span>
+      <% end %>
+    </dt>
+    <dd class="small light">
+      <%= r.description %>
+    </dd>
+  <% end %>
+</dl>
+
+
+<br/>
+<div class="alert alert-info less_p_whitespace">
+  <%= render '/shared/site_messages/request_access_howto' %>
+</div>

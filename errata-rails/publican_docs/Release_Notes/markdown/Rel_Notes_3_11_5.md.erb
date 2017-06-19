@@ -1,0 +1,66 @@
+Release Notes for Version 3.11.5
+================================
+
+Overview
+--------
+
+Release 3.11.5 is the sixth release in Errata Tool 3.11. It closes [24
+bugs and RFEs][buglist].
+
+This release of Errata Tool includes support for adding builds to advisories
+before they have valid product listings, deleting stale cached product
+listings, new APIs for releases, architectures and for updating an advisory's
+QE owner, plus a number of security enhancements, usability improvements and
+bug fixes.
+
+<% sort_these_first %w[ 1053533 1216904 ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.11.5][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1053533%2C1099326%2C1099354%2C1099355%2C1099357%2C1103716%2C1122889%2C1134312%2C1143831%2C1167531%2C1183476%2C1186088%2C1203029%2C1203213%2C1214525%2C1216904%2C1228481%2C1231628%2C1234750%2C1235186%2C1240514%2C1241121%2C1243607%2C1245659
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.11.5-0&id2=3.11.4-0
+
+<%= all_include_content %>
+
+What's Next
+------------
+
+### Errata Tool 3.11.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.11
+in Bugzilla for inclusion in two week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be 3.11.6.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.11 take a look at [bugs flagged with
+errata-3.11 in Bugzilla][bugs3.11] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.12
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For details
+see [Errata Tool Bug Lists][buglists].
+
+To see what's currently scheduled take a look at [bugs flagged with
+errata-3.12][bugs3.12].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs3.11]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[bugs3.12]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.12&bug_status=__open__
+[buglists]: https://docs.engineering.redhat.com/x/1AIjAQ
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

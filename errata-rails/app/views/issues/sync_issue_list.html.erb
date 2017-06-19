@@ -1,0 +1,29 @@
+<%= form_tag({:controller=>:issues, :action=>:sync_issue_list}, :method=>:post) do %>
+  <%= block_render 'shared/pretty_form_container', :submit_name => 'Sync Now' do %>
+    <p>Enter or paste in a list of Bugzilla bugs and JIRA issues to be synced:</p>
+    <%= text_area_tag :issue_list %>
+    <p class="small light">Bug ids and Issue keys can be separated with commas or any whitespace.</p>
+
+  <% end %>
+<% end %>
+
+<% if @synced && (!@synced[:jira_issues].empty? || !@synced[:bugs].empty?) %>
+  <h3>Issues Synced</h3>
+  <ul>
+    <% @synced[:bugs].each do |bug| %>
+      <li><%= link_to bug.id, :action => :troubleshoot, :issue => bug.id %> - <%= bug.short_desc %></li>
+    <% end %>
+    <% @synced[:jira_issues].each do |issue| %>
+      <li><%= "#{issue.key} - #{issue.summary}" %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<% if @invalid_issues && !@invalid_issues.empty? %>
+  <h3>Invalid Issues</h3>
+  <ul>
+    <% @invalid_issues.each do |invalid| %>
+      <li><%= invalid %></li>
+    <% end %>
+  </ul>
+<% end %>

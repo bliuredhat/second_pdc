@@ -1,0 +1,26 @@
+= Errata Tool Docs
+
+This is the RDoc generated documentation for the Errata Tool Rails application.
+
+The HTTP API for creating and modifying advisories is documented at:
+* Api::V1::ErratumController
+
+Additional public APIs may be found under the namespace:
+* Api::V1
+
+However the primary source of documentation for the above APIs is the Developer
+Guide:
+* https://errata.devel.redhat.com/developer-guide/
+
+The XML-RPC API information can be found at:
+* ErrataService
+* SecureService
+* PubService
+* TpsService
+
+The main index page contains a full list of classes and methods and is located at:
+* https://errata.devel.redhat.com/rdoc/
+
+Further information on Errata Tool can be found at:
+* https://errata.devel.redhat.com/user-guide/
+* https://docs.engineering.redhat.com/display/HTD/Errata+Tool

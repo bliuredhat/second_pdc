@@ -1,0 +1,12 @@
+<tr id="test_plan_<%= test_plan.id %>">
+  <td><a href="https://tcms.engineering.redhat.com/plan/<%= test_plan.id %>/">Plan <%= test_plan.id %></a></td>
+  <td><%= test_plan.who.to_s %></td>
+  <td><%= test_plan.created_at.to_s(:long) %></td>
+  <td>
+  <%= form_tag({:action => 'remove_test_plan', :controller=>'tcms'}, :remote => true, :style=>'display:inline;') do %>
+    <%= hidden_field_tag :id, @errata.id, :id=>nil %>
+    <%= hidden_field_tag :plan_id, test_plan.id, :id=>nil %>
+    <%= content_tag :button, :class=>'btn btn-mini btn-remove-plan', :data=>{ :id => test_plan.id } do %><%= glyph_icon('trash') %><% end %>
+  <% end %>
+  </td>
+</tr>

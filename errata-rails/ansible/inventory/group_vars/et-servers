@@ -1,0 +1,32 @@
+---
+rails_root: /var/www/errata_rails
+
+services:
+  - delayed_job
+  - qpid_service
+
+email_addresses:
+  current_user: "{{ lookup('env', 'USER') }}@redhat.com"
+
+  developers:
+    - sbaird@redhat.com
+    - jmcdonal@redhat.com
+    - brkim@redhat.com
+    - sthaha@redhat.com
+    - daclark@redhat.com
+    - mzhong@redhat.com
+    - errata-dev-list@redhat.com
+
+  qe:
+    - jinzhang@redhat.com
+    - hongliu@redhat.com
+    - wlin@redhat.com
+    - jingwang@redhat.com
+    - khong@redhat.com
+
+    # Some others who would like notifications about new builds:
+    - xiawu@redhat.com
+    - lixiang@redhat.com
+    - zxiong@redhat.com
+    - yuzheng@redhat.com
+    - mguo@redhat.com

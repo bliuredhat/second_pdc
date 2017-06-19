@@ -1,0 +1,39 @@
+<%#
+  # We loop over each workflow step and render each one showing
+  # it's status, it's name, any applicable actions, and any appliable
+  # information.
+  #
+  # Note: the "workflow steps" are purely cosmetic. We don't do any actual
+  # workflow logic using the steps.
+  #
+  # See app/models/concerns/errata_workflow for the list of workflow_steps
+  # and app/helpers/workflow_helper for workflow_step_helper which defines
+  # what the steps actually are.
+  #
+  # workflow_step_helper returns a hash containing the following keys:
+  #   :status
+  #   :name
+  #   :info
+  #   :actions
+  #
+  # These divs get floated left and given a fixed width, see master.css.
+-%>
+<div class="workflow-steps">
+  <% @errata.workflow_steps.each do |step_name| %>
+    <% step_details_hash = workflow_step_helper(step_name) %>
+    <div class="workflow-step workflow-step-status-<%= step_details_hash[:status] %> workflow-step-name-<%= step_name %> clearfix">
+      <div class="step-status step-status-<%= step_details_hash[:status].to_s %>">
+        <%= status_icon(step_details_hash[:status]) %>
+      </div>
+      <div class="step-name">
+        <%= step_details_hash[:name] %>
+      </div>
+      <div class="step-actions">
+        <%=raw (action_list = step_details_hash[:actions].flatten.compact).join(' ') %>
+        <%= "&nbsp;".html_safe unless action_list.empty? %>
+        <%# Remove full-stops to make it look nicer %>
+        <small style="font-size:90%;"><%=raw step_details_hash[:info].flatten.compact.map{ |foo| foo.sub(/\.$/, '') }.join(', ') %></small>&nbsp;
+      </div>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,20 @@
+<%= page_title_h1 %>
+
+<div class="btn-group" style="padding-bottom:1em;">
+  <% ['Today', 'Yesterday', 'Last Week', 'Last Month'].each do |t| %>
+    <%= link_to(t, {:action => :builds_added_since, :timeframe => t.downcase.tr(' ', '_')}, :class=>'btn') %>
+  <% end %>
+</div>
+
+<%= render("shared/bz_table", {
+  :headers => ['Build', tablesort_heading_custom_sort_numeric('Added'), 'Advisory'],
+  :func => lambda { |map| [
+    brew_link(map.brew_build),
+    sortable_time_ago_in_words(map.created_at),
+    errata_link(map.errata) + " - " + map.errata.synopsis
+  ]},
+  :row_items => @errata_builds
+})%>
+
+
+

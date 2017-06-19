@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "cdn pushed_by": [
+      "User Devel User (devel@redhat.com) is not in pusherrata role"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+  <%= link_to icon_btn_text('New Product', :plus), {:action => :new}, :class=>'btn' %>
+  <%= block_render 'shared/more_button_menu', :right => true do %>
+    <li><%= link_to 'Show FTP Exclusions',  {:controller => :ftp_exclusions} %></li>
+  <% end %>
+

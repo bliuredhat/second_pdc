@@ -1,0 +1,13 @@
+<table class="workflow-rules">
+  <%=table_rows_helper(
+    [
+      [ 'Description', {:content=>@rule_set.description, :bold=>true} ],
+      [ 'Required Tests', @rule_set.test_requirements_text ],
+      [ 'Created',  @rule_set.created_at.to_s(:mmm_d_y) ],
+      [ 'Locked?', rule_set_locked_text(@rule_set) ],
+      [ 'Used by Products', rule_set_product_list(@rule_set) ],
+      [ 'Used by Releases', rule_set_release_list(@rule_set) ],
+      [ 'Rules', render('guards') ],
+    ],
+  :labels => true)%>
+</table>

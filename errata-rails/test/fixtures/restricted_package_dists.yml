@@ -1,0 +1,281 @@
+---
+restricted_package_dist_1: 
+  variant_push_target_id: 900
+  package_restriction_id: 1
+  updated_at: 2014-06-19 01:34:24 Z
+  push_target_id: 2
+  created_at: 2014-06-19 01:34:24 Z
+  id: 1
+restricted_package_dist_2: 
+  variant_push_target_id: 901
+  package_restriction_id: 1
+  updated_at: 2014-06-19 01:34:24 Z
+  push_target_id: 1
+  created_at: 2014-06-19 01:34:24 Z
+  id: 2
+restricted_package_dist_3: 
+  variant_push_target_id: 438
+  package_restriction_id: 2
+  updated_at: 2014-06-19 01:37:38 Z
+  push_target_id: 4
+  created_at: 2014-06-19 01:37:38 Z
+  id: 3
+restricted_package_dist_4: 
+  variant_push_target_id: 435
+  package_restriction_id: 3
+  updated_at: 2014-06-19 01:38:05 Z
+  push_target_id: 2
+  created_at: 2014-06-19 01:38:05 Z
+  id: 4
+restricted_package_dist_5: 
+  variant_push_target_id: 436
+  package_restriction_id: 3
+  updated_at: 2014-06-19 01:38:05 Z
+  push_target_id: 1
+  created_at: 2014-06-19 01:38:05 Z
+  id: 5
+restricted_package_dist_6: 
+  variant_push_target_id: 438
+  package_restriction_id: 3
+  updated_at: 2014-06-19 01:38:05 Z
+  push_target_id: 4
+  created_at: 2014-06-19 01:38:05 Z
+  id: 6
+restricted_package_dist_9:
+  created_at: 2015-01-12 04:12:09 Z
+  package_restriction_id: 4
+  push_target_id: 5
+  id: 9
+  variant_push_target_id: 453
+  updated_at: 2015-01-12 04:12:09 Z
+restricted_package_dist_10:
+  created_at: 2015-01-12 04:12:09 Z
+  package_restriction_id: 4
+  push_target_id: 4
+  id: 10
+  variant_push_target_id: 454
+  updated_at: 2015-01-12 04:12:09 Z
+restricted_package_dist_11:
+  created_at: 2015-01-12 04:12:15 Z
+  package_restriction_id: 5
+  push_target_id: 5
+  id: 11
+  variant_push_target_id: 449
+  updated_at: 2015-01-12 04:12:15 Z
+restricted_package_dist_12:
+  created_at: 2015-01-12 04:12:15 Z
+  package_restriction_id: 5
+  push_target_id: 4
+  id: 12
+  variant_push_target_id: 450
+  updated_at: 2015-01-12 04:12:15 Z
+restricted_package_dist_7:
+  created_at: 2015-01-12 04:10:22 Z
+  package_restriction_id: 6
+  push_target_id: 5
+  id: 7
+  variant_push_target_id: 437
+  updated_at: 2015-01-12 04:10:22 Z
+restricted_package_dist_8:
+  created_at: 2015-01-12 04:10:22 Z
+  package_restriction_id: 6
+  push_target_id: 4
+  id: 8
+  variant_push_target_id: 438
+  updated_at: 2015-01-12 04:10:22 Z
+restricted_package_dist_13:
+  created_at: 2015-01-12 04:12:21 Z
+  package_restriction_id: 7
+  push_target_id: 5
+  id: 13
+  variant_push_target_id: 461
+  updated_at: 2015-01-12 04:12:21 Z
+restricted_package_dist_14:
+  created_at: 2015-01-12 04:12:21 Z
+  package_restriction_id: 7
+  push_target_id: 4
+  id: 14
+  variant_push_target_id: 462
+  updated_at: 2015-01-12 04:12:21 Z
+restricted_package_dist_15:
+  created_at: 2015-01-12 05:10:09 Z
+  package_restriction_id: 8
+  push_target_id: 5
+  id: 15
+  variant_push_target_id: 453
+  updated_at: 2015-01-12 05:10:09 Z
+restricted_package_dist_16:
+  created_at: 2015-01-12 05:10:10 Z
+  package_restriction_id: 8
+  push_target_id: 4
+  id: 16
+  variant_push_target_id: 454
+  updated_at: 2015-01-12 05:10:10 Z
+restricted_package_dist_17:
+  created_at: 2015-01-12 05:10:26 Z
+  package_restriction_id: 9
+  push_target_id: 5
+  id: 17
+  variant_push_target_id: 449
+  updated_at: 2015-01-12 05:10:26 Z
+restricted_package_dist_18:
+  created_at: 2015-01-12 05:10:26 Z
+  package_restriction_id: 9
+  push_target_id: 4
+  id: 18
+  variant_push_target_id: 450
+  updated_at: 2015-01-12 05:10:26 Z
+restricted_package_dist_19:
+  created_at: 2015-01-12 05:10:45 Z
+  package_restriction_id: 10
+  push_target_id: 2
+  id: 19
+  variant_push_target_id: 447
+  updated_at: 2015-01-12 05:10:45 Z
+restricted_package_dist_20:
+  created_at: 2015-01-12 05:10:45 Z
+  package_restriction_id: 10
+  push_target_id: 1
+  id: 20
+  variant_push_target_id: 448
+  updated_at: 2015-01-12 05:10:45 Z
+restricted_package_dist_21:
+  created_at: 2015-01-12 05:10:55 Z
+  package_restriction_id: 11
+  push_target_id: 2
+  id: 21
+  variant_push_target_id: 447
+  updated_at: 2015-01-12 05:10:55 Z
+restricted_package_dist_22:
+  created_at: 2015-01-12 05:10:55 Z
+  package_restriction_id: 11
+  push_target_id: 1
+  id: 22
+  variant_push_target_id: 448
+  updated_at: 2015-01-12 05:10:55 Z
+restricted_package_dist_23:
+  created_at: 2015-01-12 05:11:09 Z
+  package_restriction_id: 12
+  push_target_id: 2
+  id: 23
+  variant_push_target_id: 451
+  updated_at: 2015-01-12 05:11:09 Z
+restricted_package_dist_24:
+  created_at: 2015-01-12 05:11:09 Z
+  package_restriction_id: 12
+  push_target_id: 1
+  id: 24
+  variant_push_target_id: 452
+  updated_at: 2015-01-12 05:11:09 Z
+restricted_package_dist_25:
+  created_at: 2015-01-12 05:11:20 Z
+  package_restriction_id: 13
+  push_target_id: 2
+  id: 25
+  variant_push_target_id: 451
+  updated_at: 2015-01-12 05:11:20 Z
+restricted_package_dist_26:
+  created_at: 2015-01-12 05:11:20 Z
+  package_restriction_id: 13
+  push_target_id: 1
+  id: 26
+  variant_push_target_id: 452
+  updated_at: 2015-01-12 05:11:20 Z
+restricted_package_dist_27:
+  created_at: 2015-01-12 05:11:51 Z
+  package_restriction_id: 14
+  push_target_id: 5
+  id: 27
+  variant_push_target_id: 437
+  updated_at: 2015-01-12 05:11:51 Z
+restricted_package_dist_28:
+  created_at: 2015-01-12 05:11:51 Z
+  package_restriction_id: 14
+  push_target_id: 4
+  id: 28
+  variant_push_target_id: 438
+  updated_at: 2015-01-12 05:11:51 Z
+restricted_package_dist_29:
+  created_at: 2015-01-12 05:12:00 Z
+  package_restriction_id: 15
+  push_target_id: 2
+  id: 29
+  variant_push_target_id: 435
+  updated_at: 2015-01-12 05:12:00 Z
+restricted_package_dist_30:
+  created_at: 2015-01-12 05:12:00 Z
+  package_restriction_id: 15
+  push_target_id: 1
+  id: 30
+  variant_push_target_id: 436
+  updated_at: 2015-01-12 05:12:00 Z
+restricted_package_dist_31:
+  created_at: 2015-01-12 05:12:16 Z
+  package_restriction_id: 16
+  push_target_id: 2
+  id: 31
+  variant_push_target_id: 435
+  updated_at: 2015-01-12 05:12:16 Z
+restricted_package_dist_32:
+  created_at: 2015-01-12 05:12:16 Z
+  package_restriction_id: 16
+  push_target_id: 1
+  id: 32
+  variant_push_target_id: 436
+  updated_at: 2015-01-12 05:12:16 Z
+restricted_package_dist_33:
+  created_at: 2015-01-12 05:12:36 Z
+  package_restriction_id: 17
+  push_target_id: 5
+  id: 33
+  variant_push_target_id: 461
+  updated_at: 2015-01-12 05:12:36 Z
+restricted_package_dist_34:
+  created_at: 2015-01-12 05:12:36 Z
+  package_restriction_id: 17
+  push_target_id: 4
+  id: 34
+  variant_push_target_id: 462
+  updated_at: 2015-01-12 05:12:36 Z
+restricted_package_dist_35:
+  created_at: 2015-01-12 05:12:49 Z
+  package_restriction_id: 18
+  push_target_id: 2
+  id: 35
+  variant_push_target_id: 459
+  updated_at: 2015-01-12 05:12:49 Z
+restricted_package_dist_36:
+  created_at: 2015-01-12 05:12:49 Z
+  package_restriction_id: 18
+  push_target_id: 1
+  id: 36
+  variant_push_target_id: 460
+  updated_at: 2015-01-12 05:12:49 Z
+restricted_package_dist_37:
+  created_at: 2015-01-12 05:12:58 Z
+  package_restriction_id: 19
+  push_target_id: 2
+  id: 37
+  variant_push_target_id: 459
+  updated_at: 2015-01-12 05:12:58 Z
+restricted_package_dist_38:
+  created_at: 2015-01-12 05:12:58 Z
+  package_restriction_id: 19
+  push_target_id: 1
+  id: 38
+  variant_push_target_id: 460
+  updated_at: 2015-01-12 05:12:58 Z
+restricted_package_dist_39:
+  created_at: 2015-01-12 05:53:39 Z
+  package_restriction_id: 20
+  push_target_id: 2
+  id: 39
+  variant_push_target_id: 455
+  updated_at: 2015-01-12 05:53:39 Z
+restricted_package_dist_40:
+  created_at: 2015-01-12 05:53:39 Z
+  package_restriction_id: 20
+  push_target_id: 1
+  id: 40
+  variant_push_target_id: 456
+  updated_at: 2015-01-12 05:53:39 Z

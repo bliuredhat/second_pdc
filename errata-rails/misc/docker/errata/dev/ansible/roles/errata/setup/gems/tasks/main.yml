@@ -1,0 +1,21 @@
+---
+- name: copy the deployed gemfile lock as Gemfile.lock
+  tags: errata-gems
+  command: cp {{deployed_gemfile}} Gemfile.lock
+  args:
+    chdir: "{{ project_dir }}"
+
+- name: ensure install path is writable
+  tags: errata-gems
+  become: yes
+  file:
+    dest: "{{ gem_install_path }}"
+    state: directory
+    owner: "{{ ansible_user_uid }}"
+    mode: 0755
+
+- name: bundle install gems
+  tags: errata-gems
+  command: bundle install --path {{gem_install_path}}
+  args:
+    chdir: "{{ project_dir }}"

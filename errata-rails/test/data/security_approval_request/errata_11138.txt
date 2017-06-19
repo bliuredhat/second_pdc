@@ -1,0 +1,14 @@
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+Approval request by Devel User (devel@redhat.com)
+
+Package Owner:  Len DiMaggio (ldimaggi@redhat.com)
+Reporter:       Marc Schoenefeld (mschoene@redhat.com)
+Release Date:   ASAP (default)
+Embargo Date:   2011-Apr-20
+
+Advisory:
+  [RHSA-2011:11138 ASYNC] Important: JBoss Enterprise SOA Platform 4.3.0.CP04 and 5.1.0 security update
+  Status: REL_PREP
+  https://errata-test.example.com/advisory/11138

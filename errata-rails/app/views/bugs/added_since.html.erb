@@ -1,0 +1,18 @@
+<%= page_title_h1 %>
+
+<div class="btn-group" style="padding-bottom:1em;">
+  <% ['Today', 'Yesterday', 'Last Week', 'Last Month'].each do |t| %>
+    <%= link_to(t, {:action => :added_since, :timeframe => t.downcase.tr(' ', '_')}, :class=>'btn') %>
+  <% end %>
+</div>
+
+<%= render("shared/bz_table", {
+  :headers => ['Bug', 'Advisory', tablesort_heading_custom_sort_numeric('Added'), 'Added By'],
+  :func => lambda { |map| [
+    descriptive_bug_link(map.bug),
+    errata_link(map.errata) + " - " + map.errata.synopsis,
+    sortable_time_ago_in_words(map.created_at),
+    map.user.to_s,
+  ]},
+  :row_items => @filed_bugs
+})%>

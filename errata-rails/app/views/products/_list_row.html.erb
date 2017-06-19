@@ -1,0 +1,30 @@
+<tr class="mouseover-highlight clickable_row <%= 'is_inactive' unless product.canonical_is_active? %>">
+  <td style="padding-left:1em!important;">
+    <a href="<%= product_path(product) %>" class="clickable_row_link" style="color:inherit">
+      <span class="short_name bold big filter_on"><%= product.canonical_short_name %></span>
+      <span class="small filter_on"><%= product.canonical_long_name %></span>
+    </a>
+    <br/>
+    <span class="small superlight"><%= product.description.blank? ? raw('&nbsp;') : product.description %></span>
+  </td>
+  <td>
+    <%= is_active_icon(product.canonical_is_active?) %></span>
+  </td>
+  <td class="small light">
+    <%= link_to(n_thing_or_things(product.product_versions, 'product version'), product_product_versions_path(product)) %>
+  </td>
+  <td class="small light">
+    <%# Can't just do product.errata for some reason %>
+    <%= link_to(n_thing_or_things(Errata.where(:product_id=>product).where("status != 'DROPPED_NO_SHIP'").count, 'errata'), filter_url_for_product(product)) %>
+  </td>
+  <% if false %>
+    <%# wip %>
+    <td class="small light">
+      <%= link_to(n_thing_or_things(product.variants, 'variant'), product_variants_path(product)) %>
+    </td>
+    <td class="small light">
+      <%= link_to(n_thing_or_things(product.releases, 'release'), product_releases_path(product)) %>
+      (<%= link_to("#{product.active_releases.count} active", product_releases_path(product)) %>)
+    </td>
+  <% end %>
+</tr>

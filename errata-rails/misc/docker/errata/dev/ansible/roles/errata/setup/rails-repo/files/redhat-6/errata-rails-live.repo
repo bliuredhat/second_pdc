@@ -1,0 +1,14 @@
+# Rails 3.2 Errata system
+[Errata-Rails-3.2]
+name=Errata on Rails 3.2 - $releasever - $basearch
+baseurl=http://yum.engineering.redhat.com/pub/yum/redhat/errata-rails-3.0/rhel6/live/$basearch/
+gpgcheck=0
+enabled=1
+exclude=mysql*
+
+[Errata-Rails-3.2-noarch]
+name=Errata on Rails 3.2 - $releasever - noarch
+baseurl=http://yum.engineering.redhat.com/pub/yum/redhat/errata-rails-3.0/rhel6/live/noarch/
+gpgcheck=0
+enabled=1
+

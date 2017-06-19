@@ -1,0 +1,14 @@
+<h1>Choose Release Type</h1>
+
+<%= form_tag :action => 'new_by_type' do %>
+<p>
+<%= radio_button_tag(:type, 'Async', {:checked => "checked"}) %><b>Async</b> - Asynchronous advisories can be pushed at any time. They are intended for products that do not follow a specific release cycle, security advisories, or products in maintenance.<br/>
+<%= radio_button_tag(:type, 'FastTrack') %><b>Fast Track</b> - Fast Track is a name given to a process and to a type of errata advisory. The Fast Track process consists of releasing non-security updates to our customers on an ongoing basis in between Update releases.<br/>
+<%= radio_button_tag(:type, 'QuarterlyUpdate') %><b>Quarterly Update</b> - An Update Release is a collection of updated packages provided to customers in the form of installation cds (ISO images) or Advisories. They include security fixes, bug fixes, and feature enhancements.<br/>
+<%= radio_button_tag(:type, 'Zstream') %><b>Z-Stream/EUS</b> - Z-Stream or Extended Update Support releases. See the <%= link_to 'ZStream Documentation', 'https://home.corp.redhat.com/wiki/z-stream-extended-update-support-eus' %> for more details.<br/>
+</p>
+
+<%= submit_tag "Next", :class=>'btn btn-primary' %>
+<% end %>
+
+<%= link_to 'Back', :action => 'list' %>

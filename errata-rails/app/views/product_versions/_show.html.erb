@@ -1,0 +1,30 @@
+<%=
+   table_rows_helper([
+     [ 'Name',                product_version.name ],
+     [ 'Description',         product_version.description ],
+     [ 'Product',             link_to("#{product_version.product.short_name} - #{product_version.product.name}", product_version.product) ],
+     [ 'RHEL Version',        product_version.rhel_release.name ],
+     [ 'Signing Key',         product_version.sig_key.name ],
+     [ 'Default Brew Tag',    dash_if_blank(product_version.default_brew_tag) ],
+     [ 'Is Server Only',      yes_no_icon_and_text(product_version.is_server_only?) ],
+     [ 'Enabled?',            yes_no_icon_and_text(product_version.enabled?) ],
+     [ 'Allow RHN Debuginfo', yes_no_icon_and_text(product_version.allow_rhn_debuginfo?) ],
+     [ 'Allow Buildroot Push',yes_no_icon_and_text(product_version.allow_buildroot_push?) ],
+     [ 'Is OVAL',             yes_no_icon_and_text(product_version.is_oval_product?) ],
+     [ 'Is RHEL Addon',       yes_no_icon_and_text(product_version.is_rhel_addon?) ],
+     [ 'Allowed Push Target', block_or_none_text(product_version.push_targets) { |targets| targets.map(&:name).map(&:humanize).join(', ') } ],
+     [ 'Brew Tags',           render('shared/brew_tags_and_edit_btn', :brew_tags=>product_version.brew_tags, :suppress_edit_button=>true) ],
+   ], :labels=>true)
+%>
+
+<% if @releases_with_tags.any? %>
+  <div style="width:80%">
+  <%=
+    panel_helper(
+      "Brew tags are configured for #{n_thing_or_things(@releases_with_tags, 'release')}",
+      render('releases_with_tags', :releases => @releases_with_tags),
+      'warning'
+    )
+  %>
+  </div>
+<% end %>

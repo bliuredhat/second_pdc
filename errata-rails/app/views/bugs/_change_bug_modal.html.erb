@@ -1,0 +1,24 @@
+<%#
+  # Pass in not_modal local and it actually won't be a modal.
+  #
+  # (A bit mad perhaps but I want a quick/easy way to use this
+  # same partial as a modal and as a normal form. Because the
+  # button is in the modal-footer it's not trivial to separate the
+  # form elements from the layout. Hence this 'interesting' approach).
+  #
+  # There is some css for .modal.not_modal in master.css that makes it work.
+-%>
+<% not_modal = defined?(not_modal) && not_modal %>
+<div class="modal <%= 'not_modal' if not_modal %>" id="change_bug_modal" style="<%= show_style_if(not_modal) %>">
+  <%= form_tag({:controller=>:bugs, :action=>:troubleshoot}, :method=>:get) do %>
+    <div class="modal-header"><h3>Change Bug</h3></div>
+    <div class="modal-body">
+      Bug id:
+      <%= text_field_tag :bug_id %>
+    </div>
+    <div class="modal-footer">
+      <%= link_to('Cancel', "#", :class=>'btn btn-cancel-modal') unless not_modal %>
+      <%= submit_tag 'View Bug', :class=>'btn btn-primary' %>
+    </div>
+  <% end %>
+</div>

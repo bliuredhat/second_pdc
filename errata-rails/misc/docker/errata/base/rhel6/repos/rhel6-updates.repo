@@ -1,0 +1,7 @@
+[Updates]
+name=Red Hat Enterprise Linux Updates $releasever - $basearch
+#baseurl=http://download.devel.redhat.com/sysrepos/rhel6-server-core-$basearch/RPMS.updates/
+mirrorlist=http://yum.engineering.redhat.com/pub/yum/mirrorlist/rhel6-updates
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release

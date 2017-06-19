@@ -1,0 +1,22 @@
+To: security-response@redhat.com
+Subject: ET: [RHSA-2016:0525 ASYNC] Important: chromium-browser - Shipped Live
+X-ErrataTool-Component: ERRATA
+X-ErrataTool-Action: SHIPPED_LIVE
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+A push has been successfully completed for this security advisory.
+
+Advisory: [RHSA-2016:0525 ASYNC] Important: chromium-browser
+Pushed by: Release Engineering User (releng@redhat.com)
+Push History: https://errata-test.example.com/push/push_history_for_errata/23101
+
+
+Advisory:
+  [RHSA-2016:0525 ASYNC] Important: chromium-browser security update
+  Status: SHIPPED_LIVE, Package: chromium-browser
+  https://errata-test.example.com/advisory/23101
+
+
+(ET 3.11.8-0 errata-test.example.com test)

@@ -1,0 +1,113 @@
+{
+  "advisory_name": "RHEA-2011:11112",
+  "bugs": [
+
+  ],
+  "crossref": "",
+  "cve": "",
+  "description": "The iwlagn driver requires firmware loaded on the device in order to \nfunction.  This package provides the firmware required by that driver for\nthe iwl100 hardware line.\n\nUsers of the iwlagn driver are advised to install this new package, which\nprovides this enhancement.\n",
+  "errata_files": [
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/SRPMS/iwl100-firmware-39.31.5.1-1.el6.src.rpm",
+      "md5sum": "fake:f6ae6dc092ea3b3ee8bfd7fc040",
+      "rhn_channel": [
+        "rhel-i386-client-6",
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/iwl100-firmware-39.31.5.1-1.el6.noarch.rpm",
+      "md5sum": "fake:681ae0b7995b4c6a649f0d7f761",
+      "rhn_channel": [
+        "rhel-i386-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/iwl100-firmware-39.31.5.1-1.el6.noarch.rpm",
+      "md5sum": "fake:681ae0b7995b4c6a649f0d7f761",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/SRPMS/iwl100-firmware-39.31.5.1-1.el6.src.rpm",
+      "md5sum": "fake:f6ae6dc092ea3b3ee8bfd7fc040",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/iwl100-firmware-39.31.5.1-1.el6.noarch.rpm",
+      "md5sum": "fake:681ae0b7995b4c6a649f0d7f761",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/SRPMS/iwl100-firmware-39.31.5.1-1.el6.src.rpm",
+      "md5sum": "fake:f6ae6dc092ea3b3ee8bfd7fc040",
+      "rhn_channel": [
+        "rhel-i386-server-6",
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/iwl100-firmware-39.31.5.1-1.el6.noarch.rpm",
+      "md5sum": "fake:681ae0b7995b4c6a649f0d7f761",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/iwl100-firmware-39.31.5.1-1.el6.noarch.rpm",
+      "md5sum": "fake:681ae0b7995b4c6a649f0d7f761",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/SRPMS/iwl100-firmware-39.31.5.1-1.el6.src.rpm",
+      "md5sum": "fake:f6ae6dc092ea3b3ee8bfd7fc040",
+      "rhn_channel": [
+        "rhel-i386-workstation-6",
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/iwl100-firmware-39.31.5.1-1.el6.noarch.rpm",
+      "md5sum": "fake:681ae0b7995b4c6a649f0d7f761",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/iwl100-firmware-39.31.5.1-1.el6.noarch.rpm",
+      "md5sum": "fake:681ae0b7995b4c6a649f0d7f761",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    }
+  ],
+  "errata_type": "RHEA",
+  "erratum_deployed_by": "release-engineering@redhat.com",
+  "issue_date": "2011-04-11",
+  "jira_issues": [
+
+  ],
+  "keywords": [
+    "iwl100",
+    "firmware",
+    "reboot_suggested"
+  ],
+  "multilib": null,
+  "obsoletes": "",
+  "product": "Red Hat Enterprise Linux",
+  "reboot_suggested": true,
+  "reference": "",
+  "revision": 1,
+  "security_impact": "None",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\n\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttp://kbase.redhat.com/faq/docs/DOC-11259\n",
+  "synopsis": "new package: iwl100-firmware",
+  "topic": "An iwl100-firmware package that matches the iwlagn driver in the latest \nRed Hat Enterprise Linux kernels is now available.\n",
+  "update_date": "2011-04-11"
+}

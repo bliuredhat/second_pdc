@@ -1,0 +1,63 @@
+--- 
+push_target_00001: 
+  created_at: 2013-02-07 20:08:14 Z
+  description: Push to RHN Live
+  id: 1
+  name: rhn_live
+  push_type: rhn_live
+  updated_at: 2013-02-07 20:08:14 Z
+push_target_00002: 
+  created_at: 2013-02-07 20:08:14 Z
+  description: Push to RHN Stage
+  id: 2
+  name: rhn_stage
+  push_type: rhn_stage
+  updated_at: 2013-02-07 20:08:14 Z
+push_target_00003: 
+  created_at: 2013-02-07 20:08:14 Z
+  description: Push to public FTP server
+  id: 3
+  name: ftp
+  push_type: ftp
+  updated_at: 2013-02-07 20:08:14 Z
+push_target_00004: 
+  created_at: 2013-02-07 20:08:14 Z
+  description: Push to CDN Live
+  id: 4
+  name: cdn
+  push_type: cdn
+  updated_at: 2013-02-07 20:08:14 Z
+push_target_00005:
+  created_at: 2014-04-01 20:08:14 Z
+  description: Push to CDN Stage
+  id: 5
+  name: cdn_stage
+  push_type: cdn_stage
+  updated_at: 2013-04-01 20:08:14 Z
+push_target_6:
+  description: Push sources to CentOS git
+  is_internal: 0
+  boolean: 0
+  name: altsrc
+  push_type: altsrc
+  updated_at: 2014-08-05 03:34:27 Z
+  created_at: 2014-08-05 03:34:27 Z
+  id: 6
+push_target_8:
+  push_type: cdn_docker
+  updated_at: 2016-03-15 03:03:01 Z
+  boolean: 0
+  created_at: 2016-03-15 03:03:01 Z
+  is_internal: 0
+  name: cdn_docker
+  id: 8
+  description: Push docker images to CDN
+push_target_9:
+  push_type: cdn_docker_stage
+  updated_at: 2016-03-15 03:03:01 Z
+  boolean: 0
+  created_at: 2016-03-15 03:03:01 Z
+  is_internal: 0
+  name: cdn_docker_stage
+  id: 9
+  description: Push docker images to CDN Docker stage

@@ -1,0 +1,25 @@
+<tr bgcolor="#fff">
+  <td ALIGN="center" colspan="8">
+    <br/>
+    <b style="font-size:140%"><%= release_type.to_s %></b><br>
+    <%= link_to 'Add New Release', :action => :new_by_type, :type => release_type %>
+  </td>
+</tr>
+<% for release in list_release_set %>
+  <tr class="<%= cycle('bz_even','bz_odd') %>">
+    <td><%=h release.name %><%= pdc_indicator_for(release) %></td>
+    <td><%=h release.description %></td>
+    <td>
+      <% unless release.product_versions.empty? %>
+        <% release.product_versions.each do |pv| %>
+          <%=h pv.name %><br/>
+        <% end %>
+      <% end %>
+    </td>
+    <td><%=h release.blocker_flags.join(', ') %></td>
+    <td><%=h release.default_brew_tag %></td>
+    <td><%=mail_to(release.program_manager.login_name, release.program_manager.realname) if release.program_manager %></td>
+    <td><%= link_to 'Show', :action => 'show', :id => release %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => release %></td>
+  </tr>
+<% end %>

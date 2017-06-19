@@ -1,0 +1,16 @@
+<%# Say who was changed and by whom -%>
+Access to the Errata Tool for user <%= @changed.to_s %> has
+been modified by <%= @changed_by.to_s %>.
+
+<%# Say what changed -%>
+The change details are:
+<%= @change_details %>
+
+
+<%# Show them what all the roles are and what they mean -%>
+For reference, the user roles for ET are:
+<%=
+  Role.find(:all, :order => 'name').map{ |role|
+    "#{role.name.titleize} - #{role.description}".wrap_and_indent_bulleted
+  }.join("\n")
+%>

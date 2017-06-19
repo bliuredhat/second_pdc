@@ -1,0 +1,75 @@
+#!/bin/bash
+# chkconfig: - 85 15
+# description: Runs QPID listener for errata system
+# processname: qpid_service
+
+RAILS_ROOT="/var/www/errata_rails"
+PIDFILE="$RAILS_ROOT/tmp/pids/qpid_service.pid"
+QPID_SSL_CERT_DB="/etc/pki/nssdb"
+USER=erratatool
+GROUP=errata
+RETVAL=0
+prog=qpid_service
+if [ -x /sbin/runuser ]
+then
+    SU=/sbin/runuser
+else
+    SU=su
+fi
+
+QPID_TRACE=0
+
+start() {
+    echo "starting $prog"
+    $SU -l $USER -g $GROUP -c "
+      source scl_source enable rh-ruby22 &&
+      cd ${RAILS_ROOT} &&
+      QPID_TRACE=${QPID_TRACE} bundle exec ${RAILS_ROOT}/script/messaging_daemon.rb --use-qpid -- start"
+    RETVAL=$?
+}
+
+stop() {
+    echo "stopping $prog"
+    $SU -l $USER -g $GROUP -c "
+      source scl_source enable rh-ruby22 &&
+      cd ${RAILS_ROOT} &&
+      QPID_TRACE=${QPID_TRACE} bundle exec ${RAILS_ROOT}/script/messaging_daemon.rb --use-qpid -- stop"
+    RETVAL=$?
+}
+
+status() {
+    if [ -e "$PIDFILE" ]; then
+        pid=`cat $PIDFILE`
+        if kill -0 &>1 > /dev/null $pid; then
+            echo "$prog is already running."
+        else
+            echo "Dead $prog process! $pid"
+            RETVAL=1
+        fi
+    else
+        echo "$prog not running yet"
+    fi
+}
+
+
+case "$1" in
+  start)
+	start
+	;;
+  stop)
+	stop
+	;;
+  status)
+    status
+	;;
+  restart)
+	stop
+	start
+	;;
+  *)
+	echo $"Usage: $prog {start|stop|restart|status}"
+	RETVAL=3
+esac
+
+
+exit $RETVAL

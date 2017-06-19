@@ -1,0 +1,8 @@
+<% @channel = cdn_path %>
+
+<% edit_opts = {:cols => 70} %>
+<% unless @channel.cdn_path? %>
+  <input type="button" id="edit_cdn_path_<%= @channel.id %>" value="Add" />
+  <% edit_opts[:external_control] = "edit_cdn_path_#{@channel.id}" %>
+<% end %>
+<%= in_place_editor_field :channel, :cdn_path, {}, edit_opts %>

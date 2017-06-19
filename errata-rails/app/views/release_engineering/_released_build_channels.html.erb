@@ -1,0 +1,7 @@
+<% released_build_channels.keys.sort.each do |channel| %>
+  <b><%=h channel %>:</b><br/>
+  <% rpms = released_build_channels[channel] %>
+  <% rpms.each do |r| %>
+    <%=h r %><br/>
+  <% end %>
+<% end %>

@@ -1,0 +1,11 @@
+[rcm-tools-rhel-6-server-rpms]
+name=RCM Tools for Red Hat Enterprise Linux $releasever Server (RPMs)
+baseurl=http://download.devel.redhat.com/rel-eng/latest-RCMTOOLS-1-RHEL-6/compose/Server/$basearch/os/
+enabled=1
+gpgcheck=0
+
+[rcm-tools-rhel-6-server-optional-rpms]
+name=RCM Tools for Red Hat Enterprise Linux $releasever Server - Optional (RPMs)
+baseurl=http://download.devel.redhat.com/rel-eng/latest-RCMTOOLS-1-RHEL-6/compose/Server-optional/$basearch/os/
+enabled=1
+gpgcheck=0

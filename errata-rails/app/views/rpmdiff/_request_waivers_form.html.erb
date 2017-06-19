@@ -1,0 +1,36 @@
+<%= form_tag :action => 'request_waivers' do %>
+<%= hidden_field_tag('id', @errata.id) %>
+
+<%= render :partial => 'request_waivers_table', :locals => {:results => results, :form => true} %>
+
+<div class="small">
+ <p>
+ Please enter an explanation below if these changes are valid and intentional. Doing so will request a waiver for each test result
+ selected in the table above. QE will be able to review and approve or deny the waivers.</p>
+ <p>
+ Someone looking at this explanation a year from now should be able to understand your reasoning in accepting the change. Specific
+ things to mention may include bug #'s fixed, issue tracker numbers and/or parts from the errata advisory or package changelog. Alternatively,
+ you can create new packages with these items fixed and replace the erratum files.</p>
+
+ <p>
+ The explanation provided here will be combined with the text per result provided in the table above.
+ If the explanations already provided are sufficient, this field may be left blank.
+ </p>
+</div>
+
+<% initial_content = 'These changes are ok because ' %>
+<span class="tiny">
+  <%= link_to 'Clear', '#', :id => 'clear-waive-text' %> &nbsp;
+  <%= link_to 'Revert', '#',:id => 'revert-waive-text', :data => { 'placeholder' => "#{j initial_content}" } %>
+</span>
+<br/>
+<%= text_area_tag \
+  'waive_text_shared',
+  initial_content,
+  :wrap    => 'soft',
+  :id      => 'waive_text_textarea',
+  :class   => 'waive_reason'
+%><br/>
+<%= submit_tag 'Request Waivers', :class=>'btn btn-primary' %>
+
+<% end # form %>

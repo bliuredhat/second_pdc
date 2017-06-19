@@ -1,0 +1,62 @@
+{
+  "advisory_name": "RHBA-2015:2399",
+  "bugs": [
+    {
+      "id": 1196142,
+      "status": "MODIFIED",
+      "summary": "Add RBD support for LIO HA"
+    },
+    {
+      "id": 1362639,
+      "status": "MODIFIED",
+      "summary": "Object sync requests skipped in some scenarios"
+    }
+  ],
+  "crossref": "",
+  "cve": "",
+  "description": "does this even work?\n",
+  "errata_files": [
+    {
+      "ftppath": "/ftp/pub/path/ignored/ceph-base-10.2.3-17.el7cp.x86_64.rpm",
+      "md5sum": "fake:55c472f29f912aac03fe4de6101",
+      "rhn_channel": [
+        "rhel-x86_64-server-7-rhceph-2-mon",
+        "rhel-x86_64-server-7-rhceph-2-osd"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/path/ignored/ceph-common-10.2.3-17.el7cp.x86_64.rpm",
+      "md5sum": "fake:e41eb698b188bb73a6da5ebee9c",
+      "rhn_channel": [
+        "rhel-x86_64-server-7-rhceph-2-mon",
+        "rhel-x86_64-server-7-rhceph-2-osd"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/RHCEPH/SRPMS/ceph-10.2.3-17.el7cp.src.rpm",
+      "md5sum": "fake:6325cae72e2d35c9bf161b9e35c",
+      "rhn_channel": [
+        "rhel-x86_64-server-7-rhceph-2-mon",
+        "rhel-x86_64-server-7-rhceph-2-osd"
+      ]
+    }
+  ],
+  "errata_type": "RHBA",
+  "erratum_deployed_by": "release-engineering@redhat.com",
+  "issue_date": "2016-02-06",
+  "jira_issues": [
+
+  ],
+  "keywords": "",
+  "multilib": null,
+  "obsoletes": "",
+  "product": "Product for PDC",
+  "reboot_suggested": false,
+  "reference": "",
+  "revision": 1,
+  "security_impact": "None",
+  "solution": "fix it\n",
+  "synopsis": "pdc test",
+  "topic": "pdc test advisory\n",
+  "update_date": "2016-03-10"
+}

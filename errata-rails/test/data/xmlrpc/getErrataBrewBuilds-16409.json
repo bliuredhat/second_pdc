@@ -1,0 +1,35 @@
+[
+  {
+    "brew_build_nvr": "spice-client-msi-3.4-4",
+    "build_flags": [
+      "buildroot-push"
+    ],
+    "build_tag": null,
+    "product_version": {
+      "id": 318,
+      "name": "RHEL-6-RHEV-S-3.4"
+    }
+  },
+  {
+    "brew_build_nvr": "spice-client-msi-3.4-4",
+    "build_flags": [
+
+    ],
+    "build_tag": null,
+    "product_version": {
+      "id": 318,
+      "name": "RHEL-6-RHEV-S-3.4"
+    }
+  },
+  {
+    "brew_build_nvr": "spice-client-msi-3.4-4",
+    "build_flags": [
+
+    ],
+    "build_tag": null,
+    "product_version": {
+      "id": 318,
+      "name": "RHEL-6-RHEV-S-3.4"
+    }
+  }
+]

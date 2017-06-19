@@ -1,0 +1,1816 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "name": "jb-ewp-5-i386-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 674,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ewp-5-i386-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 676,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ewp-5-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 455,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ewp-5-i386-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 478,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ewp-5-x86_64-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 675,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ewp-5-x86_64-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 677,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ewp-5-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 456,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ewp-5-x86_64-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 479,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-1-i386-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 642,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-1-i386-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 644,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-1-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 436,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-1-i386-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 480,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-1-x86_64-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 643,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-1-x86_64-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 645,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-1-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 437,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-1-x86_64-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 481,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-2-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 544,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-2-i386-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 546,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-2-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 545,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-ews-2-x86_64-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 547,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-middleware",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 475,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-on-3-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 548,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-on-3-i386-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 550,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-on-3-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 549,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-on-3-x86_64-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 551,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-wfk-1-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 438,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jb-wfk-1-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 439,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4-i386-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 686,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4-i386-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 688,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 405,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4-x86_64-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 687,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4-x86_64-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 689,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 406,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4.3.0-fp-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 428,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4.3.0-fp-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 429,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4.3.0-i386-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 682,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4.3.0-i386-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 684,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4.3.0-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 411,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4.3.0-x86_64-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 683,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4.3.0-x86_64-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 685,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-4.3.0-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 412,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-5-i386-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 678,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-5-i386-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 680,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-5-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 453,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-5-i386-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 476,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-5-x86_64-as-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 679,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-5-x86_64-es-4-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 681,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-5-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 454,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-5-x86_64-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 477,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-6-i386-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 523,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-6-i386-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 525,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-6-ppc64-server-7-rpm",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 838,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 610,
+            "name": "7Server-JBEAP-6"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-6-x86_64-server-5-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 524,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-6-x86_64-server-6-rpm",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 526,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "jbappplatform-6-x86_64-server-7-rpm",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 839,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 610,
+            "name": "7Server-JBEAP-6"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-advanced-server-i386",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 284,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-ent-linux-i386-es-2.1",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 286,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 46,
+            "name": "2.1ES"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-ent-linux-i386-ws-2.1",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 287,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-linux-as-2.1-IPF",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 288,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-linux-aw-2.1-IPF",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 285,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 44,
+            "name": "2.1AW"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.0-as-i386-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 719,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.1-as-i386-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 715,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.1-as-s390-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 716,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.1-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 717,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.1-as-x86_64-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 718,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-as-i386-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 711,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-as-s390-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 712,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 713,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-as-x86_64-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 714,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-server-i386-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 433,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 434,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-server-x86_64-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 435,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-as-i386-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 707,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-as-s390-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 708,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 709,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-as-x86_64-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 710,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-server-i386-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 449,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 450,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-server-x86_64-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 448,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.4-server-i386-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 458,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.4-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 459,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.4-server-s390x-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 513,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.4-server-x86_64-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 457,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.4-server-x86_64-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 512,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.0-as-i386-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 706,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.1-as-i386-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 702,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.1-as-s390-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 703,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.1-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 704,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.1-as-x86_64-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 705,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-as-i386-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 698,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-as-s390-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 699,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 700,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-as-x86_64-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 701,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-server-i386-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 430,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 431,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-server-x86_64-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 432,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.3-as-i386-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 694,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.3-as-s390-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 695,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.3-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 696,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.3-as-x86_64-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 697,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    }
+  ]
+}

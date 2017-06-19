@@ -1,0 +1,11 @@
+---
+docker_image_tag: docker-registry.usersys.redhat.com/errata_tool/review_bot:latest
+docker_image_id: ccb6fc74a711
+
+# small
+openstack_flavor_id: a4827976-e727-4135-ba59-7d5fdb9ce4e2
+
+# et-docker-base
+openstack_image_id: 8ae9641a-4a8d-4c12-aed9-251467b8b7fe
+
+openstack_key_name: jenkins-os1

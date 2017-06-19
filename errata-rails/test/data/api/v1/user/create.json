@@ -1,0 +1,14 @@
+# HTTP 201
+{
+  "email_address": "zoro_email@redhat.com",
+  "enabled": true,
+  "login_name": "zoro@redhat.com",
+  "organization": "Engineering",
+  "realname": "Zoro San",
+  "receives_mail": true,
+  "roles": [
+    "errata",
+    "readonly",
+    "secalert"
+  ]
+}

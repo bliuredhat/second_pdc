@@ -1,0 +1,32 @@
+### First PUT enables first couple of repos
+# HTTP 200
+[
+  {
+    "enabled": true,
+    "repo": {
+      "id": 27,
+      "name": "rhel-6-server-rhev-agent-rpms__6Server__x86_64"
+    }
+  },
+  {
+    "enabled": true,
+    "repo": {
+      "id": 736,
+      "name": "rhel-6-server-rhev-agent-rpms__6Server__i386"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1334,
+      "name": "rhel-6-server-rhev-agent-rpms__6_DOT_5__i386"
+    }
+  },
+  {
+    "enabled": false,
+    "repo": {
+      "id": 1335,
+      "name": "rhel-6-server-rhev-agent-rpms__6_DOT_5__x86_64"
+    }
+  }
+]

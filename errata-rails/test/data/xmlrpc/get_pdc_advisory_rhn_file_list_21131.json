@@ -1,0 +1,31 @@
+{
+  "ceph-10.2.3-17.el7cp": {
+    "checksums": {
+      "md5": {
+        "ceph-10.2.3-17.el7cp.src.rpm": "fake:6325cae72e2d35c9bf161b9e35c",
+        "ceph-base-10.2.3-17.el7cp.x86_64.rpm": "fake:55c472f29f912aac03fe4de6101",
+        "ceph-common-10.2.3-17.el7cp.x86_64.rpm": "fake:e41eb698b188bb73a6da5ebee9c"
+      },
+      "sha256": {
+        "ceph-10.2.3-17.el7cp.src.rpm": "fake:ee2b68fc3e8332edebd2a7545f5a2eaacbddecc2071b67e4ca8ecd3c2c3",
+        "ceph-base-10.2.3-17.el7cp.x86_64.rpm": "fake:c673841daf44818781602fafb36f1291e95d79fdd1c9e1de6cb71aec964",
+        "ceph-common-10.2.3-17.el7cp.x86_64.rpm": "fake:a80c7d6044c57592c3a0c371b1a9c2d83a719bcfe37bafa86dfe9f7665e"
+      }
+    },
+    "rpms": {
+      "ceph-10.2.3-17.el7cp.src.rpm": [
+        "rhel-x86_64-server-7-rhceph-2-mon",
+        "rhel-x86_64-server-7-rhceph-2-osd"
+      ],
+      "ceph-base-10.2.3-17.el7cp.x86_64.rpm": [
+        "rhel-x86_64-server-7-rhceph-2-mon",
+        "rhel-x86_64-server-7-rhceph-2-osd"
+      ],
+      "ceph-common-10.2.3-17.el7cp.x86_64.rpm": [
+        "rhel-x86_64-server-7-rhceph-2-mon",
+        "rhel-x86_64-server-7-rhceph-2-osd"
+      ]
+    },
+    "sig_key": "fd431d51"
+  }
+}

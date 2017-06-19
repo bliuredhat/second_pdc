@@ -1,0 +1,22 @@
+<%
+  if @variant.is_parent?
+    rhel_variant = @variant.rhel_variant.name
+  else
+    rhel_variant = link_to(@variant.rhel_variant.name, product_version_variant_path(@variant.rhel_variant.product_version, @variant.rhel_variant))
+  end
+
+  tps_stream, tps_errors = @variant.determine_tps_stream
+  flash[:alert] = tps_errors[:warn].map{|w| w.message(true)}.join("<br/>") if tps_errors[:warn].any?
+%>
+<%=
+   table_rows_helper([
+     [ 'Name',                @variant.name ],
+     [ 'Description',         @variant.description ],
+     [ 'Product Version',     link_to(@variant.product_version.name, product_version_path(@variant.product_version)) + ' - ' + @variant.product_version.description ],
+     [ 'RHEL Variant',        rhel_variant ],
+     [ 'TPS Stream',          tps_stream.try(:full_name) || '<i class="light">Not Set</i>'.html_safe],
+     [ 'CPE',                 @variant.cpe ],
+     [ 'Allowable Push Targets', block_or_none_text(@variant.push_targets) { |push_targets| push_targets.map{|push_target| push_target.name}.map(&:humanize).join(', ') } ],
+     [ 'Package Restrictions', render("package_restrictions/table_list") ],
+   ], :labels=>true)
+%>

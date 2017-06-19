@@ -1,0 +1,49 @@
+<table class="buglist" cellpadding="0" cellspacing="0" width="100%">
+
+  <thead>
+    <tr>
+    <td>&nbsp;</td>
+    <td COLSPAN="14" align="center">
+    <font color="white"><b>Legend:</b> &nbsp;
+    <u><b>D</b></u>ocs Complete &nbsp;|&nbsp;
+
+    All <u><b>Q</b></u>A Complete &nbsp;|&nbsp;
+    R<u><b>H</b></u>NQA Pushed &nbsp;|&nbsp;
+
+    <u><b>F</b></u>iles Pushed &nbsp;|&nbsp;
+    RH<u><b>N</b></u> Live Pushed &nbsp;|&nbsp;
+    Errata <u><b>M</b></u>ailed &nbsp;|&nbsp;
+
+    <u><b>C</b></u>losed</font>
+    </td>
+</tr>
+  </thead>
+
+<tr bgcolor="#dedede">
+  <td align="left">Advisory</td>
+  <td align="left">Product</td>
+  <td align="left">Release</td>
+  <td align="left">Reporter</td>
+  <td align="left">Days</td>
+  <td align="left">Impact</td>
+  <td align="left">Synopsis</td>
+  <td align="center">D</td>
+  <td align="center">Q</td>
+  <td align="center">H</td>
+  <td align="center">F</td>
+  <td align="center">N</td>
+  <td align="center">M</td>
+  <td align="center">C</td>
+</tr>
+<% bz_class = 'bz_odd'
+
+    for errata in errata_list
+         if(bz_class == 'bz_even')
+            bz_class = 'bz_odd'
+         else
+            bz_class = 'bz_even'
+         end
+%>
+<%= render(:partial =>"shared/errata_row" , :object => errata , :locals => {:bz_class => bz_class}) %>
+<% end %>
+</table>

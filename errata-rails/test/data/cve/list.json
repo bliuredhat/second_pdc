@@ -1,0 +1,303 @@
+{
+  "10140": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2010:0837",
+    "cve": [
+      "CVE-2004-2761",
+      "CVE-2010-3868",
+      "CVE-2010-3869"
+    ],
+    "issue_date": "2010-11-08T20:05:09Z",
+    "update_date": "2010-11-08T20:05:08Z"
+  },
+  "10610": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0293",
+    "cve": [
+      "CVE-2011-0019",
+      "CVE-2011-0022",
+      "CVE-2011-0532"
+    ],
+    "issue_date": "2011-02-22T17:42:40Z",
+    "update_date": "2011-02-22T17:42:40Z"
+  },
+  "10801": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0212",
+    "cve": [
+      "CVE-2010-4476"
+    ],
+    "issue_date": "2011-02-10T19:41:03Z",
+    "update_date": "2011-02-10T19:41:01Z"
+  },
+  "10802": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0213",
+    "cve": [
+      "CVE-2010-4476"
+    ],
+    "issue_date": "2011-02-10T19:42:21Z",
+    "update_date": "2011-02-10T19:42:20Z"
+  },
+  "10827": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0300",
+    "cve": [
+      "CVE-2011-0717",
+      "CVE-2011-0718"
+    ],
+    "issue_date": "2011-02-23T18:54:44Z",
+    "update_date": "2011-02-23T18:54:44Z"
+  },
+  "10844": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0299",
+    "cve": [
+      "CVE-2010-4476"
+    ],
+    "issue_date": "2011-02-23T18:36:02Z",
+    "update_date": "2011-02-23T18:36:02Z"
+  },
+  "10849": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0334",
+    "cve": [
+      "CVE-2010-4476"
+    ],
+    "issue_date": "2011-03-09T18:43:44Z",
+    "update_date": "2011-03-09T18:43:43Z"
+  },
+  "11129": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0447",
+    "cve": [
+      "CVE-2011-0285"
+    ],
+    "issue_date": "2011-04-14T18:01:35Z",
+    "update_date": "2011-04-14T18:01:33Z"
+  },
+  "11131": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0451",
+    "cve": [
+      "CVE-2011-0611"
+    ],
+    "issue_date": "2011-04-18T15:37:20Z",
+    "update_date": "2011-04-18T15:37:20Z"
+  },
+  "13147": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2012:0987",
+    "cve": [
+      "CVE-2012-2328"
+    ],
+    "issue_date": "2012-06-20T08:46:47Z",
+    "update_date": "2012-06-20T08:46:47Z"
+  },
+  "16657": {
+    "actual_ship_date": "2014-11-04T04:13:34Z",
+    "advisory": "RHSA-2014:0001",
+    "cve": [
+      "CVE-2014-8888"
+    ],
+    "issue_date": "2014-11-04T04:13:19Z",
+    "update_date": "2014-11-04T04:13:18Z"
+  },
+  "19435": {
+    "actual_ship_date": "2014-12-18T18:30:59Z",
+    "advisory": "RHSA-2014:2021",
+    "cve": [
+      "CVE-2014-8137",
+      "CVE-2014-8138",
+      "CVE-2014-9029"
+    ],
+    "issue_date": "2014-12-18T17:39:14Z",
+    "update_date": "2014-12-18T17:39:17Z"
+  },
+  "20044": {
+    "actual_ship_date": "2015-07-20T14:07:30Z",
+    "advisory": "RHBA-2015:1395",
+    "cve": [
+      "CVE-1234-5678"
+    ],
+    "issue_date": "2015-07-22T05:33:00Z",
+    "update_date": "2015-07-22T05:33:00Z"
+  },
+  "21009": {
+    "actual_ship_date": "2015-11-19T06:02:59Z",
+    "advisory": "RHBA-2015:2394",
+    "cve": [
+      "CVE-2007-1234"
+    ],
+    "issue_date": "2015-11-19T13:44:01Z",
+    "update_date": "2015-11-19T13:44:01Z"
+  },
+  "21132": {
+    "actual_ship_date": null,
+    "advisory": "RHBA-2016:2399",
+    "cve": [
+      "CVE-2008-7270",
+      "CVE-2009-3245",
+      "CVE-2009-3560",
+      "CVE-2009-3720",
+      "CVE-2009-3767",
+      "CVE-2010-1157",
+      "CVE-2010-1452",
+      "CVE-2010-1623",
+      "CVE-2010-2068",
+      "CVE-2010-3718",
+      "CVE-2010-4172",
+      "CVE-2010-4180",
+      "CVE-2011-0013"
+    ],
+    "issue_date": "2016-02-06T04:00:00Z",
+    "update_date": "2016-03-10T14:44:01Z"
+  },
+  "24434": {
+    "actual_ship_date": "2016-09-15T07:38:04Z",
+    "advisory": "RHSA-2016:1847",
+    "cve": [
+      "CVE-2016-3134",
+      "CVE-2016-4997",
+      "CVE-2016-4998"
+    ],
+    "issue_date": "2016-09-14T14:34:54Z",
+    "update_date": "2016-09-14T20:36:31Z"
+  },
+  "24604": {
+    "actual_ship_date": "2016-09-15T11:05:13Z",
+    "advisory": "RHBA-2016:1890",
+    "cve": [
+      "CVE-2016-3134",
+      "CVE-2016-4997",
+      "CVE-2016-4998"
+    ],
+    "issue_date": "2016-09-15T08:04:06Z",
+    "update_date": "2016-09-15T08:04:06Z"
+  },
+  "5243": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2007:0151",
+    "cve": [
+      "CVE-2007-1354"
+    ],
+    "issue_date": "2007-04-16T04:00:00Z",
+    "update_date": "2007-04-16T04:00:00Z"
+  },
+  "6310": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2007:0895",
+    "cve": [
+      "CVE-2007-4639"
+    ],
+    "issue_date": "2007-09-24T04:00:00Z",
+    "update_date": "2007-09-24T04:00:00Z"
+  },
+  "7679": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2008:0860",
+    "cve": [
+      "CVE-2008-3274"
+    ],
+    "issue_date": "2008-09-10T18:07:49Z",
+    "update_date": "2008-09-10T18:19:11Z"
+  },
+  "8742": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2009:1141",
+    "cve": [
+      "CVE-2009-2288"
+    ],
+    "issue_date": "2009-07-02T19:42:20Z",
+    "update_date": "2009-07-02T19:42:20Z"
+  },
+  "8751": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2009:1156",
+    "cve": [
+      "CVE-2009-1195",
+      "CVE-2009-1890",
+      "CVE-2009-1891"
+    ],
+    "issue_date": "2009-07-14T19:07:51Z",
+    "update_date": "2009-07-14T19:07:51Z"
+  },
+  "9190": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2009:1688",
+    "cve": [
+      "CVE-2009-4133"
+    ],
+    "issue_date": "2009-12-22T01:24:52Z",
+    "update_date": "2009-12-22T01:24:52Z"
+  },
+  "9407": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2010:0172",
+    "cve": [
+      "CVE-2009-3722",
+      "CVE-2010-0008",
+      "CVE-2010-0297",
+      "CVE-2010-0419"
+    ],
+    "issue_date": "2010-03-24T15:46:41Z",
+    "update_date": "2010-03-24T15:46:41Z"
+  },
+  "9494": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2010:0331",
+    "cve": [
+      "CVE-2010-0727"
+    ],
+    "issue_date": "2010-03-30T16:52:04Z",
+    "update_date": "2010-03-30T16:52:04Z"
+  },
+  "9753": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2010:0583",
+    "cve": [
+      "CVE-2010-2227"
+    ],
+    "issue_date": "2010-08-02T20:17:33Z",
+    "update_date": "2010-08-02T20:17:33Z"
+  },
+  "9754": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2010:0582",
+    "cve": [
+      "CVE-2009-2693",
+      "CVE-2009-2902",
+      "CVE-2010-2227"
+    ],
+    "issue_date": "2010-08-02T20:17:32Z",
+    "update_date": "2010-08-02T20:17:32Z"
+  },
+  "9755": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2010:0581",
+    "cve": [
+      "CVE-2010-2227"
+    ],
+    "issue_date": "2010-08-02T20:38:52Z",
+    "update_date": "2010-08-02T20:38:52Z"
+  },
+  "9829": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2011:0175",
+    "cve": [
+      "CVE-2010-1622"
+    ],
+    "issue_date": "2011-01-25T15:29:57Z",
+    "update_date": "2011-01-25T15:29:57Z"
+  },
+  "9883": {
+    "actual_ship_date": null,
+    "advisory": "RHSA-2010:0758",
+    "cve": [
+      "CVE-2010-3067",
+      "CVE-2010-3081"
+    ],
+    "issue_date": "2010-10-08T01:58:57Z",
+    "update_date": "2010-10-08T01:58:57Z"
+  }
+}

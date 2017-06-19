@@ -1,0 +1,98 @@
+<%= javascript_include_tag "release_edit_form" %>
+<%= error_messages_for 'release' %>
+
+<!--[form:release]-->
+<% unless @release.product.nil? %>
+  <p>
+    <label for="product_version_rhel">Product</label> - The Product this release is restricted to.<br/>
+    <%= render :partial => 'product_list', :object => @products %>
+  </p>
+<% end %>
+
+<% unless @release.is_pdc? %>
+  <p>
+    <label for="product_version_rhel">Product Version</label> - The Product Version this release is restricted to.<br/>
+    <%= render :partial => 'product_version_list', :object => @versions %>
+  </p>
+<% end %>
+
+<% if @is_editing && @release.is_pdc? %>
+    <p>
+      <label for="release_releases">Associated PDC Releases</label><br/>
+      <div id="pdc_release_list">
+        <%= render :partial => 'pdc_release_list', :object => @pdc_releases %>
+      </div>
+    </p>
+<% end %>
+
+<% if @release.new_record? %>
+  <%#
+    Don't allow changing type when it is a brand new release
+    because a). it's buggy (see Bug 863885) and b). user already
+    chose the type by by clicking the appropriate link
+  -%>
+  <%= hidden_field 'release', 'type' %>
+<% else %>
+  <p>
+    <label for="release_type">Release Type</label><br/>
+    <%= select(
+      :release, :type,
+      %w[Async FastTrack QuarterlyUpdate Zstream], { :selected => @release.class.to_s },
+               'data-remote' => true,
+               'data-url' => url_for(:controller => :release, :action => :fields_for_release_type,
+               :id => @release))
+                                     %>
+  </p>
+<% end %>
+
+<p>
+  <%= check_box(:release, :is_pdc, {:checked => @release.is_pdc?, :disabled => @is_editing}) %>
+  <label for="release_is_pdc">Is PDC</label>
+  - If set then all advisories in this release will be PDC advisories.
+  See <%= link_to 'here', Settings.pdc_integration_info_url, :target => '_blank' %> for more information about PDC advisories.
+</p>
+
+<p>
+  <label for="release_state_machine_rule_set_id">Workflow Rule Set</label><br/>
+  <%= select(:release,
+             :state_machine_rule_set_id,
+             [['(unset)', '']] + StateMachineRuleSet.all.map{ |r| [r.name,r.id] },
+             :selected => @release.state_machine_rule_set_id.to_s) %><br/>
+  <span class="small light">
+    If unset, errata in this release will inherit their product's rule set.
+  </span>
+</p>
+
+<p>
+  <label for="release_name">Name</label><br/>
+  <%= text_field 'release', 'name' %>
+</p>
+
+<p>
+  <label for="release_description">Description</label><br/>
+  <%= text_field 'release', 'description' %>
+</p>
+
+<p>
+  <%= check_box(:release, :enabled, {:checked => @release.enabled?}) %>
+  <label for="release_is_active">Enabled</label>
+  - If set, release is available to add advisories to, and shows up in the listrequest view.
+</p>
+
+<p>
+  <%= check_box(:release, :enable_batching, {:checked => @release.enable_batching?}) %>
+  <label for="release_enable_batching">Enable Batching</label>
+  - If set, use advisory batching for this release.
+</p>
+
+<p>
+  <label for="program_manager_id">Program Manager</label><br/>
+  <%= render 'program_manager_list' %>
+</p>
+
+<p class="release_default_brew_tag">
+  <label for="release_default_brew_tag">Default brew tag</label> - Overrides default set by the product version.<br/>
+  <%= text_field 'release', 'default_brew_tag'  %>
+</p>
+
+<!--[eoform:release]-->

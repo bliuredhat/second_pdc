@@ -1,0 +1,10 @@
+<% tps_stream, tps_errors = @job.determine_tps_stream %>
+on_tps_job_scheduled(
+  '<%= @schedule_action %>',
+  '<%= @notice %>',
+  '<%= @job.id %>',
+  '<%=j tps_state_help_link(@job) %>',
+  '<%= long_date(@job.started) %>',
+  '<%= tps_stream.try(:full_name) || 'n/a' %>',
+  '<%=j tps_job_validity_icon(@job.id, @job.valid_for_tps?, tps_errors) %>'
+);

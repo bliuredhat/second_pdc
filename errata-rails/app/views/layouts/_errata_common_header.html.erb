@@ -1,0 +1,23 @@
+<%
+  # Show the errata name anytime we have an @errata.
+  # Do it here so it's always consistent.
+  # Also set @errata_title since it will be used in the html title tag
+  @errata_title = "#{@errata.fulladvisory} #{@errata.synopsis}"
+%>
+<h1 class="clipwidth" style="width:70%;color:#aaa;padding-top:4px;padding-bottom:<%= @errata.is_blocked? || @errata.info_requested? ? '2' : '15' %>px;">
+  <span style="color:#666;"><%= @errata.fulladvisory %></span><sup><%= pdc_indicator_for(@errata) %></sup>
+  <span style="font-size:85%" title="<%= @errata.synopsis %>"><%= @errata.synopsis %></span>
+</h1>
+<% if @errata.is_blocked? || @errata.info_requested? %>
+  <div style="font-size:110%;padding-bottom:18px;padding-left:1em;">
+    <% if @errata.is_blocked? %>
+      <span class="red bold"><%= image_tag 'icon_alert.gif' %> BLOCKED ON
+      <%= @errata.active_blocking_issue.blocking_role.name.upcase %></span>: <%= @errata.active_blocking_issue.summary %>
+      &nbsp;&nbsp;
+    <% end %>
+    <% if @errata.info_requested? %>
+      <span class="blue bold"><%= image_tag 'icon_info.png' %> Info Requested from
+      <%= @errata.active_info_request.info_role.name.capitalize %></span>: <%= @errata.active_info_request.summary %>
+    <% end %>
+  </div>
+<% end %>

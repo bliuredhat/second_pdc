@@ -1,0 +1,37 @@
+To: jboggs@redhat.com
+Subject: ET: [RHSA-2012:0987 RHEL-6.3.0] Low: sblim-cim-client2 - Multi-product advisory is available
+X-ErrataTool-Component: ERRATA
+X-ErrataTool-Action: MULTI-PRODUCT-ACTIVATED
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+A multi-product advisory is available for testing.
+
+  Advisory:       RHSA-2012:0987
+  Base product:   RHEL
+  Other products: RHEV
+
+When this advisory is shipped to the base product, it may also ship content to
+the following channels/repos in other products:
+
+  sblim-cim-client2:
+    RHEV:
+      rhel-x86_64-server-6-rhevh
+      rhel-6-rhev-s-rpms__6Server-RHEV-S__x86_64
+
+For more information regarding the content of this advisory, please see
+https://errata-test.example.com/errata/content/13147 .
+
+You are receiving this email because you are subscribed to multi-product mapping
+rules which have been activated for this advisory.  To see more information
+about multi-product mapping, including how to adjust your subscription
+preferences, please visit https://errata-test.example.com/multi_product_mappings .
+
+Advisory:
+  [RHSA-2012:0987 RHEL-6.3.0] Low: sblim-cim-client2 security update
+  Status: SHIPPED_LIVE, Package: sblim-cim-client2
+  https://errata-test.example.com/advisory/13147
+
+
+(ET 3.11.0-0 errata-test.example.com test)

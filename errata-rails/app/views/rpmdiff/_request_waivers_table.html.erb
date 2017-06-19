@@ -1,0 +1,37 @@
+<%
+form ||= false
+
+row_fns = [:rpmdiff_waiver_dev_row, (:rpmdiff_waiver_request_row if form), :rpmdiff_waiver_log_row].compact
+rows_per_item = row_fns.length
+row_func = compose_row_function(row_fns, :form => form)
+%>
+
+<%=
+  headers = [
+    'RPMDiff Run',
+    'Status <br/>' + th_actions(
+      'Expand all', 'et_rpmdiff_logs_visible(event, true)',
+      'Collapse all', 'et_rpmdiff_logs_visible(event, false)'
+    ),
+    'Test', 'Package', 'Old', 'New'
+  ]
+  if form
+    headers << 'Request Waiver? <br/>' + th_actions(
+      'All', 'et_waiver_checkboxes_enabled(event, true)',
+      'None', 'et_waiver_checkboxes_enabled(event, false)')
+  end
+  render('shared/bz_table',
+    :headers => headers,
+    :func => row_func,
+    :row_items => results.map{|r| [r]*rows_per_item}.flatten,
+    :no_tablesort => true
+  )
+%>
+
+<% if form %>
+<script type="text/javascript">
+    $('input[type="checkbox"]').each(function() {
+      et_waiver_checkbox_changed({target: this});
+    });
+</script>
+<% end %>

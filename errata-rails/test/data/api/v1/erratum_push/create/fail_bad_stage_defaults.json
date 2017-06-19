@@ -1,0 +1,17 @@
+# HTTP 400
+{
+  "errors": {
+    "altsrc": [
+      "Can't push advisory to Altsrc now due to: This errata cannot be pushed to RHN Live, thus may not be pushed to git"
+    ],
+    "cdn": [
+      "Can't push advisory to Cdn Live now due to: This errata cannot be pushed to RHN Live, thus may not be pushed to CDN"
+    ],
+    "ftp": [
+      "Can't push advisory to Ftp now due to: This errata cannot be pushed to RHN Live, thus may not be pushed to FTP"
+    ],
+    "rhn_live": [
+      "Can't push advisory to Rhn Live now due to: State REL_PREP invalid. Must be one of: PUSH_READY, IN_PUSH, SHIPPED_LIVE"
+    ]
+  }
+}

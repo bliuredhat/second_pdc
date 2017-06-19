@@ -1,0 +1,28 @@
+<%
+  errata = @errata unless defined?(errata) && errata
+  hide_edit_buttons = false unless defined?(hide_edit_buttons)
+%>
+<div id="dependency_graph">
+  <%
+    [
+      # Descendants are advisories that we depend on.
+      ['depends on', :has_descendant?, :each_descendant],
+
+      # Ancestors are advisories that we block
+      ['blocks', :has_ancestor?, :each_ancestor],
+
+    ].each do |text, has_method, each_method|
+    %>
+    <p>
+      <b><%= errata_link(errata) %> <%= text %>:</b><br/>
+      <% if errata.dependency_graph.send(has_method) %>
+        <% errata.dependency_graph.send(each_method) do |related_errata, level| %>
+          <%= dependency_tree_indent(related_errata, level, :hide_edit_buttons=>hide_edit_buttons) %>
+        <% end %>
+      <% else %>
+        <i style="padding-left:0.5em;" class="light">n/a</i>
+      <% end %>
+    </p>
+  <% end %>
+
+</div>

@@ -1,0 +1,15 @@
+<% if(@products.include?(product_list)) %>
+<%=  select(:product,
+            :id,
+            @products.collect { |d| [d.name,d.id]},
+            {:selected => product_list.id},
+            {:class => 'eso-chosen-select',
+             :data => {:remote => true,
+                :url => url_for( :controller => :errata,
+                                 :action => :set_form_for_product,
+                                 :is_pdc => @is_pdc || false)}}) %>
+
+<% else %>
+<%= product_list.name %>
+<%= hidden_field_tag 'product[id]', product_list.id %>
+<% end %>

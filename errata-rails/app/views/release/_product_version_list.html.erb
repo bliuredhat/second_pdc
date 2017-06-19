@@ -1,0 +1,7 @@
+<span id="product_version_list">
+  <% @current_versions ||= [] %>
+  <% product_version_list.sort_by{ |pv| pv.name }.each do |pv| -%>
+    <%= check_box_tag "release[product_version_ids][]", pv.id, @current_versions.include?(pv) %>
+    <%= label_tag(pv.id, pv.name) %><br/>
+  <% end %>
+</span>

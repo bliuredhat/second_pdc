@@ -1,0 +1,3 @@
+### Expected to be empty.
+### This testcase unsets the "debug" checkbox, so no debug info should be displayed.
+

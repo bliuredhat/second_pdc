@@ -1,0 +1,7 @@
+<%#
+  I had some packages with a nil quality_responsibility, hence the overcautious use of try here.
+  Might never happen in production but if it does, better not throw an exception an break advisory creation.
+-%>
+  <span class="pkg-qe"><%= package.try(:quality_responsibility).try(:name) || 'na' %></span>
+  <span class="pkg-owner"><%= package.try(:qe_owner).try(:login_name) || 'na' %></span>
+

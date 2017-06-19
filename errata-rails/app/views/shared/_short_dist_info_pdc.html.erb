@@ -1,0 +1,13 @@
+<%=
+#
+# This file is only prepared to show content dist in pdc advisory
+#
+table_rows_helper([
+  ['Service', dist.service],
+  ['Content Format', dist.content_format],
+  ['Content Category', dist.content_category],
+  ['Arch', dist.arch],
+  ['Variant', dist.variant_uid],
+  ['PDC Release', dist.release_id],
+], :labels => true, :table => 'compact'
+) -%>

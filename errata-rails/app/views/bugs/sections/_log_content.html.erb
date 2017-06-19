@@ -1,0 +1,19 @@
+<%=
+  render "shared/bz_table", {
+    :extra_class => 'log_list',
+    :none_message => 'No activity has been recorded for this bug.',
+    :row_items => @bug.logs.order('created_at DESC, id DESC').limit(@log_limit),
+    :headers => %w[Message Severity Who When].map{|h|tablesort_heading_no_sort(h)},
+    :func => lambda { |log|
+      {
+        :content => [
+          log.message,
+          log.severity,
+          log.user,
+          sortable_time_ago_in_words(log.created_at)
+        ],
+        :options => { :extra_class => "log_#{log.severity.downcase}" }
+      }
+    }
+  }
+%>

@@ -1,0 +1,47 @@
+<%= render 'filing_docs_link' %>
+<%= form_tag :action => 'new_errata' do %>
+
+<%= block_render 'shared/pretty_form_container', :submit_name => 'Continue' do %>
+
+<table>
+<tr class="vtop">
+  <td class="formlabel">
+    <%= label(:product, :id, 'Product') %>
+  </td>
+  <td>
+    <%= render(:partial => 'product_list', :object => @product) %>
+  </td>
+</tr>
+<tr class="vtop">
+  <td class="formlabel">
+    <%= label(:release, :id, 'Release') %>
+  </td>
+  <td>
+    <%= render :partial => 'release_list', :object => @releases %>
+    <div class="small light" style="padding-top:0.5em;">
+      Note that advisories for Y-stream releases can't be created using this form. <br/>
+      Please use <%= link_to 'assisted create', {:controller=>:automatic_advisory, :action=>:new} %>
+      for Y-stream advisories.
+    </div>
+  </td>
+</tr>
+<tr class="vtop">
+  <td class="formlabel">
+    <%= label(:errata, :clone, 'Template advisory<br/>to clone from'.html_safe) %>
+  </td>
+  <td>
+    <%= text_field(:errata, :clone, :size => 30) %>
+    <div class="small light">
+      Optional. Leave this blank to create a new advisory from scratch.<br/>
+      Example: RHSA-2014:1234
+    </div>
+  </td>
+</tr>
+</table>
+
+<% end %>
+
+<div id="warn_no_releases" style="display : none;">
+<p><b>Warning: </b>No releases are available for this product. Please file a ticket with  <%= mail_to Settings.errata_help_email %> to have one created.</p>
+</div>
+<% end %>

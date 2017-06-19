@@ -1,0 +1,16 @@
+---
+- name: reboot
+  sudo: yes
+  shell: >
+    logger -p local3.info -s "ANSIBLE REBOOT" &&
+    shutdown -r now "Ansible restarting machine"
+  changed_when: True
+  failed_when: False
+  notify:
+    - wait for host to shutdown
+    - wait for host to boot
+    - check uptime
+    - print uptime
+    - reload facts
+    - try pinging hostname
+    - ensure hostname reachable

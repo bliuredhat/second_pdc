@@ -1,0 +1,130 @@
+<%= page_title_h1 %>
+
+<%= form_for @autowaive_rule, :url => {:controller => :rpmdiff, :action => :manage_autowaive_rule} do |form| %>
+
+  <%= form.hidden_field(:result_detail_id, :value => params[:result_detail_id], :name => :result_detail_id) %>
+  <%= form.hidden_field(:created_from_rpmdiff_result_detail_id) %>
+
+  <p>
+  <label class="form_div">Package Name
+    <span class="red">*</span>
+    <br />
+    <span class="small light">Mandatory main package name (e.g. xml-commons)</span>
+    <br />
+    <%= form.text_field(
+      :package_name,
+      :class => "et-ui-autocomplete",
+      "data-autocomplete-url" => packages_url,
+      "data-autocomplete-value" => 'name') %>
+    </label>
+    </p>
+
+  <label>Subpackage Name
+    <br />
+    <span class="small light">Subpackage name (e.g. xml-commons-jaxp)</span>
+    <br />
+      <% if params.has_key?(:result_detail_id) %>
+        <%= form.text_field :subpackage, :readonly => false %>
+      <% else %>
+        <%= form.text_field :subpackage, :readonly => false,
+            :maxlength => max_len_of_autowaive_rule_subpackage_name,
+            :placeholder => 'Any subpackage ...'
+        %>
+      <% end %>
+  </label>
+  </p>
+
+  <p>
+  <label>(Active) Product Version
+    <span class="red">*</span>
+    <br />
+    <span class="small light">Specify one or multiple product versions this rule applies to.</span>
+    <br />
+  </label>
+  <%= form.collection_select(
+    :product_version_ids,
+    ProductVersion.enabled.find_active, :id, :name,
+    {:selected => @autowaive_rule.product_versions.map(&:id)},
+    {:multiple => true, :class => 'eso-chosen-select', 'data-placeholder' => '(Any active product version ...)'})
+  %>
+  </p>
+
+  <p>
+  <label>Test
+    <span class="red">*</span>
+    <br />
+    <span class="small light">The test that should be automatically waived (<a href="https://docs.engineering.redhat.com/x/K4oEAQ" target="_blank">Help</a>)</span>
+    <br />
+  </label>
+  <%= form.collection_select(
+    :test_id,
+    RpmdiffTest.all, :test_id, :description,
+    {:selected => @autowaive_rule.test_id},
+    {:multiple => false, :class => 'eso-chosen-select', 'data-placeholder' => 'Select a test to match this rule on'})
+  %>
+  </p>
+
+  <p>
+  <label>Score
+    <span class="red">*</span>
+    <br />
+  </label>
+  <%= form.collection_select(
+    :score,
+    RpmdiffScore.for_autowaiving_rules.all, :score, :description,
+    {:selected => @autowaive_rule.score},
+    {:multiple => false, :class => 'eso-chosen-select', 'data-placeholder' => 'Which score should match this test'})
+  %>
+  </p>
+
+  <p>
+  <label>Expression
+    <span class="red">*</span>
+    <br />
+    <span class="small light">Regular Expression to match against one line in the result output.
+      <a
+        href="https://docs.python.org/2.6/library/re.html#re.RegexObject.search"
+        title="Regular Expressions in Python">Python Regular
+        expressions</a> are used to match against output. The expression will match a pattern anywhere in a string. </span>
+    <br />
+    <%= form.text_area :content_pattern, :rows => 5 %>
+  </label>
+  </p>
+
+  <p>
+  <label>Reason
+    <span class="red">*</span>
+    <br />
+    <span class="small light">Provide a reason why this rule should be enabled.</span>
+    <br />
+    <%= form.text_area :reason, :rows => 5 %>
+  </label>
+  </p>
+
+  <% if @autowaive_rule.created_from_rpmdiff_result_detail_id %>
+  <p>
+    <span class="red">This rule is created based on
+    <%= rpmdiff_result_link(@current_result, 'Test result') %>
+    </span>
+    <br />
+  </p>
+  <% end %>
+
+  <p>
+  <label>Rule Enabled
+    <% checked = @autowaive_rule.active? %>
+    <% can_not_activate = !(@can_activate)  %>
+    <%= form.check_box :active, :checked => checked, :disabled => can_not_activate %>
+  </label>
+  </p>
+
+  <% if can_not_activate %>
+    <div class="alert alert-info" style="margin-top:1em;">
+    <%= render 'autowaiver_roles_message', :waiver_roles => @current_result.waiver_roles %>
+    </div>
+  <% end %>
+
+  <%= submit_tag 'Apply', :class=>'btn btn-primary' %>
+  <%= link_to 'Cancel', get_redirect_to_success_action, :class => 'btn' %>
+
+<% end %>

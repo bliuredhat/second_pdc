@@ -1,0 +1,20 @@
+  <% if @content_types.length > 1 -%>
+    <h2>Multiple content types were found</h2>
+    <p>Please review and select the desired content types for each build.</p>
+
+    <% if Settings.show_nonrpm_warning -%>
+      <div class="infobox with_icon alert_icon"><div>
+        Brew files other than RPMs or Docker images are supported in Errata Tool as a technology preview.<br/><br/>
+        Other content may be added to this advisory, but only RPMs or Docker images will be included when the advisory is pushed!
+      </div></div>
+    <% end -%>
+
+    <p>Select content types for all builds here, or select for individual builds below:
+    <% @content_types.each do |type| -%>
+      <br/>
+      <%= label_tag(nil, nil, :class => 'file_type_toggle') do %>
+        <%= check_box_tag("global_types[#{type}]", type, check_type_present?(@current_types, type), :class => 'file_type_global_toggle') %> <%= type %>
+      <% end -%>
+    <% end -%>
+    </p>
+  <% end -%>

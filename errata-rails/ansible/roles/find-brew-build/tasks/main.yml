@@ -1,0 +1,12 @@
+---
+- name: Set build name
+  set_fact: build_name={{ build_name_format | format(ver, rel | default('0')) }}
+
+- name: Set rpm name
+  set_fact: rpm_name={{ rpm_name_format | format(build_name) }}
+
+- name: Set rpm file
+  set_fact: rpm_file={{ download_dir }}/{{ rpm_name }}
+
+- name: Download rpm from brew
+  command: chdir={{ download_dir }} brew download-build {{ build_name }} --arch=noarch --quiet

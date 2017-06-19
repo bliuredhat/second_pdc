@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "advisory_state": "QE",
+        "created_at": "2011-04-12T13:16:38Z",
+        "errata_id": 11112,
+        "text": "Tps Runs are now complete.",
+        "who": {
+          "login_name": "qa-errata-list@redhat.com",
+          "realname": "Quality Assurance Errata List"
+        }
+      },
+      "id": 294893,
+      "type": "AutomatedComment"
+    },
+    {
+      "attributes": {
+        "advisory_state": "QE",
+        "created_at": "2011-04-12T13:11:04Z",
+        "errata_id": 11112,
+        "text": "Changed state from NEW_FILES to QE\n",
+        "who": {
+          "login_name": "linville@redhat.com",
+          "realname": "John W. Linville"
+        }
+      },
+      "id": 294889,
+      "type": "Comment"
+    },
+    {
+      "attributes": {
+        "advisory_state": "NEW_FILES",
+        "created_at": "2011-04-11T20:21:56Z",
+        "errata_id": 11112,
+        "text": "Added Bugs:\nbug 694078 - [Intel 6.1 Bug] Missing uCode for Crane Peak wireless adapter, WiFi only\n\n",
+        "who": {
+          "login_name": "linville@redhat.com",
+          "realname": "John W. Linville"
+        }
+      },
+      "id": 294490,
+      "type": "Comment"
+    },
+    {
+      "attributes": {
+        "advisory_state": "NEW_FILES",
+        "created_at": "2011-04-11T20:21:54Z",
+        "errata_id": 11112,
+        "text": "Documentation approval requested.",
+        "who": {
+          "login_name": "linville@redhat.com",
+          "realname": "John W. Linville"
+        }
+      },
+      "id": 294489,
+      "type": "Comment"
+    }
+  ]
+}

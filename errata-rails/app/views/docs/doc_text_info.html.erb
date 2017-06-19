@@ -1,0 +1,80 @@
+<%= render 'tabs_and_common_header' %>
+
+<h2 style="padding-bottom:0;margin-bottom:0;">Doc Text Info</h2>
+
+<table>
+<%= table_rows_helper([[
+  'Text complete',     n_thing_or_things_percent(@errata.bugs_with_complete_doc_text, (total_bugs=@errata.bugs.count), 'bug'),
+  'Text not required', n_thing_or_things_percent(@errata.bugs_not_requiring_doc_text, total_bugs, 'bug'),
+  'Text incomplete',   n_thing_or_things_percent(@errata.bugs_missing_doc_text, total_bugs, 'bug'),
+  'Total bug count',   n_thing_or_things(total_bugs, 'bug'),
+]], :labels=>true) %>
+</table>
+
+<div style="float:right;margin-bottom:5px;"><%= link_to('Bugzilla Sync', {:action=>'reconcile_all_bugs', :id=>@errata.id}, :class=>'btn') %></div>
+
+<div class="superlight tiny" style="margin-top:1em;">
+  RDT is the 'requires_docs_text' flag.
+  Mouseover the flag indicator to see flag details.
+  Mouseover the bug number to see the bug summary.
+</div>
+
+<%= render :partial => "shared/bz_table", :locals => {
+  :extra_class => 'show_visited',
+  :headers => [
+    tablesort_heading_custom_sort_numeric('Bug'),
+    tablesort_heading_custom_sort('Component'),
+    tablesort_heading_custom_sort('Priority'),
+    tablesort_heading_custom_sort('RDT Flag'),
+    tablesort_heading_no_sort('Doc Text'),
+    "Private",
+    tablesort_heading_custom_sort_numeric("Last Updated"),
+    tablesort_heading_no_sort("Last&nbsp;Sync", :style=>'text-align:right;'),
+  ],
+  :row_items => @bugs,
+  :func => lambda { |bug| {
+    ## It's just too ugly using the bz_private in conjuction with even/odd stripes!
+    ## Going to use PRIVATE indicator instead...
+    #:options => {:extra_class => (bug.is_private? ? 'bz_private' : nil)},
+    :options => {},
+    :content => [
+      # Bug link (mouseover for bug name)
+      tablesort_helper("#{bug_link(bug, :title => bug.short_desc)}<br/><span style='visibility:hidden'>-</span>".html_safe, bug.id), # had &nbsp; but it was escaped :/
+
+      # Component (secondary sort by priority)
+      tablesort_helper(
+        bug.package.name.titleize,
+        "#{bug.package.name_sort_with_docs_last.downcase}-#{bug.priority_order}"
+      ),
+
+      # Priority (secondary sort by component)
+      tablesort_helper(
+        bug.priority.titleize,
+        "#{bug.priority_order}-#{bug.package.name_sort_with_docs_last.downcase}"
+      ),
+
+      # Flags
+      requires_doc_text_flag_display(bug),
+
+      # Doc Text
+      (if bug.release_notes.blank?
+        "<i class='light'>Blank. Bug summary: '#{bug.short_desc}'</i>"
+      else
+        h(bug.release_notes).gsub(/\n/,"<br/>")
+      end).html_safe,
+
+      # Private
+      {:content => (bug.is_private? ? "<span style='font-size:80%;font-weight:bold;color:#a00;'>PRIVATE</span>" :
+        '<span style="font-size:80%;color:#888;">public</span>').html_safe,
+       :options => { :style=>'text-align:center;vertical-align:center;' }},
+
+      # Modified
+      tablesort_helper(content_tag(:span, time_ago_future_or_past(bug.last_updated), :title=>bug.last_updated.to_s), -bug.last_updated.to_i, :style=>'font-size:80%;'),
+
+      # Last reconciled
+      {:content=>(bug.reconciled_at.blank? ? '-' :
+        content_tag(:span, time_ago_future_or_past(bug.reconciled_at), :title=>bug.reconciled_at.to_s)),
+       :options=>{:style=>'font-size:80%;text-align:right;color:#999;'}},
+    ]
+  }}
+} %>

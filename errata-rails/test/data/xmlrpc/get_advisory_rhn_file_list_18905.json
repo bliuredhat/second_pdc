@@ -1,0 +1,87 @@
+{
+  "libcgroup-0.40.rc1-6.el6_5.1": {
+    "checksums": {
+      "md5": {
+        "libcgroup-0.40.rc1-6.el6_5.1.i686.rpm": "fake:787bfb80640d3b1ff68ae854940",
+        "libcgroup-0.40.rc1-6.el6_5.1.src.rpm": "fake:adafdb77ec1a5c2f3ff47a0576b",
+        "libcgroup-0.40.rc1-6.el6_5.1.x86_64.rpm": "fake:8f461a198b030574448f68bf828",
+        "libcgroup-debuginfo-0.40.rc1-6.el6_5.1.i686.rpm": "fake:563b0e96548eafe9cc8e8f22142",
+        "libcgroup-debuginfo-0.40.rc1-6.el6_5.1.x86_64.rpm": "fake:4ab61ee241460392fc38457144e",
+        "libcgroup-devel-0.40.rc1-6.el6_5.1.i686.rpm": "fake:f81a356ed2b88026b18d0da001a",
+        "libcgroup-devel-0.40.rc1-6.el6_5.1.x86_64.rpm": "fake:e443f77b1e809fae3b2bae8d236",
+        "libcgroup-pam-0.40.rc1-6.el6_5.1.i686.rpm": "fake:fc9289963e29543f18e2ab8230f",
+        "libcgroup-pam-0.40.rc1-6.el6_5.1.x86_64.rpm": "fake:e91a346ec07817bbb19c11a1e78"
+      },
+      "sha256": {
+        "libcgroup-0.40.rc1-6.el6_5.1.i686.rpm": "fake:961137698f12df443b88b628c8ba5c848a4283d1ecfb47132ba01f76fb2",
+        "libcgroup-0.40.rc1-6.el6_5.1.src.rpm": "fake:7aded03bfbe013e25613df55e76d57d2049e93d05a171ed6d741b72c670",
+        "libcgroup-0.40.rc1-6.el6_5.1.x86_64.rpm": "fake:f42f5d963be1799979508ef71700132b9e67ee063f71b28987f92b5a547",
+        "libcgroup-debuginfo-0.40.rc1-6.el6_5.1.i686.rpm": "fake:23553b67e2c9be78676036b43ea01baaad79d06d9d5303cfef454eaaacc",
+        "libcgroup-debuginfo-0.40.rc1-6.el6_5.1.x86_64.rpm": "fake:4af95badd83ad75d0f69b96d38c9457edf8ce4d42f090b6510fff8422f5",
+        "libcgroup-devel-0.40.rc1-6.el6_5.1.i686.rpm": "fake:01c8afd0a5f162e15244e61ee316ba01979fa3a93f767a89a01f4e871bc",
+        "libcgroup-devel-0.40.rc1-6.el6_5.1.x86_64.rpm": "fake:ad28748351b83beb5491ed94845416925c70e100d124ac24c30ea53f4a3",
+        "libcgroup-pam-0.40.rc1-6.el6_5.1.i686.rpm": "fake:b96fb0efa3a623ec0b42f32aae6db73499a7c6a07fde9ffc31312125945",
+        "libcgroup-pam-0.40.rc1-6.el6_5.1.x86_64.rpm": "fake:a46cb621dde398f32fba5a55330ca579f1145d3fe92327d1f66c32fffbd"
+      }
+    },
+    "rpms": {
+      "libcgroup-0.40.rc1-6.el6_5.1.i686.rpm": [
+        "rhel-x86_64-server-6",
+        "rhel-x86_64-server-6.5.aus",
+        "rhel-x86_64-server-6.5.z",
+        "rhel-x86_64-workstation-6"
+      ],
+      "libcgroup-0.40.rc1-6.el6_5.1.src.rpm": [
+        "rhel-x86_64-server-6",
+        "rhel-x86_64-server-6.5.aus",
+        "rhel-x86_64-server-6.5.z",
+        "rhel-x86_64-server-optional-6",
+        "rhel-x86_64-server-optional-6.5.z",
+        "rhel-x86_64-workstation-6"
+      ],
+      "libcgroup-0.40.rc1-6.el6_5.1.x86_64.rpm": [
+        "rhel-x86_64-server-6",
+        "rhel-x86_64-server-6.5.aus",
+        "rhel-x86_64-server-6.5.z",
+        "rhel-x86_64-workstation-6"
+      ],
+      "libcgroup-debuginfo-0.40.rc1-6.el6_5.1.i686.rpm": [
+        "rhel-x86_64-server-6-debuginfo",
+        "rhel-x86_64-server-6.5.aus-debuginfo",
+        "rhel-x86_64-server-6.5.z-debuginfo",
+        "rhel-x86_64-server-optional-6-debuginfo",
+        "rhel-x86_64-server-optional-6.5.z-debuginfo",
+        "rhel-x86_64-workstation-6-debuginfo"
+      ],
+      "libcgroup-debuginfo-0.40.rc1-6.el6_5.1.x86_64.rpm": [
+        "rhel-x86_64-server-6-debuginfo",
+        "rhel-x86_64-server-6.5.aus-debuginfo",
+        "rhel-x86_64-server-6.5.z-debuginfo",
+        "rhel-x86_64-server-optional-6-debuginfo",
+        "rhel-x86_64-server-optional-6.5.z-debuginfo",
+        "rhel-x86_64-workstation-6-debuginfo"
+      ],
+      "libcgroup-devel-0.40.rc1-6.el6_5.1.i686.rpm": [
+        "rhel-x86_64-server-6",
+        "rhel-x86_64-server-6.5.aus",
+        "rhel-x86_64-server-6.5.z",
+        "rhel-x86_64-workstation-6"
+      ],
+      "libcgroup-devel-0.40.rc1-6.el6_5.1.x86_64.rpm": [
+        "rhel-x86_64-server-6",
+        "rhel-x86_64-server-6.5.aus",
+        "rhel-x86_64-server-6.5.z",
+        "rhel-x86_64-workstation-6"
+      ],
+      "libcgroup-pam-0.40.rc1-6.el6_5.1.i686.rpm": [
+        "rhel-x86_64-server-optional-6",
+        "rhel-x86_64-server-optional-6.5.z"
+      ],
+      "libcgroup-pam-0.40.rc1-6.el6_5.1.x86_64.rpm": [
+        "rhel-x86_64-server-optional-6",
+        "rhel-x86_64-server-optional-6.5.z"
+      ]
+    },
+    "sig_key": "fd431d51"
+  }
+}

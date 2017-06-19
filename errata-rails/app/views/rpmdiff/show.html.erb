@@ -1,0 +1,16 @@
+<div class="btn-group" style="float:right;">
+  <%= link_to('Manage Waivers', {:action => :manage_waivers, :id => @errata}, :class => 'btn') %>
+  <%= link_to('Waiver History', {:action => :waivers_for_errata, :id => @errata}, :class => 'btn') %>
+</div>
+
+<h1><%= non_current_indicator(@current_run) %> Results for <%= compared_to_text(@current_run) %></h1>
+
+<br/>
+<% if @current_result %>
+<%= render(:partial => "results", :object => @current_run, :locals => {:current_result => @current_result}) %>
+<%= render(:partial => "current_result", :object => @current_result) %>
+<% else %>
+This run has no results.
+<% end %>
+
+<%= render 'report_bug_msg' %>

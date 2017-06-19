@@ -1,0 +1,13 @@
+- name: Install Packaging Tools for Releases
+  hosts: develop
+  tasks:
+    - name: "ET Release | install brew repo"
+      copy: src=files/rel-eng.repo dest=/etc/yum.repos.d/ owner=root group=root
+      sudo: yes
+
+    - name: "ET Release | install packaging tools"
+      sudo: yes
+      yum: name={{ item }} state=latest
+      with_items:
+        - koji
+        - rhpkg

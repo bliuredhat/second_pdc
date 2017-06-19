@@ -1,0 +1,18 @@
+---
+#
+# NOTE: the yaml is held in memory as a hash, so the server must be restarted
+#       when you update the file
+#
+# Must follow the format:
+# pdc-variant-id:
+# - cpe:/...
+# - cpe:/...
+# - cpe:/...
+
+ceph-2.1-updates@rhel-7/MON:
+- cpe:/o:redhat:enterprise_linux:7::client
+- cpe:/o:redhat:enterprise_linux:7::computenode
+
+ceph-2.1-updates@rhel-7/OSD:
+- cpe:/o:redhat:enterprise_linux:7::client
+- cpe:/o:redhat:enterprise_linux:7::server

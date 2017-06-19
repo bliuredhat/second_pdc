@@ -1,0 +1,49 @@
+[
+  {
+    "cpe": null,
+    "variants": [
+      {
+        "description": "RHN Tools (v. 2.1 AS)",
+        "id": 294,
+        "live": false,
+        "name": "2.1AS-RHNTools"
+      },
+      {
+        "description": "RHN Tools (v. 2.1 AW)",
+        "id": 295,
+        "live": false,
+        "name": "2.1AW-RHNTools"
+      },
+      ...
+    ]
+  },
+  {
+    "cpe": "cpe:/a:redhat:rhel_extras:6",
+    "variants": [
+      {
+        "description": "Red Hat Enterprise Linux Server Supplementary (v. 6.0.z)",
+        "id": 462,
+        "live": true,
+        "name": "6Server-Supplementary-6.0.Z"
+      }
+    ]
+  },
+  {
+    "cpe": "cpe:/o:redhat:rhel_eus:6.2",
+    "variants": [
+      {
+        "description": "Red Hat Enterprise Linux Server EUS (v. 6.2)",
+        "id": 567,
+        "live": true,
+        "name": "6Server-6.2.EUS"
+      },
+      {
+        "description": "Red Hat Enterprise Linux High Availability (v. 6)",
+        "id": 568,
+        "live": false,
+        "name": "6Server-HighAvailability-6.2.EUS"
+      },
+      ...
+  },
+  ...
+]

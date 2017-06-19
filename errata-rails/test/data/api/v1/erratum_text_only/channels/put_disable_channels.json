@@ -1,0 +1,25 @@
+### Last PUT - disabled all channels
+# HTTP 200
+[
+  {
+    "channel": {
+      "id": 552,
+      "name": "rhel-x86_64-server-6-rhevh"
+    },
+    "enabled": false
+  },
+  {
+    "channel": {
+      "id": 553,
+      "name": "rhel-x86_64-rhev-mgmt-agent-6"
+    },
+    "enabled": false
+  },
+  {
+    "channel": {
+      "id": 1091,
+      "name": "rhel-x86_64-server-6-rhevm-3.4"
+    },
+    "enabled": false
+  }
+]

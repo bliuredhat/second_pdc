@@ -1,0 +1,9 @@
+Some post-push tasks have failed, which may require attention.
+This is not a fatal error.
+
+<%= render 'push_job', :job => @job -%>
+
+Please consider whether corrective actions should be taken, such as
+re-triggering the failed task(s).
+
+If in doubt, please raise a ticket to <%= Settings.errata_help_email %>.

@@ -1,0 +1,9 @@
+---
+cwd: /var/www/errata_rails
+port: "8000"
+environment: production
+address: 127.0.0.1
+pid_file: /var/www/errata_rails/log/mongrel.pid
+user: mongrel
+group: errata
+servers: 6

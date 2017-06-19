@@ -1,0 +1,8 @@
+<% channels_for_variant ||= [] %>
+<td>
+  <% channels_for_variant.sort_by{ |c| [c.type == 'PrimaryChannel' ? 'AAAAA' : c.type, c.name] }.each do |c| %>
+    <b><%= c.short_type.sub(/^Eus/,'EUS') %>:</b> <%= link_to c.name, product_version_channel_path(c.product_version, c),
+      # Quick-fix to show which channels are "disabled" aka not linked for this product version, see Bug 1010231
+      :style=>('text-decoration:line-through;' unless c.product_version.active_channels.include?(c)) %><br/>
+  <% end %>
+</td>

@@ -1,0 +1,11 @@
+<%=
+   content_popover_helper(
+     yield.tr('"', "'"),
+     '',
+     # needs an href but the value is irrelevant.
+     '#tags',
+     :manual_text => '',
+     :class       => %w[fa fa-tags help-popover-question-mark],
+     :click       => true
+  )
+%>

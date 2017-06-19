@@ -1,0 +1,4 @@
+# HTTP 401
+{
+  "error": "Kerberos credentials required"
+}

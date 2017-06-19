@@ -1,0 +1,30 @@
+{
+  "rhel-i386-workstation-optional-6": [
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/i686/ruby-debuginfo-1.8.7.374-4.el6_6.i686.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/i686/ruby-docs-1.8.7.374-4.el6_6.i686.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/i686/ruby-ri-1.8.7.374-4.el6_6.i686.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/i686/ruby-static-1.8.7.374-4.el6_6.i686.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/i686/ruby-tcltk-1.8.7.374-4.el6_6.i686.rpm"
+  ],
+  "rhel-x86_64-hpc-node-optional-6": [
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-debuginfo-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-docs-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-ri-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-static-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-tcltk-1.8.7.374-4.el6_6.x86_64.rpm"
+  ],
+  "rhel-x86_64-server-optional-6": [
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-debuginfo-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-docs-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-ri-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-static-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-tcltk-1.8.7.374-4.el6_6.x86_64.rpm"
+  ],
+  "rhel-x86_64-workstation-optional-6": [
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-debuginfo-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-docs-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-ri-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-static-1.8.7.374-4.el6_6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/x86_64/ruby-tcltk-1.8.7.374-4.el6_6.x86_64.rpm"
+  ]
+}

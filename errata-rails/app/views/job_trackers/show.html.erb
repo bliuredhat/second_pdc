@@ -1,0 +1,18 @@
+<%= page_title_h1 %>
+<p>There are <%= @job_tracker.delayed_jobs.count %> jobs left to run.</p>
+<% if @job_tracker.delayed_jobs.failing.any? %>
+  <div id='job_tracker_failures'>
+    <% @job_tracker.delayed_jobs.failing.each do |j|%>
+      <p>Job <%= j.id %> failed at <%= j.updated_at %> next run <%= distance_of_time_in_words(Time.now, j.run_at) %> from now</p>
+    <% end %>
+  </div>
+<% end %>
+<div id='jobs_for_tracker' class='section_container'>
+  <h2>
+    <%= link_to 'Jobs', '#', :class => 'toggle-view-section' %>
+    <i class="icon-chevron-up uncollapsed-indicator"></i><i class="icon-chevron-down collapsed-indicator"></i>
+  </h2>
+  <div class='section_content'>
+    <%= render(:partial => "background_job/delayed_jobs", :object => @job_tracker.jobs) %>
+  </div>
+</div>

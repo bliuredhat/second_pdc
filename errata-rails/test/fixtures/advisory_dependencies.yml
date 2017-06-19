@@ -1,0 +1,10 @@
+---
+advisory_dependency_18916018905:
+  blocking_errata_id: 18905
+  dependent_errata_id: 18916
+advisory_dependency_18917018905:
+  blocking_errata_id: 18905
+  dependent_errata_id: 18917
+advisory_dependency_18918018905:
+  blocking_errata_id: 18905
+  dependent_errata_id: 18918

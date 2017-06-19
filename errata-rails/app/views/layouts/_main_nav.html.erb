@@ -1,0 +1,54 @@
+<div id="main_nav">
+  <%= render('/layouts/env_indicator', :env_text => env_banner_text) unless Rails.env.production? %>
+  <ul>
+    <% unless User.current_user.is_readonly? %>
+      <li id="main_new_errata">
+        <%= link_to "New/Edit", {:controller => 'errata', :action => 'new'}, :title => "New/Edit Advisory" %>
+      </li>
+      <li id="main_list_errata">
+        <%= link_to "Advisories", {:controller => 'errata', :action => 'list_errata'}, :title => "List Current Advisories" %>
+      </li>
+    <% end %>
+    <li id="main_list">
+      <%= link_to "QA Requests", {:controller => 'errata', :action => 'list'}, :title => "List Current QA Requests" %>
+    </li>
+    <% unless User.current_user.is_readonly? %>
+      <li id="main_dashboard">
+        <%= link_to "Dashboard", {:controller => 'reports', :action => 'index'}, :title => "Overview of All Advisories" %>
+      </li>
+      <li id="main_bugs">
+        <%= link_to "Advisory Bugs", {:controller => 'bugs'}, :title => "Shows Bugzillas for QU Advisories" %>
+      </li>
+      <li id="main_docs">
+        <%= link_to "Docs Queue", {:controller => 'docs', :action => 'list'}, :title => "Documentation Work Queue" %>
+      </li>
+      <li id="main_rpmdiff">
+        <%= link_to "RPMDiff", {:controller => 'rpmdiff'}, :title => "List Current RPMDiff Runs" %>
+      </li>
+      <li id="main_tps">
+        <%= link_to "TPS", {:controller => 'tps'}, :title => "TPS Results" %>
+      </li>
+      <li id="main_releng">
+        <%= link_to "Releng", {:controller => 'release_engineering'}, :title => "Released Packages" %>
+      </li>
+      <% if(User.current_user.in_role?('admin')) %>
+        <li id="main_admin">
+          <%= link_to "Admin", {:controller => 'admin'}, :title => "List Admin Functions" %>
+        </li>
+      <% end %>
+      <% if(User.current_user.in_role?('pm')) %>
+        <li id="main_admin">
+          <%= link_to "Releases", {:controller => 'release'}, :title => "Release Group Admin" %>
+        </li>
+      <% end %>
+      <% if(User.current_user.in_role?('secalert')) %>
+        <li id="main_secalert">
+          <%= link_to "Security", {:controller => :security}, :title => "Security Advisories" %>
+        </li>
+      <% end %>
+    <% end %>
+    <li id="main_pkgbrowser">
+      <%= link_to "Packages", {:controller => :package}, :title => "Package Browser" %>
+    </li>
+  </ul>
+</div>

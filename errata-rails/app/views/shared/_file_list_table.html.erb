@@ -1,0 +1,76 @@
+<% mappings_by_product_version.group_by(&:brew_build).each do |build,mappings| %>
+  <strong class="float-right tiny">
+    <%=
+      # We display the flags for all mappings, though the UI only
+      # supports setting flags on RPM mappings for now.
+      safe_join(mappings.map(&:flags).reduce(&:merge).sort.map(&method(:build_label)))
+    %>
+    <%= build_label(build.is_signed? ? 'signed' : 'unsigned') %>
+  </strong>
+
+  <h3>Brew Build
+      <%= brew_link(build) %>
+      (<%= link_to 'Listings', url_for(:controller => :release_engineering,
+                                       :action => :product_listings,
+                                       :rp => {:nvr => build.nvr, :pv_or_pr_id => pv.id})
+        %>
+       <%= if list_time = ProductListingCache.cached_listing(pv, build).try(:created_at)
+              " as of #{list_time}"
+           else
+              # No cache found.  Probably not important to mention.
+              ""
+           end
+        %>)
+  </h3>
+
+  <%= safe_join(build_actions(mappings), '&nbsp;|&nbsp;'.html_safe) %>
+
+  <table class="buglist" cellspacing="0" cellpadding="0" width="100%">
+    <thead>
+      <tr>
+        <td align="center">Arch/Type</td>
+        <td align="left">Path</td>
+      </tr>
+    </thead>
+    <%
+      # RPMs are shown first, under each variant. Other types are shown at the end, if any.
+      (rpm_mappings,nonrpm_mappings) = mappings.partition(&:for_rpms?)
+    %>
+    <% rpm_mappings.each do |map| %>
+      <% unless map.rpm_build_has_valid_listing? %>
+        <tr><td style="text-align:center;" colspan="2">
+         <%= missing_listing_badge("#{map.product_version_id}_#{map.brew_build.id}", false) %>
+        </td></tr>
+      <% else %>
+        <% if !map.product_listings_mismatch_ack? && (not_in_listings = map.rpm_files_not_in_listings).any? %>
+          <%= render 'shared/product_listings_mismatch', {:map => map, :not_in_listings => not_in_listings} %>
+        <% end %>
+        <% map.get_file_listing.group_by(&:variant).sort_by{|v,f| v.name}.each do |variant, files| %>
+          <tr bgcolor="#dedede">
+            <td colspan="6"><h3 style="display:inline;"><%= variant.name %></h3>
+              <div style="display:inline-block;float:right;"><%= push_info_link(map.package, variant) %></div>
+            </td>
+          </tr>
+          <% files.sort_by{|f| [f.arch.name, f.devel_file] }.each do |file| %>
+            <tr class="<%= cycle('bz_even','bz_odd') %>">
+              <td align="center"><%= file.arch.name %></td>
+              <td align="left"><%= brew_file_link(file.brew_rpm) %></td>
+            </tr>
+          <% end %>
+        <% end %>
+      <% end %>
+    <% end %>
+
+    <% if (nonrpm_files = nonrpm_mappings.map(&:brew_files).map(&:to_a).inject(&:concat)).present? %>
+      <tr bgcolor="#dedede">
+        <td colspan="6"><h3>Non-RPM Content</h3></td>
+      </tr>
+      <% nonrpm_files.sort{|a,b| brew_file_type_cmp(a.file_type, b.file_type)}.each do |file| %>
+        <tr class="<%= cycle('bz_even','bz_odd') %>">
+          <td align="center"><%= brew_file_type_display(file) %></td>
+          <td align="left"><%= brew_file_link(file) %></td>
+        </tr>
+      <% end %>
+    <% end %>
+  </table>
+<% end %>

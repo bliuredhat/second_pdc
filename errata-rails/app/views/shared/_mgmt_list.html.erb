@@ -1,0 +1,56 @@
+<%
+   display_name = klass.respond_to?(:display_name) ? klass.display_name : klass.name.titleize
+
+   short_name =
+     "#{display_name} #{"for #{parent.class.name.titleize} '#{parent.canonical_short_name}'" if defined?(parent) && parent}"
+
+   tabs ||= []
+-%>
+<div class="clearfix mgmt">
+  <div class="mgmt-main" style="float:left;">
+    <div class="mgmt-title">
+      <div class="item-title"><span class="short-name" ><%= short_name %></span></div>
+    </div>
+
+    <div class="tabbable">
+      <ul class="nav nav-tabs" id="object_tab">
+        <%
+           lis = []
+           tabs.each_with_index do |(id, display, contents, opts), idx|
+             opts ||= {}
+             hash = {:data => {:toggle => "tab"}}
+             if tooltip = opts[:tooltip]
+               hash.deep_merge!({:rel => "tooltip", :title => tooltip, :data => {:placement => "bottom"}})
+             end
+
+             css_class = ["#{id}_tab"]
+             data = {:toggle => "tab"}
+             css_class << "active" if idx < 1
+             lis << content_tag(:li, :class => css_class.join(" ")) do
+               link_to(display, "\##{id}_tab", hash)
+             end
+           end
+        %>
+        <%= safe_join(lis) %>
+      </ul>
+
+      <div class="tab-content" style="overflow:visible;">
+        <% tabs.each_with_index do |(id, display, contents, opts), idx| %>
+          <div class="tab-pane<%= " active" if idx < 1 %>" id="<%= id %>_tab">
+            <% opts ||= {} %>
+            <%= opts[:note] unless opts[:note].blank? %>
+            <%= contents %>
+          </div>
+      <% end %>
+      </div>
+    </div>
+  </div><%# .mgmt-main %>
+
+  <% if partial_exists?("related", controller_name) %>
+    <div class="mgmt-sidebar" style="float:left;">
+      <%= render "#{controller_name}/related"%>
+    </div>
+  <% end %>
+
+  <%= render :partial => "shared/modal" %>
+</div>

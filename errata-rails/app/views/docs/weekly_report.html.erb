@@ -1,0 +1,30 @@
+<% for week in @weeks %>
+<% if week.to_i == @week_nav %>
+<b><%= week.to_date.to_s(:long) %></b>
+<% else %>
+<%= link_to week.to_date.to_s(:long), :action => :weekly_report, :id => week.to_i %>
+<% end%>
+<% unless week == @weeks.last %> | <% end %>
+<% end %>
+<p/>
+
+<%= br_separated @report %>
+<br/>
+_________________________________________________________________<br/>
+Docs Errata Core Resources<br/>
+<br/>
+Errata Documentation Work Queue:<br/>
+&lt;http://errata.devel.redhat.com/docs/list&gt;<br/>
+<br/>
+Errata How To<br/>
+&lt;https://home.corp.redhat.com/wiki/erratahowto&gt;<br/>
+<br/>
+Alternative view into Errata template:<br/>
+&lt;https://engineering.redhat.com/trac/ContentServices/wiki/RedHatSecurityAdvisory&gt;<br/>
+<br/>
+Public facing errata on CDN:<br/>
+&lt;https://access.redhat.com/errata/&gt;<br/>
+<br/>
+Errata Tool Documentation<br/>
+&lt;https://errata.devel.redhat.com/user-guide/&gt;<br/>
+

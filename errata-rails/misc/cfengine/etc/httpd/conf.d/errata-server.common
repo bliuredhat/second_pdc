@@ -1,0 +1,77 @@
+DocumentRoot /var/www/errata_rails/public
+
+<Directory /var/www/errata_rails/public>
+AuthType Kerberos
+AuthName "Kerberos 5 Login"
+KrbMethodNegotiate On
+KrbMethodK5Passwd On
+KrbAuthRealm REDHAT.COM
+KrbSaveCredentials On
+Krb5KeyTab /etc/httpd/conf/httpd.keytab
+KrbServiceName HTTP
+KrbVerifyKDC off
+require valid-user
+RequestHeader set X_REMOTE_USER %{remoteUser}e
+SSLRequireSSL
+AllowOverride None
+Allow from all
+Options -MultiViews
+
+RewriteEngine on
+
+# If outage.txt exists, then show a generic outage page with
+# 503 status code, do not allow requests to reach rails.
+# This is used during upgrades.
+#
+# *.txt is whitelisted mainly so tps.txt can still be fetched.
+#
+# RewriteEngine is later disabled for directories with static
+# content, so this doesn't apply there.
+RewriteCond /var/www/errata_rails/tmp/outage.txt -f
+RewriteCond /var/www/errata_rails/public/503.html -f
+RewriteRule !^(503\.html|.*\.txt)$ ignored [R=503,L,NS]
+
+ErrorDocument 503 /503.html
+</Directory>
+
+<Directory /var/www/errata_rails/public/stylesheets>
+Satisfy Any
+Allow from all
+RewriteEngine off
+</Directory>
+
+<Directory /var/www/errata_rails/public/images>
+Satisfy Any
+Allow from all
+RewriteEngine off
+</Directory>
+
+<Directory /var/www/errata_rails/public/assets>
+Satisfy Any
+Allow from all
+RewriteEngine off
+</Directory>
+
+<Directory /var/www/errata_rails/public/release-notes>
+Satisfy Any
+Allow from all
+RewriteEngine off
+</Directory>
+
+<Directory /var/www/errata_rails/public/user-guide>
+Satisfy Any
+Allow from all
+RewriteEngine off
+</Directory>
+
+<Directory /var/www/errata_rails/public/developer-guide>
+Satisfy Any
+Allow from all
+RewriteEngine off
+</Directory>
+
+<Directory /var/www/errata_rails/public/rdoc>
+Satisfy Any
+Allow from all
+RewriteEngine off
+</Directory>

@@ -1,0 +1,11 @@
+# HTTP 400
+{
+  "errors": {
+    "codes": [
+      "bad_page"
+    ],
+    "page[size]": [
+      "Requested 888888 items per page, but maximum of 1000 is permitted."
+    ]
+  }
+}

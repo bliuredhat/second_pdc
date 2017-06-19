@@ -1,0 +1,54 @@
+{
+  "description": "This updated package applies a fix for the following bugs and enhancements:\n\n* 690268 - Rebase mingw32-qpid-cpp to 0.10 for snapshot 3",
+  "from": "release-engineering@redhat.com",
+  "id": "RHBA-2011:11020",
+  "issued": "2011-03-30 13:22:11 UTC",
+  "pkglist": [
+    {
+      "name": "RHBA-2011:11020",
+      "packages": [
+        {
+          "arch": "noarch",
+          "epoch": 0,
+          "filename": "mingw32-qpid-cpp-0.10-1.el6.noarch.rpm",
+          "name": "mingw32-qpid-cpp",
+          "release": "1.el6",
+          "src": "mingw32-qpid-cpp-0.10-1.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:2979379cf03ca244cdcc6e329dd",
+            "sha256",
+            "fake:547362e53e3f47524d4fab226be927d380567b3eebcaee5ac252d83319d"
+          ],
+          "version": "0.10"
+        }
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+      "rpm"
+    ]
+  },
+  "pushcount": 1,
+  "reboot_suggested": false,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHBA-2011:11020",
+      "id": "RHBA-2011:11020",
+      "title": "RHBA-2011:11020",
+      "type": "self"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2011 Red Hat Inc",
+  "severity": "None",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\n\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttp://kbase.redhat.com/faq/docs/DOC-11259",
+  "status": "final",
+  "summary": "Updated mingw32-qpid-cpp package that fixes bugs and provides requested enhancements is now available.",
+  "title": "mingw32-qpid-cpp bug-fix update",
+  "type": "RHBA",
+  "updated": "2011-03-30 13:22:11 UTC",
+  "version": "1"
+}

@@ -1,0 +1,20 @@
+<h3>NOTE: Blocking an errata will prevent any further progress or state changes, and will raise serious attention. Only put a block on this advisory if it is truly a serious blocking issue.</h3>
+
+<%= form_for @blocking_issue, :as => :blocking_issue, :url => { :action => :block_errata } do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :blocking_role_id, "Role responsible for block:" %><br/>
+    <% roles = Role.find_all_by_name(['devel', 'qa','pm', 'releng','secalert']) %>
+    <%= f.collection_select :role_name, roles, :name, :name %>
+  </p>
+  <p>
+    <%= f.label :summary, "Brief description of the issue" %><br/>
+    <%= f.text_field :summary, :size => 75 %>
+  </p>
+  <p>
+    <%= f.label :description, "Detailed description of the issue" %><br/>
+    <%= f.text_area :description, :rows => 10, :cols => 75 %>
+  </p>
+
+  <%= submit_tag 'Submit', :class=>'btn btn-primary' %>
+<% end %>

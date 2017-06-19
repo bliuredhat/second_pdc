@@ -1,0 +1,22 @@
+<%= render 'shared/mgmt_object',
+    :extra_params => { :mapping_type => @multi_product_mapping.mapping_type } %>
+<%= render :partial => 'subscription' %>
+
+<div class="mgmt">
+<%
+   list_btn   = link_to icon_btn_text('List', :list),
+                  { :action => 'index' },
+                  :class=>'btn btn'
+   delete_btn = if can_edit_mgmt_items?
+                  link_to icon_btn_text('Delete', :trash),
+                    { :action => 'destroy',
+                      :id => @multi_product_mapping.id,
+                      :mapping_type => @multi_product_mapping.mapping_type },
+                    :method => :delete,
+                    :class =>'btn btn-primary',
+                    :data => { :confirm => "Mapping for #{@multi_product_mapping.package} will be deleted.\nAre you sure?" }
+                end
+
+%>
+<%= content_tag(:div, :class => 'submit-buttons') { safe_join([delete_btn, list_btn]) } %>
+</div>

@@ -1,0 +1,6 @@
+# use on devel servers
+[errata-rails-rhel-6]
+name=Errata Rails RHEL-6
+baseurl=http://download.englab.bne.redhat.com/brewroot/repos/errata-rails-rhel-6-build/latest/$basearch/
+gpgcheck=0
+enabled=1

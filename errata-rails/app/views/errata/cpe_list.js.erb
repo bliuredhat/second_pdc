@@ -1,0 +1,8 @@
+$("#cpe_list_div").html("<%= escape_javascript(render :partial => "cpe_list") %>");
+$(".popover-test").popover();
+$("div.remaining-cpes").hide();
+
+$("#show_remaining_cpes").click(function() {
+  $("div.remaining-cpes").slideToggle();
+  $(this).text($(this).text() == "more..." ? "show less": "more...");
+});

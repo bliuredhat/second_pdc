@@ -1,0 +1,15 @@
+<%= render 'action_buttons' %>
+<h3>Current <%= @test_type %> Test Runs</h3>
+
+<table style="margin-bottom:0.5em;"><%= table_rows_helper([
+  [ 'All passed or waived?', @errata.external_test_runs_passed_for?(@test_types) ? 'Yes' : 'No' ]
+],:labels=>true)%></table>
+
+<%= render 'list', :test_runs => @test_runs.active %>
+
+<% if @test_runs.inactive.any? %>
+  <h3 style="margin:2.2em 0 1em 0;">Non-current <%= @test_type %> Test Runs</h3>
+
+  <%= render 'list', :test_runs => @test_runs.inactive %>
+
+<% end %>

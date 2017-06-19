@@ -1,0 +1,57 @@
+{
+  "rhel-i386-server-optional-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6.noarch.rpm"
+  ],
+  "rhel-i386-server-optional-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6.noarch.rpm"
+  ],
+  "rhel-ppc64-server-optional-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6.noarch.rpm"
+  ],
+  "rhel-ppc64-server-optional-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6.noarch.rpm"
+  ],
+  "rhel-s390x-server-optional-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6.noarch.rpm"
+  ],
+  "rhel-s390x-server-optional-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6.noarch.rpm"
+  ],
+  "rhel-x86_64-server-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6_5.1/data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-1.el6_5.1.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6_5.1/data/signed/fd431d51/src/sblim-cim-client2-2.1.3-1.el6_5.1.src.rpm"
+  ],
+  "rhel-x86_64-server-6-rhevh": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/src/sblim-cim-client2-2.1.3-1.el6.src.rpm"
+  ],
+  "rhel-x86_64-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/src/sblim-cim-client2-2.1.3-1.el6.src.rpm"
+  ],
+  "rhel-x86_64-server-optional-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6_5.1/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6_5.1.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6_5.1/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6_5.1.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6_5.1/data/signed/fd431d51/src/sblim-cim-client2-2.1.3-1.el6_5.1.src.rpm"
+  ],
+  "rhel-x86_64-server-optional-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-javadoc-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-manual-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/src/sblim-cim-client2-2.1.3-1.el6.src.rpm"
+  ],
+  "rhel-x86_64-workstation-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6_5.1/data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-1.el6_5.1.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6_5.1/data/signed/fd431d51/src/sblim-cim-client2-2.1.3-1.el6_5.1.src.rpm"
+  ],
+  "rhel-x86_64-workstation-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/noarch/sblim-cim-client2-2.1.3-1.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/sblim-cim-client2/2.1.3/1.el6/data/signed/fd431d51/src/sblim-cim-client2-2.1.3-1.el6.src.rpm"
+  ]
+}

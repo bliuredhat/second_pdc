@@ -1,0 +1,12 @@
+<div class="btn-group">
+  <%= link_to("View Docs",     { :controller => :docs, :action => :show, :id => @errata }, :class=>'btn') %>
+  <%= link_to("Edit Advisory", { :action => :edit, :id => @errata }, :class=>'btn') if @errata.allow_edit? %>
+  <%= block_render 'shared/more_button_menu', :right => true do %>
+    <li><%= link_to("Revision History", { :controller => :docs, :action => :diff_history, :id => @errata }) %></li>
+    <li class="divider"></li>
+    <li><%= link_to("View as HTML", { :controller => :docs, :action => :show, :id => @errata, :nolayout => 1 }) %></li>
+    <li><%= link_to("View as Text", { :action => :show_text, :id => @errata }) %></li>
+    <li><%= link_to("View as XML",  { :action => :show_xml,  :id => @errata }) %></li>
+  <% end %>
+</div>
+

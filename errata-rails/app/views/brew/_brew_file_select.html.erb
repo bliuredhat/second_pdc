@@ -1,0 +1,30 @@
+<% build.brew_files.group_by(&:file_type).sort{|(k1,v1),(k2,v2)| brew_file_type_cmp(k1,k2)}.each do |type, files| %>
+  <thead>
+    <td align="center" colspan="2">
+      <b title="<%= files.first.file_type_description %>"><%= files.first.file_type_display %></b>
+      <%= label_tag(nil, nil, :class => 'file_type_toggle') do %>
+      <%
+        file_type = files.first.file_type_display
+        if @content_types.include?(file_type) && !build.has_docker? || type == 'tar'
+          selected_types = @current_types.nil? ?
+                           (build.has_docker? ? (type == 'tar') : (type == 'rpm')) :
+                           check_type_present?(@current_types, type)
+      %>
+        <%= check_box_tag("builds[#{build.nvr}][product_versions][#{pv.short_name}][file_types][]",
+                          type,
+                          selected_types,
+                          'data-display-type' => file_type,
+                          :class => 'file_type_toggle') %>
+        Include in advisory?
+      <% else %>
+        <i>Cannot include in advisory</i>
+      <% end %>
+    <% end %>
+    </td>
+  </thead>
+  <% files.each do |file| %>
+    <tr class="<%= cycle('bz_even','bz_odd') %>">
+      <td align="center" colspan="2"><%= [file.relpath, file.filename].reject(&:blank?).join('/') %></td>
+    </tr>
+  <% end %>
+<% end %>

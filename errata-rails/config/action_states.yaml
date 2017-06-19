@@ -1,0 +1,84 @@
+--- 
+ON_RHNQA: 
+  qa: 
+  - :controller: rhn
+    :action: push_to_stage
+    :desc: Push to Stage
+UNFILED: 
+  devel:
+  - :controller: bugs
+    :action: change_bugs
+    :desc: Add/Remove Bugs    
+  - :controller: brew
+    :action: list_files
+    :desc: Update Brew Builds
+NEED_RESPIN: 
+  qa: 
+  - :controller: brew
+    :action: list_files
+    :desc: Update Brew Builds
+  devel:
+  - :controller: bugs
+    :action: change_bugs
+    :desc: Add/Remove Bugs
+  - :controller: errata
+    :action: edit
+    :desc: Edit Text    
+  - :controller: brew
+    :action: list_files
+    :desc: Update Brew Builds
+NEW:
+  devel:
+  - :controller: bugs
+    :action: change_bugs
+    :desc: Add/Remove Bugs
+  - :controller: errata
+    :action: edit
+    :desc: Edit Text
+  - :controller: brew
+    :action: request_respin
+    :desc: Request Respin
+QE_READY:
+  devel:
+  - :controller: bugs
+    :action: change_bugs
+    :desc: Add/Remove Bugs
+  - :controller: errata
+    :action: edit
+    :desc: Edit Text
+  - :controller: brew
+    :action: request_respin
+    :desc: Request Respin
+NEED_QE:
+  devel:
+  - :controller: bugs
+    :action: change_bugs
+    :desc: Add/Remove Bugs
+  - :controller: errata
+    :action: edit
+    :desc: Edit Text
+  - :controller: brew
+    :action: request_respin
+    :desc: Request Respin
+NEED_DEV:
+  devel:
+  - :controller: bugs
+    :action: change_bugs
+    :desc: Add/Remove Bugs
+  - :controller: errata
+    :action: edit
+    :desc: Edit Text
+  - :controller: brew
+    :action: request_respin
+    :desc: Request Respin
+ON_QA:
+  devel:
+  - :controller: bugs
+    :action: change_bugs
+    :desc: Add/Remove Bugs
+  - :controller: errata
+    :action: edit
+    :desc: Edit Text
+  - :controller: brew
+    :action: request_respin
+    :desc: Request Respin

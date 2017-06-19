@@ -1,0 +1,20 @@
+<%
+  start_hidden = false
+  row_items = builds.group_by{|m| [m.release_version, m.brew_build]}.values
+  case list_type when :short
+    start_hidden = user_pref(:dont_shorten_builds_list)
+    row_items = row_items[0...Settings.shorten_builds_list_length]
+  when :long
+    start_hidden = !user_pref(:dont_shorten_builds_list)
+  end
+%>
+
+<div class="toggle_long_short" style="<%= hide_style_if(start_hidden) %>">
+  <%= render "shared/bz_table",
+    :headers => build_list_headers_for_mappings(builds),
+    :func => build_list_func_for_mappings(builds),
+    :row_items => row_items
+  %>
+  &nbsp;<%= long_short_toggle_button(list_type, "builds", builds.length, :scroll_tweak=>true) %>
+  <%= more_not_shown_warning_maybe(list_type, 'builds', builds.length - Settings.shorten_builds_list_length) %>
+</div>

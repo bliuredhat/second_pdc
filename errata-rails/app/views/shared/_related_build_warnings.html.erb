@@ -1,0 +1,51 @@
+<% (present_relations,missing_relations) = BrewBuildRelations.for_errata(errata).
+     partition(&:satisfied?)
+
+  # Don't show both a warning and a notice for the same kind of relation.
+  # If there's a missing relation of a certain type, just show the warning.
+  present_relations.reject!{|rel| missing_relations.any?{|mrel| rel.class==mrel.class}}
+
+  if missing_relations.any?
+%>
+
+  <div class="infobox with_icon alert_icon"><div>
+
+    <p><b>WARNING:</b> This advisory may be missing some builds.</p>
+
+    <% missing_relations.
+         group_by{|rel| [rel.slug, rel.related_product_version, rel.general_explanation]}.
+         each do |(slug,pv,general_explanation),rels| %>
+
+      <p>Missing <%= slug %> builds for <b><%= pv.name %></b>:
+      <br>
+      <pre><%= rels.map(&:related_nvr).sort.join("\n") %></pre>
+
+      <%= general_explanation %></p>
+
+    <% end %>
+
+  </div></div>
+
+<%
+  end
+
+  # When related builds are present, show a notice.
+  # It's less detailed since there's likely no action to be taken.
+  if present_relations.any?
+%>
+
+  <div class="infobox with_icon info_icon"><div>
+
+    <% present_relations.
+         group_by{|rel| [rel.slug, rel.product_version, rel.related_product_version, rel.general_explanation]}.
+         each do |(slug,pv,related_pv,general_explanation),rels| %>
+
+      <p>This advisory includes <%= slug %> builds.</p>
+
+      <p><%= general_explanation %></p>
+
+    <% end %>
+
+  </div></div>
+
+<% end %>

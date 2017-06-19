@@ -1,0 +1,5 @@
+<% unless current_user.can_create_autowaive_rule? %>
+  <div class="alert alert-info">
+     You do not have permission to create an autowaive rule.
+  </div>
+<% end %>

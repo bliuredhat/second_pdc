@@ -1,0 +1,6 @@
+<%= page_title_h1 %>
+<%= form_tag :action => 'waivers_by_test' do  %>
+<p><%= collection_select(:test, :id, @tests, :id, :description, {}, :class => 'submit-form-on-change') %> </p>
+<% end %>
+
+<%= render 'waiver_table', :show_test => false %>

@@ -1,0 +1,41 @@
+<%= unassigned_errata_link %>
+
+<% assigned_count = @assigned_errata.length
+   attention_required = @assigned_errata.select { |e| e[1] }%>
+
+<% if( assigned_count > 0) %>
+
+<h2>You are assigned to <%= assigned_count %> errata
+<% unless(attention_required.empty?) %>, <%= attention_required.length %> of which require attention<% end %>:</h2>
+
+
+<%= render(:partial => "shared/bz_table", :locals => {
+:headers => headings_for_my_errata,
+:func => method(:row_for_my_errata),
+:row_items => @assigned_errata,
+}) %>
+
+<br/>
+<div style="float:right;margin-top:4px;" class="small">
+  <%= link_to_bug_list 'View all in Bugzilla', @filed_bugs.map(&:bug), :target => '_blank' %>
+</div>
+<h3>Bugs present in these errata:</h3>
+<%= render(:partial => "shared/bz_table", :locals => {
+:headers => headings_for_filed_bug,
+:func => method(:row_for_filed_bug),
+:row_items => @filed_bugs
+}) %>
+
+<% else %>
+<h2>You are not assigned to any errata</h2>
+<% end %>
+
+<% unless(@user.observed_errata.active.empty?) %>
+<h2>You are observing the following errata:</h2>
+<%= render(:partial => "shared/bz_table", :locals => {
+:headers => headings_for_errata_list,
+:row_items => @user.observed_errata.active,
+:func => method(:row_for_errata_list),
+}) %>
+
+<% end %>

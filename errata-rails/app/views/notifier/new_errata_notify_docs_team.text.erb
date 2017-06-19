@@ -1,0 +1,14 @@
+<%#
+
+  This seems to be unused?
+  TODO: Delete?
+
+%>
+The following errata has been submitted for QA in the errata system.
+  Product:  <%= @errata.product.name %>
+  Advisory: <%= @errata.fulladvisory %>
+  Synopsis: <%= @errata.synopsis %>
+
+Please proof-read this errata and mark it as approved by choosing 'Doc Approve' from the Errata List interface.
+
+<%= url_for :controller => 'docs', :action => 'show', :id => @errata.id ,:only_path => false %>

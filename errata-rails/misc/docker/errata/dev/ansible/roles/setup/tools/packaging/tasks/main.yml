@@ -1,0 +1,21 @@
+# file: roles/packaging/tasks/main.yml
+---
+- name: copy all repos directory to /etc/yum.repos.d
+  copy: src="{{item}}" dest=/etc/yum.repos.d/
+  sudo: yes
+  with_fileglob:
+    - "{{repo_dir}}/*.repo"
+  notify:
+    - yum clean all
+    - yum repolist
+
+- meta: flush_handlers
+
+- name: release | install packaging tools
+  sudo: yes
+  yum: name={{ item }} state=present
+  with_items: packaging_tools
+
+- name:  add user to mock group
+  become: yes
+  user: name={{pkg_user|default('dev')}} groups=mock

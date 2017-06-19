@@ -1,0 +1,32 @@
+--- 
+http_interactions: 
+- request: 
+    method: post
+    uri: https://datasvc.lightblue.dev2.redhat.com/rest/data/find/containerImage
+    body: 
+      encoding: UTF-8
+      string: "{\"objectType\":\"containerImage\",\"version\":\"0.0.6\",\"query\":{\"field\":\"brew.build\",\"op\":\"$in\",\"values\":[\"rhel-tools-docker-7.2-51\"]},\"projection\":[{\"field\":\"repositories\",\"range\":[0,9999],\"projection\":[{\"field\":\"content_advisories\",\"range\":[0,9999],\"projection\":{\"field\":\"id\",\"include\":true}},{\"field\":\"tags\",\"range\":[0,9999],\"projection\":{\"field\":\"name\",\"include\":true}},{\"field\":\"repository\",\"include\":true}]},{\"field\":\"brew.build\",\"include\":true},{\"field\":\"lastUpdateDate\",\"include\":true}]}"
+    headers: 
+      Content-Type: 
+      - application/json
+      Accept: 
+      - application/json
+  response: 
+    status: 
+      code: 403
+      message: Forbidden
+    headers: 
+      Server: 
+      - Apache-Coyote/1.1
+      Content-Type: 
+      - text/html;charset=utf-8
+      Content-Length: 
+      - "1189"
+      Date: 
+      - Thu, 17 Nov 2016 06:37:42 GMT
+    body: 
+      encoding: ASCII-8BIT
+      string: "<html><head><title>JBWEB000065: HTTP Status 403 - JBWEB000015: Access to the requested resource has been denied</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>JBWEB000065: HTTP Status 403 - JBWEB000015: Access to the requested resource has been denied</h1><HR size=\"1\" noshade=\"noshade\"><p><b>JBWEB000309: type</b> JBWEB000067: Status report</p><p><b>JBWEB000068: message</b> <u>JBWEB000015: Access to the requested resource has been denied</u></p><p><b>JBWEB000069: description</b> <u>JBWEB000123: Access to the specified resource has been forbidden.</u></p><HR size=\"1\" noshade=\"noshade\"></body></html>"
+    http_version: 
+  recorded_at: Thu, 17 Nov 2016 06:37:42 GMT
+recorded_with: VCR 3.0.3

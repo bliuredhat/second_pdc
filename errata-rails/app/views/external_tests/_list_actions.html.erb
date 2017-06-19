@@ -1,0 +1,19 @@
+<div class="btn-group">
+  <%= link_to('View', {:action=>:show, :id=>test_run.errata, :test_run_id=>test_run}, :class=>'btn btn-mini', :target=>('_blank' unless @errata)) -%>
+  <% actions = [
+    (content_tag(:li, link_to("View in #{short_name} (#{test_run.external_id})", test_run.run_url, :target=>'_blank')) if test_run.external_id.present?),
+
+    (content_tag(:li, link_to("View in advisory tab (#{test_run.errata.advisory_name})",
+          {:controller=>'external_tests', :action=>:list,:id=>test_run.errata_id,:test_type=>test_run.toplevel_name}, :target => '_blank')) unless @errata),
+
+    (content_tag(:li, '', :class=>'divider') + content_tag(:li, render('refresh_button', :test_run=>test_run)) if test_run.can_update_status?),
+
+    (content_tag(:li, '', :class=>'divider') + content_tag(:li, render('reschedule_button', :test_run=>test_run)) if test_run.reschedule_permitted?(@current_user)),
+
+  ].compact -%>
+  <% unless actions.empty? %>
+    <%= block_render('shared/more_button_menu', :extra_class=>'btn-mini', :right=>true) do %>
+      <%= actions.join.html_safe %>
+    <% end %>
+  <% end %>
+</div>

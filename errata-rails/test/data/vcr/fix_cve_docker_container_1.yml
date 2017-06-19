@@ -1,0 +1,108 @@
+--- 
+http_interactions: 
+- request: 
+    method: post
+    uri: http://pub.qa.engineering.redhat.com/pub/xmlrpc/client/
+    body: 
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" ?><methodCall><methodName>auth.login_password</methodName><params><param><value><string>errata</string></value></param><param><value><string>errata</string></value></param></params></methodCall>
+
+    headers: 
+      User-Agent: 
+      - XMLRPC::Client (Ruby 2.2.2)
+      Content-Type: 
+      - text/xml; charset=utf-8
+      Content-Length: 
+      - "215"
+      Connection: 
+      - close
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 22 Mar 2017 15:20:32 GMT
+      Server: 
+      - Apache
+      Vary: 
+      - Cookie
+      Connection: 
+      - close
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - text/xml
+    body: 
+      encoding: UTF-8
+      string: |
+        <?xml version='1.0'?>
+        <methodResponse>
+        <params>
+        <param>
+        <value><string>egpidedl0nvzd784spdasi2ues2saw47</string></value>
+        </param>
+        </params>
+        </methodResponse>
+
+    http_version: 
+  recorded_at: Wed, 22 Mar 2017 15:20:32 GMT
+- request: 
+    method: post
+    uri: http://pub.qa.engineering.redhat.com/pub/xmlrpc/client/
+    body: 
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" ?><methodCall><methodName>auth.logout</methodName><params/></methodCall>
+
+    headers: 
+      User-Agent: 
+      - XMLRPC::Client (Ruby 2.2.2)
+      Content-Type: 
+      - text/xml; charset=utf-8
+      Content-Length: 
+      - "93"
+      Connection: 
+      - close
+      Cookie: 
+      - sessionid=egpidedl0nvzd784spdasi2ues2saw47
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 22 Mar 2017 15:20:33 GMT
+      Server: 
+      - Apache
+      Vary: 
+      - Cookie
+      Connection: 
+      - close
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - text/xml
+    body: 
+      encoding: UTF-8
+      string: |
+        <?xml version='1.0'?>
+        <methodResponse>
+        <params>
+        <param>
+        <value><nil/></value></param>
+        </params>
+        </methodResponse>
+
+    http_version: 
+  recorded_at: Wed, 22 Mar 2017 15:20:33 GMT
+recorded_with: VCR 3.0.3

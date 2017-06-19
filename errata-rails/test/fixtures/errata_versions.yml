@@ -1,0 +1,5934 @@
+--- 
+errata_version_00043: 
+  cpe: cpe:/o:redhat:enterprise_linux:2.1::as
+  description: "Red Hat Enterprise Linux AS (Advanced Server) version 2.1 "
+  id: 43
+  name: 2.1AS
+  product_id: 16
+  product_version_id: 1
+  rhel_release_id: 1
+  rhel_variant_id: 43
+  rhn_channel_tmpl: redhat-advanced-server-%arch%
+  tps_stream: 'None'
+errata_version_00044: 
+  cpe: cpe:/o:redhat:enterprise_linux:2.1::aw
+  description: Red Hat Linux Advanced Workstation 2.1
+  id: 44
+  name: 2.1AW
+  product_id: 16
+  product_version_id: 1
+  rhel_release_id: 1
+  rhel_variant_id: 44
+  rhn_channel_tmpl: redhat-linux-aw-2.1-IPF
+  tps_stream: 'None'
+errata_version_00046: 
+  cpe: cpe:/o:redhat:enterprise_linux:2.1::es
+  description: Red Hat Enterprise Linux ES version 2.1
+  id: 46
+  name: 2.1ES
+  product_id: 16
+  product_version_id: 1
+  rhel_release_id: 1
+  rhel_variant_id: 46
+  rhn_channel_tmpl: redhat-ent-linux-%arch%-es-2.1
+  tps_stream: 'None'
+errata_version_00055: 
+  cpe: cpe:/o:redhat:enterprise_linux:2.1::ws
+  description: Red Hat Enterprise Linux WS version 2.1
+  id: 55
+  name: 2.1WS
+  product_id: 16
+  product_version_id: 1
+  rhel_release_id: 1
+  rhel_variant_id: 55
+  rhn_channel_tmpl: redhat-ent-linux-%arch%-ws-2.1
+  tps_stream: 'None'
+errata_version_00065: 
+  cpe: cpe:/o:redhat:enterprise_linux:3::ws
+  description: Red Hat Enterprise Linux WS version 3
+  id: 65
+  name: 3WS
+  product_id: 16
+  product_version_id: 2
+  rhel_release_id: 2
+  rhel_variant_id: 65
+  rhn_channel_tmpl: rhel-%arch%-ws-3
+errata_version_00066: 
+  cpe: cpe:/o:redhat:enterprise_linux:3::as
+  description: Red Hat Enterprise Linux AS version 3
+  id: 66
+  name: 3AS
+  product_id: 16
+  product_version_id: 2
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: rhel-%arch%-as-3
+errata_version_00067: 
+  cpe: cpe:/o:redhat:enterprise_linux:3::es
+  description: Red Hat Enterprise Linux ES version 3
+  id: 67
+  name: 3ES
+  product_id: 16
+  product_version_id: 2
+  rhel_release_id: 2
+  rhel_variant_id: 67
+  rhn_channel_tmpl: rhel-%arch%-es-3
+errata_version_00072: 
+  cpe: cpe:/a:redhat:rhel_cluster:3
+  description: Red Hat Cluster Suite 3AS
+  id: 72
+  name: 3AS-CS
+  product_id: 20
+  product_version_id: 9
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: rh-cluster-suite-as-%arch%
+errata_version_00073: 
+  cpe: cpe:/a:redhat:rhel_cluster:3
+  description: Red Hat Cluster Suite 3ES
+  id: 73
+  name: 3ES-CS
+  product_id: 20
+  product_version_id: 9
+  rhel_release_id: 2
+  rhel_variant_id: 67
+  rhn_channel_tmpl: rh-cluster-suite-es-%arch%
+errata_version_00077: 
+  cpe: cpe:/a:redhat:rhel_application_server:1
+  description: Red Hat Application Server 3WS
+  id: 77
+  name: 3WS-RHAPS
+  product_id: 22
+  product_version_id: 6
+  rhel_release_id: 2
+  rhel_variant_id: 65
+  rhn_channel_tmpl: rh-application-server-%arch%
+errata_version_00078: 
+  cpe: cpe:/a:redhat:rhel_extras:3
+  description: Red Hat Enterprise Linux AS version 3 Extras
+  id: 78
+  name: 3AS-LACD
+  product_id: 23
+  product_version_id: 4
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00079: 
+  cpe: cpe:/a:redhat:rhel_extras:3
+  description: Red Hat Enterprise Linux ES version 3 Extras
+  id: 79
+  name: 3ES-LACD
+  product_id: 23
+  product_version_id: 4
+  rhel_release_id: 2
+  rhel_variant_id: 67
+  rhn_channel_tmpl: 
+errata_version_00080: 
+  cpe: cpe:/a:redhat:rhel_extras:3
+  description: Red Hat Enterprise Linux WS version 3 Extras
+  id: 80
+  name: 3WS-LACD
+  product_id: 23
+  product_version_id: 4
+  rhel_release_id: 2
+  rhel_variant_id: 65
+  rhn_channel_tmpl: 
+errata_version_00081: 
+  cpe: cpe:/o:redhat:enterprise_linux:3::desktop
+  description: Red Hat Desktop version 3
+  id: 81
+  name: 3Desktop
+  product_id: 16
+  product_version_id: 2
+  rhel_release_id: 2
+  rhel_variant_id: 81
+  rhn_channel_tmpl: 
+errata_version_00083: 
+  cpe: cpe:/a:redhat:rhel_extras:3
+  description: Red Hat Desktop version 3 Extras
+  id: 83
+  name: 3Desktop-LACD
+  product_id: 23
+  product_version_id: 4
+  rhel_release_id: 2
+  rhel_variant_id: 81
+  rhn_channel_tmpl: 
+errata_version_00084: 
+  cpe: cpe:/a:redhat:rhel_cluster:3
+  description: Red Hat Cluster Suite 3WS
+  id: 84
+  name: 3WS-CS
+  product_id: 20
+  product_version_id: 9
+  rhel_release_id: 2
+  rhel_variant_id: 65
+  rhn_channel_tmpl: 
+errata_version_00085: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:3
+  description: Red Hat Global File System 3AS
+  id: 85
+  name: 3AS-GFS
+  product_id: 24
+  product_version_id: 10
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00086: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:3
+  description: Red Hat Global File System 3ES
+  id: 86
+  name: 3ES-GFS
+  product_id: 24
+  product_version_id: 10
+  rhel_release_id: 2
+  rhel_variant_id: 67
+  rhn_channel_tmpl: 
+errata_version_00087: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:3
+  description: Red Hat Global File System 3WS
+  id: 87
+  name: 3WS-GFS
+  product_id: 24
+  product_version_id: 10
+  rhel_release_id: 2
+  rhel_variant_id: 65
+  rhn_channel_tmpl: 
+errata_version_00088: 
+  cpe: cpe:/a:redhat:rhel_application_server:1
+  description: Red Hat Application Server 3AS
+  id: 88
+  name: 3AS-RHAPS
+  product_id: 22
+  product_version_id: 6
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00089: 
+  cpe: cpe:/a:redhat:rhel_application_server:1
+  description: Red Hat Application Server 3ES
+  id: 89
+  name: 3ES-RHAPS
+  product_id: 22
+  product_version_id: 6
+  rhel_release_id: 2
+  rhel_variant_id: 67
+  rhn_channel_tmpl: 
+errata_version_00091: 
+  cpe: cpe:/o:redhat:enterprise_linux:4::as
+  description: Red Hat Enterprise Linux AS version 4
+  id: 91
+  name: 4AS
+  product_id: 16
+  product_version_id: 3
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00092: 
+  cpe: cpe:/o:redhat:enterprise_linux:4::es
+  description: Red Hat Enterprise Linux ES version 4
+  id: 92
+  name: 4ES
+  product_id: 16
+  product_version_id: 3
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00093: 
+  cpe: cpe:/o:redhat:enterprise_linux:4::ws
+  description: Red Hat Enterprise Linux WS version 4
+  id: 93
+  name: 4WS
+  product_id: 16
+  product_version_id: 3
+  rhel_release_id: 3
+  rhel_variant_id: 93
+  rhn_channel_tmpl: 
+errata_version_00094: 
+  cpe: cpe:/o:redhat:enterprise_linux:4::desktop
+  description: Red Hat Enterprise Linux Desktop version 4
+  id: 94
+  name: 4Desktop
+  product_id: 16
+  product_version_id: 3
+  rhel_release_id: 3
+  rhel_variant_id: 94
+  rhn_channel_tmpl: 
+errata_version_00095: 
+  cpe: 
+  description: Red Hat Hardware Certification version 1.0
+  id: 95
+  name: 3AS-HWCERT1
+  product_id: 27
+  product_version_id: 14
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00103: 
+  cpe: cpe:/a:redhat:rhel_extras:4
+  description: Red Hat Enterprise Linux WS version 4 Extras
+  id: 103
+  name: 4WS-LACD
+  product_id: 23
+  product_version_id: 5
+  rhel_release_id: 3
+  rhel_variant_id: 93
+  rhn_channel_tmpl: 
+errata_version_00104: 
+  cpe: cpe:/a:redhat:rhel_extras:4
+  description: Red Hat Enterprise Linux AS version 4 Extras
+  id: 104
+  name: 4AS-LACD
+  product_id: 23
+  product_version_id: 5
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00105: 
+  cpe: cpe:/a:redhat:rhel_extras:4
+  description: Red Hat Enterprise Linux ES version 4 Extras
+  id: 105
+  name: 4ES-LACD
+  product_id: 23
+  product_version_id: 5
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00106: 
+  cpe: cpe:/a:redhat:rhel_extras:4
+  description: Red Hat Desktop version 4 Extras
+  id: 106
+  name: 4Desktop-LACD
+  product_id: 23
+  product_version_id: 5
+  rhel_release_id: 3
+  rhel_variant_id: 94
+  rhn_channel_tmpl: 
+errata_version_00107: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4
+  description: Red Hat Global File System 4AS
+  id: 107
+  name: 4AS-GFS
+  product_id: 24
+  product_version_id: 11
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00108: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4
+  description: Red Hat Global File System 4ES
+  id: 108
+  name: 4ES-GFS
+  product_id: 24
+  product_version_id: 11
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00109: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4
+  description: Red Hat Global File System 4WS
+  id: 109
+  name: 4WS-GFS
+  product_id: 24
+  product_version_id: 11
+  rhel_release_id: 3
+  rhel_variant_id: 93
+  rhn_channel_tmpl: 
+errata_version_00110: 
+  cpe: cpe:/a:redhat:rhel_cluster:4
+  description: Red Hat Cluster Suite 4WS
+  id: 110
+  name: 4WS-cluster
+  product_id: 20
+  product_version_id: 8
+  rhel_release_id: 3
+  rhel_variant_id: 93
+  rhn_channel_tmpl: 
+errata_version_00111: 
+  cpe: cpe:/a:redhat:rhel_cluster:4
+  description: Red Hat Cluster Suite 4ES
+  id: 111
+  name: 4ES-cluster
+  product_id: 20
+  product_version_id: 8
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00112: 
+  cpe: cpe:/a:redhat:rhel_cluster:4
+  description: Red Hat Cluster Suite 4AS
+  id: 112
+  name: 4AS-cluster
+  product_id: 20
+  product_version_id: 8
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00113: 
+  cpe: cpe:/a:redhat:rhel_application_server:2
+  description: Red Hat Application Server v2 4AS
+  id: 113
+  name: 4AS-RHAPS2
+  product_id: 22
+  product_version_id: 7
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00114: 
+  cpe: cpe:/a:redhat:rhel_application_server:2
+  description: Red Hat Application Server v2 4ES
+  id: 114
+  name: 4ES-RHAPS2
+  product_id: 22
+  product_version_id: 7
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00115: 
+  cpe: cpe:/a:redhat:rhel_application_server:2
+  description: Red Hat Application Server v2 4WS
+  id: 115
+  name: 4WS-RHAPS2
+  product_id: 22
+  product_version_id: 7
+  rhel_release_id: 3
+  rhel_variant_id: 93
+  rhn_channel_tmpl: 
+errata_version_00116: 
+  cpe: cpe:/a:redhat:directory_server:7.1
+  description: Red Hat Directory Server 7.1 (for AS v. 3)
+  id: 116
+  name: 3AS-DirServ
+  product_id: 29
+  product_version_id: 19
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00117: 
+  cpe: cpe:/a:redhat:directory_server:7.1
+  description: Red Hat Directory Server 7.1 (for ES v. 3)
+  id: 117
+  name: 3ES-DirServ
+  product_id: 29
+  product_version_id: 19
+  rhel_release_id: 2
+  rhel_variant_id: 67
+  rhn_channel_tmpl: 
+errata_version_00118: 
+  cpe: cpe:/a:redhat:directory_server:7.1
+  description: RHEL 4 Directory Server AS
+  id: 118
+  name: 4AS-DirServ
+  product_id: 29
+  product_version_id: 20
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00119: 
+  cpe: cpe:/a:redhat:directory_server:7.1
+  description: RHEL 4 Directory Server ES
+  id: 119
+  name: 4ES-DirServ
+  product_id: 29
+  product_version_id: 20
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00120: 
+  cpe: 
+  description: Red Hat Hardware Certification version 2 for RHEL3
+  id: 120
+  name: 3AS-HWCERT2
+  product_id: 27
+  product_version_id: 14
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00121: 
+  cpe: 
+  description: Red Hat Hardware Certification version 2 for RHEL4
+  id: 121
+  name: 4AS-HWCERT2
+  product_id: 27
+  product_version_id: 15
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00122: 
+  cpe: cpe:/a:redhat:rhel_application_stack:1
+  description: Red Hat Application Stack v1 for Enterprise Linux AS (v.4)
+  id: 122
+  name: 4AS-RHWAS
+  product_id: 37
+  product_version_id: 12
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00123: 
+  cpe: cpe:/a:redhat:rhel_application_stack:1
+  description: Red Hat Application Stack v1 for Enterprise Linux ES (v.4)
+  id: 123
+  name: 4ES-RHWAS
+  product_id: 37
+  product_version_id: 12
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00125: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::server
+  description: Red Hat Enterprise Linux (v. 5 server)
+  id: 125
+  name: 5Server
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00126: 
+  cpe: cpe:/a:redhat:rhel_cluster:5
+  description: RHEL Clustering (v. 5 server)
+  id: 126
+  name: 5Server-Cluster
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00127: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5
+  description: RHEL Cluster-Storage (v. 5 server)
+  id: 127
+  name: 5Server-ClusterStorage
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00128: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5::server
+  description: RHEL Virtualization (v. 5 server)
+  id: 128
+  name: 5Server-VT
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00129: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::client
+  description: Red Hat Enterprise Linux Desktop (v. 5 client)
+  id: 129
+  name: 5Client
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00130: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::client_workstation
+  description: RHEL Desktop Workstation (v. 5 client)
+  id: 130
+  name: 5Client-Workstation
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00131: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5::client
+  description: RHEL Desktop Multi OS (v. 5 client)
+  id: 131
+  name: 5Client-VT
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00132: 
+  cpe: cpe:/a:redhat:rhel_productivity:5
+  description: RHEL Optional Productivity Applications (v. 5 server)
+  id: 132
+  name: 5Server-DPAS
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00133: 
+  cpe: cpe:/a:redhat:rhel_extras:5::server
+  description: Red Hat Enterprise Linux Server Supplementary (v. 5)
+  id: 133
+  name: 5Server-Supplementary
+  product_id: 23
+  product_version_id: 17
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00134: 
+  cpe: cpe:/a:redhat:rhel_extras:5::client
+  description: Red Hat Enterprise Linux Desktop Supplementary (v. 5)
+  id: 134
+  name: 5Client-Supplementary
+  product_id: 23
+  product_version_id: 17
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00135: 
+  cpe: cpe:/a:redhat:rhel_developer_suite:3
+  description: Red Hat Developer Suite v.3 (AS v.4)
+  id: 135
+  name: 4AS-DS3
+  product_id: 30
+  product_version_id: 18
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00136: 
+  cpe: cpe:/a:redhat:rhel_developer_suite:3
+  description: Red Hat Developer Suite v.3 (ES v.4)
+  id: 136
+  name: 4ES-DS3
+  product_id: 30
+  product_version_id: 18
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00137: 
+  cpe: cpe:/a:redhat:rhel_developer_suite:3
+  description: Red Hat Developer Suite v.3 (WS v.4)
+  id: 137
+  name: 4WS-DS3
+  product_id: 30
+  product_version_id: 18
+  rhel_release_id: 3
+  rhel_variant_id: 93
+  rhn_channel_tmpl: 
+errata_version_00138: 
+  cpe: 
+  description: RHX (v. 5 Centric CRM)
+  id: 138
+  name: 5Server-RHX-Centric
+  product_id: 39
+  product_version_id: 27
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00139: 
+  cpe: 
+  description: RHX (v. 5 Ground Work Monitor)
+  id: 139
+  name: 5Server-RHX-GroundWork
+  product_id: 39
+  product_version_id: 27
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00141: 
+  cpe: 
+  description: Red Hat Hardware Certification (v. 5 Server)
+  id: 141
+  name: 5Server-RHHC
+  product_id: 27
+  product_version_id: 31
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00153: 
+  cpe: cpe:/a:redhat:network_satellite:5.0:el4
+  description: Red Hat Network Satellite Server 5.0 (RHEL v.4 AS)
+  id: 153
+  name: 4AS-RHNSAT5
+  product_id: 40
+  product_version_id: 33
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00154: 
+  cpe: cpe:/a:redhat:rhx_enterprisedb_advanced_server:7.2
+  description: RHX (v. 5 EnterpriseDB)
+  id: 154
+  name: 5Server-RHX-EnterpriseDB
+  product_id: 39
+  product_version_id: 27
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00155: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:4.2.0::el4
+  description: JBoss Enterprise Application Platform 4.2.0 for RHEL 4 AS
+  id: 155
+  name: 4AS-JBEAP
+  product_id: 41
+  product_version_id: 35
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00156: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:4.2.0::el4
+  description: JBoss Enterprise Application Platform 4.2.0 for RHEL 4 ES
+  id: 156
+  name: 4ES-JBEAP
+  product_id: 41
+  product_version_id: 35
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00157: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:4.2.0::el5
+  description: JBoss Enterprise Application Platform 4.2.0 for RHEL 5 Server
+  id: 157
+  name: 5Server-JBEAP-4.2.0
+  product_id: 41
+  product_version_id: 34
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00158: 
+  cpe: cpe:/a:redhat:rhel_application_stack:2
+  description: Red Hat Application Stack v2 for Enterprise Linux (v.5)
+  id: 158
+  name: 5Server-Stacks
+  product_id: 37
+  product_version_id: 36
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00160: 
+  cpe: cpe:/a:redhat:certificate_system:7.2
+  description: Red Hat Certificate System 7.2 for 4AS
+  id: 160
+  name: 4AS-CERT-7.2
+  product_id: 42
+  product_version_id: 37
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00161: 
+  cpe: cpe:/a:redhat:certificate_system:7.2
+  description: Red Hat Certificate System 7.2 for 4ES
+  id: 161
+  name: 4ES-CERT-7.2
+  product_id: 42
+  product_version_id: 37
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00163: 
+  cpe: cpe:/o:redhat:rhel_eus:4.5::as
+  description: Red Hat Enterprise Linux AS EUS (v. 4.5)
+  id: 163
+  name: 4AS-4.5.z
+  product_id: 16
+  product_version_id: 39
+  rhel_release_id: 10
+  rhel_variant_id: 163
+  rhn_channel_tmpl: 
+errata_version_00164: 
+  cpe: cpe:/o:redhat:rhel_eus:4.5::es
+  description: Red Hat Enterprise Linux ES EUS (v. 4.5)
+  id: 164
+  name: 4ES-4.5.z
+  product_id: 16
+  product_version_id: 39
+  rhel_release_id: 10
+  rhel_variant_id: 164
+  rhn_channel_tmpl: 
+errata_version_00171: 
+  cpe: cpe:/a:redhat:network_satellite:4.0::el4
+  description: Red Hat Network Satellite Server v 4.0 (RHEL v.4 AS)
+  id: 171
+  name: 4AS-RHNSAT4.0
+  product_id: 40
+  product_version_id: 40
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00172: 
+  cpe: cpe:/a:redhat:network_satellite:4.1::el4
+  description: Red Hat Network Satellite Server v 4.1 (RHEL v.4 AS)
+  id: 172
+  name: 4AS-RHNSAT4.1
+  product_id: 40
+  product_version_id: 41
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00173: 
+  cpe: cpe:/a:redhat:network_satellite:4.2::el4
+  description: Red Hat Network Satellite Server v 4.2 (RHEL v.4 AS)
+  id: 173
+  name: 4AS-RHNSAT4.2
+  product_id: 40
+  product_version_id: 42
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00174: 
+  cpe: cpe:/a:redhat:network_satellite:4.0::el3
+  description: Red Hat Network Satellite Server v 4.0 (RHEL v.3 AS)
+  id: 174
+  name: 3AS-RHNSAT4.0
+  product_id: 40
+  product_version_id: 43
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00175: 
+  cpe: cpe:/a:redhat:network_satellite:4.1::el3
+  description: Red Hat Network Satellite Server v 4.1 (RHEL v.3 AS)
+  id: 175
+  name: 3AS-RHNSAT4.1
+  product_id: 40
+  product_version_id: 44
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00176: 
+  cpe: cpe:/a:redhat:network_satellite:4.2::el3
+  description: Red Hat Network Satellite Server v 4.2 (RHEL v.3 AS)
+  id: 176
+  name: 3AS-RHNSAT4.2
+  product_id: 40
+  product_version_id: 45
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00177: 
+  cpe: cpe:/a:redhat:rhel_extras:4.5.z
+  description: Red Hat Enterprise Linux AS version 4.5.z Extras
+  id: 177
+  name: 4AS-4.5.z-LACD
+  product_id: 23
+  product_version_id: 46
+  rhel_release_id: 10
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00178: 
+  cpe: cpe:/a:redhat:rhel_extras:4.5.z
+  description: Red Hat Enterprise Linux ES version 4.5.z Extras
+  id: 178
+  name: 4ES-4.5.z-LACD
+  product_id: 23
+  product_version_id: 46
+  rhel_release_id: 10
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00179: 
+  cpe: cpe:/a:redhat:rhel_cluster:4:update5
+  description: Red Hat Cluster Suite AS version 4.5.z
+  id: 179
+  name: 4AS-4.5.z-cluster
+  product_id: 20
+  product_version_id: 47
+  rhel_release_id: 10
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00180: 
+  cpe: cpe:/a:redhat:rhel_cluster:4:update5
+  description: Red Hat Cluster Suite ES version 4.5.z
+  id: 180
+  name: 4ES-4.5.z-cluster
+  product_id: 20
+  product_version_id: 47
+  rhel_release_id: 10
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00181: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4:update5
+  description: Red Hat Global File System AS version 4.5.z
+  id: 181
+  name: 4AS-4.5.z-GFS
+  product_id: 24
+  product_version_id: 48
+  rhel_release_id: 10
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00182: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4:update5
+  description: Red Hat Global File System ES version 4.5.z
+  id: 182
+  name: 4ES-4.5.z-GFS
+  product_id: 24
+  product_version_id: 48
+  rhel_release_id: 10
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00185: 
+  cpe: cpe:/a:redhat:rhel_cluster:4:update6
+  description: Red Hat Cluster Suite AS version 4.6.z
+  id: 185
+  name: 4AS-4.6.z-cluster
+  product_id: 20
+  product_version_id: 39
+  rhel_release_id: 10
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00187: 
+  cpe: cpe:/a:redhat:certificate_system:7.3
+  description: Red Hat Certificate System 7.3 for 4ES
+  id: 187
+  name: 4ES-CERT-7.3
+  product_id: 42
+  product_version_id: 58
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00188: 
+  cpe: cpe:/a:redhat:certificate_system:7.3
+  description: Red Hat Certificate System 7.3 for 4AS
+  id: 188
+  name: 4AS-CERT-7.3
+  product_id: 42
+  product_version_id: 58
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00189: 
+  cpe: cpe:/a:redhat:directory_server:8::el4
+  description: Red Hat Directory Server 8.0 (for ES v. 4)
+  id: 189
+  name: 4ES-DirServ8
+  product_id: 29
+  product_version_id: 60
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00190: 
+  cpe: cpe:/a:redhat:directory_server:8::el4
+  description: Red Hat Directory Server 8.0 (for AS v. 4)
+  id: 190
+  name: 4AS-DirServ8
+  product_id: 29
+  product_version_id: 60
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00191: 
+  cpe: cpe:/a:redhat:directory_server:8::el5
+  description: Red Hat Directory Server 8 (for RHEL 5 Server)
+  id: 191
+  name: 5Server-RHDirServ-8
+  product_id: 29
+  product_version_id: 61
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00204: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:4.3.0::el4
+  description: JBoss Enterprise Application Platform 4.3.0 for RHEL 4 AS
+  id: 204
+  name: 4AS-JBEAP-4.3.0
+  product_id: 41
+  product_version_id: 63
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00205: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:4.3.0::el4
+  description: JBoss Enterprise Application Platform 4.3.0 for RHEL 4 ES
+  id: 205
+  name: 4ES-JBEAP-4.3.0
+  product_id: 41
+  product_version_id: 63
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00206: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:4.3.0::el5
+  description: JBoss Enterprise Application Platform 4.3.0 for RHEL 5 Server
+  id: 206
+  name: 5Server-JBEAP-4.3.0
+  product_id: 41
+  product_version_id: 64
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00207: 
+  cpe: cpe:/a:redhat:network_satellite:5.1::el4
+  description: Red Hat Network Satellite Server 5.1 (RHEL v.4 AS)
+  id: 207
+  name: 4AS-RHNSAT5.1
+  product_id: 40
+  product_version_id: 65
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00208: 
+  cpe: cpe:/a:redhat:enterprise_ipa:1.0
+  description: Red Hat IPA 1 for RHEL 5 Server
+  id: 208
+  name: 5Server-IPA
+  product_id: 45
+  product_version_id: 66
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00209: 
+  cpe: cpe:/a:redhat:network_proxy:5.0::el4
+  description: Red Hat Network Proxy v 5.0 (RHEL v.4 AS)
+  id: 209
+  name: 4AS-RHNPROXY5.0
+  product_id: 46
+  product_version_id: 67
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00212: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Grid for RHEL-4 AS
+  id: 212
+  name: 4AS-MRG-Grid-1.0
+  product_id: 48
+  product_version_id: 71
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00213: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Grid for RHEL-4 ES
+  id: 213
+  name: 4ES-MRG-Grid-1.0
+  product_id: 48
+  product_version_id: 71
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00216: 
+  cpe: cpe:/a:redhat:hpc_solution:1.0
+  description: Red Hat HPC Solution for RHEL 5 Server
+  id: 216
+  name: 5Server-HPC
+  product_id: 49
+  product_version_id: 72
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00217: 
+  cpe: cpe:/a:redhat:network_proxy:4.2::el4
+  description: Red Hat Network Proxy v 4.2 (RHEL v.4 AS)
+  id: 217
+  name: 4AS-RHNPROXY4.2
+  product_id: 46
+  product_version_id: 73
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00218: 
+  cpe: cpe:/a:redhat:network_proxy:4.2::el3
+  description: Red Hat Network Proxy v 4.2 (RHEL v.3 AS)
+  id: 218
+  name: 3AS-RHNPROXY4.2
+  product_id: 46
+  product_version_id: 74
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00219: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Messaging for RHEL-4 AS
+  id: 219
+  name: "4AS-MRG-Messaging-1.0 "
+  product_id: 48
+  product_version_id: 70
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00220: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Messaging for RHEL-4 ES
+  id: 220
+  name: 4ES-MRG-Messaging-1.0
+  product_id: 48
+  product_version_id: 70
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00221: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Messaging Base for RHEL-4 AS
+  id: 221
+  name: 4AS-MRG-Messaging-Base-1.0
+  product_id: 48
+  product_version_id: 69
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00222: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Messaging Base for RHEL-4 ES
+  id: 222
+  name: 4ES-MRG-Messaging-Base-1.0
+  product_id: 48
+  product_version_id: 69
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00223: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Management for RHEL-4 ES
+  id: 223
+  name: 4ES-MRG-Management-1.0
+  product_id: 48
+  product_version_id: 75
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00224: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Management for RHEL-4 AS
+  id: 224
+  name: 4AS-MRG-Management-1.0
+  product_id: 48
+  product_version_id: 75
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00225: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1::el5
+  description: Red Hat MRG Messaging for RHEL 5 Server
+  id: 225
+  name: 5Server-MRG-Messaging-1.0
+  product_id: 47
+  product_version_id: 68
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00227: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1::el5
+  description: Red Hat MRG Messaging Base for RHEL 5 Server
+  id: 227
+  name: 5Server-MRG-Messaging-Base-1.0
+  product_id: 47
+  product_version_id: 68
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00228: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1::el5
+  description: MRG Management for RHEL 5 Server
+  id: 228
+  name: 5Server-MRG-Management-1.0
+  product_id: 47
+  product_version_id: 68
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00229: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1::el5
+  description: MRG Grid for RHEL 5 Server
+  id: 229
+  name: 5Server-MRG-Grid-1.0
+  product_id: 47
+  product_version_id: 68
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00230: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1::el5
+  description: MRG Realtime for RHEL 5 Server
+  id: 230
+  name: 5Server-MRG-Realtime-1.0
+  product_id: 47
+  product_version_id: 68
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00231: 
+  cpe: cpe:/a:redhat:network_proxy:5.1::el4
+  description: Red Hat Network Proxy v 5.1 (RHEL v.4 AS)
+  id: 231
+  name: 4AS-RHNPROXY5.1
+  product_id: 46
+  product_version_id: 80
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00232: 
+  cpe: cpe:/a:redhat:rhel_cluster:4:update7
+  description: Red Hat Cluster Suite AS version 4.7.z
+  id: 232
+  name: 4AS-4.7.z-cluster
+  product_id: 20
+  product_version_id: 81
+  rhel_release_id: 13
+  rhel_variant_id: 270
+  rhn_channel_tmpl: 
+errata_version_00233: 
+  cpe: cpe:/a:redhat:rhel_cluster:4:update7
+  description: Red Hat Cluster Suite ES version 4.7.z
+  id: 233
+  name: 4ES-4.7.z-cluster
+  product_id: 20
+  product_version_id: 81
+  rhel_release_id: 13
+  rhel_variant_id: 271
+  rhn_channel_tmpl: 
+errata_version_00234: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4:update7
+  description: Red Hat Global File System AS version 4.7.z
+  id: 234
+  name: 4AS-4.7.z-GFS
+  product_id: 24
+  product_version_id: 82
+  rhel_release_id: 13
+  rhel_variant_id: 270
+  rhn_channel_tmpl: 
+errata_version_00235: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4:update7
+  description: Red Hat Global File System ES version 4.7.z
+  id: 235
+  name: 4ES-4.7.z-GFS
+  product_id: 24
+  product_version_id: 82
+  rhel_release_id: 13
+  rhel_variant_id: 271
+  rhn_channel_tmpl: 
+errata_version_00236: 
+  cpe: cpe:/o:redhat:rhel_desktop_multimedia:5::client
+  description: RHEL Multimedia Desktop (v. 5 client)
+  id: 236
+  name: 5Client-Multimedia
+  product_id: 16
+  product_version_id: 16
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00238: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform_feature_patch:4.3.0-fp01::el4
+  description: JBoss Enterprise Application Platform 4.3.0 FP for RHEL 4 AS
+  id: 238
+  name: 4AS-JBEAP-4.3.0-FP
+  product_id: 41
+  product_version_id: 83
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00239: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform_feature_patch:4.3.0-fp01::el4
+  description: JBoss Enterprise Application Platform 4.3.0 FP for RHEL 4 ES
+  id: 239
+  name: 4ES-JBEAP-4.3.0-FP
+  product_id: 41
+  product_version_id: 83
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00240: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform_feature_pack:4.3.0-fp01::el5
+  description: JBoss Enterprise Application Platform 4.3.0 FP for RHEL 5 Server
+  id: 240
+  name: 5Server-JBEAP-4.3.0-FP
+  product_id: 41
+  product_version_id: 88
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00241: 
+  cpe: cpe:/a:redhat:network_satellite:5.2::el4
+  description: Red Hat Network Satellite Server 5.2 (RHEL v.4 AS)
+  id: 241
+  name: 4AS-RHNSAT5.2
+  product_id: 40
+  product_version_id: 91
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00242: 
+  cpe: cpe:/a:redhat:network_satellite:5.2::el5
+  description: Red Hat Network Satellite Server 5.2 (RHEL v.5)
+  id: 242
+  name: 5Server-Satellite
+  product_id: 40
+  product_version_id: 92
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00243: 
+  cpe: cpe:/a:redhat:network_proxy:5.2::el4
+  description: Red Hat Network Proxy v 5.2 (RHEL v.4 AS)
+  id: 243
+  name: 4AS-RHNPROXY5.2
+  product_id: 46
+  product_version_id: 93
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00244: 
+  cpe: cpe:/a:redhat:network_proxy:5.2::el5
+  description: Red Hat Network Proxy v 5.2
+  id: 244
+  name: 5Server-Proxy
+  product_id: 46
+  product_version_id: 94
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00245: 
+  cpe: cpe:/a:redhat:rhel_documentation:5
+  description: Red Hat Documentation (for RHEL v. 5)
+  id: 245
+  name: 5Server-Docs
+  product_id: 52
+  product_version_id: 96
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00246: 
+  cpe: cpe:/a:redhat:rhel_documentation:5
+  description: Red Hat Documentation (for RHEL v. 5)
+  id: 246
+  name: 5Client-Docs
+  product_id: 52
+  product_version_id: 96
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00248: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_server:1::el5
+  description: JBoss Enterprise Web Server 1.0 for RHEL 5 Server
+  id: 248
+  name: 5Server-JBEWS-5.0.0
+  product_id: 53
+  product_version_id: 97
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00249: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_server:1::el4
+  description: JBoss Enterprise Web Server 1.0 for RHEL 4 AS
+  id: 249
+  name: 4AS-JBEWS-5.0.0
+  product_id: 53
+  product_version_id: 98
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00250: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_server:1::el4
+  description: JBoss Enterprise Web Server 1.0 for RHEL 4 ES
+  id: 250
+  name: 4ES-JBEWS-5.0.0
+  product_id: 53
+  product_version_id: 98
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00251: 
+  cpe: cpe:/a:redhat:jboss_web_framework_kit:1::el4
+  description: JBoss Web Framework Kit 5.0.0 for RHEL 4 AS
+  id: 251
+  name: 4AS-JBWFK-5.0.0
+  product_id: 54
+  product_version_id: 100
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00252: 
+  cpe: cpe:/a:redhat:jboss_web_framework_kit:1::el4
+  description: JBoss Web Framework Kit 5.0.0 for RHEL 4 ES
+  id: 252
+  name: 4ES-JBWFK-5.0.0
+  product_id: 54
+  product_version_id: 100
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00253: 
+  cpe: cpe:/a:redhat:jboss_web_framework_kit:1::el5
+  description: JBoss Web Framework Kit 1.0.0 for RHEL 5 Server
+  id: 253
+  name: 5Server-JBWFK-1.0.0
+  product_id: 54
+  product_version_id: 101
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00254: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1::el5
+  description: MRG Grid Execute Node for RHEL 5 Server
+  id: 254
+  name: 5Server-MRG-Grid-Execute-Node-1.0
+  product_id: 47
+  product_version_id: 68
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00255: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Grid Execute Node for RHEL-4 AS
+  id: 255
+  name: 4AS-MRG-Grid-Execute-Node-1.0
+  product_id: 48
+  product_version_id: 102
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00256: 
+  cpe: cpe:/a:redhat:enterprise_mrg:1.0::el4
+  description: Red Hat MRG Grid Execute Node for RHEL-4 ES
+  id: 256
+  name: 4ES-MRG-Grid-Execute-Node-1.0
+  product_id: 48
+  product_version_id: 102
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00257: 
+  cpe: cpe:/o:redhat:rhel_eus:5.2
+  description: Red Hat Enterprise Linux EUS (v. 5.2 server)
+  id: 257
+  name: 5Server-5.2.Z
+  product_id: 16
+  product_version_id: 103
+  rhel_release_id: 11
+  rhel_variant_id: 257
+  rhn_channel_tmpl: 
+errata_version_00258: 
+  cpe: cpe:/a:redhat:network_proxy:3.7::el4
+  description: Red Hat Network Satellite Server v 3.7 (RHEL v.4 AS)
+  id: 258
+  name: 4AS-RHNSAT3.7
+  product_id: 40
+  product_version_id: 108
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00259: 
+  cpe: cpe:/a:redhat:network_satellite:3.6::el2.1
+  description: Red Hat Network Satellite Server v 3.6 (RHEL v.2.1 AS)
+  id: 259
+  name: 2.1AS-RHNSAT3.6
+  product_id: 40
+  product_version_id: 106
+  rhel_release_id: 1
+  rhel_variant_id: 43
+  rhn_channel_tmpl: 
+errata_version_00260: 
+  cpe: cpe:/a:redhat:network_satellite:3.7::el2.1
+  description: Red Hat Network Satellite Server v 3.7 (RHEL v.2.1 AS)
+  id: 260
+  name: 2.1AS-RHNSAT3.7
+  product_id: 40
+  product_version_id: 107
+  rhel_release_id: 1
+  rhel_variant_id: 43
+  rhn_channel_tmpl: 
+errata_version_00261: 
+  cpe: cpe:/a:redhat:network_satellite:3.6::el3
+  description: Red Hat Network Satellite Server v 3.6 (RHEL v.3 AS)
+  id: 261
+  name: 3AS-RHNSAT3.6
+  product_id: 40
+  product_version_id: 104
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00262: 
+  cpe: cpe:/a:redhat:network_satellite:3.7::el3
+  description: Red Hat Network Satellite Server v 3.7 (RHEL v.3 AS)
+  id: 262
+  name: 3AS-RHNSAT3.7
+  product_id: 40
+  product_version_id: 105
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00263: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::hypervisor
+  description: Red Hat Enterprise Virtualization Hypervisor 5
+  id: 263
+  name: 5Server-RHEV-Hypervisor-2
+  product_id: 55
+  product_version_id: 109
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00264: 
+  cpe: cpe:/a:redhat:enterprise_linux:5::hypervisor
+  description: RHEV Agents (VDSM)
+  id: 264
+  name: 5Server-RHEV-Agent
+  product_id: 55
+  product_version_id: 109
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00265: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::hypervisor
+  description: RHEV Hypervisor Development Packages
+  id: 265
+  name: 5Server-RHEV-Hypervisor-DevKit-2
+  product_id: 55
+  product_version_id: 109
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00266: 
+  cpe: cpe:/a:redhat:rhel_extras_sap:5
+  description: RHEL 5 Server for SAP
+  id: 266
+  name: 5Server-SAP
+  product_id: 56
+  product_version_id: 110
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00267: 
+  cpe: cpe:/a:redhat:rhel_cluster:5:update2:server
+  description: RHEL Clustering (v. 5.2.Z server)
+  id: 267
+  name: 5Server-Cluster-5.2.Z
+  product_id: 16
+  product_version_id: 103
+  rhel_release_id: 11
+  rhel_variant_id: 257
+  rhn_channel_tmpl: 
+errata_version_00268: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5:update2:server
+  description: RHEL Cluster-Storage (v. 5.2.Z server)
+  id: 268
+  name: 5Server-ClusterStorage-5.2.Z
+  product_id: 16
+  product_version_id: 103
+  rhel_release_id: 11
+  rhel_variant_id: 257
+  rhn_channel_tmpl: 
+errata_version_00269: 
+  cpe: cpe:/a:redhat:rhel_scalefs:5::server
+  description: RHEL XFS (v. 5 server)
+  id: 269
+  name: 5Server-XFS
+  product_id: 57
+  product_version_id: 111
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00270: 
+  cpe: cpe:/o:redhat:rhel_eus:4.7::as
+  description: Red Hat Enterprise Linux AS EUS (v. 4.7)
+  id: 270
+  name: 4AS-4.7.z
+  product_id: 16
+  product_version_id: 112
+  rhel_release_id: 13
+  rhel_variant_id: 270
+  rhn_channel_tmpl: 
+errata_version_00271: 
+  cpe: cpe:/o:redhat:rhel_eus:4.7::es
+  description: Red Hat Enterprise Linux ES EUS (v. 4.7)
+  id: 271
+  name: 4ES-4.7.z
+  product_id: 16
+  product_version_id: 112
+  rhel_release_id: 13
+  rhel_variant_id: 271
+  rhn_channel_tmpl: 
+errata_version_00272: 
+  cpe: cpe:/a:redhat:rhel_cluster:4:update8
+  description: Red Hat Cluster Suite AS version 4.8.z
+  id: 272
+  name: 4AS-4.8.z-cluster
+  product_id: 20
+  product_version_id: 113
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00273: 
+  cpe: cpe:/a:redhat:rhel_cluster:4:update8
+  description: Red Hat Cluster Suite ES version 4.8.z
+  id: 273
+  name: 4ES-4.8.z-cluster
+  product_id: 20
+  product_version_id: 113
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00274: 
+  cpe: cpe:/a:redhat:rhel_extras:4.7.z
+  description: Red Hat Enterprise Linux AS version 4.7.z Extras
+  id: 274
+  name: 4AS-4.7.z-LACD
+  product_id: 23
+  product_version_id: 114
+  rhel_release_id: 13
+  rhel_variant_id: 270
+  rhn_channel_tmpl: 
+errata_version_00275: 
+  cpe: cpe:/a:redhat:rhel_extras:4.7.z
+  description: Red Hat Enterprise Linux ES version 4.7.z Extras
+  id: 275
+  name: 4ES-4.7.z-LACD
+  product_id: 23
+  product_version_id: 114
+  rhel_release_id: 13
+  rhel_variant_id: 271
+  rhn_channel_tmpl: 
+errata_version_00278: 
+  cpe: ""
+  description: Red Hat Software Test Suite (v. 5 Server)
+  id: 278
+  name: 5Server-STS
+  product_id: 58
+  product_version_id: 116
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00280: 
+  cpe: cpe:/a:redhat:certificate_system:8::el5
+  description: Red Hat Certificate System 8
+  id: 280
+  name: 5Server-RHCertSystem
+  product_id: 42
+  product_version_id: 122
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00281: 
+  cpe: cpe:/a:redhat:rhel_extras_sap:4
+  description: RHEL 4 AS for SAP
+  id: 281
+  name: 4AS-SAP
+  product_id: 56
+  product_version_id: 123
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00282: 
+  cpe: cpe:/a:redhat:rhel_scalefs:5::client
+  description: RHEL XFS (v. 5 client)
+  id: 282
+  name: 5Client-XFS
+  product_id: 57
+  product_version_id: 111
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00283: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4:update8
+  description: Red Hat Global File System ES version 4.8.z
+  id: 283
+  name: 4ES-4.8.z-GFS
+  product_id: 24
+  product_version_id: 124
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00284: 
+  cpe: cpe:/a:redhat:rhel_global_file_system:4:update8
+  description: Red Hat Global File System AS version 4.8.z
+  id: 284
+  name: 4AS-4.8.z-GFS
+  product_id: 24
+  product_version_id: 124
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00285: 
+  cpe: cpe:/a:redhat:rhel_documentation:5
+  description: Red Hat Documentation for the Web (for RHEL v. 5)
+  id: 285
+  name: 5Server-Docs-Web
+  product_id: 52
+  product_version_id: 96
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00286: 
+  cpe: cpe:/a:redhat:rhel_documentation:5
+  description: Red Hat Documentation for the Web (for RHEL v. 5)
+  id: 286
+  name: 5Client-Docs-Web
+  product_id: 52
+  product_version_id: 96
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00287: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:5
+  description: RHN Tools (v. 5 Server)
+  id: 287
+  name: 5Server-RHNTools
+  product_id: 60
+  product_version_id: 125
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00288: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:5
+  description: RHN Tools (v. 5 Client)
+  id: 288
+  name: 5Client-RHNTools
+  product_id: 60
+  product_version_id: 125
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00289: 
+  cpe: cpe:/a:redhat:network_satellite:5.3::el5
+  description: Red Hat Network Satellite Server 5.3 (RHEL v.5)
+  id: 289
+  name: 5Server-Satellite53
+  product_id: 40
+  product_version_id: 117
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00291: 
+  cpe: cpe:/a:redhat:network_satellite:5.3::el4
+  description: Red Hat Network Satellite Server 5.3 (RHEL v.4)
+  id: 291
+  name: 4AS-RHNSAT5.3
+  product_id: 40
+  product_version_id: 118
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00292: 
+  cpe: cpe:/a:redhat:network_proxy:5.3::el5
+  description: Red Hat Network Proxy 5.3 (RHEL v.5)
+  id: 292
+  name: 5Server-RHNProxy53
+  product_id: 46
+  product_version_id: 120
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00293: 
+  cpe: cpe:/a:redhat:network_proxy:5.3::el4
+  description: Red Hat Network Proxy v 5.3 (RHEL v.4 AS)
+  id: 293
+  name: 4AS-RHNPROXY5.3
+  product_id: 46
+  product_version_id: 119
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00294: 
+  cpe: ""
+  description: RHN Tools (v. 2.1 AS)
+  id: 294
+  name: 2.1AS-RHNTools
+  product_id: 60
+  product_version_id: 126
+  rhel_release_id: 1
+  rhel_variant_id: 43
+  rhn_channel_tmpl: 
+errata_version_00295: 
+  cpe: ""
+  description: RHN Tools (v. 2.1 AW)
+  id: 295
+  name: 2.1AW-RHNTools
+  product_id: 60
+  product_version_id: 126
+  rhel_release_id: 1
+  rhel_variant_id: 44
+  rhn_channel_tmpl: 
+errata_version_00296: 
+  cpe: ""
+  description: RHN Tools (v. 2.1 ES)
+  id: 296
+  name: 2.1ES-RHNTools
+  product_id: 60
+  product_version_id: 126
+  rhel_release_id: 1
+  rhel_variant_id: 46
+  rhn_channel_tmpl: 
+errata_version_00297: 
+  cpe: ""
+  description: RHN Tools (v. 2.1 WS)
+  id: 297
+  name: 2.1WS-RHNTools
+  product_id: 60
+  product_version_id: 126
+  rhel_release_id: 1
+  rhel_variant_id: 55
+  rhn_channel_tmpl: 
+errata_version_00298: 
+  cpe: ""
+  description: RHN Tools (v. 3 AS)
+  id: 298
+  name: 3AS-RHNTools
+  product_id: 60
+  product_version_id: 127
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00299: 
+  cpe: ""
+  description: RHN Tools (v. 3 ES)
+  id: 299
+  name: 3ES-RHNTools
+  product_id: 60
+  product_version_id: 127
+  rhel_release_id: 2
+  rhel_variant_id: 67
+  rhn_channel_tmpl: 
+errata_version_00300: 
+  cpe: ""
+  description: RHN Tools (v. 3 WS)
+  id: 300
+  name: 3WS-RHNTools
+  product_id: 60
+  product_version_id: 127
+  rhel_release_id: 2
+  rhel_variant_id: 65
+  rhn_channel_tmpl: 
+errata_version_00301: 
+  cpe: ""
+  description: RHN Tools (v. 3 Desktop)
+  id: 301
+  name: 3Desktop-RHNTools
+  product_id: 60
+  product_version_id: 127
+  rhel_release_id: 2
+  rhel_variant_id: 81
+  rhn_channel_tmpl: 
+errata_version_00302: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:4
+  description: RHN Tools (v. 4 AS)
+  id: 302
+  name: 4AS-RHNTools
+  product_id: 60
+  product_version_id: 128
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00303: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:4
+  description: RHN Tools (v. 4 ES)
+  id: 303
+  name: 4ES-RHNTools
+  product_id: 60
+  product_version_id: 128
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00304: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:4
+  description: RHN Tools (v. 4 WS)
+  id: 304
+  name: 4WS-RHNTools
+  product_id: 60
+  product_version_id: 128
+  rhel_release_id: 3
+  rhel_variant_id: 93
+  rhn_channel_tmpl: 
+errata_version_00305: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:4
+  description: RHN Tools (v. 4 Desktop)
+  id: 305
+  name: 4Desktop-RHNTools
+  product_id: 60
+  product_version_id: 128
+  rhel_release_id: 3
+  rhel_variant_id: 94
+  rhn_channel_tmpl: 
+errata_version_00306: 
+  cpe: cpe:/a:redhat:rhel_sjis:5
+  description: SJIS for RHEL 5 Server
+  id: 306
+  name: 5Server-SJIS
+  product_id: 61
+  product_version_id: 130
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00307: 
+  cpe: ""
+  description: S-JIS for RHEL 4 AS
+  id: 307
+  name: 4AS-SJIS
+  product_id: 61
+  product_version_id: 129
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00308: 
+  cpe: ""
+  description: S-JIS for RHEL 4 ES
+  id: 308
+  name: 4ES-SJIS
+  product_id: 61
+  product_version_id: 129
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00309: 
+  cpe: cpe:/a:redhat:rhev_manager:2
+  description: RHEV-M 2
+  id: 309
+  name: 5Server-RHEV-Manager-2
+  product_id: 55
+  product_version_id: 109
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00310: 
+  cpe: cpe:/o:redhat:rhel_eus:5.3
+  description: Red Hat Enterprise Linux EUS (v. 5.3 server)
+  id: 310
+  name: 5Server-5.3.Z
+  product_id: 16
+  product_version_id: 131
+  rhel_release_id: 12
+  rhel_variant_id: 310
+  rhn_channel_tmpl: 
+errata_version_00311: 
+  cpe: cpe:/a:redhat:rhel_cluster:5:update3:server
+  description: RHEL Clustering (v. 5.3.Z server)
+  id: 311
+  name: 5Server-Cluster-5.3.Z
+  product_id: 16
+  product_version_id: 131
+  rhel_release_id: 12
+  rhel_variant_id: 310
+  rhn_channel_tmpl: 
+errata_version_00312: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5:update3:server
+  description: RHEL Cluster-Storage (v. 5.3.Z server)
+  id: 312
+  name: 5Server-ClusterStorage-5.3.Z
+  product_id: 16
+  product_version_id: 131
+  rhel_release_id: 12
+  rhel_variant_id: 310
+  rhn_channel_tmpl: 
+errata_version_00313: 
+  cpe: cpe:/o:redhat:rhel_eus:5.4
+  description: Red Hat Enterprise Linux EUS (v. 5.4 server)
+  id: 313
+  name: 5Server-5.4.Z
+  product_id: 16
+  product_version_id: 132
+  rhel_release_id: 14
+  rhel_variant_id: 313
+  rhn_channel_tmpl: 
+errata_version_00314: 
+  cpe: cpe:/a:redhat:rhel_cluster:5:update4:server
+  description: RHEL Clustering (v. 5.4.Z server)
+  id: 314
+  name: 5Server-Cluster-5.4.Z
+  product_id: 16
+  product_version_id: 132
+  rhel_release_id: 14
+  rhel_variant_id: 313
+  rhn_channel_tmpl: 
+errata_version_00315: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5:update4:server
+  description: RHEL Cluster-Storage (v. 5.4.Z server)
+  id: 315
+  name: 5Server-ClusterStorage-5.4.Z
+  product_id: 16
+  product_version_id: 132
+  rhel_release_id: 14
+  rhel_variant_id: 313
+  rhn_channel_tmpl: 
+errata_version_00316: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5:update2:server
+  description: RHEL VT (v. 5.2.Z server)
+  id: 316
+  name: 5Server-VT-5.2.Z
+  product_id: 16
+  product_version_id: 103
+  rhel_release_id: 11
+  rhel_variant_id: 257
+  rhn_channel_tmpl: 
+errata_version_00317: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5:update3:server
+  description: RHEL VT (v. 5.3.Z server)
+  id: 317
+  name: 5Server-VT-5.3.Z
+  product_id: 16
+  product_version_id: 131
+  rhel_release_id: 12
+  rhel_variant_id: 310
+  rhn_channel_tmpl: 
+errata_version_00318: 
+  cpe: cpe:/a:redhat:network_proxy:4.0::el3
+  description: Red Hat Network Proxy v 4.0 (RHEL v.3 AS)
+  id: 318
+  name: 3AS-RHNPROXY4.0
+  product_id: 46
+  product_version_id: 133
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00319: 
+  cpe: cpe:/a:redhat:network_proxy:4.1::el3
+  description: Red Hat Network Proxy v 4.1 (RHEL v.3 AS)
+  id: 319
+  name: 3AS-RHNPROXY4.1
+  product_id: 46
+  product_version_id: 134
+  rhel_release_id: 2
+  rhel_variant_id: 66
+  rhn_channel_tmpl: 
+errata_version_00320: 
+  cpe: cpe:/a:redhat:network_proxy:4.0::el4
+  description: Red Hat Network Proxy v 4.0 (RHEL v.4 AS)
+  id: 320
+  name: 4AS-RHNPROXY4.0
+  product_id: 46
+  product_version_id: 135
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00321: 
+  cpe: cpe:/a:redhat:network_proxy:4.1::el4
+  description: Red Hat Network Proxy v 4.1 (RHEL v.4 AS)
+  id: 321
+  name: 4AS-RHNPROXY4.1
+  product_id: 46
+  product_version_id: 136
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00322: 
+  cpe: cpe:/a:redhat:rhel_extras:5
+  description: RHEL Supplementary (v. 5.2.Z server)
+  id: 322
+  name: 5Server-Supplementary-5.2.Z
+  product_id: 23
+  product_version_id: 137
+  rhel_release_id: 11
+  rhel_variant_id: 257
+  rhn_channel_tmpl: 
+errata_version_00323: 
+  cpe: cpe:/a:redhat:rhel_extras:5
+  description: RHEL Supplementary (v. 5.3.Z server)
+  id: 323
+  name: 5Server-Supplementary-5.3.Z
+  product_id: 23
+  product_version_id: 138
+  rhel_release_id: 12
+  rhel_variant_id: 310
+  rhn_channel_tmpl: 
+errata_version_00324: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:5::el4
+  description: JBoss Enterprise Application Platform 5 for RHEL 4 AS
+  id: 324
+  name: 4AS-JBEAP-5
+  product_id: 41
+  product_version_id: 139
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00325: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:5::el4
+  description: JBoss Enterprise Application Platform 5 for RHEL 4 ES
+  id: 325
+  name: 4ES-JBEAP-5
+  product_id: 41
+  product_version_id: 139
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00326: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:5::el5
+  description: JBoss Enterprise Application Platform 5 for RHEL 5 Server
+  id: 326
+  name: 5Server-JBEAP-5
+  product_id: 41
+  product_version_id: 140
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00327: 
+  cpe: cpe:/a:redhat:rhel_extras:5
+  description: RHEL Supplementary (v. 5.4.Z server)
+  id: 327
+  name: 5Server-Supplementary-5.4.Z
+  product_id: 23
+  product_version_id: 141
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00328: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5:update4:server
+  description: RHEL VT (v. 5.4.Z server)
+  id: 328
+  name: 5Server-VT-5.4.Z
+  product_id: 16
+  product_version_id: 132
+  rhel_release_id: 14
+  rhel_variant_id: 313
+  rhn_channel_tmpl: 
+errata_version_00329: 
+  cpe: ""
+  description: RHN Tools (AS 4.7.z)
+  id: 329
+  name: 4AS-RHNTools-4.7.z
+  product_id: 60
+  product_version_id: 142
+  rhel_release_id: 13
+  rhel_variant_id: 270
+  rhn_channel_tmpl: 
+errata_version_00330: 
+  cpe: ""
+  description: RHN Tools (ES 4.7.z)
+  id: 330
+  name: 4ES-RHNTools-4.7.z
+  product_id: 60
+  product_version_id: 142
+  rhel_release_id: 13
+  rhel_variant_id: 271
+  rhn_channel_tmpl: 
+errata_version_00331: 
+  cpe: ""
+  description: RHN Tools (v. 5.3.z Server)
+  id: 331
+  name: 5Server-RHNTools-5.3.z
+  product_id: 60
+  product_version_id: 143
+  rhel_release_id: 12
+  rhel_variant_id: 310
+  rhn_channel_tmpl: 
+errata_version_00332: 
+  cpe: ""
+  description: RHN Tools (v. 5.4.z Server)
+  id: 332
+  name: 5Server-RHNTools-5.4.z
+  product_id: 60
+  product_version_id: 144
+  rhel_release_id: 14
+  rhel_variant_id: 313
+  rhn_channel_tmpl: 
+errata_version_00333: 
+  cpe: cpe:/a:redhat:rhev_v2v:2
+  description: RHEV Virt-To-Virt Conversion Tool
+  id: 333
+  name: 5Server-RHEV-V2V
+  product_id: 55
+  product_version_id: 109
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00334: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_platform:5::el4
+  description: JBoss Enterprise Web Platform 5 for RHEL 4 AS
+  id: 334
+  name: 4AS-JBEWP-5
+  product_id: 62
+  product_version_id: 145
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00335: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_platform:5::el4
+  description: JBoss Enterprise Web Platform 5 for RHEL 4 ES
+  id: 335
+  name: 4ES-JBEWP-5
+  product_id: 62
+  product_version_id: 145
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00336: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_platform:5::el5
+  description: JBoss Enterprise Web Platform 5 for RHEL 5 Server
+  id: 336
+  name: 5Server-JBEWP-5
+  product_id: 62
+  product_version_id: 146
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00337: 
+  cpe: cpe:/a:redhat:network_proxy:5.4::el5
+  description: Red Hat Network Proxy 5.4 (RHEL v.5)
+  id: 337
+  name: 5Server-RHNProxy54
+  product_id: 46
+  product_version_id: 147
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00338: 
+  cpe: cpe:/a:redhat:network_satellite:5.4::el5
+  description: Red Hat Network Satellite Server 5.4 (RHEL v.5)
+  id: 338
+  name: 5Server-Satellite54
+  product_id: 40
+  product_version_id: 148
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00339: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Server Optional (v. 6)
+  id: 339
+  name: 6Server-optional
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00340: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Server (v. 6)
+  id: 340
+  name: 6Server
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00341: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  description: Red Hat Enterprise Linux Desktop Optional (v. 6)
+  id: 341
+  name: 6Client-optional
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 345
+  rhn_channel_tmpl: 
+errata_version_00342: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Workstation Optional (v. 6)
+  id: 342
+  name: 6Workstation-optional
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 348
+  rhn_channel_tmpl: 
+errata_version_00344: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  description: Red Hat Enterprise Linux HPC Node (v. 6)
+  id: 344
+  name: 6ComputeNode
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 344
+  rhn_channel_tmpl: 
+errata_version_00345: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  description: Red Hat Enterprise Linux Desktop (v. 6)
+  id: 345
+  name: 6Client
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 345
+  rhn_channel_tmpl: 
+errata_version_00347: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  description: Red Hat Enterprise Linux HPC Node Optional (v. 6)
+  id: 347
+  name: 6ComputeNode-optional
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 344
+  rhn_channel_tmpl: 
+errata_version_00348: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Workstation (v. 6)
+  id: 348
+  name: 6Workstation
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 348
+  rhn_channel_tmpl: 
+errata_version_00350: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Workstation Supplementary (v. 6)
+  id: 350
+  name: 6Workstation-Supplementary
+  product_id: 23
+  product_version_id: 150
+  rhel_release_id: 15
+  rhel_variant_id: 348
+  rhn_channel_tmpl: 
+errata_version_00351: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Desktop Supplementary (v. 6)
+  id: 351
+  name: 6Client-Supplementary
+  product_id: 23
+  product_version_id: 150
+  rhel_release_id: 15
+  rhel_variant_id: 345
+  rhn_channel_tmpl: 
+errata_version_00352: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux High Availability (v. 6)
+  id: 352
+  name: 6Server-HighAvailability
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00353: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Server Supplementary (v. 6)
+  id: 353
+  name: 6Server-Supplementary
+  product_id: 23
+  product_version_id: 150
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00354: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 354
+  name: 6Server-ScalableFileSystem
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00355: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Resilient Storage (v. 6)
+  id: 355
+  name: 6Server-ResilientStorage
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00356: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux HPC Node Supplementary (v. 6)
+  id: 356
+  name: 6ComputeNode-Supplementary
+  product_id: 23
+  product_version_id: 150
+  rhel_release_id: 15
+  rhel_variant_id: 344
+  rhn_channel_tmpl: 
+errata_version_00357: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Load Balancer (v. 6)
+  id: 357
+  name: 6Server-LoadBalancer
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00358: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 358
+  name: 6Workstation-ScalableFileSystem
+  product_id: 16
+  product_version_id: 149
+  rhel_release_id: 15
+  rhel_variant_id: 348
+  rhn_channel_tmpl: 
+errata_version_00359: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:6
+  description: RHN Tools (v. 6 Server)
+  id: 359
+  name: 6Server-RHNTools
+  product_id: 60
+  product_version_id: 151
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00360: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:6
+  description: RHN Tools (v. 6 ComputeNode)
+  id: 360
+  name: 6ComputeNode-RHNTools
+  product_id: 60
+  product_version_id: 151
+  rhel_release_id: 15
+  rhel_variant_id: 344
+  rhn_channel_tmpl: 
+errata_version_00361: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:6
+  description: RHN Tools (v. 6 Client)
+  id: 361
+  name: 6Client-RHNTools
+  product_id: 60
+  product_version_id: 151
+  rhel_release_id: 15
+  rhel_variant_id: 345
+  rhn_channel_tmpl: 
+errata_version_00363: 
+  cpe: cpe:/a:redhat:rhel_rhn_tools:6
+  description: RHN Tools (v. 6 Workstation)
+  id: 363
+  name: 6Workstation-RHNTools
+  product_id: 60
+  product_version_id: 151
+  rhel_release_id: 15
+  rhel_variant_id: 348
+  rhn_channel_tmpl: 
+errata_version_00364: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::hypervisor
+  description: RHEV Hypervisor for RHEL-5
+  id: 364
+  name: 5Server-RHEV-Hypervisor
+  product_id: 55
+  product_version_id: 152
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00365: 
+  cpe: cpe:/a:redhat:enterprise_linux:5::hypervisor
+  description: RHEV Agents for RHEL (vdsm)
+  id: 365
+  name: 5Server-RHEV-Agents
+  product_id: 55
+  product_version_id: 152
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00366: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::hypervisor
+  description: RHEV Hypervisor Development Kit
+  id: 366
+  name: 5Server-RHEV-H-DevelopmentKit
+  product_id: 55
+  product_version_id: 152
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00367: 
+  cpe: cpe:/a:redhat:rhev_v2v:2
+  description: RHEV Virt to Virt Conversion Tools
+  id: 367
+  name: 5Server-RHEV-Virt2Virt
+  product_id: 55
+  product_version_id: 152
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00368: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::hypervisor
+  description: RHEV Hypervisor for RHEL-6
+  id: 368
+  name: 6Server-RHEV-Hypervisor
+  product_id: 55
+  product_version_id: 153
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00369: 
+  cpe: cpe:/a:redhat:enterprise_linux:6::hypervisor
+  description: RHEV Agents (vdsm)
+  id: 369
+  name: 6Server-RHEV-Agents
+  product_id: 55
+  product_version_id: 153
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00370: 
+  cpe: cpe:/a:redhat:enterprise_linux:6::hypervisor
+  description: RHEV Hypervisor Development Kit
+  id: 370
+  name: 6Server-RHEV-H-DevelopmentKit
+  product_id: 55
+  product_version_id: 153
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00371: 
+  cpe: ""
+  description: RHEV-M for Desktops
+  id: 371
+  name: 5Server-RHEV-D
+  product_id: 55
+  product_version_id: 154
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00372: 
+  cpe: ""
+  description: RHEV-M for Servers
+  id: 372
+  name: 5Server-RHEV-S
+  product_id: 55
+  product_version_id: 154
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00374: 
+  cpe: cpe:/a:redhat:rhev_manager:3
+  description: RHEV-M for Servers
+  id: 374
+  name: 6Server-RHEV-S
+  product_id: 55
+  product_version_id: 155
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00379: 
+  cpe: ""
+  description: Red Hat Hardware Certification (v. 6 Server)
+  id: 379
+  name: 6Server-RHHC
+  product_id: 27
+  product_version_id: 156
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00380: 
+  cpe: cpe:/a:redhat:rhel_extras_sap:6
+  description: Red Hat Enterprise Linux SAP (v. 6)
+  id: 380
+  name: 6Server-SAP-obsolete
+  product_id: 56
+  product_version_id: 157
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00381: 
+  cpe: cpe:/a:redhat:rhel_extras_hpn:6
+  description: Red Hat Enterprise Linux High Performance Networking (v. 6)
+  id: 381
+  name: 6Server-HPN-obsolete
+  product_id: 63
+  product_version_id: 158
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00382: 
+  cpe: cpe:/a:redhat:enterprise_linux:6
+  description: Red Hat Enterprise Linux V2VWin (v. 6)
+  id: 382
+  name: 6Server-V2VWin
+  product_id: 64
+  product_version_id: 159
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00383: 
+  cpe: ""
+  description: JBEM
+  id: 383
+  name: 5Server-JBEM
+  product_id: 65
+  product_version_id: 160
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00384: 
+  cpe: cpe:/a:redhat:enterprise_linux:5::hypervisor
+  description: rhev agents (not vdsm)
+  id: 384
+  name: 5Server-RHEV-Virt-Agent
+  product_id: 55
+  product_version_id: 152
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00385: 
+  cpe: cpe:/a:redhat:enterprise_linux:6::hypervisor
+  description: virt agents (not vdsm) for server
+  id: 385
+  name: 6Server-RHEV-Virt-Agent
+  product_id: 55
+  product_version_id: 153
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00386: 
+  cpe: cpe:/o:redhat:rhel_els:3::as
+  description: Red Hat Enterprise Linux AS (v. 3 ELS)
+  id: 386
+  name: 3AS-ELS
+  product_id: 16
+  product_version_id: 161
+  rhel_release_id: 2
+  rhel_variant_id: 386
+  rhn_channel_tmpl: 
+  tps_stream:
+errata_version_00387: 
+  cpe: cpe:/o:redhat:rhel_els:3::es
+  description: Red Hat Enterprise Linux ES (v. 3 ELS)
+  id: 387
+  name: 3ES-ELS
+  product_id: 16
+  product_version_id: 161
+  rhel_release_id: 2
+  rhel_variant_id: 387
+  rhn_channel_tmpl: 
+  tps_stream:
+errata_version_00388: 
+  cpe: cpe:/o:redhat:rhel_mission_critical:5.3
+  description: Red Hat Enterprise Linux Long Life (v. 5.3 server)
+  id: 388
+  name: 5Server-5.3.LL
+  product_id: 16
+  product_version_id: 162
+  rhel_release_id: 22
+  rhel_variant_id: 388
+  rhn_channel_tmpl: 
+errata_version_00389: 
+  cpe: cpe:/a:redhat:rhel_cluster:5:update3:server
+  description: RHEL Clustering (v. 5.3.LL server)
+  id: 389
+  name: 5Server-Cluster-5.3.LL
+  product_id: 16
+  product_version_id: 162
+  rhel_release_id: 22
+  rhel_variant_id: 388
+  rhn_channel_tmpl: 
+errata_version_00390: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5:update3:server
+  description: RHEL Cluster-Storage (v. 5.3.LL server)
+  id: 390
+  name: 5Server-ClusterStorage-5.3.LL
+  product_id: 16
+  product_version_id: 162
+  rhel_release_id: 22
+  rhel_variant_id: 388
+  rhn_channel_tmpl: 
+errata_version_00391: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5:update3:server
+  description: RHEL VT (v. 5.3.LL server)
+  id: 391
+  name: 5Server-VT-5.3.LL
+  product_id: 16
+  product_version_id: 162
+  rhel_release_id: 22
+  rhel_variant_id: 388
+  rhn_channel_tmpl: 
+errata_version_00392: 
+  cpe: cpe:/a:redhat:rhel_extras:5
+  description: RHEL Supplementary (v. 5.3.LL server)
+  id: 392
+  name: 5Server-Supplementary-5.3.LL
+  product_id: 23
+  product_version_id: 163
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00393: 
+  cpe: ""
+  description: RHN Tools (v. 5.3.LL Server)
+  id: 393
+  name: 5Server-RHNTools-5.3.LL
+  product_id: 60
+  product_version_id: 164
+  rhel_release_id: 18
+  rhel_variant_id: 388
+  rhn_channel_tmpl: 
+errata_version_00394: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::server
+  description: Red Hat Enterprise Linux (v. 5.6.z server)
+  id: 394
+  name: 5Server-5.6.Z
+  product_id: 16
+  product_version_id: 165
+  rhel_release_id: 16
+  rhel_variant_id: 394
+  rhn_channel_tmpl: 
+errata_version_00395: 
+  cpe: cpe:/a:redhat:rhel_cluster:5
+  description: RHEL Clustering (v. 5 server)
+  id: 395
+  name: 5Server-Cluster-5.6.Z
+  product_id: 16
+  product_version_id: 165
+  rhel_release_id: 16
+  rhel_variant_id: 394
+  rhn_channel_tmpl: 
+errata_version_00396: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5
+  description: RHEL Cluster-Storage (v. 5 server)
+  id: 396
+  name: 5Server-ClusterStorage-5.6.Z
+  product_id: 16
+  product_version_id: 165
+  rhel_release_id: 16
+  rhel_variant_id: 394
+  rhn_channel_tmpl: 
+errata_version_00398: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5::server
+  description: RHEL Virtualization (v. 5 server)
+  id: 398
+  name: 5Server-VT-5.6.Z
+  product_id: 16
+  product_version_id: 165
+  rhel_release_id: 16
+  rhel_variant_id: 394
+  rhn_channel_tmpl: 
+errata_version_00399: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::client
+  description: Red Hat Enterprise Linux Desktop (v. 5 client)
+  id: 399
+  name: 5Client-5.6.Z
+  product_id: 16
+  product_version_id: 165
+  rhel_release_id: 16
+  rhel_variant_id: 399
+  rhn_channel_tmpl: 
+errata_version_00400: 
+  cpe: cpe:/o:redhat:rhel_virtualization:5::client
+  description: RHEL Desktop Multi OS (v. 5 client)
+  id: 400
+  name: 5Client-VT-5.6.Z
+  product_id: 16
+  product_version_id: 165
+  rhel_release_id: 16
+  rhel_variant_id: 399
+  rhn_channel_tmpl: 
+errata_version_00401: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::client_workstation
+  description: RHEL Desktop Workstation (v. 5 client)
+  id: 401
+  name: 5Client-Workstation-5.6.Z
+  product_id: 16
+  product_version_id: 165
+  rhel_release_id: 16
+  rhel_variant_id: 399
+  rhn_channel_tmpl: 
+errata_version_00402: 
+  cpe: cpe:/a:redhat:rhel_productivity:5
+  description: RHEL Optional Productivity Applications (v. 5 server)
+  id: 402
+  name: 5Server-DPAS-5.6.Z
+  product_id: 16
+  product_version_id: 165
+  rhel_release_id: 16
+  rhel_variant_id: 394
+  rhn_channel_tmpl: 
+errata_version_00403: 
+  cpe: ""
+  description: SJIS (v. 5.3.z Server)
+  id: 403
+  name: 5Server-SJIS-5.3.z
+  product_id: 61
+  product_version_id: 167
+  rhel_release_id: 12
+  rhel_variant_id: 310
+  rhn_channel_tmpl: 
+errata_version_00404: 
+  cpe: ""
+  description: SJIS (v. 5.4.z Server)
+  id: 404
+  name: 5Server-SJIS-5.4.z
+  product_id: 61
+  product_version_id: 168
+  rhel_release_id: 14
+  rhel_variant_id: 313
+  rhn_channel_tmpl: 
+errata_version_00405: 
+  cpe: ""
+  description: RHN Tools (v. 5.6.z Server)
+  id: 405
+  name: 5Server-RHNTools-5.6.z
+  product_id: 60
+  product_version_id: 169
+  rhel_release_id: 16
+  rhel_variant_id: 394
+  rhn_channel_tmpl: 
+errata_version_00406: 
+  cpe: cpe:/a:redhat:rhel_extras:5::server
+  description: Red Hat Enterprise Linux Server Supplementary (v. 5)
+  id: 406
+  name: 5Server-Supplementary-5.6.Z
+  product_id: 23
+  product_version_id: 170
+  rhel_release_id: 16
+  rhel_variant_id: 394
+  rhn_channel_tmpl: 
+errata_version_00407: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:5::el6
+  description: JBoss Enterprise Application Platform 5 for RHEL 6 Server
+  id: 407
+  name: 6Server-JBEAP-5
+  product_id: 41
+  product_version_id: 171
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00408: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_platform:5::el6
+  description: JBoss Enterprise Web Platform 5 for RHEL 6 Server
+  id: 408
+  name: 6Server-JBEWP-5
+  product_id: 62
+  product_version_id: 172
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00409: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_server:1::el6
+  description: JBoss Enterprise Web Server 1.0 for RHEL 6 Server
+  id: 409
+  name: 6Server-JBEWS-1
+  product_id: 53
+  product_version_id: 173
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00410: 
+  cpe: cpe:/a:redhat:rhel_extras:5::client
+  description: Red Hat Enterprise Linux Desktop Supplementary (v. 5)
+  id: 410
+  name: 5Client-Supplementary-5.6.Z
+  product_id: 23
+  product_version_id: 170
+  rhel_release_id: 16
+  rhel_variant_id: 399
+  rhn_channel_tmpl: 
+errata_version_00411: 
+  cpe: ""
+  description: Red Hat Enterprise Linux Enterprise Identity Replication  (v. 6)
+  id: 411
+  name: 6Server-EIR
+  product_id: 66
+  product_version_id: 175
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00412: 
+  cpe: ""
+  description: SJIS (v. 5.6.z Server)
+  id: 412
+  name: 5Server-SJIS-5.6.z
+  product_id: 61
+  product_version_id: 174
+  rhel_release_id: 16
+  rhel_variant_id: 467
+  rhn_channel_tmpl: 
+errata_version_00413: 
+  cpe: cpe:/a:redhat:rhel_extras_hpn:6
+  description: Red Hat Enterprise Linux High Performance Networking (v. 6)
+  id: 413
+  name: 6ComputeNode-HPN-obsolete
+  product_id: 63
+  product_version_id: 158
+  rhel_release_id: 15
+  rhel_variant_id: 344
+  rhn_channel_tmpl: 
+errata_version_00414: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el5
+  description: Red Hat MRG Messaging for RHEL 5 Server v.2
+  id: 414
+  name: 5Server-MRG-Messaging-2
+  product_id: 47
+  product_version_id: 176
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00415: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el5
+  description: MRG Management for RHEL 5 Server v.2
+  id: 415
+  name: 5Server-MRG-Management-2
+  product_id: 47
+  product_version_id: 176
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00416: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el5
+  description: MRG Grid for RHEL 5 Server v.2
+  id: 416
+  name: 5Server-MRG-Grid-2
+  product_id: 47
+  product_version_id: 176
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00417: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el5
+  description: MRG Realtime for RHEL 5 Server v.2
+  id: 417
+  name: 5Server-MRG-Realtime-2
+  product_id: 47
+  product_version_id: 176
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00418: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el5
+  description: MRG Grid Execute Node for RHEL 5 Server v.2
+  id: 418
+  name: 5Server-MRG-Grid-Execute-Node-2
+  product_id: 47
+  product_version_id: 176
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00419: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el6
+  description: Red Hat MRG Messaging for RHEL 6 Server v.2
+  id: 419
+  name: 6Server-MRG-Messaging-2
+  product_id: 67
+  product_version_id: 177
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00420: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el6
+  description: MRG Management for RHEL 6 Server v.2
+  id: 420
+  name: 6Server-MRG-Management-2
+  product_id: 67
+  product_version_id: 177
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00421: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el6
+  description: MRG Grid for RHEL 6 Server v.2
+  id: 421
+  name: 6Server-MRG-Grid-2
+  product_id: 67
+  product_version_id: 177
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00422: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el6
+  description: MRG Realtime for RHEL 6 Server v.2
+  id: 422
+  name: 6Server-MRG-Realtime-2
+  product_id: 67
+  product_version_id: 177
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00423: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el6
+  description: MRG Grid Execute Node for RHEL 6 Server v.2
+  id: 423
+  name: 6Server-MRG-Grid-Execute-Node-2
+  product_id: 67
+  product_version_id: 177
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00424: 
+  cpe: ""
+  description: RHN Tools (v. 5.6.LL Server)
+  id: 424
+  name: 5Server-RHNTools-5.6.LL
+  product_id: 60
+  product_version_id: 178
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00425: 
+  cpe: cpe:/o:redhat:rhel_eus:6.0
+  description: Red Hat Enterprise Linux Server Optional EUS (v. 6.0)
+  id: 425
+  name: 6Server-optional-6.0.z
+  product_id: 16
+  product_version_id: 179
+  rhel_release_id: 19
+  rhel_variant_id: 426
+  rhn_channel_tmpl: 
+errata_version_00426: 
+  cpe: cpe:/o:redhat:rhel_eus:6.0
+  description: Red Hat Enterprise Linux Server EUS (v. 6.0)
+  id: 426
+  name: 6Server-6.0.z
+  product_id: 16
+  product_version_id: 179
+  rhel_release_id: 19
+  rhel_variant_id: 426
+  rhn_channel_tmpl: 
+errata_version_00427: 
+  cpe: cpe:/o:redhat:rhel_eus:6.0
+  description: Red Hat Enterprise Linux High Availability (v. 6.0.z)
+  id: 427
+  name: 6Server-HighAvailability-6.0.z
+  product_id: 16
+  product_version_id: 179
+  rhel_release_id: 19
+  rhel_variant_id: 426
+  rhn_channel_tmpl: 
+errata_version_00428: 
+  cpe: cpe:/o:redhat:rhel_eus:6.0
+  description: Red Hat Enterprise Linux Scalable File System (v. 6.0.z)
+  id: 428
+  name: 6Server-ScalableFileSystem-6.0.z
+  product_id: 16
+  product_version_id: 179
+  rhel_release_id: 19
+  rhel_variant_id: 426
+  rhn_channel_tmpl: 
+errata_version_00429: 
+  cpe: cpe:/o:redhat:rhel_eus:6.0
+  description: Red Hat Enterprise Linux Resilient Storage (v. 6.0.z)
+  id: 429
+  name: 6Server-ResilientStorage-6.0.z
+  product_id: 16
+  product_version_id: 179
+  rhel_release_id: 19
+  rhel_variant_id: 426
+  rhn_channel_tmpl: 
+errata_version_00430: 
+  cpe: cpe:/o:redhat:rhel_eus:6.0
+  description: Red Hat Enterprise Linux Load Balancer (v. 6.0.z)
+  id: 430
+  name: 6Server-LoadBalancer-6.0.z
+  product_id: 16
+  product_version_id: 179
+  rhel_release_id: 19
+  rhel_variant_id: 426
+  rhn_channel_tmpl: 
+errata_version_00431: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Server Optional (v. 6)
+  id: 431
+  name: 6Server-optional-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00432: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Server (v. 6)
+  id: 432
+  name: 6Server-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00433: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  description: Red Hat Enterprise Linux Desktop Optional (v. 6)
+  id: 433
+  name: 6Client-optional-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 436
+  rhn_channel_tmpl: 
+errata_version_00434: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Workstation Optional (v. 6)
+  id: 434
+  name: 6Workstation-optional-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 438
+  rhn_channel_tmpl: 
+errata_version_00435: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  description: Red Hat Enterprise Linux HPC Node (v. 6)
+  id: 435
+  name: 6ComputeNode-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 435
+  rhn_channel_tmpl: 
+errata_version_00436: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  description: Red Hat Enterprise Linux Desktop (v. 6)
+  id: 436
+  name: 6Client-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 436
+  rhn_channel_tmpl: 
+errata_version_00437: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  description: Red Hat Enterprise Linux HPC Node Optional (v. 6)
+  id: 437
+  name: 6ComputeNode-optional-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 435
+  rhn_channel_tmpl: 
+errata_version_00438: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Workstation (v. 6)
+  id: 438
+  name: 6Workstation-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 438
+  rhn_channel_tmpl: 
+errata_version_00439: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux High Availability (v. 6)
+  id: 439
+  name: 6Server-HighAvailability-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00440: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 440
+  name: 6Server-ScalableFileSystem-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00441: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Resilient Storage (v. 6)
+  id: 441
+  name: 6Server-ResilientStorage-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00442: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Load Balancer (v. 6)
+  id: 442
+  name: 6Server-LoadBalancer-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00443: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 443
+  name: 6Workstation-ScalableFileSystem-6.1.z
+  product_id: 16
+  product_version_id: 180
+  rhel_release_id: 20
+  rhel_variant_id: 438
+  rhn_channel_tmpl: 
+errata_version_00444: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Server Supplementary (v. 6)
+  id: 444
+  name: 6Server-Supplementary-6.1.z
+  product_id: 23
+  product_version_id: 181
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00445: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux HPC Node Supplementary (v. 6)
+  id: 445
+  name: 6ComputeNode-Supplementary-6.1.z
+  product_id: 23
+  product_version_id: 181
+  rhel_release_id: 20
+  rhel_variant_id: 435
+  rhn_channel_tmpl: 
+errata_version_00446: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Desktop Supplementary (v. 6)
+  id: 446
+  name: 6Client-Supplementary-6.1.z
+  product_id: 23
+  product_version_id: 181
+  rhel_release_id: 20
+  rhel_variant_id: 436
+  rhn_channel_tmpl: 
+errata_version_00447: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Workstation Supplementary (v. 6)
+  id: 447
+  name: 6Workstation-Supplementary-6.1.z
+  product_id: 23
+  product_version_id: 181
+  rhel_release_id: 20
+  rhel_variant_id: 438
+  rhn_channel_tmpl: 
+errata_version_00448: 
+  cpe: cpe:/a:redhat:network_satellite:5.4::el6
+  description: Red Hat Network Satellite Server 5.4 (RHEL v.6)
+  id: 448
+  name: 6Server-Satellite
+  product_id: 40
+  product_version_id: 182
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00449: 
+  cpe: cpe:/a:redhat:network_proxy:5.4::el6
+  description: Red Hat Network Proxy 5.4 (RHEL v.6)
+  id: 449
+  name: 6Server-RHNProxy
+  product_id: 46
+  product_version_id: 183
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00452: 
+  cpe: cpe:/a:redhat:rhel_sjis:6
+  description: SJIS for RHEL 6 Server
+  id: 452
+  name: 6Server-SJIS
+  product_id: 61
+  product_version_id: 184
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00453: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::server
+  description: Red Hat Enterprise Linux (v. 5 server)
+  id: 453
+  name: 5Server-5.7.Z
+  product_id: 16
+  product_version_id: 185
+  rhel_release_id: 21
+  rhel_variant_id: 453
+  rhn_channel_tmpl: 
+errata_version_00454: 
+  cpe: cpe:/a:redhat:rhel_cluster:5
+  description: RHEL Clustering (v. 5 server)
+  id: 454
+  name: 5Server-Cluster-5.7.Z
+  product_id: 16
+  product_version_id: 185
+  rhel_release_id: 21
+  rhel_variant_id: 453
+  rhn_channel_tmpl: 
+errata_version_00455: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5
+  description: RHEL Cluster-Storage (v. 5 server)
+  id: 455
+  name: 5Server-ClusterStorage-5.7.Z
+  product_id: 16
+  product_version_id: 185
+  rhel_release_id: 21
+  rhel_variant_id: 453
+  rhn_channel_tmpl: 
+errata_version_00456: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5::server
+  description: RHEL Virtualization (v. 5 server)
+  id: 456
+  name: 5Server-VT-5.7.Z
+  product_id: 16
+  product_version_id: 185
+  rhel_release_id: 21
+  rhel_variant_id: 453
+  rhn_channel_tmpl: 
+errata_version_00457: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::client
+  description: Red Hat Enterprise Linux Desktop (v. 5 client)
+  id: 457
+  name: 5Client-5.7.Z
+  product_id: 16
+  product_version_id: 185
+  rhel_release_id: 21
+  rhel_variant_id: 457
+  rhn_channel_tmpl: 
+errata_version_00458: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5::client
+  description: RHEL Desktop Multi OS (v. 5 client)
+  id: 458
+  name: 5Client-VT-5.7.Z
+  product_id: 16
+  product_version_id: 185
+  rhel_release_id: 21
+  rhel_variant_id: 457
+  rhn_channel_tmpl: 
+errata_version_00459: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::client_workstation
+  description: RHEL Desktop Workstation (v. 5 client)
+  id: 459
+  name: 5Client-Workstation-5.7.Z
+  product_id: 16
+  product_version_id: 185
+  rhel_release_id: 21
+  rhel_variant_id: 457
+  rhn_channel_tmpl: 
+errata_version_00460: 
+  cpe: cpe:/a:redhat:rhel_productivity:5
+  description: RHEL Optional Productivity Applications (v. 5 server)
+  id: 460
+  name: 5Server-DPAS-5.7.Z
+  product_id: 16
+  product_version_id: 185
+  rhel_release_id: 21
+  rhel_variant_id: 453
+  rhn_channel_tmpl: 
+errata_version_00461: 
+  cpe: cpe:/a:redhat:directory_server:9
+  description: Red Hat Directory Server 9 (for RHEL 6)
+  id: 461
+  name: 6Server-RHDirServ
+  product_id: 29
+  product_version_id: 186
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00462: 
+  cpe: "\tcpe:/a:redhat:rhel_extras:6"
+  description: Red Hat Enterprise Linux Server Supplementary (v. 6.0.z)
+  id: 462
+  name: 6Server-Supplementary-6.0.Z
+  product_id: 23
+  product_version_id: 187
+  rhel_release_id: 19
+  rhel_variant_id: 426
+  rhn_channel_tmpl: 
+errata_version_00463: 
+  cpe: cpe:/a:redhat:rhel_extras:5::server
+  description: Red Hat Enterprise Linux Server Supplementary (v. 5)
+  id: 463
+  name: 5Server-Supplementary-5.7.Z
+  product_id: 23
+  product_version_id: 188
+  rhel_release_id: 21
+  rhel_variant_id: 453
+  rhn_channel_tmpl: 
+errata_version_00464: 
+  cpe: cpe:/a:redhat:rhel_extras:5::client
+  description: Red Hat Enterprise Linux Desktop Supplementary (v. 5)
+  id: 464
+  name: 5Client-Supplementary-5.7.Z
+  product_id: 23
+  product_version_id: 188
+  rhel_release_id: 21
+  rhel_variant_id: 457
+  rhn_channel_tmpl: 
+errata_version_00465: 
+  cpe: ""
+  description: RHN Tools (v. 6.0.z Server)
+  id: 465
+  name: 6Server-RHNTools-6.0.Z
+  product_id: 60
+  product_version_id: 189
+  rhel_release_id: 19
+  rhel_variant_id: 426
+  rhn_channel_tmpl: 
+errata_version_00466: 
+  cpe: ""
+  description: Red Hat Software Test Suite (v. 6 Server)
+  id: 466
+  name: 6Server-STS
+  product_id: 58
+  product_version_id: 190
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00467: 
+  cpe: cpe:/o:redhat:rhel_eus:5.6
+  description: Red Hat Enterprise Linux EUS (v. 5.6 server)
+  id: 467
+  name: 5Server-5.6.EUS
+  product_id: 16
+  product_version_id: 191
+  rhel_release_id: 23
+  rhel_variant_id: 467
+  rhn_channel_tmpl: 
+errata_version_00468: 
+  cpe: cpe:/a:redhat:rhel_cluster:5:update6
+  description: RHEL Clustering (v. 5 server)
+  id: 468
+  name: 5Server-Cluster-5.6.EUS
+  product_id: 16
+  product_version_id: 191
+  rhel_release_id: 23
+  rhel_variant_id: 467
+  rhn_channel_tmpl: 
+errata_version_00469: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5:update6
+  description: RHEL Cluster-Storage (v. 5 server)
+  id: 469
+  name: 5Server-ClusterStorage-5.6.EUS
+  product_id: 16
+  product_version_id: 191
+  rhel_release_id: 23
+  rhel_variant_id: 467
+  rhn_channel_tmpl: 
+errata_version_00470: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5:update6
+  description: RHEL Virtualization (v. 5 server)
+  id: 470
+  name: 5Server-VT-5.6.EUS
+  product_id: 16
+  product_version_id: 191
+  rhel_release_id: 23
+  rhel_variant_id: 467
+  rhn_channel_tmpl: 
+errata_version_00471: 
+  cpe: cpe:/a:redhat:rhel_productivity:5:update6
+  description: RHEL Optional Productivity Applicaions (v. 5 server)
+  id: 471
+  name: 5Server-DPAS-5.6.EUS
+  product_id: 16
+  product_version_id: 191
+  rhel_release_id: 23
+  rhel_variant_id: 467
+  rhn_channel_tmpl: 
+errata_version_00473: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el6
+  description: MRG Grid Execute Node for RHEL 6 ComputeNode v.2
+  id: 473
+  name: 6ComputeNode-MRG-Grid-Execute-Node-2
+  product_id: 67
+  product_version_id: 177
+  rhel_release_id: 15
+  rhel_variant_id: 344
+  rhn_channel_tmpl: 
+errata_version_00474: 
+  cpe: cpe:/o:storage_software_appliance:3.2
+  description: SSA
+  id: 474
+  name: 6Server-SSA-6.1.z
+  product_id: 69
+  product_version_id: 193
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00475: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Server Optional (v. 6)
+  id: 475
+  name: 6Server-optional-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00476: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Server (v. 6)
+  id: 476
+  name: 6Server-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00477: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  description: Red Hat Enterprise Linux Desktop Optional (v. 6)
+  id: 477
+  name: 6Client-optional-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 480
+  rhn_channel_tmpl: 
+errata_version_00478: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Workstation Optional (v. 6)
+  id: 478
+  name: 6Workstation-optional-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 482
+  rhn_channel_tmpl: 
+errata_version_00479: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  description: Red Hat Enterprise Linux HPC Node (v. 6)
+  id: 479
+  name: 6ComputeNode-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 479
+  rhn_channel_tmpl: 
+errata_version_00480: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  description: Red Hat Enterprise Linux Desktop (v. 6)
+  id: 480
+  name: 6Client-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 480
+  rhn_channel_tmpl: 
+errata_version_00481: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  description: Red Hat Enterprise Linux HPC Node Optional (v. 6)
+  id: 481
+  name: 6ComputeNode-optional-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 479
+  rhn_channel_tmpl: 
+errata_version_00482: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Workstation (v. 6)
+  id: 482
+  name: 6Workstation-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 482
+  rhn_channel_tmpl: 
+errata_version_00483: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux High Availability (v. 6)
+  id: 483
+  name: 6Server-HighAvailability-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00484: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 484
+  name: 6Server-ScalableFileSystem-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00485: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Resilient Storage (v. 6)
+  id: 485
+  name: 6Server-ResilientStorage-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00486: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Load Balancer (v. 6)
+  id: 486
+  name: 6Server-LoadBalancer-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00487: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 487
+  name: 6Workstation-ScalableFileSystem-6.2.z
+  product_id: 16
+  product_version_id: 194
+  rhel_release_id: 24
+  rhel_variant_id: 482
+  rhn_channel_tmpl: 
+errata_version_00488: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Server Supplementary (v. 6)
+  id: 488
+  name: 6Server-Supplementary-6.2.z
+  product_id: 23
+  product_version_id: 195
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00489: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux HPC Node Supplementary (v. 6)
+  id: 489
+  name: 6ComputeNode-Supplementary-6.2.z
+  product_id: 23
+  product_version_id: 195
+  rhel_release_id: 24
+  rhel_variant_id: 479
+  rhn_channel_tmpl: 
+errata_version_00490: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Desktop Supplementary (v. 6)
+  id: 490
+  name: 6Client-Supplementary-6.2.z
+  product_id: 23
+  product_version_id: 195
+  rhel_release_id: 24
+  rhel_variant_id: 480
+  rhn_channel_tmpl: 
+errata_version_00491: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Workstation Supplementary (v. 6)
+  id: 491
+  name: 6Workstation-Supplementary-6.2.z
+  product_id: 23
+  product_version_id: 195
+  rhel_release_id: 24
+  rhel_variant_id: 482
+  rhn_channel_tmpl: 
+errata_version_00492: 
+  cpe: cpe:/a:redhat:enterprise_linux:6::hypervisor
+  description: virt agents (not vdsm) for client
+  id: 492
+  name: 6Client-RHEV-Virt-Agent
+  product_id: 55
+  product_version_id: 153
+  rhel_release_id: 15
+  rhel_variant_id: 345
+  rhn_channel_tmpl: 
+errata_version_00493: 
+  cpe: cpe:/a:redhat:enterprise_linux:6::hypervisor
+  description: virt agents (not vdsm) for ws
+  id: 493
+  name: 6Workstation-RHEV-Virt-Agent
+  product_id: 55
+  product_version_id: 153
+  rhel_release_id: 15
+  rhel_variant_id: 348
+  rhn_channel_tmpl: 
+errata_version_00494: 
+  cpe: cpe:/a:redhat:enterprise_linux:5::hypervisor
+  description: rhev agents (not vdsm)
+  id: 494
+  name: 5Client-RHEV-Virt-Agent
+  product_id: 55
+  product_version_id: 152
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00495: 
+  cpe: cpe:/o:redhat:rhel_eus:6.1
+  description: Red Hat Enterprise Linux Server Optional EUS (v. 6.1)
+  id: 495
+  name: 6Server-optional-6.1.EUS
+  product_id: 16
+  product_version_id: 196
+  rhel_release_id: 20
+  rhel_variant_id: 497
+  rhn_channel_tmpl: 
+errata_version_00496: 
+  cpe: cpe:/o:redhat:rhel_eus:6.1
+  description: Red Hat Enterprise Linux High Availability (v. 6)
+  id: 496
+  name: 6Server-HighAvailability-6.1.EUS
+  product_id: 16
+  product_version_id: 196
+  rhel_release_id: 20
+  rhel_variant_id: 497
+  rhn_channel_tmpl: 
+errata_version_00497: 
+  cpe: cpe:/o:redhat:rhel_eus:6.1
+  description: Red Hat Enterprise Linux Server EUS (v. 6.1)
+  id: 497
+  name: 6Server-6.1.EUS
+  product_id: 16
+  product_version_id: 196
+  rhel_release_id: 20
+  rhel_variant_id: 497
+  rhn_channel_tmpl: 
+errata_version_00498: 
+  cpe: cpe:/o:redhat:rhel_eus:6.1
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 498
+  name: 6Server-ScalableFileSystem-6.1.EUS
+  product_id: 16
+  product_version_id: 196
+  rhel_release_id: 20
+  rhel_variant_id: 497
+  rhn_channel_tmpl: 
+errata_version_00499: 
+  cpe: cpe:/o:redhat:rhel_eus:6.1
+  description: Red Hat Enterprise Linux Resilient Storage (v. 6)
+  id: 499
+  name: 6Server-ResilientStorage-6.1.EUS
+  product_id: 16
+  product_version_id: 196
+  rhel_release_id: 20
+  rhel_variant_id: 497
+  rhn_channel_tmpl: 
+errata_version_00500: 
+  cpe: cpe:/o:redhat:rhel_eus:6.1
+  description: Red Hat Enterprise Linux Load Balancer (v. 6)
+  id: 500
+  name: 6Server-LoadBalancer-6.1.EUS
+  product_id: 16
+  product_version_id: 196
+  rhel_release_id: 20
+  rhel_variant_id: 497
+  rhn_channel_tmpl: 
+errata_version_00501: 
+  cpe: cpe:/a:redhat:enterprise_mrg:2::el6
+  description: MRG Management for RHEL 6 ComputeNode v.2
+  id: 501
+  name: 6ComputeNode-MRG-Management-2
+  product_id: 67
+  product_version_id: 177
+  rhel_release_id: 15
+  rhel_variant_id: 344
+  rhn_channel_tmpl: 
+errata_version_00502: 
+  cpe: ""
+  description: RHN Tools (v. 6.1.z Server)
+  id: 502
+  name: 6Server-RHNTools-6.1.Z
+  product_id: 60
+  product_version_id: 198
+  rhel_release_id: 20
+  rhel_variant_id: 432
+  rhn_channel_tmpl: 
+errata_version_00503: 
+  cpe: ""
+  description: RHN Tools (v. 6.2.z Server)
+  id: 503
+  name: 6Server-RHNTools-6.2.Z
+  product_id: 60
+  product_version_id: 199
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00504: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:6::el5
+  description: JBoss Enterprise Application Platform 6 for RHEL 5 Server
+  id: 504
+  name: 5Server-JBEAP-6
+  product_id: 41
+  product_version_id: 200
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00505: 
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:6::el6
+  description: JBoss Enterprise Application Platform 6 for RHEL 6 Server
+  id: 505
+  name: 6Server-JBEAP-6
+  product_id: 41
+  product_version_id: 201
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00506: 
+  cpe: cpe:/a:cloudforms_cloudengine:1::el6
+  description: Cloud Engine for RHEL 6 Server
+  id: 506
+  name: 6Server-CloudEngine
+  product_id: 71
+  product_version_id: 202
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00507: 
+  cpe: cpe:/a:cloudforms_systemengine:1::el6
+  description: System Engine for RHEL 6 Server
+  id: 507
+  name: 6Server-SystemEngine
+  product_id: 71
+  product_version_id: 202
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00508: 
+  cpe: cpe:/a:cloudforms_tools:1::el6
+  description: CloudForms Tools for RHEL 6 Server
+  id: 508
+  name: 6Server-CloudTools
+  product_id: 71
+  product_version_id: 202
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00509: 
+  cpe: cpe:/a:cloudforms_tools:1::el5
+  description: CloudForms Tools for RHEL 5 Server
+  id: 509
+  name: 5Server-CloudTools
+  product_id: 71
+  product_version_id: 203
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00510: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::server
+  description: Red Hat Enterprise Linux (v. 5 server)
+  id: 510
+  name: 5Server-5.8.Z
+  product_id: 16
+  product_version_id: 204
+  rhel_release_id: 25
+  rhel_variant_id: 510
+  rhn_channel_tmpl: 
+errata_version_00511: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::client
+  description: Red Hat Enterprise Linux Desktop (v. 5 client)
+  id: 511
+  name: 5Client-5.8.Z
+  product_id: 16
+  product_version_id: 204
+  rhel_release_id: 25
+  rhel_variant_id: 511
+  rhn_channel_tmpl: 
+errata_version_00512: 
+  cpe: cpe:/a:redhat:rhel_cluster:5
+  description: RHEL Clustering (v. 5 server)
+  id: 512
+  name: 5Server-Cluster-5.8.Z
+  product_id: 16
+  product_version_id: 204
+  rhel_release_id: 25
+  rhel_variant_id: 510
+  rhn_channel_tmpl: 
+errata_version_00513: 
+  cpe: cpe:/a:redhat:rhel_cluster_storage:5
+  description: RHEL Cluster-Storage (v. 5 server)
+  id: 513
+  name: 5Server-ClusterStorage-5.8.Z
+  product_id: 16
+  product_version_id: 204
+  rhel_release_id: 25
+  rhel_variant_id: 510
+  rhn_channel_tmpl: 
+errata_version_00514: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5::server
+  description: RHEL Virtualization (v. 5 server)
+  id: 514
+  name: 5Server-VT-5.8.Z
+  product_id: 16
+  product_version_id: 204
+  rhel_release_id: 25
+  rhel_variant_id: 510
+  rhn_channel_tmpl: 
+errata_version_00515: 
+  cpe: cpe:/a:redhat:rhel_virtualization:5::client
+  description: RHEL Desktop Multi OS (v. 5 client)
+  id: 515
+  name: 5Client-VT-5.8.Z
+  product_id: 16
+  product_version_id: 204
+  rhel_release_id: 25
+  rhel_variant_id: 511
+  rhn_channel_tmpl: 
+errata_version_00516: 
+  cpe: cpe:/o:redhat:enterprise_linux:5::client_workstation
+  description: RHEL Desktop Workstation (v. 5 client)
+  id: 516
+  name: 5Client-Workstation-5.8.Z
+  product_id: 16
+  product_version_id: 204
+  rhel_release_id: 25
+  rhel_variant_id: 511
+  rhn_channel_tmpl: 
+errata_version_00517: 
+  cpe: cpe:/a:redhat:rhel_productivity:5
+  description: RHEL Optional Productivity Applications (v. 5 server)
+  id: 517
+  name: 5Server-DPAS-5.8.Z
+  product_id: 16
+  product_version_id: 204
+  rhel_release_id: 25
+  rhel_variant_id: 510
+  rhn_channel_tmpl: 
+errata_version_00518: 
+  cpe: cpe:/o:redhat:rhel_els:4::as
+  description: Red Hat Enterprise Linux AS (v. 4 ELS)
+  id: 518
+  name: 4AS-ELS
+  product_id: 16
+  product_version_id: 205
+  rhel_release_id: 3
+  rhel_variant_id: 518
+  rhn_channel_tmpl: 
+  tps_stream:
+errata_version_00519: 
+  cpe: cpe:/o:redhat:rhel_els:4::es
+  description: Red Hat Enterprise Linux ES (v. 4 ELS)
+  id: 519
+  name: 4ES-ELS
+  product_id: 16
+  product_version_id: 205
+  rhel_release_id: 3
+  rhel_variant_id: 519
+  rhn_channel_tmpl: 
+  tps_stream:
+errata_version_00520: 
+  cpe: cpe:/a:redhat:developer_toolset:1::el6
+  description: RHDevToolset for Server
+  id: 520
+  name: 6Server-RHDevToolset
+  product_id: 72
+  product_version_id: 206
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00521: 
+  cpe: cpe:/a:redhat:developer_toolset:1::el6
+  description: RHDevToolset for ComputeNode
+  id: 521
+  name: 6ComputeNode-RHDevToolset
+  product_id: 72
+  product_version_id: 206
+  rhel_release_id: 15
+  rhel_variant_id: 344
+  rhn_channel_tmpl: 
+errata_version_00522: 
+  cpe: cpe:/a:redhat:developer_toolset:1::el6
+  description: RHDevToolset for Client
+  id: 522
+  name: 6Client-RHDevToolset
+  product_id: 72
+  product_version_id: 206
+  rhel_release_id: 15
+  rhel_variant_id: 345
+  rhn_channel_tmpl: 
+errata_version_00523: 
+  cpe: cpe:/a:redhat:developer_toolset:1::el6
+  description: RHDevToolset for Workstation
+  id: 523
+  name: 6Workstation-RHDevToolset
+  product_id: 72
+  product_version_id: 206
+  rhel_release_id: 15
+  rhel_variant_id: 348
+  rhn_channel_tmpl: 
+errata_version_00524: 
+  cpe: cpe:/a:redhat:developer_toolset:1::el5
+  description: RHDevToolset for Server
+  id: 524
+  name: 5Server-RHDevToolset
+  product_id: 72
+  product_version_id: 207
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00525: 
+  cpe: cpe:/a:redhat:developer_toolset:1::el5
+  description: RHDevToolset for Client
+  id: 525
+  name: 5Client-RHDevToolset
+  product_id: 72
+  product_version_id: 207
+  rhel_release_id: 7
+  rhel_variant_id: 129
+  rhn_channel_tmpl: 
+errata_version_00526: 
+  cpe: ""
+  description: Red Hat Cluster Suite 4AS ELS
+  id: 526
+  name: 4AS-cluster-ELS
+  product_id: 20
+  product_version_id: 208
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00527: 
+  cpe: ""
+  description: Red Hat Cluster Suite 4ES ELS
+  id: 527
+  name: 4ES-cluster-ELS
+  product_id: 20
+  product_version_id: 208
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00528: 
+  cpe: ""
+  description: Red Hat Global File System 4AS ELS
+  id: 528
+  name: 4AS-GFS-ELS
+  product_id: 24
+  product_version_id: 209
+  rhel_release_id: 3
+  rhel_variant_id: 91
+  rhn_channel_tmpl: 
+errata_version_00529: 
+  cpe: ""
+  description: Red Hat Global File System 4ES ELS
+  id: 529
+  name: 4ES-GFS-ELS
+  product_id: 24
+  product_version_id: 209
+  rhel_release_id: 3
+  rhel_variant_id: 92
+  rhn_channel_tmpl: 
+errata_version_00530: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_server:2::el5
+  description: JBoss Enterprise Web Server 2 for RHEL 5 Server
+  id: 530
+  name: 5Server-JBEWS-2
+  product_id: 53
+  product_version_id: 210
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00531: 
+  cpe: cpe:/a:redhat:jboss_enterprise_web_server:2::el6
+  description: JBoss Enterprise Web Server 2 for RHEL 6 Server
+  id: 531
+  name: 6Server-JBEWS-2
+  product_id: 53
+  product_version_id: 211
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00532: 
+  cpe: cpe:/a:redhat:rhel_extras:5::server
+  description: Red Hat Enterprise Linux Server Supplementary (v. 5)
+  id: 532
+  name: 5Server-Supplementary-5.8.Z
+  product_id: 23
+  product_version_id: 212
+  rhel_release_id: 25
+  rhel_variant_id: 510
+  rhn_channel_tmpl: 
+errata_version_00533: 
+  cpe: cpe:/a:redhat:rhel_extras:5::client
+  description: Red Hat Enterprise Linux Desktop Supplementary (v. 5)
+  id: 533
+  name: 5Client-Supplementary-5.8.Z
+  product_id: 23
+  product_version_id: 212
+  rhel_release_id: 25
+  rhel_variant_id: 511
+  rhn_channel_tmpl: 
+errata_version_00534: 
+  cpe: cpe:/a:rhel_sam:1.0::el6
+  description: System Asset Manager for RHEL 6 Server
+  id: 534
+  name: 6Server-SubscriptionAssetManager
+  product_id: 70
+  product_version_id: 197
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00535: 
+  cpe: cpe:/a:redhat_jboss_operations_network:3::el5
+  description: JBoss Operations Network 3 for RHEL 5 Server
+  id: 535
+  name: 5Server-JBON-3
+  product_id: 73
+  product_version_id: 213
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00536: 
+  cpe: cpe:/a:redhat:jboss_operations_network:3::el6
+  description: JBoss Operations Network 3 for RHEL 6 Server
+  id: 536
+  name: 6Server-JBON-3
+  product_id: 73
+  product_version_id: 214
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00537: 
+  cpe: cpe:/a:redhat:rhui:2::el6
+  description: RHUI for RHEL 6
+  id: 537
+  name: 6Server-RHUI-2
+  product_id: 68
+  product_version_id: 192
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00538: 
+  cpe: cpe:/a:rhel_sam:1.1::el6
+  description: System Asset Manager for RHEL 6 Server
+  id: 538
+  name: 6Server-SubscriptionAssetManager11
+  product_id: 70
+  product_version_id: 217
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00539: 
+  cpe: cpe:/a:redhat:storage:2
+  description: RHS 2.0
+  id: 539
+  name: 6Server-RHS-6.2.z
+  product_id: 74
+  product_version_id: 215
+  rhel_release_id: 24
+  rhel_variant_id: 476
+  rhn_channel_tmpl: 
+errata_version_00542: 
+  cpe: cpe:/a:redhat:rhel_sjis:5
+  description: SJIS (v. 5.8.z Server)
+  id: 542
+  name: 5Server-SJIS-5.8.z
+  product_id: 61
+  product_version_id: 218
+  rhel_release_id: 25
+  rhel_variant_id: 510
+  rhn_channel_tmpl: 
+errata_version_00543: 
+  cpe: ""
+  description: ruby-scl-test for Server
+  id: 543
+  name: 6Server-ruby-scl-test
+  product_id: 75
+  product_version_id: 219
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00545: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Server Supplementary (v. 6)
+  id: 545
+  name: 6Server-Supplementary-6.3.z
+  product_id: 23
+  product_version_id: 220
+  rhel_release_id: 26
+  rhel_variant_id: 550
+  rhn_channel_tmpl: 
+errata_version_00546: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux HPC Node Supplementary (v. 6)
+  id: 546
+  name: 6ComputeNode-Supplementary-6.3.z
+  product_id: 23
+  product_version_id: 220
+  rhel_release_id: 26
+  rhel_variant_id: 553
+  rhn_channel_tmpl: 
+errata_version_00547: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Desktop Supplementary (v. 6)
+  id: 547
+  name: 6Client-Supplementary-6.3.z
+  product_id: 23
+  product_version_id: 220
+  rhel_release_id: 26
+  rhel_variant_id: 554
+  rhn_channel_tmpl: 
+errata_version_00548: 
+  cpe: cpe:/a:redhat:rhel_extras:6
+  description: Red Hat Enterprise Linux Workstation Supplementary (v. 6)
+  id: 548
+  name: 6Workstation-Supplementary-6.3.z
+  product_id: 23
+  product_version_id: 220
+  rhel_release_id: 26
+  rhel_variant_id: 556
+  rhn_channel_tmpl: 
+errata_version_00549: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Server Optional (v. 6)
+  id: 549
+  name: 6Server-optional-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 550
+  rhn_channel_tmpl: 
+errata_version_00550: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Server (v. 6)
+  id: 550
+  name: 6Server-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 550
+  rhn_channel_tmpl: 
+errata_version_00551: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  description: Red Hat Enterprise Linux Desktop Optional (v. 6)
+  id: 551
+  name: 6Client-optional-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 554
+  rhn_channel_tmpl: 
+errata_version_00552: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Workstation Optional (v. 6)
+  id: 552
+  name: 6Workstation-optional-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 556
+  rhn_channel_tmpl: 
+errata_version_00553: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  description: Red Hat Enterprise Linux HPC Node (v. 6)
+  id: 553
+  name: 6ComputeNode-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 553
+  rhn_channel_tmpl: 
+errata_version_00554: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  description: Red Hat Enterprise Linux Desktop (v. 6)
+  id: 554
+  name: 6Client-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 554
+  rhn_channel_tmpl: 
+errata_version_00555: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  description: Red Hat Enterprise Linux HPC Node Optional (v. 6)
+  id: 555
+  name: 6ComputeNode-optional-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 553
+  rhn_channel_tmpl: 
+errata_version_00556: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Workstation (v. 6)
+  id: 556
+  name: 6Workstation-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 556
+  rhn_channel_tmpl: 
+errata_version_00557: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux High Availability (v. 6)
+  id: 557
+  name: 6Server-HighAvailability-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 550
+  rhn_channel_tmpl: 
+errata_version_00558: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 558
+  name: 6Server-ScalableFileSystem-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 550
+  rhn_channel_tmpl: 
+errata_version_00559: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Resilient Storage (v. 6)
+  id: 559
+  name: 6Server-ResilientStorage-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 550
+  rhn_channel_tmpl: 
+errata_version_00560: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  description: Red Hat Enterprise Linux Load Balancer (v. 6)
+  id: 560
+  name: 6Server-LoadBalancer-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 550
+  rhn_channel_tmpl: 
+errata_version_00561: 
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 561
+  name: 6Workstation-ScalableFileSystem-6.3.z
+  product_id: 16
+  product_version_id: 221
+  rhel_release_id: 26
+  rhel_variant_id: 556
+  rhn_channel_tmpl: 
+errata_version_00562: 
+  cpe: cpe:/a:redhat:storage:2
+  description: ""
+  id: 562
+  name: 6Server-RHSC
+  product_id: 74
+  product_version_id: 222
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00563: 
+  cpe: ""
+  description: Enhanced Kernel for HPC for Power Systems
+  id: 563
+  name: 6Server-P7IH
+  product_id: 76
+  product_version_id: 223
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00564: 
+  cpe: ""
+  description: Enhanced Kernel for RHEL 6 HPC for Blue Gene
+  id: 564
+  name: 6Server-BlueGene
+  product_id: 77
+  product_version_id: 224
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00565: 
+  cpe: cpe:/a:redhat:storage:2
+  description: ""
+  id: 565
+  name: 5Server-RHSClient
+  product_id: 74
+  product_version_id: 227
+  rhel_release_id: 7
+  rhel_variant_id: 125
+  rhn_channel_tmpl: 
+errata_version_00566: 
+  cpe: cpe:/a:redhat:storage:2
+  description: ""
+  id: 566
+  name: 6Server-RHSClient
+  product_id: 74
+  product_version_id: 226
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00567: 
+  cpe: cpe:/o:redhat:rhel_eus:6.2
+  description: Red Hat Enterprise Linux Server EUS (v. 6.2)
+  id: 567
+  name: 6Server-6.2.EUS
+  product_id: 16
+  product_version_id: 228
+  rhel_release_id: 24
+  rhel_variant_id: 567
+  rhn_channel_tmpl: 
+errata_version_00568: 
+  cpe: cpe:/o:redhat:rhel_eus:6.2
+  description: Red Hat Enterprise Linux High Availability (v. 6)
+  id: 568
+  name: 6Server-HighAvailability-6.2.EUS
+  product_id: 16
+  product_version_id: 228
+  rhel_release_id: 24
+  rhel_variant_id: 567
+  rhn_channel_tmpl: 
+errata_version_00569: 
+  cpe: cpe:/o:redhat:rhel_eus:6.2
+  description: Red Hat Enterprise Linux Load Balancer (v. 6)
+  id: 569
+  name: 6Server-LoadBalancer-6.2.EUS
+  product_id: 16
+  product_version_id: 228
+  rhel_release_id: 24
+  rhel_variant_id: 567
+  rhn_channel_tmpl: 
+errata_version_00570: 
+  cpe: cpe:/o:redhat:rhel_eus:6.2
+  description: Red Hat Enterprise Linux Server Optional EUS (v. 6.2)
+  id: 570
+  name: 6Server-optional-6.2.EUS
+  product_id: 16
+  product_version_id: 228
+  rhel_release_id: 24
+  rhel_variant_id: 567
+  rhn_channel_tmpl: 
+errata_version_00571: 
+  cpe: cpe:/o:redhat:rhel_eus:6.2
+  description: Red Hat Enterprise Linux Resilient Storage (v. 6)
+  id: 571
+  name: 6Server-ResilientStorage-6.2.EUS
+  product_id: 16
+  product_version_id: 228
+  rhel_release_id: 24
+  rhel_variant_id: 567
+  rhn_channel_tmpl: 
+errata_version_00572: 
+  cpe: cpe:/o:redhat:rhel_eus:6.2
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  id: 572
+  name: 6Server-ScalableFileSystem-6.2.EUS
+  product_id: 16
+  product_version_id: 228
+  rhel_release_id: 24
+  rhel_variant_id: 567
+  rhn_channel_tmpl: 
+errata_version_00573:
+  cpe: ""
+  description: RHCI packages for the EngOps crew
+  enabled: true
+  id: 617
+  name: 6Server-RHCI-EngOps
+  product_id: 82
+  product_version_id: 252
+  rhel_release_id: 15
+  rhel_variant_id: 340
+  rhn_channel_tmpl: 
+errata_version_00744:
+  id: 744
+  product_id: 16
+  name: "6Server-6.5.z"
+  description: "Red Hat Enterprise Linux Server (v. 6)"
+  rhn_channel_tmpl:
+  product_version_id: 306
+  rhel_variant_id: 744
+  rhel_release_id: 31
+  cpe: "cpe:/o:redhat:enterprise_linux:6::server"
+  enabled: true
+  tps_stream:
+errata_version_00745:
+  id: 745
+  product_id: 83
+  name: "6Server-RHSCL-1.2-6.5.z"
+  description: ""
+  rhn_channel_tmpl:
+  product_version_id: 355
+  rhel_variant_id: 744
+  rhel_release_id: 31
+  cpe: "cpe:/o:redhat:enterprise_linux:6::server"
+  enabled: true
+  tps_stream:
+errata_version_594:
+  product_id: 16
+  description: Red Hat Enterprise Linux Server (v. 7)
+  rhel_release_id: 27
+  tps_stream:
+  id: 594
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 594
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  name: 7Server
+  product_version_id: 244
+errata_version_640:
+  product_id: 16
+  description: Red Hat Enterprise Linux Server (v. 7)
+  rhel_release_id: 27
+  tps_stream:
+  id: 640
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 640
+  cpe: cpe:/o:redhat:enterprise_linux:7::workstation
+  name: 7Workstation
+  product_version_id: 244
+errata_version_699:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 699
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 699
+  cpe: cpe:/o:redhat:enterprise_linux:7::client
+  name: 7Client
+  product_version_id: 244
+errata_version_700:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 700
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 700
+  cpe: cpe:/o:redhat:enterprise_linux:7::computenode
+  name: 7ComputeNode
+  product_version_id: 244
+errata_version_701:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 701
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 699
+  cpe: cpe:/o:redhat:enterprise_linux:7::client
+  name: 7Client-optional
+  product_version_id: 244
+errata_version_702:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 702
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 594
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  name: 7Server-optional
+  product_version_id: 244
+errata_version_703:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 703
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 700
+  cpe: cpe:/o:redhat:enterprise_linux:7::computenode
+  name: 7ComputeNode-optional
+  product_version_id: 244
+errata_version_704:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 704
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 594
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  name: 7Server-HighAvailability
+  product_version_id: 244
+errata_version_705:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 705
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 594
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  name: 7Server-LoadBalancer
+  product_version_id: 244
+errata_version_706:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 706
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 594
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  name: 7Server-ResilientStorage
+  product_version_id: 244
+errata_version_707:
+  product_id: 16
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 707
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 640
+  cpe: cpe:/o:redhat:enterprise_linux:7::workstation
+  name: 7Workstation-optional
+  product_version_id: 244
+errata_version_822:
+  product_id: 16
+  description: Red Hat Enterprise Linux SAP (v. 7)
+  rhel_release_id: 27
+  tps_stream: ""
+  id: 822
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 594
+  cpe: cpe:/a:redhat:rhel_extras_sap:7
+  name: 7Server-SAP
+  product_version_id: 244
+errata_version_790:
+  product_id: 23
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 790
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 699
+  cpe: ""
+  name: 7Client-Client
+  product_version_id: 317
+errata_version_791:
+  product_id: 23
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 791
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 594
+  cpe: ""
+  name: 7Server-Server
+  product_version_id: 317
+errata_version_793:
+  product_id: 23
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 793
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 700
+  cpe: ""
+  name: 7ComputeNode-ComputeNode
+  product_version_id: 317
+errata_version_794:
+  product_id: 23
+  description: ""
+  rhel_release_id: 27
+  tps_stream:
+  id: 794
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 640
+  cpe: ""
+  name: 7Workstation-Workstation
+  product_version_id: 317
+errata_version_842:
+  product_id: 16
+  description: ""
+  rhel_release_id: 41
+  tps_stream:
+  id: 842
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 842
+  cpe: cpe:/o:redhat:enterprise_linux:7::client
+  name: 7Client-7.0.Z
+  product_version_id: 345
+errata_version_844:
+  product_id: 16
+  description: ""
+  rhel_release_id: 41
+  tps_stream:
+  id: 844
+  rhn_channel_tmpl:
+  enabled: true
+  rhel_variant_id: 844
+  cpe: cpe:/o:redhat:enterprise_linux:7::workstation
+  name: 7Workstation-7.0.Z
+  product_version_id: 345
+errata_version_747:
+  product_id: 16
+  description: Red Hat Enterprise Linux Server Optional (v. 6)
+  rhn_channel_tmpl:
+  rhel_variant_id: 744
+  name: 6Server-optional-6.5.z
+  enabled: true
+  tps_stream:
+  id: 747
+  rhel_release_id: 31
+  product_version_id: 306
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+errata_version_750:
+  product_id: 16
+  description: Red Hat Enterprise Linux Workstation (v. 6)
+  rhn_channel_tmpl:
+  rhel_variant_id: 750
+  name: 6Workstation-6.5.z
+  enabled: true
+  tps_stream:
+  id: 750
+  rhel_release_id: 31
+  product_version_id: 306
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+variant_660:
+  cpe: cpe:/a:redhat:rhev_manager:3
+  rhel_variant_id: 340
+  enabled: true
+  id: 660
+  product_id: 55
+  name: 6Server-RHEV-S-3.3
+  rhn_channel_tmpl:
+  product_version_id: 269
+  rhel_release_id: 15
+  tps_stream:
+  description: RHEV-M 3.3
+variant_792:
+  cpe: cpe:/a:redhat:rhev_manager:3
+  rhel_variant_id: 340
+  enabled: true
+  id: 792
+  product_id: 55
+  name: 6Server-RHEV-S-3.4
+  rhn_channel_tmpl:
+  product_version_id: 318
+  rhel_release_id: 15
+  tps_stream:
+  description: RHEV-M 3.4
+variant_870:
+  rhel_variant_id: 594
+  rhel_release_id: 27
+  tps_stream:
+  rhn_channel_tmpl:
+  product_id: 55
+  enabled: true
+  cpe:
+  description: RHEV-H and VDSM for 7 Hosts
+  name: 7Server-RHEV-Agents
+  product_version_id: 272
+  id: 870
+variant_941:
+  description: " \tRed Hat Enterprise Linux Desktop (v. 6) \t"
+  rhel_release_id: 44
+  tps_stream: RHEL-6.6-Z-Client
+  product_id: 16
+  product_version_id: 384
+  id: 941
+  rhel_variant_id: 941
+  name: 6Client-6.6.z
+  cpe: " \tcpe:/o:redhat:enterprise_linux:6::client"
+  enabled: true
+  rhn_channel_tmpl:
+variant_942:
+  description: Red Hat Enterprise Linux Desktop Optional (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 942
+  rhel_variant_id: 941
+  name: 6Client-optional-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  enabled: true
+  rhn_channel_tmpl:
+variant_943:
+  description: "z \tRed Hat Enterprise Linux HPC Node (v. 6) \t"
+  rhel_release_id: 44
+  tps_stream: RHEL-6.6-Z-ComputeNode
+  product_id: 16
+  product_version_id: 384
+  id: 943
+  rhel_variant_id: 943
+  name: 6ComputeNode-6.6.z
+  cpe: " \tcpe:/o:redhat:enterprise_linux:6::computenode"
+  enabled: true
+  rhn_channel_tmpl:
+variant_944:
+  description: Red Hat Enterprise Linux HPC Node Optional (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 944
+  rhel_variant_id: 943
+  name: "6ComputeNode-optional-6.6.z \t"
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  enabled: true
+  rhn_channel_tmpl:
+variant_945:
+  description: Red Hat Enterprise Linux Server (v. 6)
+  rhel_release_id: 44
+  tps_stream: RHEL-6.6-Z-Server
+  product_id: 16
+  product_version_id: 384
+  id: 945
+  rhel_variant_id: 945
+  name: 6Server-6.6.z
+  cpe: " \tcpe:/o:redhat:enterprise_linux:6::server"
+  enabled: true
+  rhn_channel_tmpl:
+variant_946:
+  description: Red Hat Enterprise Linux High Availability (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 946
+  rhel_variant_id: 945
+  name: 6Server-HighAvailability-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  enabled: true
+  rhn_channel_tmpl:
+variant_947:
+  description: Red Hat Enterprise Linux Load Balancer (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 947
+  rhel_variant_id: 945
+  name: 6Server-LoadBalancer-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  enabled: true
+  rhn_channel_tmpl:
+variant_948:
+  description: Red Hat Enterprise Linux Server Optional (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 948
+  rhel_variant_id: 945
+  name: 6Server-optional-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  enabled: true
+  rhn_channel_tmpl:
+variant_949:
+  description: Red Hat Enterprise Linux Resilient Storage (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 949
+  rhel_variant_id: 945
+  name: 6Server-ResilientStorage-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  enabled: true
+  rhn_channel_tmpl:
+variant_950:
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 950
+  rhel_variant_id: 945
+  name: 6Server-ScalableFileSystem-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::server
+  enabled: true
+  rhn_channel_tmpl:
+variant_951:
+  description: Red Hat Enterprise Linux Workstation (v. 6)
+  rhel_release_id: 44
+  tps_stream: RHEL-6.6-Z-Workstation
+  product_id: 16
+  product_version_id: 384
+  id: 951
+  rhel_variant_id: 951
+  name: 6Workstation-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  enabled: true
+  rhn_channel_tmpl:
+variant_952:
+  description: Red Hat Enterprise Linux Workstation Optional (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 952
+  rhel_variant_id: 951
+  name: 6Workstation-optional-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  enabled: true
+  rhn_channel_tmpl:
+variant_953:
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 953
+  rhel_variant_id: 951
+  name: 6Workstation-ScalableFileSystem-6.6.z
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  enabled: true
+  rhn_channel_tmpl:
+variant_954:
+  description: Red Hat Enterprise Linux SAP (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 954
+  rhel_variant_id: 945
+  name: 6Server-SAP-6.6.z
+  cpe: cpe:/a:redhat:rhel_extras_sap:6
+  enabled: true
+  rhn_channel_tmpl:
+variant_955:
+  description: Red Hat Enterprise Linux SAP HANA (v. 6)
+  rhel_release_id: 44
+  tps_stream: ""
+  product_id: 16
+  product_version_id: 384
+  id: 955
+  rhel_variant_id: 945
+  name: 6Server-SAPHANA-6.6.z
+  cpe: cpe:/a:redhat:rhel_extras_sap_hana:6
+  enabled: true
+  rhn_channel_tmpl:
+variant_659:
+  product_id: 79
+  description: Red Hat OpenShift Enterprise Node
+  enabled: true
+  tps_stream:
+  cpe: cpe:/a:redhat:openshift:1.2::el6
+  id: 659
+  name: 6Server-RHOSE-NODE-1.2
+  rhn_channel_tmpl:
+  product_version_id: 268
+  rhel_variant_id: 340
+  rhel_release_id: 15
+variant_751:
+  product_id: 16
+  description: Red Hat Enterprise Linux Workstation Optional (v. 6)
+  enabled: true
+  tps_stream:
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  id: 751
+  name: 6Workstation-optional-6.5.z
+  rhn_channel_tmpl:
+  product_version_id: 306
+  rhel_variant_id: 750
+  rhel_release_id: 31
+variant_743:
+  product_id: 16
+  description: Red Hat Enterprise Linux HPC Node Optional (v. 6)
+  enabled: true
+  tps_stream:
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  id: 743
+  name: 6ComputeNode-optional-6.5.z
+  rhn_channel_tmpl:
+  product_version_id: 306
+  rhel_variant_id: 742
+  rhel_release_id: 31
+variant_742:
+  product_id: 16
+  description: Red Hat Enterprise Linux HPC Node (v. 6)
+  enabled: true
+  tps_stream:
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  id: 742
+  name: 6ComputeNode-6.5.z
+  rhn_channel_tmpl:
+  product_version_id: 306
+  rhel_variant_id: 742
+  rhel_release_id: 31
+variant_741:
+  product_id: 16
+  description: Red Hat Enterprise Linux Desktop Optional (v. 6)
+  enabled: true
+  tps_stream:
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  id: 741
+  name: 6Client-optional-6.5.z
+  rhn_channel_tmpl:
+  product_version_id: 306
+  rhel_variant_id: 740
+  rhel_release_id: 31
+variant_740:
+  product_id: 16
+  description: Red Hat Enterprise Linux Desktop (v. 6)
+  enabled: true
+  tps_stream:
+  cpe: cpe:/o:redhat:enterprise_linux:6::client
+  id: 740
+  name: 6Client-6.5.z
+  rhn_channel_tmpl:
+  product_version_id: 306
+  rhel_variant_id: 740
+  rhel_release_id: 31
+variant_806:
+  product_id: 79
+  description: RHOSE Node 2.1
+  enabled: true
+  tps_stream:
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+  id: 806
+  name: 6Server-RHOSE-NODE-2.1
+  rhn_channel_tmpl:
+  product_version_id: 320
+  rhel_variant_id: 340
+  rhel_release_id: 15
+variant_698:
+  product_id: 79
+  description: RHOSE Node 2.0
+  enabled: true
+  tps_stream:
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+  id: 698
+  name: 6Server-RHOSE-NODE-2.0
+  rhn_channel_tmpl:
+  product_version_id: 284
+  rhel_variant_id: 340
+  rhel_release_id: 15
+variant_843:
+  product_id: 16
+  name: 7ComputeNode-7.0.Z
+  rhel_release_id: 41
+  enabled: true
+  rhel_variant_id: 843
+  cpe: cpe:/o:redhat:enterprise_linux:7::computenode
+  id: 843
+  product_version_id: 345
+  tps_stream: ""
+  description: Red Hat Enterprise Linux ComputeNode (v. 7)
+  rhn_channel_tmpl:
+variant_841:
+  product_id: 16
+  name: 7Server-7.0.Z
+  rhel_release_id: 41
+  enabled: true
+  rhel_variant_id: 841
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  id: 841
+  product_version_id: 345
+  tps_stream: ""
+  description: Red Hat Enterprise Linux Server (v. 7)
+  rhn_channel_tmpl:
+variant_845:
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  rhn_channel_tmpl:
+  enabled: true
+  tps_stream: ""
+  id: 845
+  product_id: 16
+  name: 7Server-optional-7.0.Z
+  rhel_release_id: 41
+  description: Red Hat Enterprise Linux Server Optional (v. 7)
+  product_version_id: 345
+  rhel_variant_id: 841
+variant_846:
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  rhn_channel_tmpl:
+  enabled: true
+  tps_stream: ""
+  id: 846
+  product_id: 16
+  name: 7Server-HighAvailability-7.0.Z
+  rhel_release_id: 41
+  description: Red Hat Enterprise Linux Server High Availability (v. 7)
+  product_version_id: 345
+  rhel_variant_id: 841
+variant_847:
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  rhn_channel_tmpl:
+  enabled: true
+  tps_stream: ""
+  id: 847
+  product_id: 16
+  name: 7Server-LoadBalancer-7.0.Z
+  rhel_release_id: 41
+  description: Red Hat Enterprise Linux Server Load Balancer (v. 7)
+  product_version_id: 345
+  rhel_variant_id: 841
+variant_848:
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  rhn_channel_tmpl:
+  enabled: true
+  tps_stream: ""
+  id: 848
+  product_id: 16
+  name: 7Server-ResilientStorage-7.0.Z
+  rhel_release_id: 41
+  description: Red Hat Enterprise Linux Server Resilient Storage (v. 7)
+  product_version_id: 345
+  rhel_variant_id: 841
+variant_849:
+  cpe: cpe:/a:redhat:rhel_extras_sap:7
+  rhn_channel_tmpl:
+  enabled: true
+  tps_stream: ""
+  id: 849
+  product_id: 16
+  name: 7Server-SAP-7.0.Z
+  rhel_release_id: 41
+  description: Red Hat Enterprise Linux for SAP (v. 7)
+  product_version_id: 345
+  rhel_variant_id: 841
+variant_850:
+  cpe: cpe:/o:redhat:enterprise_linux:7::client
+  rhn_channel_tmpl:
+  enabled: true
+  tps_stream: ""
+  id: 850
+  product_id: 16
+  name: 7Client-optional-7.0.Z
+  rhel_release_id: 41
+  description: Red Hat Enterprise Linux Client Optional (v. 7)
+  product_version_id: 345
+  rhel_variant_id: 842
+variant_851:
+  cpe: cpe:/o:redhat:enterprise_linux:7::computenode
+  rhn_channel_tmpl:
+  enabled: true
+  tps_stream: ""
+  id: 851
+  product_id: 16
+  name: 7ComputeNode-optional-7.0.Z
+  rhel_release_id: 41
+  description: Red Hat Enterprise Linux ComputeNode Optional (v. 7)
+  product_version_id: 345
+  rhel_variant_id: 843
+variant_852:
+  cpe: cpe:/o:redhat:enterprise_linux:7::workstation
+  rhn_channel_tmpl:
+  enabled: true
+  tps_stream: ""
+  id: 852
+  product_id: 16
+  name: 7Workstation-optional-7.0.Z
+  rhel_release_id: 41
+  description: Red Hat Enterprise Linux Workstation Optional (v. 7)
+  product_version_id: 345
+  rhel_variant_id: 844
+variant_1023:
+  rhel_variant_id: 1023
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  id: 1023
+  description: Red Hat Enterprise Linux Server (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1024:
+  rhel_variant_id: 1024
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Client-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::client
+  id: 1024
+  description: Red Hat Enterprise Linux Client (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1025:
+  rhel_variant_id: 1025
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7ComputeNode-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::computenode
+  id: 1025
+  description: Red Hat Enterprise Linux ComputeNode (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1026:
+  rhel_variant_id: 1026
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Workstation-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::workstation
+  id: 1026
+  description: Red Hat Enterprise Linux Workstation (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1027:
+  rhel_variant_id: 1023
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-optional-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  id: 1027
+  description: Red Hat Enterprise Linux Server Optional (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1028:
+  rhel_variant_id: 1023
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-HighAvailability-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  id: 1028
+  description: Red Hat Enterprise Linux Server High Availability (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1029:
+  rhel_variant_id: 1023
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-LoadBalancer-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  id: 1029
+  description: Red Hat Enterprise Linux Server Load Balancer (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1030:
+  rhel_variant_id: 1023
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-SAP-7.1.Z
+  enabled: true
+  cpe: cpe:/a:redhat:rhel_extras_sap:7
+  id: 1030
+  description: Red Hat Enterprise Linux for SAP (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1031:
+  rhel_variant_id: 1024
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Client-optional-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::client
+  id: 1031
+  description: Red Hat Enterprise Linux Client Optional (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1032:
+  rhel_variant_id: 1025
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7ComputeNode-optional-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::computenode
+  id: 1032
+  description: Red Hat Enterprise Linux ComputeNode Optional (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1033:
+  rhel_variant_id: 1026
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Workstation-optional-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::workstation
+  id: 1033
+  description: Red Hat Enterprise Linux Workstation Optional (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1034:
+  rhel_variant_id: 1023
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-ResilientStorage-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  id: 1034
+  description: Red Hat Enterprise Linux Server Resilient Storage (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1035:
+  rhel_variant_id: 1023
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-RT-7.1.Z
+  enabled: true
+  cpe: cpe:/a:redhat:rhel_extras_rt:7
+  id: 1035
+  description: Red Hat Enterprise Linux Realtime (v. 7)
+  product_version_id: 417
+  rhn_channel_tmpl:
+variant_1037:
+  rhel_variant_id: 1037
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream:
+  name: 7Server-LE-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  id: 1037
+  description: Red Hat Enterprise Linux Server LE (v. 7)
+  product_version_id: 419
+  rhn_channel_tmpl:
+variant_1038:
+  rhel_variant_id: 1037
+  rhel_release_id: 47
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-optional-LE-7.1.Z
+  enabled: true
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  id: 1038
+  description: Red Hat Enterprise Linux Server Optional LE (v. 7)
+  product_version_id: 419
+  rhn_channel_tmpl:
+variant_990:
+  rhel_variant_id: 594
+  rhel_release_id: 27
+  product_id: 16
+  tps_stream: ""
+  name: 7Server-RT
+  enabled: true
+  cpe: cpe:/a:redhat:rhel_extras_rt:7
+  id: 990
+  description: Red Hat Enterprise Linux Realtime (v. 7)
+  product_version_id: 244
+  rhn_channel_tmpl:
+variant_695:
+  description: RHOSE Client 2.0
+  rhel_variant_id: 340
+  tps_stream:
+  id: 695
+  product_id: 79
+  product_version_id: 284
+  enabled: true
+  name: 6Server-RHOSE-CLIENT-2.0
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_696:
+  description: RHOSE Infrastructure 2.0
+  rhel_variant_id: 340
+  tps_stream:
+  id: 696
+  product_id: 79
+  product_version_id: 284
+  enabled: true
+  name: 6Server-RHOSE-INFRA-2.0
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_697:
+  description: RHOSE JBoss EAP add-on 2.0
+  rhel_variant_id: 340
+  tps_stream:
+  id: 697
+  product_id: 79
+  product_version_id: 284
+  enabled: true
+  name: 6Server-RHOSE-JBOSSEAP-2.0
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_803:
+  description: RHOSE Client 2.1
+  rhel_variant_id: 340
+  tps_stream:
+  id: 803
+  product_id: 79
+  product_version_id: 320
+  enabled: true
+  name: 6Server-RHOSE-CLIENT-2.1
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_804:
+  description: RHOSE Infrastructure 2.1
+  rhel_variant_id: 340
+  tps_stream:
+  id: 804
+  product_id: 79
+  product_version_id: 320
+  enabled: true
+  name: 6Server-RHOSE-INFRA-2.1
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_805:
+  description: RHOSE JBoss EAP add-on 2.1
+  rhel_variant_id: 340
+  tps_stream:
+  id: 805
+  product_id: 79
+  product_version_id: 320
+  enabled: true
+  name: 6Server-RHOSE-JBOSSEAP-2.1
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_962:
+  description: RHOSE JBoss FUSE 2.1
+  rhel_variant_id: 340
+  tps_stream: ""
+  id: 962
+  product_id: 79
+  product_version_id: 320
+  enabled: true
+  name: 6Server-RHOSE-JBOSSFUSE-2.1
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: ""
+variant_963:
+  description: RHOSE JBoss A-MQ 2.1
+  rhel_variant_id: 340
+  tps_stream: ""
+  id: 963
+  product_id: 79
+  product_version_id: 320
+  enabled: true
+  name: 6Server-RHOSE-JBOSSAMQ-2.1
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: ""
+variant_908:
+  description: RHOSE Client 2.2
+  rhel_variant_id: 340
+  tps_stream: ""
+  id: 908
+  product_id: 79
+  product_version_id: 368
+  enabled: true
+  name: 6Server-RHOSE-CLIENT-2.2
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_909:
+  description: RHOSE Infrastructure 2.2
+  rhel_variant_id: 340
+  tps_stream: ""
+  id: 909
+  product_id: 79
+  product_version_id: 368
+  enabled: true
+  name: 6Server-RHOSE-INFRA-2.2
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_910:
+  description: RHOSE JBoss EAP add-on 2.2
+  rhel_variant_id: 340
+  tps_stream: ""
+  id: 910
+  product_id: 79
+  product_version_id: 368
+  enabled: true
+  name: 6Server-RHOSE-JBOSSEAP-2.2
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_911:
+  description: RHOSE Node 2.2
+  rhel_variant_id: 340
+  tps_stream: ""
+  id: 911
+  product_id: 79
+  product_version_id: 368
+  enabled: true
+  name: 6Server-RHOSE-NODE-2.2
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: cpe:/a:redhat:openshift:2.0::el6
+variant_986:
+  description: RHOSE JBoss A-MQ add-on 2.2
+  rhel_variant_id: 340
+  tps_stream: ""
+  id: 986
+  product_id: 79
+  product_version_id: 368
+  enabled: true
+  name: 6Server-RHOSE-JBOSSAMQ-2.2
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: ""
+variant_987:
+  description: RHOSE JBoss FUSE add-on 2.2
+  rhel_variant_id: 340
+  tps_stream: ""
+  id: 987
+  product_id: 79
+  product_version_id: 368
+  enabled: true
+  name: 6Server-RHOSE-JBOSSFUSE-2.2
+  rhn_channel_tmpl:
+  rhel_release_id: 15
+  cpe: ""
+variant_1039:
+  name: 7Server-SA-7.1.Z
+  rhel_variant_id: 1039
+  rhn_channel_tmpl:
+  product_version_id: 1419
+  enabled: true
+  rhel_release_id: 47
+  id: 1039
+  description: Red Hat Enterprise Linux Server SA (v. 7)
+  product_id: 16
+  tps_stream:
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+variant_1040:
+  name: 7Server-optional-SA-7.1.Z
+  rhel_variant_id: 1039
+  rhn_channel_tmpl:
+  product_version_id: 1419
+  enabled: true
+  rhel_release_id: 47
+  id: 1040
+  description: Red Hat Enterprise Linux Server Optional SA (v. 7)
+  product_id: 16
+  tps_stream:
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+variant_1065:
+  name: 7Server-Supplementary-LE-7.1.Z-Server
+  rhel_variant_id: 1037
+  rhn_channel_tmpl:
+  product_version_id: 854
+  enabled: true
+  rhel_release_id: 47
+  id: 1065
+  description: Red Hat Enterprise Linux Server Supplementary (v. 7)
+  product_id: 112
+  tps_stream:
+  cpe: cpe:/a:redhat:rhel_extras:7
+variant_1072:
+  name: 7Server-7.1.Z-Server
+  rhel_variant_id: 1023
+  rhn_channel_tmpl:
+  product_version_id: 784
+  enabled: true
+  rhel_release_id: 47
+  id: 1072
+  description: Red Hat Enterprise Linux Server Supplementary (v. 7)
+  product_id: 112
+  tps_stream:
+  cpe: cpe:/a:redhat:rhel_extras:7
+variant_641:
+  rhel_variant_id: 344
+  rhel_release_id: 15
+  product_id: 16
+  description: Red Hat Enterprise Linux Scalable File System (v. 6)
+  tps_stream:
+  enabled: true
+  id: 641
+  name: 6ComputeNode-ScalableFileSystem
+  rhn_channel_tmpl:
+  cpe: cpe:/o:redhat:enterprise_linux:6::computenode
+  product_version_id: 149
+variant_813:
+  rhel_variant_id: 340
+  rhel_release_id: 15
+  product_id: 16
+  description: Red Hat Enterprise Linux for SAP HANA (v. 6)
+  tps_stream:
+  enabled: true
+  id: 813
+  name: 6Server-SAPHANA
+  rhn_channel_tmpl:
+  cpe: cpe:/a:redhat:rhel_extras_sap_hana:6
+  product_version_id: 149
+variant_853:
+  rhel_variant_id: 340
+  rhel_release_id: 15
+  product_id: 74
+  description: Red Hat Storage Server 3
+  tps_stream: ""
+  enabled: true
+  id: 853
+  name: 6Server-RHS-Server-3
+  rhn_channel_tmpl:
+  cpe: cpe:/a:redhat:storage:3:server:el6
+  product_version_id: 334
+variant_855:
+  rhel_variant_id: 340
+  rhel_release_id: 15
+  product_id: 74
+  description: Red Hat Storage Console 3
+  tps_stream: ""
+  enabled: true
+  id: 855
+  name: 6Server-RHS-Console-3
+  rhn_channel_tmpl:
+  cpe: cpe:/a:redhat:storage:3:console:el6
+  product_version_id: 334
+variant_856:
+  rhel_variant_id: 340
+  rhel_release_id: 15
+  product_id: 74
+  description: RHS Native Client for RHEL 6
+  tps_stream: ""
+  enabled: true
+  id: 856
+  name: 6Server-RHS-Client-3
+  rhn_channel_tmpl:
+  cpe: cpe:/a:redhat:storage:3:client:el6
+  product_version_id: 334
+variant_871:
+  rhel_variant_id: 340
+  rhel_release_id: 15
+  product_id: 74
+  description: Red Hat Storage Big Data 3
+  tps_stream: ""
+  enabled: true
+  id: 871
+  name: 6Server-RHS-BigData-3
+  rhn_channel_tmpl:
+  cpe: cpe:/a:redhat:storage:3:bigdata:el6
+  product_version_id: 334
+variant_901:
+  rhel_variant_id: 340
+  rhel_release_id: 15
+  product_id: 74
+  description: Red Hat Storage Nagios Server 3
+  tps_stream: ""
+  enabled: true
+  id: 901
+  name: 6Server-RHS-Nagios-Server-3
+  rhn_channel_tmpl:
+  cpe: ""
+  product_version_id: 334
+variant_1022:
+  rhel_variant_id: 340
+  rhel_release_id: 15
+  product_id: 74
+  description: RedHat Gluster 3 Samba
+  tps_stream: ""
+  enabled: true
+  id: 1022
+  name: 6Server-RH-Gluster-3-Samba
+  rhn_channel_tmpl:
+  cpe: cpe:/a:redhat:storage:3:samba:el6
+  product_version_id: 334
+variant_890:
+  rhel_variant_id: 340
+  rhel_release_id: 15
+  product_id: 55
+  description: RHEV-M 3.5
+  tps_stream: ""
+  enabled: true
+  id: 890
+  name: 6Server-RHEV-S-3.5
+  rhn_channel_tmpl:
+  cpe: cpe:/a:redhat:rhev_manager:3
+  product_version_id: 358
+variant_610:
+  product_version_id: 249
+  product_id: 41
+  rhel_variant_id: 594
+  enabled: true
+  cpe: cpe:/a:redhat:jboss_enterprise_application_platform:6::el7
+  description: Red Hat JBoss Enterprise Application Platform 6 for RHEL 7 Server
+  rhel_release_id: 27
+  tps_stream:
+  id: 610
+  name: 7Server-JBEAP-6
+  rhn_channel_tmpl:
+variant_668:
+  product_version_id: 149
+  tps_stream:
+  rhn_channel_tmpl:
+  enabled: true
+  product_id: 16
+  cpe: cpe:/a:redhat:rhel_extras_sap:6
+  name: 6Server-SAP
+  rhel_release_id: 15
+  description: Red Hat Enterprise Linux SAP (v. 6)
+  id: 668
+  rhel_variant_id: 340
+variant_669:
+  product_version_id: 149
+  tps_stream:
+  rhn_channel_tmpl:
+  enabled: true
+  product_id: 16
+  cpe: cpe:/a:redhat:rhel_extras_hpn:6
+  name: 6Server-HPN
+  rhel_release_id: 15
+  description: Red Hat Enterprise Linux High Performance Networking (v. 6)
+  id: 669
+  rhel_variant_id: 340
+variant_670:
+  product_version_id: 149
+  tps_stream:
+  rhn_channel_tmpl:
+  enabled: true
+  product_id: 16
+  cpe: cpe:/a:redhat:rhel_extras_hpn:6
+  name: 6ComputeNode-HPN
+  rhel_release_id: 15
+  description: Red Hat Enterprise Linux High Performance Networking (v. 6)
+  id: 670
+  rhel_variant_id: 344
+variant_1161:
+  product_version_id: 244
+  tps_stream: ""
+  rhn_channel_tmpl:
+  enabled: true
+  product_id: 16
+  cpe: cpe:/a:redhat:rhel_extras_sap_hana:7
+  name: 7Server-SAPHANA
+  rhel_release_id: 27
+  description: Red Hat Enterprise Linux for SAP HANA (v. 7)
+  id: 1161
+  rhel_variant_id: 594
+variant_1191:
+  product_version_id: 468
+  id: 1191
+  rhel_variant_id: 1191
+  enabled: true
+  tps_stream: RHEL-7.1-Z-Server
+  product_id: 16
+  rhn_channel_tmpl:
+  description: Red Hat Enterprise Linux Server EUS (v. 7.1)
+  cpe: cpe:/o:redhat:rhel_eus:7.1::server
+  name: 7Server-7.1.EUS
+  rhel_release_id: 52
+variant_1193:
+  product_version_id: 468
+  id: 1193
+  rhel_variant_id: 1193
+  enabled: true
+  tps_stream: RHEL-7.1-Z-ComputeNode
+  product_id: 16
+  rhn_channel_tmpl:
+  description: Red Hat Enterprise Linux ComputeNode EUS (v. 7.1)
+  cpe: cpe:/o:redhat:rhel_eus:7.1::computenode
+  name: 7ComputeNode-7.1.EUS
+  rhel_release_id: 52
+variant_1195:
+  product_version_id: 468
+  id: 1195
+  rhel_variant_id: 1191
+  enabled: true
+  tps_stream: ""
+  product_id: 16
+  rhn_channel_tmpl:
+  description: Red Hat Enterprise Linux Server Optional EUS (v. 7.1)
+  cpe: cpe:/o:redhat:rhel_eus:7.1::server
+  name: 7Server-optional-7.1.EUS
+  rhel_release_id: 52
+variant_1196:
+  product_version_id: 468
+  id: 1196
+  rhel_variant_id: 1193
+  enabled: true
+  tps_stream: ""
+  product_id: 16
+  rhn_channel_tmpl:
+  description: Red Hat Enterprise Linux ComputeNode Optional EUS (v. 7.1)
+  cpe: cpe:/o:redhat:rhel_eus:7.1::computenode
+  name: 7ComputeNode-optional-7.1.EUS
+  rhel_release_id: 52
+variant_1197:
+  product_version_id: 468
+  id: 1197
+  rhel_variant_id: 1191
+  enabled: true
+  tps_stream: ""
+  product_id: 16
+  rhn_channel_tmpl:
+  description: Red Hat Enterprise Linux Server High Availability EUS (v. 7.1)
+  cpe: cpe:/o:redhat:rhel_eus:7.1::server
+  name: 7Server-HighAvailability-7.1.EUS
+  rhel_release_id: 52
+variant_1198:
+  product_version_id: 468
+  id: 1198
+  rhel_variant_id: 1191
+  enabled: true
+  tps_stream: ""
+  product_id: 16
+  rhn_channel_tmpl:
+  description: Red Hat Enterprise Linux Server Resilient Storage EUS (v. 7.1)
+  cpe: cpe:/o:redhat:rhel_eus:7.1::server
+  name: 7Server-ResilientStorage-7.1.EUS
+  rhel_release_id: 52
+variant_1136:
+  product_version_id: 449
+  id: 1136
+  rhel_variant_id: 1131
+  enabled: true
+  tps_stream: ""
+  product_id: 23
+  rhn_channel_tmpl:
+  description: Red Hat Enterprise Linux Workstation Supplementary (v. 6)
+  cpe: cpe:/a:redhat:rhel_extras:6
+  name: 6Workstation-Supplementary-6.7.z
+  rhel_release_id: 46
+variant_1131:
+  product_version_id: 403
+  id: 1131
+  rhel_variant_id: 1131
+  enabled: true
+  tps_stream: ""
+  product_id: 16
+  rhn_channel_tmpl:
+  description: Red Hat Enterprise Linux Workstation (v. 6)
+  cpe: cpe:/o:redhat:enterprise_linux:6::workstation
+  name: 6Workstation-6.7.z
+  rhel_release_id: 46
+variant_888:
+  id: 888
+  product_id: 102
+  name: 7Server-EXTRAS
+  description: Red Hat Enterprise Linux 7 Extras
+  rhn_channel_tmpl:
+  product_version_id: 357
+  rhel_variant_id: 594
+  rhel_release_id: 27
+  cpe: cpe:/a:redhat:rhel_extras_other:7
+  enabled: true
+  tps_stream: ""
+variant_1440:
+  id: 1440
+  product_id: 102
+  name: 7Workstation-EXTRAS
+  description: Red Hat Enterprise Linux 7 Extras
+  rhn_channel_tmpl:
+  product_version_id: 357
+  rhel_variant_id: 640
+  rhel_release_id: 27
+  cpe: cpe:/a:redhat:rhel_extras_other:7
+  enabled: true
+  tps_stream: ""
+variant_1173:
+  id: 1173
+  product_id: 16
+  name: 7Client-7.2.Z
+  description: Red Hat Enterprise Linux Client (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1173
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::client
+  enabled: true
+  tps_stream: RHEL-7-Main-Client
+variant_1174:
+  id: 1174
+  product_id: 16
+  name: 7Client-optional-7.2.Z
+  description: Red Hat Enterprise Linux Client Optional (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1173
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::client
+  enabled: true
+  tps_stream: ""
+variant_1175:
+  id: 1175
+  product_id: 16
+  name: 7ComputeNode-7.2.Z
+  description: Red Hat Enterprise Linux ComputeNode (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1175
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::computenode
+  enabled: true
+  tps_stream: RHEL-7-Main-ComputeNode
+variant_1176:
+  id: 1176
+  product_id: 16
+  name: 7ComputeNode-optional-7.2.Z
+  description: Red Hat Enterprise Linux ComputeNode Optional (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1175
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::computenode
+  enabled: true
+  tps_stream: ""
+variant_1177:
+  id: 1177
+  product_id: 16
+  name: 7Server-7.2.Z
+  description: Red Hat Enterprise Linux Server (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1177
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  enabled: true
+  tps_stream: RHEL-7-Main-Server
+variant_1178:
+  id: 1178
+  product_id: 16
+  name: 7Workstation-7.2.Z
+  description: Red Hat Enterprise Linux Workstation (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1178
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::workstation
+  enabled: true
+  tps_stream: RHEL-7-Main-Workstation
+variant_1179:
+  id: 1179
+  product_id: 16
+  name: 7Workstation-optional-7.2.Z
+  description: Red Hat Enterprise Linux Workstation Optional (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1178
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::workstation
+  enabled: true
+  tps_stream: ""
+variant_1180:
+  id: 1180
+  product_id: 16
+  name: 7Server-optional-7.2.Z
+  description: Red Hat Enterprise Linux Server Optional (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1177
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  enabled: true
+  tps_stream: ""
+variant_1181:
+  id: 1181
+  product_id: 16
+  name: 7Server-HighAvailability-7.2.Z
+  description: Red Hat Enterprise Linux Server High Availability (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1177
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  enabled: true
+  tps_stream: ""
+variant_1182:
+  id: 1182
+  product_id: 16
+  name: 7Server-SAP-7.2.Z
+  description: Red Hat Enterprise Linux for SAP (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1177
+  rhel_release_id: 51
+  cpe: cpe:/a:redhat:rhel_extras_sap:7
+  enabled: true
+  tps_stream: ""
+variant_1183:
+  id: 1183
+  product_id: 16
+  name: 7Server-ResilientStorage-7.2.Z
+  description: Red Hat Enterprise Linux Server Resilient Storage (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1177
+  rhel_release_id: 51
+  cpe: cpe:/o:redhat:enterprise_linux:7::server
+  enabled: true
+  tps_stream: ""
+variant_1184:
+  id: 1184
+  product_id: 16
+  name: 7Server-RT-7.2.Z
+  description: Red Hat Enterprise Linux Realtime (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1177
+  rhel_release_id: 51
+  cpe: cpe:/a:redhat:rhel_extras_rt:7
+  enabled: true
+  tps_stream: ""
+variant_1213:
+  id: 1213
+  product_id: 16
+  name: 7Server-SAPHANA-7.2.Z
+  description: " \tRed Hat Enterprise Linux for SAP HANA (v. 7)"
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1177
+  rhel_release_id: 51
+  cpe: cpe:/a:redhat:rhel_extras_sap_hana:7
+  enabled: true
+  tps_stream: ""
+variant_1336:
+  id: 1336
+  product_id: 16
+  name: 7Server-NFV-7.2.Z
+  description: Red Hat Enterprise Linux for Real Time for NFV (v. 7)
+  rhn_channel_tmpl:
+  product_version_id: 467
+  rhel_variant_id: 1177
+  rhel_release_id: 51
+  cpe: cpe:/a:redhat:rhel_extras_rt:7
+  enabled: true
+  tps_stream: ""
+variant_1277: 
+  id: 1277
+  product_id: 104
+  name: 7Server-RH7-CEPH-MON-2
+  description: Red Hat Ceph Storage MON 2
+  rhn_channel_tmpl: 
+  product_version_id: 509
+  rhel_variant_id: 594
+  rhel_release_id: 27
+  cpe: cpe:/a:redhat:ceph_storage:2::el7
+  enabled: true
+  tps_stream: ""
+variant_1278:
+  id: 1278
+  product_id: 104
+  name: 7Server-RH7-CEPH-OSD-2
+  description: Red Hat Ceph Storage OSD 2
+  rhn_channel_tmpl:
+  product_version_id: 509
+  rhel_variant_id: 594
+  rhel_release_id: 27
+  cpe: cpe:/a:redhat:ceph_storage:2::el7
+  enabled: true
+  tps_stream: ""

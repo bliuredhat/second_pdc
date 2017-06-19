@@ -1,0 +1,17 @@
+# HTTP 400
+{
+  "errors": {
+    "RHBA-2011:10808 cdn": [
+      "is currently not an applicable push target for RHBA-2011:10808"
+    ],
+    "RHBA-2011:10808 rhn_stage": [
+      "Can't push advisory to Rhn Stage now due to: Packages are not signed, State invalid. Must be one of: QE, REL_PREP, PUSH_READY, SHIPPED_LIVE"
+    ],
+    "RHSA-2011:10893 cdn": [
+      "Can't push advisory to Cdn Live now due to: This errata cannot be pushed to RHN Live, thus may not be pushed to CDN"
+    ],
+    "RHSA-2011:10893 rhn_stage": [
+      "Can't push advisory to Rhn Stage now due to: Packages are not signed, TPS testing incomplete, State invalid. Must be one of: QE, REL_PREP, PUSH_READY, SHIPPED_LIVE"
+    ]
+  }
+}

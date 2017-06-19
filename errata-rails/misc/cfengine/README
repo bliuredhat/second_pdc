@@ -1,0 +1,20 @@
+This directory contains a subset of the configuration managed by cfengine
+on Errata Tool environments.
+
+This may be used to log and review cfengine changes.
+For example, if working on a bug which involves cfengine changes:
+
+- Modify cfengine files in this directory
+- Push to gerrit, set bug to POST
+- After approved, merge it, set bug to MODIFIED
+- Before the bug moves to ON_QA, ask eng-ops to deploy changes to devel
+  and qe environments
+- Let QE test it
+- After bug moves to VERIFIED, ask eng-ops to deploy changes to staging
+  and production environments
+
+Note this assumes it's OK to perform the cfengine changes earlier than the
+next Errata Tool release.
+
+WARNING: this is not the authoritative source for the cfengine configuration.
+The files in this directory might be outdated.

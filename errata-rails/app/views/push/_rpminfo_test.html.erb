@@ -1,0 +1,4 @@
+<rpminfo_test id="<%= rpminfo_test.id %>"  version="<%= test.oval_version %>" comment="<%= rpminfo_test.comment %>" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="<%= rpminfo_test.rpm_object.id %>" />
+  <state state_ref="<%= rpminfo_test.state.id %>" />
+</rpminfo_test>

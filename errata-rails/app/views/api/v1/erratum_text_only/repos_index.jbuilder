@@ -1,0 +1,1 @@
+json.partial! 'channel_or_repo_list', :dist_type => :repo

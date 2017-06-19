@@ -1,0 +1,26 @@
+<%#
+  #
+  # Trying some bootstrap 12 col layout.
+  # (Trying to not use tables for once... ;)
+  # See http://twitter.github.com/bootstrap/scaffolding.html
+  #
+-%>
+<div class="row">
+  <div class="span12" style="border-bottom:1px solid #ddd;padding-bottom:1em;">
+    <table style="width:100%" class="compact smaller">
+      <%= table_rows_helper(errata_details_tabular(:detail_main, @errata), :labels=>true) %>
+    </table>
+  </div>
+</div>
+<div class="row" style="padding-bottom:1em;">
+  <div class="span8" style="padding-top:1em;border-right:1px solid #ddd;padding-right:1em;">
+    <table style="width:100%" class="compact smaller">
+      <%= table_rows_helper(errata_details_tabular(:detail_qe, @errata), :labels=>true) %>
+    </table>
+  </div>
+  <div class="span4" style="padding-top:1em;">
+    <table style="width:100%" class="compact smaller">
+      <%= table_rows_helper(errata_details_tabular(:detail_date, @errata), :labels=>true) %>
+    </table>
+  </div>
+</div>

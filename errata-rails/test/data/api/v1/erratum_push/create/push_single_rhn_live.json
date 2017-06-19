@@ -1,0 +1,38 @@
+# HTTP 201
+[
+  {
+    "errata": {
+      "id": 10836
+    },
+    "id": "<some id>",
+    "log": "<some log>",
+    "options": {
+      "priority": 22,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "check_error",
+      "mark_errata_shipped",
+      "move_pushed_errata",
+      "update_bugzilla",
+      "update_jira",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_issue_date",
+      "set_live_id",
+      "set_update_date"
+    ],
+    "pub_task": {
+      "id": 100000
+    },
+    "status": "WAITING_ON_PUB",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "<some url>"
+  }
+]

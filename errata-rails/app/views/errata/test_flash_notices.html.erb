@@ -1,0 +1,41 @@
+<div class="btn-toolbar">
+  <div class="btn-group">
+    <%= link_to 'none',  {:action=>params[:action]}, :class=>'btn' %>
+  </div>
+</div>
+
+<div class="btn-toolbar">
+  <% for mode in %w[normal redir] do %>
+    <div class="btn-group">
+      <% for flash_type in %w[notice alert error] do %>
+        <%= link_to "#{flash_type} #{mode}", {:action=>params[:action], :flash_type=>flash_type, :mode=>mode}, :class=>'btn' %>
+      <% end %>
+    </div>
+  <% end %>
+</div>
+
+<div class="btn-toolbar">
+  <% for mode in %w[ajax nofade] do %>
+    <div class="btn-group">
+      <% for flash_type in %w[notice alert error] do %>
+        <%= link_to "#{flash_type} #{mode}", {:action=>params[:action], :flash_type=>flash_type, :mode=>mode}, :class=>'btn', :remote=>true %>
+      <% end %>
+    </div>
+  <% end %>
+</div>
+
+<div class="btn-toolbar">
+  <div class="btn-group">
+    <%= link_to "html test", {:action=>params[:action], :flash_type=>'notice', :mode=>'html_test'}, :class=>'btn' %>
+  </div>
+</div>
+
+<div class="btn-toolbar">
+  <div class="btn-group">
+    <% for flash_type in %w[notice alert error] do %>
+      <%= link_to "#{flash_type} multi", {:action=>params[:action], :flash_type=>flash_type, :mode=>'multi'}, :class=>'btn' %>
+    <% end %>
+  </div>
+</div>
+
+<div class="small light" style="margin-top:4em;"><%= flash.inspect %></div>

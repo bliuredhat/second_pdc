@@ -1,0 +1,5 @@
+<%= table_rows_helper([
+  [ 'Name',     default_solution.title ],
+  [ 'Text',     content_tag(:div, default_solution.text, :style=>'white-space:pre;') ],
+  [ 'Current?', yes_no_icon_and_text(default_solution.active?) ],
+], :labels=>true) %>

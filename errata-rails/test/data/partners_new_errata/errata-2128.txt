@@ -1,0 +1,32 @@
+Reply-To: partner-reporting@redhat.com
+To: partner-testing@redhat.com
+Subject: Errata Request RHBA-2005:324 - GFS bug fix update is now available for partner testing.
+X-ErrataTool-Component: ERRATA
+X-ErrataTool-Action: NEW-QA-REQUEST
+
+Errata Request RHBA-2005:324 - GFS bug fix update is now available for parner testing.
+Target Release: ASYNC
+
+This advisory fixes the following bugs:
+
+130358- lock_gulm.o verbosity is not configurable
+
+131142- unable to select which interface to bind to from lock_gulmd
+
+145121- ccsd can get stuck on startup with zombie child
+
+146672- Node panic doing a writev()
+
+150029- Pool does not see all powerpath devices
+
+150365- gnbd init.d scripts needed
+
+150366- lock_gulm needs to start before gnbd_import and gnbd_export
+
+The following updated packages are available for this advisory:
+
+
+Please send test results to: partner-reporting@redhat.com. Bugs or regressions found during testing should be reported in the same way you currently report issues found in RHEL products, for example, Issue Tracker or Bugzilla.
+
+REMINDER:
+All information contained in this email, including the packages referenced, are covered by strict NDA and should not, under any circumstances, be disclosed, transmitted, or otherwise communicated to customers or any other third party.

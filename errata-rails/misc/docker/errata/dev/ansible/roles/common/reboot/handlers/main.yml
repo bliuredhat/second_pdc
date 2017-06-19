@@ -1,0 +1,62 @@
+- name: wait for host to shutdown
+  local_action:
+    wait_for host={{ hostvars[inventory_hostname].ansible_ssh_host }}
+        port={{ hostvars[inventory_hostname].ansible_ssh_port | default(22) }}
+        state=stopped delay=5 timeout=300
+  register: host_stopped
+  changed_when: True
+  failed_when: False
+  notify:
+    - check uptime
+    - print uptime
+    - grep reboot
+    - print grep reboot
+    - fail if not shutdown
+
+- name: print host stopped register
+  debug: var=host_stopped
+
+- name: wait for host to boot
+  sudo: no
+  local_action: wait_for host={{ hostvars[inventory_hostname].ansible_ssh_host }}
+        port={{ hostvars[inventory_hostname].ansible_ssh_port | default(22) }}
+        state=started delay=10 timeout=600
+
+- name: wait for ssh service
+  pause: seconds=120
+
+- name: check uptime
+  command: uptime
+  register: uptime
+
+- name: print uptime
+  debug: var=uptime.stdout_lines
+
+- name: grep reboot
+  sudo: yes
+  command: grep 'ANSIBLE REBOOT' -A 5 -B 2 /var/log/messages
+  register: reboot_grep
+
+- name: print grep reboot
+  debug: var=reboot_grep.stdout_lines
+
+- name: fail if not shutdown
+  fail: msg="Host not actually shut down"
+  when: "'Timeout' in host_stopped.msg and host_stopped.msg is defined"
+
+- name: reload facts
+  action: setup
+
+- name: try pinging hostname
+  shell: ping -c3 -q {{ ansible_fqdn }}
+  ignore_errors: yes
+  register: ping_hostname
+
+- name: ensure hostname reachable
+  sudo: yes
+  lineinfile: dest=/etc/hosts regexp='.*{{ inventory_hostname }}$'
+    line='{{ item }} {{ ansible_fqdn}} {{inventory_hostname }} ' state=present
+  when: ping_hostname|failed and item is defined
+  with_items:
+    - "{{ ansible_default_ipv4.address }}"
+    - 127.0.0.1

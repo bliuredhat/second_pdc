@@ -1,0 +1,13 @@
+---
+level_1:
+  id: 1
+  id_jira: 10001
+  name: Red Hat Internal
+level_2:
+  id: 2
+  id_jira: 10002
+  name: Security Team
+level_3:
+  id: 3
+  id_jira: 10003
+  name: Other Team

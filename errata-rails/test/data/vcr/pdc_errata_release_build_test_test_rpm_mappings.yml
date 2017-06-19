@@ -1,0 +1,48 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/releases/ceph-2.1-updates@rhel-7/rpm-mapping/ceph/
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 08 Feb 2017 13:16:44 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 08 Feb 2017 13:17:14 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 08 Feb 2017 13:16:44 GMT
+      Allow: 
+      - GET, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"compose\":\"RHCEPH-2.1-RHEL-7-20161208.t.1\",\"mapping\":{\"MON\":{\"x86_64\":{\"librgw2\":[\"x86_64\"],\"ceph-base\":[\"x86_64\"],\"libcephfs1-devel\":[\"x86_64\"],\"librbd1\":[\"x86_64\"],\"ceph-debuginfo\":[\"x86_64\"],\"ceph-selinux\":[\"x86_64\"],\"python-rados\":[\"x86_64\"],\"python-cephfs\":[\"x86_64\"],\"ceph-common\":[\"x86_64\"],\"librgw2-devel\":[\"x86_64\"],\"ceph\":[\"src\"],\"librbd1-devel\":[\"x86_64\"],\"python-rbd\":[\"x86_64\"],\"ceph-test\":[\"x86_64\"],\"librados2\":[\"x86_64\"],\"librados2-devel\":[\"x86_64\"],\"ceph-mon\":[\"x86_64\"],\"libcephfs1\":[\"x86_64\"]}},\"OSD\":{\"x86_64\":{\"librgw2\":[\"x86_64\"],\"ceph-base\":[\"x86_64\"],\"libcephfs1-devel\":[\"x86_64\"],\"librbd1\":[\"x86_64\"],\"ceph-debuginfo\":[\"x86_64\"],\"ceph-selinux\":[\"x86_64\"],\"python-rados\":[\"x86_64\"],\"python-cephfs\":[\"x86_64\"],\"ceph-common\":[\"x86_64\"],\"librgw2-devel\":[\"x86_64\"],\"ceph\":[\"src\"],\"librbd1-devel\":[\"x86_64\"],\"python-rbd\":[\"x86_64\"],\"ceph-test\":[\"x86_64\"],\"librados2\":[\"x86_64\"],\"librados2-devel\":[\"x86_64\"],\"ceph-osd\":[\"x86_64\"],\"libcephfs1\":[\"x86_64\"]}}}}"
+    http_version: 
+  recorded_at: Wed, 08 Feb 2017 13:16:44 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "batch_id": [
+      "batch not found with id = 88888888, 88888889"
+    ]
+  }
+}

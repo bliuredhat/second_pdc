@@ -1,0 +1,21 @@
+#!/bin/sh
+if [ $# -ne 3 ]; then
+  echo "Usage: $0 <jenkins-url> <node-name> <node-secret>"
+  echo ""
+  echo "  jenkins-url: base HTTP or HTTPS URL of Jenkins"
+  echo "  node-name: Jenkins node name"
+  echo "  node-secret: Secret token displayed in Jenkins node management UI"
+  exit 3
+fi 1>&2
+
+set -e
+
+chown root:root /var/lib/jenkins
+cd /var/lib/jenkins
+echo JENK="$1" > .jenkinsrc
+echo NAME="$2" >> .jenkinsrc
+echo SECRET="$3" >> .jenkinsrc
+
+cd /
+chown jenkins:jenkins /var/lib/jenkins /var/lib/jenkins/.jenkinsrc
+exec /usr/sbin/init --system --unit=jenkins-slave.service --default-standard-output=journal+console --default-standard-error=journal+console

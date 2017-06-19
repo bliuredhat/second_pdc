@@ -1,0 +1,78 @@
+<%= form_tag({ :action => 'update_preferences', :controller => 'user', :id => @user.id }, :class=>'form-horizontal') do %>
+
+  <%= block_render 'shared/pretty_form_container', :submit_name => 'Update' do %>
+    <div class="control-group">
+
+      <br/>
+      <div class="control-label">Default search filter</div>
+      <div class="controls">
+        <%= select_tag \
+            'user[preferences][default_filter_id]',
+            options_from_collection_for_select(@system_filters + @user_filters, :id, :name, @user.preferences[:default_filter_id]) %>
+        <br/>
+        <span class="light small">
+          This filter will be applied by default when viewing the main
+          <%= link_to 'advisories', :controller => :errata, :action => :index %> page.
+        </span>
+      </div>
+
+      <%= render 'prefs_checkbox', :pref => :full_width_layout, :title => 'Wide Layout', :descr =>
+        "Use the full width layout instead of the default limited width layout." %>
+
+      <%= render 'prefs_checkbox', :pref => :comments_newest_first, :title => 'New Comments First', :descr =>
+        "Sort comments with newest comments at the top and oldest comments at the bottom." %>
+
+      <br/>
+      <div class="control-label">Comment Collapse Options</div>
+      <div class="controls">
+        <%
+          [
+            ['default',  'Default (collapse non-current comment groups)'],
+            ['expand',   'Expand all comment groups'],
+            ['collapse', 'Collapse all comment groups']
+          ].each do |opt,text|
+            %><%= radio_button_tag "user[preferences][comment_collapse_opt]", opt, user_pref(:comment_collapse_opt) == opt %> <%= text %><br/><%
+          end
+        %>
+      </div>
+
+      <%= render 'prefs_checkbox', :pref => :shorten_bug_list, :title => 'Shorten Long Bug Lists', :descr =>
+        "When checked, advisories with #{Settings.shorten_bug_list_threshold} or more bugs will initially display only " +
+        "the first #{Settings.shorten_bug_list_length} bugs on the advisory summary page." %>
+
+      <%= render 'prefs_checkbox', :pref => :dont_shorten_builds_list, :title => "Don't Shorten Long Builds Lists", :descr =>
+        "By default, advisories with #{Settings.shorten_builds_list_threshold} or more builds will initially display only " +
+        "the first #{Settings.shorten_builds_list_length} builds on the advisory summary page. Check this to always show the full list." %>
+
+      <%= render 'prefs_checkbox', :pref => :workflow_hide_complete, :title => 'Hide Complete Approval Steps', :descr =>
+        "Check this to initially hide completed workflow steps under Approval Progress on the advisory summary page." %>
+
+      <%= render 'prefs_checkbox', :pref => :workflow_hide_fully, :title => 'Approval Progress Starts Hidden', :descr =>
+        "If you don't need the 'Approval Progress' at all, check this to have it start hidden." %>
+
+      <%= render 'prefs_checkbox', :pref => :add_cc_unchecked, :title => "'Add me to cc' unchecked by default", :descr =>
+        "Check this if you prefer the 'Add me to cc' checkbox to be unchecked by default when adding an advisory comment." %>
+
+      <%= render 'prefs_checkbox', :pref => :omit_cc_on_add_build, :title => "Don't add me to CC when adding builds", :descr =>
+        "By default, adding a build to an advisory automatically adds you to the
+         advisory CC list.  Check this if you prefer not to be added to CC." %>
+
+      <%= render 'prefs_checkbox', :pref => :show_full_info, :title => 'More Details in Summary', :descr =>
+        "In the Information section in the advisory summary page, initially show the more detailed advisory
+           information rather than the default abbreviated information." %>
+
+      <br/>
+      <div class="control-label">Color Scheme</div>
+      <div class="controls">
+        <%= select_tag \
+            'user[preferences][color_scheme]',
+            options_for_select(color_schemes_for_select, color_scheme_helper(:allow_blank=>true)), :include_blank=>'(default)' %>
+        <br/>
+        <span class="light small">Choose your preferred color for the the main menu bar.</span>
+      </div>
+
+    </div>
+
+  <% end %>
+
+<% end %>

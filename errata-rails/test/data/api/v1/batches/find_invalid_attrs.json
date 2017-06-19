@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "codes": [
+      "invalid_filter"
+    ],
+    "params": [
+      "foo"
+    ]
+  }
+}

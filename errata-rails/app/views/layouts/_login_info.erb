@@ -1,0 +1,16 @@
+<span id="login-info">
+  <span id="login-label">Logged In</span> <%= User.current_user.realname %>
+  <% unless(User.current_user.is_readonly?) %>
+  &nbsp;|
+  <% if(User.current_user.in_role?('devel')) %>
+  <%= link_to "Devel: My Filed Advisories", {:controller => 'devel', :action => 'my_requests' } %> |
+<% end %>
+<% if(User.current_user.in_role?('qa')) %>
+  <%= link_to "QA: My Assigned Advisories", {:controller => 'qe', :action => 'my_requests' } %> |
+<% end %>
+  <%= link_to 'Preferences', {:controller => 'user', :action => 'preferences' } %> 
+   |
+  <a href="https://engineering.redhat.com/trac/Errata_System/wiki/228FAQ" title="Temporary link to FAQ on 2.2.8 release changes">Devel Help</a> |
+  <a href="https://engineering.redhat.com/trac/Errata_System/wiki/228FAQ" title="Temporary link to FAQ on 2.2.8 release changes">QA Help</a>
+<% end %>
+</span>

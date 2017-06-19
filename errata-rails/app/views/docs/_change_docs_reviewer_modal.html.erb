@@ -1,0 +1,56 @@
+<%#
+  # Locals:
+  #   errata (required)
+  #   back_to (optional)
+  #   back_to_controller (optional)
+  #   ajax_submit (optional)
+-%>
+<%= form_tag("/docs/change_docs_reviewer", :class=>'form-horizontal', :remote=>(defined?(ajax_submit) ? ajax_submit : false)) do %>
+  <%= hidden_field_tag('id', errata.id) %>
+
+  <%= hidden_field_tag('back_to',   back_to)            if defined?(back_to)            %>
+  <%= hidden_field_tag('back_to_c', back_to_controller) if defined?(back_to_controller) %>
+
+  <div class="modal-header">
+    <h3>
+      <%# span.errata_fulladvisory will be updated dynamically when this is used in the docs queue %>
+      Change Docs Reviewer for <span class='errata_fulladvisory'><%= errata.fulladvisory %></span>
+      <%# It's too much trouble to update the status for the docs queue/ajax version of this form, so let's not bother %>
+      <% unless defined?(ajax_submit) %> <%=raw state_display(errata) %><% end %>
+    </h3>
+  </div>
+
+  <div class="modal-body">
+    <div class="control-group" style="padding-top:1em;">
+      <label class="control-label"><b>Synopsis</b></label>
+      <div class="controls"><big><span class="errata_synopsis"><%= errata.synopsis %></span></big></div>
+    </div>
+
+    <div class="control-group" style="padding-top:1em;">
+      <label class="control-label"><b>Docs Reviewer</b></label>
+
+      <div class="controls">
+        <%= select_tag(
+          "user_id",
+          options_from_collection_for_select((@docs_group || Role.docs_people.order('realname')), :id, :short_to_s, errata.content.doc_reviewer.id),
+          :class=>'eso-chosen-select',
+          :style=>'width:300px;',
+          :id=>'reviewer_select'
+        ) %>
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" style="margin-top:5px;"><b>Comment</b><br/><span class="light small">(optional)</span></label>
+
+      <div class="controls">
+        <textarea name="comment" class="input-xlarge"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-footer">
+      <%= link_to 'Cancel', "#", :class=>'btn btn-cancel-modal' %>
+      <%= submit_tag 'Change', :class=>'btn btn-primary' %>
+  </div>
+
+<% end %>

@@ -1,0 +1,181 @@
+--- 
+rhel_release_00001: 
+  description: Red Hat Advanced Server 2.1
+  exclude_ftp_debuginfo: false
+  id: 1
+  name: RHEL-2.1
+rhel_release_00002: 
+  description: Red Hat Enterprise Linux 3
+  exclude_ftp_debuginfo: false
+  id: 2
+  name: RHEL-3
+rhel_release_00003: 
+  description: Red Hat Enterprise Linux 4
+  exclude_ftp_debuginfo: false
+  id: 3
+  name: RHEL-4
+rhel_release_00007: 
+  description: RHEL 5
+  exclude_ftp_debuginfo: false
+  id: 7
+  name: RHEL-5
+rhel_release_00008: 
+  description: Red Hat Linux (DEFUNCT!)
+  exclude_ftp_debuginfo: false
+  id: 8
+  name: RHL
+rhel_release_00009: 
+  description: Red Hat Global Desktop
+  exclude_ftp_debuginfo: false
+  id: 9
+  name: RHGD
+rhel_release_00010: 
+  description: Red Hat Enterprise Linux 4.5 Z Stream
+  exclude_ftp_debuginfo: false
+  id: 10
+  name: RHEL-4.5.Z
+rhel_release_00011: 
+  description: Red Hat Enterprise Linux 5.2.Z - Server Only
+  exclude_ftp_debuginfo: false
+  id: 11
+  name: RHEL-5.2.Z
+rhel_release_00012: 
+  description: Red Hat Enterprise Linux 5.3.Z - Server Only
+  exclude_ftp_debuginfo: false
+  id: 12
+  name: RHEL-5.3.Z
+rhel_release_00013: 
+  description: Red Hat Enterprise Linux 4.7 Z Stream
+  exclude_ftp_debuginfo: false
+  id: 13
+  name: RHEL-4.7.Z
+rhel_release_00014: 
+  description: Red Hat Enterprise Linux 5.4.Z - Server Only
+  exclude_ftp_debuginfo: false
+  id: 14
+  name: RHEL-5.4.Z
+rhel_release_00015: 
+  description: Red Hat Enterprise Linux 6
+  exclude_ftp_debuginfo: true
+  id: 15
+  name: RHEL-6
+rhel_release_00016: 
+  description: RHEL 5.6.Z
+  exclude_ftp_debuginfo: false
+  id: 16
+  name: RHEL-5.6.Z
+rhel_release_00018: 
+  description: RHEL 5.3 LL
+  exclude_ftp_debuginfo: false
+  id: 18
+  name: RHEL-5.3.LL
+rhel_release_00019: 
+  description: 6.0.z
+  exclude_ftp_debuginfo: true
+  id: 19
+  name: RHEL-6.0.Z
+rhel_release_00020: 
+  description: 6.1.z
+  exclude_ftp_debuginfo: true
+  id: 20
+  name: RHEL-6.1.Z
+rhel_release_00021: 
+  description: RHEL-5.7.Z
+  exclude_ftp_debuginfo: false
+  id: 21
+  name: RHEL-5.7.Z
+rhel_release_00022: 
+  description: RHEL 5.3 LLZ
+  exclude_ftp_debuginfo: false
+  id: 22
+  name: RHEL-5.3.LLZ
+rhel_release_00023: 
+  description: RHEL-5.6-EUS
+  exclude_ftp_debuginfo: false
+  id: 23
+  name: RHEL-5.6-EUSZ
+rhel_release_00024: 
+  description: RHEL-6.2.Z
+  exclude_ftp_debuginfo: true
+  id: 24
+  name: RHEL-6.2.Z
+rhel_release_00025: 
+  description: RHEL-5.8.Z
+  exclude_ftp_debuginfo: false
+  id: 25
+  name: RHEL-5.8.Z
+rhel_release_00026: 
+  description: RHEL-6.3.Z
+  exclude_ftp_debuginfo: true
+  id: 26
+  name: RHEL-6.3.Z
+rhel_release_00031:
+  id: 31
+  name: "RHEL-6.5.Z"
+  description: "RHEL-6.5.Z"
+  exclude_ftp_debuginfo: true
+rhel_release_00027:
+  id: 27
+  name: "RHEL-7"
+  description: "Red Hat Enterprise Linux 7"
+  exclude_ftp_debuginfo: true
+rhel_release_00041:
+  id: 41
+  name: "RHEL-7.0.Z"
+  description: "Red Hat Enterprise Linux 7.0 Updates"
+  exclude_ftp_debuginfo: false
+rhel_release_44:
+  description: RHEL-6.6.Z
+  id: 44
+  name: RHEL-6.6.Z
+  exclude_ftp_debuginfo: false
+rhel_release_29:
+  id: 29
+  description: RHEL-6.4.Z
+  exclude_ftp_debuginfo: true
+  name: RHEL-6.4.Z
+rhel_release_32:
+  exclude_ftp_debuginfo: false
+  name: RHEL-6.4-EUSZ
+  id: 32
+  description: RHEL-6.4-EUSZ
+rhel_release_33:
+  exclude_ftp_debuginfo: false
+  name: RHEL-5.9-EUSZ
+  id: 33
+  description: RHEL-5.9-EUS
+rhel_release_39:
+  exclude_ftp_debuginfo: false
+  name: RHEL-5.6.LLZ
+  id: 39
+  description: RHEL-5.6.LLZ
+rhel_release_42:
+  exclude_ftp_debuginfo: false
+  name: RHEL-6.2.AUSZ
+  id: 42
+  description: RHEL-6.2.AUSZ
+rhel_release_37:
+  exclude_ftp_debuginfo: false
+  name: RHEL-5.11.Z
+  id: 37
+  description: RHEL-5.11 Z
+rhel_release_47:
+  exclude_ftp_debuginfo: true
+  name: RHEL-7.1.Z
+  id: 47
+  description: RHEL-7.1.Z
+rhel_release_52:
+  id: 52
+  exclude_ftp_debuginfo: true
+  description: RHEL-7.1.EUSZ
+  name: RHEL-7.1.EUSZ
+rhel_release_46:
+  id: 46
+  exclude_ftp_debuginfo: true
+  description: RHEL-6.7.Z
+  name: RHEL-6.7.Z
+rhel_release_51:
+  id: 51
+  name: RHEL-7.2.Z
+  description: RHEL-7.2.Z
+  exclude_ftp_debuginfo: true

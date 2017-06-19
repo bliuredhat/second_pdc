@@ -1,0 +1,43 @@
+// Path: /rcm/composedb/get-product-listings/RHEL-6-Client/spice-usb-share-win-5.0-6
+// Status: 200
+// Content-Type: application/json
+//
+// This build is notable for having some files with the same basename.
+{
+  "build": {
+    "id": 194800,
+    "nvr": "spice-usb-share-win-5.0-6"
+  },
+  "product": "RHEL-6-Client",
+  "variants": {
+    "Client": {
+      "rpms": {},
+      "archives": {
+        "152157": {
+          "path": "/brewroot/packages/spice-usb-share-win/5.0/6/win/spice-usb-share-win-5.0-6-sources.zip",
+          "destination_arches": ["i686", "x86_64"]
+        },
+        "152158": {
+          "path": "/brewroot/packages/spice-usb-share-win/5.0/6/win/spice-usb-share-win-5.0-6-spec.zip",
+          "destination_arches": ["i686", "x86_64"]
+        },
+        "152159": {
+          "path": "/brewroot/packages/spice-usb-share-win/5.0/6/win/pdb/x86/usbrdrctrl.pdb",
+          "destination_arches": ["i686"]
+        },
+        "152160": {
+          "path": "/brewroot/packages/spice-usb-share-win/5.0/6/win/pdb/x64/usbrdrctrl.pdb",
+          "destination_arches": ["x86_64"]
+        },
+        "152161": {
+          "path": "/brewroot/packages/spice-usb-share-win/5.0/6/win/spice-usb-share-win-x86.zip",
+          "destination_arches": ["i686"]
+        },
+        "152162": {
+          "path": "/brewroot/packages/spice-usb-share-win/5.0/6/win/spice-usb-share-win-x64.zip",
+          "destination_arches": ["x86_64"]
+        }
+      }
+    }
+  }
+}

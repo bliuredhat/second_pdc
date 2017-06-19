@@ -1,0 +1,29 @@
+<h1>RHN Channels for Product Version <%= @product_version.name %></h1>
+<table class="buglist" CELLPADDING="0" CELLSPACING="0" ALIGN="CENTER">
+  <tr>
+    <th>Variant</th>
+    <th>Channels</th>
+  </tr>
+  <% @product_version.variants.sort {|a,b| a.name <=> b.name}.each do |v| -%>
+    <tr class="<%= cycle('bz_even', 'bz_odd') %>">
+      <td><%=h v.name %></td>
+      <td>
+        <table>
+        <% v.primary_channels.each do |c| -%>
+          <tr>
+          <td><%= c.arch.name %></td>
+          <td>
+            Primary: <%=h c.name %><br/>
+            &nbsp;&nbsp;CDN Path:<%= render(:partial => 'cdn_path', :object => c) %><br/>
+            <% c.sub_channels.each do |s| -%>
+              <%= s.short_type %>: <%= s.name %><br/>
+              &nbsp;&nbsp;CDN Path:<%= render(:partial => 'cdn_path', :object => s) %><br/>
+            <% end %>
+          </td>
+          </tr>
+        <% end %>
+        </table>
+      </td>
+    </tr>
+  <% end %>
+</table>

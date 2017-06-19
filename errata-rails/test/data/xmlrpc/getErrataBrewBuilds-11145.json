@@ -1,0 +1,13 @@
+[
+  {
+    "brew_build_nvr": "kdenetwork-4.3.4-11.el6_0.1",
+    "build_flags": [
+
+    ],
+    "build_tag": null,
+    "product_version": {
+      "id": 149,
+      "name": "RHEL-6"
+    }
+  }
+]

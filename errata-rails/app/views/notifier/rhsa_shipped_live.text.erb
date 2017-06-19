@@ -1,0 +1,5 @@
+A push has been successfully completed for this security advisory.
+
+Advisory: <%= @errata.name_release_and_short_title %>
+Pushed by: <%= @pushed_by.to_s %>
+Push History: <%= url_for(:controller => :push, :action => :push_history_for_errata, :id => @errata.id, :only_path => false) %>

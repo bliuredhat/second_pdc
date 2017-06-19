@@ -1,0 +1,158 @@
+=====================================================================
+                   <%= @errata.fulltype %>
+
+Synopsis:          <%= @errata.synopsis.html_safe %>
+Advisory ID:       <%= @errata.advisory_name %>-<%= sprintf("%.2d", @errata.pushcount) %>
+Product:           <%= @errata.product.name %>
+Advisory URL:      <%= @errata.errata_public_url %>
+<%
+ issue_date = @errata.issue_date.to_date if @errata.issue_date
+ update_date = @errata.update_date.to_date if @errata.update_date
+ issue_date = Time.now.to_date unless issue_date
+ update_date = Time.now.to_date unless update_date
+-%>
+Issue date:        <%= issue_date %>
+<% unless issue_date == update_date -%>
+Updated on:        <%= update_date %>
+<% end -%>
+<% if @errata.content.keywords? -%>
+Keywords:          <%= @errata.content.keywords %>
+<% end -%>
+<% if @errata.content.crossref? -%>
+Cross references:  <%= @errata.content.crossref %>
+<% end -%>
+<% if @errata.content.obsoletes? -%>
+Obsoletes:         <%= @errata.content.obsoletes %>
+<% end -%>
+<% if (cve_list = @errata.all_cves).any? %>
+<% cve_display = []
+   cve3 = []
+   cve_list.each do |c|
+     cve3 << c
+     if cve3.length == 3
+      cve_display << cve3.join(' ') + ' '
+      cve3 = []
+     end
+   end
+   cve_display << cve3.join(' ') + ' ' unless cve3.empty?
+-%>
+CVE Names:         <%= cve_display.join("\n                   ")%>
+<% end -%>
+=====================================================================
+
+<% count = 1 -%>
+<%= count %>. Summary:
+
+<%#
+
+  Putting some some html_safes in here because otherwise we
+  get stuff like &quot; appearing. (Bz 751215).
+
+-%><%= wrap_text(@errata.content.topic).html_safe %>
+<% unless @errata.relarchlist.empty? -%>
+
+<% count = count + 1 -%>
+<%= count %>. Relevant releases/architectures:
+
+<% @errata.relarchlist.each do |r| -%>
+<%= r %>
+<% end -%>
+<% end -%>
+
+<%= count += 1 %>. Description:
+
+<%= wrap_text(@errata.content.description).html_safe %>
+
+<%= count += 1 %>. Solution:
+
+<%= wrap_text(@errata.content.solution).html_safe %>
+<% public_bugs = @errata.bugs.select {|b| !b.is_private? } -%>
+<% unless public_bugs.empty? -%>
+
+<%= count += 1 %>. Bugs fixed (https://bugzilla.redhat.com/):
+
+<% public_bugs.sort {|a,b| a.id <=> b.id }.each do |b| -%>
+<%= b.id %> - <%= b.short_desc.html_safe %>
+<% end -%>
+<% end -%>
+<% public_jira_issues = @errata.jira_issues.only_public -%>
+<% unless Settings.jira_private_only || public_jira_issues.empty? -%>
+
+<%= count += 1 %>. JIRA issues fixed (https://issues.jboss.org/):
+
+<% public_jira_issues.sort_by(&:key).each do |b| -%>
+<%= b.key %> - <%= b.summary.html_safe %>
+<% end -%>
+<% end -%>
+<% unless @errata.current_files.empty? -%>
+
+<%= count += 1 %>. Package List:
+
+<%
+version_files = Hash.new { |hash, key| hash[key] = []}
+@errata.current_files.each { |f| version_files[f.variant] << f if f.variant}
+-%>
+<% versions = version_files.keys.sort {|a,b| a.name <=> b.name}
+ versions.each do |version|
+ files = version_files[version]
+-%>
+<%= version.description %>:
+<%
+   file_arches  = Hash.new { |hash, key| hash[key] = []}
+   files.each {|f| file_arches[f.arch.name] << f if f.arch}
+   srpms = file_arches['SRPMS']
+-%>
+<% unless(srpms.empty?) -%>
+
+Source:
+<% srpms.sort {|a,b| a.ftp_file <=> b.ftp_file}.each do |f| -%>
+<% if FtpExclusion.is_excluded?(f.package, f.variant.release_version) || Settings.suppress_srpm_ftp_url -%>
+<%= f.brew_rpm.filename %>
+<% else -%>
+<%= make_ftp_url_from_ftp_path(f.ftp_file) %>
+<% end -%>
+<% end -%>
+<% end -%>
+
+<% file_arches.keys.sort.each do |arch|
+   next if arch == 'SRPMS'
+-%>
+<%= arch %>:
+<%
+   archfiles = file_arches[arch]
+
+   # Band-aid fix for an "undefined method `rpm_name' for nil:NilClass" I saw here once..
+   archfiles.sort! {|a,b| a.brew_rpm.try(:filename) <=> b.brew_rpm.try(:filename) }
+
+   archfiles.each do |f| -%>
+<%= f.brew_rpm.try(:filename) || '(none)' %>
+<% end -%>
+
+<% end -%>
+<% end -%>
+<% unless Settings.suppress_gpg_message -%>
+These packages are GPG signed by Red Hat for security.  Our key and
+details on how to verify the signature are available from
+<%= sig_keys_url %>
+<% end -%>
+<% end -%>
+<% unless @errata.reference.blank? && cve_list.empty? -%>
+
+<%= count += 1 %>. References:
+
+<% if cve_list.any? -%>
+<% cve_list.each do |c| -%>
+<%= cve_url(c) %>
+<% end -%>
+<% end -%>
+<% unless @errata.reference.blank? -%>
+<%= @errata.reference.html_safe %>
+<% end -%>
+<% end -%>
+
+<%= count += 1 %>. Contact:
+
+The Red Hat security contact is <secalert@redhat.com>. More contact
+details at https://access.redhat.com/security/team/contact/
+
+Copyright <%= @errata.update_date.year %> Red Hat, Inc.

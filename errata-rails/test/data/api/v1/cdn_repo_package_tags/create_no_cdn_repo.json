@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "CdnRepo": [
+      "Either cdn_repo_id or cdn_repo_name must be specified"
+    ]
+  }
+}

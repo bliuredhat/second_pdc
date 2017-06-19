@@ -1,0 +1,22 @@
+{
+  "data": {
+    "attributes": {
+      "name": "test_channel",
+      "release_type": "FastTrack",
+      "use_for_tps": false
+    },
+    "relationships": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "variants": [
+        {
+          "id": 699,
+          "name": "7Client"
+        }
+      ]
+    },
+    "type": "channels"
+  }
+}

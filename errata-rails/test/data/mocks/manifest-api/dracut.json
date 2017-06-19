@@ -1,0 +1,16 @@
+// Path: /rcm/composedb/get-product-listings/RHEL-6-Client/dracut-004-336.el6_5.1
+// Status: 200
+// Content-Type: application/json
+//
+// This build probably would have some product listings returned by
+// manifest-api in reality, but it's not important for our testing
+// (yet) - we still use RPM listings only from brew, and this build
+// only has RPMs.
+{
+  "build": {
+    "id": 310042,
+    "nvr": "dracut-004-336.el6_5.1"
+  },
+  "product": "RHEL-6-Client",
+  "variants": {}
+}

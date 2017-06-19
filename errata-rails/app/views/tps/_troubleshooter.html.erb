@@ -1,0 +1,30 @@
+<div class="panel-heading">
+  <%= link_to "&times;".html_safe, "#", :class => "close", :id => 'btn-close-repolist' %>
+  <span class="small" style="padding-right:30px">
+    Please consult the release engineering team or file an RT ticket to <%= mail_to @report_to %>,
+    if you think Errata tool should schedule a TPS job for any RHN channel or CDN repository below.
+  </span>
+</div>
+<div class="panel-body small">
+  <% @dist_repos.sort_by{|k,v| k}.each do |type, repos_or_message| %>
+    <div style="display:inline-block;width:45%;vertical-align:top;">
+      <b><%= type.pluralize %> with TPS disabled</b>
+      <ul class="nav nav-list">
+        <%
+           repo_path = if type =~ /rhn/i
+             lambda { |repo| product_version_channel_url(repo.product_version, repo.id) }
+           else
+             lambda { |repo| product_version_variant_cdn_repo_url(repo.product_version, repo.variant, repo.id) }
+           end
+        %>
+        <% if repos_or_message.is_a?(Array) %>
+          <% repos_or_message.each do |repo| %>
+            <li><%= link_to repo.name, repo_path.call(repo), :target => "_blank" %></li>
+          <% end %>
+        <% else %>
+          <li><i><%= repos_or_message %></i></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>

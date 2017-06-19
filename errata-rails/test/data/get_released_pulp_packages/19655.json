@@ -1,0 +1,42 @@
+{
+  "rhel-5-server-rhs-client-1-debug-rpms__5Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/x86_64/glusterfs-debuginfo-3.6.0.42.1-1.el5.x86_64.rpm"
+  ],
+  "rhel-5-server-rhs-client-1-rpms__5Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/x86_64/glusterfs-3.6.0.42.1-1.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/x86_64/glusterfs-api-3.6.0.42.1-1.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/x86_64/glusterfs-api-devel-3.6.0.42.1-1.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/x86_64/glusterfs-devel-3.6.0.42.1-1.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/x86_64/glusterfs-fuse-3.6.0.42.1-1.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/x86_64/glusterfs-libs-3.6.0.42.1-1.el5.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/x86_64/glusterfs-rdma-3.6.0.42.1-1.el5.x86_64.rpm"
+  ],
+  "rhel-5-server-rhs-client-1-source-rpms__5Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el5/data/signed/37017186/src/glusterfs-3.6.0.42.1-1.el5.src.rpm"
+  ],
+  "rhs-3-for-rhel-6-server-debug-rpms__6Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/gdbm/1.8.0/38.el6/data/signed/fd431d51/i686/gdbm-debuginfo-1.8.0-38.el6.i686.rpm",
+    "/mnt/redhat/brewroot/packages/gdbm/1.8.0/38.el6/data/signed/fd431d51/x86_64/gdbm-debuginfo-1.8.0-38.el6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-debuginfo-3.6.0.42.1-1.el6rhs.x86_64.rpm"
+  ],
+  "rhs-3-for-rhel-6-server-rpms__6Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/gdbm/1.8.0/38.el6/data/signed/fd431d51/i686/gdbm-1.8.0-38.el6.i686.rpm",
+    "/mnt/redhat/brewroot/packages/gdbm/1.8.0/38.el6/data/signed/fd431d51/i686/gdbm-devel-1.8.0-38.el6.i686.rpm",
+    "/mnt/redhat/brewroot/packages/gdbm/1.8.0/38.el6/data/signed/fd431d51/x86_64/gdbm-1.8.0-38.el6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/gdbm/1.8.0/38.el6/data/signed/fd431d51/x86_64/gdbm-devel-1.8.0-38.el6.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-api-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-api-devel-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-cli-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-devel-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-fuse-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-geo-replication-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-libs-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-rdma-3.6.0.42.1-1.el6rhs.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/x86_64/glusterfs-server-3.6.0.42.1-1.el6rhs.x86_64.rpm"
+  ],
+  "rhs-3-for-rhel-6-server-source-rpms__6Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/gdbm/1.8.0/38.el6/data/signed/fd431d51/src/gdbm-1.8.0-38.el6.src.rpm",
+    "/mnt/redhat/brewroot/packages/glusterfs/3.6.0.42.1/1.el6rhs/data/signed/fd431d51/src/glusterfs-3.6.0.42.1-1.el6rhs.src.rpm"
+  ]
+}

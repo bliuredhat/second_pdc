@@ -1,0 +1,25 @@
+// Path: /rcm/composedb/get-product-listings/RHEL-6-Client/rhel-server-x86_64-ec2-starter-6.5-8
+// Status: 200
+// Content-Type: application/json
+{
+  "build": {
+    "id": 362089,
+    "nvr": "rhel-server-x86_64-ec2-starter-6.5-8"
+  },
+  "product": "RHEL-6-Client",
+  "variants": {
+    "Client": {
+      "rpms": {},
+      "archives": {
+        "685393": {
+          "path": "/brewroot/packages/rhel-server-x86_64-ec2-starter/6.5/8/images/rhel-6-server-starter-ec2.ks",
+          "destination_arches": ["x86_64"]
+        },
+        "685396": {
+          "path": "/brewroot/packages/rhel-server-x86_64-ec2-starter/6.5/8/images/rhel-server-x86_64-ec2-starter-6.5-8.x86_64.raw",
+          "destination_arches": ["x86_64"]
+        }
+      }
+    }
+  }
+}

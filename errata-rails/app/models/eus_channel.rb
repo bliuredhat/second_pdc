@@ -1,0 +1,2 @@
+class EusChannel < Channel
+end

@@ -1,0 +1,6 @@
+<%= content_tag(:li,
+    link_to('Edit', { :controller=>:errata, :action=>:edit, :id=>errata })
+  ) if errata.allow_edit? && !current_user.is_readonly? %>
+<% get_individual_errata_nav(errata).each do |link| %>
+  <%= content_tag(:li, link_to(link.delete(:name), link)) %>
+<% end %>

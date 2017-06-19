@@ -1,0 +1,13 @@
+# HTTP 200
+{
+  "email_address": "notting@redhat.com",
+  "enabled": true,
+  "login_name": "notting@redhat.com",
+  "organization": "IE - Linux Engineering",
+  "realname": "Bill Nottingham",
+  "receives_mail": true,
+  "roles": [
+    "devel",
+    "errata"
+  ]
+}

@@ -1,0 +1,5 @@
+<%# pass in check as a local %>
+<%= yes_no_glyph(check.pass?) %> <%= check.message.html_safe %>
+<% if check.note.present? %>
+  <br/><span class="light small"><%= check.note.html_safe %></span>
+<% end %>

@@ -1,0 +1,3 @@
+Pub push job <%= @job.pub_task_id %> failed for advisory <%= @job.errata.fulladvisory %>. Please investigate.
+
+http://<%= Pub::SERVER %><%= Pub::PUSH_URL %><%= @job.pub_task_id %>

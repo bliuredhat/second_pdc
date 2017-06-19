@@ -1,0 +1,24 @@
+<%# An ftp push has no options, so we want to show a little 'no options' message, otherwise the
+form looks weird. Actually this only occurs for ftp pushes, but lets detect it more genericly -%>
+<% something_present = false %>
+
+<% unless push_job.valid_pub_options.empty? %>
+  <b>Push options:</b><br/>
+  <%= push_options(push_job, f) %>
+  <% something_present = true %>
+<% end %>
+
+<% if push_job.can_enqueue? %>
+  <p><label><%= check_box_tag 'push_immediately' %>Immediately push to Stage</label></p>
+  <% something_present = true %>
+<% end %>
+
+<% unless push_job.all_valid_optional_tasks.empty? %>
+  <b>Push tasks:</b><br/>
+  <%= push_tasks(push_job, f) %>
+  <% something_present = true %>
+<% end %>
+
+<% unless something_present %>
+  <p class="superlight tiny"><i>No applicable options</i></p>
+<% end %>

@@ -1,0 +1,35 @@
+<% warn_css =  @errata.is_security? ? 'small label label-important italic' : "" %>
+<% if defined?(@cpes) && @cpes.any? %>
+  <%
+    limit = 5
+    contents = []
+    @cpes.each_with_index do |(cpe, variants),idx|
+      if cpe =~ /unknown/
+        title = "Variants without CPE"
+        label = content_tag(:span, cpe, :class => warn_css)
+      else
+        title = "Variants with this CPE"
+        label = content_tag(:span, cpe, :style=> "display:inline-block;margin-top:3px;")
+      end
+
+      content = if @errata.text_only?
+        label
+      else
+        content_popover_helper(variants.sort.join(", "), title, '#', {:manual_text => label})
+      end
+      contents << content
+    end
+  %>
+  <div style="display:block;"><%= safe_join(contents.first(limit), "<br/>".html_safe) %></div>
+
+  <% if @cpes.size > limit %>
+    <div style="display:block;" class="remaining-cpes"><%= safe_join(contents[limit..-1], "<br/>".html_safe) %></div>
+    <br/>
+    <%= link_to("more...", "#", :class => "btn btn-mini", :id => "show_remaining_cpes") %>
+  <% end %>
+
+<% elsif defined?(@cpes) && @cpes.empty? %>
+  <span class="<%= warn_css %>">NONE</span>
+<% else %>
+  <div id="cpe_list_div" data-errata="<%= @errata.id %>"><%= wait_spinner('cpe_list_wait_spinner') %></div>
+<% end %>

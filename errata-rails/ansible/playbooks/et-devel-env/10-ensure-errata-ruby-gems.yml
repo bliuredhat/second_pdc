@@ -1,0 +1,28 @@
+- name: Install Rails Environment
+  hosts: develop
+  tasks:
+    - name: "Rails | install dependencies"
+      sudo: yes
+      yum: name={{ item }} state=latest
+      with_items:
+        - rubygem-rails-3.2.14-1.el6eso
+        - rubygem-curb
+        - rubygem-mysql2
+        - rubygem-diff-lcs
+        - rubygem-exception_notification
+        - rubygem-will_paginate
+        - rubygem-fastercsv
+        - rubygem-jquery-rails
+        - rubygem-rails_autolink
+        - rubygem-rdoc
+        - rubygem-xml-simple
+        - rubygem-dynamic_form
+        - rubygem-bartt-ssl_requirement
+        - rubygem-qpid_proton
+        - rubygem-jira-ruby
+        - rubygem-schema_plus
+        - rubygem-ffi
+        - rubygem-fakeweb
+        - rubygem-rcov
+        - rubygem-capybara
+        - rubygem-json

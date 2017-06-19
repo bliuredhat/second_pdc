@@ -1,0 +1,19 @@
+<%#
+  #
+  # This is sensitive to whitespace so be careful
+  #
+  #-%>
+<% prev_component = nil %>
+<% @bugs.group_by { |bug| bug.component_name }.each do |component_name, bugs| %>
+
+Changes to the <%= component_name %> component:
+<% bugs.each do |bug| %>
+<%
+  use_text = "\n* #{bug.release_notes.blank? ? 'TBA' : bug.release_notes} (BZ##{bug.id})"
+  # @hard_wrap here is actually a hidden feature... See comments in draft_release_notes_text
+  use_text = use_text.wrap_text(@hard_wrap) if @hard_wrap.present?
+-%>
+<%= use_text %>
+<% end %>
+
+<% end %>

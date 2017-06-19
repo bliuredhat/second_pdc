@@ -1,0 +1,85 @@
+<advisory from="secalert@redhat.com" version="1.0">
+  <id>RHBA-2016:1890</id>
+  <pushcount>1</pushcount>
+  <product>Red Hat Enterprise Linux Extras 2</product>
+  <type short="RHBA">Red Hat Bug Fix Advisory</type>
+  <synopsis xml:lang="en_US">Red Hat Enterprise Linux Atomic 7.2.7 Tools Container Image Update</synopsis>
+  <issued date="2016-09-15 08:04:06 UTC"></issued>
+  <updated date="2016-09-15 08:04:06 UTC"></updated>
+  <references>
+  <reference href="https://access.redhat.com/errata/RHBA-2016:1890" type="self"></reference>
+    <reference href="https://access.redhat.com/security/cve/CVE-2016-3134" type="cve"><cve>CVE-2016-3134</cve></reference>
+    <reference href="https://access.redhat.com/security/cve/CVE-2016-4997" type="cve"><cve>CVE-2016-4997</cve></reference>
+    <reference href="https://access.redhat.com/security/cve/CVE-2016-4998" type="cve"><cve>CVE-2016-4998</cve></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2016:1827" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2016:1829" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHSA-2016:1847" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2016:1832" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2016:1833" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHSA-2016:1844" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHEA-2015:0621" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHSA-2016:1602" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2016:1830" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2016:1834" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2016:1863" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2016:1835" type="external"></reference>
+    <reference href="https://access.redhat.com/errata/RHBA-2015:2122" type="external"></reference>
+  </references>
+
+<topic xml:lang="en">
+<p>
+An updated Red Hat Enterprise Linux Atomic Tools container image is now
+available.
+</p>
+</topic>
+
+<description xml:lang="en">
+<p>
+The Red Hat Enterprise Linux Atomic Tools container image includes hundreds of software tools for troubleshooting and investigating a Red Hat Enterprise Linux Atomic Host system. This container allows you to interact directly with the system to uncover and solve problems. Inside the container are popular tools such as sosreport, kdump, and many others (most of which are not installed on Red Hat Enterprise Linux Atomic Host).
+Updated packages:
+RHBA-2016:1827 docker-1.10.3-46.el7.14.x86_64
+RHBA-2016:1827 docker-common-1.10.3-46.el7.14.x86_64
+RHBA-2016:1829 docker-latest-1.12.1-2.el7.x86_64
+RHBA-2016:1827 docker-rhel-push-plugin-1.10.3-46.el7.14.x86_64
+RHBA-2016:1827 docker-selinux-1.10.3-46.el7.14.x86_64
+RHBA-2016:1827 docker-v1.10-migrator-1.10.3-46.el7.14.x86_64
+RHSA-2016:1847 kernel-3.10.0-327.36.1.el7.x86_64
+RHSA-2016:1847 kernel-devel-3.10.0-327.36.1.el7.x86_64
+RHSA-2016:1847 kernel-headers-3.10.0-327.36.1.el7.x86_64
+RHBA-2016:1832 kmod-20-8.el7_2.x86_64
+RHBA-2016:1832 kmod-libs-20-8.el7_2.x86_64
+RHBA-2016:1833 kpartx-0.4.9-85.el7_2.6.x86_64
+RHSA-2016:1844 libarchive-3.1.2-10.el7_2.x86_64
+RHEA-2015:0621 libgsystem-2015.1-1.atomic.el7.x86_64
+RHSA-2016:1602 mariadb-libs-5.5.50-1.el7_2.x86_64
+RHBA-2016:1830 oci-register-machine-0-1.8.gitaf6c129.el7.x86_64
+RHSA-2016:1847 perf-3.10.0-327.36.1.el7.x86_64
+RHBA-2016:1834 python-2.7.5-39.el7_2.x86_64
+RHBA-2016:1834 python-libs-2.7.5-39.el7_2.x86_64
+RHBA-2016:1863 selinux-policy-3.13.1-60.el7_2.9.noarch
+RHBA-2016:1863 selinux-policy-minimum-3.13.1-60.el7_2.9.noarch
+RHBA-2016:1863 selinux-policy-targeted-3.13.1-60.el7_2.9.noarch
+RHBA-2016:1835 systemd-219-19.el7_2.13.x86_64
+RHBA-2016:1835 systemd-libs-219-19.el7_2.13.x86_64
+RHBA-2016:1835 systemd-sysv-219-19.el7_2.13.x86_64
+New package:
+RHBA-2015:2122 subscription-manager-plugin-container-1.15.9-15.el7.x86_64
+All users who require the Red Hat Enterprise Linux Atomic Tools container are advised to install this updated container image.
+</p>
+</description>
+
+<solution xml:lang="en">
+<p>
+The Red Hat Enterprise Linux container image provided by this update can be
+downloaded from the Red Hat Container Registry at registry.access.redhat.com
+using the "docker pull" command. Dockerfiles and scripts should be amended
+either to refer to this new image specifically, or to the latest image
+generally.
+</p>
+</solution>
+
+<contact xml:lang="en_US">
+  <p>The Red Hat security contact is secalert@redhat.com. More
+  contact details at <a href="https://access.redhat.com/security/team/contact/">https://access.redhat.com/security/team/contact/</a></p>
+</contact>
+</advisory>

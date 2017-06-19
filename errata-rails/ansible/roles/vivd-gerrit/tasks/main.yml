@@ -1,0 +1,13 @@
+---
+- name: python-requests installed
+  become: yes
+  yum: name=python-requests state=present
+
+- name: vivd-gerrit script
+  become: yes
+  become_user: "{{ vivd_user }}"
+  template: src=vivd-gerrit.j2 dest={{ vivd_gerrit_script }} owner={{ vivd_user }} mode=0755
+
+- name: vivd-gerrit cron job
+  become: yes
+  cron: name=vivd-gerrit minute=*/15 user={{ vivd_user }} job="{{ vivd_gerrit_script }} >/dev/null"

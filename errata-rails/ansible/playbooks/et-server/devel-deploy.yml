@@ -1,0 +1,41 @@
+---
+- name: Deploy a build of Errata Tool
+
+  vars:
+    - find_build_method: "find-{{ build_source | default('jenkins') }}-build"
+    - install_rpm_method: "{{ 'yum-local-downgrade' if yum_downgrade is defined else 'yum-local-install' }}"
+
+  hosts:
+    - developer-deployable-et-servers
+
+  roles:
+    # Fetch the rpm file we want to install
+    - "{{ find_build_method }}"
+
+    # Determine which rollbacks and/or migrations will occur
+    - db-check-migrations
+
+    # Start maintenance mode if there are any DB changes
+    - { role: start-maintenance-mode, when: (required_rollbacks | length > 0 or expected_migrates | length > 0) and dry_run is not defined }
+
+    # Show migration details and do any pre-update rollbacks
+    - db-rollback
+
+    # Install the new rpm
+    - "{{ install_rpm_method }}"
+
+    # Apply any new migrations
+    - { role: db-migrate, when: rpm_install | changed }
+
+    # Restart rails and other services
+    - { role: server-restart, when: rpm_install | changed }
+
+    # Since DB is up-to-date and code will be reloaded, it's safe to
+    # access the server again
+    - { role: stop-maintenance-mode, when: maintenance_mode | changed }
+
+    # Find list of modified bugs
+    - { role: teiid-bug-list, when: skip_bug_list is not defined }
+
+    # Send an email
+    - { role: email-notify, when: ( rpm_install | changed and skip_email is not defined ) or force_email is defined }

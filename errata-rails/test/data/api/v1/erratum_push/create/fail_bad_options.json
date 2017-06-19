@@ -1,0 +1,9 @@
+# HTTP 400
+{
+  "errors": {
+    "cdn options": [
+      "Option 'bar' is not a valid option for this push job",
+      "Option 'foo' is not a valid option for this push job"
+    ]
+  }
+}

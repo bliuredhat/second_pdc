@@ -1,0 +1,15 @@
+<%#
+  # Locals:
+  #  b is the bug
+  #  not_available is optional boolean
+  #
+-%>
+<% if defined?(not_available) && not_available %>
+  <p>
+  <%= bug_link(b,:target=>'_blank') %><span><%= b.short_desc %>
+    <%= link_to 'Why?', {:controller=>:bugs, :action=>:troubleshoot, :bug_id=>b.id},
+      :target=>"_blank", :title=>'Click to see why this bug is ineligible.' %></span></p>
+<% else %>
+  <p><%= bug_link(b,:target=>'_blank') %><span><%= b.short_desc %></span></p>
+<% end %>
+

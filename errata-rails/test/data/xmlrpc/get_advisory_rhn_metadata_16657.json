@@ -1,0 +1,35 @@
+### This advisory does not support RHN but nevertheless should provide metadata.
+{
+  "advisory_name": "RHSA-2014:0001",
+  "bugs": [
+    {
+      "id": 693792,
+      "status": "VERIFIED",
+      "summary": "Please include selinux policy for foghorn"
+    }
+  ],
+  "crossref": "",
+  "cve": "CVE-2014-8888",
+  "description": "Some security problems existed.  Now they don't.\n",
+  "errata_files": [
+
+  ],
+  "errata_type": "RHSA",
+  "erratum_deployed_by": "release-engineering@redhat.com",
+  "issue_date": "2014-11-04",
+  "jira_issues": [
+
+  ],
+  "keywords": "",
+  "multilib": null,
+  "obsoletes": "",
+  "product": "Red Hat Enterprise Virtualization",
+  "reboot_suggested": false,
+  "reference": "https://access.redhat.com/security/updates/classification/#moderate",
+  "revision": 2,
+  "security_impact": "Moderate",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/knowledge/articles/11258\n",
+  "synopsis": "Moderate: RHEV-M Security Update",
+  "topic": "Security fixes are available for RHEV-M.\n",
+  "update_date": "2014-11-04"
+}

@@ -1,0 +1,12 @@
+<%
+   options = {
+     :show_test   => defined?(show_test)   ? show_test   : true,
+     :show_errata => defined?(show_errata) ? show_errata : true,
+   }
+%>
+<%=
+   render('shared/bz_table',
+          :headers => rpmdiff_waiver_history_headers(options),
+          :func => rpmdiff_waiver_history_row_func(options),
+          :row_items => @waivers)
+%>

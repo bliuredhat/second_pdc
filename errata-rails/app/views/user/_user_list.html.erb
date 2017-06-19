@@ -1,0 +1,13 @@
+<%= render("shared/bz_table", {
+  :table_width => nil,
+  :row_items => users,
+  :headers => ['Login Name', 'Real Name', 'Roles', 'View in OrgChart', 'Enabled?'],
+  :func => lambda { |user| [
+    @current_user.in_role?('admin') ? link_to(user.login_name, :action => :edit_user, :id => user) : mail_to(user.login_name),
+    user.realname,
+    user.roles.map { |r| link_to(r.name, :action => :users_by_role, :id => r.id) }.join(', ').html_safe,
+    link_to(user.short_name, orgchart_url_for_user(user.short_name), :target=>'_blank'),
+    yes_no_icon(user.enabled?),
+  ]}
+}) %>
+

@@ -1,0 +1,23 @@
+{
+  "rhel-i386-client-supplementary-5": [
+    "/mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el5/data/signed/37017186/i386/flash-plugin-10.2.159.1-1.el5.i386.rpm"
+  ],
+  "rhel-i386-client-supplementary-6": [
+    "/mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el6/data/signed/fd431d51/i686/flash-plugin-10.2.159.1-1.el6.i686.rpm"
+  ],
+  "rhel-i386-server-supplementary-5": [
+    "/mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el5/data/signed/37017186/i386/flash-plugin-10.2.159.1-1.el5.i386.rpm"
+  ],
+  "rhel-x86_64-client-supplementary-5": [
+    "/mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el5/data/signed/37017186/i386/flash-plugin-10.2.159.1-1.el5.i386.rpm"
+  ],
+  "rhel-x86_64-client-supplementary-6": [
+    "/mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el6/data/signed/fd431d51/i686/flash-plugin-10.2.159.1-1.el6.i686.rpm"
+  ],
+  "rhel-x86_64-server-supplementary-5": [
+    "/mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el5/data/signed/37017186/i386/flash-plugin-10.2.159.1-1.el5.i386.rpm"
+  ],
+  "rhel-x86_64-workstation-supplementary-6": [
+    "/mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el6/data/signed/fd431d51/i686/flash-plugin-10.2.159.1-1.el6.i686.rpm"
+  ]
+}

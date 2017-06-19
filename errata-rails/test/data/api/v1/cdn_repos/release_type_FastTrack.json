@@ -1,0 +1,928 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-desktop-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1754,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-desktop-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1755,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-desktop-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1756,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-desktop-optional-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1760,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-desktop-optional-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1761,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-desktop-optional-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1762,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-hpc-node-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1757,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 700,
+            "name": "7ComputeNode"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-hpc-node-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1758,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 700,
+            "name": "7ComputeNode"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-hpc-node-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1759,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 700,
+            "name": "7ComputeNode"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-hpc-node-optional-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1772,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 703,
+            "name": "7ComputeNode-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-hpc-node-optional-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1773,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 703,
+            "name": "7ComputeNode-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-hpc-node-optional-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1774,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 703,
+            "name": "7ComputeNode-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-power-fastrack-debug-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1742,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-power-fastrack-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1743,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-power-fastrack-source-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1744,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-power-optional-fastrack-debug-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1763,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-power-optional-fastrack-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1764,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-power-optional-fastrack-source-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1765,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-system-z-fastrack-debug-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1745,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-system-z-fastrack-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1746,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-system-z-fastrack-source-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1747,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-system-z-optional-fastrack-debug-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1766,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-system-z-optional-fastrack-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1767,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-system-z-optional-fastrack-source-rpms__s390x",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1768,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-server-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1748,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-server-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1749,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-server-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1750,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-server-optional-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1769,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-server-optional-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1770,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-server-optional-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1771,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-workstation-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1751,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 640,
+            "name": "7Workstation"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-workstation-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1752,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 640,
+            "name": "7Workstation"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-workstation-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1753,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 640,
+            "name": "7Workstation"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-workstation-optional-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1781,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 707,
+            "name": "7Workstation-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-workstation-optional-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1782,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 707,
+            "name": "7Workstation-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-workstation-optional-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1783,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 707,
+            "name": "7Workstation-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-ha-for-rhel-7-server-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1775,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 704,
+            "name": "7Server-HighAvailability"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-ha-for-rhel-7-server-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1776,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 704,
+            "name": "7Server-HighAvailability"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-ha-for-rhel-7-server-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1777,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 704,
+            "name": "7Server-HighAvailability"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-rs-for-rhel-7-server-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1778,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 706,
+            "name": "7Server-ResilientStorage"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-rs-for-rhel-7-server-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1779,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 706,
+            "name": "7Server-ResilientStorage"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-rs-for-rhel-7-server-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1780,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 706,
+            "name": "7Server-ResilientStorage"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    }
+  ]
+}

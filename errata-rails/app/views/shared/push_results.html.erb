@@ -1,0 +1,65 @@
+<style>
+#stop_push_button form, #stop_push_button form div { 
+display:inline; 
+}
+</style>
+<%= back_to_errata(@errata) %>
+<h2>Push Results: <%= @push_job.push_type.to_s.upcase %> is
+<span id="job_status"><%= @push_job.status %></span>
+<span style="vertical-align:super;font-size:small;">
+  <%= link_to(image_tag('icon_info.png'), "#", :id => 'toggle-job-states', :title => "Click for help on push jobs states") %>
+</span>
+<span id="stop_push_button">
+  <% unless @push_job.is_finished? %>
+    <%= button_to "Stop job",  :action => "stop_job", :id => @push_job %>
+    <% if @push_job.is_waiting? %>
+      <%= button_to "Check status now",  :action => "update_job_status", :id => @push_job %>
+    <% end %>
+  <% end %>
+</span>
+</h2>
+<% if @push_job.status == 'FAILED' %>
+  <% if @push_job.problem_ticket_filed? %>
+    <p>A problem ticket has been filed with release engineering.</p>
+  <% else %>
+    <p>You can file a ticket with release engineering to report this problem. Please make sure that this job has not been repushed successfully first.</p>
+    <p>To submit a ticket, please <%= post_link_confirm 'click here', :file_pub_failure_ticket, @push_job %></p>
+  <% end %>
+<% end %>
+
+<br/><br/>
+
+<div id="help" style="display:none" class="alert alert-info">
+  <p> Push job states:</p>
+  <ul>
+      <li>
+          <b>QUEUED</b> Jobs in this state are placed in the queue, and they are switched to <b>READY</b> by a cron job each hour (?). This is only used for push to stage jobs currently.
+      </li>
+      <li>
+          <b>READY</b> Job will be picked up by the pushing server as soon as possible (Jobs are processed sequentially, so it might take some time).
+      </li>
+      <li>
+          <b>RUNNING</b> Job is currently being processed at this moment by the pushing server.
+      </li>
+      <li>
+          <b>WAITING_ON_PUB</b> Job is waiting on response from Pub (may take a long time for errata with large files, or if Pub is overloaded)
+      </li>
+      <li>
+          <b>COMPLETE</b> Job has successfully completed.
+      </li>
+      <li>
+          <b>FAILED</b> Job has failed, has been stopped by a user... anything but successful completion.
+      </li>
+  </ul>
+</div>
+<% if @push_job.pub_task_id? %>
+  <p>Push job submitted as pub task <a href="http://<%= Pub::SERVER %><%= Pub::PUSH_URL %><%= @push_job.pub_task_id %>"><%= @push_job.pub_task_id %></a>.</p>
+<% end %>
+
+<h3>Push Log</h3>
+<pre>
+<div id="push_log" data-checkupdate="<%= !@push_job.is_finished? %>" data-id="<%= @push_job.id %>" data-lastupdate="<%= @push_job.updated_at.to_i %>"><%= h(@push_job.log) %></div>
+</pre>
+
+<br/><br/>
+<%= back_to_errata(@errata) %>

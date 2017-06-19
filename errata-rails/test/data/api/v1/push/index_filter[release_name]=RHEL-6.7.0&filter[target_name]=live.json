@@ -1,0 +1,119 @@
+# HTTP 200
+[
+  {
+    "errata": {
+      "id": 20044
+    },
+    "id": 46017,
+    "log": "2015-07-20 09:25:19 -0400 Running pre push tasks\n2015-07-20 09:25:19 -0400 Running pre push task set_update_date\n2015-07-20 09:25:19 -0400 Running task set_update_date\n2015-07-20 09:25:19 -0400 Updated Update date\n2015-07-20 09:25:19 -0400 Running pre push task set_in_push\n2015-07-20 09:25:19 -0400 Running task set_in_push\n2015-07-20 09:25:19 -0400 Changing state to IN_PUSH by Lubos Kocman (lkocman@redhat.com)\n2015-07-20 09:25:20 -0400 Advisory now IN_PUSH\n2015-07-20 09:25:20 -0400 Running pre push task set_live_id\n2015-07-20 09:25:20 -0400 Running task set_live_id\n2015-07-20 09:25:22 -0400 Changed RHBA-2015:20044 to public name: RHBA-2015:1395\n2015-07-20 09:25:22 -0400 Pub task created, task id: 60525\n2015-07-20 09:25:22 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/60525\n2015-07-20 09:25:22 -0400 Waiting on pub to finish.\n2015-07-20 09:52:49 -0400 Pub completed.\n2015-07-20 09:52:49 -0400 Running post push tasks in background job 1312244.\n2015-07-20 10:07:30 -0400 Running post push tasks: mark_errata_shipped, check_error, update_push_count\n2015-07-20 10:07:30 -0400 Running mandatory tasks mark_errata_shipped, check_error, update_push_count\n2015-07-20 10:07:30 -0400 Running task mark_errata_shipped\n2015-07-20 10:07:30 -0400 Changing state to SHIPPED_LIVE by Lubos Kocman (lkocman@redhat.com)\n2015-07-20 10:07:31 -0400 Advisory now SHIPPED_LIVE\n2015-07-20 10:07:32 -0400 Running task check_error\n2015-07-20 10:07:32 -0400 Running task update_push_count\n2015-07-20 10:07:32 -0400 Push count increased\n2015-07-20 10:07:32 -0400 Running remainder:\n2015-07-20 10:07:32 -0400 Mandatory post push tasks complete",
+    "options": {
+      "push_files": true,
+      "push_metadata": true,
+      "shadow": true
+    },
+    "post_tasks": [
+      "check_error",
+      "mark_errata_shipped",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_live_id",
+      "set_update_date"
+    ],
+    "pub_task": {
+      "id": 60525
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "http://www.example.com/api/v1/erratum/20044/push/46017"
+  },
+  {
+    "errata": {
+      "id": 20044
+    },
+    "id": 46275,
+    "log": "2015-07-22 01:32:59 -0400 Running pre push tasks\n2015-07-22 01:32:59 -0400 Running pre push task set_live_id\n2015-07-22 01:32:59 -0400 Running task set_live_id\n2015-07-22 01:32:59 -0400 Running pre push task set_in_push\n2015-07-22 01:32:59 -0400 Running task set_in_push\n2015-07-22 01:32:59 -0400 State already SHIPPED_LIVE\n2015-07-22 01:32:59 -0400 Running pre push task reset_update_date\n2015-07-22 01:32:59 -0400 Running task reset_update_date\n2015-07-22 01:33:00 -0400 Reset Update date\n2015-07-22 01:33:00 -0400 Running pre push task set_issue_date\n2015-07-22 01:33:00 -0400 Running task set_issue_date\n2015-07-22 01:33:00 -0400 Updated Issue date\n2015-07-22 01:33:00 -0400 Pub task created, task id: 60797\n2015-07-22 01:33:00 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/60797\n2015-07-22 01:33:00 -0400 Waiting on pub to finish.\n2015-07-22 02:46:51 -0400 Pub completed.\n2015-07-22 02:46:51 -0400 Running post push tasks in background job 1319840.\n2015-07-22 05:21:57 -0400 Running post push tasks: move_pushed_errata, check_error, update_jira, update_push_count, mark_errata_shipped, update_bugzilla\n2015-07-22 05:21:57 -0400 Running mandatory tasks check_error, update_push_count, mark_errata_shipped\n2015-07-22 05:21:57 -0400 Running task check_error\n2015-07-22 05:21:57 -0400 Running task update_push_count\n2015-07-22 05:21:57 -0400 Push count increased\n2015-07-22 05:21:57 -0400 Running task mark_errata_shipped\n2015-07-22 05:21:57 -0400 Already SHIPPED_LIVE\n2015-07-22 05:21:57 -0400 Running remainder: move_pushed_errata, update_jira, update_bugzilla\n2015-07-22 05:21:57 -0400 Running task move_pushed_errata\n2015-07-22 05:21:57 -0400 Calling move-pushed-erratum for 2015:1395\n2015-07-22 05:22:05 -0400 2015:1395\nskipping advisory 2015:1395 (rhn-client-tools-1.0.0.1-32.el6) in RHEL-6.7\nbrew tag-pkg --nowait --force RHEL-6.7 rhn-client-tools-1.0.0.1-32.el6\nCreated task 9562010\n2015-07-22 05:22:05 -0400 move-pushed-erratum complete\n2015-07-22 05:22:05 -0400 Running task update_jira\n2015-07-22 05:22:05 -0400 Closing JIRA issues...\n2015-07-22 05:22:05 -0400 Issues put into queue to close\n2015-07-22 05:22:05 -0400 Running task update_bugzilla\n2015-07-22 05:22:05 -0400 Closing bugs...\n2015-07-22 05:22:05 -0400 Bugs put into queue to close\n2015-07-22 05:22:05 -0400 Mandatory post push tasks complete",
+    "options": {
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "check_error",
+      "mark_errata_shipped",
+      "move_pushed_errata",
+      "update_bugzilla",
+      "update_jira",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "reset_update_date",
+      "set_in_push",
+      "set_issue_date",
+      "set_live_id"
+    ],
+    "pub_task": {
+      "id": 60797
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "http://www.example.com/api/v1/erratum/20044/push/46275"
+  },
+  {
+    "errata": {
+      "id": 20044
+    },
+    "id": 46490,
+    "log": "2015-07-22 01:43:45 -0400 Running pre push tasks\n2015-07-22 01:43:45 -0400 Pub task created, task id: 61012\n2015-07-22 01:43:45 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61012\n2015-07-22 01:43:45 -0400 Waiting on pub to finish.\n2015-07-22 01:56:00 -0400 Pub completed.\n2015-07-22 01:56:00 -0400 Running post push tasks in background job 1319613.\n2015-07-22 03:52:12 -0400 Running post push tasks: mark_ftp_done\n2015-07-22 03:52:12 -0400 Running mandatory tasks mark_ftp_done\n2015-07-22 03:52:12 -0400 Running task mark_ftp_done\n2015-07-22 03:52:12 -0400 Running remainder:\n2015-07-22 03:52:12 -0400 Mandatory post push tasks complete",
+    "options": {
+      "priority": 12
+    },
+    "post_tasks": [
+      "mark_ftp_done"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": 61012
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 3,
+      "name": "ftp"
+    },
+    "url": "http://www.example.com/api/v1/erratum/20044/push/46490"
+  },
+  {
+    "errata": {
+      "id": 20044
+    },
+    "id": 47310,
+    "log": "2015-08-10 06:58:02 -0400 Running pre push tasks\n2015-08-10 06:58:02 -0400 Running pre push task set_in_push\n2015-08-10 06:58:02 -0400 Running task set_in_push\n2015-08-10 06:58:02 -0400 State already SHIPPED_LIVE\n2015-08-10 06:58:02 -0400 Running pre push task set_live_id\n2015-08-10 06:58:02 -0400 Running task set_live_id\n2015-08-10 06:58:03 -0400 Pub task created, task id: 61905\n2015-08-10 06:58:03 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61905\n2015-08-10 06:58:03 -0400 Waiting on pub to finish.\n2015-08-10 07:31:49 -0400 Pub completed.\n2015-08-10 07:31:49 -0400 Running post push tasks in background job 1364023.\n2015-08-10 07:31:58 -0400 Running post push tasks: update_push_count\n2015-08-10 07:31:58 -0400 Running mandatory tasks update_push_count\n2015-08-10 07:31:58 -0400 Running task update_push_count\n2015-08-10 07:31:58 -0400 Push count increased\n2015-08-10 07:31:58 -0400 Running remainder:\n2015-08-10 07:31:58 -0400 Mandatory post push tasks complete",
+    "options": {
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_live_id"
+    ],
+    "pub_task": {
+      "id": 61905
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "http://www.example.com/api/v1/erratum/20044/push/47310"
+  }
+]

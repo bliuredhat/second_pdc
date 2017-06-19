@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "flags": [
+      "made-up-flag is not a valid flag"
+    ]
+  }
+}

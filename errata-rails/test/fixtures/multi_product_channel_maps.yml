@@ -1,0 +1,104 @@
+--- 
+multi_product_channel_map_00001: 
+  created_at: 2013-01-18 18:48:44 Z
+  id: 1
+  destination_channel_id: 552
+  destination_product_version_id: 153
+  origin_channel_id: 4
+  origin_product_version_id: 149
+  package_id: 14685
+  user_id: 174587
+  created_at: 2013-01-18 18:49:01 Z
+  updated_at: 2013-01-18 18:48:44 Z
+multi_product_channel_map_00002: 
+  created_at: 2013-01-18 18:48:44 Z
+  id: 2
+  destination_channel_id: 553
+  destination_product_version_id: 153
+  origin_channel_id: 4
+  origin_product_version_id: 149
+  package_id: 14685
+  user_id: 174587
+  created_at: 2013-01-18 18:49:01 Z  
+  updated_at: 2013-01-18 18:48:44 Z
+multi_product_channel_map_00003: 
+  created_at: 2013-01-18 18:49:01 Z
+  id: 3
+  destination_channel_id: 552
+  destination_product_version_id: 153
+  origin_channel_id: 4
+  origin_product_version_id: 149
+  package_id: 16217
+  user_id: 174587
+  created_at: 2013-01-18 18:49:01 Z
+  updated_at: 2013-01-18 18:49:01 Z
+multi_product_channel_map_19:
+  destination_product_version_id: 284
+  id: 19
+  destination_channel_id: 1012
+  origin_product_version_id: 149
+  created_at: 2014-12-15 05:06:11 Z
+  updated_at: 2014-12-15 05:06:11 Z
+  package_id: 15336
+  user_id: 3001562
+  origin_channel_id: 4
+multi_product_channel_map_20:
+  destination_product_version_id: 320
+  id: 20
+  destination_channel_id: 1096
+  origin_product_version_id: 149
+  created_at: 2014-12-15 05:06:11 Z
+  updated_at: 2014-12-15 05:06:11 Z
+  package_id: 15336
+  user_id: 3001562
+  origin_channel_id: 4
+multi_product_channel_map_21:
+  destination_product_version_id: 368
+  id: 21
+  destination_channel_id: 1245
+  origin_product_version_id: 149
+  created_at: 2014-12-15 05:06:11 Z
+  updated_at: 2014-12-15 05:06:11 Z
+  package_id: 15336
+  user_id: 3001562
+  origin_channel_id: 4
+multi_product_channel_map_9:
+  package_id: 939
+  created_at: 2014-07-02 23:49:11 Z
+  updated_at: 2014-07-02 23:49:11 Z
+  origin_product_version_id: 149
+  destination_channel_id: 1163
+  id: 9
+  origin_channel_id: 4
+  destination_product_version_id: 334
+  user_id: 3001562
+multi_product_channel_map_25:
+  package_id: 939
+  created_at: 2015-01-29 00:45:26 Z
+  updated_at: 2015-01-29 00:45:26 Z
+  origin_product_version_id: 149
+  destination_channel_id: 556
+  id: 25
+  origin_channel_id: 4
+  destination_product_version_id: 153
+  user_id: 3001562
+multi_product_channel_map_26:
+  package_id: 939
+  created_at: 2015-01-29 00:45:26 Z
+  updated_at: 2015-01-29 00:45:26 Z
+  origin_product_version_id: 149
+  destination_channel_id: 1091
+  id: 26
+  origin_channel_id: 4
+  destination_product_version_id: 318
+  user_id: 3001562
+multi_product_channel_map_27:
+  package_id: 939
+  created_at: 2015-01-29 00:45:26 Z
+  updated_at: 2015-01-29 00:45:26 Z
+  origin_product_version_id: 149
+  destination_channel_id: 1203
+  id: 27
+  origin_channel_id: 4
+  destination_product_version_id: 358
+  user_id: 3001562

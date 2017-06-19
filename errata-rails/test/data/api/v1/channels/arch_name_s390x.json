@@ -1,0 +1,1200 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.1-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 717,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 713,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.2-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 434,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 709,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.3-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 450,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.4-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 459,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-proxy-5.4-server-s390x-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 513,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.1-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 704,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 700,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.2-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 431,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.3-as-s390x-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 696,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.3-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 447,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.4-server-s390x-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 462,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "redhat-rhn-satellite-5.4-server-s390x-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 511,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-3",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 293,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-3-extras",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 372,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 307,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-4",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 243,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-4-extras",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 386,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 262,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-4.5.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 269,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-4.7.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 279,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 113,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 125,
+            "name": "5Server"
+          },
+          {
+            "id": 453,
+            "name": "5Server-5.7.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 194,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 209,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 225,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 313,
+            "name": "5Server-5.4.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 158,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 467,
+            "name": "5Server-5.6.EUS"
+          },
+          {
+            "id": 394,
+            "name": "5Server-5.6.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 7,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          },
+          {
+            "id": 550,
+            "name": "6Server-6.3.z"
+          },
+          {
+            "id": 945,
+            "name": "6Server-6.6.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 101,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 85,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 59,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 664,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 550,
+            "name": "6Server-6.3.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-7",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 831,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          },
+          {
+            "id": 841,
+            "name": "7Server-7.0.Z"
+          },
+          {
+            "id": 1023,
+            "name": "7Server-7.1.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 142,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 39,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-hts-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 404,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-hts-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 466,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-optional-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 3,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          },
+          {
+            "id": 549,
+            "name": "6Server-optional-6.3.z"
+          },
+          {
+            "id": 948,
+            "name": "6Server-optional-6.6.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-optional-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 102,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-optional-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 81,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-optional-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 55,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-optional-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 660,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 549,
+            "name": "6Server-optional-6.3.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-optional-7",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1022,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          },
+          {
+            "id": 845,
+            "name": "7Server-optional-7.0.Z"
+          },
+          {
+            "id": 1027,
+            "name": "7Server-optional-7.1.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 35,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 368,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 133,
+            "name": "5Server-Supplementary"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-5.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 339,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 322,
+            "name": "5Server-Supplementary-5.2.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-5.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 344,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 323,
+            "name": "5Server-Supplementary-5.3.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-5.4.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 349,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 357,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 406,
+            "name": "5Server-Supplementary-5.6.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 329,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 321,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 334,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-6.3.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 656,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-supplementary-7",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1098,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 791,
+            "name": "7Server-Server"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-4-as-s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 569,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-s390x-server-5",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 582,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-s390x-server-5.6.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 592,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-s390x-server-6",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 607,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 359,
+            "name": "6Server-RHNTools"
+          },
+          {
+            "id": 503,
+            "name": "6Server-RHNTools-6.2.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-s390x-server-6.0.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 599,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-s390x-server-6.1.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 603,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-s390x-server-6.2.z",
+        "release_type": "EUS",
+        "use_for_tps": true
+      },
+      "id": 617,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 503,
+            "name": "6Server-RHNTools-6.2.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    }
+  ]
+}

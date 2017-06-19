@@ -1,0 +1,31 @@
+# HTTP 200
+[
+  {
+    "errata": {
+      "id": 11096
+    },
+    "id": 11370,
+    "log": "\nEnqueued push job. Submitting to pub at Fri Apr 15 08:00:00 -0400 2011\nPub task created, task id: 6424\nLink to the pub task: http://pub.devel.redhat.com/pub/task/6424\nWaiting on pub to finish.\nPub completed.\nRunning post push tasks.\nRunning task reschedule_rhnqa\nRunning task mark_rhnqa_done\npost-push tasks complete",
+    "options": {
+      "priority": 10,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_rhnqa_done",
+      "reschedule_rhnqa"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": 6424
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 2,
+      "name": "rhn_stage"
+    },
+    "url": "http://www.example.com/api/v1/erratum/11096/push/11370"
+  }
+]

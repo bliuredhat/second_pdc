@@ -1,0 +1,14 @@
+<% unless( @assigned_errata.empty?) %>
+  <h2><%= @user.realname %> (<%= @user.login_name %>) is assigned to <%= @assigned_errata.length %> errata</h2>
+
+  <%# old way %>
+  <%= render(:partial => "errata/errata_list", :object => @assigned_errata) %>
+
+  <%# try new way.. doesn't work since needs a filter object.. hmm.. %>
+  <%# @erratas = @assigned_errata %>
+  <%#= render "errata/list" %>
+
+<% else %>
+  <h2><%= @user.realname %> (<%= @user.login_name %>) is not assigned to any errata.</h2>
+<% end %>
+

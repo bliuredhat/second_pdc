@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:unix-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:red-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux linux-definitions-schema.xsd">
+  <generator>
+    <oval:product_name>Red Hat Errata System</oval:product_name>
+    <oval:schema_version>5.10.1</oval:schema_version>
+    <oval:timestamp><%= Time.now.strftime('%Y-%m-%dT%H:%M:%S') %></oval:timestamp>
+  </generator>
+
+  <definitions>
+    <definition id="<%= @test.oval_id %>" version="<%= @test.oval_version %>" class="patch">
+      <metadata>
+        <title><%= @errata.advisory_name %>: <%= @errata.synopsis_sans_impact %> (<%= @errata.security_impact %>)</title>
+    <affected family="unix">
+      <% @errata.ovalplatforms.each do |a| -%>
+      <platform><%=h a.description %></platform>
+     <% end -%>
+    </affected>
+    <reference source="<%= @errata.errata_type %>" ref_id="<%= @errata.advisory_name %>-<%= sprintf("%.2d", @errata.pushcount) %>" ref_url="<%= @errata.errata_public_url %>"/>
+    <% @errata.all_cves.each do |c| -%>
+      <reference source="CVE" ref_id="<%= c %>" ref_url="<%= cve_url(c) %>"/>
+    <% end %>
+    <description><%=h ensure_utf8(@errata.content.description) %></description>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~   advisory details   ~~~~~~~~~~~~~~~~~~~ -->
+
+<advisory from="secalert@redhat.com">
+<% if @errata.security_impact? %>
+        <severity><%= @errata.security_impact %></severity>
+<% end %>
+        <rights>Copyright <%= @errata.update_date.year %> Red Hat, Inc.</rights>
+        <issued date="<%= short_date(@errata.issue_date) %>"/>
+        <updated date="<%= short_date(@errata.update_date) %>"/>
+    <% @errata.all_cves.each do |c| -%>
+        <cve href="<%= cve_url(c) %>"><%= c %></cve>
+    <% end -%>
+    <% bugs = @errata.bugs.select {|b| !b.is_private? }
+       bugs.each do |b| -%>
+        <bugzilla href="https://bugzilla.redhat.com/<%= b.id %>" id="<%= b.id %>"><%=h b.short_desc %></bugzilla>
+    <% end -%>
+    <% jira_issues = Settings.jira_private_only||Settings.jira_as_references ? [] : @errata.jira_issues.only_public.sort_by(&:key)
+       jira_issues.each do |j| -%>
+        <jira href="<%= j.url %>" id="<%= j.key %>"><%=h j.summary %></jira>
+    <% end -%>
+    <affected_cpe_list>
+    <% @test.cpe_list.each do |cpe| -%>
+        <cpe><%= cpe %></cpe>
+    <% end -%>
+    </affected_cpe_list>
+</advisory>
+      </metadata>
+      <%= render(:partial => "push/criteria" , :collection => @test.criteria, :locals => {:test => @test}) %>
+    </definition>
+  </definitions>
+  <tests>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~   rpminfo tests   ~~~~~~~~~~~~~~~~~~~~~ -->
+    <%= render(:partial => "push/rpminfo_test" , :collection => @test.tests.sort_by(&:id), :locals => {:test => @test}) %>
+  </tests>
+
+  <objects>
+    <!-- ~~~~~~~~~~~~~~~~~~~~   rpminfo objects   ~~~~~~~~~~~~~~~~~~~~ -->
+    <%= render(:partial => "push/rpminfo_object" , :collection => @test.packages.sort_by(&:rpm_name), :locals => {:test => @test}) %>
+  </objects>
+  <states>
+    <!-- ~~~~~~~~~~~~~~~~~~~~   rpminfo states   ~~~~~~~~~~~~~~~~~~~~~ -->
+    <%= render(:partial => "push/rpminfo_state" , :collection => @test.states.sort_by(&:id), :locals => {:test => @test}) %>
+  </states>
+</oval_definitions>
+

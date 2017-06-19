@@ -1,0 +1,17 @@
+# HTTP 400
+{
+  "errors": {
+    "RHSA-2015:19463 cdn post_push_tasks": [
+      "must be empty for nochannel push"
+    ],
+    "RHSA-2015:19463 cdn pre_push_tasks": [
+      "must be empty for nochannel push"
+    ],
+    "RHSA-2015:19463 rhn_live post_push_tasks": [
+      "must be empty for nochannel push"
+    ],
+    "RHSA-2015:19463 rhn_live pre_push_tasks": [
+      "must be empty for nochannel push"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+<% 
+   products = Product.find(:all, 
+                           :conditions => 
+                           "isactive = 1 and id in (select product_id from releases where product_id is not null and enabled = 1 and isactive = 1)",
+                           :order => 'name').collect! { |d| [d.name,d.id]}
+%>
+
+<%=  select(:product, :id, 
+            products, 
+            {:selected => product_list.id},
+               'data-remote' => true,
+               'data-url' => url_for(:controller => :bugs, :action => :releases_for_product))
+     %>

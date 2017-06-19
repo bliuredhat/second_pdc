@@ -1,0 +1,10 @@
+These scripts should be useful for doing QE on CCAT related
+functionality.
+
+I copied them from the QE server where they were being used
+and committed them as-is rather than refactor and make them
+pretty.
+
+See also:
+- https://docs.engineering.redhat.com/x/ER7VAg
+- https://bugzilla.redhat.com/show_bug.cgi?id=1436525

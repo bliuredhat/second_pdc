@@ -1,0 +1,12 @@
+---
+- debug: msg="Copying errata-rails-{{repo}}.repo from {{repo_dir}} directory"
+
+- name: copy repo file to /etc/yum.repos.d
+  copy: src="{{item}}" dest=/etc/yum.repos.d/
+  sudo: yes
+  with_fileglob:
+    - "{{repo_dir}}/errata-rails-{{repo}}.repo"
+  notify:
+    - yum repolist
+
+- meta: flush_handlers

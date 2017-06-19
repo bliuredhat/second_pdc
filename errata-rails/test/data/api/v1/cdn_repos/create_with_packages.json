@@ -1,0 +1,32 @@
+{
+  "data": {
+    "attributes": {
+      "content_type": "Docker",
+      "name": "test_cdn_repo",
+      "release_type": "FastTrack",
+      "use_for_tps": false
+    },
+    "relationships": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "packages": [
+        {
+          "cdn_repo_package_tags": [
+
+          ],
+          "id": 31613,
+          "name": "rh-php56-docker"
+        }
+      ],
+      "variants": [
+        {
+          "id": 699,
+          "name": "7Client"
+        }
+      ]
+    },
+    "type": "cdn_repos"
+  }
+}

@@ -1,0 +1,221 @@
+Ansible for Errata Tool
+=======================
+:toc:
+
+This repository contains ansible configuration used for Errata Tool.
+
+[[errata-dev-env]]
+Errata Development Environment
+------------------------------
+
+To deploy an errata development environment, you can either run
+individual playbooks or a full deployment.
+
+What is covered
+~~~~~~~~~~~~~~~
+
+Of the time of writing of this document, the play books will deploy:
+
+- base repositories
+- Rails installation
+- MySQL installation and hardening
+
+What is not covered
+~~~~~~~~~~~~~~~~~~~
+
+- Rails repository checkout, since you'll need to register with Gerrit
+
+Prerequisites
+~~~~~~~~~~~~~
+
+For a full deployment make sure your VM or physical machine provides the
+following:
+
+- libselinux-python is installed. to do this:
+  - copy playbooks/et-devel-env/files/rhel6-updates.repo to /etc/yum.repos
+  - yum install libselinux-python
+- cleanup/disable the raw /etc/yum.repos.d/ in VM to avoid the rpm conflict
+- you can log in via ssh (For password auth, use the `--ask-pass`
+  parameter when invoking the play book)
+
+Run it
+~~~~~~
+
+Add your host in the `inventory/et-devel-env` file.
+
+Perform the full deployment by:
+
+    ansible-playbook playbooks/et-devel-env/full-deployment.yml
+
+You might need to tell ansible to use a user ssh or sudo password:
+
+    ansible-playbook playbooks/et-devel-env/full-deployment.yml --ask-pass --ask-sudo-pass
+
+Note: Tested with python2.7 ansible installation 1.5.4 and VM rhel6.5-workstation. Plus,
+please have a look the bottom *Known Issues*.
+
+Jenkins Slaves
+--------------
+
+[[os_credentials]]
+OpenStack Credentials
+~~~~~~~~~~~~~~~~~~~~~
+
+Some of the playbooks in this repository want to deploy hosts on OpenStack.
+
+These playbooks use the same `OS_*` environment variables as used by the `nova`
+command. The recommended way to set up your environment for these playbooks
+is:
+
+- Log in to OpenStack.  (We use https://control.os1.phx2.redhat.com/[OS1 Internal].)
+
+- Navigate to 'Access & Security' -> 'API Access', and 'Download OpenStack RC File'.
+
+- Source the downloaded RC file ( e.g. `. ~/openstack.rc` )
+
+It's also required to have a working `nova` command in `PATH`.
+
+ssh credentials
+~~~~~~~~~~~~~~~
+
+A few different ssh credentials are used by playbooks in this repo.
+
+For any keypairs used in OpenStack, ask the Errata Tool team (in `#erratadev`) to
+share the necessary files.  Once obtained, simply dropping the private key file
+into `$HOME/.ssh` should be sufficient.
+
+For other keys: as these playbooks include deployments onto developer workstations,
+not all keys may be available.  Generally, use the `--limit` option to ansible to
+restrict the playbook execution to those hosts where you have access.
+
+vault credentials
+~~~~~~~~~~~~~~~~~
+
+Some files in this repo are encrypted using ansible's vault.  Ask `#erratadev` for
+the password when needed.
+
+HOWTO
+~~~~~
+
+[[jenkins]]
+Deploy a new Jenkins slave on an existing host
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Log in to Jenkins at https://jenkins.engineering.redhat.com/
+
+. Navigate to 'Manage Jenkins' -> 'Manage Nodes' -> 'New Node'
+  (or simply visit https://jenkins.engineering.redhat.com/computer/new )
+
+. Create a new node using the 'Copy Existing Node' option.
+  Copy `docker-01`; use a higher number in the name than
+  all existing slaves, and leave all other fields unmodified.
+
+. Visit the node's status page (e.g. https://jenkins.engineering.redhat.com/computer/docker-05/ )
+  and note the "secret" displayed for the JNLP slave.
+  The secret is a string like this: `3a76fb486acd92d77ea73c8dac28088b5473fc5e444dec764b70a4c58b045d2a`
+
+. Add an encrypted file containing the secret as an ansible host var, for example:
+
+  $ ansible-vault create inventory/host_vars/docker-05
+  # Enter the vault password.
+  # Enter file content like the following:
+  ---
+  jenkins_secret: 3a76fb486acd92d77ea73c8dac28088b5473fc5e444dec764b70a4c58b045d2a
+
+. Edit `inventory/et-jenkins-slaves` and add the new slave.
+  The slave must be added to the `et-jenkins-slaves` group.
+  ansible must be informed of the real hostname and username for the ssh connection,
+  as in the following example:
+
+    [et-jenkins-slaves]
+    docker-05 ansible_ssh_host=my-workstation.usersys.redhat.com ansible_ssh_user=qbert
++
+Both root and non-root users may be used, but if a non-root user is used,
+ansible must be able to invoke sudo for that user.
++
+If there are several slaves on a single host, it may make sense to put them
+into a new group - see the `rmcgover-ws` group for an example.
+
+. Run the playbooks.  `--limit '!nova'` may be useful to skip OpenStack hosts, or
+  consider limiting to the new slave only.
+
+  $ ansible-playbook --limit '!nova' --ask-vault-pass playbooks/et-jenkins-slave/*.yml
+  # enter vault password, then wait
+
+If all goes well, the slaves should appear as connected in Jenkins within a few
+minutes.
+
+[[jenkins_nova]]
+Deploy a new Jenkins slave on a new OpenStack instance
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Follow steps 1 through 5 in <<jenkins,the previous section>> (create the slave in Jenkins and
+  save its secret).
+
+. Edit `inventory/et-jenkins-slave` and add the new slave to the `[nova]` section.
+  It's unnecessary to specify any host or username for the slave - this is found
+  automatically from OpenStack.
+
+. Ensure your environment is set up with the appropriate OpenStack credentials, as explained
+  in <<os_credentials,an earlier section>>.
+
+. Run the playbooks.  `--limit 'nova'` may be useful to only consider OpenStack hosts.
+
+  $ ansible-playbook --ask-vault-pass --limit 'nova' playbooks/et-jenkins-slave/*.yml
+  # enter vault password, then wait
++
+After new VMs are created, ansible will wait for the ssh service to start on the VMs before
+proceeding, which will typically cause a noticeable delay.
+
+The slaves should appear as connected in Jenkins within a few minutes after ansible completes.
+
+[[jenkins_update]]
+Update the docker image on Jenkins slaves
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+NOTE: This process is not required if you only need to update the test images
+used within Jenkins (e.g. `errata_tool/errata_tester`).
+
+. Log in to Jenkins and "mark this node temporarily offline" for each node
+  to be updated at https://jenkins.engineering.redhat.com/computer/ .
+  (This step and the next can be skipped if you are certain Jenkins will be
+  idle for some time!)
+
+. Wait for any Jenkins jobs using the slaves to complete.
+
+. Edit `inventory/group_vars/et-jenkins-slaves` and update `docker_image_id` to the
+  ID of the new image.
++
+IMPORTANT: The image ID must be accessible from the `docker_image_tag` tag
+mentioned in that file.  Ansible will run `docker pull {{ docker_image_tag }}`
+on the hosts, so that command must be sufficient to retrieve the image.
+
+. Run the playbooks.
+
+  $ ansible-playbook --ask-vault-pass playbooks/et-jenkins-slave/*.yml
+  # enter vault password, then wait
+
+. Visit Jenkins again and mark the updated nodes as online.
+
+Known Issues
+------------
+
+Some playbooks are not compatible with the `--check` option to ansible
+due to the usage of registered variables.
+
+The exception of some packages such as `fakeweb`, `ffi` and `qpid_proton` missed will be
+raised under the process of starting local development environment over command
+`ansible-playbook playbooks/et-devel-env/full-deployment.yml --ask-pass --ask-sudo-pass`,
+which can be worked around by manually specifying the RPM urls to install them.
+
+In some cases we map several pseudo-hosts to the same physical host (e.g. multiple
+Jenkins slaves deployed onto one workstation).  This can cause problems, as it
+means ansible will run the deployment commands multiple times in parallel on the
+same physical host.  Some utilities experience unpredictable failures when run this
+way (`easy_install` for example).  This can be worked around by running ansible
+with `-f 1` in this case, to serialize all actions.
+
+If running playbooks against hosts as a user other than root, it might be necessary
+to explicitly provide the `--sudo` argument to ansible.  This is especially confusing
+for OpenStack hosts, as the cloud-user account has the privileges to perform many
+(but not all) superuser actions, so it's sometimes unclear whether sudo is required.

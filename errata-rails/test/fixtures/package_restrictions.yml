@@ -1,0 +1,141 @@
+---
+package_restriction_1: 
+  variant_id: 594
+  id: 1
+  package_id: 13819
+  created_at: 2014-06-19 01:34:24 Z
+  who_id: 3000908
+  updated_at: 2014-06-19 01:34:24 Z
+package_restriction_2: 
+  variant_id: 340
+  id: 2
+  package_id: 2
+  created_at: 2014-06-19 01:37:38 Z
+  who_id: 3000908
+  updated_at: 2014-06-19 01:37:38 Z
+package_restriction_3: 
+  variant_id: 340
+  id: 3
+  package_id: 4
+  created_at: 2014-06-19 01:38:05 Z
+  who_id: 3000908
+  updated_at: 2014-06-19 01:38:05 Z
+package_restriction_4:
+  variant_id: 345
+  created_at: 2015-01-12 03:52:22 Z
+  id: 4
+  package_id: 14828
+  updated_at: 2015-01-12 03:52:22 Z
+  who_id: 3000931
+package_restriction_5:
+  variant_id: 344
+  created_at: 2015-01-12 03:52:41 Z
+  id: 5
+  package_id: 14828
+  updated_at: 2015-01-12 03:52:41 Z
+  who_id: 3000931
+package_restriction_6:
+  variant_id: 340
+  created_at: 2015-01-12 03:53:02 Z
+  id: 6
+  package_id: 14828
+  updated_at: 2015-01-12 03:53:02 Z
+  who_id: 3000931
+package_restriction_7:
+  variant_id: 348
+  created_at: 2015-01-12 03:53:19 Z
+  id: 7
+  package_id: 14828
+  updated_at: 2015-01-12 03:53:19 Z
+  who_id: 3000931
+package_restriction_8:
+  variant_id: 345
+  created_at: 2015-01-12 05:10:09 Z
+  id: 8
+  package_id: 15003
+  updated_at: 2015-01-12 05:10:09 Z
+  who_id: 3000931
+package_restriction_9:
+  variant_id: 344
+  created_at: 2015-01-12 05:10:26 Z
+  id: 9
+  package_id: 15003
+  updated_at: 2015-01-12 05:10:26 Z
+  who_id: 3000931
+package_restriction_10:
+  variant_id: 344
+  created_at: 2015-01-12 05:10:45 Z
+  id: 10
+  package_id: 100
+  updated_at: 2015-01-12 05:10:45 Z
+  who_id: 3000931
+package_restriction_11:
+  variant_id: 344
+  created_at: 2015-01-12 05:10:55 Z
+  id: 11
+  package_id: 1987
+  updated_at: 2015-01-12 05:10:55 Z
+  who_id: 3000931
+package_restriction_12:
+  variant_id: 345
+  created_at: 2015-01-12 05:11:09 Z
+  id: 12
+  package_id: 100
+  updated_at: 2015-01-12 05:11:09 Z
+  who_id: 3000931
+package_restriction_13:
+  variant_id: 345
+  created_at: 2015-01-12 05:11:20 Z
+  id: 13
+  package_id: 1987
+  updated_at: 2015-01-12 05:11:20 Z
+  who_id: 3000931
+package_restriction_14:
+  variant_id: 340
+  created_at: 2015-01-12 05:11:51 Z
+  id: 14
+  package_id: 15003
+  updated_at: 2015-01-12 05:11:51 Z
+  who_id: 3000931
+package_restriction_15:
+  variant_id: 340
+  created_at: 2015-01-12 05:12:00 Z
+  id: 15
+  package_id: 1987
+  updated_at: 2015-01-12 05:12:00 Z
+  who_id: 3000931
+package_restriction_16:
+  variant_id: 340
+  created_at: 2015-01-12 05:12:16 Z
+  id: 16
+  package_id: 100
+  updated_at: 2015-01-12 05:12:16 Z
+  who_id: 3000931
+package_restriction_17:
+  variant_id: 348
+  created_at: 2015-01-12 05:12:36 Z
+  id: 17
+  package_id: 15003
+  updated_at: 2015-01-12 05:12:36 Z
+  who_id: 3000931
+package_restriction_18:
+  variant_id: 348
+  created_at: 2015-01-12 05:12:49 Z
+  id: 18
+  package_id: 100
+  updated_at: 2015-01-12 05:12:49 Z
+  who_id: 3000931
+package_restriction_19:
+  variant_id: 348
+  created_at: 2015-01-12 05:12:58 Z
+  id: 19
+  package_id: 1987
+  updated_at: 2015-01-12 05:12:58 Z
+  who_id: 3000931
+package_restriction_20:
+  variant_id: 347
+  created_at: 2015-01-12 05:53:39 Z
+  id: 20
+  package_id: 100
+  updated_at: 2015-01-12 05:53:39 Z
+  who_id: 3000931

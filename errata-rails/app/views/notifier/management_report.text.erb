@@ -1,0 +1,11 @@
+<% @release.errata.group_by{ |e| e.manager }.each do |manager, errata_list| -%>
+<%# This html_safe is especially for 'Tom "spot" Callaway' who was causing a test to fail...
+-%>Manager: <%= manager.to_s.html_safe %> - <%= errata_list.length %> <%= pluralize_based_on(errata_list,'advisory') %> needing attention:
+<% errata_list.each do |errata| %>
+  Owner: <%= errata.package_owner.to_s %>
+  <%= errata.name_and_release %> '<%= errata.synopsis %>' has been in <%= errata.status.to_s %> for <%= time_ago_in_words(errata.status_updated_at) %>
+  <%= errata_text_url errata %>
+<% end -%>
+
+
+<% end -%>

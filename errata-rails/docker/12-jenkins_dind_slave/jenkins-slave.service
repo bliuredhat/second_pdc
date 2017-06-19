@@ -1,0 +1,15 @@
+[Unit]
+Description="Jenkins Slave (webstart)"
+RequiresOverridable=docker.service
+BindsTo=docker.service
+ConditionFileNotEmpty=/var/lib/jenkins/.jenkinsrc
+
+[Service]
+Type=simple
+ExecStart=/run-slave
+Restart=always
+User=jenkins
+SupplementaryGroups=docker
+RestartSec=30
+StartLimitInterval=1d
+StartLimitBurst=1000

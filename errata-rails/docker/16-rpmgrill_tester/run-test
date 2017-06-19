@@ -1,0 +1,40 @@
+#!/bin/sh
+
+testscript_empty(){
+  ! egrep -q '^[^#].*[^ ]' /tmp/testscript
+}
+
+read_testscript(){
+  echo '#!/bin/sh' > /tmp/testscript
+  cat >>/tmp/testscript
+
+  if testscript_empty; then
+    for arg in "$@"; do
+      echo -En "\"$arg\" " >> /tmp/testscript
+    done
+    echo "" >> /tmp/testscript
+  fi
+
+  if testscript_empty; then
+    cat 1>&2 <<EOF
+ERROR: no test script or command was provided.
+
+To use this image, please supply a test command to be run as arguments,
+or pipe a test script to standard input.
+EOF
+    exit 2
+  fi
+
+  chmod +x /tmp/testscript
+}
+
+exec_testscript(){
+  exec su - tester -c "cd \"$PWD\" && exec /tmp/testscript"
+}
+
+run(){
+  read_testscript "$@"
+  exec_testscript
+}
+
+run "$@"

@@ -1,0 +1,2205 @@
+--- 
+rpmdiff_run_50162: 
+  package_id: 496
+  old_version: 2.3.4-14.9.el4
+  person: dmalcolm@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/python/2.3.4/14.10.el4/src/python-2.3.4-14.10.el4.src.rpm
+  overall_score: 2
+  brew_build_id: 162692
+  run_id: 50162
+  run_date: 2011-04-15 22:26:32 Z
+  errata_nr: 2011:11065
+  variant: 4AS
+  obsolete: 0
+  errata_id: 11065
+  new_version: 2.3.4-14.10.el4
+  package_name: python
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23770
+  brew_rpm_id: 1907549
+rpmdiff_run_46991: 
+  package_id: 16517
+  old_version: 1.0.3-1.el6
+  person: aschwab@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libdfp/1.0.4/2.el6/src/libdfp-1.0.4-2.el6.src.rpm
+  overall_score: 3
+  brew_build_id: 154358
+  run_id: 46991
+  run_date: 2011-01-17 13:43:19 Z
+  errata_nr: 2010:10326
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10326
+  new_version: 1.0.4-2.el6
+  package_name: libdfp
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 20440
+  brew_rpm_id: 1839771
+rpmdiff_run_44046: 
+  package_id: 2633
+  old_version: 6.0.24-2.ep5.el4
+  person: pcheung@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat6/6.0.24/7.patch_01.jdk6.ep5.el4/src/tomcat6-6.0.24-7.patch_01.jdk6.ep5.el4.src.rpm
+  overall_score: 2
+  brew_build_id: 137283
+  run_id: 44046
+  run_date: 2010-07-27 13:18:52 Z
+  errata_nr: 2010:0581
+  variant: 4AS
+  obsolete: 0
+  errata_id: 9755
+  new_version: 6.0.24-7.patch_01.jdk6.ep5.el4
+  package_name: tomcat6
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 17094
+  brew_rpm_id: 1712253
+rpmdiff_run_48148: 
+  package_id: 826
+  old_version: 2.3.1-1.el5
+  person: psatpute@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/fonts-indic/2.3.1.1/1.el5/src/fonts-indic-2.3.1.1-1.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 156613
+  run_id: 48148
+  run_date: 2011-02-22 07:25:48 Z
+  errata_nr: 2011:10842
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10842
+  new_version: 2.3.1.1-1.el5
+  package_name: fonts-indic
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 21730
+  brew_rpm_id: 18607100
+rpmdiff_run_50002: 
+  package_id: 16644
+  old_version: NEW_PACKAGE
+  person: linville@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/iwl100-firmware/39.31.5.1/1.el6/src/iwl100-firmware-39.31.5.1-1.el6.src.rpm
+  overall_score: 0
+  brew_build_id: 161869
+  run_id: 50002
+  run_date: 2011-04-12 13:10:28 Z
+  errata_nr: 2011:11112
+  variant: 6Server
+  obsolete: 0
+  errata_id: 11112
+  new_version: 39.31.5.1-1.el6
+  package_name: iwl100-firmware
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23604
+  brew_rpm_id: 19022960
+rpmdiff_run_47007: 
+  package_id: 16517
+  old_version: 1.0.3-1.el6
+  person: aschwab@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libdfp/1.0.4/3.el6/src/libdfp-1.0.4-3.el6.src.rpm
+  overall_score: 3
+  brew_build_id: 154386
+  run_id: 47007
+  run_date: 2011-01-17 16:53:41 Z
+  errata_nr: 2010:10326
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10326
+  new_version: 1.0.4-3.el6
+  package_name: libdfp
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 20460
+  brew_rpm_id: 1839999
+rpmdiff_run_48093: 
+  package_id: 1029
+  old_version: 4.0-3.el6
+  person: apevec@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/squashfs-tools/4.0/5.el6/src/squashfs-tools-4.0-5.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 157451
+  run_id: 48093
+  run_date: 2011-02-18 22:33:51 Z
+  errata_nr: 2011:10836
+  variant: 6Server
+  obsolete: 0
+  errata_id: 10836
+  new_version: 4.0-5.el6
+  package_name: squashfs-tools
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 21674
+  brew_rpm_id: 1866677
+rpmdiff_run_47842: 
+  package_id: 14538
+  old_version: 1.2.13-26.el5sat
+  person: mmraka@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/spacewalk-backend/1.2.13/26.1.el5sat/src/spacewalk-backend-1.2.13-26.1.el5sat.src.rpm
+  overall_score: 2
+  brew_build_id: 157288
+  run_id: 47842
+  run_date: 2011-02-17 14:16:25 Z
+  errata_nr: 2011:0300
+  variant: 5Server
+  obsolete: 1
+  errata_id: 10827
+  new_version: 1.2.13-26.1.el5sat
+  package_name: spacewalk-backend
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 21357
+  brew_rpm_id: 18652900
+rpmdiff_run_44047: 
+  package_id: 677
+  old_version: 5.5.28-7.ep5.el4
+  person: pcheung@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat5/5.5.28/9.patch_01.jdk6.ep5.el4/src/tomcat5-5.5.28-9.patch_01.jdk6.ep5.el4.src.rpm
+  overall_score: 2
+  brew_build_id: 138357
+  run_id: 44047
+  run_date: 2010-07-27 13:21:12 Z
+  errata_nr: 2010:0581
+  variant: 4AS
+  obsolete: 0
+  errata_id: 9755
+  new_version: 5.5.28-9.patch_01.jdk6.ep5.el4
+  package_name: tomcat5
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 17095
+  brew_rpm_id: 1722941
+rpmdiff_run_47686: 
+  package_id: 14508
+  old_version: 1.1.16-0.el6
+  person: jgregusk@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/virtio-win/1.1.16/1.el6/src/virtio-win-1.1.16-1.el6.src.rpm
+  overall_score: 3
+  brew_build_id: 156648
+  run_id: 47686
+  run_date: 2011-02-14 22:16:20 Z
+  errata_nr: 2011:10808
+  variant: 6Server
+  obsolete: 0
+  errata_id: 10808
+  new_version: 1.1.16-1.el6
+  package_name: virtio-win
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 21198
+  brew_rpm_id: 18611520
+rpmdiff_run_50166: 
+  package_id: 155
+  old_version: 10.2.153.1-1.el5
+  person: stransky@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el5/src/flash-plugin-10.2.159.1-1.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 162730
+  run_id: 50166
+  run_date: 2011-04-18 07:23:14 Z
+  errata_nr: 2011:0451
+  variant: 5Server
+  obsolete: 0
+  errata_id: 11131
+  new_version: 10.2.159.1-1.el5
+  package_name: flash-plugin
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23774
+  brew_rpm_id: 1907859
+rpmdiff_run_47009: 
+  package_id: 16517
+  old_version: 1.0.3-1.el6
+  person: aschwab@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libdfp/1.0.4/4.el6/src/libdfp-1.0.4-4.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 154403
+  run_id: 47009
+  run_date: 2011-01-17 17:49:18 Z
+  errata_nr: 2010:10326
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10326
+  new_version: 1.0.4-4.el6
+  package_name: libdfp
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 20462
+  brew_rpm_id: 1840133
+rpmdiff_run_47843: 
+  package_id: 14541
+  old_version: 1.2.39-35.el5sat
+  person: mmraka@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/spacewalk-java/1.2.39/35.1.el5sat/src/spacewalk-java-1.2.39-35.1.el5sat.src.rpm
+  overall_score: 1
+  brew_build_id: 157289
+  run_id: 47843
+  run_date: 2011-02-17 14:16:36 Z
+  errata_nr: 2011:0300
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10827
+  new_version: 1.2.39-35.1.el5sat
+  package_name: spacewalk-java
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 21358
+  brew_rpm_id: 18653100
+rpmdiff_run_44048: 
+  package_id: 2633
+  old_version: 6.0.24-2.1.ep5.el5
+  person: pcheung@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat6/6.0.24/7.patch_01.jdk6.ep5.el5/src/tomcat6-6.0.24-7.patch_01.jdk6.ep5.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 137251
+  run_id: 44048
+  run_date: 2010-07-27 13:19:24 Z
+  errata_nr: 2010:0581
+  variant: 5Server
+  obsolete: 0
+  errata_id: 9755
+  new_version: 6.0.24-7.patch_01.jdk6.ep5.el5
+  package_name: tomcat6
+  last_good_run_id: 44046
+  errata_file_id: 
+  errata_brew_mapping_id: 17096
+  brew_rpm_id: 1712239
+rpmdiff_run_50224: 
+  package_id: 2633
+  old_version: 6.0.24-24.el6_0
+  person: dknox@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat6/6.0.24/30.el6/src/tomcat6-6.0.24-30.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 162916
+  run_id: 50224
+  run_date: 2011-04-19 19:37:27 Z
+  errata_nr: 2011:10893
+  variant: 6Server
+  obsolete: 0
+  errata_id: 10893
+  new_version: 6.0.24-30.el6
+  package_name: tomcat6
+  last_good_run_id: 48680
+  errata_file_id: 
+  errata_brew_mapping_id: 23831
+  brew_rpm_id: 1909439
+rpmdiff_run_50005: 
+  package_id: 724
+  old_version: 2.3.14-10.el5
+  person: vvitek@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/xinetd/2.3.14/12.el5/src/xinetd-2.3.14-12.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 162080
+  run_id: 50005
+  run_date: 2011-04-12 13:35:54 Z
+  errata_nr: 2011:11105
+  variant: 5Server
+  obsolete: 0
+  errata_id: 11105
+  new_version: 2.3.14-12.el5
+  package_name: xinetd
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23607
+  brew_rpm_id: 19043160
+rpmdiff_run_48194: 
+  package_id: 16390
+  old_version: 1.4.2.13.6.sap-1jpp.1.el4_8
+  person: jvanek@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/java-1.4.2-ibm-sap/1.4.2.13.8.sap/1jpp.2.el4_8/src/java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el4_8.src.rpm
+  overall_score: 2
+  brew_build_id: 157514
+  run_id: 48194
+  run_date: 2011-02-23 07:51:50 Z
+  errata_nr: 2011:0299
+  variant: 4AS
+  obsolete: 0
+  errata_id: 10844
+  new_version: 1.4.2.13.8.sap-1jpp.2.el4_8
+  package_name: java-1.4.2-ibm-sap
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 21775
+  brew_rpm_id: 18674020
+rpmdiff_run_45220: 
+  package_id: 1952
+  old_version: 2.6.24.7-161.el5rt
+  person: bhu@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/kernel-rt/2.6.24.7/166.el5rt/src/kernel-rt-2.6.24.7-166.el5rt.src.rpm
+  overall_score: 2
+  brew_build_id: 144277
+  run_id: 45220
+  run_date: 2010-09-27 19:04:18 Z
+  errata_nr: 2010:0758
+  variant: 5Server
+  obsolete: 1
+  errata_id: 9883
+  new_version: 2.6.24.7-166.el5rt
+  package_name: kernel-rt
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 18296
+  brew_rpm_id: 17656820
+rpmdiff_run_50167: 
+  package_id: 155
+  old_version: 10.2.153.1-1.el6
+  person: stransky@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/flash-plugin/10.2.159.1/1.el6/src/flash-plugin-10.2.159.1-1.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 162731
+  run_id: 50167
+  run_date: 2011-04-18 07:24:12 Z
+  errata_nr: 2011:0451
+  variant: 6Server
+  obsolete: 0
+  errata_id: 11131
+  new_version: 10.2.159.1-1.el6
+  package_name: flash-plugin
+  last_good_run_id: 50166
+  errata_file_id: 
+  errata_brew_mapping_id: 23775
+  brew_rpm_id: 1907861
+rpmdiff_run_44050: 
+  package_id: 677
+  old_version: 5.5.28-7.1.ep5.el5
+  person: pcheung@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat5/5.5.28/9.patch_01.1.jdk6.ep5.el5/src/tomcat5-5.5.28-9.patch_01.1.jdk6.ep5.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 138432
+  run_id: 44050
+  run_date: 2010-07-27 15:36:58 Z
+  errata_nr: 2010:0581
+  variant: 5Server
+  obsolete: 0
+  errata_id: 9755
+  new_version: 5.5.28-9.patch_01.1.jdk6.ep5.el5
+  package_name: tomcat5
+  last_good_run_id: 44047
+  errata_file_id: 
+  errata_brew_mapping_id: 17098
+  brew_rpm_id: 17235360
+rpmdiff_run_44049: 
+  package_id: 677
+  old_version: 5.5.28-7.1.ep5.el5
+  person: pcheung@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat5/5.5.28/9.patch_01.jdk6.ep5.el5/src/tomcat5-5.5.28-9.patch_01.jdk6.ep5.el5.src.rpm
+  overall_score: 4
+  brew_build_id: 138356
+  run_id: 44049
+  run_date: 2010-07-27 13:20:49 Z
+  errata_nr: 2010:0581
+  variant: 5Server
+  obsolete: 1
+  errata_id: 9755
+  new_version: 5.5.28-9.patch_01.jdk6.ep5.el5
+  package_name: tomcat5
+  last_good_run_id: 44047
+  errata_file_id: 
+  errata_brew_mapping_id: 17097
+  brew_rpm_id: 17229180
+rpmdiff_run_49957: 
+  package_id: 1982
+  old_version: 2.2.2.EAP-14.jdk6.ep5.el4
+  person: mnovotny@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/jboss-seam2/2.2.2.EAP/17.el4_8/src/jboss-seam2-2.2.2.EAP-17.el4_8.src.rpm
+  overall_score: 2
+  brew_build_id: 161705
+  run_id: 49957
+  run_date: 2011-04-11 18:17:14 Z
+  errata_nr: 2011:11110
+  variant: 4AS
+  obsolete: 0
+  errata_id: 11110
+  new_version: 2.2.2.EAP-17.el4_8
+  package_name: jboss-seam2
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23558
+  brew_rpm_id: 1900897
+rpmdiff_run_48195: 
+  package_id: 16390
+  old_version: 1.4.2.13.6.sap-1jpp.1.el5
+  person: jvanek@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/java-1.4.2-ibm-sap/1.4.2.13.8.sap/1jpp.2.el5/src/java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 157511
+  run_id: 48195
+  run_date: 2011-02-23 07:52:08 Z
+  errata_nr: 2011:0299
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10844
+  new_version: 1.4.2.13.8.sap-1jpp.2.el5
+  package_name: java-1.4.2-ibm-sap
+  last_good_run_id: 48194
+  errata_file_id: 
+  errata_brew_mapping_id: 21776
+  brew_rpm_id: 18673960
+rpmdiff_run_47033: 
+  package_id: 16517
+  old_version: 1.0.3-1.el6
+  person: aschwab@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libdfp/1.0.5/1.el6/src/libdfp-1.0.5-1.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 154483
+  run_id: 47033
+  run_date: 2011-01-18 13:40:42 Z
+  errata_nr: 2010:10326
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10326
+  new_version: 1.0.5-1.el6
+  package_name: libdfp
+  last_good_run_id: 47009
+  errata_file_id: 
+  errata_brew_mapping_id: 20486
+  brew_rpm_id: 1840911
+rpmdiff_run_47471: 
+  package_id: 1373
+  old_version: NEW_PACKAGE
+  person: dgregor@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/system-switch-java/1.1.5/2.el6/src/system-switch-java-1.1.5-2.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 155873
+  run_id: 47471
+  run_date: 2011-02-03 21:01:32 Z
+  errata_nr: 2011:10718
+  variant: 6Server
+  obsolete: 0
+  errata_id: 10718
+  new_version: 1.1.5-2.el6
+  package_name: system-switch-java
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 20961
+  brew_rpm_id: 18538020
+rpmdiff_run_46085: 
+  package_id: 14067
+  old_version: 1.1.2-1
+  person: jnovy@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libogg/1.1.2/2.el4_8.1/src/libogg-1.1.2-2.el4_8.1.src.rpm
+  overall_score: 3
+  brew_build_id: 147659
+  run_id: 46085
+  run_date: 2010-10-28 07:49:45 Z
+  errata_nr: 2010:10205
+  variant: 4AS
+  obsolete: 1
+  errata_id: 10205
+  new_version: 1.1.2-2.el4_8.1
+  package_name: libogg
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19427
+  brew_rpm_id: 1792427
+rpmdiff_run_49958: 
+  package_id: 1982
+  old_version: 2.2.2.EAP-14.jdk6.ep5.el5
+  person: mnovotny@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/jboss-seam2/2.2.2.EAP/17.ep5.el5/src/jboss-seam2-2.2.2.EAP-17.ep5.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 161695
+  run_id: 49958
+  run_date: 2011-04-11 18:19:41 Z
+  errata_nr: 2011:11110
+  variant: 5Server
+  obsolete: 0
+  errata_id: 11110
+  new_version: 2.2.2.EAP-17.ep5.el5
+  package_name: jboss-seam2
+  last_good_run_id: 49957
+  errata_file_id: 
+  errata_brew_mapping_id: 23559
+  brew_rpm_id: 1900762
+rpmdiff_run_50071: 
+  package_id: 18
+  old_version: 9.4.2-3.el6_0
+  person: mkasik@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/acroread/9.4.2/4.el6/src/acroread-9.4.2-4.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 162183
+  run_id: 50071
+  run_date: 2011-04-13 10:29:57 Z
+  errata_nr: 2011:11123
+  variant: 6Server
+  obsolete: 1
+  errata_id: 11123
+  new_version: 9.4.2-4.el6
+  package_name: acroread
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23677
+  brew_rpm_id: 19053340
+rpmdiff_run_50092: 
+  package_id: 319
+  old_version: 1.8.2-3.el6_0.6
+  person: nalin@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/src/krb5-1.8.2-3.el6_0.7.src.rpm
+  overall_score: 2
+  brew_build_id: 162233
+  run_id: 50092
+  run_date: 2011-04-13 22:58:10 Z
+  errata_nr: 2011:0447
+  variant: 6Server
+  obsolete: 0
+  errata_id: 11129
+  new_version: 1.8.2-3.el6_0.7
+  package_name: krb5
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23698
+  brew_rpm_id: 19057100
+rpmdiff_run_46086: 
+  package_id: 14067
+  old_version: 1.1.3-3.el5
+  person: jnovy@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libogg/1.1.3/4.el5_5.1/src/libogg-1.1.3-4.el5_5.1.src.rpm
+  overall_score: 3
+  brew_build_id: 147658
+  run_id: 46086
+  run_date: 2010-10-28 07:49:36 Z
+  errata_nr: 2010:10205
+  variant: 5Server
+  obsolete: 1
+  errata_id: 10205
+  new_version: 1.1.3-4.el5_5.1
+  package_name: libogg
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19428
+  brew_rpm_id: 1792343
+rpmdiff_run_48196: 
+  package_id: 16390
+  old_version: 1.4.2.13.6.sap-1jpp.3.el6
+  person: jvanek@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/java-1.4.2-ibm-sap/1.4.2.13.8.sap/1jpp.1.el6/src/java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.1.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 157836
+  run_id: 48196
+  run_date: 2011-02-23 08:31:03 Z
+  errata_nr: 2011:0299
+  variant: 6Server
+  obsolete: 0
+  errata_id: 10844
+  new_version: 1.4.2.13.8.sap-1jpp.1.el6
+  package_name: java-1.4.2-ibm-sap
+  last_good_run_id: 48195
+  errata_file_id: 
+  errata_brew_mapping_id: 21777
+  brew_rpm_id: 18689120
+rpmdiff_run_50093: 
+  package_id: 2633
+  old_version: 6.0.24-24.el6_0
+  person: dknox@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat6/6.0.24/29.el6/src/tomcat6-6.0.24-29.el6.src.rpm
+  overall_score: 3
+  brew_build_id: 162236
+  run_id: 50093
+  run_date: 2011-04-13 22:59:36 Z
+  errata_nr: 2011:10893
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10893
+  new_version: 6.0.24-29.el6
+  package_name: tomcat6
+  last_good_run_id: 48680
+  errata_file_id: 
+  errata_brew_mapping_id: 23700
+  brew_rpm_id: 19057000
+rpmdiff_run_40608: 
+  package_id: 1911
+  old_version: 7.4.1-0.7.el4
+  person: vdanen@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/condor/7.4.1/0.7.1.el4/src/condor-7.4.1-0.7.1.el4.src.rpm
+  overall_score: 2
+  brew_build_id: 121527
+  run_id: 40608
+  run_date: 2009-12-14 20:09:17 Z
+  errata_nr: 2009:1688
+  variant: 4AS
+  obsolete: 0
+  errata_id: 9190
+  new_version: 7.4.1-0.7.1.el4
+  package_name: condor
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 13654
+  brew_rpm_id: 1521893
+rpmdiff_run_46087: 
+  package_id: 14067
+  old_version: 1.1.4-2.1.el6
+  person: jnovy@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libogg/1.1.4/3.el6_0.1/src/libogg-1.1.4-3.el6_0.1.src.rpm
+  overall_score: 1
+  brew_build_id: 147656
+  run_id: 46087
+  run_date: 2010-10-28 07:49:49 Z
+  errata_nr: 2010:10205
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10205
+  new_version: 1.1.4-3.el6_0.1
+  package_name: libogg
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19429
+  brew_rpm_id: 1792367
+rpmdiff_run_49763: 
+  package_id: 422
+  old_version: 5.3.2.2-9.el5
+  person: jsafrane@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/net-snmp/5.3.2.2/11.el5/src/net-snmp-5.3.2.2-11.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 161531
+  run_id: 49763
+  run_date: 2011-04-06 09:05:10 Z
+  errata_nr: 2011:11036
+  variant: 5Server
+  obsolete: 0
+  errata_id: 11036
+  new_version: 5.3.2.2-11.el5
+  package_name: net-snmp
+  last_good_run_id: 49233
+  errata_file_id: 
+  errata_brew_mapping_id: 23361
+  brew_rpm_id: 1899265
+rpmdiff_run_41502: 
+  package_id: 14597
+  old_version: 5.4-2.1.8.el5_4rhev2_1
+  person: apevec@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/rhev-hypervisor/5.4/2.1.9.el5_4rhev2_1/src/rhev-hypervisor-5.4-2.1.9.el5_4rhev2_1.src.rpm
+  overall_score: 2
+  brew_build_id: 127068
+  run_id: 41502
+  run_date: 2010-03-01 22:48:21 Z
+  errata_nr: 2010:0172
+  variant: 5Server
+  obsolete: 1
+  errata_id: 9407
+  new_version: 5.4-2.1.9.el5_4rhev2_1
+  package_name: rhev-hypervisor
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 14552
+  brew_rpm_id: 1593509
+rpmdiff_run_40893: 
+  package_id: 1583
+  old_version: NEW_PACKAGE
+  person: alee@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/dirsec-nss/3.11.5/4/src/dirsec-nss-3.11.5-4.src.rpm
+  overall_score: 4
+  brew_build_id: 122148
+  run_id: 40893
+  run_date: 2010-01-12 15:08:06 Z
+  errata_nr: 2010:9325
+  variant: 4AS
+  obsolete: 1
+  errata_id: 9325
+  new_version: 3.11.5-4
+  package_name: dirsec-nss
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 13942
+  brew_rpm_id: 1533389
+rpmdiff_run_50207: 
+  package_id: 312
+  old_version: 4.3.4-10.el6
+  person: than@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/kdenetwork/4.3.4/11.el6_0.1/src/kdenetwork-4.3.4-11.el6_0.1.src.rpm
+  overall_score: 2
+  brew_build_id: 162854
+  run_id: 50207
+  run_date: 2011-04-19 13:38:26 Z
+  errata_nr: 2011:11145
+  variant: 6Server
+  obsolete: 0
+  errata_id: 11145
+  new_version: 4.3.4-11.el6_0.1
+  package_name: kdenetwork
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23813
+  brew_rpm_id: 19088460
+rpmdiff_run_49228: 
+  package_id: 14043
+  old_version: 3.0-37.el5
+  person: varekova@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/lapack/3.0/38.el5/src/lapack-3.0-38.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 161017
+  run_id: 49228
+  run_date: 2011-03-31 10:47:31 Z
+  errata_nr: 2011:0442
+  variant: 5Server
+  obsolete: 0
+  errata_id: 11031
+  new_version: 3.0-38.el5
+  package_name: lapack
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 22829
+  brew_rpm_id: 1894817
+rpmdiff_run_46443: 
+  package_id: 16504
+  old_version: NEW_PACKAGE
+  person: dwalluck@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/jboss-wfk-1.0.0-uninstall/1.0.0/3.ep5.el4/src/jboss-wfk-1.0.0-uninstall-1.0.0-3.ep5.el4.src.rpm
+  overall_score: 2
+  brew_build_id: 150492
+  run_id: 46443
+  run_date: 2010-11-30 21:59:29 Z
+  errata_nr: 2011:0175
+  variant: 4AS
+  obsolete: 0
+  errata_id: 9829
+  new_version: 1.0.0-3.ep5.el4
+  package_name: jboss-wfk-1.0.0-uninstall
+  last_good_run_id: 45827
+  errata_file_id: 
+  errata_brew_mapping_id: 19787
+  brew_rpm_id: 1810747
+rpmdiff_run_46090: 
+  package_id: 14067
+  old_version: 1.1.2-1
+  person: jnovy@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libogg/1.1.2/2.el4_8.2/src/libogg-1.1.2-2.el4_8.2.src.rpm
+  overall_score: 1
+  brew_build_id: 147800
+  run_id: 46090
+  run_date: 2010-10-28 12:44:59 Z
+  errata_nr: 2010:10205
+  variant: 4AS
+  obsolete: 0
+  errata_id: 10205
+  new_version: 1.1.2-2.el4_8.2
+  package_name: libogg
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19432
+  brew_rpm_id: 17930080
+rpmdiff_run_46980: 
+  package_id: 16517
+  old_version: 1.0.3-1.el6
+  person: aschwab@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libdfp/1.0.4/1.el6/src/libdfp-1.0.4-1.el6.src.rpm
+  overall_score: 4
+  brew_build_id: 152276
+  run_id: 46980
+  run_date: 2011-01-17 10:23:34 Z
+  errata_nr: 2010:10326
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10326
+  new_version: 1.0.4-1.el6
+  package_name: libdfp
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 20429
+  brew_rpm_id: 18235760
+rpmdiff_run_46444: 
+  package_id: 16504
+  old_version: NEW_PACKAGE
+  person: dwalluck@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/jboss-wfk-1.0.0-uninstall/1.0.0/3.ep5.el5/src/jboss-wfk-1.0.0-uninstall-1.0.0-3.ep5.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 150490
+  run_id: 46444
+  run_date: 2010-11-30 21:59:39 Z
+  errata_nr: 2011:0175
+  variant: 5Server
+  obsolete: 0
+  errata_id: 9829
+  new_version: 1.0.0-3.ep5.el5
+  package_name: jboss-wfk-1.0.0-uninstall
+  last_good_run_id: 46443
+  errata_file_id: 
+  errata_brew_mapping_id: 19788
+  brew_rpm_id: 18107420
+rpmdiff_run_46091: 
+  package_id: 14067
+  old_version: 1.1.3-3.el5
+  person: jnovy@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libogg/1.1.3/4.el5_5.2/src/libogg-1.1.3-4.el5_5.2.src.rpm
+  overall_score: 1
+  brew_build_id: 147799
+  run_id: 46091
+  run_date: 2010-10-28 12:44:43 Z
+  errata_nr: 2010:10205
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10205
+  new_version: 1.1.3-4.el5_5.2
+  package_name: libogg
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19433
+  brew_rpm_id: 17929860
+rpmdiff_run_48257: 
+  package_id: 2025
+  old_version: 1.3.1-1.el5
+  person: pbonzini@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/xenpv-win/1.3.4/2.el5/src/xenpv-win-1.3.4-2.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 158040
+  run_id: 48257
+  run_date: 2011-02-25 10:58:42 Z
+  errata_nr: 2011:10839
+  variant: 5Server
+  obsolete: 1
+  errata_id: 10839
+  new_version: 1.3.4-2.el5
+  package_name: xenpv-win
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 21835
+  brew_rpm_id: 1870351
+rpmdiff_run_48081: 
+  package_id: 14538
+  old_version: 1.2.13-26.el5sat
+  person: mmraka@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/spacewalk-backend/1.2.13/26.2.el5sat/src/spacewalk-backend-1.2.13-26.2.el5sat.src.rpm
+  overall_score: 2
+  brew_build_id: 157385
+  run_id: 48081
+  run_date: 2011-02-18 10:58:37 Z
+  errata_nr: 2011:0300
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10827
+  new_version: 1.2.13-26.2.el5sat
+  package_name: spacewalk-backend
+  last_good_run_id: 47842
+  errata_file_id: 
+  errata_brew_mapping_id: 21662
+  brew_rpm_id: 1866027
+rpmdiff_run_50210: 
+  package_id: 312
+  old_version: 3.5.4-9.el5
+  person: than@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/kdenetwork/3.5.4/10.el5_6.1/src/kdenetwork-3.5.4-10.el5_6.1.src.rpm
+  overall_score: 2
+  brew_build_id: 162864
+  run_id: 50210
+  run_date: 2011-04-19 14:21:39 Z
+  errata_nr: 2011:11142
+  variant: 5Server-5.6.Z
+  obsolete: 0
+  errata_id: 11142
+  new_version: 3.5.4-10.el5_6.1
+  package_name: kdenetwork
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23816
+  brew_rpm_id: 19089180
+rpmdiff_run_45826: 
+  package_id: 16504
+  old_version: NEW_PACKAGE
+  person: dwalluck@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/jboss-wfk-1.0.0-uninstall/1.0.0/1.jdk6.ep5.el4/src/jboss-wfk-1.0.0-uninstall-1.0.0-1.jdk6.ep5.el4.src.rpm
+  overall_score: 2
+  brew_build_id: 145346
+  run_id: 45826
+  run_date: 2010-10-14 16:29:50 Z
+  errata_nr: 2011:0175
+  variant: 4AS
+  obsolete: 1
+  errata_id: 9829
+  new_version: 1.0.0-1.jdk6.ep5.el4
+  package_name: jboss-wfk-1.0.0-uninstall
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19123
+  brew_rpm_id: 17758820
+rpmdiff_run_49901: 
+  package_id: 673
+  old_version: 3.0-33.8.el5_5.6
+  person: ovasik@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tetex/3.0/33.12.el5/src/tetex-3.0-33.12.el5.src.rpm
+  overall_score: 3
+  brew_build_id: 161350
+  run_id: 49901
+  run_date: 2011-04-08 15:06:49 Z
+  errata_nr: 2011:11096
+  variant: 5Server
+  obsolete: 1
+  errata_id: 11096
+  new_version: 3.0-33.12.el5
+  package_name: tetex
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23502
+  brew_rpm_id: 18994740
+rpmdiff_run_45827: 
+  package_id: 16504
+  old_version: NEW_PACKAGE
+  person: dwalluck@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/jboss-wfk-1.0.0-uninstall/1.0.0/1.1.jdk6.ep5.el5/src/jboss-wfk-1.0.0-uninstall-1.0.0-1.1.jdk6.ep5.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 146278
+  run_id: 45827
+  run_date: 2010-10-14 16:29:57 Z
+  errata_nr: 2011:0175
+  variant: 5Server
+  obsolete: 1
+  errata_id: 9829
+  new_version: 1.0.0-1.1.jdk6.ep5.el5
+  package_name: jboss-wfk-1.0.0-uninstall
+  last_good_run_id: 45826
+  errata_file_id: 
+  errata_brew_mapping_id: 19124
+  brew_rpm_id: 1781423
+rpmdiff_run_49252: 
+  package_id: 2025
+  old_version: 1.3.1-1.el5
+  person: pbonzini@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/xenpv-win/1.3.4/7.el5/src/xenpv-win-1.3.4-7.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 161130
+  run_id: 49252
+  run_date: 2011-04-01 16:29:26 Z
+  errata_nr: 2011:10839
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10839
+  new_version: 1.3.4-7.el5
+  package_name: xenpv-win
+  last_good_run_id: 48559
+  errata_file_id: 
+  errata_brew_mapping_id: 22853
+  brew_rpm_id: 1895703
+rpmdiff_run_44234: 
+  package_id: 677
+  old_version: 5.5.23-0jpp_4rh.16
+  person: jlieskov@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat5/5.5.23/0jpp_4rh.17/src/tomcat5-5.5.23-0jpp_4rh.17.src.rpm
+  overall_score: 3
+  brew_build_id: 138617
+  run_id: 44234
+  run_date: 2010-07-28 21:44:25 Z
+  errata_nr: 2010:0582
+  variant: 4AS
+  obsolete: 1
+  errata_id: 9754
+  new_version: 5.5.23-0jpp_4rh.17
+  package_name: tomcat5
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 17291
+  brew_rpm_id: 1725637
+rpmdiff_run_48436: 
+  package_id: 2025
+  old_version: 1.3.1-1.el5
+  person: pbonzini@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/xenpv-win/1.3.4/5.el5/src/xenpv-win-1.3.4-5.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 158687
+  run_id: 48436
+  run_date: 2011-03-04 09:31:46 Z
+  errata_nr: 2011:10839
+  variant: 5Server
+  obsolete: 1
+  errata_id: 10839
+  new_version: 1.3.4-5.el5
+  package_name: xenpv-win
+  last_good_run_id: 48257
+  errata_file_id: 
+  errata_brew_mapping_id: 22016
+  brew_rpm_id: 18745680
+rpmdiff_run_48259: 
+  package_id: 661
+  old_version: 1.3.99.18-1.el5
+  person: harald@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/system-config-network/1.3.99.19/1.el5/src/system-config-network-1.3.99.19-1.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 158120
+  run_id: 48259
+  run_date: 2011-02-25 12:59:06 Z
+  errata_nr: 2011:10858
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10858
+  new_version: 1.3.99.19-1.el5
+  package_name: system-config-network
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 21837
+  brew_rpm_id: 18708800
+rpmdiff_run_48457: 
+  package_id: 2633
+  old_version: 6.0.24-15.el6
+  person: dknox@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat6/6.0.24/22.el6/src/tomcat6-6.0.24-22.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 158809
+  run_id: 48457
+  run_date: 2011-03-04 22:38:59 Z
+  errata_nr: 2011:10893
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10893
+  new_version: 6.0.24-22.el6
+  package_name: tomcat6
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 22041
+  brew_rpm_id: 1875561
+rpmdiff_run_46347: 
+  package_id: 2275
+  old_version: NEW_PACKAGE
+  person: jblazek@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/rhns-proxy/4.2.3/5/src/rhns-proxy-4.2.3-5.src.rpm
+  overall_score: 2
+  brew_build_id: 149891
+  run_id: 46347
+  run_date: 2010-11-19 12:01:11 Z
+  errata_nr: 2011:0002
+  variant: 3WS
+  obsolete: 0
+  errata_id: 10305
+  new_version: 4.2.3-5
+  package_name: rhns-proxy
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19695
+  brew_rpm_id: 18050840
+rpmdiff_run_44235: 
+  package_id: 677
+  old_version: 5.5.23-0jpp_4rh.16
+  person: jlieskov@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat5/5.5.23/0jpp_4rh.17/src/tomcat5-5.5.23-0jpp_4rh.17.src.rpm
+  overall_score: 2
+  brew_build_id: 138617
+  run_id: 44235
+  run_date: 2010-07-28 21:54:13 Z
+  errata_nr: 2010:0582
+  variant: 4AS
+  obsolete: 0
+  errata_id: 9754
+  new_version: 5.5.23-0jpp_4rh.17
+  package_name: tomcat5
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 17291
+  brew_rpm_id: 1725637
+rpmdiff_run_45307: 
+  package_id: 1952
+  old_version: 2.6.24.7-161.el5rt
+  person: bhu@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/kernel-rt/2.6.24.7/169.el5rt/src/kernel-rt-2.6.24.7-169.el5rt.src.rpm
+  overall_score: 2
+  brew_build_id: 145079
+  run_id: 45307
+  run_date: 2010-10-04 16:42:49 Z
+  errata_nr: 2010:0758
+  variant: 5Server
+  obsolete: 0
+  errata_id: 9883
+  new_version: 2.6.24.7-169.el5rt
+  package_name: kernel-rt
+  last_good_run_id: 45220
+  errata_file_id: 
+  errata_brew_mapping_id: 18396
+  brew_rpm_id: 17730140
+rpmdiff_run_50099: 
+  package_id: 18
+  old_version: 9.4.2-3.el6_0
+  person: mkasik@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/acroread/9.4.2/5.el6/src/acroread-9.4.2-5.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 162288
+  run_id: 50099
+  run_date: 2011-04-14 13:37:26 Z
+  errata_nr: 2011:11123
+  variant: 6Server
+  obsolete: 0
+  errata_id: 11123
+  new_version: 9.4.2-5.el6
+  package_name: acroread
+  last_good_run_id: 50071
+  errata_file_id: 
+  errata_brew_mapping_id: 23706
+  brew_rpm_id: 1906235
+rpmdiff_run_49233: 
+  package_id: 422
+  old_version: 5.3.2.2-9.el5
+  person: jsafrane@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/net-snmp/5.3.2.2/10.el5/src/net-snmp-5.3.2.2-10.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 161038
+  run_id: 49233
+  run_date: 2011-03-31 14:22:21 Z
+  errata_nr: 2011:11036
+  variant: 5Server
+  obsolete: 1
+  errata_id: 11036
+  new_version: 5.3.2.2-10.el5
+  package_name: net-snmp
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 22834
+  brew_rpm_id: 18949580
+rpmdiff_run_41528: 
+  package_id: 14597
+  old_version: 5.4-2.1.8.el5_4rhev2_1
+  person: apevec@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/rhev-hypervisor/5.4/2.1.10.el5_4rhev2_1/src/rhev-hypervisor-5.4-2.1.10.el5_4rhev2_1.src.rpm
+  overall_score: 2
+  brew_build_id: 127206
+  run_id: 41528
+  run_date: 2010-03-02 23:48:33 Z
+  errata_nr: 2010:0172
+  variant: 5Server
+  obsolete: 0
+  errata_id: 9407
+  new_version: 5.4-2.1.10.el5_4rhev2_1
+  package_name: rhev-hypervisor
+  last_good_run_id: 41502
+  errata_file_id: 
+  errata_brew_mapping_id: 14577
+  brew_rpm_id: 1595165
+rpmdiff_run_46348: 
+  package_id: 2275
+  old_version: NEW_PACKAGE
+  person: jblazek@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/rhns-proxy/4.2.3/6/src/rhns-proxy-4.2.3-6.src.rpm
+  overall_score: 2
+  brew_build_id: 149892
+  run_id: 46348
+  run_date: 2010-11-19 12:01:14 Z
+  errata_nr: 2011:0002
+  variant: 4AS
+  obsolete: 0
+  errata_id: 10305
+  new_version: 4.2.3-6
+  package_name: rhns-proxy
+  last_good_run_id: 46347
+  errata_file_id: 
+  errata_brew_mapping_id: 19696
+  brew_rpm_id: 18050920
+rpmdiff_run_49946: 
+  package_id: 724
+  old_version: 2.3.14-10.el5
+  person: vvitek@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/xinetd/2.3.14/11.el5/src/xinetd-2.3.14-11.el5.src.rpm
+  overall_score: 4
+  brew_build_id: 161968
+  run_id: 49946
+  run_date: 2011-04-11 14:12:10 Z
+  errata_nr: 2011:11105
+  variant: 5Server
+  obsolete: 1
+  errata_id: 11105
+  new_version: 2.3.14-11.el5
+  package_name: xinetd
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23547
+  brew_rpm_id: 19033020
+rpmdiff_run_49197: 
+  package_id: 16602
+  old_version: NEW_PACKAGE
+  person: tross@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/mingw32-qpid-cpp/0.10/1.el6/src/mingw32-qpid-cpp-0.10-1.el6.src.rpm
+  overall_score: 1
+  brew_build_id: 160811
+  run_id: 49197
+  run_date: 2011-03-30 13:38:13 Z
+  errata_nr: 2011:11020
+  variant: 6Server
+  obsolete: 0
+  errata_id: 11020
+  new_version: 0.10-1.el6
+  package_name: mingw32-qpid-cpp
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 22794
+  brew_rpm_id: 18928440
+rpmdiff_run_47283: 
+  package_id: 1594
+  old_version: 8.2.3-2.el4dsrv
+  person: nkinder@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/redhat-ds-base/8.2.4/1.el4dsrv/src/redhat-ds-base-8.2.4-1.el4dsrv.src.rpm
+  overall_score: 2
+  brew_build_id: 155678
+  run_id: 47283
+  run_date: 2011-01-28 19:02:29 Z
+  errata_nr: 2011:0293
+  variant: 4AS
+  obsolete: 0
+  errata_id: 10610
+  new_version: 8.2.4-1.el4dsrv
+  package_name: redhat-ds-base
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 20747
+  brew_rpm_id: 18515420
+rpmdiff_run_47064: 
+  package_id: 16517
+  old_version: 1.0.3-1.el6
+  person: aschwab@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/libdfp/1.0.6/1.el6/src/libdfp-1.0.6-1.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 154621
+  run_id: 47064
+  run_date: 2011-01-19 14:19:15 Z
+  errata_nr: 2010:10326
+  variant: 6Server
+  obsolete: 0
+  errata_id: 10326
+  new_version: 1.0.6-1.el6
+  package_name: libdfp
+  last_good_run_id: 47033
+  errata_file_id: 
+  errata_brew_mapping_id: 20519
+  brew_rpm_id: 18419340
+rpmdiff_run_48657: 
+  package_id: 2633
+  old_version: 6.0.24-24.el6_0
+  person: dknox@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat6/6.0.24/25.el6/src/tomcat6-6.0.24-25.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 159278
+  run_id: 48657
+  run_date: 2011-03-14 19:58:25 Z
+  errata_nr: 2011:10893
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10893
+  new_version: 6.0.24-25.el6
+  package_name: tomcat6
+  last_good_run_id: 48457
+  errata_file_id: 
+  errata_brew_mapping_id: 22240
+  brew_rpm_id: 1878993
+rpmdiff_run_40899: 
+  package_id: 1583
+  old_version: NEW_PACKAGE
+  person: alee@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/dirsec-nss/3.11.5/5/src/dirsec-nss-3.11.5-5.src.rpm
+  overall_score: 2
+  brew_build_id: 122910
+  run_id: 40899
+  run_date: 2010-01-12 22:42:32 Z
+  errata_nr: 2010:9325
+  variant: 4AS
+  obsolete: 0
+  errata_id: 9325
+  new_version: 3.11.5-5
+  package_name: dirsec-nss
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 13948
+  brew_rpm_id: 1547815
+rpmdiff_run_45852: 
+  package_id: 1568
+  old_version: 7.3.0-20.el4
+  person: mharmsen@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/rhpki-ca/7.3.0/21.el4/src/rhpki-ca-7.3.0-21.el4.src.rpm
+  overall_score: 2
+  brew_build_id: 146306
+  run_id: 45852
+  run_date: 2010-10-15 17:10:45 Z
+  errata_nr: 2010:0837
+  variant: 4AS
+  obsolete: 0
+  errata_id: 10140
+  new_version: 7.3.0-21.el4
+  package_name: rhpki-ca
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19148
+  brew_rpm_id: 17817340
+rpmdiff_run_49891: 
+  package_id: 237
+  old_version: 1.7-5.el5
+  person: tkopecek@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/ia32el/1.7/7.el5/src/ia32el-1.7-7.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 161861
+  run_id: 49891
+  run_date: 2011-04-08 11:56:36 Z
+  errata_nr: 2011:11095
+  variant: 5Server
+  obsolete: 0
+  errata_id: 11095
+  new_version: 1.7-7.el5
+  package_name: ia32el
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23490
+  brew_rpm_id: 19022620
+rpmdiff_run_48680: 
+  package_id: 2633
+  old_version: 6.0.24-24.el6_0
+  person: dknox@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat6/6.0.24/26.el6/src/tomcat6-6.0.24-26.el6.src.rpm
+  overall_score: 2
+  brew_build_id: 159587
+  run_id: 48680
+  run_date: 2011-03-15 16:46:51 Z
+  errata_nr: 2011:10893
+  variant: 6Server
+  obsolete: 1
+  errata_id: 10893
+  new_version: 6.0.24-26.el6
+  package_name: tomcat6
+  last_good_run_id: 48657
+  errata_file_id: 
+  errata_brew_mapping_id: 22267
+  brew_rpm_id: 18815580
+rpmdiff_run_47284: 
+  package_id: 1594
+  old_version: 8.2.3-2.el5dsrv
+  person: nkinder@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/redhat-ds-base/8.2.4/1.el5dsrv/src/redhat-ds-base-8.2.4-1.el5dsrv.src.rpm
+  overall_score: 2
+  brew_build_id: 155677
+  run_id: 47284
+  run_date: 2011-01-28 19:02:58 Z
+  errata_nr: 2011:0293
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10610
+  new_version: 8.2.4-1.el5dsrv
+  package_name: redhat-ds-base
+  last_good_run_id: 47283
+  errata_file_id: 
+  errata_brew_mapping_id: 20748
+  brew_rpm_id: 18514680
+rpmdiff_run_45853: 
+  package_id: 1565
+  old_version: 7.3.0-40.el4
+  person: mharmsen@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/rhpki-common/7.3.0/41.el4/src/rhpki-common-7.3.0-41.el4.src.rpm
+  overall_score: 1
+  brew_build_id: 146308
+  run_id: 45853
+  run_date: 2010-10-15 17:10:51 Z
+  errata_nr: 2010:0837
+  variant: 4AS
+  obsolete: 0
+  errata_id: 10140
+  new_version: 7.3.0-41.el4
+  package_name: rhpki-common
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19149
+  brew_rpm_id: 17830700
+rpmdiff_run_48559: 
+  package_id: 2025
+  old_version: 1.3.1-1.el5
+  person: pbonzini@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/xenpv-win/1.3.4/6.el5/src/xenpv-win-1.3.4-6.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 158973
+  run_id: 48559
+  run_date: 2011-03-09 08:11:26 Z
+  errata_nr: 2011:10839
+  variant: 5Server
+  obsolete: 1
+  errata_id: 10839
+  new_version: 1.3.4-6.el5
+  package_name: xenpv-win
+  last_good_run_id: 48436
+  errata_file_id: 
+  errata_brew_mapping_id: 22142
+  brew_rpm_id: 18768080
+rpmdiff_run_47285: 
+  package_id: 1593
+  old_version: 8.2.0-4.el4dsrv
+  person: nkinder@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/redhat-ds-admin/8.2.1/1.el4dsrv/src/redhat-ds-admin-8.2.1-1.el4dsrv.src.rpm
+  overall_score: 2
+  brew_build_id: 155682
+  run_id: 47285
+  run_date: 2011-01-28 19:36:13 Z
+  errata_nr: 2011:0293
+  variant: 4AS
+  obsolete: 0
+  errata_id: 10610
+  new_version: 8.2.1-1.el4dsrv
+  package_name: redhat-ds-admin
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 20749
+  brew_rpm_id: 1851579
+rpmdiff_run_50039: 
+  package_id: 1001
+  old_version: 3.9.1-7.el6
+  person: jantill@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/python-urlgrabber/3.9.1/8.el6/src/python-urlgrabber-3.9.1-8.el6.src.rpm
+  overall_score: 1
+  brew_build_id: 162118
+  run_id: 50039
+  run_date: 2011-04-12 17:47:12 Z
+  errata_nr: 2011:11118
+  variant: 6Server
+  obsolete: 0
+  errata_id: 11118
+  new_version: 3.9.1-8.el6
+  package_name: python-urlgrabber
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23648
+  brew_rpm_id: 1904795
+rpmdiff_run_45854: 
+  package_id: 1569
+  old_version: 7.3.0-20.el4
+  person: mharmsen@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/rhpki-util/7.3.0/21.el4/src/rhpki-util-7.3.0-21.el4.src.rpm
+  overall_score: 1
+  brew_build_id: 146317
+  run_id: 45854
+  run_date: 2010-10-15 17:10:57 Z
+  errata_nr: 2010:0837
+  variant: 4AS
+  obsolete: 0
+  errata_id: 10140
+  new_version: 7.3.0-21.el4
+  package_name: rhpki-util
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 19150
+  brew_rpm_id: 1781757
+rpmdiff_run_50020: 
+  package_id: 673
+  old_version: 3.0-33.8.el5_5.6
+  person: jnovy@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tetex/3.0/33.13.el5/src/tetex-3.0-33.13.el5.src.rpm
+  overall_score: 2
+  brew_build_id: 162097
+  run_id: 50020
+  run_date: 2011-04-12 16:32:49 Z
+  errata_nr: 2011:11096
+  variant: 5Server
+  obsolete: 0
+  errata_id: 11096
+  new_version: 3.0-33.13.el5
+  package_name: tetex
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23622
+  brew_rpm_id: 19044740
+rpmdiff_run_41927: 
+  package_id: 4
+  old_version: 2.6.9-85.2.el4_8.6
+  person: cfeist@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/GFS-kernel/2.6.9/85.2.el4_8.10/src/GFS-kernel-2.6.9-85.2.el4_8.10.src.rpm
+  overall_score: 2
+  brew_build_id: 127995
+  run_id: 41927
+  run_date: 2010-03-23 16:19:50 Z
+  errata_nr: 2010:0331
+  variant: 4AS
+  obsolete: 0
+  errata_id: 9494
+  new_version: 2.6.9-85.2.el4_8.10
+  package_name: GFS-kernel
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 14979
+  brew_rpm_id: 16030220
+rpmdiff_run_47286: 
+  package_id: 1593
+  old_version: 8.2.0-3.el5dsrv
+  person: nkinder@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/redhat-ds-admin/8.2.1/1.el5dsrv/src/redhat-ds-admin-8.2.1-1.el5dsrv.src.rpm
+  overall_score: 2
+  brew_build_id: 155679
+  run_id: 47286
+  run_date: 2011-01-28 19:36:37 Z
+  errata_nr: 2011:0293
+  variant: 5Server
+  obsolete: 0
+  errata_id: 10610
+  new_version: 8.2.1-1.el5dsrv
+  package_name: redhat-ds-admin
+  last_good_run_id: 47285
+  errata_file_id: 
+  errata_brew_mapping_id: 20750
+  brew_rpm_id: 1851549
+rpmdiff_run_41317: 
+  package_id: 14597
+  old_version: 5.4-2.1.8.el5_4rhev2_1
+  person: apevec@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/rhev-hypervisor/5.5/2.2.0.2.el5rhev/src/rhev-hypervisor-5.5-2.2.0.2.el5rhev.src.rpm
+  overall_score: 4
+  brew_build_id: 126837
+  run_id: 41317
+  run_date: 2010-02-25 22:49:01 Z
+  errata_nr: 2010:0172
+  variant: 5Server
+  obsolete: 1
+  errata_id: 9407
+  new_version: 5.5-2.2.0.2.el5rhev
+  package_name: rhev-hypervisor
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 14367
+  brew_rpm_id: 1591209
+rpmdiff_run_44283: 
+  package_id: 677
+  old_version: 5.5.23-0jpp_18rh
+  person: dknox@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/tomcat5/5.5.23/0jpp_21rh/src/tomcat5-5.5.23-0jpp_21rh.src.rpm
+  overall_score: 2
+  brew_build_id: 138828
+  run_id: 44283
+  run_date: 2010-07-29 22:59:44 Z
+  errata_nr: 2010:0583
+  variant: 4AS
+  obsolete: 0
+  errata_id: 9753
+  new_version: 5.5.23-0jpp_21rh
+  package_name: tomcat5
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 17341
+  brew_rpm_id: 17268520
+rpmdiff_run_50217: 
+  package_id: 14509
+  old_version: 0.0.12-1.2.el5
+  person: hdegoede@redhat.com
+  package_path: /mnt/redhat/brewroot/packages/xorg-x11-drv-qxl/0.0.12/2.el5/src/xorg-x11-drv-qxl-0.0.12-2.el5.src.rpm
+  overall_score: 1
+  brew_build_id: 162869
+  run_id: 50217
+  run_date: 2011-04-19 16:20:21 Z
+  errata_nr: 2011:11152
+  variant: 5Server
+  obsolete: 0
+  errata_id: 11152
+  new_version: 0.0.12-2.el5
+  package_name: xorg-x11-drv-qxl
+  last_good_run_id: 
+  errata_file_id: 
+  errata_brew_mapping_id: 23823
+  brew_rpm_id: 19089900
+rpmdiff_run_50234:
+  errata_brew_mapping_id: 55984
+  new_version: 3.4-4
+  overall_score: 1
+  errata_file_id:
+  package_id: 22007
+  errata_id: 16409
+  obsolete: 0
+  brew_rpm_id: 34164580
+  person: errata-test@redhat.com
+  errata_nr: 2014:16398
+  old_version: NEW_PACKAGE
+  run_id: 50234
+  run_date: 2014-09-04 01:23:02 Z
+  variant: 6Server
+  package_name: spice-client-msi
+  brew_build_id: 367585
+  package_path: /mnt/redhat/brewroot/packages/spice-client-msi/3.4/4/src/rhevm-spice-client-3.4-4.el6_5.src.rpm
+  last_good_run_id:
+rpmdiff_run_50234:
+  old_version: NEW_PACKAGE
+  variant: 6Server
+  person: errata-test@redhat.com
+  errata_id: 16409
+  run_date: 2014-09-04 01:23:02 Z
+  overall_score: 1
+  errata_nr: 2014:16398
+  new_version: 3.4-4
+  obsolete: 0
+  brew_rpm_id: 34164580
+  package_id: 22007
+  errata_brew_mapping_id: 55984
+  run_id: 50234
+  package_name: spice-client-msi
+  errata_file_id:
+  last_good_run_id:
+  package_path: /mnt/redhat/brewroot/packages/spice-client-msi/3.4/4/src/rhevm-spice-client-3.4-4.el6_5.src.rpm
+  brew_build_id: 367585
+rpmdiff_run_50234:
+  old_version: NEW_PACKAGE
+  variant: 6Server
+  person: errata-test@redhat.com
+  errata_id: 16409
+  run_date: 2014-09-04 01:23:02 Z
+  overall_score: 1
+  errata_nr: 2014:16398
+  new_version: 3.4-4
+  obsolete: 0
+  brew_rpm_id: 34164580
+  package_id: 22007
+  errata_brew_mapping_id: 55984
+  run_id: 50234
+  package_name: spice-client-msi
+  errata_file_id:
+  last_good_run_id:
+  package_path: /mnt/redhat/brewroot/packages/spice-client-msi/3.4/4/src/rhevm-spice-client-3.4-4.el6_5.src.rpm
+  brew_build_id: 367585
+rpmdiff_run_107426:
+  person: jvanek@redhat.com
+  brew_build_id: 389641
+  brew_rpm_id: 35589420
+  package_id: 23967
+  errata_brew_mapping_id: 82319
+  errata_file_id:
+  package_path: /mnt/redhat/brewroot/packages/java-1.8.0-openjdk/1.8.0.25/1.b17.el6/src/java-1.8.0-openjdk-1.8.0.25-1.b17.el6.src.rpm
+  obsolete: 0
+  last_good_run_id:
+  run_id: 107426
+  run_date: 2014-10-07 08:47:32 Z
+  package_name: java-1.8.0-openjdk
+  overall_score: 2
+  errata_id: 19028
+  variant: 6Client-6.6.z
+  new_version: 1.8.0.25-1.b17.el6
+  old_version: NEW_PACKAGE
+  errata_nr: 2014:19028
+rpmdiff_run_107051:
+  package_name: libcgroup
+  old_version: 0.40.rc1-5.el6_5.1
+  new_version: 0.40.rc1-6.el6_5.1
+  obsolete: 0
+  brew_build_id: 387737
+  run_id: 107051
+  package_id: 14996
+  errata_brew_mapping_id: 81930
+  run_date: 2014-09-26 13:34:41 Z
+  errata_file_id:
+  overall_score: 1
+  errata_id: 18918
+  package_path: /mnt/redhat/brewroot/packages/libcgroup/0.40.rc1/6.el6_5.1/src/libcgroup-0.40.rc1-6.el6_5.1.src.rpm
+  brew_rpm_id: 3545479
+  last_good_run_id:
+  errata_nr: 2014:1331
+  person: jdetiber@redhat.com
+  variant: 6Server
+rpmdiff_run_106946:
+  package_name: libcgroup
+  old_version: 0.40.rc1-5.el6_5.1
+  new_version: 0.40.rc1-6.el6_5.1
+  obsolete: 0
+  brew_build_id: 387737
+  run_id: 106946
+  package_id: 14996
+  errata_brew_mapping_id: 81823
+  run_date: 2014-09-25 07:22:01 Z
+  errata_file_id:
+  overall_score: 1
+  errata_id: 18905
+  package_path: /mnt/redhat/brewroot/packages/libcgroup/0.40.rc1/6.el6_5.1/src/libcgroup-0.40.rc1-6.el6_5.1.src.rpm
+  brew_rpm_id: 3545479
+  last_good_run_id:
+  errata_nr: 2014:1328
+  person: jchaloup@redhat.com
+  variant: 6Client-6.5.z
+rpmdiff_run_107053:
+  package_name: libcgroup
+  old_version: 0.40.rc1-5.el6_5.1
+  new_version: 0.40.rc1-6.el6_5.1
+  obsolete: 0
+  brew_build_id: 387737
+  run_id: 107053
+  package_id: 14996
+  errata_brew_mapping_id: 81932
+  run_date: 2014-09-26 13:35:27 Z
+  errata_file_id:
+  overall_score: 1
+  errata_id: 18916
+  package_path: /mnt/redhat/brewroot/packages/libcgroup/0.40.rc1/6.el6_5.1/src/libcgroup-0.40.rc1-6.el6_5.1.src.rpm
+  brew_rpm_id: 3545479
+  last_good_run_id:
+  errata_nr: 2014:1329
+  person: jdetiber@redhat.com
+  variant: 6Server
+rpmdiff_run_107052:
+  package_name: libcgroup
+  old_version: 0.40.rc1-5.el6_5.1
+  new_version: 0.40.rc1-6.el6_5.1
+  obsolete: 0
+  brew_build_id: 387737
+  run_id: 107052
+  package_id: 14996
+  errata_brew_mapping_id: 81931
+  run_date: 2014-09-26 13:34:56 Z
+  errata_file_id:
+  overall_score: 1
+  errata_id: 18917
+  package_path: /mnt/redhat/brewroot/packages/libcgroup/0.40.rc1/6.el6_5.1/src/libcgroup-0.40.rc1-6.el6_5.1.src.rpm
+  brew_rpm_id: 3545479
+  last_good_run_id:
+  errata_nr: 2014:1330
+  person: jdetiber@redhat.com
+  variant: 6Server
+rpmdiff_run_106940:
+  last_good_run_id:
+  package_name: qemu-kvm
+  package_path: /mnt/redhat/brewroot/packages/qemu-kvm/1.5.3/60.el7_0.9/src/qemu-kvm-1.5.3-60.el7_0.9.src.rpm
+  new_version: 1.5.3-60.el7_0.9
+  run_date: 2014-09-25 04:43:08 Z
+  overall_score: 2
+  person: mrezanin@redhat.com
+  errata_file_id:
+  variant: 7Server-7.0.Z
+  brew_build_id: 387078
+  package_id: 16181
+  run_id: 106940
+  errata_id: 18894
+  brew_rpm_id: 35416100
+  old_version: 1.5.3-60.el7_0.7
+  errata_nr: 2014:18894
+  obsolete: 0
+  errata_brew_mapping_id: 81817
+rpmdiff_run_107115:
+  last_good_run_id: 106940
+  package_name: qemu-kvm
+  package_path: /mnt/redhat/brewroot/packages/qemu-kvm/1.5.3/60.el7_0.10/src/qemu-kvm-1.5.3-60.el7_0.10.src.rpm
+  new_version: 1.5.3-60.el7_0.10
+  run_date: 2014-09-29 11:20:17 Z
+  overall_score: 2
+  person: mrezanin@redhat.com
+  errata_file_id:
+  variant: 7Server-7.0.Z
+  brew_build_id: 388437
+  package_id: 16181
+  run_id: 107115
+  errata_id: 18894
+  brew_rpm_id: 3549875
+  old_version: 1.5.3-60.el7_0.9
+  errata_nr: 2014:18894
+  obsolete: 0
+  errata_brew_mapping_id: 82002
+rpmdiff_run_107427:
+  errata_nr: 2015:19029
+  obsolete: 0
+  new_version: 004-336.el6_5.1
+  errata_file_id:
+  run_id: 107427
+  errata_id: 19029
+  last_good_run_id:
+  package_path: /mnt/redhat/brewroot/packages/dracut/004/336.el6_5.1/data/signed/fd431d51/src/dracut-004-336.el6_5.1.src.rpm
+  variant: 6Server
+  package_id: 15253
+  old_version: NEW_PACKAGE
+  brew_build_id: 310042
+  errata_brew_mapping_id: 82325
+  package_name: dracut
+  run_date: 2015-01-07 03:01:07 Z
+  overall_score: 1
+  person: errata-test@redhat.com
+  brew_rpm_id: 3026875
+rpmdiff_run_117427:
+  errata_id: 19030
+  new_version: 0.19-12.el6
+  brew_build_id: 153968
+  run_id: 117427
+  person: errata-test@redhat.com
+  old_version: NEW_PACKAGE
+  package_path: /mnt/redhat/brewroot/packages/btrfs-progs/0.19/12.el6/src/btrfs-progs-0.19-12.el6.src.rpm
+  obsolete: 0
+  package_id: 14828
+  errata_file_id:
+  variant: 6Server
+  brew_rpm_id: 18353060
+  last_good_run_id:
+  run_date: 2015-01-12 03:51:39 Z
+  errata_brew_mapping_id: 83320
+  overall_score: 1
+  package_name: btrfs-progs
+  errata_nr: 2015:19030
+rpmdiff_run_117428:
+  errata_id: 19031
+  new_version: 1.4.4-12.el6
+  brew_build_id: 294661
+  run_id: 117428
+  person: errata-test@redhat.com
+  old_version: NEW_PACKAGE
+  package_path: /mnt/redhat/brewroot/packages/cronie/1.4.4/12.el6/src/cronie-1.4.4-12.el6.src.rpm
+  obsolete: 0
+  package_id: 15003
+  errata_file_id:
+  variant: 6Server
+  brew_rpm_id: 29399340
+  last_good_run_id:
+  run_date: 2015-01-12 05:01:28 Z
+  errata_brew_mapping_id: 83321
+  overall_score: 1
+  package_name: cronie
+  errata_nr: 2015:19031
+rpmdiff_run_117429:
+  errata_id: 19032
+  new_version: 0.4.9-82.el6
+  brew_build_id: 408505
+  run_id: 117429
+  person: errata-test@redhat.com
+  old_version: NEW_PACKAGE
+  package_path: /mnt/redhat/brewroot/packages/device-mapper-multipath/0.4.9/82.el6/src/device-mapper-multipath-0.4.9-82.el6.src.rpm
+  obsolete: 0
+  package_id: 100
+  errata_file_id:
+  variant: 6Server
+  brew_rpm_id: 3674243
+  last_good_run_id:
+  run_date: 2015-01-12 05:03:08 Z
+  errata_brew_mapping_id: 83322
+  overall_score: 1
+  package_name: device-mapper-multipath
+  errata_nr: 2015:19032
+rpmdiff_run_117430:
+  errata_id: 19033
+  new_version: 1.0.1-6.el6
+  brew_build_id: 178360
+  run_id: 117430
+  person: errata-test@redhat.com
+  old_version: NEW_PACKAGE
+  package_path: /mnt/redhat/brewroot/packages/blktrace/1.0.1/6.el6/src/blktrace-1.0.1-6.el6.src.rpm
+  obsolete: 0
+  package_id: 1987
+  errata_file_id:
+  variant: 6Server
+  brew_rpm_id: 19963040
+  last_good_run_id:
+  run_date: 2015-01-12 05:05:19 Z
+  errata_brew_mapping_id: 83323
+  overall_score: 1
+  package_name: blktrace
+  errata_nr: 2015:19033
+rpmdiff_run_120154:
+  variant: 6Server
+  package_id: 1966
+  errata_id: 19463
+  errata_file_id:
+  run_date: 2015-01-30 00:02:23 Z
+  brew_build_id: 158631
+  person: errata-test@redhat.com
+  overall_score: 2
+  errata_nr: 2015:19463
+  package_path: /mnt/redhat/brewroot/packages/python-ethtool/0.6/1.el6/src/python-ethtool-0.6-1.el6.src.rpm
+  package_name: python-ethtool
+  new_version: 0.6-1.el6
+  last_good_run_id:
+  run_id: 120154
+  old_version: NEW_PACKAGE
+  obsolete: 0
+  errata_brew_mapping_id: 85040
+  brew_rpm_id: 18739480
+rpmdiff_run_110545:
+  run_date: 2015-02-11 06:02:14 Z
+  obsolete: 0
+  variant: 7Server-7.1.Z
+  errata_file_id:
+  run_id: 110545
+  old_version: NEW_PACKAGE
+  brew_rpm_id: 2172327
+  errata_id: 19829
+  overall_score: 500
+  new_version: 10.0-6.el7
+  package_name: basesystem
+  errata_nr: 2015:19829
+  package_path: /mnt/redhat/brewroot/packages/basesystem/10.0/6.el7/src/basesystem-10.0-6.el7.src.rpm
+  person: errata-test@redhat.com
+  errata_brew_mapping_id: 83877
+  last_good_run_id:
+  brew_build_id: 201792
+  package_id: 13819
+rpmdiff_run_110546:
+  run_date: 2015-02-11 06:02:14 Z
+  obsolete: 0
+  variant: 7Server-7.1.Z
+  errata_file_id:
+  run_id: 110546
+  old_version: NEW_PACKAGE
+  brew_rpm_id: 21902340
+  errata_id: 19829
+  overall_score: 500
+  new_version: 8.15-2.el7
+  package_name: coreutils
+  errata_nr: 2015:19829
+  package_path: /mnt/redhat/brewroot/packages/coreutils/8.15/2.el7/src/coreutils-8.15-2.el7.src.rpm
+  person: errata-test@redhat.com
+  errata_brew_mapping_id: 83878
+  last_good_run_id:
+  brew_build_id: 204274
+  package_id: 87
+rpmdiff_run_110547:
+  run_date: 2015-02-11 06:02:14 Z
+  obsolete: 0
+  variant: 7Server-7.1.Z
+  errata_file_id:
+  run_id: 110547
+  old_version: NEW_PACKAGE
+  brew_rpm_id: 2183847
+  errata_id: 19829
+  overall_score: 500
+  new_version: 1.0-4.el7
+  package_name: crash-trace-command
+  errata_nr: 2015:19829
+  package_path: /mnt/redhat/brewroot/packages/crash-trace-command/1.0/4.el7/src/crash-trace-command-1.0-4.el7.src.rpm
+  person: errata-test@redhat.com
+  errata_brew_mapping_id: 83879
+  last_good_run_id:
+  brew_build_id: 203686
+  package_id: 14677
+rpmdiff_run_122670:
+  new_version: 1.8.7.374-4.el6_6
+  variant: 6Client-6.6.z
+  errata_file_id:
+  package_name: ruby
+  person: errata-test@redhat.com
+  package_id: 613
+  old_version: NEW_PACKAGE
+  errata_id: 19828
+  overall_score: 1
+  package_path: /mnt/redhat/brewroot/packages/ruby/1.8.7.374/4.el6_6/src/ruby-1.8.7.374-4.el6_6.src.rpm
+  run_date: 2015-02-18 05:32:50 Z
+  brew_rpm_id: 3743047
+  last_good_run_id:
+  errata_nr: 2015:19828
+  obsolete: 0
+  brew_build_id: 421698
+  errata_brew_mapping_id: 86404
+  run_id: 122670
+rpmdiff_run_122672:
+  new_version: 1.0.10-2.el6
+  variant: 6Client-6.6.z
+  errata_file_id:
+  package_name: openscap
+  person: errata-test@redhat.com
+  package_id: 16202
+  old_version: NEW_PACKAGE
+  errata_id: 19828
+  overall_score: 1
+  package_path: /mnt/redhat/brewroot/packages/openscap/1.0.10/2.el6/src/openscap-1.0.10-2.el6.src.rpm
+  run_date: 2015-02-18 05:32:50 Z
+  brew_rpm_id: 3743595
+  last_good_run_id:
+  errata_nr: 2015:19828
+  obsolete: 0
+  brew_build_id: 421720
+  errata_brew_mapping_id: 86406
+  run_id: 122672
+rpmdiff_run_122673:
+  new_version: 19.31.123-1.el7
+  variant: 7Server-7.0.Z
+  errata_file_id:
+  package_name: anaconda
+  person: errata-test@redhat.com
+  package_id: 25
+  old_version: NEW_PACKAGE
+  errata_id: 19828
+  overall_score: 1
+  package_path: /mnt/redhat/brewroot/packages/anaconda/19.31.123/1.el7/src/anaconda-19.31.123-1.el7.src.rpm
+  run_date: 2015-02-18 05:32:50 Z
+  brew_rpm_id: 37435320
+  last_good_run_id:
+  errata_nr: 2015:19828
+  obsolete: 0
+  brew_build_id: 421717
+  errata_brew_mapping_id: 86407
+  run_id: 122673
+rpmdiff_run_122675:
+  new_version: 3.12.1-153.el7_0.15
+  variant: 7Server-7.0.Z
+  errata_file_id:
+  package_name: selinux-policy
+  person: errata-test@redhat.com
+  package_id: 1023
+  old_version: NEW_PACKAGE
+  errata_id: 19828
+  overall_score: 1
+  package_path: /mnt/redhat/brewroot/packages/selinux-policy/3.12.1/153.el7_0.15/src/selinux-policy-3.12.1-153.el7_0.15.src.rpm
+  run_date: 2015-02-18 05:32:50 Z
+  brew_rpm_id: 3743587
+  last_good_run_id:
+  errata_nr: 2015:19828
+  obsolete: 0
+  brew_build_id: 421719
+  errata_brew_mapping_id: 86409
+  run_id: 122675
+rpmdiff_run_111510:
+  new_version: 1.900.1-26.el7_0.2
+  package_path: /mnt/redhat/brewroot/packages/jasper/1.900.1/26.el7_0.2/src/jasper-1.900.1-26.el7_0.2.src.rpm
+  brew_build_id: 403532
+  run_date: 2014-12-12 08:56:57 Z
+  variant: 7Server-7.0.Z
+  obsolete: 0
+  run_id: 111510
+  errata_nr: 2014:2021
+  errata_file_id:
+  overall_score: 1
+  last_good_run_id:
+  person: jpopelka@redhat.com
+  package_id: 15336
+  errata_brew_mapping_id: 86488
+  errata_id: 19435
+  package_name: jasper
+  old_version: 1.900.1-26.el7_0.1
+  brew_rpm_id: 3648158
+rpmdiff_run_111511:
+  new_version: 1.900.1-16.el6_6.2
+  package_path: /mnt/redhat/brewroot/packages/jasper/1.900.1/16.el6_6.2/src/jasper-1.900.1-16.el6_6.2.src.rpm
+  brew_build_id: 403534
+  run_date: 2014-12-12 08:56:30 Z
+  variant: 6Client-6.6.z
+  obsolete: 0
+  run_id: 111511
+  errata_nr: 2014:2021
+  errata_file_id:
+  overall_score: 2
+  last_good_run_id:
+  person: jpopelka@redhat.com
+  package_id: 15336
+  errata_brew_mapping_id: 86489
+  errata_id: 19435
+  package_name: jasper
+  old_version: 1.900.1-16.el6_6.1
+  brew_rpm_id: 3648349
+rpmdiff_run_121307:
+  errata_file_id:
+  last_good_run_id:
+  package_id: 939
+  obsolete: 0
+  brew_rpm_id: 3788491
+  overall_score: 2
+  errata_id: 20291
+  run_date: 2015-04-09 15:22:26 Z
+  person: jdenemar@redhat.com
+  brew_build_id: 429175
+  package_path: /mnt/redhat/brewroot/packages/libvirt/0.10.2/46.el6_6.5/src/libvirt-0.10.2-46.el6_6.5.src.rpm
+  new_version: 0.10.2-46.el6_6.5
+  errata_nr: 2015:0916
+  variant: 6Client-6.6.z
+  package_name: libvirt
+  old_version: 0.10.2-46.el6_6.4
+  run_id: 121307
+  errata_brew_mapping_id: 96686
+rpmdiff_run_121360:
+  errata_file_id:
+  last_good_run_id: 121307
+  package_id: 939
+  obsolete: 0
+  brew_rpm_id: 3790591
+  overall_score: 2
+  errata_id: 20291
+  run_date: 2015-04-10 15:02:30 Z
+  person: jdenemar@redhat.com
+  brew_build_id: 429392
+  package_path: /mnt/redhat/brewroot/packages/libvirt/0.10.2/46.el6_6.6/src/libvirt-0.10.2-46.el6_6.6.src.rpm
+  new_version: 0.10.2-46.el6_6.6
+  errata_nr: 2015:0916
+  variant: 6Client-6.6.z
+  package_name: libvirt
+  old_version: 0.10.2-46.el6_6.5
+  run_id: 121360
+  errata_brew_mapping_id: 96740
+rpmdiff_run_122676:
+  person: errata-test@redhat.com
+  errata_brew_mapping_id: 96741
+  obsolete: 0
+  new_version: 3.18.1-6.GA_redhat_1.1.ep6.el7
+  errata_file_id:
+  brew_rpm_id: 39131881
+  package_id: 17188
+  package_path: /mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/6.GA_redhat_1.1.ep6.el7/src/javassist-eap6-3.18.1-6.GA_redhat_1.1.ep6.el7.src.rpm
+  run_date: 2015-09-17 06:24:08 Z
+  run_id: 122676
+  overall_score: 1
+  errata_id: 20292
+  errata_nr: 2015:20292
+  brew_build_id: 400972
+  last_good_run_id:
+  package_name: javassist-eap6
+  old_version: NEW_PACKAGE
+  variant: 7Server
+rpmdiff_run_125090:
+  variant: 7Server
+  last_good_run_id:
+  package_id: 617
+  new_version: 4.2.3-7.el7
+  package_path: /mnt/redhat/brewroot/packages/samba/4.2.3/7.el7/src/samba-4.2.3-7.el7.src.rpm
+  brew_build_id: 454679
+  package_name: samba
+  person: errata-test@redhat.com
+  errata_id: 20836
+  overall_score: 500
+  run_date: 2015-09-22 05:09:30 Z
+  errata_nr: 2015:20836
+  obsolete: 0
+  brew_rpm_id: 40073963
+  errata_file_id:
+  old_version: NEW_PACKAGE
+  errata_brew_mapping_id: 98726
+  run_id: 125090
+rpmdiff_run_121083:
+  variant: 6Server
+  run_id: 121083
+  errata_brew_mapping_id: 96429
+  package_path: /mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm
+  errata_nr: 2015:1395
+  package_name: rhn-client-tools
+  new_version: 1.0.0.1-32.el6
+  overall_score: 1
+  person: mkollar@redhat.com
+  errata_file_id:
+  errata_id: 20044
+  package_id: 1007
+  old_version: 1.0.0.1-31.el6
+  run_date: 2015-04-02 06:22:15 Z
+  brew_build_id: 428475
+  last_good_run_id:
+  brew_rpm_id: 3783567
+  obsolete: 0
+rpmdiff_run_122368:
+  variant: 7Server
+  run_id: 122368
+  errata_brew_mapping_id: 97836
+  package_path: /mnt/redhat/brewroot/packages/liberation-fonts/1.07.2/15.el7/src/liberation-fonts-1.07.2-15.el7.src.rpm
+  errata_nr: 2015:1500
+  package_name: liberation-fonts
+  new_version: 1.07.2-15.el7
+  overall_score: 1
+  person: psatpute@redhat.com
+  errata_file_id:
+  errata_id: 20466
+  package_id: 1366
+  old_version: 1.07.2-14.el7
+  run_date: 2015-05-06 03:21:41 Z
+  brew_build_id: 430533
+  last_good_run_id:
+  brew_rpm_id: 3807813
+  obsolete: 0
+rpmdiff_run_132406:
+  last_good_run_id:
+  run_id: 132406
+  obsolete: 0
+  errata_brew_mapping_id: 108168
+  new_version: 4.2.0-0.21.el7
+  overall_score: 2
+  errata_file_id:
+  package_path: /mnt/redhat/brewroot/packages/kernel-aarch64/4.2.0/0.21.el7/src/kernel-aarch64-4.2.0-0.21.el7.src.rpm
+  run_date: 2015-10-07 08:24:52 Z
+  brew_rpm_id: 3966120
+  package_id: 31965
+  package_name: kernel-aarch64
+  person: mlangsdo@redhat.com
+  errata_nr: 2015:2394
+  brew_build_id: 460081
+  errata_id: 21009
+  old_version: NEW_PACKAGE
+  variant: 7Server
+rpmdiff_run_132407:
+  last_good_run_id:
+  run_id: 132407
+  obsolete: 0
+  pdc_errata_release_build_id: 1
+  new_version: 10.2.3-17.el7cp
+  overall_score: 2
+  errata_file_id:
+  package_path: /mnt/redhat/brewroot/packages/ceph/10.2.3/17.el7cp/src/ceph-10.2.3-17.el7cp.src.rpm
+  run_date: 2017-02-22 08:24:52 Z
+  brew_rpm_id: 4482155
+  package_id: 34590
+  package_name: ceph
+  person: chuzhang@redhat.com
+  errata_nr: 2017:2394
+  brew_build_id: 528033
+  errata_id: 21131
+  old_version: NEW_PACKAGE
+  variant: 7Mon

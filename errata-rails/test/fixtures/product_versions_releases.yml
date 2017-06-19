@@ -1,0 +1,55 @@
+--- 
+join_2: 
+  :release_id: "164"
+  :product_version_id: "16"
+join_3: 
+  :release_id: "147"
+  :product_version_id: "149"
+join_0: 
+  :release_id: "65"
+  :product_version_id: "3"
+join_1: 
+  :release_id: "161"
+  :product_version_id: "16"
+join_4:
+  :release_id: "259"
+  :product_version_id: "244"
+join_52:
+  :release_id: "259"
+  :product_version_id: "317"
+join_80:
+  :release_id: "21"
+  :product_version_id: "200"
+join_81:
+  :release_id: "21"
+  :product_version_id: "201"
+join_101:
+  :release_id: "152"
+  :product_version_id: "269"
+join_102:
+  :release_id: "152"
+  :product_version_id: "318"
+join_103:
+  :release_id: "152"
+  :product_version_id: "153"
+join_150:
+  :release_id: "21"
+  :product_version_id: "308"
+join_151:
+  :release_id: "21"
+  :product_version_id: "311"
+join_152:
+  :release_id: "21"
+  :product_version_id: "315"
+join_153:
+  :release_id: "21"
+  :product_version_id: "345"
+join_154:
+  :release_id: "21"
+  :product_version_id: "384"
+join_155:
+  :release_id: "421"
+  :product_version_id: "149"
+join_162:
+  :release_id: "21"
+  :product_version_id: "249"

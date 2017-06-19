@@ -1,0 +1,17 @@
+/* for the files open/close indicator */
+.dist-container .files { display: none; padding-bottom: 1em; }
+.dist-container .toggle-files:after { padding-left: 0.2em; padding-right:0.5em; opacity: 0.3; }
+.dist-container .toggle-files:hover:after { opacity: 0.7; }
+.dist-container .toggle-files:after { content: '\25B8'; }
+.dist-container.files-shown .toggle-files:after { content: '\25BE'; }
+
+/* for showing/hiding the files */
+.dist-container.files-shown .files { display: block; }
+
+/* for the popover info link */
+.dist-container .popover-test { opacity: 0.2; }
+.dist-container .popover-test:hover { opacity: 0.7; }
+
+/* for showing only CDN or RHN */
+.show-cdn-only .dist-container.RHN { display: none; }
+.show-rhn-only .dist-container.CDN { display: none; }

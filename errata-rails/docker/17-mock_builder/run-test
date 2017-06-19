@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Overwrite the default symlink to one of the existing configuration files provided by mock
+#
+set -xe
+
+mkdir -p "$CONFIG_DIR"
+
+cp /mock-default.cfg $CONFIG_DIR/default.cfg
+cp /etc/mock/site-defaults.cfg /etc/mock/logging.ini $CONFIG_DIR/
+
+#
+# Now build the rpm by using the supplied src.rpm package as a first parameter
+#
+exec /usr/bin/mock --configdir=$CONFIG_DIR --resultdir=$WORKSPACE rebuild $(basename `ls $WORKSPACE/*.src.rpm`)

@@ -1,0 +1,25 @@
+<%= page_title_h1 %>
+<% row_func = lambda do |ex|
+     pv_name = ''
+     if ex.product_version
+       pv_name = link_to(ex.product_version.name, 
+                         :action => :ftp_exclusion, 
+                         :product_version => ex.product_version.name)
+     end
+     
+     [link_to(ex.product.name, :action => :ftp_exclusion, :product => ex.product.short_name),
+      pv_name,
+      link_to(ex.package.name, :action => :show, :id => ex.package.name)
+     ]
+end
+ %>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Product' ,'Product Version','Package'],
+:func => row_func,
+:row_items => @exclusions
+}) %>
+
+<p>
+<%= will_paginate(@exclusions) %>
+</p>

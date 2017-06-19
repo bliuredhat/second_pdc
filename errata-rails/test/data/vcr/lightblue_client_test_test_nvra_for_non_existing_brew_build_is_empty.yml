@@ -1,0 +1,34 @@
+--- 
+http_interactions: 
+- request: 
+    method: post
+    uri: https://datasvc.lightblue.dev2.redhat.com/rest/data/find/containerImage
+    body: 
+      encoding: UTF-8
+      string: "{\"objectType\":\"containerImage\",\"version\":\"0.0.6\",\"query\":{\"field\":\"brew.build\",\"op\":\"=\",\"rvalue\":\"foobar\"},\"projection\":{\"field\":\"parsed_data.rpm_manifest\",\"include\":true,\"recursive\":true}}"
+    headers: 
+      Content-Type: 
+      - application/json
+      Accept: 
+      - application/json
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Server: 
+      - Apache-Coyote/1.1
+      Requestid: 
+      - "-8435307840979383540"
+      Content-Type: 
+      - application/json
+      Content-Length: 
+      - "121"
+      Date: 
+      - Thu, 17 Nov 2016 06:22:02 GMT
+    body: 
+      encoding: ASCII-8BIT
+      string: "{\"status\":\"COMPLETE\",\"modifiedCount\":0,\"matchCount\":0,\"processed\":[],\"hostname\":\"lightbluecrud3.dev2.a1.vary.redhat.com\"}"
+    http_version: 
+  recorded_at: Thu, 17 Nov 2016 06:22:02 GMT
+recorded_with: VCR 3.0.3

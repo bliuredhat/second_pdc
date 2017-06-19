@@ -1,0 +1,22 @@
+<h1>Push results for <%= @errata.fulladvisory %>.</h1>
+<div class="indent indent_line">
+  <%# Prevent an exception if there are no messages -%>
+  <% (@messages || ['n/a']).each do |message| %>
+    <%# Nasty hack since I put some html in messages sometimes %>
+    <% if message !~ /^</ %>
+      <p><%=raw message %></p>
+    <% else %>
+      <%=raw message %>
+    <% end %>
+  <% end %>
+</div>
+
+<p>
+  <br/>
+  Go to:<ul>
+    <li><%= link_to 'Push History',     "/rhn/push_history_for_errata/#{@errata.id}" %></li>
+    <li><%= link_to 'Advisory Summary', "/advisory/#{@errata.id}"                    %></li>
+    <li><%= link_to 'Advisory Details', "/errata/details/#{@errata.id}"              %></li>
+    <li><%= link_to 'Push Options',     "/rhn/push_errata/#{@errata.id}"             %></li>
+  </ul>
+</p>

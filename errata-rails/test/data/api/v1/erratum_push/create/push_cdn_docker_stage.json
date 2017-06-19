@@ -1,0 +1,56 @@
+# HTTP 201
+[
+  {
+    "errata": {
+      "id": 21101
+    },
+    "id": "<some id>",
+    "log": "<some log>",
+    "options": {
+      "priority": 12,
+      "push_files": false,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_rhnqa_done",
+      "reschedule_cdnqa_jobs"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": 100000
+    },
+    "status": "WAITING_ON_PUB",
+    "target": {
+      "id": 5,
+      "name": "cdn_stage"
+    },
+    "url": "<some url>"
+  },
+  {
+    "errata": {
+      "id": 21101
+    },
+    "id": "<some id>",
+    "log": "<some log>",
+    "options": {
+      "priority": 22
+    },
+    "post_tasks": [
+
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": 100001
+    },
+    "status": "WAITING_ON_PUB",
+    "target": {
+      "id": 9,
+      "name": "cdn_docker_stage"
+    },
+    "url": "<some url>"
+  }
+]

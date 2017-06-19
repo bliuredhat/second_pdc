@@ -1,0 +1,60 @@
+---
+# Deploy an instance of vivd for testing Errata Tool.
+# https://github.com/rohanpm/vivd/
+#
+# Things not covered by this playbook:
+#
+# - docker setup (internal registry, etc.)
+#
+# - SSL setup for connecting to gerrit
+#   (try: https://gitlab.infra.prod.eng.rdu2.redhat.com/wthames/ansible/raw/update-ca-certs/playbooks/rhel-ca/install-rh-is-ca.yml )
+#
+# - firewall
+#
+# - the base image used by vivd
+#
+
+- name: Deploy vivd for Errata Tool
+  hosts: et-vivd
+  roles:
+    - role: rohanpm.vivd
+      tags: vivd
+      vivd_git_url: https://code.engineering.redhat.com/gerrit/errata-rails
+      vivd_docker_source_image: docker-registry.usersys.redhat.com/errata_tool/errata_dev:vivd
+      vivd_docker_code_path: /code
+      vivd_src_config: misc/vivd/config.clj
+      vivd_max_containers_up: 6
+      vivd_max_containers_built: 650
+      vivd_startup_timeout: 660
+      vivd_default_url: /errata
+      vivd_title: Errata Tool - containers
+      vivd_docker_http_port: 3000
+      vivd_docker_entrypoint:
+        - /bin/bash
+        - -c
+      # the command supports start-in-vivd script (preferred)
+      # and directly invoking ansible (legacy).
+      vivd_docker_cmd:
+        - >-
+          if test -f /code/misc/vivd/start; then
+          exec /code/misc/vivd/start;
+          fi;
+          set -e;
+          cd /code;
+          sudo chown 1000 -R .;
+          ansible-playbook -vv -c local
+          -e recreate_db=False
+          -e gem_install_path=/data/et-gems
+          --tags errata-init
+          misc/docker/errata/dev/ansible/dev-env.yml;
+          rake jobs:work &
+          rails s
+      vivd_docker_run_arguments:
+        - -v
+        - /data
+        - -v
+        - /var/lib/mysql
+
+    - role: vivd-gerrit
+      tags: vivd-gerrit
+      vivd_gerrit_project: errata-rails

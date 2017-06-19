@@ -1,0 +1,14 @@
+<%#
+
+  Appears to no longer be used
+  TODO: delete??
+
+%>
+<%# comment will appear here automatically, see layouts/notifier %>
+<%=
+  if @job.finished
+    "TPS runs are now complete."
+  else
+    "TPS job #{@job.id} failed. See #{@job.link} for details"
+  end
+%>

@@ -1,0 +1,18 @@
+pdc_errata_release_build_1:
+  id: 1
+  pdc_errata_release_id: 1
+  brew_build_id: 528033
+  flags: !ruby/object:Set
+    hash: {}
+pdc_errata_release_build_2:
+  id: 2
+  pdc_errata_release_id: 4
+  brew_build_id: 540733
+  flags: !ruby/object:Set
+    hash: {}
+pdc_errata_release_build_3:
+  id: 3
+  pdc_errata_release_id: 5
+  brew_build_id: 528033
+  flags: !ruby/object:Set
+    hash: {}

@@ -1,0 +1,75 @@
+<advisory from="secalert@redhat.com" version="1.0">
+  <id>RHBA-2015:2399</id>
+  <pushcount>0</pushcount>
+  <product>Product for PDC</product>
+  <type short="PdcRHBA">Red Hat Bug Fix Advisory (PDC)</type>
+  <synopsis xml:lang="en_US">pdc test</synopsis>
+  <issued date="2016-02-06 04:00:00 UTC"></issued>
+  <updated date="2016-03-10 14:44:01 UTC"></updated>
+  <references>
+  <reference href="https://access.redhat.com/errata/RHBA-2015:2399" type="self"></reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1196142" type="bugzilla"><bugzilla>1196142</bugzilla><summary>Add RBD support for LIO HA</summary></reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1362639" type="bugzilla"><bugzilla>1362639</bugzilla><summary>Object sync requests skipped in some scenarios</summary></reference>
+  </references>
+
+<topic xml:lang="en">
+<p>
+pdc test advisory
+</p>
+</topic>
+
+<description xml:lang="en">
+<p>
+does this even work?
+</p>
+</description>
+
+<solution xml:lang="en">
+<p>
+fix it
+</p>
+</solution>
+<rpmlist>
+<product short="MON">
+<name>Red Hat Ceph Storage MON</name>
+<file arch="SRPMS" epoch="0" name="ceph" release="17.el7cp" version="10.2.3">
+<filename>ceph-10.2.3-17.el7cp.src.rpm</filename>
+<sum type="md5">fake:6325cae72e2d35c9bf161b9e35c</sum>
+</file>
+<file arch="x86_64" epoch="0" name="ceph-base" release="17.el7cp" version="10.2.3">
+<filename>ceph-base-10.2.3-17.el7cp.x86_64.rpm</filename>
+<sum type="md5">fake:55c472f29f912aac03fe4de6101</sum>
+</file>
+<file arch="x86_64" epoch="0" name="ceph-common" release="17.el7cp" version="10.2.3">
+<filename>ceph-common-10.2.3-17.el7cp.x86_64.rpm</filename>
+<sum type="md5">fake:e41eb698b188bb73a6da5ebee9c</sum>
+</file>
+
+</product>
+<product short="OSD">
+<name>Red Hat Ceph Storage OSD</name>
+<file arch="SRPMS" epoch="0" name="ceph" release="17.el7cp" version="10.2.3">
+<filename>ceph-10.2.3-17.el7cp.src.rpm</filename>
+<sum type="md5">fake:6325cae72e2d35c9bf161b9e35c</sum>
+</file>
+<file arch="x86_64" epoch="0" name="ceph-base" release="17.el7cp" version="10.2.3">
+<filename>ceph-base-10.2.3-17.el7cp.x86_64.rpm</filename>
+<sum type="md5">fake:55c472f29f912aac03fe4de6101</sum>
+</file>
+<file arch="x86_64" epoch="0" name="ceph-common" release="17.el7cp" version="10.2.3">
+<filename>ceph-common-10.2.3-17.el7cp.x86_64.rpm</filename>
+<sum type="md5">fake:e41eb698b188bb73a6da5ebee9c</sum>
+</file>
+
+</product>
+<rpmtext xml:lang="en_US">
+  <p>These packages are GPG signed by Red Hat for security. Our key and
+  details on how to verify the signature are available from <a href="https://access.redhat.com/security/team/key/">https://access.redhat.com/security/team/key/</a></p>
+</rpmtext>
+</rpmlist>
+
+<contact xml:lang="en_US">
+  <p>The Red Hat security contact is secalert@redhat.com. More
+  contact details at <a href="https://access.redhat.com/security/team/contact/">https://access.redhat.com/security/team/contact/</a></p>
+</contact>
+</advisory>

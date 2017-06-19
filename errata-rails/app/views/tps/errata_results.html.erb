@@ -1,0 +1,18 @@
+<div class="clearfix" style="margin-bottom:1em;">
+  <div style="float:right;margin-top:10px;" class="btn-group">
+    <%= render(:partial => 'delete_invalid_tps_job_link') -%>
+    <% if @tpsrun.errata.status == State::QE %>
+      <%= render(:partial => 'reschedule_tps_links') %>
+    <% end %>
+  </div>
+  <%= page_title_h1 %>
+  <%= render 'message',
+    :type => :tps,
+    :errata => @errata,
+    :name => "TPS"
+  %>
+  <%= render 'tps_help_link' %>
+  <%= render 'missing_job_info'%>
+</div>
+
+<%= render(:partial => "run_result", :object => @tpsrun.tps_jobs) %>

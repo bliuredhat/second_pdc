@@ -1,0 +1,67 @@
+<%#
+  #
+  # Pass in enable_remove_package_form as a local
+  # to enable a form which can be used to remove released packages.
+  #
+  # This assumes the controller set @product_versions, @pv and @builds.
+  #
+-%><%
+ show_form = defined?(enable_remove_package_form) && enable_remove_package_form
+
+-%>
+<%= form_tag :action => 'released_packages' do  %>
+  <p><%= collection_select(:pv, :id, @product_versions, :id, :name, { :prompt => 'Select Product Version' }, :class => 'submit-form-on-change eso-chosen-select') %> </p>
+<% end %>
+
+<% if @pv.present? %>
+  <p class="light">(<%= n_thing_or_things(@builds, 'build') %>)</p>
+<% end %>
+
+<% if show_form %>
+  <form method="POST" id="remove_packages_form">
+  <%= render 'check_uncheck_all' %>
+<% end %>
+
+<%= render 'shared/bz_table', {
+  :headers => [
+    ('Remove?' if show_form),
+    'Build',
+    'Released In',
+    'Added By',
+    'Reason',
+    'Created At',
+  ].compact,
+
+  :func => lambda { |build|
+    if show_form
+      form_or_nil = {
+        :content=> check_box_tag('released_builds_to_remove[]', build.id, false),
+        :options=> { :style => 'text-align:center;', :class => 'delete_check_box' }
+      }
+    end
+    link_to_build = link_to(
+      build.nvr,
+      {
+        :action => :show_released_build,
+        :id => build.id,
+        :product_version_id => @pv.id
+      },
+      :class => 'released_build_link'
+    )
+    link_to_advisory = build.released_errata ? errata_link(build.released_errata) : 'GA'
+    added_by, reason, created_at = creation_details_for_build(build)
+    [form_or_nil, link_to_build, link_to_advisory, added_by, reason, created_at].compact
+  },
+
+  :row_items => @builds,
+  :table_width => nil,
+} if @pv.present? %>
+
+<% if show_form && @pv.present? %>
+    <%= render 'check_uncheck_all' %>
+    <br/>
+    <input type="submit" class="btn btn-primary" value="Remove selected">
+    &nbsp;
+    <%= link_to('Cancel', { :action => :released_packages, :id => @pv.id }) %>
+  </form>
+<% end %>

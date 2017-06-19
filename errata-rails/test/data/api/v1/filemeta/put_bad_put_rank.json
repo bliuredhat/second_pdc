@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "put_rank": [
+      "expected true/false, got bad"
+    ]
+  }
+}

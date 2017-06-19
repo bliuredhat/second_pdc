@@ -1,0 +1,32 @@
+#!/bin/sh
+# Usage: set-server-url https://hostname.example.com:1234
+# Tweaks config to use the specified server URL:
+# - Generates a new SSL key/certificate pair for the specified hostname,
+#   and adjusts httpd config to use them.
+# - Sets ServerName in httpd config
+
+set -e
+URL="$1"
+HOST=$(ruby -ruri -e 'puts URI.parse(ARGV.shift).host' $URL)
+KFILE=/etc/pki/tls/private/$HOST.pem
+CFILE=/etc/pki/tls/certs/$HOST.crt
+if ! ( test -e $KFILE &&  test -e $CFILE ); then
+  openssl genrsa -out $KFILE 4096
+  openssl req -new -x509 -key $KFILE -out $CFILE \
+    -subj "/C=AU/L=Brisbane/O=Red Hat/CN=${HOST}/emailAddress=errata-owner@redhat.com" -days 120 -text
+fi
+
+sed -r -e "s|^( *SSLCertificateFile).+$|\\1 $CFILE|" \
+  -e "s|^( *SSLCertificateKeyFile).+$|\\1 $KFILE|" \
+  -i /etc/httpd/conf.d/*
+
+echo ""
+echo ""
+echo "Generated SSL Certificate:"
+cat $CFILE
+echo ""
+echo ""
+
+cfgfile=/etc/httpd/conf/httpd.conf
+{ egrep -v '^ *ServerName' $cfgfile; echo "ServerName $URL"; } > /tmp/newcfg
+mv /tmp/newcfg $cfgfile

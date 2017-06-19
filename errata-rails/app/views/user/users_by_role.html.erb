@@ -1,0 +1,17 @@
+<div class="float-right">
+  <%= link_to('Back to User Admin', :action => :index) %>
+</div>
+
+<h2>'<%= @role.title_name %>' Role</h2>
+
+<table>
+  <%= table_rows_helper([
+    (['Team Name', @role.team_name] if @role.team_name),
+    ['Description', @role.description.full_stop],
+    (['IRC Channel', "##{@role.irc_channel}"] if @role.irc_channel),
+    (['RT Queue Email', mail_to(@role.rt_full_email)] if @role.rt_full_email),
+    (['RT Queue Name', @role.rt_queue] if @role.rt_queue && @role.rt_queue != @role.rt_email),
+    ['User Count', "#{@users.count} users"],
+    ['Users', render("user_list", :users=>@users)]
+  ], :labels=>true) %>
+</table>

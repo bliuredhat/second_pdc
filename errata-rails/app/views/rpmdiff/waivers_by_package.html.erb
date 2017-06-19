@@ -1,0 +1,6 @@
+<%= page_title_h1 %>
+<%= form_tag :action => 'waivers_by_package' do  %>
+<p><%= collection_select(:package, :id, @packages, :id, :name, {}, :class => 'submit-form-on-change') %> </p>
+<% end %>
+
+<%= render 'waiver_table' %>

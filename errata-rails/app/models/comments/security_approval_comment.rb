@@ -1,0 +1,2 @@
+class SecurityApprovalComment < Comment
+end

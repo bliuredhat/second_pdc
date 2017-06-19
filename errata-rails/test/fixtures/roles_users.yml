@@ -1,0 +1,6088 @@
+--- 
+join_00000: 
+  role_id: "5"
+  user_id: "1"
+join_00001: 
+  role_id: "2"
+  user_id: "4"
+join_00002: 
+  role_id: "4"
+  user_id: "4"
+join_00003: 
+  role_id: "4"
+  user_id: "6"
+join_00004: 
+  role_id: "2"
+  user_id: "10"
+join_00005: 
+  role_id: "4"
+  user_id: "10"
+join_00006: 
+  role_id: "6"
+  user_id: "10"
+join_00007: 
+  role_id: "2"
+  user_id: "134"
+join_00008: 
+  role_id: "4"
+  user_id: "134"
+join_00009: 
+  role_id: "2"
+  user_id: "253"
+join_00010: 
+  role_id: "4"
+  user_id: "253"
+join_00011: 
+  role_id: "4"
+  user_id: "387"
+join_00012: 
+  role_id: "1"
+  user_id: "405"
+join_00013: 
+  role_id: "3"
+  user_id: "405"
+join_00014: 
+  role_id: "4"
+  user_id: "405"
+join_00015: 
+  role_id: "6"
+  user_id: "405"
+join_00016: 
+  role_id: "10"
+  user_id: "405"
+join_00017: 
+  role_id: "2"
+  user_id: "1013"
+join_00018: 
+  role_id: "4"
+  user_id: "1013"
+join_00019: 
+  role_id: "6"
+  user_id: "1013"
+join_00020: 
+  role_id: "2"
+  user_id: "1016"
+join_00021: 
+  role_id: "4"
+  user_id: "1016"
+join_00022: 
+  role_id: "6"
+  user_id: "1016"
+join_00023: 
+  role_id: "2"
+  user_id: "1087"
+join_00024: 
+  role_id: "4"
+  user_id: "1087"
+join_00025: 
+  role_id: "2"
+  user_id: "1556"
+join_00026: 
+  role_id: "3"
+  user_id: "1556"
+join_00027: 
+  role_id: "4"
+  user_id: "1556"
+join_00028: 
+  role_id: "8"
+  user_id: "1556"
+join_00029: 
+  role_id: "10"
+  user_id: "1556"
+join_00030: 
+  role_id: "4"
+  user_id: "2455"
+join_00031: 
+  role_id: "2"
+  user_id: "3213"
+join_00032: 
+  role_id: "4"
+  user_id: "3213"
+join_00033: 
+  role_id: "1"
+  user_id: "7775"
+join_00034: 
+  role_id: "4"
+  user_id: "7775"
+join_00035: 
+  role_id: "6"
+  user_id: "7775"
+join_00036: 
+  role_id: "7"
+  user_id: "7775"
+join_00037: 
+  role_id: "2"
+  user_id: "8448"
+join_00038: 
+  role_id: "4"
+  user_id: "8448"
+join_00039: 
+  role_id: "1"
+  user_id: "9660"
+join_00040: 
+  role_id: "4"
+  user_id: "9660"
+join_00041: 
+  role_id: "2"
+  user_id: "9956"
+join_00042: 
+  role_id: "4"
+  user_id: "9956"
+join_00043: 
+  role_id: "2"
+  user_id: "10886"
+join_00044: 
+  role_id: "4"
+  user_id: "10886"
+join_00045: 
+  role_id: "2"
+  user_id: "11001"
+join_00046: 
+  role_id: "4"
+  user_id: "11001"
+join_00047: 
+  role_id: "6"
+  user_id: "11001"
+join_00048: 
+  role_id: "2"
+  user_id: "12491"
+join_00049: 
+  role_id: "4"
+  user_id: "12491"
+join_00050: 
+  role_id: "2"
+  user_id: "12909"
+join_00051: 
+  role_id: "4"
+  user_id: "12909"
+join_00052: 
+  role_id: "4"
+  user_id: "13656"
+join_00053: 
+  role_id: "2"
+  user_id: "14016"
+join_00054: 
+  role_id: "4"
+  user_id: "14016"
+join_00055: 
+  role_id: "2"
+  user_id: "14098"
+join_00056: 
+  role_id: "4"
+  user_id: "14098"
+join_00057: 
+  role_id: "6"
+  user_id: "14098"
+join_00058: 
+  role_id: "4"
+  user_id: "14367"
+join_00059: 
+  role_id: "2"
+  user_id: "14574"
+join_00060: 
+  role_id: "4"
+  user_id: "14574"
+join_00061: 
+  role_id: "2"
+  user_id: "14821"
+join_00062: 
+  role_id: "4"
+  user_id: "14821"
+join_00063: 
+  role_id: "6"
+  user_id: "14821"
+join_00064: 
+  role_id: "2"
+  user_id: "17981"
+join_00065: 
+  role_id: "4"
+  user_id: "17981"
+join_00066: 
+  role_id: "2"
+  user_id: "19711"
+join_00067: 
+  role_id: "4"
+  user_id: "19711"
+join_00068: 
+  role_id: "6"
+  user_id: "19711"
+join_00069: 
+  role_id: "2"
+  user_id: "19949"
+join_00070: 
+  role_id: "4"
+  user_id: "19949"
+join_00071: 
+  role_id: "4"
+  user_id: "20510"
+join_00072: 
+  role_id: "2"
+  user_id: "21741"
+join_00073: 
+  role_id: "4"
+  user_id: "21741"
+join_00074: 
+  role_id: "4"
+  user_id: "22751"
+join_00075: 
+  role_id: "4"
+  user_id: "23952"
+join_00076: 
+  role_id: "2"
+  user_id: "24005"
+join_00077: 
+  role_id: "4"
+  user_id: "24005"
+join_00078: 
+  role_id: "4"
+  user_id: "24006"
+join_00079: 
+  role_id: "1"
+  user_id: "24773"
+join_00080: 
+  role_id: "4"
+  user_id: "24773"
+join_00081: 
+  role_id: "6"
+  user_id: "24773"
+join_00082: 
+  role_id: "2"
+  user_id: "24839"
+join_00083: 
+  role_id: "4"
+  user_id: "24839"
+join_00084: 
+  role_id: "2"
+  user_id: "24844"
+join_00085: 
+  role_id: "4"
+  user_id: "24844"
+join_00086: 
+  role_id: "6"
+  user_id: "24844"
+join_00087: 
+  role_id: "1"
+  user_id: "24967"
+join_00088: 
+  role_id: "2"
+  user_id: "24967"
+join_00089: 
+  role_id: "4"
+  user_id: "24967"
+join_00090: 
+  role_id: "4"
+  user_id: "24996"
+join_00091: 
+  role_id: "12"
+  user_id: "24996"
+join_00092: 
+  role_id: "2"
+  user_id: "25120"
+join_00093: 
+  role_id: "4"
+  user_id: "25120"
+join_00094: 
+  role_id: "2"
+  user_id: "26141"
+join_00095: 
+  role_id: "4"
+  user_id: "26141"
+join_00096: 
+  role_id: "1"
+  user_id: "27875"
+join_00097: 
+  role_id: "3"
+  user_id: "27875"
+join_00098: 
+  role_id: "4"
+  user_id: "27875"
+join_00099: 
+  role_id: "6"
+  user_id: "27875"
+join_00100: 
+  role_id: "10"
+  user_id: "27875"
+join_00101: 
+  role_id: "4"
+  user_id: "29365"
+join_00102: 
+  role_id: "4"
+  user_id: "29432"
+join_00103: 
+  role_id: "2"
+  user_id: "30712"
+join_00104: 
+  role_id: "3"
+  user_id: "30712"
+join_00105: 
+  role_id: "4"
+  user_id: "30712"
+join_00106: 
+  role_id: "6"
+  user_id: "30712"
+join_00107: 
+  role_id: "10"
+  user_id: "30712"
+join_00108: 
+  role_id: "2"
+  user_id: "30767"
+join_00109: 
+  role_id: "4"
+  user_id: "30767"
+join_00110: 
+  role_id: "4"
+  user_id: "30797"
+join_00111: 
+  role_id: "2"
+  user_id: "32221"
+join_00112: 
+  role_id: "4"
+  user_id: "32221"
+join_00113: 
+  role_id: "2"
+  user_id: "33508"
+join_00114: 
+  role_id: "4"
+  user_id: "33508"
+join_00115: 
+  role_id: "2"
+  user_id: "33686"
+join_00116: 
+  role_id: "4"
+  user_id: "33686"
+join_00117: 
+  role_id: "4"
+  user_id: "33788"
+join_00118: 
+  role_id: "2"
+  user_id: "34397"
+join_00119: 
+  role_id: "4"
+  user_id: "34397"
+join_00120: 
+  role_id: "1"
+  user_id: "35599"
+join_00121: 
+  role_id: "2"
+  user_id: "35599"
+join_00122: 
+  role_id: "3"
+  user_id: "35599"
+join_00123: 
+  role_id: "4"
+  user_id: "35599"
+join_00124: 
+  role_id: "6"
+  user_id: "35599"
+join_00125: 
+  role_id: "9"
+  user_id: "35599"
+join_00126: 
+  role_id: "10"
+  user_id: "35599"
+join_00127: 
+  role_id: "4"
+  user_id: "37403"
+join_00128: 
+  role_id: "6"
+  user_id: "37403"
+join_00129: 
+  role_id: "4"
+  user_id: "37705"
+join_00130: 
+  role_id: "2"
+  user_id: "40567"
+join_00131: 
+  role_id: "4"
+  user_id: "40567"
+join_00132: 
+  role_id: "2"
+  user_id: "40789"
+join_00133: 
+  role_id: "4"
+  user_id: "40789"
+join_00134: 
+  role_id: "2"
+  user_id: "42139"
+join_00135: 
+  role_id: "4"
+  user_id: "42139"
+join_00136: 
+  role_id: "2"
+  user_id: "45007"
+join_00137: 
+  role_id: "4"
+  user_id: "45007"
+join_00138: 
+  role_id: "2"
+  user_id: "46803"
+join_00139: 
+  role_id: "4"
+  user_id: "46803"
+join_00140: 
+  role_id: "2"
+  user_id: "48211"
+join_00141: 
+  role_id: "4"
+  user_id: "48211"
+join_00142: 
+  role_id: "6"
+  user_id: "48211"
+join_00143: 
+  role_id: "4"
+  user_id: "51518"
+join_00144: 
+  role_id: "6"
+  user_id: "51518"
+join_00145: 
+  role_id: "2"
+  user_id: "52433"
+join_00146: 
+  role_id: "4"
+  user_id: "52433"
+join_00147: 
+  role_id: "6"
+  user_id: "52433"
+join_00148: 
+  role_id: "2"
+  user_id: "56103"
+join_00149: 
+  role_id: "4"
+  user_id: "56103"
+join_00150: 
+  role_id: "2"
+  user_id: "58117"
+join_00151: 
+  role_id: "4"
+  user_id: "58117"
+join_00152: 
+  role_id: "6"
+  user_id: "58931"
+join_00153: 
+  role_id: "2"
+  user_id: "61112"
+join_00154: 
+  role_id: "4"
+  user_id: "61112"
+join_00155: 
+  role_id: "2"
+  user_id: "62946"
+join_00156: 
+  role_id: "4"
+  user_id: "62946"
+join_00157: 
+  role_id: "4"
+  user_id: "63295"
+join_00158: 
+  role_id: "2"
+  user_id: "64464"
+join_00159: 
+  role_id: "4"
+  user_id: "64464"
+join_00160: 
+  role_id: "2"
+  user_id: "66074"
+join_00161: 
+  role_id: "4"
+  user_id: "66074"
+join_00162: 
+  role_id: "5"
+  user_id: "66074"
+join_00163: 
+  role_id: "2"
+  user_id: "66524"
+join_00164: 
+  role_id: "4"
+  user_id: "66524"
+join_00165: 
+  role_id: "2"
+  user_id: "69482"
+join_00166: 
+  role_id: "4"
+  user_id: "69482"
+join_00167: 
+  role_id: "6"
+  user_id: "69482"
+join_00168: 
+  role_id: "2"
+  user_id: "69894"
+join_00169: 
+  role_id: "4"
+  user_id: "69894"
+join_00170: 
+  role_id: "2"
+  user_id: "71171"
+join_00171: 
+  role_id: "4"
+  user_id: "71171"
+join_00172: 
+  role_id: "2"
+  user_id: "73713"
+join_00173: 
+  role_id: "4"
+  user_id: "73713"
+join_00174: 
+  role_id: "4"
+  user_id: "74116"
+join_00175: 
+  role_id: "2"
+  user_id: "75794"
+join_00176: 
+  role_id: "4"
+  user_id: "75794"
+join_00177: 
+  role_id: "4"
+  user_id: "77461"
+join_00178: 
+  role_id: "6"
+  user_id: "77461"
+join_00179: 
+  role_id: "1"
+  user_id: "79037"
+join_00180: 
+  role_id: "2"
+  user_id: "79037"
+join_00181: 
+  role_id: "4"
+  user_id: "79037"
+join_00182: 
+  role_id: "2"
+  user_id: "79675"
+join_00183: 
+  role_id: "4"
+  user_id: "79675"
+join_00184: 
+  role_id: "1"
+  user_id: "81410"
+join_00185: 
+  role_id: "4"
+  user_id: "81410"
+join_00186: 
+  role_id: "6"
+  user_id: "81410"
+join_00187: 
+  role_id: "2"
+  user_id: "81625"
+join_00188: 
+  role_id: "4"
+  user_id: "81625"
+join_00189: 
+  role_id: "6"
+  user_id: "81625"
+join_00190: 
+  role_id: "4"
+  user_id: "82485"
+join_00191: 
+  role_id: "2"
+  user_id: "84099"
+join_00192: 
+  role_id: "4"
+  user_id: "84099"
+join_00193: 
+  role_id: "6"
+  user_id: "84099"
+join_00194: 
+  role_id: "1"
+  user_id: "84357"
+join_00195: 
+  role_id: "2"
+  user_id: "84357"
+join_00196: 
+  role_id: "3"
+  user_id: "84357"
+join_00197: 
+  role_id: "4"
+  user_id: "84357"
+join_00198: 
+  role_id: "7"
+  user_id: "84357"
+join_00199: 
+  role_id: "8"
+  user_id: "84357"
+join_00200: 
+  role_id: "10"
+  user_id: "84357"
+join_00201: 
+  role_id: "1"
+  user_id: "84971"
+join_00202: 
+  role_id: "2"
+  user_id: "84971"
+join_00203: 
+  role_id: "4"
+  user_id: "84971"
+join_00204: 
+  role_id: "1"
+  user_id: "84972"
+join_00205: 
+  role_id: "4"
+  user_id: "84972"
+join_00206: 
+  role_id: "6"
+  user_id: "84972"
+join_00207: 
+  role_id: "4"
+  user_id: "84974"
+join_00208: 
+  role_id: "6"
+  user_id: "84974"
+join_00209: 
+  role_id: "2"
+  user_id: "84975"
+join_00210: 
+  role_id: "3"
+  user_id: "84975"
+join_00211: 
+  role_id: "4"
+  user_id: "84975"
+join_00212: 
+  role_id: "6"
+  user_id: "84975"
+join_00213: 
+  role_id: "8"
+  user_id: "84975"
+join_00214: 
+  role_id: "10"
+  user_id: "84975"
+join_00215: 
+  role_id: "2"
+  user_id: "84976"
+join_00216: 
+  role_id: "4"
+  user_id: "84976"
+join_00217: 
+  role_id: "2"
+  user_id: "84977"
+join_00218: 
+  role_id: "4"
+  user_id: "84977"
+join_00219: 
+  role_id: "1"
+  user_id: "84978"
+join_00220: 
+  role_id: "2"
+  user_id: "84978"
+join_00221: 
+  role_id: "4"
+  user_id: "84978"
+join_00222: 
+  role_id: "4"
+  user_id: "91467"
+join_00223: 
+  role_id: "6"
+  user_id: "91467"
+join_00224: 
+  role_id: "4"
+  user_id: "91949"
+join_00225: 
+  role_id: "2"
+  user_id: "92433"
+join_00226: 
+  role_id: "4"
+  user_id: "92433"
+join_00227: 
+  role_id: "2"
+  user_id: "93466"
+join_00228: 
+  role_id: "4"
+  user_id: "93466"
+join_00229: 
+  role_id: "6"
+  user_id: "95392"
+join_00230: 
+  role_id: "4"
+  user_id: "96042"
+join_00231: 
+  role_id: "6"
+  user_id: "96042"
+join_00232: 
+  role_id: "1"
+  user_id: "96230"
+join_00233: 
+  role_id: "2"
+  user_id: "96230"
+join_00234: 
+  role_id: "3"
+  user_id: "96230"
+join_00235: 
+  role_id: "4"
+  user_id: "96230"
+join_00236: 
+  role_id: "5"
+  user_id: "96230"
+join_00237: 
+  role_id: "6"
+  user_id: "96230"
+join_00238: 
+  role_id: "7"
+  user_id: "96230"
+join_00239: 
+  role_id: "8"
+  user_id: "96230"
+join_00240: 
+  role_id: "9"
+  user_id: "96230"
+join_00241: 
+  role_id: "10"
+  user_id: "96230"
+join_00242: 
+  role_id: "11"
+  user_id: "96230"
+join_00243: 
+  role_id: "4"
+  user_id: "97686"
+join_00244: 
+  role_id: "2"
+  user_id: "98577"
+join_00245: 
+  role_id: "4"
+  user_id: "98577"
+join_00246: 
+  role_id: "1"
+  user_id: "98694"
+join_00247: 
+  role_id: "3"
+  user_id: "98694"
+join_00248: 
+  role_id: "4"
+  user_id: "98694"
+join_00249: 
+  role_id: "8"
+  user_id: "98694"
+join_00250: 
+  role_id: "9"
+  user_id: "98694"
+join_00251: 
+  role_id: "10"
+  user_id: "98694"
+join_00252: 
+  role_id: "4"
+  user_id: "99469"
+join_00253: 
+  role_id: "2"
+  user_id: "100112"
+join_00254: 
+  role_id: "4"
+  user_id: "100112"
+join_00255: 
+  role_id: "4"
+  user_id: "100117"
+join_00256: 
+  role_id: "6"
+  user_id: "100117"
+join_00257: 
+  role_id: "4"
+  user_id: "100122"
+join_00258: 
+  role_id: "2"
+  user_id: "100126"
+join_00259: 
+  role_id: "4"
+  user_id: "100126"
+join_00260: 
+  role_id: "6"
+  user_id: "100126"
+join_00261: 
+  role_id: "2"
+  user_id: "100129"
+join_00262: 
+  role_id: "4"
+  user_id: "100129"
+join_00263: 
+  role_id: "2"
+  user_id: "100130"
+join_00264: 
+  role_id: "4"
+  user_id: "100130"
+join_00265: 
+  role_id: "3"
+  user_id: "100135"
+join_00266: 
+  role_id: "4"
+  user_id: "100135"
+join_00267: 
+  role_id: "8"
+  user_id: "100135"
+join_00268: 
+  role_id: "10"
+  user_id: "100135"
+join_00269: 
+  role_id: "4"
+  user_id: "100147"
+join_00270: 
+  role_id: "12"
+  user_id: "100147"
+join_00271: 
+  role_id: "4"
+  user_id: "101124"
+join_00272: 
+  role_id: "6"
+  user_id: "101407"
+join_00273: 
+  role_id: "2"
+  user_id: "102950"
+join_00274: 
+  role_id: "4"
+  user_id: "102950"
+join_00275: 
+  role_id: "4"
+  user_id: "103388"
+join_00276: 
+  role_id: "4"
+  user_id: "104687"
+join_00277: 
+  role_id: "6"
+  user_id: "104687"
+join_00278: 
+  role_id: "2"
+  user_id: "104688"
+join_00279: 
+  role_id: "4"
+  user_id: "104688"
+join_00280: 
+  role_id: "4"
+  user_id: "104950"
+join_00281: 
+  role_id: "4"
+  user_id: "114275"
+join_00282: 
+  role_id: "4"
+  user_id: "115787"
+join_00283: 
+  role_id: "2"
+  user_id: "122207"
+join_00284: 
+  role_id: "4"
+  user_id: "122207"
+join_00285: 
+  role_id: "4"
+  user_id: "122586"
+join_00286: 
+  role_id: "6"
+  user_id: "122586"
+join_00287: 
+  role_id: "2"
+  user_id: "123769"
+join_00288: 
+  role_id: "4"
+  user_id: "123769"
+join_00289: 
+  role_id: "4"
+  user_id: "125034"
+join_00290: 
+  role_id: "4"
+  user_id: "126151"
+join_00291: 
+  role_id: "2"
+  user_id: "128753"
+join_00292: 
+  role_id: "4"
+  user_id: "128753"
+join_00293: 
+  role_id: "4"
+  user_id: "128834"
+join_00294: 
+  role_id: "4"
+  user_id: "130830"
+join_00295: 
+  role_id: "4"
+  user_id: "131231"
+join_00296: 
+  role_id: "6"
+  user_id: "131231"
+join_00297: 
+  role_id: "2"
+  user_id: "132340"
+join_00298: 
+  role_id: "4"
+  user_id: "132340"
+join_00299: 
+  role_id: "4"
+  user_id: "133348"
+join_00300: 
+  role_id: "1"
+  user_id: "134666"
+join_00301: 
+  role_id: "3"
+  user_id: "134666"
+join_00302: 
+  role_id: "4"
+  user_id: "134666"
+join_00303: 
+  role_id: "10"
+  user_id: "134666"
+join_00304: 
+  role_id: "1"
+  user_id: "135828"
+join_00305: 
+  role_id: "2"
+  user_id: "135828"
+join_00306: 
+  role_id: "4"
+  user_id: "135828"
+join_00307: 
+  role_id: "2"
+  user_id: "135947"
+join_00308: 
+  role_id: "4"
+  user_id: "135947"
+join_00309: 
+  role_id: "2"
+  user_id: "136230"
+join_00310: 
+  role_id: "4"
+  user_id: "136230"
+join_00311: 
+  role_id: "2"
+  user_id: "136288"
+join_00312: 
+  role_id: "4"
+  user_id: "136288"
+join_00313: 
+  role_id: "2"
+  user_id: "139611"
+join_00314: 
+  role_id: "4"
+  user_id: "139611"
+join_00315: 
+  role_id: "4"
+  user_id: "141012"
+join_00316: 
+  role_id: "1"
+  user_id: "141215"
+join_00317: 
+  role_id: "4"
+  user_id: "141215"
+join_00318: 
+  role_id: "6"
+  user_id: "141215"
+join_00319: 
+  role_id: "4"
+  user_id: "142240"
+join_00320: 
+  role_id: "1"
+  user_id: "142409"
+join_00321: 
+  role_id: "1"
+  user_id: "143139"
+join_00322: 
+  role_id: "2"
+  user_id: "143139"
+join_00323: 
+  role_id: "4"
+  user_id: "143139"
+join_00324: 
+  role_id: "5"
+  user_id: "143139"
+join_00325: 
+  role_id: "6"
+  user_id: "143139"
+join_00326: 
+  role_id: "2"
+  user_id: "144720"
+join_00327: 
+  role_id: "4"
+  user_id: "144720"
+join_00328: 
+  role_id: "4"
+  user_id: "148180"
+join_00329: 
+  role_id: "2"
+  user_id: "148512"
+join_00330: 
+  role_id: "4"
+  user_id: "148512"
+join_00331: 
+  role_id: "2"
+  user_id: "148911"
+join_00332: 
+  role_id: "4"
+  user_id: "148911"
+join_00333: 
+  role_id: "2"
+  user_id: "149697"
+join_00334: 
+  role_id: "4"
+  user_id: "149697"
+join_00335: 
+  role_id: "1"
+  user_id: "150159"
+join_00336: 
+  role_id: "4"
+  user_id: "150159"
+join_00337: 
+  role_id: "4"
+  user_id: "150180"
+join_00338: 
+  role_id: "2"
+  user_id: "150705"
+join_00339: 
+  role_id: "4"
+  user_id: "150705"
+join_00340: 
+  role_id: "2"
+  user_id: "151294"
+join_00341: 
+  role_id: "4"
+  user_id: "151294"
+join_00342: 
+  role_id: "4"
+  user_id: "151424"
+join_00343: 
+  role_id: "4"
+  user_id: "151756"
+join_00344: 
+  role_id: "12"
+  user_id: "151756"
+join_00345: 
+  role_id: "2"
+  user_id: "151971"
+join_00346: 
+  role_id: "4"
+  user_id: "151971"
+join_00347: 
+  role_id: "2"
+  user_id: "152197"
+join_00348: 
+  role_id: "4"
+  user_id: "152197"
+join_00349: 
+  role_id: "6"
+  user_id: "152197"
+join_00350: 
+  role_id: "2"
+  user_id: "154382"
+join_00351: 
+  role_id: "4"
+  user_id: "154382"
+join_00352: 
+  role_id: "2"
+  user_id: "154848"
+join_00353: 
+  role_id: "4"
+  user_id: "154848"
+join_00354: 
+  role_id: "1"
+  user_id: "155492"
+join_00355: 
+  role_id: "4"
+  user_id: "155492"
+join_00356: 
+  role_id: "6"
+  user_id: "155492"
+join_00357: 
+  role_id: "7"
+  user_id: "155492"
+join_00358: 
+  role_id: "10"
+  user_id: "155492"
+join_00359: 
+  role_id: "1"
+  user_id: "156795"
+join_00360: 
+  role_id: "4"
+  user_id: "156795"
+join_00361: 
+  role_id: "2"
+  user_id: "156796"
+join_00362: 
+  role_id: "4"
+  user_id: "156796"
+join_00363: 
+  role_id: "2"
+  user_id: "156797"
+join_00364: 
+  role_id: "4"
+  user_id: "156797"
+join_00365: 
+  role_id: "2"
+  user_id: "156798"
+join_00366: 
+  role_id: "4"
+  user_id: "156798"
+join_00367: 
+  role_id: "4"
+  user_id: "156802"
+join_00368: 
+  role_id: "2"
+  user_id: "156811"
+join_00369: 
+  role_id: "4"
+  user_id: "156811"
+join_00370: 
+  role_id: "4"
+  user_id: "156818"
+join_00371: 
+  role_id: "1"
+  user_id: "157433"
+join_00372: 
+  role_id: "4"
+  user_id: "157433"
+join_00373: 
+  role_id: "2"
+  user_id: "157596"
+join_00374: 
+  role_id: "4"
+  user_id: "157596"
+join_00375: 
+  role_id: "2"
+  user_id: "157736"
+join_00376: 
+  role_id: "4"
+  user_id: "157736"
+join_00377: 
+  role_id: "4"
+  user_id: "157814"
+join_00378: 
+  role_id: "2"
+  user_id: "158848"
+join_00379: 
+  role_id: "4"
+  user_id: "158848"
+join_00380: 
+  role_id: "6"
+  user_id: "158848"
+join_00381: 
+  role_id: "2"
+  user_id: "159413"
+join_00382: 
+  role_id: "4"
+  user_id: "159413"
+join_00383: 
+  role_id: "2"
+  user_id: "160277"
+join_00384: 
+  role_id: "4"
+  user_id: "160277"
+join_00385: 
+  role_id: "6"
+  user_id: "160277"
+join_00386: 
+  role_id: "2"
+  user_id: "160436"
+join_00387: 
+  role_id: "4"
+  user_id: "160436"
+join_00388: 
+  role_id: "6"
+  user_id: "160436"
+join_00389: 
+  role_id: "2"
+  user_id: "160438"
+join_00390: 
+  role_id: "4"
+  user_id: "160438"
+join_00391: 
+  role_id: "1"
+  user_id: "160546"
+join_00392: 
+  role_id: "4"
+  user_id: "160546"
+join_00393: 
+  role_id: "4"
+  user_id: "160764"
+join_00394: 
+  role_id: "4"
+  user_id: "160812"
+join_00395: 
+  role_id: "2"
+  user_id: "160825"
+join_00396: 
+  role_id: "4"
+  user_id: "160825"
+join_00397: 
+  role_id: "6"
+  user_id: "160825"
+join_00398: 
+  role_id: "4"
+  user_id: "161143"
+join_00399: 
+  role_id: "4"
+  user_id: "161152"
+join_00400: 
+  role_id: "8"
+  user_id: "161152"
+join_00402: 
+  role_id: "4"
+  user_id: "162157"
+join_00403: 
+  role_id: "2"
+  user_id: "162860"
+join_00404: 
+  role_id: "4"
+  user_id: "162860"
+join_00405: 
+  role_id: "2"
+  user_id: "163147"
+join_00406: 
+  role_id: "4"
+  user_id: "163147"
+join_00407: 
+  role_id: "2"
+  user_id: "163339"
+join_00408: 
+  role_id: "4"
+  user_id: "163339"
+join_00409: 
+  role_id: "2"
+  user_id: "163376"
+join_00410: 
+  role_id: "4"
+  user_id: "163376"
+join_00411: 
+  role_id: "1"
+  user_id: "163460"
+join_00412: 
+  role_id: "4"
+  user_id: "163460"
+join_00413: 
+  role_id: "1"
+  user_id: "163483"
+join_00414: 
+  role_id: "2"
+  user_id: "163483"
+join_00415: 
+  role_id: "3"
+  user_id: "163483"
+join_00416: 
+  role_id: "4"
+  user_id: "163483"
+join_00417: 
+  role_id: "9"
+  user_id: "163483"
+join_00418: 
+  role_id: "10"
+  user_id: "163483"
+join_00419: 
+  role_id: "2"
+  user_id: "163654"
+join_00420: 
+  role_id: "4"
+  user_id: "163654"
+join_00421: 
+  role_id: "4"
+  user_id: "164153"
+join_00422: 
+  role_id: "4"
+  user_id: "164193"
+join_00423: 
+  role_id: "5"
+  user_id: "164193"
+join_00424: 
+  role_id: "6"
+  user_id: "164193"
+join_00425: 
+  role_id: "1"
+  user_id: "164197"
+join_00426: 
+  role_id: "1"
+  user_id: "164376"
+join_00427: 
+  role_id: "4"
+  user_id: "164376"
+join_00428: 
+  role_id: "4"
+  user_id: "164547"
+join_00429: 
+  role_id: "4"
+  user_id: "164681"
+join_00430: 
+  role_id: "2"
+  user_id: "164803"
+join_00431: 
+  role_id: "4"
+  user_id: "164803"
+join_00432: 
+  role_id: "4"
+  user_id: "164831"
+join_00433: 
+  role_id: "12"
+  user_id: "164831"
+join_00434: 
+  role_id: "4"
+  user_id: "164905"
+join_00435: 
+  role_id: "2"
+  user_id: "164954"
+join_00436: 
+  role_id: "4"
+  user_id: "164954"
+join_00437: 
+  role_id: "4"
+  user_id: "165082"
+join_00438: 
+  role_id: "4"
+  user_id: "165117"
+join_00439: 
+  role_id: "2"
+  user_id: "165188"
+join_00440: 
+  role_id: "4"
+  user_id: "165188"
+join_00441: 
+  role_id: "6"
+  user_id: "165188"
+join_00442: 
+  role_id: "2"
+  user_id: "165199"
+join_00443: 
+  role_id: "4"
+  user_id: "165199"
+join_00444: 
+  role_id: "1"
+  user_id: "165430"
+join_00445: 
+  role_id: "4"
+  user_id: "165430"
+join_00446: 
+  role_id: "6"
+  user_id: "165430"
+join_00447: 
+  role_id: "4"
+  user_id: "165432"
+join_00448: 
+  role_id: "4"
+  user_id: "165836"
+join_00449: 
+  role_id: "2"
+  user_id: "165850"
+join_00450: 
+  role_id: "4"
+  user_id: "165850"
+join_00451: 
+  role_id: "4"
+  user_id: "165887"
+join_00452: 
+  role_id: "12"
+  user_id: "165887"
+join_00453: 
+  role_id: "4"
+  user_id: "166159"
+join_00454: 
+  role_id: "2"
+  user_id: "166311"
+join_00455: 
+  role_id: "4"
+  user_id: "166311"
+join_00456: 
+  role_id: "6"
+  user_id: "166463"
+join_00457: 
+  role_id: "4"
+  user_id: "167123"
+join_00458: 
+  role_id: "4"
+  user_id: "167500"
+join_00459: 
+  role_id: "5"
+  user_id: "167500"
+join_00460: 
+  role_id: "6"
+  user_id: "167500"
+join_00461: 
+  role_id: "4"
+  user_id: "167514"
+join_00462: 
+  role_id: "4"
+  user_id: "167749"
+join_00463: 
+  role_id: "2"
+  user_id: "167996"
+join_00464: 
+  role_id: "4"
+  user_id: "167996"
+join_00465: 
+  role_id: "2"
+  user_id: "167998"
+join_00466: 
+  role_id: "4"
+  user_id: "167998"
+join_00467: 
+  role_id: "2"
+  user_id: "167999"
+join_00468: 
+  role_id: "4"
+  user_id: "167999"
+join_00469: 
+  role_id: "2"
+  user_id: "168000"
+join_00470: 
+  role_id: "4"
+  user_id: "168000"
+join_00471: 
+  role_id: "4"
+  user_id: "168034"
+join_00472: 
+  role_id: "1"
+  user_id: "168062"
+join_00473: 
+  role_id: "2"
+  user_id: "168062"
+join_00474: 
+  role_id: "4"
+  user_id: "168062"
+join_00475: 
+  role_id: "1"
+  user_id: "168539"
+join_00476: 
+  role_id: "4"
+  user_id: "168539"
+join_00477: 
+  role_id: "2"
+  user_id: "168662"
+join_00478: 
+  role_id: "4"
+  user_id: "168662"
+join_00479: 
+  role_id: "6"
+  user_id: "168662"
+join_00480: 
+  role_id: "4"
+  user_id: "168669"
+join_00481: 
+  role_id: "4"
+  user_id: "168672"
+join_00482: 
+  role_id: "4"
+  user_id: "168673"
+join_00483: 
+  role_id: "12"
+  user_id: "168673"
+join_00484: 
+  role_id: "2"
+  user_id: "168750"
+join_00485: 
+  role_id: "4"
+  user_id: "168750"
+join_00486: 
+  role_id: "2"
+  user_id: "168751"
+join_00487: 
+  role_id: "4"
+  user_id: "168751"
+join_00488: 
+  role_id: "6"
+  user_id: "168751"
+join_00489: 
+  role_id: "2"
+  user_id: "168845"
+join_00490: 
+  role_id: "4"
+  user_id: "168845"
+join_00491: 
+  role_id: "2"
+  user_id: "169129"
+join_00492: 
+  role_id: "4"
+  user_id: "169129"
+join_00493: 
+  role_id: "4"
+  user_id: "169131"
+join_00494: 
+  role_id: "12"
+  user_id: "169131"
+join_00495: 
+  role_id: "2"
+  user_id: "169588"
+join_00496: 
+  role_id: "4"
+  user_id: "169588"
+join_00497: 
+  role_id: "4"
+  user_id: "169764"
+join_00498: 
+  role_id: "2"
+  user_id: "169823"
+join_00499: 
+  role_id: "4"
+  user_id: "169823"
+join_00500: 
+  role_id: "4"
+  user_id: "170056"
+join_00501: 
+  role_id: "4"
+  user_id: "170068"
+join_00502: 
+  role_id: "4"
+  user_id: "170409"
+join_00503: 
+  role_id: "12"
+  user_id: "170409"
+join_00504: 
+  role_id: "4"
+  user_id: "170722"
+join_00505: 
+  role_id: "4"
+  user_id: "170746"
+join_00506: 
+  role_id: "4"
+  user_id: "171000"
+join_00507: 
+  role_id: "4"
+  user_id: "171001"
+join_00508: 
+  role_id: "6"
+  user_id: "171001"
+join_00509: 
+  role_id: "1"
+  user_id: "171040"
+join_00510: 
+  role_id: "4"
+  user_id: "171040"
+join_00511: 
+  role_id: "1"
+  user_id: "171534"
+join_00512: 
+  role_id: "4"
+  user_id: "171534"
+join_00513: 
+  role_id: "6"
+  user_id: "171534"
+join_00514: 
+  role_id: "4"
+  user_id: "172043"
+join_00515: 
+  role_id: "12"
+  user_id: "172043"
+join_00516: 
+  role_id: "4"
+  user_id: "172185"
+join_00517: 
+  role_id: "4"
+  user_id: "172227"
+join_00518: 
+  role_id: "6"
+  user_id: "172319"
+join_00519: 
+  role_id: "2"
+  user_id: "172334"
+join_00520: 
+  role_id: "4"
+  user_id: "172334"
+join_00521: 
+  role_id: "4"
+  user_id: "172335"
+join_00522: 
+  role_id: "2"
+  user_id: "172336"
+join_00523: 
+  role_id: "4"
+  user_id: "172336"
+join_00524: 
+  role_id: "2"
+  user_id: "172337"
+join_00525: 
+  role_id: "4"
+  user_id: "172337"
+join_00526: 
+  role_id: "2"
+  user_id: "172338"
+join_00527: 
+  role_id: "4"
+  user_id: "172338"
+join_00528: 
+  role_id: "2"
+  user_id: "172340"
+join_00529: 
+  role_id: "4"
+  user_id: "172340"
+join_00530: 
+  role_id: "2"
+  user_id: "172343"
+join_00531: 
+  role_id: "4"
+  user_id: "172343"
+join_00532: 
+  role_id: "2"
+  user_id: "172385"
+join_00533: 
+  role_id: "4"
+  user_id: "172385"
+join_00534: 
+  role_id: "4"
+  user_id: "172666"
+join_00535: 
+  role_id: "6"
+  user_id: "172666"
+join_00536: 
+  role_id: "2"
+  user_id: "172669"
+join_00537: 
+  role_id: "4"
+  user_id: "172669"
+join_00538: 
+  role_id: "4"
+  user_id: "172694"
+join_00539: 
+  role_id: "4"
+  user_id: "172778"
+join_00540: 
+  role_id: "4"
+  user_id: "173052"
+join_00541: 
+  role_id: "4"
+  user_id: "173122"
+join_00542: 
+  role_id: "6"
+  user_id: "173122"
+join_00543: 
+  role_id: "4"
+  user_id: "173470"
+join_00544: 
+  role_id: "2"
+  user_id: "173624"
+join_00545: 
+  role_id: "4"
+  user_id: "173624"
+join_00546: 
+  role_id: "1"
+  user_id: "173714"
+join_00547: 
+  role_id: "3"
+  user_id: "173714"
+join_00548: 
+  role_id: "4"
+  user_id: "173714"
+join_00549: 
+  role_id: "6"
+  user_id: "173714"
+join_00550: 
+  role_id: "7"
+  user_id: "173714"
+join_00551: 
+  role_id: "10"
+  user_id: "173714"
+join_00552: 
+  role_id: "4"
+  user_id: "174276"
+join_00553: 
+  role_id: "6"
+  user_id: "174437"
+join_00554: 
+  role_id: "4"
+  user_id: "174484"
+join_00555: 
+  role_id: "1"
+  user_id: "174587"
+join_00556: 
+  role_id: "4"
+  user_id: "174587"
+join_00557: 
+  role_id: "4"
+  user_id: "174739"
+join_00558: 
+  role_id: "4"
+  user_id: "175726"
+join_00559: 
+  role_id: "4"
+  user_id: "176011"
+join_00560: 
+  role_id: "4"
+  user_id: "176249"
+join_00561: 
+  role_id: "4"
+  user_id: "176467"
+join_00562: 
+  role_id: "4"
+  user_id: "176921"
+join_00563: 
+  role_id: "4"
+  user_id: "177133"
+join_00564: 
+  role_id: "4"
+  user_id: "177146"
+join_00565: 
+  role_id: "4"
+  user_id: "178406"
+join_00566: 
+  role_id: "2"
+  user_id: "178457"
+join_00567: 
+  role_id: "4"
+  user_id: "178457"
+join_00568: 
+  role_id: "4"
+  user_id: "178638"
+join_00569: 
+  role_id: "2"
+  user_id: "178841"
+join_00570: 
+  role_id: "4"
+  user_id: "178841"
+join_00571: 
+  role_id: "4"
+  user_id: "178846"
+join_00572: 
+  role_id: "4"
+  user_id: "179044"
+join_00573: 
+  role_id: "2"
+  user_id: "179073"
+join_00574: 
+  role_id: "4"
+  user_id: "179073"
+join_00575: 
+  role_id: "2"
+  user_id: "179618"
+join_00576: 
+  role_id: "4"
+  user_id: "179618"
+join_00577: 
+  role_id: "2"
+  user_id: "179780"
+join_00578: 
+  role_id: "4"
+  user_id: "179780"
+join_00579: 
+  role_id: "6"
+  user_id: "179780"
+join_00580: 
+  role_id: "4"
+  user_id: "182103"
+join_00581: 
+  role_id: "4"
+  user_id: "182112"
+join_00582: 
+  role_id: "4"
+  user_id: "182970"
+join_00583: 
+  role_id: "1"
+  user_id: "183413"
+join_00584: 
+  role_id: "4"
+  user_id: "183413"
+join_00585: 
+  role_id: "1"
+  user_id: "184429"
+join_00586: 
+  role_id: "2"
+  user_id: "184429"
+join_00587: 
+  role_id: "3"
+  user_id: "184429"
+join_00588: 
+  role_id: "4"
+  user_id: "184429"
+join_00589: 
+  role_id: "9"
+  user_id: "184429"
+join_00590: 
+  role_id: "4"
+  user_id: "184498"
+join_00591: 
+  role_id: "6"
+  user_id: "184498"
+join_00592: 
+  role_id: "4"
+  user_id: "186353"
+join_00593: 
+  role_id: "4"
+  user_id: "186970"
+join_00594: 
+  role_id: "6"
+  user_id: "186970"
+join_00595: 
+  role_id: "4"
+  user_id: "187326"
+join_00596: 
+  role_id: "4"
+  user_id: "188487"
+join_00597: 
+  role_id: "1"
+  user_id: "188618"
+join_00598: 
+  role_id: "4"
+  user_id: "188618"
+join_00599: 
+  role_id: "6"
+  user_id: "188618"
+join_00600: 
+  role_id: "4"
+  user_id: "188842"
+join_00601: 
+  role_id: "12"
+  user_id: "188842"
+join_00602: 
+  role_id: "2"
+  user_id: "189163"
+join_00603: 
+  role_id: "4"
+  user_id: "189163"
+join_00604: 
+  role_id: "4"
+  user_id: "189535"
+join_00605: 
+  role_id: "2"
+  user_id: "189856"
+join_00606: 
+  role_id: "4"
+  user_id: "189856"
+join_00607: 
+  role_id: "4"
+  user_id: "189919"
+join_00608: 
+  role_id: "2"
+  user_id: "190103"
+join_00609: 
+  role_id: "4"
+  user_id: "190103"
+join_00610: 
+  role_id: "2"
+  user_id: "190265"
+join_00611: 
+  role_id: "4"
+  user_id: "190265"
+join_00612: 
+  role_id: "2"
+  user_id: "190465"
+join_00613: 
+  role_id: "4"
+  user_id: "190465"
+join_00614: 
+  role_id: "4"
+  user_id: "190627"
+join_00615: 
+  role_id: "4"
+  user_id: "190643"
+join_00616: 
+  role_id: "2"
+  user_id: "190692"
+join_00617: 
+  role_id: "4"
+  user_id: "190692"
+join_00618: 
+  role_id: "4"
+  user_id: "190704"
+join_00619: 
+  role_id: "2"
+  user_id: "190707"
+join_00620: 
+  role_id: "4"
+  user_id: "190707"
+join_00621: 
+  role_id: "2"
+  user_id: "190951"
+join_00622: 
+  role_id: "4"
+  user_id: "190951"
+join_00623: 
+  role_id: "1"
+  user_id: "190953"
+join_00624: 
+  role_id: "4"
+  user_id: "190953"
+join_00625: 
+  role_id: "1"
+  user_id: "191026"
+join_00626: 
+  role_id: "2"
+  user_id: "191026"
+join_00627: 
+  role_id: "4"
+  user_id: "191026"
+join_00628: 
+  role_id: "4"
+  user_id: "191049"
+join_00629: 
+  role_id: "2"
+  user_id: "191191"
+join_00630: 
+  role_id: "4"
+  user_id: "191191"
+join_00631: 
+  role_id: "4"
+  user_id: "191226"
+join_00632: 
+  role_id: "4"
+  user_id: "191309"
+join_00633: 
+  role_id: "1"
+  user_id: "191514"
+join_00634: 
+  role_id: "4"
+  user_id: "191514"
+join_00635: 
+  role_id: "4"
+  user_id: "191646"
+join_00636: 
+  role_id: "4"
+  user_id: "192287"
+join_00637: 
+  role_id: "4"
+  user_id: "192326"
+join_00638: 
+  role_id: "2"
+  user_id: "192402"
+join_00639: 
+  role_id: "4"
+  user_id: "192402"
+join_00640: 
+  role_id: "2"
+  user_id: "192463"
+join_00641: 
+  role_id: "4"
+  user_id: "192463"
+join_00642: 
+  role_id: "4"
+  user_id: "193221"
+join_00643: 
+  role_id: "1"
+  user_id: "193262"
+join_00644: 
+  role_id: "4"
+  user_id: "193262"
+join_00645: 
+  role_id: "6"
+  user_id: "193262"
+join_00646: 
+  role_id: "11"
+  user_id: "193262"
+join_00647: 
+  role_id: "4"
+  user_id: "193628"
+join_00648: 
+  role_id: "6"
+  user_id: "193628"
+join_00649: 
+  role_id: "2"
+  user_id: "193629"
+join_00650: 
+  role_id: "4"
+  user_id: "193629"
+join_00651: 
+  role_id: "2"
+  user_id: "193645"
+join_00652: 
+  role_id: "4"
+  user_id: "193645"
+join_00653: 
+  role_id: "2"
+  user_id: "194040"
+join_00654: 
+  role_id: "4"
+  user_id: "194040"
+join_00655: 
+  role_id: "2"
+  user_id: "194055"
+join_00656: 
+  role_id: "4"
+  user_id: "194055"
+join_00657: 
+  role_id: "2"
+  user_id: "194060"
+join_00658: 
+  role_id: "4"
+  user_id: "194060"
+join_00659: 
+  role_id: "2"
+  user_id: "194108"
+join_00660: 
+  role_id: "4"
+  user_id: "194108"
+join_00661: 
+  role_id: "2"
+  user_id: "194111"
+join_00662: 
+  role_id: "4"
+  user_id: "194111"
+join_00663: 
+  role_id: "4"
+  user_id: "194129"
+join_00664: 
+  role_id: "6"
+  user_id: "194129"
+join_00665: 
+  role_id: "1"
+  user_id: "194391"
+join_00666: 
+  role_id: "4"
+  user_id: "194391"
+join_00667: 
+  role_id: "4"
+  user_id: "194553"
+join_00668: 
+  role_id: "12"
+  user_id: "194553"
+join_00669: 
+  role_id: "2"
+  user_id: "194784"
+join_00670: 
+  role_id: "4"
+  user_id: "194784"
+join_00671: 
+  role_id: "1"
+  user_id: "195083"
+join_00672: 
+  role_id: "4"
+  user_id: "195083"
+join_00673: 
+  role_id: "1"
+  user_id: "195227"
+join_00674: 
+  role_id: "4"
+  user_id: "195227"
+join_00675: 
+  role_id: "2"
+  user_id: "195522"
+join_00676: 
+  role_id: "4"
+  user_id: "195522"
+join_00677: 
+  role_id: "1"
+  user_id: "195530"
+join_00678: 
+  role_id: "4"
+  user_id: "195530"
+join_00679: 
+  role_id: "4"
+  user_id: "195533"
+join_00680: 
+  role_id: "2"
+  user_id: "195543"
+join_00681: 
+  role_id: "4"
+  user_id: "195543"
+join_00682: 
+  role_id: "6"
+  user_id: "195543"
+join_00683: 
+  role_id: "2"
+  user_id: "195733"
+join_00684: 
+  role_id: "4"
+  user_id: "195733"
+join_00685: 
+  role_id: "4"
+  user_id: "195741"
+join_00686: 
+  role_id: "4"
+  user_id: "195789"
+join_00687: 
+  role_id: "2"
+  user_id: "195802"
+join_00688: 
+  role_id: "4"
+  user_id: "195802"
+join_00689: 
+  role_id: "1"
+  user_id: "196179"
+join_00690: 
+  role_id: "2"
+  user_id: "196179"
+join_00691: 
+  role_id: "3"
+  user_id: "196179"
+join_00692: 
+  role_id: "4"
+  user_id: "196179"
+join_00693: 
+  role_id: "9"
+  user_id: "196179"
+join_00694: 
+  role_id: "2"
+  user_id: "196309"
+join_00695: 
+  role_id: "4"
+  user_id: "196309"
+join_00696: 
+  role_id: "2"
+  user_id: "196336"
+join_00697: 
+  role_id: "4"
+  user_id: "196336"
+join_00698: 
+  role_id: "1"
+  user_id: "196890"
+join_00699: 
+  role_id: "4"
+  user_id: "196890"
+join_00700: 
+  role_id: "6"
+  user_id: "196890"
+join_00701: 
+  role_id: "2"
+  user_id: "197253"
+join_00702: 
+  role_id: "4"
+  user_id: "197253"
+join_00703: 
+  role_id: "6"
+  user_id: "197253"
+join_00704: 
+  role_id: "10"
+  user_id: "197253"
+join_00705: 
+  role_id: "11"
+  user_id: "197253"
+join_00706: 
+  role_id: "1"
+  user_id: "197259"
+join_00707: 
+  role_id: "4"
+  user_id: "197259"
+join_00708: 
+  role_id: "1"
+  user_id: "197269"
+join_00709: 
+  role_id: "4"
+  user_id: "197269"
+join_00710: 
+  role_id: "1"
+  user_id: "197405"
+join_00711: 
+  role_id: "4"
+  user_id: "197405"
+join_00712: 
+  role_id: "10"
+  user_id: "197405"
+join_00713: 
+  role_id: "1"
+  user_id: "197408"
+join_00714: 
+  role_id: "4"
+  user_id: "197408"
+join_00715: 
+  role_id: "4"
+  user_id: "197509"
+join_00716: 
+  role_id: "2"
+  user_id: "197580"
+join_00717: 
+  role_id: "4"
+  user_id: "197580"
+join_00718: 
+  role_id: "2"
+  user_id: "197690"
+join_00719: 
+  role_id: "4"
+  user_id: "197690"
+join_00720: 
+  role_id: "1"
+  user_id: "198128"
+join_00721: 
+  role_id: "4"
+  user_id: "198128"
+join_00722: 
+  role_id: "4"
+  user_id: "198182"
+join_00723: 
+  role_id: "4"
+  user_id: "198347"
+join_00724: 
+  role_id: "2"
+  user_id: "198411"
+join_00725: 
+  role_id: "4"
+  user_id: "198411"
+join_00726: 
+  role_id: "4"
+  user_id: "198647"
+join_00727: 
+  role_id: "4"
+  user_id: "198687"
+join_00728: 
+  role_id: "5"
+  user_id: "198687"
+join_00729: 
+  role_id: "2"
+  user_id: "198734"
+join_00730: 
+  role_id: "4"
+  user_id: "198734"
+join_00731: 
+  role_id: "2"
+  user_id: "198745"
+join_00732: 
+  role_id: "4"
+  user_id: "198745"
+join_00733: 
+  role_id: "1"
+  user_id: "198786"
+join_00734: 
+  role_id: "4"
+  user_id: "198786"
+join_00737: 
+  role_id: "4"
+  user_id: "198912"
+join_00738: 
+  role_id: "2"
+  user_id: "199114"
+join_00739: 
+  role_id: "4"
+  user_id: "199114"
+join_00740: 
+  role_id: "4"
+  user_id: "199129"
+join_00741: 
+  role_id: "4"
+  user_id: "199491"
+join_00742: 
+  role_id: "1"
+  user_id: "199657"
+join_00743: 
+  role_id: "4"
+  user_id: "199657"
+join_00744: 
+  role_id: "2"
+  user_id: "199727"
+join_00745: 
+  role_id: "4"
+  user_id: "199727"
+join_00746: 
+  role_id: "4"
+  user_id: "199824"
+join_00747: 
+  role_id: "5"
+  user_id: "199824"
+join_00748: 
+  role_id: "1"
+  user_id: "199958"
+join_00749: 
+  role_id: "4"
+  user_id: "199958"
+join_00750: 
+  role_id: "1"
+  user_id: "200028"
+join_00751: 
+  role_id: "4"
+  user_id: "200028"
+join_00752: 
+  role_id: "4"
+  user_id: "200072"
+join_00753: 
+  role_id: "2"
+  user_id: "200213"
+join_00754: 
+  role_id: "4"
+  user_id: "200213"
+join_00755: 
+  role_id: "2"
+  user_id: "200238"
+join_00756: 
+  role_id: "4"
+  user_id: "200238"
+join_00757: 
+  role_id: "2"
+  user_id: "200333"
+join_00758: 
+  role_id: "4"
+  user_id: "200333"
+join_00759: 
+  role_id: "4"
+  user_id: "200487"
+join_00760: 
+  role_id: "4"
+  user_id: "200676"
+join_00761: 
+  role_id: "1"
+  user_id: "200722"
+join_00762: 
+  role_id: "4"
+  user_id: "200722"
+join_00765: 
+  role_id: "2"
+  user_id: "201030"
+join_00766: 
+  role_id: "4"
+  user_id: "201030"
+join_00767: 
+  role_id: "2"
+  user_id: "201327"
+join_00768: 
+  role_id: "4"
+  user_id: "201327"
+join_00769: 
+  role_id: "4"
+  user_id: "201409"
+join_00770: 
+  role_id: "5"
+  user_id: "201409"
+join_00771: 
+  role_id: "2"
+  user_id: "201813"
+join_00772: 
+  role_id: "4"
+  user_id: "201813"
+join_00773: 
+  role_id: "2"
+  user_id: "201893"
+join_00774: 
+  role_id: "4"
+  user_id: "201893"
+join_00775: 
+  role_id: "2"
+  user_id: "201977"
+join_00776: 
+  role_id: "4"
+  user_id: "201977"
+join_00777: 
+  role_id: "2"
+  user_id: "202031"
+join_00778: 
+  role_id: "4"
+  user_id: "202031"
+join_00779: 
+  role_id: "2"
+  user_id: "202032"
+join_00780: 
+  role_id: "4"
+  user_id: "202032"
+join_00781: 
+  role_id: "4"
+  user_id: "202041"
+join_00782: 
+  role_id: "2"
+  user_id: "202062"
+join_00783: 
+  role_id: "4"
+  user_id: "202062"
+join_00784: 
+  role_id: "2"
+  user_id: "202671"
+join_00785: 
+  role_id: "4"
+  user_id: "202671"
+join_00786: 
+  role_id: "4"
+  user_id: "203010"
+join_00787: 
+  role_id: "12"
+  user_id: "203010"
+join_00788: 
+  role_id: "4"
+  user_id: "203256"
+join_00789: 
+  role_id: "1"
+  user_id: "203333"
+join_00790: 
+  role_id: "4"
+  user_id: "203333"
+join_00791: 
+  role_id: "1"
+  user_id: "203339"
+join_00792: 
+  role_id: "4"
+  user_id: "203339"
+join_00793: 
+  role_id: "2"
+  user_id: "203641"
+join_00794: 
+  role_id: "4"
+  user_id: "203641"
+join_00795: 
+  role_id: "2"
+  user_id: "203644"
+join_00796: 
+  role_id: "4"
+  user_id: "203644"
+join_00797: 
+  role_id: "2"
+  user_id: "203655"
+join_00798: 
+  role_id: "4"
+  user_id: "203655"
+join_00799: 
+  role_id: "1"
+  user_id: "203706"
+join_00800: 
+  role_id: "4"
+  user_id: "203706"
+join_00801: 
+  role_id: "4"
+  user_id: "203726"
+join_00802: 
+  role_id: "12"
+  user_id: "203726"
+join_00803: 
+  role_id: "1"
+  user_id: "203874"
+join_00804: 
+  role_id: "4"
+  user_id: "203874"
+join_00805: 
+  role_id: "2"
+  user_id: "204260"
+join_00806: 
+  role_id: "4"
+  user_id: "204260"
+join_00807: 
+  role_id: "4"
+  user_id: "204361"
+join_00808: 
+  role_id: "5"
+  user_id: "204361"
+join_00809: 
+  role_id: "1"
+  user_id: "204382"
+join_00810: 
+  role_id: "4"
+  user_id: "204382"
+join_00811: 
+  role_id: "1"
+  user_id: "204435"
+join_00812: 
+  role_id: "4"
+  user_id: "204435"
+join_00813: 
+  role_id: "2"
+  user_id: "204474"
+join_00814: 
+  role_id: "4"
+  user_id: "204474"
+join_00815: 
+  role_id: "1"
+  user_id: "204586"
+join_00816: 
+  role_id: "4"
+  user_id: "205270"
+join_00817: 
+  role_id: "5"
+  user_id: "205270"
+join_00818: 
+  role_id: "2"
+  user_id: "205357"
+join_00819: 
+  role_id: "4"
+  user_id: "205357"
+join_00820: 
+  role_id: "2"
+  user_id: "205618"
+join_00821: 
+  role_id: "4"
+  user_id: "205618"
+join_00822: 
+  role_id: "4"
+  user_id: "205716"
+join_00823: 
+  role_id: "6"
+  user_id: "205716"
+join_00824: 
+  role_id: "8"
+  user_id: "205716"
+join_00825: 
+  role_id: "3"
+  user_id: "206014"
+join_00826: 
+  role_id: "4"
+  user_id: "206014"
+join_00827: 
+  role_id: "7"
+  user_id: "206014"
+join_00828: 
+  role_id: "8"
+  user_id: "206014"
+join_00829: 
+  role_id: "10"
+  user_id: "206014"
+join_00830: 
+  role_id: "2"
+  user_id: "206365"
+join_00831: 
+  role_id: "4"
+  user_id: "206365"
+join_00832: 
+  role_id: "2"
+  user_id: "206427"
+join_00833: 
+  role_id: "4"
+  user_id: "206427"
+join_00834: 
+  role_id: "2"
+  user_id: "206801"
+join_00835: 
+  role_id: "4"
+  user_id: "206801"
+join_00836: 
+  role_id: "6"
+  user_id: "206801"
+join_00837: 
+  role_id: "11"
+  user_id: "206801"
+join_00838: 
+  role_id: "2"
+  user_id: "207159"
+join_00839: 
+  role_id: "4"
+  user_id: "207159"
+join_00840: 
+  role_id: "1"
+  user_id: "207260"
+join_00841: 
+  role_id: "4"
+  user_id: "207260"
+join_00842: 
+  role_id: "1"
+  user_id: "207873"
+join_00843: 
+  role_id: "4"
+  user_id: "207873"
+join_00844: 
+  role_id: "1"
+  user_id: "207878"
+join_00845: 
+  role_id: "4"
+  user_id: "207878"
+join_00846: 
+  role_id: "1"
+  user_id: "207882"
+join_00847: 
+  role_id: "4"
+  user_id: "207882"
+join_00848: 
+  role_id: "2"
+  user_id: "207885"
+join_00849: 
+  role_id: "4"
+  user_id: "207885"
+join_00850: 
+  role_id: "1"
+  user_id: "208114"
+join_00851: 
+  role_id: "4"
+  user_id: "208114"
+join_00852: 
+  role_id: "7"
+  user_id: "208114"
+join_00853: 
+  role_id: "2"
+  user_id: "208333"
+join_00854: 
+  role_id: "4"
+  user_id: "208333"
+join_00855: 
+  role_id: "4"
+  user_id: "208585"
+join_00856: 
+  role_id: "2"
+  user_id: "208637"
+join_00857: 
+  role_id: "4"
+  user_id: "208637"
+join_00858: 
+  role_id: "2"
+  user_id: "208671"
+join_00859: 
+  role_id: "4"
+  user_id: "208671"
+join_00860: 
+  role_id: "2"
+  user_id: "209701"
+join_00861: 
+  role_id: "4"
+  user_id: "209701"
+join_00862: 
+  role_id: "2"
+  user_id: "209812"
+join_00863: 
+  role_id: "4"
+  user_id: "209812"
+join_00864: 
+  role_id: "2"
+  user_id: "209825"
+join_00865: 
+  role_id: "4"
+  user_id: "209825"
+join_00866: 
+  role_id: "2"
+  user_id: "209833"
+join_00867: 
+  role_id: "4"
+  user_id: "209833"
+join_00868: 
+  role_id: "4"
+  user_id: "210049"
+join_00869: 
+  role_id: "1"
+  user_id: "210279"
+join_00870: 
+  role_id: "4"
+  user_id: "210279"
+join_00871: 
+  role_id: "1"
+  user_id: "210469"
+join_00872: 
+  role_id: "4"
+  user_id: "210469"
+join_00873: 
+  role_id: "2"
+  user_id: "210691"
+join_00874: 
+  role_id: "4"
+  user_id: "210691"
+join_00875: 
+  role_id: "6"
+  user_id: "210691"
+join_00876: 
+  role_id: "2"
+  user_id: "210724"
+join_00877: 
+  role_id: "4"
+  user_id: "210724"
+join_00878: 
+  role_id: "1"
+  user_id: "211011"
+join_00879: 
+  role_id: "4"
+  user_id: "211011"
+join_00880: 
+  role_id: "1"
+  user_id: "211313"
+join_00881: 
+  role_id: "4"
+  user_id: "211313"
+join_00882: 
+  role_id: "1"
+  user_id: "211363"
+join_00883: 
+  role_id: "4"
+  user_id: "211363"
+join_00884: 
+  role_id: "2"
+  user_id: "211439"
+join_00885: 
+  role_id: "4"
+  user_id: "211439"
+join_00886: 
+  role_id: "1"
+  user_id: "211594"
+join_00887: 
+  role_id: "4"
+  user_id: "211594"
+join_00888: 
+  role_id: "2"
+  user_id: "211662"
+join_00889: 
+  role_id: "4"
+  user_id: "211662"
+join_00890: 
+  role_id: "2"
+  user_id: "211668"
+join_00891: 
+  role_id: "4"
+  user_id: "211668"
+join_00892: 
+  role_id: "4"
+  user_id: "211802"
+join_00893: 
+  role_id: "2"
+  user_id: "211874"
+join_00894: 
+  role_id: "4"
+  user_id: "211874"
+join_00895: 
+  role_id: "2"
+  user_id: "211918"
+join_00896: 
+  role_id: "4"
+  user_id: "211918"
+join_00897: 
+  role_id: "2"
+  user_id: "212318"
+join_00898: 
+  role_id: "4"
+  user_id: "212318"
+join_00899: 
+  role_id: "4"
+  user_id: "212334"
+join_00900: 
+  role_id: "5"
+  user_id: "212334"
+join_00901: 
+  role_id: "4"
+  user_id: "212645"
+join_00902: 
+  role_id: "12"
+  user_id: "212645"
+join_00903: 
+  role_id: "2"
+  user_id: "212737"
+join_00904: 
+  role_id: "4"
+  user_id: "212737"
+join_00905: 
+  role_id: "1"
+  user_id: "212929"
+join_00906: 
+  role_id: "4"
+  user_id: "212929"
+join_00907: 
+  role_id: "6"
+  user_id: "212929"
+join_00908: 
+  role_id: "2"
+  user_id: "213086"
+join_00909: 
+  role_id: "4"
+  user_id: "213086"
+join_00910: 
+  role_id: "2"
+  user_id: "213307"
+join_00911: 
+  role_id: "4"
+  user_id: "213307"
+join_00912: 
+  role_id: "6"
+  user_id: "213307"
+join_00913: 
+  role_id: "2"
+  user_id: "213548"
+join_00914: 
+  role_id: "4"
+  user_id: "213548"
+join_00915: 
+  role_id: "1"
+  user_id: "213715"
+join_00916: 
+  role_id: "4"
+  user_id: "213715"
+join_00917: 
+  role_id: "2"
+  user_id: "213724"
+join_00918: 
+  role_id: "4"
+  user_id: "213724"
+join_00919: 
+  role_id: "1"
+  user_id: "213820"
+join_00920: 
+  role_id: "4"
+  user_id: "214080"
+join_00921: 
+  role_id: "12"
+  user_id: "214080"
+join_00922: 
+  role_id: "2"
+  user_id: "214122"
+join_00923: 
+  role_id: "4"
+  user_id: "214122"
+join_00924: 
+  role_id: "1"
+  user_id: "214727"
+join_00925: 
+  role_id: "4"
+  user_id: "214727"
+join_00926: 
+  role_id: "2"
+  user_id: "214900"
+join_00927: 
+  role_id: "4"
+  user_id: "214900"
+join_00928: 
+  role_id: "1"
+  user_id: "215107"
+join_00929: 
+  role_id: "2"
+  user_id: "215107"
+join_00930: 
+  role_id: "3"
+  user_id: "215107"
+join_00931: 
+  role_id: "4"
+  user_id: "215107"
+join_00932: 
+  role_id: "9"
+  user_id: "215107"
+join_00933: 
+  role_id: "1"
+  user_id: "215112"
+join_00934: 
+  role_id: "4"
+  user_id: "215112"
+join_00935: 
+  role_id: "1"
+  user_id: "215194"
+join_00936: 
+  role_id: "4"
+  user_id: "215194"
+join_00937: 
+  role_id: "1"
+  user_id: "215349"
+join_00938: 
+  role_id: "4"
+  user_id: "215349"
+join_00939: 
+  role_id: "2"
+  user_id: "215372"
+join_00940: 
+  role_id: "4"
+  user_id: "215372"
+join_00941: 
+  role_id: "2"
+  user_id: "215388"
+join_00942: 
+  role_id: "4"
+  user_id: "215388"
+join_00943: 
+  role_id: "2"
+  user_id: "215626"
+join_00944: 
+  role_id: "4"
+  user_id: "215626"
+join_00945: 
+  role_id: "1"
+  user_id: "215636"
+join_00946: 
+  role_id: "4"
+  user_id: "215636"
+join_00947: 
+  role_id: "1"
+  user_id: "215839"
+join_00948: 
+  role_id: "2"
+  user_id: "215839"
+join_00949: 
+  role_id: "3"
+  user_id: "215839"
+join_00950: 
+  role_id: "4"
+  user_id: "215839"
+join_00951: 
+  role_id: "9"
+  user_id: "215839"
+join_00952: 
+  role_id: "10"
+  user_id: "215839"
+join_00953: 
+  role_id: "1"
+  user_id: "215842"
+join_00954: 
+  role_id: "2"
+  user_id: "215842"
+join_00955: 
+  role_id: "4"
+  user_id: "215842"
+join_00956: 
+  role_id: "2"
+  user_id: "215880"
+join_00957: 
+  role_id: "4"
+  user_id: "215880"
+join_00958: 
+  role_id: "4"
+  user_id: "216126"
+join_00959: 
+  role_id: "5"
+  user_id: "216126"
+join_00960: 
+  role_id: "2"
+  user_id: "216232"
+join_00961: 
+  role_id: "4"
+  user_id: "216232"
+join_00962: 
+  role_id: "4"
+  user_id: "223021"
+join_00963: 
+  role_id: "5"
+  user_id: "223021"
+join_00964: 
+  role_id: "4"
+  user_id: "223031"
+join_00965: 
+  role_id: "5"
+  user_id: "223031"
+join_00966: 
+  role_id: "2"
+  user_id: "223091"
+join_00967: 
+  role_id: "4"
+  user_id: "223091"
+join_00968: 
+  role_id: "5"
+  user_id: "223091"
+join_00969: 
+  role_id: "9"
+  user_id: "223091"
+join_00970: 
+  role_id: "4"
+  user_id: "224771"
+join_00971: 
+  role_id: "1"
+  user_id: "224771"
+join_00972: 
+  role_id: "4"
+  user_id: "224821"
+join_00973: 
+  role_id: "12"
+  user_id: "224821"
+join_00974: 
+  role_id: "1"
+  user_id: "224991"
+join_00975: 
+  role_id: "4"
+  user_id: "224991"
+join_00976: 
+  role_id: "2"
+  user_id: "225111"
+join_00977: 
+  role_id: "4"
+  user_id: "225111"
+join_00978: 
+  role_id: "6"
+  user_id: "225111"
+join_00979: 
+  role_id: "1"
+  user_id: "227891"
+join_00980: 
+  role_id: "4"
+  user_id: "227891"
+join_00981: 
+  role_id: "4"
+  user_id: "230081"
+join_00982: 
+  role_id: "5"
+  user_id: "230081"
+join_00983: 
+  role_id: "4"
+  user_id: "232331"
+join_00984: 
+  role_id: "12"
+  user_id: "232331"
+join_00985: 
+  role_id: "2"
+  user_id: "237531"
+join_00986: 
+  role_id: "3"
+  user_id: "237531"
+join_00987: 
+  role_id: "4"
+  user_id: "237531"
+join_00988: 
+  role_id: "8"
+  user_id: "237531"
+join_00989: 
+  role_id: "10"
+  user_id: "237531"
+join_00990: 
+  role_id: "2"
+  user_id: "239161"
+join_00991: 
+  role_id: "4"
+  user_id: "239161"
+join_00992: 
+  role_id: "1"
+  user_id: "239541"
+join_00993: 
+  role_id: "4"
+  user_id: "239541"
+join_00994: 
+  role_id: "1"
+  user_id: "240111"
+join_00995: 
+  role_id: "4"
+  user_id: "240111"
+join_00996: 
+  role_id: "1"
+  user_id: "242681"
+join_00997: 
+  role_id: "4"
+  user_id: "242681"
+join_00998: 
+  role_id: "1"
+  user_id: "242721"
+join_00999: 
+  role_id: "4"
+  user_id: "242721"
+join_01000: 
+  role_id: "2"
+  user_id: "244271"
+join_01001: 
+  role_id: "4"
+  user_id: "244271"
+join_01002: 
+  role_id: "2"
+  user_id: "246681"
+join_01003: 
+  role_id: "4"
+  user_id: "246681"
+join_01004: 
+  role_id: "2"
+  user_id: "246911"
+join_01005: 
+  role_id: "4"
+  user_id: "246911"
+join_01006: 
+  role_id: "2"
+  user_id: "247361"
+join_01007: 
+  role_id: "4"
+  user_id: "247361"
+join_01008: 
+  role_id: "4"
+  user_id: "251921"
+join_01009: 
+  role_id: "1"
+  user_id: "253631"
+join_01010: 
+  role_id: "4"
+  user_id: "253631"
+join_01011: 
+  role_id: "2"
+  user_id: "254871"
+join_01012: 
+  role_id: "4"
+  user_id: "254871"
+join_01013: 
+  role_id: "2"
+  user_id: "256461"
+join_01014: 
+  role_id: "4"
+  user_id: "256461"
+join_01015: 
+  role_id: "2"
+  user_id: "256481"
+join_01016: 
+  role_id: "4"
+  user_id: "256481"
+join_01017: 
+  role_id: "1"
+  user_id: "259171"
+join_01018: 
+  role_id: "4"
+  user_id: "259171"
+join_01019: 
+  role_id: "4"
+  user_id: "260311"
+join_01020: 
+  role_id: "5"
+  user_id: "260311"
+join_01021: 
+  role_id: "1"
+  user_id: "261177"
+join_01022: 
+  role_id: "4"
+  user_id: "261177"
+join_01023: 
+  role_id: "2"
+  user_id: "261228"
+join_01024: 
+  role_id: "4"
+  user_id: "261228"
+join_01025: 
+  role_id: "1"
+  user_id: "261258"
+join_01026: 
+  role_id: "4"
+  user_id: "261258"
+join_01027: 
+  role_id: "2"
+  user_id: "261736"
+join_01028: 
+  role_id: "4"
+  user_id: "261736"
+join_01029: 
+  role_id: "2"
+  user_id: "261745"
+join_01030: 
+  role_id: "4"
+  user_id: "261745"
+join_01031: 
+  role_id: "6"
+  user_id: "261745"
+join_01032: 
+  role_id: "2"
+  user_id: "262023"
+join_01033: 
+  role_id: "4"
+  user_id: "262023"
+join_01034: 
+  role_id: "2"
+  user_id: "262302"
+join_01035: 
+  role_id: "4"
+  user_id: "262302"
+join_01036: 
+  role_id: "4"
+  user_id: "262330"
+join_01037: 
+  role_id: "2"
+  user_id: "262826"
+join_01038: 
+  role_id: "4"
+  user_id: "262826"
+join_01039: 
+  role_id: "4"
+  user_id: "262912"
+join_01040: 
+  role_id: "2"
+  user_id: "262919"
+join_01041: 
+  role_id: "4"
+  user_id: "262919"
+join_01042: 
+  role_id: "1"
+  user_id: "262926"
+join_01043: 
+  role_id: "4"
+  user_id: "262926"
+join_01044: 
+  role_id: "2"
+  user_id: "263317"
+join_01045: 
+  role_id: "4"
+  user_id: "263317"
+join_01046: 
+  role_id: "2"
+  user_id: "263333"
+join_01047: 
+  role_id: "4"
+  user_id: "263333"
+join_01048: 
+  role_id: "2"
+  user_id: "263394"
+join_01049: 
+  role_id: "4"
+  user_id: "263394"
+join_01050: 
+  role_id: "6"
+  user_id: "263394"
+join_01051: 
+  role_id: "2"
+  user_id: "263599"
+join_01052: 
+  role_id: "4"
+  user_id: "263599"
+join_01053: 
+  role_id: "3"
+  user_id: "264354"
+join_01054: 
+  role_id: "4"
+  user_id: "264354"
+join_01055: 
+  role_id: "8"
+  user_id: "264354"
+join_01056: 
+  role_id: "10"
+  user_id: "264354"
+join_01057: 
+  role_id: "1"
+  user_id: "264359"
+join_01058: 
+  role_id: "4"
+  user_id: "264359"
+join_01059: 
+  role_id: "2"
+  user_id: "264390"
+join_01060: 
+  role_id: "4"
+  user_id: "264390"
+join_01061: 
+  role_id: "1"
+  user_id: "264981"
+join_01062: 
+  role_id: "4"
+  user_id: "264981"
+join_01063: 
+  role_id: "4"
+  user_id: "265253"
+join_01064: 
+  role_id: "1"
+  user_id: "265309"
+join_01065: 
+  role_id: "4"
+  user_id: "265309"
+join_01066: 
+  role_id: "2"
+  user_id: "265783"
+join_01067: 
+  role_id: "4"
+  user_id: "265783"
+join_01068: 
+  role_id: "4"
+  user_id: "265787"
+join_01069: 
+  role_id: "4"
+  user_id: "265994"
+join_01070: 
+  role_id: "2"
+  user_id: "266225"
+join_01071: 
+  role_id: "4"
+  user_id: "266225"
+join_01072: 
+  role_id: "6"
+  user_id: "266225"
+join_01073: 
+  role_id: "2"
+  user_id: "266596"
+join_01074: 
+  role_id: "4"
+  user_id: "266596"
+join_01075: 
+  role_id: "2"
+  user_id: "266679"
+join_01076: 
+  role_id: "4"
+  user_id: "266679"
+join_01077: 
+  role_id: "2"
+  user_id: "266685"
+join_01078: 
+  role_id: "4"
+  user_id: "266685"
+join_01079: 
+  role_id: "1"
+  user_id: "266715"
+join_01080: 
+  role_id: "4"
+  user_id: "266715"
+join_01081: 
+  role_id: "2"
+  user_id: "266720"
+join_01082: 
+  role_id: "4"
+  user_id: "266720"
+join_01083: 
+  role_id: "1"
+  user_id: "266805"
+join_01084: 
+  role_id: "4"
+  user_id: "266805"
+join_01085: 
+  role_id: "2"
+  user_id: "266931"
+join_01086: 
+  role_id: "4"
+  user_id: "266931"
+join_01087: 
+  role_id: "2"
+  user_id: "267009"
+join_01088: 
+  role_id: "4"
+  user_id: "267009"
+join_01089: 
+  role_id: "1"
+  user_id: "267229"
+join_01090: 
+  role_id: "4"
+  user_id: "267229"
+join_01091: 
+  role_id: "3"
+  user_id: "267432"
+join_01092: 
+  role_id: "4"
+  user_id: "267432"
+join_01093: 
+  role_id: "8"
+  user_id: "267432"
+join_01094: 
+  role_id: "10"
+  user_id: "267432"
+join_01095: 
+  role_id: "1"
+  user_id: "267727"
+join_01096: 
+  role_id: "4"
+  user_id: "267727"
+join_01097: 
+  role_id: "1"
+  user_id: "267960"
+join_01098: 
+  role_id: "4"
+  user_id: "267960"
+join_01099: 
+  role_id: "1"
+  user_id: "267995"
+join_01100: 
+  role_id: "4"
+  user_id: "267995"
+join_01101: 
+  role_id: "1"
+  user_id: "267999"
+join_01102: 
+  role_id: "4"
+  user_id: "267999"
+join_01103: 
+  role_id: "4"
+  user_id: "268033"
+join_01104: 
+  role_id: "5"
+  user_id: "268033"
+join_01105: 
+  role_id: "1"
+  user_id: "268050"
+join_01106: 
+  role_id: "4"
+  user_id: "268050"
+join_01107: 
+  role_id: "2"
+  user_id: "268104"
+join_01108: 
+  role_id: "4"
+  user_id: "268104"
+join_01109: 
+  role_id: "2"
+  user_id: "268110"
+join_01110: 
+  role_id: "4"
+  user_id: "268110"
+join_01111: 
+  role_id: "2"
+  user_id: "268111"
+join_01112: 
+  role_id: "4"
+  user_id: "268111"
+join_01113: 
+  role_id: "2"
+  user_id: "268146"
+join_01114: 
+  role_id: "4"
+  user_id: "268146"
+join_01115: 
+  role_id: "4"
+  user_id: "268377"
+join_01116: 
+  role_id: "5"
+  user_id: "268377"
+join_01117: 
+  role_id: "4"
+  user_id: "268591"
+join_01118: 
+  role_id: "1"
+  user_id: "268626"
+join_01119: 
+  role_id: "4"
+  user_id: "268626"
+join_01120: 
+  role_id: "2"
+  user_id: "268806"
+join_01121: 
+  role_id: "4"
+  user_id: "268806"
+join_01122: 
+  role_id: "1"
+  user_id: "268837"
+join_01123: 
+  role_id: "4"
+  user_id: "268837"
+join_01124: 
+  role_id: "2"
+  user_id: "268955"
+join_01125: 
+  role_id: "4"
+  user_id: "268955"
+join_01126: 
+  role_id: "1"
+  user_id: "269225"
+join_01127: 
+  role_id: "4"
+  user_id: "269225"
+join_01128: 
+  role_id: "1"
+  user_id: "269531"
+join_01129: 
+  role_id: "4"
+  user_id: "269531"
+join_01130: 
+  role_id: "2"
+  user_id: "269554"
+join_01131: 
+  role_id: "4"
+  user_id: "269554"
+join_01132: 
+  role_id: "1"
+  user_id: "269567"
+join_01133: 
+  role_id: "4"
+  user_id: "269567"
+join_01134: 
+  role_id: "2"
+  user_id: "269573"
+join_01135: 
+  role_id: "4"
+  user_id: "269573"
+join_01136: 
+  role_id: "2"
+  user_id: "269625"
+join_01137: 
+  role_id: "4"
+  user_id: "269625"
+join_01138: 
+  role_id: "2"
+  user_id: "269760"
+join_01139: 
+  role_id: "4"
+  user_id: "269760"
+join_01140: 
+  role_id: "1"
+  user_id: "269836"
+join_01141: 
+  role_id: "4"
+  user_id: "269836"
+join_01142: 
+  role_id: "2"
+  user_id: "269856"
+join_01143: 
+  role_id: "4"
+  user_id: "269856"
+join_01144: 
+  role_id: "1"
+  user_id: "269868"
+join_01145: 
+  role_id: "4"
+  user_id: "269868"
+join_01146: 
+  role_id: "1"
+  user_id: "269924"
+join_01147: 
+  role_id: "4"
+  user_id: "269924"
+join_01148: 
+  role_id: "2"
+  user_id: "269966"
+join_01149: 
+  role_id: "4"
+  user_id: "269966"
+join_01150: 
+  role_id: "4"
+  user_id: "270040"
+join_01151: 
+  role_id: "2"
+  user_id: "270148"
+join_01152: 
+  role_id: "4"
+  user_id: "270148"
+join_01153: 
+  role_id: "2"
+  user_id: "270417"
+join_01154: 
+  role_id: "4"
+  user_id: "270417"
+join_01155: 
+  role_id: "2"
+  user_id: "270531"
+join_01156: 
+  role_id: "4"
+  user_id: "270531"
+join_01157: 
+  role_id: "1"
+  user_id: "270564"
+join_01158: 
+  role_id: "4"
+  user_id: "270564"
+join_01159: 
+  role_id: "1"
+  user_id: "270571"
+join_01160: 
+  role_id: "4"
+  user_id: "270571"
+join_01161: 
+  role_id: "1"
+  user_id: "270595"
+join_01162: 
+  role_id: "4"
+  user_id: "270595"
+join_01163: 
+  role_id: "3"
+  user_id: "270701"
+join_01164: 
+  role_id: "4"
+  user_id: "270701"
+join_01165: 
+  role_id: "8"
+  user_id: "270701"
+join_01166: 
+  role_id: "10"
+  user_id: "270701"
+join_01167: 
+  role_id: "1"
+  user_id: "270746"
+join_01168: 
+  role_id: "4"
+  user_id: "270746"
+join_01169: 
+  role_id: "1"
+  user_id: "270785"
+join_01170: 
+  role_id: "4"
+  user_id: "270785"
+join_01171: 
+  role_id: "2"
+  user_id: "270821"
+join_01172: 
+  role_id: "4"
+  user_id: "270821"
+join_01173: 
+  role_id: "1"
+  user_id: "270849"
+join_01174: 
+  role_id: "4"
+  user_id: "270849"
+join_01175: 
+  role_id: "4"
+  user_id: "270875"
+join_01176: 
+  role_id: "4"
+  user_id: "270879"
+join_01177: 
+  role_id: "12"
+  user_id: "270879"
+join_01178: 
+  role_id: "1"
+  user_id: "270914"
+join_01179: 
+  role_id: "4"
+  user_id: "270914"
+join_01180: 
+  role_id: "1"
+  user_id: "271015"
+join_01181: 
+  role_id: "4"
+  user_id: "271015"
+join_01182: 
+  role_id: "4"
+  user_id: "271112"
+join_01183: 
+  role_id: "6"
+  user_id: "271112"
+join_01184: 
+  role_id: "1"
+  user_id: "271132"
+join_01185: 
+  role_id: "4"
+  user_id: "271132"
+join_01186: 
+  role_id: "2"
+  user_id: "271319"
+join_01187: 
+  role_id: "4"
+  user_id: "271319"
+join_01188: 
+  role_id: "2"
+  user_id: "271514"
+join_01189: 
+  role_id: "4"
+  user_id: "271514"
+join_01190: 
+  role_id: "1"
+  user_id: "271535"
+join_01191: 
+  role_id: "4"
+  user_id: "271535"
+join_01192: 
+  role_id: "6"
+  user_id: "271535"
+join_01193: 
+  role_id: "1"
+  user_id: "271572"
+join_01194: 
+  role_id: "4"
+  user_id: "271572"
+join_01195: 
+  role_id: "1"
+  user_id: "271623"
+join_01196: 
+  role_id: "4"
+  user_id: "271623"
+join_01197: 
+  role_id: "1"
+  user_id: "271643"
+join_01198: 
+  role_id: "4"
+  user_id: "271643"
+join_01199: 
+  role_id: "4"
+  user_id: "271768"
+join_01200: 
+  role_id: "5"
+  user_id: "271768"
+join_01201: 
+  role_id: "4"
+  user_id: "271789"
+join_01202: 
+  role_id: "2"
+  user_id: "272123"
+join_01203: 
+  role_id: "4"
+  user_id: "272123"
+join_01204: 
+  role_id: "1"
+  user_id: "273728"
+join_01205: 
+  role_id: "4"
+  user_id: "273728"
+join_01206: 
+  role_id: "4"
+  user_id: "273797"
+join_01207: 
+  role_id: "1"
+  user_id: "273956"
+join_01208: 
+  role_id: "2"
+  user_id: "274642"
+join_01209: 
+  role_id: "4"
+  user_id: "274642"
+join_01210: 
+  role_id: "2"
+  user_id: "274872"
+join_01211: 
+  role_id: "4"
+  user_id: "274872"
+join_01212: 
+  role_id: "1"
+  user_id: "275175"
+join_01213: 
+  role_id: "4"
+  user_id: "275175"
+join_01214: 
+  role_id: "1"
+  user_id: "275181"
+join_01215: 
+  role_id: "4"
+  user_id: "275181"
+join_01216: 
+  role_id: "1"
+  user_id: "275188"
+join_01217: 
+  role_id: "2"
+  user_id: "275188"
+join_01218: 
+  role_id: "3"
+  user_id: "275188"
+join_01219: 
+  role_id: "4"
+  user_id: "275188"
+join_01220: 
+  role_id: "9"
+  user_id: "275188"
+join_01221: 
+  role_id: "2"
+  user_id: "275234"
+join_01222: 
+  role_id: "4"
+  user_id: "275234"
+join_01223: 
+  role_id: "2"
+  user_id: "275783"
+join_01224: 
+  role_id: "4"
+  user_id: "275783"
+join_01225: 
+  role_id: "1"
+  user_id: "276077"
+join_01226: 
+  role_id: "4"
+  user_id: "276077"
+join_01227: 
+  role_id: "1"
+  user_id: "276132"
+join_01228: 
+  role_id: "4"
+  user_id: "276132"
+join_01229: 
+  role_id: "1"
+  user_id: "276370"
+join_01230: 
+  role_id: "4"
+  user_id: "276370"
+join_01231: 
+  role_id: "2"
+  user_id: "276623"
+join_01232: 
+  role_id: "4"
+  user_id: "276623"
+join_01233: 
+  role_id: "1"
+  user_id: "276932"
+join_01234: 
+  role_id: "4"
+  user_id: "276932"
+join_01235: 
+  role_id: "2"
+  user_id: "276992"
+join_01236: 
+  role_id: "4"
+  user_id: "276992"
+join_01237: 
+  role_id: "1"
+  user_id: "277014"
+join_01238: 
+  role_id: "4"
+  user_id: "277014"
+join_01239: 
+  role_id: "1"
+  user_id: "277315"
+join_01240: 
+  role_id: "4"
+  user_id: "277315"
+join_01241: 
+  role_id: "2"
+  user_id: "277494"
+join_01242: 
+  role_id: "4"
+  user_id: "277494"
+join_01243: 
+  role_id: "3"
+  user_id: "277602"
+join_01244: 
+  role_id: "4"
+  user_id: "277602"
+join_01245: 
+  role_id: "8"
+  user_id: "277602"
+join_01246: 
+  role_id: "10"
+  user_id: "277602"
+join_01247: 
+  role_id: "1"
+  user_id: "277659"
+join_01248: 
+  role_id: "4"
+  user_id: "277659"
+join_01249: 
+  role_id: "1"
+  user_id: "277866"
+join_01250: 
+  role_id: "4"
+  user_id: "277866"
+join_01251: 
+  role_id: "1"
+  user_id: "277981"
+join_01252: 
+  role_id: "4"
+  user_id: "277981"
+join_01253: 
+  role_id: "1"
+  user_id: "3000000"
+join_01254: 
+  role_id: "1"
+  user_id: "3000001"
+join_01255: 
+  role_id: "1"
+  user_id: "3000002"
+join_01256: 
+  role_id: "1"
+  user_id: "3000003"
+join_01259: 
+  role_id: "2"
+  user_id: "3000006"
+join_01260: 
+  role_id: "4"
+  user_id: "3000006"
+join_01261: 
+  role_id: "4"
+  user_id: "3000007"
+join_01262: 
+  role_id: "5"
+  user_id: "3000007"
+join_01263: 
+  role_id: "4"
+  user_id: "3000009"
+join_01264: 
+  role_id: "5"
+  user_id: "3000009"
+join_01265: 
+  role_id: "2"
+  user_id: "3000010"
+join_01266: 
+  role_id: "4"
+  user_id: "3000010"
+join_01267: 
+  role_id: "1"
+  user_id: "3000011"
+join_01268: 
+  role_id: "4"
+  user_id: "3000011"
+join_01269: 
+  role_id: "2"
+  user_id: "3000012"
+join_01270: 
+  role_id: "4"
+  user_id: "3000012"
+join_01273: 
+  role_id: "1"
+  user_id: "3000014"
+join_01274: 
+  role_id: "4"
+  user_id: "3000014"
+join_01275: 
+  role_id: "1"
+  user_id: "3000015"
+join_01276: 
+  role_id: "4"
+  user_id: "3000015"
+join_01277: 
+  role_id: "1"
+  user_id: "3000016"
+join_01278: 
+  role_id: "4"
+  user_id: "3000016"
+join_01279: 
+  role_id: "1"
+  user_id: "3000017"
+join_01280: 
+  role_id: "4"
+  user_id: "3000017"
+join_01281: 
+  role_id: "1"
+  user_id: "3000018"
+join_01282: 
+  role_id: "4"
+  user_id: "3000018"
+join_01283: 
+  role_id: "1"
+  user_id: "3000019"
+join_01284: 
+  role_id: "4"
+  user_id: "3000019"
+join_01285: 
+  role_id: "1"
+  user_id: "3000020"
+join_01286: 
+  role_id: "4"
+  user_id: "3000020"
+join_01287: 
+  role_id: "1"
+  user_id: "3000021"
+join_01288: 
+  role_id: "4"
+  user_id: "3000021"
+join_01289: 
+  role_id: "1"
+  user_id: "3000022"
+join_01290: 
+  role_id: "4"
+  user_id: "3000022"
+join_01291: 
+  role_id: "2"
+  user_id: "3000023"
+join_01292: 
+  role_id: "4"
+  user_id: "3000023"
+join_01293: 
+  role_id: "1"
+  user_id: "3000024"
+join_01294: 
+  role_id: "4"
+  user_id: "3000024"
+join_01295: 
+  role_id: "2"
+  user_id: "3000025"
+join_01296: 
+  role_id: "4"
+  user_id: "3000025"
+join_01297: 
+  role_id: "1"
+  user_id: "3000026"
+join_01298: 
+  role_id: "4"
+  user_id: "3000026"
+join_01299: 
+  role_id: "2"
+  user_id: "3000027"
+join_01300: 
+  role_id: "4"
+  user_id: "3000027"
+join_01301: 
+  role_id: "1"
+  user_id: "3000028"
+join_01302: 
+  role_id: "4"
+  user_id: "3000028"
+join_01303: 
+  role_id: "2"
+  user_id: "3000029"
+join_01304: 
+  role_id: "4"
+  user_id: "3000029"
+join_01305: 
+  role_id: "2"
+  user_id: "3000030"
+join_01306: 
+  role_id: "4"
+  user_id: "3000030"
+join_01307: 
+  role_id: "2"
+  user_id: "3000031"
+join_01308: 
+  role_id: "4"
+  user_id: "3000031"
+join_01309: 
+  role_id: "2"
+  user_id: "3000032"
+join_01310: 
+  role_id: "4"
+  user_id: "3000032"
+join_01311: 
+  role_id: "1"
+  user_id: "3000033"
+join_01312: 
+  role_id: "4"
+  user_id: "3000033"
+join_01313: 
+  role_id: "2"
+  user_id: "3000034"
+join_01314: 
+  role_id: "4"
+  user_id: "3000034"
+join_01315: 
+  role_id: "2"
+  user_id: "3000035"
+join_01316: 
+  role_id: "4"
+  user_id: "3000035"
+join_01317: 
+  role_id: "2"
+  user_id: "3000036"
+join_01318: 
+  role_id: "4"
+  user_id: "3000036"
+join_01319: 
+  role_id: "1"
+  user_id: "3000037"
+join_01320: 
+  role_id: "4"
+  user_id: "3000037"
+join_01321: 
+  role_id: "1"
+  user_id: "3000038"
+join_01322: 
+  role_id: "4"
+  user_id: "3000038"
+join_01323: 
+  role_id: "2"
+  user_id: "3000039"
+join_01324: 
+  role_id: "4"
+  user_id: "3000039"
+join_01325: 
+  role_id: "1"
+  user_id: "3000040"
+join_01326: 
+  role_id: "4"
+  user_id: "3000040"
+join_01327: 
+  role_id: "2"
+  user_id: "3000041"
+join_01328: 
+  role_id: "4"
+  user_id: "3000041"
+join_01329: 
+  role_id: "1"
+  user_id: "3000042"
+join_01330: 
+  role_id: "4"
+  user_id: "3000042"
+join_01331: 
+  role_id: "1"
+  user_id: "3000043"
+join_01332: 
+  role_id: "4"
+  user_id: "3000043"
+join_01333: 
+  role_id: "1"
+  user_id: "3000044"
+join_01334: 
+  role_id: "4"
+  user_id: "3000044"
+join_01335: 
+  role_id: "1"
+  user_id: "3000045"
+join_01336: 
+  role_id: "4"
+  user_id: "3000045"
+join_01337: 
+  role_id: "1"
+  user_id: "3000046"
+join_01338: 
+  role_id: "4"
+  user_id: "3000046"
+join_01339: 
+  role_id: "1"
+  user_id: "3000047"
+join_01340: 
+  role_id: "4"
+  user_id: "3000047"
+join_01341: 
+  role_id: "2"
+  user_id: "3000048"
+join_01342: 
+  role_id: "4"
+  user_id: "3000048"
+join_01343: 
+  role_id: "2"
+  user_id: "3000049"
+join_01344: 
+  role_id: "4"
+  user_id: "3000049"
+join_01345: 
+  role_id: "4"
+  user_id: "3000050"
+join_01346: 
+  role_id: "5"
+  user_id: "3000050"
+join_01347: 
+  role_id: "1"
+  user_id: "3000051"
+join_01348: 
+  role_id: "4"
+  user_id: "3000051"
+join_01349: 
+  role_id: "1"
+  user_id: "3000052"
+join_01350: 
+  role_id: "4"
+  user_id: "3000052"
+join_01351: 
+  role_id: "1"
+  user_id: "3000053"
+join_01352: 
+  role_id: "4"
+  user_id: "3000053"
+join_01353: 
+  role_id: "1"
+  user_id: "3000054"
+join_01354: 
+  role_id: "4"
+  user_id: "3000054"
+join_01355: 
+  role_id: "1"
+  user_id: "3000055"
+join_01356: 
+  role_id: "4"
+  user_id: "3000055"
+join_01357: 
+  role_id: "2"
+  user_id: "3000056"
+join_01358: 
+  role_id: "4"
+  user_id: "3000056"
+join_01359: 
+  role_id: "2"
+  user_id: "3000057"
+join_01360: 
+  role_id: "4"
+  user_id: "3000057"
+join_01361: 
+  role_id: "2"
+  user_id: "3000058"
+join_01362: 
+  role_id: "4"
+  user_id: "3000058"
+join_01363: 
+  role_id: "1"
+  user_id: "3000059"
+join_01364: 
+  role_id: "4"
+  user_id: "3000059"
+join_01365: 
+  role_id: "2"
+  user_id: "3000060"
+join_01366: 
+  role_id: "4"
+  user_id: "3000060"
+join_01367: 
+  role_id: "1"
+  user_id: "3000061"
+join_01368: 
+  role_id: "4"
+  user_id: "3000061"
+join_01369: 
+  role_id: "4"
+  user_id: "3000062"
+join_01370: 
+  role_id: "5"
+  user_id: "3000062"
+join_01371: 
+  role_id: "4"
+  user_id: "3000063"
+join_01372: 
+  role_id: "5"
+  user_id: "3000063"
+join_01373: 
+  role_id: "2"
+  user_id: "3000064"
+join_01374: 
+  role_id: "4"
+  user_id: "3000064"
+join_01375: 
+  role_id: "1"
+  user_id: "3000065"
+join_01376: 
+  role_id: "4"
+  user_id: "3000065"
+join_01377: 
+  role_id: "2"
+  user_id: "3000066"
+join_01378: 
+  role_id: "4"
+  user_id: "3000066"
+join_01379: 
+  role_id: "2"
+  user_id: "3000067"
+join_01380: 
+  role_id: "3"
+  user_id: "3000067"
+join_01381: 
+  role_id: "4"
+  user_id: "3000067"
+join_01382: 
+  role_id: "8"
+  user_id: "3000067"
+join_01383: 
+  role_id: "10"
+  user_id: "3000067"
+join_01384: 
+  role_id: "4"
+  user_id: "3000068"
+join_01385: 
+  role_id: "5"
+  user_id: "3000068"
+join_01386: 
+  role_id: "2"
+  user_id: "3000069"
+join_01387: 
+  role_id: "4"
+  user_id: "3000069"
+join_01388: 
+  role_id: "1"
+  user_id: "3000070"
+join_01389: 
+  role_id: "4"
+  user_id: "3000070"
+join_01390: 
+  role_id: "1"
+  user_id: "3000071"
+join_01391: 
+  role_id: "4"
+  user_id: "3000071"
+join_01392: 
+  role_id: "1"
+  user_id: "3000072"
+join_01393: 
+  role_id: "4"
+  user_id: "3000072"
+join_01394: 
+  role_id: "1"
+  user_id: "3000073"
+join_01395: 
+  role_id: "4"
+  user_id: "3000073"
+join_01396: 
+  role_id: "1"
+  user_id: "3000074"
+join_01397: 
+  role_id: "4"
+  user_id: "3000074"
+join_01398: 
+  role_id: "2"
+  user_id: "3000075"
+join_01399: 
+  role_id: "4"
+  user_id: "3000075"
+join_01400: 
+  role_id: "2"
+  user_id: "3000076"
+join_01401: 
+  role_id: "4"
+  user_id: "3000076"
+join_01402: 
+  role_id: "3"
+  user_id: "3000077"
+join_01403: 
+  role_id: "4"
+  user_id: "3000077"
+join_01404: 
+  role_id: "8"
+  user_id: "3000077"
+join_01405: 
+  role_id: "10"
+  user_id: "3000077"
+join_01406: 
+  role_id: "1"
+  user_id: "3000078"
+join_01407: 
+  role_id: "4"
+  user_id: "3000078"
+join_01408: 
+  role_id: "1"
+  user_id: "3000079"
+join_01409: 
+  role_id: "4"
+  user_id: "3000079"
+join_01410: 
+  role_id: "4"
+  user_id: "3000080"
+join_01411: 
+  role_id: "1"
+  user_id: "3000082"
+join_01412: 
+  role_id: "4"
+  user_id: "3000082"
+join_01413: 
+  role_id: "2"
+  user_id: "3000083"
+join_01414: 
+  role_id: "4"
+  user_id: "3000083"
+join_01415: 
+  role_id: "4"
+  user_id: "3000084"
+join_01416: 
+  role_id: "4"
+  user_id: "3000085"
+join_01417: 
+  role_id: "5"
+  user_id: "3000085"
+join_01418: 
+  role_id: "4"
+  user_id: "3000086"
+join_01419: 
+  role_id: "5"
+  user_id: "3000086"
+join_01420: 
+  role_id: "4"
+  user_id: "3000087"
+join_01421: 
+  role_id: "2"
+  user_id: "3000088"
+join_01422: 
+  role_id: "4"
+  user_id: "3000088"
+join_01423: 
+  role_id: "1"
+  user_id: "3000089"
+join_01424: 
+  role_id: "4"
+  user_id: "3000089"
+join_01425: 
+  role_id: "1"
+  user_id: "3000090"
+join_01426: 
+  role_id: "4"
+  user_id: "3000090"
+join_01427: 
+  role_id: "2"
+  user_id: "3000091"
+join_01428: 
+  role_id: "4"
+  user_id: "3000091"
+join_01429: 
+  role_id: "4"
+  user_id: "3000092"
+join_01430: 
+  role_id: "11"
+  user_id: "3000092"
+join_01431: 
+  role_id: "1"
+  user_id: "3000093"
+join_01432: 
+  role_id: "4"
+  user_id: "3000093"
+join_01433: 
+  role_id: "2"
+  user_id: "3000094"
+join_01434: 
+  role_id: "4"
+  user_id: "3000094"
+join_01435: 
+  role_id: "1"
+  user_id: "3000095"
+join_01436: 
+  role_id: "4"
+  user_id: "3000095"
+join_01437: 
+  role_id: "1"
+  user_id: "3000096"
+join_01438: 
+  role_id: "4"
+  user_id: "3000096"
+join_01439: 
+  role_id: "1"
+  user_id: "3000097"
+join_01440: 
+  role_id: "2"
+  user_id: "3000097"
+join_01441: 
+  role_id: "3"
+  user_id: "3000097"
+join_01442: 
+  role_id: "4"
+  user_id: "3000097"
+join_01443: 
+  role_id: "5"
+  user_id: "3000097"
+join_01444: 
+  role_id: "6"
+  user_id: "3000097"
+join_01445: 
+  role_id: "8"
+  user_id: "3000097"
+join_01446: 
+  role_id: "10"
+  user_id: "3000097"
+join_01447: 
+  role_id: "11"
+  user_id: "3000097"
+join_01448: 
+  role_id: "1"
+  user_id: "3000098"
+join_01449: 
+  role_id: "4"
+  user_id: "3000098"
+join_01450: 
+  role_id: "1"
+  user_id: "3000099"
+join_01451: 
+  role_id: "4"
+  user_id: "3000099"
+join_01452: 
+  role_id: "2"
+  user_id: "3000100"
+join_01453: 
+  role_id: "4"
+  user_id: "3000100"
+join_01454: 
+  role_id: "6"
+  user_id: "3000100"
+join_01455: 
+  role_id: "1"
+  user_id: "3000101"
+join_01456: 
+  role_id: "4"
+  user_id: "3000101"
+join_01457: 
+  role_id: "1"
+  user_id: "3000102"
+join_01458: 
+  role_id: "4"
+  user_id: "3000102"
+join_01459: 
+  role_id: "4"
+  user_id: "3000103"
+join_01460: 
+  role_id: "12"
+  user_id: "3000103"
+join_01461: 
+  role_id: "2"
+  user_id: "3000104"
+join_01462: 
+  role_id: "4"
+  user_id: "3000104"
+join_01463: 
+  role_id: "2"
+  user_id: "3000105"
+join_01464: 
+  role_id: "4"
+  user_id: "3000105"
+join_01465: 
+  role_id: "6"
+  user_id: "3000105"
+join_01466: 
+  role_id: "4"
+  user_id: "3000106"
+join_01467: 
+  role_id: "2"
+  user_id: "3000107"
+join_01468: 
+  role_id: "4"
+  user_id: "3000107"
+join_01469: 
+  role_id: "1"
+  user_id: "3000108"
+join_01470: 
+  role_id: "2"
+  user_id: "3000108"
+join_01471: 
+  role_id: "3"
+  user_id: "3000108"
+join_01472: 
+  role_id: "4"
+  user_id: "3000108"
+join_01473: 
+  role_id: "5"
+  user_id: "3000108"
+join_01474: 
+  role_id: "9"
+  user_id: "3000108"
+join_01475: 
+  role_id: "1"
+  user_id: "3000109"
+join_01476: 
+  role_id: "4"
+  user_id: "3000109"
+join_01477: 
+  role_id: "2"
+  user_id: "3000110"
+join_01478: 
+  role_id: "4"
+  user_id: "3000110"
+join_01479: 
+  role_id: "6"
+  user_id: "3000110"
+join_01480: 
+  role_id: "1"
+  user_id: "3000111"
+join_01481: 
+  role_id: "4"
+  user_id: "3000111"
+join_01482: 
+  role_id: "1"
+  user_id: "3000112"
+join_01483: 
+  role_id: "4"
+  user_id: "3000112"
+join_01484: 
+  role_id: "1"
+  user_id: "3000113"
+join_01485: 
+  role_id: "2"
+  user_id: "3000113"
+join_01486: 
+  role_id: "3"
+  user_id: "3000113"
+join_01487: 
+  role_id: "4"
+  user_id: "3000113"
+join_01488: 
+  role_id: "5"
+  user_id: "3000113"
+join_01489: 
+  role_id: "9"
+  user_id: "3000113"
+join_01490: 
+  role_id: "1"
+  user_id: "3000114"
+join_01491: 
+  role_id: "4"
+  user_id: "3000114"
+join_01492: 
+  role_id: "2"
+  user_id: "3000115"
+join_01493: 
+  role_id: "4"
+  user_id: "3000115"
+join_01494: 
+  role_id: "2"
+  user_id: "3000116"
+join_01495: 
+  role_id: "4"
+  user_id: "3000116"
+join_01496: 
+  role_id: "2"
+  user_id: "3000117"
+join_01497: 
+  role_id: "4"
+  user_id: "3000117"
+join_01498: 
+  role_id: "2"
+  user_id: "3000118"
+join_01499: 
+  role_id: "4"
+  user_id: "3000118"
+join_01500: 
+  role_id: "1"
+  user_id: "3000119"
+join_01501: 
+  role_id: "4"
+  user_id: "3000119"
+join_01502: 
+  role_id: "1"
+  user_id: "3000120"
+join_01503: 
+  role_id: "4"
+  user_id: "3000120"
+join_01504: 
+  role_id: "4"
+  user_id: "3000121"
+join_01505: 
+  role_id: "4"
+  user_id: "3000122"
+join_01506: 
+  role_id: "1"
+  user_id: "3000123"
+join_01507: 
+  role_id: "4"
+  user_id: "3000123"
+join_01508: 
+  role_id: "2"
+  user_id: "3000124"
+join_01509: 
+  role_id: "4"
+  user_id: "3000124"
+join_01510: 
+  role_id: "1"
+  user_id: "3000125"
+join_01511: 
+  role_id: "4"
+  user_id: "3000125"
+join_01512: 
+  role_id: "1"
+  user_id: "3000126"
+join_01513: 
+  role_id: "4"
+  user_id: "3000126"
+join_01514: 
+  role_id: "1"
+  user_id: "3000127"
+join_01515: 
+  role_id: "4"
+  user_id: "3000127"
+join_01516: 
+  role_id: "4"
+  user_id: "3000128"
+join_01517: 
+  role_id: "1"
+  user_id: "3000129"
+join_01518: 
+  role_id: "4"
+  user_id: "3000129"
+join_01519: 
+  role_id: "1"
+  user_id: "3000130"
+join_01520: 
+  role_id: "4"
+  user_id: "3000130"
+join_01521: 
+  role_id: "1"
+  user_id: "3000131"
+join_01522: 
+  role_id: "4"
+  user_id: "3000131"
+join_01523: 
+  role_id: "4"
+  user_id: "3000132"
+join_01524: 
+  role_id: "5"
+  user_id: "3000132"
+join_01525: 
+  role_id: "4"
+  user_id: "3000133"
+join_01526: 
+  role_id: "5"
+  user_id: "3000133"
+join_01527: 
+  role_id: "2"
+  user_id: "3000134"
+join_01528: 
+  role_id: "4"
+  user_id: "3000134"
+join_01529: 
+  role_id: "1"
+  user_id: "3000135"
+join_01530: 
+  role_id: "4"
+  user_id: "3000135"
+join_01531: 
+  role_id: "6"
+  user_id: "3000135"
+join_01532: 
+  role_id: "2"
+  user_id: "3000136"
+join_01533: 
+  role_id: "4"
+  user_id: "3000136"
+join_01534: 
+  role_id: "1"
+  user_id: "3000137"
+join_01535: 
+  role_id: "4"
+  user_id: "3000137"
+join_01536: 
+  role_id: "1"
+  user_id: "3000138"
+join_01537: 
+  role_id: "4"
+  user_id: "3000138"
+join_01538: 
+  role_id: "2"
+  user_id: "3000139"
+join_01539: 
+  role_id: "4"
+  user_id: "3000139"
+join_01540: 
+  role_id: "4"
+  user_id: "3000140"
+join_01541: 
+  role_id: "12"
+  user_id: "3000140"
+join_01542: 
+  role_id: "4"
+  user_id: "3000141"
+join_01543: 
+  role_id: "12"
+  user_id: "3000141"
+join_01544: 
+  role_id: "4"
+  user_id: "3000142"
+join_01545: 
+  role_id: "12"
+  user_id: "3000142"
+join_01546: 
+  role_id: "4"
+  user_id: "3000143"
+join_01547: 
+  role_id: "12"
+  user_id: "3000143"
+join_01548: 
+  role_id: "4"
+  user_id: "3000144"
+join_01549: 
+  role_id: "12"
+  user_id: "3000144"
+join_01550: 
+  role_id: "4"
+  user_id: "3000145"
+join_01551: 
+  role_id: "12"
+  user_id: "3000145"
+join_01552: 
+  role_id: "4"
+  user_id: "3000146"
+join_01553: 
+  role_id: "12"
+  user_id: "3000146"
+join_01554: 
+  role_id: "4"
+  user_id: "3000147"
+join_01555: 
+  role_id: "12"
+  user_id: "3000147"
+join_01556: 
+  role_id: "4"
+  user_id: "3000148"
+join_01557: 
+  role_id: "12"
+  user_id: "3000148"
+join_01558: 
+  role_id: "4"
+  user_id: "3000149"
+join_01559: 
+  role_id: "12"
+  user_id: "3000149"
+join_01560: 
+  role_id: "4"
+  user_id: "3000150"
+join_01561: 
+  role_id: "12"
+  user_id: "3000150"
+join_01562: 
+  role_id: "2"
+  user_id: "3000151"
+join_01563: 
+  role_id: "4"
+  user_id: "3000151"
+join_01564: 
+  role_id: "4"
+  user_id: "3000152"
+join_01565: 
+  role_id: "12"
+  user_id: "3000152"
+join_01566: 
+  role_id: "4"
+  user_id: "3000153"
+join_01567: 
+  role_id: "12"
+  user_id: "3000153"
+join_01568: 
+  role_id: "4"
+  user_id: "3000154"
+join_01569: 
+  role_id: "12"
+  user_id: "3000154"
+join_01570: 
+  role_id: "4"
+  user_id: "3000155"
+join_01571: 
+  role_id: "12"
+  user_id: "3000155"
+join_01572: 
+  role_id: "4"
+  user_id: "3000156"
+join_01573: 
+  role_id: "12"
+  user_id: "3000156"
+join_01574: 
+  role_id: "1"
+  user_id: "3000157"
+join_01575: 
+  role_id: "4"
+  user_id: "3000157"
+join_01576: 
+  role_id: "1"
+  user_id: "3000158"
+join_01577: 
+  role_id: "4"
+  user_id: "3000158"
+join_01578: 
+  role_id: "2"
+  user_id: "3000159"
+join_01579: 
+  role_id: "4"
+  user_id: "3000159"
+join_01580: 
+  role_id: "1"
+  user_id: "3000160"
+join_01581: 
+  role_id: "4"
+  user_id: "3000160"
+join_01582: 
+  role_id: "4"
+  user_id: "3000161"
+join_01583: 
+  role_id: "2"
+  user_id: "3000162"
+join_01584: 
+  role_id: "4"
+  user_id: "3000162"
+join_01585: 
+  role_id: "1"
+  user_id: "3000163"
+join_01586: 
+  role_id: "4"
+  user_id: "3000163"
+join_01587: 
+  role_id: "2"
+  user_id: "3000164"
+join_01588: 
+  role_id: "4"
+  user_id: "3000164"
+join_01589: 
+  role_id: "1"
+  user_id: "3000165"
+join_01590: 
+  role_id: "4"
+  user_id: "3000165"
+join_01591: 
+  role_id: "1"
+  user_id: "3000166"
+join_01592: 
+  role_id: "4"
+  user_id: "3000166"
+join_01593: 
+  role_id: "1"
+  user_id: "3000167"
+join_01594: 
+  role_id: "4"
+  user_id: "3000167"
+join_01595: 
+  role_id: "1"
+  user_id: "3000168"
+join_01596: 
+  role_id: "4"
+  user_id: "3000168"
+join_01597: 
+  role_id: "1"
+  user_id: "3000169"
+join_01598: 
+  role_id: "4"
+  user_id: "3000169"
+join_01599: 
+  role_id: "1"
+  user_id: "3000170"
+join_01600: 
+  role_id: "4"
+  user_id: "3000170"
+join_01601: 
+  role_id: "1"
+  user_id: "3000171"
+join_01602: 
+  role_id: "4"
+  user_id: "3000171"
+join_01603: 
+  role_id: "1"
+  user_id: "3000172"
+join_01604: 
+  role_id: "4"
+  user_id: "3000172"
+join_01605: 
+  role_id: "2"
+  user_id: "3000173"
+join_01606: 
+  role_id: "4"
+  user_id: "3000173"
+join_01607: 
+  role_id: "1"
+  user_id: "3000174"
+join_01608: 
+  role_id: "4"
+  user_id: "3000174"
+join_01609: 
+  role_id: "4"
+  user_id: "3000175"
+join_01610: 
+  role_id: "5"
+  user_id: "3000175"
+join_01611: 
+  role_id: "4"
+  user_id: "3000176"
+join_01612: 
+  role_id: "5"
+  user_id: "3000176"
+join_01613: 
+  role_id: "4"
+  user_id: "3000177"
+join_01614: 
+  role_id: "5"
+  user_id: "3000177"
+join_01615: 
+  role_id: "4"
+  user_id: "3000178"
+join_01616: 
+  role_id: "1"
+  user_id: "3000179"
+join_01617: 
+  role_id: "4"
+  user_id: "3000179"
+join_01618: 
+  role_id: "2"
+  user_id: "3000180"
+join_01619: 
+  role_id: "4"
+  user_id: "3000180"
+join_01620: 
+  role_id: "4"
+  user_id: "3000181"
+join_01621: 
+  role_id: "11"
+  user_id: "3000181"
+join_01622: 
+  role_id: "4"
+  user_id: "3000182"
+join_01623: 
+  role_id: "12"
+  user_id: "3000182"
+join_01624: 
+  role_id: "1"
+  user_id: "3000183"
+join_01625: 
+  role_id: "2"
+  user_id: "3000183"
+join_01626: 
+  role_id: "3"
+  user_id: "3000183"
+join_01627: 
+  role_id: "4"
+  user_id: "3000183"
+join_01628: 
+  role_id: "9"
+  user_id: "3000183"
+join_01629: 
+  role_id: "4"
+  user_id: "3000184"
+join_01630: 
+  role_id: "12"
+  user_id: "3000184"
+join_01631: 
+  role_id: "1"
+  user_id: "3000185"
+join_01632: 
+  role_id: "4"
+  user_id: "3000185"
+join_01633: 
+  role_id: "2"
+  user_id: "3000186"
+join_01634: 
+  role_id: "4"
+  user_id: "3000186"
+join_01635: 
+  role_id: "2"
+  user_id: "3000187"
+join_01636: 
+  role_id: "4"
+  user_id: "3000187"
+join_01637: 
+  role_id: "4"
+  user_id: "3000188"
+join_01638: 
+  role_id: "4"
+  user_id: "3000189"
+join_01639: 
+  role_id: "11"
+  user_id: "3000189"
+join_01640: 
+  role_id: "1"
+  user_id: "3000190"
+join_01641: 
+  role_id: "4"
+  user_id: "3000190"
+join_01642: 
+  role_id: "1"
+  user_id: "3000191"
+join_01643: 
+  role_id: "4"
+  user_id: "3000191"
+join_01644: 
+  role_id: "4"
+  user_id: "3000192"
+join_01645: 
+  role_id: "6"
+  user_id: "3000192"
+join_01646: 
+  role_id: "4"
+  user_id: "3000193"
+join_01647: 
+  role_id: "6"
+  user_id: "3000193"
+join_01648: 
+  role_id: "4"
+  user_id: "3000194"
+join_01649: 
+  role_id: "6"
+  user_id: "3000194"
+join_01650: 
+  role_id: "4"
+  user_id: "3000195"
+join_01651: 
+  role_id: "1"
+  user_id: "3000196"
+join_01652: 
+  role_id: "4"
+  user_id: "3000196"
+join_01653: 
+  role_id: "1"
+  user_id: "3000214"
+join_01654: 
+  role_id: "4"
+  user_id: "3000214"
+join_01655: 
+  role_id: "1"
+  user_id: "3000224"
+join_01656: 
+  role_id: "4"
+  user_id: "3000224"
+join_01657: 
+  role_id: "1"
+  user_id: "3000225"
+join_01658: 
+  role_id: "4"
+  user_id: "3000225"
+join_01659: 
+  role_id: "1"
+  user_id: "3000226"
+join_01660: 
+  role_id: "4"
+  user_id: "3000226"
+join_01661: 
+  role_id: "1"
+  user_id: "3000227"
+join_01662: 
+  role_id: "1"
+  user_id: "3000230"
+join_01663: 
+  role_id: "4"
+  user_id: "3000230"
+join_01664: 
+  role_id: "1"
+  user_id: "3000239"
+join_01665: 
+  role_id: "4"
+  user_id: "3000239"
+join_01666: 
+  role_id: "1"
+  user_id: "3000254"
+join_01667: 
+  role_id: "4"
+  user_id: "3000254"
+join_01668: 
+  role_id: "1"
+  user_id: "3000255"
+join_01669: 
+  role_id: "4"
+  user_id: "3000255"
+join_01670: 
+  role_id: "1"
+  user_id: "3000258"
+join_01671: 
+  role_id: "4"
+  user_id: "3000258"
+join_01672: 
+  role_id: "2"
+  user_id: "3000260"
+join_01673: 
+  role_id: "6"
+  user_id: "3000260"
+join_01674: 
+  role_id: "4"
+  user_id: "3000278"
+join_01675: 
+  role_id: "4"
+  user_id: "3000279"
+join_01676: 
+  role_id: "12"
+  user_id: "3000279"
+join_01677: 
+  role_id: "2"
+  user_id: "3000293"
+join_01678: 
+  role_id: "4"
+  user_id: "3000293"
+join_01679: 
+  role_id: "2"
+  user_id: "3000295"
+join_01680: 
+  role_id: "4"
+  user_id: "3000295"
+join_01681: 
+  role_id: "2"
+  user_id: "3000326"
+join_01682: 
+  role_id: "4"
+  user_id: "3000326"
+join_01683: 
+  role_id: "2"
+  user_id: "3000330"
+join_01684: 
+  role_id: "4"
+  user_id: "3000330"
+join_01685: 
+  role_id: "4"
+  user_id: "3000333"
+join_01686: 
+  role_id: "2"
+  user_id: "3000340"
+join_01687: 
+  role_id: "4"
+  user_id: "3000340"
+join_01688: 
+  role_id: "2"
+  user_id: "3000342"
+join_01689: 
+  role_id: "4"
+  user_id: "3000342"
+join_01690: 
+  role_id: "2"
+  user_id: "3000347"
+join_01691: 
+  role_id: "4"
+  user_id: "3000347"
+join_01692: 
+  role_id: "2"
+  user_id: "3000356"
+join_01693: 
+  role_id: "4"
+  user_id: "3000356"
+join_01694: 
+  role_id: "2"
+  user_id: "3000357"
+join_01695: 
+  role_id: "4"
+  user_id: "3000357"
+join_01696: 
+  role_id: "2"
+  user_id: "3000358"
+join_01697: 
+  role_id: "4"
+  user_id: "3000358"
+join_01698: 
+  role_id: "2"
+  user_id: "3000362"
+join_01699: 
+  role_id: "4"
+  user_id: "3000362"
+join_01700: 
+  role_id: "2"
+  user_id: "3000363"
+join_01701: 
+  role_id: "4"
+  user_id: "3000363"
+join_01702: 
+  role_id: "2"
+  user_id: "3000378"
+join_01703: 
+  role_id: "4"
+  user_id: "3000378"
+join_01704: 
+  role_id: "2"
+  user_id: "3000381"
+join_01705: 
+  role_id: "4"
+  user_id: "3000381"
+join_01706: 
+  role_id: "2"
+  user_id: "3000386"
+join_01707: 
+  role_id: "4"
+  user_id: "3000386"
+join_01708: 
+  role_id: "2"
+  user_id: "3000389"
+join_01709: 
+  role_id: "4"
+  user_id: "3000389"
+join_01710: 
+  role_id: "2"
+  user_id: "3000390"
+join_01711: 
+  role_id: "4"
+  user_id: "3000390"
+join_01712: 
+  role_id: "2"
+  user_id: "3000395"
+join_01713: 
+  role_id: "4"
+  user_id: "3000395"
+join_01714: 
+  role_id: "2"
+  user_id: "3000404"
+join_01715: 
+  role_id: "4"
+  user_id: "3000404"
+join_01716: 
+  role_id: "2"
+  user_id: "3000408"
+join_01717: 
+  role_id: "4"
+  user_id: "3000408"
+join_01718: 
+  role_id: "2"
+  user_id: "3000409"
+join_01719: 
+  role_id: "4"
+  user_id: "3000409"
+join_01720: 
+  role_id: "2"
+  user_id: "3000412"
+join_01721: 
+  role_id: "4"
+  user_id: "3000412"
+join_01722: 
+  role_id: "2"
+  user_id: "3000413"
+join_01723: 
+  role_id: "4"
+  user_id: "3000413"
+join_01724: 
+  role_id: "2"
+  user_id: "3000466"
+join_01725: 
+  role_id: "4"
+  user_id: "3000466"
+join_01726: 
+  role_id: "2"
+  user_id: "3000468"
+join_01727: 
+  role_id: "6"
+  user_id: "3000468"
+join_01728: 
+  role_id: "2"
+  user_id: "3000485"
+join_01729: 
+  role_id: "4"
+  user_id: "3000485"
+join_01730: 
+  role_id: "1"
+  user_id: "3000489"
+join_01731: 
+  role_id: "4"
+  user_id: "3000489"
+join_01732: 
+  role_id: "1"
+  user_id: "3000490"
+join_01733: 
+  role_id: "4"
+  user_id: "3000490"
+join_01734: 
+  role_id: "2"
+  user_id: "3000491"
+join_01735: 
+  role_id: "4"
+  user_id: "3000491"
+join_01736: 
+  role_id: "1"
+  user_id: "3000492"
+join_01737: 
+  role_id: "4"
+  user_id: "3000492"
+join_01738: 
+  role_id: "4"
+  user_id: "3000493"
+join_01739: 
+  role_id: "1"
+  user_id: "3000494"
+join_01740: 
+  role_id: "4"
+  user_id: "3000494"
+join_01741: 
+  role_id: "1"
+  user_id: "3000495"
+join_01742: 
+  role_id: "4"
+  user_id: "3000495"
+join_01743: 
+  role_id: "2"
+  user_id: "3000496"
+join_01744: 
+  role_id: "4"
+  user_id: "3000496"
+join_01745: 
+  role_id: "1"
+  user_id: "3000497"
+join_01746: 
+  role_id: "1"
+  user_id: "3000498"
+join_01747: 
+  role_id: "4"
+  user_id: "3000498"
+join_01748: 
+  role_id: "1"
+  user_id: "3000499"
+join_01749: 
+  role_id: "4"
+  user_id: "3000499"
+join_01750: 
+  role_id: "1"
+  user_id: "3000500"
+join_01751: 
+  role_id: "4"
+  user_id: "3000500"
+join_01752: 
+  role_id: "1"
+  user_id: "3000501"
+join_01753: 
+  role_id: "4"
+  user_id: "3000501"
+join_01754: 
+  role_id: "1"
+  user_id: "3000502"
+join_01755: 
+  role_id: "4"
+  user_id: "3000502"
+join_01756: 
+  role_id: "4"
+  user_id: "3000503"
+join_01757: 
+  role_id: "12"
+  user_id: "3000503"
+join_01758: 
+  role_id: "1"
+  user_id: "3000504"
+join_01759: 
+  role_id: "1"
+  user_id: "3000505"
+join_01760: 
+  role_id: "4"
+  user_id: "3000505"
+join_01761: 
+  role_id: "1"
+  user_id: "3000506"
+join_01762: 
+  role_id: "4"
+  user_id: "3000506"
+join_01763: 
+  role_id: "1"
+  user_id: "3000507"
+join_01764: 
+  role_id: "4"
+  user_id: "3000507"
+join_01765: 
+  role_id: "1"
+  user_id: "3000508"
+join_01766: 
+  role_id: "4"
+  user_id: "3000508"
+join_01767: 
+  role_id: "1"
+  user_id: "3000509"
+join_01768: 
+  role_id: "4"
+  user_id: "3000509"
+join_01769: 
+  role_id: "1"
+  user_id: "3000510"
+join_01770: 
+  role_id: "4"
+  user_id: "3000510"
+join_01771: 
+  role_id: "4"
+  user_id: "3000511"
+join_01772: 
+  role_id: "1"
+  user_id: "3000512"
+join_01773: 
+  role_id: "4"
+  user_id: "3000512"
+join_01774: 
+  role_id: "4"
+  user_id: "3000513"
+join_01775: 
+  role_id: "12"
+  user_id: "3000513"
+join_01776: 
+  role_id: "4"
+  user_id: "3000514"
+join_01777: 
+  role_id: "12"
+  user_id: "3000514"
+join_01778: 
+  role_id: "4"
+  user_id: "3000515"
+join_01779: 
+  role_id: "12"
+  user_id: "3000515"
+join_01780: 
+  role_id: "1"
+  user_id: "3000516"
+join_01781: 
+  role_id: "4"
+  user_id: "3000516"
+join_01782: 
+  role_id: "1"
+  user_id: "3000517"
+join_01783: 
+  role_id: "4"
+  user_id: "3000517"
+join_01784: 
+  role_id: "4"
+  user_id: "3000518"
+join_01785: 
+  role_id: "5"
+  user_id: "3000518"
+join_01786: 
+  role_id: "4"
+  user_id: "3000519"
+join_01787: 
+  role_id: "12"
+  user_id: "3000519"
+join_01788: 
+  role_id: "4"
+  user_id: "3000520"
+join_01789: 
+  role_id: "5"
+  user_id: "3000520"
+join_01790: 
+  role_id: "2"
+  user_id: "3000521"
+join_01791: 
+  role_id: "4"
+  user_id: "3000521"
+join_01792: 
+  role_id: "1"
+  user_id: "3000522"
+join_01793: 
+  role_id: "4"
+  user_id: "3000522"
+join_01794: 
+  role_id: "1"
+  user_id: "3000523"
+join_01795: 
+  role_id: "4"
+  user_id: "3000523"
+join_01796: 
+  role_id: "1"
+  user_id: "3000524"
+join_01797: 
+  role_id: "4"
+  user_id: "3000524"
+join_01798: 
+  role_id: "4"
+  user_id: "3000525"
+join_01799: 
+  role_id: "12"
+  user_id: "3000525"
+join_01800: 
+  role_id: "4"
+  user_id: "3000526"
+join_01801: 
+  role_id: "12"
+  user_id: "3000526"
+join_01802: 
+  role_id: "1"
+  user_id: "3000527"
+join_01803: 
+  role_id: "4"
+  user_id: "3000527"
+join_01804: 
+  role_id: "1"
+  user_id: "3000528"
+join_01805: 
+  role_id: "1"
+  user_id: "3000529"
+join_01806: 
+  role_id: "2"
+  user_id: "3000530"
+join_01807: 
+  role_id: "4"
+  user_id: "3000530"
+join_01808: 
+  role_id: "1"
+  user_id: "3000531"
+join_01809: 
+  role_id: "4"
+  user_id: "3000531"
+join_01810: 
+  role_id: "1"
+  user_id: "3000532"
+join_01811: 
+  role_id: "4"
+  user_id: "3000532"
+join_01812: 
+  role_id: "2"
+  user_id: "3000533"
+join_01813: 
+  role_id: "4"
+  user_id: "3000533"
+join_01814: 
+  role_id: "2"
+  user_id: "3000534"
+join_01815: 
+  role_id: "4"
+  user_id: "3000534"
+join_01816: 
+  role_id: "3"
+  user_id: "3000535"
+join_01817: 
+  role_id: "4"
+  user_id: "3000535"
+join_01818: 
+  role_id: "8"
+  user_id: "3000535"
+join_01819: 
+  role_id: "1"
+  user_id: "3000536"
+join_01820: 
+  role_id: "4"
+  user_id: "3000536"
+join_01821: 
+  role_id: "1"
+  user_id: "3000537"
+join_01822: 
+  role_id: "4"
+  user_id: "3000537"
+join_01823: 
+  role_id: "1"
+  user_id: "3000538"
+join_01824: 
+  role_id: "4"
+  user_id: "3000538"
+join_01825: 
+  role_id: "1"
+  user_id: "3000539"
+join_01826: 
+  role_id: "4"
+  user_id: "3000539"
+join_01827: 
+  role_id: "1"
+  user_id: "3000540"
+join_01828: 
+  role_id: "4"
+  user_id: "3000540"
+join_01829: 
+  role_id: "2"
+  user_id: "3000541"
+join_01830: 
+  role_id: "4"
+  user_id: "3000541"
+join_01831: 
+  role_id: "4"
+  user_id: "3000542"
+join_01832: 
+  role_id: "12"
+  user_id: "3000542"
+join_01833: 
+  role_id: "1"
+  user_id: "3000543"
+join_01834: 
+  role_id: "4"
+  user_id: "3000543"
+join_01835: 
+  role_id: "2"
+  user_id: "3000544"
+join_01836: 
+  role_id: "4"
+  user_id: "3000544"
+join_01837: 
+  role_id: "4"
+  user_id: "3000545"
+join_01838: 
+  role_id: "5"
+  user_id: "3000545"
+join_01839: 
+  role_id: "4"
+  user_id: "3000546"
+join_01840: 
+  role_id: "4"
+  user_id: "3000547"
+join_01841: 
+  role_id: "5"
+  user_id: "3000547"
+join_01842: 
+  role_id: "1"
+  user_id: "3000548"
+join_01843: 
+  role_id: "4"
+  user_id: "3000548"
+join_01844: 
+  role_id: "1"
+  user_id: "3000549"
+join_01845: 
+  role_id: "4"
+  user_id: "3000549"
+join_01846: 
+  role_id: "4"
+  user_id: "3000550"
+join_01847: 
+  role_id: "1"
+  user_id: "3000551"
+join_01848: 
+  role_id: "4"
+  user_id: "3000551"
+join_01849: 
+  role_id: "1"
+  user_id: "3000552"
+join_01850: 
+  role_id: "4"
+  user_id: "3000552"
+join_01851: 
+  role_id: "2"
+  user_id: "3000553"
+join_01852: 
+  role_id: "4"
+  user_id: "3000553"
+join_01853: 
+  role_id: "1"
+  user_id: "3000554"
+join_01854: 
+  role_id: "4"
+  user_id: "3000554"
+join_01855: 
+  role_id: "4"
+  user_id: "3000555"
+join_01856: 
+  role_id: "2"
+  user_id: "3000556"
+join_01857: 
+  role_id: "4"
+  user_id: "3000556"
+join_01858: 
+  role_id: "4"
+  user_id: "3000557"
+join_01859: 
+  role_id: "1"
+  user_id: "3000558"
+join_01860: 
+  role_id: "4"
+  user_id: "3000558"
+join_01861: 
+  role_id: "4"
+  user_id: "3000559"
+join_01862: 
+  role_id: "2"
+  user_id: "3000560"
+join_01863: 
+  role_id: "4"
+  user_id: "3000560"
+join_01864: 
+  role_id: "4"
+  user_id: "3000561"
+join_01865: 
+  role_id: "12"
+  user_id: "3000561"
+join_01866: 
+  role_id: "2"
+  user_id: "3000562"
+join_01867: 
+  role_id: "4"
+  user_id: "3000562"
+join_01868: 
+  role_id: "1"
+  user_id: "3000563"
+join_01869: 
+  role_id: "4"
+  user_id: "3000563"
+join_01870: 
+  role_id: "1"
+  user_id: "3000564"
+join_01871: 
+  role_id: "4"
+  user_id: "3000564"
+join_01872: 
+  role_id: "1"
+  user_id: "3000565"
+join_01873: 
+  role_id: "1"
+  user_id: "3000566"
+join_01874: 
+  role_id: "4"
+  user_id: "3000566"
+join_01875: 
+  role_id: "1"
+  user_id: "3000567"
+join_01876: 
+  role_id: "4"
+  user_id: "3000567"
+join_01878: 
+  role_id: "1"
+  user_id: "3000569"
+join_01879: 
+  role_id: "4"
+  user_id: "3000569"
+join_01880: 
+  role_id: "2"
+  user_id: "3000570"
+join_01881: 
+  role_id: "4"
+  user_id: "3000570"
+join_01882: 
+  role_id: "4"
+  user_id: "3000571"
+join_01883: 
+  role_id: "12"
+  user_id: "3000571"
+join_01884: 
+  role_id: "2"
+  user_id: "3000572"
+join_01885: 
+  role_id: "4"
+  user_id: "3000572"
+join_01886: 
+  role_id: "1"
+  user_id: "3000573"
+join_01887: 
+  role_id: "4"
+  user_id: "3000573"
+join_01888: 
+  role_id: "2"
+  user_id: "3000574"
+join_01889: 
+  role_id: "4"
+  user_id: "3000574"
+join_01890: 
+  role_id: "2"
+  user_id: "3000575"
+join_01891: 
+  role_id: "4"
+  user_id: "3000575"
+join_01892: 
+  role_id: "2"
+  user_id: "3000576"
+join_01893: 
+  role_id: "4"
+  user_id: "3000576"
+join_01894: 
+  role_id: "1"
+  user_id: "3000577"
+join_01895: 
+  role_id: "4"
+  user_id: "3000577"
+join_01896: 
+  role_id: "1"
+  user_id: "3000578"
+join_01897: 
+  role_id: "4"
+  user_id: "3000578"
+join_01898: 
+  role_id: "1"
+  user_id: "3000579"
+join_01899: 
+  role_id: "4"
+  user_id: "3000579"
+join_01900: 
+  role_id: "1"
+  user_id: "3000580"
+join_01901: 
+  role_id: "4"
+  user_id: "3000580"
+join_01902: 
+  role_id: "1"
+  user_id: "3000581"
+join_01903: 
+  role_id: "4"
+  user_id: "3000581"
+join_01904: 
+  role_id: "4"
+  user_id: "3000582"
+join_01905: 
+  role_id: "5"
+  user_id: "3000582"
+join_01906: 
+  role_id: "4"
+  user_id: "3000583"
+join_01907: 
+  role_id: "5"
+  user_id: "3000583"
+join_01908: 
+  role_id: "4"
+  user_id: "3000584"
+join_01909: 
+  role_id: "12"
+  user_id: "3000584"
+join_01910: 
+  role_id: "4"
+  user_id: "3000585"
+join_01911: 
+  role_id: "12"
+  user_id: "3000585"
+join_01912: 
+  role_id: "4"
+  user_id: "3000586"
+join_01913: 
+  role_id: "12"
+  user_id: "3000586"
+join_01914: 
+  role_id: "1"
+  user_id: "3000587"
+join_01915: 
+  role_id: "4"
+  user_id: "3000587"
+join_01916: 
+  role_id: "1"
+  user_id: "3000588"
+join_01917: 
+  role_id: "4"
+  user_id: "3000588"
+join_01918: 
+  role_id: "2"
+  user_id: "3000589"
+join_01919: 
+  role_id: "4"
+  user_id: "3000589"
+join_01920: 
+  role_id: "2"
+  user_id: "3000590"
+join_01921: 
+  role_id: "4"
+  user_id: "3000590"
+join_01922: 
+  role_id: "4"
+  user_id: "3000591"
+join_01923: 
+  role_id: "6"
+  user_id: "3000591"
+join_01924: 
+  role_id: "4"
+  user_id: "3000592"
+join_01925: 
+  role_id: "12"
+  user_id: "3000592"
+join_01926: 
+  role_id: "4"
+  user_id: "3000593"
+join_01927: 
+  role_id: "12"
+  user_id: "3000593"
+join_01928: 
+  role_id: "1"
+  user_id: "3000594"
+join_01929: 
+  role_id: "4"
+  user_id: "3000594"
+join_01930: 
+  role_id: "4"
+  user_id: "3000595"
+join_01931: 
+  role_id: "12"
+  user_id: "3000595"
+join_01932: 
+  role_id: "1"
+  user_id: "3000596"
+join_01933: 
+  role_id: "4"
+  user_id: "3000596"
+join_01934: 
+  role_id: "4"
+  user_id: "3000597"
+join_01935: 
+  role_id: "8"
+  user_id: "3000597"
+join_01936: 
+  role_id: "3"
+  user_id: "3000598"
+join_01937: 
+  role_id: "4"
+  user_id: "3000598"
+join_01938: 
+  role_id: "8"
+  user_id: "3000598"
+join_01939: 
+  role_id: "10"
+  user_id: "3000598"
+join_01940: 
+  role_id: "1"
+  user_id: "3000599"
+join_01941: 
+  role_id: "4"
+  user_id: "3000599"
+join_01942: 
+  role_id: "4"
+  user_id: "3000600"
+join_01943: 
+  role_id: "5"
+  user_id: "3000600"
+join_01944: 
+  role_id: "2"
+  user_id: "3000601"
+join_01945: 
+  role_id: "4"
+  user_id: "3000601"
+join_01946: 
+  role_id: "1"
+  user_id: "3000602"
+join_01947: 
+  role_id: "4"
+  user_id: "3000602"
+join_01948: 
+  role_id: "1"
+  user_id: "3000603"
+join_01949: 
+  role_id: "4"
+  user_id: "3000603"
+join_01950: 
+  role_id: "1"
+  user_id: "3000604"
+join_01951: 
+  role_id: "4"
+  user_id: "3000604"
+join_01952: 
+  role_id: "1"
+  user_id: "3000605"
+join_01953: 
+  role_id: "4"
+  user_id: "3000605"
+join_01954: 
+  role_id: "1"
+  user_id: "3000606"
+join_01955: 
+  role_id: "4"
+  user_id: "3000606"
+join_01956: 
+  role_id: "1"
+  user_id: "3000607"
+join_01957: 
+  role_id: "4"
+  user_id: "3000607"
+join_01958: 
+  role_id: "4"
+  user_id: "3000608"
+join_01959: 
+  role_id: "5"
+  user_id: "3000608"
+join_01960: 
+  role_id: "2"
+  user_id: "3000609"
+join_01961: 
+  role_id: "4"
+  user_id: "3000609"
+join_01962: 
+  role_id: "2"
+  user_id: "3000610"
+join_01963: 
+  role_id: "4"
+  user_id: "3000610"
+join_01964: 
+  role_id: "4"
+  user_id: "3000611"
+join_01965: 
+  role_id: "6"
+  user_id: "3000611"
+join_01966: 
+  role_id: "11"
+  user_id: "3000611"
+join_01967: 
+  role_id: "4"
+  user_id: "3000612"
+join_01968: 
+  role_id: "12"
+  user_id: "3000612"
+join_01969: 
+  role_id: "1"
+  user_id: "3000613"
+join_01970: 
+  role_id: "4"
+  user_id: "3000613"
+join_01971: 
+  role_id: "1"
+  user_id: "3000614"
+join_01972: 
+  role_id: "4"
+  user_id: "3000614"
+join_01973: 
+  role_id: "4"
+  user_id: "3000615"
+join_01974: 
+  role_id: "12"
+  user_id: "3000615"
+join_01975: 
+  role_id: "1"
+  user_id: "3000616"
+join_01976: 
+  role_id: "4"
+  user_id: "3000616"
+join_01977: 
+  role_id: "1"
+  user_id: "3000617"
+join_01978: 
+  role_id: "4"
+  user_id: "3000617"
+join_01979: 
+  role_id: "2"
+  user_id: "3000618"
+join_01980: 
+  role_id: "4"
+  user_id: "3000618"
+join_01981: 
+  role_id: "2"
+  user_id: "3000619"
+join_01982: 
+  role_id: "4"
+  user_id: "3000619"
+join_01983: 
+  role_id: "2"
+  user_id: "3000620"
+join_01984: 
+  role_id: "4"
+  user_id: "3000620"
+join_01985: 
+  role_id: "2"
+  user_id: "3000621"
+join_01986: 
+  role_id: "4"
+  user_id: "3000621"
+join_01987: 
+  role_id: "4"
+  user_id: "3000622"
+join_01988: 
+  role_id: "5"
+  user_id: "3000622"
+join_01989: 
+  role_id: "4"
+  user_id: "3000623"
+join_01990: 
+  role_id: "5"
+  user_id: "3000623"
+join_01991: 
+  role_id: "4"
+  user_id: "3000624"
+join_01992: 
+  role_id: "5"
+  user_id: "3000624"
+join_01993: 
+  role_id: "4"
+  user_id: "3000625"
+join_01994: 
+  role_id: "1"
+  user_id: "3000626"
+join_01995: 
+  role_id: "2"
+  user_id: "3000626"
+join_01996: 
+  role_id: "3"
+  user_id: "3000626"
+join_01997: 
+  role_id: "4"
+  user_id: "3000626"
+join_01998: 
+  role_id: "5"
+  user_id: "3000626"
+join_01999: 
+  role_id: "6"
+  user_id: "3000626"
+join_02000: 
+  role_id: "7"
+  user_id: "3000626"
+join_02001: 
+  role_id: "8"
+  user_id: "3000626"
+join_02002: 
+  role_id: "9"
+  user_id: "3000626"
+join_02003: 
+  role_id: "10"
+  user_id: "3000626"
+join_02004: 
+  role_id: "11"
+  user_id: "3000626"
+join_02231:
+  role_id: "1"
+  user_id: "3000931"
+join_02232:
+  role_id: "2"
+  user_id: "3000931"
+join_02233:
+  role_id: "3"
+  user_id: "3000931"
+join_02234:
+  role_id: "4"
+  user_id: "3000931"
+join_02235:
+  role_id: "5"
+  user_id: "3000931"
+join_02236:
+  role_id: "6"
+  user_id: "3000931"
+join_02237:
+  role_id: "7"
+  user_id: "3000931"
+join_02238:
+  role_id: "8"
+  user_id: "3000931"
+join_02239:
+  role_id: "9"
+  user_id: "3000931"
+join_02240:
+  role_id: "10"
+  user_id: "3000931"
+join_02241:
+  role_id: "11"
+  user_id: "3000931"
+join_02242:
+  role_id: "13"
+  user_id: "3000931"
+join_02243:
+  role_id: "14"
+  user_id: "3000931"
+join_02244:
+  role_id: "15"
+  user_id: "3000931"
+user_role_300115301:
+  user_id: 3001153
+  role_id: 1
+user_role_300115304:
+  user_id: 3001153
+  role_id: 4
+user_role_300064401:
+  user_id: 3000644
+  role_id: 1
+user_role_300064402:
+  user_id: 3000644
+  role_id: 2
+user_role_300064403:
+  user_id: 3000644
+  role_id: 3
+user_role_300064404:
+  user_id: 3000644
+  role_id: 4
+user_role_300064405:
+  user_id: 3000644
+  role_id: 5
+user_role_300064409:
+  user_id: 3000644
+  role_id: 9
+user_role_300064411:
+  user_id: 3000644
+  role_id: 11
+user_role_300106604:
+  user_id: 3001066
+  role_id: 4
+user_role_300106606:
+  user_id: 3001066
+  role_id: 6
+user_role_300105504:
+  user_id: 3001055
+  role_id: 4
+user_role_300093116:
+  user_id: 3000931
+  role_id: 16
+user_role_300096701:
+  user_id: 3000967
+  role_id: 1
+user_role_300096704:
+  user_id: 3000967
+  role_id: 4
+user_role_300159504:
+  user_id: 3001595
+  role_id: 4
+user_role_300157811:
+  user_id: 3001578
+  role_id: 1
+user_role_300208022:
+  user_id: 3002080
+  role_id: 2
+user_role_300208033:
+  user_id: 3002080
+  role_id: 4
+user_role_300211201:
+  user_id: 3002112
+  role_id: 1

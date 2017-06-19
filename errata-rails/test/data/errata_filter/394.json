@@ -1,0 +1,608 @@
+# HTTP 200
+[
+  {
+    "advisory_name": "RHBA-2015:2398",
+    "content": {
+      "description": "docker push test",
+      "keywords": "",
+      "solution": "fix it",
+      "topic": "test advisory"
+    },
+    "content_types": [
+      "docker"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": true,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": true,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 21130,
+    "people": {
+      "assigned_to": "jbastian@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Default",
+      "package_owner": "errata-test@redhat.com",
+      "qe_group": "Kernel QE - Hardware",
+      "reporter": "mlangsdo@redhat.com"
+    },
+    "product": {
+      "id": 16,
+      "name": "Red Hat Enterprise Linux",
+      "short_name": "RHEL"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 468,
+      "name": "RHEL-7.2.0"
+    },
+    "respin_count": 0,
+    "revision": 17,
+    "security_impact": "None",
+    "status": "PUSH_READY",
+    "synopsis": "docker push test",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2016-02-01T14:07:12Z",
+      "issue_date": "2016-02-01T14:07:12Z",
+      "release_date": null,
+      "status_time": "2016-03-10T03:10:17Z",
+      "update_date": "2016-03-10T14:44:01Z",
+      "updated_at": "2016-03-10T17:22:47Z"
+    },
+    "type": "RHBA"
+  },
+  {
+    "advisory_name": "RHBA-2016:21100",
+    "content": {
+      "description": "docker build test",
+      "keywords": "",
+      "solution": "fix it",
+      "topic": "test advisory"
+    },
+    "content_types": [
+      "docker"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": false,
+      "rhn_complete": false,
+      "rhnqa": false,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 21100,
+    "people": {
+      "assigned_to": "qa-errata-list@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Default",
+      "package_owner": "qa-errata-list@redhat.com",
+      "qe_group": "Default",
+      "reporter": "qa-errata-list@redhat.com"
+    },
+    "product": {
+      "id": 16,
+      "name": "Red Hat Enterprise Linux",
+      "short_name": "RHEL"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 452,
+      "name": "RHEL-7.1.Z"
+    },
+    "respin_count": 0,
+    "revision": 1,
+    "security_impact": "None",
+    "status": "PUSH_READY",
+    "synopsis": "docker test",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2016-03-03T01:00:00Z",
+      "issue_date": "2014-07-23T01:40:25Z",
+      "release_date": null,
+      "status_time": "2016-03-03T01:00:00Z",
+      "update_date": "2016-03-03T01:00:00Z",
+      "updated_at": "2016-03-03T01:00:00Z"
+    },
+    "type": "RHBA"
+  },
+  {
+    "advisory_name": "RHBA-2015:19032",
+    "content": {
+      "description": "[RFE] multipath log spamming when path is down\nwhite space causes segfault in /sbin/multipathd\nmultipathd consumes ten times more memory than on rhel5\n[RFE] multipath command should warn/report any syntax errors in multipath.conf\nmpathconf command is not behaving as per man page\nmultipathd SEGV in sysfs_get_timeout() during double path failure",
+      "keywords": "",
+      "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/knowledge/articles/11258",
+      "topic": "Updated device-mapper-multipath packages that fix several bugs and add various enhancements are now available."
+    },
+    "content_types": [
+      "rpm"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": true,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 19032,
+    "people": {
+      "assigned_to": "kernel-qe@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Base",
+      "package_owner": "errata-test@redhat.com",
+      "qe_group": "Kernel QE",
+      "reporter": "errata-test@redhat.com"
+    },
+    "product": {
+      "id": 16,
+      "name": "Red Hat Enterprise Linux",
+      "short_name": "RHEL"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 147,
+      "name": "RHEL-6.1.0"
+    },
+    "respin_count": 0,
+    "revision": 2,
+    "security_impact": "None",
+    "status": "PUSH_READY",
+    "synopsis": "device-mapper-multipath bug fix and enhancement update [cdn restricted]",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2015-01-12T05:01:05Z",
+      "issue_date": "2015-01-12T05:01:05Z",
+      "release_date": null,
+      "status_time": "2015-01-12T05:22:50Z",
+      "update_date": "2015-01-12T05:01:05Z",
+      "updated_at": "2015-01-12T05:22:50Z"
+    },
+    "type": "RHBA"
+  },
+  {
+    "advisory_name": "RHBA-2015:19030",
+    "content": {
+      "description": "RFE: Please update btrfs-progs to include command btrfs(8)",
+      "keywords": "",
+      "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/knowledge/articles/11258",
+      "topic": "Updated btrfs-progs packages that fix several bugs and add various enhancements are now available."
+    },
+    "content_types": [
+      "rpm"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": true,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 19030,
+    "people": {
+      "assigned_to": "kernel-qe@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Default",
+      "package_owner": "errata-test@redhat.com",
+      "qe_group": "Kernel QE",
+      "reporter": "errata-test@redhat.com"
+    },
+    "product": {
+      "id": 16,
+      "name": "Red Hat Enterprise Linux",
+      "short_name": "RHEL"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 147,
+      "name": "RHEL-6.1.0"
+    },
+    "respin_count": 0,
+    "revision": 2,
+    "security_impact": "None",
+    "status": "PUSH_READY",
+    "synopsis": "btrfs-progs bug fix and enhancement update [rhn_live restricted]",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2015-01-12T03:49:27Z",
+      "issue_date": "2015-01-12T03:49:27Z",
+      "release_date": null,
+      "status_time": "2015-01-12T05:07:23Z",
+      "update_date": "2015-01-12T03:49:27Z",
+      "updated_at": "2015-01-12T05:07:23Z"
+    },
+    "type": "RHBA"
+  },
+  {
+    "advisory_name": "RHBA-2015:19029",
+    "content": {
+      "description": "Update redhat-release-server for RHEL 6.1",
+      "keywords": "",
+      "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/knowledge/articles/11258",
+      "topic": "Updated redhat-release-server packages that fix several bugs and add various enhancements are now available."
+    },
+    "content_types": [
+      "ks",
+      "pdb",
+      "raw",
+      "rpm",
+      "xml",
+      "zip"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": true,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 19029,
+    "people": {
+      "assigned_to": "release-test-team@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Default",
+      "package_owner": "errata-test@redhat.com",
+      "qe_group": "Release Test Team",
+      "reporter": "errata-test@redhat.com"
+    },
+    "product": {
+      "id": 16,
+      "name": "Red Hat Enterprise Linux",
+      "short_name": "RHEL"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 147,
+      "name": "RHEL-6.1.0"
+    },
+    "respin_count": 0,
+    "revision": 1,
+    "security_impact": "None",
+    "status": "PUSH_READY",
+    "synopsis": "redhat-release-server bug fix and enhancement update",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2015-01-07T02:55:57Z",
+      "issue_date": "2015-01-07T02:55:56Z",
+      "release_date": null,
+      "status_time": "2015-01-07T03:08:45Z",
+      "update_date": "2015-01-07T02:55:56Z",
+      "updated_at": "2015-01-07T03:08:45Z"
+    },
+    "type": "RHBA"
+  },
+  {
+    "advisory_name": "RHSA-2014:19028",
+    "content": {
+      "description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime\nEnvironment and the OpenJDK 8 Java Software Development Kit.\nAll users of java-1.8.0-openjdk are advised to upgrade to these updated\npackages, which resolve these issues. All running instances of OpenJDK Java\nmust be restarted for the update to take effect.",
+      "keywords": "",
+      "solution": "Before applying this update, make sure all previously released errata\nrelevant to your system have been applied.\nThis update is available via the Red Hat Network. Details on how to use the\nRed Hat Network to apply this update are available at\nhttps://access.redhat.com/articles/11258",
+      "topic": "Updated java-1.8.0-openjdk packages that fix multiple security issues are\nnow available for Red Hat Enterprise Linux 6.\nRed Hat Product Security has rated this update as having Important security\nimpact. Common Vulnerability Scoring System (CVSS) base scores, which give\ndetailed severity ratings, are available for each vulnerability from the\nCVE links in the References section."
+    },
+    "content_types": [
+      "rpm"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": true,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 19028,
+    "people": {
+      "assigned_to": "lzachar@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Default",
+      "package_owner": "jvanek@redhat.com",
+      "qe_group": "BaseOS QE - Applications",
+      "reporter": "thoger@redhat.com"
+    },
+    "product": {
+      "id": 16,
+      "name": "Red Hat Enterprise Linux",
+      "short_name": "RHEL"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 21,
+      "name": "ASYNC"
+    },
+    "respin_count": 0,
+    "revision": 1,
+    "security_impact": "Important",
+    "status": "PUSH_READY",
+    "synopsis": "Important: java-1.8.0-openjdk security update",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2014-10-03T15:02:05Z",
+      "issue_date": "2014-10-03T15:02:05Z",
+      "release_date": "2014-10-14T00:00:00Z",
+      "status_time": "2014-10-28T07:21:32Z",
+      "update_date": "2014-10-03T15:02:05Z",
+      "updated_at": "2014-10-28T07:21:32Z"
+    },
+    "type": "RHSA"
+  },
+  {
+    "advisory_name": "RHEA-2014:16616",
+    "content": {
+      "description": "New Tree ID:\n7aacaaaa8fa134fecd807a6cf003fe5425542c0446b200f84647c2c07e3042d9\nChanges since\nc65405d2a20e95c7c6aa30d1a59f80c12f0f004959767986dbc2b9942d48792a:\nUpgraded:\n cockpit-0.23-1.atomic.el7.x86_64\n* Wed Sep 10 2014 Stef Walter <stefw@redhat.com> - 0.23-1\n- Update to 0.23 release\n\n cockpit-assets-0.23-1.atomic.el7.noarch\n* Wed Sep 10 2014 Stef Walter <stefw@redhat.com> - 0.23-1\n- Update to 0.23 release\n\n ostree-2014.6-2.atomic.el7.x86_64\n* Mon Sep 08 2014 Colin Walters <walters@redhat.com> - 2014.6-2.atomic\n- New upstream release\n\n rpm-ostree-2014.106-2.atomic.el7.x86_64\n* Tue Sep 09 2014 Colin Walters <walters@redhat.com> - 2014.106-2.atomic\n- New upstream release\n- BR/R OSTree 2014.6\n\n* Fri Aug 08 2014 Colin Walters <walters@redhat.com> - 2014.105-2.atomic\n- New upstream release\n\n tuned-2.3.0-15.el7.noarch\n* Tue Sep 02 2014 Jaroslav Škarvada <jskarvad@redhat.com> - 2.3.0-15\n- updated man page to include atomic-host and atomic-guest profiles\n  related: rhbz#1091977, rhbz#1091979\n\n* Wed Aug 27 2014 Jaroslav Škarvada <jskarvad@redhat.com> - 2.3.0-14\n- add atomic-host and atomic-guest profiles\n  resolves: rhbz#1091977, rhbz#1091979",
+      "keywords": "",
+      "solution": "This update is available via the Red Hat Network",
+      "topic": "RHEL Atomic OSTree Update"
+    },
+    "content_types": [
+
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": true,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 16616,
+    "people": {
+      "assigned_to": "qa-errata-list@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Default",
+      "package_owner": "errata-test@redhat.com",
+      "qe_group": "Default",
+      "reporter": "errata-test@redhat.com"
+    },
+    "product": {
+      "id": 16,
+      "name": "Red Hat Enterprise Linux",
+      "short_name": "RHEL"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 21,
+      "name": "ASYNC"
+    },
+    "respin_count": 0,
+    "revision": 1,
+    "security_impact": "None",
+    "status": "PUSH_READY",
+    "synopsis": "RHEL Atomic OSTree Update",
+    "text_only": true,
+    "timestamps": {
+      "created_at": "2014-09-22T06:21:18Z",
+      "issue_date": "2014-09-22T06:21:18Z",
+      "release_date": null,
+      "status_time": "2014-09-22T06:49:35Z",
+      "update_date": "2014-09-22T06:21:18Z",
+      "updated_at": "2014-09-22T06:49:35Z"
+    },
+    "type": "RHEA"
+  },
+  {
+    "advisory_name": "RHEA-2014:16374",
+    "content": {
+      "description": "This is a CDN only advisory. Use with pride.",
+      "keywords": "",
+      "solution": "Before applying this update, make sure all previously released errata\nrelevant to your system have been applied.\n\nTo update all RPMs for your particular architecture, run:\n\nrpm -Fvh [filenames]\n\nwhere [filenames] is a list of the RPMs you wish to upgrade.  Only those\nRPMs which are currently installed will be updated.  Those RPMs which are\nnot installed but included in the list will not be updated.  Note that you\ncan also use wildcards (*.rpm) if your current directory *only* contains the\ndesired RPMs.\n\nPlease note that this update is also available via Red Hat Network.  Many\npeople find this an easier way to apply updates.  To use Red Hat Network,\nlaunch the Red Hat Update Agent with the following command:\n\nup2date\n\nThis will start an interactive process that will result in the appropriate\nRPMs being upgraded on your system.",
+      "topic": "This is a CDN only advisory."
+    },
+    "content_types": [
+      "rpm"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": false,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 16374,
+    "people": {
+      "assigned_to": "qa-errata-list@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Default",
+      "package_owner": "vcrhonek@redhat.com",
+      "qe_group": "Default",
+      "reporter": "vcrhonek@redhat.com"
+    },
+    "product": {
+      "id": 82,
+      "name": "Red Hat Core Infrastructure",
+      "short_name": "RHCI"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 269,
+      "name": "RHCI-1"
+    },
+    "respin_count": 0,
+    "revision": 1,
+    "security_impact": "None",
+    "status": "PUSH_READY",
+    "synopsis": "CDN Only Advisory",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2014-01-22T14:29:39Z",
+      "issue_date": "2014-01-22T14:29:39Z",
+      "release_date": null,
+      "status_time": "2014-01-22T15:22:35Z",
+      "update_date": "2014-01-22T14:29:39Z",
+      "updated_at": "2014-01-22T15:22:35Z"
+    },
+    "type": "RHEA"
+  },
+  {
+    "advisory_name": "RHSA-2011:11110",
+    "content": {
+      "description": "The JBoss Seam 2 framework is an application framework for building web\napplications in Java.\n\nIt was found that JBoss Seam 2 did not properly block access to JBoss\nExpression Language (EL) constructs in page exception handling, allowing\narbitrary Java methods to be executed. A remote attacker could use this\nflaw to execute arbitrary code via a specially-crafted URL provided to\ncertain applications based on the JBoss Seam 2 framework. Note: A properly\nconfigured and enabled Java Security Manager would prevent exploitation of\nthis flaw. (CVE-2011-1484)\n\nRed Hat would like to thank Martin Kouba from IT SYSTEMS a.s. for reporting\nthis issue.\n\nUsers of jboss-seam2 should upgrade to these updated packages, which\ncorrect this issue. The JBoss server process must be restarted for this\nupdate to take effect.",
+      "keywords": "",
+      "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\n\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/kb/docs/DOC-11259",
+      "topic": "Updated jboss-seam2 packages that fix one security issue are now available\nfor JBoss Enterprise Application Platform 5.1 for Red Hat Enterprise Linux\n4 and 5.\n\nThe Red Hat Security Response Team has rated this update as having\nimportant security impact. A Common Vulnerability Scoring System (CVSS)\nbase score, which gives a detailed severity rating, is available from the\nCVE link in the References section."
+    },
+    "content_types": [
+      "rpm"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": true,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 11110,
+    "people": {
+      "assigned_to": "oskutka@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "docs-errata-list@redhat.com",
+      "docs_group": "Default",
+      "package_owner": "mnovotny@redhat.com",
+      "qe_group": "Default",
+      "reporter": "mschoene@redhat.com"
+    },
+    "product": {
+      "id": 41,
+      "name": "JBoss Enterprise Application Platform",
+      "short_name": "JBEAP"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 21,
+      "name": "ASYNC"
+    },
+    "respin_count": 0,
+    "revision": 2,
+    "security_impact": "Important",
+    "status": "PUSH_READY",
+    "synopsis": "Important: jboss-seam2 security update",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2011-04-11T17:45:17Z",
+      "issue_date": "2011-04-11T17:45:17Z",
+      "release_date": "2011-04-20T00:00:00Z",
+      "status_time": "2011-04-18T04:01:01Z",
+      "update_date": "2011-04-11T17:45:17Z",
+      "updated_at": "2011-04-18T15:10:48Z"
+    },
+    "type": "RHSA"
+  },
+  {
+    "advisory_name": "RHBA-2011:10836",
+    "content": {
+      "description": "Squashfs is a highly compressed read-only filesystem for Linux.  This \npackage contains the utilities for manipulating squashfs file systems.\n\n * A glibc update exposed a coding error in mksquashfs. This error \nresulted in dracut hanging while booting the Red Hat Enterprise \nVirtualization Hypervisor from PXE/CDROM/USB and an invalid LiveCD \nimage being produced. The lines \"memcpy(data_cache, data_cache + \nSQUASHFS_METADATA_SIZE,\" and \"memcpy(directory_data_cache, \ndirectory_data_cache +\" were changed respectively to \n\"memmove(data_cache, data_cache + SQUASHFS_METADATA_SIZE,\" and \n\"memmove(directory_data_cache, directory_data_cache +\", thus a Red Hat \nEnterprise Virtualization Hypervisor boot from PXE/CDROM/USB now \nsuccessfully completes without hanging during a boot. (BZ#676774)\n\n * An error in unsquashfs code caused it to abort with \"FATAL ERROR \naborting: failed to read fragment table\" during attempts to read a v3 \nimage. The line \"return;\"is changed to \"return TRUE;\", thus unsquashfs \nis now able to read v3 images. (BZ#655952)\n\nUsers are advised to upgrade to this updated squashfs-tools package \nwhich resolves these issues.",
+      "keywords": "",
+      "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\n\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttp://kbase.redhat.com/faq/docs/DOC-11259",
+      "topic": "An updated squashfs-tools package that fixes two bugs is now available."
+    },
+    "content_types": [
+      "rpm"
+    ],
+    "flags": {
+      "closed": false,
+      "deleted": false,
+      "doc_complete": true,
+      "mailed": false,
+      "published": false,
+      "pushed": false,
+      "qa_complete": true,
+      "rhn_complete": false,
+      "rhnqa": true,
+      "sign_requested": false,
+      "text_ready": false
+    },
+    "id": 10836,
+    "people": {
+      "assigned_to": "asersen@redhat.com",
+      "devel_group": "Default",
+      "doc_reviewer": "mhusnain@redhat.com",
+      "docs_group": "Base",
+      "package_owner": "kmcmarti@redhat.com",
+      "qe_group": "BaseOS QE - Daemons",
+      "reporter": "apevec@redhat.com"
+    },
+    "product": {
+      "id": 16,
+      "name": "Red Hat Enterprise Linux",
+      "short_name": "RHEL"
+    },
+    "pushcount": 0,
+    "release": {
+      "id": 147,
+      "name": "RHEL-6.1.0"
+    },
+    "respin_count": 0,
+    "revision": 7,
+    "security_impact": "None",
+    "status": "PUSH_READY",
+    "synopsis": "squashfs-tools bug fix update",
+    "text_only": false,
+    "timestamps": {
+      "created_at": "2011-02-18T22:31:40Z",
+      "issue_date": "2011-02-18T22:31:40Z",
+      "release_date": null,
+      "status_time": "2011-03-11T06:00:37Z",
+      "update_date": "2011-02-18T22:31:40Z",
+      "updated_at": "2011-03-13T06:54:03Z"
+    },
+    "type": "RHBA"
+  }
+]

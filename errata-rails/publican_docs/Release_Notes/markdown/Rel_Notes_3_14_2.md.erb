@@ -1,0 +1,89 @@
+Release Notes for Version 3.14.2
+================================
+
+Overview
+--------
+
+Release 3.14.2 is the 3rd release in
+the Errata Tool 3.14 development period. It closes [12 bugs and RFEs][buglist].
+
+This release of Errata Tool includes new HTTP APIs for RHN channels and
+comments, allows to specify an e-mail for Kerberos principals, has workflow
+improvements for rpm-based container advisories and many more improvements.
+
+<!-- Specify any bug ids that should be sorted higher than others. -->
+<% sort_these_first %w[ ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.14.2][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1179378%2C1196005%2C1232064%2C1334838%2C1347082%2C1390568%2C1406949%2C1413223%2C1418319%2C1421879%2C1428293%2C1431155
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.14.2-0&id2=3.14.1.1-0
+
+<!-- [hotfixes]: https://bugzilla.redhat.com/buglist.cgi?bug_id=... -->
+
+<%= all_include_content %>
+
+<!-- Optional extras... -->
+<!--
+## Process and Team Changes
+
+### Code coverage
+
+...
+
+### Team changes
+
+...
+
+### Anything else relevant
+
+...
+-->
+
+What's Next
+------------
+
+### Errata Tool 3.14.z
+
+<!-- This will need some rewording if it's the last release before a Y increment -->
+
+The team will continue to select bugs and RFEs flagged as errata-3.14
+in Bugzilla for inclusion in three-week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be .
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.14 take a look at [bugs flagged with
+errata-3.14 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.15
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.15 take a look at [bugs
+flagged with errata-3.15][bugs_next].
+
+If you are interested in being involved in Errata Tool planning, please subscribe
+to [errata-dev-list][erratadevlist] and vote on the bugs and features in the
+backlog that would benefit you most.  To vote for a backlog item simply click
+the 'vote' link beside the Severity field when viewing the item then confirm
+your selection on the next page.  Each user gets a maximum of ten votes.
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.14&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.15&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

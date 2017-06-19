@@ -1,0 +1,29 @@
+# HTTP 200
+{
+  "data": {
+    "attributes": {
+      "active": false,
+      "created_at": "2015-10-09T04:16:17Z",
+      "external_id": 1983,
+      "external_message": "Metadata error\nhttps://engineering.redhat.com/rt/Ticket/Display.html?id=891234",
+      "external_status": null,
+      "status": "FAILED",
+      "test_type": "ccat",
+      "updated_at": "2015-10-09T04:16:17Z"
+    },
+    "id": 83,
+    "relationships": {
+      "errata": {
+        "errata_type": "RHSA",
+        "fulladvisory": "RHSA-2012:0987-01",
+        "id": 13147
+      },
+      "superseded_by": {
+        "id": 84,
+        "status": "FAILED",
+        "test_type": "ccat/manual"
+      }
+    },
+    "type": "external_tests"
+  }
+}

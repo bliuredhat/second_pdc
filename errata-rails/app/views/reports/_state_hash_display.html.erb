@@ -1,0 +1,19 @@
+<%#
+  #
+  # pass in stats as a local..
+  #
+-%>
+<% states_hash = Hash[stats] %>
+<% State.open_states.map(&:to_s).each do |s|%>
+  <% if states_hash[s] %>
+    <td>
+      <big><%= states_hash[s] %></big>
+      <%=raw state_display(s,:short=>true) %>
+    </td>
+  <% else %>
+    <td>&nbsp;</td>
+  <% end %>
+<% end %>
+<td class="light">
+  (<%= states_hash.values.sum %> total)
+</td>

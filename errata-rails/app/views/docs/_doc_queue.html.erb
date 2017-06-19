@@ -1,0 +1,152 @@
+<%
+#
+# Shows a list of advisories and their assigned doc reviewers.
+#
+# Pass in a local queue_mode => :my_queue to enable the
+# my queue mode. It will hide reviewer column and show two
+# extra links.
+queue_mode = :normal unless defined? queue_mode
+
+# Set this local to true to make it load faster by not showing the bug counts. See Bug 870163
+no_bug_counts = false unless defined? no_bug_counts
+
+case queue_mode
+when :my_queue
+  show_reviewer = false
+else
+  show_reviewer = true
+end
+
+# Table headers
+col_headers = [
+  tablesort_heading_custom_sort('Advisory'), # use class="sorter-advisory" maybe, see docs_sort.js
+  tablesort_heading_custom_sort('Release'),
+  tablesort_heading_custom_sort('Rel Date'),
+  tablesort_heading_custom_sort('State'),
+  (tablesort_heading_custom_sort_numeric('Bugs') unless no_bug_counts),
+  tablesort_heading_custom_sort_numeric('Pending<br/>Redraft'),
+  tablesort_heading_custom_sort('Synopsis'),
+  (tablesort_heading_custom_sort('Reviewer') if show_reviewer), # use class="sorter-reviewer" maybe, see docs_sort.js
+  tablesort_heading_no_sort('Links'),
+].compact
+
+# Table rows
+row_func = lambda do |errata|
+  row = []
+  row << tablesort_helper(
+    link_to(errata.advisory_name, { :controller=>:errata, :action=>:details, :id=>errata.id },
+      :target=>"_blank", :title=>"Details Tab", :class=>'advisory_link', :id => "link_to_#{errata.id}") +
+        pdc_indicator_for(errata),
+    special_fulladvisory_sort_helper(errata.fulladvisory)
+  )
+
+  # Some UI nicety: Make it so when you sort by release name there is a secondary sort by status (and vice versa)
+  row << tablesort_helper(
+    width_limited_with_mouseover(errata.release.name,'95px'),
+    "#{errata.release.name}_#{reverse_alpha_sort_index(errata.status)}"
+  )
+
+  # Remember the release_date field in the schema is actually the embargo date now.
+  # We are showing the 'publish date' not the embargo date...
+  release_date_display, release_date_sort = release_date_display_helper(errata)
+  row << tablesort_helper(release_date_display, "#{release_date_sort}_#{reverse_alpha_sort_index(errata.status)}")
+
+  row << tablesort_helper(
+    state_display(errata),
+    "#{reverse_alpha_sort_index(errata.status)}_#{errata.release.name}"
+  )
+
+  unless no_bug_counts
+    bug_count = errata.bugs.length
+    bug_not_missing_doc_text_count = errata.bugs_not_missing_doc_text.length
+    row << tablesort_helper(
+      link_to("#{bug_not_missing_doc_text_count}/#{bug_count}",
+        { :controller => :docs, :action=>:doc_text_info, :id=>errata.id }, :target=>"_blank", :title=>"Doc Text Info"),
+      bug_count,
+      :style => 'text-align:right;padding-right:1em;'
+    )
+  end
+
+  # An advisory in REL_PREP without docs_approval_requested must have been 'disapproved'
+  # It will be visible in docs queue now (see Bz 782277) but lets provide some indication
+  # that it is waiting on a docs redraft.
+  row << tablesort_helper(
+    (errata.docs_approval_requested? ? "" : yes_no_icon(false)),
+    # sort by flag, then by id, but always newest id first, (some trickery here..)
+    (errata.docs_approval_requested? ? (1000000 - errata.id) : (2000000 + errata.id)),
+    :style=>'text-align:center'
+  )
+
+  row << tablesort_helper(width_limited_with_mouseover(errata.synopsis,'250px', '', "synopsis_#{errata.id}"), errata.synopsis.downcase.strip)
+
+  reviewer_name_sort = errata.content.doc_reviewer.realname
+  reviewer_name_sort = "000000000" if reviewer_name_sort == User.default_docs_user.realname # make default_docs_user appear first
+
+  if show_reviewer
+    row << tablesort_helper(
+      render('docs/change_reviewer_ajax', :errata => errata) +
+        change_reviewer_link(errata.id,  errata.content.doc_reviewer_id),
+      # When sorting by reviewer, do a secondary sort by release, then status
+      "#{reviewer_name_sort}_#{errata.release.name}_#{reverse_alpha_sort_index(errata.status)}"
+    )
+  end
+
+  row << {
+    :content => render('/shared/icon_links', :id => errata.id),
+    :options => { :style => 'white-space:nowrap' }
+  }
+
+  row
+end
+%>
+<%# hack for when i am reusing this partial from list_format_docs %>
+<%# TODO: actually IS a bit broken when using pagination.. FIXME %>
+<div style="float:left">
+  <% if no_bug_counts %>
+    <b><%= doc_queue.count %></b> advisories.
+  <% else %>
+    <table>
+      <% bug_total = @bug_count_totals[:total] %>
+      <%= table_rows_helper([
+        [
+          'Advisories',      doc_queue.count,
+          'Total bug count', bug_total,
+        ],
+        [
+          'Text complete',     n_thing_or_things_percent(@bug_count_totals[:text_complete],     bug_total, 'bug'),
+          'Text not required', n_thing_or_things_percent(@bug_count_totals[:text_not_required], bug_total, 'bug'),
+          'Text incomplete',   n_thing_or_things_percent(@bug_count_totals[:text_missing],      bug_total, 'bug'),
+        ]
+      ], :labels=>true) %>
+    </table>
+  <% end %>
+</div>
+<div style="float:right;color:#aaa;font-size:85%;margin-top:3.2em;">
+  Links will open in a new tab.
+  <%= block_render 'shared/help_modal', :link_text=>"About 'Pending Redraft'.", :no_icon=>true do %>
+      <div style="font-size:120%; color:#000;">
+        The <i>Pending Redraft</i> column indicates advisories where the
+        <i>request docs approval</i> flag is not currently set.
+        <br/><br/>
+        This usually means that docs approval has been requested
+        and then subsequently rejected. (Or it could mean that for
+        some reason docs approval has not yet been requested).
+      </div>
+    <% end %>
+</div>
+
+<%= render(:partial => "shared/bz_table", :locals => {
+  :extra_class => 'show_visited',
+  :headers     => col_headers,
+  :row_items   => doc_queue,
+  :func        => row_func,
+}) %>
+
+<% if doc_queue.any? %>
+  <%# It doesn't matter which errata gets used here. The fields and info in this
+  form will be dynamically updated when the user clicks the button to change a
+  reviewer. See docs_queue.js.  %>
+  <div style="display:none" class="modal slightly-taller-modal edit_container" id="edit_reviewer_modal_container">
+    <%= render('change_docs_reviewer_modal', :errata=>doc_queue.first,  :ajax_submit=>true) %>
+  </div>
+<% end %>

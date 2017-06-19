@@ -1,0 +1,31 @@
+<%
+   prefix = available ? "" : "not_"
+   check_box_class = 'pkg_check_box'
+   check_box_class += ' not_pkg_check_box' unless available
+%>
+
+<li class="pkg_list_keys">
+  <div class="package-item">
+  <%= check_box("#{prefix}pkgs", package.id,
+                {:class=>check_box_class, :data=>{ "id" => "#{prefix}pkg_#{package.id}" }}) %>
+  <%= label_tag("#{prefix}pkgs_#{package.id}", package.name, :class=>'bold') %>
+  <%= render 'package_list_show_owner', :package => package %>
+  </div>
+  <div id="<%= prefix %>pkg_<%= package.id %>" class="pkg_bug_list">
+    <% if available && package_list[package].present? %>
+      <div class="eligible-bugs">
+        <%= render :partial => 'package_list_show_bug', :collection => package_list[package], :as => :b %>
+      </div>
+    <% end %>
+    <% if @packages_not_eligible[package].present? %>
+      <hr>
+      <div class="ineligible-title">
+        <span>Ineligible Bugs</span>
+        <span class="fa fa-sort-desc"></span>
+      </div>
+      <div class="ineligible-bugs">
+        <%= render :partial => 'package_list_show_bug', :collection => @packages_not_eligible[package], :as => :b, :locals => {:not_available => true} %>
+      </div>
+    <% end %>
+  </div>
+</li>

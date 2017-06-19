@@ -1,0 +1,23 @@
+<%= render '/shared/bz_table', {
+  :extra_class => 'bug_list_bigger',
+  :table_width => '',
+
+  :headers => [
+    'Name',
+    'Description',
+    'Required Tests',
+    'Created',
+    'Locked?',
+  ],
+
+  :row_items => @rule_sets,
+
+  :func => lambda { |rule_set| [
+    link_to(rule_set.name, :action => :show, :id => rule_set),
+    link_to(rule_set.description, :action => :show, :id => rule_set),
+    rule_set.test_requirements_text,
+    rule_set.created_at.to_s(:mmm_d_y),
+    rule_set_locked_text(rule_set),
+  ]},
+
+}%>

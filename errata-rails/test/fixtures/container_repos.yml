@@ -1,0 +1,7 @@
+container_repo_1:
+  id: 1
+  container_content_id: 3
+  name: rhel7/rhel-tools
+  cdn_repo_id:
+  tags: 7.2 7.2-51
+  comparison: "{\"reason\":\"OK\",\"rpms\":{\"new\":[],\"upgrade\":[\"python-libs-2.7.5-39.el7_2.x86_64\",\"perf-3.10.0-327.36.1.el7.x86_64\",\"selinux-policy-3.13.1-60.el7_2.9.noarch\",\"python-2.7.5-39.el7_2.x86_64\",\"selinux-policy-minimum-3.13.1-60.el7_2.9.noarch\",\"selinux-policy-targeted-3.13.1-60.el7_2.9.noarch\",\"kmod-libs-20-8.el7_2.x86_64\",\"kernel-3.10.0-327.36.1.el7.x86_64\",\"kmod-20-8.el7_2.x86_64\",\"kpartx-0.4.9-85.el7_2.6.x86_64\",\"kernel-devel-3.10.0-327.36.1.el7.x86_64\",\"kernel-headers-3.10.0-327.36.1.el7.x86_64\"],\"downgrade\":[],\"remove\":[]},\"with_nvr\":\"rhel-tools-docker-7.2-49\",\"reason_text\":\"No error\"}"

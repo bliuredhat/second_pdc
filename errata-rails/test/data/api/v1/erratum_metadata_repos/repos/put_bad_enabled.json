@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "rhel-6-server-rpms__6Server__x86_64 enabled": [
+      "expected boolean, got String"
+    ]
+  }
+}

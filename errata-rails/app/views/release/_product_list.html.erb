@@ -1,0 +1,28 @@
+<span id="product_list">
+<%=
+  disabled = false
+  if @release.is_pdc?
+    product_list = Product.active_products.supports_pdc
+    action = :pdc_releases_for_product
+    disabled = true if @is_editing && @release.errata.any?
+  else
+    product_list = Product.active_products
+    action = :product_versions_for_product
+  end
+  product_list.collect! { |d| [d.name, d.id] }
+  pv_selected = -1
+  pv_selected = @release.product.id if @release.product
+  select(
+    :release, :product_id,
+    product_list, { :selected => pv_selected },
+          'data-remote' => true,
+          'data-url' => url_for(:controller => :release, :action => action, :id => @release),
+          :disabled => disabled)
+%>
+
+<% if disabled && @release.is_pdc? && @release.errata.any? %>
+  <%= block_render('shared/help_popover') do %>
+    <p>Can't change because the release already has at least one advisory</p>
+  <% end %>
+<% end %>
+</span>

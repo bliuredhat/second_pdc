@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "errata_name": [
+      "not found: bad1, bad2"
+    ]
+  }
+}

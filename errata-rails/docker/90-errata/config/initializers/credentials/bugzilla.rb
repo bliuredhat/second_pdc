@@ -1,0 +1,5 @@
+module Bugzilla
+  BUGZILLA_SERVER   = ENV['ET_DEV_RPC_BUGZILLA_SERVER'  ] || 'partner-bugzilla.redhat.com'
+  BUGZILLA_USER     = ENV['ET_DEV_RPC_BUGZILLA_USER'    ]
+  BUGZILLA_PASSWORD = ENV['ET_DEV_RPC_BUGZILLA_PASSWORD']
+end

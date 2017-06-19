@@ -1,0 +1,59 @@
+#
+# Pre-scrum:
+# - rpm_ready and deployed are accurate and based on RT tickets
+# - start_date is an estimate
+#
+# Post-scrum:
+# - rpm_ready and deployed are accurate and based on RT tickets/JIRA tasks
+# - start_date and development_end are set to the applicable
+#   fortnightly sprint boundary
+#
+# Other key dates are derived but you can set them explicitly here
+# if you want to. See generate-tjp.rb and errata-tjp.erb
+#
+{
+
+  # Pre-scrum
+  "3.0.0": { "start_date": "2012-09-03", "rpm_ready": "2012-10-30", "deployed": "2012-10-31" },
+  "3.1.0": { "start_date": "2012-11-01", "rpm_ready": "2012-12-13", "deployed": "2012-12-14" },
+  "3.2.0": { "start_date": "2012-12-17", "rpm_ready": "2013-03-12", "deployed": "2013-03-13" },
+  "3.3.0": { "start_date": "2013-03-14", "rpm_ready": "2013-04-24", "deployed": "2013-04-25" },
+  "3.4.0": { "start_date": "2013-05-27", "rpm_ready": "2013-06-18", "deployed": "2013-06-19" },
+  "3.5.0": { "start_date": "2013-06-20", "rpm_ready": "2013-08-26", "deployed": "2013-08-28" },
+  "3.6.0": { "start_date": "2013-08-29", "rpm_ready": "2013-11-13", "deployed": "2013-11-15" },
+  "3.7.0": { "start_date": "2013-11-18", "rpm_ready": "2014-02-05", "deployed": "2014-02-19" },
+  "3.8.0": { "start_date": "2014-02-20", "rpm_ready": "2014-03-28", "deployed": "2014-04-01" },
+  "3.9.0": { "start_date": "2014-04-02", "rpm_ready": "2014-07-08", "deployed": "2014-07-10" },
+
+  # Post-scrum
+  "3.10.0": { "start_date": "2014-07-11", "development_end": "2014-08-28", "rpm_ready": "2014-09-01", "deployed": "2014-09-15" },
+  "3.10.1": { "start_date": "2014-08-28", "development_end": "2014-09-25", "rpm_ready": "2014-09-30", "deployed": "2014-10-02" },
+  "3.10.2": { "start_date": "2014-09-25", "development_end": "2014-10-09", "rpm_ready": "2014-10-22", "deployed": "2014-10-22" },
+  "3.10.3": { "start_date": "2014-10-09", "development_end": "2014-10-30", "rpm_ready": "2014-11-06", "deployed": "2014-11-10" },
+  "3.10.4": { "start_date": "2014-10-30", "development_end": "2014-11-13", "rpm_ready": "2014-11-21", "deployed": "2014-11-24" },
+  "3.10.5": { "start_date": "2014-11-13", "development_end": "2014-11-27", "rpm_ready": "2014-12-10", "deployed": "2014-12-14" },
+  "3.10.6": { "start_date": "2014-11-27", "development_end": "2015-01-08", "rpm_ready": "2015-01-20", "deployed": "2015-01-21" },
+
+  "3.11.0": { "start_date": "2015-01-08", "development_end": "2015-03-05", "rpm_ready": "2015-03-16", "deployed": "2015-03-17" },
+  "3.11.1": { "start_date": "2015-03-05", "development_end": "2015-03-19", "rpm_ready": "2015-03-26", "deployed": "2015-03-30" },
+  "3.11.2": { "start_date": "2015-03-19", "development_end": "2015-04-02", "rpm_ready": "2015-04-15", "deployed": "2015-04-21" },
+  "3.11.3": { "start_date": "2015-04-02", "development_end": "2015-05-28", "rpm_ready": "2015-06-03", "deployed": "2015-06-04" },
+  "3.11.4": { "start_date": "2015-05-28", "development_end": "2015-06-25", "rpm_ready": "2015-07-02", "deployed": "2015-07-09" },
+  "3.11.5": { "start_date": "2015-06-25", "development_end": "2015-07-23", "rpm_ready": "2015-08-04", "deployed": "2015-08-05" },
+  "3.11.6": { "start_date": "2015-07-23", "development_end": "2015-08-20", "rpm_ready": "2015-08-24", "deployed": "2015-08-26" },
+  "3.11.7": { "start_date": "2015-08-20", "development_end": "2015-09-03", "rpm_ready": "2015-09-14", "deployed": "2015-09-16" },
+  "3.11.8": { "start_date": "2015-09-03", "development_end": "2015-10-14", "rpm_ready": "2015-11-03", "deployed": "2015-11-04" },
+  "3.11.9": { "start_date": "2015-10-14", "development_end": "2015-11-12", "rpm_ready": "2015-11-26", "deployed": "2015-11-26" },
+
+  "3.12.0": { "start_date": "2015-11-12", "development_end": "2015-12-10", "rpm_ready": "2015-12-17", "deployed": "2015-12-21" },
+  "3.12.1": { "start_date": "2015-12-10", "development_end": "2016-01-21", "rpm_ready": "2016-02-02", "deployed": "2016-02-03" },
+  "3.12.2": { "start_date": "2016-01-21", "development_end": "2016-03-11", "rpm_ready": "2016-03-16", "deployed": "2016-03-17" },
+  "3.12.3": { "start_date": "2016-03-11", "development_end": "2016-04-28", "rpm_ready": "2016-05-09", "deployed": "2016-05-12" },
+  "3.12.4": { "start_date": "2016-04-28", "development_end": "2016-05-12", "rpm_ready": "2016-05-23", "deployed": "2016-05-26" },
+  "3.12.5": { "start_date": "2016-05-12", "development_end": "2016-06-09", "rpm_ready": "2016-07-08", "deployed": "2016-07-12" },
+
+  # Includes estimates subject to change...
+  "3.13.0": { "start_date": "2016-06-09", "development_end": "2016-07-07" },
+  "3.13.1": { "start_date": "2016-07-07" }
+
+}

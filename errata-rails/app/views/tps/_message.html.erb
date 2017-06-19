@@ -1,0 +1,31 @@
+<%
+  tps_guards = errata.send("#{type}_guards_in_current_state")
+  # Show not blocking message if the advisory has TPS guards in the current state and at
+  # least one of them is info guard
+  show_not_blocking_message = tps_guards.any? && tps_guards.any?{|g| g.guard_type == "info"}
+  should_auto_schedule_tps = errata.should_auto_schedule_tps?(type == :tps_rhnqa)
+  info_links = Settings.tps_no_blocking_info_links
+  release = errata.release.name
+%>
+<% unless !show_not_blocking_message && should_auto_schedule_tps %>
+  <div class="alert alert-info">
+  <% if show_not_blocking_message %>
+    <p><strong>
+      <%
+        messages = [
+          "#{name} test is not blocking for this release.",
+          ("Click #{link_to('here', info_links[release])} for more information.".html_safe if info_links && info_links[release])
+        ].compact
+      %>
+      <%= safe_join(messages, " ") %>
+    </strong></p>
+  <% end %>
+
+  <% unless should_auto_schedule_tps %>
+    <p>
+      The <%= name %> jobs you see here were not scheduled automatically by Errata Tool. (The default status is <strong>NOT_SCHEDULED</strong>). If you would like to schedule a job, you can click the 'Schedule' button or click
+      'Reschedule All' to schedule all available <%= name %> jobs. You can also click "Check For Missing" button to create missing <%= name %> jobs without scheduling them.
+    </p>
+  <% end %>
+  </div>
+<% end %>

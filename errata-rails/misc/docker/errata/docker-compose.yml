@@ -1,0 +1,69 @@
+version: '2'
+services:
+  ### base images ###
+  rhel6:
+    build:
+      context: base/rhel6
+
+  devbase:
+    build:
+      context: base/dev
+      args:
+          user_id: '1000'
+
+  testdevbase: &adhoc_settings
+    image: errata_devbase
+    working_dir: /code
+    user: '1000'
+    privileged: true
+    volumes:
+      - ../../../:/code
+      - ../../../../:/project_dir
+      # - ~/Developer/Hat/Docker/errata/home/dev:/home/dev
+    ports:
+      - "3000"
+      - "3306"
+      - "80"
+
+
+  ### development env ###
+  # use: docker-compose run --service-ports dev
+  dev: &dev
+    build:
+      context: dev
+    working_dir: /code
+    user: '1000'
+    privileged: true
+    volumes:
+      - ../../../:/code
+      - ../../../../:/project_dir
+      # - ~/Developer/Hat/Docker/errata/home/dev:/home/dev
+          # - ../../../:/code
+    # - ../../../../:/project_dir
+      - ~/Workstation/Gerrit/errata-rails/errata-dev-home:/home/dev
+    ports:
+      - "3000:3000"
+      - "3306:3306"
+      - "80:8000"
+
+  ### adhocdev is like dev but randomises port forwarding
+  ### so that as may adhoc environments can be created as needed
+  # use: docker-compose run --service-ports adhocdev
+  # port info: docker-compose ps
+  adhocdev:
+    <<: *adhoc_settings
+    image: errata_dev
+
+
+  ruby22:
+    <<: *dev
+    build:
+      context: ruby22
+    ports:
+      - "2222:3000"
+      - "23306:3306"
+
+  test_runner:
+    build:
+      context: ci/testrunner
+    image:  docker-registry.engineering.redhat.com/errata-tool/test_runner:20170420_00

@@ -1,0 +1,14 @@
+# HTTP 400
+{
+  "errors": {
+    "RHBA-2011:11118 cdn": [
+      "Can't push advisory to Cdn Live now due to: This errata cannot be pushed to RHN Live, thus may not be pushed to CDN"
+    ],
+    "RHEA-2011:10718 cdn": [
+      "is currently not an applicable push target for RHEA-2011:10718"
+    ],
+    "RHSA-2015:19463 cdn": [
+      "Can't push advisory to Cdn Live now due to: This errata cannot be pushed to RHN Live, thus may not be pushed to CDN"
+    ]
+  }
+}

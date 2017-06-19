@@ -1,0 +1,3 @@
+<% @products.sort_by(&:id).each do |p| %>
+<%= p.short_name %>: <%= p.brew_rpm_name_prefixes.map(&:text).sort.join(',') %>
+<% end -%>

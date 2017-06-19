@@ -1,0 +1,11 @@
+/*
+ * Actually a bunch of screen shots in Filing_an_Advisory have borders
+ * in the image so turn this off again for User_Guide... :S
+ * Leaving some margin though.
+ * (Todo: redo screenshots without the hard borders)
+ */
+.chapter .inlinemediaobject > img {
+    box-shadow: none;
+    padding:0;
+    max-width:100%;
+}

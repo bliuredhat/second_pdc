@@ -1,0 +1,36 @@
+id_1:
+  id: "1"
+  updated_at: 2013-01-30 11:08:00
+  created_at: 2013-01-30 11:08:00
+  info_url: https://engineering.redhat.com/trac/CoverityScan/wiki
+  prod_run_url: http://cov01.lab.eng.brq.redhat.com/covscanhub/waiving/et_mapping/$ID/
+  display_name: Coverity Scan
+  name: covscan
+  tab_name: Covscan
+  active: "1"
+  test_run_url: https://uqtm.lab.eng.brq.redhat.com/covscanhub/waiving/et_mapping/$ID/
+  sort_key: "0"
+external_test_type_2:
+  name: ccat
+  tab_name: CCAT
+  created_at: 2015-10-01 00:02:50 Z
+  prod_run_url: http://nest.test.redhat.com/mnt/qa/content_test_results/ccat/errata/$ID/logs/$ERRATA_ID-results.html
+  info_url: https://mojo.redhat.com/docs/DOC-1051013
+  test_run_url: http://nest.test.redhat.com/mnt/qa/content_test_results/ccat/errata/$ID/logs/$ERRATA_ID-results.html
+  updated_at: 2015-10-01 00:02:50 Z
+  id: 2
+  display_name: CDN Content Availability
+  sort_key: 10
+  active: true
+external_test_type_3:
+  name: ccat/manual
+  tab_name: CCAT
+  created_at: 2015-10-02 00:02:50 Z
+  prod_run_url: http://nest.test.redhat.com/mnt/qa/content_test_results/ccat/manual/$ID/logs/$ERRATA_ID-results.html
+  info_url: https://mojo.redhat.com/docs/DOC-1051013
+  test_run_url: http://nest.test.redhat.com/mnt/qa/content_test_results/ccat/manual/$ID/logs/$ERRATA_ID-results.html
+  updated_at: 2015-10-02 00:02:50 Z
+  id: 3
+  display_name: CDN Content Availability (manual)
+  sort_key: 11
+  active: true

@@ -1,0 +1,31 @@
+<% for item in bz_rows
+  tr_options = {
+    :id    => object_row_id(item), # might be nil
+    :class => cycle('bz_even', 'bz_odd', :name=>'bz_table_rows'),
+  }
+  r = func.call(item)
+  if r.is_a? Hash
+    tr_options.merge!(r[:options])
+    tr_options[:class] += " #{r[:options].delete(:extra_class)}" if r[:options][:extra_class] # lets you keep the bz_even, bz_odd class
+    tr_options[:class] += " errata_row" if item.is_a?(Errata)
+    row_items = r[:content]
+  elsif r.is_a? String
+    row_items = [r]
+  else
+    row_items = r
+  end
+  row = row_items.map { |f|
+    if f.is_a? Hash
+      content_tag(:td, f[:content].to_s, f[:options])
+    else
+      content_tag(:td, f.to_s)
+    end
+  }.join("\n")
+  %>
+
+  <%# Hack to get grouped headings into these old list formats while still using bz_table.. %>
+  <%# At some stage we should probably redo the old advisory list formats so they don't use bz_table %>
+  <% if @errata_filter && item.is_a?(Errata) %><%= render 'errata/list_grouped_header', :errata=>item, :colspan=>row_items.length %><% end %>
+
+  <%= content_tag(:tr, row, tr_options, false) %>
+<% end %>

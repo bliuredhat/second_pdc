@@ -1,0 +1,83 @@
+Release Notes for Version 3.13.3
+================================
+
+Overview
+--------
+
+Release 3.13.3 is the 4th release in
+the Errata Tool 3.13 development period. It closes [32 bugs and RFEs][buglist].
+
+This release of Errata Tool includes improvements related to docker advisory
+support, product security workflow, the API, plus a number of other bug fixes
+and enhancements.
+
+Additionally, during the 3.13.3 development period, an additional [5 bug
+fixes][hotfixes] were shipped in releases 3.13.2.1 to 3.13.2.5.
+
+<% sort_these_first %w[ ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.13.3][buglist]
+* [Full code diff for this release][diff1]
+
+<!-- If there was a hotfix: -->
+<!-- * [Full code diff for this release][diff2]
+* [Code diff since 3.13.2][diff1] -->
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=806882%2C1166008%2C1172518%2C1182384%2C1245460%2C1272789%2C1278692%2C1292774%2C1294766%2C1300910%2C1305500%2C1318236%2C1324581%2C1325862%2C1333252%2C1339194%2C1341897%2C1359882%2C1360361%2C1361374%2C1365219%2C1365345%2C1374522%2C1374665%2C1375085%2C1381386%2C1381389%2C1381602%2C1381763%2C1381773%2C1386011%2C1389145
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.13.3-0&id2=3.13.2-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.13.3-0&id2=3.13.2.1-0
+[hotfixes]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1388262%2C1330496%2C1384283%2C1383134%2C1375848
+
+<%= all_include_content %>
+
+## Team changes
+
+This release includes contributions from developer Wenjie Guo
+(<wguo@redhat.com>) who has recently joined the Errata Tool team after
+previously working on Maitai.
+
+
+What's Next
+------------
+
+### Errata Tool 3.13.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.13
+in Bugzilla for inclusion in two-week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be .
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.13 take a look at [bugs flagged with
+errata-3.13 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.14
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.14 take a look at [bugs
+flagged with errata-3.14][bugs_next].
+
+If you are interested in being involved in Errata Tool planning, please subscribe
+to [errata-dev-list][erratadevlist] and vote on the bugs and features in the
+backlog that would benefit you most.  To vote for a backlog item simply click
+the 'vote' link beside the Severity field when viewing the item then confirm
+your selection on the next page.  Each user gets a maximum of ten votes.
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.13&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.14&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

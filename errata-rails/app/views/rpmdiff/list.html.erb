@@ -1,0 +1,17 @@
+<div style="float:right" class="btn-group">
+  <%= link_to('Manage Waivers', {:action => :manage_waivers, :id => @errata}, :class => 'btn') %>
+  <%= link_to('Waiver History', {:action => :waivers_for_errata, :id => @errata}, :class => 'btn') %>
+  <% if @reschedule_permitted %>
+     <%= link_to("Reschedule All RPMDiff Runs", {:action => 'reschedule_all', :id => @errata},
+              :confirm => "Reschedule All Runs for Advisory #{@errata.shortadvisory}...\nAre you sure?",
+              :method => :post, :class => 'btn' ) %>
+  <% end %>
+</div>
+
+<h1><%= @page_title %></h1>
+
+<%= current_runs %>
+<%= duplicate_runs %>
+<%= obsolete_runs %>
+
+<%= render 'report_bug_msg' %>

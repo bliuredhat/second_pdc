@@ -1,0 +1,140 @@
+<h2><%= @page_title %></h2>
+
+<%#
+  #
+  # Show some generic stuff about the Erratum, eg release, product, status.
+  #
+-%>
+<%= render 'errata/brief_summary' %>
+
+<%#
+  #
+  # Show warning if the advisory is from year or older.
+  # (Might be sub-optimal in early January)
+  #
+-%>
+<% errata_year = @errata.shortadvisory.split(':').first.to_i %>
+<% if errata_year != Time.now.year %>
+  <div class="infobox with_icon alert_icon"><div>
+
+    <b>WARNING:</b> This advisory has a different year than the current: <%= errata_year %>
+    vs <%= Time.now.year %>. Be certain you mean to push this live!
+
+  </div></div>
+<% end %>
+
+<%#
+  #
+  # Show warning if a docker advisory has unpushed container advisories.
+  # NOTE: This should be temporary; the check should be a push blocker.
+  # See https://bugzilla.redhat.com/show_bug.cgi?id=1418319
+  #
+-%>
+<% if @errata.has_docker? && @errata.has_active_container_errata? %>
+  <div class="infobox with_icon alert_icon"><div>
+
+    <b>WARNING:</b> A docker image included in this advisory contains
+    RPM-based advisories that have not yet been shipped.
+
+  </div></div>
+<% end %>
+
+<%#
+  #
+  # Show the user a warning if there are embargoed bugs.
+  #
+-%>
+<% if !@errata.embargoed_bugs.empty? %>
+  <div class="infobox with_icon alert_icon"><div>
+
+    <b>WARNING:</b> The following bugs are still embargoed:
+    <ul>
+      <% @errata.embargoed_bugs.each do |b| -%>
+        <li><%= bug_link(b) %> - <%=h b.short_desc %></li>
+      <% end -%>
+    </ul>
+
+  </div></div>
+<% end %>
+
+<%#
+  #
+  # Possibly warn about non-RPM content
+  #
+-%>
+<% if Settings.show_nonrpm_warning && @errata.has_nonrpms? && !@errata.has_docker? %>
+  <div class="infobox with_icon alert_icon"><div>
+
+    <b>WARNING:</b> This advisory contains non-RPM content.<br/><br/>
+    The usage of non-RPM files in Errata Tool is provided as a technical preview only.<br/>
+    These files will not be included in the push!
+
+  </div></div>
+<% end %>
+
+<%#
+  #
+  # Let the user know if the name will change when pushed live.
+  #
+-%>
+<% if !@errata.has_live_id_set? %>
+  <div class="infobox with_icon info_icon"><div>
+
+    <b>Note:</b> This advisory is using a temporary public id <%= @errata.fulladvisory %>.
+    It will be pushed live as <b><%= live_advisory_name(@errata) %></b>
+
+  </div></div>
+<% end %>
+
+<%#
+  #
+  # Form starts here.
+  #
+  # Want to use f.fields_for inside this form, so invent an
+  # arbitrary container object called push_options_fields.
+  #
+-%>
+<div class="infobox grey"><div style="width:800px;">
+    <% @push_options_fields = {} %>
+    <%= form_for :push_options_fields, :url => { :action => :push_errata_submit }, :html => {:id => 'push_form'} do |f| %>
+
+      <% @policies.each do |policy| %>
+        <fieldset class="push_container nomargin">
+          <legend> <%= policy.push_type_name %> Push</legend>
+          <% if policy.push_possible? %>
+            <%= render_push_target(policy) %>
+            <div class="indent">
+              <% job = policy.create_new_push_job(@user) %>
+              <%= f.fields_for job do |rhn_fields| %>
+                <%= render 'push_job_options', :push_job => job, :f => rhn_fields %>
+              <% end %>
+            </div>
+          <% else %>
+            <div class="indent"><i>Not available. </i>
+              <ul>
+                <% policy.errors.values.each do |msg|%>
+                  <li><%=raw msg %> </li>
+                <% end %>
+              </ul>
+            </div>
+          <% end %>
+        </fieldset>
+      <% end %>
+
+      <br/>
+      <div style="text-align:right;" id="submit_button">
+
+      <%= link_to 'Cancel', {:controller => :errata, :action => :view, :id => @errata.id}, :class => 'btn btn-default', :style => 'vertical-align: bottom'   %>
+      <%= f.submit 'Push', :class=>'btn btn-primary btn-large', :style=>'margin-right:1em;' %>
+    </div>
+
+  <% end %>
+</div></div>
+
+<%#
+  #
+  # Show some push related information, eg channels and rpms.
+  #
+-%>
+<h2>Details</h2>
+<%= render 'show_push_details' %>

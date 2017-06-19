@@ -1,0 +1,9 @@
+<div class="btn-group" style="float:right;">
+  <%= link_to('Manage Waivers', {:action => :manage_waivers, :id => @errata}, :class => 'btn') %>
+  <%= link_to('RPMDiff Runs', {:action => :list, :id => @errata}, :class=>'btn') %>
+</div>
+<%= page_title_h1 %>
+
+<%= render 'waiver_table', :show_errata => false %>
+
+<%= render 'report_bug_msg' %>

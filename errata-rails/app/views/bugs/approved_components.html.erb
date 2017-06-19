@@ -1,0 +1,28 @@
+<%= page_title_h1 %>
+<% if @release.approved_components.empty? %>
+<p>There are no approved components for this release.</p>
+<% else %>
+<% # wrap in a hash defaulting to an empty list of bugs for a package
+   release_bugs = Hash.new{|h,k|h[k]=[]}.merge!(@release.bugs.where(:package_id => @release.approved_components).group_by(&:package_id))
+   row_func = lambda do |pkg|
+
+   row = []
+   elem = "#{pkg.name}"
+   if(@pkg_errata.has_key?(pkg))
+     elem += " - <b>covered</b><br/>"
+     elem += errata_link(@pkg_errata[pkg])
+   end
+   row << elem.html_safe
+   row << "#{pkg.devel_owner.to_s}"
+   row << "#{pkg.qe_owner.to_s}"
+   bugids = release_bugs[pkg.id].collect {|b| bug_link(b) + " - #{b.bug_status} - #{CGI.escapeHTML(b.short_desc)}" }.join('<br/>')
+   row << "#{bugids}".html_safe
+end
+ %>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Component', 'Devel Owner', 'QE Owner', 'Approved Bugs'],
+:func => row_func,
+:row_items => @release.approved_components
+}) %>
+<% end %>

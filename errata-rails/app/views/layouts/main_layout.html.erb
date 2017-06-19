@@ -1,0 +1,290 @@
+<%#
+  #
+  # The layout is mainly in layouts/eso_theme/main_layout which is
+  # dropped in from the eso theme.
+  #
+  # See https://engineering.redhat.com/trac/eso-theme
+  #
+  #
+-%>
+<% content_for :head_top do %>
+  <%= stylesheet_link_tag "transitional"  %>
+  <%= stylesheet_link_tag "eso-theme/et-shim"  %>
+  <link rel="icon" href="/images/erratatool.ico" />
+<% end %>
+
+<% content_for :head do %>
+  <%# looks like include :default javascript will
+    # affect other javascripts in the application.
+    # Not sure about the reason. That broke the search dialog
+    # when include :default.
+  %>
+  <%= javascript_include_tag('application') %>
+  <%= javascript_include_tag('lib/jquery_ujs') %>
+  <%= javascript_include_tag('lib/jquery.tablesorter') %>
+  <%= javascript_include_tag('tablesort_parsers') %>
+  <%= stylesheet_link_tag "master" %>
+
+  <%= stylesheet_link_tag(*@extra_styles) if @extra_styles %>
+  <%= javascript_include_tag(*@extra_scripts) if @extra_scripts %>
+
+  <%# for showing ajax flash notices %>
+  <%= javascript_include_tag('flash_notice') %>
+
+  <%# Column click table sorting in javascript %>
+  <%= javascript_include_tag('tablesort_init') %>
+
+  <%# Used for loading the rss items in the 'News' menu %>
+  <%= javascript_include_tag('lib/jquery.jfeed') %>
+  <%= javascript_include_tag('lib/jquery.cookie') %>
+  <%= javascript_include_tag('rss_widget') %>
+  <%# Another attempt to fix crappy firefox font FOUC...
+    Seems to work (?). See: http://paulirish.com/2009/fighting-the-font-face-fout/#defeatthefout -%>
+  <script type="text/javascript">
+    (function(){
+      // if firefox 3.5+, hide content till load (or 3 seconds) to prevent FOUT
+      var d = document, e = d.documentElement, s = d.createElement('style');
+      if (e.style.MozTransform === ''){ // gecko 1.9.1 inference
+        s.textContent = 'body{visibility:hidden}';
+        var r = document.getElementsByTagName('script')[0];
+        r.parentNode.insertBefore(s, r);
+        function f(){ s.parentNode && s.parentNode.removeChild(s); }
+        addEventListener('load',f,false);
+        setTimeout(f,3000);
+      }
+    })();
+  </script>
+<% end %>
+
+<% content_for :main_nav do %>
+  <%= render(:partial => "/layouts/mainmenu_links") %>
+<% end %>
+
+<% content_for :pre_content do %>
+<div class="flash_container fixedTop">
+  <% for flash_type in [:notice, :alert, :error] do %>
+    <%= render 'layouts/flash', :flash_obj => flash, :flash_type => flash_type %>
+  <% end %>
+</div>
+
+  <div id="system_info_message"></div>
+
+  <%#
+    #
+    # Currently only using this for the 'New Advisory' button.
+    # Maybe other pages could put buttons here later..
+    #
+  -%>
+  <% if @button_bar_partial %>
+    <div class="btn-group" style="float:right;margin-top:8px;">
+      <%= render(@button_bar_partial) %>
+    </div>
+  <% end %>
+
+  <%#
+    #
+    # Render main page heading.
+    #
+    # Untidy stuff here. Could move this to a partial or helper.
+    # There is also @page_name but maybe that's not used much?
+    # Worry about it later.
+    # See also set_page_title, page_title_helper
+    #
+  -%>
+  <%
+    unless @_no_auto_title
+      if @errata && !@errata.is_a?(Array) && !@errata.new_record?
+        %><%= render '/layouts/errata_common_header' %><%
+      elsif !@_already_shown_h1 && @page_title.present?
+        # If there is a @page_title use it.
+        # Try to prevent duplicate h1s by checking @_already_shown_h1
+        # which is set in the page_title_h1 helper.
+        # (This is a bit messed up since we sometimes want the view's
+        # h1 to be inside a tab and to also show a more generic h1 here
+        # above the tabs..)
+        %><h1><%= @page_title %></h1><%
+      else
+        # guess_page_title derives a title from the active main nav section.
+        # See application_helper.
+        @page_title = guess_page_title
+        if @page_title
+          %><h1><%= @page_title %></h1><%
+        end
+      end
+    end
+  -%>
+
+  <%#
+    #
+    # Secondary nav is now rendered as top level tabs.
+    #
+  -%>
+  <% if @secondary_nav %>
+    <div class="eso-tabs">
+      <div class="eso-tab-bar">
+        <% @secondary_nav.each do |nav_link|
+          # (Don't want these in the link)
+          link_selected = nav_link.delete(:selected)
+          link_name     = nav_link.delete(:name)
+          link_title    = nav_link.delete(:title)
+          nav_link.delete(:also_selected_for)
+          %>
+          <%= link_to link_name, nav_link, :title => link_title, :class => (link_selected ? 'selected' : '') %>
+        <% end %>
+      </div>
+
+      <div class="eso-tab-content">
+
+        <%# these two divs gets closed in post_content, see below %>
+      <%# </div> %>
+    <%# </div> %>
+
+  <% end %>
+<% end %>
+
+<% content_for :authed_user_menu do %>
+  <% if has_role? :devel %><li><%= link_to "Filed Advisories (Devel)", {:controller => 'devel', :action => 'my_requests' } %></li><% end %>
+  <% if has_role? :qa    %><li><%= link_to "Assigned Advisories (QA)", {:controller => 'qe',    :action => 'my_requests' } %></li><% end %>
+  <li><%= link_to 'Roles',       { :controller => 'user', :action => 'show_roles'  } %></li>
+  <li><%= link_to 'Preferences', { :controller => 'user', :action => 'preferences' } %></li>
+<% end %>
+
+<% content_for :help_menu do %>
+  <li><a target="_blank" href="https://docs.engineering.redhat.com/display/HTD/Errata+Tool">About</a></li>
+  <li><a target="_blank" href="/user-guide/">User Guide</a></li>
+  <li><a target="_blank" href="/release-notes/">Release Notes</a></li>
+  <li><a target="_blank" href="/developer-guide/">Developer Guide</a></li>
+  <li class="divider"></li>
+
+  <li><a target="_blank" href="https://wiki.test.redhat.com/ErrataWorkflow">Errata Workflow (QE Wiki)</a></li>
+  <li><a href="https://docs.engineering.redhat.com/display/HTD/Errata+Tool">Errata Tool Wiki Page</a></li>
+  <li class="divider"></li>
+
+  <li><a target="_blank" href="https://bugzilla.redhat.com/enter_bug.cgi?product=Errata+Tool">Report Issue in Bugzilla</a></li>
+
+  <%# Actually RT complains about cross site scripting when you click this link, see Bz 837772 %>
+  <li><a target="_blank" href="https://engineering.redhat.com/rt/Ticket/Create.html?Queue=76">Create Ticket in RT</a></li>
+
+  <%# You can also email RT to make a ticket.. %>
+  <li><a target="_blank" href="mailto:<%= Settings.errata_help_email %>">Create Ticket in RT (via email)</a></li>
+
+  <% if errata_tool_qe_available? %>
+    <li class="divider"></li>
+    <li><%= link_to "#{errata_tool_qe_visible? ? 'Hide' : 'Show'} QE menu", {:controller=>:errata_tool_qe, :action=>:toggle_visibility_cookie} %></li>
+  <% end %>
+<% end %>
+
+<% content_for :engineering_tools do %>
+  <a href="https://engineering.redhat.com/">
+    <div class="cell core" id="home"><div class="icon"></div><div class="title"> Tools Home</div></div>
+  </a>
+  <a href="https://people.engineering.redhat.com/">
+    <div class="cell core" id="people"><div class="icon"></div><div class="title"> People</div></div>
+  </a>
+    <a href="https://engineering.redhat.com/pp">
+    <div class="cell core" id="product"><div class="icon"></div><div class="title"> Product</div></div>
+  </a>
+    <a href="https://engineering.redhat.com/docbot/en-US/Internal/5.0/html/Performance/">
+    <div class="cell core" id="performance"><div class="icon"></div><div class="title"> Performance</div></div>
+  </a>
+  <a href="https://engineering.redhat.com/docs">
+    <div class="cell core" id="docs"><div class="icon"></div><div class="title">Docs</div></div>
+  </a>
+  <a href="https://beaker.engineering.redhat.com/">
+    <div class="cell core" id="beaker"><div class="icon"></div><div class="title"> Beaker</div></div>
+  </a>
+  <a href="https://bugzilla.redhat.com/">
+    <div class="cell core" id="bugzilla"><div class="icon"></div><div class="title"> Bugzilla</div></div>
+  </a>
+  <a href="https://brewweb.engineering.redhat.com/brew/">
+    <div class="cell core" id="brew"><div class="icon"></div><div class="title"> Brew</div></div>
+  </a>
+  <a href="https://pkgwrangler.app.eng.bos.redhat.com/home/">
+    <div class="cell core" id="wrangler"><div class="icon"></div><div class="title"> Wrangler</div></div>
+  </a>
+  <a href="http://errata.devel.redhat.com/">
+    <div class="cell core"><div class="icon"></div><div class="title"> Errata Tool</div></div>
+  </a>
+  <a href="https://tcms.engineering.redhat.com/">
+    <div class="cell core" id="nitrate"><div class="icon"></div><div class="title"> Nitrate</div></div>
+  </a>
+  <a href="http://git.engineering.redhat.com/">
+    <div class="cell core" id="git1"><div class="icon"></div><div class="title"> User GIT</div></div>
+  </a>
+  <a href="http://git.app.eng.bos.redhat.com/">
+    <div class="cell core" id="git2"><div class="icon"></div><div class="title"> Project GIT</div></div>
+  </a>
+  <a href="http://svn.devel.redhat.com">
+    <div class="cell core" id="svn"><div class="icon"></div><div class="title"> SVN</div></div>
+  </a>
+  <a href="http://cvs.devel.redhat.com">
+    <div class="cell core" id="svn"><div class="icon"></div><div class="title"> CVS</div></div>
+  </a>
+  <a href="https://vdb.engineering.redhat.com/">
+    <div class="cell supported" id="vdb"><div class="icon"></div><div class="title"> VDB</div></div>
+  </a>
+  <a href="https://engineering.redhat.com/rt3/">
+    <div class="cell supported" id="rt"><div class="icon"></div><div class="title"> RT</div></div>
+  </a>
+  <a href="https://analytics.engineering.redhat.com">
+    <div class="cell supported" id="piwik"><div class="icon"></div><div class="title"> Analytics</div></div>
+  </a>
+  <a href="https://engineering.redhat.com/metrics/">
+    <div class="cell supported" id="ackview"><div class="icon"></div><div class="title"> ACK Viewer</div></div>
+  </a>
+  <a href="https://engineering.redhat.com/trac/">
+    <div class="cell supported" id="trac"><div class="icon"></div><div class="title"> Trac</div></div>
+  </a>
+  <a href="https://alfresco.engineering.redhat.com/">
+    <div class="cell supported" id="pnt"><div class="icon"></div><div class="title"> P&amp;T Portal</div></div>
+  </a>
+  <a href="https://engineering.redhat.com/trac/global-sync/wiki/AboutGlobalSync">
+    <div class="cell supported"><div class="icon"></div><div class="title"> Globalsync</div></div>
+  </a>
+  <a href="https://hudson.qa.jboss.com/hudson/">
+    <div class="cell techpreview"><div class="icon"></div><div class="title">Hudson</div></div>
+  </a>
+  <a href="https://translate.engineering.redhat.com/">
+    <div class="cell techpreview"><div class="icon"></div><div class="title"> Zanata</div></div>
+  </a>
+  <a href="https://vault-stage.englab.nay.redhat.com/">
+    <div class="cell techpreview"><div class="icon"></div><div class="title"> Vault</div></div>
+  </a>
+  <a href="http://documentation-stage.bne.redhat.com/docs/">
+    <div class="cell techpreview"><div class="icon"></div><div class="title"> Docs Stage</div></div>
+  </a>
+  <a href="http://pub.devel.redhat.com">
+    <div class="cell techpreview"><div class="icon"></div><div class="title"> Pub</div></div>
+  </a>
+<% end %>
+
+<%= content_for :post_content do %>
+  <% if @secondary_nav %>
+      <%# close tab-content and eso-tabs divs %>
+      </div>
+    </div><!-- end of eso-tabs -->
+  <% end %>
+<% end %>
+
+<% content_for :post_footer do %>
+  <%= render '/layouts/piwik_tracker' %>
+  <%= render '/layouts/ajax_spinner' if @show_ajax_spinner %>
+<% end %>
+
+<%= render 'layouts/eso-theme/main_layout', {
+  :home_url              => '/',
+  :stats_url             => 'https://analytics.engineering.redhat.com/piwik/index.php?module=CoreHome&action=index&date=today&period=day&idSite=8#module=Dashboard&action=embeddedIndex&date=today&period=day&idSite=8',
+  :bugzilla_product_name => 'Errata Tool',
+  :app_name              => 'Errata Tool',
+  :env_indicator         => ("<span>#{Settings.env_indicator_text} #{SystemVersion::VERSION}</span>".html_safe if (Settings.env_indicator_text && !Rails.env.production?)),
+  :footer_app_name       => 'Errata Tool',
+  :authed_user           => User.display_user.try(:short_name),
+  :body_class            => "eso-color-#{color_scheme_helper} #{' full_wide' if user_pref(:full_width_layout)}",
+  :page_name             => @page_name,
+  :page_title            => page_title_helper,
+  :app_copyright_year    => '2007',
+  :app_version           => SystemVersion::VERSION,
+  :top_bar_search_action => '/errata',
+  :top_bar_search_field  => 'search',
+  :app_logo_icon_src     => image_path('erratatool18.png'),
+} %>

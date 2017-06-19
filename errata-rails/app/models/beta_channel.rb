@@ -1,0 +1,2 @@
+class BetaChannel < Channel
+end

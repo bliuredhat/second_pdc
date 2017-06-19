@@ -1,0 +1,11 @@
+<%#                      | Role needed  | Id for li elem    | Text           | Title                         | Link                                     -%>
+<%= main_nav_link_helper :everyone,     'main_list_errata', "Advisories",    "Advisories",                   :controller => :errata,  :action => :index -%>
+<%= main_nav_link_helper :not_readonly, 'main_dashboard',   "Dashboard",     "Overview of All Advisories",   :controller => :reports, :action => :index -%>
+<%= main_nav_link_helper :not_readonly, 'main_bugs',        "Bugs",          "Bugs and #{JiraIssue.readable_name.pluralize}", :controller => :issues    -%>
+<%= main_nav_link_helper :not_readonly, 'main_docs',        "Docs Queue",    "Documentation Work Queue",     :controller => :docs,    :action => :list  -%>
+<%= main_nav_link_helper :not_readonly, 'main_rpmdiff',     "RPMDiff",       "List Current RPMDiff Runs",    :controller => :rpmdiff                    -%>
+<%= main_nav_link_helper :not_readonly, 'main_tps',         "TPS",           "TPS Results",                  :controller => :tps                        -%>
+<%= main_nav_link_helper :not_readonly, 'main_releng',      "Releng",        "Released Packages",            :controller => :release_engineering        -%>
+<%= main_nav_link_helper :secalert,     'main_secalert',    "Security",      "Security Advisories",          :controller => :security                   -%>
+<%= main_nav_link_helper :not_readonly, 'main_pkgbrowser',  "Packages",      "Package Browser",              :controller => :package                    -%>
+<%= main_nav_link_helper :not_readonly, 'main_admin',       "Admin",         "List Admin Functions",         :controller => :admin                      -%>

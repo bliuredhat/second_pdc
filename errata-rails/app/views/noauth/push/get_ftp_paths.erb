@@ -1,0 +1,15 @@
+<% @map.keys.each do |nvr| %>
+  <p><b>Brew Build:</b> <%= nvr %> <b>Sig Key</b>: <%= @map[nvr][:sig_key] %></p>
+  <ul>
+  <% @map[nvr][:rpms].keys.each do |rpm| %>
+    <li>
+      <%= rpm %>
+      <ul>
+      <% @map[nvr][:rpms][rpm].each do |path| %>
+        <li><%= path %></li>
+      <% end %>
+      </ul>
+    </li>
+  <% end %>
+  </ul>
+<% end %>

@@ -1,0 +1,25 @@
+<%= will_paginate(@job_trackers) %>
+
+<%= render 'shared/bz_table', {
+  :headers => [
+    tablesort_heading_custom_sort_numeric('ID'),
+    'Name',
+    'Description',
+    'Owner',
+    'State',
+    tablesort_heading_custom_sort_numeric('Created'),
+    tablesort_heading_custom_sort_numeric('Updated'),
+  ],
+  :row_items => @job_trackers,
+  :func => lambda { |job_tracker| [
+    tablesort_helper(link_to(job_tracker.id, job_tracker), job_tracker.id),
+    link_to(job_tracker.name, job_tracker),
+    job_tracker.description,
+    nice_mailto_link(job_tracker.user),
+    job_tracker.state,
+    sortable_time_ago_in_words(job_tracker.created_at),
+    sortable_time_ago_in_words(job_tracker.updated_at),
+  ]},
+}%>
+
+<%= will_paginate(@job_trackers) %>

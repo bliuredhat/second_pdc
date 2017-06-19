@@ -1,0 +1,60 @@
+{
+    "getBuild": {
+        "completion_time": "2015-11-20 13:15:38",
+        "completion_ts": 1448043338.0,
+        "creation_event_id": 10986357,
+        "creation_time": "2015-11-20 13:28:13.303052",
+        "creation_ts": 1448044093.30305,
+        "epoch": null,
+        "extra": {
+            "image": {}
+        },
+        "id": 428339,
+        "name": "docker-hello-world",
+        "nvr": "docker-hello-world-1.0-25",
+        "owner_id": 45,
+        "owner_name": "twaugh",
+        "package_id": 50607,
+        "package_name": "docker-hello-world",
+        "release": "25",
+        "source": null,
+        "start_time": "2015-11-20 18:00:05",
+        "start_ts": 1448060405.0,
+        "state": 1,
+        "task_id": null,
+        "version": "1.0",
+        "volume_id": 0,
+        "volume_name": "DEFAULT"
+    },
+    "listArchives": [
+        {
+            "arch": "x86_64",
+            "build_id": 428339,
+            "buildroot_id": 2512977,
+            "checksum": "8dbff62e8a8540d37497f634e66a6d56",
+            "checksum_type": 0,
+            "extra": {
+                "docker": {
+                    "id": "2c30eaf4c2f84a2532ddbbb277438d268e5406ded9896b01a229cbe1a342a4a7",
+                    "parent_id": "07c07fcf961c706582b54db29e1b668b73f5293091301a9ade1bd15b796696ff",
+                    "repositories": [
+                        "rcm-pulp-02-dev.app.eng.bos.redhat.com/rhel7/docker-hello-world:1.0-25",
+                        "rcm-pulp-02-dev.app.eng.bos.redhat.com/rhel7/docker-hello-world:1.0",
+                        "rcm-pulp-02-dev.app.eng.bos.redhat.com/rhel7/docker-hello-world:rhel-7.2-candidate-20151120174406"
+                    ]
+                },
+                "image": {
+                    "arch": "x86_64"
+                }
+            },
+            "filename": "docker-v1-image-2c30eaf4c2f84a2532ddbbb277438d268e5406ded9896b01a229cbe1a342a4a7.tar.gz",
+            "id": 948454,
+            "metadata_only": false,
+            "size": 70886168,
+            "type_description": "Tar file",
+            "type_extensions": "tar tar.gz tar.bz2 tar.xz",
+            "type_id": 4,
+            "type_name": "tar"
+        }
+    ]
+}

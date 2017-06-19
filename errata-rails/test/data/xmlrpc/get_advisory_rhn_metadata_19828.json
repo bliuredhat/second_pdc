@@ -1,0 +1,2094 @@
+{
+  "advisory_name": "RHBA-2015:19828",
+  "bugs": [
+
+  ],
+  "crossref": "",
+  "cve": "",
+  "description": "This advisory has builds in multiple product versions.  It may be used to test\nthe effect of removing/adding builds to a subset of product versions in an\nadvisory.\n",
+  "errata_files": [
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/SRPMS/openscap-1.0.10-2.el6.src.rpm",
+      "md5sum": "fake:b2e37495dfbae499d447ce5d34d",
+      "rhn_channel": [
+        "rhel-i386-client-6",
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/SRPMS/ruby-1.8.7.374-4.el6_6.src.rpm",
+      "md5sum": "fake:2711085a20a7ca0f072e0ebc11d",
+      "rhn_channel": [
+        "rhel-i386-client-6",
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/Debuginfo/openscap-debuginfo-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:ef3a43f69298fcb63cef8a94a1c",
+      "rhn_channel": [
+        "rhel-i386-client-6-debuginfo",
+        "rhel-i386-client-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:3aceac49cfeb0f59e1eacca3a8b",
+      "rhn_channel": [
+        "rhel-i386-client-6-debuginfo",
+        "rhel-i386-client-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/openscap-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:a4d175c2943f78c9aa9dc3e4381",
+      "rhn_channel": [
+        "rhel-i386-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/openscap-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:7e5676d4768e52c53c318a18ffc",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/openscap-engine-sce-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:39503a4d0be6bc0f4e8de8f499b",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/openscap-engine-sce-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cbc74e470e832b94110c54a8f6",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/openscap-extra-probes-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cb38f54a726ef6992056fc27ca",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/openscap-python-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:cc914f6cc9193f4d3d0a1bf8576",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/openscap-utils-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:d221eb978a7dfff732c941b9e14",
+      "rhn_channel": [
+        "rhel-i386-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:e3f4e55c010c2eb495e10dec298",
+      "rhn_channel": [
+        "rhel-i386-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-devel-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:46030070bef76603a8a51bd6ae6",
+      "rhn_channel": [
+        "rhel-i386-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-docs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:d88359c2f3ae7311dc8a936a51c",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-irb-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:7caf3bb8263504f30be8b3b71fb",
+      "rhn_channel": [
+        "rhel-i386-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-libs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:9a10ebc50295e3b0af987a686b9",
+      "rhn_channel": [
+        "rhel-i386-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-rdoc-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:93a520f10927f7f2d5a538ff0a1",
+      "rhn_channel": [
+        "rhel-i386-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-ri-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:4ccdc63cf70e754edfc799da732",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-static-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:548bed2ec7602a07ca23d6e2f30",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/i386/ruby-tcltk-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:d1fdb120b74ce1944a790b98133",
+      "rhn_channel": [
+        "rhel-i386-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:ef3a43f69298fcb63cef8a94a1c",
+      "rhn_channel": [
+        "rhel-x86_64-client-6-debuginfo",
+        "rhel-x86_64-client-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:bf6a3c26aeb77ce0a4784344255",
+      "rhn_channel": [
+        "rhel-x86_64-client-6-debuginfo",
+        "rhel-x86_64-client-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:3aceac49cfeb0f59e1eacca3a8b",
+      "rhn_channel": [
+        "rhel-x86_64-client-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:263b2c925c6c1c9190a8c5aeeaa",
+      "rhn_channel": [
+        "rhel-x86_64-client-6-debuginfo",
+        "rhel-x86_64-client-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:a4d175c2943f78c9aa9dc3e4381",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:7591325a0193d9531b0a28fbaa4",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:7e5676d4768e52c53c318a18ffc",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-devel-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:48a5c04998f50d0acf05a4fd0ec",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-engine-sce-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:39503a4d0be6bc0f4e8de8f499b",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-engine-sce-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:6644d979f57aab2d9298c972d15",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-engine-sce-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cbc74e470e832b94110c54a8f6",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-engine-sce-devel-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:b350c120f03d83beb2599be7978",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-extra-probes-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:643c073f05af46aa87c23c348e6",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-python-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:27ee1be755a4be89d644b9fbff8",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/openscap-utils-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:00c54b44c2a26b926db16e49ddc",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:214866767ac094d325fb2d99dee",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-devel-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:46030070bef76603a8a51bd6ae6",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-devel-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:53ada271edd6461c17e32b008eb",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-docs-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:607b6417b29a8653319a10cba8a",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-irb-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:828be6bfaed5e9184c71d2084c0",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-libs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:9a10ebc50295e3b0af987a686b9",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-libs-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:6725e4246b280285284ec1454ce",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-rdoc-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:2c92e9846a3bf71ea384f8e9350",
+      "rhn_channel": [
+        "rhel-x86_64-client-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-ri-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:ea81d7d368cf8ee9e92e87ad338",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-static-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:1babb0570d8477c251e47db093c",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Client/en/os/x86_64/ruby-tcltk-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:01ddad9ce2f23952a2a760cd44a",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/SRPMS/openscap-1.0.10-2.el6.src.rpm",
+      "md5sum": "fake:b2e37495dfbae499d447ce5d34d",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/SRPMS/ruby-1.8.7.374-4.el6_6.src.rpm",
+      "md5sum": "fake:2711085a20a7ca0f072e0ebc11d",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:ef3a43f69298fcb63cef8a94a1c",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:bf6a3c26aeb77ce0a4784344255",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:3aceac49cfeb0f59e1eacca3a8b",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:263b2c925c6c1c9190a8c5aeeaa",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6-debuginfo",
+        "rhel-x86_64-hpc-node-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:a4d175c2943f78c9aa9dc3e4381",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:7591325a0193d9531b0a28fbaa4",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:7e5676d4768e52c53c318a18ffc",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-devel-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:48a5c04998f50d0acf05a4fd0ec",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-engine-sce-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:39503a4d0be6bc0f4e8de8f499b",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-engine-sce-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:6644d979f57aab2d9298c972d15",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-engine-sce-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cbc74e470e832b94110c54a8f6",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-engine-sce-devel-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:b350c120f03d83beb2599be7978",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-extra-probes-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:643c073f05af46aa87c23c348e6",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-python-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:27ee1be755a4be89d644b9fbff8",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/openscap-utils-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:00c54b44c2a26b926db16e49ddc",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:214866767ac094d325fb2d99dee",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-devel-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:46030070bef76603a8a51bd6ae6",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-devel-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:53ada271edd6461c17e32b008eb",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-docs-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:607b6417b29a8653319a10cba8a",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-irb-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:828be6bfaed5e9184c71d2084c0",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-libs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:9a10ebc50295e3b0af987a686b9",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-libs-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:6725e4246b280285284ec1454ce",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-rdoc-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:2c92e9846a3bf71ea384f8e9350",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-ri-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:ea81d7d368cf8ee9e92e87ad338",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-static-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:1babb0570d8477c251e47db093c",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6ComputeNode/en/os/x86_64/ruby-tcltk-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:01ddad9ce2f23952a2a760cd44a",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/SRPMS/openscap-1.0.10-2.el6.src.rpm",
+      "md5sum": "fake:b2e37495dfbae499d447ce5d34d",
+      "rhn_channel": [
+        "rhel-i386-server-6",
+        "rhel-ppc64-server-6",
+        "rhel-s390x-server-6",
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/SRPMS/ruby-1.8.7.374-4.el6_6.src.rpm",
+      "md5sum": "fake:2711085a20a7ca0f072e0ebc11d",
+      "rhn_channel": [
+        "rhel-i386-server-6",
+        "rhel-ppc64-server-6",
+        "rhel-s390x-server-6",
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/Debuginfo/openscap-debuginfo-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:ef3a43f69298fcb63cef8a94a1c",
+      "rhn_channel": [
+        "rhel-i386-server-6-debuginfo",
+        "rhel-i386-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:3aceac49cfeb0f59e1eacca3a8b",
+      "rhn_channel": [
+        "rhel-i386-server-6-debuginfo",
+        "rhel-i386-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/openscap-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:a4d175c2943f78c9aa9dc3e4381",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/openscap-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:7e5676d4768e52c53c318a18ffc",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/openscap-engine-sce-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:39503a4d0be6bc0f4e8de8f499b",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/openscap-engine-sce-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cbc74e470e832b94110c54a8f6",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/openscap-extra-probes-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cb38f54a726ef6992056fc27ca",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/openscap-python-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:cc914f6cc9193f4d3d0a1bf8576",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/openscap-utils-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:d221eb978a7dfff732c941b9e14",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:e3f4e55c010c2eb495e10dec298",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-devel-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:46030070bef76603a8a51bd6ae6",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-docs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:d88359c2f3ae7311dc8a936a51c",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-irb-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:7caf3bb8263504f30be8b3b71fb",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-libs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:9a10ebc50295e3b0af987a686b9",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-rdoc-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:93a520f10927f7f2d5a538ff0a1",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-ri-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:4ccdc63cf70e754edfc799da732",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-static-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:548bed2ec7602a07ca23d6e2f30",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/ruby-tcltk-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:d1fdb120b74ce1944a790b98133",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.ppc.rpm",
+      "md5sum": "fake:eedf531d0dfc684f9636d11672a",
+      "rhn_channel": [
+        "rhel-ppc64-server-6-debuginfo",
+        "rhel-ppc64-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.ppc64.rpm",
+      "md5sum": "fake:54023041e2ee4ac2fba77d6a885",
+      "rhn_channel": [
+        "rhel-ppc64-server-6-debuginfo",
+        "rhel-ppc64-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.ppc.rpm",
+      "md5sum": "fake:c3a960c4268eb70d7b72db68164",
+      "rhn_channel": [
+        "rhel-ppc64-server-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:4dcb738ec7e7c78fb295ebb338f",
+      "rhn_channel": [
+        "rhel-ppc64-server-6-debuginfo",
+        "rhel-ppc64-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-1.0.10-2.el6.ppc.rpm",
+      "md5sum": "fake:572f3dbe5506e9c5566946b3174",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-1.0.10-2.el6.ppc64.rpm",
+      "md5sum": "fake:ba49a80b146f069cdee91dd3f30",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-devel-1.0.10-2.el6.ppc.rpm",
+      "md5sum": "fake:ed94e20c65e0a6e089ce5ccda64",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-devel-1.0.10-2.el6.ppc64.rpm",
+      "md5sum": "fake:44698ffe6dd8796d57b2e934232",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-engine-sce-1.0.10-2.el6.ppc.rpm",
+      "md5sum": "fake:9da1334d78d4ada79ec31e4cc90",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-engine-sce-1.0.10-2.el6.ppc64.rpm",
+      "md5sum": "fake:b55b7cfe677feeba73b604c6d68",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-engine-sce-devel-1.0.10-2.el6.ppc.rpm",
+      "md5sum": "fake:19b16dd330be0e683a556406c9b",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-engine-sce-devel-1.0.10-2.el6.ppc64.rpm",
+      "md5sum": "fake:04724d1c334969e85513e0c9d29",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-extra-probes-1.0.10-2.el6.ppc64.rpm",
+      "md5sum": "fake:647f94cbb639bf3b0fa1dd330b5",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-python-1.0.10-2.el6.ppc64.rpm",
+      "md5sum": "fake:e2d7bf9b9767a72fc62535160a9",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/openscap-utils-1.0.10-2.el6.ppc64.rpm",
+      "md5sum": "fake:613f729d2a1ea5c67a1b3381ad7",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:63f5127bf4fdd3789eeb990b08a",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-devel-1.8.7.374-4.el6_6.ppc.rpm",
+      "md5sum": "fake:809a861d42dece4cf02f01b482f",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-devel-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:c0e6510ad8db1f428bc657f639d",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-docs-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:f10917407e153ec290b3e6e0e52",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-irb-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:55493546026f1e3cbda4a5c0776",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-libs-1.8.7.374-4.el6_6.ppc.rpm",
+      "md5sum": "fake:2ae1654c214dcd6819d22a92084",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-libs-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:02810a2c0ba3ed5f718ba82b2d8",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-rdoc-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:c31f4e030fb5574fbfb15b1a02f",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-ri-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:ed5e5e9d2379dc85e95bbad9222",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-static-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:b3ceb358167eac3c6aca14616f7",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/ruby-tcltk-1.8.7.374-4.el6_6.ppc64.rpm",
+      "md5sum": "fake:3ddbf33b91306a45860b63dcd92",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/Debuginfo/openscap-debuginfo-1.0.10-2.el6.s390.rpm",
+      "md5sum": "fake:d4326edcecfaef745bc14aa728d",
+      "rhn_channel": [
+        "rhel-s390x-server-6-debuginfo",
+        "rhel-s390x-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/Debuginfo/openscap-debuginfo-1.0.10-2.el6.s390x.rpm",
+      "md5sum": "fake:2b55a367fa6afb100248b61a5b1",
+      "rhn_channel": [
+        "rhel-s390x-server-6-debuginfo",
+        "rhel-s390x-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.s390.rpm",
+      "md5sum": "fake:c3c73619a27b34d73be4defbdc9",
+      "rhn_channel": [
+        "rhel-s390x-server-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:f3bf34cd8374d32972f9f0959ed",
+      "rhn_channel": [
+        "rhel-s390x-server-6-debuginfo",
+        "rhel-s390x-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-1.0.10-2.el6.s390.rpm",
+      "md5sum": "fake:507f19ab540d4eb4a4b98fc45dc",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-1.0.10-2.el6.s390x.rpm",
+      "md5sum": "fake:4362eb29062dcdada3cf7f08ced",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-devel-1.0.10-2.el6.s390.rpm",
+      "md5sum": "fake:ba5699dda300535a9354673bf72",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-devel-1.0.10-2.el6.s390x.rpm",
+      "md5sum": "fake:878b444cbf46e8a78a1a79770d1",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-engine-sce-1.0.10-2.el6.s390.rpm",
+      "md5sum": "fake:abf73632f57ea3ba9b7bca7a081",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-engine-sce-1.0.10-2.el6.s390x.rpm",
+      "md5sum": "fake:4fa4489c0e7dcf69b3fe81c3217",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-engine-sce-devel-1.0.10-2.el6.s390.rpm",
+      "md5sum": "fake:ae70cbe7ee997028f5c69e192ef",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-engine-sce-devel-1.0.10-2.el6.s390x.rpm",
+      "md5sum": "fake:1ff6f76ca6fd6721b5dc46b76cb",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-extra-probes-1.0.10-2.el6.s390x.rpm",
+      "md5sum": "fake:f5764bd889d3195c1e4e44ecc1e",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-python-1.0.10-2.el6.s390x.rpm",
+      "md5sum": "fake:e1346dd7844398fb87ee767705d",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/openscap-utils-1.0.10-2.el6.s390x.rpm",
+      "md5sum": "fake:10651a96faa295ff102470e1923",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:0514cd5889423363d5509a55c16",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-devel-1.8.7.374-4.el6_6.s390.rpm",
+      "md5sum": "fake:d2885c0a725eff87a7204f103f0",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-devel-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:76c903358adc0821f4740222e10",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-docs-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:34d09ec6c3687c2212e5ac79dbd",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-irb-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:85368e1fda36abf36633da2bef7",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-libs-1.8.7.374-4.el6_6.s390.rpm",
+      "md5sum": "fake:1f491eb0b128e0c59be267eb8df",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-libs-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:512a42a51453bf417b5ac9be6f4",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-rdoc-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:1fc61085cd8b8584f3bf9be92d8",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-ri-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:3e83ced219445a04a3195d11137",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-static-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:602461439f03ad9ec2cc5f99103",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/ruby-tcltk-1.8.7.374-4.el6_6.s390x.rpm",
+      "md5sum": "fake:4400d705964641d92c2e9af7018",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:ef3a43f69298fcb63cef8a94a1c",
+      "rhn_channel": [
+        "rhel-x86_64-server-6-debuginfo",
+        "rhel-x86_64-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:bf6a3c26aeb77ce0a4784344255",
+      "rhn_channel": [
+        "rhel-x86_64-server-6-debuginfo",
+        "rhel-x86_64-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:3aceac49cfeb0f59e1eacca3a8b",
+      "rhn_channel": [
+        "rhel-x86_64-server-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:263b2c925c6c1c9190a8c5aeeaa",
+      "rhn_channel": [
+        "rhel-x86_64-server-6-debuginfo",
+        "rhel-x86_64-server-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:a4d175c2943f78c9aa9dc3e4381",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:7591325a0193d9531b0a28fbaa4",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:7e5676d4768e52c53c318a18ffc",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-devel-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:48a5c04998f50d0acf05a4fd0ec",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-engine-sce-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:39503a4d0be6bc0f4e8de8f499b",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-engine-sce-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:6644d979f57aab2d9298c972d15",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-engine-sce-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cbc74e470e832b94110c54a8f6",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-engine-sce-devel-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:b350c120f03d83beb2599be7978",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-extra-probes-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:643c073f05af46aa87c23c348e6",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-python-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:27ee1be755a4be89d644b9fbff8",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/openscap-utils-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:00c54b44c2a26b926db16e49ddc",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:214866767ac094d325fb2d99dee",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-devel-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:46030070bef76603a8a51bd6ae6",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-devel-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:53ada271edd6461c17e32b008eb",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-docs-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:607b6417b29a8653319a10cba8a",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-irb-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:828be6bfaed5e9184c71d2084c0",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-libs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:9a10ebc50295e3b0af987a686b9",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-libs-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:6725e4246b280285284ec1454ce",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-rdoc-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:2c92e9846a3bf71ea384f8e9350",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-ri-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:ea81d7d368cf8ee9e92e87ad338",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-static-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:1babb0570d8477c251e47db093c",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/ruby-tcltk-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:01ddad9ce2f23952a2a760cd44a",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/SRPMS/openscap-1.0.10-2.el6.src.rpm",
+      "md5sum": "fake:b2e37495dfbae499d447ce5d34d",
+      "rhn_channel": [
+        "rhel-i386-workstation-6",
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/SRPMS/ruby-1.8.7.374-4.el6_6.src.rpm",
+      "md5sum": "fake:2711085a20a7ca0f072e0ebc11d",
+      "rhn_channel": [
+        "rhel-i386-workstation-6",
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/Debuginfo/openscap-debuginfo-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:ef3a43f69298fcb63cef8a94a1c",
+      "rhn_channel": [
+        "rhel-i386-workstation-6-debuginfo",
+        "rhel-i386-workstation-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:3aceac49cfeb0f59e1eacca3a8b",
+      "rhn_channel": [
+        "rhel-i386-workstation-6-debuginfo",
+        "rhel-i386-workstation-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/openscap-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:a4d175c2943f78c9aa9dc3e4381",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/openscap-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:7e5676d4768e52c53c318a18ffc",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/openscap-engine-sce-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:39503a4d0be6bc0f4e8de8f499b",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/openscap-engine-sce-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cbc74e470e832b94110c54a8f6",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/openscap-extra-probes-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cb38f54a726ef6992056fc27ca",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/openscap-python-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:cc914f6cc9193f4d3d0a1bf8576",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/openscap-utils-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:d221eb978a7dfff732c941b9e14",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:e3f4e55c010c2eb495e10dec298",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-devel-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:46030070bef76603a8a51bd6ae6",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-docs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:d88359c2f3ae7311dc8a936a51c",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-irb-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:7caf3bb8263504f30be8b3b71fb",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-libs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:9a10ebc50295e3b0af987a686b9",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-rdoc-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:93a520f10927f7f2d5a538ff0a1",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-ri-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:4ccdc63cf70e754edfc799da732",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-static-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:548bed2ec7602a07ca23d6e2f30",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/ruby-tcltk-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:d1fdb120b74ce1944a790b98133",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:ef3a43f69298fcb63cef8a94a1c",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6-debuginfo",
+        "rhel-x86_64-workstation-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/Debuginfo/openscap-debuginfo-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:bf6a3c26aeb77ce0a4784344255",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6-debuginfo",
+        "rhel-x86_64-workstation-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:3aceac49cfeb0f59e1eacca3a8b",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/Debuginfo/ruby-debuginfo-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:263b2c925c6c1c9190a8c5aeeaa",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6-debuginfo",
+        "rhel-x86_64-workstation-optional-6-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:a4d175c2943f78c9aa9dc3e4381",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:7591325a0193d9531b0a28fbaa4",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-content-1.0.10-2.el6.noarch.rpm",
+      "md5sum": "fake:06f511abc3ef6fd2091833a2f86",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:7e5676d4768e52c53c318a18ffc",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-devel-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:48a5c04998f50d0acf05a4fd0ec",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-engine-sce-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:39503a4d0be6bc0f4e8de8f499b",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-engine-sce-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:6644d979f57aab2d9298c972d15",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-engine-sce-devel-1.0.10-2.el6.i686.rpm",
+      "md5sum": "fake:8cbc74e470e832b94110c54a8f6",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-engine-sce-devel-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:b350c120f03d83beb2599be7978",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-extra-probes-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:643c073f05af46aa87c23c348e6",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-python-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:27ee1be755a4be89d644b9fbff8",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/openscap-utils-1.0.10-2.el6.x86_64.rpm",
+      "md5sum": "fake:00c54b44c2a26b926db16e49ddc",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:214866767ac094d325fb2d99dee",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-devel-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:46030070bef76603a8a51bd6ae6",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-devel-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:53ada271edd6461c17e32b008eb",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-docs-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:607b6417b29a8653319a10cba8a",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-irb-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:828be6bfaed5e9184c71d2084c0",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-libs-1.8.7.374-4.el6_6.i686.rpm",
+      "md5sum": "fake:9a10ebc50295e3b0af987a686b9",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-libs-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:6725e4246b280285284ec1454ce",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-rdoc-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:2c92e9846a3bf71ea384f8e9350",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-ri-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:ea81d7d368cf8ee9e92e87ad338",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-static-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:1babb0570d8477c251e47db093c",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/ruby-tcltk-1.8.7.374-4.el6_6.x86_64.rpm",
+      "md5sum": "fake:01ddad9ce2f23952a2a760cd44a",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Client/en/os/x86_64/Debuginfo/anaconda-debuginfo-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:57f63d5af8dd4c837c62113aff0",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-7-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Client/en/os/x86_64/anaconda-dracut-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:86b88578420dcf8f08c1c990de8",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Client/en/os/x86_64/anaconda-widgets-devel-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:e90fb1b94538f073d66162f5dce",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Client/en/os/x86_64/selinux-policy-doc-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:37677d063e57efc66947ce1374e",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Client/en/os/x86_64/selinux-policy-sandbox-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:9be7e34ac7ac86ee83134edb38e",
+      "rhn_channel": [
+        "rhel-x86_64-client-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/SRPMS/anaconda-19.31.123-1.el7.src.rpm",
+      "md5sum": "fake:b9715e0f3229ec898316a2b627b",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/SRPMS/selinux-policy-3.12.1-153.el7_0.15.src.rpm",
+      "md5sum": "fake:b43ba7f98bf80540e1051c038bf",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/Debuginfo/anaconda-debuginfo-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:57f63d5af8dd4c837c62113aff0",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7-debuginfo",
+        "rhel-x86_64-hpc-node-optional-7-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/anaconda-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:563d53ce3028c5bafcb34272a87",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/anaconda-dracut-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:86b88578420dcf8f08c1c990de8",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/anaconda-widgets-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:94438dd4743513d7555fdb37248",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/anaconda-widgets-devel-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:e90fb1b94538f073d66162f5dce",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/selinux-policy-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:605498b830f81ce2b1035cb28f4",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/selinux-policy-devel-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:517b242063bbb9e719d38523de7",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/selinux-policy-doc-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:37677d063e57efc66947ce1374e",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/selinux-policy-minimum-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:5cad63870358378e5623d2e8f91",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/selinux-policy-mls-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:12bf8b5c689fe0a1f8ca7f7c2d1",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/selinux-policy-sandbox-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:9be7e34ac7ac86ee83134edb38e",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7ComputeNode/en/os/x86_64/selinux-policy-targeted-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:95c03e32f396b414cf07c5ed9dd",
+      "rhn_channel": [
+        "rhel-x86_64-hpc-node-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/SRPMS/anaconda-19.31.123-1.el7.src.rpm",
+      "md5sum": "fake:b9715e0f3229ec898316a2b627b",
+      "rhn_channel": [
+        "rhel-ppc64-server-7",
+        "rhel-s390x-server-7",
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/SRPMS/selinux-policy-3.12.1-153.el7_0.15.src.rpm",
+      "md5sum": "fake:b43ba7f98bf80540e1051c038bf",
+      "rhn_channel": [
+        "rhel-ppc64-server-7",
+        "rhel-s390x-server-7",
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/Debuginfo/anaconda-debuginfo-19.31.123-1.el7.ppc64.rpm",
+      "md5sum": "fake:e97d5832eaf2ec8f8a75fef324e",
+      "rhn_channel": [
+        "rhel-ppc64-server-7-debuginfo",
+        "rhel-ppc64-server-optional-7-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/anaconda-19.31.123-1.el7.ppc64.rpm",
+      "md5sum": "fake:8717d33077c348f8a61c89bc550",
+      "rhn_channel": [
+        "rhel-ppc64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/anaconda-dracut-19.31.123-1.el7.ppc64.rpm",
+      "md5sum": "fake:e265afbc0c0880df4fbb49511e4",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/anaconda-widgets-19.31.123-1.el7.ppc64.rpm",
+      "md5sum": "fake:43d427319254b60c297389d253e",
+      "rhn_channel": [
+        "rhel-ppc64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/anaconda-widgets-devel-19.31.123-1.el7.ppc64.rpm",
+      "md5sum": "fake:6388a63a6c65af9cd3b2563978a",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/selinux-policy-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:605498b830f81ce2b1035cb28f4",
+      "rhn_channel": [
+        "rhel-ppc64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/selinux-policy-devel-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:517b242063bbb9e719d38523de7",
+      "rhn_channel": [
+        "rhel-ppc64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/selinux-policy-doc-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:37677d063e57efc66947ce1374e",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/selinux-policy-minimum-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:5cad63870358378e5623d2e8f91",
+      "rhn_channel": [
+        "rhel-ppc64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/selinux-policy-mls-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:12bf8b5c689fe0a1f8ca7f7c2d1",
+      "rhn_channel": [
+        "rhel-ppc64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/selinux-policy-sandbox-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:9be7e34ac7ac86ee83134edb38e",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/ppc64/selinux-policy-targeted-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:95c03e32f396b414cf07c5ed9dd",
+      "rhn_channel": [
+        "rhel-ppc64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/Debuginfo/anaconda-debuginfo-19.31.123-1.el7.s390x.rpm",
+      "md5sum": "fake:e1c4d268c5346c5f57f48d57c85",
+      "rhn_channel": [
+        "rhel-s390x-server-7-debuginfo",
+        "rhel-s390x-server-optional-7-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/anaconda-19.31.123-1.el7.s390x.rpm",
+      "md5sum": "fake:d59002a1809a63d46f83f04df6d",
+      "rhn_channel": [
+        "rhel-s390x-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/anaconda-dracut-19.31.123-1.el7.s390x.rpm",
+      "md5sum": "fake:8f0aee3d3e05ee68c5d2b375e6c",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/anaconda-widgets-19.31.123-1.el7.s390x.rpm",
+      "md5sum": "fake:d4b80fc73784a6cb51f314b20b1",
+      "rhn_channel": [
+        "rhel-s390x-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/anaconda-widgets-devel-19.31.123-1.el7.s390x.rpm",
+      "md5sum": "fake:cb73b1a816875371ff53c60e678",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/selinux-policy-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:605498b830f81ce2b1035cb28f4",
+      "rhn_channel": [
+        "rhel-s390x-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/selinux-policy-devel-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:517b242063bbb9e719d38523de7",
+      "rhn_channel": [
+        "rhel-s390x-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/selinux-policy-doc-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:37677d063e57efc66947ce1374e",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/selinux-policy-minimum-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:5cad63870358378e5623d2e8f91",
+      "rhn_channel": [
+        "rhel-s390x-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/selinux-policy-mls-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:12bf8b5c689fe0a1f8ca7f7c2d1",
+      "rhn_channel": [
+        "rhel-s390x-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/selinux-policy-sandbox-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:9be7e34ac7ac86ee83134edb38e",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/s390x/selinux-policy-targeted-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:95c03e32f396b414cf07c5ed9dd",
+      "rhn_channel": [
+        "rhel-s390x-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/Debuginfo/anaconda-debuginfo-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:57f63d5af8dd4c837c62113aff0",
+      "rhn_channel": [
+        "rhel-x86_64-server-7-debuginfo",
+        "rhel-x86_64-server-optional-7-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/anaconda-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:563d53ce3028c5bafcb34272a87",
+      "rhn_channel": [
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/anaconda-dracut-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:86b88578420dcf8f08c1c990de8",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/anaconda-widgets-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:94438dd4743513d7555fdb37248",
+      "rhn_channel": [
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/anaconda-widgets-devel-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:e90fb1b94538f073d66162f5dce",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/selinux-policy-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:605498b830f81ce2b1035cb28f4",
+      "rhn_channel": [
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/selinux-policy-devel-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:517b242063bbb9e719d38523de7",
+      "rhn_channel": [
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/selinux-policy-doc-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:37677d063e57efc66947ce1374e",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/selinux-policy-minimum-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:5cad63870358378e5623d2e8f91",
+      "rhn_channel": [
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/selinux-policy-mls-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:12bf8b5c689fe0a1f8ca7f7c2d1",
+      "rhn_channel": [
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/selinux-policy-sandbox-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:9be7e34ac7ac86ee83134edb38e",
+      "rhn_channel": [
+        "rhel-x86_64-server-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Server/en/os/x86_64/selinux-policy-targeted-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:95c03e32f396b414cf07c5ed9dd",
+      "rhn_channel": [
+        "rhel-x86_64-server-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Workstation/en/os/x86_64/Debuginfo/anaconda-debuginfo-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:57f63d5af8dd4c837c62113aff0",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-7-debuginfo"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Workstation/en/os/x86_64/anaconda-dracut-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:86b88578420dcf8f08c1c990de8",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Workstation/en/os/x86_64/anaconda-widgets-devel-19.31.123-1.el7.x86_64.rpm",
+      "md5sum": "fake:e90fb1b94538f073d66162f5dce",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Workstation/en/os/x86_64/selinux-policy-doc-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:37677d063e57efc66947ce1374e",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-7"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/7Workstation/en/os/x86_64/selinux-policy-sandbox-3.12.1-153.el7_0.15.noarch.rpm",
+      "md5sum": "fake:9be7e34ac7ac86ee83134edb38e",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-7"
+      ]
+    }
+  ],
+  "errata_type": "RHBA",
+  "erratum_deployed_by": "release-engineering@redhat.com",
+  "issue_date": "2015-02-18",
+  "jira_issues": [
+
+  ],
+  "keywords": [
+    "reboot_suggested"
+  ],
+  "multilib": null,
+  "obsoletes": "",
+  "product": "Red Hat Enterprise Linux",
+  "reboot_suggested": true,
+  "reference": "",
+  "revision": 1,
+  "security_impact": "None",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/knowledge/articles/11258\n",
+  "synopsis": "test ASYNC with multiple product versions",
+  "topic": "test ASYNC with multiple product versions\n",
+  "update_date": "2015-02-18"
+}

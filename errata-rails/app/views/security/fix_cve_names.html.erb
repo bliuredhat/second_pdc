@@ -1,0 +1,59 @@
+<h1>Errata Fixup - CVE names</h1>
+
+This form lets you fix or add new CVE names to an advisory
+that is already live on Red Hat Network.  Enter the replacement
+CVE names below and this will update the Errata database as well
+as the live database at Red Hat Network. This also regenerates OVAL
+(if applicable) and sends updated XML to secalert for CVRF.
+
+<p>
+
+<%= form_tag :controller => :security, :action => :find_rhsa_to_fix_cve do %>
+<%= text_field(:advisory, :name, :size => 7) %>
+<%= submit_tag "Find Errata to Fix", :class=>'btn btn-primary' %>
+<% end %>
+
+
+<% if @errata %>
+<table>
+<tr><td><div style="width:150px"><b>Advisory</b></div></td><td><b><%= errata_link(@errata) %></b></td></tr>
+<tr><td>Previous CVE names</td><td>
+<% @errata.cve_list.each do |c| -%>
+<%= cve_link(c) %>&nbsp;
+<% end -%>
+</td></tr>
+<% if @errata.has_docker? && @errata.container_cves.any? %>
+  <tr>
+    <td>Container CVE names
+      <%= block_render('shared/help_popover') do %>
+        This is a container advisory.<br>These CVEs are from the content advisories, but may not be edited here.<br>
+        <%= link_to 'More details', url_for(:controller => :errata, :action => :container, :id => @errata) %>
+      <% end %>
+    </td>
+    <td><%= @errata.container_cves.map { |c| cve_link(c) }.join(', ').html_safe %></td>
+  </tr>
+<% end %>
+<tr><td>New CVE names</td><td>
+<%= form_tag :action => 'fix_cve_names', :id => @errata do %>
+<%= text_field(:errata, :replace_cve, {:size => 70, :value => @errata.content.cve}) %>
+<p>
+<%= submit_tag "Replace CVE Names", :class=>'btn btn-primary' %>
+<% end %>
+</td></tr>
+</table>
+
+<% end %>
+
+<% if @pub_task_errors && !@pub_task_errors.empty? %>
+  <h2>WARNING: pub tasks have failed</h2>
+
+  <p>Pub has failed to fix CVEs for one or more push targets.  Please
+  review the errors and try again if necessary.</p>
+
+  <% @pub_task_errors.each do |target,error| %>
+    <div class="panel panel-danger">
+      <div class="panel-heading"><%= target %></div>
+      <div class="panel-body"><pre><%= error %></pre></div>
+    </div>
+  <% end -%>
+<% end %>

@@ -1,0 +1,9 @@
+Errata Tool will not process any variants in the product listings response.
+This may indicate an incorrectly configured product version.
+
+Errata Tool fetched the following data:
+
+    Brew getProductListings("RHEL-4.6.Z-RHCS", 421726)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-4.6.Z-RHCS", 421726]}}

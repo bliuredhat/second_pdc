@@ -1,0 +1,76 @@
+<%= render 'shared/related_build_warnings', :errata => @errata %>
+
+<% if @errata.filelist_locked? %>
+<div class="alert alert-warning bold">
+  The file list is currently locked. To add or update builds the advisory must be in status NEW_FILES.
+</div>
+
+<% else %>
+  <h2>Brew Builds</h2>
+  <p>
+  Product listings automatically reload only when a build version is
+  changed.  To refresh product listings and load any new Brew files
+  for current builds, click on
+  'Reload files for this build', or
+  <%= post_link_confirm("Reload files for all builds", :reload_builds_for_errata, @errata, "This is for cases where the #{@errata.is_pdc? ? 'PDC' : 'Compose'} data generated the incorrect file list for some builds.
+For an advisory with many builds, this may take a while. You will receive an email
+when all builds have been reloaded. Are you sure?")
+    %>.
+  </p>
+  <p>
+  Builds may be entered as NVRs, Brew build IDs or URLs. Multiple builds must be separated by a newline.
+  </p>
+
+<%= form_tag({:action => 'preview_files', :id => @errata},
+    'job-tracker-action' => url_for(:action => :prepare_preview_files, :id => @errata),
+    'job-tracker-completed-text' => 'Please wait, finishing up...',
+    'job-tracker-failed-text' => 'Sorry, fetching builds repeatedly failed.  Please try again later.'
+) do %>
+  <% @product_versions_or_pdc_releases.each do |pv_or_pr|%>
+    <div style="margin-top: 0.5em;">
+      <h3>
+        <%= link_to_release_version(pv_or_pr, target: '_blank') %> -
+        <span class="superlight"> <%= pv_or_pr.verbose_name %></span>
+        <% if @errata.is_pdc? %>
+          <%= block_render('shared/help_popover', :placement => 'bottom', :extra_class => 'smaller') do %>
+              <p>
+                PDC's release metadata is used instead of Errata's product version.
+              </p>
+          <% end %>
+        <% end %>
+      </h3>
+      <% if @errata.is_pdc? && @valid_tags[pv_or_pr].length == 0 %>
+        <div class="alert alert-warning bold">
+          No Brew tags for this PDC release.
+        </div>
+      <% end %>
+      <span class="small light">
+      Must be tagged with<% if @valid_tags[pv_or_pr].length > 1 -%> one of<% end -%>: <b><%= @valid_tags[pv_or_pr].to_a.join(', ') %></b>
+        <br/>
+        <%= text_area_tag("pv_#{pv_or_pr.id}", @current_builds[pv_or_pr].to_a.join("\n"), :rows => 2, :cols => 50,
+                          :placeholder => "Enter builds as NVRs or Brew IDs, separated by newlines") %><br/>
+      </span>
+    </div>
+  <% end %>
+  <%=
+    render 'shared/view_section', :title => "Inactive #{@product_version_or_pdc_release} (#{@inactive_product_versions_or_pdc_releases.count})",
+           :name => 'inactive_pv' if @inactive_product_versions_or_pdc_releases.any?
+  %>
+  <br/>
+
+  <%= submit_tag "Find New Builds", :action => 'preview_files', :class=>'btn btn-primary' %>
+
+  <%= wait_spinner %>
+  <span class="et-ajax-form-error statusred"></span>
+  <br/>
+  <br/>
+  <%= render :partial => 'shared/job_tracker_progress' %>
+<% end %>
+
+<% end %>
+
+<% if @errata.is_pdc?%>
+  <%= render "shared/file_list_pdc", :errata => @errata, :allow_delete => @errata.filelist_unlocked? -%>
+<% else %>
+  <%= render "shared/file_list", :errata => @errata, :allow_delete => @errata.filelist_unlocked? -%>
+<% end %>

@@ -1,0 +1,74 @@
+<%
+  is_current_group = state_group.current_index?
+%>
+
+<div class="clearfix"><div class="state-group eso-greybox <%= 'current-state-group' if is_current_group %>"
+                           id="state_idx_<%= state_group.id %>"
+                           style="width:96%;margin-bottom:0;margin-left:0;margin-right:0;">
+
+
+  <div class="float-right">
+    <%=
+      link_to(
+        # A bit messy: There are spans inside the link text that get hidden or shown based on
+        # whether the link has the 'currently_hiding' css class...
+        ("<span class='hide_text indicator down'>Collapse</span><span class='show_text indicator right'>Expand</span> ").html_safe,
+        '#',
+        :id => "state_comments_show_hide_#{state_group.id}",
+        :class => "show_hide_link btn btn-mini btn-toggle-comment",
+        :data => { 'target' => "state_comments_#{state_group.id}" }
+      )
+    %>
+  </div>
+
+  <%#
+    #
+    # Some of the tests here are to deal with the 'bogus' state group
+    # that I am creating when rendering an old advisory without any real state_indices (aka state groups).
+    # See state_group_list.
+    #
+  -%>
+  <div style="font-size:120%;margin-right:1em;">
+    <% if state_group.current %>
+      Status
+      <span class="state_indicator state_indicator_<%= state_group.current.downcase %>"><%= State.nice_label(state_group.current) %></span>
+      <%= state_group.created_at.to_s(:mmm_d_y) %>
+    <% end %>
+    (<%= state_group.comments.length %> <%= pluralize_based_on(state_group.comments,'comment') %>)
+    <%# Not much point displaying a 'changed state comment' %>
+    <% if !state_group.comments.empty? && state_group.comments.last.text !~ /Changed state from/%>
+      <span class="tiny light">Newest:</span> <%= string_trunc(state_group.comments.last.text.gsub('__div_bug_states_separator','').gsub('__end_div',''), 40) %>
+    <% end %>
+    <% if state_group.who %><%# see hack in state_group_list. might be a bogus state_group which has no 'who' field %>
+      <br/><span class="tiny light" style="font-size:65%;">
+        <% unless state_group.previous == 'UNFILED' || state_group.previous.blank? %>Changed from <%= state_group.previous %> b<% else %>B<% end %>y
+        <b><%= state_group.who.short_to_s %></b> on <%= state_group.created_at %>
+      </span>
+    <% end %>
+  </div>
+
+  <div class="state_comments" id="state_comments_<%= state_group.id %>">
+
+    <%# comment form goes at top if newest first %>
+    <% if is_current_group && newest_first %>
+      <%= render 'errata/sections/state_comment_form' %>
+    <% end %>
+
+    <% reversed_if(newest_first, state_group.comments).each do |c| %>
+      <%#
+        # Comments don't change once they're created so cache them forever, unless we are rendering a
+        # non-current group since in that case the surrounding state_index fragment will be cached.
+      -%>
+      <% cache_if(is_current_group, comment_cache_key(c)) do %>
+        <%= render :partial => 'errata/sections/state_comment', :object => c %>
+      <% end %>
+    <% end %>
+
+    <%# comment form goes at bottom if oldest first %>
+    <% if is_current_group && !newest_first %>
+      <%= render 'errata/sections/state_comment_form' %>
+    <% end %>
+
+  </div>
+
+</div></div>

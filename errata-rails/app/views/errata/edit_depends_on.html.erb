@@ -1,0 +1,24 @@
+
+<p>
+  <% if !@errata.can_edit_dependencies? %>
+    Can't edit dependencies for this errata in state
+  <% else %>
+    Current state:
+  <% end %>
+  <%=raw state_display(@errata) %>
+</p>
+
+<div class="clearfix"><div class="eso-greybox">
+  <b>Depends on:</b>
+  <%= render "dependency_edit", :mode => :depends_on %>
+  <br/>
+  <b>Blocks:</b>
+  <%= render "dependency_edit", :mode => :blocks %>
+</div></div>
+
+<%= render 'dependency_graph' %>
+
+<p style="margin-top:4em;" class="small"><%= back_to_errata(@errata) %></p>
+
+<%# TODO: The edit cc list UI is similar to this but implemented differently.
+Should make it more consistent. -%>

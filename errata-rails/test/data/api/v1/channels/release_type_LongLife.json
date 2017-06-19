@@ -1,0 +1,961 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "name": "rhel-i386-server-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 178,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 164,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 69,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 181,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 167,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-storage-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 184,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-cluster-storage-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 170,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-ha-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 71,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-lb-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 75,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-optional-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 67,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-productivity-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 176,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-rs-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 73,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 351,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 392,
+            "name": "5Server-Supplementary-5.3.LL"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-supplementary-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 359,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-vt-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 187,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 391,
+            "name": "5Server-VT-5.3.LL"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-vt-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 173,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 179,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 165,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 182,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 168,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-storage-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 185,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-cluster-storage-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 171,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-supplementary-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 352,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 392,
+            "name": "5Server-Supplementary-5.3.LL"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-supplementary-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 360,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-vt-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 188,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 391,
+            "name": "5Server-VT-5.3.LL"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-vt-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 174,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 180,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 166,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 70,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-6.5.aus",
+        "release_type": "LongLife",
+        "use_for_tps": false
+      },
+      "id": 1037,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-cluster-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 183,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-cluster-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 169,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-cluster-storage-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 186,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-cluster-storage-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 172,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-ha-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 72,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-lb-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 76,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-optional-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 68,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-productivity-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 177,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-rs-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 74,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-sfs-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 77,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-supplementary-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 353,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 392,
+            "name": "5Server-Supplementary-5.3.LL"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-supplementary-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 361,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-vt-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 189,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 391,
+            "name": "5Server-VT-5.3.LL"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-vt-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 175,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-i386-server-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 586,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-i386-server-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 594,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-i386-server-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 615,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-ia64-server-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 587,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-ia64-server-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 595,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-x86_64-server-5.3.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 588,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-x86_64-server-5.6.ll",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 596,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhn-tools-rhel-x86_64-server-6.2.aus",
+        "release_type": "LongLife",
+        "use_for_tps": true
+      },
+      "id": 619,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    }
+  ]
+}

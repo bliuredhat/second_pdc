@@ -1,0 +1,17 @@
+<% if @errata.content.doc_reviewer -%>
+<%= @errata.content.doc_reviewer.to_s %> has been assigned as the documentation reviewer for advisory <%= @errata.fulladvisory %>.
+
+It is currently ready for review.
+<% else -%>
+<%# Actually I don't think it's possible to remove the reviewer entirely with the current UI
+Instead it can be assigned back to 'Docs Errata List' which is the default_docs_user -%>
+No-one is currently assigned as the documentation reviewer for advisory <%= @errata.fulladvisory %>.
+<% end -%>
+<%# Let's not show the old reviewer if it is the default_docs_user, since advisories get
+created with that user assigned, it's kind of like the 'nobody is assigned yet' user -%>
+<% if @old_reviewer && @old_reviewer != User.default_docs_user -%>
+
+(This advisory was previously assigned to <%= @old_reviewer.to_s %>).
+<% end -%>
+
+<%= errata_text_docs_url(@errata) %>

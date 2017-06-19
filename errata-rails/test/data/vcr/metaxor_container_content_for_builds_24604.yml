@@ -1,0 +1,36 @@
+--- 
+http_interactions: 
+- request: 
+    method: post
+    uri: https://datasvc.lightblue.dev2.redhat.com/rest/data/find/containerImage
+    body: 
+      encoding: UTF-8
+      string: "{\"objectType\":\"containerImage\",\"version\":\"0.0.6\",\"query\":{\"field\":\"brew.build\",\"op\":\"$in\",\"values\":[\"rhel-tools-docker-7.2-51\"]},\"projection\":[{\"field\":\"repositories\",\"range\":[0,9999],\"projection\":[{\"field\":\"content_advisories\",\"range\":[0,9999],\"projection\":{\"field\":\"id\",\"include\":true}},{\"field\":\"tags\",\"range\":[0,9999],\"projection\":{\"field\":\"name\",\"include\":true}},{\"field\":\"repository\",\"include\":true},{\"field\":\"comparison\",\"include\":true,\"recursive\":true},{\"field\":\"published\",\"include\":true}]},{\"field\":\"brew.build\",\"include\":true},{\"field\":\"lastUpdateDate\",\"include\":true}]}"
+    headers: 
+      Content-Type: 
+      - application/json
+      Accept: 
+      - application/json
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Server: 
+      - Apache-Coyote/1.1
+      X-Trace: 
+      - 1B4D20BE54A75F22D1F97D0C5D3BF0A5007CEC938D5E35DE5D775A2F30
+      Requestid: 
+      - "-1612078282538335752"
+      Content-Type: 
+      - application/json
+      Content-Length: 
+      - "1218"
+      Date: 
+      - Thu, 23 Mar 2017 02:10:27 GMT
+    body: 
+      encoding: ASCII-8BIT
+      string: "{\"entity\":\"containerImage\",\"entityVersion\":\"0.0.12-SNAPSHOT\",\"status\":\"COMPLETE\",\"modifiedCount\":0,\"matchCount\":1,\"processed\":[{\"lastUpdateDate\":\"20170316T02:28:06.402-0400\",\"repositories\":[{\"comparison\":{\"reason\":\"OK\",\"rpms\":{\"new\":[],\"upgrade\":[\"python-libs-2.7.5-39.el7_2.x86_64\",\"perf-3.10.0-327.36.1.el7.x86_64\",\"selinux-policy-3.13.1-60.el7_2.9.noarch\",\"python-2.7.5-39.el7_2.x86_64\",\"selinux-policy-minimum-3.13.1-60.el7_2.9.noarch\",\"selinux-policy-targeted-3.13.1-60.el7_2.9.noarch\",\"kmod-libs-20-8.el7_2.x86_64\",\"kernel-3.10.0-327.36.1.el7.x86_64\",\"kmod-20-8.el7_2.x86_64\",\"kpartx-0.4.9-85.el7_2.6.x86_64\",\"kernel-devel-3.10.0-327.36.1.el7.x86_64\",\"kernel-headers-3.10.0-327.36.1.el7.x86_64\"],\"downgrade\":[],\"remove\":[]},\"with_nvr\":\"rhel-tools-docker-7.2-49\",\"reason_text\":\"No error\"},\"published\":true,\"repository\":\"rhel7/rhel-tools\",\"tags\":[{\"name\":\"7.2\"},{\"name\":\"7.2-51\"}],\"content_advisories\":[{\"id\":\"RHSA-2016:1847\"},{\"id\":\"RHBA-2016:1833\"},{\"id\":\"RHBA-2016:1832\"},{\"id\":\"RHBA-2016:1834\"},{\"id\":\"RHBA-2016:1863\"}]}],\"brew\":{\"build\":\"rhel-tools-docker-7.2-51\"}}],\"hostname\":\"lightbluecrud3.dev.a1.vary.redhat.com\",\"resultMetadata\":[{\"documentVersion\":\"57ecf416dd65273aa1e1b1c3:58ca30769ffba21d896d0057\"}]}"
+    http_version: 
+  recorded_at: Thu, 23 Mar 2017 02:10:26 GMT
+recorded_with: VCR 3.0.3

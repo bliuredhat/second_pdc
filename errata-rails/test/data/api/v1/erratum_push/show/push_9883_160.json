@@ -1,0 +1,26 @@
+# HTTP 200
+{
+  "errata": {
+    "id": 9883
+  },
+  "id": 160,
+  "log": "\nPub task created, task id: 3670\nLink to the pub task: http://pub.devel.redhat.com/pub/task/3670\nWaiting on pub to finish.\nPub completed.\nRunning post push tasks.\nRunning task mark_ftp_done\npost-push tasks complete",
+  "options": {
+    "priority": 22
+  },
+  "post_tasks": [
+    "mark_ftp_done"
+  ],
+  "pre_tasks": [
+
+  ],
+  "pub_task": {
+    "id": 3670
+  },
+  "status": "COMPLETE",
+  "target": {
+    "id": 3,
+    "name": "ftp"
+  },
+  "url": "http://www.example.com/api/v1/erratum/9883/push/160"
+}

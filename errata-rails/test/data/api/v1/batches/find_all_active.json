@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "description": "Test batch description",
+        "is_active": true,
+        "is_locked": false,
+        "name": "batch_00001",
+        "release_date": "2015-09-01"
+      },
+      "id": 1,
+      "relationships": {
+        "errata": [
+
+        ],
+        "release": {
+          "id": 452,
+          "name": "RHEL-7.1.Z"
+        }
+      },
+      "type": "batches"
+    },
+    {
+      "attributes": {
+        "description": "Second test batch description",
+        "is_active": true,
+        "is_locked": false,
+        "name": "batch_00002",
+        "release_date": "2015-10-01"
+      },
+      "id": 2,
+      "relationships": {
+        "errata": [
+          {
+            "id": 19707
+          }
+        ],
+        "release": {
+          "id": 452,
+          "name": "RHEL-7.1.Z"
+        }
+      },
+      "type": "batches"
+    },
+    {
+      "attributes": {
+        "description": "Batch for RHEL-6.1.0",
+        "is_active": true,
+        "is_locked": false,
+        "name": "batch_00004",
+        "release_date": "2015-09-01"
+      },
+      "id": 4,
+      "relationships": {
+        "errata": [
+
+        ],
+        "release": {
+          "id": 147,
+          "name": "RHEL-6.1.0"
+        }
+      },
+      "type": "batches"
+    },
+    {
+      "attributes": {
+        "description": "Released batch",
+        "is_active": true,
+        "is_locked": false,
+        "name": "batch_00006",
+        "release_date": "2015-09-01"
+      },
+      "id": 6,
+      "relationships": {
+        "errata": [
+
+        ],
+        "release": {
+          "id": 452,
+          "name": "RHEL-7.1.Z"
+        }
+      },
+      "type": "batches"
+    },
+    {
+      "attributes": {
+        "description": "Locked batch",
+        "is_active": true,
+        "is_locked": true,
+        "name": "batch_00007",
+        "release_date": "2015-08-01"
+      },
+      "id": 7,
+      "relationships": {
+        "errata": [
+
+        ],
+        "release": {
+          "id": 452,
+          "name": "RHEL-7.1.Z"
+        }
+      },
+      "type": "batches"
+    }
+  ]
+}

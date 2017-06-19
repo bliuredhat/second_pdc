@@ -1,0 +1,6 @@
+<h1>Errata for <%= issuetype %> <%= descriptive_issue_link(issue)%> </h1>
+<% if filed_issues.empty? %>
+  "No advisories filed for <%= issuetype %> <%= issue.display_id %>"
+<% else %>
+  <%= render(:partial => "errata/errata_list", :object => filed_issues.map(&:errata)) %>
+<% end %>

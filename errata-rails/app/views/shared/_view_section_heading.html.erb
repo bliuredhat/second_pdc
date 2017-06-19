@@ -1,0 +1,7 @@
+<h2>
+  <%= link_to title, '#', :class=>'toggle-view-section', :name=>name %>
+  <i class="icon-chevron-up uncollapsed-indicator"></i><i class="icon-chevron-down collapsed-indicator"></i>
+  <% if defined?(title_note) && title_note.present? %>
+    <span style="font-weight:normal;font-size:55%;" class="light"><%=raw title_note %></span>
+  <% end %>
+</h2>

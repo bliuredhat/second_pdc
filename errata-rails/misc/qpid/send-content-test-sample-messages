@@ -1,0 +1,126 @@
+#!/usr/bin/env ruby
+#
+# This script sends some sample CCAT messages to qpid, to exercise ET's message
+# handler.
+#
+# The steps for using it include:
+#
+# - Set qpid settings to an exchange, topic and server where your development
+#   environment has the permission to send/receive.
+#
+# - Start qpid service, e.g.
+#   script/messaging_daemon.rb --use-qpid -- start
+#
+# - Hack this script to add any additional desired sample messages.
+#
+# - Run this script.
+#   misc/qpid/send-content-test-sample-messages
+#
+# - Check log/qpid_service-mbus.log and UI for results
+#
+require 'rubygems'
+
+def load_environment
+  approot = File.expand_path(File.join(File.dirname(__FILE__), '..', '..'))
+  ENV['RAILS_ENV'] ||= 'development'
+  puts "Loading rails environment #{ENV['RAILS_ENV']}"
+  require File.join(approot, 'config', 'environment')
+end
+
+def send_message(handler, exchange, topic, *args)
+  handler.topic_send(exchange, topic, *args)
+end
+
+def sender_fn(handler)
+  exchange = Settings.qpid_ccat_exchange
+  topic = Settings.qpid_ccat_topic
+  lambda do |*args|
+    send_message(handler, exchange, topic, *args)
+  end
+end
+
+def send_ccat(sender, id, errata_id, *keys)
+  content = {'BUILD_URL' => "https://content-test-jenkins.rhev-ci-vms.eng.rdu2.redhat.com/job/cdn_content_validation/#{id}/"}
+  props = {'ERRATA_ID' => errata_id.to_s,
+           'JOB_NAME'  => 'cdn_content_validation',
+           'MESSAGE_TYPE' => 'testing-started'}
+
+  opts = {}
+  if keys.last.is_a?(Hash)
+    opts = keys.pop
+  end
+
+  if keys.include?(:completed)
+    props['MESSAGE_TYPE'] = 'testing-completed'
+    content['BUILD_RESULT'] = keys.include?(:failed) ? 'FAILURE' : 'SUCCESS'
+  end
+
+  if keys.include?(:manual)
+    props['JOB_NAME'] = 'cdn_content_validation_manual'
+  end
+
+  if (cause = opts[:error_cause])
+    props['ERROR_CAUSE'] = cause
+  end
+
+  if (ticket_id = opts[:ticket_id])
+    props['TICKET_ID'] = ticket_id
+  end
+
+  if (issue_key = opts[:issue_key])
+    props['JIRA_ISSUE_ID'] = issue_key
+  end
+
+  sender[content, props]
+end
+
+def send_messages
+  sender = sender_fn MessageBus::QpidHandler.new
+  ccat_sender = lambda do |*args|
+    send_ccat(sender, *args)
+  end
+
+  ccat_sender[2399, 19828]
+  ccat_sender[2399, 19828, :completed]
+
+  ccat_sender[2400, 21790]
+  ccat_sender[2400, 21790, :completed, :failed, {:error_cause => '<not a valid error>'}]
+
+  ccat_sender[123, 21790, :manual]
+  ccat_sender[123, 21790, :manual, :completed]
+
+  ccat_sender[2401, 21796]
+  # ticket_id is no more used but also test with ticket_id to simulate in case.
+  ccat_sender[2401, 21796, :completed, :failed, {:error_cause => '["Metadata Error", "Content not available"]',
+                                                 :ticket_id => '<bad ticket id>'}]
+  ccat_sender[2401, 21796]
+  ccat_sender[2401, 21796, :completed, :failed, {:error_cause => '["Metadata Error", "Content not available"]',
+                                                 :issue_key => 'ISSUE-112233'}]
+  ccat_sender[2402, 21796]
+
+  # Some of the above will fail when running this script a second time due to
+  # unexpected changes on already completed runs; we'll also generate some new
+  # runs so there's some new data each time the script is run
+
+  max_id = ExternalTestRun.pluck('max(external_id)').first
+  ccat_sender[max_id+1, 21830]
+  ccat_sender[max_id+1, 21830, :completed, :failed]
+  ccat_sender[max_id+2, 21830]
+  ccat_sender[max_id+2, 21830, :completed, :failed, {:error_cause => '["Metadata Error"]',
+                                                     :ticket_id => '112233'}]
+  ccat_sender[max_id+3, 21830]
+  ccat_sender[max_id+3, 21830, :completed, :failed, {:error_cause => '["Metadata Error"]',
+                                                     :issue_key => 'ISSUE-112233'}]
+  ccat_sender[max_id+100, 21830, :manual]
+  ccat_sender[max_id+100, 21830, :manual, :completed, :failed, {:ticket_id => '223344'}]
+  ccat_sender[max_id+101, 21830, :manual]
+  ccat_sender[max_id+101, 21830, :manual, :completed, :failed, {:issue_key => 'ISSUE-223344'}]
+  ccat_sender[max_id+102, 21830, :manual]
+end
+
+def main
+  load_environment
+  send_messages
+end
+
+main

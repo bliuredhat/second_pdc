@@ -1,0 +1,14 @@
+<div id="cc_<%= cc_edit.who.id %>">
+  <%= link_to('<i class="icon-trash"></i> Remove'.html_safe, {
+      :action  => :remove_from_cc_list,
+      :controller => :carbon_copies,
+      :id      => @errata.id,
+      :user_id => cc_edit.who.id
+    },
+    :remote => true,
+    :method => :post,
+    :class  => 'btn btn-mini',
+    :style  => 'font-size:70%;margin-right:1em;'
+  )%>
+  <%= cc_edit.who.to_s %>
+</div>

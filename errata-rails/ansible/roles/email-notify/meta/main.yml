@@ -1,0 +1,3 @@
+---
+dependencies:
+  - { role: teiid-bug-list, when: skip_bug_list is not defined }

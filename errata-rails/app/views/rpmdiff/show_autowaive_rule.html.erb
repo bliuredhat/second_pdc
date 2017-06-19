@@ -1,0 +1,74 @@
+<div class="rpmdiff-show-autowaive-rule-main">
+  <%= page_title_h1 %>
+  <div id="package">
+    <h3>Package Name</h3>
+    <p>
+      <%= link_to @autowaive_rule.package_name, :controller => :package, :action => :show, :id => @autowaive_rule.package_name %>
+    </p>
+  </div>
+
+  <div id="subpackage" class="rpmdiff-show-autowaive-rule-component">
+    <h3>Subpackage Name</h3>
+    <p>
+      <%= @autowaive_rule.subpackage %>
+    <p>
+  </div>
+
+  <div id="product-version" class="rpmdiff-show-autowaive-rule-component">
+    <h3>Product Version</h3>
+    <p>
+      <%= render "list_product_versions", :versions => @autowaive_rule.product_versions %>
+    </p>
+  </div>
+
+  <div id="test" class="rpmdiff-show-autowaive-rule-component">
+    <h3><a href="https://docs.engineering.redhat.com/x/K4oEAQ" target="_blank">Test</a></h3>
+    <p>
+      <%= link_to @autowaive_rule.rpmdiff_test.description, @autowaive_rule.rpmdiff_test.wiki_url, :target=>'_blank' %>
+     </p>
+  </div>
+
+  <div id="score" class="rpmdiff-show-autowaive-rule-component">
+    <h3>Score</h3>
+    <p>
+      <%= @autowaive_rule.rpmdiff_score.description %>
+    </p>
+  </div>
+
+  <div id="expression" class="rpmdiff-show-autowaive-rule-component">
+    <h3>Expression</h3>
+    <p>
+      <%= @autowaive_rule.content_pattern %>
+    </p>
+  </div>
+
+  <div id="reason" class="rpmdiff-show-autowaive-rule-component">
+    <h3>Reason</h3>
+    <p>
+      <%= @autowaive_rule.reason %>
+    </p>
+  </div>
+
+  <div id="creator_and_approver" class="rpmdiff-show-autowaive-rule-component">
+    <h3>Creator and Approver</h3>
+    <p>
+      <%= render "users_who_created_and_approved_autowaive_rule", :rule => @autowaive_rule %>
+    </p>
+  </div>
+
+  <% if @autowaive_rule.created_from_rpmdiff_result_detail_id %>
+  <p>
+    <h3><span class="red">This rule is created based on
+    <%= rpmdiff_result_link(@current_result, 'Test result') %>
+    </span>
+    </h3>
+    <br />
+  </p>
+  <% end %>
+</div>
+
+<div class="rpmdiff-show-autowaive-rule-possible-links">
+  <p>
+    <%= list_autowaive_rules_actions(@autowaive_rule, current_user) %>
+  <p>
+</div>

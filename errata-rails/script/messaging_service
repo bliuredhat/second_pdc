@@ -1,0 +1,73 @@
+#!/bin/bash
+# chkconfig: - 85 15
+# description: Runs message bus listener for errata system
+# processname: messaging_service
+
+RAILS_ROOT="/var/www/errata_rails"
+PIDFILE="$RAILS_ROOT/tmp/pids/messaging_service.pid"
+USER=erratatool
+GROUP=errata
+RETVAL=0
+prog=messaging_service
+if [ -x /sbin/runuser ]
+then
+    SU=/sbin/runuser
+else
+    SU=su
+fi
+
+
+start() {
+    echo "starting $prog"
+    $SU -l $USER -g $GROUP -c "
+      source scl_source enable rh-ruby22 &&
+      cd ${RAILS_ROOT} &&
+      bundle exec ${RAILS_ROOT}/script/messaging_daemon.rb --use-messagebus -- start"
+    RETVAL=$?
+}
+
+stop() {
+    echo "stopping $prog"
+    $SU -l $USER -g $GROUP -c "
+      source scl_source enable rh-ruby22 &&
+      cd ${RAILS_ROOT} &&
+      bundle exec ${RAILS_ROOT}/script/messaging_daemon.rb --use-messagebus -- stop"
+    RETVAL=$?
+}
+
+status() {
+    if [ -e "$PIDFILE" ]; then
+        pid=`cat $PIDFILE`
+        if kill -0 &>1 > /dev/null $pid; then
+            echo "$prog is already running."
+        else
+            echo "Dead $prog process! $pid"
+            RETVAL=1
+        fi
+    else
+        echo "$prog not running yet"
+    fi
+}
+
+
+case "$1" in
+  start)
+	start
+	;;
+  stop)
+	stop
+	;;
+  status)
+    status
+	;;
+  restart)
+	stop
+	start
+	;;
+  *)
+	echo $"Usage: $prog {start|stop|restart|status}"
+	RETVAL=3
+esac
+
+
+exit $RETVAL

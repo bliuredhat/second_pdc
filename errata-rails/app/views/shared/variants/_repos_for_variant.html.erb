@@ -1,0 +1,9 @@
+<% repos_for_variant ||= [] %>
+<td>
+  <% repos_for_variant.group_by{ |cdn_repo| cdn_repo.short_release_type }.each_pair do |release_type,cdn_repos|%>
+    <b><%= release_type %></b><br/>
+    <% cdn_repos.each do |cdn_repo| %>
+      <span style="margin-left:10px"><b><%= cdn_repo.short_type %>:</b> <%= link_to cdn_repo.name, variant_cdn_repo_path(variant, cdn_repo) %></span><br/>
+    <% end %>
+  <% end %>
+</td>

@@ -1,0 +1,15 @@
+<table class="simpletable" style="font-size:90%;">
+  <tr>
+    <th>Setting Name</th>
+    <th>Default Value</th>
+    <th>Current Value</th>
+  </tr>
+  <% @settings_keys.each do |key|
+    default, current = Settings.defaults[key], Settings[key] %>
+    <tr>
+      <td><%= key %></td>
+      <td><%= default.inspect %></td>
+      <td><%= default == current ? '<i class="superlight">default</i>'.html_safe : current.inspect %></td>
+    </tr>
+  <% end %>
+</table>

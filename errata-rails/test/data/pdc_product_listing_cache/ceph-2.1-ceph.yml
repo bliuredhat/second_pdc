@@ -1,0 +1,82 @@
+--- !ruby/object:OpenStruct 
+table: 
+  :MON: !ruby/object:OpenStruct 
+    table: 
+      :x86_64: !ruby/object:OpenStruct 
+        table: 
+          :librgw2: 
+          - x86_64
+          :"ceph-base": 
+          - x86_64
+          :"libcephfs1-devel": 
+          - x86_64
+          :librbd1: 
+          - x86_64
+          :"ceph-debuginfo": 
+          - x86_64
+          :"ceph-selinux": 
+          - x86_64
+          :"python-rados": 
+          - x86_64
+          :"python-cephfs": 
+          - x86_64
+          :"ceph-common": 
+          - x86_64
+          :"librgw2-devel": 
+          - x86_64
+          :ceph: 
+          - src
+          :"librbd1-devel": 
+          - x86_64
+          :"python-rbd": 
+          - x86_64
+          :"ceph-test": 
+          - x86_64
+          :librados2: 
+          - x86_64
+          :"librados2-devel": 
+          - x86_64
+          :"ceph-mon": 
+          - x86_64
+          :libcephfs1: 
+          - x86_64
+  :OSD: !ruby/object:OpenStruct 
+    table: 
+      :x86_64: !ruby/object:OpenStruct 
+        table: 
+          :librgw2: 
+          - x86_64
+          :"ceph-base": 
+          - x86_64
+          :"libcephfs1-devel": 
+          - x86_64
+          :librbd1: 
+          - x86_64
+          :"ceph-debuginfo": 
+          - x86_64
+          :"ceph-selinux": 
+          - x86_64
+          :"python-rados": 
+          - x86_64
+          :"python-cephfs": 
+          - x86_64
+          :"ceph-common": 
+          - x86_64
+          :"librgw2-devel": 
+          - x86_64
+          :ceph: 
+          - src
+          :"librbd1-devel": 
+          - x86_64
+          :"python-rbd": 
+          - x86_64
+          :"ceph-test": 
+          - x86_64
+          :librados2: 
+          - x86_64
+          :"librados2-devel": 
+          - x86_64
+          :"ceph-osd": 
+          - x86_64
+          :libcephfs1: 
+          - x86_64

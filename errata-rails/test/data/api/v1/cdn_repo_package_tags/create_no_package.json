@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "Package": [
+      "Either package_id or package_name must be specified"
+    ]
+  }
+}

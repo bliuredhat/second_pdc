@@ -1,0 +1,54 @@
+# HTTP 200
+[
+  {
+    "errata": {
+      "id": 20044
+    },
+    "id": 46490,
+    "log": "2015-07-22 01:43:45 -0400 Running pre push tasks\n2015-07-22 01:43:45 -0400 Pub task created, task id: 61012\n2015-07-22 01:43:45 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61012\n2015-07-22 01:43:45 -0400 Waiting on pub to finish.\n2015-07-22 01:56:00 -0400 Pub completed.\n2015-07-22 01:56:00 -0400 Running post push tasks in background job 1319613.\n2015-07-22 03:52:12 -0400 Running post push tasks: mark_ftp_done\n2015-07-22 03:52:12 -0400 Running mandatory tasks mark_ftp_done\n2015-07-22 03:52:12 -0400 Running task mark_ftp_done\n2015-07-22 03:52:12 -0400 Running remainder:\n2015-07-22 03:52:12 -0400 Mandatory post push tasks complete",
+    "options": {
+      "priority": 12
+    },
+    "post_tasks": [
+      "mark_ftp_done"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": 61012
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 3,
+      "name": "ftp"
+    },
+    "url": "http://www.example.com/api/v1/erratum/20044/push/46490"
+  },
+  {
+    "errata": {
+      "id": 20044
+    },
+    "id": 47310,
+    "log": "2015-08-10 06:58:02 -0400 Running pre push tasks\n2015-08-10 06:58:02 -0400 Running pre push task set_in_push\n2015-08-10 06:58:02 -0400 Running task set_in_push\n2015-08-10 06:58:02 -0400 State already SHIPPED_LIVE\n2015-08-10 06:58:02 -0400 Running pre push task set_live_id\n2015-08-10 06:58:02 -0400 Running task set_live_id\n2015-08-10 06:58:03 -0400 Pub task created, task id: 61905\n2015-08-10 06:58:03 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/61905\n2015-08-10 06:58:03 -0400 Waiting on pub to finish.\n2015-08-10 07:31:49 -0400 Pub completed.\n2015-08-10 07:31:49 -0400 Running post push tasks in background job 1364023.\n2015-08-10 07:31:58 -0400 Running post push tasks: update_push_count\n2015-08-10 07:31:58 -0400 Running mandatory tasks update_push_count\n2015-08-10 07:31:58 -0400 Running task update_push_count\n2015-08-10 07:31:58 -0400 Push count increased\n2015-08-10 07:31:58 -0400 Running remainder:\n2015-08-10 07:31:58 -0400 Mandatory post push tasks complete",
+    "options": {
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_live_id"
+    ],
+    "pub_task": {
+      "id": 61905
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "http://www.example.com/api/v1/erratum/20044/push/47310"
+  }
+]

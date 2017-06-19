@@ -1,0 +1,7 @@
+  Push target: <%= job.push_target.display_name %>
+  Push job:    <%= url_for(:controller => :push,
+                           :action => :push_results,
+                           :id => job.id,
+                           :only_path => false) %>
+
+<%= job.log.wrap_text(80).lines.map{ |line| "  #{line}" }.join %>

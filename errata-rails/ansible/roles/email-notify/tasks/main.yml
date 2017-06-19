@@ -1,0 +1,149 @@
+- name: Prepare build type text for email subject (development builds)
+  set_fact: build_type_text='development'
+  when: is_release_candidate is not defined and find_build_method == 'find-jenkins-build'
+
+- name: Prepare build type text for email subject (release candidate builds)
+  set_fact: build_type_text='release candidate'
+  when: is_release_candidate is defined and find_build_method == 'find-jenkins-build'
+
+- name: Prepare build type text for email subject (brew builds)
+  set_fact: build_type_text='brew'
+  when: find_build_method == 'find-brew-build'
+
+- name: Prepare notification email subject
+  set_fact:
+    notification_subject: |-
+      ET {{ build_type_text }} build {{ build_name }} deployed to {{ inventory_hostname }}
+
+- name: Begin notification message content
+  set_fact:
+    notification_body: |-
+      Errata Tool {{ build_type_text }} build {{ build_name }} has been deployed to {{ inventory_hostname }}:
+        {{ site_url }}
+
+- name: Add extra message about release candidate builds
+  when: build_type_text == 'release candidate'
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      This build should be considered a candidate for deploy to production.
+
+- name: Add information about Jenkins build
+  when: find_build_method == 'find-jenkins-build'
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      Build info:
+        {{ build_url }}
+
+      RPM:
+        {{ rpm_url }}
+
+      Example deploy command:
+        make qe_deploy BUILD={{ build_number }} REALLY=1
+        (See https://docs.engineering.redhat.com/x/NiLXAQ for details.)
+
+- name: Add information about Brew build
+  when: find_build_method == 'find-brew-build'
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      RPM:
+        {{ rpm_name }}
+
+      Build location:
+        {{ builds_index }}
+
+      Example deploy command:
+        make qe_deploy VER={{ ver }} REL={{ rel | default('0') }} REALLY=1
+        (See https://docs.engineering.redhat.com/x/NiLXAQ for details.)
+
+- name: Add bugs info
+  when: skip_bug_list is not defined
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      Bugs:
+        {{ bugs_link }}
+
+      {{ bugs_list }}
+
+- name: Add previous version info
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      For this deploy, the previously installed version was:
+        {{ installed_version }}
+
+        (Note that the rollbacks and migrations may be different when deploying
+        on a different previously installed version.)
+
+- name: Mention required rollbacks
+  when: required_rollbacks | length > 0
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      For this deploy, {{ required_rollbacks | length }} rollbacks were required:
+        {{ required_rollbacks | join(", ") }}
+
+- name: Add actual rollback output
+  when: rollback_results | changed
+  with_items: rollback_results.results
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      {{ item.item }} rollback stdout:
+      {{ item.stdout }}
+
+- name: Mention expected migrations
+  when: expected_migrates | length > 0
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      For this deploy, {{ expected_migrates | length }} migrations were expected:
+        {{ expected_migrates | join(", ") }}
+
+- name: Add actual migration output
+  when: migration_result | changed
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      Migrations stdout:
+      {{ migration_result.stdout }}
+
+- name: Mention if it's dry run mode
+  when: dry_run is defined
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      *** DRY RUN ONLY ***
+
+- name: Mention who is running the playbook
+  set_fact:
+    notification_body: |-
+      {{ notification_body }}
+
+      -----------------------------------------------------------------------
+      (Playbook run by {{ lookup('env', 'USER') }} on {{ lookup('pipe', 'hostname') }})
+
+- name: Send notification email
+  local_action:
+    module: mail
+    from: "{{ sender }}"
+    to: "{{ recipients | join(',') }}"
+    subject: "{{ notification_subject }}"
+    body: |
+      Suggested recipients:
+      {{ suggested_recipients | join(',') }}
+
+      {{ notification_body }}

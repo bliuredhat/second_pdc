@@ -1,0 +1,28 @@
+#!/bin/bash
+#
+# Small utility wrapper for python-bugzilla to format a bug with a link
+# to it markdown style.
+#
+# Example (vim):
+#
+#   :r !~/bin/vimbugz 961376
+#   [Bug 961376](https://bugzilla.redhat.com/show_bug.cgi?id=961376)
+#
+#   :r !~/bin/vimbugz 961376 long
+#   [BZ#961376](https://bugzilla.redhat.com/show_bug.cgi?id=961376) ET: incorrect "Tps Runs are now complete" mail headers
+#
+defaultformat='[Bug %{bug_id}](https://bugzilla.redhat.com/show_bug.cgi?id=%{bug_id})'
+
+case "$2" in
+    long)
+        format='[BZ#%{bug_id}](https://bugzilla.redhat.com/show_bug.cgi?id=%{bug_id}) %{summary}'
+        ;;
+    short)
+        format=$defaultformat
+        ;;
+    *)
+        format=$defaultformat
+        ;;
+esac
+
+/usr/bin/bugzilla query -b $1 --outputformat="$format"

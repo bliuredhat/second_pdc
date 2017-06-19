@@ -1,0 +1,24 @@
+{
+  "kdenetwork-3.5.4-10.el5_6.1": {
+    "direct": [
+      {
+        "dist": "rhel-s390x-server-5.6.z",
+        "files": [
+          "s390/kdenetwork-3.5.4-10.el5_6.1.s390.rpm",
+          "s390/kdenetwork-debuginfo-3.5.4-10.el5_6.1.s390.rpm",
+          "s390/kdenetwork-devel-3.5.4-10.el5_6.1.s390.rpm",
+          "s390x/kdenetwork-3.5.4-10.el5_6.1.s390x.rpm",
+          "s390x/kdenetwork-debuginfo-3.5.4-10.el5_6.1.s390x.rpm",
+          "s390x/kdenetwork-devel-3.5.4-10.el5_6.1.s390x.rpm",
+          "src/kdenetwork-3.5.4-10.el5_6.1.src.rpm"
+        ],
+        "listing": [
+          "Listings for RHEL-5.6.Z"
+        ]
+      }
+    ],
+    "multi_product_maps": [
+
+    ]
+  }
+}

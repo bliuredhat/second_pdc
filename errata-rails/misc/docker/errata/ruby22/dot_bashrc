@@ -1,0 +1,11 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+  source /etc/bashrc
+fi
+
+# User specific aliases and functions
+if [ -r /code/misc/dotfiles/dev_bashrc ]; then
+  source /code/misc/dotfiles/dev_bashrc
+fi

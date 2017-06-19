@@ -1,0 +1,139 @@
+---
+pdc_errata_file_10:
+  id: 10
+  errata_id: 21131
+  pdc_variant_id: 5
+  arch_id: 24
+  devel_file: /mnt/redhat/brewroot/packages/ceph/10.2.3/17.el7cp/data/signed/fd431d51/src/ceph-10.2.3-17.el7cp.src.rpm
+  ftp_file: /ftp/pub/redhat/linux/enterprise/7Server/en/RHCEPH/SRPMS/ceph-10.2.3-17.el7cp.src.rpm
+  md5sum: fake:6325cae72e2d35c9bf161b9e35c
+  change_when: 2017-06-02 01:58:19 Z
+  current: 1
+  who: 174587
+  signed: redhatrelease2
+  rhn_channels:
+  rhn_beta_channels:
+  collection:
+  released: 0
+  rhn_pkgupload:
+  rhn_shadow_channels:
+  prior: 0
+  epoch:
+  package_id: 34590
+  brew_rpm_id: 4482155
+  brew_build_id: 528033
+pdc_errata_file_11:
+  id: 11
+  errata_id: 21131
+  pdc_variant_id: 5
+  arch_id: 13
+  devel_file: /mnt/redhat/brewroot/packages/ceph/10.2.3/17.el7cp/data/signed/fd431d51/x86_64/ceph-base-10.2.3-17.el7cp.x86_64.rpm
+  ftp_file: /ftp/pub/path/ignored/ceph-base-10.2.3-17.el7cp.x86_64.rpm
+  md5sum: fake:55c472f29f912aac03fe4de6101
+  change_when: 2017-06-02 01:58:24 Z
+  current: 1
+  who: 174587
+  signed: redhatrelease2
+  rhn_channels:
+  rhn_beta_channels:
+  collection:
+  released: 0
+  rhn_pkgupload:
+  rhn_shadow_channels:
+  prior: 0
+  epoch:
+  package_id: 34590
+  brew_rpm_id: 4482201
+  brew_build_id: 528033
+pdc_errata_file_12:
+  id: 12
+  errata_id: 21131
+  pdc_variant_id: 5
+  arch_id: 13
+  devel_file: /mnt/redhat/brewroot/packages/ceph/10.2.3/17.el7cp/data/signed/fd431d51/x86_64/ceph-common-10.2.3-17.el7cp.x86_64.rpm
+  ftp_file: /ftp/pub/path/ignored/ceph-common-10.2.3-17.el7cp.x86_64.rpm
+  md5sum: fake:e41eb698b188bb73a6da5ebee9c
+  change_when: 2017-06-02 01:58:28 Z
+  current: 1
+  who: 174587
+  signed: redhatrelease2
+  rhn_channels:
+  rhn_beta_channels:
+  collection:
+  released: 0
+  rhn_pkgupload:
+  rhn_shadow_channels:
+  prior: 0
+  epoch:
+  package_id: 34590
+  brew_rpm_id: 4482209
+  brew_build_id: 528033
+pdc_errata_file_13:
+  id: 13
+  errata_id: 21131
+  pdc_variant_id: 6
+  arch_id: 24
+  devel_file: /mnt/redhat/brewroot/packages/ceph/10.2.3/17.el7cp/data/signed/fd431d51/src/ceph-10.2.3-17.el7cp.src.rpm
+  ftp_file: /ftp/pub/redhat/linux/enterprise/7Server/en/RHCEPH/SRPMS/ceph-10.2.3-17.el7cp.src.rpm
+  md5sum: fake:6325cae72e2d35c9bf161b9e35c
+  change_when: 2017-06-02 01:58:32 Z
+  current: 1
+  who: 174587
+  signed: redhatrelease2
+  rhn_channels:
+  rhn_beta_channels:
+  collection:
+  released: 0
+  rhn_pkgupload:
+  rhn_shadow_channels:
+  prior: 0
+  epoch:
+  package_id: 34590
+  brew_rpm_id: 4482155
+  brew_build_id: 528033
+pdc_errata_file_14:
+  id: 14
+  errata_id: 21131
+  pdc_variant_id: 6
+  arch_id: 13
+  devel_file: /mnt/redhat/brewroot/packages/ceph/10.2.3/17.el7cp/data/signed/fd431d51/x86_64/ceph-base-10.2.3-17.el7cp.x86_64.rpm
+  ftp_file: /ftp/pub/path/ignored/ceph-base-10.2.3-17.el7cp.x86_64.rpm
+  md5sum: fake:55c472f29f912aac03fe4de6101
+  change_when: 2017-06-02 01:58:36 Z
+  current: 1
+  who: 174587
+  signed: redhatrelease2
+  rhn_channels:
+  rhn_beta_channels:
+  collection:
+  released: 0
+  rhn_pkgupload:
+  rhn_shadow_channels:
+  prior: 0
+  epoch:
+  package_id: 34590
+  brew_rpm_id: 4482201
+  brew_build_id: 528033
+pdc_errata_file_15:
+  id: 15
+  errata_id: 21131
+  pdc_variant_id: 6
+  arch_id: 13
+  devel_file: /mnt/redhat/brewroot/packages/ceph/10.2.3/17.el7cp/data/signed/fd431d51/x86_64/ceph-common-10.2.3-17.el7cp.x86_64.rpm
+  ftp_file: /ftp/pub/path/ignored/ceph-common-10.2.3-17.el7cp.x86_64.rpm
+  md5sum: fake:e41eb698b188bb73a6da5ebee9c
+  change_when: 2017-06-02 01:58:40 Z
+  current: 1
+  who: 174587
+  signed: redhatrelease2
+  rhn_channels:
+  rhn_beta_channels:
+  collection:
+  released: 0
+  rhn_pkgupload:
+  rhn_shadow_channels:
+  prior: 0
+  epoch:
+  package_id: 34590
+  brew_rpm_id: 4482209
+  brew_build_id: 528033

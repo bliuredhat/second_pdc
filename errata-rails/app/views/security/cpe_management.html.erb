@@ -1,0 +1,28 @@
+<%= page_title_h1 %>
+<table class="buglist" CELLPADDING="0" CELLSPACING="0" ALIGN="CENTER">
+<tr>
+  <th>Name</th><th>Description</th><th>CPE</th>
+</tr>
+<% @product_versions.each do |pv| %>
+<tr bgcolor="#dedede">
+<td ALIGN="center" colspan="7">
+
+<b><%= link_to pv.name, :action => :show, :controller => :products, :id => pv.product %> - <%= pv.description %></b><br>
+</td>
+</tr>
+<% bz_class = 'bz_odd'
+   for @variant in pv.variants.sort {|a,b| a.name <=> b.name}
+         if(bz_class == 'bz_even')
+            bz_class = 'bz_odd'
+         else
+            bz_class = 'bz_even'
+         end
+%>
+<tr class="<%= bz_class %> inline_form_container">
+<td><%= link_to @variant.name, :action => :show, :controller => :variants, :id => @variant %></td>
+<td><%= @variant.description %></td>
+<td><%= render :partial => 'cpe_management_inline_edit' %></td>
+</tr>
+<% end %>
+<% end %>
+</table>

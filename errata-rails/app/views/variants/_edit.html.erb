@@ -1,0 +1,17 @@
+<% active_errata = @variant.active_errata %>
+<tr><td>
+  <%= render :partial => 'form', :object => f %>
+<td></tr>
+
+<br/><br/>
+
+<% content_for :outside_form do %>
+  <%=
+     title = "depending active errata with locked filelist"
+     render 'shared/advisory_list',
+       :errata_list => active_errata,
+       :title => title.capitalize,
+       :noresult_title => "No #{title}.",
+       :note => "<strong>NOTE:</strong> User is not allowed to amend the push target if the variant has active errata with locked filelist.".html_safe
+  %>
+<% end %>

@@ -1,0 +1,128 @@
+--- 
+errata_filter_00001: 
+  created_at: 2012-07-18 14:35:35 Z
+  filter_params: 
+    show_state_NEW_FILES: "1"
+    show_state_PUSH_READY: "1"
+    show_state_QE: "1"
+    show_state_REL_PREP: "1"
+    show_type_RHBA: "1"
+    show_type_RHEA: "1"
+    show_type_RHSA: "1"
+  id: 1
+  name: Active Advisories (Default)
+  type: SystemErrataFilter
+  updated_at: 2012-07-18 14:35:35 Z
+  user_id: 
+  display_order: 1000
+errata_filter_00002: 
+  created_at: 2012-07-18 14:35:35 Z
+  filter_params: 
+    qe_owner_is_me: "1"
+    show_state_NEW_FILES: "1"
+    show_state_PUSH_READY: "1"
+    show_state_QE: "1"
+    show_state_REL_PREP: "1"
+    show_type_RHBA: "1"
+    show_type_RHEA: "1"
+    show_type_RHSA: "1"
+  id: 2
+  name: Active, assigned to you
+  type: SystemErrataFilter
+  updated_at: 2012-07-18 14:35:35 Z
+  user_id: 
+  display_order: 2000
+errata_filter_00003: 
+  created_at: 2012-07-18 14:35:35 Z
+  filter_params: 
+    reporter_is_me: "1"
+    show_state_NEW_FILES: "1"
+    show_state_PUSH_READY: "1"
+    show_state_QE: "1"
+    show_state_REL_PREP: "1"
+    show_type_RHBA: "1"
+    show_type_RHEA: "1"
+    show_type_RHSA: "1"
+  id: 3
+  name: Active, reported by you
+  type: SystemErrataFilter
+  updated_at: 2012-07-18 14:35:35 Z
+  user_id: 
+  display_order: 3000
+errata_filter_00004: 
+  created_at: 2012-07-18 14:35:35 Z
+  filter_params: 
+    show_state_NEW_FILES: "1"
+    show_type_RHBA: "1"
+    show_type_RHEA: "1"
+    show_type_RHSA: "1"
+  id: 4
+  name: All NEW_FILES
+  type: SystemErrataFilter
+  updated_at: 2012-07-18 14:35:35 Z
+  user_id: 
+  display_order: 4000
+errata_filter_00005: 
+  created_at: 2012-07-18 14:35:35 Z
+  filter_params: 
+    show_state_SHIPPED_LIVE: "1"
+    show_type_RHBA: "1"
+    show_type_RHEA: "1"
+    show_type_RHSA: "1"
+  id: 5
+  name: All SHIPPED_LIVE
+  type: SystemErrataFilter
+  updated_at: 2012-07-18 14:35:35 Z
+  user_id: 
+  display_order: 6000
+system_errata_filter_394:
+  type: SystemErrataFilter
+  name: All PUSH_READY
+  created_at: 2014-03-25 18:39:00 Z
+  updated_at: 2014-03-25 18:39:00 Z
+  user_id:
+  id: 394
+  filter_params:
+    show_type_RHEA: "1"
+    show_type_RHSA: "1"
+    show_type_RHBA: "1"
+    show_state_PUSH_READY: "1"
+  display_order: 5000
+system_errata_filter_6:
+  updated_at: 2015-02-25 00:08:26 Z
+  id: 6
+  created_at: 2015-02-25 00:08:26 Z
+  type: SystemErrataFilter
+  name: Awaiting Security Approval
+  user_id:
+  filter_params:
+    show_type_RHEA: "1"
+    show_state_NEW_FILES: "1"
+    show_state_REL_PREP: "1"
+    show_state_PUSH_READY: "1"
+    security_approval:
+    - requested
+    show_state_QE: "1"
+    show_type_RHBA: "1"
+    show_type_RHSA: "1"
+  display_order: 7000
+user_errata_filter_433:
+  id: 433
+  updated_at: 2015-07-28 01:24:19 Z
+  user_id: 3000931
+  name: All advisories on one page
+  created_at: 2015-07-28 01:24:19 Z
+  filter_params:
+    show_state_QE: "1"
+    show_state_PUSH_READY: "1"
+    show_state_DROPPED_NO_SHIP: "1"
+    show_type_RHSA: "1"
+    show_state_REL_PREP: "1"
+    show_state_IN_PUSH: "1"
+    pagination_option: all
+    show_type_RHEA: "1"
+    show_type_RHBA: "1"
+    show_state_SHIPPED_LIVE: "1"
+    show_state_NEW_FILES: "1"
+  display_order:
+  type: UserErrataFilter

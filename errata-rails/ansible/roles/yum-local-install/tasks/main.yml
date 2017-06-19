@@ -1,0 +1,9 @@
+---
+- name: Install rpm file with yum install
+  yum: name={{ rpm_file }} enablerepo=et-deps,et-deps-candidate state=present disable_gpg_check=yes
+  become: yes
+  register: rpm_install
+  when: dry_run is not defined
+
+- name: Ensure rpm file is cleaned up
+  file: path={{ rpm_file }} state=absent

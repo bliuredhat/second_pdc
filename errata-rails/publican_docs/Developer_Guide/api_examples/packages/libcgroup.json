@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "name": "libcgroup"
+      },
+      "id": 14996,
+      "relationships": {
+        "devel_owner": {
+          "id": 198352,
+          "realname": "Ship List Mailing List"
+        },
+        "devel_responsibility": {
+          "id": 3,
+          "name": "Default"
+        },
+        "docs_responsibility": {
+          "id": 1,
+          "name": "Default"
+        },
+        "errata": [
+          {
+            "actual_ship_date": "2014-09-30T10:31:21Z",
+            "errata_type": "RHBA",
+            "fulladvisory": "RHBA-2014:1331-02",
+            "id": 18918,
+            "status": "SHIPPED_LIVE"
+          },
+          {
+            "actual_ship_date": "2014-09-30T10:31:26Z",
+            "errata_type": "RHBA",
+            "fulladvisory": "RHBA-2014:1330-02",
+            "id": 18917,
+            "status": "SHIPPED_LIVE"
+          },
+          {
+            "actual_ship_date": "2014-09-30T10:31:30Z",
+            "errata_type": "RHBA",
+            "fulladvisory": "RHBA-2014:1329-04",
+            "id": 18916,
+            "status": "SHIPPED_LIVE"
+          },
+          {
+            "actual_ship_date": "2014-09-30T10:31:34Z",
+            "errata_type": "RHBA",
+            "fulladvisory": "RHBA-2014:1328-04",
+            "id": 18905,
+            "status": "SHIPPED_LIVE"
+          }
+        ],
+        "qe_owner": {
+          "id": 70626,
+          "realname": "QA Dept. Mailing List"
+        },
+        "quality_responsibility": {
+          "id": 108,
+          "name": "Kernel QE"
+        }
+      },
+      "type": "packages"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+---
+- name: install nss-tools, authconfig, ca-certificates
+  become: yes
+  yum: name={{item}} state=present
+  with_items:
+    - nss-tools
+    - authconfig
+    - ca-certificates
+
+- name: create openldap cacert dir
+  become: true
+  file: path=/etc/openldap/cacerts state=directory mode=0755 owner=root group=root
+
+# CA Cert info, March 2017: "RH_IT_Chain.crt", "legacy.crt", "Eng-CA.crt".
+# ENG-CA, legacy, and IT_Root CA are described at: https://mojo.redhat.com/docs/DOC-973551
+# IT_Chain comes from items 7 and 8 at: https://mojo.redhat.com/docs/DOC-1066354
+# which describe retrieving an Intermediate or Operational CA from:
+# https://ca01.pki.prod.int.phx2.redhat.com:8443/ca/ee/ca/GetCAChain.html
+# As of this writing, Intermediate & Operational deliver the same bundled
+# chain that also includes the IT_Root CA.  The additional certs in the 
+# bundle are not further desribed separately, and thus are kept together
+# for easier maintenance, should the source page deliver something 
+# different in the future.
+
+# Ruby translation of ansible's with_nested as used below:
+# certs.each{|cert| dests.each{|dest| "cp #{cert} #{dest}/#{cert}"}}
+# The first line defines 'certs'; the second, 'dests'.
+- name: provision CA certs
+  become: true
+  copy: src={{item.0}} dest={{item.1}}/{{item.0}}
+  with_nested:
+    - [ "RH_IT_Chain.crt", "legacy.crt", "Eng-CA.crt" ]
+    - [ "/etc/pki/ca-trust/source/anchors", "/etc/openldap/cacerts" ]
+
+# Note: the 'enable' command exists (and is required) in RHEL-6, but not -7.
+- name: enable ca trust
+  become: true
+  command: update-ca-trust enable
+  when: ansible_distribution in ['RedHat', 'CentOS'] and ansible_distribution_major_version == '6'
+  ignore_errors: True
+
+- name: import IT certs into nssdb
+  become: yes
+  # Note this command is idempotent.
+  command: certutil -d /etc/pki/nssdb/ -A -i /etc/pki/ca-trust/source/anchors/{{item.cert}} -n {{item.nick}} -t C
+  with_items:
+    - { 'cert': RH_IT_Chain.crt, 'nick': 'redhat_it_chain' }
+    - { 'cert': legacy.crt, 'nick': 'redhat' }
+    - { 'cert': Eng-CA.crt, 'nick': 'redhat_engops' }
+
+- name: extract ca trust
+  become: True
+  command: update-ca-trust extract
+
+- name: rehash the openldap cacerts
+  become: True
+  command: cacertdir_rehash /etc/openldap/{{item}}
+  with_items:
+    - cacerts
+    - certs
+
+- name: verify that SSL works
+  get_url:
+    url: https://projects.engineering.redhat.com
+    validate_certs: yes
+    dest: /dev/null

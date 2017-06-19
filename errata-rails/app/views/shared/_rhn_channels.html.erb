@@ -1,0 +1,20 @@
+<table class="buglist" CELLPADDING="0" CELLSPACING="0" ALIGN="CENTER">
+  <tr>
+    <th>Variant</th>
+    <th>Arch</th>
+    <th>Channel</th>
+  </tr>
+  <% rhn_channels.group_by(&:variant).sort_by{ |k,v| k.name }.each do |variant, list| %>
+      <% list.group_by(&:arch).sort_by{ |k,v| k.name }.each do |arch, channels| %>
+        <tr class="<%= cycle('bz_even','bz_odd') %>">
+          <td><%= variant.name %></td>
+          <td><%= arch.name %></td>
+          <td style="padding-bottom:0.8em;line-height:130%;">
+            <% channels.sort_by{ |c| [c.type == 'PrimaryChannel' ? 'AAAAA' : c.type, c.name] }.each do |c| %>
+              <b><%= c.short_type.sub(/^Eus/,'EUS') %>:</b> <%= c.name %><br/>
+            <% end %>
+          </td>
+        </tr>
+      <% end %>
+  <% end %>
+</table>

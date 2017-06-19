@@ -1,0 +1,24 @@
+<span id="edit_title_for_file_<%= meta.brew_file_id %>">
+  <span class="inline_form_container">
+    <div class="display_form">
+      <%= meta.title.nil? ? content_tag('span', '(unset)', :class => 'unset-value') : meta.title %>
+      <% if @errata.filelist_unlocked? %>
+        <%= link_to('Edit', '#', :class => 'btn btn-mini btn-toggle-title') %>
+      <% end -%>
+    </div>
+
+    <div class="hidden_form" style="display:none">
+      <%= form_tag({:action => 'put_file_meta_title', :id => @errata}, :method => :post, :remote => true, :class => 'et-ajax-form') do %>
+        <%= hidden_field_tag(:file, meta.brew_file_id) %>
+        <%= text_field_tag(:title, meta.title) %>
+        <%= wait_spinner %>
+        <%= submit_tag('Update', :class => 'btn btn-primary btn-mini') %>
+        <%= link_to('Cancel', '#', :class => 'btn-toggle-title') %>
+        <%= content_tag('span', :class => 'et-ajax-form-error statusred', :style => 'display:none') do %>
+          <br />
+          Error: <%= content_tag('span', '', :class => 'et-ajax-form-error-text') %>
+        <% end %>
+      <% end -%>
+    </div>
+  </span>
+</span>

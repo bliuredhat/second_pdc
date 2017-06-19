@@ -1,0 +1,9 @@
+### The API rejects "true", "false" strings and demands real booleans
+# HTTP 400
+{
+  "errors": {
+    "rhel-x86_64-server-6-rhevm-3.4 enabled": [
+      "expected boolean, got String"
+    ]
+  }
+}

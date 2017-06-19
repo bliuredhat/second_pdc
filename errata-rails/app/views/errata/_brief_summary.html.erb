@@ -1,0 +1,53 @@
+<%#
+  #
+  # Show some info about an errata.
+  # If there's a local passed in called `errata` it will use that,
+  # otherwise it will try to use `@errata`.
+  #
+  # Currently calling this from PushController#errata_push.
+  # (There other similar partials but it seemed like none were dumb
+  # enough for what I needed).
+  #
+-%>
+<% errata = @errata unless defined?(errata) && errata %>
+<table style="padding-bottom:1em;font-size:90%;" class="compact">
+
+  <%= if defined?(briefer)
+    table_rows_helper([
+      ([
+        'Synopsis',       {:colspan=>5,:content=>errata.synopsis},
+      ] if defined?(show_synopsis)),
+      [
+        'Release',        link_to(errata.release.name, { :controller => :release, :action => :show, :id => errata.release }),
+        'Embargo Date',   errata.release_date.try(:to_date) || '-',
+        'Assigned to',    nice_mailto_link(errata.assigned_to),
+      ],
+      [
+        'Product',        link_to(errata.product.short_name, "/products/#{errata.product.short_name}"),
+        'Release Date',   errata.publish_date_for_display,
+        'Package Owner',  nice_mailto_link(errata.package_owner),
+      ],
+    ],
+    :labels => true)
+  else
+    table_rows_helper([
+      [
+        'Status',         state_display(errata),
+        'Created at',     errata.created_at.to_date,
+        'Submitter',      nice_mailto_link(errata.reporter, :short_to_s),
+      ],
+      [
+        'Release',        link_to(errata.release.name, { :controller => :release, :action => :show, :id => errata.release }),
+        'Product',        link_to(errata.product.name, "/products/#{errata.product.short_name}"),
+        'Assigned to',    nice_mailto_link(errata.assigned_to, :short_to_s),
+      ],
+      [
+        'Embargo Date',   errata.release_date.try(:to_date) || '-',
+        'Release Date',   errata.publish_date_for_display,
+        'Package Owner',  nice_mailto_link(errata.package_owner, :short_to_s),
+      ],
+    ],
+    :labels => true)
+  end %>
+
+</table>

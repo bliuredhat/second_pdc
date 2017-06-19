@@ -1,0 +1,61 @@
+<h1 class="assisted-title">New Y-stream or Fast Track advisory <span class="superlight">- assisted create</span>
+<%= block_render('shared/help_popover', :placement => 'bottom', :extra_class => 'smaller') do %>
+  <%= render 'errata/filing_docs_link' %>
+  <p>
+    Select the advisory type, the release, and the package(s) for this advisory.
+    The system will automatically add the bugs, fill out default text, and file
+    the advisory.
+  </p>
+<% end %>
+</h1>
+<%= form_tag({:action => :create_quarterly_update}, :class=>'create-form assisted-create-form clearfix') do %>
+<div class="eso-greybox">
+  <div class="option">
+  <label>Product</label>
+    <%= select(
+      :product,
+      :id,
+      @products.collect { |d| [d.name, d.id] },
+      { :selected => @product.try(:id) },
+      'data-remote' => true,
+      'data-params' => "is_pdc=#{@is_pdc}",
+      'data-method' => 'POST',
+      'data-url' => url_for(:action => :qu_for_product),
+      'data-value' => @product.try(:id)
+    ) %>
+    <%= wait_spinner 'qu_for_product_spinner' %>
+    <label>Release
+      <!--Help Message for Release-->
+      <%= block_render('shared/help_popover') do %>
+        Note that advisories for Z-stream or Async releases can't be created using this form.<br/>
+        Please use <%= link_to_manual_create is_pdc: @is_pdc %> for Z-stream or Async advisories.
+      <% end %>
+    </label>
+    <%= render :partial => 'packages_for_release_list', :object => @releases %>
+    <label>Type</label>
+    <% is_first = true
+       @errata_types.each do |type| -%>
+         <div>
+           <%= radio_button_tag(:type, type.name, (params[:type] ? type.name == params[:type] : is_first))%><%= label_tag("type_#{type.name}".to_sym,  type.description) %>
+         </div>
+      <% is_first = false -%>
+    <% end %>
+    <div class="only-rhsa">
+      <label>Impact</label>
+      <%= security_impact_select(nil, :security_impact, params[:security_impact]) %>
+    </div>
+    <div class="package-option">
+    <label class="package-label">Packages</label>
+    <div class="packages_container package-action">
+      <%= label_tag(nil, nil) do %>
+        <input class="pkg_check_box_all" type="checkbox">
+        <span class="select-label">Select All</span>
+      <% end -%>
+    </div>
+  </div>
+  <%= submit_tag("Create", :action => 'new_errata', :class=>'btn btn-primary') %>
+  </div>
+  <div class="packages_container">
+    <%= render :partial => 'package_list', :object => @packages, :locals => { :release => @release } %>
+  </div>
+<% end %>

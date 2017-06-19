@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "release_name": [
+      "release not found with name = bad1, bad2"
+    ]
+  }
+}

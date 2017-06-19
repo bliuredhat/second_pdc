@@ -1,0 +1,11 @@
+Your set of background jobs has failed.
+Job name: <%= @tracker.name %>
+
+Description:
+<%= @tracker.description %>
+
+The following delayed jobs repeatedly failed:
+
+<% @tracker.jobs.select(&:failed?).each do |dj| %>
+  Job <%= dj.id %>
+<% end %>

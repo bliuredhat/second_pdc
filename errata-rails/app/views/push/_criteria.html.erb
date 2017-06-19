@@ -1,0 +1,4 @@
+<criteria operator="<%= criteria.operator %>">
+ <%= render(:partial => "push/criterion" , :collection => criteria.tests) %>
+ <%= render(:partial => "push/criteria" , :collection => criteria.criteria) %>
+</criteria>

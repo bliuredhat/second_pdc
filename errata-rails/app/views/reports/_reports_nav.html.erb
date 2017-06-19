@@ -1,0 +1,17 @@
+<% if reports_nav == 'dashboard' %>
+	<b>Dashboard</b>
+<% else %>
+	<%= link_to 'Dashboard', :controller => 'reports', :action => 'dashboard' %> 
+<% end %>
+
+<% if reports_nav == 'scoreboard' %>
+	<b>Scoreboard</b>
+<% else %>
+	<%= link_to 'Scoreboard', :controller => 'reports', :action => 'scoreboard' %> 
+<% end %>
+
+<% if reports_nav == 'leaderboard' %>
+	<b>Leaderboard</b>
+<% else %>
+	<%= link_to 'Leaderboard', :controller => 'reports', :action => 'leaderboard' %> 
+<% end %>

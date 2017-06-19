@@ -1,0 +1,16 @@
+<%#
+  #
+  # Use the following locals:
+  #   title
+  #   descr
+  #   pref
+  #
+-%>
+<br/>
+<div class="control-label form_label"><%= title %></div>
+<div class="controls">
+  <%= check_box_tag "user[preferences][#{pref.to_s}]", "1", user_pref(pref) %><br/>
+  <span class="light small"><%= descr %></span>
+</div>
+
+

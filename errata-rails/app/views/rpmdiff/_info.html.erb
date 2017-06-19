@@ -1,0 +1,7 @@
+<h2>Information</h2>
+<p style="font-size: 11px;"> No problems were detected by this test.  The following messages were reported:</p>
+<%= form_tag :controller => 'rpmdiff', :action => 'add_comment', :id => info do %>
+<%= text_area_tag 'comment', (info.latest_waiver ? info.latest_waiver.description : ''), :size => '80x10' %><br/><br/>
+<%= hidden_form_elements(info.rpmdiff_run.errata,info.rpmdiff_run,info) %>
+<%= submit_tag 'Add Comments', :class=>'btn btn-primary' %>
+<% end %>

@@ -1,0 +1,44 @@
+<%= error_messages_for @batch %>
+<%=
+errata_count = @batch.errata.count
+has_errata = errata_count.nonzero?
+
+table_rows_helper([
+  [ 'Name',          f.text_field(:name) ],
+  [ 'Release',       {
+      :content => has_errata ? @batch.release.name :
+        f.collection_select(:release_id, @supported_releases, :id, :name),
+      :note => ('The release cannot be changed as there are errata assigned to this batch' if has_errata)
+  } ],
+  [ 'Description',   f.text_field(:description, :class => 'longer') ],
+  [ 'Release Date',  f.text_field(:release_date, :class => 'eso-datepicker', :value=>nice_date(@batch.release_date)) ],
+  [ 'Active?',       {
+      :content => f.check_box(:is_active, has_errata ? {
+        :class => 'change-alert',
+        'data-change-alert-property' => 'checked',
+        'data-change-alert-value' => false,
+        'data-change-alert-modal' => 'batch_active_warning_modal'
+      } : {} ),
+      :note => 'Setting the batch to inactive disables batch checks, and any assigned advisories will not inherit the batch release date'
+  } ],
+  [ 'Locked?',       {
+      :content => f.check_box(:is_locked),
+      :note => 'Locking the batch prevents any further advisories from being added to the batch'
+  } ],
+], :labels=>true) %>
+
+<% content_for :outside_form do %>
+  <div class="modal" id="batch_active_warning_modal" style="display:none;">
+    <div class="modal-header"><h3>Are You Sure?</h3></div>
+    <div class="modal-body">
+      This batch contains <%= n_thing_or_things(errata_count, 'advisory') %>,
+      which will not inherit the batch release date if the batch is inactive,
+      and batch-related push checks will not apply.<br><br>
+      If you only want to prevent new advisories from being assigned to the batch,
+      please consider locking the batch instead.
+    </div>
+    <div class="modal-footer">
+      <%= link_to 'Dismiss', "#", :class=>'btn btn-cancel-modal' %>
+    </div>
+  </div>
+<% end if has_errata %>

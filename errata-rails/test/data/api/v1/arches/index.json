@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "active": true,
+        "name": "aarch64"
+      },
+      "id": 26,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "alpha"
+      },
+      "id": 1,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "amd64"
+      },
+      "id": 21,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "athlon"
+      },
+      "id": 3,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "name": "i386"
+      },
+      "id": 4,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "i586"
+      },
+      "id": 5,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "i686"
+      },
+      "id": 6,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "ia32e"
+      },
+      "id": 23,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "name": "ia64"
+      },
+      "id": 7,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "noarch"
+      },
+      "id": 8,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "name": "ppc"
+      },
+      "id": 17,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "name": "ppc64"
+      },
+      "id": 18,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "ppc64iseries"
+      },
+      "id": 19,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "name": "ppc64le"
+      },
+      "id": 27,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "ppc64pseries"
+      },
+      "id": 20,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "name": "s390"
+      },
+      "id": 9,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "name": "s390x"
+      },
+      "id": 14,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "sparc"
+      },
+      "id": 10,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": false,
+        "name": "SRPMS"
+      },
+      "id": 24,
+      "type": "arches"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "name": "x86_64"
+      },
+      "id": 13,
+      "type": "arches"
+    }
+  ]
+}

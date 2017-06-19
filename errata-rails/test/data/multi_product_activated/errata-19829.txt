@@ -1,0 +1,3 @@
+### This advisory does not support multiple products, so a call to the
+### notification method is expected not to generate a mail.
+<no mail>

@@ -1,0 +1,94 @@
+Release Notes for Version 3.12.2
+================================
+
+Overview
+--------
+
+Release 3.12.2 is the 3rd release in
+the Errata Tool 3.12 development period. It closes [38 bugs and RFEs][buglist].
+
+This release of Errata Tool includes a redesigned create/edit advisory form,
+support for managing docker package lists and tags, multi-advisory pub pushes,
+pre-pushing content to RHN &amp; CDN, plus a number of bug fixes and
+improvements.
+
+Additionally, during the 3.12.2 development period, an additional [3 bug
+fixes][hotfixes] were shipped in 3.12.1.2.
+
+<% sort_these_first %w[ 1300151 912868 1263935 1278656 1300153 1304588 ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.12.2][buglist]
+* [Full code diff for this release][diff2]
+* [Code diff since 3.12.1][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=510792%2C912868%2C988169%2C1009853%2C1054016%2C1112218%2C1125038%2C1254395%2C1263935%2C1268903%2C1278649%2C1278652%2C1278656%2C1278678%2C1280153%2C1298418%2C1298468%2C1298490%2C1299719%2C1300142%2C1300151%2C1300153%2C1304108%2C1304278%2C1304588%2C1304780%2C1308918%2C1310497%2C1310535%2C1310536%2C1310540%2C1310552%2C1311394%2C1311802%2C1311806%2C1311823%2C1299721%2C1310471
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.12.2-0&id2=3.12.1-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.12.2-0&id2=3.12.1.2-0
+
+[hotfixes]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1305948%2C1304578%2C1303779
+
+<%= all_include_content %>
+
+## Process
+
+### Code coverage
+
+The Errata Tool team continues to gradually improve code coverage by requiring
+all new features and bugfixes to be accompanied by an autotest.
+
+In Errata Tool 3.12.2 our code coverage a little over 94%.
+
+[![Rcov coverage report](images/3.12.2/rcov.png)](images/3.12.2/rcov.png)
+
+### CI on Ruby 2.2
+
+Jenkins now runs our full test suite on both
+[Ruby 1.8](https://jenkins.engineering.redhat.com/view/Errata%20Tool/job/errata-tool/) and
+[Ruby 2.2](https://jenkins.engineering.redhat.com/view/Errata%20Tool/job/errata-tool-ruby2/)
+(on RHEL-6 using Software Collections). This is preparation for our upgrade to
+Ruby 2.2. The Ruby upgrade should improve Errata Tool's performance, as well as
+significantly reduce our technical debt, since Ruby 1.8 is quite old and has
+been [unsupported upstream](https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/)
+for some time.
+
+What's Next
+------------
+
+### Errata Tool 3.12.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.12
+in Bugzilla for inclusion in two week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be .
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.12 take a look at [bugs flagged with
+errata-3.12 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.13
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.13 take a look at [bugs
+flagged with errata-3.13][bugs_next].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.12&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.13&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

@@ -1,0 +1,38 @@
+<div class="form_label_div small_label"><label for="package_restriction_package">Package name</label></div>
+<div class="form_div">
+  <% disabled = @package_restriction.new_record? ? false : true %>
+  <%= form.text_field(:package,
+    :disabled => disabled,
+    :class => "et-ui-autocomplete",
+    "data-autocomplete-url" => packages_url,
+    "data-autocomplete-value" => 'name')
+  %>
+</div>
+<br/>
+
+<div class="form_label_div small_label"><label for="package_restriction_push_targets">Push only to</label></div>
+<div class="form_div">
+  <%= form.collection_select(
+    :push_targets,
+    @variant.push_targets, :id, :name,
+    {:selected => @package_restriction.push_targets.map(&:id)},
+    {:multiple => true, :class => 'eso-chosen-select', :'data-placeholder' => 'Select one or more push targets'})
+  %>
+</div>
+<br/>
+<br/>
+<%= form.submit :class=>'btn btn-primary', :value => 'Save' %>
+
+<br/>
+<br/>
+<% if @active_errata %>
+  <%=
+    title = "depending active errata with locked filelist"
+    render 'shared/advisory_list',
+      :errata_list => @active_errata,
+      :title => title.capitalize,
+      :noresult_title => "No #{title}.",
+      :note => "<strong>NOTE:</strong> User is not allowed to amend the restriction if the package has active errata with locked filelist.".html_safe
+  %>
+<% end %>
+

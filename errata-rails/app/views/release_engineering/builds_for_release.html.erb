@@ -1,0 +1,17 @@
+<%= render(:partial => "shared/release_nav", :object => @current_release, :locals => { :releases => @releases, :action => 'builds_for_release' }) %>
+
+<table class="buglist" cellpadding="0" cellspacing="0" width="100%">
+<% for e in @advisories %>
+<tr class="buglist-over">
+<td>
+<%= link_to e.advisory_name, :controller => 'errata', :action => :view, :id => e.id %>
+&nbsp;-&nbsp;<%= e.status %>&nbsp;-&nbsp;<%= e.synopsis %>
+<% if e.respin_count > 0 -%>
+&nbsp;-&nbsp;<b>Respin Count:&nbsp;<span style="color: red;"><%= e.respin_count %></span></b>
+<% end -%>
+</td></tr>
+<% build_link = lambda {|build| "&nbsp;&nbsp;&nbsp;#{brew_link(build)}".html_safe} %>
+<%= render(:partial => "shared/bz_rows", :object => e.brew_builds, :locals => {:func => build_link }) %>
+<% end %>
+
+</table>

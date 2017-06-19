@@ -1,0 +1,6 @@
+---
+jenkins_url: https://jenkins.engineering.redhat.com/job/errata-tool-package
+json_url_suffix: api/json?tree=artifacts[fileName],number
+rpm_file_regex: errata-rails-(.+)\.el6eso\.noarch\.rpm
+download_dir: /tmp
+

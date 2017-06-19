@@ -1,0 +1,16 @@
+<%#
+  # This is the old style advisory QA list
+  #
+  # Not sure if anyone wants this, but
+  # demonstrating how we can easily define different output formats
+  #
+  # See app/models/errata_filter.rb
+  #
+  # TODO: Grouping doesn't work here :(
+  #
+  #%>
+<%= render "shared/bz_table", {
+  :headers   => headings_for_errata_list,
+  :func      => method(:row_for_errata_list),
+  :row_items => @erratas,
+} %>

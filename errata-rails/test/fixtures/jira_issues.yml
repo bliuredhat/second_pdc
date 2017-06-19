@@ -1,0 +1,7189 @@
+---
+issue_1:
+  id: 1
+  id_jira: 25077
+  key: HSSNAYENG-59
+  summary: ! 'Write Team&Personal Git data timer refresh codes. '
+  status: In Progress
+  updated: Tue, 7 Jan 2014 11:53:09 +1000
+issue_2:
+  id: 2
+  id_jira: 24260
+  key: MAITAI-1190
+  summary: Release Maitai 0.15
+  status: Resolved
+  updated: Tue, 7 Jan 2014 11:52:59 +1000
+issue_3:
+  id: 3
+  id_jira: 24475
+  key: MAITAI-1229
+  summary: Send announcement and post on confluence
+  status: Resolved
+  updated: Tue, 7 Jan 2014 11:52:33 +1000
+issue_4:
+  id: 4
+  id_jira: 20458
+  key: MAITAI-1056
+  summary: ! '[RFE]Add "Process Description" to process search'
+  status: Resolved
+  updated: Tue, 7 Jan 2014 11:51:50 +1000
+issue_5:
+  id: 5
+  id_jira: 24517
+  key: MAITAI-1249
+  summary: Update UI
+  status: Closed
+  updated: Tue, 7 Jan 2014 11:51:33 +1000
+issue_6:
+  id: 6
+  id_jira: 22414
+  key: STEP-759
+  summary: ! '[Sync]Please Support the mapping field "jira.watchers"---"bug.cc List"'
+  status: Open
+  updated: Tue, 7 Jan 2014 10:52:34 +1000
+issue_7:
+  id: 7
+  id_jira: 22651
+  key: HSSCOMFUNC-349
+  summary: ! '[pen-test] RHEL 7 systemd security test'
+  status: In Progress
+  updated: Tue, 7 Jan 2014 10:00:29 +1000
+issue_8:
+  id: 8
+  id_jira: 25076
+  key: HSSCOMFUNC-552
+  summary: CERT BFF(Basic Fuzzing Framework) research
+  status: To Do
+  updated: Tue, 7 Jan 2014 09:57:30 +1000
+issue_9:
+  id: 9
+  id_jira: 25074
+  key: HSSCOMFUNC-550
+  summary: systemctl custom service fuzzing test with zzuf
+  status: In Progress
+  updated: Tue, 7 Jan 2014 09:43:15 +1000
+issue_10:
+  id: 10
+  id_jira: 25073
+  key: HSSCOMFUNC-549
+  summary: systemctl commands authorization test
+  status: Done
+  updated: Tue, 7 Jan 2014 09:43:09 +1000
+  jira_security_level_id: 2
+issue_11:
+  id: 11
+  id_jira: 25075
+  key: HSSCOMFUNC-551
+  summary: ! 'OS robustness test with crashme '
+  status: Done
+  updated: Tue, 7 Jan 2014 09:43:02 +1000
+issue_12:
+  id: 12
+  id_jira: 23511
+  key: HSSCOMFUNC-363
+  summary: ! '[EIP, MF] Env Monitoring of Labs'
+  status: To Do
+  updated: Tue, 7 Jan 2014 08:45:56 +1000
+issue_13:
+  id: 13
+  id_jira: 23514
+  key: HSSCOMFUNC-365
+  summary: ! '[kb,ag] Engineering Capex FY15 Planning'
+  status: In Progress
+  updated: Tue, 7 Jan 2014 08:43:07 +1000
+issue_14:
+  id: 14
+  id_jira: 24266
+  key: HSSCOMFUNC-405
+  summary: ! '[CR]Summarize a list of application which Core Team monitored'
+  status: To Do
+  updated: Tue, 7 Jan 2014 08:42:45 +1000
+issue_15:
+  id: 15
+  id_jira: 24271
+  key: HSSCOMFUNC-410
+  summary: ! '[All section] HSS Job Description update'
+  status: To Do
+  updated: Tue, 7 Jan 2014 08:42:03 +1000
+issue_16:
+  id: 16
+  id_jira: 24265
+  key: HSSCOMFUNC-404
+  summary: ! '[CR]Summarize a list of application which Core Team update'
+  status: To Do
+  updated: Tue, 7 Jan 2014 08:41:54 +1000
+issue_17:
+  id: 17
+  id_jira: 23510
+  key: HSSCOMFUNC-362
+  summary: ! '[EIP, MF] Organize Eng-lab to provide list of HW up for renewal in FY15'
+  status: To Do
+  updated: Tue, 7 Jan 2014 08:41:40 +1000
+issue_18:
+  id: 18
+  id_jira: 18839
+  key: BKR-369
+  summary: BZ#1022776 The 'Job Design' section of the docs does not accurately reflect
+    the current state  of job permissions.
+  status: In Progress
+  updated: Tue, 7 Jan 2014 08:00:21 +1000
+issue_19:
+  id: 19
+  id_jira: 24948
+  key: ENGRDOCICD-119
+  summary: ! 'Test-Day: Fedora 20 Multinode Neutron Icehouse'
+  status: Done
+  updated: Tue, 7 Jan 2014 07:50:49 +1000
+issue_20:
+  id: 20
+  id_jira: 20200
+  key: RHOS-469
+  summary: ! '[acceptance] cross tenant and comp node ping'
+  status: Open
+  updated: Tue, 7 Jan 2014 06:05:54 +1000
+issue_21:
+  id: 21
+  id_jira: 25072
+  key: MAITAI-1272
+  summary: Maitai-136
+  status: Open
+  updated: Tue, 7 Jan 2014 05:54:20 +1000
+issue_22:
+  id: 22
+  id_jira: 24762
+  key: ENGRDOCICD-111
+  summary: ! 'Test-Day: RHEL 6.5 AIO Neutron Icehouse'
+  status: Done
+  updated: Tue, 7 Jan 2014 04:35:49 +1000
+issue_23:
+  id: 23
+  id_jira: 24764
+  key: ENGRDOCICD-113
+  summary: ! 'Test-Day: Fedora 20 AIO Neutron Icehouse'
+  status: Done
+  updated: Tue, 7 Jan 2014 04:35:25 +1000
+issue_24:
+  id: 24
+  id_jira: 24949
+  key: ENGRDOCICD-120
+  summary: ! 'Test-Day: CentOS 6.5 AIO Neutron Icehouse'
+  status: Done
+  updated: Tue, 7 Jan 2014 03:05:04 +1000
+issue_25:
+  id: 25
+  id_jira: 20935
+  key: RHOS-504
+  summary: TCMS plans that covers robot automation test.
+  status: Resolved
+  updated: Tue, 7 Jan 2014 02:58:11 +1000
+issue_26:
+  id: 26
+  id_jira: 19447
+  key: RHEVM-630
+  summary: List all personal hosts on QE
+  status: In Progress
+  updated: Tue, 7 Jan 2014 02:09:06 +1000
+issue_27:
+  id: 27
+  id_jira: 19045
+  key: RHEVM-584
+  summary: Jenkins queue monitoring with Nagios
+  status: Open
+  updated: Tue, 7 Jan 2014 02:08:01 +1000
+issue_28:
+  id: 28
+  id_jira: 20015
+  key: RHEVM-650
+  summary: Puppet managing nagios and adding hosts
+  status: In Progress
+  updated: Tue, 7 Jan 2014 02:08:01 +1000
+issue_29:
+  id: 29
+  id_jira: 18089
+  key: RHEVM-509
+  summary: Audit system of Jenkins Infra
+  status: Open
+  updated: Tue, 7 Jan 2014 02:06:57 +1000
+issue_30:
+  id: 30
+  id_jira: 16885
+  key: RHEVM-333
+  summary: Jenkins cpu 100% load
+  status: Open
+  updated: Tue, 7 Jan 2014 01:59:47 +1000
+issue_31:
+  id: 31
+  id_jira: 19083
+  key: RHEVM-588
+  summary: Monitoring of Jenkins slaves states
+  status: Open
+  updated: Tue, 7 Jan 2014 01:55:53 +1000
+issue_32:
+  id: 32
+  id_jira: 23891
+  key: RHEVM-807
+  summary: Please add support for testing of command line user interative tools
+  status: In Progress
+  updated: Tue, 7 Jan 2014 01:54:33 +1000
+issue_33:
+  id: 33
+  id_jira: 19385
+  key: RHEVM-624
+  summary: Ability to request different storage servers from autodevices' load_balancer
+  status: In Progress
+  updated: Tue, 7 Jan 2014 01:54:18 +1000
+issue_34:
+  id: 34
+  id_jira: 15318
+  key: RHEVM-270
+  summary: Automate RHEVH installation
+  status: In Progress
+  updated: Tue, 7 Jan 2014 01:50:57 +1000
+issue_35:
+  id: 35
+  id_jira: 18081
+  key: RHOS-359
+  summary: Heat support for GetNodes
+  status: Open
+  updated: Tue, 7 Jan 2014 01:41:39 +1000
+issue_36:
+  id: 36
+  id_jira: 15526
+  key: RHOS-205
+  summary: ! 'Generate tickets to cover TCMS #10617 (acceptance test) in Tempest'
+  status: Blocked
+  updated: Tue, 7 Jan 2014 01:40:27 +1000
+issue_37:
+  id: 37
+  id_jira: 18627
+  key: RHOS-396
+  summary: Create groovy script to tag failed builds with the error type
+  status: Open
+  updated: Tue, 7 Jan 2014 01:39:14 +1000
+issue_38:
+  id: 38
+  id_jira: 18505
+  key: RHOS-388
+  summary: Set service_available.neutron in tempest preparation
+  status: Open
+  updated: Tue, 7 Jan 2014 01:28:43 +1000
+issue_39:
+  id: 39
+  id_jira: 15489
+  key: RHOS-177
+  summary: Assign floating IPs only to the main node
+  status: Open
+  updated: Tue, 7 Jan 2014 01:28:00 +1000
+issue_40:
+  id: 40
+  id_jira: 19111
+  key: RHOS-428
+  summary: Run Tempest with tenant isolation
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:27:24 +1000
+issue_41:
+  id: 41
+  id_jira: 19163
+  key: RHOS-432
+  summary: Log image creation/modification time
+  status: Open
+  updated: Tue, 7 Jan 2014 01:27:05 +1000
+issue_42:
+  id: 42
+  id_jira: 19101
+  key: RHOS-424
+  summary: In get_nodes, reuse exiting floating IP and don't release it (optionally)
+  status: Open
+  updated: Tue, 7 Jan 2014 01:26:24 +1000
+issue_43:
+  id: 43
+  id_jira: 20569
+  key: RHOS-483
+  summary: Create separate network for each job
+  status: Open
+  updated: Tue, 7 Jan 2014 01:24:59 +1000
+issue_44:
+  id: 44
+  id_jira: 19104
+  key: RHOS-425
+  summary: Move cleanup=[always,never,pronto] into job-runner
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:22:18 +1000
+issue_45:
+  id: 45
+  id_jira: 18626
+  key: RHOS-395
+  summary: Fix errors in RHOS4 neutron tests
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:18:08 +1000
+issue_46:
+  id: 46
+  id_jira: 19096
+  key: RHOS-419
+  summary: ! 'Workaround bug #1023399 (floating IP pool)'
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:17:35 +1000
+issue_47:
+  id: 47
+  id_jira: 24759
+  key: RHEVM-857
+  summary: 3.4 features - Allow async tasks in HSM (https://bugzilla.redhat.com/show_bug.cgi?id=1040476)
+  status: In Progress
+  updated: Tue, 7 Jan 2014 01:14:20 +1000
+issue_48:
+  id: 48
+  id_jira: 19042
+  key: RHEVM-582
+  summary: recheck GlusterFS test cases, execute and prepare for automation
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:13:20 +1000
+issue_49:
+  id: 49
+  id_jira: 19510
+  key: RHOS-456
+  summary: Debug new failures that appeared on Havana with novanetwork
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:12:32 +1000
+issue_50:
+  id: 50
+  id_jira: 24713
+  key: RHOS-528
+  summary: Improve Tempest reports, using assertions
+  status: Open
+  updated: Tue, 7 Jan 2014 01:08:24 +1000
+issue_51:
+  id: 51
+  id_jira: 25066
+  key: HDS-593
+  summary: ! '[QE]Harvester V2.02 Full functional testing - qe server'
+  status: To Do
+  updated: Tue, 7 Jan 2014 01:05:03 +1000
+issue_52:
+  id: 52
+  id_jira: 25065
+  key: HDS-592
+  summary: ! '[QE]Harvester V2.02 Deploy testing - qe server'
+  status: To Do
+  updated: Tue, 7 Jan 2014 01:04:46 +1000
+issue_53:
+  id: 53
+  id_jira: 25064
+  key: HDS-591
+  summary: ! '[QE]Harvester V2.02 code convention testing'
+  status: To Do
+  updated: Tue, 7 Jan 2014 01:03:49 +1000
+issue_54:
+  id: 54
+  id_jira: 15411
+  key: RHOS-98
+  summary: ! 'psedlak: Cleanup of my BZs'
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:03:47 +1000
+issue_55:
+  id: 55
+  id_jira: 15521
+  key: RHOS-200
+  summary: Add QE related gating jobs for Gerrit (in Jenkins)
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:02:26 +1000
+issue_56:
+  id: 56
+  id_jira: 25068
+  key: HDS-595
+  summary: ! '[QE]Harvester V2.02 test report and release recommendation(Score Report)'
+  status: To Do
+  updated: Tue, 7 Jan 2014 01:02:15 +1000
+issue_57:
+  id: 57
+  id_jira: 18630
+  key: RHOS-398
+  summary: Merge Alex's Documentation for job-runner patch
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:01:53 +1000
+issue_58:
+  id: 58
+  id_jira: 25067
+  key: HDS-594
+  summary: ! '[QE]Harvester V2.02 Documents testing '
+  status: To Do
+  updated: Tue, 7 Jan 2014 01:00:44 +1000
+issue_59:
+  id: 59
+  id_jira: 16879
+  key: RHOS-252
+  summary: Make sure packstack is configuring to enable block migration.
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:00:31 +1000
+issue_60:
+  id: 60
+  id_jira: 15398
+  key: RHOS-85
+  summary: Prepare(get) list of requested basic setups for job-matrix
+  status: Resolved
+  updated: Tue, 7 Jan 2014 01:00:17 +1000
+issue_61:
+  id: 61
+  id_jira: 19079
+  key: RHOS-415
+  summary: Add Ganglia for monitoring Blue
+  status: Resolved
+  updated: Tue, 7 Jan 2014 00:57:32 +1000
+issue_62:
+  id: 62
+  id_jira: 25063
+  key: HDS-590
+  summary: ! '[QE]Sprint 13 User Story testing - daily testing'
+  status: To Do
+  updated: Tue, 7 Jan 2014 00:57:07 +1000
+  jira_security_level_id: 3
+issue_63:
+  id: 63
+  id_jira: 19389
+  key: RHOS-444
+  summary: Write high level documentation about job-runner tasks and targets
+  status: Resolved
+  updated: Tue, 7 Jan 2014 00:56:54 +1000
+issue_64:
+  id: 64
+  id_jira: 25062
+  key: HDS-589
+  summary: ! '[QE]Sprint 13 test scripts develop completed'
+  status: To Do
+  updated: Tue, 7 Jan 2014 00:56:12 +1000
+issue_65:
+  id: 65
+  id_jira: 25061
+  key: HDS-588
+  summary: ! '[QE]Sprint 13 test case design finish'
+  status: To Do
+  updated: Tue, 7 Jan 2014 00:54:20 +1000
+issue_66:
+  id: 66
+  id_jira: 24602
+  key: REVOK-125
+  summary: ! 'Revok sample report: DVWA'
+  status: In Progress
+  updated: Mon, 6 Jan 2014 23:16:44 +1000
+issue_67:
+  id: 67
+  id_jira: 25056
+  key: REVOK-138
+  summary: Revok landing page improvement
+  status: In Progress
+  updated: Mon, 6 Jan 2014 23:02:26 +1000
+issue_68:
+  id: 68
+  id_jira: 24038
+  key: REVOK-113
+  summary: move Warning section to above Advice section in report
+  status: In Progress
+  updated: Mon, 6 Jan 2014 22:58:42 +1000
+  jira_security_level_id: 1
+issue_69:
+  id: 69
+  id_jira: 25052
+  key: BKR-490
+  summary: Specify the formatting requirements for the CSV file so that Beaker can
+    successfully import the data
+  status: In Progress
+  updated: Mon, 6 Jan 2014 22:53:51 +1000
+  jira_security_level_id: 1
+issue_70:
+  id: 70
+  id_jira: 24630
+  key: GL-324
+  summary: Test Cases Execution for Snapshot create with i/o
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:52:53 +1000
+  jira_security_level_id: 1
+issue_71:
+  id: 71
+  id_jira: 25055
+  key: GL-351
+  summary: ! 'Bug 1048840 - [SNAPSHOT]: glusterd crashed while creating snapshot when
+    multiple file/directory creation is inprogress from fuse and nfs mount'
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:47:02 +1000
+issue_72:
+  id: 72
+  id_jira: 25054
+  key: GL-350
+  summary: ! 'Bug 1048831 - [SNAPSHOT]: brick process crashed while creating snapshot
+    when multiple file/directory creation is inprogress from fuse and nfs mount'
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:45:17 +1000
+issue_73:
+  id: 73
+  id_jira: 24230
+  key: RHEVM-818
+  summary: Test fails to parse XML, most probably due to change in REST API
+  status: Open
+  updated: Mon, 6 Jan 2014 22:44:58 +1000
+issue_74:
+  id: 74
+  id_jira: 24962
+  key: ENGCAPMGMT-56
+  summary: A14 - Budget planning reference import
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:45 +1000
+issue_75:
+  id: 75
+  id_jira: 24956
+  key: ENGCAPMGMT-55
+  summary: A13 - budget planning reference
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:43 +1000
+issue_76:
+  id: 76
+  id_jira: 24831
+  key: ENGCAPMGMT-54
+  summary: A12 - warranty auto notify
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:36 +1000
+issue_77:
+  id: 77
+  id_jira: 24825
+  key: ENGCAPMGMT-52
+  summary: A10 - Budget Adjustment
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:34 +1000
+issue_78:
+  id: 78
+  id_jira: 24828
+  key: ENGCAPMGMT-53
+  summary: A11 - Reports
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:34 +1000
+issue_79:
+  id: 79
+  id_jira: 24819
+  key: ENGCAPMGMT-51
+  summary: A9 - purchase activity information input
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:31 +1000
+issue_80:
+  id: 80
+  id_jira: 24818
+  key: ENGCAPMGMT-50
+  summary: A8 - stand-alone purchase review and approval
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:31 +1000
+issue_81:
+  id: 81
+  id_jira: 24809
+  key: ENGCAPMGMT-49
+  summary: A7 - BU annual budget application review
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:31 +1000
+  jira_security_level_id: 2
+issue_82:
+  id: 82
+  id_jira: 24793
+  key: ENGCAPMGMT-48
+  summary: A6 - stand-alone purchase application
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:25 +1000
+issue_83:
+  id: 83
+  id_jira: 24411
+  key: ENGCAPMGMT-44
+  summary: A2 - import annual budget application spreadsheet
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:24 +1000
+issue_84:
+  id: 84
+  id_jira: 24414
+  key: ENGCAPMGMT-45
+  summary: A3 - auto create quarterly bundle purchase list
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:24 +1000
+issue_85:
+  id: 85
+  id_jira: 24422
+  key: ENGCAPMGMT-47
+  summary: A5 - purchase list sub-group and raise ticket
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:24 +1000
+issue_86:
+  id: 86
+  id_jira: 24415
+  key: ENGCAPMGMT-46
+  summary: A4 - BU manager finalize quarterly purchase list
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:16:24 +1000
+issue_87:
+  id: 87
+  id_jira: 25048
+  key: GL-349
+  summary: ! 'Bug 1048216 - [SNAPSHOT]: No warning message displayed to User on deleting
+    Snapshot'
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:15:00 +1000
+issue_88:
+  id: 88
+  id_jira: 25046
+  key: HSSCOMFUNC-548
+  summary: FLS check the new service catalog to ensure consistency
+  status: To Do
+  updated: Mon, 6 Jan 2014 22:05:32 +1000
+issue_89:
+  id: 89
+  id_jira: 24202
+  key: RHS-261
+  summary: 972021- Open can succeed on split-brain files due to race
+  status: Done
+  updated: Mon, 6 Jan 2014 21:59:16 +1000
+issue_90:
+  id: 90
+  id_jira: 25042
+  key: HSSCOMFUNC-547
+  summary: All Eng-ops Team sign off on the new Service Catalogue and communicate
+    to team
+  status: To Do
+  updated: Mon, 6 Jan 2014 21:55:51 +1000
+issue_91:
+  id: 91
+  id_jira: 24358
+  key: RHS-299
+  summary: Verify
+  status: Done
+  updated: Mon, 6 Jan 2014 21:45:33 +1000
+issue_92:
+  id: 92
+  id_jira: 25043
+  key: ENGCAPMGMT-58
+  summary: Eng Capex Online Report
+  status: To Do
+  updated: Mon, 6 Jan 2014 21:35:20 +1000
+issue_93:
+  id: 93
+  id_jira: 24964
+  key: ENGCAPMGMT-57
+  summary: A15 - Budget planning reference management
+  status: To Do
+  updated: Mon, 6 Jan 2014 21:31:02 +1000
+issue_94:
+  id: 94
+  id_jira: 24409
+  key: ENGCAPMGMT-42
+  summary: A1 - collect annual budge application information
+  status: To Do
+  updated: Mon, 6 Jan 2014 21:31:01 +1000
+issue_95:
+  id: 95
+  id_jira: 24637
+  key: GL-348
+  summary: Centralized logging mechanism where RHSC will collect all the logs ,archive
+    the logs in scheduled fashion , analyse the logs and issue alerts as and when
+    there is a  event with associated severity.
+  status: To Do
+  updated: Mon, 6 Jan 2014 21:29:02 +1000
+issue_96:
+  id: 96
+  id_jira: 24679
+  key: RHEVM-838
+  summary: userportal job broken on 3.3
+  status: In Progress
+  updated: Mon, 6 Jan 2014 21:21:05 +1000
+issue_97:
+  id: 97
+  id_jira: 19544
+  key: HDS-369
+  summary: Other stuffs
+  status: In Progress
+  updated: Mon, 6 Jan 2014 20:49:19 +1000
+issue_98:
+  id: 98
+  id_jira: 24880
+  key: HDS-544
+  summary: ! '[Client] import pages template technology(jsf or others) to support
+    login function and reduce duplicate page codes'
+  status: To Do
+  updated: Mon, 6 Jan 2014 20:48:32 +1000
+issue_99:
+  id: 99
+  id_jira: 23436
+  key: RCMCLOUD-167
+  summary: Release RHN Tools for RHEL 7 Beta
+  status: Done
+  updated: Mon, 6 Jan 2014 20:36:25 +1000
+issue_100:
+  id: 100
+  id_jira: 24998
+  key: HDS-587
+  summary: ! '[QE] Test case design for US508,US509,US510,US511,US513'
+  status: In Progress
+  updated: Mon, 6 Jan 2014 20:16:49 +1000
+issue_101:
+  id: 101
+  id_jira: 24699
+  key: HSSCOMFUNC-488
+  summary: SAM front-end vulnerability check
+  status: To Do
+  updated: Mon, 6 Jan 2014 20:15:44 +1000
+issue_102:
+  id: 102
+  id_jira: 24541
+  key: UCD-132
+  summary: HSS ESO-Theme landing page design
+  status: Open
+  updated: Mon, 6 Jan 2014 20:06:09 +1000
+  jira_security_level_id: 3
+issue_103:
+  id: 103
+  id_jira: 25011
+  key: RT-289
+  summary: Bug 904152 - [RT 4.0.6] RFE - NEEDINFO type field.
+  status: To Do
+  updated: Mon, 6 Jan 2014 20:05:54 +1000
+issue_104:
+  id: 104
+  id_jira: 22194
+  key: ADMIN-160
+  summary: New Hire - Xiang Lingling - 20140106
+  status: Resolved
+  updated: Mon, 6 Jan 2014 20:04:17 +1000
+issue_105:
+  id: 105
+  id_jira: 24625
+  key: ADMIN-184
+  summary: Admin Yearly Report-2013
+  status: In Progress
+  updated: Mon, 6 Jan 2014 20:02:43 +1000
+issue_106:
+  id: 106
+  id_jira: 23845
+  key: CON-837
+  summary: Conflux PhaseII data model review(Bugzilla & Errata)
+  status: Resolved
+  updated: Mon, 6 Jan 2014 19:52:14 +1000
+issue_107:
+  id: 107
+  id_jira: 23844
+  key: CON-836
+  summary: Conflux PhaseII ETL design (Bugzilla & Errata)
+  status: In Progress
+  updated: Mon, 6 Jan 2014 19:51:40 +1000
+issue_108:
+  id: 108
+  id_jira: 21765
+  key: RHSTORE-22
+  summary: Publish Red Hat Storage v2.1 Accelerator documents to Mojo and Solution
+    Page
+  status: Open
+  updated: Mon, 6 Jan 2014 19:44:34 +1000
+issue_109:
+  id: 109
+  id_jira: 25036
+  key: RHSAT-28
+  summary: As a solution engineer, I should be able to install and configure Red Hat
+    Satellite v6 System's Provisioning(Foreman)
+  status: Open
+  updated: Mon, 6 Jan 2014 19:44:05 +1000
+issue_110:
+  id: 110
+  id_jira: 21615
+  key: RHSAT-24
+  summary: Configure System Management
+  status: Open
+  updated: Mon, 6 Jan 2014 19:42:22 +1000
+issue_111:
+  id: 111
+  id_jira: 21610
+  key: RHSAT-21
+  summary: As a solution engineer, I should be able to install and configure Red Hat
+    Satellite v6 System's Management(katello)
+  status: Open
+  updated: Mon, 6 Jan 2014 19:39:15 +1000
+issue_112:
+  id: 112
+  id_jira: 25032
+  key: RHS-326
+  summary: 1030392 Verification
+  status: To Do
+  updated: Mon, 6 Jan 2014 19:16:07 +1000
+issue_113:
+  id: 113
+  id_jira: 14044
+  key: CON-569
+  summary: Master data management epic breakdown are incomplete
+  status: Resolved
+  updated: Mon, 6 Jan 2014 19:13:45 +1000
+issue_114:
+  id: 114
+  id_jira: 23932
+  key: HDS-504
+  summary: Harvester 2.01 :stage and product upgrade deployment
+  status: Done
+  updated: Mon, 6 Jan 2014 19:12:45 +1000
+issue_115:
+  id: 115
+  id_jira: 25030
+  key: RHEVM-861
+  summary: create gatting job for our reporitories
+  status: Open
+  updated: Mon, 6 Jan 2014 19:12:36 +1000
+issue_116:
+  id: 116
+  id_jira: 24491
+  key: STEP-802
+  summary: FLS ready to support
+  status: Open
+  updated: Mon, 6 Jan 2014 19:11:56 +1000
+issue_117:
+  id: 117
+  id_jira: 25031
+  key: RHEVM-862
+  summary: define guidelines to write tests
+  status: Open
+  updated: Mon, 6 Jan 2014 19:11:10 +1000
+issue_118:
+  id: 118
+  id_jira: 24492
+  key: STEP-803
+  summary: Comms Strategy Ready
+  status: Open
+  updated: Mon, 6 Jan 2014 19:10:54 +1000
+issue_119:
+  id: 119
+  id_jira: 24662
+  key: ORGCHART-19
+  summary: ! 'V4.8.1 Deployment Package and Guide sent '
+  status: To Do
+  updated: Mon, 6 Jan 2014 19:07:00 +1000
+issue_120:
+  id: 120
+  id_jira: 25028
+  key: RHOS-534
+  summary: Basic keystone-kerberos setup and authentication
+  status: Open
+  updated: Mon, 6 Jan 2014 18:57:49 +1000
+issue_121:
+  id: 121
+  id_jira: 24994
+  key: HDS-584
+  summary: Harvester 2.01 Release Note and announcement to HSS
+  status: To Do
+  updated: Mon, 6 Jan 2014 18:42:13 +1000
+issue_122:
+  id: 122
+  id_jira: 25024
+  key: RHOS-533
+  summary: Basic keystone-LDAP setup and authentication
+  status: Open
+  updated: Mon, 6 Jan 2014 18:23:18 +1000
+issue_123:
+  id: 123
+  id_jira: 23497
+  key: STEP-792
+  summary: ! '[Sync]Need update the filed mapping of fix version in jira '
+  status: Reopened
+  updated: Mon, 6 Jan 2014 18:22:36 +1000
+issue_124:
+  id: 124
+  id_jira: 25021
+  key: RHOS-532
+  summary: Automate basic keystone setup
+  status: Open
+  updated: Mon, 6 Jan 2014 18:10:06 +1000
+issue_125:
+  id: 125
+  id_jira: 24957
+  key: STEP-805
+  summary: Publish IssueEvents on an embedded ActiveMQ broker
+  status: Open
+  updated: Mon, 6 Jan 2014 18:04:51 +1000
+issue_126:
+  id: 126
+  id_jira: 25015
+  key: RHOS-531
+  summary: Automate keystone authentication with kerberos
+  status: Open
+  updated: Mon, 6 Jan 2014 17:58:21 +1000
+issue_127:
+  id: 127
+  id_jira: 24533
+  key: MAITAI-1255
+  summary: Process Request Process Desgin
+  status: In Progress
+  updated: Mon, 6 Jan 2014 17:49:57 +1000
+issue_128:
+  id: 128
+  id_jira: 24535
+  key: MAITAI-1257
+  summary: Setting devel server Env
+  status: Closed
+  updated: Mon, 6 Jan 2014 17:49:05 +1000
+issue_129:
+  id: 129
+  id_jira: 24689
+  key: HSSNAYENG-55
+  summary: Find a solution for using KeyTab in  java web app.
+  status: In Progress
+  updated: Mon, 6 Jan 2014 17:22:07 +1000
+issue_130:
+  id: 130
+  id_jira: 25000
+  key: HSSNAYENG-58
+  summary: ! 'Fix the DB connection auto-close bug. '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 17:21:58 +1000
+issue_131:
+  id: 131
+  id_jira: 23604
+  key: RT-275
+  summary: Empty ServiceCodeandTask field when create child ticket
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:17:59 +1000
+issue_132:
+  id: 132
+  id_jira: 22273
+  key: CANTAS-664
+  summary: ! '[Research] cteate a generator for onepiece with the help of yeoman'
+  status: Open
+  updated: Mon, 6 Jan 2014 17:17:13 +1000
+issue_133:
+  id: 133
+  id_jira: 21571
+  key: RHEVAS-29
+  summary: Update CPD for RHEV - Manager High Availability Accelerator for RHEV v3.3
+    changes.
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:08:39 +1000
+issue_134:
+  id: 134
+  id_jira: 21567
+  key: RHEVAS-28
+  summary: Update Sample Report for RHEV-M High Availability Accelerator for RHEV
+    v3.3 changes.
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:08:17 +1000
+issue_135:
+  id: 135
+  id_jira: 21593
+  key: RHEVAS-18
+  summary: ! 'Update RHEV Manager High Availability  delivery guide for RHEV 3.3 specific
+    changes. '
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:07:43 +1000
+issue_136:
+  id: 136
+  id_jira: 23396
+  key: STEP-787
+  summary: ! '[Sync]The import progress description string should be located above
+    the progress bar'
+  status: Resolved
+  updated: Mon, 6 Jan 2014 17:07:07 +1000
+issue_137:
+  id: 137
+  id_jira: 24323
+  key: MAITAI-1199
+  summary: Maitai 2.0 Discovery Complete
+  status: Open
+  updated: Mon, 6 Jan 2014 17:02:20 +1000
+issue_138:
+  id: 138
+  id_jira: 25007
+  key: ORGCHART-24
+  summary: gpg encrypt channel with orgchart and rt
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:00:48 +1000
+issue_139:
+  id: 139
+  id_jira: 25010
+  key: ORGCHART-27
+  summary: When EngOps deploy OrgChart encrypt solution, Orgchart team should provide
+    a deployment document to support it.
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:00:28 +1000
+issue_140:
+  id: 140
+  id_jira: 25012
+  key: ORGCHART-28
+  summary: OrgChart Package on brew
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:00:27 +1000
+issue_141:
+  id: 141
+  id_jira: 25009
+  key: ORGCHART-26
+  summary: When people team send a encrypt employee history spreadsheet, orgchart
+    client can decrypt the file and import the data correctly
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:00:25 +1000
+issue_142:
+  id: 142
+  id_jira: 25008
+  key: ORGCHART-25
+  summary: Upgrade RT's configure to support attachment encrypt.
+  status: To Do
+  updated: Mon, 6 Jan 2014 17:00:24 +1000
+issue_143:
+  id: 143
+  id_jira: 23939
+  key: HSSNAYENG-32
+  summary: ! '[Individual]Resource Utilization -- front end '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 16:50:01 +1000
+issue_144:
+  id: 144
+  id_jira: 23940
+  key: HSSNAYENG-33
+  summary: ! '[Individual]Task Completion Ratio -- front end '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 16:49:20 +1000
+issue_145:
+  id: 145
+  id_jira: 24900
+  key: HDS-558
+  summary: ! '[QE] Bugzilla API automation - BugOperation'
+  status: Done
+  updated: Mon, 6 Jan 2014 16:44:44 +1000
+issue_146:
+  id: 146
+  id_jira: 23612
+  key: RT-279
+  summary: ! '[SC][front page][task]When the task detail contains picture, SC show
+    the task list out of page in Firefox 22.0.'
+  status: To Do
+  updated: Mon, 6 Jan 2014 16:37:50 +1000
+issue_147:
+  id: 147
+  id_jira: 23957
+  key: RT-282
+  summary: ! '[SC][front page][team]Some UI issues in the add task page.'
+  status: To Do
+  updated: Mon, 6 Jan 2014 16:37:50 +1000
+issue_148:
+  id: 148
+  id_jira: 23609
+  key: RT-277
+  summary: ! '[SC][front page][report]When there are two space after the searchkey,
+    the report result is not the same as search result.'
+  status: To Do
+  updated: Mon, 6 Jan 2014 16:37:49 +1000
+issue_149:
+  id: 149
+  id_jira: 22612
+  key: RR-177
+  summary: Project closure sign-off approved
+  status: To Do
+  updated: Mon, 6 Jan 2014 16:24:23 +1000
+issue_150:
+  id: 150
+  id_jira: 24160
+  key: RR-180
+  summary: Risk Management Plan Completed
+  status: In Progress
+  updated: Mon, 6 Jan 2014 16:23:24 +1000
+issue_151:
+  id: 151
+  id_jira: 24156
+  key: RR-178
+  summary: ! 'Communication strategy complete '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 16:22:14 +1000
+issue_152:
+  id: 152
+  id_jira: 19915
+  key: HSSNAYENG-1
+  summary: SE Metrics
+  status: To Do
+  updated: Mon, 6 Jan 2014 16:21:35 +1000
+issue_153:
+  id: 153
+  id_jira: 24405
+  key: RR-183
+  summary: RHEL7 GA
+  status: In Progress
+  updated: Mon, 6 Jan 2014 16:21:16 +1000
+issue_154:
+  id: 154
+  id_jira: 23966
+  key: HSSNAYENG-41
+  summary: ! '[Team] page : Task Completion Ratio render and organize. '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 16:19:37 +1000
+issue_155:
+  id: 155
+  id_jira: 23965
+  key: HSSNAYENG-40
+  summary: ! '[Team] page : Resource Utilization - render and oganize . '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 16:19:34 +1000
+issue_156:
+  id: 156
+  id_jira: 11192
+  key: ADMIN-14
+  summary: HSS People Management
+  status: Open
+  updated: Mon, 6 Jan 2014 16:18:02 +1000
+issue_157:
+  id: 157
+  id_jira: 24973
+  key: ORGCHART-23
+  summary: Get the correct attachments based on RT's API
+  status: To Do
+  updated: Mon, 6 Jan 2014 16:08:17 +1000
+issue_158:
+  id: 158
+  id_jira: 24999
+  key: RHS-325
+  summary: Sprint-5 Code Review and Builds
+  status: In Progress
+  updated: Mon, 6 Jan 2014 16:06:26 +1000
+issue_159:
+  id: 159
+  id_jira: 24516
+  key: MAITAI-1248
+  summary: ! 'Update backend '
+  status: Closed
+  updated: Mon, 6 Jan 2014 16:05:38 +1000
+issue_160:
+  id: 160
+  id_jira: 20926
+  key: STEP-728
+  summary: ! 'QE: Design Case and Do Test for This Sprint User Story'
+  status: Closed
+  updated: Mon, 6 Jan 2014 16:00:02 +1000
+issue_161:
+  id: 161
+  id_jira: 14278
+  key: STEP-419
+  summary: Interaction between JIRA, Confluence and other systems should be monitored
+  status: Open
+  updated: Mon, 6 Jan 2014 15:59:14 +1000
+issue_162:
+  id: 162
+  id_jira: 13226
+  key: STEP-344
+  summary: Usage of JIRA, Confluence features should be monitored
+  status: Open
+  updated: Mon, 6 Jan 2014 15:59:06 +1000
+issue_163:
+  id: 163
+  id_jira: 12089
+  key: STEP-195
+  summary: Eng-Ops policies around usage of JIRA/Greenhopper
+  status: Open
+  updated: Mon, 6 Jan 2014 15:57:40 +1000
+issue_164:
+  id: 164
+  id_jira: 11974
+  key: STEP-65
+  summary: Document recovery plan
+  status: Open
+  updated: Mon, 6 Jan 2014 15:57:26 +1000
+issue_165:
+  id: 165
+  id_jira: 24403
+  key: RR-181
+  summary: RHEL7 Code Freeze (Platform QE)
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:55:27 +1000
+issue_166:
+  id: 166
+  id_jira: 16220
+  key: STEP-544
+  summary: User Training Materials - video ready on landing page
+  status: Closed
+  updated: Mon, 6 Jan 2014 15:51:58 +1000
+issue_167:
+  id: 167
+  id_jira: 22606
+  key: RR-172
+  summary: s/390x arch requirements met
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:51:35 +1000
+issue_168:
+  id: 168
+  id_jira: 22611
+  key: RR-176
+  summary: Execution freeze (HSS RHEL7 ready)
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:50:39 +1000
+issue_169:
+  id: 169
+  id_jira: 19454
+  key: CON-790
+  summary: ! 'Conflux production servers setsup is not ready '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:44:59 +1000
+issue_170:
+  id: 170
+  id_jira: 24992
+  key: HSSCOMFUNC-545
+  summary: Capture requirements for integration between JBoss.org JIRA and SFDC instance
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:39:44 +1000
+issue_171:
+  id: 171
+  id_jira: 24993
+  key: HSSCOMFUNC-546
+  summary: Improve both JBoss.org JIRA and BZ integration with SFDC.
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:39:35 +1000
+issue_172:
+  id: 172
+  id_jira: 24996
+  key: HDS-586
+  summary: Harvester 2.0 FLS readiness before it's sent out HSS
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:36:50 +1000
+issue_173:
+  id: 173
+  id_jira: 24808
+  key: RR-190
+  summary: Pulp patch testing completed
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:36:15 +1000
+issue_174:
+  id: 174
+  id_jira: 24807
+  key: RR-189
+  summary: Pulp Patch Development
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:35:55 +1000
+issue_175:
+  id: 175
+  id_jira: 24972
+  key: ORGCHART-22
+  summary: automatically getting public keys.
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:33:18 +1000
+issue_176:
+  id: 176
+  id_jira: 24406
+  key: RR-184
+  summary: RHEL7 readiness Communication Strategy
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:29:48 +1000
+issue_177:
+  id: 177
+  id_jira: 24997
+  key: HSSQECI-57
+  summary: QE CI Openstack 4.0 upgrade
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:28:32 +1000
+issue_178:
+  id: 178
+  id_jira: 24532
+  key: MAITAI-1254
+  summary: Process Request Process Requirements
+  status: Closed
+  updated: Mon, 6 Jan 2014 15:24:37 +1000
+issue_179:
+  id: 179
+  id_jira: 24484
+  key: MAITAI-1238
+  summary: Doc - user guide - KIE Workbench guide
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:24:10 +1000
+issue_180:
+  id: 180
+  id_jira: 22610
+  key: RR-175
+  summary: TPS ready
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:23:51 +1000
+issue_181:
+  id: 181
+  id_jira: 21999
+  key: HSSQECI-52
+  summary: Openstack 4.0 - Discuss the requirement
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:22:56 +1000
+issue_182:
+  id: 182
+  id_jira: 22602
+  key: RR-169
+  summary: Beaker ready
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:22:27 +1000
+issue_183:
+  id: 183
+  id_jira: 24995
+  key: HDS-585
+  summary: FLS Support Readiness ,get trianed and support inquires from comstomers
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:17:58 +1000
+issue_184:
+  id: 184
+  id_jira: 24990
+  key: HSSCOMFUNC-543
+  summary: Setup an A-MQ message broker in the DMZ.
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:14:05 +1000
+issue_185:
+  id: 185
+  id_jira: 24989
+  key: HSSCOMFUNC-542
+  summary: Modify the Errata UI so that it treats JIRA as an equal citizen to Bugzilla.
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:12:42 +1000
+issue_186:
+  id: 186
+  id_jira: 24988
+  key: HSSCOMFUNC-541
+  summary: ! 'Modify Errata to respond to BZ and JIRA notifications through message
+    bus. '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:12:03 +1000
+issue_187:
+  id: 187
+  id_jira: 24987
+  key: HSSCOMFUNC-540
+  summary: ! 'Make JIRA emit notifications (through the message bus) that an issue
+    has changed. '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:08:12 +1000
+issue_188:
+  id: 188
+  id_jira: 24986
+  key: HSSCOMFUNC-539
+  summary: Make Bugzilla emit notifications (through the message bus) that an issue
+    has changed
+  status: In Progress
+  updated: Mon, 6 Jan 2014 15:08:05 +1000
+issue_189:
+  id: 189
+  id_jira: 24984
+  key: HSSCOMFUNC-538
+  summary: Introduce an Active-MQ based messaging based infrastructure and convert
+    aplications from current QPid (and possible other messaging systems) to using
+    A-MQ.
+  status: To Do
+  updated: Mon, 6 Jan 2014 15:02:15 +1000
+issue_190:
+  id: 190
+  id_jira: 24991
+  key: HSSCOMFUNC-544
+  summary: Deploy the JIRA solution that was developed against the internal JIRA on
+    the JBoss.org instance.
+  status: To Do
+  updated: Mon, 6 Jan 2014 14:56:58 +1000
+issue_191:
+  id: 191
+  id_jira: 24288
+  key: HSSCOMFUNC-422
+  summary: ! '[QE] HSS_QE JD Update'
+  status: To Do
+  updated: Mon, 6 Jan 2014 14:49:08 +1000
+issue_192:
+  id: 192
+  id_jira: 24813
+  key: RHS-321
+  summary: ! '1047747- glusterd crashed, after initiating ''remove brick start'' '
+  status: In Progress
+  updated: Mon, 6 Jan 2014 14:40:02 +1000
+issue_193:
+  id: 193
+  id_jira: 24965
+  key: STEP-811
+  summary: Finalize technical requirements gathering for messaging plugin
+  status: In Progress
+  updated: Mon, 6 Jan 2014 14:36:12 +1000
+issue_194:
+  id: 194
+  id_jira: 23721
+  key: STEP-796
+  summary: Import sprint data for GSSO imported projects
+  status: In Progress
+  updated: Mon, 6 Jan 2014 14:35:22 +1000
+issue_195:
+  id: 195
+  id_jira: 24975
+  key: STEP-812
+  summary: Release version 0.4
+  status: Open
+  updated: Mon, 6 Jan 2014 14:05:14 +1000
+issue_196:
+  id: 196
+  id_jira: 24322
+  key: MAITAI-1198
+  summary: Maitai 2.0 High-level Communication Plan  Ready
+  status: Open
+  updated: Mon, 6 Jan 2014 14:03:53 +1000
+issue_197:
+  id: 197
+  id_jira: 24985
+  key: STEP-820
+  summary: Review communication strategy for BZ Integration
+  status: Open
+  updated: Mon, 6 Jan 2014 14:01:04 +1000
+issue_198:
+  id: 198
+  id_jira: 24983
+  key: STEP-819
+  summary: Setup Bugzilla account on stage and production
+  status: Open
+  updated: Mon, 6 Jan 2014 13:59:04 +1000
+issue_199:
+  id: 199
+  id_jira: 24982
+  key: STEP-818
+  summary: Deploy and verify production
+  status: Open
+  updated: Mon, 6 Jan 2014 13:58:09 +1000
+issue_200:
+  id: 200
+  id_jira: 24981
+  key: STEP-817
+  summary: Deploy and verify stage
+  status: Open
+  updated: Mon, 6 Jan 2014 13:57:56 +1000
+issue_201:
+  id: 201
+  id_jira: 24980
+  key: STEP-816
+  summary: Create release annoucement
+  status: Open
+  updated: Mon, 6 Jan 2014 13:57:32 +1000
+issue_202:
+  id: 202
+  id_jira: 24979
+  key: STEP-815
+  summary: QE tests
+  status: Open
+  updated: Mon, 6 Jan 2014 13:57:06 +1000
+issue_203:
+  id: 203
+  id_jira: 24978
+  key: STEP-814
+  summary: Release from master
+  status: Open
+  updated: Mon, 6 Jan 2014 13:55:26 +1000
+issue_204:
+  id: 204
+  id_jira: 24977
+  key: STEP-813
+  summary: Merge feature branch
+  status: Open
+  updated: Mon, 6 Jan 2014 13:55:13 +1000
+issue_205:
+  id: 205
+  id_jira: 24933
+  key: HDS-581
+  summary: ! 'Harvester Communication Plan Ready And Comfirm to Lawrence '
+  status: To Do
+  updated: Mon, 6 Jan 2014 13:49:42 +1000
+issue_206:
+  id: 206
+  id_jira: 24185
+  key: STEP-799
+  summary: Investigate testing infrastructure
+  status: Open
+  updated: Mon, 6 Jan 2014 13:42:03 +1000
+issue_207:
+  id: 207
+  id_jira: 24101
+  key: STEP-798
+  summary: Investigate available solutions for integrating JIRA with messaging
+  status: Open
+  updated: Mon, 6 Jan 2014 13:42:02 +1000
+issue_208:
+  id: 208
+  id_jira: 24976
+  key: RHS-324
+  summary: Verify bug 104629
+  status: Done
+  updated: Mon, 6 Jan 2014 13:40:52 +1000
+issue_209:
+  id: 209
+  id_jira: 24882
+  key: RHS-323
+  summary: ! 'Bug 1046294 - AFR : For every file self-heal there are warning messages
+    reported in glustershd.log file'
+  status: Done
+  updated: Mon, 6 Jan 2014 13:40:41 +1000
+issue_210:
+  id: 210
+  id_jira: 24295
+  key: RHS-270
+  summary: Bug 1024313 - self-heal happening from sink to source in 3 way replica
+  status: Assigned
+  updated: Mon, 6 Jan 2014 13:40:20 +1000
+issue_211:
+  id: 211
+  id_jira: 24963
+  key: STEP-810
+  summary: Investigate transaction relation between JIRA and event listeners
+  status: Open
+  updated: Mon, 6 Jan 2014 13:39:40 +1000
+issue_212:
+  id: 212
+  id_jira: 24356
+  key: RHS-298
+  summary: Verify bug 924048
+  status: Done
+  updated: Mon, 6 Jan 2014 13:37:13 +1000
+issue_213:
+  id: 213
+  id_jira: 24751
+  key: HSSCOMFUNC-491
+  summary: pen-test against Harverster
+  status: To Do
+  updated: Mon, 6 Jan 2014 13:31:38 +1000
+issue_214:
+  id: 214
+  id_jira: 24733
+  key: ORGCHART-21
+  summary: provide a RT's queue's attachment encrypt solution
+  status: Done
+  updated: Mon, 6 Jan 2014 13:26:08 +1000
+issue_215:
+  id: 215
+  id_jira: 16298
+  key: ADMIN-86
+  summary: NAY-site Budget FY14Q4
+  status: In Progress
+  updated: Mon, 6 Jan 2014 13:18:23 +1000
+issue_216:
+  id: 216
+  id_jira: 20907
+  key: STEP-722
+  summary: Add comment template support to admin UI
+  status: Open
+  updated: Mon, 6 Jan 2014 13:16:52 +1000
+issue_217:
+  id: 217
+  id_jira: 12082
+  key: STEP-187
+  summary: Automatically synchronize JIRA issues into BZ (configurable)
+  status: Reopened
+  updated: Mon, 6 Jan 2014 13:16:49 +1000
+issue_218:
+  id: 218
+  id_jira: 14124
+  key: STEP-402
+  summary: JIRA integration with Bugzilla
+  status: Open
+  updated: Mon, 6 Jan 2014 13:16:48 +1000
+issue_219:
+  id: 219
+  id_jira: 24799
+  key: HDS-533
+  summary: UI interaction implementation
+  status: To Do
+  updated: Mon, 6 Jan 2014 13:16:43 +1000
+issue_220:
+  id: 220
+  id_jira: 24798
+  key: HDS-532
+  summary: back-end support implementation
+  status: To Do
+  updated: Mon, 6 Jan 2014 13:16:29 +1000
+issue_221:
+  id: 221
+  id_jira: 24801
+  key: HDS-535
+  summary: UI interaction implementation
+  status: To Do
+  updated: Mon, 6 Jan 2014 13:15:52 +1000
+issue_222:
+  id: 222
+  id_jira: 24800
+  key: HDS-534
+  summary: back-end support implementation
+  status: To Do
+  updated: Mon, 6 Jan 2014 13:15:30 +1000
+issue_223:
+  id: 223
+  id_jira: 18450
+  key: STEP-673
+  summary: Confluence feature tracking tracks JIRA gadgets as "unknown"
+  status: Open
+  updated: Mon, 6 Jan 2014 13:06:54 +1000
+issue_224:
+  id: 224
+  id_jira: 23459
+  key: STEP-790
+  summary: ! '[Sync]Can''t sync the attachment that not Added a comment it in bugzilla'
+  status: Open
+  updated: Mon, 6 Jan 2014 13:06:53 +1000
+issue_225:
+  id: 225
+  id_jira: 22663
+  key: STEP-772
+  summary: ! '[Sync]Here should add 2 check all boxes and 1 reset button in the bugzilla
+    synchronization page'
+  status: Open
+  updated: Mon, 6 Jan 2014 13:06:53 +1000
+issue_226:
+  id: 226
+  id_jira: 23482
+  key: STEP-791
+  summary: ! '[Sync]The advanced import filter in the bugzilla import page doesn''t
+    work as expected.'
+  status: Open
+  updated: Mon, 6 Jan 2014 13:06:53 +1000
+issue_227:
+  id: 227
+  id_jira: 23386
+  key: STEP-784
+  summary: ! '[Sync]Update these config item''s  description '
+  status: Open
+  updated: Mon, 6 Jan 2014 13:06:53 +1000
+issue_228:
+  id: 228
+  id_jira: 23395
+  key: STEP-786
+  summary: ! '[Sync]It should support access the whole list of imported issues after
+    import finished'
+  status: Open
+  updated: Mon, 6 Jan 2014 13:06:53 +1000
+issue_229:
+  id: 229
+  id_jira: 23399
+  key: STEP-788
+  summary: ! '[Sync]All fields in customized field box shouldn''t be editable with
+    JEXL code format'
+  status: Open
+  updated: Mon, 6 Jan 2014 13:06:53 +1000
+issue_230:
+  id: 230
+  id_jira: 23393
+  key: STEP-785
+  summary: ! '[Sync]The customized field mapping box should scale with current screen'
+  status: Open
+  updated: Mon, 6 Jan 2014 13:06:53 +1000
+issue_231:
+  id: 231
+  id_jira: 24479
+  key: MAITAI-1233
+  summary: Test Case Design
+  status: Resolved
+  updated: Mon, 6 Jan 2014 13:06:19 +1000
+issue_232:
+  id: 232
+  id_jira: 24885
+  key: HDS-546
+  summary: ! '[QE]RT API test scripts develop'
+  status: In Progress
+  updated: Mon, 6 Jan 2014 13:03:43 +1000
+issue_233:
+  id: 233
+  id_jira: 24663
+  key: ORGCHART-20
+  summary: ! 'System Monitor Guide + System Recovery sent '
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:53 +1000
+issue_234:
+  id: 234
+  id_jira: 24654
+  key: ORGCHART-11
+  summary: Architecture Design
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_235:
+  id: 235
+  id_jira: 24658
+  key: ORGCHART-15
+  summary: ! 'User Guide Documentation Draft Completed '
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_236:
+  id: 236
+  id_jira: 24653
+  key: ORGCHART-10
+  summary: RA complete initial analysis for Scrum team to get start
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_237:
+  id: 237
+  id_jira: 24652
+  key: ORGCHART-9
+  summary: Initial requirement collection from BA/HSS manager/EIP
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_238:
+  id: 238
+  id_jira: 24659
+  key: ORGCHART-16
+  summary: ! 'User Guide document pass QE Test '
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_239:
+  id: 239
+  id_jira: 24657
+  key: ORGCHART-14
+  summary: ! 'Integration testing completed by SED '
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_240:
+  id: 240
+  id_jira: 24655
+  key: ORGCHART-12
+  summary: Unit testing completed by SED
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_241:
+  id: 241
+  id_jira: 24656
+  key: ORGCHART-13
+  summary: ! 'Code review completed by SED '
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_242:
+  id: 242
+  id_jira: 24661
+  key: ORGCHART-18
+  summary: ! 'Deployment Package and Guide ready for test '
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_243:
+  id: 243
+  id_jira: 24660
+  key: ORGCHART-17
+  summary: ! 'New features Demo to FLS '
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:56:52 +1000
+issue_244:
+  id: 244
+  id_jira: 20051
+  key: CON-804
+  summary: ! 'Conflux  : Stage and production deployment request'
+  status: Open
+  updated: Mon, 6 Jan 2014 12:55:32 +1000
+issue_245:
+  id: 245
+  id_jira: 24559
+  key: RT-288
+  summary: RT stage&production upgrade
+  status: To Do
+  updated: Mon, 6 Jan 2014 12:29:43 +1000
+issue_246:
+  id: 246
+  id_jira: 20052
+  key: HDS-394
+  summary: ! 'Harvester2.0 :Stage and product deployment '
+  status: Done
+  updated: Mon, 6 Jan 2014 12:04:08 +1000
+issue_247:
+  id: 247
+  id_jira: 18025
+  key: STEP-643
+  summary: JIRA integration with Salesforce
+  status: Open
+  updated: Mon, 6 Jan 2014 11:35:04 +1000
+issue_248:
+  id: 248
+  id_jira: 24490
+  key: STEP-801
+  summary: V0.4 Code Freeze & Deployment Requested
+  status: Open
+  updated: Mon, 6 Jan 2014 11:34:39 +1000
+issue_249:
+  id: 249
+  id_jira: 24493
+  key: STEP-804
+  summary: V0.4 Stage&Production Deployment Completed
+  status: Open
+  updated: Mon, 6 Jan 2014 11:34:33 +1000
+issue_250:
+  id: 250
+  id_jira: 13674
+  key: STEP-373
+  summary: ! 'Publish JIRA events through HSS messaging solution '
+  status: Open
+  updated: Mon, 6 Jan 2014 11:31:55 +1000
+issue_251:
+  id: 251
+  id_jira: 21934
+  key: RR-118
+  summary: Determine baseline Errata scope
+  status: Done
+  updated: Mon, 6 Jan 2014 11:26:39 +1000
+issue_252:
+  id: 252
+  id_jira: 24961
+  key: STEP-809
+  summary: Create unit tests
+  status: Open
+  updated: Mon, 6 Jan 2014 11:15:54 +1000
+issue_253:
+  id: 253
+  id_jira: 24960
+  key: STEP-808
+  summary: Create ActiveMQ service
+  status: Open
+  updated: Mon, 6 Jan 2014 11:09:14 +1000
+issue_254:
+  id: 254
+  id_jira: 24959
+  key: STEP-807
+  summary: Create IssueEvent listener
+  status: Open
+  updated: Mon, 6 Jan 2014 11:08:38 +1000
+issue_255:
+  id: 255
+  id_jira: 24958
+  key: STEP-806
+  summary: Create maven project
+  status: Open
+  updated: Mon, 6 Jan 2014 11:08:00 +1000
+issue_256:
+  id: 256
+  id_jira: 22609
+  key: RR-174
+  summary: Pulp requirements met
+  status: In Progress
+  updated: Mon, 6 Jan 2014 09:27:47 +1000
+issue_257:
+  id: 257
+  id_jira: 24955
+  key: RR-192
+  summary: Pulp Patch Baseline requirement change by pulp team
+  status: In Progress
+  updated: Mon, 6 Jan 2014 09:26:47 +1000
+issue_258:
+  id: 258
+  id_jira: 24954
+  key: RR-191
+  summary: TPS Developing Schedule will be impacted by CDN Candipin Developing schedule
+  status: To Do
+  updated: Mon, 6 Jan 2014 09:21:16 +1000
+issue_259:
+  id: 259
+  id_jira: 22570
+  key: RR-149
+  summary: Baseline detailed schedule created
+  status: Done
+  updated: Mon, 6 Jan 2014 09:07:00 +1000
+issue_260:
+  id: 260
+  id_jira: 22568
+  key: RR-148
+  summary: Requirement collection freeze
+  status: Done
+  updated: Mon, 6 Jan 2014 09:05:04 +1000
+issue_261:
+  id: 261
+  id_jira: 24756
+  key: RHEVM-854
+  summary: 3.4 features - API to save OVF on any location (https://bugzilla.redhat.com/show_bug.cgi?id=1032686)
+  status: In Progress
+  updated: Mon, 6 Jan 2014 01:54:46 +1000
+issue_262:
+  id: 262
+  id_jira: 24951
+  key: RHEVM-860
+  summary: 3.4 features - add method local to donwloadImage / uploadImage (https://bugzilla.redhat.com/show_bug.cgi?id=1037500)
+  status: Open
+  updated: Mon, 6 Jan 2014 01:51:59 +1000
+issue_263:
+  id: 263
+  id_jira: 24085
+  key: ENGRDOCICD-101
+  summary: Add a 'Blocked/Waiting' column to Jira
+  status: Done
+  updated: Mon, 6 Jan 2014 01:29:13 +1000
+issue_264:
+  id: 264
+  id_jira: 24757
+  key: RHEVM-855
+  summary: 3.4 features - Single Disk Snapshot (https://bugzilla.redhat.com/show_bug.cgi?id=1032679)
+  status: In Progress
+  updated: Mon, 6 Jan 2014 01:28:46 +1000
+issue_265:
+  id: 265
+  id_jira: 23552
+  key: ENGRDOCICD-72
+  summary: ! 'RHEL7 image:  required for testday January 7'
+  status: Done
+  updated: Mon, 6 Jan 2014 01:28:35 +1000
+issue_266:
+  id: 266
+  id_jira: 24950
+  key: ENGRDOCICD-121
+  summary: ! 'TestDay: packstack-rdo-icehouse-multinode-neutron-rhel-test & bz#1048315'
+  status: To Do
+  updated: Mon, 6 Jan 2014 01:28:04 +1000
+issue_267:
+  id: 267
+  id_jira: 24767
+  key: ENGRDOCICD-116
+  summary: RHEL 65 dual-nic image on rhev-i8c-03
+  status: Done
+  updated: Mon, 6 Jan 2014 01:17:58 +1000
+issue_268:
+  id: 268
+  id_jira: 24766
+  key: ENGRDOCICD-115
+  summary: ! 'Test-Day: RHEL 6.5 Multinode Neutron Icehouse'
+  status: Done
+  updated: Mon, 6 Jan 2014 01:17:51 +1000
+issue_269:
+  id: 269
+  id_jira: 19382
+  key: RHOS-440
+  labels: ! '["LabelA","LabelB"]'
+  summary: add external ping test to network_basic_ops
+  status: Resolved
+  updated: Mon, 6 Jan 2014 00:31:27 +1000
+issue_270:
+  id: 270
+  id_jira: 20888
+  key: RHOS-502
+  summary: Add DNS check and update test
+  status: In Progress
+  updated: Mon, 6 Jan 2014 00:30:16 +1000
+issue_271:
+  id: 271
+  id_jira: 18625
+  key: RHOS-394
+  summary: scenario/test_cross_tenant_conectivity
+  status: Resolved
+  updated: Mon, 6 Jan 2014 00:30:03 +1000
+issue_272:
+  id: 272
+  id_jira: 24217
+  key: RHOS-520
+  summary: Ramp up on FWaaS
+  status: In Progress
+  updated: Mon, 6 Jan 2014 00:29:45 +1000
+issue_273:
+  id: 273
+  id_jira: 24221
+  key: RHOS-523
+  summary: Break network_basic_ops to components
+  status: In Progress
+  updated: Mon, 6 Jan 2014 00:29:39 +1000
+issue_274:
+  id: 274
+  id_jira: 24218
+  key: RHOS-521
+  summary: Fix bug 1262547
+  status: Resolved
+  updated: Mon, 6 Jan 2014 00:29:21 +1000
+issue_275:
+  id: 275
+  id_jira: 24778
+  key: REVOK-133
+  summary: FAQ doc
+  status: In Progress
+  updated: Mon, 6 Jan 2014 00:23:26 +1000
+issue_276:
+  id: 276
+  id_jira: 24780
+  key: REVOK-135
+  summary: Revok changelog page
+  status: In Progress
+  updated: Mon, 6 Jan 2014 00:20:33 +1000
+issue_277:
+  id: 277
+  id_jira: 24779
+  key: REVOK-134
+  summary: Revok Feature List
+  status: Done
+  updated: Mon, 6 Jan 2014 00:13:01 +1000
+issue_278:
+  id: 278
+  id_jira: 24220
+  key: RHOS-522
+  summary: Remove "wait_for_floating_ip" from network_basic_ops
+  status: Blocked
+  updated: Mon, 6 Jan 2014 00:11:15 +1000
+issue_279:
+  id: 279
+  id_jira: 24755
+  key: RHEVM-853
+  summary: 3.4 features - Read only disks (https://bugzilla.redhat.com/show_bug.cgi?id=878705)
+  status: In Progress
+  updated: Sun, 5 Jan 2014 23:28:16 +1000
+issue_280:
+  id: 280
+  id_jira: 20475
+  key: RHEVM-717
+  summary: Snapshot full plan
+  status: In Progress
+  updated: Sun, 5 Jan 2014 22:45:31 +1000
+issue_281:
+  id: 281
+  id_jira: 24669
+  key: RHEVM-835
+  summary: Execute https://tcms.engineering.redhat.com/run/106587/
+  status: Resolved
+  updated: Sun, 5 Jan 2014 21:52:45 +1000
+issue_282:
+  id: 282
+  id_jira: 24947
+  key: RHOS-530
+  summary: ! 'Automate VPNaaS by Tempest '
+  status: Open
+  updated: Sun, 5 Jan 2014 21:51:50 +1000
+issue_283:
+  id: 283
+  id_jira: 20292
+  key: RHOS-476
+  summary: Create tempets test for Hot Plug nic
+  status: In Progress
+  updated: Sun, 5 Jan 2014 19:46:20 +1000
+issue_284:
+  id: 284
+  id_jira: 20566
+  key: RHOS-482
+  summary: Create test plan - RFE -  upgrade from RHOS3.0 to RHOS4.0 - 958568
+  status: Resolved
+  updated: Sun, 5 Jan 2014 19:25:18 +1000
+issue_285:
+  id: 285
+  id_jira: 24644
+  key: RHOS-526
+  summary: Ownership of Cinder
+  status: In Progress
+  updated: Sun, 5 Jan 2014 17:55:07 +1000
+issue_286:
+  id: 286
+  id_jira: 19160
+  key: RHEVM-605
+  summary: Move DNS and DHCP services from 2003 server to Linux based configuration
+  status: In Progress
+  updated: Sun, 5 Jan 2014 17:54:59 +1000
+issue_287:
+  id: 287
+  id_jira: 24645
+  key: RHOS-527
+  summary: Verify bugs on 4.0
+  status: In Progress
+  updated: Sun, 5 Jan 2014 17:54:51 +1000
+issue_288:
+  id: 288
+  id_jira: 24944
+  key: RHEVM-859
+  summary: Prepare the RHEV + Neutron HowTo
+  status: Open
+  updated: Sun, 5 Jan 2014 17:43:24 +1000
+issue_289:
+  id: 289
+  id_jira: 24886
+  key: HDS-547
+  summary: ! 'Security review for API without authentication '
+  status: To Do
+  updated: Sat, 4 Jan 2014 13:16:10 +1000
+issue_290:
+  id: 290
+  id_jira: 24889
+  key: HDS-549
+  summary: ! 'Highcharts license Confirmation '
+  status: In Progress
+  updated: Sat, 4 Jan 2014 13:15:32 +1000
+issue_291:
+  id: 291
+  id_jira: 24313
+  key: MAITAI-1191
+  summary: ! '[Resource Shortage] QE has only 1 resource on Maitai which is also shared
+    with PDC'
+  status: Resolved
+  updated: Sat, 4 Jan 2014 12:59:32 +1000
+issue_292:
+  id: 292
+  id_jira: 24324
+  key: MAITAI-1200
+  summary: ! 'Maitai 0.15.0 deployment reqeust : stage and production deployment upgrade'
+  status: Resolved
+  updated: Sat, 4 Jan 2014 12:56:48 +1000
+issue_293:
+  id: 293
+  id_jira: 16387
+  key: CON-693
+  summary: ! '[Product 360]Backend BI in P360 team has no code review and cause many
+    regression and respin'
+  status: Resolved
+  updated: Sat, 4 Jan 2014 12:54:13 +1000
+issue_294:
+  id: 294
+  id_jira: 15811
+  key: CON-672
+  summary: ! '[Product 360] Only 1 BI developer as limited resource to deal with P360
+    bugs and issues'
+  status: Resolved
+  updated: Sat, 4 Jan 2014 12:52:50 +1000
+issue_295:
+  id: 295
+  id_jira: 24941
+  key: CON-843
+  summary: Brew Part II Data Warehourse Development Completed
+  status: Open
+  updated: Sat, 4 Jan 2014 12:51:40 +1000
+issue_296:
+  id: 296
+  id_jira: 24937
+  key: CON-839
+  summary: Brew Part I Data Warehourse Development Completed
+  status: Open
+  updated: Sat, 4 Jan 2014 12:49:49 +1000
+issue_297:
+  id: 297
+  id_jira: 24939
+  key: CON-841
+  summary: Errata Data Warehourse Development Part I Completed
+  status: Open
+  updated: Sat, 4 Jan 2014 12:46:36 +1000
+issue_298:
+  id: 298
+  id_jira: 24940
+  key: CON-842
+  summary: Errata And Product Page Part III Data Warehourse Development Completed
+  status: Open
+  updated: Sat, 4 Jan 2014 12:46:36 +1000
+issue_299:
+  id: 299
+  id_jira: 24936
+  key: CON-838
+  summary: Errata And Product Page  Data PartII Warehourse Development Completed
+  status: Open
+  updated: Sat, 4 Jan 2014 12:43:47 +1000
+issue_300:
+  id: 300
+  id_jira: 24904
+  key: HDS-561
+  summary: Harvester V2.03 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:35:52 +1000
+issue_301:
+  id: 301
+  id_jira: 24903
+  key: HDS-560
+  summary: ! 'Harvester V2.02 Release Code Freeze '
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:35:42 +1000
+issue_302:
+  id: 302
+  id_jira: 24905
+  key: HDS-562
+  summary: Harvester V2.1.0 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:33:04 +1000
+issue_303:
+  id: 303
+  id_jira: 24906
+  key: HDS-563
+  summary: Harvester V2.1.1 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:32:52 +1000
+issue_304:
+  id: 304
+  id_jira: 24907
+  key: HDS-564
+  summary: Harvester V2.1.2 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:32:39 +1000
+issue_305:
+  id: 305
+  id_jira: 24908
+  key: HDS-565
+  summary: Harvester V2.2.0 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:32:24 +1000
+issue_306:
+  id: 306
+  id_jira: 24909
+  key: HDS-566
+  summary: Harvester V2.2.1 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:32:13 +1000
+issue_307:
+  id: 307
+  id_jira: 24910
+  key: HDS-567
+  summary: Harvester V2.3.1 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:31:54 +1000
+issue_308:
+  id: 308
+  id_jira: 24911
+  key: HDS-568
+  summary: Harvester V2.3.2 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:31:37 +1000
+issue_309:
+  id: 309
+  id_jira: 24921
+  key: HDS-569
+  summary: Harvester V2.3.0 Release Code Freeze
+  status: To Do
+  updated: Sat, 4 Jan 2014 12:31:21 +1000
+issue_310:
+  id: 310
+  id_jira: 24938
+  key: CON-840
+  summary: Beaker Data Warehourse Development Completed
+  status: Open
+  updated: Sat, 4 Jan 2014 12:22:41 +1000
+issue_311:
+  id: 311
+  id_jira: 24934
+  key: HDS-582
+  summary: Harvester 2.0 Communication execution before release
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:56:43 +1000
+issue_312:
+  id: 312
+  id_jira: 24935
+  key: HDS-583
+  summary: ! 'Harvester 2.0 Communication execution After release '
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:56:43 +1000
+issue_313:
+  id: 313
+  id_jira: 18520
+  key: HDS-304
+  summary: HSS Data Service Communicaiton Plan
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:56:36 +1000
+issue_314:
+  id: 314
+  id_jira: 22086
+  key: HDS-457
+  summary: Identify stakeholders /mailing list where release note should go outside
+    of HSS for release 2.03
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:48:31 +1000
+issue_315:
+  id: 315
+  id_jira: 24932
+  key: HDS-580
+  summary: Harvester 2.3.1:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:41:28 +1000
+issue_316:
+  id: 316
+  id_jira: 24931
+  key: HDS-579
+  summary: Harvester 2.3.1:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:39:11 +1000
+issue_317:
+  id: 317
+  id_jira: 24930
+  key: HDS-578
+  summary: Harvester 2.3.0:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:38:43 +1000
+issue_318:
+  id: 318
+  id_jira: 24922
+  key: HDS-570
+  summary: Eng-Ops SE Readiness for Deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:38:43 +1000
+issue_319:
+  id: 319
+  id_jira: 24929
+  key: HDS-577
+  summary: Harvester 2.2.1:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:37:57 +1000
+issue_320:
+  id: 320
+  id_jira: 24928
+  key: HDS-576
+  summary: Harvester 2.2.0:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:36:49 +1000
+issue_321:
+  id: 321
+  id_jira: 24927
+  key: HDS-575
+  summary: Harvester 2.1.2:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:35:24 +1000
+issue_322:
+  id: 322
+  id_jira: 24926
+  key: HDS-574
+  summary: Harvester 2.1.1:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:34:26 +1000
+issue_323:
+  id: 323
+  id_jira: 24925
+  key: HDS-573
+  summary: Harvester 2.1.0:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:33:35 +1000
+issue_324:
+  id: 324
+  id_jira: 24924
+  key: HDS-572
+  summary: Harvester 2.0.3:Stage and Product upgrade deployment
+  status: To Do
+  updated: Sat, 4 Jan 2014 11:31:28 +1000
+issue_325:
+  id: 325
+  id_jira: 16940
+  key: RCMCLOUD-82
+  summary: Verify Content is Installable
+  status: To Do
+  updated: Sat, 4 Jan 2014 07:22:59 +1000
+issue_326:
+  id: 326
+  id_jira: 22637
+  key: RCMPROJ-214
+  summary: Investigate hwcert images
+  status: To Do
+  updated: Sat, 4 Jan 2014 06:36:59 +1000
+issue_327:
+  id: 327
+  id_jira: 17678
+  key: RCMCLOUD-133
+  summary: Build and QE Test a RHEL 6 AMI
+  status: In Progress
+  updated: Sat, 4 Jan 2014 06:36:51 +1000
+issue_328:
+  id: 328
+  id_jira: 17679
+  key: RCMCLOUD-134
+  summary: Build and QE Test RHEL 5.11 AMIs
+  status: To Do
+  updated: Sat, 4 Jan 2014 06:36:48 +1000
+issue_329:
+  id: 329
+  id_jira: 22620
+  key: RCMPROJ-209
+  summary: Standardize on Image content for RHEL 7
+  status: To Do
+  updated: Sat, 4 Jan 2014 06:36:36 +1000
+issue_330:
+  id: 330
+  id_jira: 16934
+  key: RCMCLOUD-76
+  summary: Prepare RHEV RC RPMs for Release
+  status: To Do
+  updated: Sat, 4 Jan 2014 06:36:00 +1000
+issue_331:
+  id: 331
+  id_jira: 16938
+  key: RCMCLOUD-80
+  summary: Release non-RPM content to RHN Classic
+  status: To Do
+  updated: Sat, 4 Jan 2014 06:33:40 +1000
+issue_332:
+  id: 332
+  id_jira: 16939
+  key: RCMCLOUD-81
+  summary: Release RPM Content to RHN
+  status: To Do
+  updated: Sat, 4 Jan 2014 06:33:30 +1000
+issue_333:
+  id: 333
+  id_jira: 16937
+  key: RCMCLOUD-79
+  summary: Deliver Snap5 (aka the RC) to Partners
+  status: To Do
+  updated: Sat, 4 Jan 2014 06:33:20 +1000
+issue_334:
+  id: 334
+  id_jira: 16936
+  key: RCMCLOUD-78
+  summary: Release RHEV 3.3 Snap5 (aka the RC)
+  status: To Do
+  updated: Sat, 4 Jan 2014 06:33:05 +1000
+issue_335:
+  id: 335
+  id_jira: 24139
+  key: RCMPROJ-261
+  summary: Docker Integration
+  status: To Do
+  updated: Sat, 4 Jan 2014 04:47:40 +1000
+issue_336:
+  id: 336
+  id_jira: 24917
+  key: RCMTEMPL-132
+  summary: Planning Documentation Build Brew Tags
+  status: To Do
+  updated: Sat, 4 Jan 2014 01:18:35 +1000
+issue_337:
+  id: 337
+  id_jira: 24920
+  key: RCMTEMPL-134
+  summary: Testing Documentation Build Brew Tags
+  status: To Do
+  updated: Sat, 4 Jan 2014 01:13:50 +1000
+issue_338:
+  id: 338
+  id_jira: 23773
+  key: RCMTEMPL-82
+  summary: Creating LiveCD Build Tags in Brew
+  status: To Do
+  updated: Sat, 4 Jan 2014 01:00:59 +1000
+issue_339:
+  id: 339
+  id_jira: 24919
+  key: RCMTEMPL-133
+  summary: Creating Documentation Build Brew Tags
+  status: To Do
+  updated: Sat, 4 Jan 2014 01:00:24 +1000
+issue_340:
+  id: 340
+  id_jira: 24770
+  key: ENGRDOCICD-117
+  summary: ! 'Khaleesi: turn off  all work-arounds by setting/resetting a flag'
+  status: To Do
+  updated: Sat, 4 Jan 2014 00:59:14 +1000
+issue_341:
+  id: 341
+  id_jira: 24918
+  key: ENGRDOCICD-118
+  summary: ! 'Khaleesi: print out work arounds, bug id''s used in a playbook'
+  status: To Do
+  updated: Sat, 4 Jan 2014 00:59:14 +1000
+issue_342:
+  id: 342
+  id_jira: 23569
+  key: RCMPROJ-252
+  summary: Create Documentation Build Brew Tags
+  status: In Progress
+  updated: Sat, 4 Jan 2014 00:22:21 +1000
+issue_343:
+  id: 343
+  id_jira: 24916
+  key: RCMTEMPL-131
+  summary: Create Documentation Build Brew Tags
+  status: To Do
+  updated: Sat, 4 Jan 2014 00:22:15 +1000
+issue_344:
+  id: 344
+  id_jira: 22618
+  key: RCMPROJ-207
+  summary: Deploy New Release of ImageFactory to Brew
+  status: To Do
+  updated: Sat, 4 Jan 2014 00:14:45 +1000
+issue_345:
+  id: 345
+  id_jira: 24123
+  key: RHEVM-813
+  summary: vdsm+engine logs aren't attached in artifacts for 3.2 jobs
+  status: Open
+  updated: Fri, 3 Jan 2014 23:37:19 +1000
+issue_346:
+  id: 346
+  id_jira: 24915
+  key: RHEVM-858
+  summary: cache status of job_runner in order to perform cleanup after failure
+  status: Open
+  updated: Fri, 3 Jan 2014 23:32:16 +1000
+issue_347:
+  id: 347
+  id_jira: 24629
+  key: GL-323
+  summary: Test Cases development for Snapshot create with i/o
+  status: Done
+  updated: Fri, 3 Jan 2014 21:51:27 +1000
+issue_348:
+  id: 348
+  id_jira: 24913
+  key: GL-346
+  summary: Test case creation for snapshot delete
+  status: Done
+  updated: Fri, 3 Jan 2014 21:49:10 +1000
+issue_349:
+  id: 349
+  id_jira: 24914
+  key: GL-347
+  summary: Test case Execution for snapshot delete
+  status: In Progress
+  updated: Fri, 3 Jan 2014 21:48:34 +1000
+issue_350:
+  id: 350
+  id_jira: 24472
+  key: MAITAI-1226
+  summary: Update and verify production
+  status: Resolved
+  updated: Fri, 3 Jan 2014 21:06:51 +1000
+issue_351:
+  id: 351
+  id_jira: 24474
+  key: MAITAI-1228
+  summary: Create release announcement
+  status: Resolved
+  updated: Fri, 3 Jan 2014 20:54:34 +1000
+issue_352:
+  id: 352
+  id_jira: 24471
+  key: MAITAI-1225
+  summary: Update and verify stage
+  status: Resolved
+  updated: Fri, 3 Jan 2014 20:53:55 +1000
+issue_353:
+  id: 353
+  id_jira: 23952
+  key: PROD-116
+  summary: EPP 6.1 migration of P360
+  status: Open
+  updated: Fri, 3 Jan 2014 20:23:51 +1000
+issue_354:
+  id: 354
+  id_jira: 24749
+  key: MAITAI-1270
+  summary: Be familiar with the project and learn about the work flow
+  status: In Progress
+  updated: Fri, 3 Jan 2014 20:20:55 +1000
+issue_355:
+  id: 355
+  id_jira: 24898
+  key: HDS-557
+  summary: back-end data support & code implementation
+  status: To Do
+  updated: Fri, 3 Jan 2014 20:17:52 +1000
+issue_356:
+  id: 356
+  id_jira: 24897
+  key: HDS-556
+  summary: UI interaction implementation
+  status: To Do
+  updated: Fri, 3 Jan 2014 20:17:37 +1000
+issue_357:
+  id: 357
+  id_jira: 24478
+  key: MAITAI-1232
+  summary: UI theme replacement
+  status: Open
+  updated: Fri, 3 Jan 2014 20:09:57 +1000
+issue_358:
+  id: 358
+  id_jira: 24902
+  key: REVOK-137
+  summary: Web scanner Advanced Features (HTML5, DOM XSS etc)
+  status: To Do
+  updated: Fri, 3 Jan 2014 20:08:14 +1000
+issue_359:
+  id: 359
+  id_jira: 24901
+  key: HDS-559
+  summary: ! '[QE]Sprint 13 Daily testing in Week 03,2014'
+  status: To Do
+  updated: Fri, 3 Jan 2014 20:07:44 +1000
+issue_360:
+  id: 360
+  id_jira: 22039
+  key: HDS-452
+  summary: code review
+  status: In Progress
+  updated: Fri, 3 Jan 2014 20:06:07 +1000
+issue_361:
+  id: 361
+  id_jira: 24899
+  key: GL-345
+  summary: ! 'Bug 1048149 - [SNAPSHOT]: glusterd logs are filled with "Request received
+    from non-privileged port. Failing request" while deleting snaps in a loop '
+  status: To Do
+  updated: Fri, 3 Jan 2014 20:02:22 +1000
+issue_362:
+  id: 362
+  id_jira: 23832
+  key: HDS-501
+  summary: ! '[QE] Bugzilla API automation - Bugtrend'
+  status: Done
+  updated: Fri, 3 Jan 2014 19:58:04 +1000
+issue_363:
+  id: 363
+  id_jira: 22185
+  key: REVOK-93
+  summary: ! 'Provide Rest API for each module such as XSS, SQLi: a distinct feature
+    of Revok compared with competitors'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:56:50 +1000
+issue_364:
+  id: 364
+  id_jira: 23836
+  key: CON-828
+  summary: Conlfux eng-ops KPI code testing for teiid 8.5
+  status: Resolved
+  updated: Fri, 3 Jan 2014 19:51:57 +1000
+issue_365:
+  id: 365
+  id_jira: 24896
+  key: HDS-555
+  summary: UI prototype pages design
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:49:56 +1000
+issue_366:
+  id: 366
+  id_jira: 23984
+  key: REVOK-112
+  summary: Revok tagline (value proposition)
+  status: In Progress
+  updated: Fri, 3 Jan 2014 19:49:36 +1000
+issue_367:
+  id: 367
+  id_jira: 24895
+  key: HDS-554
+  summary: ! '[QE]Sprint 13 Full functional testing'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:47:26 +1000
+issue_368:
+  id: 368
+  id_jira: 24892
+  key: HDS-552
+  summary: ! '[QE]Data defination documents update - TCMS'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:47:26 +1000
+issue_369:
+  id: 369
+  id_jira: 24890
+  key: HDS-550
+  summary: ! '[QE]Data defination documents update - RT'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:47:26 +1000
+issue_370:
+  id: 370
+  id_jira: 24891
+  key: HDS-551
+  summary: ! '[QE]Data defination documents update - Bugzilla'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:47:26 +1000
+issue_371:
+  id: 371
+  id_jira: 24881
+  key: HDS-545
+  summary: ! '[QE]Bugzilla API test - Part of data verification on dev server'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:47:25 +1000
+issue_372:
+  id: 372
+  id_jira: 24887
+  key: HDS-548
+  summary: ! '[QE]RT API testing'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:47:25 +1000
+issue_373:
+  id: 373
+  id_jira: 24893
+  key: HDS-553
+  summary: ! '[QE]Sprint 13 Daily testing in Week 02,2014'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:44:16 +1000
+issue_374:
+  id: 374
+  id_jira: 24481
+  key: MAITAI-1235
+  summary: Case Review
+  status: Open
+  updated: Fri, 3 Jan 2014 19:39:57 +1000
+issue_375:
+  id: 375
+  id_jira: 24894
+  key: GL-344
+  summary: ! 'Bug 1048138 - [SNAPSHOT]: gluster volume delete <snapvolume> should
+    have clear message to use "gluster snapshot delete"'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:36:21 +1000
+issue_376:
+  id: 376
+  id_jira: 23742
+  key: HSSOSAUTO-120
+  summary: Automate P6 Cases - Round 1 - pruan
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:35:27 +1000
+issue_377:
+  id: 377
+  id_jira: 23740
+  key: HSSOSAUTO-119
+  summary: Automate P6 Cases - Round 1 - cryan
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:35:22 +1000
+issue_378:
+  id: 378
+  id_jira: 23743
+  key: HSSOSAUTO-121
+  summary: Automate P6 Cases - Round 1 - ofayans
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:35:17 +1000
+issue_379:
+  id: 379
+  id_jira: 22428
+  key: ADMIN-167
+  summary: New Year holiday arrangement
+  status: Resolved
+  updated: Fri, 3 Jan 2014 19:25:30 +1000
+issue_380:
+  id: 380
+  id_jira: 11621
+  key: MAITAI-136
+  summary: ! 'RFE: Maitai should send reminders about pending tasks'
+  status: Resolved
+  updated: Fri, 3 Jan 2014 19:24:35 +1000
+issue_381:
+  id: 381
+  id_jira: 22207
+  key: ADMIN-164
+  summary: Training/Tuition summary report_Dec end 2013
+  status: In Progress
+  updated: Fri, 3 Jan 2014 19:23:07 +1000
+issue_382:
+  id: 382
+  id_jira: 24888
+  key: GL-343
+  summary: ! 'Bug 1048126 - [SNAPSHOT]: gluster snapshot delete with wrong options
+    gives usage but mentions command as gluster remove'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:22:24 +1000
+issue_383:
+  id: 383
+  id_jira: 24884
+  key: GL-342
+  summary: ! 'Bug 1048122 - [SNAPSHOT] : gluster snapshot delete doesnt provide option
+    to delete all / multiple snaps of a given volume'
+  status: To Do
+  updated: Fri, 3 Jan 2014 19:08:33 +1000
+issue_384:
+  id: 384
+  id_jira: 24232
+  key: HDS-509
+  summary: personal space
+  status: To Do
+  updated: Fri, 3 Jan 2014 18:24:38 +1000
+issue_385:
+  id: 385
+  id_jira: 24236
+  key: HDS-513
+  summary: ! 'Harvester API statistics '
+  status: To Do
+  updated: Fri, 3 Jan 2014 18:17:38 +1000
+issue_386:
+  id: 386
+  id_jira: 24519
+  key: MAITAI-1251
+  summary: Write arquillian test for search
+  status: Closed
+  updated: Fri, 3 Jan 2014 17:52:14 +1000
+issue_387:
+  id: 387
+  id_jira: 24518
+  key: MAITAI-1250
+  summary: Write selenium test for search
+  status: Closed
+  updated: Fri, 3 Jan 2014 17:52:07 +1000
+issue_388:
+  id: 388
+  id_jira: 24639
+  key: RHEVM-828
+  summary: ! 'TCMS: 3.4: Network Labels'
+  status: In Progress
+  updated: Fri, 3 Jan 2014 17:49:14 +1000
+issue_389:
+  id: 389
+  id_jira: 23483
+  key: REVOK-105
+  summary: Mojo release note
+  status: To Do
+  updated: Fri, 3 Jan 2014 17:41:43 +1000
+issue_390:
+  id: 390
+  id_jira: 24197
+  key: REVOK-115
+  summary: screenshot page UX improvement
+  status: In Progress
+  updated: Fri, 3 Jan 2014 17:40:55 +1000
+issue_391:
+  id: 391
+  id_jira: 23476
+  key: REVOK-100
+  summary: UI AJAX support
+  status: To Do
+  updated: Fri, 3 Jan 2014 17:39:44 +1000
+issue_392:
+  id: 392
+  id_jira: 22552
+  key: RT-269
+  summary: ! 'Deployment Request: RT-SC release stage and production'
+  status: Done
+  updated: Fri, 3 Jan 2014 17:39:06 +1000
+issue_393:
+  id: 393
+  id_jira: 24604
+  key: REVOK-126
+  summary: Add DVWA Sample report (link) to landing page
+  status: In Progress
+  updated: Fri, 3 Jan 2014 17:35:34 +1000
+issue_394:
+  id: 394
+  id_jira: 24795
+  key: HDS-529
+  summary: UI interaction implementation
+  status: To Do
+  updated: Fri, 3 Jan 2014 17:23:06 +1000
+issue_395:
+  id: 395
+  id_jira: 24796
+  key: HDS-530
+  summary: Back-end support
+  status: To Do
+  updated: Fri, 3 Jan 2014 17:22:41 +1000
+issue_396:
+  id: 396
+  id_jira: 24234
+  key: HDS-511
+  summary: Harvester dashboard
+  status: To Do
+  updated: Fri, 3 Jan 2014 17:06:27 +1000
+issue_397:
+  id: 397
+  id_jira: 24231
+  key: HDS-508
+  summary: Log in Harvester
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:59:49 +1000
+issue_398:
+  id: 398
+  id_jira: 24879
+  key: GL-341
+  summary: Bug 1047824 - [SNAPSHOT]:Listing a particular CG lists the snaps of other
+    CG's also
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:58:17 +1000
+issue_399:
+  id: 399
+  id_jira: 18707
+  key: HSSCOMFUNC-82
+  summary: Project Handover template
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:58:10 +1000
+issue_400:
+  id: 400
+  id_jira: 24877
+  key: HSSCOMFUNC-536
+  summary: CLONE - Rampdown handover collaboration
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:50 +1000
+issue_401:
+  id: 401
+  id_jira: 24876
+  key: HSSCOMFUNC-535
+  summary: CLONE - Joint operation
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:50 +1000
+issue_402:
+  id: 402
+  id_jira: 24878
+  key: HSSCOMFUNC-537
+  summary: CLONE - Handover completion
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:50 +1000
+issue_403:
+  id: 403
+  id_jira: 24872
+  key: HSSCOMFUNC-531
+  summary: CLONE - Analytics/usage monitoring
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:49 +1000
+issue_404:
+  id: 404
+  id_jira: 24871
+  key: HSSCOMFUNC-530
+  summary: CLONE - Disaster recover testing
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:49 +1000
+issue_405:
+  id: 405
+  id_jira: 24875
+  key: HSSCOMFUNC-534
+  summary: CLONE - Initiate handover/collaboration
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:49 +1000
+issue_406:
+  id: 406
+  id_jira: 24873
+  key: HSSCOMFUNC-532
+  summary: CLONE - Licensing details
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:49 +1000
+issue_407:
+  id: 407
+  id_jira: 24874
+  key: HSSCOMFUNC-533
+  summary: CLONE - System access level
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:49 +1000
+issue_408:
+  id: 408
+  id_jira: 24868
+  key: HSSCOMFUNC-527
+  summary: CLONE - Documentation in service catalog
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:48 +1000
+issue_409:
+  id: 409
+  id_jira: 24870
+  key: HSSCOMFUNC-529
+  summary: CLONE - Document backup and disaster recovery
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:48 +1000
+issue_410:
+  id: 410
+  id_jira: 24869
+  key: HSSCOMFUNC-528
+  summary: CLONE - Documentation of application administration
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:48 +1000
+issue_411:
+  id: 411
+  id_jira: 24867
+  key: HSSCOMFUNC-526
+  summary: CLONE - Logging
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:48 +1000
+issue_412:
+  id: 412
+  id_jira: 24864
+  key: HSSCOMFUNC-523
+  summary: CLONE - Deployment validation
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:47 +1000
+issue_413:
+  id: 413
+  id_jira: 24863
+  key: HSSCOMFUNC-522
+  summary: CLONE - Application deployment
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:47 +1000
+issue_414:
+  id: 414
+  id_jira: 24862
+  key: HSSCOMFUNC-521
+  summary: CLONE - Repository structure
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:47 +1000
+issue_415:
+  id: 415
+  id_jira: 24866
+  key: HSSCOMFUNC-525
+  summary: CLONE - Application monitoring
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:47 +1000
+issue_416:
+  id: 416
+  id_jira: 24865
+  key: HSSCOMFUNC-524
+  summary: CLONE - Enable backups
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:47 +1000
+issue_417:
+  id: 417
+  id_jira: 24860
+  key: HSSCOMFUNC-519
+  summary: CLONE - Instantiate hosting resource
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:46 +1000
+issue_418:
+  id: 418
+  id_jira: 24859
+  key: HSSCOMFUNC-518
+  summary: CLONE - Hosting resource configuration management
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:46 +1000
+issue_419:
+  id: 419
+  id_jira: 24861
+  key: HSSCOMFUNC-520
+  summary: CLONE - Application configuration management
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:46 +1000
+issue_420:
+  id: 420
+  id_jira: 24858
+  key: HSSCOMFUNC-517
+  summary: CLONE - Identify hosting resource
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:46 +1000
+issue_421:
+  id: 421
+  id_jira: 24857
+  key: HSSCOMFUNC-516
+  summary: CLONE - Define host resource requirements
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:45 +1000
+issue_422:
+  id: 422
+  id_jira: 24856
+  key: HSSCOMFUNC-515
+  summary: Cantas - Project Handover
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:57:45 +1000
+issue_423:
+  id: 423
+  id_jira: 24854
+  key: HSSCOMFUNC-513
+  summary: CLONE - Rampdown handover collaboration
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:58 +1000
+issue_424:
+  id: 424
+  id_jira: 24853
+  key: HSSCOMFUNC-512
+  summary: CLONE - Joint operation
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:58 +1000
+issue_425:
+  id: 425
+  id_jira: 24855
+  key: HSSCOMFUNC-514
+  summary: CLONE - Handover completion
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:58 +1000
+issue_426:
+  id: 426
+  id_jira: 24850
+  key: HSSCOMFUNC-509
+  summary: CLONE - Licensing details
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:57 +1000
+issue_427:
+  id: 427
+  id_jira: 24849
+  key: HSSCOMFUNC-508
+  summary: CLONE - Analytics/usage monitoring
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:57 +1000
+issue_428:
+  id: 428
+  id_jira: 24851
+  key: HSSCOMFUNC-510
+  summary: CLONE - System access level
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:57 +1000
+issue_429:
+  id: 429
+  id_jira: 24852
+  key: HSSCOMFUNC-511
+  summary: CLONE - Initiate handover/collaboration
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:57 +1000
+issue_430:
+  id: 430
+  id_jira: 24845
+  key: HSSCOMFUNC-504
+  summary: CLONE - Documentation in service catalog
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:56 +1000
+issue_431:
+  id: 431
+  id_jira: 24844
+  key: HSSCOMFUNC-503
+  summary: CLONE - Logging
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:56 +1000
+issue_432:
+  id: 432
+  id_jira: 24847
+  key: HSSCOMFUNC-506
+  summary: CLONE - Document backup and disaster recovery
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:56 +1000
+issue_433:
+  id: 433
+  id_jira: 24848
+  key: HSSCOMFUNC-507
+  summary: CLONE - Disaster recover testing
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:56 +1000
+issue_434:
+  id: 434
+  id_jira: 24846
+  key: HSSCOMFUNC-505
+  summary: CLONE - Documentation of application administration
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:56 +1000
+issue_435:
+  id: 435
+  id_jira: 24841
+  key: HSSCOMFUNC-500
+  summary: CLONE - Deployment validation
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:55 +1000
+issue_436:
+  id: 436
+  id_jira: 24840
+  key: HSSCOMFUNC-499
+  summary: CLONE - Application deployment
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:55 +1000
+issue_437:
+  id: 437
+  id_jira: 24839
+  key: HSSCOMFUNC-498
+  summary: CLONE - Repository structure
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:55 +1000
+issue_438:
+  id: 438
+  id_jira: 24843
+  key: HSSCOMFUNC-502
+  summary: CLONE - Application monitoring
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:55 +1000
+issue_439:
+  id: 439
+  id_jira: 24842
+  key: HSSCOMFUNC-501
+  summary: CLONE - Enable backups
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:55 +1000
+issue_440:
+  id: 440
+  id_jira: 24837
+  key: HSSCOMFUNC-496
+  summary: CLONE - Instantiate hosting resource
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:54 +1000
+issue_441:
+  id: 441
+  id_jira: 24836
+  key: HSSCOMFUNC-495
+  summary: CLONE - Hosting resource configuration management
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:54 +1000
+issue_442:
+  id: 442
+  id_jira: 24835
+  key: HSSCOMFUNC-494
+  summary: CLONE - Identify hosting resource
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:54 +1000
+issue_443:
+  id: 443
+  id_jira: 24838
+  key: HSSCOMFUNC-497
+  summary: CLONE - Application configuration management
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:54 +1000
+issue_444:
+  id: 444
+  id_jira: 24834
+  key: HSSCOMFUNC-493
+  summary: CLONE - Define host resource requirements
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:53 +1000
+issue_445:
+  id: 445
+  id_jira: 24833
+  key: HSSCOMFUNC-492
+  summary: Treasury - Project Handover
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:56:53 +1000
+issue_446:
+  id: 446
+  id_jira: 24832
+  key: GL-340
+  summary: ! 'Bug 1047502 - [SNAPSHOT]: Restaring glusterd and listing CG resulted
+    in glusterd crash'
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:55:45 +1000
+issue_447:
+  id: 447
+  id_jira: 22688
+  key: HSSAR-20
+  summary: Finalize Prototype Architecture
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:52:08 +1000
+issue_448:
+  id: 448
+  id_jira: 22748
+  key: DROP-62
+  summary: Dropbear setup with all the required components complete
+  status: Open
+  updated: Fri, 3 Jan 2014 16:52:08 +1000
+issue_449:
+  id: 449
+  id_jira: 22551
+  key: DROP-61
+  summary: Hardware & lab setup complete
+  status: Open
+  updated: Fri, 3 Jan 2014 16:52:08 +1000
+issue_450:
+  id: 450
+  id_jira: 22218
+  key: HSSAR-1
+  summary: Final handoff to Architecture Review Board (ARB)
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:52:08 +1000
+issue_451:
+  id: 451
+  id_jira: 24385
+  key: HSSBCP-68
+  summary: Project initiation complete
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:52:08 +1000
+issue_452:
+  id: 452
+  id_jira: 24305
+  key: RHS-279
+  summary: Bug 916857 - Open, Inodelk fops referring to null gfid and null path
+  status: Done
+  updated: Fri, 3 Jan 2014 16:46:52 +1000
+issue_453:
+  id: 453
+  id_jira: 24830
+  key: RHS-322
+  summary: ! 'Re-Verification of the bug '
+  status: Done
+  updated: Fri, 3 Jan 2014 16:46:44 +1000
+issue_454:
+  id: 454
+  id_jira: 17937
+  key: MAITAI-816
+  summary: Correct validation error message location on radio
+  status: Resolved
+  updated: Fri, 3 Jan 2014 16:42:40 +1000
+issue_455:
+  id: 455
+  id_jira: 24443
+  key: HSSCOMFUNC-440
+  summary: Vault - Disaster recover testing
+  status: Done
+  updated: Fri, 3 Jan 2014 16:31:06 +1000
+issue_456:
+  id: 456
+  id_jira: 24827
+  key: HDS-543
+  summary: DOC update
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:20:18 +1000
+issue_457:
+  id: 457
+  id_jira: 24826
+  key: HDS-542
+  summary: client pages adjustment  --   token supported calling
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:19:14 +1000
+issue_458:
+  id: 458
+  id_jira: 24824
+  key: HDS-541
+  summary: API adjustment (parameter changes, call record changes, token<-->user matching)
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:17:44 +1000
+issue_459:
+  id: 459
+  id_jira: 24823
+  key: HDS-540
+  summary: token expiration mechanism
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:12:10 +1000
+issue_460:
+  id: 460
+  id_jira: 24820
+  key: HDS-539
+  summary: token generation & store & update
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:10:51 +1000
+issue_461:
+  id: 461
+  id_jira: 24802
+  key: HDS-536
+  summary: ! '[API] API authentication mechanism'
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:10:38 +1000
+issue_462:
+  id: 462
+  id_jira: 24817
+  key: HDS-538
+  summary: Token fetch mechanism
+  status: To Do
+  updated: Fri, 3 Jan 2014 16:02:34 +1000
+issue_463:
+  id: 463
+  id_jira: 24815
+  key: HDS-537
+  summary: DB design
+  status: To Do
+  updated: Fri, 3 Jan 2014 15:59:11 +1000
+issue_464:
+  id: 464
+  id_jira: 24781
+  key: REVOK-136
+  summary: update Revok roadmap
+  status: Done
+  updated: Fri, 3 Jan 2014 15:57:18 +1000
+issue_465:
+  id: 465
+  id_jira: 24233
+  key: HDS-510
+  summary: Favorite API
+  status: To Do
+  updated: Fri, 3 Jan 2014 15:57:05 +1000
+issue_466:
+  id: 466
+  id_jira: 23974
+  key: HSSNAYENG-45
+  summary: ! '[Individual] page ,static page --> jsp integration , auth ,js ,css . '
+  status: In Progress
+  updated: Fri, 3 Jan 2014 15:51:17 +1000
+issue_467:
+  id: 467
+  id_jira: 23956
+  key: HSSNAYENG-39
+  summary: ! '[Individual] : page ,static page  -- coding'
+  status: Done
+  updated: Fri, 3 Jan 2014 15:51:07 +1000
+issue_468:
+  id: 468
+  id_jira: 23967
+  key: HSSNAYENG-42
+  summary: ! '[Team] page : Code Commit -- render and organize'
+  status: Done
+  updated: Fri, 3 Jan 2014 15:50:57 +1000
+issue_469:
+  id: 469
+  id_jira: 22594
+  key: RR-162
+  summary: Pulp specific work that is required for RHEL7 readiness
+  status: To Do
+  updated: Fri, 3 Jan 2014 15:50:31 +1000
+issue_470:
+  id: 470
+  id_jira: 24626
+  key: UCD-133
+  summary: HSS Poster on the office wall
+  status: Open
+  updated: Fri, 3 Jan 2014 15:31:56 +1000
+issue_471:
+  id: 471
+  id_jira: 24775
+  key: HDS-525
+  summary: Login function with kerberos implementation
+  status: To Do
+  updated: Fri, 3 Jan 2014 15:24:24 +1000
+issue_472:
+  id: 472
+  id_jira: 23829
+  key: HDS-498
+  summary: ! '[API] Research on Teiid API development process'
+  status: In Progress
+  updated: Fri, 3 Jan 2014 15:18:11 +1000
+issue_473:
+  id: 473
+  id_jira: 24797
+  key: HDS-531
+  summary: UI front-end design & prototype
+  status: To Do
+  updated: Fri, 3 Jan 2014 15:15:16 +1000
+issue_474:
+  id: 474
+  id_jira: 24794
+  key: HDS-528
+  summary: UI page design & prototype
+  status: To Do
+  updated: Fri, 3 Jan 2014 15:12:48 +1000
+issue_475:
+  id: 475
+  id_jira: 24773
+  key: HSSGALL-29
+  summary: modify  trello token
+  status: To Do
+  updated: Fri, 3 Jan 2014 15:09:42 +1000
+issue_476:
+  id: 476
+  id_jira: 19018
+  key: MAITAI-953
+  summary: Display the list of permissions requested
+  status: Open
+  updated: Fri, 3 Jan 2014 14:53:10 +1000
+issue_477:
+  id: 477
+  id_jira: 24792
+  key: HDS-527
+  summary: client page login function updates
+  status: To Do
+  updated: Fri, 3 Jan 2014 14:38:59 +1000
+issue_478:
+  id: 478
+  id_jira: 24776
+  key: HDS-526
+  summary: UI space page prototype
+  status: To Do
+  updated: Fri, 3 Jan 2014 14:37:14 +1000
+issue_479:
+  id: 479
+  id_jira: 24774
+  key: HDS-524
+  summary: UI login & homepage prototype
+  status: To Do
+  updated: Fri, 3 Jan 2014 14:36:58 +1000
+issue_480:
+  id: 480
+  id_jira: 24791
+  key: HSP-65
+  summary: A0 Displays for HSS BNE and NAY offices
+  status: Backlog
+  updated: Fri, 3 Jan 2014 14:12:07 +1000
+issue_481:
+  id: 481
+  id_jira: 24343
+  key: MAITAI-1208
+  summary: ! 'Maitai 2.0x support readiness '
+  status: Open
+  updated: Fri, 3 Jan 2014 13:56:37 +1000
+issue_482:
+  id: 482
+  id_jira: 24348
+  key: MAITAI-1210
+  summary: Maitai 2.0System Admin Support Guide ready And FLS get Trained
+  status: Open
+  updated: Fri, 3 Jan 2014 13:56:05 +1000
+issue_483:
+  id: 483
+  id_jira: 24790
+  key: MAITAI-1271
+  summary: FLS Readnidess support on Maitai Project
+  status: Open
+  updated: Fri, 3 Jan 2014 13:56:05 +1000
+issue_484:
+  id: 484
+  id_jira: 24314
+  key: MAITAI-1192
+  summary: ! 'FLS support '
+  status: Open
+  updated: Fri, 3 Jan 2014 13:56:05 +1000
+issue_485:
+  id: 485
+  id_jira: 23390
+  key: REVOK-94
+  summary: Jan. 7 release readiness
+  status: To Do
+  updated: Fri, 3 Jan 2014 13:15:56 +1000
+issue_486:
+  id: 486
+  id_jira: 24106
+  key: MAITAI-1186
+  summary: Maitai 2.0 Project kick off
+  status: Resolved
+  updated: Fri, 3 Jan 2014 13:13:20 +1000
+issue_487:
+  id: 487
+  id_jira: 24696
+  key: HDS-522
+  summary: Add Harvester in Piwik
+  status: To Do
+  updated: Fri, 3 Jan 2014 13:04:35 +1000
+issue_488:
+  id: 488
+  id_jira: 24147
+  key: MAITAI-1187
+  summary: Reorder Package Request for RHEL 7 tasks - bug fix
+  status: Resolved
+  updated: Fri, 3 Jan 2014 12:25:12 +1000
+issue_489:
+  id: 489
+  id_jira: 24738
+  key: REVOK-131
+  summary: prompt for complete URL on  target URL input box
+  status: In Progress
+  updated: Fri, 3 Jan 2014 11:41:51 +1000
+issue_490:
+  id: 490
+  id_jira: 24769
+  key: RR-188
+  summary: Second-Phase TPS Ready
+  status: To Do
+  updated: Fri, 3 Jan 2014 10:48:14 +1000
+issue_491:
+  id: 491
+  id_jira: 22595
+  key: RR-163
+  summary: TPS specific work that is required for RHEL7 readiness
+  status: To Do
+  updated: Fri, 3 Jan 2014 10:44:54 +1000
+issue_492:
+  id: 492
+  id_jira: 19806
+  key: MAITAI-1003
+  summary: Request for drool flowchart from the RHEL7 Package List Process
+  status: Resolved
+  updated: Fri, 3 Jan 2014 10:44:40 +1000
+issue_493:
+  id: 493
+  id_jira: 24768
+  key: RR-187
+  summary: First-Phase TPS Testing Ready
+  status: To Do
+  updated: Fri, 3 Jan 2014 10:34:30 +1000
+issue_494:
+  id: 494
+  id_jira: 17875
+  key: MAITAI-810
+  summary: Response time of Inputting Potiential Owner is more than 5 seconds
+  status: Open
+  updated: Fri, 3 Jan 2014 09:40:35 +1000
+issue_495:
+  id: 495
+  id_jira: 20738
+  key: MAITAI-1079
+  summary: Video on Maitai FLS Process
+  status: Open
+  updated: Fri, 3 Jan 2014 09:40:35 +1000
+issue_496:
+  id: 496
+  id_jira: 19805
+  key: MAITAI-1002
+  summary: PR/PO Process
+  status: Open
+  updated: Fri, 3 Jan 2014 09:40:35 +1000
+issue_497:
+  id: 497
+  id_jira: 22653
+  key: MAITAI-1143
+  summary: Process image doesn't fit the browser windows at low resolution
+  status: Open
+  updated: Fri, 3 Jan 2014 09:40:35 +1000
+issue_498:
+  id: 498
+  id_jira: 22706
+  key: MAITAI-1147
+  summary: ! 'Package Request for RHEL: Remind at Processes tab level'
+  status: Open
+  updated: Fri, 3 Jan 2014 09:40:35 +1000
+issue_499:
+  id: 499
+  id_jira: 20892
+  key: MAITAI-1086
+  summary: Multiple known-vulnerable components detected in Maitai
+  status: Open
+  updated: Fri, 3 Jan 2014 09:40:35 +1000
+issue_500:
+  id: 500
+  id_jira: 17874
+  key: MAITAI-809
+  summary: RHEL7 process instances can't move forward to next task anymore
+  status: Open
+  updated: Fri, 3 Jan 2014 09:40:35 +1000
+issue_501:
+  id: 501
+  id_jira: 20743
+  key: MAITAI-1080
+  summary: Fill in baseline data capture
+  status: Open
+  updated: Fri, 3 Jan 2014 09:40:34 +1000
+issue_502:
+  id: 502
+  id_jira: 22642
+  key: ENGRDOCICD-54
+  summary: fix upstream tempest puppet modules to correctly configure tempest conf
+  status: To Do
+  updated: Fri, 3 Jan 2014 09:39:29 +1000
+issue_503:
+  id: 503
+  id_jira: 19019
+  key: MAITAI-954
+  summary: Evaluate group permissions based on OrgChart
+  status: Open
+  updated: Fri, 3 Jan 2014 09:29:24 +1000
+issue_504:
+  id: 504
+  id_jira: 24763
+  key: ENGRDOCICD-112
+  summary: ! 'Test-Day: RHEL 7 AIO Neutron Icehouse'
+  status: Done
+  updated: Fri, 3 Jan 2014 05:20:56 +1000
+issue_505:
+  id: 505
+  id_jira: 22628
+  key: RCMPROJ-212
+  summary: Refresh pykickstart on Image Builders
+  status: To Do
+  updated: Fri, 3 Jan 2014 03:50:14 +1000
+issue_506:
+  id: 506
+  id_jira: 22626
+  key: RCMPROJ-211
+  summary: Unbootable Guests with Some kickstart commands
+  status: To Do
+  updated: Fri, 3 Jan 2014 03:50:07 +1000
+issue_507:
+  id: 507
+  id_jira: 17519
+  key: RCMPROJ-6
+  summary: Support Modification of Libvirt XML
+  status: To Do
+  updated: Fri, 3 Jan 2014 03:49:51 +1000
+issue_508:
+  id: 508
+  id_jira: 22685
+  key: RCMPROJ-216
+  summary: GPG Key Virtual RPMs break Brew
+  status: In Progress
+  updated: Fri, 3 Jan 2014 03:49:19 +1000
+issue_509:
+  id: 509
+  id_jira: 19506
+  key: RCMPROJ-40
+  summary: Integrate EC2 Plugin with Brew
+  status: In Progress
+  updated: Fri, 3 Jan 2014 03:48:56 +1000
+issue_510:
+  id: 510
+  id_jira: 24023
+  key: RCMCLOUD-180
+  summary: Release RHOS 4.0
+  status: Done
+  updated: Fri, 3 Jan 2014 03:17:09 +1000
+issue_511:
+  id: 511
+  id_jira: 22499
+  key: RCMCLOUD-157
+  summary: Push CFME 5.2.1 GA Content
+  status: To Do
+  updated: Fri, 3 Jan 2014 03:16:18 +1000
+issue_512:
+  id: 512
+  id_jira: 24765
+  key: ENGRDOCICD-114
+  summary: ! 'Test-Day: RHEL 6.5 Base Foreman Icehouse'
+  status: To Do
+  updated: Fri, 3 Jan 2014 02:32:33 +1000
+issue_513:
+  id: 513
+  id_jira: 24714
+  key: RHEVM-845
+  summary: JAVA SDK backend - add support for  VMCdRom.update() method with 'current'
+    parameter
+  status: Resolved
+  updated: Fri, 3 Jan 2014 02:26:45 +1000
+issue_514:
+  id: 514
+  id_jira: 18492
+  key: RHEVM-536
+  summary: ! 'ART: Working on RT*2'
+  status: Resolved
+  updated: Fri, 3 Jan 2014 00:48:59 +1000
+issue_515:
+  id: 515
+  id_jira: 20194
+  key: RHEVM-672
+  summary: Hosts Resources Dynamic Allocation
+  status: In Progress
+  updated: Fri, 3 Jan 2014 00:48:38 +1000
+issue_516:
+  id: 516
+  id_jira: 18617
+  key: RHEVM-552
+  summary: It takes about 10 minutes for test to proceed in clean up setup phase if
+    the copy of the logs fail
+  status: Resolved
+  updated: Fri, 3 Jan 2014 00:47:23 +1000
+issue_517:
+  id: 517
+  id_jira: 24740
+  key: RHEVM-847
+  summary: ! 'TCMS: 3.4: Virtual pxe boots out of order RHEV orders the NICs according
+    to the MAC addresses'
+  status: In Progress
+  updated: Fri, 3 Jan 2014 00:46:42 +1000
+issue_518:
+  id: 518
+  id_jira: 24638
+  key: RHEVM-827
+  summary: ! 'TCMS: 3.4:  Neutron integration'
+  status: In Progress
+  updated: Fri, 3 Jan 2014 00:46:14 +1000
+issue_519:
+  id: 519
+  id_jira: 24685
+  key: RHEVM-841
+  summary: add support for getter that returns string instead of boolean
+  status: Resolved
+  updated: Fri, 3 Jan 2014 00:46:01 +1000
+issue_520:
+  id: 520
+  id_jira: 24684
+  key: RHEVM-840
+  summary: ! 'Add message that describes assertionError '
+  status: Resolved
+  updated: Fri, 3 Jan 2014 00:45:38 +1000
+issue_521:
+  id: 521
+  id_jira: 24642
+  key: RHEVM-831
+  summary: ! 'TCMS: 3.4: MultiHostNetworkConfiguration'
+  status: In Progress
+  updated: Fri, 3 Jan 2014 00:45:15 +1000
+issue_522:
+  id: 522
+  id_jira: 24750
+  key: GL-339
+  summary: Bug - 1043792 snapshot create without snap name shows ??? in the returned
+    output
+  status: In Progress
+  updated: Thu, 2 Jan 2014 23:53:14 +1000
+issue_523:
+  id: 523
+  id_jira: 24711
+  key: RHEVM-844
+  summary: cli acton command validation issues
+  status: Blocked
+  updated: Thu, 2 Jan 2014 23:36:53 +1000
+issue_524:
+  id: 524
+  id_jira: 24078
+  key: RHEVM-812
+  summary: Get our infrastructure documented
+  status: Open
+  updated: Thu, 2 Jan 2014 23:34:46 +1000
+issue_525:
+  id: 525
+  id_jira: 22746
+  key: RHEVM-794
+  summary: execute https://tcms.engineering.redhat.com/run/78107/
+  status: Resolved
+  updated: Thu, 2 Jan 2014 23:28:14 +1000
+issue_526:
+  id: 526
+  id_jira: 20470
+  key: RHEVM-712
+  summary: Hotplug full test plan
+  status: In Progress
+  updated: Thu, 2 Jan 2014 22:36:23 +1000
+issue_527:
+  id: 527
+  id_jira: 24760
+  key: RHOS-529
+  summary: Ability to run tempest on setup with ML2/GRE/VLAN/VXLAN
+  status: Open
+  updated: Thu, 2 Jan 2014 22:30:18 +1000
+issue_528:
+  id: 528
+  id_jira: 18463
+  key: RHOS-383
+  summary: Learn VPNaaS feature & Run - RFE - VPNaaS  test plan
+  status: In Progress
+  updated: Thu, 2 Jan 2014 22:22:50 +1000
+issue_529:
+  id: 529
+  id_jira: 17695
+  key: RHOS-314
+  summary: Run - RFE - ML port binding - 988432
+  status: Resolved
+  updated: Thu, 2 Jan 2014 22:21:31 +1000
+issue_530:
+  id: 530
+  id_jira: 24339
+  key: RHS-291
+  summary: Verify bug 1024313
+  status: Done
+  updated: Thu, 2 Jan 2014 22:17:45 +1000
+issue_531:
+  id: 531
+  id_jira: 24676
+  key: RHEVM-836
+  summary: ! '[job_runner] Host cleanup should also free sanlock locks on 3.4'
+  status: Open
+  updated: Thu, 2 Jan 2014 21:42:31 +1000
+issue_532:
+  id: 532
+  id_jira: 24758
+  key: RHEVM-856
+  summary: 3.4 features - Support for 4 connections iSCSI Multipathing (https://bugzilla.redhat.com/show_bug.cgi?id=953343)
+  status: Open
+  updated: Thu, 2 Jan 2014 21:39:51 +1000
+issue_533:
+  id: 533
+  id_jira: 17696
+  key: RHOS-315
+  summary: Learn ML2 feature and review test plans
+  status: In Progress
+  updated: Thu, 2 Jan 2014 21:29:00 +1000
+issue_534:
+  id: 534
+  id_jira: 24445
+  key: HSSCOMFUNC-442
+  summary: Vault - Licensing details
+  status: Done
+  updated: Thu, 2 Jan 2014 20:51:21 +1000
+issue_535:
+  id: 535
+  id_jira: 24446
+  key: HSSCOMFUNC-443
+  summary: Vault - System access level
+  status: Done
+  updated: Thu, 2 Jan 2014 20:50:32 +1000
+issue_536:
+  id: 536
+  id_jira: 20886
+  key: RHOS-500
+  summary: Deploy System with Foreman
+  status: In Progress
+  updated: Thu, 2 Jan 2014 20:49:23 +1000
+issue_537:
+  id: 537
+  id_jira: 24444
+  key: HSSCOMFUNC-441
+  summary: Vault - Analytics/usage monitoring
+  status: Done
+  updated: Thu, 2 Jan 2014 20:48:41 +1000
+issue_538:
+  id: 538
+  id_jira: 24442
+  key: HSSCOMFUNC-439
+  summary: Vault - Document backup and disaster recovery
+  status: Done
+  updated: Thu, 2 Jan 2014 20:36:05 +1000
+issue_539:
+  id: 539
+  id_jira: 24441
+  key: HSSCOMFUNC-438
+  summary: Vault - Documentation of application administration
+  status: Done
+  updated: Thu, 2 Jan 2014 20:32:36 +1000
+issue_540:
+  id: 540
+  id_jira: 24440
+  key: HSSCOMFUNC-437
+  summary: Vault - Documentation in service catalog
+  status: Done
+  updated: Thu, 2 Jan 2014 20:30:41 +1000
+issue_541:
+  id: 541
+  id_jira: 23486
+  key: REVOK-106
+  summary: Compare results with Arachni and provide feedback
+  status: In Progress
+  updated: Thu, 2 Jan 2014 20:19:45 +1000
+issue_542:
+  id: 542
+  id_jira: 24196
+  key: REVOK-114
+  summary: Promotion check list
+  status: Done
+  updated: Thu, 2 Jan 2014 20:06:18 +1000
+issue_543:
+  id: 543
+  id_jira: 24439
+  key: HSSCOMFUNC-436
+  summary: Vault - Logging
+  status: Done
+  updated: Thu, 2 Jan 2014 20:03:18 +1000
+issue_544:
+  id: 544
+  id_jira: 23835
+  key: CON-827
+  summary: Modify Conflux eng-ops KPI staging layer job for teiid8.5 env
+  status: Resolved
+  updated: Thu, 2 Jan 2014 20:03:05 +1000
+issue_545:
+  id: 545
+  id_jira: 18218
+  key: RHOS-372
+  summary: Create test plan - RFE -  bandwidth  test plan  - two RFEs
+  status: Resolved
+  updated: Thu, 2 Jan 2014 20:00:57 +1000
+issue_546:
+  id: 546
+  id_jira: 17808
+  key: RHOS-334
+  summary: Verify assgined BUGs
+  status: Resolved
+  updated: Thu, 2 Jan 2014 20:00:36 +1000
+issue_547:
+  id: 547
+  id_jira: 18462
+  key: RHOS-382
+  summary: Create test plan - RFE -  VPNaaS
+  status: Resolved
+  updated: Thu, 2 Jan 2014 19:59:57 +1000
+issue_548:
+  id: 548
+  id_jira: 24438
+  key: HSSCOMFUNC-435
+  summary: Vault - Application monitoring
+  status: Done
+  updated: Thu, 2 Jan 2014 19:58:58 +1000
+issue_549:
+  id: 549
+  id_jira: 24698
+  key: HSSCOMFUNC-487
+  summary: pen-test against SAM on RHEL 7 beta
+  status: To Do
+  updated: Thu, 2 Jan 2014 19:28:13 +1000
+issue_550:
+  id: 550
+  id_jira: 24610
+  key: GL-322
+  summary: Bug - 1043862
+  status: In Progress
+  updated: Thu, 2 Jan 2014 19:01:34 +1000
+issue_551:
+  id: 551
+  id_jira: 24300
+  key: RHS-274
+  summary: Bug 924048 - improvement in log message for self-heal failure on file/dir
+    in fuse mount logs
+  status: In Progress
+  updated: Thu, 2 Jan 2014 18:47:42 +1000
+issue_552:
+  id: 552
+  id_jira: 24746
+  key: REVOK-132
+  summary: session fixation is better to have exception capture
+  status: To Do
+  updated: Thu, 2 Jan 2014 17:39:49 +1000
+issue_553:
+  id: 553
+  id_jira: 23805
+  key: ADMIN-177
+  summary: Uperform Free 2 Opportunities
+  status: In Progress
+  updated: Thu, 2 Jan 2014 17:31:18 +1000
+issue_554:
+  id: 554
+  id_jira: 24745
+  key: RHEVM-852
+  summary: ! 'RFE 3.4: Single disk snapshot'
+  status: Open
+  updated: Thu, 2 Jan 2014 17:31:09 +1000
+issue_555:
+  id: 555
+  id_jira: 24437
+  key: HSSCOMFUNC-434
+  summary: Vault - Enable backups
+  status: Done
+  updated: Thu, 2 Jan 2014 17:30:27 +1000
+issue_556:
+  id: 556
+  id_jira: 24744
+  key: RHEVM-851
+  summary: ! 'RFE 3.4: API to save OVF on any location (storage domain)'
+  status: Open
+  updated: Thu, 2 Jan 2014 17:30:20 +1000
+issue_557:
+  id: 557
+  id_jira: 24743
+  key: RHEVM-850
+  summary: ! 'RFE 3.4: Single disk snapshot'
+  status: Open
+  updated: Thu, 2 Jan 2014 17:26:52 +1000
+issue_558:
+  id: 558
+  id_jira: 24742
+  key: RHEVM-849
+  summary: ! 'RFE 3.4: Read only disks'
+  status: Open
+  updated: Thu, 2 Jan 2014 17:25:38 +1000
+issue_559:
+  id: 559
+  id_jira: 24480
+  key: MAITAI-1234
+  summary: Kerberos Integration
+  status: Resolved
+  updated: Thu, 2 Jan 2014 17:23:09 +1000
+issue_560:
+  id: 560
+  id_jira: 24263
+  key: RT-287
+  summary: Release Announcement Ready
+  status: Done
+  updated: Thu, 2 Jan 2014 17:22:32 +1000
+issue_561:
+  id: 561
+  id_jira: 24436
+  key: HSSCOMFUNC-433
+  summary: Vault - Deployment validation
+  status: Done
+  updated: Thu, 2 Jan 2014 17:22:01 +1000
+issue_562:
+  id: 562
+  id_jira: 24482
+  key: MAITAI-1236
+  summary: rpm packaging
+  status: In Progress
+  updated: Thu, 2 Jan 2014 17:20:08 +1000
+issue_563:
+  id: 563
+  id_jira: 24739
+  key: RHEVM-846
+  summary: ! 'TCMS: 3.4: Create test plan for MISC features'
+  status: In Progress
+  updated: Thu, 2 Jan 2014 17:11:31 +1000
+issue_564:
+  id: 564
+  id_jira: 24741
+  key: RHEVM-848
+  summary: ! 'Automation: [REST-API]: add /networks sub-collection under /datacenters/xxx'
+  status: Open
+  updated: Thu, 2 Jan 2014 17:11:01 +1000
+issue_565:
+  id: 565
+  id_jira: 19462
+  key: HSSCNPI-55
+  summary: Create git repo and give jianli permission to that repo
+  status: Done
+  updated: Thu, 2 Jan 2014 17:09:36 +1000
+issue_566:
+  id: 566
+  id_jira: 24736
+  key: REVOK-130
+  summary: User interface and user experience improvement
+  status: To Do
+  updated: Thu, 2 Jan 2014 17:06:50 +1000
+issue_567:
+  id: 567
+  id_jira: 24735
+  key: REVOK-129
+  summary: ! 'screenshot improvement research: resolution'
+  status: To Do
+  updated: Thu, 2 Jan 2014 17:06:10 +1000
+issue_568:
+  id: 568
+  id_jira: 24435
+  key: HSSCOMFUNC-432
+  summary: Vault - Application deployment
+  status: Done
+  updated: Thu, 2 Jan 2014 17:04:33 +1000
+issue_569:
+  id: 569
+  id_jira: 24737
+  key: HSSCNPI-66
+  summary: Replace all print statement with django's logging mechanism
+  status: To Do
+  updated: Thu, 2 Jan 2014 17:03:49 +1000
+issue_570:
+  id: 570
+  id_jira: 24434
+  key: HSSCOMFUNC-431
+  summary: Vault - Repository structure
+  status: Done
+  updated: Thu, 2 Jan 2014 17:01:21 +1000
+issue_571:
+  id: 571
+  id_jira: 24433
+  key: HSSCOMFUNC-430
+  summary: Vault - Application configuration management
+  status: Done
+  updated: Thu, 2 Jan 2014 17:00:05 +1000
+issue_572:
+  id: 572
+  id_jira: 24432
+  key: HSSCOMFUNC-429
+  summary: Vault - Instantiate hosting resource
+  status: Done
+  updated: Thu, 2 Jan 2014 16:51:12 +1000
+issue_573:
+  id: 573
+  id_jira: 24431
+  key: HSSCOMFUNC-428
+  summary: Vault - Hosting resource configuration management
+  status: Done
+  updated: Thu, 2 Jan 2014 16:50:23 +1000
+issue_574:
+  id: 574
+  id_jira: 24187
+  key: MAITAI-1188
+  summary: add url in dot "notify manager to introduce new hire to daily work"
+  status: Resolved
+  updated: Thu, 2 Jan 2014 16:48:11 +1000
+issue_575:
+  id: 575
+  id_jira: 20643
+  key: MAITAI-1074
+  summary: ! 'RFE: Add a node on HSS New Hire Process to do the survey for new hire
+    guide'
+  status: Resolved
+  updated: Thu, 2 Jan 2014 16:47:59 +1000
+issue_576:
+  id: 576
+  id_jira: 24430
+  key: HSSCOMFUNC-427
+  summary: Vault - Identify hosting resource
+  status: Done
+  updated: Thu, 2 Jan 2014 16:47:43 +1000
+issue_577:
+  id: 577
+  id_jira: 24429
+  key: HSSCOMFUNC-426
+  summary: Vault - Define host resource requirements
+  status: Done
+  updated: Thu, 2 Jan 2014 16:47:27 +1000
+issue_578:
+  id: 578
+  id_jira: 23972
+  key: HSSNAYENG-44
+  summary: ! '[Team] page ,static page --> jsp integration , auth ,js ,css . '
+  status: Done
+  updated: Thu, 2 Jan 2014 16:37:20 +1000
+issue_579:
+  id: 579
+  id_jira: 24690
+  key: HSSNAYENG-56
+  summary: Find a js lib for Team/Personal page
+  status: Done
+  updated: Thu, 2 Jan 2014 16:36:43 +1000
+issue_580:
+  id: 580
+  id_jira: 24734
+  key: GL-338
+  summary: ! '[Bug: 1038921] snapshot create command fails when a decimal is used
+    in the snap name but the snap is mounted after the command fails'
+  status: To Do
+  updated: Thu, 2 Jan 2014 16:24:40 +1000
+issue_581:
+  id: 581
+  id_jira: 24190
+  key: HDS-507
+  summary: Harvester client page improvement research
+  status: In Progress
+  updated: Thu, 2 Jan 2014 16:12:27 +1000
+issue_582:
+  id: 582
+  id_jira: 24189
+  key: HDS-506
+  summary: Harvester homepage improvement mockup
+  status: In Progress
+  updated: Thu, 2 Jan 2014 16:12:27 +1000
+issue_583:
+  id: 583
+  id_jira: 24274
+  key: HDS-515
+  summary: ! 'Harvester 2.01  developer guide and mrd review '
+  status: To Do
+  updated: Thu, 2 Jan 2014 16:12:26 +1000
+issue_584:
+  id: 584
+  id_jira: 19343
+  key: HDS-349
+  summary: ! "Bug1026046 \t[Bugoperation] API return data is wrong by special diff
+    date "
+  status: To Do
+  updated: Thu, 2 Jan 2014 16:12:26 +1000
+issue_585:
+  id: 585
+  id_jira: 24483
+  key: MAITAI-1237
+  summary: Help UX to set up devel env
+  status: Resolved
+  updated: Thu, 2 Jan 2014 16:10:48 +1000
+issue_586:
+  id: 586
+  id_jira: 24428
+  key: HSSCOMFUNC-425
+  summary: Vault - Project Handover
+  status: To Do
+  updated: Thu, 2 Jan 2014 16:06:01 +1000
+issue_587:
+  id: 587
+  id_jira: 24664
+  key: RHS-320
+  summary: Reproduce the bug
+  status: In Progress
+  updated: Thu, 2 Jan 2014 14:31:47 +1000
+issue_588:
+  id: 588
+  id_jira: 16789
+  key: ADMIN-94
+  summary: Maintain Training Part on Confluence
+  status: In Progress
+  updated: Thu, 2 Jan 2014 13:47:36 +1000
+issue_589:
+  id: 589
+  id_jira: 17164
+  key: ADMIN-106
+  summary: Other Admin work supports team or managers
+  status: In Progress
+  updated: Thu, 2 Jan 2014 13:47:08 +1000
+issue_590:
+  id: 590
+  id_jira: 24379
+  key: MAITAI-1219
+  summary: ! 'Maitai 2.0.5  Code freeze '
+  status: Open
+  updated: Thu, 2 Jan 2014 12:28:11 +1000
+issue_591:
+  id: 591
+  id_jira: 24377
+  key: MAITAI-1217
+  summary: ! 'Maitai 2.0.3 code freeze '
+  status: Open
+  updated: Thu, 2 Jan 2014 12:28:03 +1000
+issue_592:
+  id: 592
+  id_jira: 24374
+  key: MAITAI-1216
+  summary: ! 'Maitai 2.0.2 code freeze '
+  status: Open
+  updated: Thu, 2 Jan 2014 12:27:49 +1000
+issue_593:
+  id: 593
+  id_jira: 24373
+  key: MAITAI-1215
+  summary: Maitai 2.0.1 code freeze
+  status: Open
+  updated: Thu, 2 Jan 2014 12:27:34 +1000
+issue_594:
+  id: 594
+  id_jira: 24378
+  key: MAITAI-1218
+  summary: Maitai 2.0.4 code freeze
+  status: Open
+  updated: Thu, 2 Jan 2014 12:27:22 +1000
+issue_595:
+  id: 595
+  id_jira: 24365
+  key: MAITAI-1214
+  summary: Maitai 0.17 code freeze
+  status: Open
+  updated: Thu, 2 Jan 2014 12:26:54 +1000
+issue_596:
+  id: 596
+  id_jira: 24364
+  key: MAITAI-1213
+  summary: Maitai 0.16 code freeze
+  status: Open
+  updated: Thu, 2 Jan 2014 12:26:38 +1000
+issue_597:
+  id: 597
+  id_jira: 24361
+  key: MAITAI-1212
+  summary: Maitai 0.15 Code freeze
+  status: Resolved
+  updated: Thu, 2 Jan 2014 12:26:25 +1000
+issue_598:
+  id: 598
+  id_jira: 24627
+  key: MAITAI-1269
+  summary: ! '[US194] The task potential owner and who canceled the process can not
+    receive the canceled email notification.'
+  status: Closed
+  updated: Thu, 2 Jan 2014 12:17:48 +1000
+issue_599:
+  id: 599
+  id_jira: 20950
+  key: RR-68
+  summary: ! 'Investigate creating RHEL 7 infrastructure test environment '
+  status: To Do
+  updated: Thu, 2 Jan 2014 11:37:30 +1000
+issue_600:
+  id: 600
+  id_jira: 23474
+  key: REVOK-99
+  summary: Revok integration testing against DVWA
+  status: In Progress
+  updated: Thu, 2 Jan 2014 11:18:56 +1000
+issue_601:
+  id: 601
+  id_jira: 24134
+  key: ENGRDOCICD-105
+  summary: enable gerrit for khaleesi
+  status: To Do
+  updated: Thu, 2 Jan 2014 07:01:05 +1000
+issue_602:
+  id: 602
+  id_jira: 18799
+  key: ENGRDOCICD-31
+  summary: ! 'Test results diff '
+  status: To Do
+  updated: Thu, 2 Jan 2014 06:49:17 +1000
+issue_603:
+  id: 603
+  id_jira: 18797
+  key: ENGRDOCICD-29
+  summary: Package diff between jobs
+  status: To Do
+  updated: Thu, 2 Jan 2014 06:48:57 +1000
+issue_604:
+  id: 604
+  id_jira: 24009
+  key: RHEVM-810
+  summary: Execute https://tcms.engineering.redhat.com/run/104573/
+  status: Resolved
+  updated: Wed, 1 Jan 2014 23:31:02 +1000
+issue_605:
+  id: 605
+  id_jira: 24399
+  key: RHOS-525
+  summary: Add ability for Robot to use Guest images for core testing
+  status: Resolved
+  updated: Wed, 1 Jan 2014 22:50:05 +1000
+issue_606:
+  id: 606
+  id_jira: 24674
+  key: GL-333
+  summary: Bug-Verification- Bug 1040435
+  status: Done
+  updated: Tue, 31 Dec 2013 22:12:11 +1000
+issue_607:
+  id: 607
+  id_jira: 24317
+  key: RHEVM-820
+  summary: ! ' Install mini dells with rhev-h\rhel'
+  status: Resolved
+  updated: Tue, 31 Dec 2013 22:01:21 +1000
+issue_608:
+  id: 608
+  id_jira: 20317
+  key: RHOS-479
+  summary: Design glusterFS setup in TLV (TLV servers)
+  status: Resolved
+  updated: Tue, 31 Dec 2013 21:36:59 +1000
+issue_609:
+  id: 609
+  id_jira: 24649
+  key: RHEVM-834
+  summary: Re-execute https://tcms.engineering.redhat.com/run/76155
+  status: Resolved
+  updated: Tue, 31 Dec 2013 21:18:14 +1000
+issue_610:
+  id: 610
+  id_jira: 24311
+  key: RHS-285
+  summary: ! ' Bug 851030 - [RFE] provide option to disable io-threads least-priority'
+  status: Done
+  updated: Tue, 31 Dec 2013 21:01:08 +1000
+issue_611:
+  id: 611
+  id_jira: 24370
+  key: RHS-308
+  summary: Verify bug 851030
+  status: Done
+  updated: Tue, 31 Dec 2013 21:01:02 +1000
+issue_612:
+  id: 612
+  id_jira: 24635
+  key: RHS-317
+  summary: ! '1030432 - quota: after quota remove command and still quota-deem-statfs
+    on the df -h shows the "size" field shows lower value'
+  status: To Do
+  updated: Tue, 31 Dec 2013 20:52:41 +1000
+issue_613:
+  id: 613
+  id_jira: 24272
+  key: GL-320
+  summary: Creating a seperate list for snapshots.
+  status: To Do
+  updated: Tue, 31 Dec 2013 19:56:42 +1000
+issue_614:
+  id: 614
+  id_jira: 23506
+  key: REVOK-111
+  summary: Apply Error handling in modules - lzhuang
+  status: In Progress
+  updated: Tue, 31 Dec 2013 19:49:02 +1000
+issue_615:
+  id: 615
+  id_jira: 22225
+  key: RHEVM-764
+  summary: fix ram snapshots test due to removal of preview/undo snapshot in 3.3
+  status: Resolved
+  updated: Tue, 31 Dec 2013 19:48:38 +1000
+issue_616:
+  id: 616
+  id_jira: 19324
+  key: RHEVM-617
+  summary: We need a new jenkins-slave with a special label for hosted engine tests
+  status: Resolved
+  updated: Tue, 31 Dec 2013 19:47:23 +1000
+issue_617:
+  id: 617
+  id_jira: 20472
+  key: RHEVM-714
+  summary: Full disk sanity plan
+  status: In Progress
+  updated: Tue, 31 Dec 2013 19:46:52 +1000
+issue_618:
+  id: 618
+  id_jira: 22048
+  key: RHEVM-755
+  summary: cobbler user and password are missing
+  status: Resolved
+  updated: Tue, 31 Dec 2013 19:44:34 +1000
+issue_619:
+  id: 619
+  id_jira: 22134
+  key: RHEVM-760
+  summary: Remove tiger storage from tests confs in jenkins repo
+  status: Resolved
+  updated: Tue, 31 Dec 2013 19:43:56 +1000
+issue_620:
+  id: 620
+  id_jira: 24705
+  key: RHEVM-843
+  summary: add missing create_instance permission to 3.4
+  status: Open
+  updated: Tue, 31 Dec 2013 19:37:41 +1000
+issue_621:
+  id: 621
+  id_jira: 24704
+  key: RHEVM-842
+  summary: override template is broken on 3.4
+  status: Open
+  updated: Tue, 31 Dec 2013 19:31:27 +1000
+issue_622:
+  id: 622
+  id_jira: 20527
+  key: ORGCHART-5
+  summary: ! 'Review all bugs. '
+  status: To Do
+  updated: Tue, 31 Dec 2013 19:22:56 +1000
+issue_623:
+  id: 623
+  id_jira: 18991
+  key: RHOS-411
+  summary: test run for [OpenStack][Horizon][Core][Sanity] , RHOS 3.0 z stream 2013-10-24.5
+    with RHEL 6.4 AIO
+  status: Resolved
+  updated: Tue, 31 Dec 2013 19:21:56 +1000
+issue_624:
+  id: 624
+  id_jira: 17509
+  key: RHOS-279
+  summary: ! 'RFE: RHOS log collector tool'
+  status: Resolved
+  updated: Tue, 31 Dec 2013 19:21:18 +1000
+issue_625:
+  id: 625
+  id_jira: 18009
+  key: RHOS-352
+  summary: RHOS 4.0 Bugs and RFEs Verification
+  status: Resolved
+  updated: Tue, 31 Dec 2013 19:20:46 +1000
+issue_626:
+  id: 626
+  id_jira: 24368
+  key: RHS-306
+  summary: Verify 856467
+  status: In Progress
+  updated: Tue, 31 Dec 2013 19:12:52 +1000
+issue_627:
+  id: 627
+  id_jira: 24703
+  key: REVOK-128
+  summary: Modify session_exposed_in_url module for null cookie and filter the URLs
+    not belongs to the app
+  status: To Do
+  updated: Tue, 31 Dec 2013 18:20:15 +1000
+issue_628:
+  id: 628
+  id_jira: 23843
+  key: CON-835
+  summary: Conflux PhaseII data model design(Bugzilla & Errata)
+  status: Resolved
+  updated: Tue, 31 Dec 2013 18:03:59 +1000
+issue_629:
+  id: 629
+  id_jira: 19151
+  key: UCD-102
+  summary: UCD Landing-page New
+  status: In Progress
+  updated: Tue, 31 Dec 2013 17:56:48 +1000
+issue_630:
+  id: 630
+  id_jira: 24539
+  key: REVOK-118
+  summary: Modify crawler to save the correct cookie
+  status: In Progress
+  updated: Tue, 31 Dec 2013 17:31:45 +1000
+issue_631:
+  id: 631
+  id_jira: 24675
+  key: GL-334
+  summary: Bug-Verification- Bug 1039956
+  status: In Progress
+  updated: Tue, 31 Dec 2013 17:18:13 +1000
+issue_632:
+  id: 632
+  id_jira: 24702
+  key: REVOK-127
+  summary: Crawler will crash in a very short time when against Jboss ON
+  status: To Do
+  updated: Tue, 31 Dec 2013 17:12:21 +1000
+issue_633:
+  id: 633
+  id_jira: 23229
+  key: HSSCOMFUNC-356
+  summary: ! 'Create penetration test report of RHEL7 '
+  status: Done
+  updated: Tue, 31 Dec 2013 16:48:34 +1000
+issue_634:
+  id: 634
+  id_jira: 24694
+  key: HSSNAYENG-57
+  summary: ! '[Project] overview/detail page  refininition'
+  status: Done
+  updated: Tue, 31 Dec 2013 16:44:19 +1000
+issue_635:
+  id: 635
+  id_jira: 23941
+  key: HSSNAYENG-34
+  summary: ! '[Individual]Code Commit  -- front / back end '
+  status: Done
+  updated: Tue, 31 Dec 2013 15:20:31 +1000
+issue_636:
+  id: 636
+  id_jira: 23938
+  key: HSSNAYENG-31
+  summary: ! '[Team] Code Commit -- back end '
+  status: Done
+  updated: Tue, 31 Dec 2013 15:20:29 +1000
+issue_637:
+  id: 637
+  id_jira: 24194
+  key: HSSCOMFUNC-402
+  summary: Programme one Pulp Distributor based on the previous research.
+  status: To Do
+  updated: Tue, 31 Dec 2013 14:51:23 +1000
+issue_638:
+  id: 638
+  id_jira: 24193
+  key: HSSCOMFUNC-401
+  summary: Researching on the routines and limitations of programming one Pulp Distributor.
+  status: Done
+  updated: Tue, 31 Dec 2013 14:50:23 +1000
+issue_639:
+  id: 639
+  id_jira: 24192
+  key: HSSCOMFUNC-400
+  summary: Identifying the work needed to setup the content streamline.
+  status: Done
+  updated: Tue, 31 Dec 2013 14:50:17 +1000
+issue_640:
+  id: 640
+  id_jira: 24191
+  key: HSSCOMFUNC-399
+  summary: Setting up or locating reusable environments.
+  status: Done
+  updated: Tue, 31 Dec 2013 14:50:03 +1000
+issue_641:
+  id: 641
+  id_jira: 23929
+  key: HDS-503
+  summary: confluence gadget plugin for Harvester
+  status: Done
+  updated: Tue, 31 Dec 2013 14:43:43 +1000
+issue_642:
+  id: 642
+  id_jira: 23914
+  key: MAITAI-1182
+  summary: feedback, report bug popup are not shown in chrome v31
+  status: In Progress
+  updated: Tue, 31 Dec 2013 14:03:15 +1000
+issue_643:
+  id: 643
+  id_jira: 24701
+  key: HSSCOMFUNC-490
+  summary: SAM back-end vulnerability check
+  status: To Do
+  updated: Tue, 31 Dec 2013 13:43:35 +1000
+issue_644:
+  id: 644
+  id_jira: 24700
+  key: HSSCOMFUNC-489
+  summary: Support huiwang to do SAM front-end vulnerability check
+  status: To Do
+  updated: Tue, 31 Dec 2013 13:36:28 +1000
+issue_645:
+  id: 645
+  id_jira: 23228
+  key: HSSCOMFUNC-355
+  summary: Find all the exploits about linux, then try to attack RHEL7
+  status: Done
+  updated: Tue, 31 Dec 2013 13:33:13 +1000
+issue_646:
+  id: 646
+  id_jira: 24697
+  key: HDS-523
+  summary: Bugzilla API status definition
+  status: To Do
+  updated: Tue, 31 Dec 2013 12:59:47 +1000
+issue_647:
+  id: 647
+  id_jira: 22528
+  key: HSSNAYENG-20
+  summary: Do formatter table in Estimation Chart . Time break to each person.
+  status: Done
+  updated: Tue, 31 Dec 2013 12:38:34 +1000
+issue_648:
+  id: 648
+  id_jira: 23933
+  key: HSSNAYENG-27
+  summary: Commit Convention in project metrics
+  status: To Do
+  updated: Tue, 31 Dec 2013 12:29:48 +1000
+issue_649:
+  id: 649
+  id_jira: 23930
+  key: HSSNAYENG-25
+  summary: Sort enhancement
+  status: To Do
+  updated: Tue, 31 Dec 2013 12:29:36 +1000
+issue_650:
+  id: 650
+  id_jira: 23953
+  key: HSSNAYENG-36
+  summary: login page like twoface , automaticlly find the Team and User himself.
+  status: To Do
+  updated: Tue, 31 Dec 2013 12:18:09 +1000
+issue_651:
+  id: 651
+  id_jira: 23979
+  key: HSSNAYENG-46
+  summary: ! 'login page : static page.'
+  status: To Do
+  updated: Tue, 31 Dec 2013 12:18:05 +1000
+issue_652:
+  id: 652
+  id_jira: 23955
+  key: HSSNAYENG-38
+  summary: Login page , intergration --> web.xml . jboss realm. debug
+  status: To Do
+  updated: Tue, 31 Dec 2013 12:18:02 +1000
+issue_653:
+  id: 653
+  id_jira: 24050
+  key: HSSNAYENG-48
+  summary: Bug Regression Trend
+  status: To Do
+  updated: Tue, 31 Dec 2013 12:17:56 +1000
+issue_654:
+  id: 654
+  id_jira: 24538
+  key: REVOK-117
+  summary: Setup Jboss Operations Network and perform testing
+  status: In Progress
+  updated: Tue, 31 Dec 2013 11:22:20 +1000
+issue_655:
+  id: 655
+  id_jira: 24398
+  key: RHEVM-823
+  summary: ! 'ART: JAVA_SDK: AttributeError: ''module'' object has no attribute ''NetworkVnicProfile'''
+  status: Resolved
+  updated: Tue, 31 Dec 2013 05:52:27 +1000
+issue_656:
+  id: 656
+  id_jira: 24683
+  key: RHEVM-839
+  summary: ! '[fabric][jenkins] Add dynamic pools to the reservation'
+  status: Open
+  updated: Tue, 31 Dec 2013 01:18:53 +1000
+issue_657:
+  id: 657
+  id_jira: 17306
+  key: RHEVM-363
+  summary: RHEVM 3.3 Scalability Tests
+  status: Resolved
+  updated: Tue, 31 Dec 2013 01:14:38 +1000
+issue_658:
+  id: 658
+  id_jira: 20493
+  key: RHEVM-720
+  summary: Should add jenkins job that will execute scale tests
+  status: Resolved
+  updated: Tue, 31 Dec 2013 01:14:22 +1000
+issue_659:
+  id: 659
+  id_jira: 19691
+  key: RHEVM-639
+  summary: glance export vs RHEV export fomains performance check
+  status: Resolved
+  updated: Mon, 30 Dec 2013 23:31:34 +1000
+issue_660:
+  id: 660
+  id_jira: 19848
+  key: GL-217
+  summary: As a devel, I should implement autodeletion in glusterd for snapshot once
+    the maximum limit is exceeded
+  status: In Progress
+  updated: Mon, 30 Dec 2013 23:27:35 +1000
+issue_661:
+  id: 661
+  id_jira: 24376
+  key: RHS-311
+  summary: Add log messages at proper places as per request from QE
+  status: ON_QA
+  updated: Mon, 30 Dec 2013 23:11:14 +1000
+issue_662:
+  id: 662
+  id_jira: 22224
+  key: RHS-237
+  summary: ! 'Bug 1030021: Tracker for downstream RHS product: gfapi: introduce glfs_readdir
+    and glfs_readdirplus APIs'
+  status: Done
+  updated: Mon, 30 Dec 2013 22:30:39 +1000
+issue_663:
+  id: 663
+  id_jira: 24634
+  key: GL-328
+  summary: Discuss and create a framework for snapshot automation in sprint 5
+  status: To Do
+  updated: Mon, 30 Dec 2013 22:27:59 +1000
+issue_664:
+  id: 664
+  id_jira: 24673
+  key: GL-332
+  summary: Bug-Verification- Bug 1044867
+  status: Done
+  updated: Mon, 30 Dec 2013 22:21:03 +1000
+issue_665:
+  id: 665
+  id_jira: 24682
+  key: GL-337
+  summary: Bug verification of 982104
+  status: Done
+  updated: Mon, 30 Dec 2013 22:17:03 +1000
+issue_666:
+  id: 666
+  id_jira: 24681
+  key: GL-336
+  summary: Bug verification of 956655
+  status: Done
+  updated: Mon, 30 Dec 2013 22:15:48 +1000
+issue_667:
+  id: 667
+  id_jira: 24680
+  key: GL-335
+  summary: Bug Verification for corbat u2 build
+  status: To Do
+  updated: Mon, 30 Dec 2013 22:09:35 +1000
+issue_668:
+  id: 668
+  id_jira: 24363
+  key: RHS-303
+  summary: Verify bug 916857
+  status: Done
+  updated: Mon, 30 Dec 2013 22:00:37 +1000
+issue_669:
+  id: 669
+  id_jira: 24308
+  key: RHS-282
+  summary: Bug 856467 - linux-aio support in storage/posix
+  status: In Progress
+  updated: Mon, 30 Dec 2013 21:28:22 +1000
+issue_670:
+  id: 670
+  id_jira: 24678
+  key: RHEVM-837
+  summary: ! 'manual migration test '
+  status: Open
+  updated: Mon, 30 Dec 2013 21:14:55 +1000
+issue_671:
+  id: 671
+  id_jira: 24554
+  key: REVOK-119
+  summary: Setup the front end to work with the back end of dev env
+  status: In Progress
+  updated: Mon, 30 Dec 2013 20:51:11 +1000
+issue_672:
+  id: 672
+  id_jira: 19912
+  key: GL-232
+  summary: Test case modification for snapshot snapshot config
+  status: To Do
+  updated: Mon, 30 Dec 2013 20:13:32 +1000
+issue_673:
+  id: 673
+  id_jira: 24672
+  key: GL-331
+  summary: ! 'RPM Sanity testing. '
+  status: To Do
+  updated: Mon, 30 Dec 2013 19:55:52 +1000
+issue_674:
+  id: 674
+  id_jira: 24671
+  key: GL-330
+  summary: Building RPMs
+  status: To Do
+  updated: Mon, 30 Dec 2013 19:54:52 +1000
+issue_675:
+  id: 675
+  id_jira: 24419
+  key: UCD-131
+  summary: UX design guide poster changed for koushi
+  status: Resolved
+  updated: Mon, 30 Dec 2013 19:53:28 +1000
+issue_676:
+  id: 676
+  id_jira: 24670
+  key: GL-329
+  summary: RPM build and Regression testing
+  status: In Progress
+  updated: Mon, 30 Dec 2013 19:51:18 +1000
+issue_677:
+  id: 677
+  id_jira: 24299
+  key: RHS-273
+  summary: ! 'Bug 994964 - fuse mount reports error message : inode context is NULL
+    <file_gfid>'
+  status: Done
+  updated: Mon, 30 Dec 2013 19:47:36 +1000
+issue_678:
+  id: 678
+  id_jira: 24353
+  key: RHS-297
+  summary: Verify Bug 994964
+  status: Done
+  updated: Mon, 30 Dec 2013 19:47:33 +1000
+issue_679:
+  id: 679
+  id_jira: 20474
+  key: RHEVM-716
+  summary: Domain lifecycle full test
+  status: Resolved
+  updated: Mon, 30 Dec 2013 19:22:45 +1000
+issue_680:
+  id: 680
+  id_jira: 20439
+  key: REVOK-63
+  summary: integrate
+  status: To Do
+  updated: Mon, 30 Dec 2013 18:16:36 +1000
+issue_681:
+  id: 681
+  id_jira: 20254
+  key: REVOK-20
+  summary: XSS report integration
+  status: To Do
+  updated: Mon, 30 Dec 2013 18:15:53 +1000
+issue_682:
+  id: 682
+  id_jira: 22537
+  key: HDS-479
+  summary: ! 'Data Service Client enhancement '
+  status: Done
+  updated: Mon, 30 Dec 2013 17:58:35 +1000
+issue_683:
+  id: 683
+  id_jira: 24668
+  key: HDS-521
+  summary: Bug 1046381 - [Homepage][Harvester App]Save function cannot take effect
+    when save single parameter value
+  status: Done
+  updated: Mon, 30 Dec 2013 17:57:26 +1000
+issue_684:
+  id: 684
+  id_jira: 24667
+  key: HDS-520
+  summary: ! "Add Report Bug Link \t \t"
+  status: Done
+  updated: Mon, 30 Dec 2013 17:56:32 +1000
+issue_685:
+  id: 685
+  id_jira: 24666
+  key: HDS-519
+  summary: Bug 1046412 - [Harvester Client/App][Bugzilla]The flag value symbol need
+    to encode to html symbol.
+  status: Done
+  updated: Mon, 30 Dec 2013 17:56:07 +1000
+issue_686:
+  id: 686
+  id_jira: 24665
+  key: HDS-518
+  summary: ! "Bug 1046595 - [Homepage][Harvester App]When switching other report type
+    to 'chart', the data part will clear up. \t "
+  status: Done
+  updated: Mon, 30 Dec 2013 17:55:26 +1000
+issue_687:
+  id: 687
+  id_jira: 24304
+  key: RHS-278
+  summary: Bug 918510 - Volume heal output displays "successful" while it actually
+    means "successfully triggered".
+  status: Done
+  updated: Mon, 30 Dec 2013 17:26:25 +1000
+issue_688:
+  id: 688
+  id_jira: 24362
+  key: RHS-302
+  summary: Verify bug 918510
+  status: Done
+  updated: Mon, 30 Dec 2013 17:26:05 +1000
+issue_689:
+  id: 689
+  id_jira: 20841
+  key: ADMIN-147
+  summary: Self summary- How to article page
+  status: In Progress
+  updated: Mon, 30 Dec 2013 17:19:01 +1000
+issue_690:
+  id: 690
+  id_jira: 20639
+  key: GL-261
+  summary: ! 'snapshot config change : check if volume snap limit exceeds system limit.'
+  status: To Do
+  updated: Mon, 30 Dec 2013 17:08:04 +1000
+issue_691:
+  id: 691
+  id_jira: 23620
+  key: TCMS-108
+  summary: ! '[QE] Full function test for upgrade.'
+  status: Done
+  updated: Mon, 30 Dec 2013 16:14:40 +1000
+issue_692:
+  id: 692
+  id_jira: 24293
+  key: RHS-268
+  summary: ! 'Corbett: Samba Test cases on windows other than ACL'
+  status: Done
+  updated: Mon, 30 Dec 2013 16:14:08 +1000
+issue_693:
+  id: 693
+  id_jira: 24296
+  key: RHS-271
+  summary: Quota and logging related test case execution
+  status: Done
+  updated: Mon, 30 Dec 2013 16:12:46 +1000
+issue_694:
+  id: 694
+  id_jira: 24628
+  key: RHS-316
+  summary: ! '1044923  AFR : self-heal of few files not happening when a AWS EC2 Instance
+    is back online after a restart'
+  status: In Progress
+  updated: Mon, 30 Dec 2013 16:03:06 +1000
+issue_695:
+  id: 695
+  id_jira: 24294
+  key: RHS-269
+  summary: Bug 1024371 - All the existing bricks are not marked source when new brick
+    is added to volume to increase the replica count from 2 to 3
+  status: Done
+  updated: Mon, 30 Dec 2013 15:55:50 +1000
+issue_696:
+  id: 696
+  id_jira: 24336
+  key: RHS-290
+  summary: Verify bug 1024371
+  status: Done
+  updated: Mon, 30 Dec 2013 15:55:44 +1000
+issue_697:
+  id: 697
+  id_jira: 24273
+  key: RHS-265
+  summary: ! 'Bug 1033469 - Do not allow removal of replicas using "remove-brick"
+    command '
+  status: Done
+  updated: Mon, 30 Dec 2013 14:59:08 +1000
+issue_698:
+  id: 698
+  id_jira: 24372
+  key: RHS-309
+  summary: Verify bug 1033469
+  status: Done
+  updated: Mon, 30 Dec 2013 14:59:01 +1000
+issue_699:
+  id: 699
+  id_jira: 22270
+  key: GL-302
+  summary: ! 'Documentation: Document snapshot REST APIs'
+  status: Blocked
+  updated: Mon, 30 Dec 2013 14:40:03 +1000
+issue_700:
+  id: 700
+  id_jira: 24298
+  key: RHS-272
+  summary: Bug 1006354 - No error is reported when files are in extended-attribute
+    split-brain state
+  status: Done
+  updated: Mon, 30 Dec 2013 14:39:41 +1000
+issue_701:
+  id: 701
+  id_jira: 24350
+  key: RHS-296
+  summary: Verify 1006354
+  status: Done
+  updated: Mon, 30 Dec 2013 14:39:33 +1000
+issue_702:
+  id: 702
+  id_jira: 21951
+  key: CON-812
+  summary: TCMS source system analysis-source tables,Dimension,Measure,Indicators,Calculation
+    method
+  status: Closed
+  updated: Mon, 30 Dec 2013 13:46:33 +1000
+issue_703:
+  id: 703
+  id_jira: 21953
+  key: CON-814
+  summary: TCMS data profiler
+  status: Resolved
+  updated: Mon, 30 Dec 2013 13:43:24 +1000
+issue_704:
+  id: 704
+  id_jira: 19171
+  key: ORGCHART-3
+  summary: There is no HSS QE resources available to work on this project
+  status: To Do
+  updated: Mon, 30 Dec 2013 13:24:24 +1000
+issue_705:
+  id: 705
+  id_jira: 24651
+  key: ORGCHART-8
+  summary: RT L2 SED Schedule(Check Points)
+  status: To Do
+  updated: Mon, 30 Dec 2013 13:14:13 +1000
+issue_706:
+  id: 706
+  id_jira: 20526
+  key: ORGCHART-4
+  summary: ! 'Make a plan to go over all old stuff. '
+  status: To Do
+  updated: Mon, 30 Dec 2013 12:12:21 +1000
+issue_707:
+  id: 707
+  id_jira: 24648
+  key: RHEVM-833
+  summary: Check if set host in import/update VM work OK
+  status: Open
+  updated: Sun, 29 Dec 2013 21:14:51 +1000
+issue_708:
+  id: 708
+  id_jira: 24647
+  key: RHEVM-832
+  summary: dwh setup should run on various locale & timezones
+  status: Open
+  updated: Sun, 29 Dec 2013 21:11:51 +1000
+issue_709:
+  id: 709
+  id_jira: 19159
+  key: RHEVM-604
+  summary: Clear QE NetApp server (netapp.qa.lab.tlv.redhat.com) - migrate rhevm-3
+    luns to different storage
+  status: Resolved
+  updated: Sun, 29 Dec 2013 18:28:21 +1000
+issue_710:
+  id: 710
+  id_jira: 19162
+  key: RHEVM-607
+  summary: convert Tiger to GlusterFS storage server
+  status: Resolved
+  updated: Sun, 29 Dec 2013 18:28:11 +1000
+issue_711:
+  id: 711
+  id_jira: 24640
+  key: RHEVM-829
+  summary: ! 'TCMS: 3.4'
+  status: Resolved
+  updated: Sun, 29 Dec 2013 17:49:49 +1000
+issue_712:
+  id: 712
+  id_jira: 24641
+  key: RHEVM-830
+  summary: ! 'TCMS: 3.4: Network QoS host interfaces'
+  status: Open
+  updated: Sun, 29 Dec 2013 17:49:34 +1000
+issue_713:
+  id: 713
+  id_jira: 17300
+  key: RHEVM-360
+  summary: ! 'Automation: Port mirroring'
+  status: Resolved
+  updated: Sun, 29 Dec 2013 17:41:02 +1000
+issue_714:
+  id: 714
+  id_jira: 22744
+  key: RHEVM-792
+  summary: execute https://tcms.engineering.redhat.com/run/98466/
+  status: Resolved
+  updated: Sun, 29 Dec 2013 05:13:22 +1000
+issue_715:
+  id: 715
+  id_jira: 24636
+  key: RHS-318
+  summary: Make dht_statfs_cbk make fool proof in case of quota-deem-statfs
+  status: To Do
+  updated: Fri, 27 Dec 2013 20:49:51 +1000
+issue_716:
+  id: 716
+  id_jira: 23838
+  key: CON-830
+  summary: Brew system analysis-Dimension,Measure,Indicators,Calculation method
+  status: In Progress
+  updated: Fri, 27 Dec 2013 20:26:08 +1000
+issue_717:
+  id: 717
+  id_jira: 24633
+  key: GL-327
+  summary: QE beaker automation for snapshot
+  status: To Do
+  updated: Fri, 27 Dec 2013 20:08:03 +1000
+issue_718:
+  id: 718
+  id_jira: 24632
+  key: GL-326
+  summary: Bug Verfication for snapshot create in sprint 5
+  status: To Do
+  updated: Fri, 27 Dec 2013 19:43:57 +1000
+issue_719:
+  id: 719
+  id_jira: 24631
+  key: GL-325
+  summary: Bug Verfication for snapshot list in sprint 5
+  status: To Do
+  updated: Fri, 27 Dec 2013 19:42:16 +1000
+issue_720:
+  id: 720
+  id_jira: 19913
+  key: GL-233
+  summary: Test case execution for snapshot config
+  status: To Do
+  updated: Fri, 27 Dec 2013 19:39:39 +1000
+issue_721:
+  id: 721
+  id_jira: 16169
+  key: ADMIN-80
+  summary: External Training introduction for HSS（NAY）
+  status: In Progress
+  updated: Fri, 27 Dec 2013 19:12:05 +1000
+issue_722:
+  id: 722
+  id_jira: 11680
+  key: MAITAI-195
+  summary: Notify process administrators when a process has started
+  status: Resolved
+  updated: Fri, 27 Dec 2013 19:07:32 +1000
+issue_723:
+  id: 723
+  id_jira: 11679
+  key: MAITAI-194
+  summary: Notify process requestor and administrators when a process is completed
+    or aborted
+  status: Resolved
+  updated: Fri, 27 Dec 2013 19:06:35 +1000
+issue_724:
+  id: 724
+  id_jira: 24622
+  key: MAITAI-1268
+  summary: ! '[US1188] Typo: ’thier‘ should be ''their'' in the Manager''s email content. '
+  status: Resolved
+  updated: Fri, 27 Dec 2013 18:30:52 +1000
+issue_725:
+  id: 725
+  id_jira: 24497
+  key: HSSCOMFUNC-450
+  summary: ! '[QE]get Tickets in Progress data'
+  status: Done
+  updated: Fri, 27 Dec 2013 18:10:16 +1000
+issue_726:
+  id: 726
+  id_jira: 24603
+  key: MAITAI-1264
+  summary: QE test
+  status: Resolved
+  updated: Fri, 27 Dec 2013 17:56:55 +1000
+issue_727:
+  id: 727
+  id_jira: 24605
+  key: MAITAI-1265
+  summary: QE test
+  status: Resolved
+  updated: Fri, 27 Dec 2013 17:36:52 +1000
+issue_728:
+  id: 728
+  id_jira: 23980
+  key: GL-314
+  summary: ! 'Handle Snap Description : Containing Multiple words , Bug 1044476'
+  status: In Progress
+  updated: Fri, 27 Dec 2013 17:29:43 +1000
+issue_729:
+  id: 729
+  id_jira: 23490
+  key: GL-306
+  summary: Create snap mount paths based on original volume's brick paths , Bug 1042795
+  status: In Progress
+  updated: Fri, 27 Dec 2013 17:28:57 +1000
+issue_730:
+  id: 730
+  id_jira: 24501
+  key: MAITAI-1245
+  summary: update tests
+  status: Resolved
+  updated: Fri, 27 Dec 2013 17:20:42 +1000
+issue_731:
+  id: 731
+  id_jira: 24487
+  key: MAITAI-1241
+  summary: update bpmn2 and svg file
+  status: Resolved
+  updated: Fri, 27 Dec 2013 17:20:03 +1000
+issue_732:
+  id: 732
+  id_jira: 24500
+  key: MAITAI-1244
+  summary: update tests
+  status: Resolved
+  updated: Fri, 27 Dec 2013 17:19:27 +1000
+issue_733:
+  id: 733
+  id_jira: 24486
+  key: MAITAI-1240
+  summary: update bpmn2 and svg file
+  status: Resolved
+  updated: Fri, 27 Dec 2013 17:18:59 +1000
+issue_734:
+  id: 734
+  id_jira: 20725
+  key: TCMS-48
+  summary: ! '[Research] The out of memory problem in production server'
+  status: To Do
+  updated: Fri, 27 Dec 2013 16:16:59 +1000
+issue_735:
+  id: 735
+  id_jira: 23613
+  key: TCMS-107
+  summary: ! '[Upgrade] Make RPM package so that TCMS can be installed in devel/test/stage/prod
+    server'
+  status: In Progress
+  updated: Fri, 27 Dec 2013 16:16:59 +1000
+issue_736:
+  id: 736
+  id_jira: 24452
+  key: TCMS-120
+  summary: Brew tcms-3.8.6
+  status: To Do
+  updated: Fri, 27 Dec 2013 16:16:59 +1000
+issue_737:
+  id: 737
+  id_jira: 20239
+  key: RHS-203
+  summary: Rootcause the issue
+  status: In Progress
+  updated: Fri, 27 Dec 2013 15:50:43 +1000
+issue_738:
+  id: 738
+  id_jira: 23935
+  key: HSSNAYENG-29
+  summary: ! '[Team] Resource Utilization- back end.'
+  status: Done
+  updated: Fri, 27 Dec 2013 15:41:23 +1000
+issue_739:
+  id: 739
+  id_jira: 11179
+  key: ADMIN-1
+  summary: PA Weekly Meeting
+  status: In Progress
+  updated: Fri, 27 Dec 2013 15:39:07 +1000
+issue_740:
+  id: 740
+  id_jira: 24624
+  key: ADMIN-183
+  summary: CompassFY15
+  status: Open
+  updated: Fri, 27 Dec 2013 15:37:22 +1000
+issue_741:
+  id: 741
+  id_jira: 24623
+  key: ADMIN-182
+  summary: search internal training based on leads' requirements
+  status: Open
+  updated: Fri, 27 Dec 2013 15:35:26 +1000
+issue_742:
+  id: 742
+  id_jira: 13457
+  key: MAITAI-495
+  summary: Migrate maitai-hss-client API to Commons HSS
+  status: Resolved
+  updated: Fri, 27 Dec 2013 15:33:48 +1000
+issue_743:
+  id: 743
+  id_jira: 22055
+  key: MAITAI-1105
+  summary: Update Maitai to use hss-commonlibs4j
+  status: Resolved
+  updated: Fri, 27 Dec 2013 15:33:02 +1000
+issue_744:
+  id: 744
+  id_jira: 24621
+  key: MAITAI-1267
+  summary: Review test case
+  status: Resolved
+  updated: Fri, 27 Dec 2013 15:09:36 +1000
+issue_745:
+  id: 745
+  id_jira: 23730
+  key: GL-307
+  summary: Bug - 1040435
+  status: In Progress
+  updated: Fri, 27 Dec 2013 14:06:25 +1000
+issue_746:
+  id: 746
+  id_jira: 24620
+  key: MAITAI-1266
+  summary: Review test case
+  status: Resolved
+  updated: Fri, 27 Dec 2013 13:45:26 +1000
+issue_747:
+  id: 747
+  id_jira: 24565
+  key: MAITAI-1261
+  summary: QE test
+  status: Resolved
+  updated: Fri, 27 Dec 2013 13:07:06 +1000
+issue_748:
+  id: 748
+  id_jira: 24558
+  key: MAITAI-1260
+  summary: QE test
+  status: Resolved
+  updated: Fri, 27 Dec 2013 12:53:50 +1000
+issue_749:
+  id: 749
+  id_jira: 23937
+  key: HSSNAYENG-30
+  summary: ! '[Team] Task Completion Ratio -- back end '
+  status: Done
+  updated: Fri, 27 Dec 2013 12:04:59 +1000
+issue_750:
+  id: 750
+  id_jira: 24608
+  key: RHEVM-826
+  summary: no_vnc console tcms test plan - Add new test cases.
+  status: Open
+  updated: Thu, 26 Dec 2013 22:09:21 +1000
+issue_751:
+  id: 751
+  id_jira: 24607
+  key: RHEVM-825
+  summary: Debug failing payload test
+  status: Open
+  updated: Thu, 26 Dec 2013 22:08:52 +1000
+issue_752:
+  id: 752
+  id_jira: 23945
+  key: HSSCOMFUNC-388
+  summary: Organize HSS Manager review with each leader and optimize FY15 Capex request
+    include organize to confirm budget amount
+  status: In Progress
+  updated: Thu, 26 Dec 2013 21:20:44 +1000
+issue_753:
+  id: 753
+  id_jira: 23944
+  key: HSSCOMFUNC-387
+  summary: HSS leaders collect Capex FY15 requirements and submit 1st round draft
+  status: In Progress
+  updated: Thu, 26 Dec 2013 21:20:19 +1000
+issue_754:
+  id: 754
+  id_jira: 23943
+  key: HSSCOMFUNC-386
+  summary: Design HSS Capex collection template on-line
+  status: Done
+  updated: Thu, 26 Dec 2013 21:20:10 +1000
+issue_755:
+  id: 755
+  id_jira: 24560
+  key: HSSCOMFUNC-451
+  summary: L2 QE Scheduling Template
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:58:38 +1000
+issue_756:
+  id: 756
+  id_jira: 24606
+  key: HSSCOMFUNC-486
+  summary: L2 SED Scheduling Template
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:58:22 +1000
+issue_757:
+  id: 757
+  id_jira: 24572
+  key: HSSCOMFUNC-462
+  summary: RA complete initial analysis for Scrum team to get start
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_758:
+  id: 758
+  id_jira: 24580
+  key: HSSCOMFUNC-470
+  summary: Deployment Package and Guide ready for test
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_759:
+  id: 759
+  id_jira: 24573
+  key: HSSCOMFUNC-463
+  summary: Architecture Design
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_760:
+  id: 760
+  id_jira: 24581
+  key: HSSCOMFUNC-471
+  summary: Deployment Package and Guide sent
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_761:
+  id: 761
+  id_jira: 24579
+  key: HSSCOMFUNC-469
+  summary: New features Demo to FLS
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_762:
+  id: 762
+  id_jira: 24571
+  key: HSSCOMFUNC-461
+  summary: Initial requirement collection from BA/HSS manager/EIP
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_763:
+  id: 763
+  id_jira: 24578
+  key: HSSCOMFUNC-468
+  summary: User Guide document pass QE Test
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_764:
+  id: 764
+  id_jira: 24576
+  key: HSSCOMFUNC-466
+  summary: Integration testing completed by SED
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_765:
+  id: 765
+  id_jira: 24575
+  key: HSSCOMFUNC-465
+  summary: Code review completed by SED
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:54 +1000
+issue_766:
+  id: 766
+  id_jira: 24577
+  key: HSSCOMFUNC-467
+  summary: USER GUIDE Documentation Draft Completed
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:53 +1000
+issue_767:
+  id: 767
+  id_jira: 24582
+  key: HSSCOMFUNC-472
+  summary: System Monitor Guide + System Recovery sent
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:53 +1000
+issue_768:
+  id: 768
+  id_jira: 24574
+  key: HSSCOMFUNC-464
+  summary: Unit testing completed by SED
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:46:53 +1000
+issue_769:
+  id: 769
+  id_jira: 24561
+  key: HSSCOMFUNC-452
+  summary: Program project Level 1 Schedule Template
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:36:32 +1000
+issue_770:
+  id: 770
+  id_jira: 24495
+  key: HSSCOMFUNC-449
+  summary: ! '[QE]get Group Utilization data'
+  status: Done
+  updated: Thu, 26 Dec 2013 19:26:48 +1000
+issue_771:
+  id: 771
+  id_jira: 24555
+  key: REVOK-120
+  summary: Improve crawler for better results and adaptability
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:25:44 +1000
+issue_772:
+  id: 772
+  id_jira: 24557
+  key: REVOK-122
+  summary: Set up environment for Revok unit testing and integration testing
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:25:33 +1000
+issue_773:
+  id: 773
+  id_jira: 17621
+  key: GL-140
+  summary: As QE Identify the test cases for snapshot create and execute them at the
+    end of sprint
+  status: Done
+  updated: Thu, 26 Dec 2013 19:10:13 +1000
+issue_774:
+  id: 774
+  id_jira: 24601
+  key: REVOK-124
+  summary: Get headlines from Confluence
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:02:51 +1000
+issue_775:
+  id: 775
+  id_jira: 24600
+  key: REVOK-123
+  summary: Get changelog  from Confluence
+  status: To Do
+  updated: Thu, 26 Dec 2013 19:01:49 +1000
+issue_776:
+  id: 776
+  id_jira: 24598
+  key: MAITAI-1263
+  summary: Review test case
+  status: Resolved
+  updated: Thu, 26 Dec 2013 18:55:14 +1000
+issue_777:
+  id: 777
+  id_jira: 24043
+  key: HSSNAYENG-47
+  summary: Refine first page UI
+  status: Done
+  updated: Thu, 26 Dec 2013 18:54:36 +1000
+issue_778:
+  id: 778
+  id_jira: 23954
+  key: HSSNAYENG-37
+  summary: ! '[Team]  page :  static page -- coding.'
+  status: Done
+  updated: Thu, 26 Dec 2013 18:54:27 +1000
+issue_779:
+  id: 779
+  id_jira: 24599
+  key: HDS-517
+  summary: ! 'Harvester App Bug Trend - negative value in the right Y axis '
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:54:04 +1000
+issue_780:
+  id: 780
+  id_jira: 24597
+  key: GL-321
+  summary: Snapshot bugs placeholder
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:39:07 +1000
+issue_781:
+  id: 781
+  id_jira: 24596
+  key: MAITAI-1262
+  summary: Review test case
+  status: Resolved
+  updated: Thu, 26 Dec 2013 18:36:30 +1000
+issue_782:
+  id: 782
+  id_jira: 24594
+  key: HSSCOMFUNC-484
+  summary: Document Testing completed
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:04 +1000
+issue_783:
+  id: 783
+  id_jira: 24595
+  key: HSSCOMFUNC-485
+  summary: QE Score Report sent
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:04 +1000
+issue_784:
+  id: 784
+  id_jira: 24585
+  key: HSSCOMFUNC-475
+  summary: All User Story Acceptance Testing completed
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_785:
+  id: 785
+  id_jira: 24584
+  key: HSSCOMFUNC-474
+  summary: Test scripts develop completed (optional)
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_786:
+  id: 786
+  id_jira: 24583
+  key: HSSCOMFUNC-473
+  summary: Test cases design completed
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_787:
+  id: 787
+  id_jira: 24588
+  key: HSSCOMFUNC-478
+  summary: Performance Testing completed (Optional)
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_788:
+  id: 788
+  id_jira: 24586
+  key: HSSCOMFUNC-476
+  summary: All Code Convention Testing completed
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_789:
+  id: 789
+  id_jira: 24591
+  key: HSSCOMFUNC-481
+  summary: Usability Testing completed (Optional)
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_790:
+  id: 790
+  id_jira: 24590
+  key: HSSCOMFUNC-480
+  summary: Security Testing completed (Optional)
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_791:
+  id: 791
+  id_jira: 24587
+  key: HSSCOMFUNC-477
+  summary: Full Functional Testing completed
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_792:
+  id: 792
+  id_jira: 24589
+  key: HSSCOMFUNC-479
+  summary: Compatibility Testing completed
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_793:
+  id: 793
+  id_jira: 24593
+  key: HSSCOMFUNC-483
+  summary: Deployment Testing completed
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_794:
+  id: 794
+  id_jira: 24592
+  key: HSSCOMFUNC-482
+  summary: Test reports sent
+  status: To Do
+  updated: Thu, 26 Dec 2013 18:13:03 +1000
+issue_795:
+  id: 795
+  id_jira: 24570
+  key: HSSCOMFUNC-460
+  summary: Monitoring setting
+  status: Open
+  updated: Thu, 26 Dec 2013 17:56:25 +1000
+issue_796:
+  id: 796
+  id_jira: 24569
+  key: HSSCOMFUNC-459
+  summary: Deployment
+  status: Open
+  updated: Thu, 26 Dec 2013 17:55:15 +1000
+issue_797:
+  id: 797
+  id_jira: 24568
+  key: HSSCOMFUNC-458
+  summary: FLS readiness
+  status: Open
+  updated: Thu, 26 Dec 2013 17:54:36 +1000
+issue_798:
+  id: 798
+  id_jira: 24567
+  key: HSSCOMFUNC-457
+  summary: Development phase
+  status: Open
+  updated: Thu, 26 Dec 2013 17:53:15 +1000
+issue_799:
+  id: 799
+  id_jira: 24566
+  key: HSSCOMFUNC-456
+  summary: Product Comms
+  status: Open
+  updated: Thu, 26 Dec 2013 17:49:28 +1000
+issue_800:
+  id: 800
+  id_jira: 24563
+  key: HSSCOMFUNC-454
+  summary: Project kick off
+  status: Open
+  updated: Thu, 26 Dec 2013 17:47:41 +1000
+issue_801:
+  id: 801
+  id_jira: 24564
+  key: HSSCOMFUNC-455
+  summary: Baseline schedule set
+  status: Open
+  updated: Thu, 26 Dec 2013 17:46:24 +1000
+issue_802:
+  id: 802
+  id_jira: 24562
+  key: HSSCOMFUNC-453
+  summary: Project approved
+  status: Open
+  updated: Thu, 26 Dec 2013 17:42:37 +1000
+issue_803:
+  id: 803
+  id_jira: 24476
+  key: MAITAI-1230
+  summary: QE tests
+  status: Resolved
+  updated: Thu, 26 Dec 2013 17:36:17 +1000
+issue_804:
+  id: 804
+  id_jira: 24292
+  key: RHS-267
+  summary: ! 'Bug 1025240 - remove-brick : Improvements needed in remove-brick grammar,
+    command execution output messages and documentation'
+  status: Done
+  updated: Thu, 26 Dec 2013 17:33:44 +1000
+issue_805:
+  id: 805
+  id_jira: 24331
+  key: RHS-289
+  summary: Verify bug 1025240
+  status: Done
+  updated: Thu, 26 Dec 2013 17:33:38 +1000
+issue_806:
+  id: 806
+  id_jira: 24473
+  key: MAITAI-1227
+  summary: Release from master
+  status: Resolved
+  updated: Thu, 26 Dec 2013 16:56:01 +1000
+issue_807:
+  id: 807
+  id_jira: 23500
+  key: ADMIN-170
+  summary: ! 'Travel Management '
+  status: In Progress
+  updated: Thu, 26 Dec 2013 16:47:11 +1000
+issue_808:
+  id: 808
+  id_jira: 23883
+  key: MAITAI-1181
+  summary: Report a bug link is not working after login
+  status: Open
+  updated: Thu, 26 Dec 2013 16:23:44 +1000
+issue_809:
+  id: 809
+  id_jira: 17234
+  key: RHS-74
+  summary: Verify
+  status: Done
+  updated: Thu, 26 Dec 2013 16:07:03 +1000
+issue_810:
+  id: 810
+  id_jira: 14277
+  key: STEP-418
+  summary: User interaction with JIRA, Confluence UI should be monitored
+  status: Open
+  updated: Thu, 26 Dec 2013 16:06:45 +1000
+issue_811:
+  id: 811
+  id_jira: 17219
+  key: RHS-61
+  summary: As a QE, I want separate logs per client per volume so that I can debug
+    better.
+  status: Done
+  updated: Thu, 26 Dec 2013 16:06:27 +1000
+issue_812:
+  id: 812
+  id_jira: 12086
+  key: STEP-191
+  summary: Manage devel environment with configuration management tool
+  status: Open
+  updated: Thu, 26 Dec 2013 16:06:16 +1000
+issue_813:
+  id: 813
+  id_jira: 11990
+  key: STEP-89
+  summary: Email notification policy definition
+  status: Open
+  updated: Thu, 26 Dec 2013 16:05:33 +1000
+issue_814:
+  id: 814
+  id_jira: 18026
+  key: STEP-644
+  summary: Confluence integration with Vault
+  status: Open
+  updated: Thu, 26 Dec 2013 16:05:20 +1000
+issue_815:
+  id: 815
+  id_jira: 18022
+  key: STEP-640
+  summary: JIRA integration with TCMS
+  status: Open
+  updated: Thu, 26 Dec 2013 16:05:17 +1000
+issue_816:
+  id: 816
+  id_jira: 13159
+  key: STEP-316
+  summary: JIRA integration with RT
+  status: Reopened
+  updated: Thu, 26 Dec 2013 16:05:15 +1000
+issue_817:
+  id: 817
+  id_jira: 17876
+  key: STEP-633
+  summary: As a manager, I want to see the users and page/project statistics of JIRA
+    and Confluence
+  status: Open
+  updated: Thu, 26 Dec 2013 16:05:05 +1000
+issue_818:
+  id: 818
+  id_jira: 24205
+  key: RHS-264
+  summary: Code Fix
+  status: Done
+  updated: Thu, 26 Dec 2013 15:07:05 +1000
+issue_819:
+  id: 819
+  id_jira: 24204
+  key: RHS-263
+  summary: Rootcause the issue
+  status: Done
+  updated: Thu, 26 Dec 2013 15:05:03 +1000
+issue_820:
+  id: 820
+  id_jira: 13496
+  key: RT-52
+  summary: Service catalogue application
+  status: To Do
+  updated: Thu, 26 Dec 2013 13:39:43 +1000
+issue_821:
+  id: 821
+  id_jira: 24531
+  key: REVOK-116
+  summary: Remove whitelist page
+  status: Done
+  updated: Thu, 26 Dec 2013 13:16:05 +1000
+issue_822:
+  id: 822
+  id_jira: 24556
+  key: REVOK-121
+  summary: Integration testing with more targets
+  status: To Do
+  updated: Thu, 26 Dec 2013 12:54:01 +1000
+issue_823:
+  id: 823
+  id_jira: 20989
+  key: UCD-120
+  summary: Develop-dashboard mock-up
+  status: Resolved
+  updated: Thu, 26 Dec 2013 12:41:58 +1000
+issue_824:
+  id: 824
+  id_jira: 19197
+  key: UCD-105
+  summary: ! '[New Way] Update prototype - add project list page and adjust other
+    pages.'
+  status: Resolved
+  updated: Thu, 26 Dec 2013 12:41:53 +1000
+issue_825:
+  id: 825
+  id_jira: 20988
+  key: UCD-119
+  summary: engineering portal mock-up
+  status: Resolved
+  updated: Thu, 26 Dec 2013 12:41:46 +1000
+issue_826:
+  id: 826
+  id_jira: 23968
+  key: HSSNAYENG-43
+  summary: ! '[Team] / [Individual] page organize / design communication . '
+  status: Done
+  updated: Thu, 26 Dec 2013 12:30:19 +1000
+issue_827:
+  id: 827
+  id_jira: 14616
+  key: STEP-444
+  summary: Reporting
+  status: Open
+  updated: Thu, 26 Dec 2013 12:27:35 +1000
+issue_828:
+  id: 828
+  id_jira: 14612
+  key: STEP-440
+  summary: Risk Management
+  status: Open
+  updated: Thu, 26 Dec 2013 12:26:52 +1000
+issue_829:
+  id: 829
+  id_jira: 20283
+  key: REVOK-41
+  summary: CSRF
+  status: To Do
+  updated: Thu, 26 Dec 2013 12:26:35 +1000
+issue_830:
+  id: 830
+  id_jira: 20257
+  key: REVOK-23
+  summary: SQLi report integration
+  status: In Progress
+  updated: Thu, 26 Dec 2013 12:26:28 +1000
+issue_831:
+  id: 831
+  id_jira: 20281
+  key: REVOK-39
+  summary: Make SQLi generic
+  status: In Progress
+  updated: Thu, 26 Dec 2013 12:26:26 +1000
+issue_832:
+  id: 832
+  id_jira: 19089
+  key: RHEVM-593
+  summary: FC support in Storage API
+  status: Resolved
+  updated: Wed, 25 Dec 2013 23:12:28 +1000
+issue_833:
+  id: 833
+  id_jira: 23622
+  key: TCMS-110
+  summary: ! '[QE] Deploy guide test.'
+  status: Done
+  updated: Wed, 25 Dec 2013 20:12:28 +1000
+issue_834:
+  id: 834
+  id_jira: 24543
+  key: RHEVM-824
+  summary: Add FC storage support to ART storage plug-in
+  status: Open
+  updated: Wed, 25 Dec 2013 19:48:35 +1000
+issue_835:
+  id: 835
+  id_jira: 20840
+  key: ADMIN-146
+  summary: Holiday Management on Confluence page
+  status: Open
+  updated: Wed, 25 Dec 2013 19:30:48 +1000
+issue_836:
+  id: 836
+  id_jira: 23751
+  key: UCD-130
+  summary: top 10 T-shirs
+  status: In Progress
+  updated: Wed, 25 Dec 2013 19:24:06 +1000
+issue_837:
+  id: 837
+  id_jira: 23449
+  key: UCD-127
+  summary: A plan of video+picture sharing website builting for Redhat( Internal Use
+    Only)
+  status: In Progress
+  updated: Wed, 25 Dec 2013 19:24:01 +1000
+issue_838:
+  id: 838
+  id_jira: 24250
+  key: MAITAI-1189
+  summary: The JBPM enterprise edition BPMS6.0 is not released yet
+  status: Open
+  updated: Wed, 25 Dec 2013 18:19:59 +1000
+issue_839:
+  id: 839
+  id_jira: 24332
+  key: MAITAI-1203
+  summary: Maitai 2.02  Deployment Request:Deploy maitai 2.02 stage and production
+  status: Open
+  updated: Wed, 25 Dec 2013 18:19:22 +1000
+issue_840:
+  id: 840
+  id_jira: 14114
+  key: STEP-399
+  summary: ! 'Develop knowledge beyond standard tasks - Evangelists '
+  status: Open
+  updated: Wed, 25 Dec 2013 18:12:37 +1000
+issue_841:
+  id: 841
+  id_jira: 14115
+  key: STEP-400
+  summary: Package the knowledge collected to provide to users
+  status: Open
+  updated: Wed, 25 Dec 2013 18:12:33 +1000
+issue_842:
+  id: 842
+  id_jira: 15064
+  key: ADMIN-62
+  summary: HSS(NAY) Training Record/Report maintainance
+  status: In Progress
+  updated: Wed, 25 Dec 2013 17:58:44 +1000
+issue_843:
+  id: 843
+  id_jira: 22034
+  key: TCMS-77
+  summary: ! '[Document] Code style'
+  status: Done
+  updated: Wed, 25 Dec 2013 17:40:24 +1000
+issue_844:
+  id: 844
+  id_jira: 24334
+  key: MAITAI-1204
+  summary: Maitai 2.03  Deployment Request:Deploy maitai 2.03 stage and production
+  status: Open
+  updated: Wed, 25 Dec 2013 17:37:26 +1000
+issue_845:
+  id: 845
+  id_jira: 24337
+  key: MAITAI-1206
+  summary: Maitai 2.05 Deployment Request:Deploy maitai 2.05 stage and production
+  status: Open
+  updated: Wed, 25 Dec 2013 17:37:26 +1000
+issue_846:
+  id: 846
+  id_jira: 24318
+  key: MAITAI-1195
+  summary: Maitai 2.01 testing env ready
+  status: Resolved
+  updated: Wed, 25 Dec 2013 17:37:26 +1000
+issue_847:
+  id: 847
+  id_jira: 24335
+  key: MAITAI-1205
+  summary: Maitai 2.04  Deployment Request:Deploy maitai 2.04 stage and production
+  status: Open
+  updated: Wed, 25 Dec 2013 17:37:26 +1000
+issue_848:
+  id: 848
+  id_jira: 24325
+  key: MAITAI-1201
+  summary: ! 'Maitai 0.16  deployment reqeust : stage and production deployment upgrade'
+  status: Open
+  updated: Wed, 25 Dec 2013 17:37:24 +1000
+issue_849:
+  id: 849
+  id_jira: 24319
+  key: MAITAI-1196
+  summary: Maitai 2.01  Deployment Request:Deploy BPMS6.0 upgrade as maitai 2.01
+  status: Open
+  updated: Wed, 25 Dec 2013 17:37:23 +1000
+issue_850:
+  id: 850
+  id_jira: 24064
+  key: MAITAI-1183
+  summary: Maitai  Server request:Please apply a stage server and a product server
+    for maitai 2.01
+  status: Open
+  updated: Wed, 25 Dec 2013 17:37:22 +1000
+issue_851:
+  id: 851
+  id_jira: 24502
+  key: MAITAI-1246
+  summary: Merge into master
+  status: Resolved
+  updated: Wed, 25 Dec 2013 16:44:09 +1000
+issue_852:
+  id: 852
+  id_jira: 24537
+  key: ADMIN-181
+  summary: jira portfolio add-on research
+  status: Open
+  updated: Wed, 25 Dec 2013 16:35:17 +1000
+issue_853:
+  id: 853
+  id_jira: 24417
+  key: MAITAI-1222
+  summary: ! 'Review selenium test '
+  status: Resolved
+  updated: Wed, 25 Dec 2013 15:28:54 +1000
+issue_854:
+  id: 854
+  id_jira: 24418
+  key: MAITAI-1224
+  summary: Review arquillian test
+  status: Resolved
+  updated: Wed, 25 Dec 2013 15:27:03 +1000
+issue_855:
+  id: 855
+  id_jira: 24416
+  key: MAITAI-1221
+  summary: Update bpmn2 file
+  status: Resolved
+  updated: Wed, 25 Dec 2013 15:26:36 +1000
+issue_856:
+  id: 856
+  id_jira: 24536
+  key: MAITAI-1258
+  summary: Doc - user guide - Process request prcess uesr guide
+  status: Open
+  updated: Wed, 25 Dec 2013 15:21:29 +1000
+issue_857:
+  id: 857
+  id_jira: 24488
+  key: MAITAI-1242
+  summary: QE test
+  status: Resolved
+  updated: Wed, 25 Dec 2013 15:04:27 +1000
+issue_858:
+  id: 858
+  id_jira: 24534
+  key: MAITAI-1256
+  summary: Process Request Process Development
+  status: Open
+  updated: Wed, 25 Dec 2013 14:57:11 +1000
+issue_859:
+  id: 859
+  id_jira: 24505
+  key: MAITAI-1247
+  summary: merger UI theme
+  status: Open
+  updated: Wed, 25 Dec 2013 13:33:47 +1000
+issue_860:
+  id: 860
+  id_jira: 24477
+  key: MAITAI-1231
+  summary: Maitai BPMS
+  status: Open
+  updated: Wed, 25 Dec 2013 13:27:59 +1000
+issue_861:
+  id: 861
+  id_jira: 24328
+  key: MAITAI-1202
+  summary: ! 'Maitai 0.17  deployment reqeust : stage and production deployment upgrade'
+  status: Open
+  updated: Wed, 25 Dec 2013 13:26:12 +1000
+issue_862:
+  id: 862
+  id_jira: 24485
+  key: MAITAI-1239
+  summary: Process Request Process
+  status: Open
+  updated: Wed, 25 Dec 2013 13:25:45 +1000
+issue_863:
+  id: 863
+  id_jira: 24523
+  key: MAITAI-1253
+  summary: Release Note
+  status: Open
+  updated: Wed, 25 Dec 2013 12:51:05 +1000
+issue_864:
+  id: 864
+  id_jira: 24522
+  key: MAITAI-1252
+  summary: QE Test
+  status: Open
+  updated: Wed, 25 Dec 2013 12:41:29 +1000
+issue_865:
+  id: 865
+  id_jira: 24352
+  key: PW-222
+  summary: design of package review state transition
+  status: In Progress
+  updated: Wed, 25 Dec 2013 12:28:20 +1000
+issue_866:
+  id: 866
+  id_jira: 24387
+  key: RHEVM-822
+  summary: ! 'DB Analyser: add queries about memory usage'
+  status: Resolved
+  updated: Wed, 25 Dec 2013 02:10:17 +1000
+issue_867:
+  id: 867
+  id_jira: 24512
+  key: RHS-313
+  summary: ! 'Bug 1040055: rhs-samba.conf does not have "max protocol = SMB2" on fresh
+    RHS2.1U1 installations'
+  status: Done
+  updated: Wed, 25 Dec 2013 00:33:23 +1000
+issue_868:
+  id: 868
+  id_jira: 24514
+  key: RHS-315
+  summary: Fix and make a new build
+  status: Done
+  updated: Wed, 25 Dec 2013 00:19:56 +1000
+issue_869:
+  id: 869
+  id_jira: 24513
+  key: RHS-314
+  summary: ! 'Debug why latest buiild did not have the changes '
+  status: Done
+  updated: Wed, 25 Dec 2013 00:13:42 +1000
+issue_870:
+  id: 870
+  id_jira: 18880
+  key: RHEVM-572
+  summary: ! 'Unittest: Write Required feature in unittest'
+  status: Blocked
+  updated: Tue, 24 Dec 2013 23:41:49 +1000
+issue_871:
+  id: 871
+  id_jira: 18221
+  key: RHEVM-511
+  summary: Go over migation TCMS plan
+  status: Resolved
+  updated: Tue, 24 Dec 2013 23:40:24 +1000
+issue_872:
+  id: 872
+  id_jira: 18631
+  key: RHEVM-554
+  summary: Fix io_test - split the "createAndAttachNetworkSN" to specific functions
+  status: Resolved
+  updated: Tue, 24 Dec 2013 23:39:59 +1000
+issue_873:
+  id: 873
+  id_jira: 19246
+  key: RHEVM-611
+  summary: ! 'Automation: Fix linking unittest job'
+  status: Resolved
+  updated: Tue, 24 Dec 2013 23:34:39 +1000
+issue_874:
+  id: 874
+  id_jira: 20021
+  key: RHEVM-651
+  summary: ! 'Automation: Improve Network migration feature'
+  status: Resolved
+  updated: Tue, 24 Dec 2013 23:31:28 +1000
+issue_875:
+  id: 875
+  id_jira: 24291
+  key: RHS-266
+  summary: ! 'Bug 1027559 - AFR: self-heal daemon crawler not obeying the ''cluster.heal-timeout''
+    time interval'
+  status: Done
+  updated: Tue, 24 Dec 2013 20:23:06 +1000
+issue_876:
+  id: 876
+  id_jira: 24329
+  key: RHS-287
+  summary: Verify bug 1027559
+  status: Done
+  updated: Tue, 24 Dec 2013 20:19:49 +1000
+issue_877:
+  id: 877
+  id_jira: 24494
+  key: HSSCOMFUNC-448
+  summary: ! '[QE]get Ticket Trend data'
+  status: Done
+  updated: Tue, 24 Dec 2013 20:04:14 +1000
+issue_878:
+  id: 878
+  id_jira: 24507
+  key: PW-225
+  summary: Support  Middleware non-rpm imports
+  status: To Do
+  updated: Tue, 24 Dec 2013 20:03:38 +1000
+issue_879:
+  id: 879
+  id_jira: 24278
+  key: HSSCOMFUNC-414
+  summary: Automation API develop
+  status: Done
+  updated: Tue, 24 Dec 2013 20:00:43 +1000
+issue_880:
+  id: 880
+  id_jira: 23621
+  key: TCMS-109
+  summary: ! '[QE] Bug verify and daily testing.'
+  status: Done
+  updated: Tue, 24 Dec 2013 19:56:43 +1000
+issue_881:
+  id: 881
+  id_jira: 22549
+  key: RT-268
+  summary: Show tasks in confluence page
+  status: Done
+  updated: Tue, 24 Dec 2013 19:22:59 +1000
+issue_882:
+  id: 882
+  id_jira: 24261
+  key: RT-285
+  summary: Code Freeze and Deployment Requested
+  status: Done
+  updated: Tue, 24 Dec 2013 19:18:46 +1000
+issue_883:
+  id: 883
+  id_jira: 23833
+  key: ADMIN-179
+  summary: Topic Share-ltian-Harvester2.0 introduction
+  status: Resolved
+  updated: Tue, 24 Dec 2013 19:08:56 +1000
+issue_884:
+  id: 884
+  id_jira: 24470
+  key: HDS-516
+  summary: Detail API
+  status: To Do
+  updated: Tue, 24 Dec 2013 18:59:31 +1000
+issue_885:
+  id: 885
+  id_jira: 24489
+  key: MAITAI-1243
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 18:38:00 +1000
+issue_886:
+  id: 886
+  id_jira: 24344
+  key: PW-219
+  summary: design concerns clean up [qwan]
+  status: Done
+  updated: Tue, 24 Dec 2013 18:37:33 +1000
+issue_887:
+  id: 887
+  id_jira: 17101
+  key: BKR-229
+  summary: BZ#1011400 500 Server Error when running 'bkr policy-grant' to wrong group/user
+  status: Done
+  updated: Tue, 24 Dec 2013 18:21:42 +1000
+issue_888:
+  id: 888
+  id_jira: 24281
+  key: BKR-489
+  summary: Verify BZ#1011400
+  status: Done
+  updated: Tue, 24 Dec 2013 18:21:38 +1000
+issue_889:
+  id: 889
+  id_jira: 23487
+  key: TCMS-104
+  summary: ! '[Document] Add user guide to document structure'
+  status: Done
+  updated: Tue, 24 Dec 2013 17:53:31 +1000
+issue_890:
+  id: 890
+  id_jira: 24279
+  key: RHEVM-819
+  summary: ! 'Test rhel-guest-image (6.5-20131220.3) '
+  status: Resolved
+  updated: Tue, 24 Dec 2013 17:51:51 +1000
+issue_891:
+  id: 891
+  id_jira: 24496
+  key: HSSNAYENG-54
+  summary: Help UI team build DEV Env.
+  status: Done
+  updated: Tue, 24 Dec 2013 17:36:12 +1000
+issue_892:
+  id: 892
+  id_jira: 24055
+  key: HSSNAYENG-53
+  summary: ! 'Support eng-ops for the deployment '
+  status: To Do
+  updated: Tue, 24 Dec 2013 17:35:34 +1000
+issue_893:
+  id: 893
+  id_jira: 19348
+  key: STEP-697
+  summary: ! 'Deployment Request: STEP V0.4'
+  status: Closed
+  updated: Tue, 24 Dec 2013 17:26:07 +1000
+issue_894:
+  id: 894
+  id_jira: 23840
+  key: CON-832
+  summary: PP source system analysis-Dimension,Measure,Indicators,Calculation method
+  status: Resolved
+  updated: Tue, 24 Dec 2013 17:02:12 +1000
+issue_895:
+  id: 895
+  id_jira: 24280
+  key: HSSCOMFUNC-415
+  summary: ! '[QE]Provide all API requirement for charnet automation work'
+  status: To Do
+  updated: Tue, 24 Dec 2013 15:13:15 +1000
+issue_896:
+  id: 896
+  id_jira: 24010
+  key: PROD-117
+  summary: adjust the Orgchart logic to resolve the Orgchart_History.xls file increase
+    a new column
+  status: Closed
+  updated: Tue, 24 Dec 2013 14:57:36 +1000
+issue_897:
+  id: 897
+  id_jira: 22287
+  key: HSSAR-4
+  summary: SOA-Messaging Implementation Estimation by SED-CN
+  status: To Do
+  updated: Tue, 24 Dec 2013 14:46:37 +1000
+issue_898:
+  id: 898
+  id_jira: 17578
+  key: BKR-282
+  summary: BZ#1014438 Improve layout of system details page
+  status: In Progress
+  updated: Tue, 24 Dec 2013 13:59:48 +1000
+issue_899:
+  id: 899
+  id_jira: 24321
+  key: MAITAI-1197
+  summary: maitai Communication Plan
+  status: Open
+  updated: Tue, 24 Dec 2013 13:43:01 +1000
+issue_900:
+  id: 900
+  id_jira: 24316
+  key: MAITAI-1194
+  summary: Eng-Ops Readiness
+  status: Open
+  updated: Tue, 24 Dec 2013 13:43:00 +1000
+issue_901:
+  id: 901
+  id_jira: 21019
+  key: MAITAI-1097
+  summary: ! '[RFE]Package Request for RHEL 6: Update to 6.6'
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:58 +1000
+issue_902:
+  id: 902
+  id_jira: 24076
+  key: MAITAI-1185
+  summary: Rule for Solution Architects team
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:54 +1000
+issue_903:
+  id: 903
+  id_jira: 24069
+  key: MAITAI-1184
+  summary: Deploy maitai-2.0 on stage and product environment servers
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:51 +1000
+issue_904:
+  id: 904
+  id_jira: 23826
+  key: MAITAI-1179
+  summary: Yes/No text before 'Review Legal Issue' task should shown on plp5/plp7
+    process diagram.
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:46 +1000
+issue_905:
+  id: 905
+  id_jira: 23846
+  key: MAITAI-1180
+  summary: JIRA/Maillist
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:40 +1000
+issue_906:
+  id: 906
+  id_jira: 23638
+  key: MAITAI-1170
+  summary: Be familiar with the project and learn about the work flow
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:39 +1000
+issue_907:
+  id: 907
+  id_jira: 23637
+  key: MAITAI-1169
+  summary: Review the backlog issues
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:39 +1000
+issue_908:
+  id: 908
+  id_jira: 23636
+  key: MAITAI-1168
+  summary: Source Code Repo
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:39 +1000
+issue_909:
+  id: 909
+  id_jira: 23635
+  key: MAITAI-1167
+  summary: Devel environment
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:39 +1000
+issue_910:
+  id: 910
+  id_jira: 23804
+  key: MAITAI-1178
+  summary: database change log by Liquibase
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:39 +1000
+issue_911:
+  id: 911
+  id_jira: 23634
+  key: MAITAI-1166
+  summary: Requirement/Roadmap
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:38 +1000
+issue_912:
+  id: 912
+  id_jira: 23633
+  key: MAITAI-1165
+  summary: Review docs
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:38 +1000
+issue_913:
+  id: 913
+  id_jira: 23632
+  key: MAITAI-1164
+  summary: ! 'Maitai handover '
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:37 +1000
+issue_914:
+  id: 914
+  id_jira: 23608
+  key: MAITAI-1163
+  summary: ! '[RFE] The branch before Review legal Issue task should not shown in
+    plp 5 process diagram.'
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:34 +1000
+issue_915:
+  id: 915
+  id_jira: 23607
+  key: MAITAI-1162
+  summary: The active tasks on plp6 diagram on process instance page are incorrect.
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:33 +1000
+issue_916:
+  id: 916
+  id_jira: 23699
+  key: MAITAI-1171
+  summary: Investigation and fix
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:31 +1000
+issue_917:
+  id: 917
+  id_jira: 23706
+  key: MAITAI-1175
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:31 +1000
+issue_918:
+  id: 918
+  id_jira: 22708
+  key: MAITAI-1148
+  summary: ! 'RFE: Package Request for RHEL: Increase release version in Admin tab'
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:30 +1000
+issue_919:
+  id: 919
+  id_jira: 23719
+  key: MAITAI-1176
+  summary: Maitai shows Error in UI
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:30 +1000
+issue_920:
+  id: 920
+  id_jira: 23703
+  key: MAITAI-1173
+  summary: Update version to report a bug
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:30 +1000
+issue_921:
+  id: 921
+  id_jira: 23245
+  key: MAITAI-1152
+  summary: Update and verify production
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:29 +1000
+issue_922:
+  id: 922
+  id_jira: 23244
+  key: MAITAI-1151
+  summary: Update and verify stage
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:29 +1000
+issue_923:
+  id: 923
+  id_jira: 23246
+  key: MAITAI-1153
+  summary: Send annoucement  and post on confluence
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:29 +1000
+issue_924:
+  id: 924
+  id_jira: 23588
+  key: MAITAI-1161
+  summary: Import dependencies to MEAD
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:29 +1000
+issue_925:
+  id: 925
+  id_jira: 23247
+  key: MAITAI-1154
+  summary: Release from master
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:29 +1000
+issue_926:
+  id: 926
+  id_jira: 23242
+  key: MAITAI-1149
+  summary: Create release annoucement
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:28 +1000
+issue_927:
+  id: 927
+  id_jira: 23243
+  key: MAITAI-1150
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:28 +1000
+issue_928:
+  id: 928
+  id_jira: 22622
+  key: MAITAI-1142
+  summary: ! 'Package Request for RHEL: Bookmarks are not working on latest Firefox'
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:27 +1000
+issue_929:
+  id: 929
+  id_jira: 22658
+  key: MAITAI-1146
+  summary: Release Maitai 0.14
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:27 +1000
+issue_930:
+  id: 930
+  id_jira: 22543
+  key: MAITAI-1138
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:26 +1000
+issue_931:
+  id: 931
+  id_jira: 23267
+  key: MAITAI-1159
+  summary: Create unit test
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:26 +1000
+issue_932:
+  id: 932
+  id_jira: 22523
+  key: MAITAI-1136
+  summary: Update PLP5
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:26 +1000
+issue_933:
+  id: 933
+  id_jira: 22522
+  key: MAITAI-1135
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:26 +1000
+issue_934:
+  id: 934
+  id_jira: 22524
+  key: MAITAI-1137
+  summary: Update PLP6
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:26 +1000
+issue_935:
+  id: 935
+  id_jira: 22064
+  key: MAITAI-1106
+  summary: The permission related validation message should be shown consistent.
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:25 +1000
+issue_936:
+  id: 936
+  id_jira: 22261
+  key: MAITAI-1118
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:25 +1000
+issue_937:
+  id: 937
+  id_jira: 22081
+  key: MAITAI-1111
+  summary: Fix resource class and tests
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:25 +1000
+issue_938:
+  id: 938
+  id_jira: 22082
+  key: MAITAI-1112
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:25 +1000
+issue_939:
+  id: 939
+  id_jira: 22520
+  key: MAITAI-1134
+  summary: Create Bugzilla component for PLP RHEL6 and RHEL5
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:25 +1000
+issue_940:
+  id: 940
+  id_jira: 22042
+  key: MAITAI-1104
+  summary: ! '[RFE] There is no horizontal bar to let user see full diagram when maximize
+    the page shown more than 100%'
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:22 +1000
+issue_941:
+  id: 941
+  id_jira: 22041
+  key: MAITAI-1103
+  summary: Validate package name in PLP
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:21 +1000
+issue_942:
+  id: 942
+  id_jira: 22260
+  key: MAITAI-1117
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:21 +1000
+issue_943:
+  id: 943
+  id_jira: 22080
+  key: MAITAI-1110
+  summary: Add valitation to start PLP process ftl
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:21 +1000
+issue_944:
+  id: 944
+  id_jira: 22079
+  key: MAITAI-1109
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:20 +1000
+issue_945:
+  id: 945
+  id_jira: 21980
+  key: MAITAI-1100
+  summary: ! '[WebUI] The Package Request for RHEL 7 diagram can not shown completely
+    when 100% shown on page layout.'
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:18 +1000
+issue_946:
+  id: 946
+  id_jira: 21994
+  key: MAITAI-1101
+  summary: Adding GPS Platform profile to FLS New Hire Task
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:18 +1000
+issue_947:
+  id: 947
+  id_jira: 20897
+  key: MAITAI-1090
+  summary: Review developer guide
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:16 +1000
+issue_948:
+  id: 948
+  id_jira: 22078
+  key: MAITAI-1108
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:16 +1000
+issue_949:
+  id: 949
+  id_jira: 21018
+  key: MAITAI-1096
+  summary: ! '[RFE]Package Request for RHEL 5: Update to 5.11'
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:16 +1000
+issue_950:
+  id: 950
+  id_jira: 22258
+  key: MAITAI-1116
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:16 +1000
+issue_951:
+  id: 951
+  id_jira: 20891
+  key: MAITAI-1085
+  summary: Review roadmap document
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:15 +1000
+issue_952:
+  id: 952
+  id_jira: 22077
+  key: MAITAI-1107
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:15 +1000
+issue_953:
+  id: 953
+  id_jira: 22256
+  key: MAITAI-1115
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:15 +1000
+issue_954:
+  id: 954
+  id_jira: 20965
+  key: MAITAI-1092
+  summary: Update developer guide
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:14 +1000
+issue_955:
+  id: 955
+  id_jira: 20896
+  key: MAITAI-1089
+  summary: Document test guidelines
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:13 +1000
+issue_956:
+  id: 956
+  id_jira: 20895
+  key: MAITAI-1088
+  summary: Update document
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:13 +1000
+issue_957:
+  id: 957
+  id_jira: 20894
+  key: MAITAI-1087
+  summary: Review document
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:13 +1000
+issue_958:
+  id: 958
+  id_jira: 20814
+  key: MAITAI-1084
+  summary: New PO is not included in PO list when task with no initial owner is re-assigned
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:12 +1000
+issue_959:
+  id: 959
+  id_jira: 20771
+  key: MAITAI-1082
+  summary: Wide space looks improper between Diagram title and Diagram for PLP 7 process
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:09 +1000
+issue_960:
+  id: 960
+  id_jira: 20775
+  key: MAITAI-1083
+  summary: Maitai Comms EPIC
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:09 +1000
+issue_961:
+  id: 961
+  id_jira: 20770
+  key: MAITAI-1081
+  summary: Different Bugzilla URL between task detail page and RT ticket content.
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:05 +1000
+issue_962:
+  id: 962
+  id_jira: 20724
+  key: MAITAI-1078
+  summary: ! '[US908] Exception ''Failure'' nsresult... should not shown on the page
+    right area after PM Review task is completed for RHEL 7 process.'
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:04 +1000
+issue_963:
+  id: 963
+  id_jira: 20459
+  key: MAITAI-1057
+  summary: ! '[RFE]Change "Date Started" to "Started Since Date" or "Started After"'
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:03 +1000
+issue_964:
+  id: 964
+  id_jira: 20486
+  key: MAITAI-1058
+  summary: ! '[US238] Two same tickets are created in RT after the first time QE Review
+    tasks is done for PLP7 with external bug.'
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:03 +1000
+issue_965:
+  id: 965
+  id_jira: 20506
+  key: MAITAI-1059
+  summary: ! 'Package Request for RHEL 7: Tasks not assigned to Package Maintainer'
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:03 +1000
+issue_966:
+  id: 966
+  id_jira: 20235
+  key: MAITAI-1051
+  summary: Migrate NodeId to UniqueId
+  status: Open
+  updated: Tue, 24 Dec 2013 13:42:02 +1000
+issue_967:
+  id: 967
+  id_jira: 19923
+  key: MAITAI-1037
+  summary: ! 'RFE: Package Request for RHEL6 and 5: create selinux-policy bug report'
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:01 +1000
+issue_968:
+  id: 968
+  id_jira: 22410
+  key: MAITAI-1131
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:01 +1000
+issue_969:
+  id: 969
+  id_jira: 22388
+  key: MAITAI-1126
+  summary: Update Arquillian tests
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:01 +1000
+issue_970:
+  id: 970
+  id_jira: 22386
+  key: MAITAI-1124
+  summary: Update Selenium tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:01 +1000
+issue_971:
+  id: 971
+  id_jira: 23264
+  key: MAITAI-1156
+  summary: Create unit test
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:01 +1000
+issue_972:
+  id: 972
+  id_jira: 22387
+  key: MAITAI-1125
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:01 +1000
+issue_973:
+  id: 973
+  id_jira: 22385
+  key: MAITAI-1123
+  summary: Update BPMN2
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:01 +1000
+issue_974:
+  id: 974
+  id_jira: 22394
+  key: MAITAI-1130
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:00 +1000
+issue_975:
+  id: 975
+  id_jira: 22384
+  key: MAITAI-1122
+  summary: Update Selenium tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:00 +1000
+issue_976:
+  id: 976
+  id_jira: 22383
+  key: MAITAI-1121
+  summary: Update Arquillian test
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:00 +1000
+issue_977:
+  id: 977
+  id_jira: 23263
+  key: MAITAI-1155
+  summary: Create unit test
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:42:00 +1000
+issue_978:
+  id: 978
+  id_jira: 22381
+  key: MAITAI-1119
+  summary: QE tests
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:00 +1000
+issue_979:
+  id: 979
+  id_jira: 22382
+  key: MAITAI-1120
+  summary: Update BPMN2
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:42:00 +1000
+issue_980:
+  id: 980
+  id_jira: 19921
+  key: MAITAI-1036
+  summary: ! 'RFE: Package Request for RHEL6 and 5: create installer bug report'
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:59 +1000
+issue_981:
+  id: 981
+  id_jira: 19847
+  key: MAITAI-1008
+  summary: Restore HSS New Hire processes on production
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:59 +1000
+issue_982:
+  id: 982
+  id_jira: 19898
+  key: MAITAI-1024
+  summary: Review fix to make it generic
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:59 +1000
+issue_983:
+  id: 983
+  id_jira: 19899
+  key: MAITAI-1025
+  summary: Merge into master
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:59 +1000
+issue_984:
+  id: 984
+  id_jira: 19846
+  key: MAITAI-1007
+  summary: Investigate and fix unstable tests on Jenkins
+  status: Open
+  updated: Tue, 24 Dec 2013 13:41:58 +1000
+issue_985:
+  id: 985
+  id_jira: 20227
+  key: MAITAI-1050
+  summary: Investigate and fix Selenium Test failure
+  status: Open
+  updated: Tue, 24 Dec 2013 13:41:58 +1000
+issue_986:
+  id: 986
+  id_jira: 19963
+  key: MAITAI-1040
+  summary: Investigate and fix Arquillian Test failure
+  status: In Progress
+  updated: Tue, 24 Dec 2013 13:41:58 +1000
+issue_987:
+  id: 987
+  id_jira: 19824
+  key: MAITAI-1004
+  summary: Create Permission matrix document
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:58 +1000
+issue_988:
+  id: 988
+  id_jira: 19717
+  key: MAITAI-999
+  summary: Send annoucement and post on confluence
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:56 +1000
+issue_989:
+  id: 989
+  id_jira: 19714
+  key: MAITAI-996
+  summary: Verify fix using production data
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:56 +1000
+issue_990:
+  id: 990
+  id_jira: 19715
+  key: MAITAI-997
+  summary: Merge hotfix branch into master
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:56 +1000
+issue_991:
+  id: 991
+  id_jira: 19716
+  key: MAITAI-998
+  summary: Create release annoucement
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:56 +1000
+issue_992:
+  id: 992
+  id_jira: 19718
+  key: MAITAI-1000
+  summary: Change JIRA version id on feedback.js
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:56 +1000
+issue_993:
+  id: 993
+  id_jira: 19710
+  key: MAITAI-992
+  summary: Release Maitai 0.12.1
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:55 +1000
+issue_994:
+  id: 994
+  id_jira: 19711
+  key: MAITAI-993
+  summary: Release from hot fix branch
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:55 +1000
+issue_995:
+  id: 995
+  id_jira: 19713
+  key: MAITAI-995
+  summary: Update and Verify production
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:55 +1000
+issue_996:
+  id: 996
+  id_jira: 19712
+  key: MAITAI-994
+  summary: Update and Verify state
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:55 +1000
+issue_997:
+  id: 997
+  id_jira: 22425
+  key: MAITAI-1132
+  summary: Review test case
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:54 +1000
+issue_998:
+  id: 998
+  id_jira: 19438
+  key: MAITAI-981
+  summary: Update PLP RHEL6 BPMN2
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:54 +1000
+issue_999:
+  id: 999
+  id_jira: 19437
+  key: MAITAI-980
+  summary: Update PLP RHEL5 BPMN2
+  status: Resolved
+  updated: Tue, 24 Dec 2013 13:41:54 +1000
+issue_1000:
+  id: 1000
+  id_jira: 23265
+  key: MAITAI-1157
+  summary: Create unit test
+  status: Closed
+  updated: Tue, 24 Dec 2013 13:41:54 +1000
+issue_1010:
+  id: 1010
+  id_jira: 23275
+  key: TST-456
+  summary: Ambiguous with bug 698076
+  status: Open
+  updated: Tue, 25 Dec 2013 13:41:54 +1000
+jira_issue_1069:
+  id: 1069
+  jira_security_level_id:
+  priority: Major
+  key: WFLY-1477
+  status: Open
+  id_jira: 12493868
+  summary: JACC HttpServletRequestPolicyContextHandler removal on single application undeploy impacting all other deployed applications
+  updated: 2013-06-10T23:29:02+00:00
+  labels: ! '["domain","jaas","jboss","jbossweb","login","module","Security"]'
+jira_issue_1070:
+  id: 1070
+  jira_security_level_id:
+  priority: Major
+  key: WFLY-326
+  status: Open
+  id_jira: 12465378
+  summary: Logout a remote client from server and clearing login module cache.
+  updated: 2013-04-24T10:29:27+00:00
+  labels: ! '["Remoting_Management","jboss-as7","login-module","logout","remoting","Security"]'
+jira_issue_1071:
+  id: 1071
+  jira_security_level_id:
+  priority: Major
+  key: WFLY-131
+  status: Coding In Progress
+  id_jira: 12486803
+  summary: Seam2Processor will not have permissions to its added resource loader
+  updated: 2013-07-18T05:10:37+00:00
+  labels: ! '["security"]'
+jira_issue_1072:
+  id: 1072
+  jira_security_level_id:
+  key: WFK2-139
+  status: Closed
+  id_jira: 12497979
+  summary: deltaspike-beanbuilder and kitchensink-deltaspike show JPA warning in JBDS 7
+  updated: 2014-06-20T19:36:04+00:00
+  labels: ! '["Security","SecurityTracking","deltaspike","quickstart","security"]'
+jira_issue_1073:
+  id: 1073
+  jira_security_level_id:
+  priority: Major
+  key: TORQUE-521
+  status: Closed
+  id_jira: 12443639
+  summary: Allow auth to use LoginModules other than UsersRoles
+  updated: 2011-08-09T14:58:37+00:00
+  labels: ! '["authentication","security"]'
+jira_issue_1074:
+  id: 1074
+  jira_security_level_id:
+  priority: Major
+  key: TEIID-1672
+  status: Closed
+  id_jira: 12441742
+  summary: Log client IP Address when Session is created
+  updated: 2011-08-17T14:35:48+00:00
+  labels: ! '["security"]'
+jira_issue_1075:
+  id: 1075
+  jira_security_level_id:
+  priority: Major
+  key: TEIID-952
+  status: Closed
+  id_jira: 12404560
+  summary: Column level security capabilities
+  updated: 2011-08-01T16:06:12+00:00
+  labels: ! '["security"]'
+jira_issue_1076:
+  id: 1076
+  jira_security_level_id:
+  priority: Minor
+  key: TASKOTRON-1234
+  status: Open
+  id_jira: 12404567
+  summary: Test JIRA item
+  updated: 2015-10-07T12:00:00+00:00
+jira_issue_1077:
+  id: 1077
+  jira_security_level_id:
+  priority: Minor
+  key: ABC_2-1234
+  status: Open
+  id_jira: 12504567
+  summary: Test JIRA item 2
+  updated: 2015-10-14T12:00:00+00:00

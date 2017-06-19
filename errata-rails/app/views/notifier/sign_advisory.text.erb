@@ -1,0 +1,17 @@
+This has been sent to notify you that this errata needs to be appoved and
+signed before mailing out. Once the errata is satisfactory you can accomplish
+this by running:
+
+porkchop:/mnt/redhat/errata/signadvisory <%= @errata.fulladvisory %>
+
+If you don't specify --to, --cc or --bcc then it looks up the errata type
+(enterprise or not) and sets the right defaults.
+
+It makes sure the errata is complete, grabs the current errata text, signs
+it (enter the passphrase), then displays the result and the list of
+addresses it's about to send to.  If you're happy you tell it to go ahead
+and it emails them out.
+
+--- Errata Text ---
+
+<%= @text.html_safe %>

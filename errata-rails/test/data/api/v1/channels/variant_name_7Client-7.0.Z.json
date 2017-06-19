@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "name": "rhel-x86_64-client-7",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1013,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 699,
+            "name": "7Client"
+          },
+          {
+            "id": 1024,
+            "name": "7Client-7.1.Z"
+          },
+          {
+            "id": 842,
+            "name": "7Client-7.0.Z"
+          }
+        ]
+      },
+      "type": "channels"
+    }
+  ]
+}

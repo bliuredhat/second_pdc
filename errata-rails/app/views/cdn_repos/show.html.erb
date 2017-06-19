@@ -1,0 +1,6 @@
+<% if @cdn_repo.supports_package_mappings? %>
+  <%= javascript_include_tag 'package_show' %>
+  <%= render 'shared/mgmt_object', :tabs => [[:packages, 'Packages', render('packages')]] %>
+<% else %>
+  <%= render 'shared/mgmt_object', :parent => @parent %>
+<% end %>

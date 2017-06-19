@@ -1,0 +1,23 @@
+{
+  "data": {
+    "attributes": {
+      "name": "rhel-aarch64-server-7",
+      "release_type": "Primary",
+      "use_for_tps": false
+    },
+    "id": 1350,
+    "relationships": {
+      "arch": {
+        "id": 26,
+        "name": "aarch64"
+      },
+      "variants": [
+        {
+          "id": 1039,
+          "name": "7Server-SA-7.1.Z"
+        }
+      ]
+    },
+    "type": "channels"
+  }
+}

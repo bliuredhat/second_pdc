@@ -1,0 +1,24 @@
+<h2>Advisories Needing Attention</h2>
+
+<table class="bug_list bug_list_big">
+  <tr>
+    <th>Blocked in <%=raw state_display(State::QE, :short=>true) %></th>
+    <th>Blocked in <%=raw state_display(State::NEW_FILES, :short=>true) %></th>
+    <th>Blocked in <%=raw state_display(State::REL_PREP, :short=>true) %></th>
+    <th>RPM Diff Failures</th>
+  </tr>
+  <% [*0...@max].each do |i| %>
+    <tr class="<%= cycle('bz_even', 'bz_odd') %>">
+      <%
+        need_qe = @errata_stats[State::QE][i]
+        need_dev = @errata_stats[State::NEW_FILES][i]
+        need_releng = @errata_stats[State::REL_PREP][i]
+        rpmdiff_failure = @rpmdiff_failures[i]
+      %>
+      <td><% if need_qe     %> <%= errata_link(need_qe[:errata]) %>     for <%= need_qe[:age]     %><% end %></td>
+      <td><% if need_dev    %> <%= errata_link(need_dev[:errata]) %>    for <%= need_dev[:age]    %><% end %></td>
+      <td><% if need_releng %> <%= errata_link(need_releng[:errata]) %> for <%= need_releng[:age] %><% end %></td>
+      <td><% if rpmdiff_failure %> <%= rpmdiff_run_link(rpmdiff_failure[:run], rpmdiff_failure[:errata].advisory_name + ' ' + rpmdiff_failure[:errata].status.to_s) %> <% end %></td>
+    </tr>
+  <% end %>
+</table>

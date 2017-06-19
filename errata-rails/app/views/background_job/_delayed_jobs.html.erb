@@ -1,0 +1,19 @@
+<% row_func = lambda do |job|
+  [link_to(job.id, :controller=>:background_job, :action=>:job, :id=>job.id) ,
+   "#{job.priority}",
+   (job.run_at ? "#{long_date(job.run_at)}<br/>(#{time_ago_future_or_past(job.run_at, true)})".html_safe : '-'),
+   (job.updated_at ? "#{long_date(job.updated_at)}<br/>(#{time_ago_future_or_past(job.updated_at, true)})".html_safe : '-'),
+   h(string_trunc(job.task_name, 120)),
+   "#{job.status}"
+  ]
+end
+%>
+<div id='delayed_jobs' class='section_content'>
+<%= render(:partial => "shared/bz_table", :locals =>
+        {
+                :headers => ['ID' ,'Priority', 'Next Run', 'Last Updated', 'Handler','Status'],
+                :func => row_func,
+                :row_items => delayed_jobs
+        })
+%>
+</div>

@@ -1,0 +1,6 @@
+<span id="program_manager_list"><%=
+  # Ideally we would use chozen.js for this dropdown since it's very long.
+  current_id = @release.program_manager_id
+  candidates = User.enabled_or_current(current_id).by_name
+  select(:release, :program_manager_id, options_from_collection_for_select(candidates, :id, :short_to_s, current_id), :include_blank => '---NONE---')
+%></span>

@@ -1,0 +1,39 @@
+[errata] Update stage and production Errata Tool to <%= ver_rel %>
+
+ET Stage: [errata-web-01.host.stage.eng.bos.redhat.com|https://errata-web-01.host.stage.eng.bos.redhat.com/errata]
+ET Prod: [errata.devel.redhat.com|https://errata.devel.redhat.com/errata]
+
+Please paste the output from the ansible playbook runs in this task, either directly or using a pastebin.
+
+h2. Details
+
+NVR: <%= nvr %>
+
+Brew build: [<%= brew_build_id %>|https://brewweb.engineering.redhat.com/brew/buildinfo?buildID=<%= brew_build_id %>]
+
+Config changes: none
+
+New dependencies: none
+
+Additional instructions: none
+
+h2. Install Procedure
+
+The deploy process is described in [more detail here|https://docs.engineering.redhat.com/x/exuPAg] so please refer to that documentation in addition to the brief instructions provided here.
+
+Sign and add the new package to the repo, ensure roles are present and updated, then do the deploy:
+{code}
+ansible-playbook -vv playbooks/brew/brewrepo.yml -e @playbooks/errata-tool/brew-packages-stage.yml -e packages=<%= nvr %>
+ansible-galaxy install --force -r playbooks/errata-tool/stage/rolesfile.yml -p playbooks/errata-tool/stage/roles
+ansible-playbook -vv -e errata_version=<%= ver %> <%= "-e errata_release=#{rel} " if rel != '0' %>playbooks/errata-tool/stage/deploy-errata-stage.yml
+{code}
+
+Production deploy is similar, but use prod instead of stage as appropriate.
+
+h2. Extra Info
+
+* Schema changes: TBA
+* [Bug list (<%= bug_count %> bugs)|<%= bug_list_link %>]
+* [Code Diff (<%= prev_tag %> -> <%= this_tag %>)|http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=<%= this_tag %>&id2=<%= prev_tag %>]
+* [Dev Contacts|https://docs.engineering.redhat.com/x/0IcEAQ]
+* Signed off by: [~sbaird]

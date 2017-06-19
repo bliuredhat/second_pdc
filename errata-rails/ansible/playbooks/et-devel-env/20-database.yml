@@ -1,0 +1,27 @@
+- name: Provision MySQL Server
+  hosts: develop
+  tasks:
+    - name: "MySQL | Install server"
+      sudo: yes
+      yum: name={{ item }} state=latest
+      with_items:
+        - MySQL-shared
+        - mysql-devel
+        - mysql-server
+        - MySQL-python
+
+    - name: "MySQL | Configure server"
+      sudo: yes
+      copy: src=files/my.cnf dest=/etc/my.cnf
+
+    - name: "MySQL | Come up on boot"
+      sudo: yes
+      service: name=mysqld enabled=yes state=started
+
+    - name: "MySQL | Security - remove empty password users"
+      sudo: yes
+      mysql_user: name='' password='' host=localhost priv=*.*:USAGE state=absent
+
+    - name: "MySQL | Security - remove test database."
+      sudo: yes
+      mysql_db: db=test state=absent

@@ -1,0 +1,34 @@
+### This case simulates Brew raising an error.
+### Note that this input would normally do multiple Brew calls,
+### but the current implementation stops on the first error.
+Errata Tool will look for these variant labels in the response,
+which will be mapped to corresponding Errata Tool variants:
+
+  In response for RHEL-6.6.z-Client:
+      Client → 6Client-6.6.z
+      optional → 6Client-optional-6.6.z
+
+  In response for RHEL-6.6.z-ComputeNode:
+      ComputeNode → 6ComputeNode-6.6.z
+      optional → 6ComputeNode-optional-6.6.z
+
+  In response for RHEL-6.6.z-Server:
+      HighAvailability → 6Server-HighAvailability-6.6.z
+      LoadBalancer → 6Server-LoadBalancer-6.6.z
+      ResilientStorage → 6Server-ResilientStorage-6.6.z
+      SAP → 6Server-SAP-6.6.z
+      SAPHANA → 6Server-SAPHANA-6.6.z
+      ScalableFileSystem → 6Server-ScalableFileSystem-6.6.z
+      Server → 6Server-6.6.z
+      optional → 6Server-optional-6.6.z
+
+  In response for RHEL-6.6.z-Workstation:
+      ScalableFileSystem → 6Workstation-ScalableFileSystem-6.6.z
+      Workstation → 6Workstation-6.6.z
+      optional → 6Workstation-optional-6.6.z
+
+Errata Tool fetched the following data:
+
+    Brew getProductListings("RHEL-6.6.z-Client", 421720)
+
+    (error occurred: #<XMLRPC::FaultException: 1234: SIMULATED ERROR>)

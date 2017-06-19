@@ -1,0 +1,13 @@
+<% product_version = @cdn_repo.product_version %>
+
+<%=
+   render 'shared/label_field_table', :fields => [
+     ['Pulp Repo Label',          @cdn_repo.name],
+     ['Release Type',             @cdn_repo.short_release_type],
+     ['Content Type',             @cdn_repo.short_type],
+     ['Product Version',          link_to("<b>#{h @product_version.name}</b> - #{h @product_version.description}".html_safe, product_version_path(product_version)) ],
+     ['Variant',                  "<b>#{h @cdn_repo.variant.name}</b> - #{h @cdn_repo.variant.description}".html_safe],
+     ['Arch',                     @cdn_repo.arch.name ],
+     ['Use for TPS scheduling?',  yes_no_icon_and_text(@cdn_repo.has_stable_systems_subscribed?)],
+   ]
+%>

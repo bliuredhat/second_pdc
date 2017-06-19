@@ -1,0 +1,89 @@
+Release Notes for Version 3.11.7
+================================
+
+Overview
+--------
+
+Release 3.11.7 is the 8th release in
+the Errata Tool 3.11 development period. It closes [21 bugs and RFEs][buglist].
+
+The highlights of this release include improved support for multi-product
+errata, enhancements related to TPS scheduling and troubleshooting, and a new
+mechanism for setting "reboot suggested".
+
+<% sort_these_first %w[1203496 1203107] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.11.7][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1113061%2C1148672%2C1148962%2C1152936%2C1160238%2C1181035%2C1198882%2C1198996%2C1203107%2C1203496%2C1238040%2C1241715%2C1249987%2C1251531%2C1254530%2C1254540%2C1254816%2C1254858%2C1255220%2C1257437%2C1121159
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.11.7-0&id2=3.11.6.1-0
+
+<%= all_include_content %>
+
+## Process and Team Changes
+
+### Code coverage
+
+The Errata Tool team continues to gradually improve code coverage by requiring
+all new features and bugfixes to be accompanied by an autotest.
+
+Since the last time we've reported coverage (Errata Tool 3.11.2), total coverage has improved
+from 92.27% to 92.65%.
+
+[![Rcov coverage report](images/3.11.7/rcov.png)](images/3.11.7/rcov.png)
+
+Increased code coverage means better maintainability, and a reduced chance of
+shipping regressions and new bugs. It also means we can more confidently
+refactor and improve existing code.
+
+### Team changes
+
+During the 3.11.5 development cycle, the team welcomed a new developer, Brian
+Kim, as well as former Errata Tool developer Rohan McGovern, both of whom
+recently completed an RHN improvement project.
+
+As of 3.11.7, the team has bid farewell to Róman Joost (moving on to Beaker),
+and Hao Yu (moving on to Bugzilla).
+
+What's Next
+------------
+
+### Errata Tool 3.11.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.11
+in Bugzilla for inclusion in two week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be 3.11.8.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.11 take a look at [bugs flagged with
+errata-3.11 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.12
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.12 take a look at [bugs
+flagged with errata-3.12][bugs_next].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.12&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

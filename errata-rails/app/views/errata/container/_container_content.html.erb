@@ -1,0 +1,28 @@
+<div class="container-content">
+  <% @container_content.sort.each do |build, content| %>
+    <% (container_repos, common_errata) = build_container_content(build, content, :consolidate => true) %>
+
+    <div class="section_container">
+      <h3>
+        <a class="fa fa-chevron-down toggle-view-section"></a>
+        Build <%= brew_link(build, :target => '_blank') %>
+      </h3>
+      <div class="section_content">
+        <% if container_repos.blank? && common_errata.blank? %>
+          <div class="repository"><h3>No repositories found</h3></div>
+        <% end %>
+
+        <% if common_errata.present? %>
+          <%= render :partial => 'errata/container/repo_section',
+            :locals => { :repos => container_repos, :errata_list => common_errata } %>
+        <% end %>
+
+        <% container_repos.each do |container_repo| %>
+          <% next if common_errata.present? && container_repo.errata.empty? %>
+          <%= render :partial => 'errata/container/repo_section',
+            :locals => { :repos => [container_repo], :errata_list => container_repo.errata } %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>

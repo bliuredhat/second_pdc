@@ -1,0 +1,27 @@
+---
+- name: find existing repos
+  shell: ls -1 /etc/yum.repos.d/*.repo
+  register: existing_repos
+  ignore_errors: true
+
+- name: print repos found
+  debug: var=existing_repos.stdout_lines
+
+- name: delete existing repos
+  sudo: yes
+  file: path={{ item }} state=absent
+  with_items: existing_repos.stdout_lines
+  when: not setup_skip_repo_deletion
+
+- debug: msg="Copying *.repo from {{repo_dir}} directory"
+
+- name: copy all repos directory to /etc/yum.repos.d
+  sudo: yes
+  copy: src="{{item}}" dest=/etc/yum.repos.d/
+  with_fileglob:
+    - "{{repo_dir}}/*.repo"
+  notify:
+    - yum clean all
+    - yum repolist
+
+- meta: flush_handlers

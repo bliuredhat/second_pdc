@@ -1,0 +1,44 @@
+<h1>QA Request Activity for <%= @errata.fulladvisory + ' - ' + @errata.synopsis %></h1>
+<%= back_to_errata(@errata) %>
+
+<table class="buglist" cellspacing="0" cellpadding="2">
+<tr><thead>
+  <td>Who</td>
+  <td>
+    <%=
+        if params[:asc].to_bool then
+          link_to "When", :action => 'show_activity', :id => @errata
+        else
+          link_to "When", :action => 'show_activity', :id => @errata, :asc => "1"
+        end
+    %>
+    </td>
+  <td>What</td>
+  <td>Removed</td>
+  <td>Added</td>
+</thead></tr>
+
+<% @count = 0
+   def gen_style
+    @count == 0 ? 'bz_even' : 'bz_odd'
+   end
+   @activity_list.each { |activity| %>
+        <% first = true;
+           activity[:operations].each { |operation| %>
+            <tr class="<%= gen_style %>">
+              <% if first %>
+                <td><%= activity[:user] %></td>
+                <td><%= activity[:created_at] %></td>
+              <% else %>
+                <td/><td/>
+              <% end;
+              first = false %>
+              <td><%= operation[:what] %></td>
+              <td><%= operation[:removed] %></td>
+              <td style="white-space: pre-wrap"><%= operation[:added] %></td>
+            </tr>
+        <% } %>
+<% @count = 1 - @count; } %>
+</table>
+<%= back_to_errata(@errata) %>
+

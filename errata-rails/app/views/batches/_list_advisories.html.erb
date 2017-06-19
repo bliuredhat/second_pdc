@@ -1,0 +1,23 @@
+<%=
+  render 'shared/bz_table', {
+    :headers => [
+      'Advisory',
+      'State',
+      'Synopsis',
+      'Blocker?',
+      { :content => 'Edit Batch', :options => {:class=>'unsortable'} }
+    ],
+
+    :func => lambda { |erratum| [
+        link_to(erratum.advisory_name, :controller => :errata, :action => :show, :id => erratum.id),
+        state_display(erratum),
+        erratum.synopsis,
+        yes_no_icon_and_text(erratum.is_batch_blocker?),
+        link_to('Edit', :controller => :errata, :action => :edit_batch, :id => erratum.id)
+    ] },
+
+    :row_items => @errata,
+    :table_width => nil,
+    :none_message => 'No advisories are currently assigned to this batch.'
+  }
+%>

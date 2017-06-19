@@ -1,0 +1,41 @@
+#!/bin/sh
+cd "$(dirname "$0")/.."
+set -xe
+
+mkdir -p ../gems/
+ls ../
+
+IMG=docker-registry.engineering.redhat.com/errata-tool/test_runner:20170420_00
+docker pull $IMG || echo "pull failed - maybe testing using an old image!"
+
+docker run  --rm=true -i --privileged \
+  -v $PWD:/workspace \
+  -v $PWD/../gems:/gems \
+  $IMG <<END_SCRIPT
+#!/bin/bash
+
+pwd
+cd /workspace
+
+### probe the current environment
+ruby --version
+env
+
+git status
+
+bundle install \
+  --binstubs \
+  --no-cache \
+  --path=/gems/ruby22
+
+export PATH=./bin:\$PATH
+
+# does bundle exec work?
+bundle exec gem list
+gem env
+
+# actual test starts here
+export RAILS_ENV=test
+export CI_MODE=true
+rake ruby2:ci PARALLEL_TEST_THREADS=${PARALLEL_TEST_THREADS:-0}
+END_SCRIPT

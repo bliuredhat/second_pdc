@@ -1,0 +1,18 @@
+// Hide any that might be already showing
+$('.flash_container .alert').hide();
+
+<% if @error.present? %>
+  window.displayFlashNotice('error', "<%= @error.message %>");
+<% end %>
+
+<% if @user %>
+  <% if @notice %>
+    window.displayFlashNotice('notice', "<%= @notice %>");
+  <% end %>
+
+  <% if @user.new_record? %>
+    $("#user_div").html("<%= escape_javascript(render(:partial => "user_form")) %>");
+  <% else %>
+    $("#user_div").html("<%= escape_javascript(render(:partial => "goto")) %>");
+  <% end %>
+<% end %>

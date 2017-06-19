@@ -1,0 +1,19 @@
+<% if @errata.is_container_advisory? %>
+  <span class='light'><i>
+    See <%= link_to 'Container tab', url_for(:action => :container, :id => @errata) %> for content advisory <%= label %>
+  </i></span>
+  <br>
+<% end %>
+<% if issues.empty? %>
+  <span class='light'><i>No <%= label %> in advisory</i></span>
+<% else %>
+  <div id="state_bug_list" class="state-bug-list">
+    <% if issues.length >= Settings.shorten_bug_list_threshold %>
+      <%# shortened issue list and hidden full length issue list %>
+      <%= render "issue_list", :issues => issues, :list_type => :short, :fields => fields, :target => target, :issue_type => issue_type %>
+      <%= render "issue_list", :issues => issues, :list_type => :long, :fields => fields, :target => target, :issue_type => issue_type %>
+    <% else %>
+      <%= render "issue_list", :issues => issues, :list_type => :none, :fields => fields, :target => target, :issue_type => issue_type %>
+    <% end %>
+  </div>
+<% end %>

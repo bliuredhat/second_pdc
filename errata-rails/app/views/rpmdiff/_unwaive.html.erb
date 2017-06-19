@@ -1,0 +1,6 @@
+<h2>Disapprove Waiver</h2>
+<%= form_tag :action => 'unwaive', :id => unwaive.result_id do %>
+<%= text_area_tag 'unwaive_text', 'This waiver is not ok because...', :size => '80x10', :onfocus => 'clearUnwaiveText();', :wrap => 'soft' %><br/><br/>
+<%= hidden_form_elements(unwaive.rpmdiff_run.errata, unwaive.rpmdiff_run,unwaive) %>
+<%= submit_tag 'Unwaive', :class=>'btn btn-primary' %>
+<% end %>

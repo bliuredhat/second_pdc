@@ -1,0 +1,1126 @@
+--- 
+errata_responsibility_00001: 
+  created_at: 2008-10-16 15:22:45 -04:00
+  default_owner_id: 1
+  id: 1
+  name: Default
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: default
+  user_organization_id: 142
+errata_responsibility_00002: 
+  created_at: 2008-10-16 15:22:45 -04:00
+  default_owner_id: 174587
+  id: 2
+  name: Default
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: default
+  user_organization_id: 142
+errata_responsibility_00003: 
+  created_at: 2008-10-16 15:22:45 -04:00
+  default_owner_id: 198352
+  id: 3
+  name: Default
+  type: DevelResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: default
+  user_organization_id: 142
+errata_responsibility_00005: 
+  created_at: 2008-10-16 20:51:45 -04:00
+  default_owner_id: 1
+  id: 5
+  name: System Tools
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: system_tools
+  user_organization_id: 142
+errata_responsibility_00006: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 6
+  name: Irish Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: irish_support
+  user_organization_id: 142
+errata_responsibility_00007: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 7
+  name: Polish Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: polish_support
+  user_organization_id: 142
+errata_responsibility_00008: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 8
+  name: Catalan Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: catalan_support
+  user_organization_id: 142
+errata_responsibility_00009: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 9
+  name: Graphical Internet
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: graphical_internet
+  user_organization_id: 142
+errata_responsibility_00010: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 10
+  name: DNS Name Server
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: dns_name_server
+  user_organization_id: 142
+errata_responsibility_00011: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 11
+  name: Afrikaans Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: afrikaans_support
+  user_organization_id: 142
+errata_responsibility_00012: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 12
+  name: Gaelic Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: gaelic_support
+  user_organization_id: 142
+errata_responsibility_00013: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 13
+  name: Ukrainian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: ukrainian_support
+  user_organization_id: 142
+errata_responsibility_00014: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 14
+  name: Java
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: java
+  user_organization_id: 142
+errata_responsibility_00015: 
+  created_at: 2008-10-16 20:51:46 -04:00
+  default_owner_id: 1
+  id: 15
+  name: Development Tools
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: development_tools
+  user_organization_id: 142
+errata_responsibility_00016: 
+  created_at: 2008-10-16 20:51:47 -04:00
+  default_owner_id: 1
+  id: 16
+  name: GNOME Desktop Environment
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: gnome_desktop_environment
+  user_organization_id: 142
+errata_responsibility_00017: 
+  created_at: 2008-10-16 20:51:47 -04:00
+  default_owner_id: 1
+  id: 17
+  name: Network Servers
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: network_servers
+  user_organization_id: 142
+errata_responsibility_00018: 
+  created_at: 2008-10-16 20:51:48 -04:00
+  default_owner_id: 1
+  id: 18
+  name: Single Node GFS Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: single_node_gfs_support
+  user_organization_id: 142
+errata_responsibility_00019: 
+  created_at: 2008-10-16 20:51:48 -04:00
+  default_owner_id: 1
+  id: 19
+  name: Core
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: core
+  user_organization_id: 142
+errata_responsibility_00020: 
+  created_at: 2008-10-16 20:51:48 -04:00
+  default_owner_id: 1
+  id: 20
+  name: Urdu Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: urdu_support
+  user_organization_id: 142
+errata_responsibility_00021: 
+  created_at: 2008-10-16 20:51:48 -04:00
+  default_owner_id: 1
+  id: 21
+  name: Croatian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: croatian_support
+  user_organization_id: 142
+errata_responsibility_00022: 
+  created_at: 2008-10-16 20:51:48 -04:00
+  default_owner_id: 1
+  id: 22
+  name: Arabic Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: arabic_support
+  user_organization_id: 142
+errata_responsibility_00023: 
+  created_at: 2008-10-16 20:51:48 -04:00
+  default_owner_id: 1
+  id: 23
+  name: Estonian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: estonian_support
+  user_organization_id: 142
+errata_responsibility_00024: 
+  created_at: 2008-10-16 20:51:48 -04:00
+  default_owner_id: 1
+  id: 24
+  name: Sound and Video
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: sound_and_video
+  user_organization_id: 142
+errata_responsibility_00025: 
+  created_at: 2008-10-16 20:51:48 -04:00
+  default_owner_id: 1
+  id: 25
+  name: Spanish Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: spanish_support
+  user_organization_id: 142
+errata_responsibility_00026: 
+  created_at: 2008-10-16 20:51:49 -04:00
+  default_owner_id: 1
+  id: 26
+  name: Administration Tools
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: administration_tools
+  user_organization_id: 142
+errata_responsibility_00027: 
+  created_at: 2008-10-16 20:51:49 -04:00
+  default_owner_id: 1
+  id: 27
+  name: Galician Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: galician_support
+  user_organization_id: 142
+errata_responsibility_00028: 
+  created_at: 2008-10-16 20:51:49 -04:00
+  default_owner_id: 1
+  id: 28
+  name: Dialup Networking Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: dialup_networking_support
+  user_organization_id: 142
+errata_responsibility_00029: 
+  created_at: 2008-10-16 20:51:49 -04:00
+  default_owner_id: 1
+  id: 29
+  name: Norwegian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: norwegian_support
+  user_organization_id: 142
+errata_responsibility_00030: 
+  created_at: 2008-10-16 20:51:49 -04:00
+  default_owner_id: 1
+  id: 30
+  name: French Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: french_support
+  user_organization_id: 142
+errata_responsibility_00031: 
+  created_at: 2008-10-16 20:51:49 -04:00
+  default_owner_id: 1
+  id: 31
+  name: Telugu Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: telugu_support
+  user_organization_id: 142
+errata_responsibility_00033: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 33
+  name: Faeroese Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: faeroese_support
+  user_organization_id: 142
+errata_responsibility_00034: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 34
+  name: Mail Server
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: mail_server
+  user_organization_id: 142
+errata_responsibility_00035: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 35
+  name: Turkish Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: turkish_support
+  user_organization_id: 142
+errata_responsibility_00036: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 36
+  name: Java Development
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: java_development
+  user_organization_id: 142
+errata_responsibility_00037: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 37
+  name: Printing Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: printing_support
+  user_organization_id: 142
+errata_responsibility_00038: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 38
+  name: Hungarian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: hungarian_support
+  user_organization_id: 142
+errata_responsibility_00039: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 39
+  name: Korean Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: korean_support
+  user_organization_id: 142
+errata_responsibility_00040: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 40
+  name: Hebrew Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: hebrew_support
+  user_organization_id: 142
+errata_responsibility_00041: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 41
+  name: Games and Entertainment
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: games_and_entertainment
+  user_organization_id: 142
+errata_responsibility_00042: 
+  created_at: 2008-10-16 20:52:09 -04:00
+  default_owner_id: 1
+  id: 42
+  name: Russian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: russian_support
+  user_organization_id: 142
+errata_responsibility_00043: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 43
+  name: Marathi Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: marathi_support
+  user_organization_id: 142
+errata_responsibility_00044: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 44
+  name: KDE Software Development
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: kde_software_development
+  user_organization_id: 142
+errata_responsibility_00045: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 45
+  name: Malayalam Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: malayalam_support
+  user_organization_id: 142
+errata_responsibility_00046: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 46
+  name: Text-based Internet
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: text_based_internet
+  user_organization_id: 142
+errata_responsibility_00047: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 47
+  name: MySQL Database
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: mysql_database
+  user_organization_id: 142
+errata_responsibility_00048: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 48
+  name: Breton Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: breton_support
+  user_organization_id: 142
+errata_responsibility_00049: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 49
+  name: Chinese Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: chinese_support
+  user_organization_id: 142
+errata_responsibility_00050: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 50
+  name: Brazilian Portuguese Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: brazilian_portuguese_support
+  user_organization_id: 142
+errata_responsibility_00051: 
+  created_at: 2008-10-16 20:52:10 -04:00
+  default_owner_id: 1
+  id: 51
+  name: Legacy Software Development
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: legacy_software_development
+  user_organization_id: 142
+errata_responsibility_00052: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 52
+  name: Czech Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: czech_support
+  user_organization_id: 142
+errata_responsibility_00053: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 53
+  name: Danish Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: danish_support
+  user_organization_id: 142
+errata_responsibility_00054: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 54
+  name: Office/Productivity
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: office/productivity
+  user_organization_id: 142
+errata_responsibility_00055: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 55
+  name: Thai Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: thai_support
+  user_organization_id: 142
+errata_responsibility_00056: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 56
+  name: Editors
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: editors
+  user_organization_id: 142
+errata_responsibility_00057: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 57
+  name: Miscellaneous Included Packages
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: miscellaneous_included_packages
+  user_organization_id: 142
+errata_responsibility_00058: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 58
+  name: Portuguese Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: portuguese_support
+  user_organization_id: 142
+errata_responsibility_00059: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 59
+  name: Oriya Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: oriya_support
+  user_organization_id: 142
+errata_responsibility_00060: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 60
+  name: Indonesian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: indonesian_support
+  user_organization_id: 142
+errata_responsibility_00061: 
+  created_at: 2008-10-16 20:52:11 -04:00
+  default_owner_id: 1
+  id: 61
+  name: Base
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: base
+  user_organization_id: 142
+errata_responsibility_00062: 
+  created_at: 2008-10-16 20:52:13 -04:00
+  default_owner_id: 1
+  id: 62
+  name: Dutch Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: dutch_support
+  user_organization_id: 142
+errata_responsibility_00063: 
+  created_at: 2008-10-16 20:52:13 -04:00
+  default_owner_id: 1
+  id: 63
+  name: Hindi Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: hindi_support
+  user_organization_id: 142
+errata_responsibility_00064: 
+  created_at: 2008-10-16 20:52:13 -04:00
+  default_owner_id: 1
+  id: 64
+  name: OpenFabrics Enterprise Distribution
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: openfabrics_enterprise_distribution
+  user_organization_id: 142
+errata_responsibility_00065: 
+  created_at: 2008-10-16 20:52:13 -04:00
+  default_owner_id: 1
+  id: 65
+  name: Welsh Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: welsh_support
+  user_organization_id: 142
+errata_responsibility_00066: 
+  created_at: 2008-10-16 20:52:13 -04:00
+  default_owner_id: 1
+  id: 66
+  name: Authoring and Publishing
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: authoring_and_publishing
+  user_organization_id: 142
+errata_responsibility_00067: 
+  created_at: 2008-10-16 20:52:14 -04:00
+  default_owner_id: 1
+  id: 67
+  name: Swedish Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: swedish_support
+  user_organization_id: 142
+errata_responsibility_00068: 
+  created_at: 2008-10-16 20:52:14 -04:00
+  default_owner_id: 1
+  id: 68
+  name: Assamese Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: assamese_support
+  user_organization_id: 142
+errata_responsibility_00069: 
+  created_at: 2008-10-16 20:52:14 -04:00
+  default_owner_id: 1
+  id: 69
+  name: Legacy Network Server
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: legacy_network_server
+  user_organization_id: 142
+errata_responsibility_00070: 
+  created_at: 2008-10-16 20:52:14 -04:00
+  default_owner_id: 1
+  id: 70
+  name: FTP Server
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: ftp_server
+  user_organization_id: 142
+errata_responsibility_00071: 
+  created_at: 2008-10-16 20:52:14 -04:00
+  default_owner_id: 1
+  id: 71
+  name: Kannada Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: kannada_support
+  user_organization_id: 142
+errata_responsibility_00072: 
+  created_at: 2008-10-16 20:52:14 -04:00
+  default_owner_id: 1
+  id: 72
+  name: Punjabi Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: punjabi_support
+  user_organization_id: 142
+errata_responsibility_00073: 
+  created_at: 2008-10-16 20:52:14 -04:00
+  default_owner_id: 1
+  id: 73
+  name: Romanian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: romanian_support
+  user_organization_id: 142
+errata_responsibility_00074: 
+  created_at: 2008-10-16 20:52:14 -04:00
+  default_owner_id: 1
+  id: 74
+  name: X Software Development
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: x_software_development
+  user_organization_id: 142
+errata_responsibility_00075: 
+  created_at: 2008-10-16 20:52:15 -04:00
+  default_owner_id: 1
+  id: 75
+  name: PostgreSQL Database
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: postgresql_database
+  user_organization_id: 142
+errata_responsibility_00076: 
+  created_at: 2008-10-16 20:52:15 -04:00
+  default_owner_id: 1
+  id: 76
+  name: Japanese Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: japanese_support
+  user_organization_id: 142
+errata_responsibility_00077: 
+  created_at: 2008-10-16 20:52:15 -04:00
+  default_owner_id: 1
+  id: 77
+  name: Legacy Software Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: legacy_software_support
+  user_organization_id: 142
+errata_responsibility_00078: 
+  created_at: 2008-10-16 20:52:16 -04:00
+  default_owner_id: 1
+  id: 78
+  name: Ethiopic Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: ethiopic_support
+  user_organization_id: 142
+errata_responsibility_00079: 
+  created_at: 2008-10-16 20:52:16 -04:00
+  default_owner_id: 1
+  id: 79
+  name: X Window System
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: x_window_system
+  user_organization_id: 142
+errata_responsibility_00080: 
+  created_at: 2008-10-16 20:52:16 -04:00
+  default_owner_id: 1
+  id: 80
+  name: Bulgarian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: bulgarian_support
+  user_organization_id: 142
+errata_responsibility_00081: 
+  created_at: 2008-10-16 20:52:16 -04:00
+  default_owner_id: 1
+  id: 81
+  name: Bengali Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: bengali_support
+  user_organization_id: 142
+errata_responsibility_00082: 
+  created_at: 2008-10-16 20:52:16 -04:00
+  default_owner_id: 1
+  id: 82
+  name: Windows File Server
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: windows_file_server
+  user_organization_id: 142
+errata_responsibility_00083: 
+  created_at: 2008-10-16 20:52:16 -04:00
+  default_owner_id: 1
+  id: 83
+  name: Web Server
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: web_server
+  user_organization_id: 142
+errata_responsibility_00084: 
+  created_at: 2008-10-16 20:52:17 -04:00
+  default_owner_id: 1
+  id: 84
+  name: Gujarati Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: gujarati_support
+  user_organization_id: 142
+errata_responsibility_00085: 
+  created_at: 2008-10-16 20:52:17 -04:00
+  default_owner_id: 1
+  id: 85
+  name: Development Libraries
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: development_libraries
+  user_organization_id: 142
+errata_responsibility_00086: 
+  created_at: 2008-10-16 20:52:18 -04:00
+  default_owner_id: 1
+  id: 86
+  name: News Server
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: news_server
+  user_organization_id: 142
+errata_responsibility_00087: 
+  created_at: 2008-10-16 20:52:18 -04:00
+  default_owner_id: 1
+  id: 87
+  name: GNOME Software Development
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: gnome_software_development
+  user_organization_id: 142
+errata_responsibility_00088: 
+  created_at: 2008-10-16 20:52:18 -04:00
+  default_owner_id: 1
+  id: 88
+  name: Slovenian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: slovenian_support
+  user_organization_id: 142
+errata_responsibility_00089: 
+  created_at: 2008-10-16 20:52:18 -04:00
+  default_owner_id: 1
+  id: 89
+  name: Greek Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: greek_support
+  user_organization_id: 142
+errata_responsibility_00090: 
+  created_at: 2008-10-16 20:52:18 -04:00
+  default_owner_id: 1
+  id: 90
+  name: Engineering and Scientific
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: engineering_and_scientific
+  user_organization_id: 142
+errata_responsibility_00091: 
+  created_at: 2008-10-16 20:52:18 -04:00
+  default_owner_id: 1
+  id: 91
+  name: Sinhala Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: sinhala_support
+  user_organization_id: 142
+errata_responsibility_00092: 
+  created_at: 2008-10-16 20:52:18 -04:00
+  default_owner_id: 1
+  id: 92
+  name: Tamil Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:51 -05:00
+  url_name: tamil_support
+  user_organization_id: 142
+errata_responsibility_00093: 
+  created_at: 2008-10-16 20:52:18 -04:00
+  default_owner_id: 1
+  id: 93
+  name: Graphics
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: graphics
+  user_organization_id: 142
+errata_responsibility_00094: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 94
+  name: British Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: british_support
+  user_organization_id: 142
+errata_responsibility_00095: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 95
+  name: Serbian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: serbian_support
+  user_organization_id: 142
+errata_responsibility_00096: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 96
+  name: Server Configuration Tools
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: server_configuration_tools
+  user_organization_id: 142
+errata_responsibility_00097: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 97
+  name: Italian Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: italian_support
+  user_organization_id: 142
+errata_responsibility_00098: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 98
+  name: KDE (K Desktop Environment)
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: kde_(k_desktop_environment)
+  user_organization_id: 142
+errata_responsibility_00099: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 99
+  name: Icelandic Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: icelandic_support
+  user_organization_id: 142
+errata_responsibility_00100: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 100
+  name: German Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: german_support
+  user_organization_id: 142
+errata_responsibility_00101: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 101
+  name: Finnish Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: finnish_support
+  user_organization_id: 142
+errata_responsibility_00102: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 102
+  name: Ruby
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: ruby
+  user_organization_id: 142
+errata_responsibility_00103: 
+  created_at: 2008-10-16 20:52:19 -04:00
+  default_owner_id: 1
+  id: 103
+  name: Slovak Support
+  type: DocsResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: slovak_support
+  user_organization_id: 142
+errata_responsibility_00104: 
+  created_at: 2008-10-16 20:53:44 -04:00
+  default_owner_id: 164197
+  id: 104
+  name: Cluster-Storage
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: cluster_storage
+  user_organization_id: 142
+errata_responsibility_00107: 
+  created_at: 2008-10-16 20:54:03 -04:00
+  default_owner_id: 3000000
+  id: 107
+  name: BaseOS QE - Applications
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: baseos_qe_applications
+  user_organization_id: 142
+errata_responsibility_00108: 
+  created_at: 2008-10-16 20:54:07 -04:00
+  default_owner_id: 273956
+  id: 108
+  name: Kernel QE
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: kernel_qe
+  user_organization_id: 142
+errata_responsibility_00109: 
+  created_at: 2008-10-16 20:54:07 -04:00
+  default_owner_id: 171534
+  id: 109
+  name: FreeIPA QA
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: freeipa_qa
+  user_organization_id: 142
+errata_responsibility_00110: 
+  created_at: 2008-10-16 20:54:07 -04:00
+  default_owner_id: 264981
+  id: 110
+  name: Release Test Team
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: release_test_team
+  user_organization_id: 142
+errata_responsibility_00111: 
+  created_at: 2008-10-16 20:54:07 -04:00
+  default_owner_id: 3000565
+  id: 111
+  name: I18N
+  type: QualityResponsibility
+  updated_at: 2011-01-07 16:45:27 -05:00
+  url_name: i18n
+  user_organization_id: 142
+errata_responsibility_00113: 
+  created_at: 2008-10-16 20:54:10 -04:00
+  default_owner_id: 3000001
+  id: 113
+  name: BaseOS QE - Daemons
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: baseos_qe_daemons
+  user_organization_id: 142
+errata_responsibility_00114: 
+  created_at: 2008-10-16 20:54:12 -04:00
+  default_owner_id: 3000002
+  id: 114
+  name: BaseOS QE - Security
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: baseos_qe_security
+  user_organization_id: 142
+errata_responsibility_00115: 
+  created_at: 2008-10-16 20:54:13 -04:00
+  default_owner_id: 213820
+  id: 115
+  name: ECS
+  type: QualityResponsibility
+  updated_at: 2008-11-05 10:48:52 -05:00
+  url_name: ecs
+  user_organization_id: 142
+errata_responsibility_00117: 
+  created_at: 2008-12-11 11:58:36 -05:00
+  default_owner_id: 142409
+  id: 117
+  name: Systems Management QA
+  type: QualityResponsibility
+  updated_at: 2008-12-11 11:58:36 -05:00
+  url_name: systems_management_qa
+  user_organization_id: 142
+errata_responsibility_00118: 
+  created_at: 2009-03-02 15:47:23 -05:00
+  default_owner_id: 3000003
+  id: 118
+  name: Virt QE
+  type: QualityResponsibility
+  updated_at: 2009-03-02 15:47:23 -05:00
+  url_name: virt
+  user_organization_id: 142
+errata_responsibility_00120: 
+  created_at: 2009-11-09 08:22:57 -05:00
+  default_owner_id: 81410
+  id: 120
+  name: MRG
+  type: QualityResponsibility
+  updated_at: 2009-11-24 10:38:36 -05:00
+  url_name: mrg
+  user_organization_id: 142
+errata_responsibility_00121: 
+  created_at: 2009-11-12 05:43:19 -05:00
+  default_owner_id: 3000000
+  id: 121
+  name: BaseOS QE - Applications and Tool Chain
+  type: QualityResponsibility
+  updated_at: 2009-11-24 10:37:13 -05:00
+  url_name: baseos_qe_applications_and_tool_chain
+  user_organization_id: 142
+errata_responsibility_00122: 
+  created_at: 2010-03-09 08:53:42 -05:00
+  default_owner_id: 204586
+  id: 122
+  name: Desktop QE
+  type: QualityResponsibility
+  updated_at: 2010-04-01 10:39:07 -04:00
+  url_name: desktop_qe
+  user_organization_id: 142
+errata_responsibility_00123: 
+  created_at: 2010-06-11 04:50:19 -04:00
+  default_owner_id: 3000504
+  id: 123
+  name: Cloud QE - Layered Products - CS/DS/IPA/SSSD/Smartcard
+  type: QualityResponsibility
+  updated_at: 2010-08-25 09:29:59 -04:00
+  url_name: cloud_qe_layered_products_cs
+  user_organization_id: 142
+errata_responsibility_00124: 
+  created_at: 2010-07-27 02:37:25 -04:00
+  default_owner_id: 3000497
+  id: 124
+  name: Spice QE
+  type: QualityResponsibility
+  updated_at: 2010-07-27 02:37:25 -04:00
+  url_name: spice_qe
+  user_organization_id: 142
+errata_responsibility_00125: 
+  created_at: 2010-09-16 03:46:01 -04:00
+  default_owner_id: 3000528
+  id: 125
+  name: Software Certification
+  type: QualityResponsibility
+  updated_at: 2010-10-21 09:36:33 -04:00
+  url_name: software_certification
+  user_organization_id: 142
+errata_responsibility_00126: 
+  created_at: 2010-10-22 03:18:33 -04:00
+  default_owner_id: 3000529
+  id: 126
+  name: RHEVM QE
+  type: QualityResponsibility
+  updated_at: 2010-10-22 03:18:33 -04:00
+  url_name: rhevm_qe
+  user_organization_id: 142
+errata_responsibility_00127: 
+  created_at: 2011-03-18 06:21:38 -04:00
+  default_owner_id: 3000504
+  id: 127
+  name: Cloud QE
+  type: QualityResponsibility
+  updated_at: 2011-03-18 06:21:38 -04:00
+  url_name: cloud_qe
+  user_organization_id: 142
+quality_responsibility_139:
+  default_owner_id: 3001153
+  url_name: openshift_qe
+  name: OpenShift QE
+  id: 139
+  type: QualityResponsibility
+  created_at: 2012-12-04 10:23:43 Z
+  updated_at: 2012-12-04 10:23:43 Z
+  user_organization_id: 142
+quality_responsibility_130:
+  name: CloudForms QE
+  updated_at: 2012-06-21 07:28:38 Z
+  type: QualityResponsibility
+  default_owner_id: 3000967
+  created_at: 2012-06-21 07:28:38 Z
+  id: 130
+  url_name: cloudforms_qe
+  user_organization_id: 142
+quality_responsibility_19655:
+  name: RHS (Gluster) QE
+  user_organization_id: 142
+  url_name: rhs_(gluster)_qe
+  type: QualityResponsibility
+  default_owner_id: 3000967
+  id: 141
+  created_at: 2013-10-31 13:16:39 Z
+  updated_at: 2013-10-31 13:16:39 Z
+quality_responsibility_143:
+  updated_at: 2014-02-05 07:33:00 Z
+  created_at: 2014-02-05 07:33:00 Z
+  default_owner_id: 3001578
+  url_name: kernel_qe_hardware
+  user_organization_id: 142
+  id: 143
+  name: Kernel QE - Hardware
+  type: QualityResponsibility
+quality_responsibility_152:
+  default_owner_id: 3002112
+  id: 152
+  updated_at: 2015-07-14 01:44:18 Z
+  user_organization_id: 142
+  created_at: 2014-05-05 10:26:11 Z
+  name: RHS-C QE
+  type: QualityResponsibility
+  url_name: rhs_c_qe

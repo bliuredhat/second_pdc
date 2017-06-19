@@ -1,0 +1,3799 @@
+--- 
+product_version_00001: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-2.1-maint-candidate
+  description: Red Hat Enterprise Linux 2.1
+  enabled: 0
+  forbid_ftp: false
+  id: 1
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-2.1
+  product_id: 16
+  rhel_release_id: 1
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00002: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-3.0E-qu-candidate
+  description: Red Hat Enterprise Linux 3
+  enabled: 0
+  forbid_ftp: false
+  id: 2
+  is_oval_product: true
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3
+  product_id: 16
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00003: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-qu-candidate
+  description: Red Hat Enterprise Linux 4
+  enabled: 0
+  forbid_ftp: false
+  id: 3
+  is_oval_product: true
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4
+  product_id: 16
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00004: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-3.0E-lacd-qu-candidate
+  description: Extras for RHEL 3
+  enabled: 0
+  forbid_ftp: true
+  id: 4
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-3-Extras
+  product_id: 23
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00005: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-lacd-qu-candidate
+  description: Extras for RHEL 4
+  enabled: 0
+  forbid_ftp: true
+  id: 5
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-4-Extras
+  product_id: 23
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00006: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHAPS Version 1 for RHEL 3
+  enabled: 0
+  forbid_ftp: false
+  id: 6
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHAPS
+  product_id: 22
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00007: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHAPS Version 2 for RHEL 4
+  enabled: 0
+  forbid_ftp: false
+  id: 7
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHAPS2
+  product_id: 22
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00008: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-cluster-qu-candidate
+  description: CLuster Suite for RHEL 4
+  enabled: 0
+  forbid_ftp: false
+  id: 8
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHCS
+  product_id: 20
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00009: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Cluster Suite for RHEL 3
+  enabled: 0
+  forbid_ftp: false
+  id: 9
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHCS
+  product_id: 20
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00010: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-3.0E-gfs-errata-candidate
+  description: GFS  for RHEL 3
+  enabled: 0
+  forbid_ftp: false
+  id: 10
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHGFS
+  product_id: 24
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00011: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-gfs-errata-candidate
+  description: GFS  for RHEL 4
+  enabled: 0
+  forbid_ftp: false
+  id: 11
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHGFS
+  product_id: 24
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00012: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-stack-errata-candidate
+  description: Red Hat Web Application Stack for RHEL 4
+  enabled: 0
+  forbid_ftp: false
+  id: 12
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-Stacks-V1
+  product_id: 37
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00014: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHEL 3 HWCERT
+  enabled: 0
+  forbid_ftp: false
+  id: 14
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHHC
+  product_id: 27
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00015: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: hwcert-4E
+  description: RHEL 4 HWCERT
+  enabled: 0
+  forbid_ftp: false
+  id: 15
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHHC
+  product_id: 27
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00016: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: dist-5E-qu-candidate
+  description: Red Hat Enterprise Linux 5
+  enabled: 1
+  forbid_ftp: false
+  id: 16
+  is_oval_product: true
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5
+  product_id: 16
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00017: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-extras-qu-candidate
+  description: Supplementary for Red Hat Enterprise Linux 5
+  enabled: 1
+  forbid_ftp: true
+  id: 17
+  is_oval_product: true
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-5-Supplementary
+  product_id: 23
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00018: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-rhds-errata-candidate
+  description: Red Hat Developer Suite V.3
+  enabled: 0
+  forbid_ftp: true
+  id: 18
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHDS3
+  product_id: 30
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00019: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: ""
+  enabled: 0
+  forbid_ftp: false
+  id: 19
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHDirServ-7.1
+  product_id: 29
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00020: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: ""
+  enabled: 0
+  forbid_ftp: false
+  id: 20
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHDirServ-7.1
+  product_id: 29
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00027: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-rhx
+  description: RHX for Red Hat Enterprise Linux 5
+  enabled: 1
+  forbid_ftp: true
+  id: 27
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-RHX
+  product_id: 39
+  rhel_release_id: 7
+  sig_key_id: 7
+  supports_cdn: false
+product_version_00031: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: hwcert-5E
+  description: RHEL 5 HWCERT
+  enabled: 1
+  forbid_ftp: false
+  id: 31
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-RHHC
+  product_id: 27
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00033: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhn-4E
+  description: Red Hat Network Satellite Server v 5.0
+  enabled: 1
+  forbid_ftp: false
+  id: 33
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNSAT5
+  product_id: 40
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00034: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-ep-cp-candidate
+  description: JBEAP 4.2.0 for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 34
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBEAP-4.2.0
+  product_id: 41
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00035: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-ep-cp-candidate
+  description: JBEAP 4.2.0 for RHEL 4
+  enabled: 1
+  forbid_ftp: false
+  id: 35
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-JBEAP-4.2.0
+  product_id: 41
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00036: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-stack-errata-candidate
+  description: Red Hat Web Application Stack for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 36
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-Stacks-V2
+  product_id: 37
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00037: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-certsystem-7.2-candidate
+  description: Red Hat Certificate System 7.2 for RHEL 4
+  enabled: 0
+  forbid_ftp: false
+  id: 37
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHCertSys-7.2
+  product_id: 42
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00039: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.5-Z-candidate
+  description: Red Hat Enterprise Linux 4.5 Z Stream
+  enabled: 0
+  forbid_ftp: true
+  id: 39
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.5.Z
+  product_id: 16
+  rhel_release_id: 10
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00040: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhn-4E
+  description: Red Hat Network Satellite Server v 4.0
+  enabled: 0
+  forbid_ftp: false
+  id: 40
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNSAT4.0
+  product_id: 40
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00041: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhn-4E
+  description: Red Hat Network Satellite Server v 4.1
+  enabled: 0
+  forbid_ftp: false
+  id: 41
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNSAT4.1
+  product_id: 40
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00042: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhn-4E
+  description: Red Hat Network Satellite Server v 4.2
+  enabled: 0
+  forbid_ftp: false
+  id: 42
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNSAT4.2
+  product_id: 40
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00043: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Satellite Server v 4.0 (RHEL3)
+  enabled: 0
+  forbid_ftp: false
+  id: 43
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNSAT4.0
+  product_id: 40
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00044: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Satellite Server v 4.1 (RHEL3)
+  enabled: 0
+  forbid_ftp: false
+  id: 44
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNSAT4.1
+  product_id: 40
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00045: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Satellite Server v 4.2 (RHEL3)
+  enabled: 0
+  forbid_ftp: false
+  id: 45
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNSAT4.2
+  product_id: 40
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00046: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.5-Z-candidate
+  description: Extras for RHEL 4.5.z
+  enabled: 0
+  forbid_ftp: true
+  id: 46
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-4.5.Z-Extras
+  product_id: 23
+  rhel_release_id: 10
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00047: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: Cluster-4.5-Z-candidate
+  description: Red Hat Cluster Suite for RHEL 4.5.z
+  enabled: 0
+  forbid_ftp: true
+  id: 47
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.5.Z-RHCS
+  product_id: 20
+  rhel_release_id: 10
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00048: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.5.Z-RHGFS
+  description: GFS for RHEL 4.5.z
+  enabled: 0
+  forbid_ftp: true
+  id: 48
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.5.Z-RHGFS
+  product_id: 24
+  rhel_release_id: 10
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00050: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.6.Z-RHCS
+  description: Cluster Suite for RHEL 4.6.z
+  enabled: 0
+  forbid_ftp: false
+  id: 50
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.6.Z-RHCS
+  product_id: 20
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00058: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-certsystem-7.3-candidate
+  description: Red Hat Certificate System 7.3
+  enabled: 0
+  forbid_ftp: false
+  id: 58
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHCertSys-7.3
+  product_id: 42
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00060: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Directory Server 8 for RHEL 4
+  enabled: 1
+  forbid_ftp: false
+  id: 60
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHDirServ-8
+  product_id: 29
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00061: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-directoryserver-8.0-errata
+  description: Red Hat Directory Server 8 for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 61
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHDirServ-8
+  product_id: 29
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00063: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-ep-v2-cp-candidate
+  description: JBEAP 4.3.0 for RHEL 4
+  enabled: 1
+  forbid_ftp: false
+  id: 63
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-JBEAP-4.3.0
+  product_id: 41
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00064: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-ep-v2-cp-candidate
+  description: JBEAP 4.3.0 for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 64
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBEAP-4.3.0
+  product_id: 41
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00065: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhn-4E
+  description: Red Hat Network Satellite Server v 5.1
+  enabled: 1
+  forbid_ftp: false
+  id: 65
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNSAT5.1
+  product_id: 40
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00066: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-ipa-1.0
+  description: Red Hat IPA 1 for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 66
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-RHIPA-1
+  product_id: 45
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00067: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhnproxy-4E
+  description: Red Hat Network Proxy v 5.0
+  enabled: 1
+  forbid_ftp: false
+  id: 67
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNPROXY5.0
+  product_id: 46
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00068: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-mrg-1.3-candidate
+  description: MRG for RHEL-5
+  enabled: 1
+  forbid_ftp: false
+  id: 68
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-MRG-1.0
+  product_id: 47
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00069: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-mrg-candidate
+  description: Messaging Base for MRG on RHEL-4
+  enabled: 0
+  forbid_ftp: false
+  id: 69
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-MRG-Messaging-Base-1.0
+  product_id: 48
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00070: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-mrg-candidate
+  description: Messaging for MRG on RHEL-4
+  enabled: 0
+  forbid_ftp: false
+  id: 70
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-MRG-Messaging-1.0
+  product_id: 48
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00071: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-mrg-candidate
+  description: Grid for MRG on RHEL-4
+  enabled: 0
+  forbid_ftp: false
+  id: 71
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-MRG-Grid-1.0
+  product_id: 48
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00072: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-hpc-publish
+  description: Red Hat HPC Solution for RHEL 5
+  enabled: 1
+  forbid_ftp: true
+  id: 72
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHHPC
+  product_id: 49
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00073: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhnproxy-4E
+  description: Red Hat Network Proxy v 4.2 (RHEL 4)
+  enabled: 0
+  forbid_ftp: false
+  id: 73
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNPROXY4.2
+  product_id: 46
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00074: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhnproxy-3E
+  description: Red Hat Network Proxy v 4.2 (RHEL 3)
+  enabled: 0
+  forbid_ftp: false
+  id: 74
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNPROXY4.2
+  product_id: 46
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00075: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-mrg-candidate
+  description: Management for MRG on RHEL-4
+  enabled: 0
+  forbid_ftp: false
+  id: 75
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-MRG-Management-1.0
+  product_id: 48
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00080: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhnproxy-4E
+  description: Red Hat Network Proxy v 5.1
+  enabled: 1
+  forbid_ftp: false
+  id: 80
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNPROXY5.1
+  product_id: 46
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00081: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.7.Z-RHCS
+  description: Cluster Suite for RHEL 4.7.z
+  enabled: 0
+  forbid_ftp: true
+  id: 81
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.7.Z-RHCS
+  product_id: 20
+  rhel_release_id: 13
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00082: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.7.Z-RHGFS
+  description: GFS for RHEL 4.7.z
+  enabled: 0
+  forbid_ftp: true
+  id: 82
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.7.Z-RHGFS
+  product_id: 24
+  rhel_release_id: 13
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00083: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-ep-v2-fp-candidate
+  description: JBEAP 4.3.0 Feature Pack for RHEL 4
+  enabled: 0
+  forbid_ftp: false
+  id: 83
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-JBEAP-4.3.0-FP
+  product_id: 41
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00088: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-ep-v2-fp-candidate
+  description: JBEAP 4.3.0 Feature Pack for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 88
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBEAP-4.3.0-FP
+  product_id: 41
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00091: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-4E-5.2
+  description: Red Hat Network Satellite Server v 5.2
+  enabled: 1
+  forbid_ftp: false
+  id: 91
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNSAT5.2
+  product_id: 40
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00092: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-5E-5.2
+  description: Red Hat Network Satellite Server v 5.2
+  enabled: 1
+  forbid_ftp: false
+  id: 92
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNSAT5.2
+  product_id: 40
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00093: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-4E-5.2.0
+  description: Red Hat Network Proxy v 5.2
+  enabled: 1
+  forbid_ftp: false
+  id: 93
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNPROXY5.2
+  product_id: 46
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00094: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-5E-5.2.0
+  description: Red Hat Network Proxy v 5.2
+  enabled: 1
+  forbid_ftp: false
+  id: 94
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNPROXY5.2
+  product_id: 46
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00096: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: docs-5E
+  description: Red Hat Documentation (RHEL 5)
+  enabled: 1
+  forbid_ftp: false
+  id: 96
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-Docs
+  product_id: 52
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00097: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-ep-ews-1-candidate
+  description: JBEWS 1.0 for RHEL 5
+  enabled: 1
+  forbid_ftp: true
+  id: 97
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBEWS-1
+  product_id: 53
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00098: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-ep-ews-1-candidate
+  description: JBEWS 1.0 for RHEL 4
+  enabled: 0
+  forbid_ftp: true
+  id: 98
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-JBEWS-1
+  product_id: 53
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00099: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: GFS for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 99
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHGFS
+  product_id: 24
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00100: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: JBWFK 1.0.0 for RHEL 4
+  enabled: 0
+  forbid_ftp: true
+  id: 100
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-4-JBWFK-1.0.0
+  product_id: 54
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00101: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: JBWFK 1.0.0 for RHEL 5
+  enabled: 1
+  forbid_ftp: true
+  id: 101
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBWFK-1.0.0
+  product_id: 54
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00102: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-mrg-candidate
+  description: Grid Execute Node for MRG on RHEL-4
+  enabled: 0
+  forbid_ftp: false
+  id: 102
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-MRG-Grid-Execute-Node-1.0
+  product_id: 48
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00103: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-5.2-Z-candidate
+  description: Red Hat Enterprise Linux 5.2 Z Stream
+  enabled: 0
+  forbid_ftp: true
+  id: 103
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5.2.Z
+  product_id: 16
+  rhel_release_id: 11
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00104: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Satellite Server v 3.6
+  enabled: 0
+  forbid_ftp: false
+  id: 104
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNSAT3.6
+  product_id: 40
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00105: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Satellite Server v 3.7
+  enabled: 0
+  forbid_ftp: false
+  id: 105
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNSAT3.7
+  product_id: 40
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00106: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Satellite Server v 3.6 (RHEL 2.1)
+  enabled: 0
+  forbid_ftp: false
+  id: 106
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-2.1-RHNSAT3.6
+  product_id: 40
+  rhel_release_id: 1
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00107: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Satellite Server v 3.7 (RHEL 2.1)
+  enabled: 0
+  forbid_ftp: false
+  id: 107
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-2.1-RHNSAT3.7
+  product_id: 40
+  rhel_release_id: 1
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00108: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Satellite Server v 3.7 (RHEL 4)
+  enabled: 0
+  forbid_ftp: false
+  id: 108
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNSAT3.7
+  product_id: 40
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00109: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Enterprise Virtualization for RHEL-5
+  enabled: 1
+  forbid_ftp: true
+  id: 109
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHEV-2
+  product_id: 55
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00110: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-sap
+  description: RHEL 5 for SAP
+  enabled: 1
+  forbid_ftp: true
+  id: 110
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-SAP
+  product_id: 56
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00111: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Scalable File System for Red Hat Enterprise Linux 5
+  enabled: 0
+  forbid_ftp: true
+  id: 111
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-SFS
+  product_id: 57
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00112: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.7-Z-candidate
+  description: Red Hat Enterprise Linux 4.7 Z Stream
+  enabled: 0
+  forbid_ftp: true
+  id: 112
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.7.Z
+  product_id: 16
+  rhel_release_id: 13
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00113: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.8.Z-RHCS
+  description: Cluster Suite for RHEL 4.8.z
+  enabled: 0
+  forbid_ftp: false
+  id: 113
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.8.Z-RHCS
+  product_id: 20
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00114: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Extras for RHEL 4.7.z
+  enabled: 0
+  forbid_ftp: true
+  id: 114
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-4.7.Z-Extras
+  product_id: 23
+  rhel_release_id: 13
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00116: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHEL 5 STS
+  enabled: 1
+  forbid_ftp: true
+  id: 116
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-STS
+  product_id: 58
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00117: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-5E-5.3
+  description: Red Hat Network Satellite Server v 5.3
+  enabled: 1
+  forbid_ftp: false
+  id: 117
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNSAT5.3
+  product_id: 40
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00118: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-4E-5.3
+  description: Red Hat Network Satellite Server v 5.3
+  enabled: 1
+  forbid_ftp: false
+  id: 118
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNSAT5.3
+  product_id: 40
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00119: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-4E-5.3.0
+  description: Red Hat Network Proxy v 5.3
+  enabled: 1
+  forbid_ftp: false
+  id: 119
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNPROXY5.3
+  product_id: 46
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00120: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-5E-5.3.0
+  description: Red Hat Network Proxy v 5.3
+  enabled: 1
+  forbid_ftp: false
+  id: 120
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNPROXY5.3
+  product_id: 46
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00122: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-certsystem-8.0-candidate
+  description: Red Hat Certificate System 8
+  enabled: 1
+  forbid_ftp: false
+  id: 122
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHCertSys-8
+  product_id: 42
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00123: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHEL 4 for SAP
+  enabled: 0
+  forbid_ftp: true
+  id: 123
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-SAP
+  product_id: 56
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00124: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-4.8.Z-RHGFS
+  description: GFS for RHEL 4.8.z
+  enabled: 0
+  forbid_ftp: false
+  id: 124
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4.8.Z-RHGFS
+  product_id: 24
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00125: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 125
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-RHNTOOLS
+  product_id: 60
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00126: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 2.1
+  enabled: 0
+  forbid_ftp: false
+  id: 126
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-2.1-RHNTOOLS
+  product_id: 60
+  rhel_release_id: 1
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00127: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 3
+  enabled: 0
+  forbid_ftp: false
+  id: 127
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNTOOLS
+  product_id: 60
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00128: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 4
+  enabled: 1
+  forbid_ftp: false
+  id: 128
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNTOOLS
+  product_id: 60
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00129: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: S-JIS for RHEL 4
+  enabled: 0
+  forbid_ftp: false
+  id: 129
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-SJIS
+  product_id: 61
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00130: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: S-JIS for RHEL 5
+  enabled: 0
+  forbid_ftp: false
+  id: 130
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-SJIS
+  product_id: 61
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00131: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-5.3-Z-candidate
+  description: Red Hat Enterprise Linux 5.3.Z - Server Only
+  enabled: 0
+  forbid_ftp: true
+  id: 131
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5.3.Z
+  product_id: 16
+  rhel_release_id: 12
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00132: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-5.4-Z-candidate
+  description: Red Hat Enterprise Linux 5.4.Z - Server Only
+  enabled: 0
+  forbid_ftp: true
+  id: 132
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5.4.Z
+  product_id: 16
+  rhel_release_id: 14
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00133: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-3E-4.0
+  description: Red Hat Network Proxy v 4.0 (RHEL 3)
+  enabled: 0
+  forbid_ftp: false
+  id: 133
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNPROXY4.0
+  product_id: 46
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00134: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-3E-4.1
+  description: Red Hat Network Proxy v 4.1 (RHEL 3)
+  enabled: 0
+  forbid_ftp: false
+  id: 134
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-RHNPROXY4.1
+  product_id: 46
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00135: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-4E-4.0
+  description: Red Hat Network Proxy v 4.0 (RHEL 4)
+  enabled: 0
+  forbid_ftp: false
+  id: 135
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNPROXY4.0
+  product_id: 46
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00136: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-4E-4.1
+  description: Red Hat Network Proxy v 4.1 (RHEL 4)
+  enabled: 0
+  forbid_ftp: false
+  id: 136
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNPROXY4.1
+  product_id: 46
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00137: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for RHEL 5.2.z
+  enabled: 0
+  forbid_ftp: true
+  id: 137
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-5.2.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 11
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00138: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for RHEL 5.3.z
+  enabled: 1
+  forbid_ftp: true
+  id: 138
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-5.3.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 12
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00139: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-4E-ep-5-candidate
+  description: JBEAP 5 for RHEL 4
+  enabled: 1
+  forbid_ftp: false
+  id: 139
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-JBEAP-5
+  product_id: 41
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00140: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-ep-5-candidate
+  description: JBEAP 5 for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 140
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBEAP-5
+  product_id: 41
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00141: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for RHEL 5.4.z
+  enabled: 0
+  forbid_ftp: true
+  id: 141
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-5.4.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00142: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 4.7.Z
+  enabled: 0
+  forbid_ftp: true
+  id: 142
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-RHNTOOLS-4.7.Z
+  product_id: 60
+  rhel_release_id: 13
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00143: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 5.3.Z
+  enabled: 0
+  forbid_ftp: true
+  id: 143
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNTOOLS-5.3.Z
+  product_id: 60
+  rhel_release_id: 12
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00144: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 5.4.Z
+  enabled: 0
+  forbid_ftp: true
+  id: 144
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNTOOLS-5.4.Z
+  product_id: 60
+  rhel_release_id: 14
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00145: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: JBEWP 5 for RHEL 4
+  enabled: 1
+  forbid_ftp: true
+  id: 145
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-JBEWP-5
+  product_id: 62
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00146: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: JBEWP 5 for RHEL 5
+  enabled: 1
+  forbid_ftp: true
+  id: 146
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBEWP-5
+  product_id: 62
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00147: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-5.4.0-rhel-5
+  description: Red Hat Network Proxy v 5.4
+  enabled: 1
+  forbid_ftp: false
+  id: 147
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNPROXY5.4
+  product_id: 46
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00148: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-5.4.0-rhel-5
+  description: Red Hat Network Satellite Server v 5.4
+  enabled: 1
+  forbid_ftp: false
+  id: 148
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNSAT5.4
+  product_id: 40
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00149: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: dist-6E-qu-candidate
+  description: Red Hat Enterprise Linux 6
+  enabled: 1
+  forbid_ftp: false
+  id: 149
+  is_oval_product: true
+  is_rhel_addon: false
+  permitted_build_flags: !ruby/object:Set
+    hash:
+      buildroot-push: true
+  is_server_only: 0
+  name: RHEL-6
+  product_id: 16
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: true
+product_version_00150: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for Red Hat Enterprise Linux 6
+  enabled: 1
+  forbid_ftp: true
+  id: 150
+  is_oval_product: true
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-6-Supplementary
+  product_id: 23
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00151: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 6
+  enabled: 1
+  forbid_ftp: false
+  id: 151
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6-RHNTOOLS
+  product_id: 60
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00152: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhev-h-5E-candidate
+  description: RHEV-H, V2V and Agents for RHEL-5
+  enabled: 1
+  forbid_ftp: true
+  id: 152
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-RHEV
+  product_id: 55
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00153: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: rhevh-rhel-6.2-candidate
+  description: RHEV-H and Agents for RHEL-6
+  enabled: 1
+  forbid_ftp: false
+  id: 153
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6-RHEV
+  product_id: 55
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00154: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHEV Manager version 2.x
+  enabled: 1
+  forbid_ftp: true
+  id: 154
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEV-M 2.x
+  product_id: 55
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00155: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: rhevm-3-rhel-6-candidate
+  description: RHEV Manager version 3.x
+  enabled: 1
+  forbid_ftp: false
+  id: 155
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHEV-S
+  product_id: 55
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00156: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: hwcert-6E
+  description: RHEL 6 HWCERT
+  enabled: 1
+  forbid_ftp: false
+  id: 156
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHHC
+  product_id: 27
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00157: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: dist-6E-sap
+  description: RHEL 6 for SAP
+  enabled: 1
+  forbid_ftp: true
+  id: 157
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-SAP
+  product_id: 56
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00158: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: 
+  description: RHEL-6-HPN
+  enabled: 1
+  forbid_ftp: true
+  id: 158
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6-HPN
+  product_id: 63
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00159: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: 
+  description: RHEL-6-V2VWin
+  enabled: 1
+  forbid_ftp: true
+  id: 159
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-V2VWin
+  product_id: 64
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00160: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: JBEM
+  enabled: 1
+  forbid_ftp: true
+  id: 160
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: JBEM
+  product_id: 65
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00161: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-3.0E-qu-candidate
+  description: Red Hat Enterprise Linux 3 Extended Lifecycle Support
+  enabled: 1
+  forbid_ftp: false
+  id: 161
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-3-ELS
+  product_id: 16
+  rhel_release_id: 2
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00162: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: RHEL-5.3-Z-candidate
+  description: Red Hat Enterprise Linux 5.3 Long Life
+  enabled: 1
+  forbid_ftp: true
+  id: 162
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5.3.LL
+  product_id: 16
+  rhel_release_id: 22
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00163: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for RHEL 5.3.LL
+  enabled: 0
+  forbid_ftp: true
+  id: 163
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-5.3.LL-Supplementary
+  product_id: 23
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00164: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 5.3.LL
+  enabled: 1
+  forbid_ftp: false
+  id: 164
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNTOOLS-5.3.LL
+  product_id: 60
+  rhel_release_id: 18
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00165: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-5.6-Z-candidate
+  description: Red Hat Enterprise Linux 5.6.Z - Server Only
+  enabled: 0
+  forbid_ftp: true
+  id: 165
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5.6.Z
+  product_id: 16
+  rhel_release_id: 16
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00166: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Enterprise Linux 6.0
+  enabled: 0
+  forbid_ftp: false
+  id: 166
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6.0
+  product_id: 16
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00167: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHEL-5.3.Z-SJIS
+  enabled: 1
+  forbid_ftp: false
+  id: 167
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5.3.Z-SJIS
+  product_id: 61
+  rhel_release_id: 12
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00168: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-5-SJIS-5.4-Z-candidate
+  description: RHEL-5.4.Z-SJIS
+  enabled: 0
+  forbid_ftp: false
+  id: 168
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5.4.Z-SJIS
+  product_id: 61
+  rhel_release_id: 14
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00169: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 5.6.Z
+  enabled: 1
+  forbid_ftp: false
+  id: 169
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNTOOLS-5.6.Z
+  product_id: 60
+  rhel_release_id: 16
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00170: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for RHEL 5.6.z
+  enabled: 1
+  forbid_ftp: true
+  id: 170
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-5.6.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 16
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00171: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: jb-eap-5-rhel-6-candidate
+  description: JBEAP 5 for RHEL 6
+  enabled: 1
+  forbid_ftp: false
+  id: 171
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-JBEAP-5
+  product_id: 41
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00172: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: jb-ewp-5-rhel-6-candidate
+  description: JBEWP 5 for RHEL 6
+  enabled: 1
+  forbid_ftp: true
+  id: 172
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-JBEWP-5
+  product_id: 62
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00173: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: jb-ews-1-rhel-6-candidate
+  description: JBEWS 1.0 for RHEL 6
+  enabled: 1
+  forbid_ftp: true
+  id: 173
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-JBEWS-1
+  product_id: 53
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00174: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: RHEL-5-SJIS-5.6-Z-candidate
+  description: RHEL-5.6.Z-SJIS
+  enabled: 1
+  forbid_ftp: false
+  id: 174
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-5.6.Z-SJIS
+  product_id: 61
+  rhel_release_id: 16
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00175: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHEL 6 EIR
+  enabled: 1
+  forbid_ftp: true
+  id: 175
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-EIR
+  product_id: 66
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00176: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: MRG for RHEL-5 v. 2
+  enabled: 1
+  forbid_ftp: false
+  id: 176
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-MRG-2
+  product_id: 47
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00177: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: MRG for RHEL-6 v.2
+  enabled: 1
+  forbid_ftp: false
+  id: 177
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6-MRG-2
+  product_id: 67
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00178: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 5.6.LL
+  enabled: 0
+  forbid_ftp: false
+  id: 178
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHNTOOLS-5.6.LL
+  product_id: 60
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00179: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Enterprise Linux 6.0 EUS - Server Only
+  enabled: 1
+  forbid_ftp: true
+  id: 179
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6.0.z
+  product_id: 16
+  rhel_release_id: 19
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00180: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Enterprise Linux 6
+  enabled: 0
+  forbid_ftp: false
+  id: 180
+  is_oval_product: true
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6.1.z
+  product_id: 16
+  rhel_release_id: 20
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00181: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for Red Hat Enterprise Linux 6
+  enabled: 1
+  forbid_ftp: true
+  id: 181
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-6.1.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 20
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00182: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-5.4-rhel-6
+  description: Red Hat Network Satellite Server v 5.4
+  enabled: 1
+  forbid_ftp: false
+  id: 182
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHNSAT5.4
+  product_id: 40
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00183: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: satellite-5.4-rhel-6
+  description: Red Hat Network Proxy v 5.4
+  enabled: 1
+  forbid_ftp: false
+  id: 183
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHNPROXY5.4
+  product_id: 46
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00184: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: S-JIS for RHEL 6
+  enabled: 1
+  forbid_ftp: false
+  id: 184
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6.2.Z-SJIS
+  product_id: 61
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00185: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: RHEL-5.7-Z-candidate
+  description: Red Hat Enterprise Linux 5
+  enabled: 0
+  forbid_ftp: false
+  id: 185
+  is_oval_product: true
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5.7.Z
+  product_id: 16
+  rhel_release_id: 21
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00186: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Directory Server 9 for RHEL 6
+  enabled: 1
+  forbid_ftp: false
+  id: 186
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-6-RHDirServ-9
+  product_id: 29
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00187: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for RHEL 6.0.z
+  enabled: 1
+  forbid_ftp: true
+  id: 187
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-6.0.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 19
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00188: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-extras-qu-candidate
+  description: Supplementary for Red Hat Enterprise Linux 5
+  enabled: 0
+  forbid_ftp: true
+  id: 188
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-5.7.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 21
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00189: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 6.0.Z
+  enabled: 1
+  forbid_ftp: false
+  id: 189
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHNTOOLS-6.0.Z
+  product_id: 60
+  rhel_release_id: 19
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00190: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHEL 6 STS
+  enabled: 1
+  forbid_ftp: true
+  id: 190
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-STS
+  product_id: 58
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00191: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: RHEL-5.6-Z-candidate
+  description: Red Hat Enterprise Linux 5.6 EUS - Server Only
+  enabled: 1
+  forbid_ftp: true
+  id: 191
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5.6-EUS
+  product_id: 16
+  rhel_release_id: 23
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00192: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: rhui-2-rhel-6-candidate
+  description: 2.x releases of RHUI
+  enabled: 1
+  forbid_ftp: true
+  id: 192
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHUI-2
+  product_id: 68
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: true
+product_version_00193: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ssa-3.2-rhel-6-updates
+  description: GlusterFS with RH branding
+  enabled: 1
+  forbid_ftp: false
+  id: 193
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHSSA-3.2
+  product_id: 69
+  rhel_release_id: 20
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00194: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 149
+  default_brew_tag: ""
+  description: Red Hat Enterprise Linux 6
+  enabled: 0
+  forbid_ftp: false
+  id: 194
+  is_oval_product: true
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6.2.z
+  product_id: 16
+  rhel_release_id: 24
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00195: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for Red Hat Enterprise Linux 6
+  enabled: 1
+  forbid_ftp: true
+  id: 195
+  is_oval_product: true
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-6.2.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 24
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00196: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Enterprise Linux 6.1 EUS - Server Only
+  enabled: 1
+  forbid_ftp: true
+  id: 196
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6.1-EUS
+  product_id: 16
+  rhel_release_id: 20
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00197: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: sam-1-rhel-6-candidate
+  description: Red Hat Subscription Asset Manager 1.0
+  enabled: 1
+  forbid_ftp: false
+  id: 197
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-SAM-1.0
+  product_id: 70
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: true
+product_version_00198: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 6.1.Z
+  enabled: 1
+  forbid_ftp: false
+  id: 198
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHNTOOLS-6.1-EUS
+  product_id: 60
+  rhel_release_id: 20
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00199: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Network Tools for RHEL 6.2.Z
+  enabled: 1
+  forbid_ftp: false
+  id: 199
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHNTOOLS-6.2.Z
+  product_id: 60
+  rhel_release_id: 24
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00200: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-ep-6-candidate
+  description: JBEAP 6 for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 200
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBEAP-6
+  product_id: 41
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00201: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: jb-eap-6-rhel-6-candidate
+  description: JBEAP 6 for RHEL 6
+  enabled: 1
+  forbid_ftp: false
+  id: 201
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-JBEAP-6
+  product_id: 41
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00202: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ce-rhel-6-candidate
+  description: CloudForms for RHEL 6
+  enabled: 1
+  forbid_ftp: false
+  id: 202
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-CF
+  product_id: 71
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: true
+product_version_00203: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ce-rhel-5-candidate
+  description: CloudForms Tools for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 203
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-CF
+  product_id: 71
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: true
+product_version_00204: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 16
+  default_brew_tag: RHEL-5.8-Z-candidate
+  description: Red Hat Enterprise Linux 5
+  enabled: 1
+  forbid_ftp: false
+  id: 204
+  is_oval_product: true
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5.8.Z
+  product_id: 16
+  rhel_release_id: 25
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00205: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Enterprise Linux 4 Extended Lifecycle Support
+  enabled: 1
+  forbid_ftp: true
+  id: 205
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-ELS
+  product_id: 16
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00206: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Developer Toolset 1.0 for RHEL 6
+  enabled: 1
+  forbid_ftp: false
+  id: 206
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6-RHDevToolset-1.0
+  product_id: 72
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00207: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Developer Toolset 1.0 for RHEL 5
+  enabled: 1
+  forbid_ftp: false
+  id: 207
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-RHDevToolset-1.0
+  product_id: 72
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00208: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Cluster Suite for RHEL 4 ELS
+  enabled: 0
+  forbid_ftp: false
+  id: 208
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-ELS-RHCS
+  product_id: 20
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00209: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: GFS for RHEL 4 ELS
+  enabled: 0
+  forbid_ftp: false
+  id: 209
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-4-ELS-RHGFS
+  product_id: 24
+  rhel_release_id: 3
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00210: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-ep-ews-2-candidate
+  description: JBEWS 2 for RHEL 5
+  enabled: 1
+  forbid_ftp: true
+  id: 210
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBEWS-2
+  product_id: 53
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00211: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: jb-ews-2-rhel-6-candidate
+  description: JBEWS 2 for RHEL 6
+  enabled: 1
+  forbid_ftp: true
+  id: 211
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-JBEWS-2
+  product_id: 53
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00212: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-extras-U8-errata-candidate
+  description: Supplementary for Red Hat Enterprise Linux 5
+  enabled: 1
+  forbid_ftp: true
+  id: 212
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-5.8.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 25
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00213: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: dist-5E-jon-3-candidate
+  description: JBoss ON 3 for RHEL 5
+  enabled: 1
+  forbid_ftp: true
+  id: 213
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-JBON-3
+  product_id: 73
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00214: 
+  allow_rhn_debuginfo: false
+  base_product_version_id: 
+  default_brew_tag: jboss-on-3-rhel-6-candidate
+  description: JBoss ON 3 for RHEL 6
+  enabled: 1
+  forbid_ftp: true
+  id: 214
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-JBON-3
+  product_id: 73
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00215: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: rhs-2.0-rhel-6-candidate
+  description: Red Hat Storage 2.0
+  enabled: 1
+  forbid_ftp: false
+  id: 215
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHS-2.0
+  product_id: 74
+  rhel_release_id: 24
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00216: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ssa-3.2-rhel-6-candidate
+  description: Updates to initial release of gluster product
+  enabled: 0
+  forbid_ftp: false
+  id: 216
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6-SSA-3.2.z
+  product_id: 69
+  rhel_release_id: 20
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00217: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: sam-1.1-rhel-6-candidate
+  description: Red Hat Subscription Asset Manager 1.1
+  enabled: 1
+  forbid_ftp: false
+  id: 217
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-SAM-1.1
+  product_id: 70
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: true
+product_version_00218: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: RHEL-5-SJIS-5.8-Z-candidate
+  description: RHEL-5.8.Z-SJIS
+  enabled: 1
+  forbid_ftp: false
+  id: 218
+  is_oval_product: false
+  is_rhel_addon: true
+  is_server_only: 1
+  name: RHEL-5.8.Z-SJIS
+  product_id: 61
+  rhel_release_id: 25
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00219: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ruby193-rhel-6
+  description: ruby-scl-test for RHEL6
+  enabled: 1
+  forbid_ftp: false
+  id: 219
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6-ruby-scl-test
+  product_id: 75
+  rhel_release_id: 15
+  sig_key_id: 1
+  supports_cdn: false
+product_version_00220: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Supplementary for Red Hat Enterprise Linux 6
+  enabled: 1
+  forbid_ftp: true
+  id: 220
+  is_oval_product: true
+  is_rhel_addon: true
+  is_server_only: 0
+  name: RHEL-6.3.Z-Supplementary
+  product_id: 23
+  rhel_release_id: 26
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00221: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Enterprise Linux 6
+  enabled: 1
+  forbid_ftp: false
+  id: 221
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-6.3.z
+  product_id: 16
+  rhel_release_id: 26
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00222: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: rhs-2.0-rhel-6
+  description: Red Hat Storage 2.0 Console
+  enabled: 1
+  forbid_ftp: false
+  id: 222
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHSC-2.0
+  product_id: 74
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00223: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Enhanced Kernel for HPC for Power Systems
+  enabled: 1
+  forbid_ftp: true
+  id: 223
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-P7IH
+  product_id: 76
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00224: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: RHEL-6-BlueGene
+  enabled: 1
+  forbid_ftp: true
+  id: 224
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-BlueGene
+  product_id: 77
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00225: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: devtoolset-1.1-rhel-5
+  description: Red Hat Developer Toolset 1.1 for RHEL 5
+  enabled: 0
+  forbid_ftp: false
+  id: 225
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 0
+  name: RHEL-5-RHDevToolset-1.1
+  product_id: 72
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: true
+product_version_00226: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: rhs-client-rhel-6-candidate
+  description: Native Client for RHEL for Red Hat Storage
+  enabled: 1
+  forbid_ftp: true
+  id: 226
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHSClient
+  product_id: 74
+  rhel_release_id: 15
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00227: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: rhs-client-rhel-5-candidate
+  description: Native Client for RHEL 5 for Red Hat Storage
+  enabled: 1
+  forbid_ftp: true
+  id: 227
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-5-RHSClient
+  product_id: 74
+  rhel_release_id: 7
+  sig_key_id: 6
+  supports_cdn: false
+product_version_00228: 
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: ""
+  description: Red Hat Enterprise Linux 6.2 EUS - Server Only
+  enabled: 1
+  forbid_ftp: true
+  id: 228
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6.2-EUS
+  product_id: 16
+  rhel_release_id: 24
+  sig_key_id: 8
+  supports_cdn: false
+product_version_00252:
+  allow_rhn_debuginfo: true
+  base_product_version_id: 
+  default_brew_tag: hss-rhci-rhel-6-candidate
+  description: RHCI version 1
+  enabled: 1
+  forbid_ftp: true
+  id: 252
+  is_oval_product: false
+  is_rhel_addon: false
+  is_server_only: 1
+  name: RHEL-6-RHCI1
+  product_id: 82
+  rhel_release_id: 15
+  sig_key_id: 4
+  supports_cdn: false
+product_version_00306:
+  id: 306
+  product_id: 16
+  name: "RHEL-6.5.z"
+  description: "Red Hat Enterprise Linux 6"
+  default_brew_tag: "RHEL-6.5-Z-candidate"
+  rhel_release_id: 31
+  sig_key_id: 8
+  is_server_only: 0
+  enabled: 1
+  allow_rhn_debuginfo: true
+  forbid_ftp: false
+  is_oval_product: true
+  is_rhel_addon: false
+  supports_cdn: false
+  base_product_version_id:
+product_version_00244:
+  id: 244
+  product_id: 16
+  name: "RHEL-7"
+  description: "Red Hat Enterprise Linux 7"
+  default_brew_tag: "rhel-7.0-candidate"
+  rhel_release_id: 27
+  sig_key_id: 8
+  is_server_only: 0
+  enabled: 1
+  allow_rhn_debuginfo: true
+  forbid_ftp: false
+  is_oval_product: false
+  permitted_build_flags: !ruby/object:Set
+    hash:
+      buildroot-push: true
+  is_rhel_addon: false
+  supports_cdn: true
+  base_product_version_id:
+product_version_00317:
+  id: 317
+  product_id: 23
+  name: RHEL-7.0-Supplementary
+  description: ""
+  default_brew_tag: supp-rhel-7.0-candidate
+  rhel_release_id: 27
+  sig_key_id: 8
+  is_server_only: 0
+  enabled: 1
+  allow_rhn_debuginfo: true
+  forbid_ftp: true
+  is_oval_product: false
+  is_rhel_addon: true
+  supports_cdn: false
+  base_product_version_id:
+product_version_00345:
+  id: 345
+  product_id: 16
+  name: "RHEL-7.0.Z"
+  description: "Red Hat Enterprise Linux 7.0 Updates"
+  default_brew_tag: "rhel-7.0-z-candidate"
+  rhel_release_id: 41
+  sig_key_id: 8
+  is_server_only: 0
+  enabled: 1
+  allow_rhn_debuginfo: true
+  forbid_ftp: false
+  is_oval_product: false
+  is_rhel_addon: false
+  supports_cdn: true
+  base_product_version_id:
+product_version_269:
+  description: RHEV Manager version 3.3
+  is_server_only: 1
+  is_rhel_addon: false
+  allow_rhn_debuginfo: true
+  sig_key_id: 8
+  is_oval_product: false
+  unused_push_types: []
+  name: RHEL-6-RHEV-S-3.3
+  base_product_version_id:
+  id: 269
+  product_id: 55
+  enabled: 1
+  forbid_ftp: false
+  supports_cdn: false
+  default_brew_tag: rhevm-3.3-rhel-6-candidate
+  rhel_release_id: 15
+product_version_318:
+  description: RHEV Manager version 3.4
+  is_server_only: 1
+  is_rhel_addon: false
+  allow_rhn_debuginfo: true
+  sig_key_id: 8
+  is_oval_product: false
+  unused_push_types: []
+  name: RHEL-6-RHEV-S-3.4
+  base_product_version_id:
+  id: 318
+  product_id: 55
+  enabled: 1
+  forbid_ftp: false
+  supports_cdn: false
+  default_brew_tag: rhevm-3.4-rhel-6-candidate
+  rhel_release_id: 15
+product_version_272:
+  base_product_version_id:
+  default_brew_tag: rhevm-3.4-rhel-7-candidate
+  allow_rhn_debuginfo: true
+  unused_push_types: []
+  sig_key_id: 8
+  is_oval_product: false
+  supports_cdn: true
+  description: RHEV-H and Agents for RHEL-7
+  rhel_release_id: 27
+  product_id: 55
+  forbid_ftp: false
+  is_rhel_addon: false
+  name: RHEL-7-RHEV
+  is_server_only: 1
+  enabled: 1
+  id: 272
+product_version_384:
+  description: Red Hat Enterprise Linux 6
+  rhel_release_id: 44
+  is_oval_product: true
+  product_id: 16
+  unused_push_types: []
+  id: 384
+  name: RHEL-6.6.z
+  allow_rhn_debuginfo: true
+  base_product_version_id:
+  supports_cdn: true
+  is_server_only: 0
+  default_brew_tag: RHEL-6.6-Z-candidate
+  sig_key_id: 8
+  enabled: 1
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_268:
+  name: RHEL-6-OSE-1.2
+  enabled: 1
+  forbid_ftp: false
+  product_id: 79
+  supports_cdn: false
+  allow_rhn_debuginfo: true
+  is_rhel_addon: false
+  description: RHEL 6 Version of OpenShift Enterprise 1.2
+  default_brew_tag: devops-1.2-rhel-6-candidate
+  rhel_release_id: 15
+  sig_key_id: 8
+  is_server_only: 1
+  is_oval_product: false
+  base_product_version_id:
+  id: 268
+  unused_push_types: []
+product_version_320:
+  name: RHEL-6-OSE-2.1
+  enabled: 1
+  forbid_ftp: false
+  product_id: 79
+  supports_cdn: false
+  allow_rhn_debuginfo: true
+  is_rhel_addon: false
+  description: RHEL 6 Version of OpenShift Enterprise 2.1
+  default_brew_tag: rhose-2.1-rhel-6-candidate
+  rhel_release_id: 15
+  sig_key_id: 8
+  is_server_only: 1
+  is_oval_product: false
+  base_product_version_id:
+  id: 320
+  unused_push_types: []
+product_version_284:
+  name: RHEL-6-OSE-2.0
+  enabled: 1
+  forbid_ftp: false
+  product_id: 79
+  supports_cdn: false
+  allow_rhn_debuginfo: true
+  is_rhel_addon: false
+  description: RHEL 6 Version of OpenShift Enterprise 2.0
+  default_brew_tag: rhose-2.0-rhel-6-candidate
+  rhel_release_id: 15
+  sig_key_id: 8
+  is_server_only: 1
+  is_oval_product: false
+  base_product_version_id:
+  id: 284
+  unused_push_types: []
+product_version_259:
+  description: Red Hat Software Collections for RHEL-6
+  sig_key_id: 8
+  id: 259
+  allow_rhn_debuginfo: true
+  product_id: 83
+  is_server_only: 0
+  supports_cdn: true
+  enabled: 1
+  is_oval_product: false
+  base_product_version_id:
+  default_brew_tag: rhscl-1.0-rhel-6-candidate
+  rhel_release_id: 15
+  name: RHEL-6-RHSCL-1
+  unused_push_types: []
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_302:
+  description: Red Hat Software Collections 1 for Red Hat Enterprise Linux 6
+  sig_key_id: 8
+  id: 302
+  allow_rhn_debuginfo: true
+  product_id: 83
+  is_server_only: 0
+  supports_cdn: true
+  enabled: 1
+  is_oval_product: false
+  base_product_version_id:
+  default_brew_tag: rhscl-1.1-rhel-6-candidate
+  rhel_release_id: 15
+  name: RHEL-6-RHSCL-1.1
+  unused_push_types: []
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_303:
+  description: Red Hat Software Collections 1 for Red Hat Enterprise Linux 7
+  sig_key_id: 8
+  id: 303
+  allow_rhn_debuginfo: true
+  product_id: 83
+  is_server_only: 0
+  supports_cdn: true
+  enabled: 1
+  is_oval_product: false
+  base_product_version_id:
+  default_brew_tag: rhscl-1.1-rhel-7-candidate
+  rhel_release_id: 27
+  name: RHEL-7-RHSCL-1.1
+  unused_push_types: []
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_305:
+  description: Red Hat Software Collections 1 for Red Hat Enterprise Linux 6.4 EUS
+  sig_key_id: 8
+  id: 305
+  allow_rhn_debuginfo: true
+  product_id: 83
+  is_server_only: 1
+  supports_cdn: true
+  enabled: 1
+  is_oval_product: false
+  base_product_version_id:
+  default_brew_tag: rhscl-1.1-rhel-6-candidate
+  rhel_release_id: 29
+  name: RHEL-6.4.Z-RHSCL-1.1
+  unused_push_types: []
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_349:
+  description: Red Hat Software Collections 1 for Red Hat Enterprise Linux 6
+  sig_key_id: 8
+  id: 349
+  allow_rhn_debuginfo: true
+  product_id: 83
+  is_server_only: 0
+  supports_cdn: false
+  enabled: 1
+  is_oval_product: false
+  base_product_version_id:
+  default_brew_tag: rhscl-1.2-rhel-6-candidate
+  rhel_release_id: 15
+  name: RHEL-6-RHSCL-1.2
+  unused_push_types: []
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_350:
+  description: Red Hat Software Collections 1 for Red Hat Enterprise Linux 7
+  sig_key_id: 8
+  id: 350
+  allow_rhn_debuginfo: true
+  product_id: 83
+  is_server_only: 0
+  supports_cdn: true
+  enabled: 1
+  is_oval_product: false
+  base_product_version_id:
+  default_brew_tag: rhscl-1.2-rhel-7-candidate
+  rhel_release_id: 27
+  name: RHEL-7-RHSCL-1.2
+  unused_push_types: []
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_354:
+  description: Red Hat Software Collections 1 for Red Hat Enterprise Linux 6.4 EUS
+  sig_key_id: 8
+  id: 354
+  allow_rhn_debuginfo: true
+  product_id: 83
+  is_server_only: 1
+  supports_cdn: false
+  enabled: 1
+  is_oval_product: false
+  base_product_version_id:
+  default_brew_tag: rhscl-1.2-rhel-6-candidate
+  rhel_release_id: 29
+  name: RHEL-6.4.Z-RHSCL-1.2
+  unused_push_types: []
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_355:
+  description: Red Hat Software Collections 1 for Red Hat Enterprise Linux 6.5 EUS
+  sig_key_id: 8
+  id: 355
+  allow_rhn_debuginfo: false
+  product_id: 83
+  is_server_only: 1
+  supports_cdn: false
+  enabled: 1
+  is_oval_product: false
+  base_product_version_id:
+  default_brew_tag: rhscl-1.2-rhel-6-candidate
+  rhel_release_id: 31
+  name: RHEL-6.5.Z-RHSCL-1.2
+  unused_push_types: []
+  is_rhel_addon: false
+  forbid_ftp: false
+product_version_258:
+  is_server_only: 0
+  base_product_version_id:
+  forbid_ftp: true
+  unused_push_types:
+  - :rhn_live
+  - :ftp
+  - :rhn_stage
+  name: RHEL-6.3-EUS
+  enabled: 1
+  is_oval_product: false
+  rhel_release_id: 26
+  sig_key_id: 8
+  allow_rhn_debuginfo: true
+  product_id: 16
+  default_brew_tag: ""
+  supports_cdn: false
+  id: 258
+  description: Red Hat Enterprise Linux 6.3 EUS - Server and Compute Node Only
+  is_rhel_addon: false
+product_version_308:
+  is_server_only: 0
+  base_product_version_id:
+  forbid_ftp: false
+  unused_push_types: []
+  name: RHEL-6.4-EUS
+  enabled: 1
+  is_oval_product: false
+  rhel_release_id: 32
+  sig_key_id: 8
+  allow_rhn_debuginfo: true
+  product_id: 16
+  default_brew_tag: RHEL-6.4-Z-candidate
+  supports_cdn: false
+  id: 308
+  description: Red Hat Enterprise Linux 6.4 EUS - Server and Compute Node Only
+  is_rhel_addon: false
+product_version_311:
+  is_server_only: 1
+  base_product_version_id:
+  forbid_ftp: true
+  unused_push_types: []
+  name: RHEL-5.9-EUS
+  enabled: 1
+  is_oval_product: false
+  rhel_release_id: 33
+  sig_key_id: 6
+  allow_rhn_debuginfo: true
+  product_id: 16
+  default_brew_tag: RHEL-5.9-Z-candidate
+  supports_cdn: false
+  id: 311
+  description: Red Hat Enterprise Linux 5.9 EUS - Server Only
+  is_rhel_addon: false
+product_version_312:
+  is_server_only: 1
+  base_product_version_id:
+  forbid_ftp: true
+  unused_push_types: []
+  name: RHEL-5.6.LL
+  enabled: 1
+  is_oval_product: false
+  rhel_release_id: 39
+  sig_key_id: 6
+  allow_rhn_debuginfo: true
+  product_id: 16
+  default_brew_tag: RHEL-5.6-Z-candidate
+  supports_cdn: false
+  id: 312
+  description: Red Hat Enterprise Linux 5.6 Long Life
+  is_rhel_addon: false
+product_version_315:
+  is_server_only: 1
+  base_product_version_id:
+  forbid_ftp: true
+  unused_push_types: []
+  name: RHEL-6.2.AUS
+  enabled: 1
+  is_oval_product: false
+  rhel_release_id: 42
+  sig_key_id: 8
+  allow_rhn_debuginfo: true
+  product_id: 16
+  default_brew_tag: RHEL-6.2-Z-candidate
+  supports_cdn: false
+  id: 315
+  description: Red Hat Enterprise Linux 6.2 AUS
+  is_rhel_addon: false
+product_version_319:
+  is_server_only: 0
+  base_product_version_id:
+  forbid_ftp: false
+  unused_push_types: []
+  name: RHEL-5.11.Z
+  enabled: 1
+  is_oval_product: true
+  rhel_release_id: 37
+  sig_key_id: 6
+  allow_rhn_debuginfo: true
+  product_id: 16
+  default_brew_tag: RHEL-5.11-Z-candidate
+  supports_cdn: false
+  id: 319
+  description: Red Hat Enterprise Linux 5
+  is_rhel_addon: false
+product_version_417:
+  is_rhel_addon: false
+  default_brew_tag: rhel-7.1-z-candidate
+  base_product_version_id:
+  rhel_release_id: 47
+  product_id: 16
+  allow_rhn_debuginfo: true
+  is_oval_product: true
+  name: RHEL-7.1.Z
+  is_server_only: 0
+  enabled: 1
+  id: 417
+  description: RHEL-7.1.Z
+  supports_cdn: true
+  unused_push_types: []
+  sig_key_id: 8
+  forbid_ftp: false
+product_version_419:
+  is_rhel_addon: false
+  default_brew_tag: rhel-7.1-ppc64le-auto
+  base_product_version_id:
+  rhel_release_id: 47
+  product_id: 16
+  allow_rhn_debuginfo: true
+  is_oval_product: true
+  name: RHEL-LE-7.1.Z
+  is_server_only: 1
+  enabled: 1
+  id: 419
+  description: RHEL-7.1.Z for PPC64 LE
+  supports_cdn: true
+  unused_push_types: []
+  sig_key_id: 8
+  forbid_ftp: false
+product_version_368:
+  description: RHEL 6 Version of OpenShift Enterprise 2.2
+  supports_cdn: false
+  id: 368
+  sig_key_id: 8
+  default_brew_tag: rhose-2.2-rhel-6-candidate
+  is_server_only: 1
+  product_id: 79
+  is_rhel_addon: false
+  enabled: 1
+  unused_push_types: []
+  name: RHEL-6-OSE-2.2
+  forbid_ftp: false
+  is_oval_product: false
+  rhel_release_id: 15
+  allow_rhn_debuginfo: true
+  base_product_version_id:
+product_version_1419:
+  name: RHELSA-7.1.Z
+  forbid_ftp: true
+  unused_push_types: []
+  default_brew_tag: rhel-7.1-aarch64-z-auto
+  is_rhel_addon: false
+  enabled: 1
+  rhel_release_id: 47
+  sig_key_id: 8
+  id: 1419
+  description: RHEL-7.1.Z for ARM SERVER 64-bit
+  base_product_version_id:
+  product_id: 16
+  is_server_only: 1
+  is_oval_product: true
+  allow_rhn_debuginfo: true
+  supports_cdn: true
+product_version_784:
+  name: "RHEL-7.1.Z-Supplementary"
+  forbid_ftp: true
+  unused_push_types: []
+  default_brew_tag: ""
+  is_rhel_addon: true
+  enabled: 1
+  rhel_release_id: 47
+  sig_key_id: 8
+  id: 784
+  description: Supplementary for Red Hat Enterprise Linux 7
+  base_product_version_id:
+  product_id: 112
+  is_server_only: 1
+  is_oval_product: false
+  allow_rhn_debuginfo: true
+  supports_cdn: true
+product_version_854:
+  name: "RHEL-LE-7.1.Z-Supplementary"
+  forbid_ftp: true
+  unused_push_types: []
+  default_brew_tag: ""
+  is_rhel_addon: true
+  enabled: 1
+  rhel_release_id: 47
+  sig_key_id: 8
+  id: 854
+  description: Supplementary for Red Hat Enterprise Linux 7
+  base_product_version_id:
+  product_id: 112
+  is_server_only: 1
+  is_oval_product: false
+  allow_rhn_debuginfo: true
+  supports_cdn: true
+product_version_334:
+  default_brew_tag: rhs-3.0-rhel-6-candidate
+  rhel_release_id: 15
+  is_rhel_addon: false
+  supports_cdn: true
+  forbid_ftp: false
+  is_oval_product: false
+  unused_push_types: []
+  product_id: 74
+  base_product_version_id:
+  sig_key_id: 8
+  description: Red Hat Storage 3 for RHEL 6
+  enabled: 1
+  allow_rhn_debuginfo: true
+  id: 334
+  name: RHEL-6-RHS-3
+  is_server_only: 1
+product_version_358:
+  default_brew_tag: rhevm-3.5-rhel-6-candidate
+  rhel_release_id: 15
+  is_rhel_addon: false
+  supports_cdn: false
+  forbid_ftp: false
+  is_oval_product: false
+  unused_push_types: []
+  product_id: 55
+  base_product_version_id:
+  sig_key_id: 8
+  description: RHEV Manager version 3.5
+  enabled: 1
+  allow_rhn_debuginfo: true
+  id: 358
+  name: RHEL-6-RHEV-S-3.5
+  is_server_only: 1
+product_version_249:
+  is_server_only: 1
+  forbid_ftp: false
+  base_product_version_id:
+  product_id: 41
+  default_brew_tag: jb-eap-6-rhel-7-candidate
+  enabled: 1
+  is_oval_product: false
+  supports_cdn: true
+  description: JBEAP 6 for RHEL 7
+  rhel_release_id: 27
+  sig_key_id: 8
+  allow_rhn_debuginfo: true
+  is_rhel_addon: false
+  id: 249
+  name: RHEL-7-JBEAP-6
+  unused_push_types:
+  - :rhn_live
+  - :ftp
+product_version_468:
+  id: 468
+  enabled: 1
+  is_rhel_addon: false
+  product_id: 16
+  sig_key_id: 8
+  supports_cdn: true
+  description: Red Hat Enterprise Linux 7.1 EUS - Server and Compute Node Only
+  forbid_ftp: true
+  is_server_only: 0
+  allow_rhn_debuginfo: true
+  is_oval_product: false
+  default_brew_tag: RHEL-7.1-Z-candidate
+  unused_push_types: []
+  name: RHEL-7.1-EUS
+  rhel_release_id: 52
+  base_product_version_id:
+product_version_449:
+  id: 449
+  enabled: 1
+  is_rhel_addon: true
+  product_id: 23
+  sig_key_id: 8
+  supports_cdn: false
+  description: Red Hat Enterprise Linux 6 Supplementary
+  forbid_ftp: true
+  is_server_only: 0
+  allow_rhn_debuginfo: true
+  is_oval_product: true
+  default_brew_tag: rhel-6.7-supp-z
+  unused_push_types: []
+  name: RHEL-6.7.Z-Supplementary
+  rhel_release_id: 46
+  base_product_version_id:
+product_version_403:
+  id: 403
+  enabled: 1
+  is_rhel_addon: false
+  product_id: 16
+  sig_key_id: 8
+  supports_cdn: false
+  description: Red Hat Enterprise Linux 6
+  forbid_ftp: false
+  is_server_only: 0
+  allow_rhn_debuginfo: true
+  is_oval_product: true
+  default_brew_tag: RHEL-6.7-Z-candidate
+  unused_push_types: []
+  name: RHEL-6.7.Z
+  rhel_release_id: 46
+  base_product_version_id:
+product_version_357:
+  id: 357
+  product_id: 102
+  name: EXTRAS-7-RHEL-7
+  description: Red Hat Enterprise Linux 7 Extras
+  default_brew_tag: extras-rhel-7-candidate
+  rhel_release_id: 27
+  sig_key_id: 8
+  is_server_only: 1
+  enabled: 1
+  allow_rhn_debuginfo: true
+  forbid_ftp: false
+  is_oval_product: false
+  is_rhel_addon: true
+  supports_cdn: true
+  base_product_version_id:
+  unused_push_types: []
+  permitted_build_flags: !ruby/object:Set
+    hash: {}
+product_version_467:
+  id: 467
+  product_id: 16
+  name: RHEL-7.2.Z
+  description: Red Hat Enterprise Linux 7
+  default_brew_tag: rhel-7.2-z-candidate
+  rhel_release_id: 51
+  sig_key_id: 8
+  is_server_only: 0
+  enabled: 1
+  allow_rhn_debuginfo: true
+  forbid_ftp: false
+  is_oval_product: true
+  is_rhel_addon: false
+  supports_cdn: true
+  base_product_version_id:
+  unused_push_types: []
+  permitted_build_flags: !ruby/object:Set
+    hash: {}
+product_version_509: 
+  id: 509
+  product_id: 104
+  name: RHEL-7-CEPH-2
+  description: Red Hat Ceph Storage 2 for Red Hat Enterprise Linux 7
+  default_brew_tag: ceph-2-rhel-7-candidate
+  rhel_release_id: 27
+  sig_key_id: 8
+  is_server_only: 1
+  enabled: 1
+  allow_rhn_debuginfo: true
+  forbid_ftp: false
+  is_oval_product: false
+  is_rhel_addon: false
+  supports_cdn: true
+  base_product_version_id: 
+  unused_push_types: []
+  permitted_build_flags: !ruby/object:Set 
+    hash: {}
+

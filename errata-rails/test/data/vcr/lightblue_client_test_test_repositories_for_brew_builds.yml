@@ -1,0 +1,34 @@
+--- 
+http_interactions: 
+- request: 
+    method: post
+    uri: https://datasvc.lightblue.dev2.redhat.com/rest/data/find/containerImage
+    body: 
+      encoding: UTF-8
+      string: "{\"objectType\":\"containerImage\",\"version\":\"0.0.6\",\"query\":{\"field\":\"brew.build\",\"op\":\"$in\",\"values\":[\"openshift-sti-nodejs-docker-0.10-43\",\"openshift-sti-perl-docker-5.16-45\"]},\"projection\":[{\"field\":\"repositories\",\"range\":[0,9999],\"projection\":[{\"field\":\"content_advisories\",\"range\":[0,9999],\"projection\":{\"field\":\"id\",\"include\":true}},{\"field\":\"tags\",\"range\":[0,9999],\"projection\":{\"field\":\"name\",\"include\":true}},{\"field\":\"repository\",\"include\":true}]},{\"field\":\"brew.build\",\"include\":true},{\"field\":\"lastUpdateDate\",\"include\":true}]}"
+    headers: 
+      Content-Type: 
+      - application/json
+      Accept: 
+      - application/json
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Server: 
+      - Apache-Coyote/1.1
+      Requestid: 
+      - "8811156751181696019"
+      Content-Type: 
+      - application/json
+      Content-Length: 
+      - "1360"
+      Date: 
+      - Mon, 14 Nov 2016 02:52:57 GMT
+    body: 
+      encoding: ASCII-8BIT
+      string: "{\"status\":\"COMPLETE\",\"modifiedCount\":0,\"matchCount\":2,\"processed\":[{\"lastUpdateDate\":\"20161110T21:14:51.245-0500\",\"brew\":{\"build\":\"openshift-sti-perl-docker-5.16-45\"},\"repositories\":[{\"content_advisories\":[{\"id\":\"RHEA-2016:1388\"},{\"id\":\"RHSA-2016:1847\"},{\"id\":\"RHBA-2016:1349\"},{\"id\":\"RHSA-2016:1844\"},{\"id\":\"RHSA-2016:1602\"},{\"id\":\"RHBA-2016:1444\"},{\"id\":\"RHBA-2016:1522\"},{\"id\":\"RHBA-2016:1833\"},{\"id\":\"RHBA-2016:1832\"},{\"id\":\"RHBA-2016:1835\"},{\"id\":\"RHBA-2016:1834\"},{\"id\":\"RHBA-2016:1525\"},{\"id\":\"RHBA-2016:1449\"}],\"repository\":\"openshift3/perl-516-rhel7\",\"tags\":[{\"name\":\"5.16\"},{\"name\":\"5.16-45\"},{\"name\":\"latest\"},{\"name\":\"v3.1\"},{\"name\":\"v3.2\"},{\"name\":\"v3.3\"}]}]},{\"lastUpdateDate\":\"20161110T21:15:26.043-0500\",\"brew\":{\"build\":\"openshift-sti-nodejs-docker-0.10-43\"},\"repositories\":[{\"content_advisories\":[{\"id\":\"RHEA-2016:1388\"},{\"id\":\"RHSA-2016:1847\"},{\"id\":\"RHBA-2016:1349\"},{\"id\":\"RHSA-2016:1844\"},{\"id\":\"RHSA-2016:1602\"},{\"id\":\"RHBA-2016:1444\"},{\"id\":\"RHBA-2016:1522\"},{\"id\":\"RHBA-2016:1833\"},{\"id\":\"RHBA-2016:1832\"},{\"id\":\"RHBA-2016:1835\"},{\"id\":\"RHBA-2016:1834\"},{\"id\":\"RHBA-2016:1525\"},{\"id\":\"RHSA-2016:1582\"},{\"id\":\"RHBA-2016:1449\"}],\"repository\":\"openshift3/nodejs-010-rhel7\",\"tags\":[{\"name\":\"0.10\"},{\"name\":\"0.10-43\"},{\"name\":\"latest\"},{\"name\":\"v3.1\"},{\"name\":\"v3.2\"},{\"name\":\"v3.3\"}]}]}],\"hostname\":\"lightbluecrud3.dev2.a1.vary.redhat.com\"}"
+    http_version: 
+  recorded_at: Mon, 14 Nov 2016 02:52:57 GMT
+recorded_with: VCR 3.0.3

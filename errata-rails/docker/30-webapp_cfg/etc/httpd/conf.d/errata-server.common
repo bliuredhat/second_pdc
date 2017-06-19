@@ -1,0 +1,26 @@
+DocumentRoot /var/www/errata_rails/public
+
+<Directory /var/www/errata_rails/public>
+AuthType basic
+AuthName "LDAP"
+AuthBasicProvider ldap
+AuthLDAPUrl "ldaps://ldap.corp.redhat.com/dc=redhat,dc=com???(objectclass=posixAccount)"
+AuthLDAPGroupAttribute memberUid
+AuthLDAPGroupAttributeIsDN off
+Require valid-user
+
+SSLRequireSSL
+AllowOverride None
+Allow from all
+Options -MultiViews
+</Directory>
+
+<Directory /var/www/errata_rails/public/images>
+Satisfy Any
+Allow from all
+</Directory>
+
+<Directory /var/www/errata_rails/public/assets>
+Satisfy Any
+Allow from all
+</Directory>

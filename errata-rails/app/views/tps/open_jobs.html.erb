@@ -1,0 +1,9 @@
+<div>
+  Job Queue Last Published: <%= @last_published %><br/>
+  <%= link_to 'Republish Queue', {:action => 'invalidate_queue'}, :remote => true , :method => :post, :class=>'btn' %>
+</div>
+<br/>
+
+<% unless @jobs.empty? %>
+<%= render(:partial => "job_list", :object => @jobs ) %>
+<% end %>

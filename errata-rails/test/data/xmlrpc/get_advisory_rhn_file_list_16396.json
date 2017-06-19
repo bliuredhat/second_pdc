@@ -1,0 +1,25 @@
+{
+  "rhel-server-docker-7.0-22": {
+    "checksums": {
+      "md5": {
+        "rhel-server-docker-7.0-22.noarch.rpm": "fake:7abf9c754e94648eaa1654965c0",
+        "rhel-server-docker-7.0-22.src.rpm": "fake:a12bee69432329b5af677ef37f3"
+      },
+      "sha256": {
+        "rhel-server-docker-7.0-22.noarch.rpm": "fake:f21b2e22f92590697305371e400d18cfcaf23b28820be1cbbc476d79552",
+        "rhel-server-docker-7.0-22.src.rpm": "fake:0708c87d1724b4aec131b36bd7ef6f4707d5f09e48a3c513b97b6f996c3"
+      }
+    },
+    "rpms": {
+      "rhel-server-docker-7.0-22.noarch.rpm": [
+        "rhel-x86_64-client-supplementary-7",
+        "rhel-x86_64-server-supplementary-7"
+      ],
+      "rhel-server-docker-7.0-22.src.rpm": [
+        "rhel-x86_64-client-supplementary-7",
+        "rhel-x86_64-server-supplementary-7"
+      ]
+    },
+    "sig_key": ""
+  }
+}

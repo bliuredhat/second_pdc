@@ -1,0 +1,62 @@
+/* CSS animation helper classes */
+
+/* Use high in conjunction with slide-down animation. */
+.high {
+  position: relative;
+  z-index: 10;
+}
+
+/* Animate an element sliding down.
+ *
+ * The slide-down class should be added to the element at the same
+ * time when the element is displayed.
+ *
+ * The element sliding down should appear immediately beneath some
+ * .high element.
+ */
+.slide-down {
+  -webkit-animation-duration: 0.6s;
+  -webkit-animation-name: slide-down;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+
+  -moz-animation-duration: 0.6s;
+  -moz-animation-name: slide-down;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease-out;
+
+  animation-duration: 0.6s;
+  animation-name: slide-down;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+
+  z-index: 5;
+  position: relative;
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    -webkit-transform: translateY(-150%);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes slide-down {
+  from {
+    -moz-transform: translateY(-150%);
+  }
+  to {
+    -moz-transform: translateY(0px);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-150%);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}

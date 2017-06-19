@@ -1,0 +1,15 @@
+<h2>Open Advisories For Each QA Team Member</h2>
+
+<table class="bug_list bug_list_big">
+  <tr>
+    <th>Team Member</th>
+    <th colspan="5">Open Advisories</th>
+  </th>
+  <% @user_stats.sort_by { |user, user_stats| user.realname.downcase }.each do |user, user_stats| %>
+    <tr class="<%= cycle('bz_even','bz_odd') %>">
+      <td><%= link_to user.to_s, {:controller => 'user', :action => 'assigned_errata', :id => user.url_name}, :title => user.realname %></td>
+      <%# TODO: Add list filter conditions to url %>
+      <%= render 'state_hash_display', :stats => user_stats %>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,39 @@
+<% if @is_admin %>
+  <div>
+    <%= link_to 'Sync with TPS server', {:action => 'sync'}, :method => :post, :class=>'btn' %>
+  </div>
+  <p></p>
+<% end %>
+<h1>Variants</h1>
+<% row_func = lambda do |s|
+     [s.name]
+end
+%>
+
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['name'],
+:table_width => "20%",
+:func => row_func,
+:row_items => @tps_variants
+}) %>
+
+<p></p>
+<h1>Stream Types</h1>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['name'],
+:table_width => "20%",
+:func => row_func,
+:row_items => @tps_stream_types
+}) %>
+
+<p></p>
+<h1>Tps Streams</h1>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Name', 'Parent', 'Active?'],
+:table_width => "50%",
+:func => lambda {|s| [s.full_name, s.parent.try(:name) || "None", s.active? ? 'Yes' : 'No']},
+:row_items => @tps_streams
+}) %>

@@ -1,0 +1,55 @@
+
+/* Old (pre 2.3) styles that are still useful */
+
+/* ----------------------------- */
+
+.infobox > div {
+  border-radius:6px;
+  box-shadow:0px 0px 4px rgba(0,0,0,0.2);
+  float:left;
+  margin:0.5em;
+  padding:1em;
+  border:1px solid #dda;
+  background-color:#ffc;
+  line-height:160%;
+}
+.infobox.grey > div {
+  border:1px solid #ccc;
+  background-color:#eee;
+}
+.infobox.red > div, .errorExplanation {
+  border:2px solid #ecc;
+  background-color:#fee;
+}
+.infobox.smaller > div {
+  font-size:85%;
+}
+.infobox:after {
+  /*clear floats hack:*/ content:"."; display:block; height:0; clear:both; visibility:hidden;
+}
+
+.infobox.with_icon > div:before {
+  margin-top:-2px;
+  margin-left:-3px;
+  padding-right:4px;
+  float:left;
+}
+.infobox.with_icon.alert_icon > div:before { content: url(/images/icon_warning.png ); }
+.infobox.with_icon.info_icon  > div:before { content: url(/images/icon_info.png    ); }
+.infobox.with_icon.error_icon > div:before { content: url(/images/icon_alert.png   ); }
+
+
+.errorExplanation {
+  padding:1em;
+  font-size:90%;
+}
+.errorExplanation h2 {
+  font-size:12pt;
+  font-weight:bold;
+  padding:0;
+  margin:0;
+  color:#600;
+}
+.errorExplanation p {
+  padding:0; margin:0;
+}

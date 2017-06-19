@@ -1,0 +1,34 @@
+{
+  "advisory_name": "RHBA-2015:19030",
+  "bugs": [
+    {
+      "id": 645741,
+      "status": "VERIFIED",
+      "summary": "RFE: Please update btrfs-progs to include command btrfs(8)"
+    }
+  ],
+  "crossref": "",
+  "cve": "",
+  "description": "RFE: Please update btrfs-progs to include command btrfs(8)\n",
+  "errata_files": [
+
+  ],
+  "errata_type": "RHBA",
+  "erratum_deployed_by": "release-engineering@redhat.com",
+  "issue_date": "2015-01-12",
+  "jira_issues": [
+
+  ],
+  "keywords": "",
+  "multilib": null,
+  "obsoletes": "",
+  "product": "Red Hat Enterprise Linux",
+  "reboot_suggested": false,
+  "reference": "",
+  "revision": 1,
+  "security_impact": "None",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/knowledge/articles/11258\n",
+  "synopsis": "btrfs-progs bug fix and enhancement update [rhn_live restricted]",
+  "topic": "Updated btrfs-progs packages that fix several bugs and add various enhancements\nare now available.\n",
+  "update_date": "2015-01-12"
+}

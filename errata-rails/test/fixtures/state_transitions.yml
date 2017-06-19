@@ -1,0 +1,195 @@
+--- 
+state_transition_00001: 
+  created_at: 2012-12-19 19:13:10 Z
+  from: NEW_FILES
+  id: 1
+  is_user_selectable: true
+  roles: 
+  - devel
+  - qa
+  - secalert
+  - admin
+  to: QE
+  updated_at: 2012-12-19 19:13:10 Z
+state_transition_00002: 
+  created_at: 2012-12-19 19:13:10 Z
+  from: QE
+  id: 2
+  is_user_selectable: true
+  roles: 
+  - devel
+  - qa
+  - pm
+  - secalert
+  - admin
+  to: NEW_FILES
+  updated_at: 2012-12-19 19:13:10 Z
+state_transition_00003: 
+  created_at: 2012-12-19 19:13:10 Z
+  from: QE
+  id: 3
+  is_user_selectable: true
+  roles: 
+  - qa
+  - secalert
+  - admin
+  to: REL_PREP
+  updated_at: 2012-12-19 19:13:10 Z
+state_transition_00004: 
+  created_at: 2012-12-19 19:13:10 Z
+  from: REL_PREP
+  id: 4
+  is_user_selectable: true
+  roles: 
+  - qa
+  - releng
+  - secalert
+  - admin
+  to: NEW_FILES
+  updated_at: 2012-12-19 19:13:10 Z
+state_transition_00005: 
+  created_at: 2012-12-19 19:13:10 Z
+  from: REL_PREP
+  id: 5
+  is_user_selectable: true
+  roles: 
+  - qa
+  - releng
+  - secalert
+  - admin
+  to: QE
+  updated_at: 2012-12-19 19:13:10 Z
+state_transition_00006: 
+  created_at: 2012-12-19 19:13:10 Z
+  from: REL_PREP
+  id: 6
+  is_user_selectable: true
+  roles: 
+  - qa
+  - releng
+  - secalert
+  - admin
+  to: PUSH_READY
+  updated_at: 2012-12-19 19:13:10 Z
+state_transition_00007: 
+  created_at: 2012-12-19 19:13:10 Z
+  from: PUSH_READY
+  id: 7
+  is_user_selectable: true
+  roles: 
+  - qa
+  - releng
+  - secalert
+  - admin
+  to: REL_PREP
+  updated_at: 2012-12-19 19:13:10 Z
+state_transition_00009: 
+  created_at: 2012-12-19 19:13:11 Z
+  from: SHIPPED_LIVE
+  id: 9
+  is_user_selectable: false
+  roles: 
+  - releng
+  - secalert
+  - admin
+  to: REL_PREP
+  updated_at: 2012-12-19 19:13:11 Z
+state_transition_00010: 
+  created_at: 2012-12-19 19:13:11 Z
+  from: NEW_FILES
+  id: 10
+  is_user_selectable: false
+  roles: 
+  - pm
+  - secalert
+  - admin
+  to: DROPPED_NO_SHIP
+  updated_at: 2012-12-19 19:13:11 Z
+state_transition_00011: 
+  created_at: 2012-12-19 19:13:11 Z
+  from: QE
+  id: 11
+  is_user_selectable: false
+  roles: 
+  - pm
+  - secalert
+  - admin
+  to: DROPPED_NO_SHIP
+  updated_at: 2012-12-19 19:13:11 Z
+state_transition_00012: 
+  created_at: 2012-12-19 19:13:11 Z
+  from: REL_PREP
+  id: 12
+  is_user_selectable: false
+  roles: 
+  - pm
+  - secalert
+  - admin
+  to: DROPPED_NO_SHIP
+  updated_at: 2012-12-19 19:13:11 Z
+state_transition_00013: 
+  created_at: 2012-12-19 19:13:11 Z
+  from: PUSH_READY
+  id: 13
+  is_user_selectable: false
+  roles: 
+  - pm
+  - secalert
+  - admin
+  to: DROPPED_NO_SHIP
+  updated_at: 2012-12-19 19:13:11 Z
+state_transition_00014: 
+  created_at: 2012-12-19 19:13:11 Z
+  from: DROPPED_NO_SHIP
+  id: 14
+  is_user_selectable: true
+  roles: 
+  - pm
+  - secalert
+  - admin
+  to: NEW_FILES
+  updated_at: 2012-12-19 19:13:11 Z
+state_transition_00015: 
+  created_at: 2013-01-03 17:41:15 Z
+  from: PUSH_READY
+  id: 15
+  is_user_selectable: false
+  roles: 
+  - releng
+  - secalert
+  - admin
+  to: IN_PUSH
+  updated_at: 2013-01-03 17:41:15 Z
+state_transition_00016: 
+  created_at: 2013-01-03 17:41:15 Z
+  from: IN_PUSH
+  id: 16
+  is_user_selectable: false
+  roles: 
+  - releng
+  - secalert
+  - admin
+  to: SHIPPED_LIVE
+  updated_at: 2013-01-03 17:41:15 Z
+state_transition_00017: 
+  created_at: 2013-01-03 17:41:15 Z
+  from: IN_PUSH
+  id: 17
+  is_user_selectable: false
+  roles: 
+  - releng
+  - secalert
+  - admin
+  to: REL_PREP
+  updated_at: 2013-01-03 17:41:15 Z
+state_transition_00018: 
+  created_at: 2015-10-15 01:27:15 Z
+  from: IN_PUSH
+  id: 18
+  is_user_selectable: false
+  roles: 
+  - releng
+  - secalert
+  - admin
+  to: PUSH_READY
+  created_at: 2015-10-15 01:27:15 Z

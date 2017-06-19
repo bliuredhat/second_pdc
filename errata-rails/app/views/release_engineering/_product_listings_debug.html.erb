@@ -1,0 +1,23 @@
+<% if @debug_fetched.nil? %>
+  <%# no content %>
+<% elsif @debug_fetched.empty? %>
+  <% if @brew_error.nil? %>
+    <p>All product listings data was fetched from cache.
+       (Uncheck "Use cached listings" to avoid using the cache.)</p>
+  <% end %>
+<% else %>
+  <p>Errata Tool fetched the following data:</p>
+  <% @debug_fetched.each do |label,data,seconds| %>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <%= label %>
+        <% if seconds %>
+          <div class="pull-right light">(<%= seconds.round(2) %>s)</div>
+        <% end %>
+      </div>
+      <div class="panel-body">
+        <pre><%= data %></pre>
+      </div>
+    </div>
+  <% end %>
+<% end %>

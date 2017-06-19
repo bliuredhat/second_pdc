@@ -1,0 +1,78 @@
+Release Notes for Version 3.11.4
+================================
+
+Overview
+--------
+
+Release 3.11.4 is the fifth release in Errata Tool 3.11. It closes [11
+bugs and RFEs][buglist].
+
+This release's highlights include support for adding bugs to advisories
+without moving them immediately to ON_QA, Product Security approval workflow
+enhancements, released package validations, and further performance
+improvements for advisories with large file lists.
+
+<% sort_these_first %w[1194276 1220940 1206425 1206112] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.11.4][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1194276%2C1196317%2C1206112%2C1206425%2C1214285%2C1215843%2C1220612%2C1220940%2C1222747%2C1227156%2C1228681
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.11.4-0&id2=3.11.3-0
+
+<%= all_include_content %>
+
+Team Changes
+------------
+
+We've recently welcomed some new developers to the Errata Tool team.
+
+David Clark (<daclark@redhat.com>) joined the team around six weeks ago. More
+recently, Sunil Thaha (<sthaha@redhat.com>) and (previous team member) Róman
+Joost (<rjoost@redhat.com>) joined the team after finishing up the handover of
+RPMDiff.
+
+Also joining the Errata Tool development team are UX designers Snow Zhang
+(<xiazhang@redhat.com>) and Melody Zhong (<mzhong@redhat.com>).
+
+What's Next
+------------
+
+### Errata Tool 3.11.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.11
+in Bugzilla for inclusion in two week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be 3.11.5.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.11 take a look at [bugs flagged with
+errata-3.11 in Bugzilla][bugs3.11] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.12
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For details
+see [Errata Tool Bug Lists][buglists].
+
+To see what's currently scheduled take a look at [bugs flagged with
+errata-3.12][bugs3.12].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs3.11]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[bugs3.12]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.12&bug_status=__open__
+[buglists]: https://docs.engineering.redhat.com/x/1AIjAQ
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

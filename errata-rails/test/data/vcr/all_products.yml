@@ -1,0 +1,93 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/products/
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 08 Feb 2017 13:40:00 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 08 Feb 2017 13:40:30 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 08 Feb 2017 13:14:49 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"count\":25,\"next\":\"https://pdc.engineering.redhat.com/rest_api/v1/products/?page=2\",\"previous\":null,\"results\":[{\"name\":\"Red Hat Ceph Storage\",\"short\":\"ceph\",\"active\":true,\"product_versions\":[\"ceph-1\",\"ceph-2\"],\"internal\":false},{\"name\":\"dotNET on RHEL\",\"short\":\"dotnet\",\"active\":true,\"product_versions\":[\"dotnet-1\"],\"internal\":false},{\"name\":\"Dummy Product\",\"short\":\"dp\",\"active\":true,\"product_versions\":[\"dp-1\"],\"internal\":false},{\"name\":\"Extras\",\"short\":\"extras\",\"active\":true,\"product_versions\":[\"extras-7\"],\"internal\":false},{\"name\":\"Red Hat JBoss Enterprise Application Platform\",\"short\":\"jbeap\",\"active\":true,\"product_versions\":[\"jbeap-6.4\"],\"internal\":false},{\"name\":\"NFV\",\"short\":\"nfv\",\"active\":true,\"product_versions\":[\"nfv-7\"],\"internal\":false},{\"name\":\"Oracle Java\",\"short\":\"oraclejava\",\"active\":true,\"product_versions\":[\"oraclejava-7\"],\"internal\":false},{\"name\":\"Red Hat Enterprise Linux Pegas\",\"short\":\"pegas\",\"active\":true,\"product_versions\":[\"pegas-7\"],\"internal\":false},{\"name\":\"RCM Tools\",\"short\":\"rcmtools\",\"active\":true,\"product_versions\":[\"rcmtools-1\",\"rcmtools-2\"],\"internal\":true},{\"name\":\"Release End2End Test\",\"short\":\"release-e2e-test\",\"active\":true,\"product_versions\":[\"release-e2e-test-1\"],\"internal\":false},{\"name\":\"Red Hat Atomic Host\",\"short\":\"rhah\",\"active\":true,\"product_versions\":[\"rhah-7\"],\"internal\":false},{\"name\":\"Red Hat Certification\",\"short\":\"rhcertification\",\"active\":true,\"product_versions\":[\"rhcertification-1\"],\"internal\":false},{\"name\":\"Red Hat Common\",\"short\":\"rh-common\",\"active\":true,\"product_versions\":[\"rh-common-7\"],\"internal\":false},{\"name\":\"Red Hat Enterprise Linux\",\"short\":\"rhel\",\"active\":true,\"product_versions\":[\"rhel-5\",\"rhel-6\",\"rhel-7\"],\"internal\":false},{\"name\":\"Red Hat Enterprise Linux - LE\",\"short\":\"rhel-le\",\"active\":true,\"product_versions\":[\"rhel-le-7\"],\"internal\":false},{\"name\":\"Red Hat Enterprise Linux Rawhide\",\"short\":\"rhel-rawhide\",\"active\":true,\"product_versions\":[\"rhel-rawhide-8\"],\"internal\":false},{\"name\":\"Red Hat Enterprise Linux Server for ARM Development Preview\",\"short\":\"rhelsa\",\"active\":true,\"product_versions\":[\"rhelsa-7\"],\"internal\":false},{\"name\":\"Red Hat Enterprise Linux KVM\",\"short\":\"rhkvm\",\"active\":true,\"product_versions\":[\"rhkvm-7\"],\"internal\":false},{\"name\":\"Red Hat Software Collections\",\"short\":\"rhscl\",\"active\":true,\"product_versions\":[\"rhscl-1\",\"rhscl-2\"],\"internal\":false},{\"name\":\"RT\",\"short\":\"rt\",\"active\":true,\"product_versions\":[\"rt-7\"],\"internal\":false}]}"
+    http_version: 
+  recorded_at: Wed, 08 Feb 2017 13:40:00 GMT
+- request: 
+    method: get
+    uri: https://pdc.engineering.redhat.com/rest_api/v1/products/?page=2
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - application/json
+      Content-Type: 
+      - application/json
+      User-Agent: 
+      - Faraday v0.9.2
+      Accept-Encoding: 
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Wed, 08 Feb 2017 13:40:02 GMT
+      Server: 
+      - Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.1e-fips mod_auth_kerb/5.4 mod_wsgi/3.4 Python/2.7.5
+      Expires: 
+      - Wed, 08 Feb 2017 13:40:33 GMT
+      Vary: 
+      - Accept,Cookie
+      Last-Modified: 
+      - Wed, 08 Feb 2017 13:14:49 GMT
+      Allow: 
+      - GET, POST, PUT, PATCH, HEAD, OPTIONS
+      Cache-Control: 
+      - max-age=30
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/json
+    body: 
+      encoding: UTF-8
+      string: "{\"count\":25,\"next\":null,\"previous\":\"https://pdc.engineering.redhat.com/rest_api/v1/products/\",\"results\":[{\"name\":\"SAP\",\"short\":\"sap\",\"active\":true,\"product_versions\":[\"sap-2\",\"sap-6\",\"sap-7\"],\"internal\":false},{\"name\":\"SAP HANA\",\"short\":\"saphana\",\"active\":true,\"product_versions\":[\"saphana-6\",\"saphana-7\"],\"internal\":false},{\"name\":\"Red Hat Satellite\",\"short\":\"satellite\",\"active\":true,\"product_versions\":[\"satellite-6\",\"satellite-6.0\",\"satellite-6.1\",\"satellite-6.2\"],\"internal\":false},{\"name\":\"Red Hat Satellite Tools\",\"short\":\"sattools\",\"active\":true,\"product_versions\":[\"sattools-6\"],\"internal\":false},{\"name\":\"Supplementary\",\"short\":\"supp\",\"active\":true,\"product_versions\":[\"supp-6\",\"supp-7\"],\"internal\":false}]}"
+    http_version: 
+  recorded_at: Wed, 08 Feb 2017 13:40:03 GMT
+recorded_with: VCR 3.0.3

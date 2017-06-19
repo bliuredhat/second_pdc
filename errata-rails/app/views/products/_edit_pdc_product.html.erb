@@ -1,0 +1,17 @@
+<span id="pdc_product_list">
+  <%=
+    pdc_product_list = pdc_products.collect { |d| [d.pdc_id, d.id] }
+    pdc_product_list << ['---NONE---', nil]
+    selected = ''
+    selected = product.pdc_product.id if product.pdc_product
+    disabled = !product.can_change_supports_pdc?
+    select(
+      :product, :pdc_product_id,
+      pdc_product_list, {:selected => selected}, {:disabled => disabled})
+  %>
+  <% if disabled %>
+    <%= block_render('shared/help_popover') do %>
+      <p>Can't change because the product already has at least one active PDC release</p>
+    <% end %>
+  <% end %>
+</span>

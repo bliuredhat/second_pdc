@@ -1,0 +1,34 @@
+---
+- name: Fetch file list from Jenkins
+  local_action:
+    module: uri
+    url: "{{ jenkins_url }}/{{ jenkins_build_number | default('lastSuccessfulBuild') }}/{{ json_url_suffix }}"
+    return_content: yes
+    validate_certs: no
+  register: build_info
+
+- name: Find rpm in artifact list
+  set_fact:
+    rpm_name: "{{ item.fileName }}"
+  when: item.fileName | match( rpm_file_regex )
+  with_items: build_info.json.artifacts
+
+- name: Find build number
+  set_fact:
+    build_number: "{{ build_info.json.number }}"
+
+- name: Set build url
+  set_fact:
+    build_url: "{{ jenkins_url }}/{{ build_number }}/"
+
+- name: Set rpm url and rpm file
+  set_fact:
+    rpm_url: "{{ build_url }}artifact/{{ rpm_name }}"
+    rpm_file: "{{ download_dir }}/{{ rpm_name }}"
+
+- name: Set build name
+  # Use key=value format so the backslash escaping works in ansible 1.9 and 2.0
+  set_fact: build_name="{{ rpm_name | regex_replace(rpm_file_regex, '\\1') }}"
+
+- name: Download rpm
+  get_url: url={{ rpm_url }} dest={{ rpm_file }} validate_certs=no

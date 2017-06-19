@@ -1,0 +1,2280 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "cdn-rhel6-repo-SRPMS",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 40,
+      "relationships": {
+        "arch": {
+          "id": 24,
+          "name": "SRPMS"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-alpha",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 3,
+      "relationships": {
+        "arch": {
+          "id": 1,
+          "name": "alpha"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-amd64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 4,
+      "relationships": {
+        "arch": {
+          "id": 21,
+          "name": "amd64"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-athlon",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 5,
+      "relationships": {
+        "arch": {
+          "id": 3,
+          "name": "athlon"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-i386",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 6,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-i586",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 7,
+      "relationships": {
+        "arch": {
+          "id": 5,
+          "name": "i586"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-i686",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 8,
+      "relationships": {
+        "arch": {
+          "id": 6,
+          "name": "i686"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-ia32e",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 9,
+      "relationships": {
+        "arch": {
+          "id": 23,
+          "name": "ia32e"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-ia64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 10,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-noarch",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 11,
+      "relationships": {
+        "arch": {
+          "id": 8,
+          "name": "noarch"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-ppc",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 12,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-ppc64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 13,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-ppc64iseries",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 14,
+      "relationships": {
+        "arch": {
+          "id": 19,
+          "name": "ppc64iseries"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-ppc64pseries",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 15,
+      "relationships": {
+        "arch": {
+          "id": 20,
+          "name": "ppc64pseries"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-s390",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 16,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 17,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-sparc",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 18,
+      "relationships": {
+        "arch": {
+          "id": 10,
+          "name": "sparc"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "cdnrepo-src",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2,
+      "relationships": {
+        "arch": {
+          "id": 24,
+          "name": "SRPMS"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "cdnrepo-x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 50,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "cdntest-foo",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1,
+      "relationships": {
+        "arch": {
+          "id": 24,
+          "name": "SRPMS"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "jb-eap-6-for-rhel-7-for-power-debug-rpms__7Server__ppc64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1648,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 610,
+            "name": "7Server-JBEAP-6"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "jb-eap-6-for-rhel-7-for-power-rpms__7Server__ppc64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1649,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 610,
+            "name": "7Server-JBEAP-6"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "jb-eap-6-for-rhel-7-for-power-source-rpms__7Server__ppc64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1650,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 610,
+            "name": "7Server-JBEAP-6"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "jb-eap-6-for-rhel-7-server-debug-rpms__7Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1651,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 610,
+            "name": "7Server-JBEAP-6"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "jb-eap-6-for-rhel-7-server-rpms__7Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1652,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 610,
+            "name": "7Server-JBEAP-6"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "jb-eap-6-for-rhel-7-server-source-rpms__7Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1653,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 610,
+            "name": "7Server-JBEAP-6"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Docker",
+        "name": "redhat-rhel7-rhel-tools",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 4342,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "packages": [
+          {
+            "cdn_repo_package_tags": [
+              {
+                "id": 58,
+                "tag_template": "{{version}}"
+              },
+              {
+                "id": 59,
+                "tag_template": "{{version}}-{{release}}"
+              },
+              {
+                "id": 60,
+                "tag_template": "latest"
+              }
+            ],
+            "id": 30994,
+            "name": "rhel-tools-docker"
+          }
+        ],
+        "variants": [
+          {
+            "id": 888,
+            "name": "7Server-EXTRAS"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Docker",
+        "name": "redhat-rhscl-perl-520-rhel7",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 3001,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "packages": [
+          {
+            "cdn_repo_package_tags": [
+              {
+                "id": 1,
+                "tag_template": "perl520-{{release}}"
+              },
+              {
+                "id": 2,
+                "tag_template": "latest"
+              },
+              {
+                "id": 3,
+                "tag_template": "rh-perl520-{{version}}"
+              }
+            ],
+            "id": 31611,
+            "name": "rh-perl520-docker"
+          },
+          {
+            "cdn_repo_package_tags": [
+              {
+                "id": 4,
+                "tag_template": "latest"
+              },
+              {
+                "id": 5,
+                "tag_template": "rh-ruby22-{{version}}"
+              }
+            ],
+            "id": 31616,
+            "name": "rh-ruby22-docker"
+          }
+        ],
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-5-server-rhs-client-1-debug-rpms__5Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1643,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 565,
+            "name": "5Server-RHSClient"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-5-server-rhs-client-1-rpms__5Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1644,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 565,
+            "name": "5Server-RHSClient"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-5-server-rhs-client-1-source-rpms__5Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1645,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 565,
+            "name": "5Server-RHSClient"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-6-client-debuginfo-rpms__6Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 59,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__alpha",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 51,
+      "relationships": {
+        "arch": {
+          "id": 1,
+          "name": "alpha"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__amd64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 52,
+      "relationships": {
+        "arch": {
+          "id": 21,
+          "name": "amd64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__athlon",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 53,
+      "relationships": {
+        "arch": {
+          "id": 3,
+          "name": "athlon"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__i386",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 55,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__i586",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 54,
+      "relationships": {
+        "arch": {
+          "id": 5,
+          "name": "i586"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__i686",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 28,
+      "relationships": {
+        "arch": {
+          "id": 6,
+          "name": "i686"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__ia32e",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 29,
+      "relationships": {
+        "arch": {
+          "id": 23,
+          "name": "ia32e"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__ia64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 30,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__noarch",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 31,
+      "relationships": {
+        "arch": {
+          "id": 8,
+          "name": "noarch"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__ppc",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 32,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__ppc64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 33,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__ppc64iseries",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 34,
+      "relationships": {
+        "arch": {
+          "id": 19,
+          "name": "ppc64iseries"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__ppc64pseries",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 35,
+      "relationships": {
+        "arch": {
+          "id": 20,
+          "name": "ppc64pseries"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__s390",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 36,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 37,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__sparc",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 38,
+      "relationships": {
+        "arch": {
+          "id": 10,
+          "name": "sparc"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-client-rpms__6Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 39,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-6-client-source-rpms__6Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 58,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-rhev-s-rpms__6Server-RHEV-S__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 156,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 374,
+            "name": "6Server-RHEV-S"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-6-server-debuginfo-rpms__6Server__i386",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 61,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-6-server-debuginfo-rpms__6Server__ppc64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 60,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-6-server-debuginfo-rpms__6Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 62,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-6-server-debuginfo-rpms__6Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 57,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          },
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-6-server-eus-debug-rpms__6_DOT_5__x86_64",
+        "release_type": "EUS",
+        "use_for_tps": false
+      },
+      "id": 64,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-eus-rpms__6_DOT_5__x86_64",
+        "release_type": "EUS",
+        "use_for_tps": false
+      },
+      "id": 65,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-6-server-eus-source-rpms__6_DOT_5__x86_64",
+        "release_type": "EUS",
+        "use_for_tps": false
+      },
+      "id": 63,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-optional-rpms__6Server__i386",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 22,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-optional-rpms__6Server__ppc64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 19,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 617,
+            "name": "6Server-RHCI-EngOps"
+          },
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-optional-rpms__6Server__x390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 20,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-optional-rpms__6Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 21,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rhev-agent-rpms__6_DOT_5__i386",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1334,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 385,
+            "name": "6Server-RHEV-Virt-Agent"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rhev-agent-rpms__6_DOT_5__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1335,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 385,
+            "name": "6Server-RHEV-Virt-Agent"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rhev-agent-rpms__6Server__i386",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 736,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 385,
+            "name": "6Server-RHEV-Virt-Agent"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rhev-agent-rpms__6Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 27,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 369,
+            "name": "6Server-RHEV-Agents"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rpms__6Server__i386",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 26,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          },
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rpms__6Server__ppc64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 24,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          },
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rpms__6Server__s390x",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 25,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          },
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-rpms__6Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 23,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          },
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-6-server-source-rpms__6Server__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 56,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          },
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-desktop-debug-rpms__7Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1274,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 842,
+            "name": "7Client-7.0.Z"
+          },
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-desktop-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1754,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-desktop-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1755,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-desktop-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1756,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-desktop-optional-debug-rpms__7Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1280,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-desktop-optional-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1760,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-desktop-optional-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1761,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-desktop-optional-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1762,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-desktop-optional-rpms__7Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1281,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-desktop-optional-source-rpms__7Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1282,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 701,
+            "name": "7Client-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-desktop-rpms__7Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1275,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 842,
+            "name": "7Client-7.0.Z"
+          },
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-desktop-source-rpms__7Client__x86_64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 1276,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 842,
+            "name": "7Client-7.0.Z"
+          },
+          {
+            "id": 699,
+            "name": "7Client"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-arm-debug-rpms__7Server__aarch64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 2666,
+      "relationships": {
+        "arch": {
+          "id": 26,
+          "name": "aarch64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-arm-optional-debug-rpms__7Server__aarch64",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 2669,
+      "relationships": {
+        "arch": {
+          "id": 26,
+          "name": "aarch64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-arm-optional-rpms__7Server__aarch64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2668,
+      "relationships": {
+        "arch": {
+          "id": 26,
+          "name": "aarch64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-arm-optional-source-rpms__7Server__aarch64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2670,
+      "relationships": {
+        "arch": {
+          "id": 26,
+          "name": "aarch64"
+        },
+        "variants": [
+          {
+            "id": 702,
+            "name": "7Server-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-arm-rpms__7Server__aarch64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2665,
+      "relationships": {
+        "arch": {
+          "id": 26,
+          "name": "aarch64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-arm-source-rpms__7Server__aarch64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 2667,
+      "relationships": {
+        "arch": {
+          "id": 26,
+          "name": "aarch64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-hpc-node-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1757,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 700,
+            "name": "7ComputeNode"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-hpc-node-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1758,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 700,
+            "name": "7ComputeNode"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-hpc-node-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1759,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 700,
+            "name": "7ComputeNode"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-hpc-node-optional-fastrack-debug-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1772,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 703,
+            "name": "7ComputeNode-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-hpc-node-optional-fastrack-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1773,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 703,
+            "name": "7ComputeNode-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-hpc-node-optional-fastrack-source-rpms__x86_64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1774,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 703,
+            "name": "7ComputeNode-optional"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-power-debug-rpms__7Server__ppc64",
+        "release_type": "Primary",
+        "use_for_tps": true
+      },
+      "id": 1262,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-power-fastrack-debug-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1742,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-7-for-power-fastrack-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 1743,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-7-for-power-fastrack-source-rpms__ppc64",
+        "release_type": "FastTrack",
+        "use_for_tps": false
+      },
+      "id": 1744,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-7-for-power-le-debug-rpms__7Server__ppc64le",
+        "release_type": "Primary",
+        "use_for_tps": false
+      },
+      "id": 2177,
+      "relationships": {
+        "arch": {
+          "id": 27,
+          "name": "ppc64le"
+        },
+        "variants": [
+          {
+            "id": 594,
+            "name": "7Server"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    }
+  ]
+}

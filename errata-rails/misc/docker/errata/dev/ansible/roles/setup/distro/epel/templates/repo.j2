@@ -1,0 +1,6 @@
+[epel]
+name=Extra Packages for Enterprise Linux {{ ansible_distribution_version }} - $basearch
+mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-{{ ansible_distribution_version|int }}&arch=$basearch
+failovermethod=priority
+enabled={{epel_enabled | default(1)}}
+gpgcheck=0

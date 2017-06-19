@@ -1,0 +1,8 @@
+<%= form_tag :action => :unblock_errata, :id => @errata do %>
+  <p>
+    Explanation for removing the block<br/>
+    <%= text_area_tag 'description', nil, :rows => 10, :cols => 75, :wrap => 'soft' %>
+  </p>
+
+  <%= submit_tag 'Submit', :class=>'btn btn-primary' %>
+<% end %>

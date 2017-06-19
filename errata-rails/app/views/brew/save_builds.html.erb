@@ -1,0 +1,8 @@
+<h2>Brew Builds Saved</h2>
+
+<%= render 'shared/related_build_warnings', :errata => @errata %>
+
+<%= link_to "Search again", {:action => 'list_files', :id => @errata} %> | <%= back_to_errata(@errata) %>
+
+<% file_list_partial = @errata.is_pdc? ? 'file_list_pdc' : 'file_list' %>
+<%= render "shared/#{file_list_partial}", :errata => @errata, :allow_delete => false -%>

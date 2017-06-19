@@ -1,0 +1,5 @@
+<div class="btn-group">
+  <%= link_to          "Sync with Bugzilla", {:action=>:troubleshoot_sync_bug, :bug_id=>@bug}, :method=>:post,    :class=>'btn' %>
+  <%= link_to          "View in Bugzilla",   @bug.url,                                         :target=>'_blank', :class=>'btn' %>
+  <%= link_to_function "Change Bug",        "jQuery('#change_bug_modal').modal('show');",                         :class=>'btn' %>
+</div>

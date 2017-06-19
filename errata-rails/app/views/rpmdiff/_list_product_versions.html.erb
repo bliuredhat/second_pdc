@@ -1,0 +1,5 @@
+<ul>
+<% versions.each do |ver| %>
+  <li><%= link_to(ver.name, {:controller => :product_versions, :action => :show, :id => ver.id })%></li>
+<% end %>
+<ul>

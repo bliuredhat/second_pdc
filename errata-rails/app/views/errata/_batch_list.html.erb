@@ -1,0 +1,7 @@
+<div id="batch_list">
+  <% if @batches %>
+    <%=
+      select(:batch, :id, [ ['None', nil] ] + @batches.sort_by(&:name).map{ |d| [d.name, d.id] })
+    %>
+  <% end %>
+</div>

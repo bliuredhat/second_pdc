@@ -1,0 +1,22 @@
+<div id="release_list">
+  <%  if @advisory.nil? || @advisory.can_change_release? -%>
+    <%
+      selected = -1
+      selected = @release.id if @release
+      %>
+    <%= select(:release, :id,
+               release_list.collect { |d| [d.name,d.id]},
+               { :selected => selected },
+               {:class => 'eso-chosen-select',
+                :data => {:remote => true,
+                   :url => url_for(:controller => :errata,
+                                   :action => :update_release_ship_date)}})
+        %>
+    <%  else -%>
+      <%= @release.name %>
+      <%= hidden_field(:release, :id) %>
+  <%  end -%>
+  <span id="release_ship_date_container" style="color:#777">
+    <span id="release_ship_date_display"><%= @release.ship_date_display if @release %></span>
+  </span>
+</div>

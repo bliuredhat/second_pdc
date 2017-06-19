@@ -1,0 +1,277 @@
+{
+  "data": {
+    "id": 40893,
+    "type": "rpmdiff_runs",
+    "attributes": {
+      "brew_build_id": 122148,
+      "brew_rpm_id": 1533389,
+      "errata_brew_mapping_id": 13942,
+      "errata_file_id": null,
+      "errata_id": 9325,
+      "errata_nr": "2010:9325",
+      "last_good_run_id": null,
+      "new_version": "3.11.5-4",
+      "obsolete": 1,
+      "old_version": "NEW_PACKAGE",
+      "overall_score": 4,
+      "package_id": 1583,
+      "package_name": "dirsec-nss",
+      "package_path": "/mnt/redhat/brewroot/packages/dirsec-nss/3.11.5/4/src/dirsec-nss-3.11.5-4.src.rpm",
+      "person": "alee@redhat.com",
+      "run_date": "2010-01-12T15:08:06Z",
+      "variant": "4AS"
+    },
+    "relationships": {
+      "results": [
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471942,
+          "score": 0,
+          "test_id": 13
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "<table><tr><td>Some Result</td></tr></table>",
+          "need_push_priv": 0,
+          "result_id": 471943,
+          "score": 2,
+          "test_id": 30
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471944,
+          "score": 0,
+          "test_id": 35
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "<table><tr><td>Some Result</td></tr></table>",
+          "need_push_priv": 0,
+          "result_id": 471945,
+          "score": 3,
+          "test_id": 20
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471946,
+          "score": 0,
+          "test_id": 24
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471947,
+          "score": 0,
+          "test_id": 42
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471948,
+          "score": 0,
+          "test_id": 26
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471949,
+          "score": 0,
+          "test_id": 28
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471950,
+          "score": 0,
+          "test_id": 36
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "<table><tr><td>Some Result</td></tr></table>",
+          "need_push_priv": 0,
+          "result_id": 471951,
+          "score": 4,
+          "test_id": 4
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471952,
+          "score": 0,
+          "test_id": 47
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471953,
+          "score": 0,
+          "test_id": 5
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471954,
+          "score": 0,
+          "test_id": 43
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471955,
+          "score": 0,
+          "test_id": 31
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471956,
+          "score": 0,
+          "test_id": 23
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471957,
+          "score": 0,
+          "test_id": 6
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471958,
+          "score": 0,
+          "test_id": 44
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "<table><tr><td>Some Result</td></tr></table>",
+          "need_push_priv": 0,
+          "result_id": 471959,
+          "score": 2,
+          "test_id": 27
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471960,
+          "score": 0,
+          "test_id": 22
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471961,
+          "score": 0,
+          "test_id": 19
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "<table><tr><td>Some Result</td></tr></table>",
+          "need_push_priv": 0,
+          "result_id": 471962,
+          "score": 1,
+          "test_id": 29
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471963,
+          "score": 0,
+          "test_id": 21
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471964,
+          "score": 0,
+          "test_id": 45
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471965,
+          "score": 0,
+          "test_id": 17
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471966,
+          "score": 0,
+          "test_id": 7
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471967,
+          "score": 0,
+          "test_id": 3
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "<table><tr><td>Some Result</td></tr></table>",
+          "need_push_priv": 0,
+          "result_id": 471968,
+          "score": 2,
+          "test_id": 18
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471969,
+          "score": 0,
+          "test_id": 25
+        },
+        {
+          "can_approve_waiver": null,
+          "log": "",
+          "need_push_priv": 0,
+          "result_id": 471970,
+          "score": 0,
+          "test_id": 11
+        },
+        {
+          "can_approve_waiver": "secalert",
+          "log": "<table>\n</table>\n",
+          "need_push_priv": 0,
+          "result_id": 3026609,
+          "score": 4,
+          "test_id": 34
+        },
+        {
+          "can_approve_waiver": "releng",
+          "log": "<table>\n</table>\n",
+          "need_push_priv": 0,
+          "result_id": 3026610,
+          "score": 4,
+          "test_id": 33
+        }
+      ]
+    }
+  }
+}

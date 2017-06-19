@@ -1,0 +1,31 @@
+### This advisory does not support RHN but nevertheless should provide metadata.
+{
+  "advisory_name": "RHBA-2014:1331",
+  "bugs": [
+
+  ],
+  "crossref": "",
+  "cve": "",
+  "description": "OpenShift Enterprise by Red Hat is the company's cloud computing\nPlatform-as-a-Service (PaaS) solution designed for on-premise or private cloud\ndeployments.\nThis update fixes the following bug:\n* The libcgroup packages in OpenShift Enterprise 1.2 must be updated to avoid\npackage dependency problems with Red Hat Enterprise Linux 6.5. This fix\nintroduces the required package updates to the Red Hat OpenShift Enterprise 1.2\nNode channel so that users do not experience dependency issues. (BZ#1147004)\nAll OpenShift Enterprise users are advised to upgrade to these updated libcgroup\npackages.\n",
+  "errata_files": [
+
+  ],
+  "errata_type": "RHBA",
+  "erratum_deployed_by": "release-engineering@redhat.com",
+  "issue_date": "2014-09-30",
+  "jira_issues": [
+
+  ],
+  "keywords": "",
+  "multilib": null,
+  "obsoletes": "",
+  "product": "Red Hat OpenShift Enterprise",
+  "reboot_suggested": false,
+  "reference": "",
+  "revision": 2,
+  "security_impact": "None",
+  "solution": "Before applying this update, make sure all previously released errata relevant\nto your system have been applied.\nA system reboot is recommended after installing this update.\nThis update is available via the Red Hat Network. Details on how to use the Red\nHat Network to apply this update are available at\nhttps://access.redhat.com/site/articles/11258.\n",
+  "synopsis": "Red Hat OpenShift Enterprise 1.2 libcgroup bug fix update",
+  "topic": "Updated libcgroup packages are now available for Red Hat OpenShift Enterprise\n1.2. These packages are required to avoid dependency issues with the base\nchannel for Red Hat Enterprise Linux 6.5.\n",
+  "update_date": "2014-09-30"
+}

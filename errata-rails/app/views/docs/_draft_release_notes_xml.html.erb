@@ -1,0 +1,29 @@
+<%#
+  #
+  # Note:
+  # Arguably it might be sensible to leave out bugs with the skip-errata
+  # flag acked. Currently it's up to the ECS owner to do that at their discretion.
+  #
+  # This is (hopefully) indented to just the right amount for pasting into a docbook
+  # xml file.
+  #
+  # Not sure how whitespace is/should be handled inside <screen>...</screen> here...
+  #
+-%>
+		<% @bugs.group_by { |bug| bug.component_name }.each do |component_name, bugs| %>
+		<variablelist>
+			<title><%= component_name %></title>
+			<% bugs.each do |bug| %>
+			<varlistentry>
+				<term>BZ#<ulink url="https://bugzilla.redhat.com/show_bug.cgi?id=<%= bug.id %>"><%= bug.id %></ulink></term>
+				<listitem>
+					<para>
+<screen>
+<%= bug.release_notes.blank? ? 'TBA' : bug.release_notes %>
+</screen>
+					</para>
+				</listitem>
+			</varlistentry>
+			<% end %>
+		</variablelist>
+		<% end %>

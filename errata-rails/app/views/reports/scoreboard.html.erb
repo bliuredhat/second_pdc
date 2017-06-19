@@ -1,0 +1,37 @@
+<% for product in @products %>
+<% if product == @product %>
+<b title="<%= product.name %>"><%= product.short_name %></b>
+<% else %>
+<%= link_to product.short_name, {:action => :scoreboard, :id => product}, :title => product.name %>
+<% end%>
+<% unless product == @products.last %> | <% end %>
+<% end %>
+
+<table cellpadding="0" cellspacing="0" class="buglist">
+<tr><thead><td colspan="<%= @groups.length + 3 %>">Errata Closures for the Past 3 Months</td></thead></tr>
+<tr bgcolor="#DEDEDE"><td>Week Ending</td><td/>
+<% @groups.each { |group| %>
+    <td><%= group.name %></td>
+<% } %>
+<td>Total</td></tr>
+
+<% count = 1; @stats.sort.reverse.each { |item| %>
+    <% week_year,stat = item[0],item[1] %>
+    <% year,month,day = week_year.split(/ /) %>
+    <tr class="<%= count == 0 ? 'bz_even' : 'bz_odd' %>"><td><%= year + ' ' + Date::MONTHNAMES[month.to_i] + ' ' + day %></td><td/>
+    <% total = 0; @groups.each { |group| %>
+        <td><%= stat[group.id] %></td>
+        <% total += stat[group.id].to_i %>
+    <% } %>
+    <td><%= total.to_s %></td></tr>
+<%  count = 1 - count
+   } %>
+
+<tr bgcolor="#DEDEDE"><td>Summary</td><td/>
+<% total = 0; @groups.each { |group| %>
+    <td><%= @group_totals[group.id] %></td>
+    <% total += @group_totals[group.id].to_i %>
+<% } %>
+<td><%= total.to_s %></td></tr>
+
+</table>

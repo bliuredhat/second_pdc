@@ -1,0 +1,33 @@
+{
+  "data": {
+    "attributes": {
+      "content_type": "Docker",
+      "name": "redhat-rhscl-perl-520-rhel7",
+      "release_type": "Primary",
+      "use_for_tps": false
+    },
+    "id": 3001,
+    "relationships": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "packages": [
+        {
+          "cdn_repo_package_tags": [
+
+          ],
+          "id": 31610,
+          "name": "rh-python34-docker"
+        }
+      ],
+      "variants": [
+        {
+          "id": 594,
+          "name": "7Server"
+        }
+      ]
+    },
+    "type": "cdn_repos"
+  }
+}

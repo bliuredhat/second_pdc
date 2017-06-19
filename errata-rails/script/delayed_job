@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'daemons'
+
+approot = File.expand_path(File.join(File.dirname(__FILE__), '..'))
+unless ENV['RAILS_ENV']
+  if '/var/www/errata_rails' == approot
+    env = 'production' if File.exists?("#{approot}/config/environments/production.rb")
+    env ||= 'staging' if File.exists?("#{approot}/config/environments/staging.rb")
+  end
+  env ||= 'development'
+  ENV['RAILS_ENV'] = env
+end
+puts "Loading rails environment #{ENV['RAILS_ENV']}"
+ENV['LOGFILE_PREFIX'] = 'delayed_job'
+require File.join(approot, 'config', 'environment')
+require 'delayed_job/delayed/command'
+Delayed::Command.new(ARGV).daemonize

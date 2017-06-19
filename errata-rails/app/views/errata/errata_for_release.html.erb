@@ -1,0 +1,16 @@
+<h1>Advisories for <%= @release.name %> - <%= @release.description %></h1>
+
+<% if @release.supports_opml? %>
+Subscribe via <%= image_tag('feed-icon-14x14.png') %> <a href="/rss/<%= @release.name %>.opml">OPML</a>
+<% end %>
+
+<h2><%= @verified_count %> out of <%= @bug_count %> bugs are in VERIFIED, RELEASE_PENDING, or CLOSED.
+<% if @unassigned_count > 0 -%>
+<br/><%= @unassigned_count %> errata are unassigned.
+<% end %>
+</h2>
+
+<%= render(:partial => "shared/bz_table", :locals => {
+:headers => headings_for_errata_for_release,
+:func => method(:row_for_errata_for_release),
+:row_items => @errata_list }) %>

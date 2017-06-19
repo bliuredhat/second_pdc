@@ -1,0 +1,1348 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "name": "rh-i386-desktop-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 252,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 94,
+            "name": "4Desktop"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rh-x86_64-desktop-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 265,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 94,
+            "name": "4Desktop"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-as-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 308,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-as-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 256,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 91,
+            "name": "4AS"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-client-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 136,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 129,
+            "name": "5Client"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-client-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 46,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-client-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 41,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 341,
+            "name": "6Client-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-client-workstation-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 138,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 130,
+            "name": "5Client-Workstation"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-desktop-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 304,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-es-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 312,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-es-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 257,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 139,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 125,
+            "name": "5Server"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 37,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-ha-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 51,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 352,
+            "name": "6Server-HighAvailability"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-lb-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 30,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 357,
+            "name": "6Server-LoadBalancer"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 33,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-productivity-5-fast",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 144,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-server-rs-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 28,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 355,
+            "name": "6Server-ResilientStorage"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-workstation-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 49,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 348,
+            "name": "6Workstation"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-workstation-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 43,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 342,
+            "name": "6Workstation-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-ws-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 315,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-i386-ws-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 254,
+      "relationships": {
+        "arch": {
+          "id": 4,
+          "name": "i386"
+        },
+        "variants": [
+          {
+            "id": 93,
+            "name": "4WS"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-as-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 309,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 66,
+            "name": "3AS"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-as-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 258,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-es-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 313,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-es-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 259,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-server-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 140,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-ws-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 316,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ia64-ws-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 255,
+      "relationships": {
+        "arch": {
+          "id": 7,
+          "name": "ia64"
+        },
+        "variants": [
+          {
+            "id": 93,
+            "name": "4WS"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-as-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 310,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-as-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 260,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc-server-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 141,
+      "relationships": {
+        "arch": {
+          "id": 17,
+          "name": "ppc"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc64-server-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 38,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc64-server-hpn-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 473,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-ppc64-server-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 34,
+      "relationships": {
+        "arch": {
+          "id": 18,
+          "name": "ppc64"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390-as-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 305,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390-as-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 261,
+      "relationships": {
+        "arch": {
+          "id": 9,
+          "name": "s390"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 307,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-as-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 262,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 142,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 39,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-s390x-server-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 35,
+      "relationships": {
+        "arch": {
+          "id": 14,
+          "name": "s390x"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-as-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 306,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-as-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 263,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 91,
+            "name": "4AS"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-client-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 135,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 129,
+            "name": "5Client"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-client-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 47,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 345,
+            "name": "6Client"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-client-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 42,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 341,
+            "name": "6Client-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-client-workstation-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 137,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 130,
+            "name": "5Client-Workstation"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-desktop-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 303,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-es-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 311,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-es-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 264,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 92,
+            "name": "4ES"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-hpc-node-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 45,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 344,
+            "name": "6ComputeNode"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-hpc-node-hpn-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 471,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-hpc-node-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 48,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 347,
+            "name": "6ComputeNode-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-fastrack-5",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 143,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 40,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 340,
+            "name": "6Server"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-ha-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 52,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 352,
+            "name": "6Server-HighAvailability"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-hpn-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 469,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-lb-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 31,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 357,
+            "name": "6Server-LoadBalancer"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 36,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 339,
+            "name": "6Server-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-productivity-5-fast",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 145,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-rs-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 29,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 355,
+            "name": "6Server-ResilientStorage"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-server-sfs-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 27,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 354,
+            "name": "6Server-ScalableFileSystem"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-workstation-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 50,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 348,
+            "name": "6Workstation"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-workstation-optional-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 44,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 342,
+            "name": "6Workstation-optional"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-workstation-sfs-fastrack-6",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 32,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 358,
+            "name": "6Workstation-ScalableFileSystem"
+          }
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-ws-3-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 314,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+
+        ]
+      },
+      "type": "channels"
+    },
+    {
+      "attributes": {
+        "name": "rhel-x86_64-ws-4-fastrack",
+        "release_type": "FastTrack",
+        "use_for_tps": true
+      },
+      "id": 253,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 93,
+            "name": "4WS"
+          }
+        ]
+      },
+      "type": "channels"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<%= render '/shared/bz_table', {
+  :no_tablesort => true,
+  :extra_class => 'bug_list_bigger',
+  :none_message => "No applicable transition rules found" ,
+
+  :headers => if @errata
+    [
+    'Guard Type',
+    'Test Type',
+    'Status',
+    ]
+  else
+    [
+    'Guard Type',
+    'Test Type',
+    'Incomplete Message',
+    'Complete Message',
+    ]
+  end,
+
+  :row_items => @guards,
+
+  :group_by_func => lambda { |guard|
+    [
+      content_tag(:span, "#{show_roles_list(guard)}*", :class=>'tiny light float-right'),
+      state_transition_display(guard.state_transition.from, guard.state_transition.to),
+    ].join
+  },
+
+  :func => if @errata
+    lambda { |guard| [
+      {:content=>guard.guard_type.titleize, :options=>{:style=>'font-weight:bold;'}},
+      guard.test_type.titleize,
+      guard_message_and_icon(guard.message(@errata), guard.status_icon(@errata)),
+    ]}
+  else
+    lambda { |guard| [
+      {:content=>guard.guard_type.titleize, :options=>{:style=>'font-weight:bold;'}},
+      guard.test_type.titleize,
+      guard_message_and_icon(guard.failure_message, guard.guard_type.to_sym),
+      guard_message_and_icon(guard.ok_message, :ok),
+    ]}
+  end,
+
+}%>
+
+<div class="light small" style="margin-top:3em;">* Admin and Secalert can also perform these state transitions.</div>

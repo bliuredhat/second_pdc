@@ -1,0 +1,29 @@
+<%= page_title_h1 %>
+
+<% if !@cached_listing %>
+  <h1>Cache is empty</h1>
+<% else %>
+  Cached listings created at <%= @cached_listing.created_at %>
+  <br><br>
+
+  <% if @advisories.empty? %>
+    <h1>No advisories relating to this product version and build were found.</h1>
+  <% else %>
+    <h2>Advisories relating to this product version and build</h2>
+    <table class="buglist" cellpadding="0" cellspacing="0" width="100%">
+      <% for e in @advisories %>
+        <tr class="buglist-over">
+        <td>
+          <%= link_to e.advisory_name, :controller => 'errata', :action => :view, :id => e.id %>
+          &nbsp;-&nbsp;<%= e.status %>&nbsp;-&nbsp;<%= e.synopsis %>
+        </td></tr>
+      <% end %>
+    </table>
+  <% end %>
+  <br>
+  <%= render_product_listing_table(@cached_listing.get_listing) %>
+  <br>
+  <%=
+    button_to "Clear Cache", {:action => :clear_product_listing_cache, :id => @cached_listing.id}, :class => 'btn'
+  %>
+<% end %>

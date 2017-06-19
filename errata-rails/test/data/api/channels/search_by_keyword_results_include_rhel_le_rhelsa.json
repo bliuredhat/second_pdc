@@ -1,0 +1,87 @@
+# HTTP 200
+[
+  {
+    "id": 788,
+    "name": "rhel-x86_64-server-7"
+  },
+  {
+    "id": 830,
+    "name": "rhel-ppc64-server-7"
+  },
+  {
+    "id": 831,
+    "name": "rhel-s390x-server-7"
+  },
+  {
+    "id": 1015,
+    "name": "rhel-x86_64-workstation-7"
+  },
+  {
+    "id": 1013,
+    "name": "rhel-x86_64-client-7"
+  },
+  {
+    "id": 1014,
+    "name": "rhel-x86_64-hpc-node-7"
+  },
+  {
+    "id": 1016,
+    "name": "rhel-x86_64-client-optional-7"
+  },
+  {
+    "id": 1021,
+    "name": "rhel-ppc64-server-optional-7"
+  },
+  {
+    "id": 1022,
+    "name": "rhel-s390x-server-optional-7"
+  },
+  {
+    "id": 1023,
+    "name": "rhel-x86_64-server-optional-7"
+  },
+  {
+    "id": 1017,
+    "name": "rhel-x86_64-hpc-node-optional-7"
+  },
+  {
+    "id": 1018,
+    "name": "rhel-x86_64-server-ha-7"
+  },
+  {
+    "id": 1019,
+    "name": "rhel-x86_64-server-lb-7"
+  },
+  {
+    "id": 1020,
+    "name": "rhel-x86_64-server-rs-7"
+  },
+  {
+    "id": 1024,
+    "name": "rhel-x86_64-workstation-optional-7"
+  },
+  {
+    "id": 1124,
+    "name": "rhel-x86_64-server-sap-7"
+  },
+  {
+    "id": 1319,
+    "name": "rhel-x86_64-server-rt-7"
+  },
+  {
+    "id": 1348,
+    "name": "rhel-ppc64le-server-7"
+  },
+  {
+    "id": 1349,
+    "name": "rhel-ppc64le-server-optional-7"
+  },
+  {
+    "id": 1350,
+    "name": "rhel-aarch64-server-7"
+  },
+  {
+    "id": 1351,
+    "name": "rhel-aarch64-server-optional-7"
+  }
+]

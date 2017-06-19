@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+Copy/paste content <a href="https://docs.engineering.redhat.com/display/HTD/Errata+Tool+Mailto+Links">here</a>
+<hr/>
+<p>Use these to send email directly, or to copy/paste into your email client or address book.</p>
+<% [[groups, 'Team Members'], [announcements, 'Announcements/Requests']].each do |list, title| %>
+  <h3><%= title %></h3>
+  <table>
+    <tr>
+      <th>Mailto Link</th>
+      <th>Recpients</th>
+    </tr>
+    <% list.each do |group_name, group_members| %>
+      <tr>
+        <% pretty_recipients = group_members.map{ |member| "#{names[member]} <#{member}@redhat.com>"}.join(", ") %>
+        <td><a href="mailto:<%= url_encode(pretty_recipients) %>"><%= group_name %></a></td>
+        <td><%= html_escape(pretty_recipients)  %></td>
+      </tr>
+    <% end %>
+  </table>
+<% end %>
+
+<p><small><span style="color:#999;">
+  <em>(Do not edit. Generate with rake <%= task %>.)</em>
+</span></small></p>

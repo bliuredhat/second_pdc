@@ -1,0 +1,4 @@
+<%= form_tag :controller => 'bugs', :action => 'find_errata_for_bug' do %>
+Search for which errata fix bug #: <%= text_field(:bug, :id, :size => 10) %>
+<%= submit_tag "Find", :class=>'btn btn-primary' %>
+<% end %>

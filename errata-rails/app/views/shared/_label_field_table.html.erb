@@ -1,0 +1,17 @@
+<%#
+  #
+  # Mainly just a wrapper for table_rows_helper.
+  #
+  # But want to probably ditch table_rows_helper in the future
+  # and use a partial instead, so this can serve as a transition
+  # towards that...
+  #
+  # Pass in `fields`. Should be an array of arrays, eg:
+  # [
+  #  ['Height', '123 cm'],
+  #  ['Color', 'Green'],
+  # ]
+-%>
+<table>
+<%= table_rows_helper(fields, :labels=>true) %>
+</table>

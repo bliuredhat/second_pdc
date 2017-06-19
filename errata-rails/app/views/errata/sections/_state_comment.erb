@@ -1,0 +1,14 @@
+<% count = @errata.comment_index_canonical(state_comment) %>
+<div class="state-comment-header" id="comment_<%= state_comment.id %>">
+  <div class="comment-header">
+    <% if state_comment.blocking_issue %>
+      <span class="red bold"><%= image_tag 'icon_warning.png' %> BLOCKED!</span>&nbsp;
+    <% elsif state_comment.info_request %>
+      <span class="blue bold"><%= image_tag 'icon_info.png' %> INFO REQUESTED</span></b>&nbsp;
+    <% end %>
+    Comment <a name="c<%= count%>" href="#c<%= count%>">#<%= count%></a> by
+    <a href="mailto:<%= state_comment.who.login_name %>"><%= state_comment.who.short_to_s %></a>
+    at <%= state_comment.created_at %>:
+  </div>
+  <div class="comment-body"><%= format_comment(state_comment.text) %></div>
+</div>

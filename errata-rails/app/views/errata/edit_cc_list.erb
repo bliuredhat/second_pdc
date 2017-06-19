@@ -1,0 +1,28 @@
+<%#
+  #
+  # TODO edit depends on is the same as this but implemented differently
+  # Should pick one way and stick with that.
+  #
+-%>
+<p>
+  <%= back_to_errata(@errata) %>
+</p>
+<div class="clearfix">
+<div id="edit_cc_list" class="eso-greybox">
+  <h2><%= @errata.advisory_name %></h2>
+  <%= render 'brief_summary', :briefer => true, :show_synopsis => true %>
+  <br/>
+  <b>CC List</b><br/>
+  <div id="errata_cc_list">
+    <% @errata.cc_list.each do |c| %>
+      <%= render :partial => 'cc_edit', :object => c %>
+    <% end %>
+  </div>
+  <br/>
+  <%= form_tag({:action => :add_to_cc_list, :controller => :carbon_copies}, :remote => true) do %>
+    <%= hidden_field_tag :id, @errata.id %>
+    <%= text_field_tag 'email' %> 
+    <%= submit_tag 'Add', :class=>'btn btn-primary', :style=>'margin-bottom:10px;' %>
+  <% end %>
+</div>
+</div>

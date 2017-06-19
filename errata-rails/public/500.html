@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <title>Errata Tool - Internal Server Error</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/stylesheets/master_2_2_11.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="errata_system">
+      <div id="main_nav"></div>
+      <div id="content_div">
+        <div class="site_message">
+          <h1>Internal Server Error</h1>
+          <div class="highlight">
+            <div class="just_text">
+              An application error has occurred
+            </div>
+          </div>
+          <p>
+            This error occurred outside of the Rails environment and therefore it won't be automatically
+            reported via the usual exception notification emails.
+          </p>
+	      <p>Before reporting this error, please check the following:</p>
+          <ul class="spaced">
+            <li>Check if your kerberos ticket is expired.
+              There is a <a href="https://bugzilla.redhat.com/show_bug.cgi?id=981248">known issue</a> with mod_auth_kerberos in RHEL 6 that affects many systems</li>
+            <li>Delete your cookies for the errata system. The upgrade and move to new hosting on Feb 18th 2014 rendered some cookies invalid.</li>
+          </ul>
+          <p>Please report this error using one or more of the following methods:</p>
+          <ul class="spaced">
+            <!-- NB if you update this, you probably should update errata_error.rhtml also -->
+            <li>Mentioning it in #errata on IRC.</li>
+            <li>Sending an email to <a href="mailto:errata-dev-list@redhat.com">errata-dev-list@redhat.com</a>.</li>
+            <li>Creating an RT ticket by emailing <a href="mailto:errata-requests@redhat.com">errata-requests@redhat.com</a>.</li>
+            <li><a href="https://bugzilla.redhat.com/enter_bug.cgi?product=Errata%20Tool">Creating a bug in Bugzilla</a>.</li>
+          </ul>
+          <p>Thank you for your patience.</p>
+        </div>
+      </div>
+      <p id="footer">Errata System. Copyright &copy; 2007-2014 Red Hat, Inc. All rights reserved.<br/></p>
+    </div>
+  </body>
+</html>

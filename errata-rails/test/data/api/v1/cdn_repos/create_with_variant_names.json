@@ -1,0 +1,27 @@
+{
+  "data": {
+    "attributes": {
+      "content_type": "Binary",
+      "name": "test_cdn_repo",
+      "release_type": "FastTrack",
+      "use_for_tps": false
+    },
+    "relationships": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "variants": [
+        {
+          "id": 1024,
+          "name": "7Client-7.1.Z"
+        },
+        {
+          "id": 1039,
+          "name": "7Server-SA-7.1.Z"
+        }
+      ]
+    },
+    "type": "cdn_repos"
+  }
+}

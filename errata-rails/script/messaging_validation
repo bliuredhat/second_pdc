@@ -1,0 +1,10 @@
+#!/bin/bash
+
+RAILS_ROOT="/var/www/errata_rails"
+
+USER=erratatool
+GROUP=errata
+prog=messaging_validation
+
+echo "starting $prog"
+su -l $USER -g $GROUP -c "source scl_source enable rh-ruby22; export BUNDLE_GEMFILE=${RAILS_ROOT}/Gemfile && bundle exec rails runner ${RAILS_ROOT}/script/messaging_validation.rb"

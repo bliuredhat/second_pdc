@@ -1,0 +1,89 @@
+Release Notes for Version 3.12.0
+================================
+
+Overview
+--------
+
+Release 3.12.0 is the 1st release in the Errata Tool 3.12 development period.
+It closes [30 bugs and RFEs][buglist].
+
+This release of Errata Tool includes an API for managing CDN repos, fixes
+related to incorrect released package lists, partner notifications for
+previously embargoed advisories, "readonly-admin" access for all users, plus a
+number of other bug fixes and improvements.
+
+<% sort_these_first %w[ 1216253 1235178 1287378 1156386 1203683 1204280 1279769 1284125 1257013 1280161 1283454 1232662 ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.12.0][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1085414%2C1156386%2C1168459%2C1203683%2C1204280%2C1216253%2C1232662%2C1235178%2C1257013%2C1263897%2C1263899%2C1263931%2C1271462%2C1275548%2C1276050%2C1276967%2C1278249%2C1278646%2C1279769%2C1280147%2C1280161%2C1280540%2C1282748%2C1283244%2C1283454%2C1284125%2C1284384%2C1287378%2C1289404%2C1286713
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.12.0-0&id2=3.11.9-0
+
+<%= all_include_content %>
+
+## Process
+
+### Errata Tool 3.11 Summary
+
+There were [308 bug fixes and RFEs][bugs311] shipped during the 3.11
+development period, from late January to late November, 2015. The
+[3.11 version report in JIRA][jirareport] charts the work planned and the 836 story
+points of work completed during that period.
+
+[![ET 3.11 version report](images/3.12.0/et311report.png)](images/3.12.0/et311report.png)
+
+[bugs311]: https://bugzilla.redhat.com/buglist.cgi?bug_status=CLOSED&f1=flagtypes.name&o1=substring&product=Errata%20Tool&query_format=advanced&resolution=CURRENTRELEASE&v1=errata-3.11
+[jirareport]:https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401&view=reporting&chart=versionReport&version=12113
+
+### Code coverage
+
+The Errata Tool team continues to gradually improve code coverage by requiring
+all new features and bugfixes to be accompanied by an autotest.
+
+In Errata Tool 3.12.0 our code coverage is around 93.8%.
+
+[![Rcov coverage report](images/3.12.0/rcov.png)](images/3.12.0/rcov.png)
+
+
+What's Next
+------------
+
+### Errata Tool 3.12.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.12
+in Bugzilla for inclusion in two week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be 3.12.1.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.12 take a look at [bugs flagged with
+errata-3.12 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.13
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.13 take a look at [bugs
+flagged with errata-3.13][bugs_next].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.12&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.13&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

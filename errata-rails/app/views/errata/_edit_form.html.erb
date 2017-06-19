@@ -1,0 +1,308 @@
+<%# TODO: move script into head %>
+<%= javascript_include_tag "charcount" %>
+
+<%
+   # These vars are used both server and client for deciding how to show embargo_date.
+   is_persisted_rhsa = is_selected_rhsa = @advisory.is_security?
+   is_secalert = @user.in_role?('secalert')
+   is_persisted_embargo_date = !@advisory.release_date.nil?
+
+   # For embargo date, possible cases are:
+   # user is secalert: show enabled control with explanation how to enter date
+   # stored advisory is not RHSA, non-RHSA type selected: show enabled control with explanation how to enter date
+   # stored advisory is not RHSA, RHSA type selected: show "cannot set" text
+   # stored advisory is RHSA, no embargo date - show "cannot set" text
+   # stored advisory is RHSA, has embargo date - show disabled control with explanation why date can't be changed
+   # Note there's the same code in javascript a little bit later.  Would be nice to find some way to share it...
+
+   if (is_secalert || (!is_persisted_rhsa && !is_selected_rhsa))
+     show_embargo_date = enable_embargo_date = true
+   elsif ((!is_persisted_rhsa && is_selected_rhsa) || (is_persisted_rhsa && !is_persisted_embargo_date))
+     show_embargo_date = false
+   else
+     show_embargo_date = true
+     enable_embargo_date = false
+   end
+
+   # hiding always implies disabling
+   enable_embargo_date = enable_embargo_date && show_embargo_date
+
+   # Styles associated with above
+   rhsa_style = show_style_if(is_persisted_rhsa)
+   embargo_date_enabled_style  = show_style_if(enable_embargo_date)
+   embargo_date_disabled_style = show_style_if(!enable_embargo_date)
+   embargo_date_shown_style    = show_style_if(show_embargo_date)
+   embargo_date_hidden_style   = show_style_if(!show_embargo_date)
+
+   # Use this to flag field as mandatory
+   mandatory = lambda do |str|
+     safe_join(['<em class="manual-star">*</em>'.html_safe, str])
+   end
+%>
+
+<% if @advisory.new_record? %>
+  <h1 class="manual-title">New Advisory <span class="superlight">- manual create</span>
+  <%= block_render('shared/help_popover', :placement => 'bottom') do %>
+    <%= render 'errata/filing_docs_link' %>
+  <% end %>
+  </h1>
+<% end %>
+
+<div class='manual-create-form'>
+
+  <% if @advisory.new_record? && !@is_pdc =%>
+    <div class="manual-clone">
+      <a class="clonefrom btn btn-lg btn-primary">Clone an advisory</a>
+      <input id="clone-input" placeholder="Advisory name (Example: RHSA-2014:1234) ">
+      <a class="clone-submit glyphicon fa fa-arrow-circle-right "></a>
+      <i class="fa fa-circle-o-notch fa-spin" id="clone-spinner"></i>
+
+      <% if @cloned_errata %>
+      <div class="current-clone">
+        <div class='clone-error-icon glyphicon fa fa-check-circle-o'style='display:block;'></div>
+        Cloning:
+        <%= link_to @cloned_errata.advisory_name, {:id => @cloned_errata, :controller => :errata, :action => :view}, :class=>'advisory_link' %>
+        <%= @cloned_errata.synopsis %>
+      </div>
+      <% end %>
+
+      <div class="clone-error"><i class="fa fa-exclamation-triangle fa-lg"></i><span></span></div>
+    </div>
+  <% end %>
+
+<%# provide vars for js code via data-* attr %>
+<input id="js-vars" type="hidden" data-is-secalert="<%= is_secalert %>" data-is-persisted-rhsa="<%= is_persisted_rhsa %>" data-is-persisted-embargo-date="<%= is_persisted_embargo_date %>">
+
+<%= render 'docs_approved_message', :errata => @advisory %>
+
+<h2 class="manual-advisory">Advisory Summary</h2>
+<%= advisory_form_error_messages %>
+
+<table class="manual-create-form" cellspacing="3" cellpadding="3">
+  <tr>
+    <%= row_label('Product', :product, :id) %>
+    <td>
+      <%= render(:partial => 'product_list', :object => @advisory.product) %>
+    </td>
+  </tr>
+
+  <tr>
+    <%=
+      label_help = unless @advisory.release.class.is_a?(QuarterlyUpdate)
+        (<<-END_HELP).html_safe
+          It's not possible to move this advisory into a Y-stream release. If
+          this advisory needs to be moved to a Y-stream release then it must be
+          dropped and recreated. (If you don't have permission to drop
+          advisories then you can send a request to
+          #{mail_to(Settings.errata_help_email)}).
+        END_HELP
+      end
+
+      row_label('Release', :release, :id, :label_help => label_help)
+    %>
+    <td>
+      <%= render :partial => 'release_list', :object => @releases %>
+
+      <div id="warn_no_releases" style="display:none;">
+        <p>
+        <b>Warning: </b>No releases are available for this product. Please file a ticket with <%= mail_to Settings.errata_help_email %> to have one created.
+        </p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <%= row_label('Type') %>
+    <td>
+       <%= render :partial => 'errata_type', :object => @advisory %>
+    </td>
+  </tr>
+
+  <tr id="security_impact" style="<%= rhsa_style %>">
+    <%= row_label('Impact', :advisory, :security_impact) %>
+    <td>
+      <%= security_impact_select(@advisory, 'advisory[security_impact]') %>
+    </td>
+  </tr>
+
+  <%#
+  # Confusion warning:
+  #  The db field release_date is refered to as "embargo date" in the UI
+  #  The method (and related field) publish_date is refered to as "release date" in the UI
+  %>
+
+  <%= errata_text_field_with_choice('Embargo Date', :advisory, :release_date, {
+    :size             => 13,
+    :maxlength        => 11,
+    :class            => 'eso-datepicker',
+    :choice_name      => 'enable_embargo_date',
+    :choice_off_label => 'None',
+    :choice_on_label  => 'Embargoed until',
+    :present_now      => is_persisted_embargo_date,
+    :style            => embargo_date_shown_style,
+    :disabled         => !enable_embargo_date,
+    :label_help => \
+      "If this is an advisory for a known security issue enter the date it \
+      will be (or was) made public. \
+      <br/>Format: YYYY-MMM-DD, eg 2013-DEC-01".html_safe,
+    :explanation_text => render('embargo_date_explanation',
+      :disabled_style => embargo_date_disabled_style)
+    })
+  %>
+
+  <%= errata_text_row('Embargo Date', :row_id => 'embargo_date_hidden', :style => embargo_date_hidden_style) %>
+    <td>
+      <span class='light small'>
+        Because you do not have the secalert role, you may not set the embargo date on security advisories.
+      </span>
+    </td>
+  </tr>
+
+  <%= errata_text_field_with_choice('Release Date', :advisory, :publish_date_override, {
+    :size             => 13,
+    :maxlength        => 11,
+    :class            => 'eso-datepicker',
+    :choice_name      => 'enable_release_date',
+    :choice_off_label => 'Default',
+    :choice_on_label  => 'Custom',
+    :present_now      => @advisory.publish_date_override.present?,
+    :label_help       => [ "'Default' here means the release's ship date.",
+                           "Format: YYYY-MMM-DD, eg 2013-DEC-01",
+                           "Note: For advisories in a batch, the batch release date will be used." ].join('<br>').html_safe,
+  })%>
+
+  <tr>
+    <td class="header-label"><%= mandatory['Package Maintainer:'] %></td>
+    <td class="manual-create-input" colspan="4">
+      <%=
+         text_field(:advisory, :package_owner_email)
+      %>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="header-label"><%= mandatory['Manager Contact:'] %></td>
+    <td class="manual-create-input" colspan="4">
+    <%=
+        text_field(:advisory, :manager_email)
+    %>
+    </td>
+ </tr>
+
+  <tr>
+    <td class="header-label"><%= mandatory['QA Owner:'] %></td>
+    <td class="manual-create-input" colspan="4">
+    <%=
+        text_field(:advisory, :assigned_to_email)
+    %>
+    </td>
+  </tr>
+
+  <%= errata_text_field(
+        mandatory['Synopsis'], :advisory, :synopsis_sans_impact,
+        :size => 60, :maxlength => 78, :id => 'advisory_synopsis',
+        :row_id => 'synopsis', :name => 'advisory[synopsis]',
+        :class => 'manual-create-input') %>
+
+  <%= errata_text_field(
+        'Keywords', :advisory, :keywords,
+        :size => 60, :maxlength => 78, :class => 'manual-create-input') %>
+
+  <%= errata_text_field(
+        'Cross References', :advisory, :crossref,
+        :size => 60, :maxlength => 78, :class =>'manual-create-input',
+        :placeholder => 'Example: RHBA-2012:1122 RHSA-2012:1133') %>
+
+  <%= errata_text_field(
+        'CVE Names', :advisory, :cve,
+        :size => 60, :maxlength => 4000, :class => 'manual-create-input',
+        :placeholder => 'Example: CVE-2001-0078 CVE-2002-1183') %>
+
+  <% if @user.can_create_multi_product_advisory? %>
+    <tr><%= row_label('Support Multiple Products?',
+            :advisory,
+            :supports_multiple_product_destinations,
+            :label_help => %{
+              Although this option is checked, multi-product mappings will only
+              be used when there is applicable build. For more details, please
+              see the advisory's Content tab after the build has been added.
+            }.gsub(/\s+/, " ").html_safe) %>
+      <td><label>
+        <% [true, false].each do |b| %>
+          <%= radio_button(:advisory, :supports_multiple_product_destinations, b) %>
+          <%= b ? 'Enabled' : 'Disabled' %>
+        <% end %></label>
+      </td>
+    </tr>
+  <% else %>
+    <%= hidden_field(:advisory, :supports_multiple_product_destinations) %>
+  <% end %>
+
+  <tr><%= row_label('Text only?', :advisory, :text_only) %>
+    <td>
+      <%= check_box(:advisory, :text_only) %>
+    </td>
+  </tr>
+  <%= errata_text_field(
+        'CPE Text', :advisory, :text_only_cpe,
+        :size => 60, :maxlength => 4000, :class => 'manual-create-input',
+        :placeholder => 'Example: cpe:/a:redhat:rhel_extras_rt:7') %>
+  <tr id="product_version_text"><%= row_label('Product Version Text', :advisory, :product_version_text,
+          :label_help => %{
+            When pushing Text-only RHSA this text will show up in bug's closing
+            comment as a product list. If not specified, product versions from
+            RHN channels and CDN repositories will show up instead. If both are
+            empty then product's name(e.g.: #{@advisory.errata.product.name})
+            will show up as default.
+            Multiple items can be recognized by comma(e.g.: RHEL6, RHEL7)
+          }.gsub(/\s+/, " ").html_safe) %>
+    <td>
+      <%= text_field(:advisory, :product_version_text,
+          :size => 60, :maxlength => 4000, :class => 'manual-create-input',
+          :placeholder => "Example: #{@advisory.errata.product.product_versions.first.try(:description) || @advisory.errata.product.name}") %>
+    </td>
+  </tr>
+</table>
+
+<h2 class="manual-advisory">Advisory Content</h2>
+
+<table class="manual-create-form" cellspacing="3" cellpadding="3">
+
+  <%= errata_text_area(mandatory['Topic'], :advisory, :topic, :row_id => 'topic',
+        :rows => 10, :cols => 75, :wrap => 'soft') %>
+
+  <%= errata_text_area(
+        'Bugs or JIRA Issues Fixed', :advisory, :idsfixed,
+        :row_id => 'idsfixed',
+        :anchor => 'idsfixed',
+        :rows => 3, :cols => 75,
+        :placeholder=> 'Example: 1263530 1263835 ABC-123',
+        :label_help => safe_join([
+          render('shared/bug_troubleshoot_message'),
+          "Ids may be separated with spaces or commas."], "<br/><br/>".html_safe)) %>
+
+  <tr>
+    <td class="header-label" width="150"><%= mandatory['Problem Description:'] %>
+      <br/>
+      (4000 chars max)
+      <div class="well" style="text-align:center;padding:3px 8px;margin:0;"><div id="counter-advisory_description"></div></div>
+    </td>
+    <td colspan="3">
+      <%= text_area(:advisory, :description, :rows => 40, :cols => 75,
+            :wrap => 'soft' ) %>
+    </td>
+  </tr>
+
+  <%= errata_text_area(mandatory['Solution'], :advisory, :solution, :rows => 10,
+        :cols => 75, :wrap => 'soft', :row_id => 'solution' ) %>
+
+  <%= errata_text_area('References', :advisory, :reference, :rows => 5, :cols => 75, :wrap => 'soft',
+        :placeholder => 'Please add references as full urls only. (Security impact links for RHSA advisories will be adjusted automatically)' )%>
+
+</table>
+
+<div class="preview-button">
+  <input class="btn btn-lg btn-primary" type="submit" name="commit" action="" value="Preview &gt;"/>
+</div>
+
+</div>

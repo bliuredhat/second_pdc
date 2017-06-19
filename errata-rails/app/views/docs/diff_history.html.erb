@@ -1,0 +1,17 @@
+<%= render 'tabs_and_common_header' %>
+
+<h2>Diff History</h2>
+<% row_func = lambda do |diff|
+   [
+   ("<p><a name=\"#{diff.id}\" href=\"##{diff.id}\"><b>Who:</b> #{diff.user} <b>When:</b> #{long_date(diff.created_at)}</a>" +
+   "</p>" +
+   "<pre>#{CGI.escapeHTML(diff.diff)}</pre>").html_safe
+   ]
+end
+ %>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Diff'],
+:func => row_func,
+:row_items => @diffs
+}) %>

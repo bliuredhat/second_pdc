@@ -1,0 +1,69 @@
+<%#
+  #
+  # This partial shows a list of FTP exclusions for a package.
+  # It also lets you add or remove them. (See Bz 669288).
+  #
+%>
+
+<%# There are two types of exclusion (though both are FtpExclusion records).
+  # Use a loop here to keep it DRY. %>
+<% ['product','product_version'].each do |ex_type| %>
+
+  <div class="excl_container" style="margin-bottom:1em;">
+    <b><%= ex_type.titleize %> Based FTP Exclusions:</b><br/>
+    <div style="padding-left:1em;">
+      <% @ftp_exclusions.send("#{ex_type}_based").tap do |exclusions| %>
+        <%
+          # Going to use this to exclude products or product versions from the drop down select
+          excl_ids = []
+        %>
+        <% if exclusions.empty? %>
+          <i>None</i><br/>
+
+        <% else %>
+          <% exclusions.each do |ex| %>
+            <%
+              ex_obj = ex.send(ex_type)
+              excl_ids << ex_obj.id
+            %>
+            <%= link_to ex_obj.name, { :action => :ftp_exclusion, ex_type => (ex_type == 'product' ? ex_obj.short_name : ex_obj.name) } %>
+            <%if @allow_exclusion_edit %>
+              <%# Button to delete the ftp exclusion %>
+              <%= link_to '&times; Delete'.html_safe,
+                { :action => 'delete_ftp_exclusion', :ftp_exclusion_id => ex.id },
+                :method  => :post,
+                :title   => 'Delete',
+                :confirm => "Really delete the '#{ex_obj.name}' exclusion?",
+                :class => 'btn btn-mini'
+              %>
+            <% end %>
+            <br/>
+
+          <% end %>
+        <% end %>
+
+        <% if @allow_exclusion_edit %>
+          <%# Button to show the hidden form. %>
+          <%= link_to "<b style='color:green'>+</b>Add".html_safe,
+            "#", :class=>'show_ex_form btn btn-mini btn-toggle' %>
+
+          <%# Form for creating a new ftp exclusion. Starts hidden. %>
+          <%# The select can be either a list of products or a list of product_versions depending on ex_type %>
+          <div class="exclusion_form" style="display:none;">
+            <%= form_for FtpExclusion.new(:package_id=>@package.id), :url => { :action => :create_ftp_exclusion } do |f| %>
+              <%= f.hidden_field :package_id %>
+              <%= f.collection_select "#{ex_type}_id".to_sym,
+                (ex_type == 'product' ? Product.active_products : ProductVersion.find_active).exclude_ids(excl_ids), :id, :name %>
+              <%= f.submit 'Create', :class=>'btn btn-primary' %>
+              <%# Button to hide the form again. %>
+              <%= link_to "Cancel", "#", :class=>'btn-toggle' %>
+            <% end %>
+          </div>
+        <% end %>
+
+      <% end %>
+
+    </div>
+  </div>
+  <p/>
+<% end %>

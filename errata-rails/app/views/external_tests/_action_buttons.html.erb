@@ -1,0 +1,12 @@
+<div style="float:right">
+  <div class="btn-group text-buttons" style="float:left;margin-top:6px;padding-right:0.5em;">
+    <%# These are just links so won't make them look like buttons %>
+    <%= link_to("About #{@test_type.display_name}", @test_type.info_url, :target=>'_blank') %>
+    <%= link_to("All Test Runs", {:controller=>'external_tests', :action=>'list_all', :test_type => @test_type.name}) %>
+    <%= link_to("Back to List", {:controller=>'external_tests', :action=>'list', :id=>@errata, :test_type=>@test_type.name}) if @test_run %>
+  </div>
+  <div class="btn-group" style="float:left;">
+    <%= render('refresh_button', :test_run=>@test_run, :btn=>true) if @test_run.try(:can_update_status?) %>
+    <%= render('reschedule_button', :test_run=>@test_run, :btn=>true) if @test_run.try(:reschedule_permitted?, @current_user) %>
+  </div>
+</div>

@@ -1,0 +1,90 @@
+
+<% if current_result.score != RpmdiffScore::PASSED %>
+<h2>Selected Results</h2>
+<table bgcolor="#f2f2f2">
+  <tr>
+    <td width="80%" align="left">
+      <div style="display: inline-block; padding: 0 0.3em; background-color: <%= current_result.rpmdiff_score.html_color %>">
+      <%= current_result.rpmdiff_score.description %>
+      </div>
+      <b><%= current_result.rpmdiff_test.description %></b>
+      - <span><%= current_result.rpmdiff_test.long_desc %>
+        <br />
+        <%= link_to 'More information about this test on our Wiki.', current_result.rpmdiff_test.wiki_url, :class => 'small', :target => '_blank' %>
+    </span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <hr style="border: 0; border-bottom: 1px dashed #ccc; padding: 0.5em;" />
+      <% if current_result.rpmdiff_result_details.empty? %>
+        <!-- old style log which is deprecated, but kept as a fallback until
+             RPMDiff phases out this column.
+        -->
+        <%= current_result.log.html_safe %>
+      <% else %>
+        <%= render('render_rpmdiff_result_details', :current_result => current_result) %>
+      <% end %>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<% if current_result.score == RpmdiffScore::INFO %>
+<%= render(:partial => "info", :object => current_result) %>
+<% elsif current_result.score == RpmdiffScore::WAIVED %>
+<%= render(:partial => "unwaive", :object => current_result) %>
+<% elsif @can_waive %>
+<%= render(:partial => "waive", :object => current_result) %>
+<% else %>
+  <div class="alert alert-info" style="margin-top:1em;">
+    <%= render 'waiver_roles_message', :waiver_roles => current_result.waiver_roles %>
+  </div>
+<% end %>
+<% end %>
+
+<% unless current_result.rpmdiff_waivers.empty? %><h2>Past Waivers</h2><% end %>
+<% current_result.rpmdiff_waivers.each do |waiver| %>
+<table bgcolor="#f2f2f2" cellpadding="2">
+  <tr>
+    <td bgcolor="<%= waiver.rpmdiff_score.html_color %>" class="less_p_whitespace">
+      <p>
+        <% if waiver.rpmdiff_score.score == RpmdiffScore::WAIVED %>
+          Unwaived
+        <% else %>
+          Waived
+        <% end %>
+        by <%= waiver.user.realname %> on <%= waiver.waive_date %>
+      </p>
+      <% if waiver.acked? %>
+        <p>Approved by <%= waiver.acked_by.realname %></p>
+      <% end -%>
+    </td>
+  </tr>
+  <% if waiver.rpmdiff_score.score != RpmdiffScore::WAIVED %>
+  <tr>
+    <td>
+      <i>Old Score Before Waive: <%= waiver.rpmdiff_score.description %></i>
+      <hr style="border: 0; border-bottom: 1px dashed #ccc; padding: 0.5em; padding: 0;" />
+    </td>
+  </tr>
+  <% end %>
+  <tr>
+    <td>
+      <% if waiver.acked? && waiver.ack_description.present? %>
+        <i>Waiver text:</i>
+      <% end %>
+      <pre><%= waiver.description %></pre>
+    </td>
+  </tr>
+  <% if waiver.acked? && waiver.ack_description.present? %>
+  <tr>
+    <td>
+      <i>Approval text:</i>
+      <pre><%= waiver.ack_description %></pre>
+    </td>
+  </tr>
+  <% end %>
+</table>
+<br/>
+<% end %>

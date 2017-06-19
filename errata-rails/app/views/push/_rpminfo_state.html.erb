@@ -1,0 +1,3 @@
+<rpminfo_state id="<%= rpminfo_state.id %>"  version="<%= test.oval_version %>" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <<%= rpminfo_state.type %> <% if rpminfo_state.datatype %>datatype="<%= rpminfo_state.datatype %>"<% end %> operation="<%= rpminfo_state.operation %>"><%= rpminfo_state.value %></<%= rpminfo_state.type %>>
+</rpminfo_state>

@@ -1,0 +1,10 @@
+<% if errata_list.present? %>
+  <ul class="errata-list">
+    <%= render(:partial => 'errata/container/errata_list_show_errata',
+               :collection => errata_list, :as => :errata) %>
+  </ul>
+<% else %>
+  <div class="nothing-available">
+    <p>No Advisories Found.</p>
+  </div>
+<% end %>

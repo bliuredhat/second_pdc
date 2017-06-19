@@ -1,0 +1,38 @@
+To: chazlett@redhat.com, jboggs@redhat.com
+Subject: ET: [RHSA-2014:2021 ASYNC] Important: jasper - Multi-product advisory is available
+X-ErrataTool-Component: ERRATA
+X-ErrataTool-Action: MULTI-PRODUCT-ACTIVATED
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+Multi-product support has been enabled on an advisory.
+
+  Advisory:       RHSA-2014:2021
+  Base product:   RHEL
+  Other products: RHOSE
+
+When this advisory is shipped to the base product, it may also ship content to
+the following channels/repos in other products:
+
+  jasper:
+    RHOSE:
+      rhel-x86_64-server-6-ose-2.0-node
+      rhel-x86_64-server-6-ose-2.1-node
+      rhel-x86_64-server-6-ose-2.2-node
+
+For more information regarding the content of this advisory, please see
+https://errata-test.example.com/errata/content/19435 .
+
+You are receiving this email because you are subscribed to multi-product mapping
+rules which have been activated for this advisory.  To see more information
+about multi-product mapping, including how to adjust your subscription
+preferences, please visit https://errata-test.example.com/multi_product_mappings .
+
+Advisory:
+  [RHSA-2014:2021 ASYNC] Important: jasper security update
+  Status: SHIPPED_LIVE, Package: jasper
+  https://errata-test.example.com/advisory/19435
+
+
+(ET 3.11.0-0 errata-test.example.com test)

@@ -1,0 +1,13 @@
+<div id="packages_for_release_list">
+  <%= select(
+    :release,
+    :id,
+    packages_for_release_list.collect { |d| [d.name,d.id]},
+    {:selected=>@release.try(:id)},
+    'data-remote' => true,
+    'data-method' => 'POST',
+    'data-url' => url_for(:action => :packages_for_release),
+    'data-value' => @release.try(:id)
+  ) %>
+  <%= wait_spinner 'packages_for_release_spinner' %>
+</div>

@@ -1,0 +1,1209 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+
+        ],
+        "description": "Asyncronous Group",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "ASYNC",
+        "ship_date": null,
+        "type": "Async"
+      },
+      "id": 21,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+          {
+            "id": 200,
+            "name": "RHEL-5-JBEAP-6"
+          },
+          {
+            "id": 201,
+            "name": "RHEL-6-JBEAP-6"
+          },
+          {
+            "id": 249,
+            "name": "RHEL-7-JBEAP-6"
+          },
+          {
+            "id": 308,
+            "name": "RHEL-6.4-EUS"
+          },
+          {
+            "id": 311,
+            "name": "RHEL-5.9-EUS"
+          },
+          {
+            "id": 315,
+            "name": "RHEL-6.2.AUS"
+          },
+          {
+            "id": 345,
+            "name": "RHEL-7.0.Z"
+          },
+          {
+            "id": 384,
+            "name": "RHEL-6.6.z"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+
+        ],
+        "description": "Extras for RHEL-7",
+        "enable_batching": true,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "Extras-RHEL-7",
+        "ship_date": "2015-03-04T00:00:00Z",
+        "type": "Async"
+      },
+      "id": 369,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": true,
+        "blocker_flags": [
+          "rhel-4.7",
+          "fast",
+          "devel_ack",
+          "qa_ack"
+        ],
+        "description": "Fastrack errata for RHEL 4.7",
+        "enable_batching": false,
+        "enabled": false,
+        "is_active": false,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "FAST4.7",
+        "ship_date": null,
+        "type": "FastTrack"
+      },
+      "id": 65,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+          {
+            "id": 3,
+            "name": "RHEL-4"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-5.7.0",
+          "fast",
+          "devel_ack",
+          "qa_ack"
+        ],
+        "description": "Fastrack errata for RHEL 5.7",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "FAST5.7",
+        "ship_date": null,
+        "type": "FastTrack"
+      },
+      "id": 161,
+      "relationships": {
+        "brew_tags": [
+          {
+            "id": 17,
+            "name": "dist-5E-fastrack-candidate"
+          }
+        ],
+        "product_versions": [
+          {
+            "id": 16,
+            "name": "RHEL-5"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-6.7.0",
+          "fast",
+          "devel_ack",
+          "qa_ack"
+        ],
+        "description": "RHEL-6.7 Fastrack",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "FAST6.7",
+        "ship_date": null,
+        "type": "FastTrack"
+      },
+      "id": 421,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+          {
+            "id": 149,
+            "name": "RHEL-6"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-7.1.0",
+          "fast",
+          "devel_ack",
+          "qa_ack"
+        ],
+        "description": "rhel-7.1-fastrack-candidate",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "FAST7.1",
+        "ship_date": null,
+        "type": "FastTrack"
+      },
+      "id": 375,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-7.2.0",
+          "fast",
+          "devel_ack",
+          "qa_ack"
+        ],
+        "description": "rhel-7.2-fastrack-candidate",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "FAST7.2",
+        "ship_date": null,
+        "type": "FastTrack"
+      },
+      "id": 465,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+
+        ],
+        "description": "PDC test release",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": true,
+        "name": "PDCTestRelease",
+        "ship_date": null,
+        "type": "Async"
+      },
+      "id": 444,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "pdc_releases": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "Release for testing PDC",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": true,
+        "name": "PDCTestRelease",
+        "ship_date": "2016-11-19T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 446,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "pdc_releases": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "Release for PDC",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": true,
+        "name": "ReleaseForPDC",
+        "ship_date": "2016-11-19T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 445,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "pdc_releases": [
+          {
+            "id": 1,
+            "pdc_id": "ceph-2.1-updates@rhel-7"
+          },
+          {
+            "id": 2,
+            "pdc_id": "rcmtools-1.5@rhel-7"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "Release to test PDC release",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": true,
+        "name": "ReleaseTestPdcRelease",
+        "ship_date": "2016-11-19T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 447,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "pdc_releases": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "Release to test PDC release with advisory using it",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": true,
+        "name": "ReleaseTestPdcRelease1",
+        "ship_date": "2016-11-19T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 448,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "pdc_releases": [
+          {
+            "id": 4,
+            "pdc_id": "ceph-1.3@rhel-7"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+
+        ],
+        "description": "RHCI for the masses",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHCI-1",
+        "ship_date": null,
+        "type": "Async"
+      },
+      "id": 269,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": true,
+        "allow_exception": true,
+        "allow_pkg_dupes": false,
+        "allow_shadow": true,
+        "blocker_flags": [
+          "rhel-5.7.0",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-5.7",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": true,
+        "is_pdc": false,
+        "name": "RHEL-5.7.0",
+        "ship_date": "2011-07-21T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 164,
+      "relationships": {
+        "brew_tags": [
+          {
+            "id": 1,
+            "name": "dist-5E-qu-candidate"
+          },
+          {
+            "id": 2,
+            "name": "dist-5E-extras-qu-candidate"
+          }
+        ],
+        "product_versions": [
+          {
+            "id": 16,
+            "name": "RHEL-5"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-6.1.0",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL 6.1",
+        "enable_batching": true,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-6.1.0",
+        "ship_date": "2011-05-31T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 147,
+      "relationships": {
+        "brew_tags": [
+          {
+            "id": 324,
+            "name": "RHEL-6.1-candidate"
+          },
+          {
+            "id": 335,
+            "name": "RHEL-6.1"
+          },
+          {
+            "id": 336,
+            "name": "RHEL-6.1-pending"
+          },
+          {
+            "id": 325,
+            "name": "rhel-6.1-supp-candidate"
+          },
+          {
+            "id": 348,
+            "name": "rhel-6.1-supp-pending"
+          },
+          {
+            "id": 349,
+            "name": "rhel-6.1-supp"
+          }
+        ],
+        "product_versions": [
+          {
+            "id": 149,
+            "name": "RHEL-6"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": true,
+        "blocker_flags": [
+          "rhel-6.3.0",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-6.3.0",
+        "enable_batching": false,
+        "enabled": false,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-6.3.0",
+        "ship_date": "2012-06-19T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 205,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-6.3.z",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL 6.3.z",
+        "enable_batching": false,
+        "enabled": false,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-6.3.z",
+        "ship_date": null,
+        "type": "Zstream"
+      },
+      "id": 238,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-6.5.z",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-6.5.z",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-6.5.z",
+        "ship_date": "2013-11-21T00:00:00Z",
+        "type": "Zstream"
+      },
+      "id": 325,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-6.6.z",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-6.6.z",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-6.6.z",
+        "ship_date": "2014-10-14T00:00:00Z",
+        "type": "Zstream"
+      },
+      "id": 412,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": true,
+        "allow_exception": true,
+        "allow_pkg_dupes": false,
+        "allow_shadow": true,
+        "blocker_flags": [
+          "rhel-6.7.0",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-6.7.0",
+        "enable_batching": false,
+        "enabled": false,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-6.7.0",
+        "ship_date": "2015-07-22T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 424,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": true,
+        "allow_exception": true,
+        "allow_pkg_dupes": false,
+        "allow_shadow": true,
+        "blocker_flags": [
+          "rhel-6.8.0",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-6.8.0",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-6.8.0",
+        "ship_date": "2016-05-11T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 516,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": true,
+        "allow_exception": true,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-7.0.0",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-7.0.0",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": true,
+        "is_pdc": false,
+        "name": "RHEL-7.0.0",
+        "ship_date": "2017-04-01T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 259,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+          {
+            "id": 244,
+            "name": "RHEL-7"
+          },
+          {
+            "id": 317,
+            "name": "RHEL-7.0-Supplementary"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-7.0.z",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-7.0.Z",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-7.0.Z",
+        "ship_date": "2014-06-10T00:00:00Z",
+        "type": "Zstream"
+      },
+      "id": 356,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-7.1.z"
+        ],
+        "description": "RHEL-7.1.Z",
+        "enable_batching": true,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-7.1.Z",
+        "ship_date": null,
+        "type": "Async"
+      },
+      "id": 452,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": true,
+        "allow_exception": true,
+        "allow_pkg_dupes": false,
+        "allow_shadow": true,
+        "blocker_flags": [
+          "rhel-7.2.0",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-7.2.0",
+        "enable_batching": true,
+        "enabled": true,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": true,
+        "is_pdc": false,
+        "name": "RHEL-7.2.0",
+        "ship_date": "2015-11-10T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 468,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-7.2.z",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "RHEL-7.2.Z",
+        "enable_batching": true,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEL-7.2.Z",
+        "ship_date": "2015-11-19T00:00:00Z",
+        "type": "Zstream"
+      },
+      "id": 524,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhel-6.4.0",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "The 6.4 Release of RHEV-H",
+        "enable_batching": false,
+        "enabled": false,
+        "is_active": true,
+        "is_async": false,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEV-H 6.4.0",
+        "ship_date": "2013-02-21T00:00:00Z",
+        "type": "QuarterlyUpdate"
+      },
+      "id": 246,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+
+        ],
+        "description": "RHEV Manager 3.y async updates",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHEV-M 3.y-Async",
+        "ship_date": null,
+        "type": "Async"
+      },
+      "id": 152,
+      "relationships": {
+        "brew_tags": [
+          {
+            "id": 571,
+            "name": "rhevm-3.3-rhel-6-candidate"
+          },
+          {
+            "id": 631,
+            "name": "rhevm-3.4-rhel-6-candidate"
+          }
+        ],
+        "product_versions": [
+          {
+            "id": 153,
+            "name": "RHEL-6-RHEV"
+          },
+          {
+            "id": 269,
+            "name": "RHEL-6-RHEV-S-3.3"
+          },
+          {
+            "id": 318,
+            "name": "RHEL-6-RHEV-S-3.4"
+          }
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+
+        ],
+        "description": "RHN Tools",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHN Tools",
+        "ship_date": null,
+        "type": "Async"
+      },
+      "id": 130,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "ose-1.2.z",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "Red Hat OpenShift Enterprise 1.2 Z Stream",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHOSE 1.2.z",
+        "ship_date": "2013-11-20T00:00:00Z",
+        "type": "Zstream"
+      },
+      "id": 286,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "ose-2.0.z",
+          "devel_ack",
+          "qa_ack",
+          "pm_ack"
+        ],
+        "description": "Red Hat OpenShift Enterprise 2.0 Z Stream",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHOSE 2.0.z",
+        "ship_date": "2014-05-13T00:00:00Z",
+        "type": "Zstream"
+      },
+      "id": 334,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "ose-2.1.z"
+        ],
+        "description": "Red Hat OpenShift Enterprise 2.1 Z Stream",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHOSE 2.1.z",
+        "ship_date": "2014-05-13T00:00:00Z",
+        "type": "Async"
+      },
+      "id": 361,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    },
+    {
+      "attributes": {
+        "allow_blocker": false,
+        "allow_exception": false,
+        "allow_pkg_dupes": false,
+        "allow_shadow": false,
+        "blocker_flags": [
+          "rhs-3.0.z"
+        ],
+        "description": "Red Hat Storage 3.0.z",
+        "enable_batching": false,
+        "enabled": true,
+        "is_active": true,
+        "is_async": true,
+        "is_deferred": false,
+        "is_pdc": false,
+        "name": "RHS-3.0.z",
+        "ship_date": null,
+        "type": "Async"
+      },
+      "id": 401,
+      "relationships": {
+        "brew_tags": [
+
+        ],
+        "product_versions": [
+
+        ]
+      },
+      "type": "releases"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# HTTP 200
+[
+  {
+    "file": {
+      "id": 701215,
+      "path": "/mnt/redhat/brewroot/packages/org.picketbox-picketbox-infinispan/4.0.9.Final/1/maven/org/picketbox/picketbox-infinispan/4.0.9.Final/picketbox-infinispan-4.0.9.Final.pom",
+      "type": "pom"
+    },
+    "rank": 1,
+    "title": "Infinispan maven metadata"
+  },
+  {
+    "file": {
+      "id": 701212,
+      "path": "/mnt/redhat/brewroot/packages/org.picketbox-picketbox-infinispan/4.0.9.Final/1/maven/org/picketbox/picketbox-infinispan/4.0.9.Final/picketbox-infinispan-4.0.9.Final.jar",
+      "type": "jar"
+    },
+    "rank": 2,
+    "title": "Infinispan jar"
+  },
+  {
+    "file": {
+      "id": 701217,
+      "path": "/mnt/redhat/brewroot/packages/org.picketbox-picketbox-infinispan/4.0.9.Final/1/maven/org/picketbox/picketbox-infinispan/4.0.9.Final/picketbox-infinispan-4.0.9.Final-sources.jar",
+      "type": "jar"
+    },
+    "rank": 3,
+    "title": null
+  }
+]

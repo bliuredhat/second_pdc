@@ -1,0 +1,19 @@
+{
+  "data": {
+    "attributes": {
+      "tag_template": "latest"
+    },
+    "id": 2,
+    "relationships": {
+      "cdn_repo": {
+        "id": 3001,
+        "name": "redhat-rhscl-perl-520-rhel7"
+      },
+      "package": {
+        "id": 31611,
+        "name": "rh-perl520-docker"
+      }
+    },
+    "type": "cdn_repo_package_tags"
+  }
+}

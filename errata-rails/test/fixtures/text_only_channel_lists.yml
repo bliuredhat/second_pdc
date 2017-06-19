@@ -1,0 +1,103 @@
+--- 
+text_only_channel_list_00009: 
+  channel_list: jb-middleware
+  created_at: 2010-10-29 09:42:24 Z
+  errata_id: 10226
+  id: 9
+  updated_at: 2010-10-29 09:50:54 Z
+text_only_channel_list_00017: 
+  channel_list: ""
+  cdn_repo_list: "59,156"
+  created_at: 2011-02-10 05:05:18 Z
+  errata_id: 10801
+  id: 17
+  updated_at: 2011-02-10 05:05:18 Z
+text_only_channel_list_00018: 
+  channel_list: ""
+  created_at: 2011-02-10 05:19:58 Z
+  errata_id: 10802
+  id: 18
+  updated_at: 2011-02-10 05:19:58 Z
+text_only_channel_list_00020: 
+  channel_list: ""
+  created_at: 2011-02-23 06:29:05 Z
+  errata_id: 10849
+  id: 20
+  updated_at: 2011-02-23 06:29:05 Z
+text_only_channel_list_00028: 
+  channel_list: "jb-middleware"
+  created_at: 2011-04-14 06:09:03 Z
+  errata_id: 11133
+  id: 28
+  updated_at: 2011-04-14 06:09:03 Z
+text_only_channel_list_00029: 
+  channel_list: "jb-middleware"
+  created_at: 2011-04-15 07:27:06 Z
+  errata_id: 11138
+  id: 29
+  updated_at: 2011-04-15 07:27:06 Z
+text_only_channel_list_00030: 
+  channel_list: ""
+  created_at: 2011-04-19 09:42:17 Z
+  errata_id: 11149
+  id: 30
+  updated_at: 2011-04-19 09:42:17 Z
+text_only_channel_list_00031:
+  channel_list: ""
+  created_at: 2011-04-19 09:42:17 Z
+  errata_id: 16375
+  id: 31
+  updated_at: 2011-04-19 09:42:17 Z
+text_only_channel_list_32:
+  created_at: &id001 2014-09-22 23:21:46.600983 Z
+  id: 32
+  errata_id: 16616
+  cdn_repo_list: "rhel-6-server-rpms__6Server__i386,rhel-6-server-rpms__6Server__x86_64"
+  updated_at: *id001
+  channel_list: "rhel-i386-server-6,rhel-x86_64-server-6"
+text_only_channel_list_39:
+  channel_list: ""
+  errata_id: 16654
+  cdn_repo_list: ""
+  id: 39
+  created_at: 2014-09-30 06:32:50 Z
+  updated_at: 2014-09-30 06:32:50 Z
+text_only_channel_list_46:
+  id: 46
+  channel_list: ""
+  errata_id: 21100
+  updated_at: 2016-05-10 04:33:11 Z
+  created_at: 2016-05-10 04:28:27 Z
+  cdn_repo_list: "1268,1269"
+text_only_channel_list_902:
+  id: 902
+  errata_id: 24604
+  channel_list: ""
+  created_at: 2016-08-25 14:06:29 Z
+  updated_at: 2016-08-25 14:06:34 Z
+  cdn_repo_list: "1749"
+text_only_channel_list_896:
+  id: 896
+  errata_id: 24565
+  channel_list: ""
+  created_at: 2016-08-22 17:47:06 Z
+  updated_at: 2016-08-22 17:47:06 Z
+  cdn_repo_list: ""
+text_only_channel_list_pdc_00047:
+  channel_list: ""
+  created_at: 2011-04-19 09:42:17 Z
+  errata_id: 16376
+  id: 47
+  updated_at: 2011-04-19 09:42:17 Z
+text_only_channel_list_pdc_00048:
+  channel_list: ""
+  created_at: 2011-04-19 09:42:17 Z
+  errata_id: 11150
+  id: 48
+  updated_at: 2011-04-19 09:42:17 Z
+text_only_channel_list_pdc_00049:
+  channel_list: ""
+  created_at: 2011-04-19 09:42:17 Z
+  errata_id: 11151
+  id: 49
+  updated_at: 2011-04-19 09:42:17 Z

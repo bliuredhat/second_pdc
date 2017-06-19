@@ -1,0 +1,40 @@
+<h1><%= @page_title %></h1>
+<div align="right" >
+  <%= link_to('Show all mappings',
+        { :action => :index, :scope => 'all' },
+        :class=>'btn') \
+        if params[:scope] != 'all' %>
+  <%= link_to('Show mappings with product version enabled',
+        { :action => :index},
+        :class=>'btn') \
+        if params[:scope] == 'all' %>
+  <%= link_to( icon_btn_text('New Mapping', :plus),
+        { :action => :new },
+        :class=>'btn') \
+        if can_edit_mgmt_items? %>
+</div>
+<br />
+<%= render 'mappings_list', :mappings => @all_mappings %>
+
+<div class="alert alert-info" style="margin-top:2em;">
+  <p class="bold">Note:</p>
+  <ul class="spaced">
+    <li>
+      Subscribers will be notified when
+      <ul class="spaced">
+        <li>'Support Multiple Products' is enabled for an advisory in any state
+          except NEW_FILES, or</li>
+        <li>an advisory with 'Supports Multiple Products' enabled moves from
+          NEW_FILES to QE.</li>
+      </ul>
+    </li>
+    <li>
+      If you require modifications to the mappings or subscriptions above,
+      please create an RT ticket by sending an email to
+      <%= mail_to Settings.errata_help_email %>.
+    </li>
+    <li>
+     This data is available as <%= link_to 'json', '?format=json' %>.
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "filter": [
+      "must specify release, batch or errata when using this API"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<% if @debug_would_fetch.present? %>
+<p>
+  To fetch product listings for <%=
+    [("build #{@brew_build.nvr} in" if @brew_build),
+     @product_version.name].compact.join(' ')
+  %>, Errata Tool will perform the following:
+  <br>
+  <pre><%= safe_join(@debug_would_fetch, "\n") %></pre>
+</p>
+<% end %>
+
+<% if @debug_variant_map.nil? %>
+  <%# no content %>
+<% elsif @debug_variant_map.empty? %>
+<p>
+  Errata Tool will not process any variants in the product listings response.
+  This may indicate an incorrectly configured product version.
+</p>
+<% else %>
+<p>
+  Errata Tool will look for these variant labels in the response,
+  which will be mapped to corresponding Errata Tool variants:
+  <% @debug_variant_map.sort_by(&:first).each do |product, inner| %>
+    <br><br>
+    In response for <%= product %>:
+    <% inner.sort_by(&:first).each do |label,variant| %>
+      <br>&nbsp;&nbsp;<%= label %> → <%= link_to(variant.name, variant) %>
+    <% end -%>
+  <% end -%>
+</p>
+<% end %>

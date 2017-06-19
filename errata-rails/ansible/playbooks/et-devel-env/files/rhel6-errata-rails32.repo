@@ -1,0 +1,15 @@
+# Rails 3.2 Errata system
+
+[Errata-Rails-3.2]
+name=Errata on Rails 3.2 - $releasever - $basearch
+baseurl=http://file.bos.redhat.com/~jorris/repo/$basearch/
+gpgcheck=0
+enabled=1
+
+[Errata-Rails-3.2-noarch]
+name=Errata on Rails 3.2 - $releasever - noarch
+baseurl=http://file.bos.redhat.com/~jorris/repo/noarch/
+gpgcheck=0
+enabled=1
+
+

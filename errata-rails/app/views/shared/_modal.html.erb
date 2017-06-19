@@ -1,0 +1,12 @@
+<%= javascript_include_tag('et_modal_helper') %>
+<div>
+<div id="et_modal" class="modal">
+  <div class="modal-header">
+    <button class="close" data-dismiss="modal">×</button>
+    <h3>Loading...</h3>
+  </div>
+  <%= wait_spinner :wait_spinner, "margin:10px;" %>
+  <div class="modal-body"><div class="body-content"></div></div>
+  <div class="modal-footer"><div class="footer-content"></div></div>
+</div>
+</div>

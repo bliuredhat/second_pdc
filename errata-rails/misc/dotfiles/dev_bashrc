@@ -1,0 +1,25 @@
+#
+# Will be sourced by /home/dev/.bashrc inside the
+# dev docker container
+#
+alias rake='bundle exec rake'
+alias rails='bundle exec rails'
+
+rtest() {
+  NO_FIXTURE_LOAD=1 bundle exec ruby -Ilib:test $@
+}
+
+_show_git_branch() {
+  local _git_branch=`git rev-parse --abbrev-ref HEAD 2>/dev/null`
+  [ -n "$_git_branch" ] && echo "[$_git_branch] "
+}
+
+PS1="\h:\w> \$(_show_git_branch)"
+
+#
+# If you don't like the above then add your own
+# customisations to this git ignored file
+#
+if [ -r /code/misc/dotfiles/my_dev_bashrc ]; then
+  source /code/misc/dotfiles/my_dev_bashrc
+fi

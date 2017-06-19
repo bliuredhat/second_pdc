@@ -1,0 +1,99 @@
+<script>
+   function submit_detach_repos(element) {
+     $(element).closest("form").submit();
+     return false;
+   }
+</script>
+
+<%
+  no_header ||= false
+  model_name = klass.model_name
+  u_model_name = model_name.underscore
+  display_name = klass.display_name
+  pv = variant.product_version
+
+  row_func = lambda do |repo|
+    if repo.kind_of?(Channel)
+      check_box_name = "channel[id][]"
+      release_type = repo.short_type
+      repo_type = nil
+      back_to_tab = "?back_to_tab=channels"
+    else
+      check_box_name = "cdn_repo[id][]"
+      release_type = repo.short_release_type
+      repo_type = repo.short_type
+      back_to_tab = "?back_to_tab=cdn_repos"
+    end
+
+    repo_pv = repo.product_version
+    repo_var = repo.variant
+    popover = "--"
+    if variant != repo_var
+      label = content_tag(:span, "", :class => "anchorjs-icon label label-info")
+      title = "This #{repo.class.display_name} is owned by:"
+      content = [
+        "<b>Product Version</b>: ".html_safe + link_to(repo_pv.name,  url_for(repo_pv)),
+        "<b>Variant</b>: ".html_safe + link_to(repo_var.name, url_for(repo_var)),
+      ].join("<br />".html_safe)
+      popover = content_popover_helper(content, title, '#less', {:manual_text => label, :class => %w[anchorjs-link], :click => true})
+    end
+
+    dist_menu = []
+    dist_menu << link_to('Delete', url_for([pv, repo]) + back_to_tab, :confirm => 'Are you sure?', :method => :delete)
+
+    [
+      (bz_row_helper(check_box_tag(check_box_name, repo.id, false), {:style => "width:20px;"}) if can_edit_mgmt_items?),
+      link_to(repo.name, url_for([repo_pv, repo])),
+      bz_row_helper(release_type),
+      bz_row_helper(repo.arch.name),
+      bz_row_helper(repo_type),
+      bz_row_helper(repo.has_stable_systems_subscribed?, {:method => :sortable_yes_no_icon, :style => "width:10px"}),
+      bz_row_helper(popover, {:style => "width:20px;"}),
+      (dropdown_button_helper(dist_menu, :style => "float:right;", :class => 'btn-mini') if variant == repo_var && can_edit_mgmt_items?),
+    ].compact
+  end
+
+  attach_form_path = url_for([:attach_form, pv, u_model_name.pluralize])
+  detach_form_path = url_for([:detach, pv, u_model_name.pluralize])
+  form_id = "variant_#{variant.id}_#{model_name.downcase}"
+
+  menu = [
+    link_to(
+      "Attach #{display_name}",
+      "#",
+      :class => "et-ui-ajax-on-click toggle-modal",
+      :data => {
+        :"ajax-request-url" => attach_form_path,
+        :params => { :variant_id => variant.id }
+    }),
+    link_to_function("Detach selected", 'submit_detach_repos(this)')
+  ]
+%>
+
+<%= form_tag(detach_form_path, {:id => form_id, :method => "post", :class => 'detach_form'}) do %>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <% unless no_header %>
+        <b>Variant <b><%= link_to(variant.name, product_version_variant_path(variant.product_version, variant)) %></b>:</b>
+      <% end %>
+      &nbsp;<%= dropdown_button_helper(menu, :style => "float:right;", :class => 'btn-small') if can_edit_mgmt_items? %>
+    </div>
+    <%=
+       render(:partial => "shared/bz_table", :locals => {
+         :headers => [
+           (tablesort_heading_no_sort("") if can_edit_mgmt_items?),
+           'Name',
+           bz_row_helper("Release Type"),
+           bz_row_helper("Arch"),
+           ( bz_row_helper("Content Type") if klass == CdnRepo ),
+           bz_row_helper("TPS?", {:method => :tablesort_heading_custom_sort, :style => "width:10px;"}),
+           tablesort_heading_no_sort("Link Info"),
+           (tablesort_heading_no_sort("", {:style => "width:60px"}) if can_edit_mgmt_items?),
+         ].compact,
+         :func => row_func,
+         :row_items => dist_repos,
+         :no_content_text => "No #{display_name.pluralize} are attached"
+       })
+    %>
+  </div>
+<% end %>

@@ -1,0 +1,6 @@
+Product Security has requested that Release Engineering push this advisory:
+<%= @errata.fulladvisory %> <%= @errata.release.name %>] <%= @errata.synopsis %>
+
+Requested by <%= @user %>
+
+<%= url_for(:controller => :push, :action => :push_errata, :id => @errata.id, :only_path => false) %>

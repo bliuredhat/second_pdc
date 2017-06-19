@@ -1,0 +1,66 @@
+# HTTP 200
+[
+  {
+    "errata": {
+      "id": 11131
+    },
+    "id": 11393,
+    "log": "\nRunning task set_update_date\nUpdated Update date\nRunning task set_live_id\nRunning task set_issue_date\nUpdated Issue date\nPub task created, task id: 6447\nLink to the pub task: http://pub.devel.redhat.com/pub/task/6447\nWaiting on pub to finish.\nPub completed.\nRunning post push tasks.\nRunning task update_push_count\nPush count increased\nRunning task mark_errata_shipped\nRunning task request_rhn_cache_update\nRequesting RHN Cache update\nCache update requested\nRunning task push_oval_to_secalert\nRunning task update_bugzilla\nClosing bugs...\nDone closing bugs\nRunning task move_pushed_errata\nCalling move-pushed-erratum for 2011:0451\n2011:0451\nbrew move-pkg --force rhel-6.1-supp-candidate rhel-6.0-supp-errata flash-plugin-10.2.159.1-1.el6\nCreated task 3265793, moving flash-plugin-10.2.159.1-1.el6\nbrew move-pkg --force dist-5E-extras-errata-candidate dist-5E-extras-U6-errata flash-plugin-10.2.159.1-1.el5\nCreated task 3265794, moving flash-plugin-10.2.159.1-1.el5\n\nmove-pushed-erratum complete\nRunning task request_translation\nRequesting translation\ntranslation requested\npost-push tasks complete",
+    "options": {
+      "priority": 25,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_errata_shipped",
+      "move_pushed_errata",
+      "push_oval_to_secalert",
+      "request_rhn_cache_update",
+      "request_translation",
+      "update_bugzilla",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_issue_date",
+      "set_live_id",
+      "set_update_date"
+    ],
+    "pub_task": {
+      "id": 6447
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "http://www.example.com/api/v1/erratum/11131/push/11393"
+  },
+  {
+    "errata": {
+      "id": 11131
+    },
+    "id": 11389,
+    "log": "\nPub task created, task id: 6443\nLink to the pub task: http://pub.devel.redhat.com/pub/task/6443\nWaiting on pub to finish.\nPub completed.\nRunning post push tasks.\nRunning task reschedule_rhnqa\nRunning task mark_rhnqa_done\npost-push tasks complete",
+    "options": {
+      "priority": 20,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_rhnqa_done",
+      "reschedule_rhnqa"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": 6443
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 2,
+      "name": "rhn_stage"
+    },
+    "url": "http://www.example.com/api/v1/erratum/11131/push/11389"
+  }
+]

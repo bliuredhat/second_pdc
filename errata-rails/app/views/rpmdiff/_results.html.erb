@@ -1,0 +1,41 @@
+<h3>Results Summary</h3>
+<% result_rows = []
+   list = results.rpmdiff_results
+   until list.empty? do
+     result_rows << list.slice!(0,5)
+   end
+%>
+<table>
+  <tr>
+    <td/>
+    <td>
+      <table class="rpmdiff_results">
+        <% result_rows.each do |row| %>
+          <tr>
+            <% row.each do |result| %>
+              <td bgcolor="<%=result.rpmdiff_score.html_color%>">
+                <% if @current_result.result_id == result.result_id %>
+                  <b>*<%= result.rpmdiff_test.description %>*</b>
+                <% elsif result.score == RpmdiffScore::PASSED %>
+                  <font color="#000000"><%= result.rpmdiff_test.description %></font>
+                <% else %>
+                  <%= result_link(result) %>
+                <% end %>
+              </td>
+            <% end %>
+          </tr>
+        <% end %>
+      </table>
+    </td>
+    <td>Legend
+      <table class="rpmdiff_legend">
+        <tbody>
+          <% completed = RpmdiffScore.find(RpmdiffScore::COMPLETED) %>
+          <% completed.each do |score| %>
+            <tr><td bgcolor="<%=score.html_color%>"><%=score.description%></td></tr>
+          <% end %>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,68 @@
+---
+- name: copy all repos directory to /etc/yum.repos.d
+  copy: src="{{item}}" dest=/etc/yum.repos.d/
+  sudo: yes
+  with_fileglob:
+    - "{{repo_dir}}/*.repo"
+  notify:
+    - yum clean all
+    - yum repolist
+
+- meta: flush_handlers
+
+- name: install minimal setup of developer tools
+  tags: errata-dev-tools
+  sudo: yes
+  yum: pkg={{item}} state=installed
+  with_items: dev_tools
+
+- name: install developments libs needed for bundle install
+  tags: errata-dev-libs
+  sudo: yes
+  yum: pkg={{item}} state=installed
+  with_items: dev_libs
+
+- name: install packages libs from internal repos
+  tags: errata-pkg-internal
+  sudo: yes
+  yum: pkg={{item.name}} enablerepo={{item.repos}} state=installed
+  with_items: internal_repo_pkgs
+
+- name: retrieve list of Errata runtime dependencies
+  tags: errata-dev-rpms
+  sudo: yes
+  # This task will install all dependencies of the most recently deployed
+  # errata-rails RPM, but not install that RPM itself.
+  # - grep eliminates file-based dependencies
+  # - cut only takes the dependency name and ignores any specified version
+  shell: |
+    repoquery --requires errata-rails | grep -v / | cut '-d ' -f1
+  register: runtime_requires
+
+- name: install Errata Tool runtime dependencies
+  tags: errata-dev-rpms
+  sudo: yes
+  yum: pkg={{item}} state=installed disablerepo=rcm-tools-rhel-6-server-rpms,rcm-tools-rhel-6-server-optional-rpms
+  with_items: "{{ runtime_requires.stdout_lines }}"
+
+- name: copy config files
+  tags: errata-dev-conf-files
+  sudo: yes
+  sudo: yes
+  copy: src={{item.src}} dest={{item.dest}}
+        owner=root group=root
+  with_items: config_files
+
+- name: install gem rpms
+  tags: errata-dev-gem-pkg
+  sudo: yes
+  tags: errata-ruby-gems
+  yum: pkg={{item}} state=installed
+  with_items: gem_packages
+
+- name: gem install gems
+  tags: errata-dev-gem-install
+  sudo: yes
+  gem: name={{item}} state=present
+  with_items: gem_install
+

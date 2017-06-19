@@ -1,0 +1,6976 @@
+--- 
+channel_00001: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 1
+  name: rhel-i386-server-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 339
+  has_stable_systems_subscribed: true
+channel_00002: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:01 Z
+  id: 2
+  name: rhel-ppc64-server-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 339
+  has_stable_systems_subscribed: true
+channel_00003: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:01 Z
+  id: 3
+  name: rhel-s390x-server-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 339
+  has_stable_systems_subscribed: true
+channel_00004: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 4
+  name: rhel-x86_64-server-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 339
+  has_stable_systems_subscribed: true
+channel_00005: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 5
+  name: rhel-i386-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 340
+  has_stable_systems_subscribed: true
+channel_00006: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:01 Z
+  id: 6
+  name: rhel-ppc64-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 340
+  has_stable_systems_subscribed: true
+channel_00007: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:01 Z
+  id: 7
+  name: rhel-s390x-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 340
+  has_stable_systems_subscribed: true
+channel_00008: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 8
+  name: rhel-x86_64-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 340
+  has_stable_systems_subscribed: true
+channel_00009: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 9
+  name: rhel-i386-client-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 341
+  has_stable_systems_subscribed: true
+channel_00010: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 10
+  name: rhel-x86_64-client-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 341
+  has_stable_systems_subscribed: true
+channel_00011: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 11
+  name: rhel-i386-workstation-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 342
+  has_stable_systems_subscribed: true
+channel_00012: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 12
+  name: rhel-x86_64-workstation-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 342
+  has_stable_systems_subscribed: true
+channel_00013: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 13
+  name: rhel-x86_64-hpc-node-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 344
+  has_stable_systems_subscribed: true
+channel_00014: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 14
+  name: rhel-i386-client-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 345
+  has_stable_systems_subscribed: true
+channel_00015: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 15
+  name: rhel-x86_64-client-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 345
+  has_stable_systems_subscribed: true
+channel_00016: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 16
+  name: rhel-x86_64-hpc-node-optional-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 347
+  has_stable_systems_subscribed: true
+channel_00017: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 17
+  name: rhel-i386-workstation-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 348
+  has_stable_systems_subscribed: true
+channel_00018: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 18
+  name: rhel-x86_64-workstation-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 348
+  has_stable_systems_subscribed: true
+channel_00019: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 19
+  name: rhel-i386-server-ha-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 352
+  has_stable_systems_subscribed: true
+channel_00020: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 20
+  name: rhel-x86_64-server-ha-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 352
+  has_stable_systems_subscribed: true
+channel_00021: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 21
+  name: rhel-x86_64-server-sfs-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 354
+  has_stable_systems_subscribed: true
+channel_00022: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 22
+  name: rhel-i386-server-rs-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 355
+  has_stable_systems_subscribed: true
+channel_00023: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 23
+  name: rhel-x86_64-server-rs-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 355
+  has_stable_systems_subscribed: true
+channel_00024: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:01 Z
+  id: 24
+  name: rhel-i386-server-lb-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 357
+  has_stable_systems_subscribed: true
+channel_00025: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 25
+  name: rhel-x86_64-server-lb-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 357
+  has_stable_systems_subscribed: true
+channel_00026: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:01 Z
+  id: 26
+  name: rhel-x86_64-workstation-sfs-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:01 Z
+  variant_id: 358
+  has_stable_systems_subscribed: true
+channel_00027: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 27
+  name: rhel-x86_64-server-sfs-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 354
+  has_stable_systems_subscribed: true
+channel_00028: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 28
+  name: rhel-i386-server-rs-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 355
+  has_stable_systems_subscribed: true
+channel_00029: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 29
+  name: rhel-x86_64-server-rs-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 355
+  has_stable_systems_subscribed: true
+channel_00030: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 30
+  name: rhel-i386-server-lb-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 357
+  has_stable_systems_subscribed: true
+channel_00031: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 31
+  name: rhel-x86_64-server-lb-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 357
+  has_stable_systems_subscribed: true
+channel_00032: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 32
+  name: rhel-x86_64-workstation-sfs-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 358
+  has_stable_systems_subscribed: true
+channel_00033: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 33
+  name: rhel-i386-server-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 339
+  has_stable_systems_subscribed: true
+channel_00034: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:02 Z
+  id: 34
+  name: rhel-ppc64-server-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 339
+  has_stable_systems_subscribed: true
+channel_00035: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:02 Z
+  id: 35
+  name: rhel-s390x-server-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 339
+  has_stable_systems_subscribed: true
+channel_00036: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 36
+  name: rhel-x86_64-server-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 339
+  has_stable_systems_subscribed: true
+channel_00037: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 37
+  name: rhel-i386-server-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 340
+  has_stable_systems_subscribed: true
+channel_00038: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:02 Z
+  id: 38
+  name: rhel-ppc64-server-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 340
+  has_stable_systems_subscribed: true
+channel_00039: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:02 Z
+  id: 39
+  name: rhel-s390x-server-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 340
+  has_stable_systems_subscribed: true
+channel_00040: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 40
+  name: rhel-x86_64-server-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 340
+  has_stable_systems_subscribed: true
+channel_00041: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 41
+  name: rhel-i386-client-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 341
+  has_stable_systems_subscribed: true
+channel_00042: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 42
+  name: rhel-x86_64-client-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 341
+  has_stable_systems_subscribed: true
+channel_00043: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 43
+  name: rhel-i386-workstation-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 342
+  has_stable_systems_subscribed: true
+channel_00044: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 44
+  name: rhel-x86_64-workstation-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 342
+  has_stable_systems_subscribed: true
+channel_00045: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 45
+  name: rhel-x86_64-hpc-node-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 344
+  has_stable_systems_subscribed: true
+channel_00046: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 46
+  name: rhel-i386-client-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 345
+  has_stable_systems_subscribed: true
+channel_00047: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 47
+  name: rhel-x86_64-client-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 345
+  has_stable_systems_subscribed: true
+channel_00048: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 48
+  name: rhel-x86_64-hpc-node-optional-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 347
+  has_stable_systems_subscribed: true
+channel_00049: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 49
+  name: rhel-i386-workstation-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 348
+  has_stable_systems_subscribed: true
+channel_00050: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 50
+  name: rhel-x86_64-workstation-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 348
+  has_stable_systems_subscribed: true
+channel_00051: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 51
+  name: rhel-i386-server-ha-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 352
+  has_stable_systems_subscribed: true
+channel_00052: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 52
+  name: rhel-x86_64-server-ha-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 352
+  has_stable_systems_subscribed: true
+channel_00053: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 53
+  name: rhel-i386-server-optional-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 475
+  has_stable_systems_subscribed: true
+channel_00054: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:02 Z
+  id: 54
+  name: rhel-ppc64-server-optional-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 475
+  has_stable_systems_subscribed: true
+channel_00055: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:02 Z
+  id: 55
+  name: rhel-s390x-server-optional-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 475
+  has_stable_systems_subscribed: true
+channel_00056: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 56
+  name: rhel-x86_64-server-optional-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 475
+  has_stable_systems_subscribed: true
+channel_00057: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 57
+  name: rhel-i386-server-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 476
+  has_stable_systems_subscribed: true
+channel_00058: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:02 Z
+  id: 58
+  name: rhel-ppc64-server-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 476
+  has_stable_systems_subscribed: true
+channel_00059: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:02 Z
+  id: 59
+  name: rhel-s390x-server-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 476
+  has_stable_systems_subscribed: true
+channel_00060: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 60
+  name: rhel-x86_64-server-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 476
+  has_stable_systems_subscribed: true
+channel_00061: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 61
+  name: rhel-i386-server-ha-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 483
+  has_stable_systems_subscribed: true
+channel_00062: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 62
+  name: rhel-x86_64-server-ha-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 483
+  has_stable_systems_subscribed: true
+channel_00063: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 63
+  name: rhel-i386-server-rs-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 485
+  has_stable_systems_subscribed: true
+channel_00064: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 64
+  name: rhel-x86_64-server-rs-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 485
+  has_stable_systems_subscribed: true
+channel_00065: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 65
+  name: rhel-i386-server-lb-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 486
+  has_stable_systems_subscribed: true
+channel_00066: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 66
+  name: rhel-x86_64-server-lb-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 486
+  has_stable_systems_subscribed: true
+channel_00067: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 67
+  name: rhel-i386-server-optional-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 475
+  has_stable_systems_subscribed: true
+channel_00068: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 68
+  name: rhel-x86_64-server-optional-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 475
+  has_stable_systems_subscribed: true
+channel_00069: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 69
+  name: rhel-i386-server-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 476
+  has_stable_systems_subscribed: true
+channel_00070: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 70
+  name: rhel-x86_64-server-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 476
+  has_stable_systems_subscribed: true
+channel_00071: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 71
+  name: rhel-i386-server-ha-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 483
+  has_stable_systems_subscribed: true
+channel_00072: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 72
+  name: rhel-x86_64-server-ha-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 483
+  has_stable_systems_subscribed: true
+channel_00073: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 73
+  name: rhel-i386-server-rs-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 485
+  has_stable_systems_subscribed: true
+channel_00074: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 74
+  name: rhel-x86_64-server-rs-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 485
+  has_stable_systems_subscribed: true
+channel_00075: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 75
+  name: rhel-i386-server-lb-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 486
+  has_stable_systems_subscribed: true
+channel_00076: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 76
+  name: rhel-x86_64-server-lb-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 486
+  has_stable_systems_subscribed: true
+channel_00077: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 77
+  name: rhel-x86_64-server-sfs-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 484
+  has_stable_systems_subscribed: true
+channel_00078: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:02 Z
+  id: 78
+  name: rhel-x86_64-server-sfs-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 484
+  has_stable_systems_subscribed: true
+channel_00079: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:02 Z
+  id: 79
+  name: rhel-i386-server-optional-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 495
+  has_stable_systems_subscribed: true
+channel_00080: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:02 Z
+  id: 80
+  name: rhel-ppc64-server-optional-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 495
+  has_stable_systems_subscribed: true
+channel_00081: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:02 Z
+  id: 81
+  name: rhel-s390x-server-optional-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:02 Z
+  variant_id: 495
+  has_stable_systems_subscribed: true
+channel_00082: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 82
+  name: rhel-x86_64-server-optional-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 495
+  has_stable_systems_subscribed: true
+channel_00083: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 83
+  name: rhel-i386-server-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 497
+  has_stable_systems_subscribed: true
+channel_00084: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:03 Z
+  id: 84
+  name: rhel-ppc64-server-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 497
+  has_stable_systems_subscribed: true
+channel_00085: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:03 Z
+  id: 85
+  name: rhel-s390x-server-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 497
+  has_stable_systems_subscribed: true
+channel_00086: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 86
+  name: rhel-x86_64-server-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 497
+  has_stable_systems_subscribed: true
+channel_00087: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 87
+  name: rhel-i386-server-ha-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 496
+  has_stable_systems_subscribed: true
+channel_00088: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 88
+  name: rhel-x86_64-server-ha-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 496
+  has_stable_systems_subscribed: true
+channel_00089: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 89
+  name: rhel-i386-server-rs-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 499
+  has_stable_systems_subscribed: true
+channel_00090: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 90
+  name: rhel-x86_64-server-rs-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 499
+  has_stable_systems_subscribed: true
+channel_00091: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 91
+  name: rhel-i386-server-lb-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 500
+  has_stable_systems_subscribed: true
+channel_00092: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 92
+  name: rhel-x86_64-server-lb-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 500
+  has_stable_systems_subscribed: true
+channel_00093: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 93
+  name: rhel-x86_64-server-sfs-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 498
+  has_stable_systems_subscribed: true
+channel_00094: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 94
+  name: rhel-i386-server-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 426
+  has_stable_systems_subscribed: true
+channel_00095: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 95
+  name: rhel-i386-server-optional-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 425
+  has_stable_systems_subscribed: true
+channel_00096: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 96
+  name: rhel-i386-server-ha-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 427
+  has_stable_systems_subscribed: true
+channel_00097: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 97
+  name: rhel-i386-server-rs-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 429
+  has_stable_systems_subscribed: true
+channel_00098: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 98
+  name: rhel-i386-server-lb-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 430
+  has_stable_systems_subscribed: true
+channel_00099: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:03 Z
+  id: 99
+  name: rhel-ppc64-server-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 426
+  has_stable_systems_subscribed: true
+channel_00100: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:03 Z
+  id: 100
+  name: rhel-ppc64-server-optional-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 425
+  has_stable_systems_subscribed: true
+channel_00101: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:03 Z
+  id: 101
+  name: rhel-s390x-server-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 426
+  has_stable_systems_subscribed: true
+channel_00102: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:03 Z
+  id: 102
+  name: rhel-s390x-server-optional-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 425
+  has_stable_systems_subscribed: true
+channel_00103: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 103
+  name: rhel-x86_64-server-optional-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 425
+  has_stable_systems_subscribed: true
+channel_00104: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 104
+  name: rhel-x86_64-server-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 426
+  has_stable_systems_subscribed: true
+channel_00105: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 105
+  name: rhel-x86_64-server-ha-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 427
+  has_stable_systems_subscribed: true
+channel_00106: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 106
+  name: rhel-x86_64-server-lb-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 430
+  has_stable_systems_subscribed: true
+channel_00107: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 107
+  name: rhel-x86_64-server-rs-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 429
+  has_stable_systems_subscribed: true
+channel_00108: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 108
+  name: rhel-x86_64-server-sfs-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 428
+  has_stable_systems_subscribed: true
+channel_00109: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 109
+  name: rhel-i386-client-workstation-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 130
+  has_stable_systems_subscribed: true
+channel_00110: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 110
+  name: rhel-i386-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00111: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:03 Z
+  id: 111
+  name: rhel-ia64-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00112: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:03 Z
+  id: 112
+  name: rhel-ppc-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00113: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:03 Z
+  id: 113
+  name: rhel-s390x-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00114: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 114
+  name: rhel-x86_64-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00115: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 115
+  name: rhel-i386-server-cluster-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 126
+  has_stable_systems_subscribed: true
+channel_00116: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 116
+  name: rhel-i386-server-cluster-storage-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 127
+  has_stable_systems_subscribed: true
+channel_00117: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 117
+  name: rhel-i386-server-productivity-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 132
+  has_stable_systems_subscribed: true
+channel_00118: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 118
+  name: rhel-i386-server-vt-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 128
+  has_stable_systems_subscribed: true
+channel_00119: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:03 Z
+  id: 119
+  name: rhel-ia64-server-cluster-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 126
+  has_stable_systems_subscribed: true
+channel_00120: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:03 Z
+  id: 120
+  name: rhel-ia64-server-cluster-storage-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 127
+  has_stable_systems_subscribed: true
+channel_00121: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:03 Z
+  id: 121
+  name: rhel-ia64-server-vt-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 128
+  has_stable_systems_subscribed: true
+channel_00122: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 122
+  name: rhel-x86_64-server-cluster-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 126
+  has_stable_systems_subscribed: true
+channel_00123: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 123
+  name: rhel-x86_64-server-cluster-storage-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 127
+  has_stable_systems_subscribed: true
+channel_00124: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 124
+  name: rhel-x86_64-server-productivity-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 132
+  has_stable_systems_subscribed: true
+channel_00125: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 125
+  name: rhel-x86_64-server-vt-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 128
+  has_stable_systems_subscribed: true
+channel_00126: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 126
+  name: rhel-i386-client-vt-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 131
+  has_stable_systems_subscribed: true
+channel_00127: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 127
+  name: rhel-x86_64-client-vt-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 131
+  has_stable_systems_subscribed: true
+channel_00128: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 128
+  name: rhel-x86_64-client-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 129
+  has_stable_systems_subscribed: true
+channel_00129: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 129
+  name: rhel-i386-client-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 129
+  has_stable_systems_subscribed: true
+channel_00130: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 130
+  name: rhel-x86_64-client-workstation-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 130
+  has_stable_systems_subscribed: true
+channel_00131: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:03 Z
+  id: 131
+  name: rhel-ppc-server-cluster-storage-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 127
+  has_stable_systems_subscribed: true
+channel_00132: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:03 Z
+  id: 132
+  name: rhel-ppc-server-cluster-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 126
+  has_stable_systems_subscribed: true
+channel_00133: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 133
+  name: rhel-i386-client-multimedia-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 236
+  has_stable_systems_subscribed: true
+channel_00134: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 134
+  name: rhel-x86_64-client-multimedia-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 236
+  has_stable_systems_subscribed: true
+channel_00135: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 135
+  name: rhel-x86_64-client-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 129
+  has_stable_systems_subscribed: true
+channel_00136: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 136
+  name: rhel-i386-client-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 129
+  has_stable_systems_subscribed: true
+channel_00137: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 137
+  name: rhel-x86_64-client-workstation-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 130
+  has_stable_systems_subscribed: true
+channel_00138: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 138
+  name: rhel-i386-client-workstation-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 130
+  has_stable_systems_subscribed: true
+channel_00139: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 139
+  name: rhel-i386-server-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00140: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:03 Z
+  id: 140
+  name: rhel-ia64-server-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00141: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:03 Z
+  id: 141
+  name: rhel-ppc-server-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00142: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:03 Z
+  id: 142
+  name: rhel-s390x-server-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00143: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 143
+  name: rhel-x86_64-server-fastrack-5
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 125
+  has_stable_systems_subscribed: true
+channel_00144: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:03 Z
+  id: 144
+  name: rhel-i386-server-productivity-5-fast
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 132
+  has_stable_systems_subscribed: true
+channel_00145: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:03 Z
+  id: 145
+  name: rhel-x86_64-server-productivity-5-fast
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:03 Z
+  variant_id: 132
+  has_stable_systems_subscribed: true
+channel_00146: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 146
+  name: rhel-i386-server-cluster-storage-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 469
+  has_stable_systems_subscribed: true
+channel_00147: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 147
+  name: rhel-ia64-server-cluster-storage-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 469
+  has_stable_systems_subscribed: true
+channel_00148: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 148
+  name: rhel-x86_64-server-cluster-storage-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 469
+  has_stable_systems_subscribed: true
+channel_00149: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:04 Z
+  id: 149
+  name: rhel-ppc-server-cluster-storage-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 469
+  has_stable_systems_subscribed: true
+channel_00150: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 150
+  name: rhel-i386-server-productivity-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 471
+  has_stable_systems_subscribed: true
+channel_00151: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 151
+  name: rhel-x86_64-server-productivity-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 471
+  has_stable_systems_subscribed: true
+channel_00152: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 152
+  name: rhel-i386-server-vt-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 470
+  has_stable_systems_subscribed: true
+channel_00153: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 153
+  name: rhel-ia64-server-vt-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 470
+  has_stable_systems_subscribed: true
+channel_00154: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 154
+  name: rhel-x86_64-server-vt-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 470
+  has_stable_systems_subscribed: true
+channel_00155: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 155
+  name: rhel-i386-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 467
+  has_stable_systems_subscribed: true
+channel_00156: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 156
+  name: rhel-ia64-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 467
+  has_stable_systems_subscribed: true
+channel_00157: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:04 Z
+  id: 157
+  name: rhel-ppc-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 467
+  has_stable_systems_subscribed: true
+channel_00158: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:04 Z
+  id: 158
+  name: rhel-s390x-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 467
+  has_stable_systems_subscribed: true
+channel_00159: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 159
+  name: rhel-x86_64-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 467
+  has_stable_systems_subscribed: true
+channel_00160: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 160
+  name: rhel-i386-server-cluster-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 468
+  has_stable_systems_subscribed: true
+channel_00161: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 161
+  name: rhel-ia64-server-cluster-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 468
+  has_stable_systems_subscribed: true
+channel_00162: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 162
+  name: rhel-x86_64-server-cluster-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 468
+  has_stable_systems_subscribed: true
+channel_00163: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:04 Z
+  id: 163
+  name: rhel-ppc-server-cluster-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 468
+  has_stable_systems_subscribed: true
+channel_00164: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 164
+  name: rhel-i386-server-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 467
+  has_stable_systems_subscribed: true
+channel_00165: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 165
+  name: rhel-ia64-server-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 467
+  has_stable_systems_subscribed: true
+channel_00166: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 166
+  name: rhel-x86_64-server-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 467
+  has_stable_systems_subscribed: true
+channel_00167: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 167
+  name: rhel-i386-server-cluster-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 468
+  has_stable_systems_subscribed: true
+channel_00168: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 168
+  name: rhel-ia64-server-cluster-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 468
+  has_stable_systems_subscribed: true
+channel_00169: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 169
+  name: rhel-x86_64-server-cluster-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 468
+  has_stable_systems_subscribed: true
+channel_00170: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 170
+  name: rhel-i386-server-cluster-storage-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 469
+  has_stable_systems_subscribed: true
+channel_00171: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 171
+  name: rhel-ia64-server-cluster-storage-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 469
+  has_stable_systems_subscribed: true
+channel_00172: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 172
+  name: rhel-x86_64-server-cluster-storage-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 469
+  has_stable_systems_subscribed: true
+channel_00173: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 173
+  name: rhel-i386-server-vt-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 470
+  has_stable_systems_subscribed: true
+channel_00174: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 174
+  name: rhel-ia64-server-vt-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 470
+  has_stable_systems_subscribed: true
+channel_00175: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 175
+  name: rhel-x86_64-server-vt-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 470
+  has_stable_systems_subscribed: true
+channel_00176: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 176
+  name: rhel-i386-server-productivity-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 471
+  has_stable_systems_subscribed: true
+channel_00177: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 177
+  name: rhel-x86_64-server-productivity-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 471
+  has_stable_systems_subscribed: true
+channel_00178: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 178
+  name: rhel-i386-server-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 388
+  has_stable_systems_subscribed: true
+channel_00179: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 179
+  name: rhel-ia64-server-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 388
+  has_stable_systems_subscribed: true
+channel_00180: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 180
+  name: rhel-x86_64-server-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 388
+  has_stable_systems_subscribed: true
+channel_00181: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 181
+  name: rhel-i386-server-cluster-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 389
+  has_stable_systems_subscribed: true
+channel_00182: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 182
+  name: rhel-ia64-server-cluster-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 389
+  has_stable_systems_subscribed: true
+channel_00183: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 183
+  name: rhel-x86_64-server-cluster-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 389
+  has_stable_systems_subscribed: true
+channel_00184: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 184
+  name: rhel-i386-server-cluster-storage-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 390
+  has_stable_systems_subscribed: true
+channel_00185: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 185
+  name: rhel-ia64-server-cluster-storage-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 390
+  has_stable_systems_subscribed: true
+channel_00186: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 186
+  name: rhel-x86_64-server-cluster-storage-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 390
+  has_stable_systems_subscribed: true
+channel_00187: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 187
+  name: rhel-i386-server-vt-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 391
+  has_stable_systems_subscribed: true
+channel_00188: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 188
+  name: rhel-ia64-server-vt-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 391
+  has_stable_systems_subscribed: true
+channel_00189: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 189
+  name: rhel-x86_64-server-vt-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 391
+  has_stable_systems_subscribed: true
+channel_00190: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 190
+  name: rhel-i386-server-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 257
+  has_stable_systems_subscribed: true
+channel_00191: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 191
+  name: rhel-x86_64-server-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 257
+  has_stable_systems_subscribed: true
+channel_00192: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 192
+  name: rhel-ia64-server-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 257
+  has_stable_systems_subscribed: true
+channel_00193: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:04 Z
+  id: 193
+  name: rhel-ppc-server-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 257
+  has_stable_systems_subscribed: true
+channel_00194: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:04 Z
+  id: 194
+  name: rhel-s390x-server-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 257
+  has_stable_systems_subscribed: true
+channel_00195: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:04 Z
+  id: 195
+  name: rhel-ppc-server-cluster-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 267
+  has_stable_systems_subscribed: true
+channel_00196: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 196
+  name: rhel-i386-server-cluster-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 267
+  has_stable_systems_subscribed: true
+channel_00197: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 197
+  name: rhel-ia64-server-cluster-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 267
+  has_stable_systems_subscribed: true
+channel_00198: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 198
+  name: rhel-x86_64-server-cluster-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 267
+  has_stable_systems_subscribed: true
+channel_00199: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 199
+  name: rhel-i386-server-cluster-storage-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 268
+  has_stable_systems_subscribed: true
+channel_00200: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:04 Z
+  id: 200
+  name: rhel-ppc-server-cluster-storage-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 268
+  has_stable_systems_subscribed: true
+channel_00201: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:04 Z
+  id: 201
+  name: rhel-ia64-server-cluster-storage-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 268
+  has_stable_systems_subscribed: true
+channel_00202: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:04 Z
+  id: 202
+  name: rhel-x86_64-server-cluster-storage-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 268
+  has_stable_systems_subscribed: true
+channel_00203: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:04 Z
+  id: 203
+  name: rhel-i386-server-vt-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:04 Z
+  variant_id: 316
+  has_stable_systems_subscribed: true
+channel_00204: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 204
+  name: rhel-ia64-server-vt-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 316
+  has_stable_systems_subscribed: true
+channel_00205: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 205
+  name: rhel-x86_64-server-vt-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 316
+  has_stable_systems_subscribed: true
+channel_00206: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:05 Z
+  id: 206
+  name: rhel-i386-server-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 310
+  has_stable_systems_subscribed: true
+channel_00207: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 207
+  name: rhel-ia64-server-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 310
+  has_stable_systems_subscribed: true
+channel_00208: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:05 Z
+  id: 208
+  name: rhel-ppc-server-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 310
+  has_stable_systems_subscribed: true
+channel_00209: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:05 Z
+  id: 209
+  name: rhel-s390x-server-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 310
+  has_stable_systems_subscribed: true
+channel_00210: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 210
+  name: rhel-x86_64-server-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 310
+  has_stable_systems_subscribed: true
+channel_00211: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:05 Z
+  id: 211
+  name: rhel-i386-server-cluster-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 311
+  has_stable_systems_subscribed: true
+channel_00212: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:05 Z
+  id: 212
+  name: rhel-i386-server-cluster-storage-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 312
+  has_stable_systems_subscribed: true
+channel_00213: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 213
+  name: rhel-ia64-server-cluster-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 311
+  has_stable_systems_subscribed: true
+channel_00214: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 214
+  name: rhel-ia64-server-cluster-storage-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 312
+  has_stable_systems_subscribed: true
+channel_00215: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 215
+  name: rhel-x86_64-server-cluster-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 311
+  has_stable_systems_subscribed: true
+channel_00216: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 216
+  name: rhel-x86_64-server-cluster-storage-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 312
+  has_stable_systems_subscribed: true
+channel_00217: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:05 Z
+  id: 217
+  name: rhel-ppc-server-cluster-storage-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 312
+  has_stable_systems_subscribed: true
+channel_00218: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:05 Z
+  id: 218
+  name: rhel-ppc-server-cluster-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 311
+  has_stable_systems_subscribed: true
+channel_00219: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:05 Z
+  id: 219
+  name: rhel-i386-server-vt-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 317
+  has_stable_systems_subscribed: true
+channel_00220: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 220
+  name: rhel-ia64-server-vt-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 317
+  has_stable_systems_subscribed: true
+channel_00221: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 221
+  name: rhel-x86_64-server-vt-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 317
+  has_stable_systems_subscribed: true
+channel_00222: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:05 Z
+  id: 222
+  name: rhel-i386-server-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 313
+  has_stable_systems_subscribed: true
+channel_00223: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 223
+  name: rhel-ia64-server-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 313
+  has_stable_systems_subscribed: true
+channel_00224: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:05 Z
+  id: 224
+  name: rhel-ppc-server-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 313
+  has_stable_systems_subscribed: true
+channel_00225: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:05 Z
+  id: 225
+  name: rhel-s390x-server-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 313
+  has_stable_systems_subscribed: true
+channel_00226: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 226
+  name: rhel-x86_64-server-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 313
+  has_stable_systems_subscribed: true
+channel_00227: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:05 Z
+  id: 227
+  name: rhel-i386-server-cluster-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 314
+  has_stable_systems_subscribed: true
+channel_00228: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:05 Z
+  id: 228
+  name: rhel-i386-server-cluster-storage-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 315
+  has_stable_systems_subscribed: true
+channel_00229: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 229
+  name: rhel-ia64-server-cluster-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 314
+  has_stable_systems_subscribed: true
+channel_00230: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 230
+  name: rhel-ia64-server-cluster-storage-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 315
+  has_stable_systems_subscribed: true
+channel_00231: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 231
+  name: rhel-x86_64-server-cluster-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 314
+  has_stable_systems_subscribed: true
+channel_00232: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 232
+  name: rhel-x86_64-server-cluster-storage-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 315
+  has_stable_systems_subscribed: true
+channel_00233: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:05 Z
+  id: 233
+  name: rhel-ppc-server-cluster-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 314
+  has_stable_systems_subscribed: true
+channel_00234: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:05 Z
+  id: 234
+  name: rhel-ppc-server-cluster-storage-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 315
+  has_stable_systems_subscribed: true
+channel_00235: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:05 Z
+  id: 235
+  name: rhel-i386-server-vt-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 328
+  has_stable_systems_subscribed: true
+channel_00236: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:05 Z
+  id: 236
+  name: rhel-ia64-server-vt-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 328
+  has_stable_systems_subscribed: true
+channel_00237: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:05 Z
+  id: 237
+  name: rhel-x86_64-server-vt-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:05 Z
+  variant_id: 328
+  has_stable_systems_subscribed: true
+channel_00238: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 238
+  name: rhel-i386-es-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 92
+  has_stable_systems_subscribed: true
+channel_00239: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 239
+  name: rhel-ia64-as-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00240: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 240
+  name: rhel-ia64-es-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 92
+  has_stable_systems_subscribed: true
+channel_00241: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:06 Z
+  id: 241
+  name: rhel-ppc-as-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00242: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:06 Z
+  id: 242
+  name: rhel-s390-as-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00243: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:06 Z
+  id: 243
+  name: rhel-s390x-as-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00244: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 244
+  name: rhel-x86_64-as-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00245: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 245
+  name: rhel-x86_64-es-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 92
+  has_stable_systems_subscribed: true
+channel_00246: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 246
+  name: rh-x86_64-desktop-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 94
+  has_stable_systems_subscribed: true
+channel_00247: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 247
+  name: rh-i386-desktop-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 94
+  has_stable_systems_subscribed: true
+channel_00248: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 248
+  name: rhel-x86_64-ws-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 93
+  has_stable_systems_subscribed: true
+channel_00249: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 249
+  name: rhel-i386-ws-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 93
+  has_stable_systems_subscribed: true
+channel_00250: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 250
+  name: rhel-ia64-ws-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 93
+  has_stable_systems_subscribed: true
+channel_00251: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 251
+  name: rhel-i386-as-4
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00252: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 252
+  name: rh-i386-desktop-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 94
+  has_stable_systems_subscribed: true
+channel_00253: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 253
+  name: rhel-x86_64-ws-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 93
+  has_stable_systems_subscribed: true
+channel_00254: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 254
+  name: rhel-i386-ws-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 93
+  has_stable_systems_subscribed: true
+channel_00255: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 255
+  name: rhel-ia64-ws-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 93
+  has_stable_systems_subscribed: true
+channel_00256: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 256
+  name: rhel-i386-as-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00257: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 257
+  name: rhel-i386-es-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 92
+  has_stable_systems_subscribed: true
+channel_00258: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 258
+  name: rhel-ia64-as-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00259: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 259
+  name: rhel-ia64-es-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 92
+  has_stable_systems_subscribed: true
+channel_00260: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:06 Z
+  id: 260
+  name: rhel-ppc-as-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00261: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:06 Z
+  id: 261
+  name: rhel-s390-as-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00262: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:06 Z
+  id: 262
+  name: rhel-s390x-as-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00263: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 263
+  name: rhel-x86_64-as-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 91
+  has_stable_systems_subscribed: true
+channel_00264: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 264
+  name: rhel-x86_64-es-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 92
+  has_stable_systems_subscribed: true
+channel_00265: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 265
+  name: rh-x86_64-desktop-4-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 94
+  has_stable_systems_subscribed: true
+channel_00266: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 266
+  name: rhel-i386-as-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 163
+  has_stable_systems_subscribed: true
+channel_00267: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 267
+  name: rhel-ia64-as-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 163
+  has_stable_systems_subscribed: true
+channel_00268: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:06 Z
+  id: 268
+  name: rhel-s390-as-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 163
+  has_stable_systems_subscribed: true
+channel_00269: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:06 Z
+  id: 269
+  name: rhel-s390x-as-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 163
+  has_stable_systems_subscribed: true
+channel_00270: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 270
+  name: rhel-x86_64-as-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 163
+  has_stable_systems_subscribed: true
+channel_00271: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:06 Z
+  id: 271
+  name: rhel-ppc-as-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 163
+  has_stable_systems_subscribed: true
+channel_00272: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 272
+  name: rhel-i386-es-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 164
+  has_stable_systems_subscribed: true
+channel_00273: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 273
+  name: rhel-ia64-es-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 164
+  has_stable_systems_subscribed: true
+channel_00274: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 274
+  name: rhel-x86_64-es-4.5.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 164
+  has_stable_systems_subscribed: true
+channel_00275: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 275
+  name: rhel-i386-as-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 270
+  has_stable_systems_subscribed: true
+channel_00276: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 276
+  name: rhel-ia64-as-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 270
+  has_stable_systems_subscribed: true
+channel_00277: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:06 Z
+  id: 277
+  name: rhel-ppc-as-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 270
+  has_stable_systems_subscribed: true
+channel_00278: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:06 Z
+  id: 278
+  name: rhel-s390-as-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 270
+  has_stable_systems_subscribed: true
+channel_00279: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:06 Z
+  id: 279
+  name: rhel-s390x-as-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 270
+  has_stable_systems_subscribed: true
+channel_00280: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 280
+  name: rhel-x86_64-as-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 270
+  has_stable_systems_subscribed: true
+channel_00281: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:06 Z
+  id: 281
+  name: rhel-i386-es-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 271
+  has_stable_systems_subscribed: true
+channel_00282: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:06 Z
+  id: 282
+  name: rhel-ia64-es-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 271
+  has_stable_systems_subscribed: true
+channel_00283: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:06 Z
+  id: 283
+  name: rhel-x86_64-es-4.7.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:06 Z
+  variant_id: 271
+  has_stable_systems_subscribed: true
+channel_00284: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 284
+  name: redhat-advanced-server-i386
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 43
+  has_stable_systems_subscribed: true
+channel_00285: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 285
+  name: redhat-linux-aw-2.1-IPF
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 44
+  has_stable_systems_subscribed: true
+channel_00286: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 286
+  name: redhat-ent-linux-i386-es-2.1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 46
+  has_stable_systems_subscribed: true
+channel_00287: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 287
+  name: redhat-ent-linux-i386-ws-2.1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 55
+  has_stable_systems_subscribed: true
+channel_00288: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 288
+  name: redhat-linux-as-2.1-IPF
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 43
+  has_stable_systems_subscribed: true
+channel_00289: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 289
+  name: rhel-x86_64-desktop-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 81
+  has_stable_systems_subscribed: true
+channel_00290: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 290
+  name: rhel-i386-desktop-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 81
+  has_stable_systems_subscribed: true
+channel_00291: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:07 Z
+  id: 291
+  name: rhel-s390-as-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00292: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 292
+  name: rhel-x86_64-as-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00293: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:07 Z
+  id: 293
+  name: rhel-s390x-as-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00294: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 294
+  name: rhel-i386-as-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00295: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 295
+  name: rhel-ia64-as-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00296: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:07 Z
+  id: 296
+  name: rhel-ppc-as-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00297: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 297
+  name: rhel-x86_64-es-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 67
+  has_stable_systems_subscribed: true
+channel_00298: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 298
+  name: rhel-i386-es-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 67
+  has_stable_systems_subscribed: true
+channel_00299: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 299
+  name: rhel-ia64-es-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 67
+  has_stable_systems_subscribed: true
+channel_00300: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 300
+  name: rhel-x86_64-ws-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 65
+  has_stable_systems_subscribed: true
+channel_00301: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 301
+  name: rhel-i386-ws-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 65
+  has_stable_systems_subscribed: true
+channel_00302: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 302
+  name: rhel-ia64-ws-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 65
+  has_stable_systems_subscribed: true
+channel_00303: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 303
+  name: rhel-x86_64-desktop-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 81
+  has_stable_systems_subscribed: true
+channel_00304: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 304
+  name: rhel-i386-desktop-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 81
+  has_stable_systems_subscribed: true
+channel_00305: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:07 Z
+  id: 305
+  name: rhel-s390-as-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00306: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 306
+  name: rhel-x86_64-as-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00307: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:07 Z
+  id: 307
+  name: rhel-s390x-as-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00308: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 308
+  name: rhel-i386-as-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00309: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 309
+  name: rhel-ia64-as-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00310: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:07 Z
+  id: 310
+  name: rhel-ppc-as-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 66
+  has_stable_systems_subscribed: true
+channel_00311: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 311
+  name: rhel-x86_64-es-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 67
+  has_stable_systems_subscribed: true
+channel_00312: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 312
+  name: rhel-i386-es-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 67
+  has_stable_systems_subscribed: true
+channel_00313: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 313
+  name: rhel-ia64-es-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 67
+  has_stable_systems_subscribed: true
+channel_00314: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 314
+  name: rhel-x86_64-ws-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 65
+  has_stable_systems_subscribed: true
+channel_00315: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 315
+  name: rhel-i386-ws-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 65
+  has_stable_systems_subscribed: true
+channel_00316: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 316
+  name: rhel-ia64-ws-3-fastrack
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 65
+  has_stable_systems_subscribed: true
+channel_00317: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 317
+  name: rhel-i386-as-3-els
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 386
+  has_stable_systems_subscribed: true
+channel_00318: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 318
+  name: rhel-i386-es-3-els
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 387
+  has_stable_systems_subscribed: true
+channel_00319: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 319
+  name: rhel-i386-server-supplementary-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 462
+  has_stable_systems_subscribed: true
+channel_00320: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:07 Z
+  id: 320
+  name: rhel-ppc64-server-supplementary-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 462
+  has_stable_systems_subscribed: true
+channel_00321: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:07 Z
+  id: 321
+  name: rhel-s390x-server-supplementary-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 462
+  has_stable_systems_subscribed: true
+channel_00322: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 322
+  name: rhel-x86_64-server-supplementary-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 462
+  has_stable_systems_subscribed: true
+channel_00323: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 323
+  name: rhel-i386-workstation-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 350
+  has_stable_systems_subscribed: true
+channel_00324: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 324
+  name: rhel-x86_64-workstation-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 350
+  has_stable_systems_subscribed: true
+channel_00325: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 325
+  name: rhel-i386-client-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 351
+  has_stable_systems_subscribed: true
+channel_00326: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 326
+  name: rhel-x86_64-client-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 351
+  has_stable_systems_subscribed: true
+channel_00327: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 327
+  name: rhel-i386-server-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 353
+  has_stable_systems_subscribed: true
+channel_00328: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:07 Z
+  id: 328
+  name: rhel-ppc64-server-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 353
+  has_stable_systems_subscribed: true
+channel_00329: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:07 Z
+  id: 329
+  name: rhel-s390x-server-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 353
+  has_stable_systems_subscribed: true
+channel_00330: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 330
+  name: rhel-x86_64-server-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 353
+  has_stable_systems_subscribed: true
+channel_00331: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 331
+  name: rhel-x86_64-hpc-node-supplementary-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 356
+  has_stable_systems_subscribed: true
+channel_00332: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 332
+  name: rhel-i386-server-supplementary-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 488
+  has_stable_systems_subscribed: true
+channel_00333: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:07 Z
+  id: 333
+  name: rhel-ppc64-server-supplementary-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 488
+  has_stable_systems_subscribed: true
+channel_00334: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:07 Z
+  id: 334
+  name: rhel-s390x-server-supplementary-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 488
+  has_stable_systems_subscribed: true
+channel_00335: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 335
+  name: rhel-x86_64-server-supplementary-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 488
+  has_stable_systems_subscribed: true
+channel_00336: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 336
+  name: rhel-i386-server-supplementary-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 322
+  has_stable_systems_subscribed: true
+channel_00337: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:07 Z
+  id: 337
+  name: rhel-ia64-server-supplementary-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 322
+  has_stable_systems_subscribed: true
+channel_00338: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:07 Z
+  id: 338
+  name: rhel-ppc-server-supplementary-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 322
+  has_stable_systems_subscribed: true
+channel_00339: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:07 Z
+  id: 339
+  name: rhel-s390x-server-supplementary-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 322
+  has_stable_systems_subscribed: true
+channel_00340: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:07 Z
+  id: 340
+  name: rhel-x86_64-server-supplementary-5.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 322
+  has_stable_systems_subscribed: true
+channel_00341: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:07 Z
+  id: 341
+  name: rhel-i386-server-supplementary-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:07 Z
+  variant_id: 323
+  has_stable_systems_subscribed: true
+channel_00342: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 342
+  name: rhel-ia64-server-supplementary-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 323
+  has_stable_systems_subscribed: true
+channel_00343: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:08 Z
+  id: 343
+  name: rhel-ppc-server-supplementary-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 323
+  has_stable_systems_subscribed: true
+channel_00344: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:08 Z
+  id: 344
+  name: rhel-s390x-server-supplementary-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 323
+  has_stable_systems_subscribed: true
+channel_00345: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 345
+  name: rhel-x86_64-server-supplementary-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 323
+  has_stable_systems_subscribed: true
+channel_00346: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 346
+  name: rhel-i386-server-supplementary-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 327
+  has_stable_systems_subscribed: true
+channel_00347: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 347
+  name: rhel-ia64-server-supplementary-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 327
+  has_stable_systems_subscribed: true
+channel_00348: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:08 Z
+  id: 348
+  name: rhel-ppc-server-supplementary-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 327
+  has_stable_systems_subscribed: true
+channel_00349: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:08 Z
+  id: 349
+  name: rhel-s390x-server-supplementary-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 327
+  has_stable_systems_subscribed: true
+channel_00350: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 350
+  name: rhel-x86_64-server-supplementary-5.4.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 327
+  has_stable_systems_subscribed: true
+channel_00351: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 351
+  name: rhel-i386-server-supplementary-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 392
+  has_stable_systems_subscribed: true
+channel_00352: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 352
+  name: rhel-ia64-server-supplementary-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 392
+  has_stable_systems_subscribed: true
+channel_00353: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 353
+  name: rhel-x86_64-server-supplementary-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 392
+  has_stable_systems_subscribed: true
+channel_00354: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 354
+  name: rhel-i386-server-supplementary-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 406
+  has_stable_systems_subscribed: true
+channel_00355: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 355
+  name: rhel-ia64-server-supplementary-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 406
+  has_stable_systems_subscribed: true
+channel_00356: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:08 Z
+  id: 356
+  name: rhel-ppc-server-supplementary-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 406
+  has_stable_systems_subscribed: true
+channel_00357: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:08 Z
+  id: 357
+  name: rhel-s390x-server-supplementary-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 406
+  has_stable_systems_subscribed: true
+channel_00358: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 358
+  name: rhel-x86_64-server-supplementary-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 406
+  has_stable_systems_subscribed: true
+channel_00359: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 359
+  name: rhel-i386-server-supplementary-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 406
+  has_stable_systems_subscribed: true
+channel_00360: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 360
+  name: rhel-ia64-server-supplementary-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 406
+  has_stable_systems_subscribed: true
+channel_00361: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 361
+  name: rhel-x86_64-server-supplementary-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 406
+  has_stable_systems_subscribed: true
+channel_00362: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 362
+  name: rhel-i386-server-supplementary-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 133
+  has_stable_systems_subscribed: true
+channel_00363: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 363
+  name: rhel-x86_64-server-supplementary-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 133
+  has_stable_systems_subscribed: true
+channel_00364: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 364
+  name: rhel-ia64-server-supplementary-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 133
+  has_stable_systems_subscribed: true
+channel_00365: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:08 Z
+  id: 365
+  name: rhel-ppc-server-supplementary-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 133
+  has_stable_systems_subscribed: true
+channel_00366: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 366
+  name: rhel-i386-client-supplementary-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 134
+  has_stable_systems_subscribed: true
+channel_00367: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 367
+  name: rhel-x86_64-client-supplementary-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 134
+  has_stable_systems_subscribed: true
+channel_00368: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:08 Z
+  id: 368
+  name: rhel-s390x-server-supplementary-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 133
+  has_stable_systems_subscribed: true
+channel_00369: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:08 Z
+  id: 369
+  name: rhel-ppc-as-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 78
+  has_stable_systems_subscribed: true
+channel_00370: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 370
+  name: rhel-x86_64-desktop-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 83
+  has_stable_systems_subscribed: true
+channel_00371: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 371
+  name: rhel-i386-desktop-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 83
+  has_stable_systems_subscribed: true
+channel_00372: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:08 Z
+  id: 372
+  name: rhel-s390x-as-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 78
+  has_stable_systems_subscribed: true
+channel_00373: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 373
+  name: rhel-i386-as-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 78
+  has_stable_systems_subscribed: true
+channel_00374: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 374
+  name: rhel-ia64-as-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 78
+  has_stable_systems_subscribed: true
+channel_00375: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 375
+  name: rhel-x86_64-es-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 79
+  has_stable_systems_subscribed: true
+channel_00376: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 376
+  name: rhel-i386-es-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 79
+  has_stable_systems_subscribed: true
+channel_00377: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 377
+  name: rhel-ia64-es-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 79
+  has_stable_systems_subscribed: true
+channel_00378: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 378
+  name: rhel-x86_64-ws-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 80
+  has_stable_systems_subscribed: true
+channel_00379: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 379
+  name: rhel-i386-ws-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 80
+  has_stable_systems_subscribed: true
+channel_00380: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 380
+  name: rhel-ia64-ws-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 80
+  has_stable_systems_subscribed: true
+channel_00381: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:08 Z
+  id: 381
+  name: rhel-s390-as-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 78
+  has_stable_systems_subscribed: true
+channel_00382: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 382
+  name: rhel-x86_64-as-3-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 78
+  has_stable_systems_subscribed: true
+channel_00383: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 383
+  name: rhel-i386-es-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 105
+  has_stable_systems_subscribed: true
+channel_00384: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:08 Z
+  id: 384
+  name: rhel-s390-as-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 104
+  has_stable_systems_subscribed: true
+channel_00385: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:08 Z
+  id: 385
+  name: rhel-x86_64-as-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 104
+  has_stable_systems_subscribed: true
+channel_00386: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:08 Z
+  id: 386
+  name: rhel-s390x-as-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 104
+  has_stable_systems_subscribed: true
+channel_00387: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:08 Z
+  id: 387
+  name: rhel-i386-as-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 104
+  has_stable_systems_subscribed: true
+channel_00388: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:08 Z
+  id: 388
+  name: rhel-ia64-as-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 104
+  has_stable_systems_subscribed: true
+channel_00389: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:08 Z
+  id: 389
+  name: rhel-ppc-as-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:08 Z
+  variant_id: 104
+  has_stable_systems_subscribed: true
+channel_00390: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 390
+  name: rh-x86_64-desktop-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 106
+  has_stable_systems_subscribed: true
+channel_00391: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 391
+  name: rh-i386-desktop-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 106
+  has_stable_systems_subscribed: true
+channel_00392: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 392
+  name: rhel-x86_64-es-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 105
+  has_stable_systems_subscribed: true
+channel_00393: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:09 Z
+  id: 393
+  name: rhel-ia64-es-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 105
+  has_stable_systems_subscribed: true
+channel_00394: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 394
+  name: rhel-x86_64-ws-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 103
+  has_stable_systems_subscribed: true
+channel_00395: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 395
+  name: rhel-i386-ws-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 103
+  has_stable_systems_subscribed: true
+channel_00396: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:09 Z
+  id: 396
+  name: rhel-ia64-ws-4-extras
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 103
+  has_stable_systems_subscribed: true
+channel_00397: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 397
+  name: rhx-enterprisedb-adv-svr-8.1-rhel-i386-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 154
+  has_stable_systems_subscribed: true
+channel_00398: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 398
+  name: rhx-groundwork-monitor-for-rhx-5.0-rhel-i386-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 139
+  has_stable_systems_subscribed: true
+channel_00399: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 399
+  name: rhx-centriccrm-4.1-rhel-i386-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 138
+  has_stable_systems_subscribed: true
+channel_00400: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:09 Z
+  id: 400
+  name: rhel-ppc-server-hts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 141
+  has_stable_systems_subscribed: true
+channel_00401: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 401
+  name: rhel-x86_64-server-hts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 141
+  has_stable_systems_subscribed: true
+channel_00402: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 402
+  name: rhel-i386-server-hts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 141
+  has_stable_systems_subscribed: true
+channel_00403: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:09 Z
+  id: 403
+  name: rhel-ia64-server-hts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 141
+  has_stable_systems_subscribed: true
+channel_00404: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:09 Z
+  id: 404
+  name: rhel-s390x-server-hts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 141
+  has_stable_systems_subscribed: true
+channel_00405: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 405
+  name: jbappplatform-4-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 157
+  has_stable_systems_subscribed: true
+channel_00406: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 406
+  name: jbappplatform-4-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 157
+  has_stable_systems_subscribed: true
+channel_00407: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 407
+  name: rhel-i386-server-5-appstk-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 158
+  has_stable_systems_subscribed: true
+channel_00408: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 408
+  name: rhel-x86_64-server-5-appstk-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 158
+  has_stable_systems_subscribed: true
+channel_00409: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 409
+  name: rhel-i386-server-5-rhdirserv-8
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 191
+  has_stable_systems_subscribed: true
+channel_00410: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 410
+  name: rhel-x86_64-server-5-rhdirserv-8
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 191
+  has_stable_systems_subscribed: true
+channel_00411: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 411
+  name: jbappplatform-4.3.0-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 206
+  has_stable_systems_subscribed: true
+channel_00412: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 412
+  name: jbappplatform-4.3.0-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 206
+  has_stable_systems_subscribed: true
+channel_00413: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 413
+  name: rhel-i386-server-5-rheipa-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 208
+  has_stable_systems_subscribed: true
+channel_00414: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 414
+  name: rhel-x86_64-server-5-rheipa-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 208
+  has_stable_systems_subscribed: true
+channel_00415: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 415
+  name: rhel-i386-server-5-mrg-management-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 228
+  has_stable_systems_subscribed: true
+channel_00416: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 416
+  name: rhel-x86_64-server-5-mrg-management-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 228
+  has_stable_systems_subscribed: true
+channel_00417: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 417
+  name: rhel-i386-server-5-mrg-grid-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 229
+  has_stable_systems_subscribed: true
+channel_00418: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 418
+  name: rhel-x86_64-server-5-mrg-grid-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 229
+  has_stable_systems_subscribed: true
+channel_00419: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 419
+  name: rhel-i386-server-5-mrg-realtime-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 230
+  has_stable_systems_subscribed: true
+channel_00420: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 420
+  name: rhel-x86_64-server-5-mrg-realtime-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 230
+  has_stable_systems_subscribed: true
+channel_00421: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 421
+  name: rhel-i386-server-5-mrg-messaging-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 225
+  has_stable_systems_subscribed: true
+channel_00422: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 422
+  name: rhel-x86_64-server-5-mrg-messaging-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 225
+  has_stable_systems_subscribed: true
+channel_00423: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 423
+  name: rhel-i386-server-5-mrg-messaging-base-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 227
+  has_stable_systems_subscribed: true
+channel_00424: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 424
+  name: rhel-x86_64-server-5-mrg-messaging-base-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 227
+  has_stable_systems_subscribed: true
+channel_00425: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 425
+  name: rhel-i386-server-5-mrg-grid-execute-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 254
+  has_stable_systems_subscribed: true
+channel_00426: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 426
+  name: rhel-x86_64-server-5-mrg-grid-execute-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 254
+  has_stable_systems_subscribed: true
+channel_00427: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 427
+  name: rhel-x86_64-server-hpc-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 216
+  has_stable_systems_subscribed: true
+channel_00428: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 428
+  name: jbappplatform-4.3.0-fp-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 240
+  has_stable_systems_subscribed: true
+channel_00429: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 429
+  name: jbappplatform-4.3.0-fp-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 240
+  has_stable_systems_subscribed: true
+channel_00430: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 430
+  name: redhat-rhn-satellite-5.2-server-i386-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 242
+  has_stable_systems_subscribed: true
+channel_00431: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:09 Z
+  id: 431
+  name: redhat-rhn-satellite-5.2-server-s390x-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 242
+  has_stable_systems_subscribed: true
+channel_00432: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 432
+  name: redhat-rhn-satellite-5.2-server-x86_64-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 242
+  has_stable_systems_subscribed: true
+channel_00433: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 433
+  name: redhat-rhn-proxy-5.2-server-i386-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 244
+  has_stable_systems_subscribed: true
+channel_00434: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:09 Z
+  id: 434
+  name: redhat-rhn-proxy-5.2-server-s390x-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 244
+  has_stable_systems_subscribed: true
+channel_00435: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 435
+  name: redhat-rhn-proxy-5.2-server-x86_64-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 244
+  has_stable_systems_subscribed: true
+channel_00436: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 436
+  name: jb-ews-1-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 248
+  has_stable_systems_subscribed: true
+channel_00437: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 437
+  name: jb-ews-1-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 248
+  has_stable_systems_subscribed: true
+channel_00438: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 438
+  name: jb-wfk-1-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 253
+  has_stable_systems_subscribed: true
+channel_00439: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 439
+  name: jb-wfk-1-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 253
+  has_stable_systems_subscribed: true
+channel_00440: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 440
+  name: rhel-x86_64-server-sap-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 266
+  has_stable_systems_subscribed: true
+channel_00441: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 441
+  name: rhel-x86_64-server-xfs-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 269
+  has_stable_systems_subscribed: true
+channel_00442: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 442
+  name: rhel-x86_64-client-xfs-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 282
+  has_stable_systems_subscribed: true
+channel_00443: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 443
+  name: rhel-i386-server-5-sts
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 278
+  has_stable_systems_subscribed: true
+channel_00444: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 444
+  name: rhel-x86_64-server-5-sts
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 278
+  has_stable_systems_subscribed: true
+channel_00445: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 445
+  name: redhat-rhn-satellite-5.3-server-x86_64-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 289
+  has_stable_systems_subscribed: true
+channel_00446: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 446
+  name: redhat-rhn-satellite-5.3-server-i386-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 289
+  has_stable_systems_subscribed: true
+channel_00447: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:09 Z
+  id: 447
+  name: redhat-rhn-satellite-5.3-server-s390x-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 289
+  has_stable_systems_subscribed: true
+channel_00448: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 448
+  name: redhat-rhn-proxy-5.3-server-x86_64-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 292
+  has_stable_systems_subscribed: true
+channel_00449: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 449
+  name: redhat-rhn-proxy-5.3-server-i386-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 292
+  has_stable_systems_subscribed: true
+channel_00450: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:09 Z
+  id: 450
+  name: redhat-rhn-proxy-5.3-server-s390x-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 292
+  has_stable_systems_subscribed: true
+channel_00451: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:09 Z
+  id: 451
+  name: rhel-i386-server-5-rhcmsys-8
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 280
+  has_stable_systems_subscribed: true
+channel_00452: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:09 Z
+  id: 452
+  name: rhel-x86_64-server-5-rhcmsys-8
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:09 Z
+  variant_id: 280
+  has_stable_systems_subscribed: true
+channel_00453: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 453
+  name: jbappplatform-5-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 326
+  has_stable_systems_subscribed: true
+channel_00454: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 454
+  name: jbappplatform-5-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 326
+  has_stable_systems_subscribed: true
+channel_00455: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 455
+  name: jb-ewp-5-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 336
+  has_stable_systems_subscribed: true
+channel_00456: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 456
+  name: jb-ewp-5-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 336
+  has_stable_systems_subscribed: true
+channel_00457: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 457
+  name: redhat-rhn-proxy-5.4-server-x86_64-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 337
+  has_stable_systems_subscribed: true
+channel_00458: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 458
+  name: redhat-rhn-proxy-5.4-server-i386-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 337
+  has_stable_systems_subscribed: true
+channel_00459: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:10 Z
+  id: 459
+  name: redhat-rhn-proxy-5.4-server-s390x-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 337
+  has_stable_systems_subscribed: true
+channel_00460: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 460
+  name: redhat-rhn-satellite-5.4-server-x86_64-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 338
+  has_stable_systems_subscribed: true
+channel_00461: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 461
+  name: redhat-rhn-satellite-5.4-server-i386-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 338
+  has_stable_systems_subscribed: true
+channel_00462: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:10 Z
+  id: 462
+  name: redhat-rhn-satellite-5.4-server-s390x-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 338
+  has_stable_systems_subscribed: true
+channel_00463: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 463
+  name: rhel-i386-server-hts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 379
+  has_stable_systems_subscribed: true
+channel_00464: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:10 Z
+  id: 464
+  name: rhel-ppc64-server-hts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 379
+  has_stable_systems_subscribed: true
+channel_00465: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 465
+  name: rhel-x86_64-server-hts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 379
+  has_stable_systems_subscribed: true
+channel_00466: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:10 Z
+  id: 466
+  name: rhel-s390x-server-hts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 379
+  has_stable_systems_subscribed: true
+channel_00467: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 467
+  name: rhel-x86_64-server-sap-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 380
+  has_stable_systems_subscribed: true
+channel_00468: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 468
+  name: rhel-x86_64-server-hpn-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 381
+  has_stable_systems_subscribed: true
+channel_00469: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 469
+  name: rhel-x86_64-server-hpn-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 381
+  has_stable_systems_subscribed: true
+channel_00470: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 470
+  name: rhel-x86_64-hpc-node-hpn-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 413
+  has_stable_systems_subscribed: true
+channel_00471: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 471
+  name: rhel-x86_64-hpc-node-hpn-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 413
+  has_stable_systems_subscribed: true
+channel_00472: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:10 Z
+  id: 472
+  name: rhel-ppc64-server-hpn-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 381
+  has_stable_systems_subscribed: true
+channel_00473: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:10 Z
+  id: 473
+  name: rhel-ppc64-server-hpn-fastrack-6
+  type: FastTrackChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 381
+  has_stable_systems_subscribed: true
+channel_00474: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 474
+  name: rhel-x86_64-server-v2vwin-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 382
+  has_stable_systems_subscribed: true
+channel_00475: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 475
+  name: jb-middleware
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 383
+  has_stable_systems_subscribed: true
+channel_00476: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 476
+  name: jbappplatform-5-i386-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 407
+  has_stable_systems_subscribed: true
+channel_00477: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 477
+  name: jbappplatform-5-x86_64-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 407
+  has_stable_systems_subscribed: true
+channel_00478: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 478
+  name: jb-ewp-5-i386-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 408
+  has_stable_systems_subscribed: true
+channel_00479: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 479
+  name: jb-ewp-5-x86_64-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 408
+  has_stable_systems_subscribed: true
+channel_00480: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 480
+  name: jb-ews-1-i386-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 409
+  has_stable_systems_subscribed: true
+channel_00481: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 481
+  name: jb-ews-1-x86_64-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 409
+  has_stable_systems_subscribed: true
+channel_00482: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 482
+  name: rhel-i386-server-ei-replication-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 411
+  has_stable_systems_subscribed: true
+channel_00483: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 483
+  name: rhel-i386-server-ei-replication-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 411
+  has_stable_systems_subscribed: true
+channel_00484: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 484
+  name: rhel-i386-server-ei-replication-6-beta
+  type: BetaChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 411
+  has_stable_systems_subscribed: true
+channel_00485: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 485
+  name: rhel-x86_64-server-ei-replication-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 411
+  has_stable_systems_subscribed: true
+channel_00486: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 486
+  name: rhel-x86_64-server-ei-replication-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 411
+  has_stable_systems_subscribed: true
+channel_00487: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 487
+  name: rhel-x86_64-server-ei-replication-6-beta
+  type: BetaChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 411
+  has_stable_systems_subscribed: true
+channel_00488: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 488
+  name: rhel-i386-server-5-mrg-messaging-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 414
+  has_stable_systems_subscribed: true
+channel_00489: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 489
+  name: rhel-x86_64-server-5-mrg-messaging-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 414
+  has_stable_systems_subscribed: true
+channel_00490: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 490
+  name: rhel-i386-server-5-mrg-management-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 415
+  has_stable_systems_subscribed: true
+channel_00491: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 491
+  name: rhel-x86_64-server-5-mrg-management-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 415
+  has_stable_systems_subscribed: true
+channel_00492: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 492
+  name: rhel-i386-server-5-mrg-realtime-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 417
+  has_stable_systems_subscribed: true
+channel_00493: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 493
+  name: rhel-x86_64-server-5-mrg-realtime-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 417
+  has_stable_systems_subscribed: true
+channel_00494: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 494
+  name: rhel-i386-server-5-mrg-grid-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 416
+  has_stable_systems_subscribed: true
+channel_00495: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 495
+  name: rhel-x86_64-server-5-mrg-grid-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 416
+  has_stable_systems_subscribed: true
+channel_00496: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 496
+  name: rhel-i386-server-5-mrg-grid-execute-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 418
+  has_stable_systems_subscribed: true
+channel_00497: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 497
+  name: rhel-x86_64-server-5-mrg-grid-execute-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 418
+  has_stable_systems_subscribed: true
+channel_00498: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 498
+  name: rhel-i386-server-6-mrg-messaging-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 419
+  has_stable_systems_subscribed: true
+channel_00499: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 499
+  name: rhel-x86_64-server-6-mrg-messaging-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 419
+  has_stable_systems_subscribed: true
+channel_00500: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 500
+  name: rhel-i386-server-6-mrg-management-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 420
+  has_stable_systems_subscribed: true
+channel_00501: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 501
+  name: rhel-x86_64-server-6-mrg-management-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 420
+  has_stable_systems_subscribed: true
+channel_00502: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 502
+  name: rhel-i386-server-6-mrg-grid-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 421
+  has_stable_systems_subscribed: true
+channel_00503: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 503
+  name: rhel-x86_64-server-6-mrg-grid-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 421
+  has_stable_systems_subscribed: true
+channel_00504: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 504
+  name: rhel-i386-server-6-mrg-realtime-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 422
+  has_stable_systems_subscribed: true
+channel_00505: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 505
+  name: rhel-x86_64-server-6-mrg-realtime-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 422
+  has_stable_systems_subscribed: true
+channel_00506: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 506
+  name: rhel-i386-server-6-mrg-grid-execute-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 423
+  has_stable_systems_subscribed: true
+channel_00507: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 507
+  name: rhel-x86_64-server-6-mrg-grid-execute-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 423
+  has_stable_systems_subscribed: true
+channel_00508: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 508
+  name: rhel-x86_64-hpc-node-6-mrg-grid-execute-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 473
+  has_stable_systems_subscribed: true
+channel_00509: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 509
+  name: rhel-x86_64-hpc-node-6-mrg-management-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 501
+  has_stable_systems_subscribed: true
+channel_00510: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 510
+  name: redhat-rhn-satellite-5.4-server-x86_64-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 448
+  has_stable_systems_subscribed: true
+channel_00511: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:10 Z
+  id: 511
+  name: redhat-rhn-satellite-5.4-server-s390x-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 448
+  has_stable_systems_subscribed: true
+channel_00512: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 512
+  name: redhat-rhn-proxy-5.4-server-x86_64-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 449
+  has_stable_systems_subscribed: true
+channel_00513: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:10 Z
+  id: 513
+  name: redhat-rhn-proxy-5.4-server-s390x-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 449
+  has_stable_systems_subscribed: true
+channel_00514: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 514
+  name: rhel-i386-server-6-rhdirserv-9
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 461
+  has_stable_systems_subscribed: true
+channel_00515: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:10 Z
+  id: 515
+  name: rhel-i386-server-6-rhdirserv-9-beta
+  type: BetaChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 461
+  has_stable_systems_subscribed: true
+channel_00516: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:10 Z
+  id: 516
+  name: rhel-x86_64-server-6-rhdirserv-9
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:10 Z
+  variant_id: 461
+  has_stable_systems_subscribed: true
+channel_00517: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 517
+  name: rhel-x86_64-server-6-rhdirserv-9-beta
+  type: BetaChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 461
+  has_stable_systems_subscribed: true
+channel_00518: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 518
+  name: rhel-i386-server-6-sts
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 466
+  has_stable_systems_subscribed: true
+channel_00519: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 519
+  name: rhel-x86_64-server-6-sts
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 466
+  has_stable_systems_subscribed: true
+channel_00520: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 520
+  name: rhel-x86_64-server-6-rhui-2
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 537
+  has_stable_systems_subscribed: true
+channel_00521: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 521
+  name: rhel-x86_64-server-ssa-3.2-6.1.z
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 474
+  has_stable_systems_subscribed: true
+channel_00522: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 522
+  name: sam-rhel-x86_64-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-27 19:13:41 Z
+  variant_id: 538
+  has_stable_systems_subscribed: true
+channel_00523: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 523
+  name: jbappplatform-6-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 504
+  has_stable_systems_subscribed: true
+channel_00524: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 524
+  name: jbappplatform-6-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 504
+  has_stable_systems_subscribed: true
+channel_00525: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 525
+  name: jbappplatform-6-i386-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 505
+  has_stable_systems_subscribed: true
+channel_00526: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 526
+  name: jbappplatform-6-x86_64-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 505
+  has_stable_systems_subscribed: true
+channel_00527: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 527
+  name: rhel-x86_64-server-6-cf-ce-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 506
+  has_stable_systems_subscribed: true
+channel_00528: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 528
+  name: rhel-x86_64-server-6-cf-se-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 507
+  has_stable_systems_subscribed: true
+channel_00529: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 529
+  name: rhel-i386-server-6-cf-tools-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 508
+  has_stable_systems_subscribed: true
+channel_00530: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 530
+  name: rhel-x86_64-server-6-cf-tools-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 508
+  has_stable_systems_subscribed: true
+channel_00531: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 531
+  name: rhel-i386-server-5-cf-tools-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 509
+  has_stable_systems_subscribed: true
+channel_00532: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 532
+  name: rhel-x86_64-server-5-cf-tools-1
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 509
+  has_stable_systems_subscribed: true
+channel_00533: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 533
+  name: rhel-i386-server-dts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:02:05 Z
+  variant_id: 520
+  has_stable_systems_subscribed: true
+channel_00534: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 534
+  name: rhel-x86_64-server-dts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:02:05 Z
+  variant_id: 520
+  has_stable_systems_subscribed: true
+channel_00535: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 535
+  name: rhel-x86_64-hpc-node-dts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:02:05 Z
+  variant_id: 521
+  has_stable_systems_subscribed: true
+channel_00536: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 536
+  name: rhel-i386-workstation-dts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:02:05 Z
+  variant_id: 523
+  has_stable_systems_subscribed: true
+channel_00537: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 537
+  name: rhel-x86_64-workstation-dts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:02:05 Z
+  variant_id: 523
+  has_stable_systems_subscribed: true
+channel_00538: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 538
+  name: rhel-i386-client-dts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:02:05 Z
+  variant_id: 522
+  has_stable_systems_subscribed: true
+channel_00539: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 539
+  name: rhel-x86_64-client-dts-6
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:02:05 Z
+  variant_id: 522
+  has_stable_systems_subscribed: true
+channel_00540: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 540
+  name: rhel-i386-server-dts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:03:27 Z
+  variant_id: 524
+  has_stable_systems_subscribed: true
+channel_00541: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 541
+  name: rhel-x86_64-server-dts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:03:27 Z
+  variant_id: 524
+  has_stable_systems_subscribed: true
+channel_00542: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 542
+  name: rhel-i386-client-dts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:03:27 Z
+  variant_id: 525
+  has_stable_systems_subscribed: true
+channel_00543: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 543
+  name: rhel-x86_64-client-dts-5
+  type: PrimaryChannel
+  updated_at: 2012-04-26 04:03:27 Z
+  variant_id: 525
+  has_stable_systems_subscribed: true
+channel_00544: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 544
+  name: jb-ews-2-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 530
+  has_stable_systems_subscribed: true
+channel_00545: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 545
+  name: jb-ews-2-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 530
+  has_stable_systems_subscribed: true
+channel_00546: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 546
+  name: jb-ews-2-i386-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 531
+  has_stable_systems_subscribed: true
+channel_00547: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 547
+  name: jb-ews-2-x86_64-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 531
+  has_stable_systems_subscribed: true
+channel_00548: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 548
+  name: jb-on-3-i386-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 535
+  has_stable_systems_subscribed: true
+channel_00549: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 549
+  name: jb-on-3-x86_64-server-5-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 535
+  has_stable_systems_subscribed: true
+channel_00550: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 550
+  name: jb-on-3-i386-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 536
+  has_stable_systems_subscribed: true
+channel_00551: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 551
+  name: jb-on-3-x86_64-server-6-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 536
+  has_stable_systems_subscribed: true
+channel_00552: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 552
+  name: rhel-x86_64-server-6-rhevh
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 368
+  has_stable_systems_subscribed: true
+channel_00553: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 553
+  name: rhel-x86_64-rhev-mgmt-agent-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 369
+  has_stable_systems_subscribed: true
+channel_00554: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 554
+  name: rhel-x86_64-server-rhev-hdk-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 370
+  has_stable_systems_subscribed: true
+channel_00555: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 555
+  name: rhel-i386-rhev-agent-6-server
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 385
+  has_stable_systems_subscribed: true
+channel_00556: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 556
+  name: rhel-x86_64-rhev-agent-6-server
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 385
+  has_stable_systems_subscribed: true
+channel_00557: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 557
+  name: rhel-i386-rhev-agent-6-workstation
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 493
+  has_stable_systems_subscribed: true
+channel_00558: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 558
+  name: rhel-x86_64-rhev-agent-6-workstation
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 493
+  has_stable_systems_subscribed: true
+channel_00559: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 559
+  name: rhel-i386-rhev-agent-6-client
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 492
+  has_stable_systems_subscribed: true
+channel_00560: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 560
+  name: rhel-x86_64-rhev-agent-6-client
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 492
+  has_stable_systems_subscribed: true
+channel_00561: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 561
+  name: rhel-x86_64-server-6-rhevm-3
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 374
+  has_stable_systems_subscribed: true
+channel_00562: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 562
+  name: rhel-x86_64-server-6-rhevm-3-beta
+  type: BetaChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 374
+  has_stable_systems_subscribed: true
+channel_00563: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 563
+  name: rhel-i386-server-sjis-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 452
+  has_stable_systems_subscribed: true
+channel_00564: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 564
+  name: rhel-x86_64-server-sjis-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 452
+  has_stable_systems_subscribed: true
+channel_00565: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:11 Z
+  id: 565
+  name: rhn-tools-rhel-4-as-i386
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 302
+  has_stable_systems_subscribed: true
+channel_00566: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:11 Z
+  id: 566
+  name: rhn-tools-rhel-4-as-ia64
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 302
+  has_stable_systems_subscribed: true
+channel_00567: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:11 Z
+  id: 567
+  name: rhn-tools-rhel-4-as-ppc
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 302
+  has_stable_systems_subscribed: true
+channel_00568: 
+  arch_id: 9
+  created_at: 2012-04-02 19:01:11 Z
+  id: 568
+  name: rhn-tools-rhel-4-as-s390
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 302
+  has_stable_systems_subscribed: true
+channel_00569: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:11 Z
+  id: 569
+  name: rhn-tools-rhel-4-as-s390x
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 302
+  has_stable_systems_subscribed: true
+channel_00570: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:11 Z
+  id: 570
+  name: rhn-tools-rhel-4-as-x86_64
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:11 Z
+  variant_id: 302
+  has_stable_systems_subscribed: true
+channel_00571: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 571
+  name: rhn-tools-rhel-4-es-i386
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 303
+  has_stable_systems_subscribed: true
+channel_00572: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 572
+  name: rhn-tools-rhel-4-es-ia64
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 303
+  has_stable_systems_subscribed: true
+channel_00573: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 573
+  name: rhn-tools-rhel-4-es-x86_64
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 303
+  has_stable_systems_subscribed: true
+channel_00574: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 574
+  name: rhn-tools-rhel-4-ws-i386
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 304
+  has_stable_systems_subscribed: true
+channel_00575: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 575
+  name: rhn-tools-rhel-4-ws-ia64
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 304
+  has_stable_systems_subscribed: true
+channel_00576: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 576
+  name: rhn-tools-rhel-4-ws-x86_64
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 304
+  has_stable_systems_subscribed: true
+channel_00577: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 577
+  name: rhn-tools-rhel-4-desktop-i386
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 305
+  has_stable_systems_subscribed: true
+channel_00578: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 578
+  name: rhn-tools-rhel-4-desktop-x86_64
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 305
+  has_stable_systems_subscribed: true
+channel_00579: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 579
+  name: rhn-tools-rhel-i386-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 287
+  has_stable_systems_subscribed: true
+channel_00580: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 580
+  name: rhn-tools-rhel-ia64-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 287
+  has_stable_systems_subscribed: true
+channel_00581: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:12 Z
+  id: 581
+  name: rhn-tools-rhel-ppc-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 287
+  has_stable_systems_subscribed: true
+channel_00582: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:12 Z
+  id: 582
+  name: rhn-tools-rhel-s390x-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 287
+  has_stable_systems_subscribed: true
+channel_00583: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 583
+  name: rhn-tools-rhel-x86_64-server-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 287
+  has_stable_systems_subscribed: true
+channel_00584: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 584
+  name: rhn-tools-rhel-x86_64-client-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 288
+  has_stable_systems_subscribed: true
+channel_00585: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 585
+  name: rhn-tools-rhel-i386-client-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 288
+  has_stable_systems_subscribed: true
+channel_00586: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 586
+  name: rhn-tools-rhel-i386-server-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 393
+  has_stable_systems_subscribed: true
+channel_00587: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 587
+  name: rhn-tools-rhel-ia64-server-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 393
+  has_stable_systems_subscribed: true
+channel_00588: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 588
+  name: rhn-tools-rhel-x86_64-server-5.3.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 393
+  has_stable_systems_subscribed: true
+channel_00589: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 589
+  name: rhn-tools-rhel-i386-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 405
+  has_stable_systems_subscribed: true
+channel_00590: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 590
+  name: rhn-tools-rhel-ia64-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 405
+  has_stable_systems_subscribed: true
+channel_00591: 
+  arch_id: 17
+  created_at: 2012-04-02 19:01:12 Z
+  id: 591
+  name: rhn-tools-rhel-ppc-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 405
+  has_stable_systems_subscribed: true
+channel_00592: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:12 Z
+  id: 592
+  name: rhn-tools-rhel-s390x-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 405
+  has_stable_systems_subscribed: true
+channel_00593: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 593
+  name: rhn-tools-rhel-x86_64-server-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 405
+  has_stable_systems_subscribed: true
+channel_00594: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 594
+  name: rhn-tools-rhel-i386-server-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 405
+  has_stable_systems_subscribed: true
+channel_00595: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 595
+  name: rhn-tools-rhel-ia64-server-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 405
+  has_stable_systems_subscribed: true
+channel_00596: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 596
+  name: rhn-tools-rhel-x86_64-server-5.6.ll
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 405
+  has_stable_systems_subscribed: true
+channel_00597: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 597
+  name: rhn-tools-rhel-i386-server-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 465
+  has_stable_systems_subscribed: true
+channel_00598: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:12 Z
+  id: 598
+  name: rhn-tools-rhel-ppc64-server-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 465
+  has_stable_systems_subscribed: true
+channel_00599: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:12 Z
+  id: 599
+  name: rhn-tools-rhel-s390x-server-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 465
+  has_stable_systems_subscribed: true
+channel_00600: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 600
+  name: rhn-tools-rhel-x86_64-server-6.0.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 465
+  has_stable_systems_subscribed: true
+channel_00601: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 601
+  name: rhn-tools-rhel-i386-server-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 502
+  has_stable_systems_subscribed: true
+channel_00602: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:12 Z
+  id: 602
+  name: rhn-tools-rhel-ppc64-server-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 502
+  has_stable_systems_subscribed: true
+channel_00603: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:12 Z
+  id: 603
+  name: rhn-tools-rhel-s390x-server-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 502
+  has_stable_systems_subscribed: true
+channel_00604: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 604
+  name: rhn-tools-rhel-x86_64-server-6.1.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 502
+  has_stable_systems_subscribed: true
+channel_00605: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 605
+  name: rhn-tools-rhel-i386-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 359
+  has_stable_systems_subscribed: true
+channel_00606: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 606
+  name: rhn-tools-rhel-x86_64-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 359
+  has_stable_systems_subscribed: true
+channel_00607: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:12 Z
+  id: 607
+  name: rhn-tools-rhel-s390x-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 359
+  has_stable_systems_subscribed: true
+channel_00608: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:12 Z
+  id: 608
+  name: rhn-tools-rhel-ppc64-server-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 359
+  has_stable_systems_subscribed: true
+channel_00609: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 609
+  name: rhn-tools-rhel-i386-client-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 361
+  has_stable_systems_subscribed: true
+channel_00610: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 610
+  name: rhn-tools-rhel-x86_64-client-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 361
+  has_stable_systems_subscribed: true
+channel_00611: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 611
+  name: rhn-tools-rhel-x86_64-hpc-node-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 360
+  has_stable_systems_subscribed: true
+channel_00612: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 612
+  name: rhn-tools-rhel-i386-workstation-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 363
+  has_stable_systems_subscribed: true
+channel_00613: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 613
+  name: rhn-tools-rhel-x86_64-workstation-6
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 363
+  has_stable_systems_subscribed: true
+channel_00614: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 614
+  name: rhn-tools-rhel-i386-server-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 503
+  has_stable_systems_subscribed: true
+channel_00615: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 615
+  name: rhn-tools-rhel-i386-server-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 503
+  has_stable_systems_subscribed: true
+channel_00616: 
+  arch_id: 18
+  created_at: 2012-04-02 19:01:12 Z
+  id: 616
+  name: rhn-tools-rhel-ppc64-server-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 503
+  has_stable_systems_subscribed: true
+channel_00617: 
+  arch_id: 14
+  created_at: 2012-04-02 19:01:12 Z
+  id: 617
+  name: rhn-tools-rhel-s390x-server-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 503
+  has_stable_systems_subscribed: true
+channel_00618: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 618
+  name: rhn-tools-rhel-x86_64-server-6.2.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 503
+  has_stable_systems_subscribed: true
+channel_00619: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 619
+  name: rhn-tools-rhel-x86_64-server-6.2.aus
+  type: LongLifeChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 503
+  has_stable_systems_subscribed: true
+channel_00620: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 620
+  name: rhel-i386-server-sjis-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 306
+  has_stable_systems_subscribed: true
+channel_00621: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 621
+  name: rhel-ia64-server-sjis-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 306
+  has_stable_systems_subscribed: true
+channel_00622: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 622
+  name: rhel-x86_64-server-sjis-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 306
+  has_stable_systems_subscribed: true
+channel_00623: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 623
+  name: rhel-x86_64-server-sjis-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 412
+  has_stable_systems_subscribed: true
+channel_00624: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 624
+  name: rhel-i386-server-sjis-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 412
+  has_stable_systems_subscribed: true
+channel_00625: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 625
+  name: rhel-ia64-server-sjis-5.6.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 412
+  has_stable_systems_subscribed: true
+channel_00626: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 626
+  name: rhel-i386-server-sjis-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 403
+  has_stable_systems_subscribed: true
+channel_00627: 
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12 Z
+  id: 627
+  name: rhel-ia64-server-sjis-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 403
+  has_stable_systems_subscribed: true
+channel_00628: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 628
+  name: rhel-x86_64-server-sjis-5.3.z
+  type: EusChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 403
+  has_stable_systems_subscribed: true
+channel_00629: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 629
+  name: rhev-x86_64-h-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 364
+  has_stable_systems_subscribed: true
+channel_00630: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 630
+  name: rhel-x86_64-rhev-mgmt-agent-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 365
+  has_stable_systems_subscribed: true
+channel_00631: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 631
+  name: rhel-x86_64-server-rhev-hdk-2-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 366
+  has_stable_systems_subscribed: true
+channel_00632: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 632
+  name: rhel-x86_64-rhev-v2v-5
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 367
+  has_stable_systems_subscribed: true
+channel_00633: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 633
+  name: rhel-i386-rhev-agent-5-server
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 384
+  has_stable_systems_subscribed: true
+channel_00634: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12 Z
+  id: 634
+  name: rhel-x86_64-rhev-agent-5-server
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 384
+  has_stable_systems_subscribed: true
+channel_00635: 
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12 Z
+  id: 635
+  name: rhel-i386-rhev-agent-5-client
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:12 Z
+  variant_id: 494
+  has_stable_systems_subscribed: true
+channel_00636: 
+  arch_id: 13
+  created_at: 2012-04-02 19:01:13 Z
+  id: 636
+  name: rhel-x86_64-rhev-agent-5-client
+  type: PrimaryChannel
+  updated_at: 2012-04-02 19:01:13 Z
+  variant_id: 494
+  has_stable_systems_subscribed: true
+channel_00637: 
+  arch_id: 4
+  created_at: 2012-04-04 20:39:46 Z
+  id: 637
+  name: rhel-i386-as-4-els
+  type: PrimaryChannel
+  updated_at: 2012-04-04 20:39:46 Z
+  variant_id: 518
+  has_stable_systems_subscribed: true
+channel_00638: 
+  arch_id: 7
+  created_at: 2012-04-04 20:39:46 Z
+  id: 638
+  name: rhel-ia64-as-4-els
+  type: PrimaryChannel
+  updated_at: 2012-04-04 20:39:46 Z
+  variant_id: 518
+  has_stable_systems_subscribed: true
+channel_00639: 
+  arch_id: 13
+  created_at: 2012-04-04 20:39:46 Z
+  id: 639
+  name: rhel-x86_64-as-4-els
+  type: PrimaryChannel
+  updated_at: 2012-04-04 20:39:46 Z
+  variant_id: 518
+  has_stable_systems_subscribed: true
+channel_00640: 
+  arch_id: 4
+  created_at: 2012-04-04 20:39:46 Z
+  id: 640
+  name: rhel-i386-es-4-els
+  type: PrimaryChannel
+  updated_at: 2012-04-04 20:39:46 Z
+  variant_id: 519
+  has_stable_systems_subscribed: true
+channel_00641: 
+  arch_id: 13
+  created_at: 2012-04-04 20:39:46 Z
+  id: 641
+  name: rhel-x86_64-es-4-els
+  type: PrimaryChannel
+  updated_at: 2012-04-04 20:39:46 Z
+  variant_id: 519
+  has_stable_systems_subscribed: true
+channel_00642: 
+  arch_id: 4
+  created_at: 2012-04-17 14:32:43 Z
+  id: 642
+  name: jb-ews-1-i386-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-17 14:32:43 Z
+  variant_id: 249
+  has_stable_systems_subscribed: true
+channel_00643: 
+  arch_id: 13
+  created_at: 2012-04-17 14:32:43 Z
+  id: 643
+  name: jb-ews-1-x86_64-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-17 14:32:43 Z
+  variant_id: 249
+  has_stable_systems_subscribed: true
+channel_00644: 
+  arch_id: 4
+  created_at: 2012-04-17 14:32:43 Z
+  id: 644
+  name: jb-ews-1-i386-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-17 14:32:43 Z
+  variant_id: 250
+  has_stable_systems_subscribed: true
+channel_00645: 
+  arch_id: 13
+  created_at: 2012-04-17 14:32:43 Z
+  id: 645
+  name: jb-ews-1-x86_64-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-04-17 14:32:43 Z
+  variant_id: 250
+  has_stable_systems_subscribed: true
+channel_00650: 
+  arch_id: 13
+  created_at: 2012-05-25 05:45:21 Z
+  id: 650
+  name: rhel-x86_64-server-6-rhs-2.0
+  type: PrimaryChannel
+  updated_at: 2012-06-07 00:51:31 Z
+  variant_id: 539
+  has_stable_systems_subscribed: true
+channel_00652: 
+  arch_id: 4
+  created_at: 2012-05-25 14:08:11 Z
+  id: 652
+  name: rhel-i386-client-scl-6
+  type: PrimaryChannel
+  updated_at: 2012-05-25 14:08:11 Z
+  variant_id: 543
+  has_stable_systems_subscribed: true
+channel_00653: 
+  arch_id: 13
+  created_at: 2012-05-25 14:08:38 Z
+  id: 653
+  name: rhel-x86_64-server-scl-6
+  type: PrimaryChannel
+  updated_at: 2012-05-25 14:08:38 Z
+  variant_id: 543
+  has_stable_systems_subscribed: true
+channel_00654: 
+  arch_id: 4
+  created_at: 2012-06-04 19:40:30 Z
+  id: 654
+  name: rhel-i386-server-supplementary-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-04 19:40:30 Z
+  variant_id: 545
+  has_stable_systems_subscribed: true
+channel_00655: 
+  arch_id: 18
+  created_at: 2012-06-04 19:40:30 Z
+  id: 655
+  name: rhel-ppc64-server-supplementary-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-04 19:40:30 Z
+  variant_id: 545
+  has_stable_systems_subscribed: true
+channel_00656: 
+  arch_id: 14
+  created_at: 2012-06-04 19:40:30 Z
+  id: 656
+  name: rhel-s390x-server-supplementary-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-04 19:40:30 Z
+  variant_id: 545
+  has_stable_systems_subscribed: true
+channel_00657: 
+  arch_id: 13
+  created_at: 2012-06-04 19:40:30 Z
+  id: 657
+  name: rhel-x86_64-server-supplementary-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-04 19:40:30 Z
+  variant_id: 545
+  has_stable_systems_subscribed: true
+channel_00658: 
+  arch_id: 4
+  created_at: 2012-06-05 01:52:37 Z
+  id: 658
+  name: rhel-i386-server-optional-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 549
+  has_stable_systems_subscribed: true
+channel_00659: 
+  arch_id: 18
+  created_at: 2012-06-05 01:52:37 Z
+  id: 659
+  name: rhel-ppc64-server-optional-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 549
+  has_stable_systems_subscribed: true
+channel_00660: 
+  arch_id: 14
+  created_at: 2012-06-05 01:52:37 Z
+  id: 660
+  name: rhel-s390x-server-optional-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 549
+  has_stable_systems_subscribed: true
+channel_00661: 
+  arch_id: 13
+  created_at: 2012-06-05 01:52:37 Z
+  id: 661
+  name: rhel-x86_64-server-optional-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 549
+  has_stable_systems_subscribed: true
+channel_00662: 
+  arch_id: 4
+  created_at: 2012-06-05 01:52:37 Z
+  id: 662
+  name: rhel-i386-server-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 550
+  has_stable_systems_subscribed: true
+channel_00663: 
+  arch_id: 18
+  created_at: 2012-06-05 01:52:37 Z
+  id: 663
+  name: rhel-ppc64-server-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 550
+  has_stable_systems_subscribed: true
+channel_00664: 
+  arch_id: 14
+  created_at: 2012-06-05 01:52:37 Z
+  id: 664
+  name: rhel-s390x-server-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 550
+  has_stable_systems_subscribed: true
+channel_00665: 
+  arch_id: 13
+  created_at: 2012-06-05 01:52:37 Z
+  id: 665
+  name: rhel-x86_64-server-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 550
+  has_stable_systems_subscribed: true
+channel_00666: 
+  arch_id: 4
+  created_at: 2012-06-05 01:52:37 Z
+  id: 666
+  name: rhel-i386-server-ha-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 557
+  has_stable_systems_subscribed: true
+channel_00667: 
+  arch_id: 13
+  created_at: 2012-06-05 01:52:37 Z
+  id: 667
+  name: rhel-x86_64-server-ha-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 557
+  has_stable_systems_subscribed: true
+channel_00668: 
+  arch_id: 4
+  created_at: 2012-06-05 01:52:37 Z
+  id: 668
+  name: rhel-i386-server-rs-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:37 Z
+  variant_id: 559
+  has_stable_systems_subscribed: true
+channel_00669: 
+  arch_id: 13
+  created_at: 2012-06-05 01:52:38 Z
+  id: 669
+  name: rhel-x86_64-server-rs-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:38 Z
+  variant_id: 559
+  has_stable_systems_subscribed: true
+channel_00670: 
+  arch_id: 4
+  created_at: 2012-06-05 01:52:38 Z
+  id: 670
+  name: rhel-i386-server-lb-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:38 Z
+  variant_id: 560
+  has_stable_systems_subscribed: true
+channel_00671: 
+  arch_id: 13
+  created_at: 2012-06-05 01:52:38 Z
+  id: 671
+  name: rhel-x86_64-server-lb-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:38 Z
+  variant_id: 560
+  has_stable_systems_subscribed: true
+channel_00672: 
+  arch_id: 13
+  created_at: 2012-06-05 01:52:38 Z
+  id: 672
+  name: rhel-x86_64-server-sfs-6.3.z
+  type: EusChannel
+  updated_at: 2012-06-05 01:52:38 Z
+  variant_id: 558
+  has_stable_systems_subscribed: true
+channel_00673: 
+  arch_id: 13
+  created_at: 2012-06-06 08:38:31 Z
+  id: 673
+  name: rhel-x86_64-server-6-rhs-rhsc-2.0
+  type: PrimaryChannel
+  updated_at: 2012-06-06 08:38:31 Z
+  variant_id: 562
+  has_stable_systems_subscribed: true
+channel_00674: 
+  arch_id: 4
+  created_at: 2012-06-08 09:42:50 Z
+  id: 674
+  name: jb-ewp-5-i386-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:42:50 Z
+  variant_id: 334
+  has_stable_systems_subscribed: true
+channel_00675: 
+  arch_id: 13
+  created_at: 2012-06-08 09:43:42 Z
+  id: 675
+  name: jb-ewp-5-x86_64-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:43:42 Z
+  variant_id: 334
+  has_stable_systems_subscribed: true
+channel_00676: 
+  arch_id: 4
+  created_at: 2012-06-08 09:44:25 Z
+  id: 676
+  name: jb-ewp-5-i386-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:44:25 Z
+  variant_id: 335
+  has_stable_systems_subscribed: true
+channel_00677: 
+  arch_id: 13
+  created_at: 2012-06-08 09:44:44 Z
+  id: 677
+  name: jb-ewp-5-x86_64-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:44:44 Z
+  variant_id: 335
+  has_stable_systems_subscribed: true
+channel_00678: 
+  arch_id: 4
+  created_at: 2012-06-08 09:54:57 Z
+  id: 678
+  name: jbappplatform-5-i386-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:54:57 Z
+  variant_id: 324
+  has_stable_systems_subscribed: true
+channel_00679: 
+  arch_id: 13
+  created_at: 2012-06-08 09:54:57 Z
+  id: 679
+  name: jbappplatform-5-x86_64-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:54:57 Z
+  variant_id: 324
+  has_stable_systems_subscribed: true
+channel_00680: 
+  arch_id: 4
+  created_at: 2012-06-08 09:54:57 Z
+  id: 680
+  name: jbappplatform-5-i386-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:54:57 Z
+  variant_id: 325
+  has_stable_systems_subscribed: true
+channel_00681: 
+  arch_id: 13
+  created_at: 2012-06-08 09:54:57 Z
+  id: 681
+  name: jbappplatform-5-x86_64-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:54:57 Z
+  variant_id: 325
+  has_stable_systems_subscribed: true
+channel_00682: 
+  arch_id: 4
+  created_at: 2012-06-08 09:58:57 Z
+  id: 682
+  name: jbappplatform-4.3.0-i386-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:58:57 Z
+  variant_id: 204
+  has_stable_systems_subscribed: true
+channel_00683: 
+  arch_id: 13
+  created_at: 2012-06-08 09:58:57 Z
+  id: 683
+  name: jbappplatform-4.3.0-x86_64-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:58:57 Z
+  variant_id: 204
+  has_stable_systems_subscribed: true
+channel_00684: 
+  arch_id: 4
+  created_at: 2012-06-08 09:58:57 Z
+  id: 684
+  name: jbappplatform-4.3.0-i386-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:58:57 Z
+  variant_id: 205
+  has_stable_systems_subscribed: true
+channel_00685: 
+  arch_id: 13
+  created_at: 2012-06-08 09:58:57 Z
+  id: 685
+  name: jbappplatform-4.3.0-x86_64-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 09:58:57 Z
+  variant_id: 205
+  has_stable_systems_subscribed: true
+channel_00686: 
+  arch_id: 4
+  created_at: 2012-06-08 10:02:12 Z
+  id: 686
+  name: jbappplatform-4-i386-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:02:12 Z
+  variant_id: 155
+  has_stable_systems_subscribed: true
+channel_00687: 
+  arch_id: 13
+  created_at: 2012-06-08 10:02:12 Z
+  id: 687
+  name: jbappplatform-4-x86_64-as-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:02:12 Z
+  variant_id: 155
+  has_stable_systems_subscribed: true
+channel_00688: 
+  arch_id: 4
+  created_at: 2012-06-08 10:02:12 Z
+  id: 688
+  name: jbappplatform-4-i386-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:02:12 Z
+  variant_id: 156
+  has_stable_systems_subscribed: true
+channel_00689: 
+  arch_id: 13
+  created_at: 2012-06-08 10:02:12 Z
+  id: 689
+  name: jbappplatform-4-x86_64-es-4-rpm
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:02:12 Z
+  variant_id: 156
+  has_stable_systems_subscribed: true
+channel_00690: 
+  arch_id: 4
+  created_at: 2012-06-08 10:09:21 Z
+  id: 690
+  name: rhel-i386-as-4-rhdirserv-8
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:09:21 Z
+  variant_id: 190
+  has_stable_systems_subscribed: true
+channel_00691: 
+  arch_id: 13
+  created_at: 2012-06-08 10:09:21 Z
+  id: 691
+  name: rhel-x86_64-as-4-rhdirserv-8
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:09:21 Z
+  variant_id: 190
+  has_stable_systems_subscribed: true
+channel_00692: 
+  arch_id: 4
+  created_at: 2012-06-08 10:09:21 Z
+  id: 692
+  name: rhel-i386-es-4-rhdirserv-8
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:09:21 Z
+  variant_id: 189
+  has_stable_systems_subscribed: true
+channel_00693: 
+  arch_id: 13
+  created_at: 2012-06-08 10:09:21 Z
+  id: 693
+  name: rhel-x86_64-es-4-rhdirserv-8
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:09:21 Z
+  variant_id: 189
+  has_stable_systems_subscribed: true
+channel_00694: 
+  arch_id: 4
+  created_at: 2012-06-08 10:17:27 Z
+  id: 694
+  name: redhat-rhn-satellite-5.3-as-i386-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:17:27 Z
+  variant_id: 291
+  has_stable_systems_subscribed: true
+channel_00695: 
+  arch_id: 9
+  created_at: 2012-06-08 10:17:27 Z
+  id: 695
+  name: redhat-rhn-satellite-5.3-as-s390-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:17:27 Z
+  variant_id: 291
+  has_stable_systems_subscribed: true
+channel_00696: 
+  arch_id: 14
+  created_at: 2012-06-08 10:17:27 Z
+  id: 696
+  name: redhat-rhn-satellite-5.3-as-s390x-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:17:27 Z
+  variant_id: 291
+  has_stable_systems_subscribed: true
+channel_00697: 
+  arch_id: 13
+  created_at: 2012-06-08 10:17:27 Z
+  id: 697
+  name: redhat-rhn-satellite-5.3-as-x86_64-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:17:27 Z
+  variant_id: 291
+  has_stable_systems_subscribed: true
+channel_00698: 
+  arch_id: 4
+  created_at: 2012-06-08 10:18:53 Z
+  id: 698
+  name: redhat-rhn-satellite-5.2-as-i386-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:18:53 Z
+  variant_id: 241
+  has_stable_systems_subscribed: true
+channel_00699: 
+  arch_id: 9
+  created_at: 2012-06-08 10:18:53 Z
+  id: 699
+  name: redhat-rhn-satellite-5.2-as-s390-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:18:53 Z
+  variant_id: 241
+  has_stable_systems_subscribed: true
+channel_00700: 
+  arch_id: 14
+  created_at: 2012-06-08 10:18:53 Z
+  id: 700
+  name: redhat-rhn-satellite-5.2-as-s390x-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:18:53 Z
+  variant_id: 241
+  has_stable_systems_subscribed: true
+channel_00701: 
+  arch_id: 13
+  created_at: 2012-06-08 10:18:53 Z
+  id: 701
+  name: redhat-rhn-satellite-5.2-as-x86_64-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:18:53 Z
+  variant_id: 241
+  has_stable_systems_subscribed: true
+channel_00702: 
+  arch_id: 4
+  created_at: 2012-06-08 10:20:28 Z
+  id: 702
+  name: redhat-rhn-satellite-5.1-as-i386-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:20:28 Z
+  variant_id: 207
+  has_stable_systems_subscribed: true
+channel_00703: 
+  arch_id: 9
+  created_at: 2012-06-08 10:20:28 Z
+  id: 703
+  name: redhat-rhn-satellite-5.1-as-s390-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:20:28 Z
+  variant_id: 207
+  has_stable_systems_subscribed: true
+channel_00704: 
+  arch_id: 14
+  created_at: 2012-06-08 10:20:29 Z
+  id: 704
+  name: redhat-rhn-satellite-5.1-as-s390x-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:20:29 Z
+  variant_id: 207
+  has_stable_systems_subscribed: true
+channel_00705: 
+  arch_id: 13
+  created_at: 2012-06-08 10:20:29 Z
+  id: 705
+  name: redhat-rhn-satellite-5.1-as-x86_64-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:20:29 Z
+  variant_id: 207
+  has_stable_systems_subscribed: true
+channel_00706: 
+  arch_id: 4
+  created_at: 2012-06-08 10:23:41 Z
+  id: 706
+  name: redhat-rhn-satellite-5.0-as-i386-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:23:41 Z
+  variant_id: 153
+  has_stable_systems_subscribed: true
+channel_00707: 
+  arch_id: 4
+  created_at: 2012-06-08 10:26:48 Z
+  id: 707
+  name: redhat-rhn-proxy-5.3-as-i386-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:26:48 Z
+  variant_id: 293
+  has_stable_systems_subscribed: true
+channel_00708: 
+  arch_id: 9
+  created_at: 2012-06-08 10:26:48 Z
+  id: 708
+  name: redhat-rhn-proxy-5.3-as-s390-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:26:48 Z
+  variant_id: 293
+  has_stable_systems_subscribed: true
+channel_00709: 
+  arch_id: 14
+  created_at: 2012-06-08 10:26:48 Z
+  id: 709
+  name: redhat-rhn-proxy-5.3-as-s390x-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:26:48 Z
+  variant_id: 293
+  has_stable_systems_subscribed: true
+channel_00710: 
+  arch_id: 13
+  created_at: 2012-06-08 10:26:48 Z
+  id: 710
+  name: redhat-rhn-proxy-5.3-as-x86_64-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:26:48 Z
+  variant_id: 293
+  has_stable_systems_subscribed: true
+channel_00711: 
+  arch_id: 4
+  created_at: 2012-06-08 10:28:17 Z
+  id: 711
+  name: redhat-rhn-proxy-5.2-as-i386-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:28:17 Z
+  variant_id: 243
+  has_stable_systems_subscribed: true
+channel_00712: 
+  arch_id: 9
+  created_at: 2012-06-08 10:28:17 Z
+  id: 712
+  name: redhat-rhn-proxy-5.2-as-s390-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:28:17 Z
+  variant_id: 243
+  has_stable_systems_subscribed: true
+channel_00713: 
+  arch_id: 14
+  created_at: 2012-06-08 10:28:17 Z
+  id: 713
+  name: redhat-rhn-proxy-5.2-as-s390x-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:28:17 Z
+  variant_id: 243
+  has_stable_systems_subscribed: true
+channel_00714: 
+  arch_id: 13
+  created_at: 2012-06-08 10:28:17 Z
+  id: 714
+  name: redhat-rhn-proxy-5.2-as-x86_64-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:28:17 Z
+  variant_id: 243
+  has_stable_systems_subscribed: true
+channel_00715: 
+  arch_id: 4
+  created_at: 2012-06-08 10:29:16 Z
+  id: 715
+  name: redhat-rhn-proxy-5.1-as-i386-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:29:16 Z
+  variant_id: 231
+  has_stable_systems_subscribed: true
+channel_00716: 
+  arch_id: 9
+  created_at: 2012-06-08 10:29:16 Z
+  id: 716
+  name: redhat-rhn-proxy-5.1-as-s390-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:29:16 Z
+  variant_id: 231
+  has_stable_systems_subscribed: true
+channel_00717: 
+  arch_id: 14
+  created_at: 2012-06-08 10:29:16 Z
+  id: 717
+  name: redhat-rhn-proxy-5.1-as-s390x-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:29:16 Z
+  variant_id: 231
+  has_stable_systems_subscribed: true
+channel_00718: 
+  arch_id: 13
+  created_at: 2012-06-08 10:29:16 Z
+  id: 718
+  name: redhat-rhn-proxy-5.1-as-x86_64-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:29:16 Z
+  variant_id: 231
+  has_stable_systems_subscribed: true
+channel_00719: 
+  arch_id: 4
+  created_at: 2012-06-08 10:30:42 Z
+  id: 719
+  name: redhat-rhn-proxy-5.0-as-i386-4
+  type: PrimaryChannel
+  updated_at: 2012-06-08 10:30:42 Z
+  variant_id: 209
+  has_stable_systems_subscribed: true
+channel_00720: 
+  arch_id: 13
+  created_at: 2012-06-11 07:40:42 Z
+  id: 720
+  name: rhel-x86_64-hpc-node-scl-6
+  type: PrimaryChannel
+  updated_at: 2012-06-11 07:40:42 Z
+  variant_id: 543
+  has_stable_systems_subscribed: true
+channel_00721: 
+  arch_id: 13
+  created_at: 2012-06-11 07:41:07 Z
+  id: 721
+  name: rhel-x86_64-client-scl-6
+  type: PrimaryChannel
+  updated_at: 2012-06-11 07:41:07 Z
+  variant_id: 543
+  has_stable_systems_subscribed: true
+channel_00722: 
+  arch_id: 13
+  created_at: 2012-06-11 07:41:23 Z
+  id: 722
+  name: rhel-x86_64-workstation-scl-6
+  type: PrimaryChannel
+  updated_at: 2012-06-11 07:41:23 Z
+  variant_id: 543
+  has_stable_systems_subscribed: true
+channel_00723: 
+  arch_id: 4
+  created_at: 2012-06-11 07:41:41 Z
+  id: 723
+  name: rhel-i386-server-scl-6
+  type: PrimaryChannel
+  updated_at: 2012-06-11 07:41:41 Z
+  variant_id: 543
+  has_stable_systems_subscribed: true
+channel_00724: 
+  arch_id: 4
+  created_at: 2012-06-11 07:42:35 Z
+  id: 724
+  name: rhel-i386-workstation-scl-6
+  type: PrimaryChannel
+  updated_at: 2012-06-11 07:42:35 Z
+  variant_id: 543
+  has_stable_systems_subscribed: true
+channel_00725: 
+  arch_id: 18
+  created_at: 2012-06-11 16:02:30 Z
+  id: 725
+  name: rhel-ppc64-server-p7ih-6
+  type: PrimaryChannel
+  updated_at: 2012-06-11 16:02:30 Z
+  variant_id: 563
+  has_stable_systems_subscribed: true
+channel_00726: 
+  arch_id: 18
+  created_at: 2012-06-11 16:14:42 Z
+  id: 726
+  name: rhel-ppc64-server-bluegene-6
+  type: PrimaryChannel
+  updated_at: 2012-06-11 16:14:42 Z
+  variant_id: 564
+  has_stable_systems_subscribed: true
+channel_00728: 
+  arch_id: 4
+  created_at: 2012-06-11 20:05:17 Z
+  id: 728
+  name: rhel-i386-server-dts-6.0.z
+  type: EusChannel
+  updated_at: 2012-06-11 20:05:17 Z
+  variant_id: 520
+  has_stable_systems_subscribed: true
+channel_00729: 
+  arch_id: 4
+  created_at: 2012-06-11 20:05:30 Z
+  id: 729
+  name: rhel-i386-server-dts-6.1.z
+  type: EusChannel
+  updated_at: 2012-06-11 20:05:30 Z
+  variant_id: 520
+  has_stable_systems_subscribed: true
+channel_00730: 
+  arch_id: 4
+  created_at: 2012-06-11 20:05:37 Z
+  id: 730
+  name: rhel-i386-server-dts-6.2.z
+  type: EusChannel
+  updated_at: 2012-06-11 20:05:37 Z
+  variant_id: 520
+  has_stable_systems_subscribed: true
+channel_00731: 
+  arch_id: 13
+  created_at: 2012-06-11 20:06:22 Z
+  id: 731
+  name: rhel-x86_64-server-dts-6.0.z
+  type: EusChannel
+  updated_at: 2012-06-11 20:43:08 Z
+  variant_id: 520
+  has_stable_systems_subscribed: true
+channel_00732: 
+  arch_id: 13
+  created_at: 2012-06-11 20:07:09 Z
+  id: 732
+  name: rhel-x86_64-server-dts-6.1.z
+  type: EusChannel
+  updated_at: 2012-06-11 20:07:09 Z
+  variant_id: 520
+  has_stable_systems_subscribed: true
+channel_00733: 
+  arch_id: 13
+  created_at: 2012-06-11 20:07:19 Z
+  id: 733
+  name: rhel-x86_64-server-dts-6.2.z
+  type: EusChannel
+  updated_at: 2012-06-11 20:07:19 Z
+  variant_id: 520
+  has_stable_systems_subscribed: true
+channel_00734: 
+  arch_id: 4
+  created_at: 2012-06-11 20:11:36 Z
+  id: 734
+  name: rhel-i386-server-dts-5.6.z
+  type: EusChannel
+  updated_at: 2012-06-11 20:11:36 Z
+  variant_id: 524
+  has_stable_systems_subscribed: true
+channel_00735: 
+  arch_id: 13
+  created_at: 2012-06-15 22:43:34 Z
+  id: 735
+  name: rhel-x86_64-server-rhsclient-5
+  type: PrimaryChannel
+  updated_at: 2012-06-15 22:43:34 Z
+  variant_id: 565
+  has_stable_systems_subscribed: true
+channel_00736: 
+  arch_id: 13
+  created_at: 2012-06-15 22:45:46 Z
+  id: 736
+  name: rhel-x86_64-server-rhsclient-6
+  type: PrimaryChannel
+  updated_at: 2012-06-15 22:45:46 Z
+  variant_id: 566
+  has_stable_systems_subscribed: true
+channel_01032:
+  id: 1032
+  name: "rhel-x86_64-server-6.5.z"
+  type: "EusChannel"
+  variant_id: 744
+  arch_id: 13
+  created_at: "2013-11-09 14:05:31"
+  updated_at: "2013-11-09 14:05:31"
+  has_stable_systems_subscribed: false
+channel_01037:
+  id: 1037
+  name: "rhel-x86_64-server-6.5.aus"
+  type: "LongLifeChannel"
+  variant_id: 744
+  arch_id: 13
+  created_at: "2013-11-09 14:14:06"
+  updated_at: "2013-11-09 14:14:06"
+  has_stable_systems_subscribed: false
+channel_01038:
+  id: 1038
+  name: "rhel-x86_64-server-6.5.z-rhscl-1.2"
+  type: "PrimaryChannel"
+  variant_id: 745
+  arch_id: 13
+  created_at: "2013-11-09 14:05:31"
+  updated_at: "2013-11-09 14:05:31"
+  has_stable_systems_subscribed: true
+channel_00620:
+  id: 620
+  name: rhel-i386-server-sjis-5.8.z
+  type: PrimaryChannel
+  variant_id: 306
+  arch_id: 4
+  created_at: 2012-04-02 19:01:12.000000000 Z
+  updated_at: 2013-09-05 07:22:53.000000000 Z
+  has_stable_systems_subscribed: true
+channel_00621:
+  id: 621
+  name: rhel-ia64-server-sjis-5.8.z
+  type: PrimaryChannel
+  variant_id: 306
+  arch_id: 7
+  created_at: 2012-04-02 19:01:12.000000000 Z
+  updated_at: 2013-09-05 07:23:48.000000000 Z
+  has_stable_systems_subscribed: true
+channel_00622:
+  id: 622
+  name: rhel-x86_64-server-sjis-5.8.z
+  type: PrimaryChannel
+  variant_id: 306
+  arch_id: 13
+  created_at: 2012-04-02 19:01:12.000000000 Z
+  updated_at: 2013-09-05 07:23:41.000000000 Z
+  has_stable_systems_subscribed: true
+channel_788:
+  id: 788
+  name: rhel-x86_64-server-7
+  arch_id: 13
+  updated_at: 2012-11-08 08:43:11 Z
+  has_stable_systems_subscribed: true
+  created_at: 2012-11-08 08:43:11 Z
+  variant_id: 594
+  type: PrimaryChannel
+channel_830:
+  id: 830
+  name: rhel-ppc64-server-7
+  arch_id: 18
+  updated_at: 2012-11-20 08:31:01 Z
+  has_stable_systems_subscribed: true
+  created_at: 2012-11-20 08:31:01 Z
+  variant_id: 594
+  type: PrimaryChannel
+channel_831:
+  id: 831
+  name: rhel-s390x-server-7
+  arch_id: 14
+  updated_at: 2012-11-20 08:31:28 Z
+  has_stable_systems_subscribed: true
+  created_at: 2012-11-20 08:31:28 Z
+  variant_id: 594
+  type: PrimaryChannel
+channel_1013:
+  id: 1013
+  name: rhel-x86_64-client-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:33:44 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:33:44 Z
+  variant_id: 699
+  type: PrimaryChannel
+channel_1014:
+  id: 1014
+  name: rhel-x86_64-hpc-node-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:34:20 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:34:20 Z
+  variant_id: 700
+  type: PrimaryChannel
+channel_1015:
+  id: 1015
+  name: rhel-x86_64-workstation-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:34:59 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:34:59 Z
+  variant_id: 640
+  type: PrimaryChannel
+channel_1016:
+  id: 1016
+  name: rhel-x86_64-client-optional-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:43:45 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:43:45 Z
+  variant_id: 701
+  type: PrimaryChannel
+channel_1017:
+  id: 1017
+  name: rhel-x86_64-hpc-node-optional-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:44:00 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:44:00 Z
+  variant_id: 703
+  type: PrimaryChannel
+channel_1018:
+  id: 1018
+  name: rhel-x86_64-server-ha-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:44:33 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:44:33 Z
+  variant_id: 704
+  type: PrimaryChannel
+channel_1019:
+  id: 1019
+  name: rhel-x86_64-server-lb-7
+  arch_id: 4
+  updated_at: 2013-10-01 12:44:45 Z
+  has_stable_systems_subscribed: false
+  created_at: 2013-10-01 12:44:45 Z
+  variant_id: 705
+  type: PrimaryChannel
+channel_1020:
+  id: 1020
+  name: rhel-x86_64-server-rs-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:45:00 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:45:00 Z
+  variant_id: 706
+  type: PrimaryChannel
+channel_1021:
+  id: 1021
+  name: rhel-ppc64-server-optional-7
+  arch_id: 18
+  updated_at: 2013-10-01 12:45:14 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:45:14 Z
+  variant_id: 702
+  type: PrimaryChannel
+channel_1022:
+  id: 1022
+  name: rhel-s390x-server-optional-7
+  arch_id: 14
+  updated_at: 2013-10-01 12:46:14 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:46:14 Z
+  variant_id: 702
+  type: PrimaryChannel
+channel_1023:
+  id: 1023
+  name: rhel-x86_64-server-optional-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:46:32 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:46:32 Z
+  variant_id: 702
+  type: PrimaryChannel
+channel_1024:
+  id: 1024
+  name: rhel-x86_64-workstation-optional-7
+  arch_id: 13
+  updated_at: 2013-10-01 12:46:45 Z
+  has_stable_systems_subscribed: true
+  created_at: 2013-10-01 12:46:45 Z
+  variant_id: 707
+  type: PrimaryChannel
+channel_1124:
+  id: 1124
+  name: rhel-x86_64-server-sap-7
+  arch_id: 13
+  updated_at: 2014-04-02 11:50:37 Z
+  has_stable_systems_subscribed: false
+  created_at: 2014-04-02 11:50:37 Z
+  variant_id: 822
+  type: PrimaryChannel
+channel_1092:
+  updated_at: 2014-02-05 19:55:49 Z
+  type: PrimaryChannel
+  arch_id: 13
+  created_at: 2014-02-05 19:55:49 Z
+  variant_id: 790
+  id: 1092
+  name: rhel-x86_64-client-supplementary-7
+  has_stable_systems_subscribed: true
+channel_1100:
+  updated_at: 2014-02-19 18:03:30 Z
+  type: PrimaryChannel
+  arch_id: 13
+  created_at: 2014-02-19 18:03:30 Z
+  variant_id: 793
+  id: 1100
+  name: rhel-x86_64-hpc-node-supplementary-7
+  has_stable_systems_subscribed: true
+channel_1097:
+  updated_at: 2014-02-19 18:02:12 Z
+  type: PrimaryChannel
+  arch_id: 18
+  created_at: 2014-02-19 18:02:12 Z
+  variant_id: 791
+  id: 1097
+  name: rhel-ppc64-server-supplementary-7
+  has_stable_systems_subscribed: true
+channel_1098:
+  updated_at: 2014-02-19 18:02:33 Z
+  type: PrimaryChannel
+  arch_id: 14
+  created_at: 2014-02-19 18:02:33 Z
+  variant_id: 791
+  id: 1098
+  name: rhel-s390x-server-supplementary-7
+  has_stable_systems_subscribed: true
+channel_1099:
+  updated_at: 2014-02-19 18:02:59 Z
+  type: PrimaryChannel
+  arch_id: 13
+  created_at: 2014-02-19 18:02:59 Z
+  variant_id: 791
+  id: 1099
+  name: rhel-x86_64-server-supplementary-7
+  has_stable_systems_subscribed: true
+channel_1101:
+  updated_at: 2014-02-19 18:03:50 Z
+  type: PrimaryChannel
+  arch_id: 13
+  created_at: 2014-02-19 18:03:50 Z
+  variant_id: 794
+  id: 1101
+  name: rhel-x86_64-workstation-supplementary-7
+  has_stable_systems_subscribed: true
+channel_1046:
+  created_at: 2013-11-09 14:20:13 Z
+  updated_at: 2013-11-09 14:20:13 Z
+  name: rhel-x86_64-server-optional-6.5.z
+  type: EusChannel
+  id: 1046
+  has_stable_systems_subscribed: false
+  variant_id: 747
+  arch_id: 13
+channel_1091:
+  id: 1091
+  variant_id: 792
+  created_at: 2014-02-05 13:04:49 Z
+  updated_at: 2014-02-05 13:04:49 Z
+  has_stable_systems_subscribed: true
+  name: rhel-x86_64-server-6-rhevm-3.4
+  type: PrimaryChannel
+  arch_id: 13
+channel_1319:
+  type: PrimaryChannel
+  name: rhel-x86_64-server-rt-7
+  arch_id: 13
+  updated_at: 2015-02-06 07:49:56 Z
+  id: 1319
+  variant_id: 990
+  created_at: 2014-11-18 13:04:28 Z
+  has_stable_systems_subscribed: true
+channel_1348:
+  type: PrimaryChannel
+  name: rhel-ppc64le-server-7
+  arch_id: 27
+  updated_at: 2015-02-05 12:57:57 Z
+  id: 1348
+  variant_id: 1037
+  created_at: 2015-02-05 12:57:57 Z
+  has_stable_systems_subscribed: false
+channel_1349:
+  type: PrimaryChannel
+  name: rhel-ppc64le-server-optional-7
+  arch_id: 27
+  updated_at: 2015-02-05 13:01:31 Z
+  id: 1349
+  variant_id: 1038
+  created_at: 2015-02-05 13:01:31 Z
+  has_stable_systems_subscribed: false
+channel_1012:
+  arch_id: 13
+  id: 1012
+  type: PrimaryChannel
+  created_at: 2013-09-25 18:33:10 Z
+  updated_at: 2013-09-25 18:33:10 Z
+  variant_id: 698
+  has_stable_systems_subscribed: true
+  name: rhel-x86_64-server-6-ose-2.0-node
+channel_1096:
+  arch_id: 13
+  id: 1096
+  type: PrimaryChannel
+  created_at: 2014-02-18 14:40:24 Z
+  updated_at: 2014-02-18 14:40:24 Z
+  variant_id: 806
+  has_stable_systems_subscribed: true
+  name: rhel-x86_64-server-6-ose-2.1-node
+channel_1245:
+  arch_id: 13
+  id: 1245
+  type: PrimaryChannel
+  created_at: 2014-08-04 14:00:54 Z
+  updated_at: 2014-08-04 14:00:54 Z
+  variant_id: 911
+  has_stable_systems_subscribed: true
+  name: rhel-x86_64-server-6-ose-2.2-node
+channel_1350:
+  name: rhel-aarch64-server-7
+  variant_id: 1039
+  type: PrimaryChannel
+  created_at: 2015-05-03 23:55:49 Z
+  has_stable_systems_subscribed: false
+  updated_at: 2015-05-04 00:09:43 Z
+  id: 1350
+  arch_id: 26
+channel_1351:
+  name: rhel-aarch64-server-optional-7
+  variant_id: 1040
+  type: PrimaryChannel
+  created_at: 2015-05-04 00:00:24 Z
+  has_stable_systems_subscribed: false
+  updated_at: 2015-05-04 00:07:46 Z
+  id: 1351
+  arch_id: 26
+channel_1163:
+  arch_id: 13
+  created_at: 2014-04-24 16:02:42 Z
+  updated_at: 2015-02-18 05:37:53 Z
+  variant_id: 853
+  type: PrimaryChannel
+  has_stable_systems_subscribed: false
+  id: 1163
+  name: rhel-x86_64-server-6-rhs-3
+channel_1203:
+  arch_id: 13
+  created_at: 2014-06-04 18:14:21 Z
+  updated_at: 2014-08-01 08:03:38 Z
+  variant_id: 890
+  type: PrimaryChannel
+  has_stable_systems_subscribed: true
+  id: 1203
+  name: rhel-x86_64-server-6-rhevm-3.5
+channel_838:
+  created_at: 2013-01-11 00:08:13 Z
+  updated_at: 2014-07-21 08:38:10 Z
+  type: PrimaryChannel
+  variant_id: 610
+  id: 838
+  name: jbappplatform-6-ppc64-server-7-rpm
+  arch_id: 18
+  has_stable_systems_subscribed: false
+channel_839:
+  created_at: 2013-01-11 00:08:42 Z
+  updated_at: 2014-07-21 08:38:27 Z
+  type: PrimaryChannel
+  variant_id: 610
+  id: 839
+  name: jbappplatform-6-x86_64-server-7-rpm
+  arch_id: 13
+  has_stable_systems_subscribed: false
+channel_1227:
+  created_at: 2014-07-16 21:04:05 Z
+  name: rhel-x86_64-server-6-rhs-nagios-3
+  has_stable_systems_subscribed: false
+  variant_id: 901
+  updated_at: 2014-07-18 17:58:55 Z
+  id: 1227
+  arch_id: 13
+  type: PrimaryChannel
+channel_1764:
+  id: 1764
+  name: rhel-x86_64-server-7-rhceph-2-mon
+  type: PrimaryChannel
+  variant_id: 1277
+  arch_id: 13
+  created_at: 2016-03-17 18:21:16 Z
+  updated_at: 2016-03-17 18:21:16 Z
+  has_stable_systems_subscribed: true
+channel_1765:
+  id: 1765
+  name: rhel-x86_64-server-7-rhceph-2-osd
+  type: PrimaryChannel
+  variant_id: 1278
+  arch_id: 13
+  created_at: 2016-03-17 18:22:09 Z
+  updated_at: 2016-03-17 18:22:09 Z
+  has_stable_systems_subscribed: true

@@ -1,0 +1,297 @@
+--- 
+brew_tags_product_version_00009: 
+  brew_tag_id: 15
+  id: 9
+  product_version_id: 72
+brew_tags_product_version_00010: 
+  brew_tag_id: 12
+  id: 10
+  product_version_id: 73
+brew_tags_product_version_00011: 
+  brew_tag_id: 16
+  id: 11
+  product_version_id: 74
+brew_tags_product_version_00021: 
+  brew_tag_id: 28
+  id: 21
+  product_version_id: 66
+brew_tags_product_version_00022: 
+  brew_tag_id: 29
+  id: 22
+  product_version_id: 66
+brew_tags_product_version_00045: 
+  brew_tag_id: 70
+  id: 45
+  product_version_id: 58
+brew_tags_product_version_00049: 
+  brew_tag_id: 109
+  id: 49
+  product_version_id: 18
+brew_tags_product_version_00051: 
+  brew_tag_id: 165
+  id: 51
+  product_version_id: 15
+brew_tags_product_version_00063: 
+  brew_tag_id: 148
+  id: 63
+  product_version_id: 27
+brew_tags_product_version_00064: 
+  brew_tag_id: 138
+  id: 64
+  product_version_id: 17
+brew_tags_product_version_00072: 
+  brew_tag_id: 139
+  id: 72
+  product_version_id: 17
+brew_tags_product_version_00083: 
+  brew_tag_id: 194
+  id: 83
+  product_version_id: 71
+brew_tags_product_version_00085: 
+  brew_tag_id: 194
+  id: 85
+  product_version_id: 70
+brew_tags_product_version_00086: 
+  brew_tag_id: 194
+  id: 86
+  product_version_id: 69
+brew_tags_product_version_00091: 
+  brew_tag_id: 199
+  id: 91
+  product_version_id: 96
+brew_tags_product_version_00100: 
+  brew_tag_id: 150
+  id: 100
+  product_version_id: 36
+brew_tags_product_version_00101: 
+  brew_tag_id: 208
+  id: 101
+  product_version_id: 68
+brew_tags_product_version_00102: 
+  brew_tag_id: 209
+  id: 102
+  product_version_id: 68
+brew_tags_product_version_00103: 
+  brew_tag_id: 210
+  id: 103
+  product_version_id: 66
+brew_tags_product_version_00111: 
+  brew_tag_id: 206
+  id: 111
+  product_version_id: 101
+brew_tags_product_version_00112: 
+  brew_tag_id: 207
+  id: 112
+  product_version_id: 101
+brew_tags_product_version_00113: 
+  brew_tag_id: 201
+  id: 113
+  product_version_id: 100
+brew_tags_product_version_00114: 
+  brew_tag_id: 202
+  id: 114
+  product_version_id: 100
+brew_tags_product_version_00116: 
+  brew_tag_id: 194
+  id: 116
+  product_version_id: 102
+brew_tags_product_version_00129: 
+  brew_tag_id: 231
+  id: 129
+  product_version_id: 110
+brew_tags_product_version_00130: 
+  brew_tag_id: 232
+  id: 130
+  product_version_id: 110
+brew_tags_product_version_00132: 
+  brew_tag_id: 239
+  id: 132
+  product_version_id: 61
+brew_tags_product_version_00133: 
+  brew_tag_id: 240
+  id: 133
+  product_version_id: 61
+brew_tags_product_version_00134: 
+  brew_tag_id: 241
+  id: 134
+  product_version_id: 61
+brew_tags_product_version_00135: 
+  brew_tag_id: 242
+  id: 135
+  product_version_id: 60
+brew_tags_product_version_00137: 
+  brew_tag_id: 244
+  id: 137
+  product_version_id: 60
+brew_tags_product_version_00138: 
+  brew_tag_id: 245
+  id: 138
+  product_version_id: 60
+brew_tags_product_version_00185: 
+  brew_tag_id: 185
+  id: 185
+  product_version_id: 61
+brew_tags_product_version_00186: 
+  brew_tag_id: 186
+  id: 186
+  product_version_id: 72
+brew_tags_product_version_00193: 
+  brew_tag_id: 249
+  id: 193
+  product_version_id: 3
+brew_tags_product_version_00194: 
+  brew_tag_id: 107
+  id: 194
+  product_version_id: 7
+brew_tags_product_version_00197: 
+  brew_tag_id: 251
+  id: 197
+  product_version_id: 8
+brew_tags_product_version_00198: 
+  brew_tag_id: 252
+  id: 198
+  product_version_id: 11
+brew_tags_product_version_00210: 
+  brew_tag_id: 263
+  id: 210
+  product_version_id: 123
+brew_tags_product_version_00211: 
+  brew_tag_id: 264
+  id: 211
+  product_version_id: 123
+brew_tags_product_version_00220: 
+  brew_tag_id: 270
+  id: 220
+  product_version_id: 36
+brew_tags_product_version_00221: 
+  brew_tag_id: 271
+  id: 221
+  product_version_id: 36
+brew_tags_product_version_00239: 
+  brew_tag_id: 225
+  id: 239
+  product_version_id: 74
+brew_tags_product_version_00240: 
+  brew_tag_id: 213
+  id: 240
+  product_version_id: 73
+brew_tags_product_version_00263: 
+  brew_tag_id: 202
+  id: 263
+  product_version_id: 139
+brew_tags_product_version_00264: 
+  brew_tag_id: 207
+  id: 264
+  product_version_id: 140
+brew_tags_product_version_00271: 
+  brew_tag_id: 296
+  id: 271
+  product_version_id: 3
+brew_tags_product_version_00283: 
+  brew_tag_id: 299
+  id: 283
+  product_version_id: 109
+brew_tags_product_version_00293: 
+  brew_tag_id: 306
+  id: 293
+  product_version_id: 148
+brew_tags_product_version_00294: 
+  brew_tag_id: 307
+  id: 294
+  product_version_id: 148
+brew_tags_product_version_00296: 
+  brew_tag_id: 308
+  id: 296
+  product_version_id: 68
+brew_tags_product_version_00297: 
+  brew_tag_id: 309
+  id: 297
+  product_version_id: 71
+brew_tags_product_version_00298: 
+  brew_tag_id: 309
+  id: 298
+  product_version_id: 102
+brew_tags_product_version_00300: 
+  brew_tag_id: 309
+  id: 300
+  product_version_id: 70
+brew_tags_product_version_00301: 
+  brew_tag_id: 309
+  id: 301
+  product_version_id: 69
+brew_tags_product_version_00304: 
+  brew_tag_id: 310
+  id: 304
+  product_version_id: 148
+brew_tags_product_version_00314: 
+  brew_tag_id: 311
+  id: 314
+  product_version_id: 149
+brew_tags_product_version_00315: 
+  brew_tag_id: 312
+  id: 315
+  product_version_id: 149
+brew_tags_product_version_00335: 
+  brew_tag_id: 325
+  id: 335
+  product_version_id: 150
+brew_tags_product_version_00345: 
+  brew_tag_id: 331
+  id: 345
+  product_version_id: 157
+brew_tags_product_version_00346: 
+  brew_tag_id: 332
+  id: 346
+  product_version_id: 157
+brew_tags_product_version_00347: 
+  brew_tag_id: 333
+  id: 347
+  product_version_id: 165
+brew_tags_product_version_00348: 
+  brew_tag_id: 334
+  id: 348
+  product_version_id: 165
+brew_tags_product_version_00352: 
+  brew_tag_id: 338
+  id: 352
+  product_version_id: 109
+brew_tags_product_version_00353: 
+  brew_tag_id: 339
+  id: 353
+  product_version_id: 109
+brew_tags_product_version_00374: 
+  brew_tag_id: 353
+  id: 374
+  product_version_id: 98
+brew_tags_product_version_00375: 
+  brew_tag_id: 354
+  id: 375
+  product_version_id: 97
+brew_tags_product_version_00376: 
+  brew_tag_id: 27
+  id: 376
+  product_version_id: 3
+brew_tags_product_version_00378: 
+  brew_tag_id: 1
+  id: 378
+  product_version_id: 16
+brew_tags_product_version_00379: 
+  brew_tag_id: 333
+  id: 379
+  product_version_id: 16
+brew_tags_product_version_00382: 
+  brew_tag_id: 355
+  id: 382
+  product_version_id: 68
+brew_tags_product_version_00400: 
+  brew_tag_id: 793
+  id: 400
+  product_version_id: 417
+brew_tags_product_version_00401: 
+  brew_tag_id: 797
+  id: 401
+  product_version_id: 419
+brew_tags_product_version_450:
+  product_version_id: 1419
+  id: 450
+  brew_tag_id: 842

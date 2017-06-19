@@ -1,0 +1,15 @@
+<%
+  product_version = @channel.product_version
+  variant = @channel.variant
+%>
+
+<%=
+   render 'shared/label_field_table', :fields => [
+     ['Name', @channel.name],
+     ['Release Type', @channel.short_type ],
+     ['Product Version', link_to("<b>#{h product_version.name}</b> - #{h product_version.description}".html_safe, product_version_path(product_version)) ],
+     ['Variant', "<b>#{h @channel.variant.name}</b> - #{h @channel.variant.description}".html_safe],
+     ['Arch', @channel.arch.name ],
+     ['Use for TPS scheduling?', yes_no_icon_and_text(@channel.has_stable_systems_subscribed?)],
+   ]
+%>

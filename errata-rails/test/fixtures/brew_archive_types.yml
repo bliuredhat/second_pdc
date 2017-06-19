@@ -1,0 +1,70 @@
+brew_archive_type_4:
+  extensions: tar tar.gz tar.bz2 tar.xz
+  name: tar
+  description: Tar file
+  id: 4
+brew_archive_type_38:
+  extensions: ks
+  name: ks
+  description: Kickstart
+  id: 38
+brew_archive_type_5:
+  extensions: xml
+  name: xml
+  description: XML file
+  id: 5
+brew_archive_type_26:
+  extensions: raw
+  name: raw
+  description: Raw disk image
+  id: 26
+brew_archive_type_2:
+  extensions: zip
+  name: zip
+  description: Zip file
+  id: 2
+brew_archive_type_25:
+  extensions: iso
+  name: iso
+  description: CD/DVD Image
+  id: 25
+brew_archive_type_1:
+  extensions: jar war rar ear sar jdocbook jdocbook-style
+  name: jar
+  description: Jar file
+  id: 1
+brew_archive_type_3:
+  extensions: pom
+  name: pom
+  description: Maven Project Object Management file
+  id: 3
+brew_archive_type_33:
+  extensions: ova
+  name: ova
+  description: Open Virtualization Archive
+  id: 33
+brew_archive_type_28:
+  extensions: qcow2
+  name: qcow2
+  description: QCOW2 image
+  id: 28
+brew_archive_type_20:
+  extensions: txt
+  name: txt
+  description: Text file
+  id: 20
+brew_archive_type_19:
+  extensions: cab
+  name: cab
+  description: Windows cabinet file
+  id: 19
+brew_archive_type_15:
+  extensions: msi
+  name: msi
+  description: Windows Installer package
+  id: 15
+brew_archive_type_16:
+  extensions: pdb
+  name: pdb
+  description: Windows debug information
+  id: 16

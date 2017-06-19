@@ -1,0 +1,8 @@
+<% for release in releases %>
+<% if release == release_nav %>
+<b><%= release.name %></b>
+<% else %>
+<%= link_to release.name, :action => action, :release_id => release.url_name %>
+<% end%>
+<% unless release == releases.last %> | <% end %>
+<% end %>

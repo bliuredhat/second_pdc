@@ -1,0 +1,13 @@
+<div class="repository">
+  <h3>
+    <%= "Repository".pluralize(repos.count) %>
+    <%=
+      repos.map do |repo|
+        render :partial => 'errata/container/repo_tag_links', :locals => { :container_repo => repo }
+      end.join(', ').html_safe
+    %>
+  </h3>
+  <div class="section_content">
+    <%= render :partial => 'errata/container/errata_list', :locals => { :errata_list => errata_list }  %>
+  </div>
+</div>

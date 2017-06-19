@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "variants": [
+      "cannot find variants: this_is_not_a_variant, neither_is_this"
+    ]
+  }
+}

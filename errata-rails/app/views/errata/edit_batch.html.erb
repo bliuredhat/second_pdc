@@ -1,0 +1,16 @@
+<% if !@errata.can_edit_batch? %>
+  Can't edit batch for this advisory
+<% else %>
+  <%= form_tag({:action => :edit_batch, :id => @errata}) do %>
+      <div class="clearfix"><div class="eso-greybox">
+      <b>Batch:</b>
+      <%= render :partial => 'batch_list' %>
+      <br>
+      <b>Batch Blocker?</b>
+      <%= check_box(:errata, :is_batch_blocker?) %>
+      <br><br>
+      <%= submit_tag "Save Changes", :action => :edit_batch, :class=>'btn btn-primary' %>
+    </div></div>
+  <% end %>
+<% end %>
+<%= back_to_errata(@errata) %>

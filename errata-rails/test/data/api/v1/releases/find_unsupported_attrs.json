@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "codes": [
+      "unsupported_filter"
+    ],
+    "params": [
+      "blocker_flags"
+    ]
+  }
+}

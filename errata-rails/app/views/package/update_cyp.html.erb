@@ -1,0 +1,22 @@
+<%= page_title_h1 %>
+<% if @changes.empty? %>
+<h2>No Updates.</h2>
+<% else %>
+<h2>The following packages will change.</h2>
+<% row_func = lambda do |diff|
+   ["#{diff}"]
+end
+%>
+
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['CYP Changes'],
+:func => row_func,
+:row_items => @changes
+}) %>
+
+<%= form_tag :action => :update_cyp do %>
+<%= submit_tag 'Update', :class=>'btn btn-primary' %>
+<% end %>
+
+<% end  %>

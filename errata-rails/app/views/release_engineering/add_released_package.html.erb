@@ -1,0 +1,35 @@
+<%= form_tag :action => 'add_released_package' do  %>
+  <% if @released_packages_valid %>
+    <p><label for="input_product_version">Product Version</label></p>
+    <p><%= select_tag 'input[product_version]',
+                      options_from_collection_for_select(
+                        @product_versions,
+                        :id, :name, @selected_product_version.id
+                      ), :class => 'eso-chosen-select'
+    %></p>
+    <p><label for="input_nvrs">Brew Build Name (NVR of SRPM)</label></p>
+    <p><%= text_area_tag('input[nvrs]', @raw_nvrs.to_s, :rows => 10, :cols => 50) %></p>
+    <p><label for="input_reason">Reason</label></p>
+    <p><%= text_area_tag('input[reason]', @reason, :rows => 3, :cols => 50) %></p>
+    <p><%= submit_tag 'Submit', :class=>'btn btn-primary' %></p>
+
+  <% else %>
+    <%= hidden_field_tag('input[product_version]', @selected_product_version.id) %>
+    <%= hidden_field_tag('input[nvrs]', @raw_nvrs.to_s) %>
+    <%= hidden_field_tag('input[reason]', @reason) %>
+    <%= hidden_field_tag(:skip_brew_build_version_check, 1) %>
+    <div class="alert">
+      <strong>Warning! Attempt to add old Brew Builds</strong><br/>
+      <%= safe_join(@errors, "<br/>".html_safe) %>
+    </div>
+    <h3>Are you sure you want to continue?</h3>
+    <span class="help-block small">
+      Errata Tool doesn't allow NVRs that are older than the existing released packages to be
+      added by default because adding old NVRs could provide wrong information to TPS and RPMDiff
+      tests. Simply click the 'Yes I'm really sure' button to continue if you have a good reason to add old NVRs.
+    </span>
+
+    <%= submit_tag("Cancel", :class=>'btn btn-primary') %>
+    <%= submit_tag("Yes I'm really sure", :class=>'btn btn-default') %>
+  <% end %>
+<% end %>

@@ -1,0 +1,36 @@
+<% row_func = lambda do |group|
+   links = group.collect do |x|  
+   if x.respond_to?('url_name')
+      link_to(x.to_s, :action => action,:id => x.url_name)  
+   else 
+       x.to_s
+   end
+end
+   ["#{links.join('</td><td>')}".html_safe]
+end
+%>
+
+<% grouped = multi_column_list.inject([]) do |ary, x|
+       not_nil_count = [*ary.last].count {|i| !i.nil? }
+       ary << [] if not_nil_count % count == 0
+       ary.last << x
+       ary
+     end
+     # TODO: Could probably use multi_column_list.each_slice.to_a and ditch the above
+
+     last = grouped.last
+     last << '' while last && last.length < count
+%>
+
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => [],
+:func => row_func,
+:row_items => grouped
+}) %>
+
+
+
+
+
+

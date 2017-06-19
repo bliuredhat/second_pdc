@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "variant_id": [
+      "cannot be specified with variant_name, variant_names"
+    ]
+  }
+}

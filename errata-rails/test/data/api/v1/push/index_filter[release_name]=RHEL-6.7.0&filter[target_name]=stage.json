@@ -1,0 +1,59 @@
+# HTTP 200
+[
+  {
+    "errata": {
+      "id": 20044
+    },
+    "id": 43405,
+    "log": "2015-04-07 10:04:56 -0400 Running pre push tasks\n2015-04-07 10:04:57 -0400 Pub task created, task id: 55538\n2015-04-07 10:04:57 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/55538\n2015-04-07 10:04:57 -0400 Waiting on pub to finish.\n2015-04-07 10:16:07 -0400 Pub completed.\n2015-04-07 10:16:07 -0400 Running post push tasks.\n2015-04-07 10:16:07 -0400 Running post push tasks: mark_rhnqa_done, reschedule_rhnqa\n2015-04-07 10:16:07 -0400 Running mandatory tasks mark_rhnqa_done, reschedule_rhnqa\n2015-04-07 10:16:07 -0400 Running task mark_rhnqa_done\n2015-04-07 10:16:07 -0400 Running task reschedule_rhnqa\n2015-04-07 10:16:10 -0400 Running remainder:\n2015-04-07 10:16:10 -0400 post-push tasks complete",
+    "options": {
+      "priority": 10,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_rhnqa_done",
+      "reschedule_rhnqa"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": 55538
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 2,
+      "name": "rhn_stage"
+    },
+    "url": "http://www.example.com/api/v1/erratum/20044/push/43405"
+  },
+  {
+    "errata": {
+      "id": 20044
+    },
+    "id": 44106,
+    "log": "2015-04-29 04:59:42 -0400 Running pre push tasks\n2015-04-29 04:59:42 -0400 Pub task created, task id: 56905\n2015-04-29 04:59:42 -0400 Link to the pub task: http://pub.devel.redhat.com/pub/task/56905\n2015-04-29 04:59:42 -0400 Waiting on pub to finish.\n2015-04-29 05:05:49 -0400 Pub completed.\n2015-04-29 05:05:49 -0400 Running post push tasks in background job 1174613.\n2015-04-29 05:05:50 -0400 Running post push tasks: mark_rhnqa_done, reschedule_rhnqa\n2015-04-29 05:05:50 -0400 Running mandatory tasks mark_rhnqa_done, reschedule_rhnqa\n2015-04-29 05:05:50 -0400 Running task mark_rhnqa_done\n2015-04-29 05:05:50 -0400 Running task reschedule_rhnqa\n2015-04-29 05:05:52 -0400 Running remainder:\n2015-04-29 05:05:52 -0400 Mandatory post push tasks complete",
+    "options": {
+      "priority": 10,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_rhnqa_done",
+      "reschedule_rhnqa"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": 56905
+    },
+    "status": "COMPLETE",
+    "target": {
+      "id": 2,
+      "name": "rhn_stage"
+    },
+    "url": "http://www.example.com/api/v1/erratum/20044/push/44106"
+  }
+]

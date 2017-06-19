@@ -1,0 +1,20 @@
+--- !ruby/object:OpenStruct
+table:
+  :MON: !ruby/object:OpenStruct
+    table:
+      :x86_64: !ruby/object:OpenStruct
+        table:
+          :"ceph-base":
+          - x86_64
+          :"ceph-common":
+          - x86_64
+          :ceph:
+          - src
+      :aarch64: !ruby/object:OpenStruct
+        table:
+          :"librgw2":
+          - aarch64
+          :"librgw2-devel":
+          - aarch64
+          :"librados2-devel":
+          - aarch64

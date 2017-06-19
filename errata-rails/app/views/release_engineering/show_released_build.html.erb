@@ -1,0 +1,20 @@
+<%  pv_links = @maps_channels.keys.collect { |map| link_to map.product_version.name, :action => :released_packages, :id => map.product_version } %>
+<h1>Released packages for build <%= brew_link(@build) %> in <%= pv_links.join(', ').html_safe %></h1>
+
+<% if @advisories.any? -%>
+  <%  @advisories.each do |errata| -%>
+    <p>
+      Released <%= errata.release.name %> on <%= errata.issue_date.to_date.to_s(:long) %> in <%= errata_link(errata) %>
+    </p>
+  <%  end -%>
+<% else %>
+Released at GA
+<% end %>
+<p/>
+<% @maps_channels.each_pair do |map, channels| %>
+  <b><%= map.product_version.name %></b>
+  <%= render(:partial => 'released_build_channels', :object => channels) %>
+  <br/>
+<% end %>
+<p/>
+

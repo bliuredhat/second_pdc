@@ -1,0 +1,14 @@
+<%= form_tag :action => 'erratabugs' do  %>
+<table>
+<tr>
+<td>
+<%= render(:partial => 'product_list', :object => @release.product) %>
+</td>
+<td>
+<%= render :partial => 'release_list', :object => @release.product.active_releases, :locals => {:release => @release} %>
+</td>
+</tr>
+</table>
+<% end %>
+
+<%= render :partial => 'errata_bug_list', :object => @release %>

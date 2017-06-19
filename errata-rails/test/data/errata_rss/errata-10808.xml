@@ -1,0 +1,238 @@
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" version="2.0">
+  <channel>
+    <title>RHBA-2011:10808 - virtio-win bug fix and enhancement update</title>
+    <link>https://errata-unit-test/advisory/10808</link>
+    <description>RHBA-2011:10808 - virtio-win bug fix and enhancement update</description>
+    <item>
+      <title>New Advisory: RHBA-2011:10808 - virtio-win bug fix and enhancement update</title>
+      <description>New Advisory: RHBA-2011:10808 - virtio-win bug fix and enhancement update&lt;br/&gt;
+Release: RHEL-6.1.0&lt;br/&gt;
+Created by: Vadim Rozenfeld (vrozenfe@redhat.com)&lt;br/&gt;
+Bugs: &lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=610787"&gt;610787 - [balloon]evict windows guest free memory does not work&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=616685"&gt;616685 - balloon:window guest can not keep memory change after guest restart&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=621834"&gt;621834 - Poor write I/O performance of virtio-win driver&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=625036"&gt;625036 - For virtio-blk driver MSISupported should be turned on by default on VISTA and higher.&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=625465"&gt;625465 - virtio-serial CloseHandle &amp; shutdown problems&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=630536"&gt;630536 - Crash when running on Windows XP SMP&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=630830"&gt;630830 - nic:Network become unavailable in windows 2008 x64 guest when doing netperf test&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=633208"&gt;633208 - VirtIo-Serial data corruption when working on Windows XP SMP VM&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=633243"&gt;633243 - [WHQL] Windows 2008 R2 guest hang when running job of "DP WLK - Hot-Add - Device Test - Verify driver support for Hot-Add CPU".&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=634536"&gt;634536 - BSOD after hot-unplug a virtio-serial port&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=634828"&gt;634828 - hal.dll file is missing after quit winxp guest several time&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=635506"&gt;635506 - [WHQL] Win2k8-32 guest always got BSOD (0X93) during balloon testing&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=637713"&gt;637713 - fail to attach virtio serial port to guest when use same nr for different virtio serial pci&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=669276"&gt;669276 - [WHQL]Windows fails to do S4/S3 with virtio-win-1.1.17&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=669314"&gt;669314 - (virtio-win-1.1.17) Can not generate crash dump file after BSOD of Windows guests.&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=669316"&gt;669316 - [WHQL] BSOD occurs when running "CHAOS-Concurrent Hardware And OS test"&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=669633"&gt;669633 - [WHQL]Job of "DPWDK-HotReplace-Device Test-Verify driver support for D3 power state" fails with getting BSOD&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=670713"&gt;670713 - (virtio-win-1.1.17)Virtio serial driver always causes windows BSOD when install or run whql jobs.&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=671187"&gt;671187 - .git in sources tarball&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=688839"&gt;688839 - Failed to boot windows guest with 30 virtio serial ports (Got BSOD 0XD1)&lt;/a&gt;&lt;br/&gt;
+JIRA issues: &lt;br/&gt;
+&lt;a href="https://issues.jboss.org/browse/MAITAI-1190"&gt;MAITAI-1190 - Release Maitai 0.15&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://issues.jboss.org/browse/MAITAI-1229"&gt;MAITAI-1229 - Send announcement and post on confluence&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://issues.jboss.org/browse/MAITAI-1056"&gt;MAITAI-1056 - [RFE]Add "Process Description" to process search&lt;/a&gt;&lt;br/&gt;
+Brew Builds:&lt;br/&gt;
+&lt;a href="https://brewweb.engineering.redhat.com/brew/buildinfo?buildID=156648"&gt;virtio-win-1.1.16-1.el6&lt;/a&gt;</description>
+      <pubDate>Sun, 13 Feb 2011 15:39:10 -0000</pubDate>
+      <dc:date>2011-02-13T15:39:10Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c1</link>
+      <description>virtio-win drivers for rhel 6.1.0</description>
+      <pubDate>Sun, 13 Feb 2011 15:41:28 -0000</pubDate>
+      <dc:date>2011-02-13T15:41:28Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Lawrence Lim (llim@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c2</link>
+      <description>&lt;br/&gt;Changed QE owner from Virt QE (virt-bugs@redhat.com) to Nicole Dai (ndai@redhat.com)</description>
+      <pubDate>Mon, 14 Feb 2011 02:12:34 -0000</pubDate>
+      <dc:date>2011-02-14T02:12:34Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Jay Greguske (jgregusk@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c3</link>
+      <description>Product changed from Red Hat Enterprise Linux to Red Hat Enterprise Linux Extras</description>
+      <pubDate>Mon, 14 Feb 2011 22:15:07 -0000</pubDate>
+      <dc:date>2011-02-14T22:15:07Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c4</link>
+      <description>new virtio-win drivers for testing:&lt;br/&gt;http://download.lab.bos.redhat.com/devel/RHEV/virtio-win/1.1.19/</description>
+      <pubDate>Tue, 15 Feb 2011 12:07:35 -0000</pubDate>
+      <dc:date>2011-02-15T12:07:35Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c5</link>
+      <description>Hi, Vadim&lt;br/&gt;Seems this bug need to be added to this errata, right?&lt;br/&gt;616685 - balloon:window guest can not keep memory change after guest restart &lt;br/&gt;</description>
+      <pubDate>Wed, 16 Feb 2011 10:17:26 -0000</pubDate>
+      <dc:date>2011-02-16T10:17:26Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c6</link>
+      <description>And also this one.&lt;br/&gt;670713 - (virtio-win-1.1.17)Virtio serial driver always causes windows BSOD when install or run whql jobs. </description>
+      <pubDate>Wed, 16 Feb 2011 10:21:54 -0000</pubDate>
+      <dc:date>2011-02-16T10:21:54Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c7</link>
+      <description>Hi, Qunfang&lt;br/&gt;Unfortunately, I cannot do it for ON_QA bugs. I can add only bugs marked as VERIFIED | MODIFIED.&lt;br/&gt; </description>
+      <pubDate>Wed, 16 Feb 2011 11:13:48 -0000</pubDate>
+      <dc:date>2011-02-16T11:13:48Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Lawrence Lim (llim@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c8</link>
+      <description>Noticed one more while reviewing:&lt;br/&gt;Bug 634828 - hal.dll file is missing after quit winxp guest several time &lt;br/&gt;&lt;br/&gt;Bug 616685 - balloon:window guest can not keep memory change after guest restart - QE can move to MODIFED if Vadim bz permission is not yet setup&lt;br/&gt;&lt;br/&gt;Bug 670713 - (virtio-win-1.1.17)Virtio serial driver always causes windows BSOD when install or run whql jobs. - QA Ack provided, so once it move from ASSIGNED to MODIFIED, Vadim will be able to add.</description>
+      <pubDate>Wed, 16 Feb 2011 13:40:43 -0000</pubDate>
+      <dc:date>2011-02-16T13:40:43Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c9</link>
+      <description>&lt;br/&gt;&lt;br/&gt;The following new bugs have been added:&lt;br/&gt;bug 634828 - hal.dll file is missing after quit winxp guest several time&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 16 Feb 2011 14:16:20 -0000</pubDate>
+      <dc:date>2011-02-16T14:16:20Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c10</link>
+      <description>Hi, Vadim&lt;br/&gt;According to Comment 8, I have change the Bug 616685 to MODIFIED. Could you help to add it and change to ON_QA then?&lt;br/&gt;Thanks.&lt;br/&gt;</description>
+      <pubDate>Thu, 17 Feb 2011 02:16:08 -0000</pubDate>
+      <dc:date>2011-02-17T02:16:08Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c11</link>
+      <description>Hi, Vadim&lt;br/&gt;According to Comment 8, I have change the Bug 616685 to MODIFIED. Could you help to add it and change to ON_QA then?&lt;br/&gt;Thanks.&lt;br/&gt;</description>
+      <pubDate>Thu, 17 Feb 2011 02:16:08 -0000</pubDate>
+      <dc:date>2011-02-17T02:16:08Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c12</link>
+      <description>&lt;br/&gt;&lt;br/&gt;The following new bugs have been added:&lt;br/&gt;bug 616685 - balloon:window guest can not keep memory change after guest restart&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Thu, 17 Feb 2011 06:16:05 -0000</pubDate>
+      <dc:date>2011-02-17T06:16:05Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c13</link>
+      <description>&lt;br/&gt;&lt;br/&gt;bug 671187 changed from ON_QA to ASSIGNED&lt;br/&gt;Change the status to ASSIGNED according to:&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=671187#c5&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Fri, 18 Feb 2011 06:58:50 -0000</pubDate>
+      <dc:date>2011-02-18T06:58:50Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c14</link>
+      <description>&lt;br/&gt;&lt;br/&gt;The following new bugs have been added:&lt;br/&gt;bug 670713 - (virtio-win-1.1.17)Virtio serial driver always causes windows BSOD when install or run whql jobs.&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Mon, 21 Feb 2011 18:09:15 -0000</pubDate>
+      <dc:date>2011-02-21T18:09:15Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c15</link>
+      <description>Hi, Vadim&lt;br/&gt;Could you help to change the status from NEW_FILES to QE, then I will change some bug status from ON_QA to VERIFIED.&lt;br/&gt;&lt;br/&gt;Thanks.</description>
+      <pubDate>Wed, 02 Mar 2011 02:50:12 -0000</pubDate>
+      <dc:date>2011-03-02T02:50:12Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c16</link>
+      <description>Hi, Qunfang&lt;br/&gt;&lt;br/&gt;Unfortunately, NEW_FILES it the only option I can choose from.&lt;br/&gt;&lt;br/&gt;Best Regards,&lt;br/&gt;Vadim.</description>
+      <pubDate>Wed, 02 Mar 2011 05:52:20 -0000</pubDate>
+      <dc:date>2011-03-02T05:52:20Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c17</link>
+      <description>&lt;br/&gt;&lt;br/&gt;bug 649773 changed from ON_QA to VERIFIED&lt;br/&gt;Change to VERIFIED according to:&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=649773#c23&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 09 Mar 2011 02:10:02 -0000</pubDate>
+      <dc:date>2011-03-09T02:10:02Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c18</link>
+      <description>&lt;br/&gt;&lt;br/&gt;bug 669316 changed from ON_QA to VERIFIED&lt;br/&gt;Change the status to VERIFIED according to:&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=669316#c11&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 09 Mar 2011 02:15:17 -0000</pubDate>
+      <dc:date>2011-03-09T02:15:17Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c19</link>
+      <description>&lt;br/&gt;&lt;br/&gt;bug 616685 changed from ON_QA to VERIFIED&lt;br/&gt;Change the status to VERIFIED according to:&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=616685#c13&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 09 Mar 2011 02:17:30 -0000</pubDate>
+      <dc:date>2011-03-09T02:17:30Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c20</link>
+      <description>&lt;br/&gt;&lt;br/&gt;bug 633243 changed from ON_QA to VERIFIED&lt;br/&gt;Verified according to:&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=633243#c28&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=633243#c36&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Thu, 10 Mar 2011 03:22:07 -0000</pubDate>
+      <dc:date>2011-03-10T03:22:07Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c21</link>
+      <description>&lt;br/&gt;&lt;br/&gt;bug 630830 changed from ON_QA to VERIFIED&lt;br/&gt;Change to status to VERIFIED according to:&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=630830#c18&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=630830#c19&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 16 Mar 2011 04:24:34 -0000</pubDate>
+      <dc:date>2011-03-16T04:24:34Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c22</link>
+      <description>&lt;br/&gt;&lt;br/&gt;The following new bugs have been added:&lt;br/&gt;bug 688839 - Failed to boot windows guest with 30 virtio serial ports (Got BSOD 0XD1)&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Tue, 22 Mar 2011 01:53:23 -0000</pubDate>
+      <dc:date>2011-03-22T01:53:23Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c23</link>
+      <description>&lt;br/&gt;&lt;br/&gt;bug 688839 changed from ON_QA to VERIFIED&lt;br/&gt;Change the status to VERIFIED according to:&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=688839#c10&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 23 Mar 2011 03:10:13 -0000</pubDate>
+      <dc:date>2011-03-23T03:10:13Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c24</link>
+      <description>Hi, Qunfang &lt;br/&gt;Could you please add &lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=690713&lt;br/&gt;to the bugs list?&lt;br/&gt;I cannot do it by myself, don't know why.&lt;br/&gt;&lt;br/&gt;Best regards,&lt;br/&gt;Vadim. </description>
+      <pubDate>Fri, 25 Mar 2011 17:07:53 -0000</pubDate>
+      <dc:date>2011-03-25T17:07:53Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c25</link>
+      <description>&lt;br/&gt;&lt;br/&gt;bug 671187 changed from ON_QA to VERIFIED&lt;br/&gt;Verified pass in:&lt;br/&gt;https://brewweb.engineering.redhat.com/brew/buildinfo?buildID=160451&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Mon, 28 Mar 2011 04:37:09 -0000</pubDate>
+      <dc:date>2011-03-28T04:37:09Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Qunfang Zhang (qzhang@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c26</link>
+      <description>Hi,&lt;br/&gt;Anyone can help to add the following bug to this erratum?&lt;br/&gt;https://bugzilla.redhat.com/show_bug.cgi?id=690713&lt;br/&gt;&lt;br/&gt;Neither Vadim Nor I can do this.It says:&lt;br/&gt;"There are no new bugs currently available for this advisory."&lt;br/&gt;</description>
+      <pubDate>Mon, 28 Mar 2011 07:48:42 -0000</pubDate>
+      <dc:date>2011-03-28T07:48:42Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Radek Bíba (rbiba@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c27</link>
+      <description>The bug can't be added until it's fully approved. It's missing pm_ack.</description>
+      <pubDate>Mon, 28 Mar 2011 08:01:53 -0000</pubDate>
+      <dc:date>2011-03-28T08:01:53Z</dc:date>
+    </item>
+    <item>
+      <title>Comment from Vadim Rozenfeld (vrozenfe@redhat.com)</title>
+      <link>https://errata-unit-test/advisory/10808#c28</link>
+      <description>&lt;br/&gt;&lt;br/&gt;The following new bugs have been added:&lt;br/&gt;bug 690713 - [WHQL] Virtio block job "Embedded Signature Verification" fails on virtio-win-prewhql-0.1-7.&lt;br/&gt;&lt;br/&gt;</description>
+      <pubDate>Mon, 28 Mar 2011 20:53:05 -0000</pubDate>
+      <dc:date>2011-03-28T20:53:05Z</dc:date>
+    </item>
+  </channel>
+</rss>

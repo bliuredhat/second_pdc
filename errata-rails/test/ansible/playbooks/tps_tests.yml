@@ -1,0 +1,20 @@
+- name: Run TPS tests in the stable systems
+  hosts: '{{ target }}'
+  vars:
+    env:
+      ERRATA_XMLRPC: '{{ xmlrpc_host }}'
+  tasks:
+    - name: "Create a temp directory"
+      file: "dest=/tmp/hao_test mode=777 state=directory"
+
+    - name: "Run TPS make-list script"
+      register: tps_result
+      command: tps-make-lists -v -e {{ errata_id }}
+      args:
+        chdir: /tmp/hao_test
+      environment: env
+      async: 480
+      #poll: 40
+      failed_when: "tps_result.stdout is defined and 'OVERALL TEST RESULT: TPS-MAKE-LISTS: FAIL' in tps_result.stdout"
+
+    #- debug: var=tps_result

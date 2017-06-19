@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "description": "false",
+        "is_active": false,
+        "is_locked": false,
+        "name": "batch_00005",
+        "release_date": "2015-09-01"
+      },
+      "id": 5,
+      "relationships": {
+        "errata": [
+
+        ],
+        "release": {
+          "id": 147,
+          "name": "RHEL-6.1.0"
+        }
+      },
+      "type": "batches"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<div id="find_errata">
+  <%= form_tag :controller => 'errata', :action => 'find' do %>
+  Find Request  <%= text_field(:advisory, :name, :size => 7) %>
+  <%= submit_tag "Go", :class=>'btn btn-primary' %>
+<% end %>
+</div>

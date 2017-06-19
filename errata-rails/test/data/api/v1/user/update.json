@@ -1,0 +1,14 @@
+# HTTP 200
+{
+  "email_address": "notting@redhat.com",
+  "enabled": false,
+  "login_name": "notting@redhat.com",
+  "organization": "RHEV Hypervisor & Cluster",
+  "realname": "Bill Nottingham",
+  "receives_mail": false,
+  "roles": [
+    "errata",
+    "pm",
+    "releng"
+  ]
+}

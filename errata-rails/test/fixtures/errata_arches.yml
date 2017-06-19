@@ -1,0 +1,81 @@
+--- 
+errata_arch_00001: 
+  id: 1
+  name: alpha
+  active: false
+errata_arch_00003: 
+  id: 3
+  name: athlon
+  active: false
+errata_arch_00004: 
+  id: 4
+  name: i386
+  active: true
+errata_arch_00005: 
+  id: 5
+  name: i586
+  active: false
+errata_arch_00006: 
+  id: 6
+  name: i686
+  active: false
+errata_arch_00007: 
+  id: 7
+  name: ia64
+  active: true
+errata_arch_00008: 
+  id: 8
+  name: noarch
+  active: false
+errata_arch_00009: 
+  id: 9
+  name: s390
+  active: true
+errata_arch_00010: 
+  id: 10
+  name: sparc
+  active: false
+errata_arch_00013: 
+  id: 13
+  name: x86_64
+  active: true
+errata_arch_00014: 
+  id: 14
+  name: s390x
+  active: true
+errata_arch_00017: 
+  id: 17
+  name: ppc
+  active: true
+errata_arch_00018: 
+  id: 18
+  name: ppc64
+  active: true
+errata_arch_00019: 
+  id: 19
+  name: ppc64iseries
+  active: false
+errata_arch_00020: 
+  id: 20
+  name: ppc64pseries
+  active: false
+errata_arch_00021: 
+  id: 21
+  name: amd64
+  active: false
+errata_arch_00023: 
+  id: 23
+  name: ia32e
+  active: false
+errata_arch_00024: 
+  id: 24
+  name: SRPMS
+  active: false
+errata_arch_00026:
+  name: aarch64
+  id: 26
+  active: true
+errata_arch_00027:
+  id: 27
+  name: ppc64le
+  active: true

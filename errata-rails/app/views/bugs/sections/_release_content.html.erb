@@ -1,0 +1,48 @@
+<p>This additional information might be useful for diagnostic purposes.</p>
+<%
+  #
+  # Reuse some bz_table locals
+  #
+  list_opts = {
+    :wrapper_div => 'scroll_tall_content',
+    :headers => %w[Advisory Synopsis State Release],
+    :func => lambda { |e| [
+      link_to(e.advisory_name,{:controller=>:errata,:action=>:view,:id=>e}),
+      string_trunc(e.synopsis,50),
+      e.status,
+      e.release.name,
+    ]},
+    :none_message => 'n/a',
+    :no_pad_none_message => true,
+  }
+
+  #
+  # Reuse a sorting advisories by status method
+  #
+  errata_sorter = lambda { |errata| [ State.sort_order[errata.status.to_s], -errata.id ] }
+-%>
+
+<% if @release %>
+  <h3>Approved components list (ACL) for <%= @release.name %> (<%= @approved_components.count %> total)</h3>
+  <%= render('/shared/bz_table', list_opts.merge({
+    :row_items => @approved_components,
+    :headers   => ['Package Name', 'Created'],
+    :func      => lambda { |package| [package.name, package.created_at.to_s(:mmm_d_y) ] },
+  })) %>
+
+  <h3>Existing advisories for <b><%= @release.name %></b> (<%= @release.errata.count %> total)</h3>
+  <%= render('/shared/bz_table', list_opts.merge(
+    :row_items => @release.errata.sort_by{|e|errata_sorter.call e}
+  )) %>
+
+<% else %>
+  <h3>Approved components list</h3>
+  <p><i>Can't determine the release for this bug, hence no approved component list is available.</i></p>
+
+<% end %>
+
+<%# (I think it's safe to assume bugs always have a package) %>
+<h3>Existing advisories for <%= @package.name %> (<%= @package.errata.count %> total)</h3>
+<%= render('/shared/bz_table', list_opts.merge(
+  :row_items => @package.errata.sort_by{|e|errata_sorter.call e}
+)) %>

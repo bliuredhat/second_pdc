@@ -1,0 +1,13 @@
+<%= table_rows_helper([
+  [ 'Mapping Type', @multi_product_mapping.mapping_type.to_s.camelize.constantize.display_name ],
+  [ 'Package Name', @multi_product_mapping.package ],
+  [ 'Origin Channel/Cdn Repo',
+    "#{@multi_product_mapping.origin} (#{@multi_product_mapping.origin.product_version.name})"
+  ],
+  [ 'Destination Channel/Cdn Repo',
+    "#{@multi_product_mapping.destination} (#{@multi_product_mapping.destination.product_version.name})"
+  ],
+  [ 'Created By', @multi_product_mapping.user ],
+  [ 'Created At', @multi_product_mapping.created_at ],
+  [ 'Updated At', @multi_product_mapping.updated_at]
+], :labels=>true) %>

@@ -1,0 +1,11 @@
+{
+  "cdn_repo": {
+    "name": "new_repo_label",
+    "release_type": "Primary",
+    "content_type": "Binary",
+    "variant_name": "7Client",
+    "arch_name": "x86_64",
+    "use_for_tps": true
+  }
+}
+

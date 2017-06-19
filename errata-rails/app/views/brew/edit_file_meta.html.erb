@@ -1,0 +1,72 @@
+<% if @errata.brew_files.nonrpm.none? %>
+
+  <h2>There are no files to edit</h2>
+
+  <p>
+    This page may be used to manage the attributes of non-RPM files.
+    However, there are currently no non-RPM files in this advisory.
+  </p>
+
+<% else %>
+
+  <h2>Manage file attributes</h2>
+
+  <p>
+    This advisory contains non-RPM files.  The attributes of these
+    files may be reviewed and set on this page.
+  </p>
+
+  <dl>
+    <dt>Title</dt>
+    <dd>
+      <p>
+        A brief descriptive name for this file, used as a label on Red
+        Hat Customer Portal.
+      </p>
+
+      <p>
+        Example: for <tt>rhel-workstation-7.0-x86_64-dvd.iso</tt>, an
+        appropriate title could be <b>RHEL 7.0 Binary DVD (x86_64)</b>.
+      </p>
+    </dd>
+
+    <dt>Order</dt>
+    <dd>
+      <p>
+        The order of files on this page defines the order in which
+        files will be displayed on Red Hat Customer Portal.
+      </p>
+
+      <p>
+        Files may be ordered so that related files are grouped together
+        and more important files are listed first.
+      </p>
+
+      <p>
+        When the advisory filelist is unlocked, the order may be
+        modified by dragging and dropping rows in the table below.
+      </p>
+    </dd>
+  </dl>
+
+  <% if @errata.filelist_locked? %>
+    <div class="alert alert-warning bold">
+      The file list is currently locked. To add or update file
+      attributes the advisory must be in status NEW_FILES.
+    </div>
+  <% end %>
+
+  <%= render 'shared/bz_table',
+    :no_tablesort => true,
+    # can only drag/drop rows when filelist unlocked
+    :extra_class => ('et-sortable high' if @errata.filelist_unlocked?),
+    :row_items => @brew_file_meta.sort_by{|m|
+      [m.rank || 2**31, m.brew_file.archive_type, m.brew_file.file_path]
+    },
+    :headers => brew_file_meta_headers,
+    :func => method(:brew_file_meta_row)
+  %>
+
+  <%= render 'save_rank_form' %>
+
+<% end %>

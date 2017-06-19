@@ -1,0 +1,30 @@
+---
+- hosts: all
+  roles:
+    - { role: setup/validate-host, tags: base-system }
+    - { role: setup/base-system, tags: base-system }
+
+# reboot all but localhost
+- hosts: all:!local
+  roles:
+    - common/reboot
+
+- hosts: all
+  roles:
+    - { role: thirdparty/bennojoy.mysql, tags: database,
+        sudo: yes,
+        mysql_root_db_pass: '',
+        mysql_db: [],
+        mysql_users: []
+      }
+    - { role: setup/mysql, tags: database }
+    - { role: setup/tools/packaging, tags:  packaging-tools }
+    - { role: setup/tools/documentation, tags:  doc-tools }
+    - { role: errata/setup/rails-repo, repo: stage, tags: errata }
+    - { role: errata/dev/tools, tags: errata }
+    - { role: errata/setup/gems, project_dir: /code, tags: errata-init }
+    - { role: errata/setup/db, project_dir: /code,   tags: errata-init }
+    - { role: setup/cert, tags: cert }
+    - { role: setup/ldap, tags: ldap }
+  tasks:
+    - debug: msg="Setup successfull, Enjoy!"

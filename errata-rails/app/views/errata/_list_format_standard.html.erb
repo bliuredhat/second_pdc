@@ -1,0 +1,154 @@
+<table class="errata_list" style="width:100%;">
+  <thead>
+    <tr class="errata_list_head">
+      <th>Advisory</th>
+      <th>Product</th>
+      <th>Release</th>
+      <th>Batch</th>
+      <th>Embargo<br/>Date</th>
+      <th>Release<br/>Date</th>
+      <th>Reporter/<br/>Devel Group</th>
+      <th>QE Owner/<br/>Group</th>
+      <th>Docs Reviewer/<br/>Status</th>
+      <th>State/<br/>Progress</th>
+    </tr>
+  </thead>
+
+  <%
+    # obscure cosmetic tweak: want to start with a white row, unless grouped then it
+    # starts with a grey row because of the reset in list_grouped_header...
+    # It's because the grouped header row has a white background but the normal column
+    # header has a dark background.
+    cycle('odd','even', :name => 'odd_even')
+  %>
+
+  <% for errata in @erratas do %>
+
+    <%= render 'list_grouped_header', :errata=>errata, :colspan=>10 %>
+
+    <tbody data-errata-id="<%= errata.id %>" class="errata_row <%= cycle('odd', 'even', :name => 'odd_even') %>">
+      <tr class="upper">
+        <td class="norightpad first">
+          <%# Advisory -%>
+          <big style="float:left;">
+            <%= link_to(errata.advisory_name, {:id => errata, :controller => :errata, :action => :view},
+              :class=>"advisory_link show_type show_type_#{errata.errata_type}") %>
+          </big>
+
+          <div class="quick-action-menu btn-group" style="float:left;">
+            <%= block_render 'shared/more_button_menu', :btn_text=>'', :extra_class=>'btn-mini' do %>
+              <%# Menu will be loaded dynamically, see quick_action_menu.js -%>
+              <li><span class="not-loaded superlight">Loading...</span></li>
+            <% end %>
+          </div>
+
+          <div style="float:left">
+            <%= pdc_indicator_for(errata) %>
+            <%= render_indicators(errata) %>
+            <%= blocked_or_info_display(errata) %>
+          </div>
+
+        </td>
+        <td rowspan="2">
+          <%# Product -%>
+          <span title="<%= errata.product.name %>"><%= errata.product.short_name %></span>
+        </td>
+        <td rowspan="2" style="white-space:nowrap;">
+          <%# Release -%>
+          <%= width_limited_with_mouseover(errata.release.name, '100px') %>
+        </td>
+        <td rowspan="2" style="white-space:nowrap;">
+          <%= batch_description(errata) %>
+        </td>
+        <td rowspan="2">
+          <%# Embargo Date -%>
+          <div class="embargo_stamp">
+            <%=raw embargo_date_display(errata) %>
+          </div>
+        </td>
+        <td rowspan="2">
+          <%# Release Date -%>
+          <%=raw publish_date_and_explanation(errata) %>
+        </td>
+        <td>
+          <%# Reporter -%>
+          <%= nice_mailto_link errata.reporter %><br/>
+        </td>
+        <td>
+          <%# QE Owner -%>
+          <% if errata.unassigned? %>
+            <span class="small superlight" title="<%= errata.assigned_to.short_to_s %>"><i>unassigned</i></span>
+          <% else %>
+            <%= nice_mailto_link errata.assigned_to %>
+          <% end %>
+          <br/>
+        </td>
+        <td>
+          <%# Docs Reviewer -%>
+          <% if errata.docs_approved_or_requested? || errata.docs_were_requested? %>
+            <% if errata.docs_unassigned? %>
+              <span class="small superlight" title="<%= errata.doc_reviewer.short_to_s %>"><i>unassigned</i></span>
+            <% else %>
+              <%= nice_mailto_link errata.doc_reviewer %><br/>
+            <% end %>
+          <% else %>
+            <span class="superlight">-</span>
+          <% end %>
+        </td>
+        <td class="last compact" rowspan="2">
+          <%# State/Progress -%>
+
+          <%# Show the colourful state indicator %>
+          <span style="font-size:120%;"><%=raw state_display(errata, :short=>true) %></span><br/>
+
+          <%
+            # Show how long ago the status was updated.
+            # But if the advisory is closed, show closed indicator,
+            # (with mouseover text about how long ago status was updated).
+            status_update_ago_in_words    = time_ago_in_words(errata.status_updated_at,true).sub(/^about /,'')
+            status_update_ago_longer_text = "In state #{State.nice_label(errata.status,:short=>true)} for #{status_update_ago_in_words}"
+          %>
+          <% if errata.closed? %>
+            <span class="tiny light" title="<%= status_update_ago_longer_text %>">&nbsp;&nbsp;CLOSED</span>
+          <% else %>
+            <span class="tiny light" title="<%= status_update_ago_longer_text %>">(for <%= status_update_ago_in_words %>)</span>
+          <% end %>
+
+          <br/>
+
+          <%
+            # show how old the advisory is
+            created_ago_in_words          = time_ago_in_words(errata.created_at,true).sub(/^about/,'')
+            created_date_text             = "Created on #{errata.created_at.to_s(:Y_mmm_d)}"
+          %>
+          <span class="tiny light" title="<%= created_date_text %>"><%= created_ago_in_words %> old</span>
+        </td>
+      </tr>
+      <tr class="lower">
+        <td colspan="3" class="first">
+          <%# Impact, bug count, synopsis -%>
+          <%=raw impact_display(errata) %>
+          <span class="light">(<%=
+            bzsize = errata.filed_bugs.size
+            jirasize = errata.filed_jira_issues.size
+            size = bzsize + jirasize
+            "#{size} #{pluralize_based_on(size, jirasize == 0 ? 'bug' : 'issue')}"
+          %>)</span>
+          <%= errata.synopsis %>
+        </td>
+        <td>
+          <%# Devel Group -%>
+          <%= width_limited_with_mouseover(errata.package_owner.organization.name, '95px') %>
+        </td>
+        <td>
+          <%# QE Group -%>
+          <%= width_limited_with_mouseover(errata.quality_responsibility.name, '95px') %>
+        </td>
+        <td>
+          <%# Docs Status -%>
+          <%= errata.docs_status_text_short %>
+        </td>
+      </tr>
+    </tbody>
+  <% end %>
+</table>

@@ -1,0 +1,43 @@
+### In this advisory, the file metadata is not yet initialized.
+# HTTP 200
+[
+  {
+    "file": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "id": 698251,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/images/rhel-7-server-docker.ks",
+      "type": "ks"
+    },
+    "rank": null,
+    "title": null
+  },
+  {
+    "file": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "id": 698252,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/images/koji-image-guest-rhel-7.0-docker-build-7652483.ks",
+      "type": "ks"
+    },
+    "rank": null,
+    "title": null
+  },
+  {
+    "file": {
+      "arch": {
+        "id": 13,
+        "name": "x86_64"
+      },
+      "id": 698253,
+      "path": "/mnt/redhat/brewroot/packages/rhel-server-docker/7.0/22/images/rhel-server-docker-7.0-22.x86_64.tar.gz",
+      "type": "tar"
+    },
+    "rank": null,
+    "title": null
+  }
+]

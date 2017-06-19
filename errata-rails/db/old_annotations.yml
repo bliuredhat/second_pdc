@@ -1,0 +1,468 @@
+# See lib/tasks/schema_docs.rake
+# This was imported from a very old perl file.
+# TODO: Go through all these annotations, verify they are current.
+# If they are current then put them into db/annotations.yml,
+# otherwise remove them. Eventually get rid of this file alltogether.
+---
+user_organizations:
+  fields:
+    name: Name of the organization
+    manager_id: Manager for the organization. References users
+    parent_id: Parent organization
+    updated_at: Timestamp of org udpdate
+  description: User organization tree. Mirrors bugzilla org chart.
+errata_sanity:
+  description: DEPRECATED
+errata_packages:
+  fields:
+    name: Name of the package
+    created_at: Timestamp of when a new package  name added to the system.
+  description: Valid package names for brew builds used in errata system.
+sessions:
+  fields:
+    updated_at: null
+    session_id: null
+    data: null
+  description: Sessions table for Rails
+bugs:
+  fields:
+    is_private: True if this bug is private
+    alias: Alias name for bug
+    short_desc: Short description of the bug
+    package_id: Foreign key to errata_packages(id). References package info for the build
+    updated_at: Update timestamp
+    bug_status: Status of the bug (NEW, ON_QA, etc)
+    is_security: True if this bug is in the security produuct
+  description: Limited copy of information from the buzilla database, obtained by XMLRPC to bugzilla.
+errata_file_signatures:
+  description: DEPRECATED
+user_groups:
+  fields:
+    name: Name of the role
+    description: Brief description of the role
+  description: List of roles within the errata system, e.g. qa, devel, releng
+errata_resolution:
+  description: DEPRECATED
+tpsruns_nonerrata:
+  description: DEPRECATED
+rpmdiff_waivers:
+  fields:
+    old_result: Old score of the result
+    result_id: Result being waived. References rpmdiff_results
+    description: Reason for the waiver.
+    person: Person who waived the result. References users.
+    waive_date: Timestamp waiver was created
+  description: Set of waivers for RPMDiff Results
+errata_cc:
+  description: DEPRECATED
+comments:
+  fields:
+    text: Text of the comment
+    who: Foreign key to users(id). Person who made the comment.
+    errata_id: Foreign key to errata_main(id)
+    created_at: Timestamp when the comment was created
+  description: List of all comments added to an erratum.
+product_versions:
+  fields:
+    name: Name of the product version
+    product_id: Product for this version, references errata_products
+    rhel_release_id: RHEL Release version, i.e. RHEL-4. References rhel_releases
+    default_brew_tag: Default brew tag to use when searching for builds for errata
+    description: Description of this version
+    sig_key_id: Signature key to be used for all builds in errata for this product version. References sig_keys
+  description: Versions of a particular product. I.e. RHEL-4 or RHEL-5 for Red Hat Enterprise Linux
+errata_activity:
+  description: DEPRECATED
+rhel_releases:
+  fields:
+    name: Name of release
+    description: Description
+  description: Set of Red Hat Enterprise Linux releases, i.e. 3,4,5
+errata_sanity_hosts:
+  description: DEPRECATED
+errata_status:
+  description: DEPRECATED
+errata_severity:
+  fields:
+    value: Name of the group
+  description: Currently used for development group display in errata system.
+errata_activities:
+  fields:
+    removed: The prior state of the what, if applicable. i.e state was ON_QA
+    added: The new state of the what. i.e state is now NEED_DEV
+    who: Foreign key to users(id). References whom committed the activity
+    what: What was the activity, ex. status, respin, assigned_to
+    errata_id: References errata_main
+    created_at: When did the activity occur?
+  description: "Log of activities that occur during an erratum lifecycle: state changes, file changes, ownership reassignments"
+errata_tests_hosts:
+  description: DEPRECATED
+errata_attachments:
+  description: DEPRECATED
+errata_tests_results:
+  description: DEPRECATED
+user_group_map:
+  fields:
+    user_id: References users
+    group_id: References user_groups
+  description: Map between users and the roles they belong to in the system
+errata_products:
+  fields:
+    name: Name of the product
+    build_path: DEPRECATED
+    path: DEPRECATED
+    allow_ftp: This product can be pushed to the ftp server if set to 1
+    short_name: Abbreviation for the product
+    ftp_subdir: FTP subdirectory for product. System will default to short name if null
+    description: Brief description of the product
+    ftp_path: Partial Ftp path for the product, if it does not follow the normal FTP path conventions
+    isactive: If set to 1, the product is active. It will show up in UI queries and errata can be filed for it.
+  description: Set of products in the errata system, e.g. Red Hat Enterprise Linux
+errata_comment:
+  description: DEPRECATED
+errata_latest:
+  description: DEPRECATED
+tpsjobs_nonerrata:
+  description: DEPRECATED
+errata_groups_map:
+  description: DEPRECATED
+brew_builds:
+  fields:
+    package_id: Foreign key to errata_packages(id). References package info for the build
+    nvr: NVR for build. Combination of name, version and release fields for easy lookup
+    epoch: Optional build Epoch
+    signed_rpms_written: True if signed rpms have been written to /mnt/brewroot by Brew
+    release: Release part of the build NVR string
+    sig_key_id: Foreign key to sig_keys(id). References which GPG key, if any, used to sign the build
+    released_errata_id: ID of released errata if any. References errata_main
+    version: Version part of the build NVR string
+  description: Contains Brew Build information, obtained via XMLRPC to Brew. NVR info same as in brew build and RPM standards.
+errata_versions:
+  fields:
+    name: Name of the variant
+    product_id: Product ffor this variant. References errata_products
+    rhel_variant_id: RHEL Variant for this variant. I.e. 5Server-Stacks would reference 5Server.
+    rhn_channel_tmpl: DEPRECATED
+    cpe: Common Platform Enumeration of variant. http://cpe.mitre.org/
+    rhel_release_id: RHEL Release version, i.e. RHEL-4. References rhel_releases
+    description: Description
+    product_version_id: Product Version of variant. References product_versions
+  description: List of product variants, i.e. 4AS, 5Server-Stacks
+users:
+  fields:
+    login_name: e-mail address of user
+    realname: Full name of user
+    user_organization_id: Organization user belongs to.
+  description: Set of users in the system
+errata_main:
+  fields:
+    qa_complete: True when QA Testing is done
+    reporter: Foreign key to users(id). Person who filed the advisory.
+    release_date: Date erratum released to RHN Live
+    synopsis: Short description of the erratum
+    product_id: Foreign key to errata_products(id). The product for the erratum.
+    class: DEPRECATED
+    is_brew: True if this erratum uses Brew; true for any erratum filed after September 2006
+    current_tps_run: Foreign key to tpsruns(run_id). References the current TPS Run.
+    text_ready: True when erratum text is ready for documentation review
+    resolution: REsolution of the erratum. COMPLETE|DEFERRED|DROPPED, somewhat DEPRECATED
+    pkg_owner: Foreign key to users(id). Developer responsible for packages in erratum.
+    issue_date: Date the erratum was created, also updated when it shipps live
+    pushcount: Number of times erratum has been pushed to RHN Live
+    status_updated_at: Timestamp when status was last updated
+    status: State of the erratum. NEW, ON_QA, etc.
+    published: "?"
+    fulladvisory: Full advisory string name. In the form of RHSA-20070920-02.
+    deleted: True if the erratum is no longer valid. May be DEPRECATED, overlaps DROPPED_NO_SHIP state and valid field
+    closed: True when erratum has been completed and is considered closed
+    manager_contact: Foreign key to users(id). Person who manages pkg_owner.
+    rhnqa: True when erratum has been pushed into RHN testing environment
+    respin_count: Count of the number of times this erratum has respun
+    updated_at: Update timestamp
+    revision: Revision number for the erratum. The -02 in RHSA-20070920-02
+    filelist_changed: True if the filelist has been changed when erratum last was in NEED_RESPIN
+    doc_complete: True when documentation has been edited and approved.
+    severity: DEPRECATED name. Now used to indicate development group for erratum.
+    contract: DEPRECATED
+    request: DEPRECATED
+    update_date: Date the advisory was last updated.
+    published_shadow: True when erratum has been pushed into shadow channels in RHN Live environment.
+    valid: True if this is a valid erratum.
+    sign_requested: True when signatures have been requested for the brew builds in this advisory.
+    priority: DEPRECATED
+    group_id: Foreign key to errata_groups(id). The release group the erratum belongs to.
+    mailed: True if the erratum text has been e-mailed to RHN subscribers
+    security_impact: Security impact, valid for RHSA errata.
+    errata_type: Type of the erratum. One of RHSA|RHBA|RHEA, used as inheritance column.
+    filelist_locked: True if the filelist is locked.
+    old_delete_product: DEPRECATED
+    created_at: Creation timestamp
+    errata_id: Numeric part of the fulladvisory. The 0920 in RHSA-20070920-02.
+    assigned_to: Foreign key to users(id). Quality Engineer to whom testing is assigned.
+    rhnqa_shadow: True when erratum has been pushed into shadow channels in RHN testing environment.
+    rhn_complete: DEPRECATED
+    old_advisory: The old advisory_name if this errata was renamed, e.g. from 2009:8196 to 2008:0121
+    pushed: True if the erratum has been pushed live
+  description: Main table for errata. Describes most of the data in an errata, and manages much of the relationships to other objects.
+rpmdiff_tests:
+  fields:
+    wiki_url: Link to page further describing test
+    description: Description of the test
+    long_desc: Longer description
+  description: Set of different rpmdiff tests available.
+errata_key_map:
+  description: DEPRECATED
+rhn_push_jobs:
+  fields:
+    status: Status of the push. STARTED, FAILED, COMPLETE
+    updated_at: Update timestamp
+    pushed_by: User pushing the advisory
+    push_type: Type of push. stage or live
+    errata_id: Errata being pushed. References errata_main
+    created_at: Creation timestamp
+    log: Log from RHN Push process
+  description: List of all RHN pushes that have occurred. RHN Push is async, so these records are updated until the process terminates.
+rpmdiff_results:
+  fields:
+    need_push_priv: If set to 1, user needs special privileges to waive this result
+    run_id: Rpmdiff run for the result. References rpmpdiff_runs
+    score: Result score
+    test_id: Test that was run. References rpmdiff_tests
+    log: Log of rpmdiff run
+  description: Results of RPMDiff runs
+errata_type:
+  description: DEPRECATED
+tps_stacks_releases:
+  description: DEPRECATED
+brew_tags_product_versions:
+  fields:
+    brew_tag_id: null
+    product_version_id: null
+  description: Map between brew_tags and product_versions.
+tpsfiles:
+  description: DEPRECATED
+bug_references:
+  description: DEPRECATED
+errata_tests:
+  description: DEPRECATED
+released_packages:
+  fields:
+    current: If set to 1, this is the current released package for a particular product version
+    brew_build_id: Brew build released. References brew_builds
+    arch_id: Arch released to. Note not neccessarily the same as rpm arch for multi-lib
+    rpm_name: DEPRECATED
+    updated_at: Timestamp when record updated
+    package_id: References errata_packages
+    product_version_id: Product version of this release. References product_versions
+    brew_rpm_id: Brew RPM released. References brew_rpms
+    errata_id: Errata this package was released in. References errata_main
+    created_at: Timestamp of record creation and when package was released.
+    version_id: Variant of the package. References errata_versions.
+    full_path: Full path in the filesystem to the brew build and rpms
+  description: Set of RPMs released to RHN for an errata. Defines the most recent released build for a product, i.e. most recent RHEL-5 firefox.
+errata_brew_mappings:
+  fields:
+    build_tag: "Brew build tag which this build was added with, i.e. dist-5E-extras-qu-candidate "
+    brew_build_id: Foreign key to brew_builds(id)
+    current: True if this build is currently part of the erratum.
+    package_id: Foreign key to errata_packages(id). References package info for the build
+    product_version_id: Foreign key to product_versions(id). References the product version for this build, i.e. RHEL-5, RHEL-4-Stacks-V1
+    errata_id: Foreign key to errata_main(id)
+    created_at: When this mapping was created
+  description: Mapping table between errata and brew builds that belong to the errata
+errata_content:
+  fields:
+    crossref: Cross reference to any related errata.
+    doc_reviewer_id: Foreign key to users(id). The person assigned to review and edit the documentation of the errata.
+    obsoletes: List of other errata obsoleted by this advisory
+    multilib: Multilib info. DEPRECATED
+    reference: References to other information, typically URLs
+    keywords: Any keywords for this erratum, used in RHN searches.
+    how_to_test: Description by the developer of how to test the errata.
+    updated_at: Timestamp of when the content was last updated
+    cve: Space separated list of CVEs for the erratum. Only valid for RHSA
+    revision_count: Current revision number of the content.
+    description: Problem description for the erratum.
+    packages: List of packages in erratum. DEPRECATED
+    topic: Topic of the erratum.
+    errata_id: Foreign key to errata_main(id)
+    solution: Solution for correcting the problem.
+  description: So-called content of an erratum, mostly what is considered documentation. Somehwat artificial separation of some errata data into a separate table.
+errata_types:
+  fields:
+    name: Name of the type (RHSA, RHEA, etc.)
+    description: Description of the type
+  description: List of valid errata types and their description
+tpsruns:
+  fields:
+    started: Timestamp job started
+    finished: Timestamp job finished.
+    errata_id: Errata job is for. References errata_main
+    state_id: Current state. References tpsstates
+  description: TPS Run for an erratum
+carbon_copies:
+  fields:
+    who: Id of user. References users.
+    errata_id: Id of errata; references errata_main
+  description: List of CC e-mails for an erratum. References errata_main and users.
+errata_meta_map:
+  description: DEPRECATED
+rpmdiff_scores:
+  fields:
+    score: Value of the score
+    description: Description - Info, Passed, Failed, etc.
+    html_color: HTML Color to use in result display
+  description: Set of scores for rpmdiff results
+tps_systems:
+  fields:
+    arch_id: Arch of the system. References errata_arches
+    rhel_release_id: RHEL Release running on system. References rhel_releases
+    enabled: 1 if system type is available for tps runs
+    description: Short description of system type
+    version_id: Variant of the rhel_release. References errata_versions
+  description: Set of valid system types available to run tps jobs. Used in scheduling TPS Runs.
+tpsfiles_stacks:
+  description: DEPRECATED
+errata_bug_map:
+  fields:
+    bug_id: Foreign key to bugs(id)
+    errata_id: Foreign key to errata_main(id)
+    created_at: Timestamp of when the association was created.
+  description: Mapping between bugs and errata
+tpsjobs:
+  fields:
+    started: Timestamp job started
+    link_text: Brief description of results
+    arch_id: Arch of the job type. References errata_arches
+    run_id: TPS Run of job. References tpsruns
+    rhnqa: 1 if this is an rhnqa job, 0 otherwise
+    link: Link to results
+    finished: Timestamp job finished
+    host: Host the job is run on
+    version_id: RHEL Variant job runs on. References errata_versions
+    state_id: Current state of job. References tpsstates
+  description: Set of tps jobs for a tps run across different arches and variants
+errata_xml:
+  description: DEPRECATED
+brew_tags_releases:
+  fields:
+    brew_tag_id: null
+    release_id: null
+  description: Map between brew_tags and errata_groups
+rpmdiff_runs:
+  fields:
+    errata_nr: Short errata id, i.e. 2008:1234
+    package_path: Path to the package under test
+    obsolete: Set to 1 if this is run has been obsoleted by a new one
+    package_name: Name of package under test
+    run_date: Date run was executed
+    person: User who scheduled the run
+    new_version: NVR of new package
+    overall_score: Overall score for this run, which encompasses many results
+    old_version: NVR of old package
+    errata_id: Erratum run is for. References errata_main
+    variant: RHEL variant name
+    errata_file_id: Reference to the errata file. References errata_files
+  description: Set of RPMDiff runs for an erratum
+schema_info:
+  description: DEPRECATED
+errata_meta:
+  description: DEPRECATED
+brew_tags:
+  fields:
+    name: Name of the tag
+    created_at: Creation timestamp
+  description: List of valid brew tags. Associates with releases and product versions.
+errata_files:
+  fields:
+    rhn_beta_channels: DEPRECATED
+    rhn_pkgupload: Timestamp when package was last uploaded to RHN Live
+    devel_file: Path to the rpm on the file system
+    current: True if this file is currently in the erratum.
+    brew_build_id: Foreign key to brew_builds(id). Brew Build for the file
+    arch_id: Foreign key to errata_arches(id)
+    md5sum: md5sum of the file
+    signed: Name of the signing key used
+    collection: DEPRECATED
+    package_id: Foreign key to errata_packages(id). Package the file belongs to.
+    ftp_file: Path on the FTP server to which the file is uploaded when the advisory is shipped live.
+    rhn_shadow_channels: DEPRECATED
+    change_when: Date when the file was added or updated
+    epoch: Epoch of the file.
+    who: Foreign key to users(id). Refers to who added the file
+    errata_id: Foreign key to errata_main(id).
+    rhn_channels: DEPRECATED
+    version_id: Foreign key to errata_versions(id).
+    released: True if the file has been released
+    brew_rpm_id: Foreign key to brew_rpms(id). Brew RPM for the file
+    prior: True if this is the most recent prior version of a file
+  description: Files that are shipped with an erratum. These are brew rpms that map to multiple variants (4AS, 4ES) and arches.
+errata_priority:
+  fields:
+    value: Name for priority
+  description: Priority scale for errata. DEPRECATED
+brew_rpms:
+  fields:
+    name: Full NVR of the RPM, i.e. ruby-devel-1.8.6.36-3.fc7
+    brew_build_id: Foreign key to brew_builds(id). RPM Belongs to this build
+    has_brew_sigs: True if signatures have been imported into Brew.
+    arch_id: Foreign key to errata_arches(id). References arch info for the build, i.e. i386, ppc64, SRPM
+    package_id: Foreign key to errata_packages(id). References package info for the build
+    has_cached_sigs: True if cached signatures have been created for this RPM by the signing system. DEPRECATED
+    is_signed: True if signed and written to filesystem by Brew.
+  description: Contains information on individual RPMS in a Brew Build,obtained via XMLRPC to Brew. NVR info same as in brew build and RPM standards.
+rhn_channels:
+  fields:
+    rhn_channel: Primary RHN Channel
+    rhn_beta_channel: Beta channel variant
+    arch_id: Arch for channel. References errata_arches
+    isdefault: Essentially an is active field
+    updated_at: Update timestamp
+    product_version_id: Product version of the channel. References product_versions
+    rhn_eus_channel: EUS channel to be pushed concurrently to.
+    created_at: Creation timestamp
+    version_id: Variant for channel. References errata_versions
+    rhn_fastrack_channel: Fast track version of the channel
+    rhn_shadow_channel: Shadow version of RHN Channel. Only applies to RHEL
+  description: Set of RHN Channels that errata get pushed to
+errata_groups:
+  fields:
+    name: Name of the group
+    allow_blocker: If set to 1, allow just the blocker flag presence to allow bug acceptance
+    ship_date: Date when errata in this group may be shipped live
+    is_deferred: If set to 1, any errata created in this group will have a fake id greater than 8000. e.g. 2009:8019
+    allow_exception: If set to 1, allow just the exception flag presence to allow bug acceptance
+    default_brew_tag: Default brew tag to use when looking up builds for this errata
+    description: Descriptive name for the group
+    blocker_bugs: DEPRECATED
+    enabled: foobar
+    type: Inheritance type for groups
+    is_async: True if this advisory is asyncronous. Partially DEPRECATED by new type field.
+    product_version_id: Foreign key to product_versions. If set, this default Product Version will be used for errata in this group.
+    allow_shadow: Allow errata in this group to be pushed to shadow channels in RHN
+    blocker_flags: Comma separated list of blocker flags in bugzilla. Any bugs added to errata in this group must satisfy these blocker flags
+    isactive: foobar
+    allow_beta: Allow errata in this group to be pushed to beta channels in RHN
+    is_fasttrack: True if this is a Fast Track group. Will be completely DEPRECATED when new system is fully live.
+  description: "Release streams for errata. There are 4 main types QuarterlyUpdates, ZStream, FastTrrack, and Async(ronous) "
+tpsstates:
+  fields:
+    state: Name of the state.
+  description: Set of valid tps states
+rpmdiff_results_cpy:
+  description: DEPRECATED
+errata_arches:
+  fields:
+    name: Description of the architecture
+  description: List of all applicable arches that RPMS are built for, i.e. i386, ppc, x86_64
+sig_keys:
+  fields:
+    full_keyid: Full GPG id
+    name: Descriptive name of key
+    keyid: Short GPG key id
+    sigserver_keyname: Name used for signing server, when used to sign files.
+  description: List of valid GPG keys used for signing files
+errata_rel_arch_map:
+  description: DEPRECATED
+errata_package_arch_exclusions:
+  description: DEPRECATED

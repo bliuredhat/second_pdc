@@ -1,0 +1,54 @@
+---
+dev_tools:
+  - yum-utils
+  - yum-plugin-priorities
+  - iptables
+  - psmisc
+  - redhat-lsb-core
+  - rsync
+  - git
+  - krb5-workstation
+  - gcc
+
+dev_libs:
+  - ruby-devel
+  - libxml2-devel
+  - libxslt-devel
+  - libcurl-devel
+  - libuuid-devel
+  - mysql-devel
+
+internal_repo_pkgs:
+  - name: qpid-proton-c-devel-0.7-2.el6
+    repos: eng-rhel-6
+
+config_files:
+  - { src: 'krb5.conf', dest: '/etc' }
+  - { src: 'qpidc.conf', dest: '/etc/qpid' }
+
+
+gem_packages:
+  - rubygem-rails-3.2.14-1.el6eso
+  - rubygem-curb
+  - rubygem-mysql2
+  - rubygem-diff-lcs
+  - rubygem-exception_notification
+  - rubygem-will_paginate
+  - rubygem-fastercsv
+  - rubygem-jquery-rails
+  - rubygem-rails_autolink
+  - rubygem-rdoc
+  - rubygem-xml-simple
+  - rubygem-dynamic_form
+  - rubygem-bartt-ssl_requirement
+  - rubygem-qpid_proton
+  - rubygem-jira-ruby
+  - rubygem-schema_plus
+  - rubygem-ffi
+  - rubygem-rcov
+  - rubygem-capybara
+  - rubygem-json
+
+gem_install:
+  - fakeweb     # not yet available, used for testing
+

@@ -1,0 +1,3 @@
+---
+ansible_ssh_host: rmcgover-ws.usersys.redhat.com
+ansible_ssh_user: root

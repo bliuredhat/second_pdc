@@ -1,0 +1,14 @@
+{
+  "jb-eap-6-for-rhel-7-for-power-rpms__7Server__ppc64": [
+    "/mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/1.GA_redhat_1.1.ep6.el7/data/signed/fd431d51/noarch/javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7.noarch.rpm"
+  ],
+  "jb-eap-6-for-rhel-7-for-power-source-rpms__7Server__ppc64": [
+    "/mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/1.GA_redhat_1.1.ep6.el7/data/signed/fd431d51/src/javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7.src.rpm"
+  ],
+  "jb-eap-6-for-rhel-7-server-rpms__7Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/1.GA_redhat_1.1.ep6.el7/data/signed/fd431d51/noarch/javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7.noarch.rpm"
+  ],
+  "jb-eap-6-for-rhel-7-server-source-rpms__7Server__x86_64": [
+    "/mnt/redhat/brewroot/packages/javassist-eap6/3.18.1/1.GA_redhat_1.1.ep6.el7/data/signed/fd431d51/src/javassist-eap6-3.18.1-1.GA_redhat_1.1.ep6.el7.src.rpm"
+  ]
+}

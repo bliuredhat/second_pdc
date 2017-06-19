@@ -1,0 +1,59 @@
+// Path: /rcm/composedb/get-product-listings/RHEL-6-Server-RHEV-S-3.4/spice-client-msi-3.4-4
+// Status: 200
+// Content-Type: application/json
+{
+  "build": {
+    "id": 367585,
+    "nvr": "spice-client-msi-3.4-4"
+  },
+  "product": "RHEL-6-Server-RHEV-S-3.4",
+  "variants": {
+    "RHEV-S-3.4": {
+      "rpms": {
+        "rhevm-spice-client-3.4-4.el6_5": {"src": ["x86_64"]},
+        "rhevm-spice-client-x64-cab-3.4-4.el6_5": {"noarch": ["x86_64"]},
+        "rhevm-spice-client-x64-msi-3.4-4.el6_5": {"noarch": ["x86_64"]},
+        "rhevm-spice-client-x86-cab-3.4-4.el6_5": {"noarch": ["x86_64"]},
+        "rhevm-spice-client-x86-msi-3.4-4.el6_5": {"noarch": ["x86_64"]}
+      },
+      "archives": {
+        "698266": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/SpiceX_x64.cab",
+          "destination_arches": ["x86_64"]
+        },
+        "698268": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/SpiceX_x86.cab",
+          "destination_arches": ["i386"]
+        },
+        "698269": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/SpiceVersion.txt",
+          "destination_arches": ["i386", "x86_64"]
+        },
+        "698263": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/usbclerk-x64-0.3.3.msi",
+          "destination_arches": ["x86_64"]
+        },
+        "698262": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/usbclerk-x86-0.3.3.msi",
+          "destination_arches": ["i386"]
+        },
+        "698261": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/virt-viewer-x64-0.5.6.msi",
+          "destination_arches": ["x86_64"]
+        },
+        "698264": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/virt-viewer-x86-0.5.6.msi",
+          "destination_arches": ["i386"]
+        },
+        "698267": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/spice-client-msi-3.4-4-sources.zip",
+          "destination_arches": ["i386", "x86_64"]
+        },
+        "698265": {
+          "path": "/brewroot/packages/spice-client-msi/3.4/4/win/spice-client-msi-3.4-4-spec.zip",
+          "destination_arches": ["i386", "x86_64"]
+        }
+      }
+    }
+  }
+}

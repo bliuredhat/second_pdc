@@ -1,0 +1,28 @@
+# HTTP 200
+{
+  "errata": {
+    "id": 16374
+  },
+  "id": 11394,
+  "log": "\nPushing RHEA-2014:16374-01 to CDN Stage\nUploading files to CDN Stage\nUploading files to CDN Stage for RHBA-2008:0495 (7390)\nUploading 2 packages to CDN Stage\nuploading /mnt/redhat/brewroot/packages/hts/5.2/16.el4/data/signed/db42a60e/src/hts-5.2-16.el4.src.rpm\nuploading /mnt/redhat/brewroot/packages/hts/5.2/16.el4/data/signed/db42a60e/noarch/hts-5.2-16.el4.noarch.rpm\nRHEA-2014:16374-01 packages uploaded to CDN Stage\nDone uploading files\nSubmitting errata metadata to CDN Stage\nGetting proxyscripts.vip.stage.redhat.com\nSubmitting errata RHEA-2014:16374-01 to stage\nDone\nDone pushing to CDN Stage\nCompleted Successfully",
+  "options": {
+    "priority": 20,
+    "push_files": true,
+    "push_metadata": true
+  },
+  "post_tasks": [
+
+  ],
+  "pre_tasks": [
+
+  ],
+  "pub_task": {
+    "id": 28288
+  },
+  "status": "COMPLETE",
+  "target": {
+    "id": 5,
+    "name": "cdn_stage"
+  },
+  "url": "http://www.example.com/api/v1/erratum/16374/push/11394"
+}

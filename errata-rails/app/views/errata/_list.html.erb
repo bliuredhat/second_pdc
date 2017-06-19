@@ -1,0 +1,65 @@
+<% if Settings.show_errata_filter_debug %>
+  <div class="tiny" style="padding:1em;"><%= @errata_filter.filter_params.inspect %></div>
+  <div class="tiny" style="padding:1em;"><%= @erratas.to_sql %></div>
+  <br/>
+<% end %>
+
+<%# Spinner is not currently used %>
+<div id="filter_waiting" class="wait-spinner" style="margin-left:2em;display:none;"></div>
+
+<div id="filter_results">
+  <% if @erratas.empty? %>
+    <p><i>No matching advisories found.</i></p>
+
+  <% else %>
+    <div class="small btn-container" style="float:right;">
+      <%# Got some DRY issues here.. also very messy... FIXME %>
+
+      <div style="float:left;padding:0 0.5em;">Per page:</div>
+      <div class="btn-group" style="float:left;">
+        <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#"><%= @errata_filter.selected_pagination_option_name %> <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <% @errata_filter.pagination_options_for_select(@errata_filter.selected_pagination_option).each do |name, val| %>
+            <li><%= link_to name, { :action => :index, :errata_filter => { :filter_params => @errata_filter.filter_params.merge(:pagination_option => val) }} %></li>
+          <% end %>
+        </ul>
+      </div>
+
+      <div style="float:left;padding:0 0.5em;">&nbsp;Format:&nbsp;</div>
+      <div class="btn-group" style="float:left;">
+        <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#"><%= @errata_filter.selected_output_format_name %> <span class="caret"></span></a>
+        <ul class="dropdown-menu pull-right">
+          <% ErrataFilter.format_options_for_select(@errata_filter.selected_output_format).each do |name, val| %>
+            <li><%= link_to name, { :action => :index, :errata_filter => { :filter_params => @errata_filter.filter_params.merge(:output_format => val) }} %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+
+    <div class="small light" style="margin-bottom:9px;">
+      <%= @erratas.total_entries %> advisories found.
+      <% if @erratas.total_pages > 1 %>
+        Showing page <%= @erratas.current_page %> of <%= @erratas.total_pages %>.
+      <% end %>
+    </div>
+
+    <% begin %>
+      <%=
+        # Force records to be loaded now, so we get an unwrapped exception if the
+        # records can't be loaded.  (Used to display a better error page than the
+        # generic one).
+        @erratas.to_a
+        render @errata_filter.errata_row_partial
+      %>
+    <% rescue FetchLimitExceededError %>
+      <div class="alert alert-error">
+        <p>There are too many results to display on a single page.
+        Please select a different pagination option.</p>
+      </div>
+    <% end %>
+
+    <%= render 'list_grouped_warning_msg' %>
+
+    <%= will_paginate @erratas %>
+  <% end %>
+</div>

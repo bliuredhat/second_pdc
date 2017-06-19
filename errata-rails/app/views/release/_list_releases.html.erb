@@ -1,0 +1,20 @@
+<table class="buglist" CELLPADDING="0" CELLSPACING="0" ALIGN="CENTER">
+  <thead>
+    <tr>
+      <td>Name</td>
+      <td>Description</td>
+      <td>Product Versions</td>
+      <td>Blocker flags</td>
+      <td>Default brew tag</td>
+      <td>Program Manager</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </thead>
+  <tbody>
+    <% [Async, FastTrack, QuarterlyUpdate, Zstream].each do |type| -%>
+      <%= render :partial => 'list_release_set', :object => @release_types[type], :locals => {:release_type => type} %>
+    <% end %>
+  </tbody>
+</table>
+<br />

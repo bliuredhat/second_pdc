@@ -1,0 +1,26 @@
+# HTTP 200
+{
+  "all_errata": [
+
+  ],
+  "files": [
+    {
+      "id": 702186,
+      "path": "/mnt/redhat/brewroot/packages/jboss-eap/6.3.0/8.win6/win/jboss-eap-6.3.0-8.win6.src.zip",
+      "type": "zip"
+    },
+    {
+      "id": 702187,
+      "path": "/mnt/redhat/brewroot/packages/jboss-eap/6.3.0/8.win6/win/jboss-eap-6.3.0-8.win6-sources.zip",
+      "type": "zip"
+    }
+  ],
+  "id": 368625,
+  "nvr": "jboss-eap-6.3.0-8.win6",
+  "package": {
+    "id": 22003,
+    "name": "jboss-eap"
+  },
+  "released_errata": null,
+  "rpms_signed": false
+}

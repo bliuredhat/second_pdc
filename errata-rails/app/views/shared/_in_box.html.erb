@@ -1,0 +1,21 @@
+<%#
+  #
+  # Use this to make a grey-ish inset box
+  #
+  # Eg,
+  #   <%= block_render('shared/in_box', :extra_class => 'foo') do >
+  #     content
+  #   <% end >
+  #
+  # `well` is a bootstrap class that gives an inset gray box
+  # `small` and `clearfix` are eso theme classes (maybe there is a bootstrap equivalent...)
+  #
+  # `extra_class` is an optional local. Use it if you want to add extra classes
+  #
+-%>
+<div class="clearfix">
+  <div class="well float-left<%= " #{extra_class}" if defined?(extra_class) %>">
+    <%= yield %>
+  </div>
+</div>
+

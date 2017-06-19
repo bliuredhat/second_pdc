@@ -1,0 +1,52 @@
+# HTTP 200
+{
+  "data": [
+    {
+      "attributes": {
+        "active": false,
+        "created_at": "2015-10-08T04:15:58Z",
+        "external_id": 1980,
+        "external_message": null,
+        "external_status": "FAILURE",
+        "status": "FAILED",
+        "test_type": "ccat",
+        "updated_at": "2015-10-08T04:15:58Z"
+      },
+      "id": 81,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHBA",
+          "fulladvisory": "RHBA-2014:1328-04",
+          "id": 18905
+        },
+        "superseded_by": {
+          "id": 82,
+          "status": "PASSED",
+          "test_type": "ccat"
+        }
+      },
+      "type": "external_tests"
+    },
+    {
+      "attributes": {
+        "active": true,
+        "created_at": "2015-10-08T04:16:17Z",
+        "external_id": 1982,
+        "external_message": null,
+        "external_status": null,
+        "status": "PASSED",
+        "test_type": "ccat",
+        "updated_at": "2015-10-08T04:16:17Z"
+      },
+      "id": 82,
+      "relationships": {
+        "errata": {
+          "errata_type": "RHBA",
+          "fulladvisory": "RHBA-2014:1328-04",
+          "id": 18905
+        }
+      },
+      "type": "external_tests"
+    }
+  ]
+}

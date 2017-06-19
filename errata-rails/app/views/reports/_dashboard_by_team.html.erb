@@ -1,0 +1,14 @@
+<h2>Open Advisories For Each QA Team</h2>
+
+<table class="bug_list bug_list_big">
+  <tr>
+    <th>QE Team</th>
+    <th colspan="5">Open Advisories</th>
+  </th>
+  <% @group_stats.sort_by { |group, group_stats| group.name.downcase }.each do |group, group_stats| %>
+    <tr class="<%= cycle('bz_even','bz_odd') %>">
+      <td><%= link_to group.name, :controller => 'qe', :action => 'errata_for_qe_group', :id => group.url_name %></td>
+      <%= render 'state_hash_display', :stats => group_stats %>
+    </tr>
+  <% end %>
+</table>

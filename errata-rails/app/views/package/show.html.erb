@@ -1,0 +1,60 @@
+<%= page_title_h1 %>
+<b>Package Owner:</b> <%= link_to @package.devel_owner.realname, :action => :devel_owner, :id => @package.devel_owner.short_name %><br/>
+
+<b>Engineering Team:</b> <%= link_to @package.devel_responsibility.name, :action => :devel_team, :id => @package.devel_responsibility.url_name %><br/>
+
+<b>QE Team:</b> <%= link_to @package.quality_responsibility.name, :action => :qe_team, :id => @package.quality_responsibility.url_name %><br/>
+
+<p/>
+
+<%= render 'ftp_exclusions' %>
+
+<%= render 'cdn_repos' if @package.cdn_repos.any? %>
+
+<% if @current_errata.empty? %>
+<b>No Active Errata</b><br/>
+<% else %>
+<b>Active Errata</b>:<br/>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Advisory', 'Release', 'Brew Build', 'Status', 'Description'],
+:func => lambda do |map|
+      [errata_link(map.errata)+pdc_indicator_for(map.errata), "#{map.errata.release.name}", brew_link(map.brew_build), "#{map.errata.status}", "#{map.errata.synopsis}"]
+      end,
+:row_items => @current_errata
+}) %>
+
+<% end %>
+
+<% unless @unfiled_errata.empty? %>
+
+<b>Unfiled Errata</b>:<br/>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Advisory','Release', 'Brew Build','Description'],
+:func => lambda do |map|
+      [errata_link(map.errata)+pdc_indicator_for(map.errata), "#{map.errata.release.name}", brew_link(map.brew_build), "#{map.errata.synopsis}"]
+      end,
+:row_items => @unfiled_errata
+}) %>
+
+<% end %>
+<p/>
+<% if @shipped_errata.empty? %>
+<b>No Errata Shipped for <%= @package.name %></b><br/>
+<% else %>
+<b>Shipped Errata:</b><br/>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+        :headers => ['Advisory', 'Release', tablesort_heading_custom_sort_numeric('When'), 'Brew Build', 'Description'],
+         :func => lambda do |map|
+      [errata_link(map.errata)+pdc_indicator_for(map.errata),
+      "#{map.errata.release.name}",
+      sortable_time_ago_in_words(map.errata.issue_date),
+      link_to(map.brew_build.nvr, :controller => :release_engineering, :action => :show_released_build, :id => map.brew_build, :product_version_id => map.product_version),
+      "#{map.errata.synopsis}"]
+      end,
+      :row_items => @shipped_errata
+}) %>
+ 
+<% end %>

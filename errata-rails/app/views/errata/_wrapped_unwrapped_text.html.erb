@@ -1,0 +1,20 @@
+<%#
+  #
+  # Allow docs users to be able to copy and paste without line breaks if they
+  # need to.
+  #
+  # Showing text wrapped at 80 chars since that's how it gets sent to RHN, (see
+  # Push::Rhn.make_hash_for_push). Note however it is sent as-is to CDN, (see
+  # ErrataService#get_advisory_cdn_metadata).
+  #
+-%>
+<div class="wrapped-unwrapped-container">
+  <div class="float-right tiny">
+    <%= link_to '#', :class=>'unwrap-toggle-btn' do %>
+      <span class="wrapped-text">Unwrap</span>
+      <span class="unwrapped-text">Wrap</span>
+    <% end %>
+  </div>
+  <pre class="wrapped-text"><%= word_wrap(text, :line_width => 80) %></pre>
+  <pre class="unwrapped-text"><%= unwrap_text(text) %></pre>
+</div>

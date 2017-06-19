@@ -1,0 +1,21 @@
+To: jvanek@redhat.com, lzachar@redhat.com, thoger@redhat.com
+Subject: ET: [RHSA-2014:19028 ASYNC] Important: java-1.8.0-openjdk - Live push request RHSA-2014:19028-0
+X-ErrataTool-Component: ERRATA
+X-ErrataTool-Action: PUSH-REQUEST
+X-Errata-QE-Group: BaseOS QE - Applications
+
+(Please don't reply directly to this email. Any additional comments should be
+made in ET via the 'Add Comment' form for this advisory).
+
+Live Push Requested for Errata [RHSA-2014:19028-01 ASYNC] Important: java-1.8.0-openjdk security update
+
+https://errata-test.example.com/push/push_errata/19028
+
+
+Advisory:
+  [RHSA-2014:19028 ASYNC] Important: java-1.8.0-openjdk security update
+  Status: PUSH_READY, Package: java-1.8.0-openjdk
+  https://errata-test.example.com/advisory/19028
+
+
+(ET 3.11.0-0 errata-test.example.com test)

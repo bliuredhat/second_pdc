@@ -1,0 +1,12 @@
+// Path: /rcm/composedb/get-product-listings/RHEL-6-Server-RHEV-S-3.4/com.redhat.gss-redhat-support-lib-java-1.0.4-2
+// Status: 200
+// Content-Type: application/json
+// This build does not have any product listings.
+{
+  "build": {
+    "id": 343329,
+    "nvr": "com.redhat.gss-redhat-support-lib-java-1.0.4-2"
+  },
+  "product": "RHEL-6-Server-RHEV-S-3.4",
+  "variants": {}
+}

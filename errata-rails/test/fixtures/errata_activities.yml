@@ -1,0 +1,5632 @@
+--- 
+errata_activity_144738: 
+  added: distro
+  created_at: 2007-09-20 03:35:00 -04:00
+  errata_id: 6310
+  id: 144738
+  removed: normal
+  what: severity
+  who_id: 35599
+errata_activity_144739: 
+  added: normal
+  created_at: 2007-09-20 03:35:00 -04:00
+  errata_id: 6310
+  id: 144739
+  removed: normal
+  what: priority
+  who_id: 35599
+errata_activity_144740: 
+  added: qa-errata-list@redhat.com
+  created_at: 2007-09-20 03:35:00 -04:00
+  errata_id: 6310
+  id: 144740
+  removed: qa-errata-list@redhat.com
+  what: assigned_to
+  who_id: 35599
+errata_activity_144741: 
+  added: NEW
+  created_at: 2007-09-20 03:35:00 -04:00
+  errata_id: 6310
+  id: 144741
+  removed: UNFILED
+  what: status
+  who_id: 35599
+errata_activity_144742: 
+  added: QE_READY
+  created_at: 2007-09-20 03:35:00 -04:00
+  errata_id: 6310
+  id: 144742
+  removed: NEW
+  what: status
+  who_id: 35599
+errata_activity_144745: 
+  added: ON_QA
+  created_at: 2007-09-20 03:35:00 -04:00
+  errata_id: 6310
+  id: 144745
+  removed: QE_READY
+  what: status
+  who_id: 35599
+errata_activity_144746: 
+  added: ON_RHNQA
+  created_at: 2007-09-20 03:35:00 -04:00
+  errata_id: 6310
+  id: 144746
+  removed: ON_QA
+  what: status
+  who_id: 35599
+errata_activity_146365: 
+  added: NEED_DEV
+  created_at: 2007-09-20 07:56:00 -04:00
+  errata_id: 6310
+  id: 146365
+  removed: ON_RHNQA
+  what: status
+  who_id: 188618
+errata_activity_147247: 
+  added: NEED_QE
+  created_at: 2007-09-20 10:23:09 -04:00
+  errata_id: 6310
+  id: 147247
+  removed: NEED_DEV
+  what: status
+  who_id: 169129
+errata_activity_178550: 
+  added: approve
+  created_at: 2005-03-17 11:33:00 -05:00
+  errata_id: 2128
+  id: 178550
+  removed: disapprove
+  what: docs
+  who_id: 166151
+errata_activity_178553: 
+  added: blocker
+  created_at: 2005-03-17 11:49:00 -05:00
+  errata_id: 2128
+  id: 178553
+  removed: NORMAL
+  what: severity
+  who_id: 156799
+errata_activity_178554: 
+  added: high
+  created_at: 2005-03-17 11:49:00 -05:00
+  errata_id: 2128
+  id: 178554
+  removed: NORMAL
+  what: priority
+  who_id: 156799
+errata_activity_178555: 
+  added: djansa@redhat.com
+  created_at: 2005-03-17 11:49:00 -05:00
+  errata_id: 2128
+  id: 178555
+  removed: jturner@redhat.com
+  what: assigned_to
+  who_id: 156799
+errata_activity_179772: 
+  added: 3AS-GFS/SRPMS/GFS-6.0.2.8-2.src.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179772
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179773: 
+  added: 3AS-GFS/i386/GFS-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179773
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179774: 
+  added: 3AS-GFS/i386/GFS-modules-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179774
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179775: 
+  added: 3AS-GFS/i386/GFS-modules-hugemem-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179775
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179776: 
+  added: 3AS-GFS/i386/GFS-modules-smp-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179776
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179777: 
+  added: 3ES-GFS/SRPMS/GFS-6.0.2.8-2.src.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179777
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179778: 
+  added: 3ES-GFS/i386/GFS-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179778
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179779: 
+  added: 3ES-GFS/i386/GFS-modules-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179779
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179780: 
+  added: 3ES-GFS/i386/GFS-modules-hugemem-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179780
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179781: 
+  added: 3ES-GFS/i386/GFS-modules-smp-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179781
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179782: 
+  added: 3WS-GFS/SRPMS/GFS-6.0.2.8-2.src.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179782
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179783: 
+  added: 3WS-GFS/i386/GFS-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179783
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179784: 
+  added: 3WS-GFS/i386/GFS-modules-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179784
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179785: 
+  added: 3WS-GFS/i386/GFS-modules-hugemem-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179785
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_179786: 
+  added: 3WS-GFS/i386/GFS-modules-smp-6.0.2.8-2.i686.rpm
+  created_at: 2005-03-18 13:57:00 -05:00
+  errata_id: 2128
+  id: 179786
+  removed: ""
+  what: file_added
+  who_id: 168062
+errata_activity_180619: 
+  added: 3AS-GFS/SRPMS/GFS-6.0.2.10-0.src.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180619
+  removed: 3AS-GFS/SRPMS/GFS-6.0.2.8-2.src.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180620: 
+  added: 3AS-GFS/i386/GFS-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180620
+  removed: 3AS-GFS/i386/GFS-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180621: 
+  added: 3AS-GFS/i386/GFS-modules-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180621
+  removed: 3AS-GFS/i386/GFS-modules-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180622: 
+  added: 3AS-GFS/i386/GFS-modules-hugemem-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180622
+  removed: 3AS-GFS/i386/GFS-modules-hugemem-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180623: 
+  added: 3AS-GFS/i386/GFS-modules-smp-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180623
+  removed: 3AS-GFS/i386/GFS-modules-smp-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180624: 
+  added: 3ES-GFS/SRPMS/GFS-6.0.2.10-0.src.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180624
+  removed: 3ES-GFS/SRPMS/GFS-6.0.2.8-2.src.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180625: 
+  added: 3ES-GFS/i386/GFS-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180625
+  removed: 3ES-GFS/i386/GFS-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180626: 
+  added: 3ES-GFS/i386/GFS-modules-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180626
+  removed: 3ES-GFS/i386/GFS-modules-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180627: 
+  added: 3ES-GFS/i386/GFS-modules-hugemem-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180627
+  removed: 3ES-GFS/i386/GFS-modules-hugemem-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180628: 
+  added: 3ES-GFS/i386/GFS-modules-smp-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180628
+  removed: 3ES-GFS/i386/GFS-modules-smp-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180629: 
+  added: 3WS-GFS/SRPMS/GFS-6.0.2.10-0.src.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180629
+  removed: 3WS-GFS/SRPMS/GFS-6.0.2.8-2.src.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180630: 
+  added: 3WS-GFS/i386/GFS-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180630
+  removed: 3WS-GFS/i386/GFS-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180631: 
+  added: 3WS-GFS/i386/GFS-modules-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180631
+  removed: 3WS-GFS/i386/GFS-modules-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180632: 
+  added: 3WS-GFS/i386/GFS-modules-hugemem-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180632
+  removed: 3WS-GFS/i386/GFS-modules-hugemem-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180633: 
+  added: 3WS-GFS/i386/GFS-modules-smp-6.0.2.10-0.i686.rpm
+  created_at: 2005-03-21 15:44:00 -05:00
+  errata_id: 2128
+  id: 180633
+  removed: 3WS-GFS/i386/GFS-modules-smp-6.0.2.8-2.i686.rpm
+  what: file_changed
+  who_id: 168062
+errata_activity_180965: 
+  added: NEED_DEV
+  created_at: 2007-09-21 03:43:00 -04:00
+  errata_id: 6310
+  id: 180965
+  removed: NEED_QE
+  what: status
+  who_id: 35599
+errata_activity_180968: 
+  added: ohudlick@redhat.com
+  created_at: 2007-09-21 04:14:00 -04:00
+  errata_id: 6310
+  id: 180968
+  removed: qa-errata-list@redhat.com
+  what: assigned_to
+  who_id: 188618
+errata_activity_182373: 
+  added: NEED_QE
+  created_at: 2007-09-24 10:16:41 -04:00
+  errata_id: 6310
+  id: 182373
+  removed: NEED_RESPIN
+  what: status
+  who_id: 169129
+errata_activity_182395: 
+  added: NEED_QE
+  created_at: 2007-09-24 04:17:00 -04:00
+  errata_id: 6310
+  id: 182395
+  removed: NEED_DEV
+  what: status
+  who_id: 35599
+errata_activity_182396: 
+  added: NEED_RESPIN
+  created_at: 2007-09-24 04:17:00 -04:00
+  errata_id: 6310
+  id: 182396
+  removed: NEED_QE
+  what: status
+  who_id: 35599
+errata_activity_184061: 
+  added: NEED_RESPIN
+  created_at: 2007-09-24 10:38:00 -04:00
+  errata_id: 6310
+  id: 184061
+  removed: NEED_QE
+  what: status
+  who_id: 96230
+errata_activity_184066: 
+  added: ""
+  created_at: 2007-09-24 10:38:34 -04:00
+  errata_id: 6310
+  id: 184066
+  removed: /mnt/redhat/brewroot/packages/EnterpriseDB/8.1.9.27/1/data/signed/42193e6b/i386/EnterpriseDB-8.1.9.27-1.i386.rpm
+  what: file_removed
+  who_id: 96230
+errata_activity_184157: 
+  added: NEED_QE
+  created_at: 2007-09-24 10:39:00 -04:00
+  errata_id: 6310
+  id: 184157
+  removed: NEED_RESPIN
+  what: status
+  who_id: 96230
+errata_activity_184159: 
+  added: NEW_PKGS
+  created_at: 2007-09-24 10:41:00 -04:00
+  errata_id: 6310
+  id: 184159
+  removed: NEED_QE
+  what: status
+  who_id: 188618
+errata_activity_184161: 
+  added: ON_QA
+  created_at: 2007-09-24 10:41:00 -04:00
+  errata_id: 6310
+  id: 184161
+  removed: NEW_PKGS
+  what: status
+  who_id: 188618
+errata_activity_184163: 
+  added: ON_RHNQA
+  created_at: 2007-09-24 10:41:00 -04:00
+  errata_id: 6310
+  id: 184163
+  removed: ON_QA
+  what: status
+  who_id: 188618
+errata_activity_184278: 
+  added: HOLD_PUSH
+  created_at: 2007-09-24 11:57:00 -04:00
+  errata_id: 6310
+  id: 184278
+  removed: ON_RHNQA
+  what: status
+  who_id: 188618
+errata_activity_184304: 
+  added: SHIPPED_LIVE
+  created_at: 2007-09-24 11:58:00 -04:00
+  errata_id: 6310
+  id: 184304
+  removed: HOLD_PUSH
+  what: status
+  who_id: 174587
+errata_activity_209537: 
+  added: distro
+  created_at: 2007-03-30 09:45:00 -04:00
+  errata_id: 5243
+  id: 209537
+  removed: normal
+  what: severity
+  who_id: 35599
+errata_activity_209538: 
+  added: normal
+  created_at: 2007-03-30 09:45:00 -04:00
+  errata_id: 5243
+  id: 209538
+  removed: normal
+  what: priority
+  who_id: 35599
+errata_activity_209539: 
+  added: qa-errata-list@redhat.com
+  created_at: 2007-03-30 09:45:00 -04:00
+  errata_id: 5243
+  id: 209539
+  removed: qa-errata-list@redhat.com
+  what: assigned_to
+  who_id: 35599
+errata_activity_209540: 
+  added: NEW
+  created_at: 2007-03-30 09:45:00 -04:00
+  errata_id: 5243
+  id: 209540
+  removed: UNFILED
+  what: status
+  who_id: 35599
+errata_activity_209541: 
+  added: NEED_QE
+  created_at: 2007-03-30 09:45:00 -04:00
+  errata_id: 5243
+  id: 209541
+  removed: NEW
+  what: status
+  who_id: 35599
+errata_activity_209542: 
+  added: ON_QA
+  created_at: 2007-03-30 09:45:00 -04:00
+  errata_id: 5243
+  id: 209542
+  removed: NEED_QE
+  what: status
+  who_id: 35599
+errata_activity_209543: 
+  added: ON_RHNQA
+  created_at: 2007-03-30 09:45:00 -04:00
+  errata_id: 5243
+  id: 209543
+  removed: ON_QA
+  what: status
+  who_id: 35599
+errata_activity_209544: 
+  added: HOLD_EMBARGO
+  created_at: 2007-03-30 09:46:00 -04:00
+  errata_id: 5243
+  id: 209544
+  removed: ON_RHNQA
+  what: status
+  who_id: 35599
+errata_activity_209684: 
+  added: approve
+  created_at: 2007-03-30 14:23:00 -04:00
+  errata_id: 5243
+  id: 209684
+  removed: disapprove
+  what: docs
+  who_id: 66074
+errata_activity_214648: 
+  added: distro
+  created_at: 2007-02-21 12:30:00 -05:00
+  errata_id: 5028
+  id: 214648
+  removed: normal
+  what: severity
+  who_id: 168062
+errata_activity_214649: 
+  added: normal
+  created_at: 2007-02-21 12:30:00 -05:00
+  errata_id: 5028
+  id: 214649
+  removed: normal
+  what: priority
+  who_id: 168062
+errata_activity_214650: 
+  added: qa-errata-list@redhat.com
+  created_at: 2007-02-21 12:30:00 -05:00
+  errata_id: 5028
+  id: 214650
+  removed: qa-errata-list@redhat.com
+  what: assigned_to
+  who_id: 168062
+errata_activity_214651: 
+  added: NEW
+  created_at: 2007-02-21 12:30:00 -05:00
+  errata_id: 5028
+  id: 214651
+  removed: UNFILED
+  what: status
+  who_id: 168062
+errata_activity_214660: 
+  added: NEED_QE
+  created_at: 2007-02-21 12:30:00 -05:00
+  errata_id: 5028
+  id: 214660
+  removed: NEW
+  what: status
+  who_id: 168062
+errata_activity_214667: 
+  added: ON_QA
+  created_at: 2007-02-21 12:30:00 -05:00
+  errata_id: 5028
+  id: 214667
+  removed: NEED_QE
+  what: status
+  who_id: 168062
+errata_activity_214674: 
+  added: ON_RHNQA
+  created_at: 2007-02-21 12:31:00 -05:00
+  errata_id: 5028
+  id: 214674
+  removed: ON_QA
+  what: status
+  who_id: 168062
+errata_activity_215037: 
+  added: "1"
+  created_at: 2007-02-22 14:55:00 -05:00
+  errata_id: 5028
+  id: 215037
+  removed: ""
+  what: text_ready
+  who_id: 168062
+errata_activity_215038: 
+  added: HOLD_PUSH
+  created_at: 2007-02-22 14:55:00 -05:00
+  errata_id: 5028
+  id: 215038
+  removed: ON_RHNQA
+  what: status
+  who_id: 168062
+errata_activity_215522: 
+  added: approve
+  created_at: 2007-02-25 17:47:00 -05:00
+  errata_id: 5028
+  id: 215522
+  removed: disapprove
+  what: docs
+  who_id: 205085
+errata_activity_217400: 
+  added: SHIPPED_LIVE
+  created_at: 2007-02-27 04:09:00 -05:00
+  errata_id: 5028
+  id: 217400
+  removed: HOLD_PUSH
+  what: status
+  who_id: 174587
+errata_activity_229755: 
+  added: approve
+  created_at: 2007-04-16 01:41:00 -04:00
+  errata_id: 5243
+  id: 229755
+  removed: disapprove
+  what: docs
+  who_id: 204361
+errata_activity_229839: 
+  added: approve
+  created_at: 2007-04-16 10:37:00 -04:00
+  errata_id: 5243
+  id: 229839
+  removed: disapprove
+  what: docs
+  who_id: 35599
+errata_activity_229841: 
+  added: SHIPPED_LIVE
+  created_at: 2007-04-16 10:38:00 -04:00
+  errata_id: 5243
+  id: 229841
+  removed: HOLD_EMBARGO
+  what: status
+  who_id: 174587
+errata_activity_337928: 
+  added: DROPPED
+  created_at: 2005-10-11 20:53:00 -04:00
+  errata_id: 2128
+  id: 337928
+  removed: ""
+  what: resolution
+  who_id: 164905
+errata_activity_337929: 
+  added: qa-errata-list@redhat.com
+  created_at: 2005-10-11 20:53:00 -04:00
+  errata_id: 2128
+  id: 337929
+  removed: djansa@redhat.com
+  what: assigned_to
+  who_id: 164905
+errata_activity_359609: 
+  added: HOLD_UPDATE
+  created_at: 2005-04-06 04:17:00 -04:00
+  errata_id: 2128
+  id: 359609
+  removed: ON_RHNQA
+  what: status
+  who_id: 405
+errata_activity_361168: 
+  added: NEEDSIGN
+  created_at: 2005-03-28 16:27:00 -05:00
+  errata_id: 2128
+  id: 361168
+  removed: ON_RHNQA
+  what: status
+  who_id: 168062
+errata_activity_361582: 
+  added: ON_TEST
+  created_at: 2005-04-25 03:57:00 -04:00
+  errata_id: 2128
+  id: 361582
+  removed: HOLD_UPDATE
+  what: status
+  who_id: 405
+errata_activity_394153: 
+  added: DROPPED_NO_SHIP
+  created_at: 2005-04-06 00:00:00 -04:00
+  errata_id: 2128
+  id: 394153
+  removed: UNFILED
+  what: status
+  who_id: 174587
+errata_activity_409945: 
+  added: NEW
+  created_at: 2008-02-19 09:45:27 -05:00
+  errata_id: 7058
+  id: 409945
+  removed: UNFILED
+  what: status
+  who_id: 256461
+errata_activity_410061: 
+  added: FAST4.7
+  created_at: 2008-02-20 11:47:45 -05:00
+  errata_id: 7058
+  id: 410061
+  removed: RHEL-4.7.0
+  what: release
+  who_id: 173714
+errata_activity_410148: 
+  added: QE_READY
+  created_at: 2008-02-21 11:26:28 -05:00
+  errata_id: 7058
+  id: 410148
+  removed: NEW
+  what: status
+  who_id: 204382
+errata_activity_410149: 
+  added: ON_QA
+  created_at: 2008-02-21 11:27:49 -05:00
+  errata_id: 7058
+  id: 410149
+  removed: QE_READY
+  what: status
+  who_id: 204382
+errata_activity_410317: 
+  added: ON_RHNQA
+  created_at: 2008-02-25 07:09:15 -05:00
+  errata_id: 7058
+  id: 410317
+  removed: ON_QA
+  what: status
+  who_id: 204382
+errata_activity_410318: 
+  added: HOLD_UPDATE
+  created_at: 2008-02-25 07:38:04 -05:00
+  errata_id: 7058
+  id: 410318
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_410512: 
+  added: |-
+    description changed:
+    
+    
+    
+    @@ -1,12 +1,11 @@
+    -Nautilus integrates access to files, applications, media, Internet-based
+    -resources and the Web. Nautilus delivers a dynamic and rich user
+    -experience. Nautilus is an free software project developed under the GNU
+  created_at: 2008-02-28 00:55:44 -05:00
+  errata_id: 7058
+  id: 410512
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_410513: 
+  added: |-
+    description changed:
+    
+    @@ -3,7 +3,7 @@
+     project.
+     
+     The umask value was not honored when creating files through Nautilus. For
+    -example, new empty files were given a mode of 600, when created through
+    +example, new empty files were given a mode of 600 when c
+  created_at: 2008-02-28 00:57:13 -05:00
+  errata_id: 7058
+  id: 410513
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_410890: 
+  added: SHIPPED_LIVE
+  created_at: 2008-03-05 07:29:00 -05:00
+  errata_id: 7058
+  id: 410890
+  removed: HOLD_UPDATE
+  what: status
+  who_id: 174587
+errata_activity_416602: 
+  added: |-
+    topic changed:
+    
+    @@ -1,2 +1,2 @@
+    -Updated nautilus packages that fix a bug are now available.
+    +Updated nautilus packages that fix two bugs are now available.
+    
+    description changed:
+    
+    
+    
+    @@ -2,10 +2,17 @@
+     Internet-based resources. Nautilus is a core component
+  created_at: 2008-04-30 04:25:35 -04:00
+  errata_id: 7058
+  id: 416602
+  removed: ""
+  what: text_change
+  who_id: 173714
+errata_activity_416603: 
+  added: NEED_QE
+  created_at: 2008-04-30 04:27:28 -04:00
+  errata_id: 7058
+  id: 416603
+  removed: SHIPPED_LIVE
+  what: status
+  who_id: 173714
+errata_activity_416604: 
+  added: NEED_RESPIN
+  created_at: 2008-04-30 04:28:05 -04:00
+  errata_id: 7058
+  id: 416604
+  removed: NEED_QE
+  what: status
+  who_id: 173714
+errata_activity_416606: 
+  added: NEED_QE
+  created_at: 2008-04-30 05:06:02 -04:00
+  errata_id: 7058
+  id: 416606
+  removed: NEED_RESPIN
+  what: status
+  who_id: 256461
+errata_activity_416615: 
+  added: |-
+    topic changed:
+    
+    @@ -1,2 +1,2 @@
+    -Updated nautilus packages that fix two bugs are now available.
+    +Updated nautilus packages that resolve several issues are now available.
+    
+    description changed:
+    
+    
+    
+    @@ -2,17 +2,20 @@
+     Internet-based resources. Nautilus is a c
+  created_at: 2008-04-30 07:10:58 -04:00
+  errata_id: 7058
+  id: 416615
+  removed: ""
+  what: text_change
+  who_id: 230081
+errata_activity_416619: 
+  added: |-
+    description changed:
+    
+    
+    @@ -2,19 +2,17 @@
+     Internet-based resources. Nautilus is a core component of the GNOME desktop
+     project.
+     
+    -These updated nautilus packages provide fixes for the following bugs:
+    +These updated nautilus packages provide fixes for a b
+  created_at: 2008-04-30 07:25:19 -04:00
+  errata_id: 7058
+  id: 416619
+  removed: ""
+  what: text_change
+  who_id: 230081
+errata_activity_416621: 
+  added: QE_ERRATA
+  created_at: 2008-04-30 07:55:02 -04:00
+  errata_id: 7058
+  id: 416621
+  removed: ""
+  what: respin
+  who_id: 204382
+errata_activity_416622: 
+  added: NEW_PKGS
+  created_at: 2008-04-30 07:55:12 -04:00
+  errata_id: 7058
+  id: 416622
+  removed: NEED_QE
+  what: status
+  who_id: 204382
+errata_activity_416644: 
+  added: QE_READY
+  created_at: 2008-04-30 11:05:30 -04:00
+  errata_id: 7058
+  id: 416644
+  removed: NEW_PKGS
+  what: status
+  who_id: 174587
+errata_activity_416645: 
+  added: ON_QA
+  created_at: 2008-04-30 11:06:18 -04:00
+  errata_id: 7058
+  id: 416645
+  removed: QE_READY
+  what: status
+  who_id: 204382
+errata_activity_416646: 
+  added: ON_RHNQA
+  created_at: 2008-04-30 11:08:13 -04:00
+  errata_id: 7058
+  id: 416646
+  removed: ON_QA
+  what: status
+  who_id: 204382
+errata_activity_416650: 
+  added: HOLD_UPDATE
+  created_at: 2008-04-30 11:32:50 -04:00
+  errata_id: 7058
+  id: 416650
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_416665: 
+  added: SHIPPED_LIVE
+  created_at: 2008-04-30 14:19:00 -04:00
+  errata_id: 7058
+  id: 416665
+  removed: HOLD_UPDATE
+  what: status
+  who_id: 174587
+errata_activity_418166: 
+  added: NEW
+  created_at: 2008-05-20 23:02:28 -04:00
+  errata_id: 7390
+  id: 418166
+  removed: UNFILED
+  what: status
+  who_id: 194055
+errata_activity_419621: 
+  added: NEED_RESPIN
+  created_at: 2008-06-10 22:19:20 -04:00
+  errata_id: 7390
+  id: 419621
+  removed: NEW
+  what: status
+  who_id: 155492
+errata_activity_420036: 
+  added: NEED_DEV
+  created_at: 2008-06-18 16:10:41 -04:00
+  errata_id: 7390
+  id: 420036
+  removed: NEED_RESPIN
+  what: status
+  who_id: 155492
+errata_activity_420037: 
+  added: FIX_INCOMPLETE
+  created_at: 2008-06-18 16:10:47 -04:00
+  errata_id: 7390
+  id: 420037
+  removed: ""
+  what: respin
+  who_id: 155492
+errata_activity_420038: 
+  added: NEW_PKGS
+  created_at: 2008-06-18 16:10:57 -04:00
+  errata_id: 7390
+  id: 420038
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_420039: 
+  added: ON_QA
+  created_at: 2008-06-18 16:11:03 -04:00
+  errata_id: 7390
+  id: 420039
+  removed: NEW_PKGS
+  what: status
+  who_id: 155492
+errata_activity_420214: 
+  added: ON_RHNQA
+  created_at: 2008-06-20 12:10:04 -04:00
+  errata_id: 7390
+  id: 420214
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_420222: 
+  added: HOLD_PUSH
+  created_at: 2008-06-20 13:48:17 -04:00
+  errata_id: 7390
+  id: 420222
+  removed: ON_RHNQA
+  what: status
+  who_id: 155492
+errata_activity_420245: 
+  added: "description changed:\n\n\n\n\n\
+    @@ -3,27 +3,45 @@\n \n This updated package fixes the following bugs:\n \n\
+    -* Removed stray file hts/tests/cpuscaling/pi.py which cause\n\
+    -hts self-verification failures\n\
+    +* on certain Intel\xC2\xAE 64 systems, running the \"hts plan --server [se"
+  created_at: 2008-06-22 20:08:05 -04:00
+  errata_id: 7390
+  id: 420245
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_420246: 
+  added: |-
+    topic changed:
+    
+    @@ -1,3 +1,3 @@
+    -An updated hts package that fixes various bugs and adds enhancements is
+    -now available.
+    +An updated hts package that fixes various bugs and adds enhancements is now
+    +available.
+    
+    description changed:
+    
+    @@ -26,7 +26,7 @@
+     
+     S
+  created_at: 2008-06-22 20:14:22 -04:00
+  errata_id: 7390
+  id: 420246
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_420247: 
+  added: |-
+    description changed:
+    
+    @@ -21,7 +21,7 @@
+     As well, this updated package adds the following enhancement:
+     
+     * the cpuscaling test uses a Python decimal module added to Python 2.4.
+    -This module has been added to "hts/tests-env/lib", so that the cpuscaling
+    +T
+  created_at: 2008-06-22 20:17:56 -04:00
+  errata_id: 7390
+  id: 420247
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_420248: 
+  added: |-
+    description changed:
+    
+    @@ -36,8 +36,8 @@
+     * added the "/dev/" prefix to correct devices in "mounts" and "mtab", to
+     ensure that "sda" does not match "dasda".
+     
+    -* added a sync to the repartitioning line, and a file check to ensure
+    -that udev has time to su
+  created_at: 2008-06-22 20:21:52 -04:00
+  errata_id: 7390
+  id: 420248
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_420249: 
+  added: "description changed:\n\n\
+    @@ -3,8 +3,8 @@\n \n This updated package fixes the following bugs:\n \n\
+    -* on certain Intel\xC2\xAE 64 systems, running the \"hts plan --server [server IP\n\
+    -address]\" command caused a traceback error.\n\
+    +* on certain Itanium\xC2\xAE-based systems, running"
+  created_at: 2008-06-22 21:56:30 -04:00
+  errata_id: 7390
+  id: 420249
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_420301: 
+  added: SHIPPED_LIVE
+  created_at: 2008-06-23 15:53:07 -04:00
+  errata_id: 7390
+  id: 420301
+  removed: HOLD_PUSH
+  what: status
+  who_id: 96230
+errata_activity_422598: 
+  added: SHIPPED_LIVE
+  created_at: 2008-07-23 18:03:00 -04:00
+  errata_id: 7058
+  id: 422598
+  removed: SHIPPED_LIVE
+  what: status
+  who_id: 174587
+errata_activity_423786: 
+  added: NEW
+  created_at: 2008-08-25 17:10:31 -04:00
+  errata_id: 7679
+  id: 423786
+  removed: UNFILED
+  what: status
+  who_id: 209833
+errata_activity_423788: 
+  added: NEED_RESPIN
+  created_at: 2008-08-25 17:32:52 -04:00
+  errata_id: 7679
+  id: 423788
+  removed: NEW
+  what: status
+  who_id: 215839
+errata_activity_423789: 
+  added: NEED_QE
+  created_at: 2008-08-25 18:18:40 -04:00
+  errata_id: 7679
+  id: 423789
+  removed: NEED_RESPIN
+  what: status
+  who_id: 209833
+errata_activity_423790: 
+  added: NEW_BUGS_INT
+  created_at: 2008-08-25 18:30:14 -04:00
+  errata_id: 7679
+  id: 423790
+  removed: ""
+  what: respin
+  who_id: 171534
+errata_activity_423791: 
+  added: NEW_PKGS
+  created_at: 2008-08-25 18:30:20 -04:00
+  errata_id: 7679
+  id: 423791
+  removed: NEED_QE
+  what: status
+  who_id: 171534
+errata_activity_423792: 
+  added: NEED_DEV
+  created_at: 2008-08-25 18:30:29 -04:00
+  errata_id: 7679
+  id: 423792
+  removed: NEW_PKGS
+  what: status
+  who_id: 171534
+errata_activity_423793: 
+  added: ON_QA
+  created_at: 2008-08-25 18:30:35 -04:00
+  errata_id: 7679
+  id: 423793
+  removed: NEED_DEV
+  what: status
+  who_id: 171534
+errata_activity_423799: 
+  added: |-
+    description changed:
+    
+    
+    @@ -1,6 +1,13 @@
+    -(get some ipa description somewhere)
+    +IPA is an integrated solution to provide centrally managed Identity (machine,
+    +user, virtual machines, groups, authentication credentials), Policy
+    +(configuration settings, acc
+  created_at: 2008-08-26 02:10:29 -04:00
+  errata_id: 7679
+  id: 423799
+  removed: ""
+  what: text_change
+  who_id: 215839
+errata_activity_423980: 
+  added: NEED_RESPIN
+  created_at: 2008-08-27 19:59:28 -04:00
+  errata_id: 7679
+  id: 423980
+  removed: ON_QA
+  what: status
+  who_id: 211313
+errata_activity_423985: 
+  added: NEED_QE
+  created_at: 2008-08-27 22:19:55 -04:00
+  errata_id: 7679
+  id: 423985
+  removed: NEED_RESPIN
+  what: status
+  who_id: 209833
+errata_activity_423986: 
+  added: NEED_RESPIN
+  created_at: 2008-08-27 23:03:54 -04:00
+  errata_id: 7679
+  id: 423986
+  removed: NEED_QE
+  what: status
+  who_id: 171534
+errata_activity_424054: 
+  added: NEED_QE
+  created_at: 2008-08-28 11:24:58 -04:00
+  errata_id: 7679
+  id: 424054
+  removed: NEED_RESPIN
+  what: status
+  who_id: 209833
+errata_activity_424280: 
+  added: REGRESSION_INT
+  created_at: 2008-09-02 14:01:42 -04:00
+  errata_id: 7679
+  id: 424280
+  removed: ""
+  what: respin
+  who_id: 211313
+errata_activity_424281: 
+  added: NEW_PKGS
+  created_at: 2008-09-02 14:01:50 -04:00
+  errata_id: 7679
+  id: 424281
+  removed: NEED_QE
+  what: status
+  who_id: 211313
+errata_activity_424282: 
+  added: "solution changed:\n\n\
+    @@ -1,3 +1,48 @@\n\
+    +\n\
+    +To fully resolve this problem, you need to preform following steps manually\n\
+    +after installing updated packages:\n\
+    +\n\
+    +Disclaimer: The following procedure performs critical, low-level operations\n\
+    +on your IPA system, and "
+  created_at: 2008-09-02 14:01:53 -04:00
+  errata_id: 7679
+  id: 424282
+  removed: ""
+  what: text_change
+  who_id: 209833
+errata_activity_424283: 
+  added: 
+  created_at: 2008-09-02 14:02:06 -04:00
+  errata_id: 7679
+  id: 424283
+  removed: 
+  what: docs_approval_requested
+  who_id: 209833
+errata_activity_424290: 
+  added: REGRESSION_INT
+  created_at: 2008-09-02 16:31:09 -04:00
+  errata_id: 7679
+  id: 424290
+  removed: ""
+  what: respin
+  who_id: 171534
+errata_activity_424291: 
+  added: NEW_PKGS
+  created_at: 2008-09-02 16:31:16 -04:00
+  errata_id: 7679
+  id: 424291
+  removed: NEED_QE
+  what: status
+  who_id: 171534
+errata_activity_424292: 
+  added: NEED_DEV
+  created_at: 2008-09-02 16:31:25 -04:00
+  errata_id: 7679
+  id: 424292
+  removed: NEW_PKGS
+  what: status
+  who_id: 171534
+errata_activity_424293: 
+  added: ON_QA
+  created_at: 2008-09-02 16:31:33 -04:00
+  errata_id: 7679
+  id: 424293
+  removed: NEED_DEV
+  what: status
+  who_id: 171534
+errata_activity_424350: 
+  added: |-
+    solution changed:
+    
+    @@ -1,4 +1,3 @@
+    -
+     To fully resolve this problem, you need to preform following steps manually
+     after installing updated packages:
+     
+    
+    
+    
+    @@ -22,14 +21,15 @@
+     This should dump all Kerberos principals, reload them, and then return a 
+     mess
+  created_at: 2008-09-03 17:38:06 -04:00
+  errata_id: 7679
+  id: 424350
+  removed: ""
+  what: text_change
+  who_id: 199824
+errata_activity_424351: 
+  added: 
+  created_at: 2008-09-03 17:38:07 -04:00
+  errata_id: 7679
+  id: 424351
+  removed: 
+  what: docs_approval_requested
+  who_id: 199824
+errata_activity_424352: 
+  added: 
+  created_at: 2008-09-03 17:41:45 -04:00
+  errata_id: 7679
+  id: 424352
+  removed: 
+  what: docs_approved
+  who_id: 199824
+errata_activity_424353: 
+  added: ON_RHNQA
+  created_at: 2008-09-03 17:50:53 -04:00
+  errata_id: 7679
+  id: 424353
+  removed: ON_QA
+  what: status
+  who_id: 211313
+errata_activity_424354: 
+  added: HOLD_PUSH
+  created_at: 2008-09-03 17:58:17 -04:00
+  errata_id: 7679
+  id: 424354
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_424355: 
+  added: HOLD_EMBARGO
+  created_at: 2008-09-03 18:17:54 -04:00
+  errata_id: 7679
+  id: 424355
+  removed: HOLD_PUSH
+  what: status
+  who_id: 211313
+errata_activity_424360: 
+  added: |-
+    solution changed:
+    
+    @@ -29,7 +29,7 @@
+     Attention: DO NOT RUN THIS COMMAND ON ANY OTHER SERVER. See the next step.
+     
+     4. On all other IPA servers, run the following tool:
+    -   $ ipa-fix-2008-3274 --fix-replica
+    +    $ ipa-fix-2008-3274 --fix-replica
+     
+     This w
+  created_at: 2008-09-04 03:26:51 -04:00
+  errata_id: 7679
+  id: 424360
+  removed: ""
+  what: text_change
+  who_id: 215839
+errata_activity_424361: 
+  added: |-
+    description changed:
+    
+    @@ -4,7 +4,7 @@
+     logs, analysis) services.
+     
+     A flaw was found in the Red Hat Enterprise IPA installation procedure.  The
+    -master Kerberos password was set up in the LDAP in such a way, that it was
+    +master Kerberos password was set u
+  created_at: 2008-09-04 03:27:45 -04:00
+  errata_id: 7679
+  id: 424361
+  removed: ""
+  what: text_change
+  who_id: 215839
+errata_activity_424380: 
+  added: |-
+    description changed:
+    
+    
+    @@ -4,9 +4,14 @@
+     logs, analysis) services.
+     
+     A flaw was found in the Red Hat Enterprise IPA installation procedure.  The
+    -master Kerberos password was set up in the LDAP in such way, that it was
+    -possible to retrieve that password
+  created_at: 2008-09-04 09:19:24 -04:00
+  errata_id: 7679
+  id: 424380
+  removed: ""
+  what: text_change
+  who_id: 163483
+errata_activity_424382: 
+  added: "description changed:\n\n\
+    @@ -10,8 +10,7 @@\n \n Note: The Master Kerberos Password is used to encrypt keys, however this\n flaw does not lead to individual keys being exposed.  By itself this flaw\n\
+    -does not reveal any key contents, but could be combined with a "
+  created_at: 2008-09-04 10:30:07 -04:00
+  errata_id: 7679
+  id: 424382
+  removed: ""
+  what: text_change
+  who_id: 163483
+errata_activity_424383: 
+  added: "description changed:\n\n\
+    @@ -10,8 +10,7 @@\n \n Note: The Master Kerberos Password is used to encrypt keys, however this\n flaw does not lead to individual keys being exposed.  By itself this flaw\n\
+    -does not reveal any key contents, but could be combined with a "
+  created_at: 2008-09-04 10:30:28 -04:00
+  errata_id: 7679
+  id: 424383
+  removed: ""
+  what: text_change
+  who_id: 163483
+errata_activity_424384: 
+  added: 
+  created_at: 2008-09-04 10:37:33 -04:00
+  errata_id: 7679
+  id: 424384
+  removed: 
+  what: docs_approval_requested
+  who_id: 163483
+errata_activity_424385: 
+  added: 
+  created_at: 2008-09-04 10:40:50 -04:00
+  errata_id: 7679
+  id: 424385
+  removed: 
+  what: docs_approval_requested
+  who_id: 163483
+errata_activity_424431: 
+  added: "solution changed:\n\n\n\n\
+    @@ -1,12 +1,13 @@\n\
+    -To fully resolve this problem, you need to preform following steps manually\n\
+    -after installing updated packages:\n\
+    +To fully resolve this problem, you need to manually perform the following\n\
+    +steps after installing the "
+  created_at: 2008-09-08 00:37:17 -04:00
+  errata_id: 7679
+  id: 424431
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_424432: 
+  added: |-
+    description changed:
+    
+    @@ -8,8 +8,8 @@
+     it was possible to retrieve the password via an anonymous LDAP connection.
+     (CVE-2008-3274)
+     
+    -Note: The master Kerberos password is used to encrypt keys; however, this
+    -flaw does not lead to individual keys being ex
+  created_at: 2008-09-08 01:04:12 -04:00
+  errata_id: 7679
+  id: 424432
+  removed: ""
+  what: text_change
+  who_id: 223091
+errata_activity_424433: 
+  added: 
+  created_at: 2008-09-08 01:24:06 -04:00
+  errata_id: 7679
+  id: 424433
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_424615: 
+  added: "description changed:\n\n\
+    @@ -9,8 +9,8 @@\n (CVE-2008-3274)\n \n Note: the master Kerberos password is used to encrypt keys. This flaw does\n\
+    -not lead to individual keys being exposed, however. By itself, this flaw\n\
+    -does not reveal any key contents.\n\
+    +not lead to "
+  created_at: 2008-09-10 14:06:03 -04:00
+  errata_id: 7679
+  id: 424615
+  removed: ""
+  what: text_change
+  who_id: 163483
+errata_activity_424616: 
+  added: 
+  created_at: 2008-09-10 14:07:07 -04:00
+  errata_id: 7679
+  id: 424616
+  removed: 
+  what: docs_approved
+  who_id: 163483
+errata_activity_424617: 
+  added: SHIPPED_LIVE
+  created_at: 2008-09-10 14:08:10 -04:00
+  errata_id: 7679
+  id: 424617
+  removed: HOLD_EMBARGO
+  what: status
+  who_id: 163483
+errata_activity_424618: 
+  added: |-
+    description changed:
+    
+    @@ -9,8 +9,7 @@
+     (CVE-2008-3274)
+     
+     Note: the master Kerberos password is used to encrypt keys. This flaw does
+    -not lead to individual keys being exposed. By itself, this flaw does not
+    -reveal any key contents.
+    +not lead to individua
+  created_at: 2008-09-10 14:18:21 -04:00
+  errata_id: 7679
+  id: 424618
+  removed: ""
+  what: text_change
+  who_id: 163483
+errata_activity_424619: 
+  added: 
+  created_at: 2008-09-10 14:18:37 -04:00
+  errata_id: 7679
+  id: 424619
+  removed: 
+  what: docs_approved
+  who_id: 163483
+errata_activity_428152: 
+  added: NEW
+  created_at: 2008-10-30 04:11:41 -04:00
+  errata_id: 8013
+  id: 428152
+  removed: UNFILED
+  what: status
+  who_id: 96230
+errata_activity_428261: 
+  added: |-
+    topic changed:
+    
+    @@ -1,2 +1,2 @@
+    -topic
+    +Updated Deployment_Guide package is now available.
+    
+    description changed:
+    
+    @@ -1,2 +1,8 @@
+    -problem
+    +This Deployment_Guide documents relevant information regarding the
+    +deployment, configuration and administration of
+  created_at: 2008-10-30 17:53:52 -04:00
+  errata_id: 8013
+  id: 428261
+  removed: ""
+  what: text_change
+  who_id: 143139
+errata_activity_428262: 
+  added: NEED_QE
+  created_at: 2008-10-30 17:55:02 -04:00
+  errata_id: 8013
+  id: 428262
+  removed: NEW
+  what: status
+  who_id: 143139
+errata_activity_428288: 
+  added: ON_QA
+  created_at: 2008-10-31 00:18:08 -04:00
+  errata_id: 8013
+  id: 428288
+  removed: NEED_QE
+  what: status
+  who_id: 155492
+errata_activity_428289: 
+  added: NEED_RESPIN
+  created_at: 2008-10-31 00:20:50 -04:00
+  errata_id: 8013
+  id: 428289
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_428290: 
+  added: NEED_QE
+  created_at: 2008-10-31 00:29:33 -04:00
+  errata_id: 8013
+  id: 428290
+  removed: NEED_RESPIN
+  what: status
+  who_id: 143139
+errata_activity_428550: 
+  added: NEED_DEV
+  created_at: 2008-11-04 19:20:01 -05:00
+  errata_id: 8013
+  id: 428550
+  removed: NEED_QE
+  what: status
+  who_id: 155492
+errata_activity_428939: 
+  added: QE_ERRATA
+  created_at: 2008-11-09 20:33:00 -05:00
+  errata_id: 8013
+  id: 428939
+  removed: ""
+  what: respin
+  who_id: 155492
+errata_activity_428940: 
+  added: NEW_PKGS
+  created_at: 2008-11-09 20:33:13 -05:00
+  errata_id: 8013
+  id: 428940
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_428941: 
+  added: NEED_DEV
+  created_at: 2008-11-09 20:33:21 -05:00
+  errata_id: 8013
+  id: 428941
+  removed: NEW_PKGS
+  what: status
+  who_id: 155492
+errata_activity_428942: 
+  added: ON_QA
+  created_at: 2008-11-09 20:33:29 -05:00
+  errata_id: 8013
+  id: 428942
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_429346: 
+  added: NEED_DEV
+  created_at: 2008-11-13 02:46:59 -05:00
+  errata_id: 8013
+  id: 429346
+  removed: ON_QA
+  what: status
+  who_id: 200028
+errata_activity_429440: 
+  added: ON_QA
+  created_at: 2008-11-13 21:22:43 -05:00
+  errata_id: 8013
+  id: 429440
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_429441: 
+  added: NEED_RESPIN
+  created_at: 2008-11-13 21:23:07 -05:00
+  errata_id: 8013
+  id: 429441
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_429444: 
+  added: NEED_QE
+  created_at: 2008-11-13 22:18:14 -05:00
+  errata_id: 8013
+  id: 429444
+  removed: NEED_RESPIN
+  what: status
+  who_id: 143139
+errata_activity_429445: 
+  added: QE_ERRATA
+  created_at: 2008-11-13 22:21:10 -05:00
+  errata_id: 8013
+  id: 429445
+  removed: ""
+  what: respin
+  who_id: 155492
+errata_activity_429446: 
+  added: NEW_PKGS
+  created_at: 2008-11-13 22:21:29 -05:00
+  errata_id: 8013
+  id: 429446
+  removed: NEED_QE
+  what: status
+  who_id: 155492
+errata_activity_429447: 
+  added: NEED_DEV
+  created_at: 2008-11-13 22:28:25 -05:00
+  errata_id: 8013
+  id: 429447
+  removed: NEW_PKGS
+  what: status
+  who_id: 200028
+errata_activity_429448: 
+  added: ON_QA
+  created_at: 2008-11-13 22:28:37 -05:00
+  errata_id: 8013
+  id: 429448
+  removed: NEED_DEV
+  what: status
+  who_id: 200028
+errata_activity_429476: 
+  added: NEED_DEV
+  created_at: 2008-11-14 05:43:00 -05:00
+  errata_id: 8013
+  id: 429476
+  removed: ON_QA
+  what: status
+  who_id: 200028
+errata_activity_429564: 
+  added: ON_QA
+  created_at: 2008-11-16 20:11:34 -05:00
+  errata_id: 8013
+  id: 429564
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_429577: 
+  added: NEED_DEV
+  created_at: 2008-11-17 03:15:07 -05:00
+  errata_id: 8013
+  id: 429577
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_429606: 
+  added: NEED_QE
+  created_at: 2008-11-17 17:54:36 -05:00
+  errata_id: 8013
+  id: 429606
+  removed: NEED_DEV
+  what: status
+  who_id: 143139
+errata_activity_429917: 
+  added: ON_QA
+  created_at: 2008-11-19 21:39:03 -05:00
+  errata_id: 8013
+  id: 429917
+  removed: NEED_QE
+  what: status
+  who_id: 155492
+errata_activity_429918: 
+  added: 
+  created_at: 2008-11-19 21:39:33 -05:00
+  errata_id: 8013
+  id: 429918
+  removed: 
+  what: docs_approval_requested
+  who_id: 155492
+errata_activity_429919: 
+  added: NEED_DEV
+  created_at: 2008-11-19 21:54:32 -05:00
+  errata_id: 8013
+  id: 429919
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_430041: 
+  added: ON_QA
+  created_at: 2008-11-23 19:30:55 -05:00
+  errata_id: 8013
+  id: 430041
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_430042: 
+  added: ON_RHNQA
+  created_at: 2008-11-23 19:31:23 -05:00
+  errata_id: 8013
+  id: 430042
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_430044: 
+  added: HOLD_PUSH
+  created_at: 2008-11-23 19:58:04 -05:00
+  errata_id: 8013
+  id: 430044
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_430048: 
+  added: |-
+    description changed:
+    
+    
+    
+    @@ -1,8 +1,16 @@
+    -This Deployment_Guide documents relevant information regarding the
+    -deployment, configuration and administration of Red Hat Enterprise Linux 5.
+    +The Red Hat Enterprise Linux Deployment Guide provides relevant info
+  created_at: 2008-11-24 00:52:08 -05:00
+  errata_id: 8013
+  id: 430048
+  removed: ""
+  what: text_change
+  who_id: 204361
+errata_activity_430049: 
+  added: 
+  created_at: 2008-11-24 00:52:08 -05:00
+  errata_id: 8013
+  id: 430049
+  removed: 
+  what: docs_approval_requested
+  who_id: 204361
+errata_activity_430050: 
+  added: 
+  created_at: 2008-11-24 00:53:04 -05:00
+  errata_id: 8013
+  id: 430050
+  removed: 
+  what: docs_approved
+  who_id: 204361
+errata_activity_430102: 
+  added: NEED_QE
+  created_at: 2008-11-24 10:48:14 -05:00
+  errata_id: 8013
+  id: 430102
+  removed: HOLD_PUSH
+  what: status
+  who_id: 96230
+errata_activity_434588: 
+  added: NEED_RESPIN
+  created_at: 2009-01-27 18:40:44 -05:00
+  errata_id: 8013
+  id: 434588
+  removed: NEED_QE
+  what: status
+  who_id: 143139
+errata_activity_434589: 
+  added: NEED_QE
+  created_at: 2009-01-27 18:44:22 -05:00
+  errata_id: 8013
+  id: 434589
+  removed: NEED_RESPIN
+  what: status
+  who_id: 143139
+errata_activity_434607: 
+  added: QE_ERRATA
+  created_at: 2009-01-27 22:04:10 -05:00
+  errata_id: 8013
+  id: 434607
+  removed: ""
+  what: respin
+  who_id: 155492
+errata_activity_434608: 
+  added: NEW_PKGS
+  created_at: 2009-01-27 22:04:11 -05:00
+  errata_id: 8013
+  id: 434608
+  removed: NEED_QE
+  what: status
+  who_id: 155492
+errata_activity_434609: 
+  added: NEED_DEV
+  created_at: 2009-01-27 22:05:38 -05:00
+  errata_id: 8013
+  id: 434609
+  removed: NEW_PKGS
+  what: status
+  who_id: 155492
+errata_activity_434610: 
+  added: ON_QA
+  created_at: 2009-01-27 22:05:51 -05:00
+  errata_id: 8013
+  id: 434610
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_434686: 
+  added: NEED_DEV
+  created_at: 2009-01-29 01:26:26 -05:00
+  errata_id: 8013
+  id: 434686
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_434793: 
+  added: NEED_QE
+  created_at: 2009-02-01 19:02:13 -05:00
+  errata_id: 8013
+  id: 434793
+  removed: NEED_DEV
+  what: status
+  who_id: 143139
+errata_activity_434864: 
+  added: ON_QA
+  created_at: 2009-02-02 16:44:00 -05:00
+  errata_id: 8013
+  id: 434864
+  removed: NEED_QE
+  what: status
+  who_id: 155492
+errata_activity_434924: 
+  added: NEED_RESPIN
+  created_at: 2009-02-03 17:33:28 -05:00
+  errata_id: 8013
+  id: 434924
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_434927: 
+  added: NEED_QE
+  created_at: 2009-02-03 17:40:44 -05:00
+  errata_id: 8013
+  id: 434927
+  removed: NEED_RESPIN
+  what: status
+  who_id: 143139
+errata_activity_434928: 
+  added: QE_ERRATA
+  created_at: 2009-02-03 17:45:55 -05:00
+  errata_id: 8013
+  id: 434928
+  removed: ""
+  what: respin
+  who_id: 155492
+errata_activity_434929: 
+  added: NEW_PKGS
+  created_at: 2009-02-03 17:45:56 -05:00
+  errata_id: 8013
+  id: 434929
+  removed: NEED_QE
+  what: status
+  who_id: 155492
+errata_activity_434930: 
+  added: NEED_DEV
+  created_at: 2009-02-03 17:46:02 -05:00
+  errata_id: 8013
+  id: 434930
+  removed: NEW_PKGS
+  what: status
+  who_id: 155492
+errata_activity_434931: 
+  added: ON_QA
+  created_at: 2009-02-03 17:46:07 -05:00
+  errata_id: 8013
+  id: 434931
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_435033: 
+  added: NEED_RESPIN
+  created_at: 2009-02-04 20:29:41 -05:00
+  errata_id: 8013
+  id: 435033
+  removed: ON_QA
+  what: status
+  who_id: 143139
+errata_activity_435034: 
+  added: NEED_QE
+  created_at: 2009-02-04 20:32:22 -05:00
+  errata_id: 8013
+  id: 435034
+  removed: NEED_RESPIN
+  what: status
+  who_id: 143139
+errata_activity_435035: 
+  added: QE_ERRATA
+  created_at: 2009-02-04 20:34:22 -05:00
+  errata_id: 8013
+  id: 435035
+  removed: ""
+  what: respin
+  who_id: 200028
+errata_activity_435036: 
+  added: NEW_PKGS
+  created_at: 2009-02-04 20:34:23 -05:00
+  errata_id: 8013
+  id: 435036
+  removed: NEED_QE
+  what: status
+  who_id: 200028
+errata_activity_435037: 
+  added: NEED_DEV
+  created_at: 2009-02-04 20:34:41 -05:00
+  errata_id: 8013
+  id: 435037
+  removed: NEW_PKGS
+  what: status
+  who_id: 200028
+errata_activity_435038: 
+  added: ON_QA
+  created_at: 2009-02-04 20:34:52 -05:00
+  errata_id: 8013
+  id: 435038
+  removed: NEED_DEV
+  what: status
+  who_id: 200028
+errata_activity_435039: 
+  added: NEED_DEV
+  created_at: 2009-02-04 21:12:32 -05:00
+  errata_id: 8013
+  id: 435039
+  removed: ON_QA
+  what: status
+  who_id: 200028
+errata_activity_435044: 
+  added: ON_QA
+  created_at: 2009-02-05 02:45:34 -05:00
+  errata_id: 8013
+  id: 435044
+  removed: NEED_DEV
+  what: status
+  who_id: 200028
+errata_activity_435045: 
+  added: NEED_RESPIN
+  created_at: 2009-02-05 02:45:43 -05:00
+  errata_id: 8013
+  id: 435045
+  removed: ON_QA
+  what: status
+  who_id: 200028
+errata_activity_435069: 
+  added: NEED_DEV
+  created_at: 2009-02-05 11:47:50 -05:00
+  errata_id: 8013
+  id: 435069
+  removed: NEED_RESPIN
+  what: status
+  who_id: 155492
+errata_activity_435070: 
+  added: FIX_INCOMPLETE
+  created_at: 2009-02-05 11:47:56 -05:00
+  errata_id: 8013
+  id: 435070
+  removed: ""
+  what: respin
+  who_id: 155492
+errata_activity_435071: 
+  added: NEW_PKGS
+  created_at: 2009-02-05 11:47:57 -05:00
+  errata_id: 8013
+  id: 435071
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_435072: 
+  added: NEED_DEV
+  created_at: 2009-02-05 11:48:02 -05:00
+  errata_id: 8013
+  id: 435072
+  removed: NEW_PKGS
+  what: status
+  who_id: 155492
+errata_activity_435073: 
+  added: ON_QA
+  created_at: 2009-02-05 11:48:07 -05:00
+  errata_id: 8013
+  id: 435073
+  removed: NEED_DEV
+  what: status
+  who_id: 155492
+errata_activity_435080: 
+  added: ON_RHNQA
+  created_at: 2009-02-05 14:52:13 -05:00
+  errata_id: 8013
+  id: 435080
+  removed: ON_QA
+  what: status
+  who_id: 155492
+errata_activity_435082: 
+  added: HOLD_PUSH
+  created_at: 2009-02-05 15:01:16 -05:00
+  errata_id: 8013
+  id: 435082
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_435130: 
+  added: SHIPPED_LIVE
+  created_at: 2009-02-06 13:40:02 -05:00
+  errata_id: 8013
+  id: 435130
+  removed: HOLD_PUSH
+  what: status
+  who_id: 96230
+errata_activity_435268: 
+  added: REOPENED
+  created_at: 2009-02-11 11:14:15 -05:00
+  errata_id: 8013
+  id: 435268
+  removed: SHIPPED_LIVE
+  what: status
+  who_id: 96230
+errata_activity_435269: 
+  added: NEW
+  created_at: 2009-02-11 11:14:23 -05:00
+  errata_id: 8013
+  id: 435269
+  removed: REOPENED
+  what: status
+  who_id: 96230
+errata_activity_435270: 
+  added: NEED_QE
+  created_at: 2009-02-11 11:14:29 -05:00
+  errata_id: 8013
+  id: 435270
+  removed: NEW
+  what: status
+  who_id: 96230
+errata_activity_435271: 
+  added: NEED_RESPIN
+  created_at: 2009-02-11 11:14:34 -05:00
+  errata_id: 8013
+  id: 435271
+  removed: NEED_QE
+  what: status
+  who_id: 96230
+errata_activity_435272: 
+  added: NEED_QE
+  created_at: 2009-02-11 11:41:59 -05:00
+  errata_id: 8013
+  id: 435272
+  removed: NEED_RESPIN
+  what: status
+  who_id: 96230
+errata_activity_435273: 
+  added: ON_QA
+  created_at: 2009-02-11 11:42:18 -05:00
+  errata_id: 8013
+  id: 435273
+  removed: NEED_QE
+  what: status
+  who_id: 96230
+errata_activity_435274: 
+  added: ON_RHNQA
+  created_at: 2009-02-11 11:42:25 -05:00
+  errata_id: 8013
+  id: 435274
+  removed: ON_QA
+  what: status
+  who_id: 96230
+errata_activity_435281: 
+  added: NEED_QE
+  created_at: 2009-02-11 11:51:33 -05:00
+  errata_id: 8013
+  id: 435281
+  removed: ON_RHNQA
+  what: status
+  who_id: 96230
+errata_activity_435282: 
+  added: NEED_RESPIN
+  created_at: 2009-02-11 11:51:40 -05:00
+  errata_id: 8013
+  id: 435282
+  removed: NEED_QE
+  what: status
+  who_id: 96230
+errata_activity_435286: 
+  added: NEED_QE
+  created_at: 2009-02-11 11:55:34 -05:00
+  errata_id: 8013
+  id: 435286
+  removed: NEED_RESPIN
+  what: status
+  who_id: 96230
+errata_activity_435287: 
+  added: ON_QA
+  created_at: 2009-02-11 11:55:40 -05:00
+  errata_id: 8013
+  id: 435287
+  removed: NEED_QE
+  what: status
+  who_id: 96230
+errata_activity_435288: 
+  added: ON_RHNQA
+  created_at: 2009-02-11 11:55:46 -05:00
+  errata_id: 8013
+  id: 435288
+  removed: ON_QA
+  what: status
+  who_id: 96230
+errata_activity_435574: 
+  added: DROPPED_NO_SHIP
+  created_at: 2009-02-17 20:52:54 -05:00
+  errata_id: 8013
+  id: 435574
+  removed: ON_RHNQA
+  what: status
+  who_id: 143139
+errata_activity_445220: 
+  added: 
+  created_at: 2009-06-29 14:00:20 -04:00
+  errata_id: 8742
+  id: 445220
+  removed: 
+  what: docs_approval_requested
+  who_id: 174587
+errata_activity_445222: 
+  added: 
+  created_at: 2009-06-29 14:03:59 -04:00
+  errata_id: 8742
+  id: 445222
+  removed: 
+  what: docs_approval_requested
+  who_id: 174587
+errata_activity_445226: 
+  added: 
+  created_at: 2009-06-29 14:39:26 -04:00
+  errata_id: 8742
+  id: 445226
+  removed: 
+  what: docs_approval_requested
+  who_id: 174587
+errata_activity_445294: 
+  added: NEW
+  created_at: 2009-06-30 09:16:12 -04:00
+  errata_id: 8742
+  id: 445294
+  removed: UNFILED
+  what: status
+  who_id: 174587
+errata_activity_445357: 
+  added: 
+  created_at: 2009-07-01 08:12:12 -04:00
+  errata_id: 8742
+  id: 445357
+  removed: 
+  what: docs_approval_requested
+  who_id: 174587
+errata_activity_445388: 
+  added: 
+  created_at: 2009-07-01 18:30:59 -04:00
+  errata_id: 8742
+  id: 445388
+  removed: 
+  what: docs_approved
+  who_id: 174587
+errata_activity_445439: 
+  added: NEED_QE
+  created_at: 2009-07-02 11:51:46 -04:00
+  errata_id: 8742
+  id: 445439
+  removed: NEW
+  what: status
+  who_id: 174587
+errata_activity_445440: 
+  added: ON_QA
+  created_at: 2009-07-02 11:51:55 -04:00
+  errata_id: 8742
+  id: 445440
+  removed: NEED_QE
+  what: status
+  who_id: 174587
+errata_activity_445443: 
+  added: ON_RHNQA
+  created_at: 2009-07-02 13:28:49 -04:00
+  errata_id: 8742
+  id: 445443
+  removed: ON_QA
+  what: status
+  who_id: 174587
+errata_activity_445445: 
+  added: nagios-2.12-3.el5
+  created_at: 2009-07-02 14:35:44 -04:00
+  errata_id: 8742
+  id: 445445
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_445446: 
+  added: HOLD_PUSH
+  created_at: 2009-07-02 15:03:22 -04:00
+  errata_id: 8742
+  id: 445446
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_445448: 
+  added: SHIPPED_LIVE
+  created_at: 2009-07-02 16:29:36 -04:00
+  errata_id: 8742
+  id: 445448
+  removed: HOLD_PUSH
+  what: status
+  who_id: 174587
+errata_activity_445529: 
+  added: NEW
+  created_at: 2009-07-06 09:04:43 -04:00
+  errata_id: 8751
+  id: 445529
+  removed: UNFILED
+  what: status
+  who_id: 174587
+errata_activity_445536: 
+  added: NEED_DEV
+  created_at: 2009-07-06 13:51:30 -04:00
+  errata_id: 8751
+  id: 445536
+  removed: NEW
+  what: status
+  who_id: 174587
+errata_activity_445537: 
+  added: ON_QA
+  created_at: 2009-07-06 13:51:41 -04:00
+  errata_id: 8751
+  id: 445537
+  removed: NEED_DEV
+  what: status
+  who_id: 174587
+errata_activity_445639: 
+  added: 
+  created_at: 2009-07-08 00:41:43 -04:00
+  errata_id: 8751
+  id: 445639
+  removed: 
+  what: docs_approved
+  who_id: 174587
+errata_activity_445756: 
+  added: ON_RHNQA
+  created_at: 2009-07-09 13:58:15 -04:00
+  errata_id: 8751
+  id: 445756
+  removed: ON_QA
+  what: status
+  who_id: 174587
+errata_activity_445799: 
+  added: HOLD_PUSH
+  created_at: 2009-07-10 06:22:20 -04:00
+  errata_id: 8751
+  id: 445799
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_446053: 
+  added: SHIPPED_LIVE
+  created_at: 2009-07-14 15:07:55 -04:00
+  errata_id: 8751
+  id: 446053
+  removed: HOLD_PUSH
+  what: status
+  who_id: 174587
+errata_activity_449421: 
+  added: NEW
+  created_at: 2009-09-04 10:55:41 -04:00
+  errata_id: 8854
+  id: 449421
+  removed: UNFILED
+  what: status
+  who_id: 174587
+errata_activity_449453: 
+  added: NEED_QE
+  created_at: 2009-09-07 10:44:13 -04:00
+  errata_id: 8854
+  id: 449453
+  removed: NEW
+  what: status
+  who_id: 174587
+errata_activity_449454: 
+  added: ON_QA
+  created_at: 2009-09-07 10:46:51 -04:00
+  errata_id: 8854
+  id: 449454
+  removed: NEED_QE
+  what: status
+  who_id: 174587
+errata_activity_449455: 
+  added: ON_RHNQA
+  created_at: 2009-09-07 10:47:06 -04:00
+  errata_id: 8854
+  id: 449455
+  removed: ON_QA
+  what: status
+  who_id: 174587
+errata_activity_449666: 
+  added: HOLD_EMBARGO
+  created_at: 2009-09-15 09:43:02 -04:00
+  errata_id: 8854
+  id: 449666
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_451602: 
+  added: DROPPED_NO_SHIP
+  created_at: 2009-11-06 03:39:13 -05:00
+  errata_id: 8854
+  id: 451602
+  removed: HOLD_EMBARGO
+  what: status
+  who_id: 174587
+errata_activity_453445: 
+  added: 
+  created_at: 2009-12-09 12:23:08 -05:00
+  errata_id: 9190
+  id: 453445
+  removed: 
+  what: docs_approval_requested
+  who_id: 174587
+errata_activity_453637: 
+  added: NEW
+  created_at: 2009-12-14 15:43:24 -05:00
+  errata_id: 9190
+  id: 453637
+  removed: UNFILED
+  what: status
+  who_id: 174587
+errata_activity_453642: 
+  added: QE_READY
+  created_at: 2009-12-14 20:01:17 -05:00
+  errata_id: 9190
+  id: 453642
+  removed: NEW
+  what: status
+  who_id: 174587
+errata_activity_453643: 
+  added: ON_QA
+  created_at: 2009-12-14 20:02:37 -05:00
+  errata_id: 9190
+  id: 453643
+  removed: QE_READY
+  what: status
+  who_id: 174587
+errata_activity_453647: 
+  added: condor-7.4.1-0.7.1.el4
+  created_at: 2009-12-14 21:54:22 -05:00
+  errata_id: 9190
+  id: 453647
+  removed: 
+  what: signing
+  who_id: 155492
+errata_activity_453823: 
+  added: ON_RHNQA
+  created_at: 2009-12-16 08:31:44 -05:00
+  errata_id: 9190
+  id: 453823
+  removed: ON_QA
+  what: status
+  who_id: 174587
+errata_activity_453826: 
+  added: HOLD_EMBARGO
+  created_at: 2009-12-16 08:43:05 -05:00
+  errata_id: 9190
+  id: 453826
+  removed: ON_RHNQA
+  what: status
+  who_id: 174587
+errata_activity_453867: 
+  added: 
+  created_at: 2009-12-16 16:10:17 -05:00
+  errata_id: 9190
+  id: 453867
+  removed: 
+  what: docs_approval_requested
+  who_id: 174587
+errata_activity_453882: 
+  added: 
+  created_at: 2009-12-16 22:11:57 -05:00
+  errata_id: 9190
+  id: 453882
+  removed: 
+  what: docs_approved
+  who_id: 174587
+errata_activity_454129: 
+  added: SHIPPED_LIVE
+  created_at: 2009-12-21 20:24:58 -05:00
+  errata_id: 9190
+  id: 454129
+  removed: HOLD_EMBARGO
+  what: status
+  who_id: 174587
+errata_activity_454949: 
+  added: 
+  created_at: 2010-01-11 09:59:07 -05:00
+  errata_id: 9325
+  id: 454949
+  removed: 
+  what: docs_approval_requested
+  who_id: 174587
+errata_activity_455035: 
+  added: 
+  created_at: 2010-01-12 14:10:30 -05:00
+  errata_id: 9325
+  id: 455035
+  removed: 
+  what: docs_approved
+  who_id: 174587
+errata_activity_455049: 
+  added: NEW
+  created_at: 2010-01-12 17:47:56 -05:00
+  errata_id: 9325
+  id: 455049
+  removed: UNFILED
+  what: status
+  who_id: 174587
+errata_activity_455294: 
+  added: 
+  created_at: 2010-01-15 13:21:39 -05:00
+  errata_id: 9325
+  id: 455294
+  removed: 
+  what: docs_approved
+  who_id: 174587
+errata_activity_455699: 
+  added: 
+  created_at: 2010-01-24 22:38:29 -05:00
+  errata_id: 9325
+  id: 455699
+  removed: 
+  what: docs_approved
+  who_id: 174587
+errata_activity_455700: 
+  added: 
+  created_at: 2010-01-24 22:56:22 -05:00
+  errata_id: 9325
+  id: 455700
+  removed: 
+  what: docs_approved
+  who_id: 174587
+errata_activity_456163: 
+  added: dirsec-nss-3.11.5-5
+  created_at: 2010-02-02 10:08:58 -05:00
+  errata_id: 9325
+  id: 456163
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_456195: 
+  added: DROPPED_NO_SHIP
+  created_at: 2010-02-02 17:14:06 -05:00
+  errata_id: 9325
+  id: 456195
+  removed: NEW
+  what: status
+  who_id: 268050
+errata_activity_456790: 
+  added: REOPENED
+  created_at: 2010-02-14 06:05:12 -05:00
+  errata_id: 9325
+  id: 456790
+  removed: DROPPED_NO_SHIP
+  what: status
+  who_id: 215839
+errata_activity_456791: 
+  added: NEW
+  created_at: 2010-02-14 06:05:30 -05:00
+  errata_id: 9325
+  id: 456791
+  removed: REOPENED
+  what: status
+  who_id: 215839
+errata_activity_456792: 
+  added: NEED_RESPIN
+  created_at: 2010-02-14 06:05:42 -05:00
+  errata_id: 9325
+  id: 456792
+  removed: NEW
+  what: status
+  who_id: 215839
+errata_activity_457740: 
+  added: NEW
+  created_at: 2010-03-01 20:11:37 -05:00
+  errata_id: 9407
+  id: 457740
+  removed: UNFILED
+  what: status
+  who_id: 100112
+errata_activity_457741: 
+  added: NEED_QE
+  created_at: 2010-03-01 20:12:13 -05:00
+  errata_id: 9407
+  id: 457741
+  removed: NEW
+  what: status
+  who_id: 100112
+errata_activity_457745: 
+  added: ON_QA
+  created_at: 2010-03-02 01:39:37 -05:00
+  errata_id: 9407
+  id: 457745
+  removed: NEED_QE
+  what: status
+  who_id: 155492
+errata_activity_457762: 
+  added: NEED_QE
+  created_at: 2010-03-02 06:21:35 -05:00
+  errata_id: 9407
+  id: 457762
+  removed: ON_QA
+  what: status
+  who_id: 100112
+errata_activity_457763: 
+  added: NEED_RESPIN
+  created_at: 2010-03-02 06:46:28 -05:00
+  errata_id: 9407
+  id: 457763
+  removed: NEED_QE
+  what: status
+  who_id: 269531
+errata_activity_457849: 
+  added: NEED_QE
+  created_at: 2010-03-02 18:44:04 -05:00
+  errata_id: 9407
+  id: 457849
+  removed: NEED_RESPIN
+  what: status
+  who_id: 100112
+errata_activity_457859: 
+  added: QE_ERRATA
+  created_at: 2010-03-02 21:09:48 -05:00
+  errata_id: 9407
+  id: 457859
+  removed: ""
+  what: respin
+  who_id: 198128
+errata_activity_457860: 
+  added: NEW_PKGS
+  created_at: 2010-03-02 21:09:48 -05:00
+  errata_id: 9407
+  id: 457860
+  removed: NEED_QE
+  what: status
+  who_id: 198128
+errata_activity_457861: 
+  added: NEED_DEV
+  created_at: 2010-03-02 21:09:59 -05:00
+  errata_id: 9407
+  id: 457861
+  removed: NEW_PKGS
+  what: status
+  who_id: 198128
+errata_activity_457862: 
+  added: ON_QA
+  created_at: 2010-03-02 21:10:30 -05:00
+  errata_id: 9407
+  id: 457862
+  removed: NEED_DEV
+  what: status
+  who_id: 198128
+errata_activity_459131: 
+  added: 
+  created_at: 2010-03-16 18:55:26 -04:00
+  errata_id: 9407
+  id: 459131
+  removed: 
+  what: docs_approval_requested
+  who_id: 100112
+errata_activity_459196: 
+  added: 
+  created_at: 2010-03-17 07:04:11 -04:00
+  errata_id: 9407
+  id: 459196
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000113
+errata_activity_459336: 
+  added: 
+  created_at: 2010-03-19 04:35:22 -04:00
+  errata_id: 9407
+  id: 459336
+  removed: 
+  what: docs_approval_requested
+  who_id: 100112
+errata_activity_459337: 
+  added: ON_RHNQA
+  created_at: 2010-03-19 04:48:03 -04:00
+  errata_id: 9407
+  id: 459337
+  removed: ON_QA
+  what: status
+  who_id: 198128
+errata_activity_459430: 
+  added: 
+  created_at: 2010-03-22 00:49:03 -04:00
+  errata_id: 9407
+  id: 459430
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_459566: 
+  added: 
+  created_at: 2010-03-23 12:13:40 -04:00
+  errata_id: 9494
+  id: 459566
+  removed: 
+  what: docs_approval_requested
+  who_id: 168062
+errata_activity_459568: 
+  added: NEW
+  created_at: 2010-03-23 12:22:25 -04:00
+  errata_id: 9494
+  id: 459568
+  removed: UNFILED
+  what: status
+  who_id: 168062
+errata_activity_459569: 
+  added: NEED_QE
+  created_at: 2010-03-23 12:22:36 -04:00
+  errata_id: 9494
+  id: 459569
+  removed: NEW
+  what: status
+  who_id: 168062
+errata_activity_459570: 
+  added: 
+  created_at: 2010-03-23 12:25:06 -04:00
+  errata_id: 9494
+  id: 459570
+  removed: 
+  what: docs_approval_requested
+  who_id: 168062
+errata_activity_459571: 
+  added: 
+  created_at: 2010-03-23 12:28:16 -04:00
+  errata_id: 9494
+  id: 459571
+  removed: 
+  what: docs_approval_requested
+  who_id: 168062
+errata_activity_459573: 
+  added: 
+  created_at: 2010-03-23 12:30:05 -04:00
+  errata_id: 9494
+  id: 459573
+  removed: 
+  what: docs_approval_requested
+  who_id: 168062
+errata_activity_459621: 
+  added: 
+  created_at: 2010-03-23 21:24:12 -04:00
+  errata_id: 9407
+  id: 459621
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_459652: 
+  added: HOLD_PUSH
+  created_at: 2010-03-24 11:27:47 -04:00
+  errata_id: 9407
+  id: 459652
+  removed: ON_RHNQA
+  what: status
+  who_id: 155492
+errata_activity_459656: 
+  added: SHIPPED_LIVE
+  created_at: 2010-03-24 11:46:46 -04:00
+  errata_id: 9407
+  id: 459656
+  removed: HOLD_PUSH
+  what: status
+  who_id: 174587
+errata_activity_459667: 
+  added: 
+  created_at: 2010-03-24 13:32:26 -04:00
+  errata_id: 9494
+  id: 459667
+  removed: 
+  what: docs_approved
+  who_id: 205270
+errata_activity_459696: 
+  added: 
+  created_at: 2010-03-24 21:27:24 -04:00
+  errata_id: 9494
+  id: 459696
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_460032: 
+  added: ON_QA
+  created_at: 2010-03-29 12:20:05 -04:00
+  errata_id: 9494
+  id: 460032
+  removed: NEED_QE
+  what: status
+  who_id: 277014
+errata_activity_460033: 
+  added: ON_RHNQA
+  created_at: 2010-03-29 12:21:09 -04:00
+  errata_id: 9494
+  id: 460033
+  removed: ON_QA
+  what: status
+  who_id: 277014
+errata_activity_460037: 
+  added: NEED_QE
+  created_at: 2010-03-29 13:27:39 -04:00
+  errata_id: 9494
+  id: 460037
+  removed: ON_RHNQA
+  what: status
+  who_id: 134666
+errata_activity_460050: 
+  added: 
+  created_at: 2010-03-29 23:52:17 -04:00
+  errata_id: 9494
+  id: 460050
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_460061: 
+  added: GFS-kernel-2.6.9-85.2.el4_8.10
+  created_at: 2010-03-30 04:54:42 -04:00
+  errata_id: 9494
+  id: 460061
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_460073: 
+  added: ON_QA
+  created_at: 2010-03-30 05:59:23 -04:00
+  errata_id: 9494
+  id: 460073
+  removed: NEED_QE
+  what: status
+  who_id: 277014
+errata_activity_460076: 
+  added: ON_RHNQA
+  created_at: 2010-03-30 06:07:57 -04:00
+  errata_id: 9494
+  id: 460076
+  removed: ON_QA
+  what: status
+  who_id: 277014
+errata_activity_460082: 
+  added: HOLD_PUSH
+  created_at: 2010-03-30 08:41:36 -04:00
+  errata_id: 9494
+  id: 460082
+  removed: ON_RHNQA
+  what: status
+  who_id: 277014
+errata_activity_460102: 
+  added: SHIPPED_LIVE
+  created_at: 2010-03-30 12:52:12 -04:00
+  errata_id: 9494
+  id: 460102
+  removed: HOLD_PUSH
+  what: status
+  who_id: 174587
+errata_activity_460728: 
+  added: DROPPED_NO_SHIP
+  created_at: 2010-04-16 06:00:52 -04:00
+  errata_id: 9325
+  id: 460728
+  removed: NEED_RESPIN
+  what: status
+  who_id: 215839
+errata_activity_463466: 
+  added: 
+  created_at: 2010-07-25 22:14:59 -04:00
+  errata_id: 9755
+  id: 463466
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_463467: 
+  added: 
+  created_at: 2010-07-25 22:46:04 -04:00
+  errata_id: 9754
+  id: 463467
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_463468: 
+  added: 
+  created_at: 2010-07-25 23:50:46 -04:00
+  errata_id: 9753
+  id: 463468
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_463583: 
+  added: tomcat6-6.0.24-7.patch_01.jdk6.ep5.el4, tomcat5-5.5.28-9.patch_01.jdk6.ep5.el4, tomcat6-6.0.24-7.patch_01.jdk6.ep5.el5, tomcat5-5.5.28-9.patch_01.1.jdk6.ep5.el5
+  created_at: 2010-07-27 14:59:17 -04:00
+  errata_id: 9755
+  id: 463583
+  removed: 
+  what: signing
+  who_id: 7775
+errata_activity_463655: 
+  added: QE
+  created_at: 2010-07-28 11:28:55 -04:00
+  errata_id: 9755
+  id: 463655
+  removed: NEW_FILES
+  what: status
+  who_id: 211874
+errata_activity_463670: 
+  added: QE
+  created_at: 2010-07-28 18:29:16 -04:00
+  errata_id: 9754
+  id: 463670
+  removed: NEW_FILES
+  what: status
+  who_id: 184429
+errata_activity_463731: 
+  added: QE
+  created_at: 2010-07-29 19:03:40 -04:00
+  errata_id: 9753
+  id: 463731
+  removed: NEW_FILES
+  what: status
+  who_id: 184429
+errata_activity_463744: 
+  added: NEW_FILES
+  created_at: 2010-07-30 10:10:58 -04:00
+  errata_id: 9753
+  id: 463744
+  removed: QE
+  what: status
+  who_id: 96230
+errata_activity_463762: 
+  added: QE
+  created_at: 2010-08-02 05:25:58 -04:00
+  errata_id: 9753
+  id: 463762
+  removed: NEW_FILES
+  what: status
+  who_id: 266715
+errata_activity_463772: 
+  added: tomcat5-5.5.23-0jpp_4rh.17
+  created_at: 2010-08-02 09:18:04 -04:00
+  errata_id: 9754
+  id: 463772
+  removed: 
+  what: signing
+  who_id: 7775
+errata_activity_463773: 
+  added: REL_PREP
+  created_at: 2010-08-02 09:21:35 -04:00
+  errata_id: 9755
+  id: 463773
+  removed: QE
+  what: status
+  who_id: 271623
+errata_activity_463775: 
+  added: PUSH_READY
+  created_at: 2010-08-02 10:00:18 -04:00
+  errata_id: 9755
+  id: 463775
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_463777: 
+  added: tomcat5-5.5.23-0jpp_21rh
+  created_at: 2010-08-02 10:15:31 -04:00
+  errata_id: 9753
+  id: 463777
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_463786: 
+  added: REL_PREP
+  created_at: 2010-08-02 12:12:21 -04:00
+  errata_id: 9753
+  id: 463786
+  removed: QE
+  what: status
+  who_id: 266715
+errata_activity_463787: 
+  added: REL_PREP
+  created_at: 2010-08-02 12:40:40 -04:00
+  errata_id: 9754
+  id: 463787
+  removed: QE
+  what: status
+  who_id: 266715
+errata_activity_463789: 
+  added: PUSH_READY
+  created_at: 2010-08-02 13:00:18 -04:00
+  errata_id: 9753
+  id: 463789
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_463790: 
+  added: PUSH_READY
+  created_at: 2010-08-02 13:00:18 -04:00
+  errata_id: 9754
+  id: 463790
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_463798: 
+  added: SHIPPED_LIVE
+  created_at: 2010-08-02 16:17:39 -04:00
+  errata_id: 9753
+  id: 463798
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_463799: 
+  added: SHIPPED_LIVE
+  created_at: 2010-08-02 16:17:39 -04:00
+  errata_id: 9753
+  id: 463799
+  removed: PUSH_READY
+  what: status
+  who_id: 184429
+errata_activity_463800: 
+  added: SHIPPED_LIVE
+  created_at: 2010-08-02 16:17:44 -04:00
+  errata_id: 9754
+  id: 463800
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_463803: 
+  added: SHIPPED_LIVE
+  created_at: 2010-08-02 16:39:04 -04:00
+  errata_id: 9755
+  id: 463803
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_464513: 
+  added: 
+  created_at: 2010-08-23 02:34:25 -04:00
+  errata_id: 9883
+  id: 464513
+  removed: 
+  what: docs_approval_requested
+  who_id: 223091
+errata_activity_464584: 
+  added: 
+  created_at: 2010-08-24 04:16:12 -04:00
+  errata_id: 9883
+  id: 464584
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000176
+errata_activity_464585: 
+  added: 
+  created_at: 2010-08-24 04:19:19 -04:00
+  errata_id: 9883
+  id: 464585
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000176
+errata_activity_464586: 
+  added: 
+  created_at: 2010-08-24 04:19:51 -04:00
+  errata_id: 9883
+  id: 464586
+  removed: 
+  what: docs_approved
+  who_id: 3000176
+errata_activity_464628: 
+  added: 
+  created_at: 2010-08-24 19:46:13 -04:00
+  errata_id: 9883
+  id: 464628
+  removed: 
+  what: docs_approval_requested
+  who_id: 223091
+errata_activity_465525: 
+  added: 2010-Oct-31
+  created_at: 2010-09-21 23:23:06 -04:00
+  errata_id: 9883
+  id: 465525
+  removed: UNSET
+  what: release_date
+  who_id: 196179
+errata_activity_465526: 
+  added: 
+  created_at: 2010-09-21 23:28:01 -04:00
+  errata_id: 9883
+  id: 465526
+  removed: 
+  what: docs_approval_requested
+  who_id: 196179
+errata_activity_465616: 
+  added: 
+  created_at: 2010-09-24 15:15:34 -04:00
+  errata_id: 9883
+  id: 465616
+  removed: 
+  what: docs_approval_requested
+  who_id: 61112
+errata_activity_465641: 
+  added: Red Hat Enterprise MRG for RHEL-5
+  created_at: 2010-09-27 03:17:25 -04:00
+  errata_id: 9883
+  id: 465641
+  removed: Red Hat Enterprise Linux
+  what: product
+  who_id: 196179
+errata_activity_465642: 
+  added: 
+  created_at: 2010-09-27 03:17:26 -04:00
+  errata_id: 9883
+  id: 465642
+  removed: 
+  what: docs_approval_requested
+  who_id: 196179
+errata_activity_465727: 
+  added: QE
+  created_at: 2010-09-27 15:34:22 -04:00
+  errata_id: 9883
+  id: 465727
+  removed: NEW_FILES
+  what: status
+  who_id: 61112
+errata_activity_465746: 
+  added: 
+  created_at: 2010-09-28 02:52:06 -04:00
+  errata_id: 9883
+  id: 465746
+  removed: 
+  what: docs_approval_requested
+  who_id: 196179
+errata_activity_465929: 
+  added: 
+  created_at: 2010-09-30 12:24:35 -04:00
+  errata_id: 9883
+  id: 465929
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000177
+errata_activity_466012: 
+  added: NEW_FILES
+  created_at: 2010-10-04 12:16:29 -04:00
+  errata_id: 9883
+  id: 466012
+  removed: QE
+  what: status
+  who_id: 61112
+errata_activity_466021: 
+  added: QE
+  created_at: 2010-10-04 14:03:07 -04:00
+  errata_id: 9883
+  id: 466021
+  removed: NEW_FILES
+  what: status
+  who_id: 61112
+errata_activity_466022: 
+  added: QE
+  created_at: 2010-10-04 14:03:07 -04:00
+  errata_id: 9883
+  id: 466022
+  removed: NEW_FILES
+  what: status
+  who_id: 61112
+errata_activity_466086: 
+  added: NEW_FILES
+  created_at: 2010-10-05 11:19:24 -04:00
+  errata_id: 9883
+  id: 466086
+  removed: QE
+  what: status
+  who_id: 61112
+errata_activity_466087: 
+  added: 
+  created_at: 2010-10-05 11:41:55 -04:00
+  errata_id: 9883
+  id: 466087
+  removed: 
+  what: docs_approval_requested
+  who_id: 61112
+errata_activity_466089: 
+  added: QE
+  created_at: 2010-10-05 11:42:39 -04:00
+  errata_id: 9883
+  id: 466089
+  removed: NEW_FILES
+  what: status
+  who_id: 61112
+errata_activity_466261: 
+  added: 
+  created_at: 2010-10-06 19:52:20 -04:00
+  errata_id: 9883
+  id: 466261
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_466302: 
+  added: kernel-rt-2.6.24.7-169.el5rt
+  created_at: 2010-10-07 12:06:44 -04:00
+  errata_id: 9883
+  id: 466302
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_466312: 
+  added: REL_PREP
+  created_at: 2010-10-07 14:00:30 -04:00
+  errata_id: 9883
+  id: 466312
+  removed: QE
+  what: status
+  who_id: 81410
+errata_activity_466335: 
+  added: 2010-Oct-07
+  created_at: 2010-10-07 21:30:07 -04:00
+  errata_id: 9883
+  id: 466335
+  removed: 2010-Oct-31
+  what: release_date
+  who_id: 223091
+errata_activity_466336: 
+  added: PUSH_READY
+  created_at: 2010-10-07 21:37:36 -04:00
+  errata_id: 9883
+  id: 466336
+  removed: REL_PREP
+  what: status
+  who_id: 275188
+errata_activity_466339: 
+  added: SHIPPED_LIVE
+  created_at: 2010-10-07 22:12:02 -04:00
+  errata_id: 9883
+  id: 466339
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_466868: 
+  added: 
+  created_at: 2010-10-15 10:19:18 -04:00
+  errata_id: 9829
+  id: 466868
+  removed: 
+  what: docs_approval_requested
+  who_id: 215107
+errata_activity_466872: 
+  added: QE
+  created_at: 2010-10-15 10:51:12 -04:00
+  errata_id: 9829
+  id: 466872
+  removed: NEW_FILES
+  what: status
+  who_id: 3000136
+errata_activity_466885: 
+  added: QE
+  created_at: 2010-10-15 13:24:47 -04:00
+  errata_id: 10140
+  id: 466885
+  removed: NEW_FILES
+  what: status
+  who_id: 172338
+errata_activity_467257: 
+  added: 
+  created_at: 2010-10-22 08:59:01 -04:00
+  errata_id: 10140
+  id: 467257
+  removed: 
+  what: docs_approval_requested
+  who_id: 268050
+errata_activity_467258: 
+  added: rhpki-ca-7.3.0-21.el4, rhpki-common-7.3.0-41.el4, rhpki-util-7.3.0-21.el4
+  created_at: 2010-10-22 09:03:10 -04:00
+  errata_id: 10140
+  id: 467258
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_467605: 
+  added: 
+  created_at: 2010-10-27 11:04:09 -04:00
+  errata_id: 10205
+  id: 467605
+  removed: 
+  what: docs_approval_requested
+  who_id: 163483
+errata_activity_467683: 
+  added: 
+  created_at: 2010-10-28 02:32:06 -04:00
+  errata_id: 10205
+  id: 467683
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_467714: 
+  added: DROPPED_NO_SHIP
+  created_at: 2010-10-28 13:19:57 -04:00
+  errata_id: 10205
+  id: 467714
+  removed: NEW_FILES
+  what: status
+  who_id: 163483
+errata_activity_467761: 
+  added: QE
+  created_at: 2010-10-29 09:44:48 -04:00
+  errata_id: 10226
+  id: 467761
+  removed: NEW_FILES
+  what: status
+  who_id: 96230
+errata_activity_467763: 
+  added: DROPPED_NO_SHIP
+  created_at: 2010-10-29 09:56:51 -04:00
+  errata_id: 10226
+  id: 467763
+  removed: QE
+  what: status
+  who_id: 96230
+errata_activity_467866: 
+  added: 2010-Jul-28
+  created_at: 2010-11-01 09:51:33 -04:00
+  errata_id: 10226
+  id: 467866
+  removed: UNSET
+  what: release_date
+  who_id: 35599
+errata_activity_467869: 
+  added: 
+  created_at: 2010-11-01 09:54:05 -04:00
+  errata_id: 10226
+  id: 467869
+  removed: 
+  what: docs_approved
+  who_id: 35599
+errata_activity_467870: 
+  added: REL_PREP
+  created_at: 2010-11-01 09:55:39 -04:00
+  errata_id: 10226
+  id: 467870
+  removed: DROPPED_NO_SHIP
+  what: status
+  who_id: 35599
+errata_activity_467871: 
+  added: PUSH_READY
+  created_at: 2010-11-01 10:00:32 -04:00
+  errata_id: 10226
+  id: 467871
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_467876: 
+  added: DROPPED_NO_SHIP
+  created_at: 2010-11-01 10:31:45 -04:00
+  errata_id: 10226
+  id: 467876
+  removed: PUSH_READY
+  what: status
+  who_id: 35599
+errata_activity_467976: 
+  added: 
+  created_at: 2010-11-02 10:42:26 -04:00
+  errata_id: 10140
+  id: 467976
+  removed: 
+  what: docs_approved
+  who_id: 199824
+errata_activity_468000: 
+  added: NEW_FILES
+  created_at: 2010-11-02 14:20:11 -04:00
+  errata_id: 10140
+  id: 468000
+  removed: QE
+  what: status
+  who_id: 268050
+errata_activity_468008: 
+  added: 
+  created_at: 2010-11-02 17:33:22 -04:00
+  errata_id: 10140
+  id: 468008
+  removed: 
+  what: docs_approved
+  who_id: 199824
+errata_activity_468035: 
+  added: QE
+  created_at: 2010-11-03 02:57:56 -04:00
+  errata_id: 10140
+  id: 468035
+  removed: NEW_FILES
+  what: status
+  who_id: 171534
+errata_activity_468086: 
+  added: NEW_FILES
+  created_at: 2010-11-03 10:41:33 -04:00
+  errata_id: 9829
+  id: 468086
+  removed: QE
+  what: status
+  who_id: 3000532
+errata_activity_468156: 
+  added: REL_PREP
+  created_at: 2010-11-04 09:37:27 -04:00
+  errata_id: 10140
+  id: 468156
+  removed: QE
+  what: status
+  who_id: 268050
+errata_activity_468157: 
+  added: 
+  created_at: 2010-11-04 09:39:51 -04:00
+  errata_id: 9829
+  id: 468157
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_468206: 
+  added: 
+  created_at: 2010-11-05 00:52:51 -04:00
+  errata_id: 10140
+  id: 468206
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_468397: 
+  added: 2010-Nov-08
+  created_at: 2010-11-08 14:58:32 -05:00
+  errata_id: 10140
+  id: 468397
+  removed: 2011-Jan-31
+  what: release_date
+  who_id: 215839
+errata_activity_468399: 
+  added: PUSH_READY
+  created_at: 2010-11-08 15:00:31 -05:00
+  errata_id: 10140
+  id: 468399
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_468400: 
+  added: SHIPPED_LIVE
+  created_at: 2010-11-08 15:06:51 -05:00
+  errata_id: 10140
+  id: 468400
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_469210: 
+  added: QE
+  created_at: 2010-11-19 07:35:25 -05:00
+  errata_id: 10305
+  id: 469210
+  removed: NEW_FILES
+  what: status
+  who_id: 35599
+errata_activity_469699: 
+  added: Red Hat Enterprise Linux Extras
+  created_at: 2010-11-30 09:38:29 -05:00
+  errata_id: 10326
+  id: 469699
+  removed: Red Hat Enterprise Linux
+  what: product
+  who_id: 96230
+errata_activity_469700: 
+  added: ASYNC
+  created_at: 2010-11-30 09:38:29 -05:00
+  errata_id: 10326
+  id: 469700
+  removed: RHEL-6.0.z
+  what: release
+  who_id: 96230
+errata_activity_469740: 
+  added: QE
+  created_at: 2010-11-30 17:06:03 -05:00
+  errata_id: 9829
+  id: 469740
+  removed: NEW_FILES
+  what: status
+  who_id: 202032
+errata_activity_469741: 
+  added: QE
+  created_at: 2010-11-30 17:06:03 -05:00
+  errata_id: 9829
+  id: 469741
+  removed: NEW_FILES
+  what: status
+  who_id: 202032
+errata_activity_469754: 
+  added: 
+  created_at: 2010-11-30 23:19:57 -05:00
+  errata_id: 10305
+  id: 469754
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_469913: 
+  added: NEW_FILES
+  created_at: 2010-12-02 10:38:31 -05:00
+  errata_id: 9829
+  id: 469913
+  removed: QE
+  what: status
+  who_id: 3000532
+errata_activity_470149: 
+  added: 
+  created_at: 2010-12-06 12:13:34 -05:00
+  errata_id: 10305
+  id: 470149
+  removed: 
+  what: docs_approval_requested
+  who_id: 33686
+errata_activity_470371: 
+  added: 
+  created_at: 2010-12-08 02:32:54 -05:00
+  errata_id: 10305
+  id: 470371
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_470947: 
+  added: NEW_FILES
+  created_at: 2010-12-15 04:11:23 -05:00
+  errata_id: 10305
+  id: 470947
+  removed: QE
+  what: status
+  who_id: 206427
+errata_activity_470949: 
+  added: QE
+  created_at: 2010-12-15 04:18:02 -05:00
+  errata_id: 10305
+  id: 470949
+  removed: NEW_FILES
+  what: status
+  who_id: 206427
+errata_activity_471236: 
+  added: rhns-proxy-4.2.3-6
+  created_at: 2010-12-20 11:07:40 -05:00
+  errata_id: 10305
+  id: 471236
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_471237: 
+  added: rhns-proxy-4.2.3-5
+  created_at: 2010-12-20 11:07:47 -05:00
+  errata_id: 10305
+  id: 471237
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_471349: 
+  added: REL_PREP
+  created_at: 2010-12-22 07:03:33 -05:00
+  errata_id: 10305
+  id: 471349
+  removed: QE
+  what: status
+  who_id: 242721
+errata_activity_471434: 
+  added: PUSH_READY
+  created_at: 2011-01-01 00:00:31 -05:00
+  errata_id: 10305
+  id: 471434
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_471465: 
+  added: SHIPPED_LIVE
+  created_at: 2011-01-03 13:18:16 -05:00
+  errata_id: 10305
+  id: 471465
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_472413: 
+  added: Red Hat Enterprise Linux Extras
+  created_at: 2011-01-13 11:06:46 -05:00
+  errata_id: 10509
+  id: 472413
+  removed: Red Hat Enterprise Linux
+  what: product
+  who_id: 3000057
+errata_activity_472474: 
+  added: QE
+  created_at: 2011-01-14 01:31:25 -05:00
+  errata_id: 9829
+  id: 472474
+  removed: NEW_FILES
+  what: status
+  who_id: 3000532
+errata_activity_472475: 
+  added: jboss-wfk-1.0.0-uninstall-1.0.0-3.ep5.el5
+  created_at: 2011-01-14 02:49:52 -05:00
+  errata_id: 9829
+  id: 472475
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_472476: 
+  added: jboss-wfk-1.0.0-uninstall-1.0.0-3.ep5.el4
+  created_at: 2011-01-14 02:49:57 -05:00
+  errata_id: 9829
+  id: 472476
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_472593: 
+  added: DROPPED_NO_SHIP
+  created_at: 2011-01-17 05:23:15 -05:00
+  errata_id: 10509
+  id: 472593
+  removed: NEW_FILES
+  what: status
+  who_id: 3000057
+errata_activity_472652: 
+  added: 
+  created_at: 2011-01-17 12:50:40 -05:00
+  errata_id: 10326
+  id: 472652
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000057
+errata_activity_472654: 
+  added: QE
+  created_at: 2011-01-17 12:56:32 -05:00
+  errata_id: 10326
+  id: 472654
+  removed: NEW_FILES
+  what: status
+  who_id: 3000057
+errata_activity_472731: 
+  added: NEW_FILES
+  created_at: 2011-01-18 08:25:04 -05:00
+  errata_id: 10326
+  id: 472731
+  removed: QE
+  what: status
+  who_id: 3000057
+errata_activity_472737: 
+  added: QE
+  created_at: 2011-01-18 09:03:41 -05:00
+  errata_id: 10326
+  id: 472737
+  removed: NEW_FILES
+  what: status
+  who_id: 3000057
+errata_activity_472738: 
+  added: QE
+  created_at: 2011-01-18 09:03:42 -05:00
+  errata_id: 10326
+  id: 472738
+  removed: NEW_FILES
+  what: status
+  who_id: 3000057
+errata_activity_472810: 
+  added: NEW_FILES
+  created_at: 2011-01-19 09:01:59 -05:00
+  errata_id: 10326
+  id: 472810
+  removed: QE
+  what: status
+  who_id: 3000057
+errata_activity_472816: 
+  added: QE
+  created_at: 2011-01-19 09:41:50 -05:00
+  errata_id: 10326
+  id: 472816
+  removed: NEW_FILES
+  what: status
+  who_id: 3000057
+errata_activity_472817: 
+  added: QE
+  created_at: 2011-01-19 09:41:51 -05:00
+  errata_id: 10326
+  id: 472817
+  removed: NEW_FILES
+  what: status
+  who_id: 3000057
+errata_activity_472833: 
+  added: 
+  created_at: 2011-01-19 11:48:13 -05:00
+  errata_id: 10610
+  id: 472833
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_472838: 
+  added: 
+  created_at: 2011-01-19 12:01:08 -05:00
+  errata_id: 10610
+  id: 472838
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_472849: 
+  added: 
+  created_at: 2011-01-19 16:23:48 -05:00
+  errata_id: 10610
+  id: 472849
+  removed: 
+  what: docs_approval_requested
+  who_id: 172337
+errata_activity_472876: 
+  added: 
+  created_at: 2011-01-20 05:14:20 -05:00
+  errata_id: 10326
+  id: 472876
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000177
+errata_activity_472885: 
+  added: 
+  created_at: 2011-01-20 05:51:34 -05:00
+  errata_id: 10326
+  id: 472885
+  removed: 
+  what: docs_approved
+  who_id: 3000177
+errata_activity_472946: 
+  added: 
+  created_at: 2011-01-20 14:39:43 -05:00
+  errata_id: 10610
+  id: 472946
+  removed: 
+  what: docs_approval_requested
+  who_id: 184429
+errata_activity_473009: 
+  added: REL_PREP
+  created_at: 2011-01-24 05:05:15 -05:00
+  errata_id: 9829
+  id: 473009
+  removed: QE
+  what: status
+  who_id: 3000532
+errata_activity_473015: 
+  added: PUSH_READY
+  created_at: 2011-01-24 06:00:40 -05:00
+  errata_id: 9829
+  id: 473015
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_473044: 
+  added: NEW_FILES
+  created_at: 2011-01-24 13:20:00 -05:00
+  errata_id: 10326
+  id: 473044
+  removed: QE
+  what: status
+  who_id: 193262
+errata_activity_473072: 
+  added: DROPPED_NO_SHIP
+  created_at: 2011-01-25 02:39:18 -05:00
+  errata_id: 10326
+  id: 473072
+  removed: NEW_FILES
+  what: status
+  who_id: 3000531
+errata_activity_473112: 
+  added: SHIPPED_LIVE
+  created_at: 2011-01-25 10:34:21 -05:00
+  errata_id: 9829
+  id: 473112
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_473395: 
+  added: QE
+  created_at: 2011-01-28 14:41:22 -05:00
+  errata_id: 10610
+  id: 473395
+  removed: NEW_FILES
+  what: status
+  who_id: 268050
+errata_activity_473396: 
+  added: NEW_FILES
+  created_at: 2011-01-28 14:45:14 -05:00
+  errata_id: 10610
+  id: 473396
+  removed: QE
+  what: status
+  who_id: 268050
+errata_activity_473397: 
+  added: 
+  created_at: 2011-01-28 14:47:04 -05:00
+  errata_id: 10610
+  id: 473397
+  removed: 
+  what: docs_approval_requested
+  who_id: 268050
+errata_activity_473398: 
+  added: QE
+  created_at: 2011-01-28 14:47:22 -05:00
+  errata_id: 10610
+  id: 473398
+  removed: NEW_FILES
+  what: status
+  who_id: 268050
+errata_activity_473487: 
+  added: 
+  created_at: 2011-01-31 16:11:54 -05:00
+  errata_id: 10610
+  id: 473487
+  removed: 
+  what: docs_approved
+  who_id: 199824
+errata_activity_473608: 
+  added: 
+  created_at: 2011-02-02 08:32:49 -05:00
+  errata_id: 10610
+  id: 473608
+  removed: 
+  what: docs_approval_requested
+  who_id: 268050
+errata_activity_473614: 
+  added: redhat-ds-admin-8.2.1-1.el5dsrv
+  created_at: 2011-02-02 08:39:35 -05:00
+  errata_id: 10610
+  id: 473614
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_473615: 
+  added: redhat-ds-base-8.2.4-1.el4dsrv
+  created_at: 2011-02-02 08:39:43 -05:00
+  errata_id: 10610
+  id: 473615
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_473616: 
+  added: redhat-ds-base-8.2.4-1.el5dsrv
+  created_at: 2011-02-02 08:39:56 -05:00
+  errata_id: 10610
+  id: 473616
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_473617: 
+  added: redhat-ds-admin-8.2.1-1.el4dsrv
+  created_at: 2011-02-02 08:40:02 -05:00
+  errata_id: 10610
+  id: 473617
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_473664: 
+  added: DROPPED_NO_SHIP
+  created_at: 2011-02-02 12:23:53 -05:00
+  errata_id: 10729
+  id: 473664
+  removed: NEW_FILES
+  what: status
+  who_id: 215107
+errata_activity_473757: 
+  added: Red Hat Enterprise Linux Extras
+  created_at: 2011-02-03 11:01:24 -05:00
+  errata_id: 10718
+  id: 473757
+  removed: Red Hat Enterprise Linux
+  what: product
+  who_id: 96230
+errata_activity_473758: 
+  added: ASYNC
+  created_at: 2011-02-03 11:01:24 -05:00
+  errata_id: 10718
+  id: 473758
+  removed: RHEL-6.1.0
+  what: release
+  who_id: 96230
+errata_activity_473759: 
+  added: RHEL-6.1.0
+  created_at: 2011-02-03 11:02:39 -05:00
+  errata_id: 10718
+  id: 473759
+  removed: ASYNC
+  what: release
+  who_id: 96230
+errata_activity_474098: 
+  added: 
+  created_at: 2011-02-07 16:45:06 -05:00
+  errata_id: 10610
+  id: 474098
+  removed: 
+  what: docs_approved
+  who_id: 199824
+errata_activity_474382: 
+  added: QE
+  created_at: 2011-02-09 15:29:19 -05:00
+  errata_id: 10718
+  id: 474382
+  removed: NEW_FILES
+  what: status
+  who_id: 104688
+errata_activity_474516: 
+  added: 
+  created_at: 2011-02-10 12:21:53 -05:00
+  errata_id: 10802
+  id: 474516
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474519: 
+  added: 
+  created_at: 2011-02-10 12:28:25 -05:00
+  errata_id: 10802
+  id: 474519
+  removed: 
+  what: docs_approval_requested
+  who_id: 215107
+errata_activity_474520: 
+  added: 
+  created_at: 2011-02-10 12:31:54 -05:00
+  errata_id: 10801
+  id: 474520
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474526: 
+  added: 
+  created_at: 2011-02-10 13:07:58 -05:00
+  errata_id: 10801
+  id: 474526
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474527: 
+  added: 
+  created_at: 2011-02-10 13:19:55 -05:00
+  errata_id: 10802
+  id: 474527
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474529: 
+  added: 
+  created_at: 2011-02-10 13:28:55 -05:00
+  errata_id: 10802
+  id: 474529
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474530: 
+  added: REL_PREP
+  created_at: 2011-02-10 13:41:57 -05:00
+  errata_id: 10801
+  id: 474530
+  removed: NEW_FILES
+  what: status
+  who_id: 275188
+errata_activity_474531: 
+  added: REL_PREP
+  created_at: 2011-02-10 13:43:56 -05:00
+  errata_id: 10802
+  id: 474531
+  removed: NEW_FILES
+  what: status
+  who_id: 275188
+errata_activity_474532: 
+  added: 
+  created_at: 2011-02-10 13:50:04 -05:00
+  errata_id: 10802
+  id: 474532
+  removed: 
+  what: docs_approved
+  who_id: 35599
+errata_activity_474534: 
+  added: 
+  created_at: 2011-02-10 13:55:44 -05:00
+  errata_id: 10802
+  id: 474534
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474536: 
+  added: 
+  created_at: 2011-02-10 13:57:11 -05:00
+  errata_id: 10801
+  id: 474536
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474538: 
+  added: 
+  created_at: 2011-02-10 13:59:11 -05:00
+  errata_id: 10802
+  id: 474538
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474539: 
+  added: 
+  created_at: 2011-02-10 14:00:59 -05:00
+  errata_id: 10801
+  id: 474539
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_474540: 
+  added: 
+  created_at: 2011-02-10 14:04:58 -05:00
+  errata_id: 10801
+  id: 474540
+  removed: 
+  what: docs_approved
+  who_id: 35599
+errata_activity_474541: 
+  added: 
+  created_at: 2011-02-10 14:05:30 -05:00
+  errata_id: 10802
+  id: 474541
+  removed: 
+  what: docs_approved
+  who_id: 35599
+errata_activity_474542: 
+  added: PUSH_READY
+  created_at: 2011-02-10 14:09:17 -05:00
+  errata_id: 10801
+  id: 474542
+  removed: REL_PREP
+  what: status
+  who_id: 275188
+errata_activity_474543: 
+  added: PUSH_READY
+  created_at: 2011-02-10 14:09:32 -05:00
+  errata_id: 10802
+  id: 474543
+  removed: REL_PREP
+  what: status
+  who_id: 275188
+errata_activity_474555: 
+  added: SHIPPED_LIVE
+  created_at: 2011-02-10 14:41:39 -05:00
+  errata_id: 10801
+  id: 474555
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_474556: 
+  added: SHIPPED_LIVE
+  created_at: 2011-02-10 14:46:51 -05:00
+  errata_id: 10802
+  id: 474556
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_474735: 
+  added: Red Hat Enterprise Linux Extras
+  created_at: 2011-02-14 17:15:07 -05:00
+  errata_id: 10808
+  id: 474735
+  removed: Red Hat Enterprise Linux
+  what: product
+  who_id: 3000067
+errata_activity_474801: 
+  added: 
+  created_at: 2011-02-15 09:32:22 -05:00
+  errata_id: 10610
+  id: 474801
+  removed: 
+  what: docs_approval_requested
+  who_id: 184429
+errata_activity_474977: 
+  added: 
+  created_at: 2011-02-15 23:10:10 -05:00
+  errata_id: 10610
+  id: 474977
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_475068: 
+  added: REL_PREP
+  created_at: 2011-02-16 14:13:32 -05:00
+  errata_id: 10610
+  id: 475068
+  removed: QE
+  what: status
+  who_id: 268050
+errata_activity_475109: 
+  added: Red Hat Network Satellite Server
+  created_at: 2011-02-17 09:08:34 -05:00
+  errata_id: 10827
+  id: 475109
+  removed: Red Hat Enterprise Linux
+  what: product
+  who_id: 184429
+errata_activity_475113: 
+  added: 
+  created_at: 2011-02-17 09:39:56 -05:00
+  errata_id: 10827
+  id: 475113
+  removed: 
+  what: docs_approval_requested
+  who_id: 184429
+errata_activity_475131: 
+  added: QE
+  created_at: 2011-02-17 11:16:18 -05:00
+  errata_id: 10827
+  id: 475131
+  removed: NEW_FILES
+  what: status
+  who_id: 244271
+errata_activity_475168: 
+  added: NEW_FILES
+  created_at: 2011-02-18 05:57:12 -05:00
+  errata_id: 10827
+  id: 475168
+  removed: QE
+  what: status
+  who_id: 244271
+errata_activity_475169: 
+  added: QE
+  created_at: 2011-02-18 06:01:46 -05:00
+  errata_id: 10827
+  id: 475169
+  removed: NEW_FILES
+  what: status
+  who_id: 244271
+errata_activity_475170: 
+  added: QE
+  created_at: 2011-02-18 06:01:46 -05:00
+  errata_id: 10827
+  id: 475170
+  removed: NEW_FILES
+  what: status
+  who_id: 244271
+errata_activity_475208: 
+  added: 
+  created_at: 2011-02-18 17:31:40 -05:00
+  errata_id: 10836
+  id: 475208
+  removed: 
+  what: docs_approval_requested
+  who_id: 100112
+errata_activity_475209: 
+  added: QE
+  created_at: 2011-02-18 18:54:36 -05:00
+  errata_id: 10836
+  id: 475209
+  removed: NEW_FILES
+  what: status
+  who_id: 100112
+errata_activity_475210: 
+  added: 
+  created_at: 2011-02-18 18:59:48 -05:00
+  errata_id: 10836
+  id: 475210
+  removed: 
+  what: docs_approval_requested
+  who_id: 100112
+errata_activity_475227: 
+  added: 
+  created_at: 2011-02-21 02:08:40 -05:00
+  errata_id: 10827
+  id: 475227
+  removed: 
+  what: docs_approval_requested
+  who_id: 184429
+errata_activity_475283: 
+  added: spacewalk-java-1.2.39-35.1.el5sat
+  created_at: 2011-02-21 11:45:32 -05:00
+  errata_id: 10827
+  id: 475283
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_475284: 
+  added: spacewalk-backend-1.2.13-26.2.el5sat
+  created_at: 2011-02-21 11:45:44 -05:00
+  errata_id: 10827
+  id: 475284
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_475310: 
+  added: 
+  created_at: 2011-02-21 19:41:23 -05:00
+  errata_id: 10827
+  id: 475310
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_475328: 
+  added: 
+  created_at: 2011-02-22 01:29:11 -05:00
+  errata_id: 10842
+  id: 475328
+  removed: 
+  what: docs_approval_requested
+  who_id: 246681
+errata_activity_475331: 
+  added: QE
+  created_at: 2011-02-22 02:32:39 -05:00
+  errata_id: 10842
+  id: 475331
+  removed: NEW_FILES
+  what: status
+  who_id: 246681
+errata_activity_475389: 
+  added: 2011-Feb-22
+  created_at: 2011-02-22 12:01:07 -05:00
+  errata_id: 10610
+  id: 475389
+  removed: 2011-Feb-28
+  what: release_date
+  who_id: 184429
+errata_activity_475390: 
+  added: 
+  created_at: 2011-02-22 12:01:08 -05:00
+  errata_id: 10610
+  id: 475390
+  removed: 
+  what: docs_approval_requested
+  who_id: 184429
+errata_activity_475391: 
+  added: 
+  created_at: 2011-02-22 12:03:26 -05:00
+  errata_id: 10610
+  id: 475391
+  removed: 
+  what: docs_approved
+  who_id: 275188
+errata_activity_475397: 
+  added: NEW_FILES
+  created_at: 2011-02-22 12:40:48 -05:00
+  errata_id: 10718
+  id: 475397
+  removed: QE
+  what: status
+  who_id: 96230
+errata_activity_475398: 
+  added: PUSH_READY
+  created_at: 2011-02-22 12:41:36 -05:00
+  errata_id: 10610
+  id: 475398
+  removed: REL_PREP
+  what: status
+  who_id: 184429
+errata_activity_475399: 
+  added: QE
+  created_at: 2011-02-22 12:41:56 -05:00
+  errata_id: 10718
+  id: 475399
+  removed: NEW_FILES
+  what: status
+  who_id: 96230
+errata_activity_475400: 
+  added: SHIPPED_LIVE
+  created_at: 2011-02-22 12:46:00 -05:00
+  errata_id: 10610
+  id: 475400
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_475405: 
+  added: 
+  created_at: 2011-02-22 14:43:33 -05:00
+  errata_id: 10844
+  id: 475405
+  removed: 
+  what: docs_approval_requested
+  who_id: 215107
+errata_activity_475425: 
+  added: 
+  created_at: 2011-02-22 20:13:43 -05:00
+  errata_id: 10844
+  id: 475425
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_475449: 
+  added: QE
+  created_at: 2011-02-23 03:35:27 -05:00
+  errata_id: 10844
+  id: 475449
+  removed: NEW_FILES
+  what: status
+  who_id: 3000496
+errata_activity_475450: 
+  added: REL_PREP
+  created_at: 2011-02-23 03:35:54 -05:00
+  errata_id: 10827
+  id: 475450
+  removed: QE
+  what: status
+  who_id: 3000072
+errata_activity_475463: 
+  added: 
+  created_at: 2011-02-23 05:46:54 -05:00
+  errata_id: 10827
+  id: 475463
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_475465: 
+  added: PUSH_READY
+  created_at: 2011-02-23 06:00:43 -05:00
+  errata_id: 10827
+  id: 475465
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_475504: 
+  added: 
+  created_at: 2011-02-23 10:42:16 -05:00
+  errata_id: 10849
+  id: 475504
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_475518: 
+  added: java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.1.el6
+  created_at: 2011-02-23 12:29:26 -05:00
+  errata_id: 10844
+  id: 475518
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_475519: 
+  added: java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el4_8
+  created_at: 2011-02-23 12:29:58 -05:00
+  errata_id: 10844
+  id: 475519
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_475520: 
+  added: java-1.4.2-ibm-sap-1.4.2.13.8.sap-1jpp.2.el5
+  created_at: 2011-02-23 12:30:30 -05:00
+  errata_id: 10844
+  id: 475520
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_475524: 
+  added: REL_PREP
+  created_at: 2011-02-23 12:58:51 -05:00
+  errata_id: 10844
+  id: 475524
+  removed: QE
+  what: status
+  who_id: 173714
+errata_activity_475525: 
+  added: PUSH_READY
+  created_at: 2011-02-23 13:00:38 -05:00
+  errata_id: 10844
+  id: 475525
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_475526: 
+  added: SHIPPED_LIVE
+  created_at: 2011-02-23 13:41:01 -05:00
+  errata_id: 10844
+  id: 475526
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_475529: 
+  added: SHIPPED_LIVE
+  created_at: 2011-02-23 14:01:27 -05:00
+  errata_id: 10827
+  id: 475529
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_475567: 
+  added: 
+  created_at: 2011-02-24 02:18:22 -05:00
+  errata_id: 10849
+  id: 475567
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_475643: 
+  added: Red Hat Enterprise Linux Extras
+  created_at: 2011-02-24 12:54:34 -05:00
+  errata_id: 10839
+  id: 475643
+  removed: Red Hat Enterprise Linux
+  what: product
+  who_id: 100135
+errata_activity_475644: 
+  added: ASYNC
+  created_at: 2011-02-24 12:54:34 -05:00
+  errata_id: 10839
+  id: 475644
+  removed: RHEL-5.7.0
+  what: release
+  who_id: 100135
+errata_activity_475688: 
+  added: QE
+  created_at: 2011-02-25 07:33:18 -05:00
+  errata_id: 10839
+  id: 475688
+  removed: NEW_FILES
+  what: status
+  who_id: 3000076
+errata_activity_475690: 
+  added: 
+  created_at: 2011-02-25 07:55:37 -05:00
+  errata_id: 10858
+  id: 475690
+  removed: 
+  what: docs_approval_requested
+  who_id: 10886
+errata_activity_475691: 
+  added: QE
+  created_at: 2011-02-25 08:00:38 -05:00
+  errata_id: 10858
+  id: 475691
+  removed: NEW_FILES
+  what: status
+  who_id: 10886
+errata_activity_475750: 
+  added: 
+  created_at: 2011-02-27 18:41:12 -05:00
+  errata_id: 10842
+  id: 475750
+  removed: 
+  what: docs_approved
+  who_id: 204361
+errata_activity_476036: 
+  added: 
+  created_at: 2011-03-02 07:01:27 -05:00
+  errata_id: 10858
+  id: 476036
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000175
+errata_activity_476037: 
+  added: 
+  created_at: 2011-03-02 07:02:10 -05:00
+  errata_id: 10858
+  id: 476037
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000175
+errata_activity_476217: 
+  added: NEW_FILES
+  created_at: 2011-03-04 04:17:20 -05:00
+  errata_id: 10839
+  id: 476217
+  removed: QE
+  what: status
+  who_id: 276370
+errata_activity_476271: 
+  added: QE
+  created_at: 2011-03-05 09:50:22 -05:00
+  errata_id: 10839
+  id: 476271
+  removed: NEW_FILES
+  what: status
+  who_id: 3000076
+errata_activity_476272: 
+  added: QE
+  created_at: 2011-03-05 09:50:25 -05:00
+  errata_id: 10839
+  id: 476272
+  removed: NEW_FILES
+  what: status
+  who_id: 3000076
+errata_activity_476331: 
+  added: 
+  created_at: 2011-03-07 13:10:05 -05:00
+  errata_id: 10858
+  id: 476331
+  removed: 
+  what: docs_approved
+  who_id: 3000175
+errata_activity_476467: 
+  added: NEW_FILES
+  created_at: 2011-03-08 19:43:56 -05:00
+  errata_id: 10839
+  id: 476467
+  removed: QE
+  what: status
+  who_id: 276370
+errata_activity_476474: 
+  added: squashfs-tools-4.0-5.el6
+  created_at: 2011-03-08 20:47:59 -05:00
+  errata_id: 10836
+  id: 476474
+  removed: 
+  what: signing
+  who_id: 208114
+errata_activity_476487: 
+  added: QE
+  created_at: 2011-03-09 03:19:21 -05:00
+  errata_id: 10839
+  id: 476487
+  removed: NEW_FILES
+  what: status
+  who_id: 3000076
+errata_activity_476488: 
+  added: QE
+  created_at: 2011-03-09 03:19:22 -05:00
+  errata_id: 10839
+  id: 476488
+  removed: NEW_FILES
+  what: status
+  who_id: 3000076
+errata_activity_476548: 
+  added: REL_PREP
+  created_at: 2011-03-09 10:53:11 -05:00
+  errata_id: 10849
+  id: 476548
+  removed: NEW_FILES
+  what: status
+  who_id: 275188
+errata_activity_476553: 
+  added: PUSH_READY
+  created_at: 2011-03-09 11:00:37 -05:00
+  errata_id: 10849
+  id: 476553
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_476564: 
+  added: SHIPPED_LIVE
+  created_at: 2011-03-09 13:46:18 -05:00
+  errata_id: 10849
+  id: 476564
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_476641: 
+  added: REL_PREP
+  created_at: 2011-03-10 04:52:08 -05:00
+  errata_id: 10836
+  id: 476641
+  removed: QE
+  what: status
+  who_id: 3000490
+errata_activity_476808: 
+  added: 
+  created_at: 2011-03-11 00:56:01 -05:00
+  errata_id: 10836
+  id: 476808
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000600
+errata_activity_476809: 
+  added: 
+  created_at: 2011-03-11 00:57:19 -05:00
+  errata_id: 10836
+  id: 476809
+  removed: 
+  what: docs_approved
+  who_id: 3000600
+errata_activity_476810: 
+  added: PUSH_READY
+  created_at: 2011-03-11 01:00:37 -05:00
+  errata_id: 10836
+  id: 476810
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_476814: 
+  added: 
+  created_at: 2011-03-11 01:19:30 -05:00
+  errata_id: 10836
+  id: 476814
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000600
+errata_activity_476815: 
+  added: 
+  created_at: 2011-03-11 01:19:52 -05:00
+  errata_id: 10836
+  id: 476815
+  removed: 
+  what: docs_approved
+  who_id: 3000600
+errata_activity_476842: 
+  added: 
+  created_at: 2011-03-11 07:59:21 -05:00
+  errata_id: 10836
+  id: 476842
+  removed: 
+  what: docs_approval_requested
+  who_id: 100112
+errata_activity_476881: 
+  added: 
+  created_at: 2011-03-13 01:52:58 -05:00
+  errata_id: 10836
+  id: 476881
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000600
+errata_activity_476882: 
+  added: 
+  created_at: 2011-03-13 01:53:41 -05:00
+  errata_id: 10836
+  id: 476882
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000600
+errata_activity_476883: 
+  added: 
+  created_at: 2011-03-13 01:54:04 -05:00
+  errata_id: 10836
+  id: 476883
+  removed: 
+  what: docs_approved
+  who_id: 3000600
+errata_activity_477066: 
+  added: QE
+  created_at: 2011-03-14 16:47:00 -04:00
+  errata_id: 10893
+  id: 477066
+  removed: NEW_FILES
+  what: status
+  who_id: 211874
+errata_activity_477142: 
+  added: NEW_FILES
+  created_at: 2011-03-15 10:13:35 -04:00
+  errata_id: 10893
+  id: 477142
+  removed: QE
+  what: status
+  who_id: 271623
+errata_activity_477143: 
+  added: 
+  created_at: 2011-03-15 10:16:08 -04:00
+  errata_id: 10893
+  id: 477143
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000177
+errata_activity_477171: 
+  added: QE
+  created_at: 2011-03-15 12:53:12 -04:00
+  errata_id: 10893
+  id: 477171
+  removed: NEW_FILES
+  what: status
+  who_id: 211874
+errata_activity_477172: 
+  added: QE
+  created_at: 2011-03-15 12:53:12 -04:00
+  errata_id: 10893
+  id: 477172
+  removed: NEW_FILES
+  what: status
+  who_id: 211874
+errata_activity_477217: 
+  added: NEW_FILES
+  created_at: 2011-03-16 03:58:02 -04:00
+  errata_id: 10893
+  id: 477217
+  removed: QE
+  what: status
+  who_id: 271623
+errata_activity_477396: 
+  added: DROPPED_NO_SHIP
+  created_at: 2011-03-17 18:36:11 -04:00
+  errata_id: 10949
+  id: 477396
+  removed: NEW_FILES
+  what: status
+  who_id: 206427
+errata_activity_477634: 
+  added: fonts-indic-2.3.1.1-1.el5
+  created_at: 2011-03-22 02:22:52 -04:00
+  errata_id: 10842
+  id: 477634
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_477715: 
+  added: 
+  created_at: 2011-03-22 13:15:32 -04:00
+  errata_id: 10975
+  id: 477715
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_477717: 
+  added: 
+  created_at: 2011-03-22 13:17:36 -04:00
+  errata_id: 10975
+  id: 477717
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_477718: 
+  added: 
+  created_at: 2011-03-22 13:25:45 -04:00
+  errata_id: 10975
+  id: 477718
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_477768: 
+  added: REL_PREP
+  created_at: 2011-03-23 02:27:02 -04:00
+  errata_id: 10842
+  id: 477768
+  removed: QE
+  what: status
+  who_id: 168539
+errata_activity_478007: 
+  added: system-switch-java-1.1.5-2.el6
+  created_at: 2011-03-25 10:37:43 -04:00
+  errata_id: 10718
+  id: 478007
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_478152: 
+  added: REL_PREP
+  created_at: 2011-03-28 11:05:39 -04:00
+  errata_id: 10718
+  id: 478152
+  removed: QE
+  what: status
+  who_id: 173714
+errata_activity_478360: 
+  added: NEW_FILES
+  created_at: 2011-03-30 04:39:21 -04:00
+  errata_id: 10858
+  id: 478360
+  removed: QE
+  what: status
+  who_id: 266715
+errata_activity_478470: 
+  added: QE
+  created_at: 2011-03-30 14:23:16 -04:00
+  errata_id: 11020
+  id: 478470
+  removed: NEW_FILES
+  what: status
+  who_id: 81410
+errata_activity_478471: 
+  added: NEW_FILES
+  created_at: 2011-03-30 14:24:22 -04:00
+  errata_id: 11020
+  id: 478471
+  removed: QE
+  what: status
+  who_id: 193262
+errata_activity_478475: 
+  added: DROPPED_NO_SHIP
+  created_at: 2011-03-30 15:24:32 -04:00
+  errata_id: 11020
+  id: 478475
+  removed: NEW_FILES
+  what: status
+  who_id: 98694
+errata_activity_478482: 
+  added: DROPPED_NO_SHIP
+  created_at: 2011-03-30 17:00:03 -04:00
+  errata_id: 10975
+  id: 478482
+  removed: NEW_FILES
+  what: status
+  who_id: 275188
+errata_activity_478519: 
+  added: QE
+  created_at: 2011-03-31 07:18:58 -04:00
+  errata_id: 11031
+  id: 478519
+  removed: NEW_FILES
+  what: status
+  who_id: 168000
+errata_activity_478548: 
+  added: 
+  created_at: 2011-03-31 10:15:26 -04:00
+  errata_id: 11036
+  id: 478548
+  removed: 
+  what: docs_approval_requested
+  who_id: 211668
+errata_activity_478549: 
+  added: 
+  created_at: 2011-03-31 10:21:00 -04:00
+  errata_id: 11036
+  id: 478549
+  removed: 
+  what: docs_approval_requested
+  who_id: 211668
+errata_activity_478555: 
+  added: QE
+  created_at: 2011-03-31 10:55:58 -04:00
+  errata_id: 11036
+  id: 478555
+  removed: NEW_FILES
+  what: status
+  who_id: 211668
+errata_activity_478600: 
+  added: NEW_FILES
+  created_at: 2011-04-01 04:59:13 -04:00
+  errata_id: 10839
+  id: 478600
+  removed: QE
+  what: status
+  who_id: 276370
+errata_activity_478650: 
+  added: 
+  created_at: 2011-04-01 11:42:56 -04:00
+  errata_id: 10718
+  id: 478650
+  removed: 
+  what: docs_approval_requested
+  who_id: 104688
+errata_activity_478654: 
+  added: QE
+  created_at: 2011-04-01 12:32:39 -04:00
+  errata_id: 10839
+  id: 478654
+  removed: NEW_FILES
+  what: status
+  who_id: 3000076
+errata_activity_478655: 
+  added: QE
+  created_at: 2011-04-01 12:32:40 -04:00
+  errata_id: 10839
+  id: 478655
+  removed: NEW_FILES
+  what: status
+  who_id: 3000076
+errata_activity_478993: 
+  added: NEW_FILES
+  created_at: 2011-04-06 04:58:32 -04:00
+  errata_id: 11036
+  id: 478993
+  removed: QE
+  what: status
+  who_id: 211668
+errata_activity_479214: 
+  added: 
+  created_at: 2011-04-07 09:57:21 -04:00
+  errata_id: 11031
+  id: 479214
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000577
+errata_activity_479218: 
+  added: lapack-3.0-38.el5
+  created_at: 2011-04-07 10:06:29 -04:00
+  errata_id: 11031
+  id: 479218
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_479228: 
+  added: 
+  created_at: 2011-04-07 11:05:29 -04:00
+  errata_id: 10718
+  id: 479228
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_479229: 
+  added: 
+  created_at: 2011-04-07 11:25:57 -04:00
+  errata_id: 10718
+  id: 479229
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_479231: 
+  added: 
+  created_at: 2011-04-07 11:28:59 -04:00
+  errata_id: 10718
+  id: 479231
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_479232: 
+  added: 
+  created_at: 2011-04-07 11:36:37 -04:00
+  errata_id: 10718
+  id: 479232
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_479245: 
+  added: 
+  created_at: 2011-04-07 12:53:33 -04:00
+  errata_id: 11031
+  id: 479245
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000175
+errata_activity_479246: 
+  added: 
+  created_at: 2011-04-07 12:59:02 -04:00
+  errata_id: 11031
+  id: 479246
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000175
+errata_activity_479328: 
+  added: 
+  created_at: 2011-04-08 05:50:48 -04:00
+  errata_id: 11031
+  id: 479328
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000175
+errata_activity_479332: 
+  added: 
+  created_at: 2011-04-08 05:54:16 -04:00
+  errata_id: 11031
+  id: 479332
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000175
+errata_activity_479338: 
+  added: 
+  created_at: 2011-04-08 06:17:27 -04:00
+  errata_id: 11095
+  id: 479338
+  removed: 
+  what: docs_approval_requested
+  who_id: 190465
+errata_activity_479359: 
+  added: QE
+  created_at: 2011-04-08 08:30:23 -04:00
+  errata_id: 11095
+  id: 479359
+  removed: NEW_FILES
+  what: status
+  who_id: 190465
+errata_activity_479360: 
+  added: 
+  created_at: 2011-04-08 08:32:16 -04:00
+  errata_id: 11096
+  id: 479360
+  removed: 
+  what: docs_approval_requested
+  who_id: 165199
+errata_activity_479372: 
+  added: 
+  created_at: 2011-04-08 09:51:48 -04:00
+  errata_id: 11031
+  id: 479372
+  removed: 
+  what: docs_approved
+  who_id: 3000175
+errata_activity_479390: 
+  added: 
+  created_at: 2011-04-08 10:46:04 -04:00
+  errata_id: 10718
+  id: 479390
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_479486: 
+  added: REL_PREP
+  created_at: 2011-04-11 03:56:16 -04:00
+  errata_id: 11031
+  id: 479486
+  removed: QE
+  what: status
+  who_id: 3000577
+errata_activity_479562: 
+  added: 
+  created_at: 2011-04-11 12:53:55 -04:00
+  errata_id: 11096
+  id: 479562
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_479563: 
+  added: 
+  created_at: 2011-04-11 12:55:41 -04:00
+  errata_id: 11096
+  id: 479563
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_479564: 
+  added: QE
+  created_at: 2011-04-11 13:33:53 -04:00
+  errata_id: 11105
+  id: 479564
+  removed: NEW_FILES
+  what: status
+  who_id: 3000530
+errata_activity_479565: 
+  added: 
+  created_at: 2011-04-11 13:48:57 -04:00
+  errata_id: 11096
+  id: 479565
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_479573: 
+  added: QE
+  created_at: 2011-04-11 14:34:07 -04:00
+  errata_id: 11110
+  id: 479573
+  removed: NEW_FILES
+  what: status
+  who_id: 264390
+errata_activity_479586: 
+  added: 
+  created_at: 2011-04-11 16:21:54 -04:00
+  errata_id: 11112
+  id: 479586
+  removed: 
+  what: docs_approval_requested
+  who_id: 162860
+errata_activity_479617: 
+  added: 
+  created_at: 2011-04-11 22:38:08 -04:00
+  errata_id: 11110
+  id: 479617
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_479627: 
+  added: 
+  created_at: 2011-04-12 02:13:31 -04:00
+  errata_id: 11065
+  id: 479627
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000183
+errata_activity_479646: 
+  added: 
+  created_at: 2011-04-12 05:26:14 -04:00
+  errata_id: 10718
+  id: 479646
+  removed: 
+  what: docs_approved
+  who_id: 3000518
+errata_activity_479666: 
+  added: QE
+  created_at: 2011-04-12 09:11:03 -04:00
+  errata_id: 11112
+  id: 479666
+  removed: NEW_FILES
+  what: status
+  who_id: 162860
+errata_activity_479667: 
+  added: NEW_FILES
+  created_at: 2011-04-12 09:17:11 -04:00
+  errata_id: 11105
+  id: 479667
+  removed: QE
+  what: status
+  who_id: 3000530
+errata_activity_479671: 
+  added: QE
+  created_at: 2011-04-12 09:37:21 -04:00
+  errata_id: 11105
+  id: 479671
+  removed: NEW_FILES
+  what: status
+  who_id: 3000530
+errata_activity_479672: 
+  added: QE
+  created_at: 2011-04-12 09:37:22 -04:00
+  errata_id: 11105
+  id: 479672
+  removed: NEW_FILES
+  what: status
+  who_id: 3000530
+errata_activity_479705: 
+  added: 
+  created_at: 2011-04-12 11:09:27 -04:00
+  errata_id: 11096
+  id: 479705
+  removed: 
+  what: docs_approval_requested
+  who_id: 165199
+errata_activity_479708: 
+  added: 
+  created_at: 2011-04-12 11:16:40 -04:00
+  errata_id: 11096
+  id: 479708
+  removed: 
+  what: docs_approval_requested
+  who_id: 165199
+errata_activity_479730: 
+  added: QE
+  created_at: 2011-04-12 12:44:07 -04:00
+  errata_id: 11096
+  id: 479730
+  removed: NEW_FILES
+  what: status
+  who_id: 165199
+errata_activity_479748: 
+  added: 
+  created_at: 2011-04-12 13:45:37 -04:00
+  errata_id: 11118
+  id: 479748
+  removed: 
+  what: docs_approval_requested
+  who_id: 73713
+errata_activity_479751: 
+  added: QE
+  created_at: 2011-04-12 13:47:53 -04:00
+  errata_id: 11118
+  id: 479751
+  removed: NEW_FILES
+  what: status
+  who_id: 73713
+errata_activity_480112: 
+  added: QE
+  created_at: 2011-04-13 06:38:22 -04:00
+  errata_id: 11123
+  id: 480112
+  removed: NEW_FILES
+  what: status
+  who_id: 262302
+errata_activity_480125: 
+  added: 
+  created_at: 2011-04-13 07:36:22 -04:00
+  errata_id: 11123
+  id: 480125
+  removed: 
+  what: docs_approval_requested
+  who_id: 262302
+errata_activity_480240: 
+  added: jboss-seam2-2.2.2.EAP-17.el4_8
+  created_at: 2011-04-13 11:32:55 -04:00
+  errata_id: 11110
+  id: 480240
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_480241: 
+  added: jboss-seam2-2.2.2.EAP-17.ep5.el5
+  created_at: 2011-04-13 11:33:36 -04:00
+  errata_id: 11110
+  id: 480241
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_480274: 
+  added: PUSH_READY
+  created_at: 2011-04-13 16:04:18 -04:00
+  errata_id: 11031
+  id: 480274
+  removed: REL_PREP
+  what: status
+  who_id: 173714
+errata_activity_480280: 
+  added: SHIPPED_LIVE
+  created_at: 2011-04-13 16:13:41 -04:00
+  errata_id: 11031
+  id: 480280
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_480289: 
+  added: 
+  created_at: 2011-04-13 17:13:39 -04:00
+  errata_id: 11129
+  id: 480289
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_480291: 
+  added: 
+  created_at: 2011-04-13 17:17:55 -04:00
+  errata_id: 11129
+  id: 480291
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_480293: 
+  added: QE
+  created_at: 2011-04-13 19:17:11 -04:00
+  errata_id: 11129
+  id: 480293
+  removed: NEW_FILES
+  what: status
+  who_id: 11001
+errata_activity_480299: 
+  added: 
+  created_at: 2011-04-13 21:33:43 -04:00
+  errata_id: 11129
+  id: 480299
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_480321: 
+  added: REL_PREP
+  created_at: 2011-04-14 04:27:42 -04:00
+  errata_id: 11110
+  id: 480321
+  removed: QE
+  what: status
+  who_id: 270746
+errata_activity_480333: 
+  added: 
+  created_at: 2011-04-14 06:09:03 -04:00
+  errata_id: 11133
+  id: 480333
+  removed: 
+  what: docs_approval_requested
+  who_id: 215107
+errata_activity_480348: 
+  added: 2011-Apr-18
+  created_at: 2011-04-14 08:42:14 -04:00
+  errata_id: 11110
+  id: 480348
+  removed: 2011-Apr-15
+  what: release_date
+  who_id: 215107
+errata_activity_480353: 
+  added: NEW_FILES
+  created_at: 2011-04-14 09:03:47 -04:00
+  errata_id: 11123
+  id: 480353
+  removed: QE
+  what: status
+  who_id: 267999
+errata_activity_480358: 
+  added: QE
+  created_at: 2011-04-14 09:41:42 -04:00
+  errata_id: 11123
+  id: 480358
+  removed: NEW_FILES
+  what: status
+  who_id: 262302
+errata_activity_480359: 
+  added: QE
+  created_at: 2011-04-14 09:41:43 -04:00
+  errata_id: 11123
+  id: 480359
+  removed: NEW_FILES
+  what: status
+  who_id: 262302
+errata_activity_480377: 
+  added: 
+  created_at: 2011-04-14 11:02:21 -04:00
+  errata_id: 11118
+  id: 480377
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000175
+errata_activity_480390: 
+  added: 
+  created_at: 2011-04-14 11:24:20 -04:00
+  errata_id: 11129
+  id: 480390
+  removed: 
+  what: docs_approval_requested
+  who_id: 242721
+errata_activity_480393: 
+  added: krb5-1.8.2-3.el6_0.7
+  created_at: 2011-04-14 11:37:50 -04:00
+  errata_id: 11129
+  id: 480393
+  removed: 
+  what: signing
+  who_id: 7775
+errata_activity_480403: 
+  added: REL_PREP
+  created_at: 2011-04-14 13:31:04 -04:00
+  errata_id: 11129
+  id: 480403
+  removed: QE
+  what: status
+  who_id: 242721
+errata_activity_480404: 
+  added: 
+  created_at: 2011-04-14 13:54:27 -04:00
+  errata_id: 11129
+  id: 480404
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_480405: 
+  added: 
+  created_at: 2011-04-14 13:57:47 -04:00
+  errata_id: 11129
+  id: 480405
+  removed: 
+  what: docs_approved
+  who_id: 35599
+errata_activity_480406: 
+  added: PUSH_READY
+  created_at: 2011-04-14 13:58:56 -04:00
+  errata_id: 11129
+  id: 480406
+  removed: REL_PREP
+  what: status
+  who_id: 275188
+errata_activity_480407: 
+  added: SHIPPED_LIVE
+  created_at: 2011-04-14 14:16:24 -04:00
+  errata_id: 11129
+  id: 480407
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_480439: 
+  added: python-urlgrabber-3.9.1-8.el6
+  created_at: 2011-04-15 02:46:39 -04:00
+  errata_id: 11118
+  id: 480439
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_480441: 
+  added: REL_PREP
+  created_at: 2011-04-15 03:05:06 -04:00
+  errata_id: 11118
+  id: 480441
+  removed: QE
+  what: status
+  who_id: 173714
+errata_activity_480442: 
+  added: NEW_FILES
+  created_at: 2011-04-15 03:41:59 -04:00
+  errata_id: 10839
+  id: 480442
+  removed: QE
+  what: status
+  who_id: 276370
+errata_activity_480461: 
+  added: 
+  created_at: 2011-04-15 06:05:28 -04:00
+  errata_id: 11118
+  id: 480461
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000175
+errata_activity_480471: 
+  added: tetex-3.0-33.13.el5
+  created_at: 2011-04-15 07:01:55 -04:00
+  errata_id: 11096
+  id: 480471
+  removed: 
+  what: signing
+  who_id: 173714
+errata_activity_480480: 
+  added: 
+  created_at: 2011-04-15 07:27:06 -04:00
+  errata_id: 11138
+  id: 480480
+  removed: 
+  what: docs_approval_requested
+  who_id: 215107
+errata_activity_480486: 
+  added: 
+  created_at: 2011-04-15 07:53:32 -04:00
+  errata_id: 11123
+  id: 480486
+  removed: 
+  what: docs_approval_requested
+  who_id: 262302
+errata_activity_480492: 
+  added: 
+  created_at: 2011-04-15 08:31:49 -04:00
+  errata_id: 11138
+  id: 480492
+  removed: 
+  what: docs_approval_requested
+  who_id: 215107
+errata_activity_480509: 
+  added: 
+  created_at: 2011-04-15 09:16:19 -04:00
+  errata_id: 11118
+  id: 480509
+  removed: 
+  what: docs_approved
+  who_id: 3000175
+errata_activity_480544: 
+  added: QE
+  created_at: 2011-04-15 18:39:34 -04:00
+  errata_id: 11065
+  id: 480544
+  removed: NEW_FILES
+  what: status
+  who_id: 160546
+errata_activity_480546: 
+  added: 2011-Apr-15
+  created_at: 2011-04-15 19:13:27 -04:00
+  errata_id: 11131
+  id: 480546
+  removed: 2011-Apr-18
+  what: release_date
+  who_id: 275188
+errata_activity_480547: 
+  added: 
+  created_at: 2011-04-15 19:13:29 -04:00
+  errata_id: 11131
+  id: 480547
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_480549: 
+  added: 
+  created_at: 2011-04-17 21:37:58 -04:00
+  errata_id: 11131
+  id: 480549
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_480553: 
+  added: PUSH_READY
+  created_at: 2011-04-18 00:01:01 -04:00
+  errata_id: 11110
+  id: 480553
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_480564: 
+  added: QE
+  created_at: 2011-04-18 03:29:27 -04:00
+  errata_id: 11131
+  id: 480564
+  removed: NEW_FILES
+  what: status
+  who_id: 168845
+errata_activity_480576: 
+  added: 
+  created_at: 2011-04-18 05:42:37 -04:00
+  errata_id: 10893
+  id: 480576
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000177
+errata_activity_480588: 
+  added: 
+  created_at: 2011-04-18 07:08:07 -04:00
+  errata_id: 11133
+  id: 480588
+  removed: 
+  what: docs_approval_requested
+  who_id: 264390
+errata_activity_480589: 
+  added: QE
+  created_at: 2011-04-18 07:09:17 -04:00
+  errata_id: 11133
+  id: 480589
+  removed: NEW_FILES
+  what: status
+  who_id: 264390
+errata_activity_480590: 
+  added: 
+  created_at: 2011-04-18 07:17:35 -04:00
+  errata_id: 11123
+  id: 480590
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000177
+errata_activity_480591: 
+  added: 
+  created_at: 2011-04-18 07:22:09 -04:00
+  errata_id: 11123
+  id: 480591
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000177
+errata_activity_480593: 
+  added: 
+  created_at: 2011-04-18 07:55:33 -04:00
+  errata_id: 11123
+  id: 480593
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000177
+errata_activity_480594: 
+  added: 
+  created_at: 2011-04-18 07:56:22 -04:00
+  errata_id: 11123
+  id: 480594
+  removed: 
+  what: docs_approved
+  who_id: 3000177
+errata_activity_480608: 
+  added: REL_PREP
+  created_at: 2011-04-18 09:20:30 -04:00
+  errata_id: 11133
+  id: 480608
+  removed: QE
+  what: status
+  who_id: 270746
+errata_activity_480610: 
+  added: REL_PREP
+  created_at: 2011-04-18 09:26:45 -04:00
+  errata_id: 11096
+  id: 480610
+  removed: QE
+  what: status
+  who_id: 3000095
+errata_activity_480621: 
+  added: flash-plugin-10.2.159.1-1.el6
+  created_at: 2011-04-18 10:02:06 -04:00
+  errata_id: 11131
+  id: 480621
+  removed: 
+  what: signing
+  who_id: 96230
+errata_activity_480622: 
+  added: flash-plugin-10.2.159.1-1.el5
+  created_at: 2011-04-18 10:02:16 -04:00
+  errata_id: 11131
+  id: 480622
+  removed: 
+  what: signing
+  who_id: 96230
+errata_activity_480630: 
+  added: 
+  created_at: 2011-04-18 10:27:46 -04:00
+  errata_id: 11133
+  id: 480630
+  removed: 
+  what: docs_approval_requested
+  who_id: 184429
+errata_activity_480637: 
+  added: REL_PREP
+  created_at: 2011-04-18 10:53:59 -04:00
+  errata_id: 11131
+  id: 480637
+  removed: QE
+  what: status
+  who_id: 267999
+errata_activity_480646: 
+  added: PUSH_READY
+  created_at: 2011-04-18 11:02:31 -04:00
+  errata_id: 11131
+  id: 480646
+  removed: REL_PREP
+  what: status
+  who_id: 174587
+errata_activity_480648: 
+  added: 2011-Apr-20
+  created_at: 2011-04-18 11:04:40 -04:00
+  errata_id: 11138
+  id: 480648
+  removed: 2011-Apr-18
+  what: release_date
+  who_id: 215107
+errata_activity_480649: 
+  added: 
+  created_at: 2011-04-18 11:04:50 -04:00
+  errata_id: 11138
+  id: 480649
+  removed: 
+  what: docs_approval_requested
+  who_id: 215107
+errata_activity_480650: 
+  added: 2011-Apr-20
+  created_at: 2011-04-18 11:09:33 -04:00
+  errata_id: 11133
+  id: 480650
+  removed: 2011-Apr-18
+  what: release_date
+  who_id: 215107
+errata_activity_480651: 
+  added: 
+  created_at: 2011-04-18 11:09:35 -04:00
+  errata_id: 11133
+  id: 480651
+  removed: 
+  what: docs_approval_requested
+  who_id: 215107
+errata_activity_480652: 
+  added: 2011-Apr-20
+  created_at: 2011-04-18 11:10:48 -04:00
+  errata_id: 11110
+  id: 480652
+  removed: 2011-Apr-18
+  what: release_date
+  who_id: 215107
+errata_activity_480656: 
+  added: QE
+  created_at: 2011-04-18 11:13:16 -04:00
+  errata_id: 11138
+  id: 480656
+  removed: NEW_FILES
+  what: status
+  who_id: 184429
+errata_activity_480661: 
+  added: SHIPPED_LIVE
+  created_at: 2011-04-18 11:38:52 -04:00
+  errata_id: 11131
+  id: 480661
+  removed: PUSH_READY
+  what: status
+  who_id: 174587
+errata_activity_480680: 
+  added: 
+  created_at: 2011-04-18 12:38:58 -04:00
+  errata_id: 11096
+  id: 480680
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_480688: 
+  added: 
+  created_at: 2011-04-18 13:32:48 -04:00
+  errata_id: 11145
+  id: 480688
+  removed: 
+  what: docs_approval_requested
+  who_id: 275188
+errata_activity_480707: 
+  added: 
+  created_at: 2011-04-18 21:12:29 -04:00
+  errata_id: 11133
+  id: 480707
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_480723: 
+  added: REL_PREP
+  created_at: 2011-04-19 03:29:27 -04:00
+  errata_id: 11138
+  id: 480723
+  removed: QE
+  what: status
+  who_id: 211363
+errata_activity_480759: 
+  added: 
+  created_at: 2011-04-19 06:53:12 -04:00
+  errata_id: 11138
+  id: 480759
+  removed: 
+  what: docs_approved
+  who_id: 223091
+errata_activity_480819: 
+  added: QE
+  created_at: 2011-04-19 10:33:52 -04:00
+  errata_id: 11142
+  id: 480819
+  removed: NEW_FILES
+  what: status
+  who_id: 12909
+errata_activity_480820: 
+  added: NEW_FILES
+  created_at: 2011-04-19 10:36:07 -04:00
+  errata_id: 11142
+  id: 480820
+  removed: QE
+  what: status
+  who_id: 12909
+errata_activity_480841: 
+  added: QE
+  created_at: 2011-04-19 11:37:55 -04:00
+  errata_id: 11145
+  id: 480841
+  removed: NEW_FILES
+  what: status
+  who_id: 12909
+errata_activity_480842: 
+  added: 
+  created_at: 2011-04-19 11:38:52 -04:00
+  errata_id: 11096
+  id: 480842
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_480843: 
+  added: 
+  created_at: 2011-04-19 11:41:42 -04:00
+  errata_id: 11096
+  id: 480843
+  removed: 
+  what: docs_approval_requested
+  who_id: 3000518
+errata_activity_480847: 
+  added: 
+  created_at: 2011-04-19 12:09:02 -04:00
+  errata_id: 11096
+  id: 480847
+  removed: 
+  what: docs_approved
+  who_id: 3000518
+errata_activity_480848: 
+  added: 
+  created_at: 2011-04-19 12:18:32 -04:00
+  errata_id: 11152
+  id: 480848
+  removed: 
+  what: docs_approval_requested
+  who_id: 8448
+errata_activity_480849: 
+  added: QE
+  created_at: 2011-04-19 12:33:02 -04:00
+  errata_id: 11152
+  id: 480849
+  removed: NEW_FILES
+  what: status
+  who_id: 8448
+errata_activity_63828: 
+  added: ON_RHNQA
+  created_at: 2005-03-28 16:40:00 -05:00
+  errata_id: 2128
+  id: 63828
+  removed: NEEDSIGN
+  what: status
+  who_id: 4
+errata_activity_68050: 
+  added: ASYNC
+  created_at: 2005-07-27 13:27:00 -04:00
+  errata_id: 2128
+  id: 68050
+  removed: ""
+  what: group_added
+  who_id: 164905
+errata_activity_69413: 
+  added: ON_RHNQA
+  created_at: 2005-03-28 16:26:00 -05:00
+  errata_id: 2128
+  id: 69413
+  removed: ON_TEST
+  what: status
+  who_id: 168062
+errata_activity_71261: 
+  added: RESOLVED
+  created_at: 2005-10-11 20:53:00 -04:00
+  errata_id: 2128
+  id: 71261
+  removed: ON_TEST
+  what: status
+  who_id: 164905
+errata_activity_72796: 
+  added: ON_TEST
+  created_at: 2005-03-17 11:49:00 -05:00
+  errata_id: 2128
+  id: 72796
+  removed: QE_READY
+  what: status
+  who_id: 156799

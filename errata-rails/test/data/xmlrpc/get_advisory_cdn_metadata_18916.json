@@ -1,0 +1,41 @@
+### This advisory does not support CDN but nevertheless should provide metadata.
+{
+  "description": "OpenShift Enterprise by Red Hat is the company's cloud computing\nPlatform-as-a-Service (PaaS) solution designed for on-premise or private cloud\ndeployments.\nThis update fixes the following bug:\n* The libcgroup packages in OpenShift Enterprise 2.1 must be updated to avoid\npackage dependency problems with Red Hat Enterprise Linux 6.5. This fix\nintroduces the required package updates to the Red Hat OpenShift Enterprise 2.1\nNode channel so that users do not experience dependency issues. (BZ#1147006)\nAll OpenShift Enterprise users are advised to upgrade to these updated libcgroup\npackages.",
+  "from": "release-engineering@redhat.com",
+  "id": "RHBA-2014:1329",
+  "issued": "2014-09-30 10:26:39 UTC",
+  "pkglist": [
+    {
+      "name": "RHBA-2014:1329",
+      "packages": [
+
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+      "rpm"
+    ]
+  },
+  "pushcount": 4,
+  "reboot_suggested": false,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHBA-2014:1329",
+      "id": "RHBA-2014:1329",
+      "title": "RHBA-2014:1329",
+      "type": "self"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2014 Red Hat Inc",
+  "severity": "None",
+  "solution": "Before applying this update, make sure all previously released errata relevant to your system have been applied.\nA system reboot is recommended after installing this update.\nThis update is available via the Red Hat Network. Details on how to use the Red Hat Network to apply this update are available at https://access.redhat.com/site/articles/11258.",
+  "status": "final",
+  "summary": "Updated libcgroup packages are now available for Red Hat OpenShift Enterprise 2.1. These packages are required to avoid dependency issues with the base channel for Red Hat Enterprise Linux 6.5.",
+  "title": "Red Hat OpenShift Enterprise 2.1 libcgroup bug fix update",
+  "type": "RHBA",
+  "updated": "2014-09-30 10:26:36 UTC",
+  "version": "4"
+}

@@ -1,0 +1,14 @@
+<h1>Editing release</h1>
+<%= form_tag :action => 'update', :id => @release do %>
+  <%= render :partial => 'form' %>
+  <div id="fields_for_release_type"><%= render :partial => "new_#{@type.downcase}" %></div>
+  <%= submit_tag 'Edit', :class=>'btn btn-primary' %>
+
+  &nbsp;
+  <%# A little hack so that Cancel takes you back to where you came from %>
+  <%= if request.referrer =~ %r|/show/|
+    link_to 'Cancel', :action => 'show', :id => @release
+  else
+    link_to 'Cancel', :action => 'list'
+  end %>
+<% end %>

@@ -1,0 +1,25 @@
+Errata Tool will look for these variant labels in the response,
+which will be mapped to corresponding Errata Tool variants:
+
+  In response for RHEL-7:
+      Client → 7Client
+      Client-optional → 7Client-optional
+      ComputeNode → 7ComputeNode
+      ComputeNode-optional → 7ComputeNode-optional
+      Server → 7Server
+      Server-HighAvailability → 7Server-HighAvailability
+      Server-LoadBalancer → 7Server-LoadBalancer
+      Server-RT → 7Server-RT
+      Server-ResilientStorage → 7Server-ResilientStorage
+      Server-SAP → 7Server-SAP
+      Server-SAPHANA → 7Server-SAPHANA
+      Server-optional → 7Server-optional
+      Workstation → 7Workstation
+      Workstation-optional → 7Workstation-optional
+
+Errata Tool fetched the following data:
+
+    Brew getProductListings("RHEL-7", 421726)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-7", 421726]}}

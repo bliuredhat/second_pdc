@@ -1,0 +1,3 @@
+---
+ansible_ssh_host: hoggle.usersys.redhat.com
+ansible_ssh_user: root

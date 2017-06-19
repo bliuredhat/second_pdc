@@ -1,0 +1,15 @@
+<div id="build_errors" class="alert alert-error">
+  <h3>Build Search Errors:</h3>
+  <% nvrs = @build_search_errors.keys %>
+  <% nvrs.slice(0,9).each do |nvr| %>
+    <p>
+      <% problems = @build_search_errors[nvr] %>
+      <%= nvr %>: <%= br_separated problems %>
+    </p>
+  <% end %>
+  <% if nvrs.length > 10 %>
+    <p>
+      ....and <%= (nvrs.length - 10) %> more builds with problems
+    </p>
+  <% end %>
+</div>

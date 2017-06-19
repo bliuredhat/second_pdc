@@ -1,0 +1,34 @@
+{
+  "advisory_name": "RHSA-2010:10226",
+  "bugs": [
+    {
+      "id": 615956,
+      "status": "NEW",
+      "summary": "CVE-2010-1871 JBoss Seam / Seam2: Improper sanitization of parametrized JBoss EL expressions (ACE)"
+    }
+  ],
+  "crossref": "",
+  "cve": "CVE-2010-1871",
+  "description": "The JBoss Seam Framework is an application framework for building web\napplications in Java.\n\nAn input sanitization flaw was found in the way JBoss Seam processed\ncertain parametrized JBoss Expression Language (EL) expressions. A remote\nattacker could use this flaw to execute arbitrary code via a URL,\ncontaining appended, specially-crafted expression language parameters,\nprovided to certain applications based on the JBoss Seam framework. Note: A\nproperly configured and enabled Java Security Manager would prevent\nexploitation of this flaw. (CVE-2010-1871)\n\nRed Hat would like to thank Meder Kydyraliev of Google Security Team for\nresponsibly reporting this issue.\n",
+  "errata_type": "RHSA",
+  "erratum_deployed_by": "release-engineering@redhat.com",
+  "issue_date": "2010-10-29",
+  "jira_issues": [
+
+  ],
+  "keywords": "",
+  "multilib": null,
+  "obsoletes": "",
+  "product": "JBoss Enterprise Middleware",
+  "reboot_suggested": false,
+  "reference": "http://www.redhat.com/security/updates/classification/#important\nhttps://access.redhat.com/jbossnetwork/restricted/listSoftware.html",
+  "revision": 1,
+  "rhn_channel": [
+    "jb-middleware"
+  ],
+  "security_impact": "Important",
+  "solution": "This issue is fixed by a security patch JBPAPP-4714.zip.  To download an update\nwhich contains a fix for this issue please log into the customer portal and\nvisit\nhttps://access.redhat.com/jbossnetwork/restricted/listSoftware.html\n\nReplace jboss-seam.jar in your web application. Copy the new jboss-seam.jar to\nyour web application libraries.  The JBoss server process\nmust be restarted for this update to take effect.\n",
+  "synopsis": "Important: JBoss Application Platform 4.3.0 security update (**SAMPLE**)",
+  "topic": "A patch to address one security issue is now available for JBoss Enterprise\nApplication Platform 4.3.\n\nThe Red Hat Security Response Team has rated this update as having\nimportant security impact. A Common Vulnerability Scoring System (CVSS)\nbase score, which gives a detailed severity rating, is available from the\nCVE link in the References section.\n\n(** THIS IS A SAMPLE ERRATA ONLY **)\n",
+  "update_date": "2010-10-29"
+}

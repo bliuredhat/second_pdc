@@ -1,0 +1,21 @@
+<div id="edit_variant_cpe_<%= @variant.id %>">
+  <% unless @variant.cpe? %>
+    <%= link_to "Add", "#", :class => "btn btn-mini btn-add" %>
+  <% else %>
+    <div class="display_form">
+      <%= @variant.cpe %>
+      <%= link_to "Edit", '#', :class => 'btn btn-mini btn-edit' %>
+    </div>
+  <% end %>
+  <div class="hidden_form" style="display:none">
+    <%= form_for @variant, :url => {:controller => :security, :action => :update_variant_cpe}, :html => {
+      'data-remote' => true,
+      'data-url' => url_for(:controller => :security, :action => :update_variant_cpe, :id => @variant),
+    } do |f| %>
+      <%= f.hidden_field :id %>
+      <%= f.text_field :cpe %>
+      <%= f.submit 'Update', :class => 'btn btn-primary btn-mini' %>
+      <%= link_to 'Cancel', '#', :class => 'btn-cancel' %>
+    <% end %>
+  </div>
+</div>

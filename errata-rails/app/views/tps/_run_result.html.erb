@@ -1,0 +1,72 @@
+<table class="tablesorter bug_list" cellspacing="0">
+  <thead>
+    <tr>
+      <th class="sortable">ID</th>
+      <th class="sortable">Status</th>
+      <th class="sortable">Arch</th>
+      <th class="sortable">Variant</th>
+      <th class="sortable">Config</th>
+      <th class="sortable">TPS Stream</th>
+      <th class="sortable">Repo Name</th>
+      <th class="sortable">Host</th>
+      <th class="sortable">Started</th>
+      <th class="sortable">Finished</th>
+      <th class="sortable">Results</th>
+      <th class="sortable">Valid*</th>
+      <th class="unsortable">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% run_result.each do |job|
+    tps_stream, tps_errors = job.determine_tps_stream
+    still_valid = job.valid_for_tps? -%>
+    <tr class="<%= still_valid ? cycle('bz_even', 'bz_odd') : 'bz_attention' %>" id="tps_job_<%= job.id %>">
+      <td class="tps-id"><%=h job.id %></td>
+      <td class="tps-state"><%=h tps_state_help_link(job) %></td>
+      <td class="tps-arch"><%=h job.arch.name %></td>
+      <td class="tps-variant"><%=h job.variant.name %></td>
+      <td class="tps-config"><%=h job.config %></td>
+      <td class="tps-stream"><%=h tps_stream.try(:full_name) || 'n/a' %></td>
+      <td class="tps-repo_name"><%=h job.repo_name || 'n/a' %></td>
+      <td class="tps-host"><%= link_to_ssh_host(job.host) %></td>
+      <td class="tps-started"><%= job.started ? long_date(job.started) : 'n/a' %></td>
+      <td class="tps-finished"><%= long_date job.finished %></td>
+      <td class="tps-link"><a href="<%=job.link%>"><%=h job.link_text %></a></td>
+      <td class="tps-valid" style="text-align:center">
+        <%= tps_job_validity_icon(job.id, still_valid, tps_errors) %>
+      </td>
+      <td style="white-space:nowrap;">
+        <% if job.state_id == TpsState::NOT_SCHEDULED
+           schedule_action = "Schedule"
+         else
+           schedule_action = "Reschedule"
+         end
+        %>
+        <%= post_link(schedule_action, :schedule_job, job, :remote=>true, :class=>'btn btn-mini tps-schedule-job') %>
+        <%= post_link('Delete', :delete_tps_job, job, :class=>'btn btn-mini', :confirm=> 'Are you sure you want to delete this job?', :remote=>true) %>
+        <%= post_link('Unwaive', :unwaive, job, :class=>'btn btn-mini') if job.can_unwaive? %>
+        <% if job.can_waive? %>
+          <% if current_user_permitted?(:waive_tps_job) %>
+            <%= post_link('Waive', :waive, job, :class=>'btn btn-mini') %>
+          <% else %>
+            <!-- Let the user know why the waive button is gone (Bz 991541) -->
+            <span class="light tiny" style="padding-left:0.25em;">
+              <%= content_popover_helper("This TPS result can be only waived by a user with the QA role.", 'Waiving TPS Results',
+                {:controller=>:user, :action=>:users_by_role, :id=>Role.find_by_name('qa')}, :manual_text=>'Waive?', :placement=>'left') %>
+            </span>
+          <% end %>
+        <% end %>
+        <%= wait_spinner :wait_spinner %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+<div class="light tiny" style="padding-top:3em;">
+  <%= render 'show_tps_job_hosts', :tps_jobs => run_result, :state_filter => 'ALL' %>
+  <%= render 'show_tps_job_hosts', :tps_jobs => run_result, :state_filter => 'GOOD' %>
+  <%= render 'show_tps_job_hosts', :tps_jobs => run_result, :state_filter => 'BAD' %>
+
+  <br/><br/>
+  * TPS jobs are considered to be invalid if they are for a TPS system that no longer exists in this TPS run.
+</div>

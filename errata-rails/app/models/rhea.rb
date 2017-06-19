@@ -1,0 +1,2 @@
+class RHEA < LegacyErrata
+end

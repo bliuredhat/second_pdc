@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+  (See public/skel.html for static file template)
+-->
+<!--
+
+I don't think this is used any more.
+
+-->
+<html lang="en">
+  <head>
+    <title>Errata Tool - Authorization Required</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/stylesheets/master_2_2_11.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="errata_system">
+      <div id="main_nav"></div>
+      <div id="content_div">
+
+        <div class="site_message">
+
+          <h1>Authorization Required</h1>
+          <div class="highlight"><div class="just_text">
+
+            Your kerberos authentication failed or your account has no access to the Errata Tool
+
+          </div></div>
+
+          <!-- See also no_user_access.erb.html -->
+          <!-- Ps, sorry about the copy/paste. (I think this whole file is obsolete, but not certain) -->
+
+          <p>
+            Access to the Errata Tool is limited since it contains sensitive information about
+            embargoed security issues.
+          </p>
+          <p>
+            If you work in Quality Engineering, Development, Security Response, Release
+            Engineering, Content Services, or GSS, you can request access to the Errata Tool.
+          </p>
+          <p>
+            To request access, please send an email:
+            <ul class="spaced">
+              <li><b>addressed to <a href="mailto:errata-accounts@redhat.com">errata-accounts@redhat.com</a></b></li>
+              <li><b>cc'ed to your functional manager</b><sup>[1]</sup></li>
+              <li>mentioning <b>your name</b> and <b>kerberos login</b>, preferably in the subject<sup>[2]</sup>
+              <li>stating <b>the reason you need access</b></li>
+            </ul>
+          </p>
+
+          <p>[1] If you aren't sure who your functional manager is, check <a href="https://people.engineering.redhat.com/orgchart">the organizational chart</a>.
+          <p>[2] An example subject line: <b>"Requesting Errata Tool access for &lt;Your Name&gt; (user &lt;yourusername&gt;)"</b></p>
+
+          <p>
+            (<a href="http://errata.devel.redhat.com/rss/index.html">Public RSS Feeds</a> are available without signing in)
+          </p>
+
+        </div>
+      </div>
+
+      <p id="footer">Errata System. Copyright &copy; 2007-2011 Red Hat, Inc. All rights reserved.<br /></p>
+    </div>
+  </body>
+</html>

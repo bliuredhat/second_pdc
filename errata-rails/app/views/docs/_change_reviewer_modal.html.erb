@@ -1,0 +1,13 @@
+<%# want to keep these two together in one file, hence the `mode` local. %>
+<% if mode == :modal %>
+  <%# Modal for changing docs reviewer. Starts hidden. See Change Docs Reviewer button below. %>
+  <div class="modal slightly-taller-modal" id="change_docs_reviewer_modal" style="display:none;">
+    <%= render 'change_docs_reviewer_modal', :errata=>errata, :back_to=>(params[:action]||'show'), :back_to_controller=>'docs' %>
+  </div>
+
+<% elsif mode == :link %>
+  <%# Button to open the above modal %>
+  <%= link_to('Change Reviewer', "#", :id => 'btn-change-reviewer', :class => 'btn') %>
+
+<% end %>
+

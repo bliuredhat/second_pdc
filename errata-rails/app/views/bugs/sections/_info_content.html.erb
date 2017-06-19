@@ -1,0 +1,38 @@
+<table>
+  <%= table_rows_helper(
+    [
+      [ 'Bug Id', link_to(@bug.id, @bug.url) ],
+      [ 'Name', link_to(@bug.short_desc, @bug.url) ],
+      [ 'Status', [
+          content_tag(:span, @bug.bug_status, :class=>'bug-status'),
+          "&nbsp;&nbsp; #{icon_btn_text('Private?', @bug.is_private?) }",
+          "&nbsp;&nbsp; #{icon_btn_text('Security?',@bug.is_security?)}",
+          "&nbsp;&nbsp; #{icon_btn_text('Blocker?', @bug.is_blocker?) }",
+        ].join.html_safe
+
+      ],
+      [ 'Keywords', @bug.keywords ],
+      [ 'Aliases', @bug.alias ],
+      [ 'Flags',    @bug.flags.present? ? @bug.flags_list.map{|f| content_tag :span, f.to_s, :title=>f.state_name, :class=>f.css_class}.join(", ").html_safe : 'No flags found' ],
+      [ 'Package',  link_to(@bug.package.name, {:controller=>'package',:action=>'show',:id=>@bug.package.name}) ],
+      ([ 'Release',  [
+          link_to(@release.name,{:controller=>'release',:action=>'show',:id=>@release}),
+          "&nbsp;&nbsp; #{icon_btn_text('allows exception flag?', @release.allow_exception?) }",
+          "&nbsp;&nbsp; #{icon_btn_text('allows blocker flag?',@release.allow_blocker?)}",
+          "&nbsp;&nbsp; #{icon_btn_text('is FastTrack?',@release.is_fasttrack?)}",
+          # This mess is because we show just one release even though the bug might be in a number of releases.
+          # Want to let user change the release that is being shown. See Bug 915623.
+          ("<br/><span class='small'>#{glyph_icon('exclamation-sign')} " +
+           "Could also be #{@other_releases.map{|r|link_to(r.name, params.merge(:release_id=>r))}.join(" or ")}. " +
+           "<span class='light'>Click the release name to select that release and update this page</span>.</span>" unless @other_releases.empty?),
+        ].join.html_safe
+      ] if @release),
+      ([ 'Release',  'Release not available' ] if !@release),
+      [ 'Last synced',
+          ((@bug.reconciled_at.blank? ? '-' : "#{time_ago_in_words(@bug.reconciled_at)} ago") +
+          link_to("Sync now", {:action => :troubleshoot_sync_bug, :bug_id => @bug}, :class=>'btn btn-mini', :style=>'margin-left:1em;', :method=>:post)).html_safe
+      ],
+    ].compact,
+  :labels=>true) %>
+</table>
+

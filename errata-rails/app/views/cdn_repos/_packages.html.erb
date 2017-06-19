@@ -1,0 +1,71 @@
+<%#
+  #
+  # This partial shows and allows editing of packages mapped to
+  # supported CDN repositories.
+  #
+%>
+
+<p class="small_label">
+For certain content types, such as docker images, the list of packages on a CDN repository is used to determine the content eligible for push.
+<br />
+It is not necessary to include RPM packages in this list.
+</p>
+<br />
+<% if @cdn_repo.packages.empty? %>
+  No packages are currently associated with this CDN repository.
+  <br /><br />
+
+<% else %>
+  The following packages are associated with this CDN repository:
+  <br /><br />
+  <ul>
+    <% @cdn_repo.packages.sort_by(&:name).each do |p| %>
+      <li>
+        <%= link_to p.name, { :controller => :package, :action => :show, :id => p.id } %>
+        <% if current_user.can_manage_cdn_repo_packages? %>
+          <%# Button to delete the package mapping %>
+          <%= link_to 'Delete',
+          { :action => 'delete_package_mapping', :id => @cdn_repo.id, :package_id => p.id },
+            :method  => :post,
+            :title   => 'Delete',
+            :confirm => "Remove mapping of package '#{p.name}' to CDN repository '#{@cdn_repo.name}'?",
+            :class   => 'btn btn-mini btn-delete'
+          %>
+        <% end %>
+        <%= link_to 'Tags',
+        { :action => 'package_tags', :id => @cdn_repo.id, :package_id => p.id },
+          :method  => :get,
+          :title   => 'Delete',
+          :class   => 'btn btn-mini'
+        %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%# Re-using existing package_show.js for hiding/unhiding %>
+<div class="excl_container" style="margin-bottom:1em;">
+  <% if current_user.can_manage_cdn_repo_packages? %>
+
+    <%# Button to show the hidden form %>
+    <%= link_to 'Add', "#", :class=>'show_ex_form btn btn-mini btn-toggle btn-add' %>
+
+    <div class="exclusion_form" style="display:none;">
+      <p class="small_label">
+        Please enter the package name. If the package does not already exist in Errata Tool,
+        it will be created with default QE responsibility.
+      </p>
+      <%= form_for :package, :url => { :action => :create_package_mapping, :id => @cdn_repo.id } do |f| %>
+        <%= f.text_field(
+          :name,
+          :class => "et-ui-autocomplete",
+          "data-autocomplete-url" => url_for(:action => :search_packages, :id => @cdn_repo.id),
+          "data-autocomplete-value" => 'name') %>
+        <%= f.submit 'Create', :class=>'btn btn-primary' %>
+        <%# Button to hide the form again. %>
+        <%= link_to "Cancel", "#", :class=>'btn-toggle' %>
+      <% end %>
+    </div>
+
+  <% end %>
+</div>

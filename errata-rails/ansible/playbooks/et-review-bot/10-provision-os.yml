@@ -1,0 +1,6 @@
+---
+- name: Provision ET review bot on OpenStack
+  hosts: et-review-bot:&nova
+  connection: local
+  roles:
+    - { role: nova, flavor_id: "{{ openstack_flavor_id }}", image_id: "{{ openstack_image_id }}", key_name: "{{ openstack_key_name }}" }

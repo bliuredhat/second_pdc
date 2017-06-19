@@ -1,0 +1,71 @@
+<div style="float:right"><%= link_to 'Back to Products', :controller => :products %></div>
+<h2>Lookup FTP Exclusions by Package</h2>
+
+<p>Enter the name (or part of the name) of a package to see whether that package will publish SRPMs.<br/>
+The 'Exclusion Reason' column indicates why the package is excluded from publishing SRPMs.</p>
+<p>(See also <%= link_to 'All Product & Product Version FTP Exclusions', :action => :list_product_exclusions %>).</p>
+
+<form>
+
+  <table class="bug_list bug_list_big">
+    <thead>
+      <tr style="background-color:#ddd;">
+        <td><%= text_field_tag :pkg, @package_match         %><%= clear_field_link %></td>
+        <td><%= text_field_tag :pv,  @product_version_match %><%= clear_field_link %></td>
+        <td><%= text_field_tag :p,   @product_match         %><%= clear_field_link %></td>
+        <td colspan="2"style="vertical-align:middle;"><%= check_box_tag :ex, 'on', @excluded_only %>Show excluded only</td>
+        <td><%= submit_tag 'Filter', :class=>'btn btn-primary' %></td>
+      </tr>
+
+      <tr>
+        <th>Package</th>
+        <th>Product Version</th>
+        <th>Product</th>
+        <% if @results && !@results.empty? %>
+          <th>SRPMs<br/>Published?&nbsp;</th>
+          <th>FTP Exclusion<br/>Reason</th>
+          <th>Debuginfo<br/>Allowed?</th>
+        <% else %>
+          <th colspan="3"></th>
+        <% end %>
+      </tr>
+    </thead>
+    <tbody>
+
+      <% if @results %>
+
+        <% if @results.length == 0 %>
+          <tr><td colspan="5"><i>No matches found</i></td></tr>
+        <% else %>
+
+          <% @results.each do |errata_brew_mapping| %>
+            <% exclude_reasons = FtpExclusion.exclude_reasons(errata_brew_mapping.package, errata_brew_mapping.product_version) %>
+            <% next if @excluded_only && exclude_reasons.empty? %>
+
+            <tr class="<%= cycle('bz_even','bz_odd') %>">
+              <td><%= package_link(errata_brew_mapping.package) %></td>
+              <td><%= product_version_link(errata_brew_mapping.product_version) %></td>
+              <td><%= product_link(errata_brew_mapping.product_version.product) %></td>
+              <% if exclude_reasons.empty? %>
+                <td><span class="green">&nbsp;Published</span></td>
+                <td></td>
+              <% else %>
+                <td><b class="red">EXCLUDED &rarr;</b>&nbsp;</td>
+                <td>
+                  <%= display_list_with_and(exclude_reasons, :ampersand=>true).capitalize %>
+                  <%= pluralize_based_on(exclude_reasons, 'exclusion') %>
+                </td>
+              <% end %>
+              <td class="aligncenter"><%= is_excluded_text(errata_brew_mapping.product_version.allow_rhn_debuginfo?, 'Yes', 'No') %>
+            </tr>
+          <% end %>
+
+        <% end %>
+
+      <% else %>
+        <tr><td colspan="6"><i>Enter some filter options</i></td></tr>
+      <% end %>
+    </tbody>
+  </table>
+
+</form>

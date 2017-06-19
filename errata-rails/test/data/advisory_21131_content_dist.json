@@ -1,0 +1,69 @@
+{
+  "ceph-10.2.3-17.el7cp": {
+    "direct": [
+      {
+        "dist": "rhel-7-server-rhceph-2-mon-rpms__7Server__x86_64",
+        "files": [
+          "data/signed/fd431d51/x86_64/ceph-base-10.2.3-17.el7cp.x86_64.rpm",
+          "data/signed/fd431d51/x86_64/ceph-common-10.2.3-17.el7cp.x86_64.rpm"
+        ],
+        "listing": [
+          "Listings for ceph-2.1-updates@rhel-7"
+        ]
+      },
+      {
+        "dist": "rhel-7-server-rhceph-2-mon-source-rpms__7Server__x86_64",
+        "files": [
+          "data/signed/fd431d51/src/ceph-10.2.3-17.el7cp.src.rpm"
+        ],
+        "listing": [
+          "Listings for ceph-2.1-updates@rhel-7"
+        ]
+      },
+      {
+        "dist": "rhel-7-server-rhceph-2-osd-rpms__7Server__x86_64",
+        "files": [
+          "data/signed/fd431d51/x86_64/ceph-base-10.2.3-17.el7cp.x86_64.rpm",
+          "data/signed/fd431d51/x86_64/ceph-common-10.2.3-17.el7cp.x86_64.rpm"
+        ],
+        "listing": [
+          "Listings for ceph-2.1-updates@rhel-7"
+        ]
+      },
+      {
+        "dist": "rhel-7-server-rhceph-2-osd-source-rpms__7Server__x86_64",
+        "files": [
+          "data/signed/fd431d51/src/ceph-10.2.3-17.el7cp.src.rpm"
+        ],
+        "listing": [
+          "Listings for ceph-2.1-updates@rhel-7"
+        ]
+      },
+      {
+        "dist": "rhel-x86_64-server-7-rhceph-2-mon",
+        "files": [
+          "data/signed/fd431d51/src/ceph-10.2.3-17.el7cp.src.rpm",
+          "data/signed/fd431d51/x86_64/ceph-base-10.2.3-17.el7cp.x86_64.rpm",
+          "data/signed/fd431d51/x86_64/ceph-common-10.2.3-17.el7cp.x86_64.rpm"
+        ],
+        "listing": [
+          "Listings for ceph-2.1-updates@rhel-7"
+        ]
+      },
+      {
+        "dist": "rhel-x86_64-server-7-rhceph-2-osd",
+        "files": [
+          "data/signed/fd431d51/src/ceph-10.2.3-17.el7cp.src.rpm",
+          "data/signed/fd431d51/x86_64/ceph-base-10.2.3-17.el7cp.x86_64.rpm",
+          "data/signed/fd431d51/x86_64/ceph-common-10.2.3-17.el7cp.x86_64.rpm"
+        ],
+        "listing": [
+          "Listings for ceph-2.1-updates@rhel-7"
+        ]
+      }
+    ],
+    "multi_product_maps": [
+
+    ]
+  }
+}

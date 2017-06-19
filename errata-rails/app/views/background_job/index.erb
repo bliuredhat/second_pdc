@@ -1,0 +1,15 @@
+<%= page_title_h1 %>
+<p>Current Time: <%= long_date(Time.now.utc) %></p>
+<% unless @server_running %>
+  <h2>WARNING: The background server does not appear to be running! Please file a ticket with eng-systems to investigate.</h2>
+<% end %>
+<% if @jobs.total_entries == 0 %>
+    <p>No jobs in the queue</p>
+<% else %>
+
+    <%= will_paginate(@jobs) %>
+
+    <%= render(:partial => "delayed_jobs", :object => @jobs) %>
+
+    <%= will_paginate(@jobs) %>
+<% end %>

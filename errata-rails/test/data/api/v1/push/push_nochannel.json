@@ -1,0 +1,59 @@
+# HTTP 201
+[
+  {
+    "errata": {
+      "id": 19463
+    },
+    "id": "<some Fixnum>",
+    "log": "\n2016-02-10 00:00:00 +0000 Checking that oval is well formed...\n2016-02-10 00:00:00 +0000 done.",
+    "options": {
+      "nochannel": true,
+      "priority": 17,
+      "push_files": true,
+      "push_metadata": false
+    },
+    "post_tasks": [
+
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19463/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19463
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "nochannel": true,
+      "priority": 17,
+      "push_files": true,
+      "push_metadata": false
+    },
+    "post_tasks": [
+
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 4,
+      "name": "cdn"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19463/push/{some-id}"
+  }
+]

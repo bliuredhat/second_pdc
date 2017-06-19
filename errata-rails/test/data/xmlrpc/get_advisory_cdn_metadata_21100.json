@@ -1,0 +1,50 @@
+{
+  "cdn_repo": [
+    "rhel-7-server-debug-rpms__7Server__x86_64",
+    "rhel-7-server-rpms__7Server__x86_64"
+  ],
+  "description": "docker build test",
+  "from": "release-engineering@redhat.com",
+  "id": "RHBA-2016:21100",
+  "issued": "2014-07-23 01:40:25 UTC",
+  "pkglist": [
+    {
+      "name": "RHBA-2016:21100",
+      "packages": [
+
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+      "docker"
+    ]
+  },
+  "pushcount": 1,
+  "reboot_suggested": false,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHBA-2016:21100",
+      "id": "RHBA-2016:21100",
+      "title": "RHBA-2016:21100",
+      "type": "self"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=1283845",
+      "id": "1283845",
+      "title": "docker push test bug",
+      "type": "bugzilla"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2016 Red Hat Inc",
+  "severity": "None",
+  "solution": "fix it",
+  "status": "final",
+  "summary": "test advisory",
+  "title": "docker test",
+  "type": "RHBA",
+  "updated": "2016-03-03 01:00:00 UTC",
+  "version": "1"
+}

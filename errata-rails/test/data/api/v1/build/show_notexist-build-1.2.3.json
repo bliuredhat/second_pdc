@@ -1,0 +1,4 @@
+# HTTP 404
+{
+  "error": "no such build notexist-build-1.2.3"
+}

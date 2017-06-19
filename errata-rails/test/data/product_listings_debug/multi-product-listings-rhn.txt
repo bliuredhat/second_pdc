@@ -1,0 +1,87 @@
+Errata Tool will look for these variant labels in the response,
+which will be mapped to corresponding Errata Tool variants:
+
+  In response for RHEL-6-Client:
+      Client → 6Client
+      optional → 6Client-optional
+
+  In response for RHEL-6-ComputeNode:
+      ComputeNode → 6ComputeNode
+      HPN → 6ComputeNode-HPN
+      ScalableFileSystem → 6ComputeNode-ScalableFileSystem
+      optional → 6ComputeNode-optional
+
+  In response for RHEL-6-Server:
+      HPN → 6Server-HPN
+      HighAvailability → 6Server-HighAvailability
+      LoadBalancer → 6Server-LoadBalancer
+      ResilientStorage → 6Server-ResilientStorage
+      SAP → 6Server-SAP
+      SAPHANA → 6Server-SAPHANA
+      ScalableFileSystem → 6Server-ScalableFileSystem
+      Server → 6Server
+      optional → 6Server-optional
+
+  In response for RHEL-6-Server-OSE-2.0:
+      RHOSE-CLIENT-2.0 → 6Server-RHOSE-CLIENT-2.0
+      RHOSE-INFRA-2.0 → 6Server-RHOSE-INFRA-2.0
+      RHOSE-JBOSSEAP-2.0 → 6Server-RHOSE-JBOSSEAP-2.0
+      RHOSE-NODE-2.0 → 6Server-RHOSE-NODE-2.0
+
+  In response for RHEL-6-Server-OSE-2.1:
+      RHOSE-CLIENT-2.1 → 6Server-RHOSE-CLIENT-2.1
+      RHOSE-INFRA-2.1 → 6Server-RHOSE-INFRA-2.1
+      RHOSE-JBOSSAMQ-2.1 → 6Server-RHOSE-JBOSSAMQ-2.1
+      RHOSE-JBOSSEAP-2.1 → 6Server-RHOSE-JBOSSEAP-2.1
+      RHOSE-JBOSSFUSE-2.1 → 6Server-RHOSE-JBOSSFUSE-2.1
+      RHOSE-NODE-2.1 → 6Server-RHOSE-NODE-2.1
+
+  In response for RHEL-6-Server-OSE-2.2:
+      RHOSE-CLIENT-2.2 → 6Server-RHOSE-CLIENT-2.2
+      RHOSE-INFRA-2.2 → 6Server-RHOSE-INFRA-2.2
+      RHOSE-JBOSSAMQ-2.2 → 6Server-RHOSE-JBOSSAMQ-2.2
+      RHOSE-JBOSSEAP-2.2 → 6Server-RHOSE-JBOSSEAP-2.2
+      RHOSE-JBOSSFUSE-2.2 → 6Server-RHOSE-JBOSSFUSE-2.2
+      RHOSE-NODE-2.2 → 6Server-RHOSE-NODE-2.2
+
+  In response for RHEL-6-Workstation:
+      ScalableFileSystem → 6Workstation-ScalableFileSystem
+      Workstation → 6Workstation
+      optional → 6Workstation-optional
+
+Errata Tool fetched the following data:
+
+    Brew getProductListings("RHEL-6-Client", 403534)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Client", 403534]}}
+
+    Brew getProductListings("RHEL-6-ComputeNode", 403534)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-ComputeNode", 403534]}}
+
+    Brew getProductListings("RHEL-6-Server", 403534)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Server", 403534]}}
+
+    Brew getProductListings("RHEL-6-Workstation", 403534)
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Workstation", 403534]}}
+
+    Brew getProductListings("RHEL-6-Server-OSE-2.0", 403534) [multi-product mapping for RHEL-6-OSE-2.0]
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Server-OSE-2.0", 403534]}}
+
+    Brew getProductListings("RHEL-6-Server-OSE-2.1", 403534) [multi-product mapping for RHEL-6-OSE-2.1]
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Server-OSE-2.1", 403534]}}
+
+    Brew getProductListings("RHEL-6-Server-OSE-2.2", 403534) [multi-product mapping for RHEL-6-OSE-2.2]
+      (1.0s)
+
+    {"dummy_variant"=>{"called_with"=>["RHEL-6-Server-OSE-2.2", 403534]}}

@@ -1,0 +1,65 @@
+<% if current_user.can_create_autowaive_rule? %>
+  <div class="float-right btn-toolbar">
+    <div class="btn-group">
+      <%= link_to(icon_btn_text('New', :plus), {:action => :create_autowaive_rule}, :class => 'btn') %>
+    </div>
+  </div>
+<% end %>
+
+<%= page_title_h1 %>
+
+<%= form_tag({:action => 'list_autowaive_rules'}, :method => :get) do %>
+  <%= block_render 'shared/pretty_form_container', :submit_name => 'Search' do %>
+  <div class="control-group">
+    <div class="control-label"><%= label_tag 'package' %></div>
+    <div class="controls"><%= select_tag 'package', options_for_select(@packages, params['package']), {:prompt=>'--- All ---', :class => 'eso-chosen-select'} %></div>
+
+    <div class="control-label"><%= label_tag 'product_version' %></div>
+    <div class="controls"><%= select_tag 'product_version', options_for_select(@product_versions, params['product_version']), {:prompt=>'--- All ---', :class => 'eso-chosen-select'} %></div>
+
+    <div class="control-label"><%= label_tag 'test' %></div>
+    <div class="controls"><%= select_tag 'test', options_for_select(@tests, params['test']), {:prompt=>'---All---', :class => 'eso-chosen-select'} %></div>
+
+    <div class="control-label"><%= label_tag 'enabled' %></div>
+    <div class="controls"><%= select_tag 'enabled', options_for_select([['Yes', true], ['No', false]], params['enabled']), {:prompt=>'---All---'} %></div>
+  </div>
+  <% end %>
+<% end %>
+
+<% row_func = lambda do |w|
+  [ link_to(w.autowaive_rule_id, {:action => :show_autowaive_rule, :id => w.autowaive_rule_id,}, :class => 'btn'),
+    sortable_yes_no_icon(w.active),
+    w.package_name,
+    w.subpackage,
+    w.product_versions.map(&:name).join(', '),
+    "#{h w.rpmdiff_test.description} <a href='#{h w.rpmdiff_test.wiki_url}' target='_blank'><i class='icon-info-sign' style='opacity: 0.4'></i></a>".html_safe,
+    w.content_pattern,
+    sortable_time_ago_with_user(w.created_at, w.who),
+    sortable_time_ago_with_user(w.approved_at, w.approved_by),
+    list_autowaive_rules_actions(w, current_user),
+  ]
+end
+ %>
+
+ <% if @autowaive_rules.any? %>
+   <%= render('shared/bz_table', {
+     :headers => [
+       'ID',
+       tablesort_heading_custom_sort('Enabled'),
+       'Package Name',
+       'Subpackage',
+       'Product Version',
+       'Test',
+       'Rule',
+       tablesort_heading_custom_sort('Created'),
+       tablesort_heading_custom_sort('Approved'),
+       'Actions'
+   ].compact,
+     :func => row_func,
+     :row_items => @autowaive_rules,
+     :extra_class => 'autowaiver_list'
+   }) %>
+  <%= will_paginate @autowaive_rules %>
+<% else %>
+  <p>No autowaive rules found matching the search criteria.</p>
+<% end %>

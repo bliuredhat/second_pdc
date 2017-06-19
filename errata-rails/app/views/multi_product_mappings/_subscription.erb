@@ -1,0 +1,44 @@
+<div id="subscription" class="mgmt-main">
+  <h3>Subscribers</h3>
+  <div id="subscriptions">
+    <table class="buglist">
+      <% @multi_product_mapping.subscriptions.each do |s| %>
+        <tr class="<%= cycle('bz_even','bz_odd') %>">
+          <td><big><%= s.subscriber %></big></td>
+          <td>
+            <%= if can_edit_mgmt_items?
+                  link_to icon_btn_text('Remove', :trash),
+                  { :action => :remove_subscription,
+                    :id => @multi_product_mapping,
+                    :mapping_type => @multi_product_mapping.mapping_type,
+                    :subscription_id => s },
+                  :remote => true,
+                  :method => :delete,
+                  :class=>'btn btn-mini'
+                end
+            %>
+          </td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+
+<% if can_edit_mgmt_items? %>
+  <%= form_tag({ :action => 'add_subscription', :id => @multi_product_mapping },
+                 :remote => true) do %>
+    <%= hidden_field_tag :mapping_type, @multi_product_mapping.mapping_type %>
+    <%= text_field(
+        :subscriber,
+        :name,
+        :class => "et-ui-autocomplete no-bottom",
+        "data-autocomplete-url" => search_by_name_like_user_index_url,
+        "data-autocomplete-desc" => 'realname',
+        "data-autocomplete-value" => 'name')
+    %> <%= submit_tag 'Add a Subscriber', :class=>'btn btn-primary' %>
+  <% end %>
+  <p class="small light"><i>Note: updates are applied immediately.</i></p>
+</div>
+<script>
+  init_ui_elements();
+</script>
+<% end %>

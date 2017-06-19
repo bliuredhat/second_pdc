@@ -1,0 +1,32 @@
+<%= render 'tabs_and_common_header' %>
+
+<h2>Draft Release Notes Text</h2>
+
+<%#
+  This is fun but not actually productive, since we want to copy/paste without hard breaks.
+  Adding ?hard_wrap=75 on the url will still work, let's call it a hidden feature... :)
+-%>
+<% if @hard_wrap -%>
+<form style="float:right;font-size:85%;">
+  Hard wrap at <input style='font-size:90%' type='text' name='hard_wrap' value='<%= @hard_wrap %>' size='4'/>
+  <input style='font-size:90%' type='submit' value='Update'/>
+</form>
+<% end -%>
+
+<%
+  draft_text = render(:partial => 'draft_release_notes_text')
+  char_count = draft_text.length
+%>
+
+<div>
+  <span style="float:right;<%= "color:red;" if char_count > 4000 %>"><%= char_count %> characters</span>
+  <%= link_to 'Select All', "#", :class => 'btn-select-all' %>
+</div>
+
+<%= text_area_tag(
+    'release_notes_text',
+    draft_text,
+    :style => 'width:100%;height:400px;',
+    :readonly => 'readonly',
+    :class => 'draft-release-notes'
+) %>

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "attributes": {
+      "content_type": "Source",
+      "name": "updated_cdn_repo_name",
+      "release_type": "Primary",
+      "use_for_tps": true
+    },
+    "id": 1,
+    "relationships": {
+      "arch": {
+        "id": 24,
+        "name": "SRPMS"
+      },
+      "variants": [
+        {
+          "id": 1023,
+          "name": "7Server-7.1.Z"
+        },
+        {
+          "id": 1038,
+          "name": "7Server-optional-LE-7.1.Z"
+        },
+        {
+          "id": 1198,
+          "name": "7Server-ResilientStorage-7.1.EUS"
+        }
+      ]
+    },
+    "type": "cdn_repos"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "cdn_repo": [
+    "rhel-6-client-debuginfo-rpms__6Client__x86_64",
+    "rhel-6-rhev-s-rpms__6Server-RHEV-S__x86_64"
+  ],
+  "description": "JBoss Web Server is the web container, based on Apache Tomcat, in JBoss\nEnterprise Application Platform. It provides a single deployment platform\nfor the JavaServer Pages (JSP) and Java Servlet technologies.\n\nA denial of service flaw was found in the way certain strings were\nconverted to Double objects. A remote attacker could use this flaw to cause\nJBoss Web Server to hang via a specially-crafted HTTP request.\n(CVE-2010-4476)\n\nAll users of Enterprise Application Platform 4.2, 4.3, and 5.1 as provided\nfrom the Red Hat Customer Portal are advised to apply this patch. Refer to\nthe Solution section of this erratum for patch download instructions.  The\nJBoss server process must be restarted for this update to take effect.",
+  "from": "release-engineering@redhat.com",
+  "id": "RHSA-2011:0212",
+  "issued": "2011-02-10 19:41:03 UTC",
+  "pkglist": [
+    {
+      "name": "RHSA-2011:0212",
+      "packages": [
+
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+
+    ]
+  },
+  "pushcount": 6,
+  "reboot_suggested": false,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2011:0212",
+      "id": "RHSA-2011:0212",
+      "title": "RHSA-2011:0212",
+      "type": "self"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=674336",
+      "id": "674336",
+      "title": "CVE-2010-4476 JDK Double.parseDouble Denial-Of-Service",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://www.redhat.com/security/data/cve/CVE-2010-4476.html",
+      "id": "CVE-2010-4476",
+      "title": "CVE-2010-4476",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/updates/classification/#important",
+      "id": "classification",
+      "title": "important",
+      "type": "other"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2011 Red Hat Inc",
+  "severity": "Important",
+  "solution": "A patch to correct CVE-2010-4476 for JBoss Enterprise Application Platform\n4.2.0.CP09, 4.3.0.CP09, and 5.1 is available from the Red Hat Customer\nPortal. To download this patch:\n\n1) Backup your existing JBoss Enterprise Application Platform installation\n(including all applications and configuration files).\n\n2) Log into the Customer Portal: https://access.redhat.com/login\n\n3) Navigate to\nhttps://access.redhat.com/jbossnetwork/restricted/listSoftware.html\n\n4) On the left-hand side menu, under \"JBoss Enterprise Platforms\" click\n\"Application Platform\". Then, use the \"Version:\" drop down menu to select\n\"4.2.0.GA_CP09\", \"4.3.0.GA_CP09\", or \"5.1.0\".\n\n5) The patch is available from the \"Security Advisories\" link. After\napplying the patch, the JBoss server process must be restarted for the\nupdate to take effect.",
+  "status": "final",
+  "summary": "A patch for JBoss Enterprise Application Platform 4.2.0.CP09, 4.3.0.CP09,\nand 5.1 that fixes one security issue is now available from the Red Hat\nCustomer Portal.\n\nThe Red Hat Security Response Team has rated this update as having\nimportant security impact. A Common Vulnerability Scoring System (CVSS)\nbase score, which gives a detailed severity rating, is available from the\nCVE link in the References section.",
+  "title": "Important: jbossweb security update",
+  "type": "RHSA",
+  "updated": "2011-02-10 19:41:01 UTC",
+  "version": "6"
+}

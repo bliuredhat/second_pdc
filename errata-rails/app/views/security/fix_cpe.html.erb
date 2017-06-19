@@ -1,0 +1,34 @@
+<h1>Errata Fixup - CPE</h1>
+
+<p>
+This form allows you to fix CPEs after advisories have been pushed live.
+This also regenerates OVAL (if applicable) and sends updated XML to secalert for CVRF.
+</p>
+
+<%= form_tag :controller => :security, :action => :find_rhsa_to_fix_cpe do %>
+  <%= label(:advisory, :name, 'Advisory ID') %>
+  <br />
+  <span class="small_label">
+    The advisory id, which can be a numerical ID or the full advisory, e.g. (14847, RHBA-2013:14847-09)
+  </span>
+  <br />
+  <%= text_field(:advisory, :name, :size => 7) %>
+  <p>
+  <%= submit_tag "Find Errata to Fix", :class=>'btn btn-primary' %>
+  </p>
+<% end %>
+
+
+<% if @errata %>
+  <b>Advisory:</b>
+  <b><%= errata_link(@errata) %></b>
+  <p>
+  <%= form_tag :action => 'fix_cpe', :id => @errata do %>
+    <%= label(:errata, :cpe_text, 'CPE Text') %>
+    <br />
+    <%= text_field(:errata, :cpe_text, {:style => 'width:600px;', :value => @errata.content.text_only_cpe}) %>
+    <p>
+    <%= submit_tag "Apply", :class=>'btn btn-primary' %>
+  <% end %>
+
+<% end %>

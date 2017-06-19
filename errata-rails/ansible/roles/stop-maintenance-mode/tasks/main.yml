@@ -1,0 +1,5 @@
+---
+- name: Stop erratatool maintenance mode
+  become: yes
+  become_user: erratatool
+  file: path={{ rails_root }}/tmp/outage.txt state=absent

@@ -1,0 +1,136 @@
+Release Notes for Version 3.10.5
+================================
+
+Overview
+--------
+
+Release 3.10.5 is the sixth release in Errata Tool 3.10. It was deployed to
+production on December 10, 2014, closing [11 bugs and RFEs][buglist].
+
+The major new feature included in this release is support for pushing packages
+to build roots. It also contains performance improvements and bug fixes for
+existing functionality.
+
+There was a "hotfix" release of Errata Tool 3.10.4.1, deployed to production
+on December 2nd, which reverted changes related to <%= bug_link 1152798 %>.
+The changes related to fixing missing released packages were causing some
+advisories to fail TPS if different subscribed channels had different released
+packages.
+
+This issue should be fixed in TPS, see <%= bug_link 1169896 %>, at which time
+we should be able to bring back the Errata Tool improvements related to
+missing released packages.
+
+Some highlighted bugs and RFEs are listed below.
+
+<% sort_these_first %w[ 1147676 ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.10.5][buglist]
+* [Full code diff for this release][diff1]
+* [Code diff since release 3.10.4.0][diff2]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?quicksearch=1159674%201159671%201159670%201157346%201147676%201146458%201146356%201120536%201107572%201105158%201072628
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.10.5.0-0&id2=3.10.4.1-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.10.5.0-0&id2=3.10.4.0-0
+
+<%= all_include_content %>
+
+Process
+-------
+
+### Code coverage metrics
+
+Since the Errata Tool 3.10.4 release our code coverage ratio, as reported by
+Jenkins using rcov, has increased slightly from 90.89% to 90.96%.
+
+[![Rcov coverage report](images/3.10.5/rcov.png)](images/3.10.5/rcov.png)
+
+Increased code coverage means better maintainability, and a reduced chance of
+shipping regressions and new bugs. It also means we can more confidently
+refactor and improve existing code.
+
+### Release burndown and velocity
+
+In July, at the start of the Errata Tool 3.10 development period, the team
+adopted the scrum development methodology. This along with the tools provided
+by JIRA have started to give us valuable information that can be used to
+improve our scheduling decisions and make more accurate predictions about
+delivery dates.
+
+One particularly useful piece of information is our "velocity", which is a
+measure how many "story points" the team is able to deliver per sprint.
+Knowing our velocity, as well as having story point estimates for work
+required, allows us to make better predictions about how long a given amount
+of work will take to be completed.
+
+[![Release burndown](images/3.10.5/sprints.png)](images/3.10.5/sprints.png)
+
+In the above chart the past average velocity and amount of work scheduled
+predicts that all Errata Tool 3.10 items will be complete in three more
+sprints.
+
+You can also see from this chart that often "work completed" is being offset
+by "work added" (which causes the downward drift of the columns). This is due
+to new requirements coming up and being scheduled for work in ET 3.10. To some
+extent this is expected. One approach to counter this and bring more
+predicability to the end date of the scheduled work would be to be more
+aggressive about removing items of comparable story points whenever new
+items are scheduled.
+
+The following is another JIRA chart showing cumulative work done and work
+allocated, with the average velocity as the blue line.
+
+[![Velocity chart](images/3.10.5/version.png)](images/3.10.5/version.png)
+
+<note>
+
+The current version of these and some other reports, along with information about sprint scheduling and
+current work in progress, is now available without authentication [here in
+JIRA](https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401&view=reporting&chart=versionReport&version=12111).
+
+</note>
+
+
+What's Next
+-----------
+
+### Errata Tool 3.10.z
+
+The team will continue to select bugs and RFEs flagged as `errata-3.10` in
+Bugzilla for inclusion in two week sprints. Once enough content is verified and
+ready to ship we will do an end-of-sprint release. The next release in this
+series will be 3.10.6.
+
+To see bugs currently scheduled for ET 3.10 take a look at [bugs flagged with errata-3.10
+in Bugzilla][bugs3.10].
+
+At this stage we're hoping to conclude Errata Tool 3.10 development within the
+next few sprints and begin working on items flagged as 3.11 in January or
+early February.
+
+### Errata Tool 3.11
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For details
+see [Errata Tool Bug Lists][buglists].
+
+To see what's currently scheduled take a look at [bugs flagged with
+errata-3.11][bugs3.11].
+
+As mentioned above, we're aiming to begin work on items flagged as Errata Tool
+3.11 in January or early February, 2015.
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs3.10]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.10&bug_status=__open__
+[bugs3.11]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[buglists]: https://docs.engineering.redhat.com/x/1AIjAQ
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list

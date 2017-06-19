@@ -1,0 +1,4 @@
+<h2>WARNING: This will change the advisory name from <%= @errata.fulladvisory %> to <%= live_advisory_name(@errata) %></h2>
+<%= form_tag({:action => :set_live_advisory_name, :id => @errata}) do %>
+<%= submit_tag 'I am certain. Change Advisory Name', :class=>'btn btn-primary' %>
+<% end %>

@@ -1,0 +1,6 @@
+<%= render(:partial => "shared/bz_table", :locals => {
+:headers => headings_for_errata_list,
+:row_items => errata_list,
+:func => method(:row_for_errata_list),
+}) %>
+

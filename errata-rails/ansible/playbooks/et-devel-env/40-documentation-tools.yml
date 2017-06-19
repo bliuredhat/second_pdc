@@ -1,0 +1,22 @@
+- name: Install Documentation Tools
+  hosts: develop
+  tasks:
+    - name: "ET Docs | install publican repository"
+      copy: src=files/rhel6-eng.repo dest=/etc/yum.repos.d/ owner=root group=root
+      sudo: yes
+
+    - name: "ET Docs | install publican"
+      sudo: yes
+      yum: name={{ item }} state=latest enablerepo=eng-rhel-6
+      with_items:
+        - publican
+        - publican-redhat-engservices
+        - publican-redhat-engservices-web
+
+    - name: "ET Docs | install EPEL repo"
+      sudo: yes
+      command: rpm -Uvh http://mirror.overthewire.com.au/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+
+    - name: "ET Docs | install pandoc"
+      sudo: yes
+      yum: name=pandoc state=latest

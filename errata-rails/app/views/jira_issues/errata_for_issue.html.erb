@@ -1,0 +1,9 @@
+<%= render(
+  :partial => 'issues/errata_for_issue',
+  :locals => {
+    :issuetype => 'issue',
+    :issue => @jira_issue,
+    :filed_issues => @filed_jira_issues,
+  }
+)%>
+<%= render(:partial => "issues/find_issues", :object => nil) %>

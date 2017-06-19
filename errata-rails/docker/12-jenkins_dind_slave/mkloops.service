@@ -1,0 +1,8 @@
+[Unit]
+Description="Make loop devices for docker-in-docker"
+ConditionPathExists=/dev/loop-control
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/mkloops

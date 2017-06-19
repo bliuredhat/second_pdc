@@ -1,0 +1,16 @@
+---
+tps_stream_type_1:
+  id: 1
+  name: Main
+tps_stream_type_2:
+  id: 2
+  name: Z
+tps_stream_type_3:
+  id: 3
+  name: LL
+tps_stream_type_4:
+  id: 4
+  name: ELS
+tps_stream_type_5:
+  id: 5
+  name: AUS

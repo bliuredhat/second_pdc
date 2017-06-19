@@ -1,0 +1,22 @@
+<%
+   # Render a (?) icon, clickable to raise a popover help message.
+
+   # left/top/bottom/right direction for displaying the arrow
+   placement = defined?(placement) && placement ? placement : 'right'
+
+   # any additional classes for the link
+   extra_class = (defined?(extra_class) && extra_class ? extra_class : '').split
+%>
+
+<%=
+   content_popover_helper(
+     yield.gsub(/"/, "'"),
+     '',
+     # needs an href but the value is irrelevant.
+     '#help',
+     :manual_text => '',
+     :class       => %w[fa fa-question-circle help-popover-question-mark] + extra_class,
+     :click       => true,
+     :placement   => placement
+  )
+%>

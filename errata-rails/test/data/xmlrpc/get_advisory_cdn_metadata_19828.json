@@ -1,0 +1,40 @@
+{
+  "description": "This advisory has builds in multiple product versions.  It may be used to test the effect of removing/adding builds to a subset of product versions in an advisory.",
+  "from": "release-engineering@redhat.com",
+  "id": "RHBA-2015:19828",
+  "issued": "2015-02-18 05:14:47 UTC",
+  "pkglist": [
+    {
+      "name": "RHBA-2015:19828",
+      "packages": [
+
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+      "rpm"
+    ]
+  },
+  "pushcount": 1,
+  "reboot_suggested": true,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHBA-2015:19828",
+      "id": "RHBA-2015:19828",
+      "title": "RHBA-2015:19828",
+      "type": "self"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2015 Red Hat Inc",
+  "severity": "None",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/knowledge/articles/11258",
+  "status": "final",
+  "summary": "test ASYNC with multiple product versions",
+  "title": "test ASYNC with multiple product versions",
+  "type": "RHBA",
+  "updated": "2015-02-18 05:14:47 UTC",
+  "version": "1"
+}

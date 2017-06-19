@@ -1,0 +1,4 @@
+# HTTP 500
+{
+  "error": "ERROR: simulated error"
+}

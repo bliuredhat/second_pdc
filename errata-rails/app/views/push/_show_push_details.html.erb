@@ -1,0 +1,140 @@
+<% @policies.each do |policy| %>
+ <% next unless policy.push_possible? %>
+
+ <% if [:rhn_stage, :rhn_live].include?(policy.push_type) %>
+  <%#
+    #
+    # The info displayed here (and related controller logic) might need some
+    # review since this code is old and channel lists have undergone some changes
+    # since it was written.
+    #
+  -%>
+  <table>
+    <tbody>
+      <tr>
+        <%#
+          # I am pretty sure this checkbox doesn't do anything.
+          # Maybe it is some WIP or maybe it is old stuff??
+          # TODO: figure it out or remove it entirely
+        -%>
+        <% if @errata.release.allow_shadow? %>
+          <td rowspan="2" class="small_label">Shadow</td>
+          <td rowspan="2" class="compact">
+            <%= check_box(:option, :shadow) %>
+          </td>
+        <% end %>
+
+        <%# Won't bother showing these if they are both empty %>
+        <%# Put them in a single column hence the rowspan=2 on the other things in this table %>
+        <% hide_zstreams_and_fastrack = (@zstreams.empty? && @fastrack.empty?) %>
+        <% unless hide_zstreams_and_fastrack %>
+          <td class="small_label">Z-Streams</td>
+          <td class="compact"><%= @zstreams.empty? ? '-' : br_separated(@zstreams) %></td>
+        <% end %>
+
+        <td rowspan="2" class="small_label">Channels</td>
+        <td rowspan="2" class="compact">
+          <%= @channels.empty?       ? '-' : br_separated(@channels)       %>
+        </td>
+
+        <td rowspan="2" class="small_label">RPMs</td>
+        <td rowspan="2" class="compact">
+          <%= @rpms_to_upload.empty? ? '-' : br_separated(@rpms_to_upload.map{|f| brew_file_link(f, :brief => true)}.sort) %>
+        </td>
+
+        <% unless @excluded_srpms.empty? %>
+          <td rowspan="2" class="small_label">Excluded SRPMS</td>
+          <td rowspan="2" class="compact">
+            <%= br_separated(@excluded_srpms) %>
+          </td>
+        <% end %>
+
+        <% unless @archives_to_upload.empty? %>
+          <td rowspan="2" class="small_label">Non-RPMs</td>
+          <td rowspan="2" class="compact">
+            <%= br_separated(@archives_to_upload.map{|f| brew_file_link(f, :brief => true)}.sort) %>
+          </td>
+        <% end %>
+
+      </tr>
+      <% unless hide_zstreams_and_fastrack %>
+        <%# Because of the rowspan=2 above this is under the zstreams %>
+        <tr>
+          <td class="small_label">Fastrack</td>
+          <td class="compact"><%= @fastrack.empty? ? '-' : br_separated(@fastrack) %></td>
+        </tr>
+      <% end %>
+
+    </tbody>
+  </table>
+ <% end %>
+
+ <% if [:cdn_stage, :cdn_live].include?(policy.push_type) %>
+  <%#
+    #
+    # The info displayed here (and related controller logic) might need some
+    # review since this code is old and CDN file lists might be different now.
+    #
+  -%>
+  <table>
+    <tbody>
+      <tr>
+        <%# Show extra information about the CDN push %>
+        <td class="small_label">CDN file list metadata</td>
+        <%# Not really sure how this is going to look with real data... %>
+        <td><pre style="font-size:95%;padding-top:0;margin-top:0;"><%= @cdn_file_list_text ? @cdn_file_list_text : '-' %></pre></td>
+      </tr>
+    </tbody>
+  </table>
+ <% end %>
+
+ <% if policy.push_type.in?(:cdn_docker, :cdn_docker_stage) %>
+  <table>
+    <tbody>
+      <tr>
+        <td class="small_label">CDN docker metadata</td>
+        <td><pre style="font-size:95%;padding-top:0;margin-top:0;"><%= @docker_metadata_text ? @docker_metadata_text : '-' %></pre></td>
+      </tr>
+    </tbody>
+  </table>
+ <% end %>
+
+ <% if policy.push_type == :ftp %>
+  <table style="padding:1em 0;">
+    <tbody>
+      <tr>
+          <td class="small_label" style="padding:0;">File Server</td>
+          <td class="small_label" style="padding:0;">&rarr; FTP Update Server</td>
+      </tr>
+      <% ftp_paths.sort.each_with_index do |(ftp,file), i| %>
+        <tr>
+          <td class="compact" style="padding:0;"><%= file %></td>
+          <td class="compact" style="padding:0;">&rarr; <%= ftp %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+ <% end %>
+
+<% end %>
+
+<%#
+  #
+  # Confusing. This needs to appear when @ftp_push_possible is false, since
+  # ftp_push_possible checks that ftp_paths is not empty.
+  #
+  # (I'm not 100% sure that @errata.can_push_ftp? would be true in that case.
+  # This might need some work...)
+  #
+-%>
+<% if @errata.can_push_ftp? && ftp_paths.empty? %>
+
+  <div class="infobox with_icon alert_icon"><div>
+    The list of FTP files for this advisory is empty. Please confirm that
+    this is correct. Doing so will waive the FTP push and mark it as complete.
+    <%= form_tag({ :action => :confirm_empty_ftp, :id => @errata }, :style => 'display:inline;' ) do %>
+      <%= submit_tag('Confirm Empty FTP', :class=>'btn btn-primary') %>
+    <% end %>
+  </div></div>
+
+<% end %>

@@ -1,0 +1,60 @@
+Release Notes for Version 3.13.4.1
+==================================
+
+Overview
+--------
+
+Release 3.13.4.1 is the 5th and final release in the Errata Tool 3.13
+development period. It closes [15 bugs and RFEs][buglist].
+
+This release of Errata Tool includes functionality required for phase 2 of the
+MetaXOR/Container Catalog project. For Docker image advisories you can now see
+information about the RPM-based advisories that are effectively included in the
+container, including bugs and CVEs fixed.
+
+<% sort_these_first %w[ ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.13.4.1][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1369959%2C1369963%2C1369969%2C1371334%2C1377706%2C1384791%2C1393618%2C1394065%2C1395966%2C1396047%2C1396347%2C1396471%2C1397215%2C1398543%2C1399032
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.13.4.1-0&id2=3.13.3-0
+
+<%= all_include_content %>
+
+What's Next
+------------
+
+### Errata Tool 3.14.0
+
+All the remaining 3.13 flagged backlog items will soon be rolled over to the
+3.14 flag. The team will continue to select bugs and RFEs flagged as
+errata-3.14 in Bugzilla for inclusion in three-week sprints. Once enough content
+is verified and ready to ship we will do an end-of-sprint release. The next
+release will be 3.14.0.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.14 take a look at [bugs flagged with
+errata-3.14 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+If you are interested in being involved in Errata Tool planning, please subscribe
+to [errata-dev-list][erratadevlist] and vote on the bugs and features in the
+backlog that would benefit you most.  To vote for a backlog item simply click
+the 'vote' link beside the Severity field when viewing the item then confirm
+your selection on the next page.  Each user gets a maximum of ten votes.
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.14&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

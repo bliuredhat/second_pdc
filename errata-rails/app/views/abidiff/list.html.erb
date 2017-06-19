@@ -1,0 +1,15 @@
+<%= page_title_h1 %>
+
+<%= render 'shared/bz_table',
+  :none_message => 'No ABI Diff runs',
+  :row_items => @abidiff_runs,
+  :headers => ['Run ID', 'Build', 'Status', 'Result', 'Message', 'Timestamp'],
+  :func => lambda { |r| [
+    link_to_abidiff_run(r.id),
+    "#{r.brew_build.nvr}",
+    "#{r.status}",
+    "#{r.result}",
+    "#{r.message}",
+    "#{long_date(r.timestamp)}"
+  ]}
+%>

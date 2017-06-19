@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <td><%= button_to "Search Again", {:action => 'list_files', :id => @errata}, :class=>'btn' %></td>
+    <td><%= button_to "Return to Advisory", {:action => 'view', :controller => 'errata', :id => @errata}, :class=>'btn'  %></td>
+  </tr>
+</table>
+<%= form_tag :action => 'save_reselect_build', :id => @errata do %>
+  <%= render 'content_types_select' %>
+  <%= submit_tag 'Save Reselect Build', :class=>'btn btn-primary' %>
+  <table class="buglist" cellspacing="2" cellpadding="0">
+    <tr>
+      <thead>
+        <td align="center">Build <%= brew_link(@brew_build) %></td>
+      </thead>
+    </tr>
+    <br>
+    <%= render 'brew_file_select', :build => @brew_build, :pv => @mapping.product_version %>
+  </table>
+<% end %>

@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "request_body": [
+      "must be empty when using 'defaults'"
+    ]
+  }
+}

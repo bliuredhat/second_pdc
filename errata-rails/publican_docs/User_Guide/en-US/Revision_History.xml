@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Main.ent">
+%BOOK_ENTITIES;
+]>
+<!-- NB: We don't maintain this revision history any more but publican will fail if the file doesn't exist -->
+<appendix>
+  <title>Revision History</title>
+  <simpara>
+    <revhistory>
+      <revision>
+        <revnumber>1-11</revnumber>
+        <date>Wed Jun 01 2016</date>
+        <author>
+          <firstname>David</firstname>
+          <surname>Clark</surname>
+          <email>daclark@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added documentation for Docker support</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-10</revnumber>
+        <date>Mon Oct 26 2015</date>
+        <author>
+          <firstname>David</firstname>
+          <surname>Clark</surname>
+          <email>daclark@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added documentation for Advisory Batching</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-9</revnumber>
+        <date>Mon Apr 20 2015</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Remove some content now maintained in Confluence</member>
+            <member>Updated logo for PnT DevOps</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-8</revnumber>
+        <date>Mon Mar 16 2015</date>
+        <author>
+          <firstname>Rohan</firstname>
+          <surname>McGovern</surname>
+          <email>rmcgover@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added Errata Tool 3.11.0 content: Product Security Approval</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-7</revnumber>
+        <date>Thu Dec 11 2014</date>
+        <author>
+          <firstname>Rohan</firstname>
+          <surname>McGovern</surname>
+          <email>rmcgover@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Document new Push to Buildroots functionality.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-6</revnumber>
+        <date>Thu Jul 10 2014</date>
+        <author>
+          <firstname>Rohan</firstname>
+          <surname>McGovern</surname>
+          <email>rmcgover@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Document new JBoss JIRA integration.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-4</revnumber>
+        <date>Wed Feb 19 2014</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Update Docspace links to point to Mojo.</member>
+            <member>Minor amendments related to Errata Tool 3.6 &amp; 3.7.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-3</revnumber>
+        <date>Tue Aug 27 2013</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Minor amendments and corrections.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-2</revnumber>
+        <date>Thu Jul 23 2013</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added description of account creation and role assignment policies.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-1</revnumber>
+        <date>Mon Jun 21 2013</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added Covscan documentation.</member>
+            <member>Amended team member details.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>1-0</revnumber>
+        <date>Mon Apr 08 2013</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Moved Release Notes into separate book.</member>
+            <member>Moved JSON API details to Developer Guide.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0-12</revnumber>
+        <date>Thu Mar 07 2013</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <author>
+          <firstname>Jon</firstname>
+          <surname>Orris</surname>
+          <email>jorris@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added release notes for Errata Tool 3.2.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0-10</revnumber>
+        <date>Thu Dec 13 2012</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <author>
+          <firstname>Jon</firstname>
+          <surname>Orris</surname>
+          <email>jorris@redhat.com</email>
+        </author>
+        <author>
+          <firstname>Radek</firstname>
+          <surname>Biba</surname>
+          <email>rbiba@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added release notes and updates related to Errata Tool 3.1.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0-7</revnumber>
+        <date>Thu Nov 15 2012</date>
+        <author>
+          <firstname>Radek</firstname>
+          <surname>Biba</surname>
+          <email>rbiba@redhat.com</email>
+        </author>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added Radek's new chapter on 'Filing an Advisory'.</member>
+            <member>Broke up 'Users Guide' into separate chapters.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0-5</revnumber>
+        <date>Thu Nov 01 2012</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Revised 'Other Resources'.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0-4</revnumber>
+        <date>Mon Oct 29 2012</date>
+        <author>
+          <firstname>Jon</firstname>
+          <surname>Orris</surname>
+          <email>jorris@redhat.com</email>
+        </author>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added release notes for Errata Tool 3.0.</member>
+            <member>Added some more Users Guide content including the 'About Errata Tool' section.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0-2</revnumber>
+        <date>Mon Jul 30 2012</date>
+        <author>
+          <firstname>Jon</firstname>
+          <surname>Orris</surname>
+          <email>jorris@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added initial JSON API documentation.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0-1</revnumber>
+        <date>Wed Jul 25 2012</date>
+        <author>
+          <firstname>Simon</firstname>
+          <surname>Baird</surname>
+          <email>sbaird@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Added version 2.3 Release Notes.</member>
+            <member>Added placeholder Users Guide content.</member>
+            <member>Renamed book to 'Errata_Tool'.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+      <revision>
+        <revnumber>0-0</revnumber>
+        <date>Tue Feb 14 2012</date>
+        <author>
+          <firstname>Ryan</firstname>
+          <surname>Lerch</surname>
+          <email>rlerch@redhat.com</email>
+        </author>
+        <revdescription>
+          <simplelist>
+            <member>Initial creation of new Publican book.</member>
+          </simplelist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </simpara>
+</appendix>

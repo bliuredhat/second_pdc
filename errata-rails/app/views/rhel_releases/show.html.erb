@@ -1,0 +1,7 @@
+<h1>RHEL Version <%= @rhel_release.name %></h1>
+<%#
+  Previously it redirected back to the list, but we need to respond to json
+  requests, so here is a quick hack.
+%>
+<%= @rhel_releases = [@rhel_release]; render 'list' %>
+<p><br/><%= link_to 'Return to RHEL versions list', rhel_releases_path %></p>

@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "batch_name": [
+      "batch not found with name = notexist"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "xorg-x11-drv-qxl-0.0.12-2.el5": {
+    "checksums": {
+      "md5": {
+        "xorg-x11-drv-qxl-0.0.12-2.el5.i386.rpm": "fake:27029b8ed284a346e99f9ba93fa",
+        "xorg-x11-drv-qxl-0.0.12-2.el5.src.rpm": "fake:aafd34c4ea2be9253248f9956f8",
+        "xorg-x11-drv-qxl-0.0.12-2.el5.x86_64.rpm": "fake:d1591bad1e215f33b93997e6ee6",
+        "xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.i386.rpm": "fake:fb73bf3c2cb48bc0eb83999588a",
+        "xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.x86_64.rpm": "fake:2063ca129c39fce3f845589f13a"
+      },
+      "sha256": {
+        "xorg-x11-drv-qxl-0.0.12-2.el5.i386.rpm": "fake:13a71d39a5635a3bbd3e467471477650dd16f8c7617f8124cdfbe54e7c2",
+        "xorg-x11-drv-qxl-0.0.12-2.el5.src.rpm": "fake:0e4536a4079f103242165c2d96b8aaca3072f215ac80b68ddad75b45559",
+        "xorg-x11-drv-qxl-0.0.12-2.el5.x86_64.rpm": "fake:8088dc3bc29e82a189f26175ffdc5eceae91f286fe1e6bd0a929e7e9e8e",
+        "xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.i386.rpm": "fake:38476707706a9b8ab94b639bbbf6a15b0e9acf24c6d07eccf558665725c",
+        "xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.x86_64.rpm": "fake:0fc4a8801522e9e0f5ec334fa3f2adf5fffa46d64cf2d15136dc4c64cc0"
+      }
+    },
+    "rpms": {
+      "xorg-x11-drv-qxl-0.0.12-2.el5.i386.rpm": [
+        "rhel-i386-client-5",
+        "rhel-i386-server-5"
+      ],
+      "xorg-x11-drv-qxl-0.0.12-2.el5.src.rpm": [
+        "rhel-i386-client-5",
+        "rhel-i386-server-5",
+        "rhel-x86_64-client-5",
+        "rhel-x86_64-server-5"
+      ],
+      "xorg-x11-drv-qxl-0.0.12-2.el5.x86_64.rpm": [
+        "rhel-x86_64-client-5",
+        "rhel-x86_64-server-5"
+      ],
+      "xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.i386.rpm": [
+        "rhel-i386-client-5-debuginfo",
+        "rhel-i386-server-5-debuginfo"
+      ],
+      "xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.x86_64.rpm": [
+        "rhel-x86_64-client-5-debuginfo",
+        "rhel-x86_64-server-5-debuginfo"
+      ]
+    },
+    "sig_key": ""
+  }
+}

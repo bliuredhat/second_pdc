@@ -1,0 +1,46 @@
+<%
+  #
+  # A common wrapper for rendering lists of 'management' objects
+  # like Products and Product Versions.
+  #
+  # You can pass in locals for object and object_name but if you don't
+  # it will make some assumptions and try to work automatically.
+  #
+
+  # Eg "widget" and @widgets
+  object_name      = controller_name.classify.to_s.underscore unless defined?(object_name) && object_name
+  objects          = instance_variable_get("@#{object_name.pluralize}") unless defined?(objects) && objects
+  partial_location = controller_name # ?
+  title            = object_name.titleize.pluralize unless defined?(title) && title
+
+-%>
+<div class="btn-toolbar" style="float:right;margin-top:8px;">
+  <% if partial_exists?("index_actions", partial_location) %>
+    <div class="btn-group" style="float:right;">
+      <%= render "#{partial_location}/index_actions" %>
+    </div>
+  <% end %>
+  <% if defined?(parent) && parent %>
+    <div class="btn-group text-buttons">
+      <%= link_to "Back to #{@product.canonical_short_name}", @product %>
+    </div>
+  <% end %>
+</div>
+<h1><%= title %><%= " for #{parent.canonical_short_name}" if defined?(parent) && parent %></h1>
+<div class="mgmt" style="width:100%;">
+  <div class="mgmt-main" style="width:100%;padding:1em 0;">
+    <div class="quick_filter inactive">
+      Filter: <input class="filter_input" /><a href="#" class="clear">&times;</a>
+      <% unless defined?(skip_inactive_filter) && skip_inactive_filter %>
+        <label class="tiny superlight" style="margin-left:1em;"><input type="checkbox" class="show_inactive_checkbox" checked="checked" /> &nbsp;Show inactive</label>
+      <% end %>
+      <span class="superlight tiny shown_indicator" style="margin-left:0.75em;"></span>
+    </div>
+    <table style="width:100%;">
+      <% objects.sort_by(&:canonical_short_name).each do |object| %>
+        <%# I think controller_name is okay here.. %>
+        <%= render "#{controller_name}/list_row", object_name.to_sym=>object %>
+      <% end %>
+    </table>
+  </div>
+</div>

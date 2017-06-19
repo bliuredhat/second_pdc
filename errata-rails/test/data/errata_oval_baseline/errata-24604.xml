@@ -1,0 +1,83 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:red-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:unix-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux linux-definitions-schema.xsd">
+  <generator>
+    <oval:product_name>Red Hat Errata System</oval:product_name>
+    <oval:schema_version>5.10.1</oval:schema_version>
+    <oval:timestamp>2012-12-12T12:12:12</oval:timestamp>
+  </generator>
+
+  <definitions>
+    <definition class="patch" id="oval:com.redhat.rhba:def:20161890" version="602">
+      <metadata>
+        <title>RHBA-2016:1890: Red Hat Enterprise Linux Atomic 7.2.7 Tools Container Image Update (None)</title>
+    <affected family="unix">
+    </affected>
+    <reference ref_id="RHBA-2016:1890-01" ref_url="https://access.redhat.com/errata/RHBA-2016:1890" source="RHBA"></reference>
+      <reference ref_id="CVE-2016-3134" ref_url="https://access.redhat.com/security/cve/CVE-2016-3134" source="CVE"></reference>
+      <reference ref_id="CVE-2016-4997" ref_url="https://access.redhat.com/security/cve/CVE-2016-4997" source="CVE"></reference>
+      <reference ref_id="CVE-2016-4998" ref_url="https://access.redhat.com/security/cve/CVE-2016-4998" source="CVE"></reference>
+    <description>The Red Hat Enterprise Linux Atomic Tools container image includes hundreds of software tools for troubleshooting and investigating a Red Hat Enterprise Linux Atomic Host system. This container allows you to interact directly with the system to uncover and solve problems. Inside the container are popular tools such as sosreport, kdump, and many others (most of which are not installed on Red Hat Enterprise Linux Atomic Host).
+Updated packages:
+RHBA-2016:1827 docker-1.10.3-46.el7.14.x86_64
+RHBA-2016:1827 docker-common-1.10.3-46.el7.14.x86_64
+RHBA-2016:1829 docker-latest-1.12.1-2.el7.x86_64
+RHBA-2016:1827 docker-rhel-push-plugin-1.10.3-46.el7.14.x86_64
+RHBA-2016:1827 docker-selinux-1.10.3-46.el7.14.x86_64
+RHBA-2016:1827 docker-v1.10-migrator-1.10.3-46.el7.14.x86_64
+RHSA-2016:1847 kernel-3.10.0-327.36.1.el7.x86_64
+RHSA-2016:1847 kernel-devel-3.10.0-327.36.1.el7.x86_64
+RHSA-2016:1847 kernel-headers-3.10.0-327.36.1.el7.x86_64
+RHBA-2016:1832 kmod-20-8.el7_2.x86_64
+RHBA-2016:1832 kmod-libs-20-8.el7_2.x86_64
+RHBA-2016:1833 kpartx-0.4.9-85.el7_2.6.x86_64
+RHSA-2016:1844 libarchive-3.1.2-10.el7_2.x86_64
+RHEA-2015:0621 libgsystem-2015.1-1.atomic.el7.x86_64
+RHSA-2016:1602 mariadb-libs-5.5.50-1.el7_2.x86_64
+RHBA-2016:1830 oci-register-machine-0-1.8.gitaf6c129.el7.x86_64
+RHSA-2016:1847 perf-3.10.0-327.36.1.el7.x86_64
+RHBA-2016:1834 python-2.7.5-39.el7_2.x86_64
+RHBA-2016:1834 python-libs-2.7.5-39.el7_2.x86_64
+RHBA-2016:1863 selinux-policy-3.13.1-60.el7_2.9.noarch
+RHBA-2016:1863 selinux-policy-minimum-3.13.1-60.el7_2.9.noarch
+RHBA-2016:1863 selinux-policy-targeted-3.13.1-60.el7_2.9.noarch
+RHBA-2016:1835 systemd-219-19.el7_2.13.x86_64
+RHBA-2016:1835 systemd-libs-219-19.el7_2.13.x86_64
+RHBA-2016:1835 systemd-sysv-219-19.el7_2.13.x86_64
+New package:
+RHBA-2015:2122 subscription-manager-plugin-container-1.15.9-15.el7.x86_64
+All users who require the Red Hat Enterprise Linux Atomic Tools container are advised to install this updated container image.</description>
+
+
+
+<advisory from="secalert@redhat.com">
+        <severity>None</severity>
+        <rights>Copyright 2016 Red Hat, Inc.</rights>
+        <issued date="2016-09-15"></issued>
+        <updated date="2016-09-15"></updated>
+        <cve href="https://access.redhat.com/security/cve/CVE-2016-3134">CVE-2016-3134</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2016-4997">CVE-2016-4997</cve>
+        <cve href="https://access.redhat.com/security/cve/CVE-2016-4998">CVE-2016-4998</cve>
+    <affected_cpe_list>
+        <cpe>cpe:/a:redhat:rhel_extras_other:7</cpe>
+    </affected_cpe_list>
+</advisory>
+      </metadata>
+      
+    </definition>
+  </definitions>
+  <tests>
+    
+    
+  </tests>
+
+  <objects>
+    
+    
+  </objects>
+  <states>
+    
+    <rpminfo_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhba:ste:20161890001" version="602">
+  <signature_keyid operation="equals"></signature_keyid>
+</rpminfo_state>
+
+  </states>
+</oval_definitions>

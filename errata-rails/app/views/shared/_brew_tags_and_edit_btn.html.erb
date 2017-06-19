@@ -1,0 +1,19 @@
+<%# A quick hack to get brew tags working in new mgmt UI %>
+<%# Tightly coupled with the brew tag edit modal, see a/v/pv/_edit. Refactor me later. %>
+<% is_edit_mode = !defined?(suppress_edit_button) %>
+<% edit_button = link_to('Edit Brew Tags', "#", :class=>'btn btn-mini', :id=>'edit-brew-tags', :style=>'margin-left:1em;') %>
+<div id="<%= 'brew_tags_and_edit_btn' if is_edit_mode %>" style="line-height:110%;">
+  <% if brew_tags.count == 0 %>
+    <p>
+      <i class="small light">none</i>
+      <%= edit_button if is_edit_mode %>
+    </p>
+  <% else %>
+    <% brew_tags.each_with_index do |brew_tag, i| %>
+      <small>&bull; <%= brew_tag.name %></small>
+      <%= edit_button if is_edit_mode && i == 0 %>
+      <br/>
+    <% end %>
+  <% end %>
+</div>
+

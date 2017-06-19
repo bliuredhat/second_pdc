@@ -1,0 +1,37 @@
+<%
+#
+# Locals:
+#
+#  * name
+#  * title
+#  * start_collapsed - boolean (optional)
+#  * visual_box - boolean (optional)
+#  * title_note - (optional)
+#  * section_location - (optional)
+#
+
+# Allow lists of notes.. might use for linking to the active workflow for this advisory
+title_note = title_note.compact.join(', ') if defined?(title_note) && title_note.is_a?(Array)
+
+# You can use relative paths when rendering partials so need to say where to find the "sections"
+section_location = "#{params[:controller]}/sections" unless defined?(section_folder)
+
+-%>
+<div class="section_container<%= " section_container_collapsed" if defined?(start_collapsed) && start_collapsed %>">
+  <%#
+    # All the actions for this action appear in the top right.
+  -%>
+  <div style="float:right" class="btn-toolbar">
+    <%= render "#{section_location}/#{name}_actions" %>
+  </div>
+  <%#
+    # Heading is clickable, can be used to expand or collapse this section.
+  -%>
+  <%= render "shared/view_section_heading", :title=>title, :name=>name, :title_note=>title_note %>
+  <%#
+    # This is the content of the section.
+  -%>
+  <div class="section_content<%= " well" if defined?(visual_box) && visual_box %>">
+    <%= render "#{section_location}/#{name}_content" %>
+  </div>
+</div>

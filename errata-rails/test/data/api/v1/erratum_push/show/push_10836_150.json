@@ -1,0 +1,7 @@
+### In this case, both the advisory and push job actually exist.
+### However, the push job ID used in the URL doesn't match the erratum ID.
+### That's treated as a 404, same as if the push job didn't exist at all.
+# HTTP 404
+{
+  "error": "Push job not found"
+}

@@ -1,0 +1,17 @@
+<%=
+#
+# To use this you should to pass in a local called 'id' which is an errata id
+#
+# And to make it not open all links in a new window, pass in a local called 'this_window' set to true
+#
+this_window = false unless defined?(this_window)
+show_labels = false unless defined?(show_labels)
+[
+  docs_queue_icon_link( :icon=>"document-generic.png",    :controller=>:errata, :action=>:details,      :id=>id, :title=>'Details Tab', :this_window=>this_window, :label=>(show_labels ? 'Summary'  : nil )),
+  docs_queue_icon_link( :icon=>"document-properties.png", :controller=>:errata, :action=>:view,         :id=>id, :title=>'Summary Tab', :this_window=>this_window, :label=>(show_labels ? 'Details'  : nil )),
+  docs_queue_icon_link( :icon=>"document-edit.png",       :controller=>:errata, :action=>:edit,         :id=>id, :title=>'Edit',        :this_window=>this_window, :label=>(show_labels ? 'Edit'     : nil )),
+  docs_queue_icon_link( :icon=>"document-approve.png",    :controller=>:docs,   :action=>:show,         :id=>id, :title=>'Approval',    :this_window=>this_window, :label=>(show_labels ? 'Approval' : nil )),
+  docs_queue_icon_link( :icon=>"document-history.png",    :controller=>:docs,   :action=>:diff_history, :id=>id, :title=>'Revisions',   :this_window=>this_window, :label=>(show_labels ? 'History'  : nil )),
+].compact.join("&nbsp;").html_safe
+-%>
+

@@ -1,0 +1,103 @@
+{
+  "allow_rhn_debuginfo": true,
+  "brew_tags": [
+    "supp-rhel-7.0-candidate"
+  ],
+  "channels": [
+    {
+      "active": true,
+      "arch": "ppc64",
+      "id": 1097,
+      "name": "rhel-ppc64-server-supplementary-7",
+      "product_version_id": 317,
+      "type": "PrimaryChannel",
+      "variant": {
+        "id": 791,
+        "name": "7Server-Server"
+      }
+    },
+    {
+      "active": true,
+      "arch": "s390x",
+      "id": 1098,
+      "name": "rhel-s390x-server-supplementary-7",
+      "product_version_id": 317,
+      "type": "PrimaryChannel",
+      "variant": {
+        "id": 791,
+        "name": "7Server-Server"
+      }
+    },
+    {
+      "active": true,
+      "arch": "x86_64",
+      "id": 1092,
+      "name": "rhel-x86_64-client-supplementary-7",
+      "product_version_id": 317,
+      "type": "PrimaryChannel",
+      "variant": {
+        "id": 790,
+        "name": "7Client-Client"
+      }
+    },
+    {
+      "active": true,
+      "arch": "x86_64",
+      "id": 1100,
+      "name": "rhel-x86_64-hpc-node-supplementary-7",
+      "product_version_id": 317,
+      "type": "PrimaryChannel",
+      "variant": {
+        "id": 793,
+        "name": "7ComputeNode-ComputeNode"
+      }
+    },
+    {
+      "active": true,
+      "arch": "x86_64",
+      "id": 1099,
+      "name": "rhel-x86_64-server-supplementary-7",
+      "product_version_id": 317,
+      "type": "PrimaryChannel",
+      "variant": {
+        "id": 791,
+        "name": "7Server-Server"
+      }
+    },
+    {
+      "active": true,
+      "arch": "x86_64",
+      "id": 1101,
+      "name": "rhel-x86_64-workstation-supplementary-7",
+      "product_version_id": 317,
+      "type": "PrimaryChannel",
+      "variant": {
+        "id": 794,
+        "name": "7Workstation-Workstation"
+      }
+    }
+  ],
+  "default_brew_tag": "supp-rhel-7.0-candidate",
+  "description": "",
+  "enabled": true,
+  "id": 317,
+  "is_oval_product": false,
+  "is_server_only": false,
+  "name": "RHEL-7.0-Supplementary",
+  "product": {
+    "id": 23,
+    "name": "Red Hat Enterprise Linux Extras",
+    "short_name": "RHEL-EXTRAS"
+  },
+  "push_types": [
+    "rhn_stage"
+  ],
+  "rhel_release": {
+    "id": 27,
+    "name": "RHEL-7"
+  },
+  "sig_key": {
+    "id": 8,
+    "name": "redhatrelease2"
+  }
+}

@@ -1,0 +1,22 @@
+Release Date: <%= @errata.publish_date_for_display %>
+Synopsis: <%= @errata.synopsis %>
+
+Errata request link: <%= errata_text_url(@errata) %>
+
+Signatures have been requested for the packages in this errata report.
+
+You can use the remote_sign tool to sign these packages. To accomplish this,
+please log into x86-015.build.bos.redhat.com and execute the following command:
+
+kinit
+/mnt/redhat/scripts/rel-eng/utility/remote_sign --advisory=<%= @errata.id %>
+
+This will grab the latest file list from the errata database, and perform
+the signing using the signing server.
+
+Please report any problems to <%= Settings.errata_help_email %>
+
+Package list:
+<% @errata.brew_rpms.each do |r| -%>
+<%= r.file_path %>
+<% end -%>

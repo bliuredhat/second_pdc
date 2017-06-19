@@ -1,0 +1,129 @@
+Docker for Errata Tool
+======================
+:toc:
+
+This repository contains various dockerfiles relating to Errata Tool.
+
+Most of the images built from this repository can be found under the
+namespace http://docker-registry.usersys.redhat.com:8080/[docker-registry.usersys.redhat.com/errata_tool].
+
+Building the Images
+-------------------
+
+Dockerfiles and any files required for docker builds are located within
+one directory per image.  The directories are numbered, as in the following
+example:
+
+  05-mysqld/
+  10-rails32/
+  12-jenkins_slave/
+  20-errata_deps/
+  30-webapp_cfg/
+  90-errata/
+
+The numbering is intended to aid in building related images on top of each
+other in the correct sequence.  For example, the jenkins_slave image
+builds on top of the rails32 image which builds on top of the mysqld image.
+
+A `build` script is provided to build and tag a set of images at once.
+For example, to rebuild the aforementioned three images, one could invoke:
+
+  ./build --to 12
+
+The resulting images are tagged under docker-registry.usersys.redhat.com/errata_tool ,
+ready for a `docker push`.
+
+The `build` script supports various options which may be helpful, including a
+dry-run mode.  Try `./build --help`.
+
+It's not mandatory to use the `build` script; the normal `docker build` command
+works as well.
+
+There's additionally a `private/` directory which contains Dockerfiles with
+images which, by their nature, should never be pushed to an unsecured docker
+registry.  These images are always skipped by the `build` script.
+
+Noteworthy Images
+-----------------
+
+What follows is a brief description of some of the more important images:
+
+[[jenkins]]
+jenkins_dind_slave
+~~~~~~~~~~~~~~~~~~
+
+This image provides a Jenkins slave for running docker-based test procedures.
+("dind" is short for docker-in-docker.)
+
+The image includes a minimal environment with git, a Jenkins JNLP slave, and
+a docker daemon. It is intended for usage as a JNLP slave
+with https://novasmitty.usersys.redhat.com/ .
+It should be possible to use the slave with other Jenkins servers as well.
+The slave takes a Jenkins URL, node name and node secret as arguments.
+
+The idea is that Jenkins jobs configured using this slave should `docker pull`
+and `docker run` an image to execute a test procedure, usually by mounting
+the Jenkins workspace as a volume in the new container.  See the errata_tester
+image in this repository for an example.
+
+If all testing done within a jenkins_dind_slave is using docker containers,
+it should be safe to run any number of executors on the slave.
+
+For more information, see https://docs.engineering.redhat.com/x/aBCnAQ[Confluence: Errata Tool Jenkins].
+
+errata_tester
+~~~~~~~~~~~~~
+
+This image provides an environment for testing of Errata Tool.
+
+It's based on RHEL6 and includes all requirements for running Errata Tool's
+test suite, including packages for ruby and gems, and a running mysqld.
+
+To improve the test suite performance, mysqld runs using a tmpfs, which
+requires the container to be started with `--privileged`.
+
+The slave reads a test script from standard input, and expects an Errata Tool
+source repository to be mounted on `/workspace`.  For example, a Jenkins job
+making use of this image might look like:
+
+    IMG=docker-registry.usersys.redhat.com/errata_tool/errata_tester:latest
+    docker pull $IMG || echo "pull failed - maybe testing using an old image!"
+    docker run --rm=true "--name=$BUILD_TAG" --privileged -i -v $PWD:/workspace $IMG <<END_SCRIPT
+      set -xe
+      cp -v deploy_configs/rpm_gemfile_lock Gemfile.lock
+      bundle install --path ~/.gem
+      rake RAILS_ENV=test TESTTHREADS=4 TESTOPTS=-v test:ci
+    END_SCRIPT
+
+[[mysqld]]
+mysqld
+~~~~~~
+
+This image simply provides an empty running mysqld, which accepts TCP
+connections and has a known root password.  (See the Dockerfile for details.)
+
+errata
+~~~~~~
+
+This image provides a mostly working Errata Tool instance.
+
+It exposes HTTPS with a self-signed certificate, and LDAP authentication.
+
+It doesn't include any mysqld.  The image is designed to be linked with the <<mysqld>>
+image using the alias `db`.
+
+The container can read certain credentials from standard input to support
+connecting to Bugzilla and other systems.  An example of running the image
+might look like:
+
+  docker run -p 5443:443 -i --link etdb:db -e SERVER_URL=https://localhost:5443 docker-registry.usersys.redhat.com/errata_tool/errata:latest < et-credentials
+
+review_bot
+~~~~~~~~~~
+
+This image hosts a simple daemon which connects to Gerrit and performs some
+static checks on any patches posted to the errata-rails project.
+It posts negative reviews if it can find any problems.
+
+The image must be combined with a valid private ssh key before it can be
+used.  (TODO: how?)

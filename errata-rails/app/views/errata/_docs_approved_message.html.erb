@@ -1,0 +1,7 @@
+<% if @advisory.docs_approved? && @advisory.docs_have_changed? %>
+  <div class="infobox smaller"><div>
+    <b>WARNING:</b> This advisory has docs approval. This update will invalidate its docs<br/>approval<%
+    if @advisory.status_is?(:PUSH_READY) %> and move it from PUSH_READY back to REL_PREP<% end %>.
+  </div></div>
+<% end %>
+

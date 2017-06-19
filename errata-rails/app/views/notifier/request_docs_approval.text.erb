@@ -1,0 +1,4 @@
+Text for advisory <%= @errata.fulladvisory %> has been marked READY for documentation approval.
+
+<%= url_for(:controller => :docs, :action => :show, :id => @errata.id, :only_path => false) %>
+

@@ -1,0 +1,25 @@
+---
+- name: ensure mysql is running
+  tags: errata-db
+  service: name=mysqld state=started
+  sudo: yes
+
+- name: check if db exists
+  tags: errata-db
+  command: rake db:version
+  ignore_errors: yes
+  register: db_version
+
+- name: run rake db:create
+  tags: errata-db
+  command: rake db:create
+  args:
+    chdir: "{{ project_dir }}"
+
+- name: run rake db:schema:load db:fixtures:load
+  tags: errata-db
+  command: rake db:schema:load db:fixtures:load
+  when: db_version|failed or recreate_db|bool
+  args:
+    chdir: "{{ project_dir }}"
+

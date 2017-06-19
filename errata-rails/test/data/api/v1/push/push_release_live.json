@@ -1,0 +1,350 @@
+# HTTP 201
+[
+  {
+    "errata": {
+      "id": 10836
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "check_error",
+      "mark_errata_shipped",
+      "move_pushed_errata",
+      "update_bugzilla",
+      "update_jira",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_issue_date",
+      "set_live_id",
+      "set_update_date"
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "http://www.example.com/api/v1/erratum/10836/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 10836
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "check_error",
+      "mark_errata_shipped",
+      "move_pushed_errata",
+      "update_bugzilla",
+      "update_jira",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_live_id",
+      "set_update_date"
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 4,
+      "name": "cdn"
+    },
+    "url": "http://www.example.com/api/v1/erratum/10836/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 10836
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22
+    },
+    "post_tasks": [
+      "mark_ftp_done"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 3,
+      "name": "ftp"
+    },
+    "url": "http://www.example.com/api/v1/erratum/10836/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19029
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "check_error",
+      "mark_errata_shipped",
+      "move_pushed_errata",
+      "update_bugzilla",
+      "update_jira",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_issue_date",
+      "set_live_id",
+      "set_update_date"
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 1,
+      "name": "rhn_live"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19029/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19029
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "check_error",
+      "mark_errata_shipped",
+      "move_pushed_errata",
+      "update_bugzilla",
+      "update_jira",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_live_id",
+      "set_update_date"
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 4,
+      "name": "cdn"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19029/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19029
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22
+    },
+    "post_tasks": [
+      "mark_ftp_done"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 3,
+      "name": "ftp"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19029/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19029
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22
+    },
+    "post_tasks": [
+
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 6,
+      "name": "altsrc"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19029/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19030
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "check_error",
+      "mark_errata_shipped",
+      "move_pushed_errata",
+      "update_bugzilla",
+      "update_jira",
+      "update_push_count"
+    ],
+    "pre_tasks": [
+      "set_in_push",
+      "set_live_id",
+      "set_update_date"
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 4,
+      "name": "cdn"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19030/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19030
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22
+    },
+    "post_tasks": [
+      "mark_ftp_done"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 3,
+      "name": "ftp"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19030/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19030
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22
+    },
+    "post_tasks": [
+
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 6,
+      "name": "altsrc"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19030/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19032
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22
+    },
+    "post_tasks": [
+      "mark_ftp_done"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 3,
+      "name": "ftp"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19032/push/{some-id}"
+  },
+  {
+    "errata": {
+      "id": 19032
+    },
+    "id": "<some Fixnum>",
+    "log": "",
+    "options": {
+      "priority": 22
+    },
+    "post_tasks": [
+
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 6,
+      "name": "altsrc"
+    },
+    "url": "http://www.example.com/api/v1/erratum/19032/push/{some-id}"
+  }
+]

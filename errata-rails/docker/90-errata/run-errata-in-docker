@@ -1,0 +1,66 @@
+#!/bin/sh
+set -e
+
+if ! test -f /erratarc; then
+  echo "First run of Errata container. Reading environment from stdin..."
+  cat > /erratarc
+fi
+
+. /erratarc
+
+set -x
+
+# Any ET_ environment variables from erratarc above are exported to
+# the httpd, delayed_job etc subprocesses
+set | sed -r -n -e 's/^(ET|DB)_/export \0/p' > /etc/profile.d/et-docker.sh
+echo '. /etc/profile.d/et-docker.sh' >> /etc/sysconfig/httpd
+
+SUDO="sudo -E -u erratatool -n"
+RAILS_ENV=staging
+export RAILS_ENV
+
+cd /var/www/errata_rails
+
+# Force environment vars in database.yml to be resolved now
+#erb config/database.yml > database.yml.out
+#mv database.yml.out config/database.yml
+
+# Set up DB if it doesn't exist
+if ! $SUDO rake db:version 2>/dev/null; then
+  echo "Could not connect to DB. Attempting to create..."
+  $SUDO rake db:setup
+fi
+
+OLD_VERSION=$($SUDO rake db:version 2>/dev/null | sed -n -e 's|Current version: ||p')
+
+# Always migrate before starting (no-op if not required)
+$SUDO rake db:migrate
+
+# run one-time upgrade scripts which weren't implemented as migrations
+if [ $OLD_VERSION -lt 20140307023021 ]; then
+  $SUDO rake one_time_scripts:set_tps_channels
+  $SUDO rake one_time_scripts:convert_optional_channel_mappings
+  $SUDO rake one_time_scripts:set_system_subscribed_for_channels
+fi
+
+# If the server url has been passed in, use it to tweak httpd config
+# (e.g. for correct CN in SSL cert)
+if [ "x$SERVER_URL" != "x" ]; then
+  /set-server-url "$SERVER_URL"
+else
+  {
+    echo "WARNING: SSL will be using the wrong CN."
+    echo "Run docker with -e SERVER_URL=<public_url> to generate a new certificate."
+  } 1>&2
+fi
+
+/etc/init.d/httpd start
+/etc/init.d/delayed_job start
+
+# add any users possibly missing from the db dump in here.
+# non-fatal if this fails - might be a clean database
+if ! $SUDO rails r -e staging '%w{qgong@redhat.com yueliu@redhat.com rmcgover@redhat.com hyu@redhat.com}.each{|n| User.create(:login_name=>n,:realname=>n,:user_organization_id=>142).tap{|u|u.roles=User.find(3000656).roles}.tap{|u|u.save!} unless User.where(:login_name=>n).exists?}'; then
+  echo "WARNING: could not adjust Users.  Is the DB complete?"
+fi
+
+exec tail --follow=name /var/log/httpd/*_log /var/www/errata_rails/log/*.log

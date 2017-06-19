@@ -1,0 +1,19 @@
+<tr class="<%= bz_class %> errata_row">
+  <td align="left"><%= link_to(errata_row.advisory_name, {:id=>errata_row, :controller=>:errata, :action=>:view}, :class=>'advisory_link') +
+    pdc_indicator_for(errata_row) %></td>
+  <td align="left"><%= errata_row.status.to_s %></td>
+  <td align="left"><%= errata_row.product.short_name %></td>
+  <td align="left"><%= errata_row.release.name %></td>
+  <td align="left"><%= errata_row.reporter.short_name %></td>
+  <td align="right" style="white-space:nowrap;" title="<%= errata_row.release_date %>"><%= days_until_today_text(errata_row.release_date) %></td>
+  <td align="right" style="white-space:nowrap;" title="<%= errata_row.publish_or_ship_date_if_available %>"><%= days_until_today_text(errata_row.publish_or_ship_date_if_available) %></td>
+  <td align="left"><%= errata_row.short_impact %></td>
+  <td align="left"><%= errata_row.synopsis %></td>
+  <%= yes_no_td(errata_row.docs_approved?) %>
+  <%= yes_no_td(errata_row.qa_complete?) %>
+  <%= yes_no_td(errata_row.rhnqa?) %>
+  <%= yes_no_td(errata_row.pushed?) %>
+  <%= yes_no_td(errata_row.published?) %>
+  <%= yes_no_td(errata_row.mailed?) %>
+  <%= yes_no_td(errata_row.closed?) %>
+</tr>

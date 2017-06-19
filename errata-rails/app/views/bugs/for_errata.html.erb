@@ -1,0 +1,9 @@
+<%= page_title_h1 %>
+<%= render "/errata/issue_list",
+  :fields => headings_for_errata_bug,
+  :issues => @errata.bugs,
+  :issue_type => 'bug',
+  :target => :row_for_errata_bug,
+  :list_type => :none
+%>
+<p><%= back_to_errata(@errata) %></p>

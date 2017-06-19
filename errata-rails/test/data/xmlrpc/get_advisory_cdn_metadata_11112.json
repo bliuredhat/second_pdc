@@ -1,0 +1,71 @@
+{
+  "description": "The iwlagn driver requires firmware loaded on the device in order to \nfunction.  This package provides the firmware required by that driver for\nthe iwl100 hardware line.\n\nUsers of the iwlagn driver are advised to install this new package, which\nprovides this enhancement.",
+  "from": "release-engineering@redhat.com",
+  "id": "RHEA-2011:11112",
+  "issued": "2011-04-11 20:21:54 UTC",
+  "pkglist": [
+    {
+      "name": "RHEA-2011:11112",
+      "packages": [
+        {
+          "arch": "noarch",
+          "epoch": 0,
+          "filename": "iwl100-firmware-39.31.5.1-1.el6.noarch.rpm",
+          "name": "iwl100-firmware",
+          "reboot_suggested": true,
+          "release": "1.el6",
+          "src": "iwl100-firmware-39.31.5.1-1.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:681ae0b7995b4c6a649f0d7f761",
+            "sha256",
+            "fake:7d9fa5d759e333c06cddf799a353a743c06efb0206e40c36c98fa4484d2"
+          ],
+          "version": "39.31.5.1"
+        },
+        {
+          "arch": "SRPMS",
+          "epoch": 0,
+          "filename": "iwl100-firmware-39.31.5.1-1.el6.src.rpm",
+          "name": "iwl100-firmware",
+          "reboot_suggested": true,
+          "release": "1.el6",
+          "src": "iwl100-firmware-39.31.5.1-1.el6.src.rpm",
+          "sum": [
+            "md5",
+            "fake:f6ae6dc092ea3b3ee8bfd7fc040",
+            "sha256",
+            "fake:1667463a7a7e162f889d93b50de9b35de7f7bbd3963310994391d7253d9"
+          ],
+          "version": "39.31.5.1"
+        }
+      ],
+      "short": ""
+    }
+  ],
+  "pulp_user_metadata": {
+    "content_types": [
+      "rpm"
+    ]
+  },
+  "pushcount": 1,
+  "reboot_suggested": true,
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHEA-2011:11112",
+      "id": "RHEA-2011:11112",
+      "title": "RHEA-2011:11112",
+      "type": "self"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2011 Red Hat Inc",
+  "severity": "None",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\n\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttp://kbase.redhat.com/faq/docs/DOC-11259",
+  "status": "final",
+  "summary": "An iwl100-firmware package that matches the iwlagn driver in the latest \nRed Hat Enterprise Linux kernels is now available.",
+  "title": "new package: iwl100-firmware",
+  "type": "RHEA",
+  "updated": "2011-04-11 20:21:54 UTC",
+  "version": "1"
+}

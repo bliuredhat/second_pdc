@@ -1,0 +1,74 @@
+<div class="float-right small">
+  <%= link_to("Approved Components (#{@release.approved_components.count})",
+    :controller=>:bugs, :action=>:approved_components, :id=>@release) if @release.supports_component_acl? %>
+</div>
+<p>
+<b>Name:</b> <%=h @release.name %><br/>
+<b>Type:</b> <%=h @release.class %><br/>
+<% if @release.is_pdc? %>
+  <%# Let's hide this for non-PDC releases %>
+  <b>Is PDC:</b> true
+  <i class="light">(All advisories in this release must be PDC advisories)</i><br/>
+<% end %>
+<b>Description:</b> <%=h @release.description %><br/>
+<% if @release.product %>
+<b>Product:</b> <%= link_to(@release.product.short_name + ' - ' + @release.product.name, @release.product) %></br>
+<% end %>
+<% if !@release.is_pdc? %>
+  <b>Product Versions:</b>
+  <% if @release.product_versions.empty? %>
+    <%= none_text %><br/>
+  <% else %>
+    <%=h @release.product_versions.map{|version| link_to(version.name, version)}.join(', ').html_safe %><br/>
+  <% end %>
+<% end %>
+<b>Is Enabled:</b> <%=h @release.enabled? %><br/>
+<% if @release.is_pdc? %>
+  <b>PDC Releases:</b>
+  <% if @release.pdc_releases.empty? %>
+    <%= none_text %><br/>
+  <% else %>
+    <%=h @release.pdc_releases.map{ |rel| link_to_release_version(rel) }.join(', ').html_safe %><br/>
+  <% end %>
+<% end %>
+<b>Is Active:</b> <%=h @release.isactive? %><br/>
+<b>Enable Batching:</b> <%=h @release.enable_batching? %><br/>
+<b>Program Manager:</b> <%=h @release.program_manager||'none' %><br/>
+<% if @release.default_brew_tag? %>
+<b>Default brew tag:</b> <%=h @release.default_brew_tag %><br/>
+<% end %>
+<% unless @release.blocker_flags.empty? %>
+<b>Blocker flags:</b> <%=h @release.blocker_flags.join(', ') %><br/>
+<% end %>
+
+<% if @release.ship_date? %>
+<b>Ship date:</b> <%= short_date @release.ship_date %><br/>
+<% end %>
+<% if @release.class == QuarterlyUpdate %>
+<b>Allow shadow:</b> <%=h @release.allow_shadow? %><br/>
+<b>Allow Blocker Flags:</b> <%=h @release.allow_blocker? %><br/>
+<b>Allow Exception Flags:</b> <%=h @release.allow_exception? %><br/>
+<b>Allow multiple advisories per package:</b> <%=h @release.allow_pkg_dupes? %><br/>
+<% end %>
+
+<b>Workflow Rule Set:</b>
+<% if @release.state_machine_rule_set %>
+  <%= link_to_state_machine_rule_set(@release.state_machine_rule_set) %>
+<% else %>
+  <span class="light">Not set. <i>
+    <% if @release.product %>
+      (Rule set "<%= link_to_state_machine_rule_set(@release.product.state_machine_rule_set) %>" will be chosen based on the product, <%= @release.product.short_name %>).
+    <% else %>
+      (Rule set will be chosen based on the advisory's product).
+    <% end %>
+  </i></span>
+<% end %>
+<% if @release.is_pdc? %>
+  <br/><i class="light">(For this release the PDC releases' brew tags will be used.)</i>
+<% else %>
+  <%= render(:partial => "shared/brew_tag_admin", :object => @release) %>
+<% end %>
+</p>
+
+<%= link_to 'Edit', :action => 'edit', :id => @release %> |
+<%= link_to 'Back', :action => 'list' %>

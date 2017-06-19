@@ -1,0 +1,98 @@
+ServerName errata.devel.redhat.com
+DocumentRoot /var/www/errata_rails/public
+
+<Proxy *>
+    Order deny,allow
+    Allow from all
+</Proxy>
+
+<Directory "/var/www/errata_rails/public">
+    Options +Includes
+</Directory>
+
+ProxyRequests Off
+ProxyPassReverse / http://127.0.0.1:8000
+
+ProxyPassReverse / http://127.0.0.1:8001
+
+ProxyPassReverse / http://127.0.0.1:8002
+
+ProxyPassReverse / http://127.0.0.1:8003
+
+ProxyPassReverse / http://127.0.0.1:8004
+
+ProxyPassReverse / http://127.0.0.1:8005
+
+ProxyPreserveHost On
+
+RewriteEngine On
+
+# Let apache serve static files
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} \.png
+RewriteRule (.*) $1 [L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} \.jpg
+RewriteRule (.*) $1 [L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} \.js
+RewriteRule (.*) $1 [L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} \.css
+RewriteRule (.*) $1 [L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} \.ico
+RewriteRule (.*) $1 [L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} \.gif
+RewriteRule (.*) $1 [L]
+
+
+RewriteMap  servers rnd:/etc/httpd/conf.d/map.txt
+RewriteRule ^/(.*)$ http://localhost:${servers:ports}/$1 [P,L,E=remoteUser:%{LA-U:REMOTE_USER}]
+
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} -d
+RewriteRule ^(.+[^/])$ $1/ [R]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME}/index.html -f
+RewriteRule ^(.*)$ $1/index.html [QSA,L]
+
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} -d
+RewriteRule ^(.*)[^/]$ $1/ [QSA,L]
+
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule ^/(.*)$ balancer://mongrel_cluster%{REQUEST_URI} [P,QSA,L]
+
+
+
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+
+ExpiresActive On
+ExpiresByType image/gif "access plus 10 years"
+ExpiresByType image/png "access plus 10 years"
+ExpiresByType text/css "access plus 10 years"
+ExpiresByType application/x-javascript "access plus 10 years"
+ExpiresByType text/javascript "access plus 10 years"
+
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch bMSIE !no-gzip !gzip-only-text/html
+
+# this not only blocks access to .git directories, but makes it appear
+# as though they aren't even there, not just that they are forbidden
+<DirectoryMatch "^/.*/\.git/">
+    ErrorDocument 403 /404.html
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</DirectoryMatch>
+
+

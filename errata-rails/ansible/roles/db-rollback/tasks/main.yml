@@ -1,0 +1,8 @@
+---
+- name: Do pre-update rollbacks
+  become: yes
+  become_user: erratatool
+  shell: chdir={{ rails_root }} RAILS_ENV={{ rails_env }} SILENCE_DEPRECATIONS=1 VERSION={{ item }} rake db:migrate:down
+  with_items: required_rollbacks
+  when: dry_run is not defined
+  register: rollback_results

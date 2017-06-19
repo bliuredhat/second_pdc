@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "tag_template": "test-7.1.z"
+      },
+      "id": 10,
+      "relationships": {
+        "cdn_repo": {
+          "id": 9999005,
+          "name": "test_docker_7-1"
+        },
+        "package": {
+          "id": 22001,
+          "name": "rhel-server-docker"
+        },
+        "variant": {
+          "id": 1023,
+          "name": "7Server-7.1.Z"
+        }
+      },
+      "type": "cdn_repo_package_tags"
+    }
+  ]
+}

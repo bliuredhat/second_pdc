@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "tag_template": "latest"
+      },
+      "id": 2,
+      "relationships": {
+        "cdn_repo": {
+          "id": 3001,
+          "name": "redhat-rhscl-perl-520-rhel7"
+        },
+        "package": {
+          "id": 31611,
+          "name": "rh-perl520-docker"
+        }
+      },
+      "type": "cdn_repo_package_tags"
+    },
+    {
+      "attributes": {
+        "tag_template": "latest"
+      },
+      "id": 4,
+      "relationships": {
+        "cdn_repo": {
+          "id": 3001,
+          "name": "redhat-rhscl-perl-520-rhel7"
+        },
+        "package": {
+          "id": 31616,
+          "name": "rh-ruby22-docker"
+        }
+      },
+      "type": "cdn_repo_package_tags"
+    },
+    {
+      "attributes": {
+        "tag_template": "latest"
+      },
+      "id": 6,
+      "relationships": {
+        "cdn_repo": {
+          "id": 9999005,
+          "name": "test_docker_7-1"
+        },
+        "package": {
+          "id": 22001,
+          "name": "rhel-server-docker"
+        }
+      },
+      "type": "cdn_repo_package_tags"
+    },
+    {
+      "attributes": {
+        "tag_template": "latest"
+      },
+      "id": 8,
+      "relationships": {
+        "cdn_repo": {
+          "id": 9999006,
+          "name": "test_rhel6_docker"
+        },
+        "package": {
+          "id": 22001,
+          "name": "rhel-server-docker"
+        }
+      },
+      "type": "cdn_repo_package_tags"
+    },
+    {
+      "attributes": {
+        "tag_template": "latest"
+      },
+      "id": 60,
+      "relationships": {
+        "cdn_repo": {
+          "id": 4342,
+          "name": "redhat-rhel7-rhel-tools"
+        },
+        "package": {
+          "id": 30994,
+          "name": "rhel-tools-docker"
+        }
+      },
+      "type": "cdn_repo_package_tags"
+    }
+  ]
+}

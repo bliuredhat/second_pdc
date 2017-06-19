@@ -1,0 +1,16 @@
+<%#
+  #
+  # This is the 'details' advisory view.
+  # It appears to the user as the 'Details' tab.
+  #
+  # See app/views/errata/sections for the individual
+  # section partials.
+  #
+  # (The tabs themselves are setup in
+  # ApplicationController#get_individual_errata_nav
+  # and rendered in app/views/layouts/secondary_nav)
+  #
+-%>
+<%= render 'shared/view_section', :name => 'details', :title => "Details" -%>
+<%= render 'shared/view_section', :name => 'content', :title => "Content" -%>
+<%= render 'shared/view_section', :name => 'notes',   :title => "Notes"   -%>

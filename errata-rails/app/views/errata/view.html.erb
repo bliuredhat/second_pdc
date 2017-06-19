@@ -1,0 +1,36 @@
+<%#
+  #
+  # This is the main advisory view.
+  # It appears to the user as the 'Summary' tab.
+  #
+  # See app/views/errata/sections for the individual
+  # section partials.
+  #
+  # (The tabs themselves are setup in
+  # ApplicationController#get_individual_errata_nav
+  # and rendered in app/views/layouts/secondary_nav)
+  #
+-%>
+<%
+  # These will appear next to the 'Approval Progress' section title
+  workflow_notes = [
+    ('TEXT ONLY' if @errata.text_only?),
+    (@errata.supports_multiple_product_destinations.nil? ? '' :
+       @errata.supports_multiple_product_destinations? ? 'MULTI-ON' : 'MULTI-OFF'),
+    link_to("#{@errata.state_machine_rule_set.name} Rule Set", {:controller=>:workflow_rules, :action=>'for_advisory', :id=>@errata}),
+  ]
+
+  # This will appear next to 'Bugs' section title
+  bugs_stats_text = bug_status_stats_text(@errata)
+
+  # This will appear next to 'JIRA Issues' section title
+  jira_issues_stats_text = jira_issue_status_stats_text(@errata)
+
+  jira_issue_label = JiraIssue.readable_name.pluralize
+-%>
+<%= render('shared/view_section', :name => 'workflow', :title => "Approval Progress", :start_collapsed => user_pref(:workflow_hide_fully), :title_note => workflow_notes) -%>
+<%= render('shared/view_section', :name => 'info',     :title => "Information", :visual_box => true) -%>
+<%= render('shared/view_section', :name => 'bugs',     :title => "Bugs (#{@errata.bugs.length})", :title_note => bugs_stats_text) -%>
+<%= render('shared/view_section', :name => 'jira_issues',     :title => "#{jira_issue_label} (#{@errata.jira_issues.length})", :title_note => jira_issues_stats_text) -%>
+<%= render('shared/view_section', :name => 'builds',   :title => "Builds (#{@errata.brew_builds.length})") unless @errata.text_only? -%>
+<%= render('shared/view_section', :name => 'comments', :title => "Comments (#{@errata.comments.length})") -%>

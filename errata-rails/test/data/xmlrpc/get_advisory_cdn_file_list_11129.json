@@ -1,0 +1,212 @@
+{
+  "krb5-1.8.2-3.el6_0.7": {
+    "checksums": {
+      "md5": {
+        "krb5-1.8.2-3.el6_0.7.src.rpm": "fake:52045179c6fb468b66c4942a88d",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm": "fake:b1e7a4799d8d024ea82d74d9699",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.ppc.rpm": "fake:57b4bb5d3e00ecaea949848eff9",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.ppc64.rpm": "fake:4a238d829e4c9d074df12cbd79f",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.s390.rpm": "fake:4725567f47f90615e1dd906d066",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.s390x.rpm": "fake:ba3ceda5b478c1a3e50284aa458",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm": "fake:d1abf57e221bc3899149a653b4e",
+        "krb5-devel-1.8.2-3.el6_0.7.i686.rpm": "fake:5b285635b216698fb4e5eb90aec",
+        "krb5-devel-1.8.2-3.el6_0.7.ppc.rpm": "fake:f21587a2a1e5880e9a8b0fa443c",
+        "krb5-devel-1.8.2-3.el6_0.7.ppc64.rpm": "fake:68ee71677952cb7c5b36173d486",
+        "krb5-devel-1.8.2-3.el6_0.7.s390.rpm": "fake:17f0ca39e3bccb3257e82996d4e",
+        "krb5-devel-1.8.2-3.el6_0.7.s390x.rpm": "fake:b73dea5a5c995f34e2c013545a1",
+        "krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm": "fake:f7c65f899abc9a5b6e292bd5571",
+        "krb5-libs-1.8.2-3.el6_0.7.i686.rpm": "fake:173aded725f87229a19166e40bc",
+        "krb5-libs-1.8.2-3.el6_0.7.ppc.rpm": "fake:76d478f1dcda3cdfeb3961175ce",
+        "krb5-libs-1.8.2-3.el6_0.7.ppc64.rpm": "fake:a9b5ac2de3128c98725331daaee",
+        "krb5-libs-1.8.2-3.el6_0.7.s390.rpm": "fake:282f26db83179a8dfa836871677",
+        "krb5-libs-1.8.2-3.el6_0.7.s390x.rpm": "fake:673df822316fe8e0b343b0cc5a5",
+        "krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm": "fake:aa933a41cf92b374f79612ceea8",
+        "krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm": "fake:9c2d59bde721348eddeea9a8209",
+        "krb5-pkinit-openssl-1.8.2-3.el6_0.7.ppc64.rpm": "fake:9b4caa46bacab5507f0511bde84",
+        "krb5-pkinit-openssl-1.8.2-3.el6_0.7.s390x.rpm": "fake:3a5ee27964dd238dffca647ce91",
+        "krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm": "fake:f048c1c93444b5359005770c5e6",
+        "krb5-server-1.8.2-3.el6_0.7.i686.rpm": "fake:063ef5d48acb5824f29c6314eec",
+        "krb5-server-1.8.2-3.el6_0.7.ppc64.rpm": "fake:fa400b9ebe3733536688ef9e425",
+        "krb5-server-1.8.2-3.el6_0.7.s390x.rpm": "fake:8c024a2b73ef41f20084006e40f",
+        "krb5-server-1.8.2-3.el6_0.7.x86_64.rpm": "fake:365aca80da3751be5e419f3942e",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm": "fake:098ddc6522355ea9353b0968664",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.ppc.rpm": "fake:f279df6f48163afd107200cdcd8",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.ppc64.rpm": "fake:44a62dc3bb08c2fd3defee28d98",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.s390.rpm": "fake:2c364ea24d642dae84f0c720903",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.s390x.rpm": "fake:be947a6d74d694ea7c9928f6a7b",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm": "fake:463fbd36ec8732edc627c699c4b",
+        "krb5-workstation-1.8.2-3.el6_0.7.i686.rpm": "fake:92904ed0134b6787d8cd6d515c1",
+        "krb5-workstation-1.8.2-3.el6_0.7.ppc64.rpm": "fake:ecf9e5296a7665a0c78ac7c931c",
+        "krb5-workstation-1.8.2-3.el6_0.7.s390x.rpm": "fake:9dc92021e74e616a257a2b71469",
+        "krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm": "fake:7295ea66a7a578d519792c679ca"
+      },
+      "sha256": {
+        "krb5-1.8.2-3.el6_0.7.src.rpm": "fake:b0040a8e1b1f522667480643d3582bfd79ee9ca6d8d584a5c94b2913b19",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm": "fake:58193a10feb0875674d09c50f4008258a3005b3ab51d437267a1e84ddec",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.ppc.rpm": "fake:e6ba26715d97df0b6033167d0c4f98139a6235ea442c78a7af853afb700",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.ppc64.rpm": "fake:f313dd81ba0f56d7deaeac04d19a43752a63ad5b0a5edb2f1f39200caea",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.s390.rpm": "fake:d9fb9fa0781109857645f434c8e0ed2ddf048431a79697af8f54c4e138f",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.s390x.rpm": "fake:2c8d65a724b7200e41fa1f33f77c33f1032702e002b0d16c8ba2bde6221",
+        "krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm": "fake:f6bbf7de4770def2a040f96aea3220b422064ee4151353b22d42bcf82de",
+        "krb5-devel-1.8.2-3.el6_0.7.i686.rpm": "fake:edc5c4827f77f8dd4c5dfe806e650bc0bbf25094c6194b14aefae910b99",
+        "krb5-devel-1.8.2-3.el6_0.7.ppc.rpm": "fake:ea849283c9c6cede832c44d6b4b6e39fa984c872f942495260fc77b8295",
+        "krb5-devel-1.8.2-3.el6_0.7.ppc64.rpm": "fake:2445df5c40769c96921e1e4517327289fc84eef768abb236e817fd329fa",
+        "krb5-devel-1.8.2-3.el6_0.7.s390.rpm": "fake:1d7e2330d6eac74648efd1d0bb8639716375227cd4f36eb6e5be731c943",
+        "krb5-devel-1.8.2-3.el6_0.7.s390x.rpm": "fake:befffcd699f2836ff338e98166844af205040a6fcbd5cde833546abab5b",
+        "krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm": "fake:6f589fe75237628849bc8a83f13f2929388df43f680739727784a6dc7d3",
+        "krb5-libs-1.8.2-3.el6_0.7.i686.rpm": "fake:356dda4dc7ae9e92ccb36c88312a9fa9a757f3447d6932ce89e2147fe87",
+        "krb5-libs-1.8.2-3.el6_0.7.ppc.rpm": "fake:dc7c95156e3eaf0c2607a87441446891fb26ec006b583b7ac2974b0d6a8",
+        "krb5-libs-1.8.2-3.el6_0.7.ppc64.rpm": "fake:c36deecd4e19f9495b6bfbe71623e6a9b700b025e79f07766a5aef8a6ce",
+        "krb5-libs-1.8.2-3.el6_0.7.s390.rpm": "fake:af9b45cda38aa66fc6d433027053b7c05253595781776806b81b4435b17",
+        "krb5-libs-1.8.2-3.el6_0.7.s390x.rpm": "fake:89eb2ea80370e414d0e28e03d14fe88f74bff18fb536711810ef45465fb",
+        "krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm": "fake:76feb9027c85d77589ab0f4aa99087f639e9db68bb2fd74dd2c6680270a",
+        "krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm": "fake:0568ecc7d1c0cd10ba6fc4d63aefce613e08ee09313ccc7a547d0385879",
+        "krb5-pkinit-openssl-1.8.2-3.el6_0.7.ppc64.rpm": "fake:f8c5a6318948c16eb03f5147015b57591295b2194c588940bf1ed5af523",
+        "krb5-pkinit-openssl-1.8.2-3.el6_0.7.s390x.rpm": "fake:2bf2e062f738d6615d72adc6291c04fbaa9a17b6608c867035312850118",
+        "krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm": "fake:b5a06f3926b07a80e8bafc0e2871fe5cced7cc9c413a1399ac89cbca546",
+        "krb5-server-1.8.2-3.el6_0.7.i686.rpm": "fake:00f90d27bcf9c1c72fa66a336773e2568ef47db629f456fe5569ca678f2",
+        "krb5-server-1.8.2-3.el6_0.7.ppc64.rpm": "fake:114df0bbaa0b0e85baaf48baf64be0645b252614aa1e3f5e364745d2162",
+        "krb5-server-1.8.2-3.el6_0.7.s390x.rpm": "fake:79e8fa3eaff52d2c7a16985445740779c87633d2b6b8060fa05ccaf8464",
+        "krb5-server-1.8.2-3.el6_0.7.x86_64.rpm": "fake:0a3157abccbf104baf3aeb80666653fad6448a436197bbf85deee1b3f92",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm": "fake:e6621b96fcc57689265d0ffadd41d2e381b51a35b7f2dd2351826ca6dda",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.ppc.rpm": "fake:ec9abd84de2a32ff06406866569a4f21b80465c9b7c395edc56cb64799a",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.ppc64.rpm": "fake:2e2f4eb8e6ae7be1f09dc00f566c17b1aaea71f0f4ae194d6f350c1e411",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.s390.rpm": "fake:dbe2626116ea4ed1aeb5a3a102cc635b7dde5c241421ab0bbf3ce062e42",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.s390x.rpm": "fake:5938e16a9a38cbeee6f5c3b72f310d56bc322e118cc8791bde766835cc1",
+        "krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm": "fake:63cf9703d073e238a58ce8ada476537cd8a710a92652f2dbe7cb4e5367a",
+        "krb5-workstation-1.8.2-3.el6_0.7.i686.rpm": "fake:384fe042c33235b804b7b29cfe59a49c4044dd7ad5a5210e1a69d8952ec",
+        "krb5-workstation-1.8.2-3.el6_0.7.ppc64.rpm": "fake:ceebc9a385924d2ed4e18e6b96ec6b19edf820d483e3b76da68f7db150d",
+        "krb5-workstation-1.8.2-3.el6_0.7.s390x.rpm": "fake:6352ba0240b0f6fa9355abaf62e43d87e7643c25cb8126a328916102660",
+        "krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm": "fake:38efa972565524eefa033022e0489945fd455b5431d5dacff866151cd01"
+      }
+    },
+    "rpms": {
+      "krb5-1.8.2-3.el6_0.7.src.rpm": [
+        "rhel-6-client-source-rpms__6Client__x86_64",
+        "rhel-6-server-source-rpms__6Server__x86_64"
+      ],
+      "krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm": [
+        "rhel-6-client-debuginfo-rpms__6Client__x86_64",
+        "rhel-6-server-debuginfo-rpms__6Server__i386",
+        "rhel-6-server-debuginfo-rpms__6Server__x86_64"
+      ],
+      "krb5-debuginfo-1.8.2-3.el6_0.7.ppc.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__ppc64"
+      ],
+      "krb5-debuginfo-1.8.2-3.el6_0.7.ppc64.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__ppc64"
+      ],
+      "krb5-debuginfo-1.8.2-3.el6_0.7.s390.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__s390x"
+      ],
+      "krb5-debuginfo-1.8.2-3.el6_0.7.s390x.rpm": [
+        "rhel-6-server-debuginfo-rpms__6Server__s390x"
+      ],
+      "krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm": [
+        "rhel-6-client-debuginfo-rpms__6Client__x86_64",
+        "rhel-6-server-debuginfo-rpms__6Server__x86_64"
+      ],
+      "krb5-devel-1.8.2-3.el6_0.7.i686.rpm": [
+        "rhel-6-server-rpms__6Server__i386",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "krb5-devel-1.8.2-3.el6_0.7.ppc.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-devel-1.8.2-3.el6_0.7.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-devel-1.8.2-3.el6_0.7.s390.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-devel-1.8.2-3.el6_0.7.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm": [
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "krb5-libs-1.8.2-3.el6_0.7.i686.rpm": [
+        "rhel-6-client-rpms__6Client__i386",
+        "rhel-6-client-rpms__6Client__x86_64",
+        "rhel-6-server-rpms__6Server__i386",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "krb5-libs-1.8.2-3.el6_0.7.ppc.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-libs-1.8.2-3.el6_0.7.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-libs-1.8.2-3.el6_0.7.s390.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-libs-1.8.2-3.el6_0.7.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm": [
+        "rhel-6-client-rpms__6Client__x86_64",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm": [
+        "rhel-6-client-rpms__6Client__i386",
+        "rhel-6-server-rpms__6Server__i386"
+      ],
+      "krb5-pkinit-openssl-1.8.2-3.el6_0.7.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-pkinit-openssl-1.8.2-3.el6_0.7.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm": [
+        "rhel-6-client-rpms__6Client__x86_64",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "krb5-server-1.8.2-3.el6_0.7.i686.rpm": [
+        "rhel-6-server-rpms__6Server__i386"
+      ],
+      "krb5-server-1.8.2-3.el6_0.7.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-server-1.8.2-3.el6_0.7.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-server-1.8.2-3.el6_0.7.x86_64.rpm": [
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm": [
+        "rhel-6-server-rpms__6Server__i386",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "krb5-server-ldap-1.8.2-3.el6_0.7.ppc.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-server-ldap-1.8.2-3.el6_0.7.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-server-ldap-1.8.2-3.el6_0.7.s390.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-server-ldap-1.8.2-3.el6_0.7.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm": [
+        "rhel-6-server-rpms__6Server__x86_64"
+      ],
+      "krb5-workstation-1.8.2-3.el6_0.7.i686.rpm": [
+        "rhel-6-client-rpms__6Client__i386",
+        "rhel-6-server-rpms__6Server__i386"
+      ],
+      "krb5-workstation-1.8.2-3.el6_0.7.ppc64.rpm": [
+        "rhel-6-server-rpms__6Server__ppc64"
+      ],
+      "krb5-workstation-1.8.2-3.el6_0.7.s390x.rpm": [
+        "rhel-6-server-rpms__6Server__s390x"
+      ],
+      "krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm": [
+        "rhel-6-client-rpms__6Client__x86_64",
+        "rhel-6-server-rpms__6Server__x86_64"
+      ]
+    },
+    "sig_key": "fd431d51"
+  }
+}

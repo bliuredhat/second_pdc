@@ -1,0 +1,33 @@
+<%
+  #
+  # Use this with the block_render helper.
+  # Provide a default submit button, but allow a custom submit button if required.
+  #
+  # Example:
+  #
+  # <%= form_tag({:action=>:some_action}, :method=>:post) do x>
+  #   <%= block_render 'shared/pretty_form_container', :submit_name => 'Do it!' do x>
+  #     Foo: <%= text_area_tag :some_field x>
+  #   <% end x>
+  # <% end x>
+  #
+  submit_name = 'Submit' unless defined?(submit_name) && submit_name.present?
+  submit_id = 'submit_tag' unless defined?(submit_id) && submit_id.present?
+  submit_tag_content = submit_tag(submit_name, :id => submit_id, :class=>'btn btn-primary') unless defined?(submit_tag_content) && submit_tag_content.present?
+%>
+<div class="clearfix pretty-form">
+  <%# clearfix so because the grey box is floated left and hence need to clear the floats %>
+  <div class="eso-greybox" style="background-color:#eee;">
+
+    <%# The content from the block %>
+    <%= yield %>
+
+    <%# Form submit button %>
+    <div class="align-right" style="margin-top:25px;">
+      <%# buttons below the grey box %>
+      <%= submit_tag_content.html_safe %>
+      <%# maybe other buttons here later... %>
+    </div>
+
+  </div>
+</div>

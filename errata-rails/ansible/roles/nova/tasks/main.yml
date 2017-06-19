@@ -1,0 +1,25 @@
+---
+- name: ensure VMs are running on OpenStack
+  register: nova
+  nova_compute:
+    state: present
+    auth_url: "{{ lookup('env', 'OS_AUTH_URL') }}"
+    login_username: "{{ lookup('env', 'OS_USERNAME') }}"
+    login_password: "{{ lookup('env', 'OS_PASSWORD') }}"
+    login_tenant_name: "{{ lookup('env', 'OS_TENANT_NAME') }}"
+    name: "{{ inventory_hostname }}"
+    flavor_id: "{{ flavor_id }}"
+    image_id: "{{ image_id }}"
+    key_name: "{{ key_name }}"
+
+- name: wait for new VMs to bring up ssh
+  when: nova.changed
+  wait_for:
+    delay: 20
+    port: 22
+    host: "{{ nova.public_ip }}"
+    timeout: 600
+
+- name: set ssh facts for new VMs
+  when: nova.changed
+  set_fact: ansible_ssh_host="{{ nova.public_ip }}" ansible_ssh_user=cloud-user

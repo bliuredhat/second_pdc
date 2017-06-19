@@ -1,0 +1,56 @@
+<%
+  related_advisories = @errata.related_advisories_by_pkg
+  pkg_count = related_advisories.keys.count
+%>
+
+<div class="modal-header">
+  <% if pkg_count > 1 %>
+    <div class="btn-group pull-right">
+      <a class="btn dropdown-toggle" data-toggle="dropdown"
+        href="#">
+        Packages
+        <b class="caret"></b>
+      </a>
+      <ul class="dropdown-menu pull-right">
+        <% related_advisories.each_key do |package| %>
+          <li>
+          <a href="#<%= package.name %>">
+            <%= package.name %>
+          </a>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <h3>
+    Related Advisories by Package for <%= @errata.advisory_name %>
+  </h3>
+</div>
+
+<div class="modal-body">
+  <% related_advisories.each_pair do |package, errata| %>
+    <div class="section_container">
+      <h4 id="<%= package.name %>"><%= package.name %></h4>
+      <%= render(:partial => "shared/bz_table", :locals => {
+        :headers => [tablesort_heading_custom_sort_numeric('Advisory'), 'Product', 'Release', 'Synopsis', 'Status'],
+        :row_items => errata,
+        :func => lambda { |advisory| [
+          tablesort_helper(
+            link_to(advisory.advisory_name, {:id => advisory, :controller => :errata, :action => :view}, :class => 'advisory_link'),
+            advisory.created_at.to_i
+          ),
+          advisory.product.short_name,
+          advisory.release.name,
+          advisory.synopsis,
+          state_display(advisory),
+      ]}
+
+      }) %>
+    </div>
+  <% end %>
+</div>
+
+<div class="modal-footer">
+  <%= link_to 'Close', "#", :class=>'btn btn-cancel-modal' %>
+</div>

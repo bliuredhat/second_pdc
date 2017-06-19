@@ -1,0 +1,3 @@
+class AutomatedComment < Comment
+end
+

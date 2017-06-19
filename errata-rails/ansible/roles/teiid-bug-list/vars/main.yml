@@ -1,0 +1,19 @@
+---
+psql_command: >-
+  psql -At -h virtualdb.engineering.redhat.com -p 5433 public
+
+select_bug_id: >-
+  SELECT bugs.bug_id
+
+select_bug_id_and_name: >-
+  SELECT bugs.bug_id || ' ' || bugs.short_desc
+
+from_et_bugs: >-
+  FROM Bugzilla.bugs
+  JOIN Bugzilla.products ON products.id = bugs.product_id
+  WHERE products.name = 'Errata Tool'
+  AND bugs.bug_status = '{{ bug_list_status | default('MODIFIED') }}'
+  ORDER BY bugs.bug_id DESC
+
+bug_list_url_prefix: >-
+  https://bugzilla.redhat.com/buglist.cgi?bug_id=

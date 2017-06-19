@@ -1,0 +1,288 @@
+---
+tps_stream_2:
+  name: RHEL-3
+  active: true
+  parent_id: 1
+  id: 2
+  tps_stream_type_id: 4
+  tps_variant_id: 2
+tps_stream_3:
+  name: RHEL-4
+  active: true
+  parent_id: 1
+  id: 3
+  tps_stream_type_id: 1
+  tps_variant_id: 8
+tps_stream_4:
+  name: RHEL-4
+  active: true
+  parent_id: 1
+  id: 4
+  tps_stream_type_id: 1
+  tps_variant_id: 9
+tps_stream_5:
+  name: RHEL-4
+  active: true
+  parent_id: 1
+  id: 5
+  tps_stream_type_id: 1
+  tps_variant_id: 2
+tps_stream_6:
+  name: RHEL-4
+  active: true
+  parent_id: 1
+  id: 6
+  tps_stream_type_id: 1
+  tps_variant_id: 10
+tps_stream_7:
+  name: RHEL-5
+  active: true
+  parent_id: 1
+  id: 7
+  tps_stream_type_id: 1
+  tps_variant_id: 3
+tps_stream_8:
+  name: RHEL-5
+  active: true
+  parent_id: 1
+  id: 8
+  tps_stream_type_id: 1
+  tps_variant_id: 4
+tps_stream_9:
+  name: RHEL-6
+  active: true
+  parent_id: 1
+  id: 9
+  tps_stream_type_id: 1
+  tps_variant_id: 3
+tps_stream_10:
+  name: RHEL-6
+  active: true
+  parent_id: 1
+  id: 10
+  tps_stream_type_id: 1
+  tps_variant_id: 5
+tps_stream_11:
+  name: RHEL-6
+  active: true
+  parent_id: 1
+  id: 11
+  tps_stream_type_id: 1
+  tps_variant_id: 6
+tps_stream_12:
+  name: RHEL-6
+  active: true
+  parent_id: 1
+  id: 12
+  tps_stream_type_id: 1
+  tps_variant_id: 4
+tps_stream_13:
+  name: RHEL-7
+  active: true
+  parent_id: 1
+  id: 13
+  tps_stream_type_id: 1
+  tps_variant_id: 3
+tps_stream_14:
+  name: RHEL-7
+  active: true
+  parent_id: 1
+  id: 14
+  tps_stream_type_id: 1
+  tps_variant_id: 6
+tps_stream_15:
+  name: RHEL-7
+  active: true
+  parent_id: 1
+  id: 15
+  tps_stream_type_id: 1
+  tps_variant_id: 4
+tps_stream_16:
+  name: RHEL-7
+  active: true
+  parent_id: 1
+  id: 16
+  tps_stream_type_id: 1
+  tps_variant_id: 5
+tps_stream_17:
+  name: RHEL-6.4
+  active: false
+  parent_id: 12
+  id: 17
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_18:
+  name: RHEL-6.2
+  active: true
+  parent_id: 11
+  id: 18
+  tps_stream_type_id: 2
+  tps_variant_id: 6
+tps_stream_19:
+  name: RHEL-6.4
+  active: true
+  parent_id: 11
+  id: 19
+  tps_stream_type_id: 2
+  tps_variant_id: 6
+tps_stream_20:
+  name: RHEL-4.7
+  active: true
+  parent_id: 5
+  id: 20
+  tps_stream_type_id: 2
+  tps_variant_id: 2
+tps_stream_21:
+  name: RHEL-6.0
+  active: false
+  parent_id: 12
+  id: 21
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_22:
+  name: RHEL-6.2
+  active: true
+  parent_id: 12
+  id: 22
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_23:
+  name: RHEL-5.3
+  active: false
+  parent_id: 8
+  id: 23
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_24:
+  name: RHEL-6.5
+  active: true
+  parent_id: 12
+  id: 24
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_25:
+  name: RHEL-5.6
+  active: true
+  parent_id: 8
+  id: 25
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_26:
+  name: RHEL-4.8
+  active: true
+  parent_id: 5
+  id: 26
+  tps_stream_type_id: 2
+  tps_variant_id: 2
+tps_stream_27:
+  name: RHEL-6.5
+  active: true
+  parent_id: 11
+  id: 27
+  tps_stream_type_id: 2
+  tps_variant_id: 6
+tps_stream_28:
+  name: RHEL-5.9
+  active: true
+  parent_id: 8
+  id: 28
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_29:
+  name: RHEL-6.3
+  active: false
+  parent_id: 12
+  id: 29
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_30:
+  name: RHEL-6.3
+  active: true
+  parent_id: 11
+  id: 30
+  tps_stream_type_id: 2
+  tps_variant_id: 6
+tps_stream_31:
+  name: RHEL-6.1
+  active: false
+  parent_id: 12
+  id: 31
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_32:
+  name: RHEL-5.4
+  active: false
+  parent_id: 8
+  id: 32
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_33:
+  name: RHEL-5.6
+  active: false
+  parent_id: 25
+  id: 33
+  tps_stream_type_id: 3
+  tps_variant_id: 4
+tps_stream_34:
+  name: RHEL-5.3
+  active: true
+  parent_id: 23
+  id: 34
+  tps_stream_type_id: 3
+  tps_variant_id: 4
+tps_stream_35:
+  name: RHEL-5.9
+  active: true
+  parent_id: 28
+  id: 35
+  tps_stream_type_id: 3
+  tps_variant_id: 4
+tps_stream_36:
+  name: RHEL-6.2
+  active: true
+  parent_id: 22
+  id: 36
+  tps_stream_type_id: 5
+  tps_variant_id: 4
+tps_stream_37:
+  name: RHEL-7.0
+  active: true
+  parent_id: 15
+  id: 37
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_38:
+  name: RHEL-7.0
+  active: true
+  parent_id: 13
+  id: 38
+  tps_stream_type_id: 2
+  tps_variant_id: 3
+tps_stream_39:
+  name: RHEL-7.0
+  active: true
+  parent_id: 14
+  id: 39
+  tps_stream_type_id: 2
+  tps_variant_id: 6
+tps_stream_40:
+  name: RHEL-7.0
+  active: true
+  parent_id: 16
+  id: 40
+  tps_stream_type_id: 2
+  tps_variant_id: 5
+tps_stream_41:
+  name: RHEL-7.1
+  active: true
+  parent_id: 15
+  id: 41
+  tps_stream_type_id: 2
+  tps_variant_id: 4
+tps_stream_42:
+  name: RHEL-5.11
+  active: true
+  parent_id: 8
+  id: 42
+  tps_stream_type_id: 2
+  tps_variant_id: 4

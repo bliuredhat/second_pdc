@@ -1,0 +1,39 @@
+<%= javascript_include_tag "updatebugs" %>
+
+<h2>Update Bug Statuses for Advisory <%= errata_link(@errata) %></h2>
+
+<%= form_tag :action => 'updatebugstates', :id => @errata.id do %>
+
+  <% state_options = %w{ ON_QA VERIFIED ASSIGNED } %>
+  <table class="simpletable">
+    <tr>
+      <th>Current<br/>Status</th>
+      <th>Updated<br/>Status</th>
+      <th>Bug</th>
+    </tr>
+    <% for bug in @errata.bugs do
+      area_id = "bz_#{bug.bug_id}"
+      opts = (state_options - [bug.bug_status]).map { |opt| [opt, opt] }
+      %>
+      <tr>
+        <td><%= bug.bug_status %></td>
+        <td><%= select(:bug, bug.bug_id, opts, {:include_blank => "(Unchanged)"},
+                  :data => { :areaid => area_id, :bugstatus => bug.bug_status },
+                  :style=>'width:120px;', :class=>'bug_status_select') %>
+        </td>
+        <td>
+          <%= bug_link(bug) %> - <%=h bug.short_desc %><br/>
+          <%# this textarea will be shown on select change %>
+          <textarea id="<%= area_id %>_comment" name="<%= area_id %>_comment" style="display:none;" ROWS="6" COLS="80" WRAP="soft"></textarea>
+        </td>
+      </tr>
+      <%
+    end %>
+  </table>
+
+  <br/>
+  <%= submit_tag "Update", :class=>'btn btn-primary' %>
+
+<% end %>
+
+

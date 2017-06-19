@@ -1,0 +1,75 @@
+<form class="form-horizontal" method="POST" action="/errata/change_state/<%= @errata.id %>">
+  <%= hidden_field_tag('back_to', back_to) if defined?(back_to) %>
+
+  <div class="modal-header">
+    <h3>Change State for <%= @errata.fulladvisory %> <%=raw state_display(@errata) %></h3>
+  </div>
+
+  <div class="modal-body">
+    <%= render 'brief_summary', :briefer => true, :show_synopsis => true %>
+
+    <div class="control-group" style="padding-top:1em;">
+      <label class="control-label" style="margin-top:5px;"><b>New State</b></label>
+
+      <div class="controls">
+        <table>
+        <% State.all_states.each do |state| %>
+          <%#
+            #
+            # 1. Don't bother showing the current state
+            # 2. You can't get the DROPPED_NO_SHIP or SHIPPED_LIVE
+            #   from here, hence using only the open_states.
+            #
+          -%>
+          <tr>
+
+          <% if @transitions.include?(state) && !@errata.status_is?(state) %>
+            <%# This transition is available -%>
+            <%# 'Normal' means it could be done by someone without secalert or admin permissions -%>
+            <td style="vertical-align:top;padding-right:0!important;padding-left:0!important;">
+              <input type="radio" name="new_state" value="<%= state.to_s %>" id="state_<%= state.to_s.downcase %>" style="margin-top:8px;"/>
+            </td>
+            <td class="vbottom">
+              <label for="state_<%= state.to_s.downcase %>" style="margin-bottom:0;margin-top:7px;">
+                <span style="font-size:150%;"><%=raw state_display(state) %></span><br/>
+                <%= render 'change_state_reasons', :state => state %>
+              </label>
+            </td>
+          <% elsif @normal_transitions.include?(state) %>
+            <%# this is a normal transition but it can't be done now, must be a blocker. want to show what the blocker is... %>
+            <td style="vertical-align:top"><div style="margin-top:8px;"><i class="icon-ban-circle"></i></div></td>
+            <td class="" style="vertical-align:top;">
+              <label style="margin-top:7px;">
+                <span style="font-size:150%;opacity:0.6;"><%=raw state_display(state) %></span><br/>
+                <%= render 'change_state_reasons', :state => state %>
+              </label>
+            </td>
+          <% end %>
+
+        <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" style="margin-top:5px;"><b>Comment</b></label>
+
+      <div class="controls">
+        <textarea name="comment" class="input-xlarge"></textarea>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="modal-footer">
+
+      <%= link_to 'Cancel', "#", :class=>'btn btn-cancel-modal' %>
+      <% if @errata.is_blocked? %>
+          <%= submit_tag "Advisory is blocked. Can't change state.", :class=>'btn', :disabled => true %>
+      <% else %>
+          <%= submit_tag 'Change', :class=>'btn btn-primary' %>
+      <% end %>
+
+  </div>
+</form>
+

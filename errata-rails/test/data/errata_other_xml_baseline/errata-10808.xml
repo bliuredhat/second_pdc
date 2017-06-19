@@ -1,0 +1,188 @@
+<advisory from="secalert@redhat.com" version="1.0">
+  <id>RHBA-2011:10808</id>
+  <pushcount>0</pushcount>
+  <product>Red Hat Enterprise Linux Extras</product>
+  <type short="RHBA">Red Hat Bug Fix Advisory</type>
+  <synopsis xml:lang="en_US">virtio-win bug fix and enhancement update</synopsis>
+  <issued date="2011-02-13 15:39:10 UTC"></issued>
+  <updated date="2011-02-13 15:39:10 UTC"></updated>
+  <references>
+    <reference href="https://access.redhat.com/errata/RHBA-2011:10808" type="self"></reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=610787" type="bugzilla">
+      <bugzilla>610787</bugzilla>
+      <summary>[balloon]evict windows guest free memory does not work</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=616685" type="bugzilla">
+      <bugzilla>616685</bugzilla>
+      <summary>balloon:window guest can not keep memory change after guest restart</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=621834" type="bugzilla">
+      <bugzilla>621834</bugzilla>
+      <summary>Poor write I/O performance of virtio-win driver</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=625036" type="bugzilla">
+      <bugzilla>625036</bugzilla>
+      <summary>For virtio-blk driver MSISupported should be turned on by default on VISTA and higher.</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=625465" type="bugzilla">
+      <bugzilla>625465</bugzilla>
+      <summary>virtio-serial CloseHandle &amp; shutdown problems</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=630536" type="bugzilla">
+      <bugzilla>630536</bugzilla>
+      <summary>Crash when running on Windows XP SMP</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=630830" type="bugzilla">
+      <bugzilla>630830</bugzilla>
+      <summary>nic:Network become unavailable in windows 2008 x64 guest when doing netperf test</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=633208" type="bugzilla">
+      <bugzilla>633208</bugzilla>
+      <summary>VirtIo-Serial data corruption when working on Windows XP SMP VM</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=633243" type="bugzilla">
+      <bugzilla>633243</bugzilla>
+      <summary>[WHQL] Windows 2008 R2 guest hang when running job of "DP WLK - Hot-Add - Device Test - Verify driver support for Hot-Add CPU".</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=634536" type="bugzilla">
+      <bugzilla>634536</bugzilla>
+      <summary>BSOD after hot-unplug a virtio-serial port</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=634828" type="bugzilla">
+      <bugzilla>634828</bugzilla>
+      <summary>hal.dll file is missing after quit winxp guest several time</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=635506" type="bugzilla">
+      <bugzilla>635506</bugzilla>
+      <summary>[WHQL] Win2k8-32 guest always got BSOD (0X93) during balloon testing</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=637713" type="bugzilla">
+      <bugzilla>637713</bugzilla>
+      <summary>fail to attach virtio serial port to guest when use same nr for different virtio serial pci</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=669276" type="bugzilla">
+      <bugzilla>669276</bugzilla>
+      <summary>[WHQL]Windows fails to do S4/S3 with virtio-win-1.1.17</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=669314" type="bugzilla">
+      <bugzilla>669314</bugzilla>
+      <summary>(virtio-win-1.1.17) Can not generate crash dump file after BSOD of Windows guests.</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=669316" type="bugzilla">
+      <bugzilla>669316</bugzilla>
+      <summary>[WHQL] BSOD occurs when running "CHAOS-Concurrent Hardware And OS test"</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=669633" type="bugzilla">
+      <bugzilla>669633</bugzilla>
+      <summary>[WHQL]Job of "DPWDK-HotReplace-Device Test-Verify driver support for D3 power state" fails with getting BSOD</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=670713" type="bugzilla">
+      <bugzilla>670713</bugzilla>
+      <summary>(virtio-win-1.1.17)Virtio serial driver always causes windows BSOD when install or run whql jobs.</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=671187" type="bugzilla">
+      <bugzilla>671187</bugzilla>
+      <summary>.git in sources tarball</summary>
+    </reference>
+    <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=688839" type="bugzilla">
+      <bugzilla>688839</bugzilla>
+      <summary>Failed to boot windows guest with 30 virtio serial ports (Got BSOD 0XD1)</summary>
+    </reference>
+    <reference href="https://issues.jboss.org/browse/MAITAI-1190" type="jira">
+      <jira>MAITAI-1190</jira>
+      <summary>Release Maitai 0.15</summary>
+    </reference>
+    <reference href="https://issues.jboss.org/browse/MAITAI-1229" type="jira">
+      <jira>MAITAI-1229</jira>
+      <summary>Send announcement and post on confluence</summary>
+    </reference>
+    <reference href="https://issues.jboss.org/browse/MAITAI-1056" type="jira">
+      <jira>MAITAI-1056</jira>
+      <summary>[RFE]Add "Process Description" to process search</summary>
+    </reference>
+  </references>
+  <topic xml:lang="en">
+    <p>
+Updated virtio-win packages that fix several bugs and add various enhancements are now available.    </p>
+  </topic>
+  <description xml:lang="en">
+    <p>
+[balloon]evict windows guest free memory does not work
+
+feature request: virtio-serial windows driver has a write size limitation that should be lifted
+
+Poor write I/O performance of virtio-win driver
+
+For virtio-blk driver MSISupported should be turned on by default on VISTA and higher.
+
+virtio-serial CloseHandle &amp; shutdown problems
+
+Crash when running on Windows XP SMP
+
+nic:Network become unavailable in windows 2008 x64 guest when doing netperf test
+
+VirtIo-Serial data corruption when working on Windows XP SMP VM
+
+[WHQL] Windows 2008 R2 guest hang when running job of "DP WLK - Hot-Add - Device Test - Verify driver support for Hot-Add CPU".
+
+BSOD after hot-unplug a virtio-serial port
+
+[WHQL] Win2k8-32 guest always got BSOD (0X93) during balloon testing
+
+fail to attach virtio serial port to guest when use same nr for different virtio serial pci
+
+Windows Guest Tools: RHEV-Serial driver is complaining about signature on Windows7 x86
+
+[WHQL]Windows fails to do S4/S3 with virtio-win-1.1.17
+
+(virtio-win-1.1.17) Can not generate crash dump file after BSOD of Windows guests.
+
+[WHQL] BSOD occurs when running "CHAOS-Concurrent Hardware And OS test"
+
+(virtio-win-1.1.17)Upgrade fails with BSOD when upgrade virtio block driver from version of 1.1.16 to 1.1.17 on windows
+
+[WHQL]Job of "DPWDK-HotReplace-Device Test-Verify driver support for D3 power state" fails with getting BSOD
+
+.git in sources tarball    </p>
+  </description>
+  <solution xml:lang="en">
+    <p>
+Before applying this update, make sure all previously-released errata
+relevant to your system have been applied.
+
+This update is available via the Red Hat Network. Details on how to
+use the Red Hat Network to apply this update are available at
+http://kbase.redhat.com/faq/docs/DOC-11259    </p>
+  </solution>
+  <rpmlist>
+    <product short="6Client-Supplementary">
+      <name>Red Hat Enterprise Linux Desktop Supplementary (v. 6)</name>
+      <file arch="noarch" epoch="0" name="virtio-win" release="1.el6" version="1.1.16">
+        <filename>virtio-win-1.1.16-1.el6.noarch.rpm</filename>
+        <sum type="md5">15cd5a644b667b1f9ff12c3893a28acd</sum>
+      </file>
+    </product>
+    <product short="6Server-Supplementary">
+      <name>Red Hat Enterprise Linux Server Supplementary (v. 6)</name>
+      <file arch="noarch" epoch="0" name="virtio-win" release="1.el6" version="1.1.16">
+        <filename>virtio-win-1.1.16-1.el6.noarch.rpm</filename>
+        <sum type="md5">15cd5a644b667b1f9ff12c3893a28acd</sum>
+      </file>
+    </product>
+    <product short="6Workstation-Supplementary">
+      <name>Red Hat Enterprise Linux Workstation Supplementary (v. 6)</name>
+      <file arch="noarch" epoch="0" name="virtio-win" release="1.el6" version="1.1.16">
+        <filename>virtio-win-1.1.16-1.el6.noarch.rpm</filename>
+        <sum type="md5">15cd5a644b667b1f9ff12c3893a28acd</sum>
+      </file>
+    </product>
+  </rpmlist>
+  <rpmtext xml:lang="en_US">
+    <p>These packages are GPG signed by Red Hat for security. Our key and details on how to verify the signature are available from:</p>
+    <a href="https://access.redhat.com/security/team/key/">https://access.redhat.com/security/team/key/</a>
+  </rpmtext>
+  <contact xml:lang="en_US">
+    <p>The Red Hat security contact is secalert@redhat.com. More details at:</p>
+    <a href="https://access.redhat.com/security/team/contact/">https://access.redhat.com/security/team/contact/</a>
+  </contact>
+</advisory>

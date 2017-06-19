@@ -1,0 +1,17 @@
+<tr class='<%= cycle('bz_even','bz_odd') %>'>
+  <td>
+    <% if r.name == "errata" %>
+      <%# The errata role is hardwired to be always on, so show the checkbox as disabled %>
+      <input type="checkbox" checked="checked" disabled="disabled" name="foo" value="bar" />
+
+    <% else %>
+      <%= check_box_tag 'user[roles][]', r.name, user.in_role?(r.name), :id => "cb_#{r.name}" %>
+    <% end %>
+  </td>
+
+  <td style='<%= user.in_role?(r.name) ? 'font-weight:bold' : 'color:#666' %>'>
+    <label for='cb_<%= r.name %>'><%= r.name.titleize %></label>
+  </td>
+
+  <td><%= r.description.strip.sub(/\.$/,'') %>.</td>
+</tr>

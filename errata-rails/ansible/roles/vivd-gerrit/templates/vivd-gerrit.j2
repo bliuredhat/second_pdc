@@ -1,0 +1,58 @@
+#!/usr/bin/env python
+
+# Script to connect a gerrit server with vivd.
+# Intended to be run from a cron job.
+
+import requests
+import sys
+import json
+import os
+
+# Things set by ansible variables
+PROJECT          = "{{ vivd_gerrit_project }}"
+CHANGE_COUNT     = {{ vivd_gerrit_change_count }}
+
+# No jinja templating beyond this point.
+GERRIT_QUERY_URL     = 'https://code.engineering.redhat.com/gerrit/changes/?q=status:open+project:%s&n=%d&o=CURRENT_REVISION' % (PROJECT, CHANGE_COUNT)
+VIVD_URL             = 'http://localhost:{{ vivd_http_port }}'
+CONTAINER_CREATE_URL = VIVD_URL + '/a/container?unique-git-revision=1'
+
+# Strips the leading anti-XSSI line from gerrit response
+def gerrit_unmunge(string):
+    return "\n".join(string.splitlines()[1:])
+
+# Get the N most recent gerrit changes
+def poll_gerrit():
+    r = requests.get(GERRIT_QUERY_URL, verify=False)
+    response = gerrit_unmunge(r.text)
+    return json.loads(response)
+
+# Get git-ref and git-revision (only) of the N most recent gerrit changes
+def gerrit_recent_revisions():
+    changes = poll_gerrit()
+    filtered = [c for c in changes if c["project"] == PROJECT]
+    revisions = [c["revisions"].iteritems().next() for c in filtered]
+    return [{"git-ref": c[1]["ref"], "git-revision": c[0]} for c in revisions]
+
+# Spawn a curl in the background to trigger provisioning of a container
+# (Do not wait for it)
+def run_curl(container_url):
+    os.spawnlp(os.P_NOWAIT, 'curl', 'curl', '-s', '-o', '/dev/null', container_url)
+
+# Make a new container from a git-ref and git-revision
+def create_container(change):
+    response = requests.post(CONTAINER_CREATE_URL, data=json.dumps(change), allow_redirects=False)
+    response.raise_for_status()
+
+    location = response.headers['location']
+    container_url = VIVD_URL + location
+    if response.status_code == 201:
+        run_curl(container_url)
+        print("Created: %s" % container_url)
+
+def main(args):
+    recent = gerrit_recent_revisions()
+    map(create_container, recent)
+
+if __name__ == '__main__':
+    main(sys.argv)

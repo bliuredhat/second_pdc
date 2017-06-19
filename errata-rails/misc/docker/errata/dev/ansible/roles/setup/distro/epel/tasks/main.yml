@@ -1,0 +1,9 @@
+---
+- name: install epel
+  sudo: yes
+  template: src=repo.j2 dest=/etc/yum.repos.d/epel.repo
+  notify:
+    - yum clean all
+    - yum repolist
+
+- meta: flush_handlers

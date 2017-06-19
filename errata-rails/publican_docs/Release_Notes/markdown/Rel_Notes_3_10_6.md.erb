@@ -1,0 +1,110 @@
+Release Notes for Version 3.10.6
+================================
+
+Overview
+--------
+
+Release 3.10.6 is the seventh release in Errata Tool 3.10. It closes [28 bugs
+and RFEs][buglist].
+
+Major new features in this release include an improved user interface for
+adding builds to an advisory and a new UI and API for managing users.
+
+The new interface for adding builds displays a progress bar showing the
+currently executing Brew query. This should be useful particularly when adding
+many builds to an advisory, or when Brew's responses are slow.
+
+Some highlighted bug fixes and RFEs are listed below.
+
+<% sort_these_first %w[ 1163598 1142296 ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.10.6][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=749292%2C949764%2C1075459%2C1081802%2C1084450%2C1098006%2C1102960%2C1120547%2C1120553%2C1120561%2C1142296%2C1147197%2C1147215%2C1155428%2C1159228%2C1160121%2C1161437%2C1163598%2C1167199%2C1167479%2C1167495%2C1167499%2C1168045%2C1168136%2C1168560%2C1168671%2C1175091%2C1168567
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.10.6.0-0&id2=3.10.5.0-0
+
+
+<%= all_include_content %>
+
+Process and Team Changes
+------------------------
+
+### Team changes
+
+It's our pleasure to welcome new team members, Xuebin Dong
+(<xudong@redhat.com>), who will spend some time improving and cleaning up our
+Javascript and front-end code, and Haibo Lin (<hlin@redhat.com>), who recently
+joined the team as an Errata Tool developer. Xuebin and Haibo have previously
+worked on projects such as Orgchart, Cantas, TCMS and RT. We'd also like to
+farewell developer Deshi Xiao who recently left after four and a half years at
+Red Hat, and thank him for his contributions to Errata Tool over the last six
+months.
+
+### Code coverage metrics
+
+Since the Errata Tool 3.10.5 release the code coverage ratio, as reported by
+Jenkins using rcov, has increased slightly from 90.96% to 91.51%.
+
+[![Rcov coverage report](images/3.10.6/rcov.png)](images/3.10.6/rcov.png)
+
+Increased code coverage means better maintainability, and a reduced chance of
+shipping regressions and new bugs. It also means we can more confidently
+refactor and improve existing code.
+
+### New Jenkins master
+
+Recently Errata Tool CI was moved over to the new Jenkins instance at
+[jenkins.engineering.redhat.com](https://jenkins.engineering.redhat.com/job/errata-tool/).
+This should be more reliable than the previous Jenkins master which was running
+on OS1 Openstack infrastructure.
+
+### Gerrit upgrade
+
+EngOps have updated code.engineering.redhat.com to a newer version of Gerrit.
+This has allowed us to take advantage of some features that were not available
+in the previous version such as cherry-picking change sets via the web UI.
+
+What's Next
+-----------
+
+### Errata Tool 3.10.7
+
+The final remaining items flagged as `errata-3.10` in Bugzilla are now being
+worked on. Once enough content is verified and ready to ship we will do an
+end-of-sprint release which will be the last 3.10 release for Errata Tool
+before moving to work on items flagged for 3.11.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see bugs currently scheduled for ET 3.10 take a look at [bugs flagged with
+errata-3.10 in Bugzilla][bugs3.10].
+
+### Errata Tool 3.11
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For details
+see [Errata Tool Bug Lists][buglists].
+
+To see what's currently scheduled take a look at [bugs flagged with
+errata-3.11][bugs3.11].
+
+As mentioned above, we're aiming to begin work on items flagged as Errata Tool
+3.11 once 3.10.7 is released.
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs3.10]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.10&bug_status=__open__
+[bugs3.11]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[buglists]: https://docs.engineering.redhat.com/x/1AIjAQ
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list

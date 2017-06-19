@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "codes": [
+      "missing_query_param"
+    ],
+    "reason": [
+      "Must provide 'filter[key]=value' query parameter"
+    ]
+  }
+}

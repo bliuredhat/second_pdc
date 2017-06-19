@@ -1,0 +1,9 @@
+# HTTP 400
+{
+  "errors": {
+    "RHN channel": [
+      "'rhel-x86_64-client-6' is attached to multiple variants: 6Client-6.6.z.",
+      "'rhel-x86_64-client-6' is depending by tps jobs."
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+<div class="clearfix" style="margin-bottom:1em;">
+  <div style="float:right;margin-top:10px;" class="btn-group">
+    <% if @tpsrun.errata.has_distqa_jobs? && @tpsrun.errata.status == State::QE %>
+      <%= render(:partial => 'reschedule_tps_rhnqa_links') %>
+    <% end %>
+  </div>
+  <%= page_title_h1 %>
+  <%= render 'message',
+    :type => :tps_rhnqa,
+    :errata => @errata,
+    :name => "DistQA TPS"
+  %>
+  <%= render 'tps_help_link' %>
+  <%= render 'missing_job_info' %>
+</div>
+
+<%= render(:partial => "run_result", :object => @tpsrun.distqa_jobs) %>

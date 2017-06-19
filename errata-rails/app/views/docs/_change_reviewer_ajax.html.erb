@@ -1,0 +1,24 @@
+<%#
+  # Drop down select showing the currently assigned doc reviewer.
+  # The doc reviewer can be changed directly via the remote_function
+  # ajax request.
+  #
+  # See Bug 809136 (anti-gremlin fix).
+  #
+  # Pass in errata as a local.
+  #
+  # Note:
+  #   There is a UI glitch here that needs fixing. When you click cancel it
+  #   should change the value of the hidden dropdown back to the current reviewer.
+  #   This causes some minor weirdness if you cancel the change and then try to do
+  #   it again.
+  #
+-%>
+<div id="reviewer_for_<%= errata.id %>">
+<% reviewer = errata.content.doc_reviewer -%>
+<% if errata.docs_unassigned? %>
+  <span class="small light" title="Unassigned (<%= reviewer.login_name %>)"><i>Unassigned</i></span>
+<% else %>
+  <span title="<%= reviewer.login_name %>"><%= reviewer.realname %></span>
+<% end %>
+</div>

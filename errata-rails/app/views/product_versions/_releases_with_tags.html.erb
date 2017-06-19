@@ -1,0 +1,7 @@
+The following <%= releases.count == 1 ? 'release has' : 'releases have' %>
+Brew tags configured, which override those for the product version.
+<ul>
+  <% releases.each do |release| %>
+    <li><%= link_to(release.name, url_for(:controller => :release, :action => :show, :id => release)) %></li>
+  <% end %>
+</ul>

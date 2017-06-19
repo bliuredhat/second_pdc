@@ -1,0 +1,8 @@
+#rpmdiff_result_details thead tr th,
+#rpmdiff_result_details tbody tr td.tiny {
+    display: none;
+}
+
+#rpmdiff_result_details tr {
+    border: 0;
+}

@@ -1,0 +1,7 @@
+<%= page_title_h1 %>
+<p>Please provide a reason the advisory is being dropped.</p>
+<%= form_tag :action => 'drop_errata', :id => @errata do %>
+<%= text_area_tag :reason, nil, :size => '80x10', :wrap => 'soft' %>
+<br>
+<%= submit_tag "Drop Advisory", :action => 'drop_errata', :class=>'btn btn-primary' %>
+<% end %>

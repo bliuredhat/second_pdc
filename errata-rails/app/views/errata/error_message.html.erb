@@ -1,0 +1,12 @@
+<div class="site_message">
+  <div class="alert alert-error">
+    <img src="/images/icon_alert.gif" style="vertical-align:middle;"/>&nbsp;<b>Error</b>
+    <div class="just_text pre-wrap">
+    <% if @error_message.present? %>
+<%= @error_message %>
+    <% else %>
+      <%# shouldn't get here %>
+      No error message specified
+    <% end %>
+  </div></div>
+</div>

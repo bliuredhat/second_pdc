@@ -1,0 +1,99 @@
+Release Notes for Version 3.14.3
+================================
+
+Overview
+--------
+
+Release 3.14.3 is the 4th release in
+the Errata Tool 3.14 development period. It closes [39 bugs and RFEs][buglist].
+
+This release of Errata Tool includes Unified Message Bus enablement, handling
+of generic CCAT test results, CCAT rescheduling, the ability to identify and
+filter by the content types in an advisory, support for viewing container image
+comparison data, and many more improvements.
+
+<!-- Uncomment this if there was a hotfix: -->
+<!-- Additionally, during the 3.14.3 development period, an additional [N bug
+fixes][hotfixes] were shipped in 3.14.2.1. -->
+
+<!-- Specify any bug ids that should be sorted higher than others. -->
+<% sort_these_first %w[ ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.14.3][buglist]
+* [Full code diff for this release][diff1]
+
+<!-- If there was a hotfix: -->
+<!-- * [Full code diff for this release][diff2]
+* [Code diff since 3.14.2][diff1] -->
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=659234%2C1170417%2C1274206%2C1297555%2C1312324%2C1358105%2C1376282%2C1383563%2C1383581%2C1386394%2C1387091%2C1391948%2C1401366%2C1404919%2C1404923%2C1404931%2C1411419%2C1412059%2C1414599%2C1415962%2C1416283%2C1419425%2C1421543%2C1421545%2C1421562%2C1425708%2C1426988%2C1427366%2C1433185%2C1433269%2C1433832%2C1433833%2C1433843%2C1434290%2C1436935%2C1438924%2C1440589%2C1440599%2C1441692
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.14.3-0&id2=3.14.2-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.14.3-0&id2=3.14.2.1-0
+
+<!-- [hotfixes]: https://bugzilla.redhat.com/buglist.cgi?bug_id=... -->
+
+<%= all_include_content %>
+
+<!-- Optional extras... -->
+<!--
+## Process and Team Changes
+
+### Code coverage
+
+...
+
+### Team changes
+
+...
+
+### Anything else relevant
+
+...
+-->
+
+What's Next
+------------
+
+### Errata Tool 3.14.4
+
+<!-- This will need some rewording if it's the last release before a Y increment -->
+
+The team will continue to select bugs and RFEs flagged as errata-3.14
+in Bugzilla for inclusion in three-week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be .
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.14 take a look at [bugs flagged with
+errata-3.14 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.15
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.15 take a look at [bugs
+flagged with errata-3.15][bugs_next].
+
+If you are interested in being involved in Errata Tool planning, please subscribe
+to [errata-dev-list][erratadevlist] and vote on the bugs and features in the
+backlog that would benefit you most.  To vote for a backlog item simply click
+the 'vote' link beside the Severity field when viewing the item then confirm
+your selection on the next page.  Each user gets a maximum of ten votes.
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.14&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.15&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

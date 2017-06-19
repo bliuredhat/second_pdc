@@ -1,0 +1,9 @@
+<h2>RHTS Runs</h2>
+<% if @errata.rhts_runs.empty? %>
+  No RHTS Runs
+<% else %>
+  <% @errata.rhts_runs.each do |r| %>
+    Run <a href="http://rhts.redhat.com/cgi-bin/rhts/jobs.cgi?id=<%= r.id %>"><%= r.id %></a> scheduled by <%= r.user.to_s %> on <%= r.created_at.to_s(:long) %><br/>
+  <% end %>
+<% end %>
+<p/>

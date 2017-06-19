@@ -1,0 +1,22 @@
+<%#
+  This is used for displaying a comment in an email.
+  It shows the commenter, a timestamp and the comment text,
+  plus the advisory name and a link to the advisory.
+  Pass in comment as a partial local.
+-%>
+<%= comment.who.to_s.html_safe %> <%= comment.created_at.strftime('at %I:%M%P on %a %b %d %Y (%z)') %>:
+<%=
+  # Some comments have escaped chars. So let's use unescapeHTML to remove them
+  # since we are sending emails in text/plain.
+  #
+  # An example (all on one line):
+  #   References:&#010;---------------------------------------&#010;
+  #   http:&#047;&#047;www.redhat.com&#047;security&#047;updates&#047;classification&#047;#moderate&#010;&#010;
+  #   CVE List:&#010;---------------------------------------&#010;
+  #   http:&#047;&#047;cve.mitre.org&#047;cgi-bin&#047;cvename.cgi?name=CVE-
+  #
+  # Still have to html_safe it afterwards because otherwise clean double quote chars get escaped by rails.
+  #
+  CGI.unescapeHTML( comment.text.gsub('__div_bug_states_separator','').gsub('__end_div','') ).html_safe
+%>
+

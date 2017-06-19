@@ -1,0 +1,12 @@
+<% PushTarget.all.each do |push_target| %>
+  <div>
+    <%# probably could use f.fields_for :push_targets { |ff| ff.check_box(..) } or something like that (todo maybe) %>
+    <label style="font-size:100%">
+      <%= check_box_tag('product[push_targets][]', push_target.id, f.object.push_targets.include?(push_target), :class => "external_#{!push_target.is_internal?}") %>&nbsp;
+      <%= push_target.description %> <span class='light'>(Pub Target: <%= push_target.pub_target %>)</span>
+    </label>
+  </div>
+<% end %>
+<span class='small light'>
+  Note: These do not impact PDC releases since their push targets will be configured in PDC.
+</span>

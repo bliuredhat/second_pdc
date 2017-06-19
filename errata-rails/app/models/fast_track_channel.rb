@@ -1,0 +1,2 @@
+class FastTrackChannel < Channel
+end

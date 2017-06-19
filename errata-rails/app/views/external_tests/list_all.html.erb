@@ -1,0 +1,7 @@
+<h1><%= @test_type %> Test Runs</h1>
+
+<%= will_paginate(@test_runs) %>
+
+<%= render 'list', :test_runs => @test_runs, :include_advisory_col => true %>
+
+<%= will_paginate(@test_runs) %>

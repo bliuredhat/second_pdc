@@ -1,0 +1,85 @@
+<div id="package_list" class="content">
+  <div class="available-package">
+    <h3>Select Available Packages
+      <%= render('shared/component_missing_help', :release => release) %>
+    </h3>
+
+  <% if package_list.present? %>
+    <ul class="package-list">
+      <li class="pkg_list_keys">
+        <label class="pkg-name">
+          <input class="pkg_check_box_all" type="checkbox">
+          Package Name
+        </label>
+        <span class="pkg-qe">QE</span>
+        <span class="pkg-owner">Owner</span>
+      </li>
+      <%= render(:partial => 'package_list_show_package',
+                 :collection => package_list.keys.sort_by(&:name),
+                 :as => :package,
+                 :locals => {:package_list => package_list, :available => true}) %>
+    </ul>
+  <% else %>
+    <div class="nothing-available">
+      <p>No Package Available.</p>
+    </div>
+  <% end %>
+
+  </div>
+
+  <%#
+    # If @packages_not_eligible contains a package that isn't in package_list then it won't be visible at all
+    # unless we specially show it here.  So let's do that. (Not sure if that is likely or not so maybe no-one
+    # will see this). It's a bit untidy and requires some js hacks below and in the 'select all' button.
+  -%>
+  <%
+    packages_not_showing_at_all = @packages_not_eligible.keys - package_list.keys
+
+    # There is an "Ineligible Packages" link on this page.
+    # If ineligible packages are already loaded, this merely toggles the list.
+    # If they are not loaded, it loads them via a UJS link.
+    extra_class = nil
+    ineligible_packages_url = '#'
+    ineligible_packages_opts = {:id => 'show_ineligible_pkg'}
+
+    if @show_ineligible_packages
+      extra_class = 'active'
+    else
+      ineligible_packages_url = url_for(
+        :action => :packages_for_release,
+        :show_ineligible_packages => 1,
+        :release => {:id => release.try(:id)})
+      ineligible_packages_opts.merge!(:method => 'POST', :remote => true)
+    end
+  %>
+  <% if packages_not_showing_at_all.any? %>
+    <div class="unavailable-package <%= extra_class %>">
+      <h3>
+        <%= link_to(ineligible_packages_url, ineligible_packages_opts) do %>
+          <span class="fa fa-chevron-right"></span>
+          Ineligible Packages (<%= packages_not_showing_at_all.size %>)
+        <% end -%>
+        <%= block_render('shared/help_popover') do %>
+          <p>The following packages have no bugs eligible for this release.<br/>
+            Click the package's name to see the ineligible bugs.</p>
+        <% end %>
+      </h3>
+      <% if @show_ineligible_packages %>
+        <ul class="package-list">
+          <li class="pkg_list_keys">
+            <label class="pkg-name">Package Name</label>
+            <span class="pkg-qe">QE</span>
+            <span class="pkg-owner">Owner</span>
+          </li>
+          <%= render(:partial => 'package_list_show_package', :collection => packages_not_showing_at_all.sort_by(&:name),
+                     :as => :package, :locals => {:package_list => package_list, :available => false}) %>
+        </ul>
+      <% else %>
+        <%= wait_spinner 'reload_no_elide' %>
+      <% end %>
+    </div>
+  <% end %>
+
+  <br/>
+</div>
+

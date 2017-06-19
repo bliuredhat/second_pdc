@@ -1,0 +1,87 @@
+# HTTP 200
+[
+  {
+    "errata": {
+      "id": 10718
+    },
+    "id": null,
+    "log": "",
+    "options": {
+      "priority": 12,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_rhnqa_done",
+      "reschedule_rhnqa"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 2,
+      "name": "rhn_stage"
+    },
+    "url": null
+  },
+  {
+    "errata": {
+      "id": 11118
+    },
+    "id": null,
+    "log": "",
+    "options": {
+      "priority": 12,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_rhnqa_done",
+      "reschedule_rhnqa"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 2,
+      "name": "rhn_stage"
+    },
+    "url": null
+  },
+  {
+    "errata": {
+      "id": 19463
+    },
+    "id": null,
+    "log": "",
+    "options": {
+      "priority": 17,
+      "push_files": true,
+      "push_metadata": true
+    },
+    "post_tasks": [
+      "mark_rhnqa_done",
+      "reschedule_rhnqa"
+    ],
+    "pre_tasks": [
+
+    ],
+    "pub_task": {
+      "id": null
+    },
+    "status": "READY",
+    "target": {
+      "id": 2,
+      "name": "rhn_stage"
+    },
+    "url": null
+  }
+]

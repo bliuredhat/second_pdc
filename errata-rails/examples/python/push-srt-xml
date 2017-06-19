@@ -1,0 +1,309 @@
+#!/usr/bin/env python
+# This script may be used to redo CVRF/OVAL pushes for a set of errata.
+#
+# Originally created for: https://engineering.redhat.com/rt/Ticket/Display.html?id=393928
+#
+import copy
+import json
+import sys
+from optparse import OptionParser
+
+import re
+import requests
+from requests_kerberos import HTTPKerberosAuth
+from requests_kerberos import OPTIONAL
+
+
+class ErrataTool:
+    """
+    A connection to Errata Tool.
+    """
+
+    def __init__(self, options):
+        self.verbose = options.verbose
+        self.url = options.url
+        self.insecure = options.insecure
+
+    def verbose_print(self, message):
+        if self.verbose:
+            sys.stdout.write(message)
+            sys.stdout.flush()
+
+    @staticmethod
+    def extract_error(req):
+        text = req.text
+        http_line = "HTTP {r.status_code} {r.reason}".format(r=req)
+
+        if len(text) == 0:
+            return http_line
+
+        try:
+            response_object = json.loads(text)
+            if 'error' in response_object:
+                return response_object['error']
+            elif 'errors' in response_object:
+                errors = response_object['errors']
+                return "\n".join(
+                    ["%s:\n  %s" % (k, "\n  ".join(errors[k])) for k in errors.keys()])
+            raise KeyError('no error or errors key')
+        except StandardError:
+            return ("%s\n(the error body returned by errata tool could not be "
+                    "parsed!)\n%s") % (http_line, text)
+
+    @staticmethod
+    def parse_json(text, url):
+        try:
+            return json.loads(text)
+        except (ValueError, TypeError):
+            raise RuntimeError("%s did not return valid JSON!\n%s" % (url, text))
+
+    def http_request(self, method, maybe_relative_url, data=None):
+
+        url = self.url + maybe_relative_url
+        if '://' in maybe_relative_url:
+            url = maybe_relative_url
+
+        self.verbose_print("%s %s :" % (method, url))
+
+        r = requests.request(method, url,
+                             auth=HTTPKerberosAuth(mutual_authentication=OPTIONAL),
+                             verify=not self.insecure,
+                             headers={"Accept": 'application/json',
+                                      'Content-Type': 'application/json'},
+                             data=data)
+
+        self.verbose_print(" %s\n" % r.status_code)
+
+        if r.status_code >= 400:
+            raise RuntimeError(
+                "Error while requesting %s:\n%s" % (url, self.extract_error(r)))
+
+        return self.parse_json(r.text, url)
+
+    def GET(self, url):
+        return self.http_request('GET', url)
+
+    def POST(self, url, data=None):
+        if data is not None:
+            data = json.dumps(data)
+        return self.http_request('POST', url, data)
+
+
+class ErratumSpec:
+    """
+    Represents a request to perform CVRF and/or OVAL push, for a particular advisory,
+    using a particular target.
+    """
+
+    def __init__(self):
+        self.target = None
+        self.cvrf = None
+        self.oval = None
+        self.erratum = None
+
+    def post_tasks(self):
+        out = []
+        if self.cvrf:
+            out.append('push_xml_to_secalert')
+        if self.oval:
+            out.append('push_oval_to_secalert')
+        assert out
+        return out
+
+    @staticmethod
+    def from_line(line):
+        def fail():
+            raise ValueError(
+                ("Bad input line:\n%s\nExpecting lines of the form:\n"
+                 "RHSA-2011:0496 oval,cvrf") % line)
+
+        words = line.strip().split()
+        if len(words) != 2:
+            fail()
+
+        out = ErratumSpec()
+
+        erratum = words[0]
+        if not re.match('\d+$|RHSA-\d+:\d+', erratum):
+            fail()
+
+        out.erratum = erratum
+        out.cvrf = False
+        out.oval = False
+
+        types = set(words[1].split(','))
+        if len(types) == 0:
+            fail()
+
+        if 'cvrf' in types:
+            out.cvrf = True
+            types.remove('cvrf')
+
+        if 'oval' in types:
+            out.oval = True
+            types.remove('oval')
+
+        if len(types) != 0:
+            fail()
+
+        return out
+
+    @staticmethod
+    def from_stream(stream):
+        return [ErratumSpec.from_line(line) for line in stream if line.strip()]
+
+
+def enrich_with_target(et, errata_spec):
+    erratum = errata_spec.erratum
+    pushes = et.GET('/api/v1/erratum/%s/push' % erratum)
+
+    # find a completed rhn_live or cdn push
+    target = None
+    for p in pushes:
+        if p['status'] == 'COMPLETE' and p['target']['name'] in ('rhn_live', 'cdn'):
+            target = p['target']['name']
+            break
+
+    if not target:
+        raise RuntimeError(
+            ('Refusing to do CVRF/OVAL of %s since it has not previously completed a '
+             'push to RHN or CDN.') % erratum)
+
+    out = copy.copy(errata_spec)
+    out.target = target
+
+    # mainly to let user know we are alive...
+    print '%s: %s' % (erratum, target)
+
+    return out
+
+
+def enrich_with_targets(et, errata_specs):
+    """
+    Returns a modified copy of errata_specs.
+
+    Each spec has "target" filled in with rhn_live or cdn (whichever is valid for the
+    advisory).
+
+    This performs an HTTP request to ET for each advisory.
+
+    Errors will be caught and may result in omitted values.
+    """
+    out = []
+    for spec in errata_specs:
+        try:
+            out.append(enrich_with_target(et, spec))
+        except StandardError as e:
+            sys.stderr.write('%s: failed to query: %s\nContinuing.\n'
+                             % (spec.erratum, e))
+    return out
+
+
+def run_tasks_single(et, spec):
+    """
+    Triggers the CVRF/OVAL push for one advisory.
+
+    Succeeds or raises.
+    """
+    # see https://errata.devel.redhat.com/developer-guide/api-http-api.html#api-post-apiv1erratumidpush
+    erratum = spec.erratum
+    url = '/api/v1/erratum/%s/push' % erratum
+
+    push = {
+        # Using RHN or CDN target, according to what was pushed before
+        'target': spec.target,
+        # Not actually uploading anything, just triggering tasks...
+        'options': {'push_files': False, 'push_metadata': False},
+        # Disable all tasks except the CVRF/OVAL post-push tasks
+        'pre_tasks': [],
+        'post_tasks': spec.post_tasks()}
+
+    result = et.POST(url, push)
+
+    # Should have made exactly one push job
+    assert len(result) == 1
+    result = result[0]
+
+    # Print out URL of the push log for easy access
+    job_url = "%spush/push_results/%d" % (et.url, result['id'])
+    print "%s: %s" % (erratum, job_url)
+
+
+def run_tasks(et, errata_specs):
+    """
+    Triggers the CVRF/OVAL push for each advisory.
+    Catches errors and tries to do as much as possible.
+
+    :return: True only if all succeeded.
+    """
+    all_good = True
+
+    for spec in errata_specs:
+        try:
+            run_tasks_single(et, spec)
+        except StandardError as e:
+            sys.stderr.write('%s: failed to trigger tasks: %s\nContinuing.\n'
+                             % (spec.erratum, e))
+            all_good = False
+
+    return all_good
+
+
+def process_errata(et, errata_specs):
+    """
+    Performs the full processing (determine target, trigger push) for each
+    specified advisory.
+    """
+    print 'Determining targets for errata...'
+    enriched = enrich_with_targets(et, errata_specs)
+    enriched_ok = len(enriched) == len(errata_specs)
+
+    print 'OK%s, going to trigger tasks for %d errata...' % \
+          ('' if enriched_ok else ' (with some problems)',
+           len(enriched))
+
+    all_good = run_tasks(et, enriched)
+
+    if not all_good or not enriched_ok:
+        raise RuntimeError('Some tasks could not be triggered, please see above.')
+
+
+def main(args):
+    parser = OptionParser("""usage: %prog [options] < input
+Trigger CVRF/OVAL push of a set of errata.
+
+Reads input lines in the following format:
+
+RHSA-2011:0496 oval,cvrf
+RHSA-2012:1465 oval
+RHSA-2013:0626 cvrf
+
+Will trigger OVAL and CVRF push for each advisory, according to the specified options.
+
+NOTE: uses a non-production Errata Tool server by default.  See --url option.
+""")
+
+    parser.add_option("--url", dest="url",
+                      default="https://errata-devel.app.eng.bos.redhat.com/",
+                      help="Base URL of Errata Tool")
+    parser.add_option("-v", "--verbose", action="store_true", dest="verbose",
+                      default=False,
+                      help="Print info about every HTTP request made")
+    parser.add_option("-k", "--insecure", action="store_true", dest="insecure",
+                      default=False,
+                      help="Don't verify HTTPS connection")
+
+    (options, args) = parser.parse_args(args)
+
+    if not options.url.endswith('/'):
+        options.url += '/'
+
+    print "Reading errata from stdin..."
+    errata_specs = ErratumSpec.from_stream(sys.stdin)
+    et = ErrataTool(options)
+
+    process_errata(et, errata_specs)
+
+
+if __name__ == '__main__':
+    main(sys.argv)

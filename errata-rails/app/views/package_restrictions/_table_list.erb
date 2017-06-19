@@ -1,0 +1,32 @@
+<% if @variant.package_restrictions.empty? %>
+  <label>Not Set</label>
+<% else %>
+  <table class="simpletable">
+    <% variant_push_targets = @variant.push_targets.order(:push_type).all %>
+    <tr>
+      <th>Package Name</th>
+      <% variant_push_targets.each do |push_target|%>
+        <th><%= push_target.description.titleize %></th>
+      <% end %>
+      <% if can_edit_mgmt_items? %>
+        <th colspan="2">Action</th>
+      <% end %>
+    </tr>
+    <% @variant.package_restrictions.each do |restriction| %>
+    <tr>
+      <td><%= restriction.package.name %></td>
+      <% variant_push_targets.each do |push_target|%>
+        <td><%= yes_no_icon_and_text(restriction.push_targets.include?(push_target)) %></td>
+      <% end %>
+      <% if can_edit_mgmt_items? %>
+        <td><%= link_to 'Edit', edit_variant_package_restriction_path(@variant, restriction) %></td>
+        <td><%= link_to 'Delete', variant_package_restriction_path(@variant, restriction), :confirm => 'Are you sure?', :method => :delete %></td>
+      <% end %>
+    </tr>
+    <% end %>
+  </table>
+<% end %>
+<% if can_edit_mgmt_items? %>
+  <div class="form_div"><%= link_to 'Add', new_variant_package_restriction_path(@variant), :class=>'btn' %></div>
+<% end %>
+

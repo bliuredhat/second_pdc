@@ -1,0 +1,21 @@
+<%
+  # Use @errata.build_mappings instead of @errata.brew_builds.
+  # The variable naming is unfortunate, but this is deliberate so that
+  # lower layers can use the mapping info (release-version and file types)
+  all_builds = @errata.build_mappings.sort_by do |bm|
+    [bm.release_version.short_name, bm.brew_build.nvr]
+  end
+%>
+<% if all_builds.empty? %>
+  <span class='light'><i>No builds in advisory</i></span>
+<% else %>
+  <div class="builds-list">
+    <% if all_builds.length >= Settings.shorten_bug_list_threshold %>
+      <%# shortened builds list and hidden full length builds list %>
+      <%= render "builds_list", :builds=>all_builds, :list_type => :short %>
+      <%= render "builds_list", :builds=>all_builds, :list_type => :long %>
+    <% else %>
+      <%= render "builds_list", :builds=>all_builds, :list_type => :none %>
+    <% end %>
+  </div>
+<% end %>

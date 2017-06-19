@@ -1,0 +1,29 @@
+<h1>Brew RPM Name Prefixes</h1>
+
+<%= render "shared/bz_table", {
+  :headers => ['Product', 'Brew RPM Name Prefixes'],
+  :extra_class => 'bug_list_big',
+  :row_items => @products.sort_by(&:name),
+  :func => lambda { |product| [
+    link_to("#{product.name} (#{product.short_name})", product),
+    product.brew_rpm_name_prefix_strings.join('<br/>').html_safe
+  ] },
+} %>
+
+<div class="alert alert-info" style="margin-top:2em;">
+  <p class="bold">Note:</p>
+  <ul class="spaced">
+    <li>
+      To add new prefixes or to remove existing ones please create an RT
+      ticket by sending an email to <%= mail_to Settings.errata_help_email %>.
+      Specify the product and the prefixes to be modified.
+    </li>
+    <li>
+      This data is also available in
+      <%= link_to 'JSON', :action => :rpm_prefixes, :format => :json %>
+      or
+      <%= link_to 'text', :action => :rpm_prefixes, :format => :txt %>
+      format.
+    </li>
+  </ul>
+</div>

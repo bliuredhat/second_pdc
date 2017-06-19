@@ -1,0 +1,16 @@
+<div id = "tcms">
+  <%= page_title_h1 %>
+  <div id="nitrate_test_plans">
+    <% style = 'display: inline;' %>
+    <% style = 'display: none;' unless @errata.nitrate_test_plans.empty? %>
+    <div id="no_test_plans" style="<%= style %>">No test plans associated with advisory.</div>
+    <% @errata.nitrate_test_plans.each do |t| %>
+      <%= render(:partial => "test_plan", :object => t) %>
+    <% end %>
+  </div>
+  <br/>
+  <%= form_tag({:action => 'add_test_plan'}, :remote => true) do %>
+    <%= hidden_field_tag :id, @errata.id %>
+    <%= text_field 'plan', 'id' %> <%= submit_tag 'Add a Test Plan', :class=>'btn btn-primary' %>
+  <% end %>
+</div>

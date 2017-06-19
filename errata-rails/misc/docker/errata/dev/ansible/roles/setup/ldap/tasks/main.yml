@@ -1,0 +1,30 @@
+---
+
+# Sets ldap.conf to be as requested in bz1383889.
+# Might also need to copy any certs from
+# /etc/openldap/certs (nssdb-style) if required.
+# Local ldap URIs may also be desired, e.g.,
+# ldap://ldap0[12].intranet.prod.int.rdu2.redhat.com/
+# Using lineinfile here in case openldap (which owns
+# the file) changes the contents in a future version.
+# Guideline for this approach is:
+# https://mojo.redhat.com/docs/DOC-1044614
+# which lists settings that are required to be present, and
+# implicitly permits any unlisted setting to remain untouched.
+# The following task auto-edits the conf, only touching the required
+# items.
+- name: edit ldap config
+  become: True
+  lineinfile:
+    regexp: '{{ item.re }}'
+    dest: '/etc/openldap/ldap.conf'
+    line: '{{ item.contents }}'
+    state: present
+  with_items:
+    - { 're': '^TLS_CACERTDIR\s.*$', 'contents': 'TLS_CACERTDIR /etc/openldap/cacerts' }
+    - { 're': '^SASL_NOCANON\s.*$',  'contents': 'SASL_NOCANON  on' }
+    - { 're': '^URI\s.*$',           'contents': 'URI           ldap://ldap.corp.redhat.com' }
+    - { 're': '^BASE\s.*$',          'contents': 'BASE          dc=redhat,dc=com' }
+    - { 're': '^SASL_MECH\s.*$',     'contents': 'SASL_MECH     GSSAPI' }
+    - { 're': '^TLS_REQCERT\s.*$',   'contents': 'TLS_REQCERT   demand' }
+

@@ -1,0 +1,14 @@
+<%= page_title_h1 %>
+
+<% @release_errata.keys.sort.each do |release|  %>
+<% errata = @release_errata[release] %>
+<h2><%= errata.length %> <%= release %> Errata:</h2>
+
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => headings_for_errata_for_qe_group,
+:func => method(:row_for_errata_for_qe_group),
+:row_items => errata
+}) %>
+
+<% end %>

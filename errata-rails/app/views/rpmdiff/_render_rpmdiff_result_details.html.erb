@@ -1,0 +1,56 @@
+<table id="rpmdiff_result_details">
+  <thead>
+    <tr>
+      <th>Score</th>
+      <th>Sub-package</th>
+      <th>Content</th>
+      <%# TODO: Enable Autowaiving for PDC advisory as well  %>
+      <% if @errata.is_legacy? %>
+        <th>Actions</th>
+      <%end %>
+    </tr>
+  </thead>
+  <tbody>
+  <% current_result.rpmdiff_result_details.each do |detail| %>
+    <tr id="rpmdiff_detail_<%= detail.result_detail_id %>">
+      <td>
+        <%= detail.rpmdiff_score.description.upcase %>
+      </td>
+      <td>
+        <%= detail.subpackage %>
+      </td>
+      <td>
+           <pre><%= detail.content %></pre>
+      </td>
+      <%# TODO: Enable Autowaiving for PDC advisory as well  %>
+      <% if @errata.is_legacy? %>
+        <td class="tiny compact">
+        <% if show_matched_autowaive_rule_link?(detail) %>
+          Autowaived by rule:
+          <%= link_to(detail.matched_rule.autowaive_rule_id, {
+            :controller => :rpmdiff,
+            :action => :show_autowaive_rule,
+            :id => detail.matched_rule.autowaive_rule_id}) %>
+        <% elsif show_create_autowaive_link?(current_user, detail.score) %>
+          <%= link_to('Create Autowaive Rule', {
+            :controller => :rpmdiff,
+            :action => :create_autowaive_rule,
+            :result_detail_id => detail.id}) %>
+          <br />
+          <% if detail.similar_waiver_rules.any? %>
+            Similar Rules:
+            <% detail.similar_waiver_rules.each do |rule| %>
+              <%= link_to(rule.id, {
+                :controller => :rpmdiff,
+                :action => :manage_autowaive_rule,
+                :id => rule,
+                :result_detail_id => detail.id}) %>
+            <% end %>
+          <% end %>
+        <% end %>
+        </td>
+      <% end %>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

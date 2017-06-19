@@ -1,0 +1,75 @@
+Reply-To: partner-reporting@redhat.com
+To: partner-testing@redhat.com
+Subject: Errata Request RHBA-2011:10808 - virtio-win bug fix and enhancement update has new files.
+X-ErrataTool-Component: ERRATA
+X-ErrataTool-Action: CHANGED-FILES
+
+Errata Request RHBA-2011:10808 - virtio-win bug fix and enhancement update has new files.
+Target Release: RHEL-6.1.0
+
+This advisory fixes the following bugs:
+
+610787- [balloon]evict windows guest free memory does not work
+
+616685- balloon:window guest can not keep memory change after guest restart
+
+617000
+
+621834- Poor write I/O performance of virtio-win driver
+
+625036- For virtio-blk driver MSISupported should be turned on by default on VISTA and higher.
+
+625465- virtio-serial CloseHandle & shutdown problems
+
+630536- Crash when running on Windows XP SMP
+
+630830- nic:Network become unavailable in windows 2008 x64 guest when doing netperf test
+
+633208- VirtIo-Serial data corruption when working on Windows XP SMP VM
+
+633243- [WHQL] Windows 2008 R2 guest hang when running job of "DP WLK - Hot-Add - Device Test - Verify driver support for Hot-Add CPU".
+
+634536- BSOD after hot-unplug a virtio-serial port
+
+634828- hal.dll file is missing after quit winxp guest several time
+
+635506- [WHQL] Win2k8-32 guest always got BSOD (0X93) during balloon testing
+
+637713- fail to attach virtio serial port to guest when use same nr for different virtio serial pci
+
+649773
+
+669276- [WHQL]Windows fails to do S4/S3 with virtio-win-1.1.17
+
+669314- (virtio-win-1.1.17) Can not generate crash dump file after BSOD of Windows guests.
+
+669316- [WHQL] BSOD occurs when running "CHAOS-Concurrent Hardware And OS test"
+
+669597
+
+669633- [WHQL]Job of "DPWDK-HotReplace-Device Test-Verify driver support for D3 power state" fails with getting BSOD
+
+670713- (virtio-win-1.1.17)Virtio serial driver always causes windows BSOD when install or run whql jobs.
+
+671187- .git in sources tarball
+
+688839- Failed to boot windows guest with 30 virtio serial ports (Got BSOD 0XD1)
+
+690713
+
+MAITAI-1056- [RFE]Add "Process Description" to process search
+
+MAITAI-1190- Release Maitai 0.15
+
+MAITAI-1229- Send announcement and post on confluence
+
+The following updated packages are available for this advisory:
+
+Build virtio-win-1.1.16-1.el6 with files:
+/mnt/redhat/brewroot/packages/virtio-win/1.1.16/1.el6/src/virtio-win-1.1.16-1.el6.src.rpm
+/mnt/redhat/brewroot/packages/virtio-win/1.1.16/1.el6/noarch/virtio-win-1.1.16-1.el6.noarch.rpm
+
+Please send test results to: partner-reporting@redhat.com. Bugs or regressions found during testing should be reported in the same way you currently report issues found in RHEL products, for example, Issue Tracker or Bugzilla.
+
+REMINDER:
+All information contained in this email, including the packages referenced, are covered by strict NDA and should not, under any circumstances, be disclosed, transmitted, or otherwise communicated to customers or any other third party.

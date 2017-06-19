@@ -1,0 +1,132 @@
+{
+  "rhel-i386-client-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-i386-client-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-i386-server-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-i386-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-i386-workstation-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-i386-workstation-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-ppc64-server-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-ppc64-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-s390x-server-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-s390x-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-x86_64-client-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-x86_64-client-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-x86_64-hpc-node-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-x86_64-hpc-node-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-x86_64-hpc-node-optional-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm"
+  ],
+  "rhel-x86_64-hpc-node-optional-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm"
+  ],
+  "rhel-x86_64-server-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-x86_64-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-x86_64-workstation-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ],
+  "rhel-x86_64-workstation-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-check-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-client-tools-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/noarch/rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm",
+    "/mnt/redhat/brewroot/packages/rhn-client-tools/1.0.0.1/32.el6/data/signed/fd431d51/src/rhn-client-tools-1.0.0.1-32.el6.src.rpm"
+  ]
+}

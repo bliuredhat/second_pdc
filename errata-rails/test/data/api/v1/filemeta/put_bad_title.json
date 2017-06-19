@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "title": [
+      "is too short (minimum is 5 characters)"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+<%= form_tag({:action => 'product_listings'}, {:method => 'get'}) do  %>
+    <p>Product Version for Released Package</p>
+    <p><%= collection_select(:rp, :pv_or_pr_id, @product_versions, :id, :name, { :selected=>@product_version.try(:id) }, :class=>'eso-chosen-select') %> </p>
+    <p>Brew Build NVR</p>
+    <p><%= text_field(:rp, :nvr, :value=>@brew_build.try(:nvr), :style=>'width:30em;') %></p>
+    <p><label><%= check_box_tag('rp[debug]', '1', @debug) %> Show additional debug info</label> <%= wait_spinner('product-listings-debug-spinner') %></p>
+    <p class="product-listings-debug-error statusred" style="display:none"></p>
+    <div id="product-listings-prefetch-debug" style="<%= show_style_if(@debug) %>">
+      <%= render :partial => 'product_listings_prefetch_debug' %>
+    </div>
+    <p><%= submit_tag('Get Listing', :class=>'btn btn-primary') %></p>
+<% end %>
+<%= page_title_h1 %>
+
+<% if @debug %>
+<div id="product-listings-debug">
+  <%= render :partial => 'product_listings_debug' %>
+</div>
+<% end -%>
+
+<p><%= br_separated @statements %></p>
+<% if @brew_error.present? %>
+  <div class="alert alert-error">
+    Brew reported an error:<br/>
+    <%= @brew_error %>
+  </div>
+<% elsif @listing %>
+  <% if !@cached_listings_match && @cached_listing %>
+    <div class="alert alert-error">
+      Cached listing does not match that from Brew.
+    </div>
+    <%=
+      button_to "View Cached Listing", {
+        :action => :product_listing_cache,
+        :id     => @cached_listing.id
+      }, :class => 'btn'
+    %>
+    <p>
+      The latest product listing from Brew is shown below.
+    </p>
+  <% end %>
+  <%= render_product_listing_table(@listing) %>
+<% end %>

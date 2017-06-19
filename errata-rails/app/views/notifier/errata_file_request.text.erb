@@ -1,0 +1,24 @@
+<%# the main comment will appear automatically here, see layouts/notifier -%>
+
+Advisory:    <%= @errata.fulladvisory %>
+Synopsis:    <%= @errata.synopsis %>
+Product:     <%= @errata.product.name %>
+Status:      <%= @errata.status %>
+Resolution:  <%= @errata.resolution %>
+Release:     <%= @errata.release.name  %>
+Severity:    <%= @errata.severity %>
+Priority:    <%= @errata.priority %>
+AssignedTo:  <%= @errata.assigned_to.login_name %>
+SubmittedBy: <%= @errata.reporter.login_name %>
+CcList:      <%= @errata.cc_emails.try(:join, ', ') %>
+
+Comments:
+
+<%
+@errata.comments.each do |comment|
+  %><%= render :partial => 'show_comment', :locals => { :comment => comment } -%><%
+end
+%>
+
+Please do not reply directly to this email. All additional
+comments should be made in the comments box of this Errata request.

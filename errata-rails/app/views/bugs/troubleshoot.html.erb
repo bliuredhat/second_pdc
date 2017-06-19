@@ -1,0 +1,29 @@
+<p>This page can be used to help determine why a particular bug is not able to be added to
+an advisory, or is not available for selection when creating a Y-stream advisory.</p>
+
+<% if @bug %>
+  <%# User entered a bug id and we found the bug %>
+
+  <p>If all the checks here indicate the bug should be available but you still can't add it,
+  please create a support ticket by emailing <%= mail_to Settings.errata_help_email %>.</p>
+
+  <%= render 'shared/view_section', :name => 'info',      :title => 'Bug Details' %>
+  <%= render 'shared/view_section', :name => 'checklist', :title => 'Advisory Eligibility Checklist' %>
+  <%= render 'shared/view_section', :name => 'release',   :title => 'Release & Package Details' %>
+  <%= render 'shared/view_section', :name => 'log',       :title => 'Bug Activity Log' %>
+
+<% elsif @bug_id %>
+  <%# User entered a bug id, but the bug doesn't exist yet %>
+
+  <p>The bug <%= @bug_id %> doesn't exist in Errata Tool.
+  You can attempt to find the bug in Bugzilla or try a different bug id.</p>
+  <div class="btn-group">
+    <%= link_to "Find in Bugzilla", {:action => :troubleshoot_sync_bug, :bug_id => @bug_id}, :class=>'btn', :method=>:post %>
+    <%= link_to 'Change Bug', "#", :id=>'btn-change-bug', :class=>'btn' %></li>
+  </div>
+
+<%# (else user didn't choose a bug id yet) %>
+<% end %>
+
+<%# Normally this is a hidden modal, but if they haven't entered a bug id yet then make it like a regular form. %>
+<%= render 'change_bug_modal', :not_modal => !(@bug || @bug_id) %>

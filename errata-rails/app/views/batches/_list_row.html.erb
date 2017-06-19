@@ -1,0 +1,24 @@
+<tr class="mouseover-highlight clickable_row <%= 'is_inactive' unless batch.canonical_is_active? %>">
+  <td style="padding-left:1em!important;">
+    <a href="<%= batch_path(batch) %>" class="clickable_row_link" style="color:inherit">
+      <span class="short_name bold big filter_on"><%= batch.canonical_short_name %></span>
+    </a>
+    <br/>
+    <span class="small light"><%= batch.description.blank? ? raw('&nbsp;') : batch.description %></span>
+  </td>
+  <td class="small light filter_on">
+    <%= link_to(batch.release.name, {:controller => :release, :action => :show, :id => batch.release}) %>
+  </td>
+  <td class="small light filter_on">
+    <%= nice_date(batch.release_date) %>
+  </td>
+  <td>
+    <%= is_active_icon(batch.canonical_is_active?) %>
+  </td>
+  <td class="small light">
+    <%= link_to(n_thing_or_things(batch.errata.count, 'advisory'), filter_url_for_batch(batch)) %>
+  </td>
+  <td class="small light">
+    <%= lock_icon_and_text(batch.is_locked?) %>
+  </td>
+</tr>

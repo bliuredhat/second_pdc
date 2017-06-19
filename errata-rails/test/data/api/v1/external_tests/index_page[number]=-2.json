@@ -1,0 +1,11 @@
+# HTTP 400
+{
+  "errors": {
+    "codes": [
+      "bad_page"
+    ],
+    "page": [
+      "invalid page: -2"
+    ]
+  }
+}

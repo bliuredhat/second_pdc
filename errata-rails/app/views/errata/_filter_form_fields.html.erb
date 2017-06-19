@@ -1,0 +1,434 @@
+<% filter_params = @errata_filter.filter_params %>
+<%= hidden_field_tag 'errata_filter[user_id]', @user.id %>
+<%#
+  #
+  # TODO: Some DRY is needed here...
+  #
+-%>
+
+<table>
+  <tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      # Filter by advisory type
+      #
+      %>
+    <td class="formlabel vmiddle">Type</td>
+    <td colspan="3">
+      <%#
+        No-one actually asked for this. Going to leave it hidden for now.
+        (It is supported by errata_filter though).
+        Want to do some work on the layout before adding it in.
+        Should be able to hide stuff you don't want or have an
+        "advanced" search options that start hidden or something
+        like that...
+      %>
+      <% if Settings.show_filter_text_only_option %>
+      <div style="float:right;font-size:80%;opacity:0.9;">
+        Text only:<%= select_tag \
+          "errata_filter[filter_params][text_only_option]",
+          options_for_select(@text_only_options, @errata_filter.selected_text_only_option),
+          :include_blank => '-',
+          :style=>'width:12em;font-size:80%;height:2em;padding:2px;'
+        %>
+      </div>
+      <% end %>
+
+      <div class="require_at_least_one_checkbox highlight_selected_checkboxes" style="float:left;">
+        <% @errata_types.each do |errata_type, errata_type_description| %>
+          <% currently_selected = filter_params["show_type_#{errata_type}"].to_bool %>
+          <label class="<%= 'selected' if currently_selected %>" style="display:inline-block;">
+            <%#
+              # It feels a bit hacky to spell out the errata_filter[filter_params] here.
+              # (Perhaps there is a way to use f.fields_form :filter_params. When I try that
+              # I get errors since filter_params is just a hash, not an AR record).
+              %>
+            <%= check_box_tag "errata_filter[filter_params][show_type_#{errata_type}]", '1', currently_selected, :style=>'display:inline' -%>&nbsp;<span
+              title="<%= errata_type_description %>" class="show_type show_type_<%= errata_type %>"><%= errata_type %></span>
+          </label>
+        <% end %>
+      </div>
+      <div style="float:left;padding-top:4px;">
+        <%= link_to 'All', '#', :class=>'tiny check_box_select_all' %>
+      </div>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Filter by advisory status
+      #
+      %>
+    <td class="formlabel vmiddle">State</td>
+    <td colspan="3">
+      <div class="require_at_least_one_checkbox highlight_selected_checkboxes" style="float:left;">
+        <% @errata_states.each do |state, state_label| %>
+          <% currently_selected = filter_params["show_state_#{state}"].to_bool %>
+          <label class="<%= 'selected' if currently_selected %>" title="<%= state_label %>" style="display:inline-block;">
+            <%= check_box_tag "errata_filter[filter_params][show_state_#{state}]", '1', currently_selected, :style=>'display:inline' -%>&nbsp;<span
+              class="state_indicator state_indicator_<%= state.downcase %>"><%= state_label %></span>
+          </label>
+        <% end %>
+      </div>
+      <div style="float:left;padding-top:4px;">
+        &nbsp; <%= link_to 'Active', '#', :class=>'tiny check_box_select_active' %>
+        &nbsp; <%= link_to 'All', '#',    :class=>'tiny check_box_select_all' %>
+      </div>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Filter by Product
+      #
+      %>
+    <td class="formlabel" style="padding-top:1.6em;">Product</td>
+    <td>
+      <div class="tiny light">
+          <%= check_box_tag "errata_filter[filter_params][product_not]",
+            '1', @errata_filter.selected_negate?('product')
+          -%>&nbsp;<span>Not in</span>
+      </div>
+      <%= select_tag \
+        "errata_filter[filter_params][product]",
+        options_from_collection_for_select(@products, :id, :short_name, @errata_filter.selected_products),
+        :class => 'eso-chosen-select',
+        :multiple => true,
+        :style => 'width:260px;',
+        :'data-placeholder' => '(Any product...)'
+      %>
+    </td>
+
+    <%#
+      #
+      # Filter by Release
+      #
+      %>
+    <td class="formlabel" style="padding-top:1.6em;">Release<br/>
+      <%# This will flip between the two release lists. See filter_form.js %>
+      <%= link_to 'show inactive', '#', :class=>'filter_inactive_toggle tiny', 'data-param'=>'release' %>
+    </td>
+    <td>
+      <div class="tiny light">
+          <%= check_box_tag "errata_filter[filter_params][release_not]",
+            '1', @errata_filter.selected_negate?('release')
+          -%>&nbsp;<span>Not in</span>
+      </div>
+      <div class="current_release_container">
+        <%= select_tag \
+          "errata_filter[filter_params][release]",
+          grouped_options_for_select(@current_releases_grouped, @errata_filter.selected_releases),
+          :class => 'eso-chosen-select',
+          :multiple => true,
+          :style => 'width:260px;',
+          :'data-placeholder' => '(Any release...)'
+        %>
+      </div>
+      <div class="all_release_container" style="display:none;">
+        <%= select_tag \
+          "_disregard", # will get adjusted by javascript if user clicks 'show all'
+          grouped_options_for_select(@all_releases_grouped, @errata_filter.selected_releases),
+          :class => 'eso-chosen-select',
+          :multiple => true,
+          :style => 'width:260px;display:none;',
+          :'data-placeholder' => '(Any release...)'
+        %>
+      </div>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Filter by Batch
+      #
+      %>
+    <td class="formlabel" style="padding-top:1.6em;">Batch<br>
+      <%= link_to 'show inactive', '#', :class=>'filter_inactive_toggle tiny', 'data-param'=>'batch' %>
+    </td>
+    <td>
+      <div class="tiny light">
+          <%= check_box_tag "errata_filter[filter_params][batch_not]",
+            '1', @errata_filter.selected_negate?('batch')
+          -%>&nbsp;<span>Not in</span>
+      </div>
+      <div class="current_batch_container">
+        <%= select_tag \
+          "errata_filter[filter_params][batch]",
+          options_for_select(@batches.collect{|b| [b.name, b.id]}.unshift(['None', 0]), @errata_filter.selected_batches),
+          :class => 'eso-chosen-select',
+          :multiple => true,
+          :style => 'width:260px;',
+          :'data-placeholder' => '(Any batch...)'
+        %>
+      </div>
+      <div class="all_batch_container" style="display:none;">
+        <%= select_tag \
+          "_disregard_batch", # will get adjusted by javascript if user clicks 'show all'
+          options_for_select(@all_batches.collect{|b| ["#{b.name}#{b.is_active? ? '' : ' (inactive)'}", b.id]}.unshift(['None', 0]), @errata_filter.selected_batches),
+          :class => 'eso-chosen-select',
+          :multiple => true,
+          :style => 'width:260px;display:none;',
+          :'data-placeholder' => '(Any batch...)'
+        %>
+      </div>
+    </td>
+
+    <%#
+      #
+      # Filter by Content Type
+      #
+      %>
+    <td class="formlabel" style="padding-top:1.6em;">Content Type<br></td>
+    <td>
+      <div class="tiny light">
+          <%= check_box_tag "errata_filter[filter_params][content_types_not]",
+            '1', @errata_filter.selected_negate?('content_types')
+          -%>&nbsp;<span>Not in</span>
+      </div>
+      <div class="content_types_container">
+        <%= select_tag \
+          "errata_filter[filter_params][content_types]",
+          options_for_select(@content_types, @errata_filter.selected_content_types),
+          :class => 'eso-chosen-select',
+          :multiple => true,
+          :style => 'width:260px;',
+          :'data-placeholder' => '(Any content type...)'
+        %>
+      </div>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Filter by QE Group
+      #
+      %>
+    <td class="formlabel vmiddle">QE Group</td>
+    <td>
+      <div class="tiny light">
+          <%= check_box_tag "errata_filter[filter_params][qe_group_not]",
+            '1', @errata_filter.selected_negate?('qe_group')
+          -%>&nbsp;<span>Not in</span>
+      </div>
+      <%= select_tag \
+        "errata_filter[filter_params][qe_group]",
+        options_from_collection_for_select(@qe_groups, :id, :name, @errata_filter.selected_qe_groups),
+        :class => 'eso-chosen-select',
+        :multiple => true,
+        :style => 'width:260px;',
+        :'data-placeholder' => '(Any QE group...)'
+      %>
+    </td>
+
+    <%#
+      #
+      # Filter by QE Owner
+      #
+      %>
+    <td class="formlabel vmiddle">
+      QE Owner<br/>
+      (<%= check_box_tag "errata_filter[filter_params][qe_owner_is_me]", 'yes', @errata_filter.filter_params['qe_owner_is_me'], :class=>'you_check_box' %>You)
+    </td>
+    <td>
+      <div class="tiny light">
+          <%= check_box_tag "errata_filter[filter_params][qe_owner_not]",
+            '1', @errata_filter.selected_negate?('qe_owner')
+          -%>&nbsp;<span>Not in</span>
+      </div>
+      <span class="is_you" style="<%= show_style_if(@errata_filter.filter_params['qe_owner_is_me']) %>"><%= @user.short_to_s %></span>
+      <span class="select_container" style="<%= hide_style_if(@errata_filter.filter_params['qe_owner_is_me']) %>">
+        <%= select_tag \
+          "errata_filter[filter_params][qe_owner]",
+          options_from_collection_for_select(@qe_owners, :id, :short_to_s, @errata_filter.selected_qe_owners),
+          :class => 'eso-chosen-select',
+          :multiple => true,
+          :style => "width:260px;#{hide_style_if(@errata_filter.filter_params['qe_owner_is_me'])}",
+          :'data-placeholder' => '(Any QE owner...)'
+        %>
+      </span>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Filter by Devel Group
+      #
+      %>
+    <td class="formlabel vmiddle">Devel Group</td>
+    <td>
+      <div class="tiny light">
+          <%= check_box_tag "errata_filter[filter_params][devel_group_not]",
+            '1', @errata_filter.selected_negate?('devel_group')
+          -%>&nbsp;<span>Not in</span>
+      </div>
+      <%= select_tag \
+        "errata_filter[filter_params][devel_group]",
+        options_from_collection_for_select(@devel_groups, :id, :name, @errata_filter.selected_devel_groups),
+        :class => 'eso-chosen-select',
+        :multiple => true,
+        :style => 'width:260px;',
+        :'data-placeholder' => '(Any Devel group...)'
+      %>
+    </td>
+
+    <%#
+      #
+      # Filter by Reporter
+      #
+      %>
+    <td class="formlabel vmiddle">
+      Reporter<br/>
+      (<%= check_box_tag "errata_filter[filter_params][reporter_is_me]", 'yes', @errata_filter.filter_params['reporter_is_me'], :class=>'you_check_box' %>You)
+    </td>
+    <td>
+      <div class="tiny light">
+          <%= check_box_tag "errata_filter[filter_params][reporter_not]",
+            '1', @errata_filter.selected_negate?('reporter')
+          -%>&nbsp;<span>Not in</span>
+      </div>
+      <span class="is_you" style="<%= show_style_if(@errata_filter.filter_params['reporter_is_me']) %>"><%= @user.short_to_s %></span>
+      <span class="select_container" style="<%= hide_style_if(@errata_filter.filter_params['reporter_is_me']) %>">
+        <%= select_tag \
+          "errata_filter[filter_params][reporter]",
+          options_from_collection_for_select(@reporters, :id, :short_to_s, @errata_filter.selected_reporters),
+          :class => 'eso-chosen-select',
+          :multiple => true,
+          :style => "width:260px;",
+          :'data-placeholder' => '(Any reporter...)'
+        %>
+      </span>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Docs approval by options
+      #
+      %>
+    <td class="formlabel vmiddle">Doc Status</td>
+    <td>
+      <%= select_tag \
+        "errata_filter[filter_params][doc_status]",
+        options_for_select(@doc_status_options, @errata_filter.selected_doc_status_options),
+        :class => 'eso-chosen-select',
+        :multiple => true,
+        :style => 'width:260px;',
+        :'data-placeholder' => '(Any doc status...)'
+      %>
+    </td>
+
+    <%#
+      #
+      # Security approval
+      #
+      %>
+    <td class="formlabel vmiddle">Security Approval</td>
+    <td>
+      <%= select_tag \
+        "errata_filter[filter_params][security_approval]",
+        options_for_select(@security_approval_options, @errata_filter.selected_security_approval_options),
+        :class => 'eso-chosen-select',
+        :multiple => true,
+        :style => 'width:260px;',
+        :'data-placeholder' => '(Any status...)'
+      %>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Filter by synopsis text
+      #
+      %>
+    <td class="formlabel vmiddle">Synopsis</td>
+    <%# Since there's an odd number of fields, use colspan to let this field take the whole row.
+        The styling of the text field doesn't make it expand to the whole row though. %>
+    <td colspan="3">
+      <%= text_field_tag "errata_filter[filter_params][synopsis_text]", @errata_filter.synopsis_text_search, :style=>'width:90%;' %>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Group by options
+      #
+      %>
+    <td class="formlabel vmiddle">Group By</td>
+    <td class="vmiddle">
+      <%= select_tag \
+        "errata_filter[filter_params][group_by]",
+        options_for_select(@group_by_options, @errata_filter.selected_group_by)
+      %>
+    </td>
+
+    <%#
+      #
+      # Closed options
+      #
+      %>
+    <td class="formlabel vmiddle">Closed?</td>
+    <td class="vmiddle">
+      <%= select_tag \
+        "errata_filter[filter_params][open_closed_option]",
+        options_for_select(@open_closed_options, @errata_filter.selected_open_closed_option),
+        :include_blank => '-' # This is important. (Maybe should refactor so this is defined in selected_open_closed_option..)
+      %>
+    </td>
+
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Sort options
+      #
+      %>
+    <td class="formlabel vmiddle">Sort by</td>
+    <td class="vmiddle">
+      <%= select_tag \
+        "errata_filter[filter_params][sort_by_fields][]",
+        options_for_select(@sort_options, @errata_filter.selected_sort_by_fields[0])
+      %>
+    </td>
+    <td class="formlabel vmiddle">2nd sort</td>
+    <td class="vmiddle">
+      <%= select_tag \
+        "errata_filter[filter_params][sort_by_fields][]",
+        options_for_select(@sort_options, @errata_filter.selected_sort_by_fields[1])
+      %>
+    </td>
+
+  </tr><tr><%#---------------------------------------------------------------------------------%>
+
+    <%#
+      #
+      # Output format options
+      #
+      %>
+    <td class="formlabel vmiddle">Format</td>
+    <td class="vmiddle">
+      <%= select_tag \
+        "errata_filter[filter_params][output_format]",
+        options_for_select(@format_options, @errata_filter.selected_output_format)
+      %>
+    </td>
+
+    <td class="formlabel vmiddle">Per page</td>
+    <td class="vmiddle">
+      <%= select_tag \
+        "errata_filter[filter_params][pagination_option]",
+        options_for_select(@pagination_options, @errata_filter.selected_pagination_option)
+      %>
+    </td>
+
+  </tr><%#---------------------------------------------------------------------------------%>
+
+</table>

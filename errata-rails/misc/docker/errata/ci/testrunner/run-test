@@ -1,0 +1,52 @@
+#!/bin/bash
+set -eu
+
+testscript_empty(){
+  ! egrep -q '^[^#].*[^ ]' /tmp/testscript
+}
+
+read_testscript(){
+  cat > /tmp/testscript
+
+  testscript_empty && {
+    cat 1>&2 <<EOF
+ERROR: no test script or command was provided.
+To use this image pipe a test script to standard input.
+EOF
+    exit 2
+  }
+  chmod +x /tmp/testscript
+}
+
+start_mysql(){
+  if ! sudo mount -t tmpfs none /var/lib/mysql; then
+    echo "ERROR: cannot use tmpfs for mysql.  Docker probably has to be run with -privileged." 1>&2
+    exit 3
+  fi
+
+  if ! sudo /etc/init.d/mysqld start | sudo tee /tmp/mysql-start.log 2>&1; then
+    echo "Could not start MySQL server:" 1>&2
+    cat /tmp/mysql-start.log 1>&2
+    exit 3
+  fi
+  echo "Started MySQL server."
+}
+
+main(){
+  read_testscript
+  start_mysql
+  exec /tmp/testscript
+}
+
+# passing no args defaults to running the main function
+first_arg=${1:-main}
+
+# support docker run <image> bash
+# and bash will be run instead of treating it as a command to test
+if [[ "$first_arg" != "main" ]]; then
+  exec "$@"
+fi
+
+#ignore main and pass the rest to main
+[[ ${1:-''} != '' ]] && shift
+main "$@"

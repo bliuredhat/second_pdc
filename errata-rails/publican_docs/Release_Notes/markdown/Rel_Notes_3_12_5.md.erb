@@ -1,0 +1,81 @@
+Release Notes for Version 3.12.5
+================================
+
+Overview
+--------
+
+Release 3.12.5 is the 6th and final release in
+the Errata Tool 3.12 development period. It closes [45 bugs and RFEs][buglist].
+
+The primary new feature in this release of Errata Tool is support for
+attaching docker images to advisories and pushing them to CDN. It also
+includes multi-product mappings management, RPMDiff autowaive rule cloning, and
+a number of other improvements and bug fixes.
+
+<% sort_these_first %w[ 1278668 ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.12.5][buglist]
+* [Full code diff for this release][diff1]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=1076276%2C1260855%2C1278668%2C1282291%2C1286790%2C1298449%2C1304548%2C1310073%2C1320504%2C1324244%2C1327005%2C1327007%2C1327032%2C1327470%2C1327518%2C1328057%2C1329074%2C1329493%2C1329495%2C1329570%2C1330798%2C1331690%2C1332774%2C1333352%2C1333722%2C1333752%2C1333760%2C1333763%2C1333935%2C1334567%2C1334568%2C1334654%2C1335474%2C1336388%2C1336626%2C1337734%2C1338650%2C1339193%2C1339204%2C1340140%2C1341946%2C1342404%2C1342505%2C1319567%2C1348383
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.12.5-0&id2=3.12.4-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.12.5-0&id2=3.12.4.1-0
+
+<%= all_include_content %>
+
+Team changes
+------------
+
+This release includes contributions from John Lockhart who has recently joined
+the Errata Tool team as a developer (while still spending part of his time
+looking after TPS, OATS and Stable Systems).
+
+Note also that the RPMDiff enhancements included in this release and the
+previous release were contributed by the
+[RPMDiff team](https://docs.engineering.redhat.com/display/HTD/RPMDiff).
+
+
+What's Next
+------------
+
+### Errata Tool 3.13
+
+3.12.5 is the final major release in the Errata Tool 3.12 release period. Any
+remaining bugs and RFEs flagged for errata-3.12 will soon be moved to
+errata-3.13. Once enough content is verified and ready to ship we will prepare
+the next release. The next release will be 3.13.0.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET 3.13 take a look at [bugs flagged with
+errata-3.13 in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool 3.14
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool 3.14 take a look at [bugs
+flagged with errata-3.14][bugs_next].
+
+If you are interested in being involved in Errata Tool planning, please subscribe
+to [errata-dev-list][erratadevlist] and vote on the bugs and features in the
+backlog that would benefit you most.  To vote for a backlog item simply click
+the 'vote' link beside the Severity field when viewing the item then confirm
+your selection on the next page.  Each user gets a maximum of ten votes.
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.13&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.14&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

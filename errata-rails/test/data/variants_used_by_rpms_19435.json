@@ -1,0 +1,18 @@
+{
+  "jasper": [
+    "6Client-6.6.z",
+    "6Client-optional-6.6.z",
+    "6ComputeNode-6.6.z",
+    "6ComputeNode-optional-6.6.z \t",
+    "6Server-6.6.z",
+    "6Server-optional-6.6.z",
+    "6Workstation-6.6.z",
+    "6Workstation-optional-6.6.z",
+    "7Client-optional-7.0.Z",
+    "7ComputeNode-7.0.Z",
+    "7ComputeNode-optional-7.0.Z",
+    "7Server-7.0.Z",
+    "7Server-optional-7.0.Z",
+    "7Workstation-optional-7.0.Z"
+  ]
+}

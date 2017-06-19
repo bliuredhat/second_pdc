@@ -1,0 +1,9 @@
+### API insists on real booleans
+# HTTP 400
+{
+  "errors": {
+    "rhel-6-server-rhev-agent-rpms__6Server__i386 enabled": [
+      "expected boolean, got String"
+    ]
+  }
+}

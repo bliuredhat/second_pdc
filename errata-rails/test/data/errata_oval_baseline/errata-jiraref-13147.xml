@@ -1,0 +1,154 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:red-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:unix-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux linux-definitions-schema.xsd">
+  <generator>
+    <oval:product_name>Red Hat Errata System</oval:product_name>
+    <oval:schema_version>5.10.1</oval:schema_version>
+    <oval:timestamp>2012-12-12T12:12:12</oval:timestamp>
+  </generator>
+
+  <definitions>
+    <definition class="patch" id="oval:com.redhat.rhsa:def:20120987" version="605">
+      <metadata>
+        <title>RHSA-2012:0987: sblim-cim-client2 security update (Low)</title>
+    <affected family="unix">
+      <platform>Red Hat Enterprise Linux 6</platform>
+    </affected>
+    <reference ref_id="RHSA-2012:0987-04" ref_url="https://access.redhat.com/errata/RHSA-2012:0987" source="RHSA"></reference>
+      <reference ref_id="CVE-2012-2328" ref_url="https://access.redhat.com/security/cve/CVE-2012-2328" source="CVE"></reference>
+    <description>The SBLIM (Standards-Based Linux Instrumentation for Manageability) CIM
+(Common Information Model) Client is a class library for Java applications
+that provides access to CIM servers using the CIM Operations over HTTP
+protocol defined by the DMTF (Distributed Management Task Force) standards.
+
+It was found that the Java HashMap implementation was susceptible to
+predictable hash collisions. SBLIM uses HashMap when parsing XML inputs. A
+specially-crafted CIM-XML message from a WBEM (Web-Based Enterprise
+Management) server could cause a SBLIM client to use an excessive amount of
+CPU. Randomization has been added to help avoid collisions. (CVE-2012-2328)
+
+All users of sblim-cim-client2 are advised to upgrade to these updated
+packages, which contain a backported patch to resolve this issue.</description>
+
+
+
+<advisory from="secalert@redhat.com">
+        <severity>Low</severity>
+        <rights>Copyright 2012 Red Hat, Inc.</rights>
+        <issued date="2012-06-20"></issued>
+        <updated date="2012-06-20"></updated>
+        <cve href="https://access.redhat.com/security/cve/CVE-2012-2328">CVE-2012-2328</cve>
+    <affected_cpe_list>
+        <cpe>cpe:/o:redhat:enterprise_linux:6</cpe>
+    </affected_cpe_list>
+</advisory>
+      </metadata>
+      <criteria operator="AND">
+ 
+ <criteria operator="OR">
+ <criterion comment="Red Hat Enterprise Linux 6 Client is installed" test_ref="oval:com.redhat.rhsa:tst:20120987001"></criterion><criterion comment="Red Hat Enterprise Linux 6 Server is installed" test_ref="oval:com.redhat.rhsa:tst:20120987002"></criterion><criterion comment="Red Hat Enterprise Linux 6 Workstation is installed" test_ref="oval:com.redhat.rhsa:tst:20120987003"></criterion><criterion comment="Red Hat Enterprise Linux 6 ComputeNode is installed" test_ref="oval:com.redhat.rhsa:tst:20120987004"></criterion>
+ 
+</criteria>
+<criteria operator="OR">
+ 
+ <criteria operator="AND">
+ <criterion comment="sblim-cim-client2 is earlier than 0:2.1.3-2.el6" test_ref="oval:com.redhat.rhsa:tst:20120987005"></criterion><criterion comment="sblim-cim-client2 is signed with Red Hat redhatrelease2 key" test_ref="oval:com.redhat.rhsa:tst:20120987006"></criterion>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion comment="sblim-cim-client2-javadoc is earlier than 0:2.1.3-2.el6" test_ref="oval:com.redhat.rhsa:tst:20120987009"></criterion><criterion comment="sblim-cim-client2-javadoc is signed with Red Hat redhatrelease2 key" test_ref="oval:com.redhat.rhsa:tst:20120987010"></criterion>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion comment="sblim-cim-client2-manual is earlier than 0:2.1.3-2.el6" test_ref="oval:com.redhat.rhsa:tst:20120987007"></criterion><criterion comment="sblim-cim-client2-manual is signed with Red Hat redhatrelease2 key" test_ref="oval:com.redhat.rhsa:tst:20120987008"></criterion>
+ 
+</criteria>
+
+</criteria>
+
+</criteria>
+
+    </definition>
+  </definitions>
+  <tests>
+    
+    <rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="Red Hat Enterprise Linux 6 Client is installed" id="oval:com.redhat.rhsa:tst:20120987001" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987001"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987002"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="Red Hat Enterprise Linux 6 Server is installed" id="oval:com.redhat.rhsa:tst:20120987002" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987002"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987002"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="Red Hat Enterprise Linux 6 Workstation is installed" id="oval:com.redhat.rhsa:tst:20120987003" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987003"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987002"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="Red Hat Enterprise Linux 6 ComputeNode is installed" id="oval:com.redhat.rhsa:tst:20120987004" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987004"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987002"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="sblim-cim-client2 is earlier than 0:2.1.3-2.el6" id="oval:com.redhat.rhsa:tst:20120987005" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987005"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987003"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="sblim-cim-client2 is signed with Red Hat redhatrelease2 key" id="oval:com.redhat.rhsa:tst:20120987006" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987005"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987001"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="sblim-cim-client2-manual is earlier than 0:2.1.3-2.el6" id="oval:com.redhat.rhsa:tst:20120987007" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987006"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987003"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="sblim-cim-client2-manual is signed with Red Hat redhatrelease2 key" id="oval:com.redhat.rhsa:tst:20120987008" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987006"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987001"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="sblim-cim-client2-javadoc is earlier than 0:2.1.3-2.el6" id="oval:com.redhat.rhsa:tst:20120987009" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987007"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987003"></state>
+</rpminfo_test>
+<rpminfo_test xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" check="at least one" comment="sblim-cim-client2-javadoc is signed with Red Hat redhatrelease2 key" id="oval:com.redhat.rhsa:tst:20120987010" version="605">
+  <object object_ref="oval:com.redhat.rhsa:obj:20120987007"></object>
+  <state state_ref="oval:com.redhat.rhsa:ste:20120987001"></state>
+</rpminfo_test>
+
+  </tests>
+
+  <objects>
+    
+    <rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:obj:20120987001" version="605">
+  <name>redhat-release-client</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:obj:20120987004" version="605">
+  <name>redhat-release-computenode</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:obj:20120987002" version="605">
+  <name>redhat-release-server</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:obj:20120987003" version="605">
+  <name>redhat-release-workstation</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:obj:20120987005" version="605">
+  <name>sblim-cim-client2</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:obj:20120987007" version="605">
+  <name>sblim-cim-client2-javadoc</name>
+</rpminfo_object>
+<rpminfo_object xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:obj:20120987006" version="605">
+  <name>sblim-cim-client2-manual</name>
+</rpminfo_object>
+
+  </objects>
+  <states>
+    
+    <rpminfo_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:ste:20120987001" version="605">
+  <signature_keyid operation="equals">199e2f91fd431d51</signature_keyid>
+</rpminfo_state>
+<rpminfo_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:ste:20120987002" version="605">
+  <version operation="pattern match">^6[^\d]</version>
+</rpminfo_state>
+<rpminfo_state xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" id="oval:com.redhat.rhsa:ste:20120987003" version="605">
+  <evr datatype="evr_string" operation="less than">0:2.1.3-2.el6</evr>
+</rpminfo_state>
+
+  </states>
+</oval_definitions>

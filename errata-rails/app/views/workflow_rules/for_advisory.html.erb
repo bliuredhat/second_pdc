@@ -1,0 +1,18 @@
+<div class="btn-group floatright">
+  <% if @show_all %>
+    <%= link_to("Show only #{@errata.status} transitions", params.merge('show_all'=>nil), :class=>'btn') %>
+  <% else %>
+    <%= link_to('Show all transitions', params.merge('show_all'=>1), :class=>'btn') %>
+  <% end %>
+  <%= link_to(icon_btn_text('Back to advisory',:'arrow-left'),  {:controller=>:errata, :action=>:view, :id=>@errata}, :class=>'btn') %>
+</div>
+<table class="workflow-rules">
+  <%=table_rows_helper(
+    [
+      [ 'Rule Set',        "<b>#{link_to @rule_set.name, {:action=>:show, :id=>@rule_set}}</b> - #{@rule_set.description}".html_safe ],
+      [ 'Required Tests',  @rule_set.test_requirements_text ],
+      [ 'Advisory Status', state_display(@errata) ],
+      [ 'Transition Status', render('guards') ],
+    ],
+  :labels => true)%>
+</table>

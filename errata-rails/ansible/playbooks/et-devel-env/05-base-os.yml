@@ -1,0 +1,31 @@
+- name: Provision Base OS
+  hosts: develop
+  tasks:
+
+    - name: "Check if server is alive"
+      action: ping
+
+    - name: "Installs errata development repositories"
+      copy: src=files/{{ item }} dest=/etc/yum.repos.d/ owner=root group=root
+      sudo: yes
+      with_items:
+        - rhel6-base.repo
+        - rhel6-ops.repo
+        - rhel6-optional.repo
+        - rhel6-updates.repo
+        - rhel6-errata-rails32.repo
+
+    - name: "Upgrade base system"
+      sudo: yes
+      yum: name=* state=latest
+
+    - name: "Install kerberos config"
+      copy: src=files/krb5.conf dest=/etc owner=root group=root
+      sudo: yes
+
+    - name: "Install Base Tools"
+      sudo: yes
+      yum: name={{ item }} state=latest
+      with_items:
+          - git
+          - krb5-workstation

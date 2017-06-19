@@ -1,0 +1,56 @@
+<%
+# Form is slightly different if the rank hasn't been initialized yet
+# for some or all files.
+rank_count = @brew_file_meta.map(&:rank).compact.length
+meta_count = @brew_file_meta.length
+
+not_init     = rank_count == 0
+partial_init = rank_count > 0 && rank_count < meta_count
+full_init    = !not_init && !partial_init
+%>
+
+<%= form_tag({:action => 'put_file_meta_rank', :id => @errata},
+  :method => :post,
+  :remote => true,
+  :class => 'et-ajax-form show-when-rank-dirty alert alert-info flush-top',
+  # immediately show if the order is not yet initialized
+  :style => show_style_if(!full_init)) do %>
+
+  <span class="show-when-rank-missing"
+        style="<%= show_style_if(not_init || partial_init) %>">
+    The file order for
+    <%= "some files in" if partial_init %>
+    this advisory has not been initialized.
+    Please review and adjust the order above, then save.
+  </span>
+
+  <span class="show-when-rank-present"
+        style="<%= show_style_if(full_init) %>">
+    The file order has been changed.
+    The changes will not take effect until saved.
+  </span>
+
+  <%= hidden_field_tag :brew_file_order %>
+  <%= content_tag('span', :class => 'et-ajax-form-error statusred', :style => 'display:none') do %>
+    <br />
+    Error: <%= content_tag('span', '', :class => 'et-ajax-form-error-text') %>
+  <% end %>
+
+  <span class="pull-right">
+    <%= wait_spinner %>
+    <%= submit_tag('Save', :class => 'btn btn-primary') %>
+
+    <%= link_to('Cancel', '#',
+        # If any meta is missing a rank, there is no option to Cancel, because there
+        # is no valid rank to reset to.
+        :class => 'show-when-rank-present btn-cancel-reorder',
+        :style => show_style_if(full_init) )%>
+  </span>
+<% end -%>
+
+<div
+   class="show-when-rank-persisted alert alert-success flush-top"
+   style="display:none"
+   >
+  The updated file order was saved successfully.
+</div>

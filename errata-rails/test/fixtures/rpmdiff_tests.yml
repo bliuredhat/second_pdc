@@ -1,0 +1,241 @@
+--- 
+rpmdiff_test_00001: 
+  description: Changes in rpms
+  long_desc: This test shows changes in the rpms created by the src.rpm
+  test_id: 1
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffRpmChanges.html
+rpmdiff_test_00002: 
+  description: Files moving rpm
+  long_desc: This test shows files that move from one subrpm to another
+  test_id: 2
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffFilesMoving.html
+rpmdiff_test_00003: 
+  description: File list
+  long_desc: This test shows changes in the file manifest of rpms
+  test_id: 3
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffFileList.html
+rpmdiff_test_00004: 
+  description: Binary stripping
+  long_desc: This test shows changes in stripping of ELF files
+  test_id: 4
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffStrip.html
+rpmdiff_test_00005: 
+  description: File sizes
+  long_desc: This test shows significant changes in file size
+  test_id: 5
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffFileSizes.html
+rpmdiff_test_00006: 
+  description: File permissions
+  long_desc: This test shows changes in file permission
+  test_id: 6
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffFilePerms.html
+rpmdiff_test_00007: 
+  description: Execshield
+  long_desc: This test shows changes in security flags in ELF files
+  test_id: 7
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffElfChecks.html
+rpmdiff_test_00008: 
+  description: PIE binaries
+  long_desc: This test shows changes in PIEness of binaries
+  test_id: 8
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffElfChecks.html
+rpmdiff_test_00009: 
+  description: TEXTREL elf flag
+  long_desc: ""
+  test_id: 9
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffElfChecks.html
+rpmdiff_test_00010: 
+  description: GNU_PT_RELRO elf flag
+  long_desc: ""
+  test_id: 10
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffElfChecks.html
+rpmdiff_test_00011: 
+  description: Elflint
+  long_desc: This test shows regressions in the output of the elflint tool
+  test_id: 11
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffElfChecks.html
+rpmdiff_test_00012: 
+  description: File types
+  long_desc: This test shows changes in file type
+  test_id: 12
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffFileTypes.html
+rpmdiff_test_00013: 
+  description: ABI symbols
+  long_desc: This test shows symbols in libraries going away
+  test_id: 13
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffAbiSymbols.html
+rpmdiff_test_00014: 
+  description: DT_NEEDED
+  long_desc: This test shows changes in ELF dependencies
+  test_id: 14
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffDtNeeded.html
+rpmdiff_test_00015: 
+  description: kernel module parameters
+  long_desc: This test shows kernel module parameters going away
+  test_id: 15
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffKernel.html
+rpmdiff_test_00016: 
+  description: kernel module PCI IDs
+  long_desc: This test shows PCI IDs that no longer are supported by kernel modules
+  test_id: 16
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffKernel.html
+rpmdiff_test_00017: 
+  description: Unapplied patches
+  long_desc: This test shows any new patches that are not applied in the spec file
+  test_id: 17
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffPatches.html
+rpmdiff_test_00018: 
+  description: Multilib regressions
+  long_desc: This test shows changes in multilibness of files
+  test_id: 18
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffMultilib.html
+rpmdiff_test_00019: 
+  description: Manpage integrity
+  long_desc: This test checks if manpages are valid
+  test_id: 19
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffValidFile.html
+rpmdiff_test_00020: 
+  description: RPM requires/provides
+  long_desc: "This test shows changes in Provides: and Requires of rpms"
+  test_id: 20
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffReqProv.html
+rpmdiff_test_00021: 
+  description: RPM config/doc files
+  long_desc: This test shows changes in %config-ness of files
+  test_id: 21
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffConfigDoc.html
+rpmdiff_test_00022: 
+  description: RPM changelog
+  long_desc: These tests check changelogs
+  test_id: 22
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffChangelog.html
+rpmdiff_test_00023: 
+  description: RPM triggers
+  long_desc: This tests shows if triggers changed in the rpm
+  test_id: 23
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffScripts.html
+rpmdiff_test_00024: 
+  description: RPM scripts
+  long_desc: This test checks which scripts changed in the rpm
+  test_id: 24
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffScripts.html
+rpmdiff_test_00025: 
+  description: Virus scan
+  long_desc: This test shows the results of the virus scan
+  test_id: 25
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffVirusscan.html
+rpmdiff_test_00026: 
+  description: XML validity
+  long_desc: This test shows XML files that have gone bad
+  test_id: 26
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffValidFile.html
+rpmdiff_test_00027: 
+  description: Dangling symlinks
+  long_desc: This test shows symlinks that became dangling
+  test_id: 27
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffDanglingSymlink.html
+rpmdiff_test_00028: 
+  description: Upstream Source
+  long_desc: This test verifies that the upstream source tarbals did not change
+  test_id: 28
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffUpstream.html
+rpmdiff_test_00029: 
+  description: Specfile checks
+  long_desc: These tests check %post sections of specfiles
+  test_id: 29
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffSpecfile.html
+rpmdiff_test_00030: 
+  description: Testsuite regressions
+  long_desc: These tests check regressions in the build-time make check output
+  test_id: 30
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffTestsuite.html
+rpmdiff_test_00031: 
+  description: Desktop file sanity
+  long_desc: This test validates .desktop files
+  test_id: 31
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffValidFile.html
+rpmdiff_test_00032: 
+  description: Erratum manifest
+  long_desc: This test verifies the erratum file list
+  test_id: 32
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffErrataManifest.html
+rpmdiff_test_00033: 
+  description: Install log
+  long_desc: This test performs a test install, upgrade and removal
+  test_id: 33
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffInstall.html
+rpmdiff_test_00034: 
+  description: Changed files
+  long_desc: This test detects if no files changed
+  test_id: 34
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffChanged.html
+rpmdiff_test_00035: 
+  description: Politics
+  long_desc: This test checks for political issues
+  test_id: 35
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffPolitics.html
+rpmdiff_test_00036: 
+  description: Shell Syntax
+  long_desc: This test checks the syntax of shell scripts
+  test_id: 36
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffShell.html
+rpmdiff_test_00037: 
+  description: Tempfile Usage
+  long_desc: This test checks for insecure usage of tempfiles
+  test_id: 37
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffTempfileUsage.html
+rpmdiff_test_00038: 
+  description: Python
+  long_desc: This test checks for issues with Python files
+  test_id: 38
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffPython.html
+rpmdiff_test_00039: 
+  description: Perl
+  long_desc: This test checks for issues with Perl files
+  test_id: 39
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffPerl.html
+rpmdiff_test_00040: 
+  description: Rpmlint
+  long_desc: This test runs rpmlint on the RPMs
+  test_id: 40
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffRpmlint.html
+rpmdiff_test_00041: 
+  description: DocBook
+  long_desc: This test checks DocBook files for correctness
+  test_id: 41
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffDocBook.html
+rpmdiff_test_00042: 
+  description: IPv6
+  long_desc: This test checks for IPv6 issues
+  test_id: 42
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffIPvSix.html
+rpmdiff_test_00043: 
+  description: Empty payload
+  long_desc: This test checks for packages with empty payloads
+  test_id: 43
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffEmptyPayloadTest.html
+rpmdiff_test_00044: 
+  description: Ownership
+  long_desc: This test checks the ownership of files in the RPM payload
+  test_id: 44
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffOwnershipTest.html
+rpmdiff_test_00045: 
+  description: RPath
+  long_desc: This test checks the validity of RPATH directories used by binaries
+  test_id: 45
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffRPathTest.html
+rpmdiff_test_00046: 
+  description: Build Roots
+  long_desc: This test checks the build roots used in the creation of the packages
+  test_id: 46
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffBuildRootsTest.html
+rpmdiff_test_00047: 
+  description: Metadata
+  long_desc: This test checks the metadata stored in the package headers
+  test_id: 47
+  wiki_url: http://intranet.corp.redhat.com/ic/intranet/RpmdiffMetadata.html
+rpmdiff_test_00048:
+  description: Pathnames
+  long_desc: This test checks for file paths that do not conform to RHEL guidelines
+  test_id: 48
+  wiki_url: https://docs.engineering.redhat.com/display/HTD/rpmdiff-java-byte-code

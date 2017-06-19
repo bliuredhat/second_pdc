@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?xml-stylesheet type="text/xsl" href="advisory.xsl"?>-->
+
+<advisory version="1.0" from="secalert@redhat.com">
+  <id><%= @errata.advisory_name %></id>
+  <pushcount><%= @errata.pushcount %></pushcount>
+  <product><%= @errata.product.name %></product>
+  <type short="<%= @errata.errata_type %>"><%= @errata.fulltype %></type>
+  <% if(@errata.is_security?) %>
+  <security level="<%= @errata.security_impact %>"/>
+  <synopsis xml:lang="en_US"><%= @errata.synopsis_sans_impact %></synopsis>
+  <% else %>
+  <synopsis xml:lang="en_US"><%= @errata.synopsis %></synopsis>
+  <% end %>
+  <issued date="<%= @errata.issue_date %>"/>
+  <updated date="<%= @errata.update_date %>"/>
+  <% unless @errata.keywords.blank? %>
+    <keywords xml:lang="en_US"><%= @errata.keywords %></keywords>
+  <% end %>
+  <% unless @errata.obsoletes.blank? %>
+    <obsoletes xml:lang="en_US"><%= @errata.obsoletes %></obsoletes>
+  <% end %>
+  <references>
+  <reference type="self" href="<%= @errata.errata_public_url %>"/>
+  <% unless @errata.crossref.blank? %>
+    <% @errata.crossref.split(' ').each do |c| -%>
+      <reference type="crossreference" href="<%= Errata.public_url(c) %>"><advisory><%= c %></advisory></reference>
+    <% end -%>
+  <% end %>
+  <% if (cve_list = @errata.all_cves).any? %>
+    <% cve_list.each do |c| -%>
+    <reference type="cve" href="<%= cve_url(c) %>"><cve><%= c %></cve></reference>
+    <% end -%>
+  <% end %>
+  <% refs = @errata.reference.split("\n")
+     refs.concat(@errata.jira_issues.only_public.map(&:url).sort) if Settings.jira_as_references
+     refs.each do |r| -%>
+    <reference type="external" href="<%= r %>"/>
+  <% end -%>
+  <% @errata.bugs.select {|b| !b.is_private? }.each do |b| -%>
+    <reference type="bugzilla" href="<%= b.url %>"><bugzilla><%= b.id %></bugzilla><summary><%=h b.short_desc %></summary></reference>
+  <% end -%>
+  <% (Settings.jira_private_only||Settings.jira_as_references ? [] : @errata.jira_issues.only_public).each do |j| -%>
+    <reference type="jira" href="<%= j.url %>"><jira><%= j.key %></jira><summary><%=h j.summary %></summary></reference>
+  <% end -%>
+  </references>
+
+<% unless(@errata.topic.blank?) %>
+<topic xml:lang="en">
+<p>
+<%=h @errata.topic %>
+</p>
+</topic>
+<% end %>
+
+<% unless(@errata.description.blank?) %>
+<description xml:lang="en">
+<p>
+<%=h @errata.description %>
+</p>
+</description>
+<% end %>
+
+<% unless(@errata.solution.blank?) %>
+<solution xml:lang="en">
+<p>
+<%=h @errata.solution %>
+</p>
+</solution>
+<% end %>
+<% unless(@errata.current_files.empty?) %>
+<rpmlist>
+<%
+version_files = Hash.new { |hash, key| hash[key] = []}
+@errata.current_files.each { |f| version_files[f.variant] << f }
+%>
+<% version_files.sort_by { |version, _| version.name }.each do |version, files| %>
+<product short="<%= version.name %>">
+<name><%= version.description %></name>
+<% files.each do |f| -%>
+<file name="<%= f.brew_rpm.name_nonvr %>" version="<%= f.brew_build.version %>" release="<%= f.brew_build.release %>" arch="<%= f.arch.name %>" epoch="<%= f.brew_rpm.epoch %>">
+<filename><%= f.brew_rpm.filename %></filename>
+<sum type="md5"><%= f.md5sum %></sum>
+</file>
+<% end -%>
+
+</product>
+<% end -%>
+<% unless Settings.suppress_gpg_message -%>
+<rpmtext xml:lang="en_US">
+  <p>These packages are GPG signed by Red Hat for security. Our key and
+  details on how to verify the signature are available from <%= sig_keys_link %></p>
+</rpmtext>
+<% end -%>
+</rpmlist>
+<% end %>
+
+<contact xml:lang="en_US">
+  <p>The Red Hat security contact is secalert@redhat.com. More
+  contact details at <a href="https://access.redhat.com/security/team/contact/">https://access.redhat.com/security/team/contact/</a></p>
+</contact>
+</advisory>

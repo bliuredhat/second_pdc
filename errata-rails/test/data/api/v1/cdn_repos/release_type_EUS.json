@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "content_type": "Debuginfo",
+        "name": "rhel-6-server-eus-debug-rpms__6_DOT_5__x86_64",
+        "release_type": "EUS",
+        "use_for_tps": false
+      },
+      "id": 64,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Binary",
+        "name": "rhel-6-server-eus-rpms__6_DOT_5__x86_64",
+        "release_type": "EUS",
+        "use_for_tps": false
+      },
+      "id": 65,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    },
+    {
+      "attributes": {
+        "content_type": "Source",
+        "name": "rhel-6-server-eus-source-rpms__6_DOT_5__x86_64",
+        "release_type": "EUS",
+        "use_for_tps": false
+      },
+      "id": 63,
+      "relationships": {
+        "arch": {
+          "id": 13,
+          "name": "x86_64"
+        },
+        "variants": [
+          {
+            "id": 744,
+            "name": "6Server-6.5.z"
+          }
+        ]
+      },
+      "type": "cdn_repos"
+    }
+  ]
+}

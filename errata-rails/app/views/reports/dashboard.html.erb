@@ -1,0 +1,22 @@
+<%#
+  Let's try some bootstrap live tabs here.
+  See how it goes...
+%>
+
+<ul class="nav nav-pills">
+  <li class="active"><a href="#attention">Advisories Needing Attention</a></li>
+  <li><a href="#bymember">By Team Member</a></li>
+  <li><a href="#byteam">By QE Team</a></li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="attention">
+    <%= render 'dashboard_attention' %>
+  </div>
+  <div class="tab-pane" id="bymember">
+    <%= render 'dashboard_by_member' %>
+  </div>
+  <div class="tab-pane" id="byteam">
+    <%= render 'dashboard_by_team' %>
+  </div>
+</div>

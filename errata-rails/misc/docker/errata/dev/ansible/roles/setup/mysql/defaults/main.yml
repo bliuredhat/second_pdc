@@ -1,0 +1,15 @@
+---
+# Override the absurd default of latin1
+character_set_server: utf8
+collation_server: utf8_bin
+
+# file-per-table seems better, especially for docker backends with per-file
+# COW; modifying one table won't require every table to be copied
+innodb_file_per_table: 1
+
+# Increasing max_allowed_packet is mandatory for some of our data to load
+# (rpmdiff_results)
+max_allowed_packet: 1000000000
+
+# This is thought to improve the performance a bit.
+net_buffer_length: 1000000

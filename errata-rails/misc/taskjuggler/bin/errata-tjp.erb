@@ -1,0 +1,90 @@
+/*
+ * Neil Adams, 2014
+ */
+
+macro major         [<%= major %>]
+macro minor         [<%= minor %>]
+macro maint         [<%= maint %>]
+macro content       [errata]
+macro content_title [errata]
+#macro prior_project [3.6.6018]
+macro start_date    [<%=nwb day_before_start_date %>]
+macro disclaimer    [Confidential - Company. Materials suitable for Red Hat Associates only.]
+macro id            [$Id$]
+macro state         [$State$]
+
+project ${content}${major}${minor}${maint} "${content_title}" "${major}.${minor}" ${start_date} + 1y {
+
+  # include the Red Hat default values for a program plan
+  include "../../common/defaults.tji"
+}
+include "../../common/resources.tji"
+
+# Put your flag declarations here. You can flag task, resources and
+# accounts to use them as filter criteria when generating reports.
+# flags important, dontcare
+
+flags SED
+flags QE
+flags SE
+
+#Include prior project tji file
+#include "../${prior_project}/${prior_project}.tji"
+
+task ${content}${major}${minor}${maint} "${content_title} ${major}.${minor}.${maint}" {
+  # Hide the clock time. Only show the date.
+  start ${projectstart}
+
+  task release${major}${minor}${maint} "Release ${major}.${minor}.${maint}"{
+    task planningphase "Planning Phase"{
+      task planning "Planning" {
+        start <%=nw planning_start %>
+        end <%=nw planning_end %>
+        flags SED
+      }
+      task freeze "Requirements Freeze"{
+        start <%=nw planning_end %>
+        end <%=nw planning_end %>
+        flags SED
+      }
+    }
+    task developmentphase "Development Phase"{
+      task development "Development"{
+        start <%=nw development_start %>
+        end <%=nw development_end %>
+        flags SED
+      }
+      task qepackage "Package ready for QE"{
+        start <%=nw development_end %>
+        end <%=nw development_end %>
+        flags SED
+      }
+    }
+    task testingphase "Testing Phase"{
+      task testing "Testing"{
+        start <%=nw testing_start %>
+        end <%=nw testing_end %>
+        flags QE
+      }
+      task packageready "Package ready for SE"{
+        start <%=nw rpm_ready %>
+        end <%=nw rpm_ready %>
+        flags SED
+      }
+    }
+    task launchphase "Launch Phase" {
+      task launch "Launch"{
+        start <%=nw rpm_ready %>
+        end <%=nw deployed %>
+        flags SE
+      }
+      task GA "GA" {
+        start <%=nw deployed %>
+        end <%=nw deployed %>
+        flags SE
+      }
+    }
+  }
+}
+
+include "reports.tji"

@@ -1,0 +1,37 @@
+<h1>QA Leaderboard</h1>
+
+<table class="buglist">
+  <tr>
+    <thead>
+      <td colspan="<%= State::ALL_STATES.count + 1 %>">Statistics for Open Queues</td>
+    </thead>
+  </tr>
+  <% @group_scores.each do |group,status| -%>
+    <tr class="<%= cycle('bz_even', 'bz_odd') %>">
+      <td>
+        <%# Link to a filter that shows the advisories for that release... %>
+        <%= filter_link_helper_all(group, {'release'=>[@group_ids[group].to_s], 'group_by'=>'state'}) %>
+      </td>
+      <% State::ALL_STATES.each do |stat|%>
+        <% stat_count = status[stat] %>
+        <td>
+          <% if stat_count > 0 %>
+            <%# Link to a filter that shows the relevant advisories, ie with the specified state and release... %>
+            <%= filter_link_helper_all_types \
+                  "<big>#{stat_count}</big> #{state_display(stat,:short=>true)}".html_safe,
+                  {'release'=>[@group_ids[group].to_s], "show_state_#{stat}"=>'1', 'pagination_option'=>'250'},
+                  {},
+                  :style=>'font-size:120%;'
+            %>
+          <% end %>
+        </td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>
+<br/>
+
+<% if @most_tests_user %>
+<h3>QA engineer with the most errata tested</h3>
+<%= @most_tests_user.login_name + ' ' + @test_count.to_s %>
+<% end %>

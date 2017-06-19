@@ -1,0 +1,31 @@
+** Please see https://docs.engineering.redhat.com/x/dYDxAQ **
+
+<%= (team_member_usernames_from_inventory + ['nadams', 'cmedeiro', 'azhang', 'jorris', 'jgregusk']).join(', ') %>
+
+[errata] Update stage and production Errata Tool to version <%= short_name %>
+
+h2. Summary
+
+We're aiming to release Errata Tool <%= full_name %> to production later this week, (or early next week depending on final QE). Please let us know if this timing is not convenient.
+
+We'll provide the details about the final RPM when it's ready via this task as per usual.
+
+<% if teiid_update_required %>
+NB: There is a Teiid DDL schema change required, so we will need to coordinate the update with an update to Teiid. Further details will be provided.
+<% end %>
+
+Regards,
+
+[Errata Tool Team|https://docs.engineering.redhat.com/x/0IcEAQ].
+
+
+h2. Details
+
+* Schema changes: <% if schema_changes %>There are some schema changes, details TBA<% else %>None<% end %>
+* [Bug list|<%= bugs_link %>]
+* [Code diff (not finalised)|http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=release&id2=master]
+
+
+h2. Change log
+
+<%= changelog_text %>

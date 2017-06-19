@@ -1,0 +1,36 @@
+<% cdn_repo = container_repo.cdn_repo %>
+<%= cdn_repo ?
+  link_to(container_repo.name, variant_cdn_repo_path(cdn_repo.variant, cdn_repo)) :
+  container_repo.name %>
+<%= block_render('errata/container/build_tags') do %>
+  <h4>Docker Tags</h4>
+  <ul>
+    <% container_repo.tag_list.each do |tag| %>
+      <li><%= tag %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= block_render('errata/container/comparison') do %>
+  <% if container_repo.has_comparison? %>
+    <h4>Comparison With Previous Version</h4>
+    Previous version:
+    <%= container_repo.comparison_build ? brew_link(container_repo.comparison_build) : container_repo.comparison[:with_nvr] %><br>
+    <% container_repo.rpms.each do |key, rpms| %>
+      <br>
+      <h4><%= key.capitalize %> (<%= rpms.count %>)</h4>
+      <ul>
+        <% rpms.each do |name, brew_rpm| %>
+          <% if brew_rpm %>
+            <li><%= link_to(name, "#{Brew.base_url}/rpminfo?rpmID=#{brew_rpm.id_brew}") %></li>
+          <% else %>
+            <li><%= name %></li>
+          <% end %>
+        <% end %>
+      </ul>
+    <% end %>
+  <% else %>
+    <h4>Comparison Unavailable</h4>
+    <%= container_repo.comparison_reason_text %>
+  <% end %>
+<% end %>

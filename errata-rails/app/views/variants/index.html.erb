@@ -1,0 +1,33 @@
+<h1>Variants for <%= @product_version.name %></h1>
+
+<table class="bug_list">
+  <tr>
+  <% for column in Variant.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  <th colspan="3">Action</th>
+  </tr>
+
+<% for variant in @variants %>
+  <tr class="<%= cycle('bz_even', 'bz_odd') %>">
+    <td><%= link_to variant.name, :action => 'show', :id => variant %></td>
+  <% for column in Variant.content_columns.reject{|c|c.name=='name'} %>
+    <% col_name = column.name.gsub(/^tps_stream$/, "get_tps_stream") %>
+    <td><%=h variant.send(col_name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => variant %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => variant %></td>
+    <td>
+      <% if variant.enabled? %>
+        <%= link_to 'Disable', disable_product_version_variant_path(@product_version, variant), :confirm => 'Are you sure?', :method => :post  %>
+      <% else %>
+        <%= link_to 'Enable', enable_product_version_variant_path(@product_version, variant), :confirm => 'Are you sure?', :method => :post  %>
+      <% end %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br/>
+<br/>
+<%= link_to "Back to #{@product_version.name}", product_version_url(@product_version) %>

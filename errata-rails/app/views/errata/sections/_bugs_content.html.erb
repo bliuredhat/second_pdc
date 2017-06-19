@@ -1,0 +1,7 @@
+<%= render "short_long_issue_list",
+    :issues => @errata.bugs,
+    :issue_type => "bugs",
+    :label => "bugs",
+    :fields => headings_for_errata_bug,
+    :target => :row_for_errata_bug
+%>

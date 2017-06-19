@@ -1,0 +1,18 @@
+<div style="margin:1em 0.5em;" id="state-comment-container">
+<%= link_to 'Add Comment', '#', :id=>"add_comment_link", :style=>'padding-left:0.5em;', :class=>'btn btn-add-comment' %>
+<div class="state-comment-form" id="state_comment_form" style="display:none;">
+  <div style="float:right;padding-right:2em;">Char count: <span id="counter-state_comment_field"></span></div>
+  <%= form_tag({:action => :add_comment, :id => @errata, :cs=>(@comments_newest_first ? 'newest' : 'oldest') }, :remote => true) do %>
+    <span class="comment-header">
+      New comment by <%= @user.short_to_s %>:
+      <% unless @errata.notify_and_cc_users.include?(@user) %>
+        <span id="add_cc_container"><%= check_box_tag('add_cc', '1', !user_pref(:add_cc_unchecked)) %> Add me to CC list</span>
+      <% end %>
+    </span>
+    <%= text_area_tag 'comment', nil, :style => 'width:96%;margin-left:0.5em;padding:6px;', :wrap => 'soft', :id => 'state_comment_field' %>
+    <br/>
+    <%= submit_tag 'Add Comment', :disable_with => "Please wait...", :style=>'margin-left:0.5em;', :class=>'btn btn-primary', :id=>'add_comment_btn'  %>
+    <%= link_to 'Cancel', '#', :class=>'btn', :id=>'btn-cancel-add-comment' %>
+  <% end %>
+</div>
+</div>

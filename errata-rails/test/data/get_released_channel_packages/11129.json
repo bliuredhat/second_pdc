@@ -1,0 +1,258 @@
+{
+  "rhel-i386-client-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-workstation-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-i386-client-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-workstation-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-i386-client-optional-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-i386-client-optional-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-i386-server-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-workstation-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-i386-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-workstation-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-i386-workstation-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-workstation-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-i386-workstation-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-pkinit-openssl-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-workstation-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-ppc64-server-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc/krb5-debuginfo-1.8.2-3.el6_0.7.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc/krb5-devel-1.8.2-3.el6_0.7.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc/krb5-libs-1.8.2-3.el6_0.7.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc/krb5-server-ldap-1.8.2-3.el6_0.7.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-debuginfo-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-devel-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-libs-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-server-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-server-ldap-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-workstation-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-ppc64-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc/krb5-debuginfo-1.8.2-3.el6_0.7.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc/krb5-devel-1.8.2-3.el6_0.7.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc/krb5-libs-1.8.2-3.el6_0.7.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc/krb5-server-ldap-1.8.2-3.el6_0.7.ppc.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-debuginfo-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-devel-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-libs-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-server-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-server-ldap-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/ppc64/krb5-workstation-1.8.2-3.el6_0.7.ppc64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-s390x-server-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390/krb5-debuginfo-1.8.2-3.el6_0.7.s390.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390/krb5-devel-1.8.2-3.el6_0.7.s390.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390/krb5-libs-1.8.2-3.el6_0.7.s390.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390/krb5-server-ldap-1.8.2-3.el6_0.7.s390.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-debuginfo-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-devel-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-libs-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-pkinit-openssl-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-server-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-server-ldap-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-workstation-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-s390x-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390/krb5-debuginfo-1.8.2-3.el6_0.7.s390.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390/krb5-devel-1.8.2-3.el6_0.7.s390.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390/krb5-libs-1.8.2-3.el6_0.7.s390.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390/krb5-server-ldap-1.8.2-3.el6_0.7.s390.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-debuginfo-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-devel-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-libs-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-pkinit-openssl-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-server-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-server-ldap-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/s390x/krb5-workstation-1.8.2-3.el6_0.7.s390x.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm"
+  ],
+  "rhel-x86_64-client-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-client-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-client-optional-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-client-optional-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-hpc-node-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-hpc-node-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-hpc-node-optional-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-hpc-node-optional-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-server-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-server-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-workstation-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm"
+  ],
+  "rhel-x86_64-workstation-fastrack-6": [
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-debuginfo-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-devel-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-libs-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/i686/krb5-server-ldap-1.8.2-3.el6_0.7.i686.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/src/krb5-1.8.2-3.el6_0.7.src.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-debuginfo-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-devel-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-libs-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-pkinit-openssl-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-server-ldap-1.8.2-3.el6_0.7.x86_64.rpm",
+    "/mnt/redhat/brewroot/packages/krb5/1.8.2/3.el6_0.7/data/signed/fd431d51/x86_64/krb5-workstation-1.8.2-3.el6_0.7.x86_64.rpm"
+  ]
+}

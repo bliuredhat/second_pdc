@@ -1,0 +1,6 @@
+---
+vivd_user: vivd
+vivd_directory: /srv/vivd
+vivd_gerrit_script: "{{ vivd_directory }}/vivd-gerrit"
+vivd_gerrit_change_count: 20
+vivd_http_port: 8080

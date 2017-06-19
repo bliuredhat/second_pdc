@@ -1,0 +1,4 @@
+<h1>New Package Restriction for <%= @package_restriction.variant.name %></h1>
+<%= form_for(@package_restriction, :url => variant_package_restrictions_path) do |f| %>
+  <%= render 'form', :form => f %>
+<% end %>

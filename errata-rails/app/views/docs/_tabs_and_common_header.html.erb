@@ -1,0 +1,46 @@
+<%#
+  #
+  # The edit advisory and edit reviewer buttons
+  #
+-%>
+<%= render 'change_reviewer_modal', :errata=>@errata, :mode=>:modal %>
+<div style="float:right;" class="btn-group">
+  <%= link_to 'Edit Advisory', {:controller=>:errata, :action=>:edit, :id=>@errata}, :class => 'btn' %>
+  <%= render 'change_reviewer_modal', :mode=>:link %>
+</div>
+
+<%#
+  #
+  # Now the tabs
+  #
+-%>
+<%
+  links = [
+    ['show'                     , "View#{'/Approve' if current_user.can_approve_docs?}" ],
+    ['diff_history'             , 'Revision History' ],
+    ['doc_text_info'            , 'Doc Text Info'    ],
+    ['draft_release_notes_text' , 'Draft Text'       ],
+    ['draft_release_notes_xml'  , 'Draft XML'        ],
+  ]
+-%>
+<ul class="nav nav-pills">
+  <% links.each do |action,text| %>
+    <li class="<%= "active" if params[:action] == action %>"><%= link_to text, {:action => action, :id => @errata} %></li>
+  <% end %>
+</ul>
+
+<%#
+  #
+  # Show some hopefully useful details
+  #
+-%>
+<table>
+  <%= table_rows_helper([
+    [
+      'Advisory Status',      state_display(@errata),
+      'Release',              @errata.release.name,
+      'Docs Reviewer',        (@errata.docs_unassigned? ? content_tag(:i,'unassigned',:class=>'small light') : longer_mailto_link(@errata.doc_reviewer)),
+      'Docs Approval Status', @errata.docs_status_text,
+    ],
+  ], :labels=>true) %>
+</table>

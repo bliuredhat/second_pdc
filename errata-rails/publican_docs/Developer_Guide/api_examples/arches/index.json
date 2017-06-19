@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": 26,
+      "attributes": {
+        "active": true,
+        "name": "aarch64"
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
+        "active": false,
+        "name": "alpha"
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "active": true,
+        "name": "s390x"
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "active": false,
+        "name": "SRPMS"
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "active": true,
+        "name": "x86_64"
+      }
+    }
+  ]
+}

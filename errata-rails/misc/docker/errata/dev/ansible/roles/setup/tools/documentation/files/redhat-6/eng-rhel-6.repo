@@ -1,0 +1,6 @@
+# use on devel servers
+[eng-rhel-6]
+name=ENG Internal Candidate - $releasever - $basearch
+baseurl=http://download.devel.redhat.com/rel-eng/repos/eng-rhel-6/$basearch/
+gpgcheck=0
+enabled=0

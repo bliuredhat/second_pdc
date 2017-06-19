@@ -1,0 +1,34 @@
+development:
+  adapter: mysql2
+  database: <%= ENV['ET_DEV_DB_NAME'] || 'errata' %>
+  username: root
+  password: oW65l7rQK_aw
+  encoding: utf8
+  charset: utf8
+  collation: utf8_bin
+  host: <%= ENV['DB_PORT_3306_TCP_ADDR'] %>
+  port: <%= ENV['DB_PORT_3306_TCP_PORT'] %>
+
+staging:
+  adapter: mysql2
+  database: errata
+  username: root
+  password: oW65l7rQK_aw
+  host: localhost
+  encoding: utf8
+  charset: utf8
+  collation: utf8_bin
+  host: <%= ENV['DB_PORT_3306_TCP_ADDR'] %>
+  port: <%= ENV['DB_PORT_3306_TCP_PORT'] %>
+
+
+test:
+  adapter: mysql2
+  database: <%= ENV['ET_DEV_DBTEST_NAME'] || 'errata_test' %>
+  username: root
+  password: oW65l7rQK_aw
+  encoding: utf8
+  charset: utf8
+  collation: utf8_bin
+  host: <%= ENV['DB_PORT_3306_TCP_ADDR'] %>
+  port: <%= ENV['DB_PORT_3306_TCP_PORT'] %>

@@ -1,0 +1,87 @@
+Release Notes for Version 3.11.0
+================================
+
+Overview
+--------
+
+Release 3.11.0 is the first release in Errata Tool 3.11. It closes [54
+bugs and RFEs][buglist].
+
+Major enhancements in this release include a new Product Security
+Approval workflow step for RHSA, several API additions, revised and
+integrated API documentation, and TPS and RPMDiff scheduling
+improvements.
+
+Additionally, during the 3.10.6 development period, [7 bug
+fixes][hotfixes] were shipped in releases 3.10.6.1, 3.10.6.2, 3.10.6.3
+and 3.10.6.4, mostly consisting of changes to support the release of
+RHEL 7.1.
+
+<% sort_these_first %w[1167631 1142643 ] %>
+
+<%= all_highlight_content %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release 3.11.0][buglist]
+* [Full code diff for this release][diff1]
+* [Code diff since release 3.10.6.0][diff2]
+
+[buglist]: https://bugzilla.redhat.com/buglist.cgi?bug_id=990361%2C1040846%2C1099325%2C1101067%2C1101806%2C1102832%2C1102976%2C1123417%2C1125465%2C1127337%2C1135967%2C1138332%2C1139367%2C1142643%2C1147209%2C1157890%2C1159249%2C1165696%2C1167631%2C1168114%2C1168893%2C1176480%2C1176482%2C1176486%2C1176489%2C1178132%2C1179522%2C1179602%2C1179768%2C1179973%2C1180013%2C1180388%2C1181388%2C1183889%2C1183905%2C1184339%2C1184693%2C1188115%2C1188141%2C1188183%2C1188454%2C1188563%2C1188956%2C1189191%2C1189207%2C1189445%2C1190554%2C1190976%2C1191784%2C1197645%2C1169223%2C1171572%2C1186118%2C1003652
+[hotfixes]: https://bugzilla.redhat.com/buglist.cgi?quicksearch=1182839%2C1107888%2C1182790%2C1188483%2C1193261%2C1195084%2C1192813
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.11.0-0&id2=3.10.6.4-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=3.11.0-0&id2=3.10.6.0-0
+
+<%= all_include_content %>
+
+Process and Team Changes
+------------------------
+
+### Code coverage metrics
+
+Since the Errata Tool 3.10.6 release, the code coverage ratio (as
+reported by Jenkins using rcov) has increased slightly from 91.51% to
+92.04%.
+
+[![Rcov coverage report](images/3.11.0/rcov.png)](images/3.11.0/rcov.png)
+
+Increased code coverage means better maintainability, and a reduced chance of
+shipping regressions and new bugs. It also means we can more confidently
+refactor and improve existing code.
+
+What's Next
+-----------
+
+### Errata Tool 3.11.z
+
+The team will continue to select bugs and RFEs flagged as errata-3.11
+in Bugzilla for inclusion in two week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be 3.11.1.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see bugs currently scheduled for ET 3.11 take a look at [bugs flagged with
+errata-3.11 in Bugzilla][bugs3.11].
+
+### Errata Tool 3.12
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For details
+see [Errata Tool Bug Lists][buglists].
+
+To see what's currently scheduled take a look at [bugs flagged with
+errata-3.12][bugs3.12].
+
+If you are interested in being involved in Errata Tool planning please subscribe
+to [errata-dev-list][erratadevlist].
+
+[bugs3.11]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.11&bug_status=__open__
+[bugs3.12]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-3.12&bug_status=__open__
+[buglists]: https://docs.engineering.redhat.com/x/1AIjAQ
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list

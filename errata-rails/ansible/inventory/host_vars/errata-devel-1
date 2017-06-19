@@ -1,0 +1,10 @@
+---
+ansible_ssh_host: errata-devel.eng.bne.redhat.com
+
+rails_env: staging
+site_url: https://errata-devel.eng.bne.redhat.com/errata
+
+# The default includes qpid_service (see the group_vars)
+# but on this server we don't want to start qpid_service
+services:
+  - delayed_job

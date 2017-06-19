@@ -1,0 +1,43 @@
+<div class="btn-group" style="float:right;">
+  <%= link_to('Waiver History', {:action => :waivers_for_errata, :id => @errata}, :class=>'btn') %>
+  <%= link_to('RPMDiff Runs', {:action => :list, :id => @errata}, :class=>'btn') %>
+</div>
+<%= page_title_h1 %>
+
+<% if has_no_results_to_waive?(@waivable_results, @ackable_waivers) %>
+  <p>There are no results to be waived.</p>
+<% end %>
+
+<% if @waivable_results[:by_self].present? %>
+  <h2>Failures For Your Review</h2>
+  <p>The following RPMDiff results need review. "Failed" or "Needs Inspection" results must be remedied or waived for this advisory.</p>
+  <%= render :partial => 'request_waivers_form', :locals => {
+    :results => @waivable_results[:by_self]
+  } %>
+<% end %>
+
+<% if @waivable_results[:by_other].present? %>
+  <h2>Failures For Review</h2>
+  <p>The following RPMDiff results need review, but you don't have permission to waive them.</p>
+  <%= render :partial => 'request_waivers_table', :locals => {
+    :results => @waivable_results[:by_other]
+  } %>
+<% end %>
+
+<% if @ackable_waivers[:by_self].present? %>
+  <h2>Waivers For Your Review</h2>
+  <p>The following RPMDiff waivers need review. You have the ability to approve or reject each waiver.</p>
+  <%= render :partial => 'ack_waivers_form', :locals => {
+    :results => @ackable_waivers[:by_self]
+  } %>
+<% end %>
+
+<% if @ackable_waivers[:by_other].present? %>
+  <h2>Waivers For Review</h2>
+  <p>The following RPMDiff waivers need review, but you don't have the permission to approve or reject them.</p>
+  <%= render :partial => 'ack_waivers_table', :locals => {
+    :results => @ackable_waivers[:by_other]
+  } %>
+<% end %>
+
+<%= render 'report_bug_msg' %>

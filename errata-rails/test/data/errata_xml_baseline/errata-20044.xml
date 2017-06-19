@@ -1,0 +1,154 @@
+<advisory from="secalert@redhat.com" version="1.0">
+  <id>RHBA-2015:1395</id>
+  <pushcount>3</pushcount>
+  <product>Red Hat Enterprise Linux</product>
+  <type short="RHBA">Red Hat Bug Fix Advisory</type>
+  <synopsis xml:lang="en_US">rhn-client-tools bug fix update</synopsis>
+  <issued date="2015-07-22 05:33:00 UTC"></issued>
+  <updated date="2015-07-22 05:33:00 UTC"></updated>
+  <references>
+  <reference href="https://access.redhat.com/errata/RHBA-2015:1395" type="self"></reference>
+    <reference href="https://access.redhat.com/security/cve/CVE-1234-5678" type="cve"><cve>CVE-1234-5678</cve></reference>
+  </references>
+
+<topic xml:lang="en">
+<p>
+Updated rhn-client-tools packages that fix several bugs are now available for Red Hat Enterprise Linux 6.
+</p>
+</topic>
+
+<description xml:lang="en">
+<p>
+Red Hat Network Client Tools provide programs and libraries that allow a system to receive software updates from Red Hat Network.
+This update fixes the following bugs:
+* When the rhnpush command was executed with the --server option, and the sslCACert variable was pointing to a non-existent path, rhnpush failed even when the connection to the server used the http protocol instead of https.
+With this update, rhnpush searches for CA certificate only when it is necessary, which prevents the described failure from occurring. (BZ#871028)
+* Previously, the rhn_check command returned an exception when processing a script that contained non-ascii characters. With this update, rhn_check accepts non-ascii characters as expected. (BZ#1003790)
+* When executing the rhnpush command without any options, the command redundantly prompted for user credentials, and afterwards displayed a usage message about missing options. With this update, the command displays available options without asking for credentials. (BZ#1036586)
+* Red Hat Network Client Tools did not calculate the CPU socket information on certain systems properly. With this update, rhn-client-tools parse the /proc/cpuinfo file correctly and thus provide the correct CPU socket information for all systems. (BZ#1094776)
+* Several minor bugs have been fixed in various localizations of the Red Hat Network Client Tools GUI. (BZ#1147319, BZ#1147322, BZ#1147890, BZ#1147904, BZ#1147916)
+* Previously, when running the "firstboot --reconfig" command on the system that was already registered with the Red Hat Subscription Management, the boot procedure failed on the Choose Service page. This bug has been fixed, and the exception no longer occurs on registered systems. (BZ#1147425)
+Users of rhn-client-tools are advised to upgrade to these updated packages, which fix these bugs.
+</p>
+</description>
+
+<solution xml:lang="en">
+<p>
+Before applying this update, make sure all previously released errata
+relevant to your system have been applied.
+For details on how to apply this update, refer to:
+https://access.redhat.com/articles/11258
+</p>
+</solution>
+<rpmlist>
+<product short="6Client">
+<name>Red Hat Enterprise Linux Desktop (v. 6)</name>
+<file arch="SRPMS" epoch="0" name="rhn-client-tools" release="32.el6" version="1.0.0.1">
+<filename>rhn-client-tools-1.0.0.1-32.el6.src.rpm</filename>
+<sum type="md5">b4c6329390b9e9e9ba55fc8c63ec83b9</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-check" release="32.el6" version="1.0.0.1">
+<filename>rhn-check-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">48f096f4fea8566a9a291e3d2cb4dd35</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-client-tools" release="32.el6" version="1.0.0.1">
+<filename>rhn-client-tools-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">2a6fc4c02eb0e8a7d1ffe372b7702530</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-setup" release="32.el6" version="1.0.0.1">
+<filename>rhn-setup-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">d869892bd5105a9300e7ad2f89c80852</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-setup-gnome" release="32.el6" version="1.0.0.1">
+<filename>rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">4b960e77371adb65a27a3e3b8a6e9b44</sum>
+</file>
+
+</product>
+<product short="6ComputeNode">
+<name>Red Hat Enterprise Linux HPC Node (v. 6)</name>
+<file arch="SRPMS" epoch="0" name="rhn-client-tools" release="32.el6" version="1.0.0.1">
+<filename>rhn-client-tools-1.0.0.1-32.el6.src.rpm</filename>
+<sum type="md5">b4c6329390b9e9e9ba55fc8c63ec83b9</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-check" release="32.el6" version="1.0.0.1">
+<filename>rhn-check-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">48f096f4fea8566a9a291e3d2cb4dd35</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-client-tools" release="32.el6" version="1.0.0.1">
+<filename>rhn-client-tools-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">2a6fc4c02eb0e8a7d1ffe372b7702530</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-setup" release="32.el6" version="1.0.0.1">
+<filename>rhn-setup-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">d869892bd5105a9300e7ad2f89c80852</sum>
+</file>
+
+</product>
+<product short="6ComputeNode-optional">
+<name>Red Hat Enterprise Linux HPC Node Optional (v. 6)</name>
+<file arch="noarch" epoch="0" name="rhn-setup-gnome" release="32.el6" version="1.0.0.1">
+<filename>rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">4b960e77371adb65a27a3e3b8a6e9b44</sum>
+</file>
+
+</product>
+<product short="6Server">
+<name>Red Hat Enterprise Linux Server (v. 6)</name>
+<file arch="SRPMS" epoch="0" name="rhn-client-tools" release="32.el6" version="1.0.0.1">
+<filename>rhn-client-tools-1.0.0.1-32.el6.src.rpm</filename>
+<sum type="md5">b4c6329390b9e9e9ba55fc8c63ec83b9</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-check" release="32.el6" version="1.0.0.1">
+<filename>rhn-check-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">48f096f4fea8566a9a291e3d2cb4dd35</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-client-tools" release="32.el6" version="1.0.0.1">
+<filename>rhn-client-tools-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">2a6fc4c02eb0e8a7d1ffe372b7702530</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-setup" release="32.el6" version="1.0.0.1">
+<filename>rhn-setup-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">d869892bd5105a9300e7ad2f89c80852</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-setup-gnome" release="32.el6" version="1.0.0.1">
+<filename>rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">4b960e77371adb65a27a3e3b8a6e9b44</sum>
+</file>
+
+</product>
+<product short="6Workstation">
+<name>Red Hat Enterprise Linux Workstation (v. 6)</name>
+<file arch="SRPMS" epoch="0" name="rhn-client-tools" release="32.el6" version="1.0.0.1">
+<filename>rhn-client-tools-1.0.0.1-32.el6.src.rpm</filename>
+<sum type="md5">b4c6329390b9e9e9ba55fc8c63ec83b9</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-check" release="32.el6" version="1.0.0.1">
+<filename>rhn-check-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">48f096f4fea8566a9a291e3d2cb4dd35</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-client-tools" release="32.el6" version="1.0.0.1">
+<filename>rhn-client-tools-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">2a6fc4c02eb0e8a7d1ffe372b7702530</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-setup" release="32.el6" version="1.0.0.1">
+<filename>rhn-setup-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">d869892bd5105a9300e7ad2f89c80852</sum>
+</file>
+<file arch="noarch" epoch="0" name="rhn-setup-gnome" release="32.el6" version="1.0.0.1">
+<filename>rhn-setup-gnome-1.0.0.1-32.el6.noarch.rpm</filename>
+<sum type="md5">4b960e77371adb65a27a3e3b8a6e9b44</sum>
+</file>
+
+</product>
+<rpmtext xml:lang="en_US">
+  <p>These packages are GPG signed by Red Hat for security. Our key and
+  details on how to verify the signature are available from <a href="https://access.redhat.com/security/team/key/">https://access.redhat.com/security/team/key/</a></p>
+</rpmtext>
+</rpmlist>
+
+<contact xml:lang="en_US">
+  <p>The Red Hat security contact is secalert@redhat.com. More
+  contact details at <a href="https://access.redhat.com/security/team/contact/">https://access.redhat.com/security/team/contact/</a></p>
+</contact>
+</advisory>

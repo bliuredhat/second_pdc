@@ -1,0 +1,33 @@
+<%
+rerun = File.file?('rerun.txt') ? IO.read('rerun.txt') : ""
+rerun_opts = if rerun.to_s.strip.empty?
+               "--format #{ENV['CUCUMBER_FORMAT'] || 'progress'} features/local"
+             else
+                "--format #{ENV['CUCUMBER_FORMAT'] || 'pretty'} #{rerun}"
+             end
+
+std_opts = %{
+  --format #{ENV['CUCUMBER_FORMAT'] || 'pretty'}
+  --strict
+  --tags ~@wip
+}
+
+local_opts = "#{std_opts} --require features/local/"
+remote_opts = "#{std_opts} --require features/remote/"
+
+parallel_opts = %{
+  --require features/local/
+  --exclude features/remote/
+  --format junit --out features/reports/junit
+  --format json  --out features/reports/#{ENV['TEST_ENV_NUMBER']||1}_report.json
+  #{std_opts}
+}
+
+%>
+
+parallel: <%= parallel_opts %> features/local/
+default: <%= local_opts %> features/local/
+wip: --tags @wip:3 --wip features/local/
+rerun: <%= rerun_opts %> --format rerun --out rerun.txt --strict --tags ~@wip
+
+remote: <%= remote_opts %> features/remote

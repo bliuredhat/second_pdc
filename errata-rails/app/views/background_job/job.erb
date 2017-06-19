@@ -1,0 +1,19 @@
+<%= page_title_h1 %>
+
+<b>Priority:</b> <%= @job.priority %><br/>
+<b>Created At:</b> <%= long_date @job.created_at %><br/>
+<% if @job.locked_at? %>
+  <b>Job is being run by process:</b> <%= @job.locked_by %><br/>
+<% else %>
+  <b>Next Run At:</b>
+  <%= long_date(@job.run_at) %><br/>
+<% end %>
+<b>Handler:</b><br/><pre><%= @job.handler %></pre>
+<% if @job.last_error? %>
+  <p>
+    <h3>Last Job Failed:</h3>
+    <b>Attempts: </b> <%= @job.attempts %><br/>
+    <b>Last Error Log:</b>
+    <pre><%= @job.last_error %></pre>
+  </p>
+<% end  %>

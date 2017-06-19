@@ -1,0 +1,107 @@
+<%
+#
+# Beware!
+# This is a ERB template for generating an ERB template
+# (for generating Markdown for generating DocBook...)
+#
+
+# For ordinalize method
+require 'active_support/inflector'
+
+%>Release Notes for Version <%= xyz %>
+================================
+
+Overview
+--------
+
+Release <%= xyz %> is the <%= ActiveSupport::Inflector.ordinalize(z.to_i + 1) %> release in
+the Errata Tool <%= xy %> development period. It closes [<%= bug_count %> bugs and RFEs][buglist].
+
+<!-- Replace with a few sentences about the main highlights. -->
+This release of Errata Tool includes a number of bug fixes and enhancements.
+
+<!-- Uncomment this if there was a hotfix: -->
+<!-- Additionally, during the <%= xyz %> development period, an additional [N bug
+fixes][hotfixes] were shipped in <%= prev_xyz %>.1. -->
+
+<!-- Specify any bug ids that should be sorted higher than others. -->
+<%= '<'+'% sort_these_first %w[ ] %'+'>' %>
+
+<%= '<'+'%= all_highlight_content %'+'>' %>
+
+(See below for more information).
+
+### Related Resources
+
+* [Release Announcements][announce]
+* [Bug List for Errata Tool Release <%= xyz %>][buglist]
+* [Full code diff for this release][diff1]
+
+<!-- If there was a hotfix: -->
+<!-- * [Full code diff for this release][diff2]
+* [Code diff since <%= prev_xyz %>][diff1] -->
+
+[buglist]: <%= get_bug_list_from_changelog %>
+[announce]: https://docs.engineering.redhat.com/x/Xors
+[diff1]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=<%= xyz %>-0&id2=<%= prev_xyz %>-0
+[diff2]: http://git.app.eng.bos.redhat.com/errata-rails.git/diff/?id=<%= xyz %>-0&id2=<%= prev_xyz %>.1-0
+
+<!-- [hotfixes]: https://bugzilla.redhat.com/buglist.cgi?bug_id=... -->
+
+<%= '<'+'%= all_include_content %'+'>' %>
+
+<!-- Optional extras... -->
+<!--
+## Process and Team Changes
+
+### Code coverage
+
+...
+
+### Team changes
+
+...
+
+### Anything else relevant
+
+...
+-->
+
+What's Next
+------------
+
+### Errata Tool <%= xy %>.z
+
+<!-- This will need some rewording if it's the last release before a Y increment -->
+
+The team will continue to select bugs and RFEs flagged as errata-<%= xy %>
+in Bugzilla for inclusion in three-week sprints. Once enough content is
+verified and ready to ship we will do an end-of-sprint release. The
+next release in this series will be <%= next_xyz %>.
+
+To see current work in progress take a look at the [scrum board in
+JIRA][scrumboard].
+
+To see what's currently scheduled for ET <%= xy %> take a look at [bugs flagged with
+errata-<%= xy %> in Bugzilla][bugs_this] or the [Errata Tool Road Map][roadmap].
+
+### Errata Tool <%= next_xy %>
+
+The planning and backlog for Errata Tool is managed in Bugzilla. For more details
+see [here][schedulingfaq].
+
+To see what's currently scheduled for Errata Tool <%= next_xy %> take a look at [bugs
+flagged with errata-<%= next_xy %>][bugs_next].
+
+If you are interested in being involved in Errata Tool planning, please subscribe
+to [errata-dev-list][erratadevlist] and vote on the bugs and features in the
+backlog that would benefit you most.  To vote for a backlog item simply click
+the 'vote' link beside the Severity field when viewing the item then confirm
+your selection on the next page.  Each user gets a maximum of ten votes.
+
+[bugs_this]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-<%= xy %>&bug_status=__open__
+[bugs_next]: https://bugzilla.redhat.com/buglist.cgi?query_format=advanced&product=Errata%20Tool&f1=flagtypes.name&o1=substring&v1=errata-<%= next_xy %>&bug_status=__open__
+[schedulingfaq]: https://docs.engineering.redhat.com/x/Zz8OAg
+[scrumboard]: https://projects.engineering.redhat.com/secure/RapidBoard.jspa?rapidView=401
+[erratadevlist]: http://post-office.corp.redhat.com/mailman/listinfo/errata-dev-list
+[roadmap]: https://docs.engineering.redhat.com/x/5I-lAQ

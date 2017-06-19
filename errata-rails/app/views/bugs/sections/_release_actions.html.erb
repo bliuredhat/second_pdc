@@ -1,0 +1,13 @@
+<div class="btn-group">
+  <% if @release %>
+    <% if current_user.can_sync_component_list? %>
+      <%= link_to "Sync component list with Bugzilla", {:action => :troubleshoot_update_approved_components, :bug_id => @bug, :release_id => @release}, :method=>:post, :class=>'btn' %>
+    <% end %>
+    <%= block_render 'shared/more_button_menu', :right => true do %>
+      <li><%= link_to "View #{@release.name} Approved Components & Bugs", {:controller=>:bugs, :action=>:approved_components, :id=>@release.url_name} %></li>
+      <li><%= link_to 'View Approved Components & Bugs', {:controller=>:bugs, :action=>:approved_components} %></li>
+    <% end %>
+  <% else %>
+    <%= link_to 'View Approved Components & Bugs', {:controller=>:bugs, :action=>:approved_components}, :class=>'btn' %>
+  <% end %>
+</div>

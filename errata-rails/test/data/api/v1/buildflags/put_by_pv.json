@@ -1,0 +1,31 @@
+# HTTP 201
+[
+  {
+    "build": {
+      "id": 72592,
+      "nvr": "classads-1.0-2.el4"
+    },
+    "file_type": "rpm",
+    "flags": [
+      "buildroot-push"
+    ],
+    "product_version": {
+      "id": 71,
+      "name": "RHEL-4-MRG-Grid-1.0"
+    }
+  },
+  {
+    "build": {
+      "id": 73246,
+      "nvr": "condor-7.0.2-4.el4"
+    },
+    "file_type": "rpm",
+    "flags": [
+      "buildroot-push"
+    ],
+    "product_version": {
+      "id": 71,
+      "name": "RHEL-4-MRG-Grid-1.0"
+    }
+  }
+]

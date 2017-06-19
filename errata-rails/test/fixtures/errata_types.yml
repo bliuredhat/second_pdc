@@ -1,0 +1,25 @@
+--- 
+errata_type_00001: 
+  description: Red Hat Bug Fix Advisory
+  id: 1
+  name: RHBA
+errata_type_00002: 
+  description: Red Hat Enhancement Advisory
+  id: 2
+  name: RHEA
+errata_type_00003: 
+  description: Red Hat Security Advisory
+  id: 3
+  name: RHSA
+errata_type_00004:
+  description: Red Hat Bug Fix Advisory (PDC)
+  id: 4
+  name: PdcRHBA
+errata_type_00005:
+  description: Red Hat Enhancement Advisory (PDC)
+  id: 5
+  name: PdcRHEA
+errata_type_00006:
+  description: Red Hat Security Advisory (PDC)
+  id: 6
+  name: PdcRHSA

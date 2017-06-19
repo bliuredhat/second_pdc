@@ -1,0 +1,4 @@
+dependencies:
+    - { role: common }
+    - { role: setup/distro/repos }
+    - { role: setup/distro/upgrade }

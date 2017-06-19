@@ -1,0 +1,6 @@
+---
+sender: "{{ email_addresses.current_user }}"
+# Let's send it just to ourselves so we can manually add any build
+# specific information before forwarding it to other team members.
+recipients: "{{ [ email_addresses.current_user ] }}"
+suggested_recipients: "{{ email_addresses.developers + email_addresses.qe }}"

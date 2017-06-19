@@ -1,0 +1,44 @@
+{
+  "rh-i386-desktop-4-fastrack": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/i386/nautilus-2.8.1-6.EL4.i386.rpm"
+  ],
+  "rh-x86_64-desktop-4": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/x86_64/nautilus-2.8.1-6.EL4.x86_64.rpm"
+  ],
+  "rh-x86_64-desktop-4-fastrack": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/x86_64/nautilus-2.8.1-6.EL4.x86_64.rpm"
+  ],
+  "rhel-i386-as-4": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/i386/nautilus-2.8.1-6.EL4.i386.rpm"
+  ],
+  "rhel-i386-as-4-fastrack": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/i386/nautilus-2.8.1-6.EL4.i386.rpm"
+  ],
+  "rhel-i386-ws-4": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/i386/nautilus-2.8.1-6.EL4.i386.rpm"
+  ],
+  "rhel-i386-ws-4-fastrack": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/i386/nautilus-2.8.1-6.EL4.i386.rpm"
+  ],
+  "rhel-ia64-ws-4": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/ia64/nautilus-2.8.1-6.EL4.ia64.rpm"
+  ],
+  "rhel-ia64-ws-4-fastrack": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/ia64/nautilus-2.8.1-6.EL4.ia64.rpm"
+  ],
+  "rhel-x86_64-as-4-fastrack": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/x86_64/nautilus-2.8.1-6.EL4.x86_64.rpm"
+  ],
+  "rhel-x86_64-es-4": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/x86_64/nautilus-2.8.1-6.EL4.x86_64.rpm"
+  ],
+  "rhel-x86_64-es-4-fastrack": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/x86_64/nautilus-2.8.1-6.EL4.x86_64.rpm"
+  ],
+  "rhel-x86_64-ws-4": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/x86_64/nautilus-2.8.1-6.EL4.x86_64.rpm"
+  ],
+  "rhel-x86_64-ws-4-fastrack": [
+    "/mnt/redhat/brewroot/packages/nautilus/2.8.1/6.EL4/data/signed/db42a60e/x86_64/nautilus-2.8.1-6.EL4.x86_64.rpm"
+  ]
+}

@@ -1,0 +1,21 @@
+--- 
+multi_product_cdn_repo_map_00001: 
+  id: 1
+  destination_cdn_repo_id: 50
+  destination_product_version_id: 252
+  origin_cdn_repo_id: 23
+  origin_product_version_id: 149
+  package_id: 16644
+  user_id: 174587
+  created_at: 2013-04-01 18:49:01 Z
+  updated_at: 2013-04-01 18:49:01 Z
+multi_product_cdn_repo_map_00002: 
+  id: 2
+  destination_cdn_repo_id: 156
+  destination_product_version_id: 155
+  origin_cdn_repo_id: 23
+  origin_product_version_id: 149
+  package_id: 16217
+  user_id: 174587
+  created_at: 2013-04-01 18:49:01 Z
+  updated_at: 2013-04-01 18:49:01 Z

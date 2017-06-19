@@ -1,0 +1,14 @@
+<%= page_title_h1 %>
+<% if @map.empty? %>
+All builds are signed
+<% end %>
+<% @map.keys.each do |nvr| %>
+  <p><b>Brew Build:</b> <%= nvr %> <b>Sig Key</b>: <%= @map[nvr][:sig_key_id] %> - <%= @map[nvr][:sig_key_name] %></p>
+  <ul>
+  <% @map[nvr][:rpms].each do |rpm| %>
+    <li>
+      <%= rpm %>
+    </li>
+  <% end %>
+  </ul>
+<% end %>

@@ -1,0 +1,9 @@
+{
+  "sblim-cim-client2": [
+    "6Server",
+    "6Server-RHEV-Hypervisor",
+    "6Server-optional",
+    "6Workstation",
+    "6Workstation-optional"
+  ]
+}

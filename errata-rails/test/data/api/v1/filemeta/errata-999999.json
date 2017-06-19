@@ -1,0 +1,4 @@
+# HTTP 404
+{
+  "error": "Unable to find errata with id: 999999: Bad errata id given: 999999"
+}

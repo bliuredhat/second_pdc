@@ -1,0 +1,17 @@
+<%= page_title_h1 %>
+<% row_func = lambda do |e|
+   [errata_link(e),
+   "#{e.synopsis}",
+   "#{e.assigned_to.to_s}",
+   "#{e.status.to_s}"]
+end
+ %>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Advisory','Synopsis', 'QE Owner', 'Status'],
+:func => row_func,
+:row_items => @errata
+}) %>
+
+
+

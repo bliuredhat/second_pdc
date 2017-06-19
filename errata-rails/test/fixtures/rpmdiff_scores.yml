@@ -1,0 +1,56 @@
+--- 
+rpmdiff_score_-0001: 
+  description: Duplicate
+  html_color: ""
+  id: -1
+  score: -1
+#------------------------------------------------------------------------------
+# * Records with id zero in fixtures get loaded with an autoincrement id.
+#   Also we get a mysql error about duplicate records when running tests.
+#   So going to change this record's id arbitrarily to 10 instead of zero.
+# * In app/model/rpmdiff_scores we define PASSED = 0 and set_primary_key to
+#   'score', hence this fixture change could potentially cause test failures.
+# * We should probably give this some more attention, see Bug 800216.
+#-------------------------------------------------------------------------------
+#rpmdiff_score_00000: 
+rpmdiff_score_00010: 
+  description: Passed
+  html_color: "#6bFF6b"
+#  id: 0
+  id: 10
+  score: 0
+rpmdiff_score_00001: 
+  description: Info
+  html_color: "#00a37f"
+  id: 1
+  score: 1
+rpmdiff_score_00002: 
+  description: Waived
+  html_color: "#00DD00"
+  id: 2
+  score: 2
+rpmdiff_score_00003: 
+  description: Needs inspection
+  html_color: "#FFFF00"
+  id: 3
+  score: 3
+rpmdiff_score_00004: 
+  description: Failed
+  html_color: "#FF0000"
+  id: 4
+  score: 4
+rpmdiff_score_00498: 
+  description: Test in progress
+  html_color: "#FFFFFF"
+  id: 498
+  score: 498
+rpmdiff_score_00499: 
+  description: Unpacking files
+  html_color: "#FFFFFF"
+  id: 499
+  score: 499
+rpmdiff_score_00500: 
+  description: Queued for test
+  html_color: "#FFFFFF"
+  id: 500
+  score: 500

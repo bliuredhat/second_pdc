@@ -1,0 +1,46 @@
+<% stripped_params = params.delete_if { |k,v| %w[quality_responsibility_id product_id release_id].include?(k) } %>
+
+<div class="small light">
+  <% if @release_filter || @product_filter || @qe_team_filter %>
+    <% [@release_filter, @product_filter, @qe_team_filter].each do |filter| %>
+      <% if filter %>
+        Filtering by <%= filter.class.name.titleize %> <%= 'Release' if filter.is_a?(Release) %> <b>'<%= filter.respond_to?(:short_name) ? filter.short_name : filter.name %>'</b>.
+      <% end %>
+    <% end %>
+    <%= link_to '&times; Remove filter'.html_safe, stripped_params, :class=>'btn btn-mini' %>
+  <% else %>
+    <span class="superlight">Click a product name, release name, or QE Team name to filter.</span>
+  <% end %>
+</div>
+<% @jobs.group_by { |job|
+  [
+    link_to(job.errata.product.short_name, stripped_params.merge(:product_id=>job.errata.product.id)),
+    link_to(job.errata.release.name,       stripped_params.merge(:release_id=>job.errata.release.id))
+  ].join(" / ").html_safe
+}.each do |prod_release_title, job_list| %>
+  <h1 style="margin-top:1em;"><%= prod_release_title %></h1>
+
+  <%= render("shared/bz_table", {
+    :no_tablesort => true,
+    :headers => ['ID', 'RHNQA', 'Arch', 'Variant','Config','TPS Stream', 'Advisory', 'Product', 'Release', 'QE Team', 'QE Owner' ],
+
+    :func => lambda { |job| [
+      link_to(job.id, :action => (job.rhnqa? ? 'rhnqa_results' : 'errata_results'), :id => job.run_id),
+      (image_tag( "icon_yes.gif",  :alt => "Yes") if job.rhnqa?),
+      job.arch.name,
+      job.variant.name,
+      job.config,
+      job.tps_stream,
+      errata_link(job.errata) + " " + job.errata.synopsis,
+      link_to(job.errata.product.short_name,          stripped_params.merge(:product_id=>job.errata.product.id)),
+      link_to(job.errata.release.name,                stripped_params.merge(:release_id=>job.errata.release.id)),
+      link_to(job.errata.quality_responsibility.name, stripped_params.merge(:quality_responsibility_id=>job.errata.quality_responsibility.id)),
+      job.errata.assigned_to.to_s,
+    ]},
+
+    :group_by_func => lambda { |job| job.errata.quality_responsibility.name },
+
+    :row_items => job_list
+  }) %>
+
+<% end %>

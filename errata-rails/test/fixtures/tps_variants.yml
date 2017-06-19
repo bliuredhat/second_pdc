@@ -1,0 +1,31 @@
+---
+tps_variant_1:
+  id: 1
+  name: UNKNOWN
+tps_variant_2:
+  id: 2
+  name: AS
+tps_variant_3:
+  id: 3
+  name: Client
+tps_variant_4:
+  id: 4
+  name: Server
+tps_variant_5:
+  id: 5
+  name: Workstation
+tps_variant_6:
+  id: 6
+  name: ComputeNode
+tps_variant_7:
+  id: 7
+  name: WebServer
+tps_variant_8:
+  id: 8
+  name: ES
+tps_variant_9:
+  id: 9
+  name: WS
+tps_variant_10:
+  id: 10
+  name: Desktop

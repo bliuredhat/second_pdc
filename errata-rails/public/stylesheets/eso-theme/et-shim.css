@@ -1,0 +1,62 @@
+table.buglist {
+  font-size: 12px;
+  box-shadow: 1px 1px 1px #dddddd, -1px -1px 1px #dddddd, -1px 1px 1px #dddddd, 1px -1px 1px #dddddd;
+  margin-bottom: 2em; }
+  table.buglist thead tr {
+    background-color: #dcdcdc;
+    box-shadow: 0 7px 14px rgba(255, 255, 255, 0.8) inset; }
+  table.buglist tr td,
+  table.buglist tr th {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid #cdcdcd;
+    text-align: left;
+    color: #444; }
+  table.buglist tr th {
+    border-left: 1px solid #bbb;
+    color: #666;
+    border-bottom: 1px solid #bbb;
+    font-weight: bold; }
+  table.buglist tr th:first-child,
+  table.buglist tr td:first-child {
+    border-left: none; }
+  table.buglist tr.odd {
+    background-color: #f3f3f3; }
+  table.buglist tr.even {
+    background-color: white; }
+  table.buglist tr.bz_odd {
+    background-color: #eee; }
+  table.buglist tr.bz_even {
+    background-color: white; }
+  table.buglist tr.info.bz_odd {
+    background-color: #cde; }
+  table.buglist tr.info.bz_even {
+    background-color: #def; }
+  table.buglist tr {
+    border-bottom: 1px solid #ddd; }
+  table.buglist td {
+    border-style: none!important;
+    padding: 3px 6px!important; }
+  table.buglist th {
+    padding: 8px 5px 5px 5px!important;
+    line-height: 95%;
+    vertical-align: bottom; }
+
+td {
+  padding: 0.4em 0.6em; }
+
+
+.ESO_datatable_top_bolt_on {
+  border: 1px solid #cdcdcd;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  border-top: 1px solid #cdcdcd;
+  border-left: 1px solid #cdcdcd;
+  border-right: 1px solid #cdcdcd;
+  padding: 1em; }

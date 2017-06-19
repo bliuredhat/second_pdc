@@ -1,0 +1,73 @@
+<%#
+  This is is reused by details_actions with minor variations.
+  When rendered from details_actions will pass in a local called `details_mode`
+%>
+<% in_details_mode = defined?(details_mode) && details_mode %>
+
+<%# Modal for change state form. Starts hidden and empty.
+    Populated by AJAX. See Change State button below.  %>
+<div class="modal" id="change_state_modal" style="display:none;"
+     data-remote-url="<%= url_for(:controller => :errata, :action => 'modal_change_state', :id => @errata) %>">
+</div>
+
+<%# Modal for changing owner. Starts hidden and empty.
+    Populated by AJAX. See Change QA Owner/Group button below. %>
+<div class="modal taller-modal" id="change_owner_modal" style="display:none;"
+     data-remote-url="<%= url_for(:controller => :errata, :action => 'modal_change_owner', :id => @errata) %>">
+</div>
+
+<%# Modal for changing docs reviewer. Starts hidden. See Change Docs Reviewer button below. %>
+<div class="modal slightly-taller-modal" id="change_docs_reviewer_modal" style="display:none;"
+     data-remote-url="<%= url_for(:controller => :errata, :action => 'modal_change_docs_reviewer', :id => @errata, :back_to=>(in_details_mode ? 'details' : 'view')) %>">
+</div>
+
+<%# Modal for viewing dependencies. Starts hidden. See 'View Depenencies' button below.  %>
+<div class="modal" id="view_dependencies" style="display:none;">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h3>Related Advisories for <%= @errata.advisory_name %></h3>
+  </div>
+  <div class="modal-body"><%= render "dependency_graph", :errata=>@errata, :hide_edit_buttons=>true %></div>
+  <div class="modal-footer">
+      <%= link_to 'Cancel', "#", :class=>'btn btn-cancel-modal' %>
+      <%= link_to("Edit", { :action => :edit_depends_on, :id => @errata }, :class=>'btn') if @errata.can_edit_dependencies?  %>
+  </div>
+</div>
+
+<% unless in_details_mode %>
+  <div class="btn-group text-buttons">
+    <%# (There is a user preference to decide if they should start with the full view or the brief view). %>
+    <%= link_to 'Show brief details', '#', :class => 'details-toggle info_full_brief_details', :style=>show_if_user_pref(:show_full_info) %>
+    <%= link_to 'Show full details', '#', :class => 'details-toggle info_full_brief_details', :style=>hide_if_user_pref(:show_full_info) %>
+  </div>
+<% end %>
+
+<div class="btn-group" id="info-btn-group">
+  <%= link_to 'Change QA Owner/Group', "#", :class => 'btn open-modal', :data => { 'modal-id' => 'change_owner_modal' } %>
+  <%= link_to 'Change Docs Reviewer', "#", :class => 'btn open-modal', :data => { 'modal-id' => 'change_docs_reviewer_modal' } %>
+  <%= link_to 'View Dependencies', "#", :class => 'btn', :data => { 'modalid' => 'view_dependencies' } %>
+  <%= block_render 'shared/more_button_menu', :right => true do %>
+    <li><%= link_to("Edit Advisory",     { :action => :edit,            :id => @errata }) if @errata.allow_edit? %></li>
+    <li><%= link_to("Edit Dependencies", { :action => :edit_depends_on, :id => @errata }) if @errata.can_edit_dependencies? %></li>
+    <li><%= link_to('Edit CC List',      { :action => :edit_cc_list,    :id => @errata }) %></li>
+    <li><%= link_to('Edit Batch',        { :action => :edit_batch,      :id => @errata }) if @errata.can_edit_batch? %></li>
+    <li><%= link_to('Edit Notes',        { :action => :edit_notes,      :id => @errata }) %></li>
+    <li><%= link_to('Change State', "#", :class=>'open-modal', :data => { 'modal-id' => 'change_state_modal' }) %></li>
+    <li class="divider"></li>
+
+    <% if in_details_mode %>
+      <li><%= link_to("View Progress (Summary tab)", { :action => :view, :id => @errata }) %></li>
+    <% else %>
+      <li><%= link_to("View All Info (Details tab)", { :action => :details, :id => @errata }) %></li>
+    <% end %>
+    <li><%= link_to("View Docs",       { :controller => :docs, :action => :show, :id => @errata }) %></li>
+    <li class="divider"></li>
+
+    <li><%= link_to("View as HTML",    { :controller => :docs, :action => :show, :id => @errata, :nolayout => 1 }) %></li>
+    <li><%= link_to("View as Text",    { :action => :show_text, :id => @errata }) %></li>
+    <li><%= link_to("View as XML",     { :action => :show_xml,  :id => @errata }) %></li>
+    <% if @errata.supports_oval? %>
+      <li><%= link_to("View as OVAL",  { :controller => :push, :action => :oval, :id => @errata }) %></li>
+    <% end %>
+  <% end %>
+</div>

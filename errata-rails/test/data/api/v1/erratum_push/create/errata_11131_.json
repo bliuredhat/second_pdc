@@ -1,0 +1,7 @@
+### If you send an empty array in, nothing happens and you
+### get an empty array back.  Status is 200 rather than 201
+### since nothing was created.
+# HTTP 200
+[
+
+]

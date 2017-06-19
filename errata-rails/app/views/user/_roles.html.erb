@@ -1,0 +1,53 @@
+<div style="font-size:85%">
+Notes:<ul style="padding-top:0px;margin-top:0px;">
+  <li>Unset 'Enabled' if you want to remove a user's access to Errata entirely. The 'Errata' role should remain set always.</li>
+  <li>A user with the 'Readonly' role set effectively has all their other roles disabled, even if those roles are still checked below.</li>
+  <% if @maybe_machine_user %>
+    <li>This user does not exist in OrgChart. It may be a <b>machine user</b>.</li>
+  <% elsif @user.login_name.present? %>
+    <li>You can <%= link_to 'view this user in OrgChart', orgchart_url_for_user(@user.login_name), :target=>'_blank' %> to check their position and supervisor.</li>
+  <% end %>
+</ul>
+</div>
+
+<% roles = Role.find(:all, :order => 'name') %>
+<table class='buglist' cellspacing="0" border="0">
+  <thead><tr><th colspan="3">Enable/Disable User</th></tr></thead>
+  <tbody>
+    <tr class='bz_even'>
+      <td><%= f.check_box :enabled %></td>
+      <td><b>Enabled</b></td>
+      <td>Disabled users will have no access to Errata System.
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+  </tbody>
+
+  <thead><tr><th colspan="3">"Special" User Roles</th></tr></thead>
+  <tbody>
+    <% roles.select(&:is_special?).each do |r| -%>
+      <%= render 'role_checkbox', :r => r, :user => @user %>
+    <% end -%>
+    <tr><td>&nbsp;</td></tr>
+  </tbody>
+
+  <thead><tr><th colspan="3">User Roles</th></tr></thead>
+  <tbody>
+    <% if !@user.enabled? || @user.in_role?('readonly') %>
+      <tr style="background-color:#fcc"><td colspan="3">
+        <span style="color:red;font-weight:bold;">
+          **
+          <% if !@user.enabled? %>
+            These roles are inactive since the user is currently disabled
+          <% else %>
+            These roles are currently being overridden by the 'Readonly' role
+          <% end %>
+          **
+        </span>
+      </td></tr>
+    <% end %>
+
+    <% roles.select(&:is_normal?).each do |r| -%>
+      <%= render 'role_checkbox', :r => r, :user => @user %>
+    <% end -%>
+  </tbody>
+</table>

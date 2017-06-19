@@ -1,0 +1,10 @@
+{
+  "errors": {
+    "codes": [
+      "invalid_params"
+    ],
+    "params": [
+      "bogo_attr"
+    ]
+  }
+}

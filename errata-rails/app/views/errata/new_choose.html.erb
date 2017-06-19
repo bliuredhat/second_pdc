@@ -1,0 +1,61 @@
+<%= javascript_include_tag "new_choose" %>
+<%= render 'filing_docs_link' %>
+<form method="GET">
+  <div class="clearfix pretty-form create-method">
+
+    <div id="new_choose">
+      <div>
+        <label>
+          <h3><input type="radio" name="create_choice" value="quarterly">Assisted Create<span class="fa fa-check"></span></h3>
+          <p>Create with default text and add eligible bugs automatically</p>
+          <p class="ps for-release">For release types: <span>Y-stream</span>,<span>FastTrack</span></p>
+          <div class="loading-ball">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <h3><input type="radio" name="create_choice" value="manual">Manual Create<span class="fa fa-check"></span></h3>
+          <p>Clone an existing advisory or create a brand new one, then add bugs manually</p>
+          <p class="ps for-release">For release types: <span>FastTrack</span>,<span>Z-stream</span>,<span>Async</span></p>
+          <div class="loading-ball">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <h3><input type="radio" name="create_choice" value="pdc_assisted">PDC Assisted Create<span class="fa fa-check"></span></h3>
+          <p>Create with default text and add eligible bugs automatically</p>
+          <div class="loading-ball">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <h3><input type="radio" name="create_choice" value="pdc_manual">PDC Manual Create<span class="fa fa-check"></span></h3>
+          <p>Clone an existing advisory or create a brand new one, then add bugs manually</p>
+          <p>Currently limited to Ceph release. See <%= link_to 'here', Settings.pdc_ceph_mvp_info_url, :target => '_blank' %>
+            for more information about PDC/Errata Tool integration and the Ceph Pilot.</p>
+          <div class="loading-ball">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+      </div>
+
+    </div>
+  </div>
+</form>

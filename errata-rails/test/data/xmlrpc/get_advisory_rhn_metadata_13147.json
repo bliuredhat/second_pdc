@@ -1,0 +1,197 @@
+{
+  "advisory_name": "RHSA-2012:0987",
+  "bugs": [
+
+  ],
+  "crossref": "",
+  "cve": "CVE-2012-2328",
+  "description": "The SBLIM (Standards-Based Linux Instrumentation for Manageability) CIM\n(Common Information Model) Client is a class library for Java applications\nthat provides access to CIM servers using the CIM Operations over HTTP\nprotocol defined by the DMTF (Distributed Management Task Force) standards.\n\nIt was found that the Java HashMap implementation was susceptible to\npredictable hash collisions. SBLIM uses HashMap when parsing XML inputs. A\nspecially-crafted CIM-XML message from a WBEM (Web-Based Enterprise\nManagement) server could cause a SBLIM client to use an excessive amount of\nCPU. Randomization has been added to help avoid collisions. (CVE-2012-2328)\n\nAll users of sblim-cim-client2 are advised to upgrade to these updated\npackages, which contain a backported patch to resolve this issue.\n",
+  "errata_files": [
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/SRPMS/sblim-cim-client2-2.1.3-2.el6.src.rpm",
+      "md5sum": "fake:cecb22af322a1999b65faa1dfd5",
+      "rhn_channel": [
+        "rhel-i386-server-6",
+        "rhel-i386-server-optional-6",
+        "rhel-ppc64-server-6",
+        "rhel-ppc64-server-optional-6",
+        "rhel-s390x-server-6",
+        "rhel-s390x-server-optional-6",
+        "rhel-x86_64-server-6",
+        "rhel-x86_64-server-6-rhevh",
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:8cea904c59e819bebf1da216767",
+      "rhn_channel": [
+        "rhel-i386-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:762ac325d3b4aad8b30fb3ba0d3",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/i386/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:daff2c1d2c842c24d00e1e5a0bc",
+      "rhn_channel": [
+        "rhel-i386-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:8cea904c59e819bebf1da216767",
+      "rhn_channel": [
+        "rhel-ppc64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:762ac325d3b4aad8b30fb3ba0d3",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/ppc64/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:daff2c1d2c842c24d00e1e5a0bc",
+      "rhn_channel": [
+        "rhel-ppc64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:8cea904c59e819bebf1da216767",
+      "rhn_channel": [
+        "rhel-s390x-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:762ac325d3b4aad8b30fb3ba0d3",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/s390x/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:daff2c1d2c842c24d00e1e5a0bc",
+      "rhn_channel": [
+        "rhel-s390x-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:8cea904c59e819bebf1da216767",
+      "rhn_channel": [
+        "rhel-x86_64-server-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:762ac325d3b4aad8b30fb3ba0d3",
+      "rhn_channel": [
+        "rhel-x86_64-server-6-rhevh",
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Server/en/os/x86_64/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:daff2c1d2c842c24d00e1e5a0bc",
+      "rhn_channel": [
+        "rhel-x86_64-server-6-rhevh",
+        "rhel-x86_64-server-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/SRPMS/sblim-cim-client2-2.1.3-2.el6.src.rpm",
+      "md5sum": "fake:cecb22af322a1999b65faa1dfd5",
+      "rhn_channel": [
+        "rhel-i386-workstation-6",
+        "rhel-i386-workstation-optional-6",
+        "rhel-x86_64-workstation-6",
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:8cea904c59e819bebf1da216767",
+      "rhn_channel": [
+        "rhel-i386-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:762ac325d3b4aad8b30fb3ba0d3",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/i386/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:daff2c1d2c842c24d00e1e5a0bc",
+      "rhn_channel": [
+        "rhel-i386-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/sblim-cim-client2-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:8cea904c59e819bebf1da216767",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/sblim-cim-client2-javadoc-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:762ac325d3b4aad8b30fb3ba0d3",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    },
+    {
+      "ftppath": "/ftp/pub/redhat/linux/enterprise/6Workstation/en/os/x86_64/sblim-cim-client2-manual-2.1.3-2.el6.noarch.rpm",
+      "md5sum": "fake:daff2c1d2c842c24d00e1e5a0bc",
+      "rhn_channel": [
+        "rhel-x86_64-workstation-optional-6"
+      ]
+    }
+  ],
+  "errata_type": "RHSA",
+  "erratum_deployed_by": "release-engineering@redhat.com",
+  "issue_date": "2012-06-20",
+  "jira_issues": [
+    {
+      "key": "MAITAI-1056",
+      "status": "Resolved",
+      "summary": "[RFE]Add \"Process Description\" to process search"
+    },
+    {
+      "key": "MAITAI-1190",
+      "status": "Resolved",
+      "summary": "Release Maitai 0.15"
+    },
+    {
+      "key": "MAITAI-1229",
+      "status": "Resolved",
+      "summary": "Send announcement and post on confluence"
+    }
+  ],
+  "keywords": "",
+  "multilib": null,
+  "obsoletes": "",
+  "oval": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<oval_definitions xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5\" xmlns:oval=\"http://oval.mitre.org/XMLSchema/oval-common-5\" xmlns:oval-def=\"http://oval.mitre.org/XMLSchema/oval-definitions-5\" xmlns:unix-def=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#unix\" xmlns:red-def=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux linux-definitions-schema.xsd\">\n  <generator>\n    <oval:product_name>Red Hat Errata System</oval:product_name>\n    <oval:schema_version>5.10.1</oval:schema_version>\n    <oval:timestamp>2014-10-10T00:00:00</oval:timestamp>\n  </generator>\n\n  <definitions>\n    <definition id=\"oval:com.redhat.rhsa:def:20120987\" version=\"605\" class=\"patch\">\n      <metadata>\n        <title>RHSA-2012:0987: sblim-cim-client2 security update (Low)</title>\n    <affected family=\"unix\">\n      <platform>Red Hat Enterprise Linux 6</platform>\n    </affected>\n    <reference source=\"RHSA\" ref_id=\"RHSA-2012:0987-04\" ref_url=\"https://access.redhat.com/errata/RHSA-2012:0987\"/>\n      <reference source=\"CVE\" ref_id=\"CVE-2012-2328\" ref_url=\"https://access.redhat.com/security/cve/CVE-2012-2328\"/>\n    <description>The SBLIM (Standards-Based Linux Instrumentation for Manageability) CIM\n(Common Information Model) Client is a class library for Java applications\nthat provides access to CIM servers using the CIM Operations over HTTP\nprotocol defined by the DMTF (Distributed Management Task Force) standards.\n\nIt was found that the Java HashMap implementation was susceptible to\npredictable hash collisions. SBLIM uses HashMap when parsing XML inputs. A\nspecially-crafted CIM-XML message from a WBEM (Web-Based Enterprise\nManagement) server could cause a SBLIM client to use an excessive amount of\nCPU. Randomization has been added to help avoid collisions. (CVE-2012-2328)\n\nAll users of sblim-cim-client2 are advised to upgrade to these updated\npackages, which contain a backported patch to resolve this issue.</description>\n\n<!-- ~~~~~~~~~~~~~~~~~~~~   advisory details   ~~~~~~~~~~~~~~~~~~~ -->\n\n<advisory from=\"secalert@redhat.com\">\n        <severity>Low</severity>\n        <rights>Copyright 2012 Red Hat, Inc.</rights>\n        <issued date=\"2012-06-20\"/>\n        <updated date=\"2012-06-20\"/>\n        <cve href=\"https://access.redhat.com/security/cve/CVE-2012-2328\">CVE-2012-2328</cve>\n        <jira href=\"https://issues.jboss.org/browse/MAITAI-1056\" id=\"MAITAI-1056\">[RFE]Add &quot;Process Description&quot; to process search</jira>\n        <jira href=\"https://issues.jboss.org/browse/MAITAI-1190\" id=\"MAITAI-1190\">Release Maitai 0.15</jira>\n        <jira href=\"https://issues.jboss.org/browse/MAITAI-1229\" id=\"MAITAI-1229\">Send announcement and post on confluence</jira>\n    <affected_cpe_list>\n        <cpe>cpe:/o:redhat:enterprise_linux:6</cpe>\n    </affected_cpe_list>\n</advisory>\n      </metadata>\n      <criteria operator=\"AND\">\n \n <criteria operator=\"OR\">\n <criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987001\" comment=\"Red Hat Enterprise Linux 6 Client is installed\" /><criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987002\" comment=\"Red Hat Enterprise Linux 6 Server is installed\" /><criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987003\" comment=\"Red Hat Enterprise Linux 6 Workstation is installed\" /><criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987004\" comment=\"Red Hat Enterprise Linux 6 ComputeNode is installed\" />\n \n</criteria>\n<criteria operator=\"OR\">\n \n <criteria operator=\"AND\">\n <criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987005\" comment=\"sblim-cim-client2 is earlier than 0:2.1.3-2.el6\" /><criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987006\" comment=\"sblim-cim-client2 is signed with Red Hat redhatrelease2 key\" />\n \n</criteria>\n<criteria operator=\"AND\">\n <criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987009\" comment=\"sblim-cim-client2-javadoc is earlier than 0:2.1.3-2.el6\" /><criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987010\" comment=\"sblim-cim-client2-javadoc is signed with Red Hat redhatrelease2 key\" />\n \n</criteria>\n<criteria operator=\"AND\">\n <criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987007\" comment=\"sblim-cim-client2-manual is earlier than 0:2.1.3-2.el6\" /><criterion test_ref=\"oval:com.redhat.rhsa:tst:20120987008\" comment=\"sblim-cim-client2-manual is signed with Red Hat redhatrelease2 key\" />\n \n</criteria>\n\n</criteria>\n\n</criteria>\n\n    </definition>\n  </definitions>\n  <tests>\n    <!-- ~~~~~~~~~~~~~~~~~~~~~   rpminfo tests   ~~~~~~~~~~~~~~~~~~~~~ -->\n    <rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987001\"  version=\"605\" comment=\"Red Hat Enterprise Linux 6 Client is installed\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987001\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987002\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987002\"  version=\"605\" comment=\"Red Hat Enterprise Linux 6 Server is installed\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987002\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987002\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987003\"  version=\"605\" comment=\"Red Hat Enterprise Linux 6 Workstation is installed\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987003\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987002\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987004\"  version=\"605\" comment=\"Red Hat Enterprise Linux 6 ComputeNode is installed\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987004\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987002\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987005\"  version=\"605\" comment=\"sblim-cim-client2 is earlier than 0:2.1.3-2.el6\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987005\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987003\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987006\"  version=\"605\" comment=\"sblim-cim-client2 is signed with Red Hat redhatrelease2 key\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987005\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987001\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987007\"  version=\"605\" comment=\"sblim-cim-client2-manual is earlier than 0:2.1.3-2.el6\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987006\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987003\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987008\"  version=\"605\" comment=\"sblim-cim-client2-manual is signed with Red Hat redhatrelease2 key\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987006\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987001\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987009\"  version=\"605\" comment=\"sblim-cim-client2-javadoc is earlier than 0:2.1.3-2.el6\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987007\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987003\" />\n</rpminfo_test>\n<rpminfo_test id=\"oval:com.redhat.rhsa:tst:20120987010\"  version=\"605\" comment=\"sblim-cim-client2-javadoc is signed with Red Hat redhatrelease2 key\" check=\"at least one\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <object object_ref=\"oval:com.redhat.rhsa:obj:20120987007\" />\n  <state state_ref=\"oval:com.redhat.rhsa:ste:20120987001\" />\n</rpminfo_test>\n\n  </tests>\n\n  <objects>\n    <!-- ~~~~~~~~~~~~~~~~~~~~   rpminfo objects   ~~~~~~~~~~~~~~~~~~~~ -->\n    <rpminfo_object id=\"oval:com.redhat.rhsa:obj:20120987001\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <name>redhat-release-client</name>\n</rpminfo_object>\n<rpminfo_object id=\"oval:com.redhat.rhsa:obj:20120987004\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <name>redhat-release-computenode</name>\n</rpminfo_object>\n<rpminfo_object id=\"oval:com.redhat.rhsa:obj:20120987002\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <name>redhat-release-server</name>\n</rpminfo_object>\n<rpminfo_object id=\"oval:com.redhat.rhsa:obj:20120987003\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <name>redhat-release-workstation</name>\n</rpminfo_object>\n<rpminfo_object id=\"oval:com.redhat.rhsa:obj:20120987005\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <name>sblim-cim-client2</name>\n</rpminfo_object>\n<rpminfo_object id=\"oval:com.redhat.rhsa:obj:20120987007\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <name>sblim-cim-client2-javadoc</name>\n</rpminfo_object>\n<rpminfo_object id=\"oval:com.redhat.rhsa:obj:20120987006\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <name>sblim-cim-client2-manual</name>\n</rpminfo_object>\n\n  </objects>\n  <states>\n    <!-- ~~~~~~~~~~~~~~~~~~~~   rpminfo states   ~~~~~~~~~~~~~~~~~~~~~ -->\n    <rpminfo_state id=\"oval:com.redhat.rhsa:ste:20120987001\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <signature_keyid  operation=\"equals\">199e2f91fd431d51</signature_keyid>\n</rpminfo_state>\n<rpminfo_state id=\"oval:com.redhat.rhsa:ste:20120987002\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <version  operation=\"pattern match\">^6[^\\d]</version>\n</rpminfo_state>\n<rpminfo_state id=\"oval:com.redhat.rhsa:ste:20120987003\"  version=\"605\" xmlns=\"http://oval.mitre.org/XMLSchema/oval-definitions-5#linux\">\n  <evr datatype=\"evr_string\" operation=\"less than\">0:2.1.3-2.el6</evr>\n</rpminfo_state>\n\n  </states>\n</oval_definitions>\n\n",
+  "product": "Red Hat Enterprise Linux",
+  "reboot_suggested": false,
+  "reference": "https://access.redhat.com/security/updates/classification/#low",
+  "revision": 5,
+  "security_impact": "Low",
+  "solution": "Before applying this update, make sure all previously-released errata\nrelevant to your system have been applied.\n\nThis update is available via the Red Hat Network. Details on how to\nuse the Red Hat Network to apply this update are available at\nhttps://access.redhat.com/knowledge/articles/11258\n",
+  "synopsis": "Low: sblim-cim-client2 security update",
+  "topic": "Updated sblim-cim-client2 packages that fix one security issue are now\navailable for Red Hat Enterprise Linux 6.\n\nThe Red Hat Security Response Team has rated this update as having low\nsecurity impact. A Common Vulnerability Scoring System (CVSS) base score,\nwhich gives a detailed severity rating, is available from the CVE link in\nthe References section.\n",
+  "update_date": "2012-06-20"
+}

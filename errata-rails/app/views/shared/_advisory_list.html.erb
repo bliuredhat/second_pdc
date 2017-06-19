@@ -1,0 +1,27 @@
+<% if errata_list.empty? %>
+  <div id=noresult_div><label class="small_label"><%= noresult_title %></label></div><br/>
+<% else
+  # Will show the first 20 only.
+  limit = 20
+  total = errata_list.count
+  total_text = (total > limit) ? "Showing #{limit} out of #{total}" : total
+%>
+  <div id="advisory_list_div" class="section_container section_container_collapsed">
+    <label class="small_label">
+      <%= link_to "#{title} (#{total_text}):", '#', :class => 'toggle-view-section' %>
+      <i class="icon-chevron-up uncollapsed-indicator"></i><i class="icon-chevron-down collapsed-indicator"></i>
+    </label>
+    <div><% if note.present? %>
+      <label class="small_label"><%= note %></label>
+    <% end %></div>
+    <div id="advisory_content_div" class="section_content">
+      <%= render("shared/bz_table",
+        :headers => ['Advisory', 'Release', 'Status', 'Description'],
+        :func => lambda do |errata|
+            [errata_link(errata), "#{errata.release.name}", "#{errata.status}", "#{errata.synopsis}"]
+          end,
+        :row_items => errata_list.sort_by(&:id).take(limit)
+      ) %>
+    </div>
+  </div>
+<% end %>

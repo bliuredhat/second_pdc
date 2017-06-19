@@ -1,0 +1,3 @@
+class DocsApprovalComment < Comment
+end
+

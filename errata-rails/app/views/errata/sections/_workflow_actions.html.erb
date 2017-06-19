@@ -1,0 +1,107 @@
+<%#
+  # Note: The workflow steps have 'actions' associated with them, so this
+  # is not the only place where the user gets to do stuff to an advisory.
+-%>
+
+<%#
+  *** Confusion alert. The #change_state_modal div and form is now in
+  *** info_actions so it is not included here.
+%>
+
+<%# --------------------------------------------------------------- -%>
+<%
+  # Some hackery to do with the 'hide complete workflow steps' functionality.
+  # There is a user preference to decide if they should start hidden or visible.
+  # I like to be lazy and use toggle where possible (instead of separate hide/show javascript).
+  hide_these_when_hidden = "#workflow_hide_complete, .workflow-step-status-ok, .workflow-step-status-minus, .workflow-step-name-close_advisory"
+%>
+
+<%# This takes care of the user preference... %>
+<style type="text/css"><%= hide_these_when_hidden %> { <%= hide_if_user_pref(:workflow_hide_complete) %> }</style>
+
+<div class="btn-group text-buttons" data-hidden-content='<%=hide_these_when_hidden%>'>
+  <%= link_to 'Hide complete', '#', :class=>'workflow-toggle-btn',:style=>hide_if_user_pref(:workflow_hide_complete) %>
+  <%= link_to 'Show all', '#', :class=>'workflow-toggle-btn', :style=>show_if_user_pref(:workflow_hide_complete) %>
+</div>
+
+<%# --------------------------------------------------------------- -%>
+<% if @errata.has_related_advisories? %>
+  <div class="modal modal-lg" id="related_advisories_by_package_modal" style="display:none;">
+    <div class="modal-body" style="text-align: center">
+      <h3>Loading Related Advisories</h3>
+      <%= wait_spinner 'wait_spinner', 'display: inline;' %>
+    </div>
+  </div>
+<% end %>
+
+<div class="btn-group">
+  <%= link_to 'Change State', "#", :class => 'btn open-modal', :data => { 'modal-id' => 'change_state_modal' } %>
+  <%= block_render 'shared/more_button_menu', :right => true do %>
+
+    <li class="<%= 'disabled' unless @errata.has_related_advisories? %>">
+    <%= link_to @errata.has_related_advisories? ? 'Related Advisories':'No Related Advisories', '#', :class => 'btn-related-advisory', :data => {'remote-url' => "#{url_for(:controller => :errata, :action => 'modal_related_advisories', :id=> @errata)}"} %>
+    </li>
+
+    <li><%= link_to "Edit Dependencies", { :controller => :errata, :action => :edit_depends_on, :id => @errata } %></li>
+
+    <% if @errata.push_jobs.any? %>
+      <li><%= link_to "Push Job History", { :controller => 'push', :action => 'push_history_for_errata', :id => @errata } %></li>
+    <% end %>
+
+    <% if @errata.shipped_live? && @user.in_role?('pusherrata', 'secalert') %>
+      <% if @errata.can_have_cve? %>
+        <li><%= link_to "Fix CVE Names", { :controller => :security, :action => :fix_cve_names, :id => @errata } %></li>
+      <% end %>
+
+      <% if @errata.supports_oval? %>
+        <li><%= link_to "Regenerate OVAL", { :controller => :security, :action => :regenerate_oval, :id => @errata },
+          :confirm => 'Are you sure you want to regenerate OVAL?', :method => :post %></li>
+      <% end %>
+
+      <% if @errata.is_security_related? %>
+        <li><%= link_to "Push XML to secalert", { :controller => :security, :action => :push_xml_to_secalert, :id => @errata },
+          :confirm => 'Are you sure you want to push XML to secalert?', :method => :post %></li>
+      <% end %>
+
+      <% if @errata.can_have_text_only_cpe? %>
+        <li><%= link_to "Fix CPE Text", { :controller => :security, :action => :fix_cpe, :id => @errata } %></li>
+      <% end %>
+    <% end %>
+
+    <% if @errata.is_active? %>
+      <% if @errata.info_requested? %>
+        <% if @errata.can_clear_info_request?(@user) %>
+          <li><%= link_to "Clear Info Request", :action => :clear_info_request, :controller => :info_request, :id => @errata %></li>
+        <% end %>
+      <% elsif !@errata.is_blocked? %>
+        <li><%= link_to "Request Info", :action => :request_info, :controller => :info_request, :id => @errata %></li>
+      <% end %>
+
+      <% if @errata.is_blocked? %>
+        <li><%= link_to "Unblock Advisory", :action => :unblock_errata, :controller => :blocking_issue, :id => @errata %></li>
+      <% else %>
+        <li><%= link_to "Block Advisory", :action => :block_errata, :controller => :blocking_issue, :id => @errata %></li>
+      <% end %>
+
+      <% if @errata.security_approved? && @errata.status_is?(:PUSH_READY) && @user.in_role?('secalert') %>
+        <li><%= link_to "Request RCM Push", { :controller => :security, :action => :request_rcm_push, :id => @errata },
+          :confirm => 'Are you sure you want to request RCM to push this advisory?', :method => :post %></li>
+      <% end %>
+    <% end %>
+
+    <% if !@errata.has_live_id_set? && @user.in_role?('secalert', 'admin') %>
+      <li><%= link_to "Assign Live Name <span class='small'>(#{live_advisory_name(@errata)})</span>".html_safe,
+        {:controller => :errata, :action => :set_live_advisory_name, :id => @errata} %></li>
+    <% end %>
+
+    <% if @errata.is_active? %>
+      <li class="divider"></li>
+      <li><%= link_to('<i class="icon-trash"></i> Drop Advisory'.html_safe,
+        { :controller => :errata, :action => :drop_errata, :id => @errata }) %></li>
+    <% end %>
+
+    <li class="divider"></li>
+    <li><%= link_to "View Activity Log", :action => 'show_activity', :id => @errata %></li>
+
+  <% end %>
+</div>

@@ -1,0 +1,6 @@
+### We give 422 if requesting text-only channels/repos for the wrong kind
+### of advisory, as the request cannot be processed
+# HTTP 422
+{
+  "error": "RHSA-2011:0451 is not a text-only advisory"
+}

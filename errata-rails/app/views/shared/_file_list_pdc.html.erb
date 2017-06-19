@@ -1,0 +1,16 @@
+<% if @bb_ids.any? %>
+  <%= render "shared/no_product_listings_warning" %>
+  <h2><%= pluralize(@bb_ids.size, 'Brew Build') %></h2>
+  <% @version_builds.keys.sort_by(&:pdc_id).each do |pr| %>
+    <% (valid_mappings, invalid_mappings) = @version_builds[pr].partition(&:rpm_build_has_valid_listing?) %>
+    <h2>Builds for <%= pr.pdc_id %></h2>
+    <%
+       # Mappings with empty product listings show first
+       [invalid_mappings, valid_mappings].each do |mappings_by_pdc_release|
+    %>
+      <%= render "shared/file_list_table_pdc",
+            :mappings_by_pdc_release => mappings_by_pdc_release,
+            :pr => pr  %>
+    <% end %>
+  <% end %>
+<% end %>

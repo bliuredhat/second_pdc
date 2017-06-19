@@ -1,0 +1,97 @@
+=====================================================================
+                   Red Hat Bug Fix Advisory
+
+Synopsis:          xorg-x11-drv-qxl bug fix update
+Advisory ID:       RHBA-2011:11152-00
+Product:           Red Hat Enterprise Linux
+Advisory URL:      https://access.redhat.com/errata/RHBA-2011:11152
+Issue date:        2011-04-19
+=====================================================================
+
+1. Summary:
+
+An updated xorg-x11-drv-qxl package that fixes various bugs is now
+available.
+
+2. Relevant releases/architectures:
+
+Red Hat Enterprise Linux (v. 5 server) - i386, x86_64
+Red Hat Enterprise Linux Desktop (v. 5 client) - i386, x86_64
+
+3. Description:
+
+xorg-x11-qxl-drv is an X11 video driver for the QEMU QXL video accelerator.
+This driver makes it possible to use Red Hat Enterprise Linux 5 as a guest
+operating system under KVM and QEMU, using the SPICE protocol.
+
+This updated xorg-x11-drv-qxl package includes fixes for the following
+bugs:
+
+* When using the xql driver, only a limited number of resolution choices
+were available for use inside the guest, none of which exceeded 1024x768 in
+size unless the xorg.conf configuration file was manually edited. This
+update ensures that larger resolutions are available for guests with
+appropriate hardware without needing to manually change xorg.conf.
+(BZ#581841)
+
+* When using the qxl driver, after connecting to a virtual guest over the
+SPICE protocol and logging into a desktop session from the GDM display
+manager, attempting to switch to a virtual console using a key combination
+caused the X server to crash, and GDM to respawn. This update fixes this
+issue so that, in the aforementioned situation, switching to a virtual
+console and back to the graphical desktop works as expected. (BZ#585141)
+
+All users of KVM-based virtualization are advised to upgrade to this
+updated package, which fixes these issues.
+
+4. Solution:
+
+Before applying this update, make sure all previously-released errata
+relevant to your system have been applied.
+
+This update is available via the Red Hat Network. Details on how to
+use the Red Hat Network to apply this update are available at
+http://kbase.redhat.com/faq/docs/DOC-11259
+
+5. Bugs fixed (https://bugzilla.redhat.com/):
+
+581841 - Screen size limited to 1024x768 with default qxl configuration
+
+6. Package List:
+
+Red Hat Enterprise Linux Desktop (v. 5 client):
+
+Source:
+xorg-x11-drv-qxl-0.0.12-2.el5.src.rpm
+
+i386:
+xorg-x11-drv-qxl-0.0.12-2.el5.i386.rpm
+xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.i386.rpm
+
+x86_64:
+xorg-x11-drv-qxl-0.0.12-2.el5.x86_64.rpm
+xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.x86_64.rpm
+
+Red Hat Enterprise Linux (v. 5 server):
+
+Source:
+xorg-x11-drv-qxl-0.0.12-2.el5.src.rpm
+
+i386:
+xorg-x11-drv-qxl-0.0.12-2.el5.i386.rpm
+xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.i386.rpm
+
+x86_64:
+xorg-x11-drv-qxl-0.0.12-2.el5.x86_64.rpm
+xorg-x11-drv-qxl-debuginfo-0.0.12-2.el5.x86_64.rpm
+
+These packages are GPG signed by Red Hat for security.  Our key and
+details on how to verify the signature are available from
+https://access.redhat.com/security/team/key/
+
+7. Contact:
+
+The Red Hat security contact is <secalert@redhat.com>. More contact
+details at https://access.redhat.com/security/team/contact/
+
+Copyright 2011 Red Hat, Inc.

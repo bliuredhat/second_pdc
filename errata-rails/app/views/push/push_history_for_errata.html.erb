@@ -1,0 +1,23 @@
+<%= page_title_h1 %>
+<% row_func = lambda do |job|
+   [link_to(job.id, :action => :push_results, :id => job) ,
+   "#{job.push_type.to_s}",
+   push_job_options_for_display(job),
+   "#{job.pushed_by.to_s}",
+   "#{long_date(job.created_at)}",
+   "#{long_date(job.updated_at)}",
+   "#{job.status}"]
+end
+ %>
+<%= render(:partial => "shared/bz_table", :locals =>
+{
+:headers => ['Job ID', 'Type', 'Options', 'Pushed By', 'Push Started',
+             'Push Finished', 'Status'],
+:func => row_func,
+:row_items => @push_jobs
+}) %>
+
+
+<p>
+  <br/><br/><%= back_to_info(@errata) %>
+</p>

@@ -1,0 +1,47 @@
+<h1>RPMDiff Control Center</h1>
+
+<h2>Errata Queue</h2>
+
+<h3>In Progress Queue</h3>
+<% if @inprogress.length == 0 %>
+  <p>None In Progress</p>
+<% else %>
+ <table class="buglist" cellspacing="0" cellpadding="0" width="90%">
+   <%= rpmdiff_control_header %>
+   <% @inprogress.each do |run| %>
+     <%=  rpmdiff_control_row(run) %>
+   <% end %>
+ </table>
+<% end %>
+<br/>
+
+<h3>Pending Queue</h3>
+<% if @pending.length == 0 %>
+  <p>None Pending</p>
+<% else %>
+  <table class="buglist" cellspacing="0" cellpadding="0" width="90%">
+    <%= rpmdiff_control_header %>
+    <% @pending.each do |run| %>
+      <%=  rpmdiff_control_row(run) %>
+    <% end %>
+  </table>
+<% end %>
+<br/>
+
+<h3>Last Tests</h3>
+<table class="buglist" cellspacing="0" cellpadding="0" width="90%">
+<%= rpmdiff_control_header %>
+<% @lasttests.each do |run| %>
+<%=  rpmdiff_control_row(run) %>
+<% end %>
+</table>
+<br/>
+
+<h3>Last Failures</h3>
+<table class="buglist" cellspacing="0" cellpadding="0" width="90%">
+<%= rpmdiff_control_header %>
+<% @lastfails.each do |run| %>
+<%=  rpmdiff_control_row(run) %>
+<% end %>
+</table>
+<br/>

@@ -1,0 +1,22 @@
+<div class="btn-group text-buttons" id="btn-group-comment">
+  <%# See errata_view.js for these js functions %>
+  <% if !@errata.state_indices.empty? %>
+    <%= link_to("Collapse non-current", '#', :class=>'btn-collapse-noncurrent') %>
+  <% end %>
+  <%= link_to("Collapse all", '#', :class=>'btn-collapse-all') %>
+  <%= link_to("Expand all", '#', :class=>'btn-expand-all') %>
+</div>
+<div class="btn-group">
+  <%= link_to("Add Comment", '#', :class=>'btn btn-add-comment') %>
+  <%= block_render 'shared/more_button_menu', :right => true do %>
+    <%# Since these require a page refresh now, let's move them under the 'More' menu...
+        Hopefully users will set their preference and be mostly happy to stick with that preference %>
+    <% if @comments_newest_first %>
+      <li><%= link_to("Reverse order (oldest first)", params.merge(:cs=>'oldest',:anchor=>'comments')) %></li>
+    <% else %>
+      <li><%= link_to("Reverse order (newest first)", params.merge(:cs=>'newest',:anchor=>'comments')) %></li>
+    <% end %>
+    <%# Give a handy hint about where you can set your prefered sort order %>
+    <li><%= link_to("Set default preferences", {:controller=>:user, :action=>:preferences}) %></li>
+  <% end %>
+</div>

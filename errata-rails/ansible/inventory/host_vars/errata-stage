@@ -1,0 +1,5 @@
+---
+ansible_ssh_host: errata-stage.app.eng.bos.redhat.com
+
+rails_env: staging
+site_url: https://errata-stage.app.eng.bos.redhat.com/errata

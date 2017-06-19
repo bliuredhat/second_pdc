@@ -1,0 +1,17 @@
+---
+- name: Fetch bug list from Teiid using psql
+  # Note that you need a valid Kerberos ticket for this to work
+  register: bug_list
+  local_action:
+    module: shell
+    args: echo "{{ item }} {{ from_et_bugs }}" | {{ psql_command }}
+  with_items:
+    # Doing two queries instead of one since I don't know
+    # a good way to split up the rows
+    - "{{ select_bug_id }}"
+    - "{{ select_bug_id_and_name }}"
+
+- name: Prepare bugs link and bugs list for use in notification email
+  set_fact:
+    bugs_link: "{{ bug_list_url_prefix }}{{ bug_list.results[0].stdout_lines | join('%2C') }}"
+    bugs_list: "{{ bug_list.results[1].stdout }}"

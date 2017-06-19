@@ -1,0 +1,11 @@
+# HTTP 400
+{
+  "errors": {
+    "login_name": [
+      "can't be blank"
+    ],
+    "realname": [
+      "can't be blank"
+    ]
+  }
+}

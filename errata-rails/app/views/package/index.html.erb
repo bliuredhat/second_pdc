@@ -1,0 +1,13 @@
+<br />
+<%= form_for(:pkg) do |f| %>
+
+  Package Name:
+  <%= f.text_field(
+      :name,
+      :class => "et-ui-autocomplete",
+      "data-autocomplete-url" => packages_url,
+      "data-autocomplete-value" => 'name') %>
+  </p>
+
+  <%= submit_tag 'Find', :class=>'btn btn-primary' %>
+<% end %>

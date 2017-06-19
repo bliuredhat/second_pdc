@@ -1,0 +1,37 @@
+<%
+  # Do grouping serially since I don't know how to paginate a grouped hash that we could get from @errata.group_by { |e| ... }
+  # See some more commentary in errata_filter.
+  # Note: It means that groups can be split across pages..
+  #
+  # Locals:
+  #  errata
+  #  colspan
+  #
+  if @errata_filter.is_grouped?
+    group_by_info = @errata_filter.group_by
+    current_group_val = errata.send(group_by_info[:group_by])
+
+    if @_previous_group_val != current_group_val
+
+      # Render a heading for the group
+      %><tr><td class="group_by_header" colspan="<%= colspan %>"><%
+        # special handing for state to make it prettier
+        if group_by_info[:label] == 'State'
+          %><div style='margin-bottom:4px;font-size:120%'><%=raw state_display(current_group_val) %></div><%
+        elsif current_group_val.nil?
+          %><span class="superlight" style="font-weight:normal;font-size:55%;">No <%= group_by_info[:short_label] || group_by_info[:label] %></span><%
+        else
+          %><%= current_group_val.send(group_by_info[:group_label]) %>
+          <span class="superlight" style="font-weight:normal;font-size:55%;"><%= group_by_info[:short_label] || group_by_info[:label] %></span><%
+        end
+      %></td></tr><%
+      reset_cycle('odd_even') # For cosmetic reasons only. Makes it look nicer.
+
+    end
+
+    # (Using an @ var so that @_previous_group_val is available in list_grouped_warning_msg)
+    @_previous_group_val = current_group_val
+
+  end
+%>
+

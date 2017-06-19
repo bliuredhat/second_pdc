@@ -1,0 +1,8 @@
+# HTTP 400
+{
+  "errors": {
+    "flags": [
+      "conflicting flags requested for build spice-client-msi-3.4-4, product version RHEL-6-RHEV-S-3.4, file type rpm"
+    ]
+  }
+}

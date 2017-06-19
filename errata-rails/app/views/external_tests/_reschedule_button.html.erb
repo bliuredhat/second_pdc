@@ -1,0 +1,3 @@
+<%= link_to('Reschedule test',
+      {:action=>:reschedule, :id=>test_run.errata, :test_run_id=>test_run},
+      :method=>:post, :class=>('btn' if defined?(btn)), :confirm=>"Are you sure you want to reschedule this test run?") -%>

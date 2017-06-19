@@ -1,0 +1,16 @@
+<%= render 'tabs_and_common_header' %>
+
+<h2>Draft Release Notes Docbook XML</h2>
+
+<div><%= link_to 'Select All', "#", :class => 'btn-select-all' %></div>
+
+<%= text_area_tag(
+    'publican_xml_snippet',
+    render(:partial => 'draft_release_notes_xml'),
+    :style => 'width:100%;height:400px;font-size:95%;',
+    :readonly => 'readonly',
+    :wrap  => 'off',
+    :class => 'draft-release-notes'
+) %>
+
+<p>(You should be able to copy/paste this xml into a docbook file).</p>

@@ -1,0 +1,2 @@
+class PrimaryChannel < Channel
+end
